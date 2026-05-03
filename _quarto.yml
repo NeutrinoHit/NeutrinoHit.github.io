@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "NeutrinoHit"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Главная
+      - href: books.qmd
+        text: Книги
+      - href: lectures.qmd
+        text: Лекции
+      - href: scipop.qmd
+        text: Научпоп
+      - href: animations.qmd
+        text: Анимации
+      - href: software.qmd
+        text: Код
+
+format:
+  html:
+    theme: cosmo
+    toc: true
