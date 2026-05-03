@@ -1,0 +1,32 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.nh-card {
+  display: block;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid #dee2e6;
+  border-radius: 14px;
+  text-decoration: none;
+  color: inherit;
+  background: #ffffff;
+}
+
+.nh-card:hover {
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10);
+  transform: translateY(-1px);
+}
+
+.nh-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+}
+
+.nh-card p {
+  margin-bottom: 0;
+}
