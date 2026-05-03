@@ -28,3 +28,4 @@ format:
     theme: cosmo
     toc: true
     lang: ru
+    css: styles.css
