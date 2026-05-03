@@ -3,6 +3,8 @@ project:
 
 website:
   title: "NeutrinoHit"
+  site-url: "https://neutrinohit.github.io/"
+  repo-url: "https://github.com/NeutrinoHit/NeutrinoHit.github.io"
   navbar:
     left:
       - href: index.qmd
@@ -17,8 +19,12 @@ website:
         text: Анимации
       - href: software.qmd
         text: Код
+  page-footer:
+    left: "© NeutrinoHit"
+    right: "Built with Quarto"
 
 format:
   html:
     theme: cosmo
     toc: true
+    lang: ru

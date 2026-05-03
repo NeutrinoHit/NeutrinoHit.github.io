@@ -131,10 +131,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#книги" id="toc-книги" class="nav-link active" data-scroll-target="#книги">Книги</a>
-  <ul class="collapse">
-  <li><a href="#квантовая-теория-поля-для-экспериментаторов-и-не-только" id="toc-квантовая-теория-поля-для-экспериментаторов-и-не-только" class="nav-link" data-scroll-target="#квантовая-теория-поля-для-экспериментаторов-и-не-только">Квантовая теория поля для экспериментаторов и не только</a></li>
-  </ul></li>
+  <li><a href="#квантовая-теория-поля-для-экспериментаторов-и-не-только" id="toc-квантовая-теория-поля-для-экспериментаторов-и-не-только" class="nav-link active" data-scroll-target="#квантовая-теория-поля-для-экспериментаторов-и-не-только">Квантовая теория поля для экспериментаторов и не только</a></li>
   </ul>
 </nav>
     </div>
@@ -160,14 +157,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="книги" class="level1">
-<h1>Книги</h1>
 <section id="квантовая-теория-поля-для-экспериментаторов-и-не-только" class="level2">
 <h2 class="anchored" data-anchor-id="квантовая-теория-поля-для-экспериментаторов-и-не-только">Квантовая теория поля для экспериментаторов и не только</h2>
 <p>Материалы будут добавлены позже.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -244,7 +238,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/NeutrinoHit\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
