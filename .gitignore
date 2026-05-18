@@ -3,3 +3,7 @@
 .DS_Store
 
 **/*.quarto_ipynb
+__pycache__/
+*.pyc
+/photo-studio.html
+/photo-studio_files/

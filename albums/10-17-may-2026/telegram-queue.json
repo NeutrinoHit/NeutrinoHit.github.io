@@ -1,0 +1,24 @@
+{
+  "album": "10-17-may-2026",
+  "generatedAt": "2026-05-18T16:53:23.410Z",
+  "batches": [
+    {
+      "batch": 1,
+      "totalBatches": 1,
+      "method": "sendMediaGroup",
+      "caption": "10-17 мая-2026\n\n2026-05-18\n\nhttps://neutrinohit.github.io/albums/10-17-may-2026/",
+      "photos": [
+        "photos/01-image-20260515123123-425-177.jpg",
+        "photos/02-image-20260515123220-426-177.jpg",
+        "photos/03-img-5737.jpeg",
+        "photos/04-img-5729.jpeg",
+        "photos/05-img-5726.jpeg",
+        "photos/06-img-5712.jpeg",
+        "photos/07-img-5687.jpeg",
+        "photos/08-img-5684.jpeg",
+        "photos/09-img-5707.jpeg",
+        "photos/10-img-20260511-102613.jpg"
+      ]
+    }
+  ]
+}

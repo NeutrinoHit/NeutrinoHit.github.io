@@ -1,5 +1,9 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "albums/**/*.qmd"
+    - "!photo-studio.qmd"
 
 website:
   title: "NeutrinoHit"
@@ -13,6 +17,8 @@ website:
         text: Книги
       - href: lectures.qmd
         text: Лекции
+      - href: photos.qmd
+        text: Фото
       - href: scipop.qmd
         text: Научпоп
       - href: animations.qmd
@@ -29,3 +35,4 @@ format:
     toc: true
     lang: ru
     css: styles.css
+    include-after-body: album-lightbox.html
