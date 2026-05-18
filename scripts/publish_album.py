@@ -99,6 +99,7 @@ def album_caption(
     title = str(album.get("title") or "Фотоальбом").strip()
     date = str(album.get("date") or "").strip()
     place = str(album.get("place") or "").strip()
+    post_text = str(album.get("postText") or album.get("telegramText") or "").strip()
     summary = str(album.get("summary") or "").strip()
     url = site_url or str(album.get("siteUrl") or "").strip()
 
@@ -106,8 +107,10 @@ def album_caption(
         lines.append(title)
     if date or place:
         lines.append(" · ".join(part for part in (date, place) if part))
-    if batch_index == 0 and summary:
-        lines.append(summary)
+    if batch_index == 0:
+        body = post_text or summary
+        if body:
+            lines.append(body)
     if total_batches > 1:
         lines.append(f"Часть {batch_index + 1}/{total_batches}")
     if url:
