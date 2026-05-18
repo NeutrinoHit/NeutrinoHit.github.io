@@ -43,6 +43,10 @@ format:
         <textarea id="albumSummary"></textarea>
       </div>
       <div class="studio-field">
+        <label for="postText">Текст поста</label>
+        <textarea id="postText" placeholder="Текст, который будет показан на сайте и уйдет в Telegram"></textarea>
+      </div>
+      <div class="studio-field">
         <label for="siteBase">Адрес сайта</label>
         <input id="siteBase" type="url" value="https://neutrinohit.github.io/" autocomplete="off">
       </div>
@@ -111,6 +115,7 @@ format:
     place: document.getElementById("albumPlace"),
     author: document.getElementById("albumAuthor"),
     summary: document.getElementById("albumSummary"),
+    postText: document.getElementById("postText"),
     siteBase: document.getElementById("siteBase"),
     input: document.getElementById("photoInput"),
     dropzone: document.getElementById("dropzone"),
@@ -189,6 +194,7 @@ format:
     el.place.value = "";
     el.author.value = "NeutrinoHit";
     el.summary.value = "";
+    el.postText.value = "";
     render();
     setStatus("Создан пустой альбом", "ok");
   }
@@ -226,6 +232,7 @@ format:
       el.place.value = data.place || "";
       el.author.value = data.author || "NeutrinoHit";
       el.summary.value = data.summary || "";
+      el.postText.value = data.postText || data.telegramText || data.summary || "";
 
       const loadedPhotos = [];
       for (const item of data.photos) {
@@ -349,10 +356,10 @@ format:
     const title = el.title.value.trim();
     const date = el.date.value;
     const place = el.place.value.trim();
-    const summary = el.summary.value.trim();
+    const postText = el.postText.value.trim();
     if (title) lines.push(title);
     if (date || place) lines.push([date, place].filter(Boolean).join(" · "));
-    if (batchIndex === 0 && summary) lines.push(summary);
+    if (batchIndex === 0 && postText) lines.push(postText);
     if (totalBatches > 1) lines.push("Часть " + (batchIndex + 1) + "/" + totalBatches);
     lines.push(albumUrl());
     return lines.filter(Boolean).join("\n\n");
@@ -361,6 +368,7 @@ format:
   function buildSocialCopy() {
     const title = el.title.value.trim() || "Фотоальбом";
     const summary = el.summary.value.trim();
+    const postText = el.postText.value.trim();
     const placeDate = [el.date.value, el.place.value.trim()].filter(Boolean).join(" · ");
     const url = albumUrl();
     const selected = [];
@@ -372,7 +380,7 @@ format:
       title,
       placeDate,
       "",
-      summary,
+      postText || summary,
       "",
       url,
       "",
@@ -390,6 +398,7 @@ format:
       place: el.place.value.trim() || null,
       author: el.author.value.trim() || "NeutrinoHit",
       summary: el.summary.value.trim() || "",
+      postText: el.postText.value.trim() || "",
       siteUrl: albumUrl(),
       photos: state.photos.map((photo, index) => ({
         file: "photos/" + outputFileName(photo, index),
@@ -434,6 +443,11 @@ format:
     if (data.summary) {
       lines.push(data.summary, "");
     }
+    if (data.postText) {
+      lines.push('<div class="album-post-text">');
+      lines.push(...escapeHtml(data.postText).split("\n").map((line) => line ? "<p>" + line + "</p>" : ""));
+      lines.push("</div>", "");
+    }
     lines.push(
       '<div class="published-album">'
     );
@@ -453,6 +467,8 @@ format:
       "",
       data.summary,
       "",
+      data.postText,
+      "",
       data.siteUrl,
       "",
       "## Telegram",
@@ -461,11 +477,11 @@ format:
       "",
       "## VK",
       "",
-      data.title + "\n\n" + data.summary + "\n\n" + data.siteUrl,
+      data.title + "\n\n" + (data.postText || data.summary) + "\n\n" + data.siteUrl,
       "",
       "## Instagram",
       "",
-      data.title + "\n\n" + data.summary + "\n\n" + "#NeutrinoHit"
+      data.title + "\n\n" + (data.postText || data.summary) + "\n\n" + "#NeutrinoHit"
     ];
     return sections.filter((line, index, arr) => line || arr[index - 1]).join("\n");
   }
@@ -666,7 +682,7 @@ format:
     el.slug.value = slugify(el.slug.value);
     render();
   });
-  [el.date, el.place, el.author, el.summary, el.siteBase, el.platformTelegram, el.platformVk, el.platformInstagram, el.platformWeb].forEach((input) => {
+  [el.date, el.place, el.author, el.summary, el.postText, el.siteBase, el.platformTelegram, el.platformVk, el.platformInstagram, el.platformWeb].forEach((input) => {
     input.addEventListener("input", render);
     input.addEventListener("change", render);
   });

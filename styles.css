@@ -370,6 +370,17 @@
   margin-top: 1.5rem;
 }
 
+.album-post-text {
+  max-width: 760px;
+  margin: 1.25rem 0 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.album-post-text p {
+  margin: 0 0 0.8rem;
+}
+
 .published-photo {
   margin: 0;
   border: 1px solid #d7dde2;
