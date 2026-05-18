@@ -1,0 +1,39 @@
+---
+title: "10-17 мая-2026"
+date: "2026-05-18"
+---
+
+<div class="published-album">
+<figure class="published-photo">
+<img src="photos/01-image-20260515123123-425-177.jpg" alt="10-17 мая-2026, фото 1" loading="lazy">
+<figcaption>Лекция &quot;Зачем нужны нейтринные телескопы?&quot;. Астрофест 2026</figcaption>
+</figure>
+<figure class="published-photo">
+<img src="photos/02-image-20260515123220-426-177.jpg" alt="10-17 мая-2026, фото 3" loading="lazy">
+<figcaption>Лекция &quot;Зачем нужны нейтринные телескопы?&quot;. Астрофест 2026</figcaption>
+</figure>
+<figure class="published-photo">
+<img src="photos/03-img-5737.jpeg" alt="10-17 мая-2026, фото 3" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="photos/04-img-5729.jpeg" alt="10-17 мая-2026, фото 4" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="photos/05-img-5726.jpeg" alt="10-17 мая-2026, фото 5" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="photos/06-img-5712.jpeg" alt="10-17 мая-2026, фото 6" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="photos/07-img-5687.jpeg" alt="10-17 мая-2026, фото 7" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="photos/08-img-5684.jpeg" alt="10-17 мая-2026, фото 8" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="photos/09-img-5707.jpeg" alt="10-17 мая-2026, фото 9" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="photos/10-img-20260511-102613.jpg" alt="10-17 мая-2026, фото 10" loading="lazy">
+</figure>
+</div>

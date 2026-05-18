@@ -1,0 +1,701 @@
+---
+title: "Photo Studio"
+toc: false
+page-layout: full
+format:
+  html:
+    theme: cosmo
+    lang: ru
+    css: styles.css
+---
+
+```{=html}
+<div class="album-shell" id="photoStudio">
+  <section class="studio-panel">
+    <h2>Альбом</h2>
+    <div class="studio-grid">
+      <div class="studio-field">
+        <label for="albumTitle">Название</label>
+        <input id="albumTitle" type="text" value="Новый фотоальбом" autocomplete="off">
+      </div>
+      <div class="studio-inline">
+        <div class="studio-field">
+          <label for="albumSlug">Slug</label>
+          <input id="albumSlug" type="text" value="new-photo-album" autocomplete="off">
+        </div>
+        <div class="studio-field">
+          <label for="albumDate">Дата</label>
+          <input id="albumDate" type="date">
+        </div>
+      </div>
+      <div class="studio-inline">
+        <div class="studio-field">
+          <label for="albumPlace">Место</label>
+          <input id="albumPlace" type="text" autocomplete="off">
+        </div>
+        <div class="studio-field">
+          <label for="albumAuthor">Автор</label>
+          <input id="albumAuthor" type="text" value="NeutrinoHit" autocomplete="off">
+        </div>
+      </div>
+      <div class="studio-field">
+        <label for="albumSummary">Короткое описание</label>
+        <textarea id="albumSummary"></textarea>
+      </div>
+      <div class="studio-field">
+        <label for="siteBase">Адрес сайта</label>
+        <input id="siteBase" type="url" value="https://neutrinohit.github.io/" autocomplete="off">
+      </div>
+      <div class="studio-toolbar">
+        <button type="button" id="openFolder">Открыть папку</button>
+        <button type="button" id="newAlbum">Новый альбом</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="studio-panel">
+    <h2>Фотографии</h2>
+    <div class="dropzone" id="dropzone">
+      <input id="photoInput" type="file" accept="image/*" multiple>
+    </div>
+    <div class="photo-stats" aria-live="polite">
+      <div class="stat-cell"><strong id="statCount">0</strong><span>фото</span></div>
+      <div class="stat-cell"><strong id="statSize">0 MB</strong><span>общий размер</span></div>
+      <div class="stat-cell"><strong id="statBatches">0</strong><span>постов TG</span></div>
+    </div>
+    <div class="studio-toolbar">
+      <button type="button" id="sortName">Сортировать</button>
+      <button type="button" id="fillCaptions">Подписи</button>
+      <button type="button" id="clearPhotos" class="danger">Очистить</button>
+    </div>
+    <div class="photo-list" id="photoList"></div>
+  </section>
+
+  <section class="studio-panel publish-column">
+    <h2>Публикация</h2>
+    <div class="platform-grid">
+      <label class="platform-toggle"><input type="checkbox" id="platformTelegram" checked> Telegram</label>
+      <label class="platform-toggle"><input type="checkbox" id="platformVk" checked> VK</label>
+      <label class="platform-toggle"><input type="checkbox" id="platformInstagram"> Instagram</label>
+      <label class="platform-toggle"><input type="checkbox" id="platformWeb" checked> Web</label>
+    </div>
+    <div class="publish-preview" id="publishPreview"></div>
+    <textarea id="socialCopy" class="social-copy" readonly></textarea>
+    <div class="studio-toolbar">
+      <button type="button" id="saveFolder" class="primary">Сохранить папку</button>
+      <button type="button" id="downloadJson">JSON</button>
+      <button type="button" id="downloadQmd">QMD</button>
+      <button type="button" id="copySocial">Копировать</button>
+    </div>
+    <div id="studioStatus" class="studio-status" aria-live="polite"></div>
+  </section>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  const MAX_TELEGRAM_CAPTION = 1024;
+  const TELEGRAM_BATCH = 10;
+  const state = {
+    photos: [],
+    draggingId: null,
+    slugTouched: false,
+    albumDirectoryHandle: null
+  };
+
+  const el = {
+    title: document.getElementById("albumTitle"),
+    slug: document.getElementById("albumSlug"),
+    date: document.getElementById("albumDate"),
+    place: document.getElementById("albumPlace"),
+    author: document.getElementById("albumAuthor"),
+    summary: document.getElementById("albumSummary"),
+    siteBase: document.getElementById("siteBase"),
+    input: document.getElementById("photoInput"),
+    dropzone: document.getElementById("dropzone"),
+    list: document.getElementById("photoList"),
+    count: document.getElementById("statCount"),
+    size: document.getElementById("statSize"),
+    batches: document.getElementById("statBatches"),
+    preview: document.getElementById("publishPreview"),
+    socialCopy: document.getElementById("socialCopy"),
+    status: document.getElementById("studioStatus"),
+    platformTelegram: document.getElementById("platformTelegram"),
+    platformVk: document.getElementById("platformVk"),
+    platformInstagram: document.getElementById("platformInstagram"),
+    platformWeb: document.getElementById("platformWeb")
+  };
+
+  const translit = {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "e", "ж": "zh",
+    "з": "z", "и": "i", "й": "y", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ф": "f", "х": "h", "ц": "ts",
+    "ч": "ch", "ш": "sh", "щ": "sch", "ъ": "", "ы": "y", "ь": "", "э": "e", "ю": "yu", "я": "ya"
+  };
+
+  function slugify(value) {
+    const source = String(value || "").trim().toLowerCase();
+    const latin = Array.from(source).map((ch) => translit[ch] || ch).join("");
+    return latin.replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80) || "photo-album";
+  }
+
+  function escapeHtml(value) {
+    return String(value || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function normalizeFileName(index, name) {
+    const parts = String(name || "photo").split(".");
+    const ext = parts.length > 1 ? parts.pop().toLowerCase().replace(/[^a-z0-9]/g, "") : "jpg";
+    const base = slugify(parts.join(".") || "photo");
+    return String(index + 1).padStart(2, "0") + "-" + base + "." + (ext || "jpg");
+  }
+
+  function outputFileName(photo, index) {
+    return normalizeFileName(index, photo.originalName || photo.name);
+  }
+
+  function setStatus(message, tone) {
+    el.status.textContent = message || "";
+    el.status.className = "studio-status" + (tone ? " " + tone : "");
+  }
+
+  function formatBytes(bytes) {
+    if (!bytes) return "0 MB";
+    return (bytes / 1024 / 1024).toFixed(bytes > 10 * 1024 * 1024 ? 0 : 1) + " MB";
+  }
+
+  function albumUrl() {
+    const base = (el.siteBase.value || "").replace(/\/+$/, "");
+    return base ? base + "/albums/" + slugify(el.slug.value) + "/" : "albums/" + slugify(el.slug.value) + "/";
+  }
+
+  function resetPhotos() {
+    state.photos.forEach((photo) => URL.revokeObjectURL(photo.url));
+    state.photos = [];
+  }
+
+  function resetAlbum() {
+    resetPhotos();
+    state.albumDirectoryHandle = null;
+    state.slugTouched = false;
+    el.title.value = "Новый фотоальбом";
+    el.slug.value = "new-photo-album";
+    el.date.value = new Date().toISOString().slice(0, 10);
+    el.place.value = "";
+    el.author.value = "NeutrinoHit";
+    el.summary.value = "";
+    render();
+    setStatus("Создан пустой альбом", "ok");
+  }
+
+  async function fileHandleFromPath(directoryHandle, relativePath) {
+    const parts = String(relativePath || "").split("/").filter(Boolean);
+    if (!parts.length) throw new Error("Пустой путь к фото");
+    let current = directoryHandle;
+    for (let index = 0; index < parts.length - 1; index += 1) {
+      current = await current.getDirectoryHandle(parts[index]);
+    }
+    return current.getFileHandle(parts[parts.length - 1]);
+  }
+
+  async function openFolder() {
+    if (!window.showDirectoryPicker) {
+      setStatus("Браузер не поддерживает открытие папки", "error");
+      return;
+    }
+    try {
+      const albumDir = await window.showDirectoryPicker({ mode: "readwrite" });
+      const albumHandle = await albumDir.getFileHandle("album.json");
+      const albumFile = await albumHandle.getFile();
+      const data = JSON.parse(await albumFile.text());
+      if (!data || !Array.isArray(data.photos)) {
+        throw new Error("album.json не похож на фотоальбом NeutrinoHit");
+      }
+
+      resetPhotos();
+      state.albumDirectoryHandle = albumDir;
+      state.slugTouched = true;
+      el.title.value = data.title || "Фотоальбом";
+      el.slug.value = slugify(data.slug || albumDir.name || data.title);
+      el.date.value = data.date || "";
+      el.place.value = data.place || "";
+      el.author.value = data.author || "NeutrinoHit";
+      el.summary.value = data.summary || "";
+
+      const loadedPhotos = [];
+      for (const item of data.photos) {
+        const handle = await fileHandleFromPath(albumDir, item.file);
+        const file = await handle.getFile();
+        const id = crypto.randomUUID ? crypto.randomUUID() : String(Date.now() + Math.random());
+        loadedPhotos.push({
+          id,
+          file,
+          url: URL.createObjectURL(file),
+          name: item.originalName || file.name,
+          originalName: item.originalName || file.name,
+          sourceFile: item.file,
+          size: file.size,
+          modified: item.modified || (file.lastModified ? new Date(file.lastModified).toISOString() : null),
+          caption: item.caption || "",
+          alt: item.alt || "",
+          role: item.role || "photo"
+        });
+      }
+      state.photos = loadedPhotos;
+      if (state.photos.length && !state.photos.some((photo) => photo.role === "cover")) {
+        state.photos[0].role = "cover";
+      }
+      render();
+      setStatus("Открыт альбом: " + (data.title || albumDir.name), "ok");
+    } catch (error) {
+      if (error && error.name === "AbortError") {
+        setStatus("Открытие отменено", "");
+      } else {
+        setStatus("Не удалось открыть альбом: " + (error && error.message ? error.message : error), "error");
+      }
+    }
+  }
+
+  function addFiles(fileList) {
+    const files = Array.from(fileList || []).filter((file) => file.type.startsWith("image/"));
+    files.forEach((file) => {
+      const id = crypto.randomUUID ? crypto.randomUUID() : String(Date.now() + Math.random());
+      state.photos.push({
+        id,
+        file,
+        url: URL.createObjectURL(file),
+        name: file.name,
+        originalName: file.name,
+        sourceFile: null,
+        size: file.size,
+        modified: file.lastModified ? new Date(file.lastModified).toISOString() : null,
+        caption: "",
+        alt: "",
+        role: state.photos.length === 0 ? "cover" : "photo"
+      });
+    });
+    render();
+    if (files.length) setStatus("Добавлено: " + files.length, "ok");
+  }
+
+  function updatePhoto(id, patch, shouldRender) {
+    const photo = state.photos.find((item) => item.id === id);
+    if (!photo) return;
+    Object.assign(photo, patch);
+    if (shouldRender) render();
+  }
+
+  function removePhoto(id) {
+    const index = state.photos.findIndex((item) => item.id === id);
+    if (index < 0) return;
+    URL.revokeObjectURL(state.photos[index].url);
+    state.photos.splice(index, 1);
+    if (state.photos.length && !state.photos.some((photo) => photo.role === "cover")) {
+      state.photos[0].role = "cover";
+    }
+    render();
+  }
+
+  function movePhoto(id, direction) {
+    const index = state.photos.findIndex((item) => item.id === id);
+    const next = index + direction;
+    if (index < 0 || next < 0 || next >= state.photos.length) return;
+    const [photo] = state.photos.splice(index, 1);
+    state.photos.splice(next, 0, photo);
+    render();
+  }
+
+  function setCover(id) {
+    state.photos.forEach((photo) => {
+      photo.role = photo.id === id ? "cover" : "photo";
+    });
+    render();
+  }
+
+  function sortByName() {
+    state.photos.sort((a, b) => a.name.localeCompare(b.name, "ru", { numeric: true, sensitivity: "base" }));
+    render();
+  }
+
+  function fillCaptions() {
+    const title = el.title.value.trim();
+    state.photos.forEach((photo, index) => {
+      if (!photo.caption) {
+        photo.caption = title ? title + ". Фото " + (index + 1) + "." : "Фото " + (index + 1) + ".";
+      }
+      if (!photo.alt) {
+        photo.alt = title ? title + ", фото " + (index + 1) : "Фото " + (index + 1);
+      }
+    });
+    render();
+  }
+
+  function clearPhotos() {
+    if (!state.photos.length) return;
+    if (!window.confirm("Очистить текущий набор фотографий?")) return;
+    resetPhotos();
+    state.albumDirectoryHandle = null;
+    render();
+    setStatus("Список очищен", "ok");
+  }
+
+  function buildTelegramCaption(batchIndex, totalBatches) {
+    const lines = [];
+    const title = el.title.value.trim();
+    const date = el.date.value;
+    const place = el.place.value.trim();
+    const summary = el.summary.value.trim();
+    if (title) lines.push(title);
+    if (date || place) lines.push([date, place].filter(Boolean).join(" · "));
+    if (batchIndex === 0 && summary) lines.push(summary);
+    if (totalBatches > 1) lines.push("Часть " + (batchIndex + 1) + "/" + totalBatches);
+    lines.push(albumUrl());
+    return lines.filter(Boolean).join("\n\n");
+  }
+
+  function buildSocialCopy() {
+    const title = el.title.value.trim() || "Фотоальбом";
+    const summary = el.summary.value.trim();
+    const placeDate = [el.date.value, el.place.value.trim()].filter(Boolean).join(" · ");
+    const url = albumUrl();
+    const selected = [];
+    if (el.platformTelegram.checked) selected.push("Telegram: " + state.photos.length + " фото, группы по 10.");
+    if (el.platformVk.checked) selected.push("VK: обложка + ссылка на полный альбом.");
+    if (el.platformInstagram.checked) selected.push("Instagram: карусель до 10 фото, ссылка в профиле/сторис.");
+    if (el.platformWeb.checked) selected.push("Web: постоянная страница альбома.");
+    return [
+      title,
+      placeDate,
+      "",
+      summary,
+      "",
+      url,
+      "",
+      selected.join("\n")
+    ].filter((line, index, arr) => line || arr[index - 1]).join("\n");
+  }
+
+  function buildAlbumData() {
+    return {
+      schema: "neutrinohit.photo-album.v1",
+      generatedAt: new Date().toISOString(),
+      title: el.title.value.trim() || "Фотоальбом",
+      slug: slugify(el.slug.value),
+      date: el.date.value || null,
+      place: el.place.value.trim() || null,
+      author: el.author.value.trim() || "NeutrinoHit",
+      summary: el.summary.value.trim() || "",
+      siteUrl: albumUrl(),
+      photos: state.photos.map((photo, index) => ({
+        file: "photos/" + outputFileName(photo, index),
+        originalName: photo.originalName || photo.name,
+        caption: photo.caption.trim(),
+        alt: photo.alt.trim() || (el.title.value.trim() + ", фото " + (index + 1)).trim(),
+        role: photo.role,
+        bytes: photo.size,
+        modified: photo.modified
+      }))
+    };
+  }
+
+  function buildTelegramQueue(data) {
+    const photos = data.photos || [];
+    const batches = [];
+    for (let index = 0; index < photos.length; index += TELEGRAM_BATCH) {
+      const batchPhotos = photos.slice(index, index + TELEGRAM_BATCH);
+      const batchIndex = Math.floor(index / TELEGRAM_BATCH);
+      const totalBatches = Math.ceil(photos.length / TELEGRAM_BATCH);
+      batches.push({
+        batch: batchIndex + 1,
+        totalBatches,
+        method: batchPhotos.length === 1 ? "sendPhoto" : "sendMediaGroup",
+        caption: buildTelegramCaption(batchIndex, totalBatches),
+        photos: batchPhotos.map((photo) => photo.file)
+      });
+    }
+    return { album: data.slug, generatedAt: new Date().toISOString(), batches };
+  }
+
+  function buildAlbumQmd(data) {
+    const lines = [
+      "---",
+      'title: "' + data.title.replace(/"/g, '\\"') + '"',
+    ];
+    if (data.date) lines.push('date: "' + data.date + '"');
+    lines.push(
+      "---",
+      "",
+    );
+    if (data.summary) {
+      lines.push(data.summary, "");
+    }
+    lines.push(
+      '<div class="published-album">'
+    );
+    const figures = data.photos.map((photo) => [
+      '<figure class="published-photo">',
+      '<img src="' + escapeHtml(photo.file) + '" alt="' + escapeHtml(photo.alt) + '" loading="lazy">',
+      photo.caption ? '<figcaption>' + escapeHtml(photo.caption) + "</figcaption>" : "",
+      "</figure>"
+    ].filter(Boolean).join("\n"));
+    return lines.concat(figures, "</div>", "").join("\n");
+  }
+
+  function buildSocialPosts(data) {
+    const queue = buildTelegramQueue(data);
+    const sections = [
+      "# " + data.title,
+      "",
+      data.summary,
+      "",
+      data.siteUrl,
+      "",
+      "## Telegram",
+      "",
+      queue.batches.map((batch) => "### Часть " + batch.batch + "/" + batch.totalBatches + "\n\n" + batch.caption + "\n\n" + batch.photos.join("\n")).join("\n\n"),
+      "",
+      "## VK",
+      "",
+      data.title + "\n\n" + data.summary + "\n\n" + data.siteUrl,
+      "",
+      "## Instagram",
+      "",
+      data.title + "\n\n" + data.summary + "\n\n" + "#NeutrinoHit"
+    ];
+    return sections.filter((line, index, arr) => line || arr[index - 1]).join("\n");
+  }
+
+  async function writeTextFile(directoryHandle, name, text) {
+    const handle = await directoryHandle.getFileHandle(name, { create: true });
+    const writable = await handle.createWritable();
+    await writable.write(text);
+    await writable.close();
+  }
+
+  async function saveFolder() {
+    if (!state.photos.length) {
+      setStatus("Нет фотографий для сохранения", "error");
+      return;
+    }
+    if (!window.showDirectoryPicker) {
+      setStatus("Браузер не поддерживает сохранение папки. Используй JSON/QMD экспорт.", "error");
+      return;
+    }
+    try {
+      const data = buildAlbumData();
+      let albumDir = state.albumDirectoryHandle;
+      if (!albumDir) {
+        const root = await window.showDirectoryPicker({ mode: "readwrite" });
+        albumDir = await root.getDirectoryHandle(data.slug, { create: true });
+        state.albumDirectoryHandle = albumDir;
+      }
+      const photosDir = await albumDir.getDirectoryHandle("photos", { create: true });
+      const pendingWrites = [];
+      for (let index = 0; index < state.photos.length; index += 1) {
+        const photo = state.photos[index];
+        const fileName = outputFileName(photo, index);
+        const outputPath = "photos/" + fileName;
+        if (photo.sourceFile === outputPath) {
+          continue;
+        }
+        pendingWrites.push({
+          index,
+          fileName,
+          outputPath,
+          bytes: await photo.file.arrayBuffer()
+        });
+      }
+      for (const item of pendingWrites) {
+        const handle = await photosDir.getFileHandle(item.fileName, { create: true });
+        const writable = await handle.createWritable();
+        await writable.write(item.bytes);
+        await writable.close();
+        state.photos[item.index].sourceFile = item.outputPath;
+      }
+      await writeTextFile(albumDir, "album.json", JSON.stringify(data, null, 2) + "\n");
+      await writeTextFile(albumDir, "index.qmd", buildAlbumQmd(data));
+      await writeTextFile(albumDir, "telegram-queue.json", JSON.stringify(buildTelegramQueue(data), null, 2) + "\n");
+      await writeTextFile(albumDir, "social-posts.md", buildSocialPosts(data) + "\n");
+      setStatus("Альбом сохранён: " + data.slug, "ok");
+    } catch (error) {
+      if (error && error.name === "AbortError") {
+        setStatus("Сохранение отменено", "");
+      } else {
+        setStatus("Ошибка сохранения: " + (error && error.message ? error.message : error), "error");
+      }
+    }
+  }
+
+  function downloadFile(name, type, text) {
+    const blob = new Blob([text], { type });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = name;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+  }
+
+  function renderPhotos() {
+    el.list.textContent = "";
+    state.photos.forEach((photo, index) => {
+      const card = document.createElement("article");
+      card.className = "photo-card" + (photo.role === "cover" ? " is-cover" : "");
+      card.draggable = true;
+      card.dataset.id = photo.id;
+
+      const img = document.createElement("img");
+      img.className = "photo-thumb";
+      img.src = photo.url;
+      img.alt = photo.alt || photo.name;
+      card.appendChild(img);
+
+      const meta = document.createElement("div");
+      meta.className = "photo-meta";
+      meta.innerHTML =
+        '<div class="photo-name"><span>' + escapeHtml(photo.name) + '</span><small>' + String(index + 1).padStart(2, "0") + "</small></div>" +
+        '<textarea class="photo-caption" data-field="caption" placeholder="Подпись">' + escapeHtml(photo.caption) + "</textarea>" +
+        '<input class="photo-alt" data-field="alt" placeholder="Alt" value="' + escapeHtml(photo.alt) + '">' +
+        '<div class="photo-actions">' +
+        '<button type="button" data-action="up">Выше</button>' +
+        '<button type="button" data-action="down">Ниже</button>' +
+        '<button type="button" data-action="cover">Обложка</button>' +
+        '<button type="button" data-action="remove" class="danger">Удалить</button>' +
+        "</div>";
+      card.appendChild(meta);
+
+      card.addEventListener("dragstart", (event) => {
+        state.draggingId = photo.id;
+        card.classList.add("dragging");
+        event.dataTransfer.effectAllowed = "move";
+      });
+      card.addEventListener("dragend", () => {
+        state.draggingId = null;
+        card.classList.remove("dragging");
+      });
+      card.addEventListener("dragover", (event) => {
+        event.preventDefault();
+      });
+      card.addEventListener("drop", (event) => {
+        event.preventDefault();
+        const from = state.photos.findIndex((item) => item.id === state.draggingId);
+        const to = state.photos.findIndex((item) => item.id === photo.id);
+        if (from < 0 || to < 0 || from === to) return;
+        const [moved] = state.photos.splice(from, 1);
+        state.photos.splice(to, 0, moved);
+        render();
+      });
+
+      meta.addEventListener("input", (event) => {
+        const field = event.target.dataset.field;
+        if (field) {
+          updatePhoto(photo.id, { [field]: event.target.value }, false);
+          renderPublishPreview();
+        }
+      });
+      meta.addEventListener("click", (event) => {
+        const action = event.target.dataset.action;
+        if (!action) return;
+        if (action === "up") movePhoto(photo.id, -1);
+        if (action === "down") movePhoto(photo.id, 1);
+        if (action === "cover") setCover(photo.id);
+        if (action === "remove") removePhoto(photo.id);
+      });
+
+      el.list.appendChild(card);
+    });
+  }
+
+  function renderPublishPreview() {
+    el.preview.textContent = "";
+    const totalBatches = Math.ceil(state.photos.length / TELEGRAM_BATCH);
+    if (!state.photos.length) {
+      const card = document.createElement("div");
+      card.className = "publish-card";
+      card.innerHTML = "<h4>Telegram</h4><p>0 фото</p>";
+      el.preview.appendChild(card);
+      el.socialCopy.value = buildSocialCopy();
+      return;
+    }
+    for (let index = 0; index < totalBatches; index += 1) {
+      const count = state.photos.slice(index * TELEGRAM_BATCH, (index + 1) * TELEGRAM_BATCH).length;
+      const caption = buildTelegramCaption(index, totalBatches);
+      const card = document.createElement("div");
+      card.className = "publish-card" + (caption.length > MAX_TELEGRAM_CAPTION ? " warning" : "");
+      card.innerHTML = "<h4>Telegram " + (index + 1) + "/" + totalBatches + "</h4>" +
+        "<p>" + count + " фото · " + caption.length + "/" + MAX_TELEGRAM_CAPTION + " символов</p>";
+      el.preview.appendChild(card);
+    }
+    el.socialCopy.value = buildSocialCopy();
+  }
+
+  function render() {
+    if (!state.slugTouched) {
+      el.slug.value = slugify(el.title.value);
+    }
+    const totalSize = state.photos.reduce((sum, photo) => sum + photo.size, 0);
+    el.count.textContent = String(state.photos.length);
+    el.size.textContent = formatBytes(totalSize);
+    el.batches.textContent = String(Math.ceil(state.photos.length / TELEGRAM_BATCH) || 0);
+    renderPhotos();
+    renderPublishPreview();
+  }
+
+  el.input.addEventListener("change", (event) => {
+    addFiles(event.target.files);
+    event.target.value = "";
+  });
+  el.dropzone.addEventListener("dragenter", () => el.dropzone.classList.add("dragover"));
+  el.dropzone.addEventListener("dragover", (event) => event.preventDefault());
+  el.dropzone.addEventListener("dragleave", () => el.dropzone.classList.remove("dragover"));
+  el.dropzone.addEventListener("drop", (event) => {
+    event.preventDefault();
+    el.dropzone.classList.remove("dragover");
+    addFiles(event.dataTransfer.files);
+  });
+  el.title.addEventListener("input", render);
+  el.slug.addEventListener("input", () => {
+    state.slugTouched = true;
+    el.slug.value = slugify(el.slug.value);
+    render();
+  });
+  [el.date, el.place, el.author, el.summary, el.siteBase, el.platformTelegram, el.platformVk, el.platformInstagram, el.platformWeb].forEach((input) => {
+    input.addEventListener("input", render);
+    input.addEventListener("change", render);
+  });
+
+  document.getElementById("sortName").addEventListener("click", sortByName);
+  document.getElementById("fillCaptions").addEventListener("click", fillCaptions);
+  document.getElementById("clearPhotos").addEventListener("click", clearPhotos);
+  document.getElementById("openFolder").addEventListener("click", openFolder);
+  document.getElementById("newAlbum").addEventListener("click", resetAlbum);
+  document.getElementById("saveFolder").addEventListener("click", saveFolder);
+  document.getElementById("downloadJson").addEventListener("click", () => {
+    const data = buildAlbumData();
+    downloadFile(data.slug + ".album.json", "application/json", JSON.stringify(data, null, 2) + "\n");
+  });
+  document.getElementById("downloadQmd").addEventListener("click", () => {
+    const data = buildAlbumData();
+    downloadFile(data.slug + ".qmd", "text/markdown", buildAlbumQmd(data));
+  });
+  document.getElementById("copySocial").addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(el.socialCopy.value);
+      setStatus("Текст скопирован", "ok");
+    } catch (error) {
+      setStatus("Не удалось скопировать текст", "error");
+    }
+  });
+
+  el.date.value = new Date().toISOString().slice(0, 10);
+  render();
+})();
+</script>
+```

@@ -9,7 +9,7 @@
   display: block;
   padding: 1.1rem 1.2rem;
   border: 1px solid #dee2e6;
-  border-radius: 14px;
+  border-radius: 8px;
   text-decoration: none;
   color: inherit;
   background: #ffffff;
@@ -29,4 +29,488 @@
 
 .nh-card p {
   margin-bottom: 0;
+}
+
+.nh-action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.25rem 0;
+}
+
+.nh-button,
+.nh-button-secondary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.45rem;
+  padding: 0.55rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid #1f6f78;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.nh-button {
+  background: #1f6f78;
+  color: #ffffff;
+}
+
+.nh-button:hover {
+  color: #ffffff;
+  background: #16565d;
+  text-decoration: none;
+}
+
+.nh-button-secondary {
+  background: #ffffff;
+  color: #1f6f78;
+}
+
+.nh-button-secondary:hover {
+  color: #16565d;
+  border-color: #16565d;
+  text-decoration: none;
+}
+
+.album-shell {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.75fr) minmax(420px, 1.3fr) minmax(300px, 0.95fr);
+  gap: 1rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.studio-panel {
+  border: 1px solid #d7dde2;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 1rem;
+}
+
+.studio-panel h2,
+.studio-panel h3 {
+  margin-top: 0;
+}
+
+.studio-panel h2 {
+  font-size: 1.15rem;
+}
+
+.studio-panel h3 {
+  font-size: 1rem;
+}
+
+.studio-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.studio-field {
+  display: grid;
+  gap: 0.28rem;
+}
+
+.studio-field label,
+.studio-inline label,
+.platform-toggle {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #3f4d57;
+}
+
+.studio-field input,
+.studio-field textarea,
+.studio-field select {
+  width: 100%;
+  border: 1px solid #cfd6dd;
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+  font: inherit;
+  background: #ffffff;
+}
+
+.studio-field textarea {
+  min-height: 6rem;
+  resize: vertical;
+}
+
+.studio-inline {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.studio-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+}
+
+.studio-toolbar button,
+.photo-actions button {
+  min-height: 2.25rem;
+  border-radius: 8px;
+  border: 1px solid #c9d1d9;
+  background: #f8fafb;
+  color: #25313a;
+  font-weight: 650;
+  padding: 0.45rem 0.65rem;
+}
+
+.studio-toolbar button.primary {
+  border-color: #1f6f78;
+  background: #1f6f78;
+  color: #ffffff;
+}
+
+.studio-toolbar button.danger,
+.photo-actions button.danger {
+  color: #8b2f28;
+  border-color: #e0b3af;
+  background: #fff8f7;
+}
+
+.dropzone {
+  display: grid;
+  place-items: center;
+  min-height: 8.5rem;
+  border: 2px dashed #aebac4;
+  border-radius: 8px;
+  background: #f7fafb;
+  text-align: center;
+}
+
+.dropzone.dragover {
+  border-color: #1f6f78;
+  background: #eef8f9;
+}
+
+.dropzone input {
+  width: min(100%, 18rem);
+}
+
+.photo-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 0.85rem 0;
+}
+
+.stat-cell {
+  border: 1px solid #d7dde2;
+  border-radius: 8px;
+  padding: 0.65rem;
+  background: #fbfcfd;
+}
+
+.stat-cell strong {
+  display: block;
+  font-size: 1.25rem;
+}
+
+.stat-cell span {
+  color: #586874;
+  font-size: 0.78rem;
+}
+
+.photo-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.photo-card {
+  display: grid;
+  grid-template-columns: 116px minmax(0, 1fr);
+  gap: 0.75rem;
+  border: 1px solid #d7dde2;
+  border-radius: 8px;
+  padding: 0.65rem;
+  background: #ffffff;
+}
+
+.photo-card.is-cover {
+  border-color: #bf8b2c;
+  box-shadow: inset 0 0 0 1px rgba(191, 139, 44, 0.18);
+}
+
+.photo-card.dragging {
+  opacity: 0.45;
+}
+
+.photo-thumb {
+  width: 116px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #e9eef2;
+}
+
+.photo-meta {
+  min-width: 0;
+}
+
+.photo-name {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 750;
+}
+
+.photo-name span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.photo-name small {
+  flex: 0 0 auto;
+  color: #6b7780;
+  font-weight: 650;
+}
+
+.photo-caption,
+.photo-alt {
+  width: 100%;
+  border: 1px solid #cfd6dd;
+  border-radius: 8px;
+  padding: 0.45rem 0.55rem;
+  font: inherit;
+  margin-bottom: 0.45rem;
+}
+
+.photo-caption {
+  min-height: 4.5rem;
+  resize: vertical;
+}
+
+.photo-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.platform-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.45rem;
+  margin-bottom: 0.85rem;
+}
+
+.platform-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid #d7dde2;
+  border-radius: 8px;
+  padding: 0.5rem 0.55rem;
+  background: #fbfcfd;
+}
+
+.publish-preview {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.publish-card {
+  border: 1px solid #d7dde2;
+  border-radius: 8px;
+  padding: 0.7rem;
+  background: #ffffff;
+}
+
+.publish-card.warning {
+  border-color: #d49a2a;
+  background: #fffaf1;
+}
+
+.publish-card h4 {
+  margin: 0 0 0.35rem 0;
+  font-size: 0.95rem;
+}
+
+.publish-card p {
+  margin: 0;
+  color: #4d5b65;
+}
+
+.social-copy {
+  width: 100%;
+  min-height: 14rem;
+  border: 1px solid #cfd6dd;
+  border-radius: 8px;
+  padding: 0.65rem;
+  font: 0.9rem/1.45 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  resize: vertical;
+}
+
+.studio-status {
+  min-height: 1.7rem;
+  margin-top: 0.75rem;
+  color: #45545e;
+}
+
+.studio-status.error {
+  color: #9d2f2f;
+}
+
+.studio-status.ok {
+  color: #1f6f42;
+}
+
+.album-spec {
+  border-left: 4px solid #1f6f78;
+  padding: 0.2rem 0 0.2rem 1rem;
+}
+
+.published-album {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.published-photo {
+  margin: 0;
+  border: 1px solid #d7dde2;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.published-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #e9eef2;
+  cursor: zoom-in;
+}
+
+.published-photo figcaption {
+  padding: 0.65rem 0.75rem;
+  color: #3f4d57;
+  font-size: 0.92rem;
+}
+
+.album-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 5rem;
+  background: rgba(14, 18, 22, 0.92);
+}
+
+.album-lightbox[aria-hidden="false"] {
+  display: flex;
+}
+
+.album-lightbox-open {
+  overflow: hidden;
+}
+
+.album-lightbox figure {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+
+.album-lightbox img {
+  display: block;
+  max-width: min(100vw - 10rem, 1400px);
+  max-height: calc(100vh - 9rem);
+  object-fit: contain;
+  border-radius: 8px;
+  background: #11161a;
+}
+
+.album-lightbox figcaption {
+  max-width: min(100vw - 10rem, 1400px);
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.album-lightbox button {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.album-lightbox-close {
+  top: 1rem;
+  right: 1rem;
+}
+
+.album-lightbox-prev {
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.album-lightbox-next {
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 1180px) {
+  .album-shell {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .album-shell .publish-column {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  .album-shell,
+  .studio-inline {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-card {
+    grid-template-columns: 88px minmax(0, 1fr);
+  }
+
+  .photo-thumb {
+    width: 88px;
+  }
+
+  .photo-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .album-lightbox {
+    padding: 4rem 1rem 5rem;
+  }
+
+  .album-lightbox img,
+  .album-lightbox figcaption {
+    max-width: calc(100vw - 2rem);
+  }
+
+  .album-lightbox img {
+    max-height: calc(100vh - 11rem);
+  }
+
+  .album-lightbox-prev,
+  .album-lightbox-next {
+    top: auto;
+    bottom: 1rem;
+    transform: none;
+  }
 }

@@ -1,0 +1,88 @@
+<div class="album-lightbox" id="albumLightbox" aria-hidden="true">
+  <button class="album-lightbox-close" type="button" aria-label="Закрыть">×</button>
+  <button class="album-lightbox-prev" type="button" aria-label="Предыдущее фото">‹</button>
+  <figure>
+    <img alt="">
+    <figcaption></figcaption>
+  </figure>
+  <button class="album-lightbox-next" type="button" aria-label="Следующее фото">›</button>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var lightbox = document.getElementById("albumLightbox");
+  if (!lightbox) return;
+
+  var image = lightbox.querySelector("img");
+  var caption = lightbox.querySelector("figcaption");
+  var closeButton = lightbox.querySelector(".album-lightbox-close");
+  var prevButton = lightbox.querySelector(".album-lightbox-prev");
+  var nextButton = lightbox.querySelector(".album-lightbox-next");
+  var photos = Array.prototype.slice.call(document.querySelectorAll(".published-album .published-photo img"));
+  var current = 0;
+
+  if (!photos.length) {
+    lightbox.remove();
+    return;
+  }
+
+  function photoCaption(photo) {
+    var figure = photo.closest("figure");
+    var text = figure ? figure.querySelector("figcaption") : null;
+    return text ? text.textContent.trim() : "";
+  }
+
+  function openLightbox(index) {
+    current = index;
+    var photo = photos[current];
+    image.src = photo.currentSrc || photo.src;
+    image.alt = photo.alt || "";
+    caption.textContent = photoCaption(photo);
+    caption.hidden = !caption.textContent;
+    lightbox.setAttribute("aria-hidden", "false");
+    document.body.classList.add("album-lightbox-open");
+    closeButton.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("album-lightbox-open");
+    image.removeAttribute("src");
+  }
+
+  function step(delta) {
+    current = (current + delta + photos.length) % photos.length;
+    openLightbox(current);
+  }
+
+  photos.forEach(function (photo, index) {
+    photo.tabIndex = 0;
+    photo.setAttribute("role", "button");
+    photo.setAttribute("aria-label", "Открыть фото");
+    photo.addEventListener("click", function () {
+      openLightbox(index);
+    });
+    photo.addEventListener("keydown", function (event) {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        openLightbox(index);
+      }
+    });
+  });
+
+  closeButton.addEventListener("click", closeLightbox);
+  prevButton.addEventListener("click", function () { step(-1); });
+  nextButton.addEventListener("click", function () { step(1); });
+  lightbox.addEventListener("click", function (event) {
+    if (event.target === lightbox) closeLightbox();
+  });
+  document.addEventListener("keydown", function (event) {
+    if (lightbox.getAttribute("aria-hidden") === "true") return;
+    if (event.key === "Escape") closeLightbox();
+    if (event.key === "ArrowLeft") step(-1);
+    if (event.key === "ArrowRight") step(1);
+  });
+})();
+</script>

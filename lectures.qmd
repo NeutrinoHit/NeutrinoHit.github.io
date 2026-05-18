@@ -2,9 +2,7 @@
 title: "Лекции"
 ---
 
+## Курс по статистическому анализу
 
-## Квантовая теория поля
-
-## Статистический анализ
-
-## Физика нейтрино
+ - Репозиторий: <https://github.com/NeutrinoHit/statistical-analysis-course>
+ - Cайт <https://neutrinohit.github.io/statistical-analysis-course/ru/slides>
