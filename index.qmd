@@ -15,15 +15,21 @@ toc: false
     <p class="home-eyebrow">NeutrinoHit</p>
     <h1>Наумов Дмитрий Вадимович</h1>
     <p class="home-lead">
-      Физик, преподаватель и автор материалов по нейтринной физике, квантовой теории поля,
-      статистическому анализу и научной популяризации.
+      Физик, д. ф.-м. н., преподаватель и автор книг и других материалов по нейтринной физике,
+      квантовой теории поля, статистическому анализу, физике элементарных частиц,
+      астрофизике и космологии.
     </p>
-    <p>
-      Заместитель директора Лаборатории ядерных проблем им. В. П. Джелепова ОИЯИ.
-      Руководитель Нейтринной программы ОИЯИ.
-    </p>
+    <p>Активно занимается научной популяризацией.</p>
+    <ul class="home-role-list">
+      <li>Заместитель директора Лаборатории ядерных проблем им. В. П. Джелепова ОИЯИ.</li>
+      <li>Руководитель Нейтринной программы ОИЯИ.</li>
+    </ul>
     <div class="home-actions">
       <a href="https://naumov.jinr.ru/">Профиль JINR</a>
+      <a href="https://teach-in.ru/lecturer/naumov-dv">Teach-in</a>
+      <a href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
+      <a href="https://t.me/NeutrinoHit">Telegram @NeutrinoHit</a>
+      <a href="https://t.me/s/NeutrinoHit">Лента TG</a>
       <a href="https://naumov.jinr.ru/download/250">Кандидатская диссертация</a>
       <a href="https://naumov.jinr.ru/download/249">Докторская диссертация</a>
     </div>
