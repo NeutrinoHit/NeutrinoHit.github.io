@@ -7,5 +7,10 @@
 **/*.quarto_ipynb
 __pycache__/
 *.pyc
+
+# Local Quarto render/publish artifacts. Source pages are .qmd files.
+/*.html
+!/album-lightbox.html
+/albums/**/*.html
 /photo-studio.html
 /photo-studio_files/
