@@ -1,7 +1,109 @@
 ---
-title: "NeutrinoHit"
+title: "Наумов Дмитрий Вадимович"
+toc: false
 ---
 
-Карта образовательных, научных и научно-популярных материалов: книги, лекции, фотоальбомы, анимации, код и тексты.
+```{=html}
+<style>
+  .quarto-title-block {
+    display: none;
+  }
+</style>
 
-Здесь позже будет главный текст проекта и изображение.
+<section class="home-hero">
+  <div class="home-hero-copy">
+    <p class="home-eyebrow">NeutrinoHit</p>
+    <h1>Наумов Дмитрий Вадимович</h1>
+    <p class="home-lead">
+      Физик, преподаватель и автор материалов по нейтринной физике, квантовой теории поля,
+      статистическому анализу и научной популяризации.
+    </p>
+    <p>
+      Заместитель директора Лаборатории ядерных проблем им. В. П. Джелепова ОИЯИ.
+      Руководитель Нейтринной программы ОИЯИ.
+    </p>
+    <div class="home-actions">
+      <a href="https://naumov.jinr.ru/">Профиль JINR</a>
+      <a href="https://naumov.jinr.ru/download/250">Кандидатская диссертация</a>
+      <a href="https://naumov.jinr.ru/download/249">Докторская диссертация</a>
+    </div>
+  </div>
+  <img class="home-portrait" src="assets/naumov-portrait.jpg" alt="Дмитрий Вадимович Наумов">
+</section>
+
+<section class="home-stats" aria-label="Краткие показатели">
+  <div>
+    <strong>~200</strong>
+    <span>научных работ</span>
+  </div>
+  <div>
+    <strong>&gt;15000</strong>
+    <span>цитирований</span>
+  </div>
+  <div>
+    <strong>51</strong>
+    <span>индекс Хирша</span>
+  </div>
+  <div>
+    <strong>20+</strong>
+    <span>лет преподавания</span>
+  </div>
+</section>
+
+<section class="home-section">
+  <h2>О проекте</h2>
+  <p>
+    NeutrinoHit — карта моих образовательных, научных и научно-популярных материалов:
+    книги, курсы лекций, фотоальбомы, анимации, код, заметки и визуальные истории.
+  </p>
+</section>
+
+<section class="home-grid">
+  <article class="home-panel">
+    <h2>Наука</h2>
+    <p>
+      Участник экспериментов Baikal-GVD, JUNO, Daya Bay, OPERA, NOMAD и EUSO/JEM-EUSO.
+      Научные интересы: физика нейтрино, астрофизика и космические лучи, физика элементарных
+      частиц, квантовая теория поля и космология.
+    </p>
+  </article>
+
+  <article class="home-panel">
+    <h2>Преподавание</h2>
+    <p>
+      Курсы и школы по квантовой теории поля, физике нейтрино, статистическому анализу
+      и смежным дисциплинам. Под руководством защищены дипломные работы и кандидатские
+      диссертации.
+    </p>
+  </article>
+
+  <article class="home-panel">
+    <h2>Книги и научпоп</h2>
+    <p>
+      Автор учебника «Квантовая теория поля для экспериментаторов и не только»
+      и научно-популярной книги «Солнечное нейтрино». Новые книги и курсы постепенно
+      собираются здесь.
+    </p>
+  </article>
+
+  <article class="home-panel">
+    <h2>Награды</h2>
+    <p>
+      Лауреат Breakthrough Prize in Fundamental Physics 2016 и European Physical Society Prize
+      2023 в составе коллаборации Daya Bay, а также премий ОИЯИ и ЛЯП ОИЯИ.
+    </p>
+  </article>
+</section>
+
+<section class="home-section">
+  <h2>Быстрые разделы</h2>
+  <div class="home-link-grid">
+    <a href="books.html">Книги</a>
+    <a href="lectures.html">Лекции</a>
+    <a href="sciencepop.html">Научпоп</a>
+    <a href="photos.html">Фото</a>
+    <a href="animations.html">Анимации</a>
+    <a href="software.html">Код</a>
+  </div>
+</section>
+```
