@@ -1,6 +1,9 @@
 ---
 title: "Научпоп"
+toc: false
 ---
 
-
-- Зачем нужны нейтринные телескопы? <https://neutrinohit.github.io/sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes/index.html>
+```{=html}
+<meta http-equiv="refresh" content="0; url=sciencepop.html">
+<p>Страница переехала: <a href="sciencepop.html">sciencepop.html</a></p>
+```
