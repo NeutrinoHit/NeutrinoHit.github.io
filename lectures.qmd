@@ -2,7 +2,5 @@
 title: "Лекции"
 ---
 
-## Курс по статистическому анализу
 
- - Репозиторий: <https://github.com/NeutrinoHit/statistical-analysis-course>
- - Cайт <https://neutrinohit.github.io/statistical-analysis-course/ru/slides>
+- Курс по статистическому анализу <https://neutrinohit.github.io/statistical-analysis-course/ru/slides>

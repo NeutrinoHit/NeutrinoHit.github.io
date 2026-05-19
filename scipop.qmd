@@ -3,4 +3,4 @@ title: "Научпоп"
 ---
 
 
-Посты, сценарии, тексты и материалы для широкой аудитории.
+- Зачем нужны нейтринные телескопы? <https://neutrinohit.github.io/sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes/index.html>
