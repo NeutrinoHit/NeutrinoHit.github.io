@@ -3,10 +3,20 @@ title: "Лекции"
 ---
 
 ```{=html}
-<div class="resource-list">
-  <a class="resource-card resource-card-lectures" href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides">
-    <span class="resource-title">Курс по статистическому анализу</span>
-    <span class="resource-note">Слайды курса</span>
+<div class="resource-list resource-list-grid">
+  <a class="resource-card resource-card-stat-ru" href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">
+    <span class="resource-title">Статистический анализ данных</span>
+    <span class="resource-note">Русский курс, слайды лекций</span>
+  </a>
+
+  <a class="resource-card resource-card-stat-en" href="https://neutrinohit.github.io/statistical-analysis-course/en/slides/">
+    <span class="resource-title">Statistical Data Analysis</span>
+    <span class="resource-note">English lecture slides</span>
+  </a>
+
+  <a class="resource-card resource-card-qft" href="https://neutrinohit.github.io/qft-lectures/">
+    <span class="resource-title">Курсы лекций по КТП</span>
+    <span class="resource-note">Квантовая теория поля, Стандартная модель, ренормировка и эффект Унру</span>
   </a>
 </div>
 ```

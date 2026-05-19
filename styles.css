@@ -38,6 +38,11 @@
   max-width: 48rem;
 }
 
+.resource-list-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  max-width: none;
+}
+
 .resource-card {
   display: grid;
   gap: 0.35rem;
@@ -74,6 +79,24 @@
 .resource-card-lectures {
   background:
     linear-gradient(90deg, rgba(31, 111, 120, 0.14), rgba(31, 111, 120, 0.03) 42%, rgba(255, 255, 255, 0.92)),
+    #ffffff;
+}
+
+.resource-card-stat-ru {
+  background:
+    linear-gradient(135deg, rgba(31, 111, 120, 0.16), rgba(255, 255, 255, 0.92) 60%),
+    #ffffff;
+}
+
+.resource-card-stat-en {
+  background:
+    linear-gradient(135deg, rgba(54, 95, 145, 0.15), rgba(255, 255, 255, 0.92) 60%),
+    #ffffff;
+}
+
+.resource-card-qft {
+  background:
+    linear-gradient(135deg, rgba(111, 82, 154, 0.15), rgba(255, 255, 255, 0.92) 60%),
     #ffffff;
 }
 
