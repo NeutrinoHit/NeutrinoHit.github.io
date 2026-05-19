@@ -31,6 +31,58 @@
   margin-bottom: 0;
 }
 
+.resource-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  max-width: 48rem;
+}
+
+.resource-card {
+  display: grid;
+  gap: 0.35rem;
+  min-height: 5.5rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid #d7dde2;
+  border-radius: 8px;
+  color: #25313a;
+  text-decoration: none;
+  background: #ffffff;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.resource-card:hover {
+  color: #25313a;
+  text-decoration: none;
+  border-color: #aebac4;
+  box-shadow: 0 8px 24px rgba(31, 43, 51, 0.10);
+  transform: translateY(-1px);
+}
+
+.resource-title {
+  align-self: end;
+  font-size: 1.08rem;
+  font-weight: 520;
+  line-height: 1.35;
+}
+
+.resource-note {
+  color: #586874;
+  font-size: 0.9rem;
+}
+
+.resource-card-lectures {
+  background:
+    linear-gradient(90deg, rgba(31, 111, 120, 0.14), rgba(31, 111, 120, 0.03) 42%, rgba(255, 255, 255, 0.92)),
+    #ffffff;
+}
+
+.resource-card-sciencepop {
+  background:
+    linear-gradient(90deg, rgba(191, 139, 44, 0.18), rgba(191, 139, 44, 0.04) 42%, rgba(255, 255, 255, 0.92)),
+    #ffffff;
+}
+
 .nh-action-row {
   display: flex;
   flex-wrap: wrap;

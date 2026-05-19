@@ -2,5 +2,11 @@
 title: "Лекции"
 ---
 
-
-- Курс по статистическому анализу <https://neutrinohit.github.io/statistical-analysis-course/ru/slides>
+```{=html}
+<div class="resource-list">
+  <a class="resource-card resource-card-lectures" href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides">
+    <span class="resource-title">Курс по статистическому анализу</span>
+    <span class="resource-note">Слайды курса</span>
+  </a>
+</div>
+```
