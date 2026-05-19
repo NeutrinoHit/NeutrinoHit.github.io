@@ -19,7 +19,7 @@ website:
         text: Лекции
       - href: photos.qmd
         text: Фото
-      - href: scipop.qmd
+      - href: sciencepop.qmd
         text: Научпоп
       - href: animations.qmd
         text: Анимации
