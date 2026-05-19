@@ -1,9 +1,0 @@
----
-title: "Научпоп"
-toc: false
----
-
-```{=html}
-<meta http-equiv="refresh" content="0; url=sciencepop.html">
-<p>Страница переехала: <a href="sciencepop.html">sciencepop.html</a></p>
-```
