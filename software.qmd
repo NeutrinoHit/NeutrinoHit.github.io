@@ -4,3 +4,5 @@ title: "Код"
 
 
 Программные проекты, расчёты и демонстрационные ноутбуки.
+
+- [dvnanima](https://github.com/dmitryvnaumov/dvnanima)

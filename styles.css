@@ -106,6 +106,12 @@
     #ffffff;
 }
 
+.resource-card-animation {
+  background:
+    linear-gradient(135deg, rgba(159, 92, 73, 0.14), rgba(255, 255, 255, 0.92) 60%),
+    #ffffff;
+}
+
 .book-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -213,6 +219,18 @@
 .book-card-stat-book {
   background:
     linear-gradient(135deg, rgba(31, 111, 120, 0.14), rgba(255, 255, 255, 0.92) 60%),
+    #ffffff;
+}
+
+.book-card-neutrino-book {
+  background:
+    linear-gradient(135deg, rgba(54, 95, 145, 0.14), rgba(255, 255, 255, 0.92) 60%),
+    #ffffff;
+}
+
+.book-card-particles-book {
+  background:
+    linear-gradient(135deg, rgba(159, 92, 73, 0.14), rgba(255, 255, 255, 0.92) 60%),
     #ffffff;
 }
 

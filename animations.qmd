@@ -4,3 +4,12 @@ title: "Анимации"
 
 
 Manim, визуализации, ролики и иллюстрации.
+
+```{=html}
+<div class="resource-list">
+  <a class="resource-card resource-card-animation" href="https://github.com/dmitryvnaumov/dvnanima">
+    <span class="resource-title">dvnanima</span>
+    <span class="resource-note">Репозиторий с анимациями, визуализациями и иллюстрациями</span>
+  </a>
+</div>
+```
