@@ -18,7 +18,10 @@ title: "Книги"
     </div>
   </article>
 
-  <article class="book-card book-card-qft-book">
+  <article class="book-card book-card-cover book-card-qft-book">
+    <a class="book-cover-link" href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ&amp;hl=en_US">
+      <img class="book-cover" src="https://books.google.com/books/content?id=uLXTEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=0&amp;edge=curl&amp;source=gbs_api" alt="Обложка книги «Квантовая теория поля для экспериментаторов и не только»">
+    </a>
     <div class="book-body">
       <span class="book-label">Учебник</span>
       <h2>Квантовая теория поля для экспериментаторов и не только</h2>
@@ -26,6 +29,28 @@ title: "Книги"
       <div class="book-actions">
         <a href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ&amp;hl=en_US">Том 1</a>
         <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ&amp;hl=en_US">Том 2</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="book-card book-card-neutrino-book">
+    <div class="book-body">
+      <span class="book-label">В процессе</span>
+      <h2>Введение в физику нейтрино</h2>
+      <p>Книга готовится. Рабочий приватный репозиторий доступен автору.</p>
+      <div class="book-actions">
+        <a href="https://github.com/dmitryvnaumov/NEUTRINObook">Приватный репозиторий</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="book-card book-card-particles-book">
+    <div class="book-body">
+      <span class="book-label">В процессе</span>
+      <h2>Введение в физику элементарных частиц</h2>
+      <p>Книга готовится.</p>
+      <div class="book-actions">
+        <span>Готовится</span>
       </div>
     </div>
   </article>
