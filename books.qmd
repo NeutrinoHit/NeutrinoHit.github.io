@@ -2,7 +2,43 @@
 title: "Книги"
 ---
 
+```{=html}
+<div class="book-grid">
+  <article class="book-card book-card-cover">
+    <a class="book-cover-link" href="https://ast.ru/book/solnechnoe-neytrino-862573/">
+      <img class="book-cover" src="https://cdn.ast.ru/v2/ASE000000000862573/COVER/cover1__w340.jpg" alt="Обложка книги «Солнечное нейтрино»">
+    </a>
+    <div class="book-body">
+      <span class="book-label">Научпоп</span>
+      <h2>Солнечное нейтрино</h2>
+      <p>Детская научно-популярная книга о нейтрино, Солнце и большой физике маленьких частиц.</p>
+      <div class="book-actions">
+        <a href="https://ast.ru/book/solnechnoe-neytrino-862573/">Страница AST</a>
+      </div>
+    </div>
+  </article>
 
-## Квантовая теория поля для экспериментаторов и не только
+  <article class="book-card book-card-qft-book">
+    <div class="book-body">
+      <span class="book-label">Учебник</span>
+      <h2>Квантовая теория поля для экспериментаторов и не только</h2>
+      <p>Русское издание учебника в двух томах.</p>
+      <div class="book-actions">
+        <a href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ&amp;hl=en_US">Том 1</a>
+        <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ&amp;hl=en_US">Том 2</a>
+      </div>
+    </div>
+  </article>
 
-Материалы будут добавлены позже.
+  <article class="book-card book-card-stat-book">
+    <div class="book-body">
+      <span class="book-label">В процессе</span>
+      <h2>Статистический анализ</h2>
+      <p>Книга по статистическому анализу данных находится в работе.</p>
+      <div class="book-actions">
+        <span>Готовится</span>
+      </div>
+    </div>
+  </article>
+</div>
+```
