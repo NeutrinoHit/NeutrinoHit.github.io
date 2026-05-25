@@ -16,5 +16,10 @@ title: "Код"
     <span class="resource-title">gTracker</span>
     <span class="resource-note">Анимированные карты заявок по городам из таблиц Google Sheets, CSV и XLSX</span>
   </a>
+
+  <a class="resource-card resource-card-code-tdse" href="https://github.com/NeutrinoHit/TDSE-Diffraction">
+    <span class="resource-title">TDSE-Diffraction</span>
+    <span class="resource-note">Численное моделирование дифракции в нестационарном уравнении Шрёдингера</span>
+  </a>
 </div>
 ```

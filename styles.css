@@ -338,6 +338,12 @@
     #ffffff;
 }
 
+.resource-card-code-tdse {
+  background:
+    linear-gradient(135deg, rgba(31, 111, 120, 0.15), rgba(255, 255, 255, 0.92) 60%),
+    #ffffff;
+}
+
 .book-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
