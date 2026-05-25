@@ -344,6 +344,12 @@
     #ffffff;
 }
 
+.resource-card-code-coherence {
+  background:
+    linear-gradient(135deg, rgba(111, 82, 154, 0.15), rgba(255, 255, 255, 0.92) 60%),
+    #ffffff;
+}
+
 .book-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
