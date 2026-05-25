@@ -326,6 +326,18 @@
     #ffffff;
 }
 
+.resource-card-code-animation {
+  background:
+    linear-gradient(135deg, rgba(159, 92, 73, 0.14), rgba(255, 255, 255, 0.92) 60%),
+    #ffffff;
+}
+
+.resource-card-code-map {
+  background:
+    linear-gradient(135deg, rgba(54, 95, 145, 0.15), rgba(255, 255, 255, 0.92) 60%),
+    #ffffff;
+}
+
 .book-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
