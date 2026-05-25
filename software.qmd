@@ -21,5 +21,10 @@ title: "Код"
     <span class="resource-title">TDSE-Diffraction</span>
     <span class="resource-note">Численное моделирование дифракции в нестационарном уравнении Шрёдингера</span>
   </a>
+
+  <a class="resource-card resource-card-code-coherence" href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence">
+    <span class="resource-title">neutrino-nucleus-coherence</span>
+    <span class="resource-note">Расчёты когерентности в процессах с нейтрино и ядрами</span>
+  </a>
 </div>
 ```
