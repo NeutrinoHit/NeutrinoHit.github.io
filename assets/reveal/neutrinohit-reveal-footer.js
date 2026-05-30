@@ -1,7 +1,20 @@
 (function () {
+  const scriptElement = document.currentScript;
+  const scriptUrl = scriptElement && scriptElement.src;
+  const assetBaseUrl = scriptUrl
+    ? new URL(".", scriptUrl).href
+    : "https://neutrinohit.github.io/assets/reveal/";
+  const contextHomeUrl = scriptElement && scriptElement.dataset.contextHome
+    ? new URL(scriptElement.dataset.contextHome, window.location.href).href
+    : null;
+
   const config = {
     homeUrl: "https://neutrinohit.github.io/",
-    logoUrl: "https://neutrinohit.github.io/assets/reveal/dvnlogo.png",
+    contextHomeUrl,
+    contextHomeLabel: scriptElement && scriptElement.dataset.contextHomeLabel
+      ? scriptElement.dataset.contextHomeLabel
+      : "Главная страница материалов",
+    logoUrl: new URL("dvnlogo.png", assetBaseUrl).href,
     telegramUrl: "https://t.me/NeutrinoHit",
     youtubeUrl: "https://www.youtube.com/@dmitrynaumov6099/"
   };
@@ -40,8 +53,8 @@
       }
 
       .nh-footer-logo-link {
-        width: 48px;
-        height: 48px;
+        width: 38px;
+        height: 38px;
         overflow: hidden;
         background: rgba(255, 255, 255, 0.95);
       }
@@ -66,10 +79,10 @@
       .nh-footer-logo {
         position: static !important;
         display: block !important;
-        width: 42px !important;
-        height: 42px !important;
-        max-width: 42px !important;
-        max-height: 42px !important;
+        width: 32px !important;
+        height: 32px !important;
+        max-width: 32px !important;
+        max-height: 32px !important;
         margin: 0 !important;
         object-fit: contain !important;
         inset: auto !important;
@@ -108,12 +121,15 @@
     document.head.appendChild(style);
   }
 
-  function iconLink(url, label, svg) {
+  function iconLink(url, label, svg, openInNewTab = true) {
     const link = document.createElement("a");
     link.className = "nh-footer-link";
     link.href = url;
-    link.target = "_blank";
-    link.rel = "noopener";
+    link.title = label;
+    if (openInNewTab) {
+      link.target = "_blank";
+      link.rel = "noopener";
+    }
     link.setAttribute("aria-label", label);
     link.innerHTML = svg;
     return link;
@@ -125,6 +141,7 @@
     link.href = config.homeUrl;
     link.target = "_blank";
     link.rel = "noopener";
+    link.title = "NeutrinoHit";
     link.setAttribute("aria-label", "NeutrinoHit");
 
     const existingLogo = document.querySelector(".reveal .slide-logo, .slide-logo");
@@ -151,6 +168,14 @@
     footer.className = "nh-slide-footer";
     footer.setAttribute("aria-label", "NeutrinoHit links");
     footer.appendChild(logoLink());
+    if (config.contextHomeUrl) {
+      footer.appendChild(iconLink(
+        config.contextHomeUrl,
+        config.contextHomeLabel,
+        '<svg viewBox="0 0 48 48" role="img" aria-hidden="true"><rect x="7" y="8" width="34" height="32" rx="4"></rect><path d="M15 15h18v3H15zm0 7h18v3H15zm0 7h12v3H15z"></path></svg>',
+        false
+      ));
+    }
     footer.appendChild(iconLink(
       config.telegramUrl,
       "Telegram",
