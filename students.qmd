@@ -11,7 +11,9 @@ toc-depth: 2
 ```{=html}
 <div class="thesis-stats" data-student-thesis-stats>
   <span><strong data-thesis-count="total">0</strong> всего работ</span>
-  <span><strong data-thesis-count="phd">0</strong> защищённых кандидатских диссертаций</span>
+  <span><strong data-thesis-count="phd">0</strong> кандидатские диссертации</span>
+  <span><strong data-thesis-count="master">0</strong> магистерские диссертации</span>
+  <span><strong data-thesis-count="bachelor">0</strong> бакалаврские работы</span>
   <span><strong data-thesis-count="diploma">0</strong> дипломных работ</span>
 </div>
 

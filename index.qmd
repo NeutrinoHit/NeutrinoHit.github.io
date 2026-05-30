@@ -131,7 +131,7 @@ toc: false
       </summary>
       <div class="profile-row-body">
         <div class="profile-links">
-          <a href="sciencepop.html">Научно-популярные лекции</a>
+          <a href="https://neutrinohit.github.io/sciencepop/">Научно-популярные лекции</a>
           <a href="books.html">Книги</a>
           <a href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
           <a href="https://t.me/NeutrinoHit">Telegram @NeutrinoHit</a>
