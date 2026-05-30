@@ -2,6 +2,8 @@ project:
   type: website
   resources:
     - "assets/**"
+    - "students/theses/**"
+    - "theses/**"
   render:
     - "*.qmd"
     - "albums/**/*.qmd"
@@ -19,10 +21,16 @@ website:
         text: Книги
       - href: lectures.qmd
         text: Лекции
+      - href: students.qmd
+        text: Студенты
+      - href: theses.qmd
+        text: Диссертации
       - href: schools.qmd
         text: Школы
       - href: talks.qmd
         text: Доклады
+      - href: interviews.qmd
+        text: Интервью
       - href: photos.qmd
         text: Фото
       - href: sciencepop.qmd

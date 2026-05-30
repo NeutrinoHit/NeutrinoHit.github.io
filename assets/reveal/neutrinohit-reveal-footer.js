@@ -29,7 +29,7 @@
         position: fixed;
         right: 5.2rem;
         bottom: 0.9rem;
-        z-index: 45;
+        z-index: 2147483647;
         display: inline-flex;
         align-items: center;
         gap: 10px;
@@ -159,7 +159,7 @@
   }
 
   function buildFooter() {
-    if (!document.querySelector(".reveal")) return;
+    if (!document.querySelector(".reveal, #stageArea")) return;
     if (document.querySelector(".nh-slide-footer")) return;
 
     injectStyles();

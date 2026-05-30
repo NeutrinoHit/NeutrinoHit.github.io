@@ -10,106 +10,169 @@ toc: false
   }
 </style>
 
-<section class="home-hero">
-  <div class="home-hero-copy">
-    <p class="home-eyebrow">NeutrinoHit</p>
-    <h1>Наумов Дмитрий Вадимович</h1>
-    <p class="home-lead">
-      Физик, д. ф.-м. н., преподаватель и автор книг и других материалов по нейтринной физике,
-      квантовой теории поля, статистическому анализу, физике элементарных частиц,
-      астрофизике и космологии.
-    </p>
-    <p>Активно занимается научной популяризацией.</p>
-    <ul class="home-role-list">
-      <li>Заместитель директора Лаборатории ядерных проблем им. В. П. Джелепова ОИЯИ.</li>
-      <li>Руководитель Нейтринной программы ОИЯИ.</li>
-    </ul>
-    <div class="home-actions">
-      <a href="https://naumov.jinr.ru/">Профиль JINR</a>
-      <a href="https://teach-in.ru/lecturer/naumov-dv">Teach-in</a>
-      <a href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
-      <a href="https://t.me/NeutrinoHit">Telegram @NeutrinoHit</a>
-      <a href="https://t.me/s/NeutrinoHit">Лента TG</a>
-      <a href="https://naumov.jinr.ru/download/250">Кандидатская диссертация</a>
-      <a href="https://naumov.jinr.ru/download/249">Докторская диссертация</a>
+<div class="profile-index">
+  <header class="profile-header">
+    <img class="profile-photo" src="assets/naumov-portrait.jpg" alt="Дмитрий Вадимович Наумов">
+    <div>
+      <p class="profile-kicker">NeutrinoHit</p>
+      <h1>Наумов Дмитрий Вадимович</h1>
+      <p class="profile-lead">
+        Физик, д. ф.-м. н., преподаватель и автор книг и других материалов по нейтринной физике,
+        квантовой теории поля, статистическому анализу, физике элементарных частиц,
+        астрофизике и космологии.
+      </p>
+      <nav class="profile-links" aria-label="Основные ссылки">
+        <a href="https://naumov.jinr.ru/">Профиль JINR</a>
+        <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+        <a href="https://teach-in.ru/lecturer/naumov-dv">Teach-in</a>
+        <a href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
+        <a href="https://t.me/NeutrinoHit">Telegram</a>
+      </nav>
     </div>
-  </div>
-  <img class="home-portrait" src="assets/naumov-portrait.jpg" alt="Дмитрий Вадимович Наумов">
-</section>
+  </header>
 
-<section class="home-stats" aria-label="Краткие показатели">
-  <div>
-    <strong>~200</strong>
-    <span>научных работ</span>
-  </div>
-  <div>
-    <strong>&gt;15000</strong>
-    <span>цитирований</span>
-  </div>
-  <div>
-    <strong>51</strong>
-    <span>индекс Хирша</span>
-  </div>
-  <div>
-    <strong>20+</strong>
-    <span>лет преподавания</span>
-  </div>
-</section>
-
-<section class="home-section">
-  <h2>О проекте</h2>
-  <p>
-    NeutrinoHit — карта моих образовательных, научных и научно-популярных материалов:
-    книги, курсы лекций, фотоальбомы, анимации, код, заметки и визуальные истории.
-  </p>
-</section>
-
-<section class="home-grid">
-  <article class="home-panel">
-    <h2>Наука</h2>
+  <section class="profile-intro">
     <p>
-      Участник экспериментов Baikal-GVD, JUNO, Daya Bay, OPERA, NOMAD и EUSO/JEM-EUSO.
-      Научные интересы: физика нейтрино, астрофизика и космические лучи, физика элементарных
-      частиц, квантовая теория поля и космология.
+      NeutrinoHit — карта научных, образовательных и научно-популярных материалов:
+      книг, лекций, докладов, фотоальбомов, анимаций и программных проектов.
     </p>
-  </article>
+  </section>
 
-  <article class="home-panel">
-    <h2>Преподавание</h2>
-    <p>
-      Курсы и школы по квантовой теории поля, физике нейтрино, статистическому анализу
-      и смежным дисциплинам. Под руководством защищены дипломные работы и кандидатские
-      диссертации.
-    </p>
-  </article>
+  <section class="profile-accordion" aria-label="Разделы">
+    <details class="profile-row" open>
+      <summary>
+        <span class="profile-row-kind">Профиль</span>
+        <span>Личная и рабочая информация</span>
+      </summary>
+      <div class="profile-row-body">
+        <p>
+          Заместитель директора Лаборатории ядерных проблем им. В. П. Джелепова ОИЯИ.
+          Руководитель Нейтринной программы ОИЯИ.
+        </p>
+        <p>
+          Член ученых советов ОИЯИ и ЛЯП ОИЯИ, Исполнительного комитета JUNO,
+          участник редколлегии «Письма в ЭЧАЯ», рецензент научных журналов.
+          Активно занимается популяризацией науки.
+        </p>
+        <p class="profile-metrics" data-inspire-stats>
+          <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+          <span><strong data-inspire-papers>~200</strong> публикаций</span>
+          <span><strong data-inspire-citations>&gt;15 000</strong> цитирований</span>
+          <span>h-index <strong data-inspire-h-index>51</strong></span>
+          <small data-inspire-status>Метрики уточняются по INSPIRE.</small>
+        </p>
+        <div class="profile-links">
+          <a href="theses.html">Мои диссертации</a>
+          <a href="https://t.me/s/NeutrinoHit">Лента Telegram в браузере</a>
+        </div>
+      </div>
+    </details>
 
-  <article class="home-panel">
-    <h2>Книги и научпоп</h2>
-    <p>
-      Автор учебника «Квантовая теория поля для экспериментаторов и не только»
-      и научно-популярной книги «Солнечное нейтрино». Новые книги и курсы постепенно
-      собираются здесь.
-    </p>
-  </article>
+    <details class="profile-row">
+      <summary>
+        <span class="profile-row-kind">Наука</span>
+        <span>Эксперименты, интересы и теория</span>
+      </summary>
+      <div class="profile-row-body">
+        <h3>Эксперименты</h3>
+        <div class="profile-links">
+          <a href="https://baikalgvd.jinr.ru/">Baikal-GVD</a>
+          <a href="https://juno.ihep.ac.cn/">JUNO</a>
+          <a href="https://dayabay.bnl.gov/">Daya Bay</a>
+          <a href="https://opendata.cern/docs/about-opera">OPERA</a>
+          <a href="https://greybook.cern.ch/experiment/detail?id=NOMAD">NOMAD</a>
+          <a href="https://jemeuso.riken.jp/en/">EUSO / JEM-EUSO</a>
+        </div>
+        <h3>Научные интересы</h3>
+        <p>
+          Физика нейтрино, астрофизика и физика космических лучей, физика элементарных
+          частиц, квантовая теория поля и космология.
+        </p>
+        <div class="profile-links">
+          <a href="https://neutrinohit.github.io/qft-lectures/">Теория: материалы по КТП</a>
+          <a href="talks.html">Доклады</a>
+        </div>
+      </div>
+    </details>
 
-  <article class="home-panel">
-    <h2>Награды</h2>
-    <p>
-      Лауреат Breakthrough Prize in Fundamental Physics 2016 и European Physical Society Prize
-      2023 в составе коллаборации Daya Bay, а также премий ОИЯИ и ЛЯП ОИЯИ.
-    </p>
-  </article>
-</section>
+    <details class="profile-row">
+      <summary>
+        <span class="profile-row-kind">Преподавание</span>
+        <span>Курсы, школы и руководство студентами</span>
+      </summary>
+      <div class="profile-row-body">
+        <div class="profile-links">
+          <a href="lectures.html">Курсы лекций</a>
+          <a href="schools.html">Школы</a>
+          <a href="students.html">Мои студенты и аспиранты</a>
+        </div>
+      </div>
+    </details>
 
-<section class="home-section">
-  <h2>Быстрые разделы</h2>
-  <div class="home-link-grid">
-    <a href="books.html">Книги</a>
-    <a href="lectures.html">Лекции</a>
-    <a href="sciencepop.html">Научпоп</a>
-    <a href="photos.html">Фото</a>
-    <a href="animations.html">Анимации</a>
-    <a href="software.html">Код</a>
-  </div>
-</section>
+    <details class="profile-row">
+      <summary>
+        <span class="profile-row-kind">Книги</span>
+        <span>Учебники и научно-популярные издания</span>
+      </summary>
+      <div class="profile-row-body">
+        <p>Опубликованные книги и материалы, которые находятся в работе.</p>
+        <div class="profile-links">
+          <a href="books.html">Все книги</a>
+          <a href="https://www.rospexpublishing.com/">Учебник по КТП: Rospex</a>
+          <a href="https://ast.ru/book/solnechnoe-neytrino-862573/">«Солнечное нейтрино»: AST</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="profile-row">
+      <summary>
+        <span class="profile-row-kind">Научпоп</span>
+        <span>Книги, лекции и каналы</span>
+      </summary>
+      <div class="profile-row-body">
+        <div class="profile-links">
+          <a href="sciencepop.html">Научно-популярные лекции</a>
+          <a href="books.html">Книги</a>
+          <a href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
+          <a href="https://t.me/NeutrinoHit">Telegram @NeutrinoHit</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="profile-row">
+      <summary>
+        <span class="profile-row-kind">Награды</span>
+        <span>Премии и профессиональное признание</span>
+      </summary>
+      <div class="profile-row-body">
+        <ul class="profile-list">
+          <li>
+            <a href="https://breakthroughprize.org/Laureates/1/L154">Breakthrough Prize in Fundamental Physics, 2016</a>
+            — в составе коллаборации Daya Bay.
+          </li>
+          <li>
+            <a href="https://eps-hepp.web.cern.ch/eps-hepp-prize-awards.php">European Physical Society Prize, 2023</a>
+            — в составе коллаборации Daya Bay.
+          </li>
+          <li>Первые и вторые премии ОИЯИ и ЛЯП ОИЯИ.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="profile-row">
+      <summary>
+        <span class="profile-row-kind">Интервью</span>
+        <span>Публикации, эфиры и подкасты</span>
+      </summary>
+      <div class="profile-row-body">
+        <p>Материалы о нейтрино, нейтринных телескопах и научной коммуникации.</p>
+        <div class="profile-links">
+          <a href="interviews.html">Открыть страницу интервью</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+
+<script src="assets/inspire-stats.js"></script>
 ```
