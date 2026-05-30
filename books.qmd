@@ -27,6 +27,7 @@ title: "Книги"
       <h2>Квантовая теория поля для экспериментаторов и не только</h2>
       <p>Русское издание учебника в двух томах.</p>
       <div class="book-actions">
+        <a href="https://www.rospexpublishing.com/">Купить на Rospex</a>
         <a href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ&amp;hl=en_US">Том 1</a>
         <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ&amp;hl=en_US">Том 2</a>
       </div>

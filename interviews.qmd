@@ -1,0 +1,80 @@
+---
+title: "Интервью"
+toc: false
+---
+
+Интервью, эфиры и подкасты. Подборка составлена по [странице профиля JINR](https://naumov.jinr.ru/1060/).
+
+```{=html}
+<div class="interview-list">
+  <article class="interview-item">
+    <a class="interview-image-link" href="https://naumov.jinr.ru/1061/">
+      <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1061.jpg" alt="">
+    </a>
+    <div>
+      <h2><a href="https://naumov.jinr.ru/1061/">Ловушка для призраков: астрофизики черпают нейтрино из Байкала</a></h2>
+      <p>О Байкальском глубоководном нейтринном телескопе и задачах нейтринной астрономии.</p>
+    </div>
+  </article>
+
+  <article class="interview-item">
+    <a class="interview-image-link" href="https://naumov.jinr.ru/1062/">
+      <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1062.jpg" alt="">
+    </a>
+    <div>
+      <h2><a href="https://naumov.jinr.ru/1062/">Научная коммуникация — новое понятие и новые знания</a></h2>
+      <p>О работе группы научных коммуникаций ЛЯП ОИЯИ, действующих проектах и планах.</p>
+    </div>
+  </article>
+
+  <article class="interview-item">
+    <a class="interview-image-link" href="https://naumov.jinr.ru/1063/">
+      <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1063.jpg" alt="">
+    </a>
+    <div>
+      <h2><a href="https://naumov.jinr.ru/1063/">Байкальский телескоп — уникальный инструмент нейтринной астрономии</a></h2>
+      <p>О роли Baikal-GVD для науки и о том, какие сведения об эволюции Вселенной несут нейтрино.</p>
+    </div>
+  </article>
+
+  <article class="interview-item">
+    <a class="interview-image-link" href="https://naumov.jinr.ru/1064/">
+      <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1064.jpg" alt="">
+    </a>
+    <div>
+      <h2><a href="https://naumov.jinr.ru/1064/">На дно за черной дырой</a></h2>
+      <p>Интервью «Российской газете» о запуске нейтринного телескопа на озере Байкал.</p>
+    </div>
+  </article>
+
+  <article class="interview-item">
+    <a class="interview-image-link" href="https://naumov.jinr.ru/1065/">
+      <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1065.jpg" alt="">
+    </a>
+    <div>
+      <h2><a href="https://naumov.jinr.ru/1065/">Нейтрино нужно разговорить</a></h2>
+      <p>Интервью Яна Махонина для «Троицкого варианта — Наука».</p>
+    </div>
+  </article>
+
+  <article class="interview-item">
+    <a class="interview-image-link" href="https://naumov.jinr.ru/1133/">
+      <img src="https://hub.jinr.ru/images/infopages/202506/page-1722-1133.png" alt="">
+    </a>
+    <div>
+      <h2><a href="https://naumov.jinr.ru/1133/">Радиоподкаст «Научный подход»</a></h2>
+      <p>Эфир «Радио России» о нейтринных телескопах.</p>
+    </div>
+  </article>
+
+  <article class="interview-item">
+    <a class="interview-image-link" href="https://naumov.jinr.ru/1322/">
+      <img src="https://hub.jinr.ru/images/infopages/202603/page-1722-1322.png" alt="">
+    </a>
+    <div>
+      <h2><a href="https://naumov.jinr.ru/1322/">Первый канал. Подкаст.Лаб. «Кот Шредингера»</a></h2>
+      <p>О происхождении нейтрино, способах их регистрации и телескопах на Байкале и в Антарктиде.</p>
+    </div>
+  </article>
+</div>
+```
