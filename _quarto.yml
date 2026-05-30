@@ -33,7 +33,7 @@ website:
         text: Интервью
       - href: photos.qmd
         text: Фото
-      - href: sciencepop.qmd
+      - href: https://neutrinohit.github.io/sciencepop/
         text: Научпоп
       - href: animations.qmd
         text: Анимации

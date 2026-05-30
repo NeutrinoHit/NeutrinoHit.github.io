@@ -14,7 +14,7 @@ toc: false
       <span class="thesis-type">Иркутский государственный университет</span>
     </summary>
     <div class="thesis-body">
-      <p>«Ядерные переходы <span class="math inline">\(^{16}\mathrm{O} + \mathrm{H} \to {}^{17}\mathrm{F}\)</span> и эффекты электронного экранирования».</p>
+      <p>«Ядерные переходы <span class="nuclear-reaction"><sup>16</sup>O + H → <sup>17</sup>F</span> и эффекты электронного экранирования».</p>
       <p class="thesis-note">Работа выполнена в ОИЯИ. Научный руководитель — Ф. М. Пеньков.</p>
       <a class="thesis-link" href="theses/DmitryNaumov_Diplom.pdf">PDF</a>
     </div>

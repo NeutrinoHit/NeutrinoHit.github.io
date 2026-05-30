@@ -1,12 +1,19 @@
 ---
 title: "Научпоп"
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=https://neutrinohit.github.io/sciencepop/">
+        <link rel="canonical" href="https://neutrinohit.github.io/sciencepop/">
+        <script>window.location.replace("https://neutrinohit.github.io/sciencepop/");</script>
 ---
 
 ```{=html}
 <div class="resource-list">
   <a class="resource-card resource-card-sciencepop" href="https://neutrinohit.github.io/sciencepop/">
     <span class="resource-title">Каталог научпоп-лекций</span>
-    <span class="resource-note">Нейтринные телескопы, современная физика, квантовая частица и новые материалы</span>
+    <span class="resource-note">Переход в отдельный репозиторий научно-популярных лекций</span>
   </a>
 </div>
 ```
