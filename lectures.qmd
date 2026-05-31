@@ -3,20 +3,150 @@ title: "Лекции"
 ---
 
 ```{=html}
-<div class="resource-list resource-list-grid">
-  <a class="resource-card resource-card-stat-ru" href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">
-    <span class="resource-title">Статистический анализ данных</span>
-    <span class="resource-note">Русский курс, слайды лекций</span>
-  </a>
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Курсы, отдельные лекции и материалы к ним. Готовые разделы раскрываются до
+    конкретных лекций или плейлистов; запланированные курсы отмечены отдельно.
+  </p>
 
-  <a class="resource-card resource-card-stat-en" href="https://neutrinohit.github.io/statistical-analysis-course/en/slides/">
-    <span class="resource-title">Statistical Data Analysis</span>
-    <span class="resource-note">English lecture slides</span>
-  </a>
+  <section class="lecture-course-list" aria-label="Каталог курсов">
+    <details class="lecture-course lecture-course-qft" open>
+      <summary>
+        <span class="lecture-course-status">Материалы опубликованы</span>
+        <span class="lecture-course-title">Квантовая теория поля</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Курсы по КТП, Стандартной модели, ренормировке и ускоренным системам отсчёта.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/qft-lectures/">Открыть страницу курса</a>
+          <a href="books.html">Книги и учебники</a>
+        </div>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Введение в квантовую теорию поля</summary>
+            <div class="lecture-material-body">
+              <p>Базовый курс: конспект и видеозаписи.</p>
+              <div class="lecture-course-actions">
+                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29">YouTube</a>
+                <a href="https://teach-in.ru/course/quantum-field-theory-naumov">Teach-in</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Стандартная модель</summary>
+            <div class="lecture-material-body">
+              <p>Введение в Стандартную модель: конспект и видеоматериалы.</p>
+              <div class="lecture-course-actions">
+                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV">YouTube</a>
+                <a href="https://teach-in.ru/course/introduction-to-the-standard-model">Teach-in</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Ренормировка в квантовой теории поля</summary>
+            <div class="lecture-material-body">
+              <p>Конспект курса и видеоплейлисты по ренормировке.</p>
+              <div class="lecture-course-actions">
+                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG">YouTube</a>
+                <a href="https://teach-in.ru/course/renormalization-in-qft">Teach-in</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Ускоренные системы отсчёта и эффект Унру</summary>
+            <div class="lecture-material-body">
+              <p>Мини-курс в формате HTML-слайдов.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/qft-lectures/unruh.html">Открыть слайды</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
 
-  <a class="resource-card resource-card-qft" href="https://neutrinohit.github.io/qft-lectures/">
-    <span class="resource-title">Курсы лекций по КТП</span>
-    <span class="resource-note">Квантовая теория поля, Стандартная модель, ренормировка и эффект Унру</span>
-  </a>
+    <details class="lecture-course lecture-course-stat">
+      <summary>
+        <span class="lecture-course-status">3 лекции опубликованы</span>
+        <span class="lecture-course-title">Статистический анализ данных</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Практический курс для физики высоких энергий, астрофизики и анализа экспериментальных данных.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Открыть русский курс</a>
+          <a href="https://neutrinohit.github.io/statistical-analysis-course/en/slides/">English slides</a>
+        </div>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Мотивация и обзор курса</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/introduction.html">Открыть лекцию</a>
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/exercises/introduction.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Случайные величины, распределения, моменты</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/random-distributions.html">Открыть лекцию</a>
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/exercises/random-distributions.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Центральная предельная теорема и нормальное распределение</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/central-limit-theorem.html">Открыть лекцию</a>
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/exercises/central-limit-theorem.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course lecture-course-neutrino">
+      <summary>
+        <span class="lecture-course-status">3 лекции готовы к публикации</span>
+        <span class="lecture-course-title">Физика нейтрино</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Для раздела подготовлены три HTML-лекции. Ссылки появятся после добавления экспортов.</p>
+      </div>
+    </details>
+
+    <details class="lecture-course lecture-course-particles">
+      <summary>
+        <span class="lecture-course-status">Готовится</span>
+        <span class="lecture-course-title">Физика элементарных частиц</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Материалы курса находятся в работе.</p>
+      </div>
+    </details>
+
+    <details class="lecture-course lecture-course-gravity">
+      <summary>
+        <span class="lecture-course-status">Планируется</span>
+        <span class="lecture-course-title">Гравитация</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Раздел подготовлен для будущего курса.</p>
+      </div>
+    </details>
+
+    <details class="lecture-course lecture-course-oscillations">
+      <summary>
+        <span class="lecture-course-status">Планируется</span>
+        <span class="lecture-course-title">Теория осцилляций нейтрино в КТП</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Будущий специализированный курс по квантово-полевому описанию нейтринных осцилляций.</p>
+      </div>
+    </details>
+  </section>
 </div>
 ```

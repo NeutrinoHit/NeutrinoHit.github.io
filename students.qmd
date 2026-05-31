@@ -229,6 +229,18 @@ toc-depth: 2
     </div>
   </details>
 
+  <details class="thesis-row" data-thesis-category="student">
+    <summary>
+      <span class="thesis-year">2025</span>
+      <span class="thesis-author">Ковалев М. Б.</span>
+      <span class="thesis-type">Студенческая работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Нахождение аналогов нейтринных осцилляций в веществе в классической физике.</p>
+      <a class="thesis-link" href="students/theses/kovalev.pdf">PDF</a>
+    </div>
+  </details>
+
   <details class="thesis-row" data-thesis-category="phd">
     <summary>
       <span class="thesis-year">2026</span>
