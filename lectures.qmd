@@ -18,7 +18,6 @@ title: "Лекции"
       <div class="lecture-course-body">
         <p>Курсы по КТП, Стандартной модели, ренормировке и ускоренным системам отсчёта.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/qft-lectures/">Открыть страницу курса</a>
           <a href="books.html">Книги и учебники</a>
         </div>
         <div class="lecture-material-list">
@@ -27,7 +26,10 @@ title: "Лекции"
             <div class="lecture-material-body">
               <p>Базовый курс: конспект и видеозаписи.</p>
               <div class="lecture-course-actions">
+                <a href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">Конспект</a>
                 <a href="https://www.youtube.com/playlist?list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29">YouTube</a>
+                <a href="https://rutube.ru/plst/1531108/">RuTube</a>
+                <a href="https://vkvideo.ru/playlist/-235607329_5">VK</a>
                 <a href="https://teach-in.ru/course/quantum-field-theory-naumov">Teach-in</a>
               </div>
             </div>
@@ -37,7 +39,10 @@ title: "Лекции"
             <div class="lecture-material-body">
               <p>Введение в Стандартную модель: конспект и видеоматериалы.</p>
               <div class="lecture-course-actions">
+                <a href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">Конспект</a>
                 <a href="https://www.youtube.com/playlist?list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV">YouTube</a>
+                <a href="https://rutube.ru/plst/1538123">RuTube</a>
+                <a href="https://vkvideo.ru/playlist/-235607329_6">VK</a>
                 <a href="https://teach-in.ru/course/introduction-to-the-standard-model">Teach-in</a>
               </div>
             </div>
@@ -47,7 +52,10 @@ title: "Лекции"
             <div class="lecture-material-body">
               <p>Конспект курса и видеоплейлисты по ренормировке.</p>
               <div class="lecture-course-actions">
+                <a href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">Конспект</a>
                 <a href="https://www.youtube.com/playlist?list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG">YouTube</a>
+                <a href="https://rutube.ru/plst/1530811">RuTube</a>
+                <a href="https://vkvideo.ru/playlist/-235607329_4">VK</a>
                 <a href="https://teach-in.ru/course/renormalization-in-qft">Teach-in</a>
               </div>
             </div>
