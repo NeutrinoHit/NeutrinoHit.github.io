@@ -1,0 +1,13 @@
+format:
+  revealjs:
+    theme: black
+    width: 1600
+    height: 900
+    margin: 0.03
+    slide-number: true
+    toc: true
+    toc-depth: 1
+    toc-title: "План лекции"
+    include-after-body:
+      text: |
+        <script data-context-home="../lectures.html" data-context-home-label="Все курсы лекций" src="../assets/reveal/neutrinohit-reveal-footer.js"></script>

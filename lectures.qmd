@@ -110,11 +110,37 @@ title: "Лекции"
 
     <details class="lecture-course lecture-course-neutrino">
       <summary>
-        <span class="lecture-course-status">3 лекции готовы к публикации</span>
+        <span class="lecture-course-status">3 лекции опубликованы</span>
         <span class="lecture-course-title">Физика нейтрино</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Для раздела подготовлены три HTML-лекции. Ссылки появятся после добавления экспортов.</p>
+        <p>Вводный курс по физике нейтрино. Первые три лекции подготовлены в виде HTML-слайдов.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Введение в физику нейтрино</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="neutrino_introduction/Introduction/">Открыть лекцию</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Пространственная чётность</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="neutrino_introduction/Parity/">Открыть лекцию</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Спиральность нейтрино</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="neutrino_introduction/Helicity/">Открыть лекцию</a>
+              </div>
+            </div>
+          </details>
+        </div>
       </div>
     </details>
 
