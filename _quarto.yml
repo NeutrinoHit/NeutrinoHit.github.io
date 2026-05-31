@@ -4,9 +4,12 @@ project:
     - "assets/**"
     - "students/theses/**"
     - "theses/**"
+    - "neutrino_introduction/**/*.html"
+    - "neutrino_introduction/**/assets/**"
   render:
     - "*.qmd"
     - "albums/**/*.qmd"
+    - "neutrino_introduction/**/*.qmd"
     - "!photo-studio.qmd"
 
 website:
