@@ -5,5 +5,6 @@ title: "Доклады"
 ## Конференции
 
 - 2-5 июня 2026: [Физика частиц при средних и высоких энергиях](https://indico.ihep.su/e/PPIHE2026)
+- 2-5 июня 2026: [Статус и перспективы физики нейтрино: российские проекты в глобальном контексте](https://neutrinohit.github.io/talks/protvino-2026/dnaumov.html) ([PDF](https://neutrinohit.github.io/talks/protvino-2026/neutrino-overview-protvino-2026.pdf))
 
 ## Семинары
