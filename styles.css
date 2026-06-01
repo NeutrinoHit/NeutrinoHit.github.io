@@ -746,6 +746,14 @@
   background: linear-gradient(90deg, rgba(72, 104, 92, 0.15), rgba(255, 255, 255, 0.95) 68%);
 }
 
+.lecture-course-talk-conferences > summary {
+  background: linear-gradient(90deg, rgba(54, 95, 145, 0.15), rgba(255, 255, 255, 0.95) 68%);
+}
+
+.lecture-course-talk-seminars > summary {
+  background: linear-gradient(90deg, rgba(72, 104, 92, 0.15), rgba(255, 255, 255, 0.95) 68%);
+}
+
 .book-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
