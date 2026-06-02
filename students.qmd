@@ -30,6 +30,18 @@ toc-depth: 2
     </div>
   </details>
 
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2004</span>
+      <span class="thesis-author">Самойлов Олег Борисович</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Поиск странного экзотического барионного резонанса θ<sup>+</sup>(1530) в эксперименте NOMAD (CERN).</p>
+      <a class="thesis-link" href="students/theses/samoylov_diploma.pdf">PDF</a>
+    </div>
+  </details>
+
   <details class="thesis-row" data-thesis-category="phd">
     <summary>
       <span class="thesis-year">2006</span>
