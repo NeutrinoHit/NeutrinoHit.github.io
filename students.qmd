@@ -20,6 +20,18 @@ toc-depth: 2
 <div class="thesis-list thesis-list-supervised">
   <details class="thesis-row" data-thesis-category="diploma">
     <summary>
+      <span class="thesis-year">2000</span>
+      <span class="thesis-author">Чуканов Артем Владиславович</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Измерение поляризации Λ и Λ̄ гиперонов во взаимодействиях нейтрино и антинейтрино по каналу заряженного тока в эксперименте NOMAD (CERN).</p>
+      <a class="thesis-link" href="students/theses/chukanov_diplom.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
       <span class="thesis-year">2002</span>
       <span class="thesis-author">Любушкин Владимир Викторович</span>
       <span class="thesis-type">Дипломная работа</span>
@@ -244,7 +256,7 @@ toc-depth: 2
   <details class="thesis-row" data-thesis-category="coursework">
     <summary>
       <span class="thesis-year">2025</span>
-      <span class="thesis-author">Ковалев М. Б.</span>
+      <span class="thesis-author">Ковалев Максим Борисович</span>
       <span class="thesis-type">Курсовая работа</span>
     </summary>
     <div class="thesis-body">
