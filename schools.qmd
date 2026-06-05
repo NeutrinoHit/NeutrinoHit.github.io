@@ -2,12 +2,69 @@
 title: "Школы"
 ---
 
-## Baikal Summer School on Physics of Elementary Particles and Astrophysics
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Летние школы по физике элементарных частиц и астрофизике. В разделах
+    собраны страницы прошедших и предстоящих школ; архив будет пополняться.
+  </p>
 
-- [2026](https://indico.jinr.ru/event/5998/)
-- [2025](https://indico.jinr.ru/event/5198/)
+  <section class="lecture-course-list" aria-label="Каталог школ">
+    <details class="lecture-course school-course-baikal" open>
+      <summary>
+        <span class="lecture-course-status">2 школы в архиве</span>
+        <span class="lecture-course-title">Baikal Summer School on Physics of Elementary Particles and Astrophysics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Байкальская летняя школа по физике элементарных частиц и астрофизике.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>2026</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://indico.jinr.ru/event/5998/">Страница школы</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>2025</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://indico.jinr.ru/event/5198/">Страница школы</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
 
-## Baksan School
-
-- [2025](https://indico.inr.ac.ru/event/6/overview)
-- [2019](http://minus.inr.ac.ru/~school/index1.html)
+    <details class="lecture-course school-course-baksan">
+      <summary>
+        <span class="lecture-course-status">2 школы в архиве</span>
+        <span class="lecture-course-title">Baksan School</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Школы на Баксанской нейтринной обсерватории.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>2025</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://indico.inr.ac.ru/event/6/overview">Страница школы</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>2019</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="http://minus.inr.ac.ru/~school/index1.html">Страница школы</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

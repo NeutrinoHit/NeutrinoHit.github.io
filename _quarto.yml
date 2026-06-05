@@ -38,6 +38,8 @@ website:
         text: Фото
       - href: https://neutrinohit.github.io/sciencepop/
         text: Научпоп
+      - href: cinema.qmd
+        text: Мое кино
       - href: animations.qmd
         text: Анимации
       - href: software.qmd

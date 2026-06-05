@@ -2,29 +2,75 @@
 title: "Код"
 ---
 
-
-Программные проекты, расчёты и демонстрационные ноутбуки.
-
 ```{=html}
-<div class="resource-list resource-list-grid">
-  <a class="resource-card resource-card-code-animation" href="https://github.com/dmitryvnaumov/dvnanima">
-    <span class="resource-title">dvnanima</span>
-    <span class="resource-note">Анимации, визуализации и иллюстрации</span>
-  </a>
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Программные проекты, расчёты и демонстрационные материалы. Исходный код
+    опубликованных проектов доступен в репозиториях GitHub.
+  </p>
 
-  <a class="resource-card resource-card-code-map" href="https://github.com/NeutrinoHit/gTracker">
-    <span class="resource-title">gTracker</span>
-    <span class="resource-note">Анимированные карты заявок по городам из таблиц Google Sheets, CSV и XLSX</span>
-  </a>
+  <section class="lecture-course-list" aria-label="Каталог программных проектов">
+    <details class="lecture-course software-course-tools" open>
+      <summary>
+        <span class="lecture-course-status">2 проекта</span>
+        <span class="lecture-course-title">Визуализация и инструменты</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Инструменты для создания научных иллюстраций и визуального представления данных.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>dvnanima</summary>
+            <div class="lecture-material-body">
+              <p>Анимации, визуализации и иллюстрации.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://github.com/dmitryvnaumov/dvnanima">Открыть GitHub</a>
+              </div>
+            </div>
+          </details>
 
-  <a class="resource-card resource-card-code-tdse" href="https://github.com/NeutrinoHit/TDSE-Diffraction">
-    <span class="resource-title">TDSE-Diffraction</span>
-    <span class="resource-note">Численное моделирование дифракции в нестационарном уравнении Шрёдингера</span>
-  </a>
+          <details class="lecture-material">
+            <summary>gTracker</summary>
+            <div class="lecture-material-body">
+              <p>Анимированные карты заявок по городам из таблиц Google Sheets, CSV и XLSX.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/gTracker">Открыть GitHub</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
 
-  <a class="resource-card resource-card-code-coherence" href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence">
-    <span class="resource-title">neutrino-nucleus-coherence</span>
-    <span class="resource-note">Расчёты когерентности в процессах с нейтрино и ядрами</span>
-  </a>
+    <details class="lecture-course software-course-models">
+      <summary>
+        <span class="lecture-course-status">2 проекта</span>
+        <span class="lecture-course-title">Физические модели</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Численные расчёты и демонстрационные модели физических процессов.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>TDSE-Diffraction</summary>
+            <div class="lecture-material-body">
+              <p>Численное моделирование дифракции в нестационарном уравнении Шрёдингера.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/TDSE-Diffraction">Открыть GitHub</a>
+              </div>
+            </div>
+          </details>
+
+          <details class="lecture-material">
+            <summary>neutrino-nucleus-coherence</summary>
+            <div class="lecture-material-body">
+              <p>Расчёты когерентности в процессах с нейтрино и ядрами.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence">Открыть GitHub</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+  </section>
 </div>
 ```

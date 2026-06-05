@@ -75,7 +75,7 @@ title: "Лекции"
 
     <details class="lecture-course lecture-course-stat">
       <summary>
-        <span class="lecture-course-status">3 лекции опубликованы</span>
+        <span class="lecture-course-status">5 лекций опубликованы</span>
         <span class="lecture-course-title">Статистический анализ данных</span>
       </summary>
       <div class="lecture-course-body">
@@ -104,11 +104,27 @@ title: "Лекции"
             </div>
           </details>
           <details class="lecture-material">
+            <summary>Характеристические функции и суммы случайных величин</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/characteristic-functions.html">Открыть лекцию</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
             <summary>Центральная предельная теорема и нормальное распределение</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
                 <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/central-limit-theorem.html">Открыть лекцию</a>
                 <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/exercises/central-limit-theorem.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Когда гаусс не возникает</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/non_gaussian_clt_violations.html">Открыть лекцию</a>
               </div>
             </div>
           </details>
