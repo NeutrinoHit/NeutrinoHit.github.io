@@ -54,4 +54,6 @@ format:
     toc: true
     lang: ru
     css: styles.css
-    include-after-body: album-lightbox.html
+    include-after-body:
+      - album-lightbox.html
+      - analytics/cloudflare-web-analytics.html
