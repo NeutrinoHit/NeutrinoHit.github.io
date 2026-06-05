@@ -16,13 +16,13 @@ toc: false
         <span class="lecture-course-title">Вселенная в нейтринном телескопе</span>
       </summary>
       <div class="lecture-course-body cinema-material-detail">
-        <a href="https://youtu.be/WRAEhMhGPew?si=7WnFmPwJv6V2eT1W">
-          <img src="https://img.youtube.com/vi/WRAEhMhGPew/hqdefault.jpg" alt="">
+        <a href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">
+          <img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt="">
         </a>
         <div>
           <p>Фильм о том, как нейтринные телескопы открывают Вселенную. Сценарист и режиссер: Дмитрий Наумов.</p>
           <div class="lecture-course-actions">
-            <a class="lecture-action-primary" href="https://youtu.be/WRAEhMhGPew?si=7WnFmPwJv6V2eT1W">Смотреть на YouTube</a>
+            <a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">Смотреть на YouTube</a>
           </div>
         </div>
       </div>
