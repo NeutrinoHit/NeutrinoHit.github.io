@@ -3,78 +3,127 @@ title: "Интервью"
 toc: false
 ---
 
-Интервью, эфиры и подкасты. Подборка составлена по [странице профиля JINR](https://naumov.jinr.ru/1060/).
-
 ```{=html}
-<div class="interview-list">
-  <article class="interview-item">
-    <a class="interview-image-link" href="https://naumov.jinr.ru/1061/">
-      <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1061.jpg" alt="">
-    </a>
-    <div>
-      <h2><a href="https://naumov.jinr.ru/1061/">Ловушка для призраков: астрофизики черпают нейтрино из Байкала</a></h2>
-      <p>О Байкальском глубоководном нейтринном телескопе и задачах нейтринной астрономии.</p>
-    </div>
-  </article>
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Интервью, эфиры и подкасты. Подборка составлена по
+    <a href="https://naumov.jinr.ru/1060/">странице профиля JINR</a>
+    и будет пополняться.
+  </p>
 
-  <article class="interview-item">
-    <a class="interview-image-link" href="https://naumov.jinr.ru/1062/">
-      <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1062.jpg" alt="">
-    </a>
-    <div>
-      <h2><a href="https://naumov.jinr.ru/1062/">Научная коммуникация — новое понятие и новые знания</a></h2>
-      <p>О работе группы научных коммуникаций ЛЯП ОИЯИ, действующих проектах и планах.</p>
-    </div>
-  </article>
+  <section class="lecture-course-list" aria-label="Каталог интервью">
+    <details class="lecture-course interview-course-articles" open>
+      <summary>
+        <span class="lecture-course-status">5 материалов</span>
+        <span class="lecture-course-title">Интервью и статьи</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Разговоры о нейтринной физике, Байкальском телескопе и научной коммуникации.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>Ловушка для призраков: астрофизики черпают нейтрино из Байкала</summary>
+            <div class="lecture-material-body interview-material-detail">
+              <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1061.jpg" alt="">
+              <div>
+                <p>О Байкальском глубоководном нейтринном телескопе и задачах нейтринной астрономии.</p>
+                <div class="lecture-course-actions">
+                  <a class="lecture-action-primary" href="https://naumov.jinr.ru/1061/">Открыть материал</a>
+                </div>
+              </div>
+            </div>
+          </details>
 
-  <article class="interview-item">
-    <a class="interview-image-link" href="https://naumov.jinr.ru/1063/">
-      <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1063.jpg" alt="">
-    </a>
-    <div>
-      <h2><a href="https://naumov.jinr.ru/1063/">Байкальский телескоп — уникальный инструмент нейтринной астрономии</a></h2>
-      <p>О роли Baikal-GVD для науки и о том, какие сведения об эволюции Вселенной несут нейтрино.</p>
-    </div>
-  </article>
+          <details class="lecture-material">
+            <summary>Научная коммуникация — новое понятие и новые знания</summary>
+            <div class="lecture-material-body interview-material-detail">
+              <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1062.jpg" alt="">
+              <div>
+                <p>О работе группы научных коммуникаций ЛЯП ОИЯИ, действующих проектах и планах.</p>
+                <div class="lecture-course-actions">
+                  <a class="lecture-action-primary" href="https://naumov.jinr.ru/1062/">Открыть материал</a>
+                </div>
+              </div>
+            </div>
+          </details>
 
-  <article class="interview-item">
-    <a class="interview-image-link" href="https://naumov.jinr.ru/1064/">
-      <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1064.jpg" alt="">
-    </a>
-    <div>
-      <h2><a href="https://naumov.jinr.ru/1064/">На дно за черной дырой</a></h2>
-      <p>Интервью «Российской газете» о запуске нейтринного телескопа на озере Байкал.</p>
-    </div>
-  </article>
+          <details class="lecture-material">
+            <summary>Байкальский телескоп — уникальный инструмент нейтринной астрономии</summary>
+            <div class="lecture-material-body interview-material-detail">
+              <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1063.jpg" alt="">
+              <div>
+                <p>О роли Baikal-GVD для науки и о том, какие сведения об эволюции Вселенной несут нейтрино.</p>
+                <div class="lecture-course-actions">
+                  <a class="lecture-action-primary" href="https://naumov.jinr.ru/1063/">Открыть материал</a>
+                </div>
+              </div>
+            </div>
+          </details>
 
-  <article class="interview-item">
-    <a class="interview-image-link" href="https://naumov.jinr.ru/1065/">
-      <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1065.jpg" alt="">
-    </a>
-    <div>
-      <h2><a href="https://naumov.jinr.ru/1065/">Нейтрино нужно разговорить</a></h2>
-      <p>Интервью Яна Махонина для «Троицкого варианта — Наука».</p>
-    </div>
-  </article>
+          <details class="lecture-material">
+            <summary>На дно за черной дырой</summary>
+            <div class="lecture-material-body interview-material-detail">
+              <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1064.jpg" alt="">
+              <div>
+                <p>Интервью «Российской газете» о запуске нейтринного телескопа на озере Байкал.</p>
+                <div class="lecture-course-actions">
+                  <a class="lecture-action-primary" href="https://naumov.jinr.ru/1064/">Открыть материал</a>
+                </div>
+              </div>
+            </div>
+          </details>
 
-  <article class="interview-item">
-    <a class="interview-image-link" href="https://naumov.jinr.ru/1133/">
-      <img src="https://hub.jinr.ru/images/infopages/202506/page-1722-1133.png" alt="">
-    </a>
-    <div>
-      <h2><a href="https://naumov.jinr.ru/1133/">Радиоподкаст «Научный подход»</a></h2>
-      <p>Эфир «Радио России» о нейтринных телескопах.</p>
-    </div>
-  </article>
+          <details class="lecture-material">
+            <summary>Нейтрино нужно разговорить</summary>
+            <div class="lecture-material-body interview-material-detail">
+              <img src="https://hub.jinr.ru/images/infopages/202503/page-1722-1065.jpg" alt="">
+              <div>
+                <p>Интервью Яна Махонина для «Троицкого варианта — Наука».</p>
+                <div class="lecture-course-actions">
+                  <a class="lecture-action-primary" href="https://naumov.jinr.ru/1065/">Открыть материал</a>
+                </div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
 
-  <article class="interview-item">
-    <a class="interview-image-link" href="https://naumov.jinr.ru/1322/">
-      <img src="https://hub.jinr.ru/images/infopages/202603/page-1722-1322.png" alt="">
-    </a>
-    <div>
-      <h2><a href="https://naumov.jinr.ru/1322/">Первый канал. Подкаст.Лаб. «Кот Шредингера»</a></h2>
-      <p>О происхождении нейтрино, способах их регистрации и телескопах на Байкале и в Антарктиде.</p>
-    </div>
-  </article>
+    <details class="lecture-course interview-course-broadcasts">
+      <summary>
+        <span class="lecture-course-status">2 материала</span>
+        <span class="lecture-course-title">Эфиры и подкасты</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Радиоэфиры и видеоподкасты о нейтрино и нейтринных телескопах.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Радиоподкаст «Научный подход»</summary>
+            <div class="lecture-material-body interview-material-detail">
+              <img src="https://hub.jinr.ru/images/infopages/202506/page-1722-1133.png" alt="">
+              <div>
+                <p>Эфир «Радио России» о нейтринных телескопах.</p>
+                <div class="lecture-course-actions">
+                  <a class="lecture-action-primary" href="https://naumov.jinr.ru/1133/">Открыть материал</a>
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <details class="lecture-material">
+            <summary>Первый канал. Подкаст.Лаб. «Кот Шредингера»</summary>
+            <div class="lecture-material-body interview-material-detail">
+              <img src="https://hub.jinr.ru/images/infopages/202603/page-1722-1322.png" alt="">
+              <div>
+                <p>О происхождении нейтрино, способах их регистрации и телескопах на Байкале и в Антарктиде.</p>
+                <div class="lecture-course-actions">
+                  <a class="lecture-action-primary" href="https://naumov.jinr.ru/1322/">Открыть материал</a>
+                </div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+  </section>
 </div>
 ```

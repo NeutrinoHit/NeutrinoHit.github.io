@@ -754,6 +754,69 @@
   background: linear-gradient(90deg, rgba(72, 104, 92, 0.15), rgba(255, 255, 255, 0.95) 68%);
 }
 
+.school-course-baikal > summary {
+  background: linear-gradient(90deg, rgba(54, 95, 145, 0.15), rgba(255, 255, 255, 0.95) 68%);
+}
+
+.school-course-baksan > summary {
+  background: linear-gradient(90deg, rgba(72, 104, 92, 0.15), rgba(255, 255, 255, 0.95) 68%);
+}
+
+.interview-course-articles > summary {
+  background: linear-gradient(90deg, rgba(54, 95, 145, 0.15), rgba(255, 255, 255, 0.95) 68%);
+}
+
+.interview-course-broadcasts > summary {
+  background: linear-gradient(90deg, rgba(159, 92, 73, 0.14), rgba(255, 255, 255, 0.95) 68%);
+}
+
+.software-course-tools > summary {
+  background: linear-gradient(90deg, rgba(31, 111, 120, 0.15), rgba(255, 255, 255, 0.95) 68%);
+}
+
+.software-course-models > summary {
+  background: linear-gradient(90deg, rgba(111, 82, 154, 0.15), rgba(255, 255, 255, 0.95) 68%);
+}
+
+.cinema-course-documentary > summary {
+  background: linear-gradient(90deg, rgba(54, 95, 145, 0.15), rgba(255, 255, 255, 0.95) 68%);
+}
+
+.cinema-course-animation > summary {
+  background: linear-gradient(90deg, rgba(191, 139, 44, 0.16), rgba(255, 255, 255, 0.95) 68%);
+}
+
+.cinema-material-detail {
+  display: grid;
+  grid-template-columns: 18rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.cinema-material-detail img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 7px;
+  object-fit: cover;
+  background: #dfe5ea;
+}
+
+.interview-material-detail {
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1fr);
+  gap: 0.9rem;
+  align-items: center;
+}
+
+.interview-material-detail img {
+  display: block;
+  width: 100%;
+  height: 6.4rem;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
 .book-cover-spread {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -769,6 +832,25 @@
   border: 1px solid rgba(43, 67, 91, 0.15);
   border-radius: 6px;
   background: #f2f4f6;
+}
+
+@media (max-width: 620px) {
+  .interview-material-detail {
+    grid-template-columns: 1fr;
+  }
+
+  .interview-material-detail img {
+    max-width: 18rem;
+    height: 8rem;
+  }
+
+  .cinema-material-detail {
+    grid-template-columns: 1fr;
+  }
+
+  .cinema-material-detail img {
+    max-width: 28rem;
+  }
 }
 
 .book-course-with-cover {
