@@ -118,7 +118,7 @@ toc: false
         <p>Опубликованные книги и материалы, которые находятся в работе.</p>
         <div class="profile-links">
           <a href="books.html">Все книги</a>
-          <a href="https://www.rospexpublishing.com/">Учебник по КТП: Rospex</a>
+          <a href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Учебник по КТП: ROSPEX</a>
           <a href="https://ast.ru/book/solnechnoe-neytrino-862573/">«Солнечное нейтрино»: AST</a>
         </div>
       </div>
