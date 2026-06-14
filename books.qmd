@@ -25,10 +25,36 @@ title: "Книги"
           <details class="lecture-material" open>
             <summary>Русское издание</summary>
             <div class="lecture-material-body">
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="https://www.rospexpublishing.com/">Купить на Rospex</a>
-                <a href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ&amp;hl=en_US">Том 1</a>
-                <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ&amp;hl=en_US">Том 2</a>
+              <p>Два тома доступны в бумажном и электронном форматах.</p>
+              <div class="lecture-material-list">
+                <details class="lecture-material" open>
+                  <summary>Бумажная версия для России</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Том 1</a>
+                      <a href="https://shop.rcd.ru/catalog/fizika/20097/">Том 2</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>ROSPEX Publishing</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a href="https://rospexpublishing.com/books/qft-volume-1.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Том 1</a>
+                      <a href="https://rospexpublishing.com/books/qft-volume-2.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Том 2</a>
+                      <a class="lecture-action-primary" href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Комплект</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>Google Play Books</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ">Том 1</a>
+                      <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ">Том 2</a>
+                    </div>
+                  </div>
+                </details>
               </div>
             </div>
           </details>
