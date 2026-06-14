@@ -786,6 +786,10 @@
   background: linear-gradient(90deg, rgba(191, 139, 44, 0.16), rgba(255, 255, 255, 0.95) 68%);
 }
 
+.photo-course-archive > summary {
+  background: linear-gradient(90deg, rgba(46, 113, 104, 0.16), rgba(255, 255, 255, 0.95) 68%);
+}
+
 .cinema-material-detail {
   display: grid;
   grid-template-columns: 18rem minmax(0, 1fr);
