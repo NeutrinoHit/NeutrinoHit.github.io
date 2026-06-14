@@ -1,0 +1,42 @@
+{
+  "album": "v-a-rubakov-baikal-school-2009",
+  "generatedAt": "2026-06-14T15:22:13Z",
+  "batches": [
+    {
+      "batch": 1,
+      "totalBatches": 2,
+      "method": "sendMediaGroup",
+      "caption": "В. А. Рубаков. Байкальская школа по физике элементарных частиц и астрофизике, 2009\n\n2009-07-22 · Байкал\n\nФотоархив Байкальской школы по физике элементарных частиц и астрофизике 2009 года.\n\nВалерий Анатольевич Рубаков — на лекциях и во время общения с участниками школы.\n\nЧасть 1/2\n\nhttps://neutrinohit.github.io/albums/v-a-rubakov-baikal-school-2009/",
+      "photos": [
+        "photos/01-sg1s5673.jpg",
+        "photos/02-dsc01235.jpg",
+        "photos/03-dsc01236.jpg",
+        "photos/04-p1000057.jpg",
+        "photos/05-p1000143.jpg",
+        "photos/06-p1000145.jpg",
+        "photos/07-dsc01527.jpg",
+        "photos/08-dsc01529.jpg",
+        "photos/09-dsc01531.jpg",
+        "photos/10-dsc01547.jpg"
+      ]
+    },
+    {
+      "batch": 2,
+      "totalBatches": 2,
+      "method": "sendMediaGroup",
+      "caption": "В. А. Рубаков. Байкальская школа по физике элементарных частиц и астрофизике, 2009\n\n2009-07-22 · Байкал\n\nЧасть 2/2\n\nhttps://neutrinohit.github.io/albums/v-a-rubakov-baikal-school-2009/",
+      "photos": [
+        "photos/11-dsc01552.jpg",
+        "photos/12-dsc01560.jpg",
+        "photos/13-dsc01561.jpg",
+        "photos/14-dsc01580.jpg",
+        "photos/15-dsc01581.jpg",
+        "photos/16-dsc01583.jpg",
+        "photos/17-dsc01613.jpg",
+        "photos/18-sg1s6012.jpg",
+        "photos/19-sg1s6041.jpg",
+        "photos/20-090729-07.jpg"
+      ]
+    }
+  ]
+}

@@ -15,3 +15,6 @@ __pycache__/
 /albums/**/*.html
 /photo-studio.html
 /photo-studio_files/
+
+# Local source folders imported into albums/.
+/Рубаков/
