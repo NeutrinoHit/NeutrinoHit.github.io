@@ -2,8 +2,42 @@
 title: "Фотоальбомы"
 ---
 
-Публичные фотоальбомы NeutrinoHit.
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Публичный фотоархив лекций, школ, поездок и событий NeutrinoHit.
+  </p>
 
-## Альбомы
-
-- [10-17 мая-2026](albums/10-17-may-2026/)
+  <section class="lecture-course-list" aria-label="Каталог фотоальбомов">
+    <details class="lecture-course photo-course-archive" open>
+      <summary>
+        <span class="lecture-course-status">2 альбома</span>
+        <span class="lecture-course-title">Фотоархив NeutrinoHit</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Фотографии лекций, научных школ, поездок и встреч.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>2009 · В. А. Рубаков. Байкальская школа по физике элементарных частиц и астрофизике</summary>
+            <div class="lecture-material-body">
+              <p>20 фотографий · Байкал · 22–29 июля 2009 года.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="albums/v-a-rubakov-baikal-school-2009/">Открыть альбом</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>10–17 мая 2026 · Визит коллег из Китая</summary>
+            <div class="lecture-material-body">
+              <p>Визит профессоров Wei Wang, Jianglai Liu и Yuekun Heng в Москву, Дубну и Санкт-Петербург.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="albums/10-17-may-2026/">Открыть альбом</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```
