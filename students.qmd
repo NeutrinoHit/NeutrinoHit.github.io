@@ -276,6 +276,18 @@ toc-depth: 2
       <a class="thesis-link" href="students/theses/allaxwerdian.pdf">PDF</a>
     </div>
   </details>
+
+  <details class="thesis-row" data-thesis-category="master">
+    <summary>
+      <span class="thesis-year">2026</span>
+      <span class="thesis-author">Бородин Никита Святославович</span>
+      <span class="thesis-type">Магистерская диссертация</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Спин-орбитальные эффекты в распадах (псевдо)скалярных частиц и дифракция закрученных квантовых состояний.</p>
+      <a class="thesis-link" href="students/theses/Borodin_dissertation.pdf">PDF</a>
+    </div>
+  </details>
 </div>
 <script src="assets/students-stats.js"></script>
 ```
