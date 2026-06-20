@@ -134,33 +134,36 @@ title: "Лекции"
 
     <details class="lecture-course lecture-course-neutrino">
       <summary>
-        <span class="lecture-course-status">3 лекции опубликованы</span>
+        <span class="lecture-course-status">Отдельный раздел опубликован</span>
         <span class="lecture-course-title">Физика нейтрино</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Вводный курс по физике нейтрино. Первые три лекции подготовлены в виде HTML-слайдов.</p>
+        <p>Курсы и мастер-классы по физике нейтрино вынесены в отдельный Quarto/GitHub Pages проект.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/neutrinophysics/">Открыть раздел</a>
+        </div>
         <div class="lecture-material-list">
           <details class="lecture-material">
             <summary>Введение в физику нейтрино</summary>
             <div class="lecture-material-body">
+              <p>Вводный курс: первые три лекции опубликованы в виде HTML-слайдов.</p>
               <div class="lecture-course-actions">
-                <a href="neutrino_introduction/Introduction/">Открыть лекцию</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/introduction/">Открыть курс</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/introduction/Introduction/">Лекция 1</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/introduction/Parity/">Лекция 2</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/introduction/Helicity/">Лекция 3</a>
               </div>
             </div>
           </details>
           <details class="lecture-material">
-            <summary>Пространственная чётность</summary>
+            <summary>Солнечные нейтрино</summary>
             <div class="lecture-material-body">
+              <p>Мини-курс мастер-класса: источники, MSW, toy detector, pseudoexperiment and fit.</p>
               <div class="lecture-course-actions">
-                <a href="neutrino_introduction/Parity/">Открыть лекцию</a>
-              </div>
-            </div>
-          </details>
-          <details class="lecture-material">
-            <summary>Спиральность нейтрино</summary>
-            <div class="lecture-material-body">
-              <div class="lecture-course-actions">
-                <a href="neutrino_introduction/Helicity/">Открыть лекцию</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/">Открыть мини-курс</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html">Занятие 1</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html">Занятие 2</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/slides/03_student_defense.html">Занятие 3</a>
               </div>
             </div>
           </details>
@@ -170,11 +173,39 @@ title: "Лекции"
 
     <details class="lecture-course lecture-course-particles">
       <summary>
-        <span class="lecture-course-status">Готовится</span>
+        <span class="lecture-course-status">2 лекции опубликованы</span>
         <span class="lecture-course-title">Физика элементарных частиц</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Материалы курса находятся в работе.</p>
+        <p>English mini-course for Baikal School: particles, fields, interactions, the Standard Model, weak interaction, and neutrinos.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/">Open mini-course</a>
+          <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">Lecture 1</a>
+          <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">Lecture 2</a>
+        </div>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Introduction to Particle Physics I: Particles, Fields, and Interactions</summary>
+            <div class="lecture-material-body">
+              <p>Particles as field quanta, quantum numbers, interactions, Feynman diagrams, cross sections, decay widths, and event-rate language.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">Open slides</a>
+                <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">Questions</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Introduction to Particle Physics II: The Standard Model and Neutrinos</summary>
+            <div class="lecture-material-body">
+              <p>Standard Model field content, gauge structure, weak charged and neutral currents, Higgs mechanism, and neutrino oscillations beyond the minimal SM.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">Open slides</a>
+                <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model_neutrinos.html">Questions</a>
+                <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Formula sheet</a>
+              </div>
+            </div>
+          </details>
+        </div>
       </div>
     </details>
 
