@@ -4,6 +4,38 @@
 
 Публикация сайта настроена через GitHub Actions: push в `main` рендерит Quarto и обновляет ветку `gh-pages`, из которой GitHub Pages отдаёт сайт.
 
+## Локальный preview всего сайта
+
+Корневой сайт можно смотреть из `neutrinohit-map`:
+
+```bash
+quarto preview
+```
+
+После рендера локальный post-render скрипт `scripts/sync_local_project_sites.py`
+копирует уже собранные сайты соседних проектов в `_site/<slug>/`:
+
+- `talks/_site` -> `_site/talks`;
+- `qft-lectures/_site` -> `_site/qft-lectures`;
+- `sciencepop/_site` -> `_site/sciencepop`;
+- `neutrinophysics/_site` -> `_site/neutrinophysics`;
+- `particlephysics/_site` -> `_site/particlephysics`;
+- `stat-course/pages` -> `_site/statistical-analysis-course`.
+
+На `localhost` скрипт `assets/local-preview-links.js` переписывает ссылки вида
+`https://neutrinohit.github.io/...` в локальные `/...`, поэтому из preview можно
+переходить по разделам так, как на опубликованном сайте.
+
+В GitHub Actions этот локальный compose автоматически пропускается по
+`GITHUB_ACTIONS=true`: корневой сайт публикует только карту NeutrinoHit, а
+отдельные проекты публикуют свои Pages самостоятельно.
+
+Если нужно отключить локальное копирование подпроектов:
+
+```bash
+NEUTRINOHIT_SYNC_PROJECT_SITES=0 quarto preview
+```
+
 ## Фотоальбомы
 
 Интерфейс сборки альбома: `photo-studio.qmd`. Это внутренняя страница, она исключена из обычного `quarto render` и не должна публиковаться на сайте.
