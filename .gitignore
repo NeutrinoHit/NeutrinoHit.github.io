@@ -1,5 +1,6 @@
 /_site/
 /.quarto/
+/.make-tmp/
 .DS_Store
 .env
 .env.*

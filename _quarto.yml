@@ -1,5 +1,7 @@
 project:
   type: website
+  post-render:
+    - python scripts/sync_local_project_sites.py
   resources:
     - "assets/**"
     - "students/theses/**"
@@ -53,4 +55,5 @@ format:
     css: styles.css
     include-after-body:
       - album-lightbox.html
+      - assets/local-preview-links.js
       - analytics/cloudflare-web-analytics.html
