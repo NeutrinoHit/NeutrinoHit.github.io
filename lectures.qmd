@@ -69,6 +69,16 @@ title: "Лекции"
               </div>
             </div>
           </details>
+          <details class="lecture-material">
+            <summary>Attraction and Repulsion in Quantum Field Theory</summary>
+            <div class="lecture-material-body">
+              <p>Отдельная лекция по scalar QED и волновым пакетам: как в КТП кодируются притяжение и отталкивание.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/qft-lectures/scalar-qed-attraction-repulsion.html">Страница лекции</a>
+                <a href="https://neutrinohit.github.io/qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html">Слайды</a>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </details>
