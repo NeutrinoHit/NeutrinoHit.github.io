@@ -187,40 +187,29 @@ title: "Лекции"
         <span class="lecture-course-title">Физика элементарных частиц</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Раздел для материалов по физике элементарных частиц: опубликован Baikal School mini-course и подготовлен каркас будущего курса из 16 лекций.</p>
+        <p>Курсы и мини-курсы по физике элементарных частиц вынесены в отдельный Quarto/GitHub Pages проект.</p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="https://neutrinohit.github.io/particlephysics/">Открыть раздел</a>
-          <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/">Baikal mini-course</a>
-          <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/">16-lecture course scaffold</a>
         </div>
         <div class="lecture-material-list">
           <details class="lecture-material">
-            <summary>Introduction to Particle Physics I: Particles, Fields, and Interactions</summary>
+            <summary>Мини-курс</summary>
             <div class="lecture-material-body">
-              <p>Particles as field quanta, quantum numbers, interactions, Feynman diagrams, cross sections, decay widths, and event-rate language.</p>
+              <p>Две вводные лекции: частицы, поля, взаимодействия, структура Стандартной модели, слабое взаимодействие и нейтрино.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">Open slides</a>
-                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">Questions</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/">Открыть мини-курс</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">Лекция 1</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">Лекция 2</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Формулы</a>
               </div>
             </div>
           </details>
           <details class="lecture-material">
-            <summary>Introduction to Particle Physics II: The Standard Model and Neutrinos</summary>
+            <summary>Введение в физику элементарных частиц</summary>
             <div class="lecture-material-body">
-              <p>Standard Model field content, gauge structure, weak charged and neutral currents, Higgs mechanism, and neutrino oscillations beyond the minimal SM.</p>
+              <p>Планируемый большой курс с русскими и английскими материалами. Ориентир — около 16 лекций; точное число можно менять по мере подготовки.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">Open slides</a>
-                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model_neutrinos.html">Questions</a>
-                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Formula sheet</a>
-              </div>
-            </div>
-          </details>
-          <details class="lecture-material">
-            <summary>Particle Physics</summary>
-            <div class="lecture-material-body">
-              <p>Planned bilingual course with RU/EN slides and book structure.</p>
-              <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/">Open scaffold</a>
+                <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/">Открыть курс</a>
                 <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/ru/slides/">RU slides</a>
                 <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/en/slides/">EN slides</a>
               </div>
