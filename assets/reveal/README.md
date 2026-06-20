@@ -5,7 +5,13 @@ Shared footer for Quarto RevealJS talks and lectures.
 The canonical copy lives here. Local copies are stored in each lecture/talk
 repository so `quarto preview` works without waiting for GitHub Pages.
 
-After editing the footer script or logo, run from `neutrinohit-map`:
+The sync target list is defined in `../../scripts/sync_reveal_assets.py`. It
+copies the common footer/logo into each project-level `shared/reveal/`
+directory and copies the common Reveal SCSS into project-level
+`shared/styles/` directories where that style is used.
+
+After editing the footer script, logo, or shared Reveal SCSS, run from
+`neutrinohit-map`:
 
 ```bash
 python scripts/sync_reveal_assets.py
@@ -39,6 +45,12 @@ logo into the footer. Otherwise it uses:
 
 ```text
 shared/reveal/dvnlogo.png
+```
+
+The shared dark Reveal SCSS is:
+
+```text
+shared/styles/neutrinohit-reveal.scss
 ```
 
 `data-external="1"` is intentional: presentations with `embed-resources: true`
