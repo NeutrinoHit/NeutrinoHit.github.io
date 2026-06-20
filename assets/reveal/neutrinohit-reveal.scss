@@ -1,0 +1,50 @@
+/*-- scss:defaults --*/
+
+$body-bg: #000000;
+$body-color: #f2f2f2;
+$link-color: #7cc7ff;
+$selection-bg: #444444;
+
+$presentation-heading-color: #ffffff;
+$presentation-heading-font-weight: 600;
+$presentation-font-size-root: 36px;
+$presentation-line-height: 1.25;
+
+$code-block-bg: #111111;
+$code-block-border-color: #333333;
+$code-block-font-size: 0.58em;
+
+/*-- scss:rules --*/
+
+.reveal .slide {
+  text-align: left;
+}
+
+.reveal .slide h1,
+.reveal .slide h2,
+.reveal .slide h3 {
+  letter-spacing: 0.01em;
+}
+
+.reveal .slide p,
+.reveal .slide li {
+  color: #f2f2f2;
+}
+
+.reveal .slide strong {
+  color: #ffffff;
+}
+
+.reveal .slide blockquote {
+  border-left: 4px solid #7cc7ff;
+  padding-left: 0.7em;
+  color: #dddddd;
+}
+
+.reveal .slide code {
+  color: #ffd27c;
+}
+
+.reveal .slide pre code {
+  color: #f2f2f2;
+}

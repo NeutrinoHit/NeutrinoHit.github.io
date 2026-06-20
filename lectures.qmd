@@ -173,15 +173,15 @@ title: "Лекции"
 
     <details class="lecture-course lecture-course-particles">
       <summary>
-        <span class="lecture-course-status">2 лекции опубликованы</span>
+        <span class="lecture-course-status">Отдельный раздел опубликован</span>
         <span class="lecture-course-title">Физика элементарных частиц</span>
       </summary>
       <div class="lecture-course-body">
-        <p>English mini-course for Baikal School: particles, fields, interactions, the Standard Model, weak interaction, and neutrinos.</p>
+        <p>Раздел для материалов по физике элементарных частиц: опубликован Baikal School mini-course и подготовлен каркас будущего курса из 16 лекций.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/">Open mini-course</a>
-          <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">Lecture 1</a>
-          <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">Lecture 2</a>
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/particlephysics/">Открыть раздел</a>
+          <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/">Baikal mini-course</a>
+          <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/">16-lecture course scaffold</a>
         </div>
         <div class="lecture-material-list">
           <details class="lecture-material">
@@ -189,8 +189,8 @@ title: "Лекции"
             <div class="lecture-material-body">
               <p>Particles as field quanta, quantum numbers, interactions, Feynman diagrams, cross sections, decay widths, and event-rate language.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">Open slides</a>
-                <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">Questions</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">Open slides</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">Questions</a>
               </div>
             </div>
           </details>
@@ -199,9 +199,20 @@ title: "Лекции"
             <div class="lecture-material-body">
               <p>Standard Model field content, gauge structure, weak charged and neutral currents, Higgs mechanism, and neutrino oscillations beyond the minimal SM.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">Open slides</a>
-                <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model_neutrinos.html">Questions</a>
-                <a href="https://neutrinohit.github.io/talks/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Formula sheet</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">Open slides</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model_neutrinos.html">Questions</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Formula sheet</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Particle Physics</summary>
+            <div class="lecture-material-body">
+              <p>Planned bilingual course with RU/EN slides and book structure.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/">Open scaffold</a>
+                <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/ru/slides/">RU slides</a>
+                <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/en/slides/">EN slides</a>
               </div>
             </div>
           </details>
