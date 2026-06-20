@@ -55,5 +55,5 @@ format:
     css: styles.css
     include-after-body:
       - album-lightbox.html
-      - assets/local-preview-links.js
+      - assets/local-preview-links.html
       - analytics/cloudflare-web-analytics.html
