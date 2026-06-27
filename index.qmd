@@ -27,6 +27,8 @@ toc: false
         <a href="https://teach-in.ru/lecturer/naumov-dv">Teach-in</a>
         <a href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
         <a href="https://t.me/NeutrinoHit">Telegram</a>
+        <a href="https://www.facebook.com/dmitry.naumov.52">Facebook</a>
+        <a href="https://www.instagram.com/dmitryvnaumov_dlnp/">Instagram</a>
       </nav>
     </div>
   </header>
@@ -135,6 +137,8 @@ toc: false
           <a href="books.html">Книги</a>
           <a href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
           <a href="https://t.me/NeutrinoHit">Telegram @NeutrinoHit</a>
+          <a href="https://www.facebook.com/dmitry.naumov.52">Facebook</a>
+          <a href="https://www.instagram.com/dmitryvnaumov_dlnp/">Instagram</a>
         </div>
       </div>
     </details>
