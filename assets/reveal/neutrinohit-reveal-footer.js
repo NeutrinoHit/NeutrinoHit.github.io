@@ -14,6 +14,9 @@
     contextHomeLabel: scriptElement && scriptElement.dataset.contextHomeLabel
       ? scriptElement.dataset.contextHomeLabel
       : "Главная страница материалов",
+    mathJaxRenderer: scriptElement && scriptElement.dataset.mathjaxRenderer
+      ? scriptElement.dataset.mathjaxRenderer
+      : "SVG",
     logoUrl: new URL("dvnlogo.png", assetBaseUrl).href,
     telegramUrl: "https://t.me/NeutrinoHit",
     youtubeUrl: "https://www.youtube.com/@dmitrynaumov6099/"
@@ -190,9 +193,44 @@
     document.body.appendChild(footer);
   }
 
+  function configureMathJax() {
+    if (!config.mathJaxRenderer || config.mathJaxRenderer === "default") return;
+    if (window.__neutrinohitMathJaxConfigured) return;
+
+    let attempts = 0;
+    const maxAttempts = 120;
+    const interval = window.setInterval(() => {
+      attempts += 1;
+      const hub = window.MathJax && window.MathJax.Hub;
+      if (!hub) {
+        if (attempts >= maxAttempts) window.clearInterval(interval);
+        return;
+      }
+
+      window.clearInterval(interval);
+      window.__neutrinohitMathJaxConfigured = true;
+
+      try {
+        hub.Queue(["setRenderer", hub, config.mathJaxRenderer]);
+        hub.Queue(["Rerender", hub]);
+        hub.Queue(() => {
+          if (window.Reveal && typeof window.Reveal.layout === "function") {
+            window.Reveal.layout();
+          }
+        });
+      } catch (error) {
+        console.warn("NeutrinoHit: could not configure MathJax renderer", error);
+      }
+    }, 100);
+  }
+
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", buildFooter, { once: true });
+    document.addEventListener("DOMContentLoaded", () => {
+      buildFooter();
+      configureMathJax();
+    }, { once: true });
   } else {
     buildFooter();
+    configureMathJax();
   }
 })();
