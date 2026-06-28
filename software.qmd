@@ -23,7 +23,7 @@ title: "Код"
             <div class="lecture-material-body">
               <p>Анимации, визуализации и иллюстрации.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="https://github.com/dmitryvnaumov/dvnanima">Открыть GitHub</a>
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima">Открыть GitHub</a>
               </div>
             </div>
           </details>
