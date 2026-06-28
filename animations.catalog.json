@@ -62,6 +62,64 @@
           ]
         },
         {
+          "id": "juno",
+          "title": "JUNO",
+          "source_dir": "mass_hierarchy",
+          "description": "Анимации про детектор JUNO, осцилляции реакторных нейтрино и путь нейтрино к событию.",
+          "videos": [
+            {
+              "id": "survival",
+              "label": "Вероятность выживания",
+              "path": "mass_hierarchy/videos/juno_survival/1080p60/JunoSurvivalScene.mp4"
+            },
+            {
+              "id": "neutrino-pov",
+              "label": "Путь нейтрино",
+              "path": "mass_hierarchy/videos/neutrino_vision/480p15/NeutrinoPOV.mp4"
+            },
+            {
+              "id": "intro",
+              "label": "Intro",
+              "path": "mass_hierarchy/videos/juno_epic/1080p60/IntroScene.mp4"
+            },
+            {
+              "id": "neutrino-flight",
+              "label": "Neutrino flight",
+              "path": "mass_hierarchy/videos/juno_epic/1080p60/NeutrinoFlightScene.mp4"
+            },
+            {
+              "id": "chorus-reveal",
+              "label": "Chorus reveal",
+              "path": "mass_hierarchy/videos/juno_epic/1080p60/ChorusRevealScene.mp4"
+            },
+            {
+              "id": "verse-1",
+              "label": "Verse 1",
+              "path": "mass_hierarchy/videos/juno_epic/1080p60/Verse1Scene.mp4"
+            },
+            {
+              "id": "verse-2",
+              "label": "Verse 2",
+              "path": "mass_hierarchy/videos/juno_epic/1080p60/Verse2Scene.mp4"
+            },
+            {
+              "id": "step-by-step-hit",
+              "label": "Step-by-step hit",
+              "path": "mass_hierarchy/videos/juno_epic/1080p60/StepByStepHitScene.mp4"
+            },
+            {
+              "id": "final-chorus",
+              "label": "Final chorus",
+              "path": "mass_hierarchy/videos/juno_epic/1080p60/FinalChorusScene.mp4"
+            },
+            {
+              "id": "outro",
+              "label": "Outro",
+              "path": "mass_hierarchy/videos/juno_epic/1080p60/OutroScene.mp4"
+            }
+          ]
+        },
+        {
           "id": "air-shower",
           "title": "Атмосферный ливень",
           "source_dir": "airshower",
@@ -257,13 +315,8 @@
           "id": "radiating-charge",
           "title": "Излучающий заряд",
           "source_dir": "fields/radiating_charge",
-          "description": "Численная визуализация поля движущегося заряда в 2D и 3D.",
+          "description": "Численная визуализация поля движущегося заряда в 3D.",
           "videos": [
-            {
-              "id": "two-dimensional",
-              "label": "2D",
-              "path": "fields/radiating_charge/radiating_charge_pyqtgraph_2d.mp4"
-            },
             {
               "id": "three-dimensional",
               "label": "3D",
@@ -464,6 +517,16 @@
               "id": "rossler",
               "label": "Rössler",
               "path": "strange_attractors/media/videos/attractors/1920p60/RosslerScene.mp4"
+            },
+            {
+              "id": "thomas",
+              "label": "Thomas",
+              "path": "mass_hierarchy/videos/attractors/1080p60/ThomasScene.mp4"
+            },
+            {
+              "id": "dadras",
+              "label": "Dadras",
+              "path": "mass_hierarchy/videos/attractors/1080p60/DadrasScene.mp4"
             }
           ]
         },
@@ -532,28 +595,10 @@
           ]
         },
         {
-          "id": "nu-to-heart",
-          "title": "Нейтрино в сердце",
-          "source_dir": "nutoheart",
-          "description": "Короткая визуальная метаморфоза символа ν в сердце.",
-          "videos": [
-            {
-              "id": "short",
-              "label": "Nu to Heart",
-              "path": "nutoheart/media/videos/nutoheart/1920p60/NuToHeartShort.mp4"
-            },
-            {
-              "id": "morph",
-              "label": "Morph",
-              "path": "nutoheart/media/videos/nutoheart/1920p60/NuMorphToHeart.mp4"
-            }
-          ]
-        },
-        {
           "id": "barkov",
           "title": "Звезда, ветер и облако",
           "source_dir": null,
-          "description": "Локальные астрофизические ролики без отдельного исходного кода в dvnanima.",
+          "description": "Астрофизические ролики; анимации переданы автору М. В. Барковым.",
           "videos": [
             {
               "id": "star-wind",
