@@ -1,0 +1,573 @@
+{
+  "repository_url": "https://github.com/NeutrinoHit/dvnanima",
+  "source_base_url": "https://github.com/NeutrinoHit/dvnanima/tree/main",
+  "sections": [
+    {
+      "id": "neutrino-particles",
+      "title": "Нейтрино и частицы",
+      "summary": "Осцилляции нейтрино, каскады, ядерные процессы и диаграммы взаимодействий.",
+      "items": [
+        {
+          "id": "neutrino-oscillations",
+          "title": "Нейтринные осцилляции",
+          "source_dir": "neutrino_oscillations",
+          "description": "Геометрическая визуализация двух- и трёхмерной картины осцилляций нейтрино.",
+          "videos": [
+            {
+              "id": "triangle",
+              "label": "Общая эволюция",
+              "path": "neutrino_oscillations/media/videos/neutrino3d/1920p60/nu_triangle.mp4"
+            },
+            {
+              "id": "electron",
+              "label": "Электронный аромат",
+              "path": "neutrino_oscillations/media/videos/neutrino3d/1920p60/nu_triangle_e.mp4"
+            },
+            {
+              "id": "muon",
+              "label": "Мюонный аромат",
+              "path": "neutrino_oscillations/media/videos/neutrino3d/1920p60/nu_triangle_mu.mp4"
+            },
+            {
+              "id": "tau",
+              "label": "Тау-аромат",
+              "path": "neutrino_oscillations/media/videos/neutrino3d/1920p60/nu_triangle_tau.mp4"
+            }
+          ]
+        },
+        {
+          "id": "neutrino-oscillation-phases",
+          "title": "Осцилляции нейтрино с фазами",
+          "source_dir": "neutrino_oscillations_phases",
+          "description": "Фазовая интерпретация трёхфлейворных нейтринных осцилляций.",
+          "videos": [
+            {
+              "id": "phases",
+              "label": "Фазы осцилляций",
+              "path": "neutrino_oscillations_phases/media/videos/neu_osc_phases/1080p60/NeutrinoOscillationPhases.mp4"
+            }
+          ]
+        },
+        {
+          "id": "mass-hierarchy",
+          "title": "Иерархия масс нейтрино",
+          "source_dir": "mass_hierarchy",
+          "description": "Балансная схема нормальной и обратной иерархий масс.",
+          "videos": [
+            {
+              "id": "scales",
+              "label": "Шкалы масс",
+              "path": "mass_hierarchy/media/videos/balance/1080p60/NeutrinoHierarchyScales.mp4"
+            }
+          ]
+        },
+        {
+          "id": "air-shower",
+          "title": "Атмосферный ливень",
+          "source_dir": "airshower",
+          "description": "Схематическая анимация развития атмосферного каскада.",
+          "videos": [
+            {
+              "id": "air-shower",
+              "label": "Каскад",
+              "path": "airshower/media/videos/airshower/1080p60/AirShower.mp4"
+            }
+          ]
+        },
+        {
+          "id": "pp-cycle",
+          "title": "Протон-протонный цикл",
+          "source_dir": "pp_cycle",
+          "description": "Три ключевых реакции солнечной pp-цепочки.",
+          "videos": [
+            {
+              "id": "pp-to-d",
+              "label": "p + p → D + e⁺ + νₑ",
+              "path": "pp_cycle/media/videos/pp-D-e-nu/1080p60/PP_to_D_e_nu.mp4"
+            },
+            {
+              "id": "d-p-he3",
+              "label": "D + p → ³He + γ",
+              "path": "pp_cycle/media/videos/D-p-He-gamma/1080p60/D_p_to_He3_gamma.mp4"
+            },
+            {
+              "id": "he3-he3",
+              "label": "³He + ³He → ⁴He + 2p",
+              "path": "pp_cycle/media/videos/He3_He3_to_He4_2p/1080p60/He3_He3_to_He4_2p.mp4"
+            }
+          ]
+        },
+        {
+          "id": "feynman-scattering",
+          "title": "Диаграммы рассеяния",
+          "source_dir": "feynman_scattering",
+          "description": "Анимированные диаграммы Фейнмана для типичных процессов рассеяния.",
+          "videos": [
+            {
+              "id": "nu-mu-electron",
+              "label": "νμ + e → νe + μ",
+              "path": "feynman_scattering/media/videos/feynman_scattering/1920p60/NuMuElectronToNuEMuonScattering.mp4"
+            },
+            {
+              "id": "nu-mu-z",
+              "label": "Нейтринное рассеяние через Z",
+              "path": "feynman_scattering/media/videos/feynman_scattering/1920p60/NuMuMuonScatteringViaZ.mp4"
+            },
+            {
+              "id": "electron-electron",
+              "label": "e + e",
+              "path": "feynman_scattering/media/videos/feynman_scattering/1920p60/ElectronElectronScattering.mp4"
+            },
+            {
+              "id": "quark-quark",
+              "label": "q + q",
+              "path": "feynman_scattering/media/videos/feynman_scattering/1920p60/QuarkQuarkScattering.mp4"
+            }
+          ]
+        },
+        {
+          "id": "nucleus-shapes",
+          "title": "Формы ядер",
+          "source_dir": "nucleus_shapes",
+          "description": "Морфинг сферических и деформированных ядерных форм.",
+          "videos": [
+            {
+              "id": "shape-morphs",
+              "label": "Деформации",
+              "path": "nucleus_shapes/media/videos/nucleus_shapes/854p60/NucleusShapeMorphs.mp4"
+            }
+          ]
+        },
+        {
+          "id": "pmt",
+          "title": "Фотоумножитель",
+          "source_dir": "pmt",
+          "description": "Схематическая траектория электронов в ФЭУ по численным данным.",
+          "videos": [
+            {
+              "id": "pmt-schematic",
+              "label": "PMT schematic",
+              "path": "pmt/media/videos/pmt_manim/1080p60/PMTSchematicFromHDF5.mp4"
+            }
+          ]
+        },
+        {
+          "id": "cherenkov-cone",
+          "title": "Конус Черенкова",
+          "source_dir": "cherenkov_cone",
+          "description": "Геометрия черенковского излучения в цилиндрической сцене.",
+          "videos": [
+            {
+              "id": "cylinder",
+              "label": "Конус в цилиндре",
+              "path": "cherenkov_cone/cherenkov_cylinder.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fields-waves",
+      "title": "Поля, волны и осцилляторы",
+      "summary": "Электромагнитные поля, волновые пакеты, связанные осцилляторы и простые электронные схемы.",
+      "items": [
+        {
+          "id": "scalar-qed",
+          "title": "Scalar QED: волновые пакеты",
+          "source_dir": "fields/scalar_qed",
+          "description": "Притяжение и отталкивание волновых пакетов через аналитическое поле и эйкональную фазу.",
+          "videos": [
+            {
+              "id": "single",
+              "label": "Один пакет и поле",
+              "path": "fields/scalar_qed/media/single.mp4"
+            },
+            {
+              "id": "repulsion",
+              "label": "Одинаковые заряды",
+              "path": "fields/scalar_qed/media/pp.mp4"
+            },
+            {
+              "id": "attraction",
+              "label": "Противоположные заряды",
+              "path": "fields/scalar_qed/media/pm.mp4"
+            }
+          ]
+        },
+        {
+          "id": "mediator-interaction",
+          "title": "Взаимодействие через поле-переносчик",
+          "source_dir": "fields/mediator_interaction",
+          "description": "Две частицы и динамическое поле, через которое проявляется взаимодействие.",
+          "videos": [
+            {
+              "id": "with-interaction",
+              "label": "С взаимодействием",
+              "path": "fields/mediator_interaction/media/videos/scene_03_mediator_interaction/1080p60/MediatorInteractionScene.mp4"
+            },
+            {
+              "id": "without-interaction",
+              "label": "Без взаимодействия",
+              "path": "fields/mediator_interaction/media/videos/scene_03_mediator_interaction/480p15/MediatorInteractionScene_noint.mp4"
+            }
+          ]
+        },
+        {
+          "id": "free-wavepackets",
+          "title": "Свободные волновые пакеты",
+          "source_dir": "fields/wavepackets_free",
+          "description": "Одиночный гауссов пакет и пара свободно распространяющихся пакетов.",
+          "videos": [
+            {
+              "id": "single",
+              "label": "Один пакет",
+              "path": "fields/wavepackets_free/media/videos/scene_01_single_packet/1080p60/SingleGaussianWavePacket.mp4"
+            },
+            {
+              "id": "two",
+              "label": "Два пакета",
+              "path": "fields/wavepackets_free/media/videos/scene_02_two_packets/1080p60/TwoFreeWavePackets.mp4"
+            }
+          ]
+        },
+        {
+          "id": "coupled-oscillators-fields",
+          "title": "Связанные осцилляторы",
+          "source_dir": "fields/coupled_oscillators_2d",
+          "description": "Одномерные, двумерные и трёхмерные связанные осцилляторные системы.",
+          "videos": [
+            {
+              "id": "one-dimensional",
+              "label": "1D",
+              "path": "fields/coupled_oscillators_1d/media/videos/coupled_oscillators_1d/1920p60/CoupledOscillators1D.mp4"
+            },
+            {
+              "id": "two-dimensional",
+              "label": "2D",
+              "path": "fields/coupled_oscillators_2d/media/videos/coupled_oscillators_2d/1080p60/CoupledOscillators2D.mp4"
+            },
+            {
+              "id": "three-dimensional",
+              "label": "3D",
+              "path": "fields/coupled_oscillators_3d/media/videos/coupled_oscillators_3d/1920p60/CoupledOscillators3D.mp4"
+            }
+          ]
+        },
+        {
+          "id": "radiating-charge",
+          "title": "Излучающий заряд",
+          "source_dir": "fields/radiating_charge",
+          "description": "Численная визуализация поля движущегося заряда в 2D и 3D.",
+          "videos": [
+            {
+              "id": "two-dimensional",
+              "label": "2D",
+              "path": "fields/radiating_charge/radiating_charge_pyqtgraph_2d.mp4"
+            },
+            {
+              "id": "three-dimensional",
+              "label": "3D",
+              "path": "fields/radiating_charge/radiating_charge_pyqtgraph_3d.mp4"
+            }
+          ]
+        },
+        {
+          "id": "coupled-pendulums",
+          "title": "Связанные маятники",
+          "source_dir": "coupled_pendulums",
+          "description": "Передача энергии между двумя связанными маятниками.",
+          "videos": [
+            {
+              "id": "pendulums",
+              "label": "Маятники",
+              "path": "coupled_pendulums/media/videos/coupled_pendulums/1920p60/CoupledPendulums.mp4"
+            }
+          ]
+        },
+        {
+          "id": "capacitor",
+          "title": "Конденсатор в переменном токе",
+          "source_dir": "capacitor",
+          "description": "Фазовые соотношения и зарядка конденсатора в AC-цепи.",
+          "videos": [
+            {
+              "id": "capacitor",
+              "label": "Capacitor",
+              "path": "capacitor/media/videos/Capacitor/1080p60/Capacitor.mp4"
+            }
+          ]
+        },
+        {
+          "id": "diode",
+          "title": "Диод в переменном токе",
+          "source_dir": "diode",
+          "description": "Однополупериодное выпрямление и работа диода в AC-цепи.",
+          "videos": [
+            {
+              "id": "diode",
+              "label": "Diode",
+              "path": "diode/media/videos/Diode/1080p60/Diode.mp4"
+            }
+          ]
+        },
+        {
+          "id": "peak-detector",
+          "title": "Пиковый детектор",
+          "source_dir": "peak_detector",
+          "description": "Принцип работы пикового детектора на диоде и конденсаторе.",
+          "videos": [
+            {
+              "id": "peak-detector",
+              "label": "Peak detector",
+              "path": "peak_detector/media/videos/peak_detector/1080p60/PeakDetector.mp4"
+            }
+          ]
+        },
+        {
+          "id": "cockcroft-walton",
+          "title": "Генератор Кокрофта-Уолтона",
+          "source_dir": "cockroftwalton",
+          "description": "Схема умножителя напряжения и последовательная зарядка каскадов.",
+          "videos": [
+            {
+              "id": "cascade",
+              "label": "Cascade",
+              "path": "cockroftwalton/media/videos/CockroftWaltonAnimation/1080p60/CockcroftWaltonAnimation.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-dynamical-systems",
+      "title": "Математика и динамические системы",
+      "summary": "Фурье-рисование, аттракторы, ретроградное движение, спирали и комплексные степени.",
+      "items": [
+        {
+          "id": "fourier-drawing",
+          "title": "Фурье-рисование",
+          "source_dir": "FourierTransform",
+          "description": "Аппроксимация контуров эпициклами и рядами Фурье.",
+          "videos": [
+            {
+              "id": "fourier-svg",
+              "label": "Fourier SVG",
+              "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/FourierSVGEpicycles.mp4"
+            },
+            {
+              "id": "pi",
+              "label": "π",
+              "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/pi.mp4"
+            },
+            {
+              "id": "telescope",
+              "label": "Телескоп",
+              "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/telescope.mp4"
+            },
+            {
+              "id": "brain",
+              "label": "Мозг",
+              "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/brain.mp4"
+            },
+            {
+              "id": "dinosaur",
+              "label": "Динозавр",
+              "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/dinosaurus.mp4"
+            },
+            {
+              "id": "woman-1",
+              "label": "Портрет 1",
+              "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/woman1.mp4"
+            },
+            {
+              "id": "woman-2",
+              "label": "Портрет 2",
+              "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/woman2.mp4"
+            },
+            {
+              "id": "woman-4",
+              "label": "Портрет 4",
+              "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/woman4.mp4"
+            }
+          ]
+        },
+        {
+          "id": "retrograde-motion",
+          "title": "Ретроградное движение",
+          "source_dir": "retrograde",
+          "description": "Геоцентрическая картина и эпициклы для планет.",
+          "videos": [
+            {
+              "id": "geocentric",
+              "label": "Геоцентрическая траектория",
+              "path": "retrograde/media/videos/Ptolemy/1080p60/GeocentricRetrograde.mp4"
+            },
+            {
+              "id": "mars",
+              "label": "Марс",
+              "path": "retrograde/media/videos/Ptolemy/1920p60/Mars.mp4"
+            },
+            {
+              "id": "jupiter",
+              "label": "Юпитер",
+              "path": "retrograde/media/videos/Ptolemy/1920p60/Jupiter.mp4"
+            },
+            {
+              "id": "saturn",
+              "label": "Сатурн",
+              "path": "retrograde/media/videos/Ptolemy/1920p60/Saturn.mp4"
+            },
+            {
+              "id": "mars-fourier",
+              "label": "Марс: Фурье",
+              "path": "retrograde/media/videos/Ptolemy/1920p60/MarsFourie.mp4"
+            },
+            {
+              "id": "saturn-fourier",
+              "label": "Сатурн: Фурье",
+              "path": "retrograde/media/videos/Ptolemy/1920p60/SaturnFourie.mp4"
+            },
+            {
+              "id": "mars-card",
+              "label": "Карточка Марса",
+              "path": "retrograde/media/videos/planets/1920p60/MarsCard.mp4"
+            },
+            {
+              "id": "jupiter-card",
+              "label": "Карточка Юпитера",
+              "path": "retrograde/media/videos/planets/1920p60/JupiterCard.mp4"
+            },
+            {
+              "id": "saturn-card",
+              "label": "Карточка Сатурна",
+              "path": "retrograde/media/videos/planets/1920p60/SaturnCard.mp4"
+            }
+          ]
+        },
+        {
+          "id": "strange-attractors",
+          "title": "Странные аттракторы",
+          "source_dir": "strange_attractors",
+          "description": "Классические динамические системы в фазовом пространстве.",
+          "videos": [
+            {
+              "id": "lorenz",
+              "label": "Lorenz",
+              "path": "strange_attractors/media/videos/attractors/1920p60/LorenzScene.mp4"
+            },
+            {
+              "id": "aizawa",
+              "label": "Aizawa",
+              "path": "strange_attractors/media/videos/attractors/1920p60/AizawaScene.mp4"
+            },
+            {
+              "id": "rossler",
+              "label": "Rössler",
+              "path": "strange_attractors/media/videos/attractors/1920p60/RosslerScene.mp4"
+            }
+          ]
+        },
+        {
+          "id": "riemann-zeta",
+          "title": "Спираль дзета-функции Римана",
+          "source_dir": "riemann1",
+          "description": "Визуализация траектории значений дзета-функции в комплексной плоскости.",
+          "videos": [
+            {
+              "id": "zeta",
+              "label": "Riemann zeta",
+              "path": "riemann1/media/videos/RiemannZetaSpiral/1080p60/RiemannZetaSpiral.mp4"
+            },
+            {
+              "id": "shorts",
+              "label": "Короткая версия",
+              "path": "riemann1/media/videos/RiemannZetaSpiral/480p15/RiemannShorts.mp4"
+            }
+          ]
+        },
+        {
+          "id": "pi-day-spiral",
+          "title": "Спираль числа π",
+          "source_dir": "pi_day_spiral",
+          "description": "Цифры числа π, собранные в короткую спиральную визуализацию.",
+          "videos": [
+            {
+              "id": "spiral",
+              "label": "Pi Day",
+              "path": "pi_day_spiral/media/videos/pi_day_spiral/1920p60/PiDaySpiralShorts.mp4"
+            }
+          ]
+        },
+        {
+          "id": "imaginary-powers",
+          "title": "Комплексные степени",
+          "source_dir": "imaginary",
+          "description": "Визуальная история про степени мнимой единицы и движение в комплексной плоскости.",
+          "videos": [
+            {
+              "id": "imaginary-power",
+              "label": "Imaginary powers",
+              "path": "imaginary/media/videos/imagine/1920p60/ImaginaryPowerScene.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visual-stories",
+      "title": "Визуальные сюжеты",
+      "summary": "Короткие самостоятельные анимации и научно-популярные визуальные истории.",
+      "items": [
+        {
+          "id": "rose-eight",
+          "title": "Восьмёрка роз",
+          "source_dir": "march8",
+          "description": "Параметрическая роза и праздничный короткий ролик.",
+          "videos": [
+            {
+              "id": "rose-eight",
+              "label": "Rose Eight",
+              "path": "march8/media/videos/roses/1920p60/RoseEight.mp4"
+            }
+          ]
+        },
+        {
+          "id": "nu-to-heart",
+          "title": "Нейтрино в сердце",
+          "source_dir": "nutoheart",
+          "description": "Короткая визуальная метаморфоза символа ν в сердце.",
+          "videos": [
+            {
+              "id": "short",
+              "label": "Nu to Heart",
+              "path": "nutoheart/media/videos/nutoheart/1920p60/NuToHeartShort.mp4"
+            },
+            {
+              "id": "morph",
+              "label": "Morph",
+              "path": "nutoheart/media/videos/nutoheart/1920p60/NuMorphToHeart.mp4"
+            }
+          ]
+        },
+        {
+          "id": "barkov",
+          "title": "Звезда, ветер и облако",
+          "source_dir": null,
+          "description": "Локальные астрофизические ролики без отдельного исходного кода в dvnanima.",
+          "videos": [
+            {
+              "id": "star-wind",
+              "label": "Star + Wind",
+              "path": "Barkov/Star+Wind.mp4"
+            },
+            {
+              "id": "star-jet-cloud",
+              "label": "Star Jet + Cloud",
+              "path": "Barkov/Star_Jet+Cloud.mp4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

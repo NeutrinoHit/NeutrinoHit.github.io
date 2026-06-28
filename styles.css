@@ -718,6 +718,104 @@
   font-size: 1.15rem;
 }
 
+.animation-catalog-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.46rem;
+  align-items: center;
+  margin: -0.4rem 0 1.1rem;
+  color: #53616f;
+  font-size: 0.92rem;
+}
+
+.animation-catalog-meta span,
+.animation-catalog-meta a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0.32rem 0.58rem;
+  border: 1px solid rgba(43, 67, 91, 0.14);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.86);
+  color: #27475d;
+  text-decoration: none;
+}
+
+.animation-catalog-meta a:hover {
+  border-color: #1f6f78;
+  color: #175873;
+  text-decoration: none;
+}
+
+.animation-material > summary {
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.animation-material-title {
+  min-width: 0;
+}
+
+.animation-material-count {
+  color: #6d7b86;
+  font-size: 0.84rem;
+  font-weight: 560;
+  white-space: nowrap;
+}
+
+.animation-material-body {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.animation-video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.85rem 1rem;
+}
+
+.animation-video-frame {
+  min-width: 0;
+  margin: 0;
+}
+
+.animation-video-frame video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid rgba(43, 67, 91, 0.16);
+  border-radius: 8px;
+  background: #050708;
+  object-fit: contain;
+}
+
+.animation-video-frame figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.32rem 0.55rem;
+  justify-content: space-between;
+  margin-top: 0.36rem;
+  color: #53616f;
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
+.animation-video-frame figcaption span {
+  color: #344654;
+  font-weight: 650;
+}
+
+.animation-video-frame figcaption small {
+  color: #7a8792;
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.animation-actions {
+  margin-top: 0;
+}
+
 .lecture-material-body {
   padding: 0 0.15rem 0.82rem;
 }
