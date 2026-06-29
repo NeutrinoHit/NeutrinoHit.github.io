@@ -21,6 +21,18 @@ toc-depth: 2
   <details class="thesis-row" data-thesis-category="diploma">
     <summary>
       <span class="thesis-year">2000</span>
+      <span class="thesis-author">Кустов Д. В.</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Поляризация Лямбда гиперонов в эксперименте NOMAD.</p>
+      <a class="thesis-link" href="students/theses/kustov.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2000</span>
       <span class="thesis-author">Чуканов Артем Владиславович</span>
       <span class="thesis-type">Дипломная работа</span>
     </summary>
