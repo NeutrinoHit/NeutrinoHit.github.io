@@ -259,13 +259,15 @@ Checklist:
 
 Checklist:
 
-- [ ] Add shared CSS files under `assets/site/`.
-- [ ] Include them in root `_quarto.yml` before local `styles.css`.
+- [x] Add shared CSS files under `assets/site/`.
+- [x] Include them in root `_quarto.yml` before local `styles.css`.
 - [ ] Keep visual output equivalent on existing pages.
-- [ ] Extract duplicated `course-*` CSS from one source into shared layer.
-- [ ] Update `qft-lectures`, `neutrinophysics`, `particlephysics` to include the
+- [x] Extract duplicated `course-*` CSS from one source into shared layer.
+- [x] Update `qft-lectures`, `neutrinophysics`, `particlephysics` to include the
       shared layer, leaving their local `styles.css` as overrides.
 - [ ] Render and compare root plus three educational subprojects.
+      Current checkpoint rendered root plus `index.qmd` for the three
+      educational subprojects; visual screenshot comparison remains next.
 
 ### Phase 2: New RU top-level pages
 
