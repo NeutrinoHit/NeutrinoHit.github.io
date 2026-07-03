@@ -21,11 +21,18 @@ toc: false
         <div>
           <p>
             Образовательная программа Teach-in по физике нейтрино и астрофизике частиц.
-            Дмитрий Наумов — программный директор.
           </p>
+          <dl class="education-program-meta">
+            <dt>Куратор программы</dt>
+            <dd>Надежда Кузнецова</dd>
+            <dt>Программный директор</dt>
+            <dd>Дмитрий Наумов</dd>
+            <dt>Контакты</dt>
+            <dd><a href="mailto:fn@teach-in.ru">fn@teach-in.ru</a></dd>
+          </dl>
           <div class="lecture-course-actions">
             <a class="lecture-action-primary" href="https://teach-in.ru/program">Открыть программу</a>
-            <a href="../assets/programs/teach-in-program.pdf">PDF программы</a>
+            <a href="../assets/programs/teach-in-program.pdf">Презентация</a>
             <a href="https://teach-in.ru/lecturer/naumov-dv">Профиль лектора</a>
           </div>
         </div>
