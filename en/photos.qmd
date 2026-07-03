@@ -1,0 +1,45 @@
+---
+title: "Photo Albums"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Public photo archive of NeutrinoHit lectures, schools, trips, and events.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Photo album catalog">
+    <details class="lecture-course photo-course-archive" open>
+      <summary>
+        <span class="lecture-course-status">2 albums</span>
+        <span class="lecture-course-title">NeutrinoHit photo archive</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Photographs from lectures, scientific schools, trips, and meetings.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>2009 · V. A. Rubakov. Baikal School on Particle Physics and Astrophysics</summary>
+            <div class="lecture-material-body">
+              <p>20 photographs · Lake Baikal · July 22-29, 2009.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../albums/v-a-rubakov-baikal-school-2009/">Open album</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>May 10-17, 2026 · Visit of colleagues from China</summary>
+            <div class="lecture-material-body">
+              <p>Visit of Professors Wei Wang, Jianglai Liu, and Yuekun Heng to Moscow, Dubna, and Saint Petersburg.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../albums/10-17-may-2026/">Open album</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

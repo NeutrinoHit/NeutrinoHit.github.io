@@ -1,0 +1,48 @@
+---
+title: "Talks"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Conference and seminar talks. Published talks provide browser slides and, when available, a PDF version.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Talk catalog">
+    <details class="lecture-course lecture-course-talk-conferences" open>
+      <summary>
+        <span class="lecture-course-status">1 published talk</span>
+        <span class="lecture-course-title">Conferences</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Scientific conference and workshop talks.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>June 2-5, 2026 · Status and prospects of neutrino physics</summary>
+            <div class="lecture-material-body">
+              <p>Russian projects in the global context. The slides are in Russian.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://neutrinohit.github.io/talks/protvino-2026/dnaumov.html">Open slides</a>
+                <a href="https://neutrinohit.github.io/talks/protvino-2026/neutrino-overview-protvino-2026.pdf">PDF</a>
+                <a href="https://indico.ihep.su/e/PPIHE2026">Conference page</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course lecture-course-talk-seminars">
+      <summary>
+        <span class="lecture-course-status">To be expanded</span>
+        <span class="lecture-course-title">Seminars</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Seminar materials will be added as they are published.</p>
+      </div>
+    </details>
+  </section>
+</div>
+```

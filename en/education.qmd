@@ -8,7 +8,7 @@ toc: false
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
     Courses, educational programs, schools, textbooks, and student supervision.
-    Russian-only materials are marked explicitly.
+    Russian-language materials are labeled at the link level.
   </p>
 
   <section class="lecture-course-list" aria-label="Education sections">
@@ -40,7 +40,7 @@ toc: false
           and self-study materials.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../lectures.html">Lecture catalog (in Russian)</a>
+          <a class="lecture-action-primary" href="lectures.html">Lecture catalog</a>
           <a href="https://neutrinohit.github.io/qft-lectures/">Quantum field theory</a>
           <a href="https://neutrinohit.github.io/neutrinophysics/">Neutrino physics</a>
           <a href="https://neutrinohit.github.io/particlephysics/">Particle physics</a>
@@ -57,10 +57,10 @@ toc: false
       <div class="lecture-course-body">
         <p>
           QFT textbook, books in progress, an online statistics book, and
-          outreach books. Some book pages are currently available only in Russian.
+          outreach books. Individual Russian-language resources are marked in the catalog.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../books.html">Books catalog (in Russian)</a>
+          <a class="lecture-action-primary" href="books.html">Books catalog</a>
           <a href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">QFT textbook</a>
           <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/book/">Statistics online book (in Russian)</a>
         </div>
@@ -78,8 +78,8 @@ toc: false
           around NeutrinoHit.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../students.html">Students and theses (in Russian)</a>
-          <a href="../schools.html">Schools (in Russian)</a>
+          <a class="lecture-action-primary" href="students.html">Students and theses</a>
+          <a href="schools.html">Schools</a>
           <a href="school.html">School</a>
         </div>
       </div>

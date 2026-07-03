@@ -36,7 +36,7 @@ toc: false
     <p>
       NeutrinoHit is a map of research, educational, and outreach materials:
       books, lectures, talks, photo albums, animations, code projects, and
-      course sites. Russian-only materials are marked as such.
+      course sites. Russian-language materials are labeled at the link level.
     </p>
   </section>
 
@@ -51,7 +51,7 @@ toc: false
         <div class="profile-links">
           <a href="research.html">Open Research</a>
           <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
-          <a href="../talks.html">Talks archive (in Russian)</a>
+          <a href="talks.html">Talks archive</a>
         </div>
       </div>
     </details>
@@ -65,7 +65,7 @@ toc: false
         <div class="profile-links">
           <a href="education.html">Open Education</a>
           <a href="https://teach-in.ru/program">Neutrino and Astroparticle Physics program (in Russian)</a>
-          <a href="../lectures.html">Lecture catalog (in Russian)</a>
+          <a href="lectures.html">Lecture catalog</a>
         </div>
       </div>
     </details>
@@ -78,8 +78,8 @@ toc: false
       <div class="profile-row-body">
         <div class="profile-links">
           <a href="outreach.html">Open Outreach</a>
-          <a href="https://neutrinohit.github.io/sciencepop/">Popular lectures (in Russian)</a>
-          <a href="../interviews.html">Interviews (in Russian)</a>
+          <a href="sciencepop.html">Popular lectures</a>
+          <a href="interviews.html">Interviews</a>
         </div>
       </div>
     </details>

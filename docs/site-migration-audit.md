@@ -31,6 +31,7 @@
   to `/ru/`; English counterpart entry pages were added under `/en/`. Root
   semantic URLs remain as transition pages to the Russian version.
 - Phase 4 prep: public section `People / Люди` renamed to `School / Школа` with old `people.html` URLs kept as redirects.
+- Phase 4: English catalog pages added for books, lectures, software, science communication, visual materials, talks, schools, theses, and supervised works; English section pages now link to these EN pages instead of using root Russian catalogs as the primary path.
 - Deferred projects for later passes: `QFT-book-ru`, `QFT-book-en`, `dvnanima`,
   `gTracker`.
 

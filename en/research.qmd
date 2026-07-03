@@ -26,7 +26,7 @@ toc: false
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
           <a href="https://naumov.jinr.ru/">JINR profile</a>
-          <a href="../theses.html">Theses (in Russian)</a>
+          <a href="theses.html">Theses</a>
         </div>
       </div>
     </details>
@@ -63,7 +63,7 @@ toc: false
           programs, and the state of the field.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../talks.html">Talk archive (in Russian)</a>
+          <a class="lecture-action-primary" href="talks.html">Talk archive</a>
           <a href="https://neutrinohit.github.io/talks/">Talks project</a>
         </div>
       </div>
@@ -81,8 +81,8 @@ toc: false
         </p>
         <div class="lecture-course-actions">
           <a href="https://neutrinohit.github.io/qft-lectures/">QFT lectures</a>
-          <a href="../software.html">Code catalog (in Russian)</a>
-          <a href="../animations.html">Animations (in Russian)</a>
+          <a href="software.html">Code catalog</a>
+          <a href="animations.html">Animations</a>
           <a href="materials.html">All materials</a>
         </div>
       </div>

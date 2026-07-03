@@ -20,10 +20,10 @@ toc: false
       <div class="lecture-course-body">
         <p>
           Diploma, bachelor, master, and PhD works supervised by Dmitry Naumov.
-          The detailed list is currently in Russian.
+          The thesis PDFs are in Russian unless stated otherwise.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../students.html">Open supervised works (in Russian)</a>
+          <a class="lecture-action-primary" href="students.html">Open supervised works</a>
         </div>
       </div>
     </details>
@@ -39,7 +39,7 @@ toc: false
           astroparticle physics, and neutrino physics.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../schools.html">Open schools (in Russian)</a>
+          <a class="lecture-action-primary" href="schools.html">Open schools</a>
         </div>
       </div>
     </details>
@@ -55,7 +55,7 @@ toc: false
           colleagues, and educational events.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../photos.html">Open photo albums (in Russian)</a>
+          <a class="lecture-action-primary" href="photos.html">Open photo albums</a>
         </div>
       </div>
     </details>

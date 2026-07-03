@@ -1,0 +1,46 @@
+---
+title: "Interviews"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Interviews, broadcasts, and podcasts based on the public JINR profile collection. The linked materials are in Russian.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Interview catalog">
+    <details class="lecture-course interview-course-articles" open>
+      <summary>
+        <span class="lecture-course-status">5 materials</span>
+        <span class="lecture-course-title">Interviews and articles</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Conversations about neutrino physics, the Baikal telescope, and science communication.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://naumov.jinr.ru/1061/">A trap for ghosts: astrophysicists draw neutrinos from Baikal</a>
+          <a href="https://naumov.jinr.ru/1062/">Science communication: new concept and new knowledge</a>
+          <a href="https://naumov.jinr.ru/1063/">The Baikal telescope as a unique neutrino-astronomy instrument</a>
+          <a href="https://naumov.jinr.ru/1064/">To the bottom for a black hole</a>
+          <a href="https://naumov.jinr.ru/1065/">Neutrinos need to be made to speak</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course interview-course-broadcasts">
+      <summary>
+        <span class="lecture-course-status">2 materials</span>
+        <span class="lecture-course-title">Broadcasts and podcasts</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Radio and video conversations about neutrinos and neutrino telescopes.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://naumov.jinr.ru/1133/">Scientific Approach radio podcast</a>
+          <a href="https://naumov.jinr.ru/1322/">Channel One Podcast Lab: Schrodinger's Cat</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

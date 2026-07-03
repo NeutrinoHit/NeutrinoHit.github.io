@@ -6,7 +6,19 @@
     { key: 'outreach', ruText: 'Научная коммуникация', enText: 'Outreach', ruHref: '/ru/outreach.html', enHref: '/en/outreach.html' },
     { key: 'materials', ruText: 'Материалы', enText: 'Materials', ruHref: '/ru/materials.html', enHref: '/en/materials.html' },
     { key: 'school', ruText: 'Школа', enText: 'School', ruHref: '/ru/school.html', enHref: '/en/school.html' },
-    { key: 'about', ruText: 'Обо мне', enText: 'About', ruHref: '/ru/about.html', enHref: '/en/about.html' }
+    { key: 'about', ruText: 'Обо мне', enText: 'About', ruHref: '/ru/about.html', enHref: '/en/about.html' },
+    { key: 'books', ruText: 'Книги', enText: 'Books', ruHref: '/books.html', enHref: '/en/books.html' },
+    { key: 'lectures', ruText: 'Лекции', enText: 'Lectures', ruHref: '/lectures.html', enHref: '/en/lectures.html' },
+    { key: 'students', ruText: 'Студенты', enText: 'Students', ruHref: '/students.html', enHref: '/en/students.html' },
+    { key: 'theses', ruText: 'Диссертации', enText: 'Theses', ruHref: '/theses.html', enHref: '/en/theses.html' },
+    { key: 'schools', ruText: 'Школы', enText: 'Schools', ruHref: '/schools.html', enHref: '/en/schools.html' },
+    { key: 'talks', ruText: 'Доклады', enText: 'Talks', ruHref: '/talks.html', enHref: '/en/talks.html' },
+    { key: 'interviews', ruText: 'Интервью', enText: 'Interviews', ruHref: '/interviews.html', enHref: '/en/interviews.html' },
+    { key: 'photos', ruText: 'Фото', enText: 'Photos', ruHref: '/photos.html', enHref: '/en/photos.html' },
+    { key: 'sciencepop', ruText: 'Научпоп', enText: 'Popular Science', ruHref: '/sciencepop.html', enHref: '/en/sciencepop.html' },
+    { key: 'cinema', ruText: 'Мое кино', enText: 'Films', ruHref: '/cinema.html', enHref: '/en/cinema.html' },
+    { key: 'animations', ruText: 'Анимации', enText: 'Animations', ruHref: '/animations.html', enHref: '/en/animations.html' },
+    { key: 'software', ruText: 'Код', enText: 'Code', ruHref: '/software.html', enHref: '/en/software.html' }
   ];
 
   const ruLanguageCodes = new Set(['ru', 'be', 'uk', 'kk', 'ky', 'uz', 'tg', 'tk', 'hy', 'az', 'ka', 'ro', 'mo']);

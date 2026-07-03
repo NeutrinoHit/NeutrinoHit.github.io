@@ -1,0 +1,43 @@
+---
+title: "Schools"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Summer schools in particle physics and astrophysics: past and upcoming events.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Schools catalog">
+    <details class="lecture-course school-course-baikal" open>
+      <summary>
+        <span class="lecture-course-status">2 events</span>
+        <span class="lecture-course-title">Baikal Summer School on Physics of Elementary Particles and Astrophysics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Baikal summer school on particle physics and astrophysics.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://indico.jinr.ru/event/5998/">2026 school page</a>
+          <a href="https://indico.jinr.ru/event/5198/">2025 school page</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course school-course-baksan">
+      <summary>
+        <span class="lecture-course-status">2 events</span>
+        <span class="lecture-course-title">Baksan School</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Schools at the Baksan Neutrino Observatory.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://indico.inr.ac.ru/event/6/overview">2025 school page</a>
+          <a href="http://minus.inr.ac.ru/~school/index1.html">2019 school page</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

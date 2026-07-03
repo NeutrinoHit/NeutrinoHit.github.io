@@ -1,0 +1,75 @@
+---
+title: "Code"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Software projects, numerical calculations, and demonstration materials. Source code for public projects is available on GitHub.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Software catalog">
+    <details class="lecture-course software-course-tools" open>
+      <summary>
+        <span class="lecture-course-status">2 projects</span>
+        <span class="lecture-course-title">Visualization and tools</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Tools for scientific illustrations and visual presentation of data.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>dvnanima</summary>
+            <div class="lecture-material-body">
+              <p>Animations, visualizations, and scientific illustrations.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima">Open GitHub</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>gTracker</summary>
+            <div class="lecture-material-body">
+              <p>Animated city maps from Google Sheets, CSV, and XLSX tables.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/gTracker">Open GitHub</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course software-course-models">
+      <summary>
+        <span class="lecture-course-status">2 projects</span>
+        <span class="lecture-course-title">Physical models</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Numerical calculations and demonstrational models of physical processes.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>TDSE-Diffraction</summary>
+            <div class="lecture-material-body">
+              <p>Numerical modeling of diffraction in the time-dependent Schrodinger equation.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/TDSE-Diffraction">Open GitHub</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>neutrino-nucleus-coherence</summary>
+            <div class="lecture-material-body">
+              <p>Coherence calculations for neutrino-nucleus processes.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence">Open GitHub</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

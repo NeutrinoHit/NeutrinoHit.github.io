@@ -20,10 +20,10 @@ toc: false
       <div class="lecture-course-body">
         <p>
           Popular lectures on neutrinos, dark matter, black holes, the Universe,
-          and modern physics. The current catalog is in Russian.
+          and modern physics.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/sciencepop/">Open lectures (in Russian)</a>
+          <a class="lecture-action-primary" href="sciencepop.html">Open lectures</a>
         </div>
       </div>
     </details>
@@ -39,9 +39,9 @@ toc: false
           telescopes and animation materials for broad audiences.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../books.html">Books (in Russian)</a>
-          <a href="../cinema.html">Films (in Russian)</a>
-          <a href="../animations.html">Animations (in Russian)</a>
+          <a class="lecture-action-primary" href="books.html">Books</a>
+          <a href="cinema.html">Films</a>
+          <a href="animations.html">Animations</a>
         </div>
       </div>
     </details>
@@ -57,7 +57,7 @@ toc: false
           and the role of fundamental physics in contemporary culture.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../interviews.html">Interviews (in Russian)</a>
+          <a class="lecture-action-primary" href="interviews.html">Interviews</a>
           <a href="https://naumov.jinr.ru/1060/">JINR profile: publications</a>
         </div>
       </div>
