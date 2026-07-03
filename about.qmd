@@ -1,0 +1,71 @@
+---
+title: "Обо мне"
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Краткая персональная и профессиональная карта: научный профиль,
+    должности, книги, публичные каналы, диссертации и внешние страницы.
+  </p>
+
+  <section class="lecture-course-list" aria-label="О Дмитрии Наумове">
+    <details class="lecture-course" open>
+      <summary>
+        <span class="lecture-course-status">Профиль</span>
+        <span class="lecture-course-title">Дмитрий Вадимович Наумов</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Физик, д. ф.-м. н., заместитель директора Лаборатории ядерных проблем
+          им. В. П. Джелепова ОИЯИ, руководитель Нейтринной программы ОИЯИ,
+          преподаватель и автор материалов NeutrinoHit.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="index.html">Главная страница</a>
+          <a href="https://naumov.jinr.ru/">Профиль JINR</a>
+          <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Научная биография</span>
+        <span class="lecture-course-title">Диссертации, награды, профессиональная деятельность</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Квалификационные работы, научные интересы, участие в экспериментах
+          и профессиональные ссылки собраны в связанных разделах сайта.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="theses.html">Мои диссертации</a>
+          <a href="research.html">Наука</a>
+          <a href="talks.html">Доклады</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Публичные площадки</span>
+        <span class="lecture-course-title">NeutrinoHit, YouTube, Telegram, Teach-in</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Основные внешние страницы для лекций, новостей, образовательных
+          программ и научной коммуникации.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
+          <a href="https://t.me/NeutrinoHit">Telegram</a>
+          <a href="https://teach-in.ru/lecturer/naumov-dv">Teach-in</a>
+          <a href="outreach.html">Научная коммуникация</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```
