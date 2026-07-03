@@ -14,7 +14,7 @@ toc: false
   <section class="lecture-course-list" aria-label="Education sections">
     <details class="lecture-course" open>
       <summary>
-        <span class="lecture-course-status">Flagship program</span>
+        <span class="lecture-course-status">Online program</span>
         <span class="lecture-course-title">Neutrino Physics and Astroparticle Physics</span>
       </summary>
       <div class="lecture-course-body">

@@ -291,7 +291,7 @@ Checklist:
 
 - [ ] Add `research.qmd`, `education.qmd`, `outreach.qmd`,
       `materials.qmd`, `school.qmd`, `about.qmd`.
-- [ ] Add `Физика нейтрино и астрофизика частиц` as a flagship item in education.
+- [ ] Add `Физика нейтрино и астрофизика частиц` as an online program item in education.
 - [ ] Add explicit research section with experiments, interests, INSPIRE, talks.
 - [ ] Keep old root pages reachable.
 - [ ] Change navbar only after new pages exist.
