@@ -99,7 +99,7 @@ toc: false
 
     <details class="profile-row">
       <summary>
-        <span class="profile-row-kind">Преподавание</span>
+        <span class="profile-row-kind">Школа</span>
         <span>Курсы, школы и руководство студентами</span>
       </summary>
       <div class="profile-row-body">

@@ -26,7 +26,6 @@ toc: false
         astroparticle physics, quantum field theory, statistics, books,
         lectures, talks, animations, and public science projects.
       </p>
-      <p class="language-suggestion" data-language-suggestion hidden></p>
     </div>
   </header>
 
@@ -41,14 +40,6 @@ toc: false
       <strong>English version</strong>
       <span>English entry points for research, education, outreach, and materials. Russian-only materials are marked explicitly.</span>
     </a>
-  </section>
-
-  <section class="profile-intro language-legacy-note">
-    <p>
-      Старые прямые ссылки на каталоги книг, лекций, докладов, интервью,
-      фотоальбомов, анимаций и кода сохранены. They remain available during
-      the bilingual migration.
-    </p>
   </section>
 </div>
 ```

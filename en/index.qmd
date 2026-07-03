@@ -36,8 +36,7 @@ toc: false
     <p>
       NeutrinoHit is a map of research, educational, and outreach materials:
       books, lectures, talks, photo albums, animations, code projects, and
-      course sites. Some materials are available only in Russian and are marked
-      as such in the English version.
+      course sites. Russian-only materials are marked as such.
     </p>
   </section>
 

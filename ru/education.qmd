@@ -80,7 +80,7 @@ toc: false
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="../students.html">Студенты и аспиранты</a>
           <a href="../schools.html">Школы</a>
-          <a href="people.html">Люди</a>
+          <a href="school.html">Школа</a>
         </div>
       </div>
     </details>
