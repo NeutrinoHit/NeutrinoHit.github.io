@@ -14,7 +14,7 @@ toc: false
   <section class="lecture-course-list" aria-label="Образовательные разделы">
     <details class="lecture-course" open>
       <summary>
-        <span class="lecture-course-status">Флагманская программа</span>
+        <span class="lecture-course-status">Онлайн-программа</span>
         <span class="lecture-course-title">Физика нейтрино и астрофизика частиц</span>
       </summary>
       <div class="lecture-course-body">
