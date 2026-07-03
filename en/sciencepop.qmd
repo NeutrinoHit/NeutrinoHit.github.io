@@ -1,0 +1,55 @@
+---
+title: "Popular Science"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Public lectures and short popular science materials on neutrinos, black holes, dark matter, the Universe, and modern physics. Most lecture videos and slides in this section are in Russian.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Popular science catalog">
+    <details class="lecture-course" open>
+      <summary>
+        <span class="lecture-course-status">Lecture catalog</span>
+        <span class="lecture-course-title">Sciencepop lectures</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>The full lecture catalog is published as a dedicated NeutrinoHit section.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../sciencepop/">Open catalog</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Selected themes</span>
+        <span class="lecture-course-title">Neutrinos, black holes, dark matter, the Universe</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Public talks combine modern physics, astrophysics, cosmology, and the experimental culture of large scientific collaborations.</p>
+        <div class="lecture-course-actions">
+          <a href="https://www.youtube.com/@dmitrynaumov6099/">YouTube channel</a>
+          <a href="https://t.me/NeutrinoHit">Telegram</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Short modules</span>
+        <span class="lecture-course-title">In a nutshell</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Short explanatory modules for broad audiences. The linked modules are in Russian.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../sciencepop/in-a-nutshell/">Open modules</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

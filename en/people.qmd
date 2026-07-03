@@ -15,7 +15,7 @@ format:
   <p class="lecture-catalog-lead">Opening the School section.</p>
   <div class="lecture-course-actions">
     <a class="lecture-action-primary" href="school.html">Open section</a>
-    <a href="../ru/school.html">Русская версия</a>
+    <a href="../ru/school.html">Russian version</a>
   </div>
 </div>
 ```

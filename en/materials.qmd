@@ -19,13 +19,12 @@ toc: false
       </summary>
       <div class="lecture-course-body">
         <p>
-          Detailed catalogs remain at their original URLs and serve as the
-          working archive of the site. Russian-only resources are marked below.
+          This catalog brings together books, courses, talks, visual materials, and code in the NeutrinoHit library.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../books.html">Books (in Russian)</a>
-          <a href="../lectures.html">Lectures (in Russian)</a>
-          <a href="../talks.html">Talks archive (in Russian)</a>
+          <a class="lecture-action-primary" href="books.html">Books</a>
+          <a href="lectures.html">Lectures</a>
+          <a href="talks.html">Talks</a>
         </div>
       </div>
     </details>
@@ -44,7 +43,7 @@ toc: false
           <a href="https://neutrinohit.github.io/neutrinophysics/">Neutrino Physics</a>
           <a href="https://neutrinohit.github.io/particlephysics/">Particle Physics</a>
           <a href="https://neutrinohit.github.io/statistical-analysis-course/">Statistical Analysis</a>
-          <a href="https://neutrinohit.github.io/sciencepop/">Sciencepop (in Russian)</a>
+          <a href="sciencepop.html">Popular science</a>
         </div>
       </div>
     </details>
@@ -59,9 +58,9 @@ toc: false
           A visual library for lectures, outreach, and the public archive of events.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../animations.html">Animations (in Russian)</a>
-          <a href="../photos.html">Photo albums (in Russian)</a>
-          <a href="../cinema.html">Films (in Russian)</a>
+          <a class="lecture-action-primary" href="animations.html">Animations</a>
+          <a href="photos.html">Photo albums</a>
+          <a href="cinema.html">Films</a>
         </div>
       </div>
     </details>
@@ -77,7 +76,7 @@ toc: false
           visualization, teaching, and research work.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../software.html">Code catalog (in Russian)</a>
+          <a class="lecture-action-primary" href="software.html">Code catalog</a>
           <a href="https://github.com/NeutrinoHit">GitHub NeutrinoHit</a>
         </div>
       </div>

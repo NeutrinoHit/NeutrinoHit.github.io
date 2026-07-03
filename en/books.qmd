@@ -1,0 +1,91 @@
+---
+title: "Books"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Published books and manuscripts in progress: textbooks, online books, and outreach books.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Books catalog">
+    <details class="lecture-course book-course-qft" open>
+      <summary>
+        <span class="lecture-course-status">Textbook · published</span>
+        <span class="lecture-course-title">Quantum Field Theory for Experimentalists and More</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>A practical two-volume textbook with examples, problems, and solutions. The Russian edition is published; the English edition is in preparation.</p>
+        <div class="book-cover-spread" aria-label="Quantum field theory textbook cover">
+          <img src="../assets/books/qft-cover-front.jpg" alt="Front cover of the quantum field theory textbook">
+          <img src="../assets/books/qft-cover-back.jpg" alt="Back cover of the quantum field theory textbook">
+        </div>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">ROSPEX bundle</a>
+          <a href="https://shop.rcd.ru/catalog/fizika/20042/">Volume 1 · Russia</a>
+          <a href="https://shop.rcd.ru/catalog/fizika/20097/">Volume 2 · Russia</a>
+          <a href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ">Google Play · Vol. 1</a>
+          <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ">Google Play · Vol. 2</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course book-course-solar">
+      <summary>
+        <span class="lecture-course-status">Outreach book · published</span>
+        <span class="lecture-course-title">Solar Neutrino</span>
+      </summary>
+      <div class="lecture-course-body book-course-with-cover">
+        <a class="book-cover-single" href="https://ast.ru/book/solnechnoe-neytrino-862573/">
+          <img src="https://cdn.ast.ru/v2/ASE000000000862573/COVER/cover1__w340.jpg" alt="Solar Neutrino book cover">
+        </a>
+        <div>
+          <p>A popular science book for children about neutrinos, the Sun, and the large physics of tiny particles. The book is in Russian.</p>
+          <div class="lecture-course-actions">
+            <a class="lecture-action-primary" href="https://ast.ru/book/solnechnoe-neytrino-862573/">AST page (Russian)</a>
+          </div>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course book-course-neutrino">
+      <summary>
+        <span class="lecture-course-status">In progress</span>
+        <span class="lecture-course-title">Introduction to Neutrino Physics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>The book is in progress. The working repository is private.</p>
+        <div class="lecture-course-actions">
+          <a href="https://github.com/dmitryvnaumov/NEUTRINObook">Private repository</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course book-course-particles">
+      <summary>
+        <span class="lecture-course-status">In progress</span>
+        <span class="lecture-course-title">Introduction to Particle Physics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>The book is in preparation.</p>
+      </div>
+    </details>
+
+    <details class="lecture-course book-course-stat">
+      <summary>
+        <span class="lecture-course-status">Online book · in progress</span>
+        <span class="lecture-course-title">Statistical Analysis</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>An online book on probability models, parameter estimation, hypothesis testing, and statistical inference in experimental physics.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/statistical-analysis-course/ru/book/">Open book (Russian)</a>
+          <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Course slides (Russian)</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

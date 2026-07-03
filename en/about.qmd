@@ -42,9 +42,9 @@ toc: false
           and professional references are collected across the site.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../theses.html">Theses (in Russian)</a>
+          <a class="lecture-action-primary" href="theses.html">Theses</a>
           <a href="research.html">Research</a>
-          <a href="../talks.html">Talks (in Russian)</a>
+          <a href="talks.html">Talks</a>
         </div>
       </div>
     </details>

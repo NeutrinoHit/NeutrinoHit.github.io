@@ -1,0 +1,48 @@
+---
+title: "Animations"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog animation-catalog">
+  <p class="lecture-catalog-lead">
+    Scientific animations from the dvnanima project. The public library includes neutrino oscillations, JUNO, detector concepts, wave packets, fields, quantum mechanics, and other visual explanations.
+  </p>
+  <div class="animation-catalog-meta">
+    <span>28 stories</span>
+    <span>72 videos</span>
+    <a href="https://github.com/NeutrinoHit/dvnanima">dvnanima repository</a>
+  </div>
+
+  <section class="lecture-course-list animation-section-list" aria-label="Animation catalog">
+    <details class="lecture-course animation-section" open>
+      <summary>
+        <span class="lecture-course-status">Visual library</span>
+        <span class="lecture-course-title">Neutrinos, particles, fields, and quantum mechanics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>The animation gallery collects lightweight web versions of the videos; most captions are visual or technical and can be used directly in lectures.</p>
+        <div class="lecture-course-actions animation-actions">
+          <a class="lecture-action-primary" href="../animations.html">Open gallery</a>
+          <a href="https://github.com/NeutrinoHit/dvnanima">Source code</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course animation-section">
+      <summary>
+        <span class="lecture-course-status">Main themes</span>
+        <span class="lecture-course-title">Neutrino oscillations, JUNO, detector response, waves</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Animations cover flavor oscillations, neutrino mass hierarchy, JUNO visualizations, coherent processes, diffraction, wave packets, and field dynamics.</p>
+        <div class="lecture-course-actions animation-actions">
+          <a href="../animations.html">Browse animations</a>
+          <a href="software.html">Code projects</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

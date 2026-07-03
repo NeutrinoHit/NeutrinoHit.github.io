@@ -1,0 +1,154 @@
+---
+title: "Lectures"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Lecture courses, individual lectures, notes, slides, videos, and exercises.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Lecture catalog">
+    <details class="lecture-course lecture-course-qft" open>
+      <summary>
+        <span class="lecture-course-status">Published materials</span>
+        <span class="lecture-course-title">Quantum Field Theory</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Courses on quantum field theory, the Standard Model, renormalization, accelerated frames, and selected QFT topics.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/qft-lectures/">QFT lectures site</a>
+          <a href="books.html">Books</a>
+        </div>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Introduction to Quantum Field Theory</summary>
+            <div class="lecture-material-body">
+              <p>Basic QFT course: notes and video recordings are in Russian.</p>
+              <div class="lecture-course-actions">
+                <a href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">Notes (Russian)</a>
+                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29">YouTube</a>
+                <a href="https://rutube.ru/plst/1531108/">RuTube</a>
+                <a href="https://vkvideo.ru/playlist/-235607329_5">VK</a>
+                <a href="https://teach-in.ru/course/quantum-field-theory-naumov">Teach-in</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Introduction to the Standard Model</summary>
+            <div class="lecture-material-body">
+              <p>Introductory Standard Model course: notes and videos are in Russian.</p>
+              <div class="lecture-course-actions">
+                <a href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">Notes (Russian)</a>
+                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV">YouTube</a>
+                <a href="https://rutube.ru/plst/1538123">RuTube</a>
+                <a href="https://vkvideo.ru/playlist/-235607329_6">VK</a>
+                <a href="https://teach-in.ru/course/introduction-to-the-standard-model">Teach-in</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Renormalization in Quantum Field Theory</summary>
+            <div class="lecture-material-body">
+              <p>Course notes and video playlists are in Russian.</p>
+              <div class="lecture-course-actions">
+                <a href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">Notes (Russian)</a>
+                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG">YouTube</a>
+                <a href="https://rutube.ru/plst/1530811">RuTube</a>
+                <a href="https://vkvideo.ru/playlist/-235607329_4">VK</a>
+                <a href="https://teach-in.ru/course/renormalization-in-qft">Teach-in</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Accelerated frames and the Unruh effect</summary>
+            <div class="lecture-material-body">
+              <p>Short course in HTML slides.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/qft-lectures/unruh.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Attraction and Repulsion in Quantum Field Theory</summary>
+            <div class="lecture-material-body">
+              <p>Lecture on scalar QED and wave packets: how attraction and repulsion are encoded in QFT.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/qft-lectures/scalar-qed-attraction-repulsion.html">Lecture page</a>
+                <a href="https://neutrinohit.github.io/qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html">Slides</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course lecture-course-stat">
+      <summary>
+        <span class="lecture-course-status">Course in progress</span>
+        <span class="lecture-course-title">Statistical Analysis of Data</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>A practical course for high-energy physics, astrophysics, and experimental data analysis.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Russian slides</a>
+          <a href="https://neutrinohit.github.io/statistical-analysis-course/en/slides/">English slides</a>
+          <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/book/">Online book (Russian)</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course lecture-course-neutrino">
+      <summary>
+        <span class="lecture-course-status">Dedicated section</span>
+        <span class="lecture-course-title">Neutrino Physics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Courses and master classes on neutrino physics.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/neutrinophysics/">Open section</a>
+          <a href="https://neutrinohit.github.io/neutrinophysics/introduction/">Introduction to neutrino physics</a>
+          <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/">Solar neutrino masterclass</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course lecture-course-particles">
+      <summary>
+        <span class="lecture-course-status">Dedicated section</span>
+        <span class="lecture-course-title">Particle Physics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Courses and mini-courses on particle physics.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/particlephysics/">Open section</a>
+          <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/">Mini-course</a>
+          <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/">Particle physics course</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course lecture-course-gravity">
+      <summary>
+        <span class="lecture-course-status">Planned</span>
+        <span class="lecture-course-title">Gravity</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Future course section.</p>
+      </div>
+    </details>
+
+    <details class="lecture-course lecture-course-oscillations">
+      <summary>
+        <span class="lecture-course-status">Planned</span>
+        <span class="lecture-course-title">Neutrino oscillation theory in QFT</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Future specialized course on quantum-field descriptions of neutrino oscillations.</p>
+      </div>
+    </details>
+  </section>
+</div>
+```

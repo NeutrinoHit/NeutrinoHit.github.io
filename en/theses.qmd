@@ -1,0 +1,48 @@
+---
+title: "Theses"
+lang: en-US
+toc: false
+---
+
+Dmitry Naumov's qualification works: diploma thesis, candidate dissertation, and doctoral dissertation. The PDF files are in Russian.
+
+```{=html}
+<div class="thesis-list thesis-list-personal">
+  <details class="thesis-row" open>
+    <summary>
+      <span class="thesis-year">1997</span>
+      <span class="thesis-author">Diploma thesis</span>
+      <span class="thesis-type">Irkutsk State University</span>
+    </summary>
+    <div class="thesis-body">
+      <p>"Nuclear transitions <span class="nuclear-reaction"><sup>16</sup>O + H -> <sup>17</sup>F</span> and electron-screening effects".</p>
+      <p class="thesis-note">The work was carried out at JINR. Supervisor: F. M. Penkov.</p>
+      <a class="thesis-link" href="../theses/DmitryNaumov_Diplom.pdf">PDF (Russian)</a>
+    </div>
+  </details>
+
+  <details class="thesis-row">
+    <summary>
+      <span class="thesis-year">2001</span>
+      <span class="thesis-author">Candidate dissertation</span>
+      <span class="thesis-type">Physics and Mathematics</span>
+    </summary>
+    <div class="thesis-body">
+      <p>"Strange-hadron production and measurement of lambda and anti-lambda hyperon polarization in neutrino interactions in the NOMAD experiment at CERN".</p>
+      <a class="thesis-link" href="../theses/DmitryNaumov_Candidate_Thesis.pdf">PDF (Russian)</a>
+    </div>
+  </details>
+
+  <details class="thesis-row">
+    <summary>
+      <span class="thesis-year">2017</span>
+      <span class="thesis-author">Doctoral dissertation</span>
+      <span class="thesis-type">Physics and Mathematics</span>
+    </summary>
+    <div class="thesis-body">
+      <p>"Measurement of θ<sub>13</sub>, Δm<sup>2</sup><sub>32</sub>, and covariant quantum-field theory of neutrino oscillations".</p>
+      <a class="thesis-link" href="../theses/DmitryNaumov_Doctoral_Thesis.pdf">PDF (Russian)</a>
+    </div>
+  </details>
+</div>
+```
