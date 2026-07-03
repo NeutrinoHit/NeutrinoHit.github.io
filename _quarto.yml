@@ -52,7 +52,12 @@ format:
     theme: cosmo
     toc: true
     lang: ru
-    css: styles.css
+    css:
+      - assets/site/neutrinohit-tokens.css
+      - assets/site/neutrinohit-base.css
+      - assets/site/neutrinohit-components.css
+      - assets/site/neutrinohit-projects.css
+      - styles.css
     include-after-body:
       - album-lightbox.html
       - assets/local-preview-links.html
