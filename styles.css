@@ -901,6 +901,29 @@
   text-decoration: underline;
 }
 
+.education-program-map {
+  grid-column: 1 / -1;
+  max-width: 42rem;
+  margin: 0.45rem 0 0;
+}
+
+.education-program-map video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid rgba(43, 67, 91, 0.15);
+  border-radius: 8px;
+  background: #f5f7fd;
+  object-fit: cover;
+}
+
+.education-program-map figcaption {
+  margin-top: 0.38rem;
+  color: #53616f;
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
 .school-course-baikal > summary {
   background: linear-gradient(90deg, rgba(54, 95, 145, 0.15), rgba(255, 255, 255, 0.95) 68%);
 }
