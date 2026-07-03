@@ -1,0 +1,89 @@
+---
+title: "Home"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<style>
+  .quarto-title-block {
+    display: none;
+  }
+</style>
+
+<div class="profile-index">
+  <header class="profile-header">
+    <img class="profile-photo" src="../assets/naumov-portrait.jpg" alt="Dmitry Naumov">
+    <div>
+      <p class="profile-kicker">NeutrinoHit</p>
+      <h1>Dmitry V. Naumov</h1>
+      <p class="profile-lead">
+        Physicist, educator, author, and science communicator working on
+        neutrino physics, astroparticle physics, quantum field theory,
+        particle physics, statistics, astrophysics, and cosmology.
+      </p>
+      <nav class="profile-links" aria-label="Main links">
+        <a href="https://naumov.jinr.ru/">JINR profile</a>
+        <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+        <a href="https://teach-in.ru/lecturer/naumov-dv">Teach-in</a>
+        <a href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
+        <a href="https://t.me/NeutrinoHit">Telegram</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="profile-intro">
+    <p>
+      NeutrinoHit is a map of research, educational, and outreach materials:
+      books, lectures, talks, photo albums, animations, code projects, and
+      course sites. Some materials are available only in Russian and are marked
+      as such in the English version.
+    </p>
+  </section>
+
+  <section class="profile-accordion" aria-label="Sections">
+    <details class="profile-row" open>
+      <summary>
+        <span class="profile-row-kind">Research</span>
+        <span>Experiments, publications, and scientific interests</span>
+      </summary>
+      <div class="profile-row-body">
+        <p>Neutrino physics, astroparticle physics, cosmic rays, particle physics, quantum field theory, and cosmology.</p>
+        <div class="profile-links">
+          <a href="research.html">Open Research</a>
+          <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+          <a href="../talks.html">Talks archive (in Russian)</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="profile-row">
+      <summary>
+        <span class="profile-row-kind">Education</span>
+        <span>Courses, programs, schools, and supervision</span>
+      </summary>
+      <div class="profile-row-body">
+        <div class="profile-links">
+          <a href="education.html">Open Education</a>
+          <a href="https://teach-in.ru/program">Neutrino and Astroparticle Physics program (in Russian)</a>
+          <a href="../lectures.html">Lecture catalog (in Russian)</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="profile-row">
+      <summary>
+        <span class="profile-row-kind">Outreach</span>
+        <span>Public lectures, interviews, films, and channels</span>
+      </summary>
+      <div class="profile-row-body">
+        <div class="profile-links">
+          <a href="outreach.html">Open Outreach</a>
+          <a href="https://neutrinohit.github.io/sciencepop/">Popular lectures (in Russian)</a>
+          <a href="../interviews.html">Interviews (in Russian)</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

@@ -1,89 +1,23 @@
 ---
 title: "Образование"
 toc: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=ru/education.html">
+        <link rel="canonical" href="https://neutrinohit.github.io/ru/education.html">
+        <script>window.location.replace("ru/education.html");</script>
 ---
 
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    Курсы, образовательные программы, школы, учебники и руководство студентами.
-    Это вход для тех, кто хочет учиться физике нейтрино, астрофизике частиц,
-    физике элементарных частиц, КТП и статистическому анализу данных.
+    Раздел перенесен в русскую версию сайта.
   </p>
-
-  <section class="lecture-course-list" aria-label="Образовательные разделы">
-    <details class="lecture-course" open>
-      <summary>
-        <span class="lecture-course-status">Флагманская программа</span>
-        <span class="lecture-course-title">Физика нейтрино и астрофизика частиц</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Образовательная программа Teach-in по физике нейтрино и астрофизике частиц.
-          Дмитрий Наумов — программный директор.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://teach-in.ru/program">Открыть программу</a>
-          <a href="https://teach-in.ru/lecturer/naumov-dv">Профиль лектора</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Курсы и лекции</span>
-        <span class="lecture-course-title">КТП, нейтрино, частицы, статистика</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Центральный каталог курсов: видеолекции, конспекты, HTML-слайды,
-          задачи и материалы для самостоятельной работы.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="lectures.html">Каталог лекций</a>
-          <a href="https://neutrinohit.github.io/qft-lectures/">Квантовая теория поля</a>
-          <a href="https://neutrinohit.github.io/neutrinophysics/">Физика нейтрино</a>
-          <a href="https://neutrinohit.github.io/particlephysics/">Физика частиц</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Статистика</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Учебники и книги</span>
-        <span class="lecture-course-title">Печатные книги и онлайн-материалы</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Учебник по квантовой теории поля, книги в работе, онлайн-книга
-          по статистическому анализу и научно-популярные издания.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="books.html">Все книги</a>
-          <a href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Учебник по КТП</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/book/">Онлайн-книга по статистике</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Школы и научная школа</span>
-        <span class="lecture-course-title">Студенты, аспиранты, летние школы</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Архив школ, список дипломных и диссертационных работ, выполненных
-          под руководством, и образовательная среда вокруг NeutrinoHit.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="students.html">Студенты и аспиранты</a>
-          <a href="schools.html">Школы</a>
-          <a href="people.html">Люди</a>
-        </div>
-      </div>
-    </details>
-  </section>
+  <div class="lecture-course-actions">
+    <a class="lecture-action-primary" href="ru/education.html">Открыть раздел</a>
+    <a href="en/education.html">English version</a>
+  </div>
 </div>
 ```

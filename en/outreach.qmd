@@ -1,0 +1,86 @@
+---
+title: "Outreach"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Public science lectures, books, interviews, films, channels, and projects
+    that communicate modern physics beyond specialist audiences.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Outreach sections">
+    <details class="lecture-course" open>
+      <summary>
+        <span class="lecture-course-status">Public lectures</span>
+        <span class="lecture-course-title">Popular science talks</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Popular lectures on neutrinos, dark matter, black holes, the Universe,
+          and modern physics. The current catalog is in Russian.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/sciencepop/">Open lectures (in Russian)</a>
+          <a href="../sciencepop.html">Legacy transition page</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Books and media</span>
+        <span class="lecture-course-title">Solar Neutrino, films, animation</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Outreach books and visual projects, including a film about neutrino
+          telescopes and animation materials for broad audiences.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../books.html">Books (in Russian)</a>
+          <a href="../cinema.html">Films (in Russian)</a>
+          <a href="../animations.html">Animations (in Russian)</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Public conversations</span>
+        <span class="lecture-course-title">Interviews, broadcasts, and podcasts</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Interviews about neutrinos, the Baikal telescope, science communication,
+          and the role of fundamental physics in contemporary culture.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../interviews.html">Interviews (in Russian)</a>
+          <a href="https://naumov.jinr.ru/1060/">JINR profile: publications</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Channels</span>
+        <span class="lecture-course-title">YouTube, Telegram, and social platforms</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Public channels for lectures, news, photographs, and physics materials.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
+          <a href="https://t.me/NeutrinoHit">Telegram</a>
+          <a href="https://www.facebook.com/dmitry.naumov.52">Facebook</a>
+          <a href="https://www.instagram.com/dmitryvnaumov_dlnp/">Instagram</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

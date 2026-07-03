@@ -1,3 +1,5 @@
+lang: ru-RU
+
 project:
   type: website
   post-render:
@@ -8,6 +10,8 @@ project:
     - "theses/**"
   render:
     - "*.qmd"
+    - "ru/*.qmd"
+    - "en/*.qmd"
     - "albums/**/*.qmd"
     - "!photo-studio.qmd"
 
@@ -19,18 +23,23 @@ website:
     left:
       - href: index.qmd
         text: Главная
-      - href: research.qmd
+      - href: ru/research.qmd
         text: Наука
-      - href: education.qmd
+      - href: ru/education.qmd
         text: Образование
-      - href: outreach.qmd
+      - href: ru/outreach.qmd
         text: Научная коммуникация
-      - href: materials.qmd
+      - href: ru/materials.qmd
         text: Материалы
-      - href: people.qmd
+      - href: ru/people.qmd
         text: Люди
-      - href: about.qmd
+      - href: ru/about.qmd
         text: Обо мне
+    right:
+      - href: ru/index.qmd
+        text: RU
+      - href: en/index.qmd
+        text: EN
   page-footer:
     left: "© NeutrinoHit"
     right: "Built with Quarto"
@@ -39,7 +48,6 @@ format:
   html:
     theme: cosmo
     toc: true
-    lang: ru
     css:
       - assets/site/neutrinohit-tokens.css
       - assets/site/neutrinohit-base.css
@@ -49,4 +57,5 @@ format:
     include-after-body:
       - album-lightbox.html
       - assets/local-preview-links.html
+      - assets/site/language-tools.html
       - analytics/cloudflare-web-analytics.html

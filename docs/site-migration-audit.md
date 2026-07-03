@@ -26,6 +26,10 @@
   `education.qmd`, `outreach.qmd`, `materials.qmd`, `people.qmd`, `about.qmd`.
   The navbar now points to these semantic sections. Legacy pages and URLs remain
   in place and are linked from the new sections.
+- Phase 3: root `/` changed to a bilingual landing page with visible RU/EN
+  choices and soft browser-language suggestion. The Russian semantic pages moved
+  to `/ru/`; English counterpart entry pages were added under `/en/`. Root
+  semantic URLs remain as transition pages to the Russian version.
 - Deferred projects for later passes: `QFT-book-ru`, `QFT-book-en`, `dvnanima`,
   `gTracker`.
 

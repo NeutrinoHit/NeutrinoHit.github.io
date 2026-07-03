@@ -1,0 +1,94 @@
+---
+title: "Наука"
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Научная работа: нейтрино, астрофизика частиц, космические лучи,
+    физика элементарных частиц, квантовая теория поля и космология.
+    Этот раздел собирает исследовательский профиль, эксперименты, доклады
+    и квалификационные работы в одну точку входа.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Научные разделы">
+    <details class="lecture-course" open>
+      <summary>
+        <span class="lecture-course-status">Исследовательский профиль</span>
+        <span class="lecture-course-title">Нейтринная физика и астрофизика частиц</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Основные темы: нейтринные осцилляции, реакторные и солнечные нейтрино,
+          нейтринная астрономия, космические лучи, физика детекторов,
+          квантово-полевое описание нейтринных процессов.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+          <a href="https://naumov.jinr.ru/">Профиль JINR</a>
+          <a href="../theses.html">Мои диссертации</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Эксперименты и коллаборации</span>
+        <span class="lecture-course-title">Baikal-GVD, JUNO, Daya Bay, OPERA, NOMAD, EUSO</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Экспериментальная программа связана с нейтринными телескопами,
+          реакторными нейтрино, ускорительными нейтринными экспериментами,
+          космическими лучами и астрочастичной физикой.
+        </p>
+        <div class="lecture-course-actions">
+          <a href="https://baikalgvd.jinr.ru/">Baikal-GVD</a>
+          <a href="https://juno.ihep.ac.cn/">JUNO</a>
+          <a href="https://dayabay.bnl.gov/">Daya Bay</a>
+          <a href="https://opendata.cern/docs/about-opera">OPERA</a>
+          <a href="https://greybook.cern.ch/experiment/detail?id=NOMAD">NOMAD</a>
+          <a href="https://jemeuso.riken.jp/en/">EUSO / JEM-EUSO</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Доклады и обзоры</span>
+        <span class="lecture-course-title">Конференции, семинары, научные слайды</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Научные выступления и обзорные материалы по физике нейтрино,
+          экспериментальным программам и состоянию области.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../talks.html">Открыть доклады</a>
+          <a href="https://neutrinohit.github.io/talks/">Раздел talks</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Связанные научные материалы</span>
+        <span class="lecture-course-title">Теория, модели, визуализации и код</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Материалы, полезные для исследовательской работы: курсы по КТП,
+          численные модели, анимации физических процессов и программные проекты.
+        </p>
+        <div class="lecture-course-actions">
+          <a href="https://neutrinohit.github.io/qft-lectures/">КТП</a>
+          <a href="../software.html">Код</a>
+          <a href="../animations.html">Анимации</a>
+          <a href="materials.html">Все материалы</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

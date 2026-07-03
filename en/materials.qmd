@@ -1,0 +1,87 @@
+---
+title: "Materials"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    NeutrinoHit library: books, courses, slides, animations, photo archives,
+    code projects, and published materials.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Materials catalog">
+    <details class="lecture-course" open>
+      <summary>
+        <span class="lecture-course-status">Learning materials</span>
+        <span class="lecture-course-title">Books, lectures, slides, exercises</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Detailed catalogs remain at their original URLs and serve as the
+          working archive of the site. Russian-only resources are marked below.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../books.html">Books (in Russian)</a>
+          <a href="../lectures.html">Lectures (in Russian)</a>
+          <a href="../talks.html">Talks archive (in Russian)</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Course sites</span>
+        <span class="lecture-course-title">Standalone NeutrinoHit projects</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Separate sites with their own structure, builds, and teaching materials.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/qft-lectures/">QFT Lectures</a>
+          <a href="https://neutrinohit.github.io/neutrinophysics/">Neutrino Physics</a>
+          <a href="https://neutrinohit.github.io/particlephysics/">Particle Physics</a>
+          <a href="https://neutrinohit.github.io/statistical-analysis-course/">Statistical Analysis</a>
+          <a href="https://neutrinohit.github.io/sciencepop/">Sciencepop (in Russian)</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Visual materials</span>
+        <span class="lecture-course-title">Animations, photos, films</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          A visual library for lectures, outreach, and the public archive of events.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../animations.html">Animations (in Russian)</a>
+          <a href="../photos.html">Photo albums (in Russian)</a>
+          <a href="../cinema.html">Films (in Russian)</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Code and models</span>
+        <span class="lecture-course-title">GitHub projects and numerical demonstrations</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Software tools, physical models, and repositories related to
+          visualization, teaching, and research work.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../software.html">Code catalog (in Russian)</a>
+          <a href="https://github.com/NeutrinoHit">GitHub NeutrinoHit</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```
