@@ -5,7 +5,7 @@
     { key: 'education', ruText: 'Образование', enText: 'Education', ruHref: '/ru/education.html', enHref: '/en/education.html' },
     { key: 'outreach', ruText: 'Научная коммуникация', enText: 'Outreach', ruHref: '/ru/outreach.html', enHref: '/en/outreach.html' },
     { key: 'materials', ruText: 'Материалы', enText: 'Materials', ruHref: '/ru/materials.html', enHref: '/en/materials.html' },
-    { key: 'people', ruText: 'Люди', enText: 'People', ruHref: '/ru/people.html', enHref: '/en/people.html' },
+    { key: 'school', ruText: 'Школа', enText: 'School', ruHref: '/ru/school.html', enHref: '/en/school.html' },
     { key: 'about', ruText: 'Обо мне', enText: 'About', ruHref: '/ru/about.html', enHref: '/en/about.html' }
   ];
 
@@ -68,22 +68,15 @@
     rememberLanguage(activeLanguage);
   }
 
-  function updateLandingSuggestion() {
-    const suggestion = document.querySelector('[data-language-suggestion]');
-    if (!suggestion) return;
-
+  function updateLandingHighlight() {
     const language = preferredLanguage();
-    suggestion.hidden = false;
-    suggestion.textContent = language === 'ru'
-      ? 'Предложение по языку браузера: начать с русской версии. Переключиться можно в любой момент.'
-      : 'Suggested from your browser language: start with the English version. You can switch at any time.';
 
     document.querySelectorAll('[data-language-choice]').forEach((choice) => {
-      choice.classList.toggle('is-suggested', choice.getAttribute('data-language-choice') === language);
+      choice.classList.toggle('is-preferred', choice.getAttribute('data-language-choice') === language);
       choice.addEventListener('click', () => rememberLanguage(choice.getAttribute('data-language-choice')));
     });
   }
 
   updateNavbar();
-  updateLandingSuggestion();
+  updateLandingHighlight();
 })();

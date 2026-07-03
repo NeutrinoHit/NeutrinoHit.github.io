@@ -24,7 +24,6 @@ toc: false
         </p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="https://neutrinohit.github.io/sciencepop/">Открыть научпоп-лекции</a>
-          <a href="../sciencepop.html">Локальная страница-переход</a>
         </div>
       </div>
     </details>

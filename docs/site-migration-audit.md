@@ -23,13 +23,14 @@
 - Phase 1: shared CSS foundation added in `assets/site/` and connected to the
   root site plus active educational subprojects.
 - Phase 2: Russian top-level entry pages added at the root: `research.qmd`,
-  `education.qmd`, `outreach.qmd`, `materials.qmd`, `people.qmd`, `about.qmd`.
+  `education.qmd`, `outreach.qmd`, `materials.qmd`, `school.qmd`, `about.qmd`.
   The navbar now points to these semantic sections. Legacy pages and URLs remain
   in place and are linked from the new sections.
 - Phase 3: root `/` changed to a bilingual landing page with visible RU/EN
   choices and soft browser-language suggestion. The Russian semantic pages moved
   to `/ru/`; English counterpart entry pages were added under `/en/`. Root
   semantic URLs remain as transition pages to the Russian version.
+- Phase 4 prep: public section `People / Люди` renamed to `School / Школа` with old `people.html` URLs kept as redirects.
 - Deferred projects for later passes: `QFT-book-ru`, `QFT-book-en`, `dvnanima`,
   `gTracker`.
 
@@ -93,14 +94,14 @@ The top-level site should be organized by professional meaning, not by file type
 - `Education / Образование`
 - `Outreach / Научная коммуникация`
 - `Materials / Материалы`
-- `People / Люди`
+- `School / Школа`
 - `About / Обо мне`
 
 Recommended navbar:
 
 ```text
-RU: Главная | Наука | Образование | Научная коммуникация | Материалы | Люди | Обо мне | EN
-EN: Home | Research | Education | Outreach | Materials | People | About | RU
+RU: Главная | Наука | Образование | Научная коммуникация | Материалы | Школа | Обо мне | EN
+EN: Home | Research | Education | Outreach | Materials | School | About | RU
 ```
 
 Shorter variants can be considered after content is drafted, but `Наука` must be
@@ -114,12 +115,12 @@ Decision: use `Научная коммуникация` in Russian and `Outreach
 | --- | --- | --- | --- | --- |
 | `/books.html` | yes | Education | Outreach | Textbooks and popular books should appear in different contexts. |
 | `/lectures.html` | yes | Education | Materials | Existing course catalog remains useful as a detailed archive. |
-| `/students.html` | yes | People | Education | Scientific school, supervision, theses. |
+| `/students.html` | yes | School | Education | Scientific school, supervision, theses. |
 | `/theses.html` | yes | Research | About | Personal degrees are part of research identity. |
-| `/schools.html` | yes | Education | People | School archive and teaching ecosystem. |
+| `/schools.html` | yes | School | Education | School archive and teaching ecosystem. |
 | `/talks.html` | yes | Research | Materials | Talks should stop being a top-level nav item. |
 | `/interviews.html` | yes | Outreach | About | Public communication and media. |
-| `/photos.html` | yes | People | Outreach | Scientific life and archive. |
+| `/photos.html` | yes | School | Outreach | Scientific life and archive. |
 | `/sciencepop.html` | yes | Outreach | Materials | Existing redirect/card remains. |
 | `/cinema.html` | yes | Outreach | Materials | Films and animation-style outreach. |
 | `/animations.html` | yes | Materials | Education | Visual assets, videos, reusable illustrations. |
@@ -289,7 +290,7 @@ Checklist:
 Checklist:
 
 - [ ] Add `research.qmd`, `education.qmd`, `outreach.qmd`,
-      `materials.qmd`, `people.qmd`, `about.qmd`.
+      `materials.qmd`, `school.qmd`, `about.qmd`.
 - [ ] Add `Физика нейтрино и астрофизика частиц` as a flagship item in education.
 - [ ] Add explicit research section with experiments, interests, INSPIRE, talks.
 - [ ] Keep old root pages reachable.

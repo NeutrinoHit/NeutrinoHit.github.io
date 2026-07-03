@@ -13,7 +13,7 @@ format:
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    Раздел перенесен в русскую версию сайта.
+    Открывается раздел «Материалы».
   </p>
   <div class="lecture-course-actions">
     <a class="lecture-action-primary" href="ru/materials.html">Открыть раздел</a>

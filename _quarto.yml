@@ -31,8 +31,8 @@ website:
         text: Научная коммуникация
       - href: ru/materials.qmd
         text: Материалы
-      - href: ru/people.qmd
-        text: Люди
+      - href: ru/school.qmd
+        text: Школа
       - href: ru/about.qmd
         text: Обо мне
     right:

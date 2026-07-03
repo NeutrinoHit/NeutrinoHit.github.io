@@ -80,7 +80,7 @@ toc: false
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="../students.html">Students and theses (in Russian)</a>
           <a href="../schools.html">Schools (in Russian)</a>
-          <a href="people.html">People</a>
+          <a href="school.html">School</a>
         </div>
       </div>
     </details>

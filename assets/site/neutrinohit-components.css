@@ -103,7 +103,7 @@
   text-decoration: none;
 }
 
-.language-choice-card.is-suggested {
+.language-choice-card.is-preferred {
   border-color: var(--nh-color-accent);
   box-shadow: 0 12px 30px rgba(31, 111, 139, 0.14);
 }
@@ -114,14 +114,6 @@
 }
 
 .language-choice-card span:last-child,
-.language-suggestion,
-.language-lead-en,
-.language-legacy-note p {
+.language-lead-en {
   color: var(--nh-color-muted);
-}
-
-.language-suggestion {
-  margin: 0.82rem 0 0;
-  font-size: 0.95rem;
-  line-height: 1.5;
 }

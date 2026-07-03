@@ -1,64 +1,21 @@
 ---
-title: "People"
-lang: en-US
+title: "School"
 toc: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=school.html">
+        <link rel="canonical" href="https://neutrinohit.github.io/en/school.html">
+        <script>window.location.replace("school.html");</script>
 ---
 
 ```{=html}
 <div class="lecture-catalog">
-  <p class="lecture-catalog-lead">
-    Scientific school, students, graduate students, colleagues, schools,
-    and the public photo archive of NeutrinoHit events.
-  </p>
-
-  <section class="lecture-course-list" aria-label="People and community">
-    <details class="lecture-course" open>
-      <summary>
-        <span class="lecture-course-status">Supervision</span>
-        <span class="lecture-course-title">Students and graduate students</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Diploma, bachelor, master, and PhD works supervised by Dmitry Naumov.
-          The detailed list is currently in Russian.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../students.html">Open supervised works (in Russian)</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Schools</span>
-        <span class="lecture-course-title">Baikal Summer School, Baksan School</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Summer schools and educational events in particle physics,
-          astroparticle physics, and neutrino physics.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../schools.html">Open schools (in Russian)</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Photo archive</span>
-        <span class="lecture-course-title">Lectures, schools, trips, events</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Public photo albums: scientific life, schools, trips, meetings with
-          colleagues, and educational events.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../photos.html">Open photo albums (in Russian)</a>
-        </div>
-      </div>
-    </details>
-  </section>
+  <p class="lecture-catalog-lead">Opening the School section.</p>
+  <div class="lecture-course-actions">
+    <a class="lecture-action-primary" href="school.html">Open section</a>
+    <a href="../ru/school.html">Русская версия</a>
+  </div>
 </div>
 ```
