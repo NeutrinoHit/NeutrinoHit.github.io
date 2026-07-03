@@ -23,13 +23,57 @@
 
   const ruLanguageCodes = new Set(['ru', 'be', 'uk', 'kk', 'ky', 'uz', 'tg', 'tk', 'hy', 'az', 'ka', 'ro', 'mo']);
   const pathname = window.location.pathname;
-  const activeLanguage = pathname.includes('/en/') ? 'en' : pathname.includes('/ru/') ? 'ru' : null;
 
   function currentSectionKey() {
     const filename = pathname.split('/').pop() || 'index.html';
     if (filename === 'index.html' || pathname.endsWith('/ru/') || pathname.endsWith('/en/')) return 'home';
     const slug = filename.replace(/\.html$/, '');
     return sections.some((section) => section.key === slug) ? slug : 'home';
+  }
+
+  function detectedLanguage() {
+    if (pathname.includes('/en/')) return 'en';
+    if (pathname.includes('/ru/')) return 'ru';
+
+    const filename = pathname.split('/').pop() || 'index.html';
+    const slug = filename.replace(/\.html$/, '');
+    return slug !== 'index' && sections.some((section) => section.key === slug) ? 'ru' : null;
+  }
+
+  const activeLanguage = detectedLanguage();
+
+  function fileSiteRootParts() {
+    const parts = pathname.split('/').filter(Boolean);
+    const languageIndex = Math.max(parts.lastIndexOf('en'), parts.lastIndexOf('ru'));
+    if (languageIndex >= 0) return parts.slice(0, languageIndex);
+
+    const siteIndex = parts.lastIndexOf('_site');
+    if (siteIndex >= 0) return parts.slice(0, siteIndex + 1);
+
+    return parts.slice(0, -1);
+  }
+
+  function relativeHref(fromParts, toParts) {
+    let common = 0;
+    while (fromParts[common] && fromParts[common] === toParts[common]) common += 1;
+
+    const up = fromParts.slice(common).map(() => '..');
+    const down = toParts.slice(common);
+    return up.concat(down).join('/') || './';
+  }
+
+  function siteHref(href) {
+    if (window.location.protocol !== 'file:' || !href.startsWith('/')) return href;
+
+    const match = href.match(/^([^?#]*)([?#].*)?$/);
+    const rawPath = match ? match[1] : href;
+    const suffix = match && match[2] ? match[2] : '';
+    const targetPath = rawPath.endsWith('/') ? `${rawPath}index.html` : rawPath;
+    const currentParts = pathname.split('/').filter(Boolean);
+    const currentDirParts = pathname.endsWith('/') ? currentParts : currentParts.slice(0, -1);
+    const targetParts = fileSiteRootParts().concat(targetPath.split('/').filter(Boolean));
+
+    return relativeHref(currentDirParts, targetParts) + suffix;
   }
 
   function rememberLanguage(language) {
@@ -66,14 +110,14 @@
       const section = sections.find((item) => label === item.ruText || label === item.enText);
       if (!section) return;
       link.textContent = target === 'en' ? section.enText : section.ruText;
-      link.href = target === 'en' ? section.enHref : section.ruHref;
+      link.href = siteHref(target === 'en' ? section.enHref : section.ruHref);
     });
 
     document.querySelectorAll('.navbar a.nav-link').forEach((link) => {
       const label = link.textContent.trim();
       if (label !== 'RU' && label !== 'EN') return;
       const section = sections.find((item) => item.key === key) || sections[0];
-      link.href = label === 'RU' ? section.ruHref : section.enHref;
+      link.href = siteHref(label === 'RU' ? section.ruHref : section.enHref);
       link.addEventListener('click', () => rememberLanguage(label.toLowerCase()));
     });
 
