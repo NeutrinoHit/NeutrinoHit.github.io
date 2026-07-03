@@ -1,0 +1,89 @@
+---
+title: "Education"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Courses, educational programs, schools, textbooks, and student supervision.
+    Russian-only materials are marked explicitly.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Education sections">
+    <details class="lecture-course" open>
+      <summary>
+        <span class="lecture-course-status">Flagship program</span>
+        <span class="lecture-course-title">Neutrino Physics and Astroparticle Physics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Teach-in educational program on neutrino physics and astroparticle
+          physics. Dmitry Naumov is the program director. The program page is in Russian.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://teach-in.ru/program">Open program (in Russian)</a>
+          <a href="https://teach-in.ru/lecturer/naumov-dv">Lecturer profile (in Russian)</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Courses and lectures</span>
+        <span class="lecture-course-title">QFT, neutrinos, particles, statistics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          A central catalog of video lectures, notes, HTML slides, exercises,
+          and self-study materials.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../lectures.html">Lecture catalog (in Russian)</a>
+          <a href="https://neutrinohit.github.io/qft-lectures/">Quantum field theory</a>
+          <a href="https://neutrinohit.github.io/neutrinophysics/">Neutrino physics</a>
+          <a href="https://neutrinohit.github.io/particlephysics/">Particle physics</a>
+          <a href="https://neutrinohit.github.io/statistical-analysis-course/en/slides/">Statistics slides</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Textbooks and books</span>
+        <span class="lecture-course-title">Printed books and online materials</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          QFT textbook, books in progress, an online statistics book, and
+          outreach books. Some book pages are currently available only in Russian.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../books.html">Books catalog (in Russian)</a>
+          <a href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">QFT textbook</a>
+          <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/book/">Statistics online book (in Russian)</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Schools and supervision</span>
+        <span class="lecture-course-title">Students, graduate students, summer schools</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          School archives, supervised theses, and the educational ecosystem
+          around NeutrinoHit.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../students.html">Students and theses (in Russian)</a>
+          <a href="../schools.html">Schools (in Russian)</a>
+          <a href="people.html">People</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

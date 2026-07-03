@@ -1,0 +1,92 @@
+---
+title: "Research"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Research in neutrino physics, astroparticle physics, cosmic rays,
+    particle physics, quantum field theory, and cosmology.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Research sections">
+    <details class="lecture-course" open>
+      <summary>
+        <span class="lecture-course-status">Research profile</span>
+        <span class="lecture-course-title">Neutrino physics and astroparticle physics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Core topics include neutrino oscillations, reactor and solar neutrinos,
+          neutrino astronomy, cosmic rays, detector physics, and quantum-field
+          descriptions of neutrino processes.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+          <a href="https://naumov.jinr.ru/">JINR profile</a>
+          <a href="../theses.html">Theses (in Russian)</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Experiments and collaborations</span>
+        <span class="lecture-course-title">Baikal-GVD, JUNO, Daya Bay, OPERA, NOMAD, EUSO</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          The experimental program spans neutrino telescopes, reactor neutrinos,
+          accelerator neutrino experiments, cosmic rays, and astroparticle physics.
+        </p>
+        <div class="lecture-course-actions">
+          <a href="https://baikalgvd.jinr.ru/">Baikal-GVD</a>
+          <a href="https://juno.ihep.ac.cn/">JUNO</a>
+          <a href="https://dayabay.bnl.gov/">Daya Bay</a>
+          <a href="https://opendata.cern/docs/about-opera">OPERA</a>
+          <a href="https://greybook.cern.ch/experiment/detail?id=NOMAD">NOMAD</a>
+          <a href="https://jemeuso.riken.jp/en/">EUSO / JEM-EUSO</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Talks and reviews</span>
+        <span class="lecture-course-title">Conference and seminar materials</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Scientific talks and overview slides on neutrino physics, experimental
+          programs, and the state of the field.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../talks.html">Talk archive (in Russian)</a>
+          <a href="https://neutrinohit.github.io/talks/">Talks project</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Related materials</span>
+        <span class="lecture-course-title">Theory, models, visualizations, and code</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Research-adjacent resources: QFT materials, numerical models,
+          physical animations, and code projects.
+        </p>
+        <div class="lecture-course-actions">
+          <a href="https://neutrinohit.github.io/qft-lectures/">QFT lectures</a>
+          <a href="../software.html">Code catalog (in Russian)</a>
+          <a href="../animations.html">Animations (in Russian)</a>
+          <a href="materials.html">All materials</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

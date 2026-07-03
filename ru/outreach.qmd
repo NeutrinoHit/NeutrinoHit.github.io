@@ -1,0 +1,87 @@
+---
+title: "Научная коммуникация"
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Научная коммуникация NeutrinoHit: публичные лекции, книги, интервью,
+    фильмы, каналы и проекты, которые помогают говорить о современной физике
+    за пределами профессиональной аудитории.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Разделы научной коммуникации">
+    <details class="lecture-course" open>
+      <summary>
+        <span class="lecture-course-status">Лекции для широкой аудитории</span>
+        <span class="lecture-course-title">Научно-популярные выступления</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Каталог научно-популярных лекций о нейтрино, темной материи,
+          черных дырах, устройстве Вселенной и современной физике.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/sciencepop/">Открыть научпоп-лекции</a>
+          <a href="../sciencepop.html">Локальная страница-переход</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Книги и медиа</span>
+        <span class="lecture-course-title">Солнечное нейтрино, фильмы, мультфильмы</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Научно-популярные книги и визуальные проекты: фильм о нейтринном
+          телескопе, мультфильм о Байкале и материалы для широкой аудитории.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../books.html">Книги</a>
+          <a href="../cinema.html">Мое кино</a>
+          <a href="../animations.html">Анимации</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Публичные разговоры</span>
+        <span class="lecture-course-title">Интервью, эфиры и подкасты</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Интервью о нейтрино, Байкальском телескопе, научной коммуникации
+          и роли фундаментальной физики в современной культуре.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../interviews.html">Открыть интервью</a>
+          <a href="https://naumov.jinr.ru/1060/">Профиль JINR: публикации</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Каналы</span>
+        <span class="lecture-course-title">YouTube, Telegram и социальные сети</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Основные публичные площадки NeutrinoHit и личные каналы для новостей,
+          лекций, фотографий и материалов о физике.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
+          <a href="https://t.me/NeutrinoHit">Telegram</a>
+          <a href="https://www.facebook.com/dmitry.naumov.52">Facebook</a>
+          <a href="https://www.instagram.com/dmitryvnaumov_dlnp/">Instagram</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

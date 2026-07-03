@@ -1,0 +1,63 @@
+---
+title: "Люди"
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Научная школа, студенты, аспиранты, коллеги, школы и фотоархив событий.
+    Этот раздел собирает человеческую сторону NeutrinoHit и образовательной работы.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Люди и сообщество">
+    <details class="lecture-course" open>
+      <summary>
+        <span class="lecture-course-status">Научное руководство</span>
+        <span class="lecture-course-title">Студенты и аспиранты</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Дипломные, магистерские, бакалаврские и кандидатские работы,
+          выполненные под руководством Дмитрия Наумова.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../students.html">Открыть список работ</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Школы</span>
+        <span class="lecture-course-title">Baikal Summer School, Baksan School</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Летние школы и образовательные события по физике элементарных частиц,
+          астрофизике и нейтринной физике.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../schools.html">Открыть школы</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course">
+      <summary>
+        <span class="lecture-course-status">Фотоархив</span>
+        <span class="lecture-course-title">Лекции, школы, поездки и события</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>
+          Публичные фотоальбомы NeutrinoHit: научная жизнь, школы, поездки,
+          встречи с коллегами и образовательные события.
+        </p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../photos.html">Открыть фотоальбомы</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

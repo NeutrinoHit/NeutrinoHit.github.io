@@ -1,86 +1,23 @@
 ---
 title: "Материалы"
 toc: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=ru/materials.html">
+        <link rel="canonical" href="https://neutrinohit.github.io/ru/materials.html">
+        <script>window.location.replace("ru/materials.html");</script>
 ---
 
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    Библиотека NeutrinoHit: книги, курсы, слайды, анимации, фотоархивы,
-    программные проекты и отдельные опубликованные материалы.
+    Раздел перенесен в русскую версию сайта.
   </p>
-
-  <section class="lecture-course-list" aria-label="Каталог материалов">
-    <details class="lecture-course" open>
-      <summary>
-        <span class="lecture-course-status">Учебные материалы</span>
-        <span class="lecture-course-title">Книги, лекции, слайды, задачи</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Детальные каталоги уже остаются на своих старых адресах: они не
-          удаляются, а становятся архивом и рабочей библиотекой сайта.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="books.html">Книги</a>
-          <a href="lectures.html">Лекции</a>
-          <a href="talks.html">Доклады</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Курсовые сайты</span>
-        <span class="lecture-course-title">Самостоятельные проекты NeutrinoHit</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Отдельные сайты с собственной структурой, сборкой и материалами.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/qft-lectures/">QFT Lectures</a>
-          <a href="https://neutrinohit.github.io/neutrinophysics/">Neutrino Physics</a>
-          <a href="https://neutrinohit.github.io/particlephysics/">Particle Physics</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/">Statistical Analysis</a>
-          <a href="https://neutrinohit.github.io/sciencepop/">Sciencepop</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Визуальные материалы</span>
-        <span class="lecture-course-title">Анимации, фото, кино</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Визуальная библиотека для лекций, научной коммуникации и архива событий.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="animations.html">Анимации</a>
-          <a href="photos.html">Фотоальбомы</a>
-          <a href="cinema.html">Мое кино</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Код и модели</span>
-        <span class="lecture-course-title">GitHub-проекты и численные демонстрации</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Программные инструменты, физические модели и репозитории, связанные
-          с визуализацией, обучением и исследовательской работой.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="software.html">Каталог кода</a>
-          <a href="https://github.com/NeutrinoHit">GitHub NeutrinoHit</a>
-        </div>
-      </div>
-    </details>
-  </section>
+  <div class="lecture-course-actions">
+    <a class="lecture-action-primary" href="ru/materials.html">Открыть раздел</a>
+    <a href="en/materials.html">English version</a>
+  </div>
 </div>
 ```
