@@ -852,6 +852,25 @@
   background: linear-gradient(90deg, rgba(72, 104, 92, 0.15), rgba(255, 255, 255, 0.95) 68%);
 }
 
+.program-course-teachin > summary {
+  background: linear-gradient(90deg, rgba(54, 95, 145, 0.17), rgba(255, 255, 255, 0.95) 68%);
+}
+
+.education-program-detail {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(8rem, 12rem);
+  gap: 1rem;
+  align-items: center;
+}
+
+.education-program-art {
+  display: block;
+  justify-self: end;
+  width: min(12rem, 100%);
+  margin: -0.7rem 0 -1rem;
+  filter: drop-shadow(0 18px 28px rgba(23, 57, 96, 0.18));
+}
+
 .school-course-baikal > summary {
   background: linear-gradient(90deg, rgba(54, 95, 145, 0.15), rgba(255, 255, 255, 0.95) 68%);
 }
@@ -937,6 +956,16 @@
 }
 
 @media (max-width: 620px) {
+  .education-program-detail {
+    grid-template-columns: 1fr;
+  }
+
+  .education-program-art {
+    justify-self: start;
+    max-width: 11rem;
+    margin: 0.2rem 0 -0.5rem;
+  }
+
   .interview-material-detail {
     grid-template-columns: 1fr;
   }

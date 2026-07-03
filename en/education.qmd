@@ -12,20 +12,24 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Education sections">
-    <details class="lecture-course" open>
+    <details class="lecture-course program-course-teachin" open>
       <summary>
         <span class="lecture-course-status">Online program</span>
         <span class="lecture-course-title">Neutrino Physics and Astroparticle Physics</span>
       </summary>
-      <div class="lecture-course-body">
-        <p>
-          Teach-in educational program on neutrino physics and astroparticle
-          physics. Dmitry Naumov is the program director. The program page is in Russian.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://teach-in.ru/program">Open program (in Russian)</a>
-          <a href="https://teach-in.ru/lecturer/naumov-dv">Lecturer profile (in Russian)</a>
+      <div class="lecture-course-body education-program-detail">
+        <div>
+          <p>
+            Teach-in educational program on neutrino physics and astroparticle
+            physics. Dmitry Naumov is the program director. The program page and PDF are in Russian.
+          </p>
+          <div class="lecture-course-actions">
+            <a class="lecture-action-primary" href="https://teach-in.ru/program">Open program (in Russian)</a>
+            <a href="../assets/programs/teach-in-program.pdf">Program PDF (Russian)</a>
+            <a href="https://teach-in.ru/lecturer/naumov-dv">Lecturer profile (in Russian)</a>
+          </div>
         </div>
+        <img class="education-program-art" src="../assets/programs/teach-in-neutrino-program.webp" alt="Blue visual for the Teach-in program on neutrino physics and astroparticle physics">
       </div>
     </details>
 

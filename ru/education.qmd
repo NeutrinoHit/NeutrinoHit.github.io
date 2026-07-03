@@ -12,20 +12,24 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Образовательные разделы">
-    <details class="lecture-course" open>
+    <details class="lecture-course program-course-teachin" open>
       <summary>
         <span class="lecture-course-status">Онлайн-программа</span>
         <span class="lecture-course-title">Физика нейтрино и астрофизика частиц</span>
       </summary>
-      <div class="lecture-course-body">
-        <p>
-          Образовательная программа Teach-in по физике нейтрино и астрофизике частиц.
-          Дмитрий Наумов — программный директор.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://teach-in.ru/program">Открыть программу</a>
-          <a href="https://teach-in.ru/lecturer/naumov-dv">Профиль лектора</a>
+      <div class="lecture-course-body education-program-detail">
+        <div>
+          <p>
+            Образовательная программа Teach-in по физике нейтрино и астрофизике частиц.
+            Дмитрий Наумов — программный директор.
+          </p>
+          <div class="lecture-course-actions">
+            <a class="lecture-action-primary" href="https://teach-in.ru/program">Открыть программу</a>
+            <a href="../assets/programs/teach-in-program.pdf">PDF программы</a>
+            <a href="https://teach-in.ru/lecturer/naumov-dv">Профиль лектора</a>
+          </div>
         </div>
+        <img class="education-program-art" src="../assets/programs/teach-in-neutrino-program.webp" alt="Синяя иллюстрация программы Teach-in по физике нейтрино и астрофизике частиц">
       </div>
     </details>
 
