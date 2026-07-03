@@ -32,11 +32,11 @@ toc: false
     <details class="lecture-course">
       <summary>
         <span class="lecture-course-status">Курсовые сайты</span>
-        <span class="lecture-course-title">Самостоятельные проекты NeutrinoHit</span>
+        <span class="lecture-course-title">Курсовые сайты и разделы</span>
       </summary>
       <div class="lecture-course-body">
         <p>
-          Отдельные сайты с собственной структурой, сборкой и материалами.
+          Сайты курсов и тематические разделы с собственной структурой, сборкой и материалами.
         </p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="https://neutrinohit.github.io/qft-lectures/">QFT Lectures</a>
