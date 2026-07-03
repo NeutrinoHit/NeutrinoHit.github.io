@@ -37,7 +37,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--hold-last", type=int, default=10)
     parser.add_argument("--label-top", type=int, default=8)
     parser.add_argument("--network-neighbors", type=int, default=1)
-    parser.add_argument("--poster-time", default="7")
+    parser.add_argument("--poster-time", default="last", help="Poster frame time in seconds, or 'last'.")
     parser.add_argument("--reauth", action="store_true", help="Force a new local OAuth browser flow.")
     parser.add_argument("--stage", action="store_true", help="git add the updated MP4 and poster.")
     parser.add_argument("--dry-run", action="store_true", help="Print the gTracker command without running it.")
@@ -73,10 +73,11 @@ def make_poster(mp4: Path, poster: Path, *, poster_time: str) -> None:
     poster.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix="teachin-map-poster-") as tmp:
         png = Path(tmp) / "poster.png"
-        subprocess.run(
-            [ffmpeg, "-y", "-ss", poster_time, "-i", str(mp4), "-frames:v", "1", "-update", "1", str(png)],
-            check=True,
-        )
+        if poster_time.lower() == "last":
+            cmd = [ffmpeg, "-y", "-sseof", "-1", "-i", str(mp4), "-frames:v", "1", "-update", "1", str(png)]
+        else:
+            cmd = [ffmpeg, "-y", "-ss", poster_time, "-i", str(mp4), "-frames:v", "1", "-update", "1", str(png)]
+        subprocess.run(cmd, check=True)
         Image.open(png).convert("RGB").save(poster, quality=86, optimize=True)
 
 
