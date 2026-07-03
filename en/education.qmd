@@ -21,11 +21,19 @@ toc: false
         <div>
           <p>
             Teach-in educational program on neutrino physics and astroparticle
-            physics. Dmitry Naumov is the program director. The program page and PDF are in Russian.
+            physics. The program page and presentation are in Russian.
           </p>
+          <dl class="education-program-meta">
+            <dt>Program curator</dt>
+            <dd>Nadezhda Kuznetsova</dd>
+            <dt>Program director</dt>
+            <dd>Dmitry Naumov</dd>
+            <dt>Contact</dt>
+            <dd><a href="mailto:fn@teach-in.ru">fn@teach-in.ru</a></dd>
+          </dl>
           <div class="lecture-course-actions">
             <a class="lecture-action-primary" href="https://teach-in.ru/program">Open program (in Russian)</a>
-            <a href="../assets/programs/teach-in-program.pdf">Program PDF (Russian)</a>
+            <a href="../assets/programs/teach-in-program.pdf">Presentation (Russian)</a>
             <a href="https://teach-in.ru/lecturer/naumov-dv">Lecturer profile (in Russian)</a>
           </div>
         </div>
