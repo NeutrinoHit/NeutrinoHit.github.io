@@ -18,6 +18,17 @@
   подпроектами как базовый слой. Локальные CSS остаются только для уникальной
   специфики проекта.
 
+## Checkpoint log
+
+- Phase 1: shared CSS foundation added in `assets/site/` and connected to the
+  root site plus active educational subprojects.
+- Phase 2: Russian top-level entry pages added at the root: `research.qmd`,
+  `education.qmd`, `outreach.qmd`, `materials.qmd`, `people.qmd`, `about.qmd`.
+  The navbar now points to these semantic sections. Legacy pages and URLs remain
+  in place and are linked from the new sections.
+- Deferred projects for later passes: `QFT-book-ru`, `QFT-book-en`, `dvnanima`,
+  `gTracker`.
+
 ## Текущая топология
 
 ### Корневой сайт `neutrinohit-map`
