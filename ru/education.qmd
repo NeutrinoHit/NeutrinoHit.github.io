@@ -48,7 +48,7 @@ toc: false
 
     <details class="lecture-course">
       <summary>
-        <span class="lecture-course-status">Курсы и лекции</span>
+        <span class="lecture-course-status">Курсы лекций</span>
         <span class="lecture-course-title">КТП, нейтрино, частицы, статистика</span>
       </summary>
       <div class="lecture-course-body">
@@ -57,11 +57,11 @@ toc: false
           задачи и материалы для самостоятельной работы.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../lectures.html">Каталог лекций</a>
-          <a href="https://neutrinohit.github.io/qft-lectures/">Квантовая теория поля</a>
-          <a href="https://neutrinohit.github.io/neutrinophysics/">Физика нейтрино</a>
-          <a href="https://neutrinohit.github.io/particlephysics/">Физика частиц</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Статистика</a>
+          <a class="lecture-action-primary" href="../lectures.html">Каталог курсов лекций</a>
+          <a href="../lectures.html#qft">Квантовая теория поля</a>
+          <a href="../lectures.html#neutrino">Физика нейтрино</a>
+          <a href="../lectures.html#particles">Физика частиц</a>
+          <a href="../lectures.html#stat">Статистический анализ</a>
         </div>
       </div>
     </details>

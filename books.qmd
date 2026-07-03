@@ -70,7 +70,7 @@ title: "Книги"
 
     <details class="lecture-course book-course-solar">
       <summary>
-        <span class="lecture-course-status">Научпоп · опубликована</span>
+        <span class="lecture-course-status">Научно-популярная · опубликована</span>
         <span class="lecture-course-title">Солнечное нейтрино</span>
       </summary>
       <div class="lecture-course-body book-course-with-cover">

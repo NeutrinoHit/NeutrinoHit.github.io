@@ -23,7 +23,7 @@ toc: false
           черных дырах, устройстве Вселенной и современной физике.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/sciencepop/">Открыть научпоп-лекции</a>
+          <a class="lecture-action-primary" href="../sciencepop.html">Открыть научно-популярные лекции</a>
         </div>
       </div>
     </details>

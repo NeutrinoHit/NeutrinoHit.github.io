@@ -14,16 +14,17 @@ toc: false
   <section class="lecture-course-list" aria-label="Materials catalog">
     <details class="lecture-course" open>
       <summary>
-        <span class="lecture-course-status">Learning materials</span>
-        <span class="lecture-course-title">Books, lectures, slides, exercises</span>
+        <span class="lecture-course-status">Library</span>
+        <span class="lecture-course-title">Books, lectures, and scientific materials</span>
       </summary>
       <div class="lecture-course-body">
         <p>
-          This catalog brings together books, courses, talks, visual materials, and code in the NeutrinoHit library.
+          The main catalogs for educational and scientific materials: books,
+          lecture courses, talks, slides, and exercises.
         </p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="books.html">Books</a>
-          <a href="lectures.html">Lectures</a>
+          <a href="lectures.html">Lecture courses</a>
           <a href="talks.html">Talks</a>
         </div>
       </div>
@@ -31,19 +32,20 @@ toc: false
 
     <details class="lecture-course">
       <summary>
-        <span class="lecture-course-status">Course sites</span>
-        <span class="lecture-course-title">Course sites and sections</span>
+        <span class="lecture-course-status">Lecture courses</span>
+        <span class="lecture-course-title">QFT, neutrinos, particles, statistics</span>
       </summary>
       <div class="lecture-course-body">
         <p>
-          Course sites and thematic sections with their own structure, builds, and teaching materials.
+          A local course map keeps navigation inside this site first, then opens
+          slides, notes, videos, exercises, and external course sections.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/qft-lectures/">QFT Lectures</a>
-          <a href="https://neutrinohit.github.io/neutrinophysics/">Neutrino Physics</a>
-          <a href="https://neutrinohit.github.io/particlephysics/">Particle Physics</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/">Statistical Analysis</a>
-          <a href="sciencepop.html">Popular science</a>
+          <a class="lecture-action-primary" href="lectures.html#qft">Quantum field theory</a>
+          <a href="lectures.html#neutrino">Neutrino physics</a>
+          <a href="lectures.html#particles">Particle physics</a>
+          <a href="lectures.html#stat">Statistical analysis</a>
+          <a href="sciencepop.html">Popular science lectures</a>
         </div>
       </div>
     </details>

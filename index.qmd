@@ -10,36 +10,27 @@ toc: false
   }
 </style>
 
-<div class="language-landing profile-index">
-  <header class="profile-header language-hero">
+<div class="profile-index">
+  <header class="profile-header">
     <img class="profile-photo" src="assets/naumov-portrait.jpg" alt="Дмитрий Вадимович Наумов">
     <div>
       <p class="profile-kicker">NeutrinoHit</p>
-      <h1>NeutrinoHit</h1>
+      <h1>Наумов Дмитрий Вадимович</h1>
       <p class="profile-lead">
-        Научный, образовательный и просветительский сайт Дмитрия Наумова:
-        нейтрино, астрофизика частиц, квантовая теория поля, статистика,
-        книги, лекции, доклады, анимации и научная коммуникация.
+        Физик, д. ф.-м. н., преподаватель и автор книг и других материалов по нейтринной физике,
+        квантовой теории поля, статистическому анализу, физике элементарных частиц,
+        астрофизике и космологии.
       </p>
-      <p class="profile-lead language-lead-en">
-        Dmitry Naumov's research, education, and outreach hub: neutrinos,
-        astroparticle physics, quantum field theory, statistics, books,
-        lectures, talks, animations, and public science projects.
-      </p>
+      <nav class="profile-links" aria-label="Основные ссылки">
+        <a href="https://naumov.jinr.ru/">Профиль JINR</a>
+        <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+        <a href="https://teach-in.ru/lecturer/naumov-dv">Teach-in</a>
+        <a href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
+        <a href="https://t.me/NeutrinoHit">Telegram</a>
+        <a href="https://www.facebook.com/dmitry.naumov.52">Facebook</a>
+        <a href="https://www.instagram.com/dmitryvnaumov_dlnp/">Instagram</a>
+      </nav>
     </div>
   </header>
-
-  <section class="language-choice-grid" aria-label="Language choice">
-    <a class="language-choice-card" href="ru/" data-language-choice="ru">
-      <span class="nh-pill">Русский</span>
-      <strong>Русская версия</strong>
-      <span>Полная версия сайта для русскоязычной аудитории: наука, образование, научная коммуникация и материалы.</span>
-    </a>
-    <a class="language-choice-card" href="en/" data-language-choice="en">
-      <span class="nh-pill">English</span>
-      <strong>English version</strong>
-      <span>English entry points for research, education, outreach, and materials. Russian-only materials are marked explicitly.</span>
-    </a>
-  </section>
 </div>
 ```

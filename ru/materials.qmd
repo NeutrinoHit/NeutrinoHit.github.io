@@ -13,17 +13,17 @@ toc: false
   <section class="lecture-course-list" aria-label="Каталог материалов">
     <details class="lecture-course" open>
       <summary>
-        <span class="lecture-course-status">Учебные материалы</span>
-        <span class="lecture-course-title">Книги, лекции, слайды, задачи</span>
+        <span class="lecture-course-status">Библиотека</span>
+        <span class="lecture-course-title">Книги, лекции и научные материалы</span>
       </summary>
       <div class="lecture-course-body">
         <p>
-          Детальные каталоги уже остаются на своих старых адресах: они не
-          удаляются, а становятся архивом и рабочей библиотекой сайта.
+          Основные каталоги учебных и научных материалов: книги, курсы лекций,
+          доклады, слайды и задачи.
         </p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="../books.html">Книги</a>
-          <a href="../lectures.html">Лекции</a>
+          <a href="../lectures.html">Курсы лекций</a>
           <a href="../talks.html">Доклады</a>
         </div>
       </div>
@@ -31,19 +31,20 @@ toc: false
 
     <details class="lecture-course">
       <summary>
-        <span class="lecture-course-status">Курсовые сайты</span>
-        <span class="lecture-course-title">Курсовые сайты и разделы</span>
+        <span class="lecture-course-status">Курсы лекций</span>
+        <span class="lecture-course-title">КТП, нейтрино, частицы, статистика</span>
       </summary>
       <div class="lecture-course-body">
         <p>
-          Сайты курсов и тематические разделы с собственной структурой, сборкой и материалами.
+          Локальная карта курсов ведет к содержанию на этом сайте, а оттуда —
+          к слайдам, конспектам, видео, задачам и внешним учебным разделам.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/qft-lectures/">QFT Lectures</a>
-          <a href="https://neutrinohit.github.io/neutrinophysics/">Neutrino Physics</a>
-          <a href="https://neutrinohit.github.io/particlephysics/">Particle Physics</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/">Statistical Analysis</a>
-          <a href="https://neutrinohit.github.io/sciencepop/">Sciencepop</a>
+          <a class="lecture-action-primary" href="../lectures.html#qft">Квантовая теория поля</a>
+          <a href="../lectures.html#neutrino">Физика нейтрино</a>
+          <a href="../lectures.html#particles">Физика частиц</a>
+          <a href="../lectures.html#stat">Статистический анализ</a>
+          <a href="../sciencepop.html">Научно-популярные лекции</a>
         </div>
       </div>
     </details>

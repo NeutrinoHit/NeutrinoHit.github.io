@@ -10,7 +10,7 @@ title: "Лекции"
   </p>
 
   <section class="lecture-course-list" aria-label="Каталог курсов">
-    <details class="lecture-course lecture-course-qft" open>
+    <details id="qft" class="lecture-course lecture-course-qft" open>
       <summary>
         <span class="lecture-course-status">Материалы опубликованы</span>
         <span class="lecture-course-title">Квантовая теория поля</span>
@@ -83,7 +83,7 @@ title: "Лекции"
       </div>
     </details>
 
-    <details class="lecture-course lecture-course-stat">
+    <details id="stat" class="lecture-course lecture-course-stat">
       <summary>
         <span class="lecture-course-status">5 лекций опубликованы</span>
         <span class="lecture-course-title">Статистический анализ данных</span>
@@ -142,7 +142,7 @@ title: "Лекции"
       </div>
     </details>
 
-    <details class="lecture-course lecture-course-neutrino">
+    <details id="neutrino" class="lecture-course lecture-course-neutrino">
       <summary>
         <span class="lecture-course-status">Отдельный раздел опубликован</span>
         <span class="lecture-course-title">Физика нейтрино</span>
@@ -181,7 +181,7 @@ title: "Лекции"
       </div>
     </details>
 
-    <details class="lecture-course lecture-course-particles">
+    <details id="particles" class="lecture-course lecture-course-particles">
       <summary>
         <span class="lecture-course-status">Отдельный раздел опубликован</span>
         <span class="lecture-course-title">Физика элементарных частиц</span>
@@ -219,7 +219,7 @@ title: "Лекции"
       </div>
     </details>
 
-    <details class="lecture-course lecture-course-gravity">
+    <details id="gravity" class="lecture-course lecture-course-gravity">
       <summary>
         <span class="lecture-course-status">Планируется</span>
         <span class="lecture-course-title">Гравитация</span>
@@ -229,7 +229,7 @@ title: "Лекции"
       </div>
     </details>
 
-    <details class="lecture-course lecture-course-oscillations">
+    <details id="oscillations" class="lecture-course lecture-course-oscillations">
       <summary>
         <span class="lecture-course-status">Планируется</span>
         <span class="lecture-course-title">Теория осцилляций нейтрино в КТП</span>

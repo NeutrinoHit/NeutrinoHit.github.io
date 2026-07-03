@@ -58,11 +58,11 @@ toc: false
           and self-study materials.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="lectures.html">Lecture catalog</a>
-          <a href="https://neutrinohit.github.io/qft-lectures/">Quantum field theory</a>
-          <a href="https://neutrinohit.github.io/neutrinophysics/">Neutrino physics</a>
-          <a href="https://neutrinohit.github.io/particlephysics/">Particle physics</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/en/slides/">Statistics slides</a>
+          <a class="lecture-action-primary" href="lectures.html">Lecture course catalog</a>
+          <a href="lectures.html#qft">Quantum field theory</a>
+          <a href="lectures.html#neutrino">Neutrino physics</a>
+          <a href="lectures.html#particles">Particle physics</a>
+          <a href="lectures.html#stat">Statistical analysis</a>
         </div>
       </div>
     </details>
