@@ -14,12 +14,12 @@ toc: false
     <details class="lecture-course" open>
       <summary>
         <span class="lecture-course-status">Lecture catalog</span>
-        <span class="lecture-course-title">Sciencepop lectures</span>
+        <span class="lecture-course-title">Popular science lectures</span>
       </summary>
       <div class="lecture-course-body">
         <p>The full lecture catalog is published as a dedicated NeutrinoHit section.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../sciencepop/">Open catalog</a>
+          <a class="lecture-action-primary" href="../sciencepop.html">Open catalog</a>
         </div>
       </div>
     </details>
@@ -46,7 +46,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Short explanatory modules for broad audiences. The linked modules are in Russian.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../sciencepop/in-a-nutshell/">Open modules</a>
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/sciencepop/in-a-nutshell/">Open modules</a>
         </div>
       </div>
     </details>

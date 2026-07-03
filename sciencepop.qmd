@@ -1,5 +1,5 @@
 ---
-title: "Научпоп"
+title: "Научно-популярные лекции"
 format:
   html:
     include-in-header:
@@ -12,8 +12,8 @@ format:
 ```{=html}
 <div class="resource-list">
   <a class="resource-card resource-card-sciencepop" href="https://neutrinohit.github.io/sciencepop/">
-    <span class="resource-title">Каталог научпоп-лекций</span>
-    <span class="resource-note">Переход в отдельный репозиторий научно-популярных лекций</span>
+    <span class="resource-title">Каталог научно-популярных лекций</span>
+    <span class="resource-note">Переход к полному каталогу лекций</span>
   </a>
 </div>
 ```

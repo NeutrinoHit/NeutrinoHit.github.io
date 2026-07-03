@@ -15,7 +15,7 @@
     { key: 'talks', ruText: 'Доклады', enText: 'Talks', ruHref: '/talks.html', enHref: '/en/talks.html' },
     { key: 'interviews', ruText: 'Интервью', enText: 'Interviews', ruHref: '/interviews.html', enHref: '/en/interviews.html' },
     { key: 'photos', ruText: 'Фото', enText: 'Photos', ruHref: '/photos.html', enHref: '/en/photos.html' },
-    { key: 'sciencepop', ruText: 'Научпоп', enText: 'Popular Science', ruHref: '/sciencepop.html', enHref: '/en/sciencepop.html' },
+    { key: 'sciencepop', ruText: 'Научно-популярные лекции', enText: 'Popular Science', ruHref: '/sciencepop.html', enHref: '/en/sciencepop.html' },
     { key: 'cinema', ruText: 'Мое кино', enText: 'Films', ruHref: '/cinema.html', enHref: '/en/cinema.html' },
     { key: 'animations', ruText: 'Анимации', enText: 'Animations', ruHref: '/animations.html', enHref: '/en/animations.html' },
     { key: 'software', ruText: 'Код', enText: 'Code', ruHref: '/software.html', enHref: '/en/software.html' }
@@ -124,6 +124,22 @@
     rememberLanguage(activeLanguage);
   }
 
+
+  function openLinkedDetails() {
+    const rawHash = window.location.hash ? window.location.hash.slice(1) : '';
+    if (!rawHash) return;
+
+    const target = document.getElementById(decodeURIComponent(rawHash));
+    if (!target) return;
+
+    let details = target instanceof HTMLDetailsElement ? target : target.closest('details');
+    while (details) {
+      details.open = true;
+      details = details.parentElement ? details.parentElement.closest('details') : null;
+    }
+  }
+
+
   function updateLandingHighlight() {
     const language = preferredLanguage();
 
@@ -135,4 +151,6 @@
 
   updateNavbar();
   updateLandingHighlight();
+  openLinkedDetails();
+  window.addEventListener('hashchange', openLinkedDetails);
 })();

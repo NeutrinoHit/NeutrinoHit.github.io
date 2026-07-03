@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Lecture catalog">
-    <details class="lecture-course lecture-course-qft" open>
+    <details id="qft" class="lecture-course lecture-course-qft" open>
       <summary>
         <span class="lecture-course-status">Published materials</span>
         <span class="lecture-course-title">Quantum Field Theory</span>
@@ -85,7 +85,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course lecture-course-stat">
+    <details id="stat" class="lecture-course lecture-course-stat">
       <summary>
         <span class="lecture-course-status">Course in progress</span>
         <span class="lecture-course-title">Statistical Analysis of Data</span>
@@ -100,7 +100,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course lecture-course-neutrino">
+    <details id="neutrino" class="lecture-course lecture-course-neutrino">
       <summary>
         <span class="lecture-course-status">Dedicated section</span>
         <span class="lecture-course-title">Neutrino Physics</span>
@@ -115,7 +115,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course lecture-course-particles">
+    <details id="particles" class="lecture-course lecture-course-particles">
       <summary>
         <span class="lecture-course-status">Dedicated section</span>
         <span class="lecture-course-title">Particle Physics</span>
@@ -130,7 +130,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course lecture-course-gravity">
+    <details id="gravity" class="lecture-course lecture-course-gravity">
       <summary>
         <span class="lecture-course-status">Planned</span>
         <span class="lecture-course-title">Gravity</span>
@@ -140,7 +140,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course lecture-course-oscillations">
+    <details id="oscillations" class="lecture-course lecture-course-oscillations">
       <summary>
         <span class="lecture-course-status">Planned</span>
         <span class="lecture-course-title">Neutrino oscillation theory in QFT</span>
