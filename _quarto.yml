@@ -33,8 +33,6 @@ website:
         text: Материалы
       - href: ru/school.qmd
         text: Школа
-      - href: ru/about.qmd
-        text: Обо мне
     right:
       - href: ru/index.qmd
         text: RU

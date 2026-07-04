@@ -6,79 +6,445 @@ toc: false
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    Библиотека NeutrinoHit: книги, курсы, слайды, анимации, фотоархивы,
-    программные проекты и отдельные опубликованные материалы.
+    Библиотека NeutrinoHit по типам материалов: книги, курсы, доклады, анимации,
+    программные проекты, фотоархивы и фильмы. Это рабочая карта, а не список ссылок на списки.
   </p>
 
-  <section class="lecture-course-list" aria-label="Каталог материалов">
-    <details class="lecture-course" open>
+  <h2 class="section-inline-title">Книги</h2>
+  <section class="lecture-course-list" aria-label="Каталог книг">
+    <details class="lecture-course book-course-qft" open>
       <summary>
-        <span class="lecture-course-status">Библиотека</span>
-        <span class="lecture-course-title">Книги, лекции и научные материалы</span>
+        <span class="lecture-course-status">Учебник · опубликован</span>
+        <span class="lecture-course-title">Квантовая теория поля для экспериментаторов и не только</span>
       </summary>
       <div class="lecture-course-body">
-        <p>
-          Основные каталоги учебных и научных материалов: книги, курсы лекций,
-          доклады, слайды и задачи.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../books.html">Книги</a>
-          <a href="../lectures.html">Курсы лекций</a>
-          <a href="../talks.html">Доклады</a>
+        <p>Практический курс с примерами, задачами и решениями. Русское издание состоит из двух томов; английское издание готовится.</p>
+        <div class="book-cover-spread" aria-label="Обложка учебника по квантовой теории поля">
+          <img src="../assets/books/qft-cover-front.jpg" alt="Лицевая сторона обложки учебника «Квантовая теория поля для экспериментаторов и не только»">
+          <img src="../assets/books/qft-cover-back.jpg" alt="Оборотная сторона обложки учебника «Квантовая теория поля для экспериментаторов и не только»">
+        </div>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>Русское издание</summary>
+            <div class="lecture-material-body">
+              <p>Два тома доступны в бумажном и электронном форматах.</p>
+              <div class="lecture-material-list">
+                <details class="lecture-material" open>
+                  <summary>Бумажная версия для России</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Том 1</a>
+                      <a href="https://shop.rcd.ru/catalog/fizika/20097/">Том 2</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>ROSPEX Publishing</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a href="https://rospexpublishing.com/books/qft-volume-1.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Том 1</a>
+                      <a href="https://rospexpublishing.com/books/qft-volume-2.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Том 2</a>
+                      <a class="lecture-action-primary" href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Комплект</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>Google Play Books</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ">Том 1</a>
+                      <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ">Том 2</a>
+                    </div>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>English edition</summary>
+            <div class="lecture-material-body">
+              <p>Готовится.</p>
+            </div>
+          </details>
         </div>
       </div>
     </details>
 
-    <details class="lecture-course">
+    <details class="lecture-course book-course-solar">
       <summary>
-        <span class="lecture-course-status">Курсы лекций</span>
-        <span class="lecture-course-title">КТП, нейтрино, частицы, статистика</span>
+        <span class="lecture-course-status">Научно-популярная · опубликована</span>
+        <span class="lecture-course-title">Солнечное нейтрино</span>
       </summary>
-      <div class="lecture-course-body">
-        <p>
-          Локальная карта курсов ведет к содержанию на этом сайте, а оттуда —
-          к слайдам, конспектам, видео, задачам и внешним учебным разделам.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../lectures.html#qft">Квантовая теория поля</a>
-          <a href="../lectures.html#neutrino">Физика нейтрино</a>
-          <a href="../lectures.html#particles">Физика частиц</a>
-          <a href="../lectures.html#stat">Статистический анализ</a>
-          <a href="../sciencepop.html">Научно-популярные лекции</a>
+      <div class="lecture-course-body book-course-with-cover">
+        <a class="book-cover-single" href="https://ast.ru/book/solnechnoe-neytrino-862573/">
+          <img src="https://cdn.ast.ru/v2/ASE000000000862573/COVER/cover1__w340.jpg" alt="Обложка книги «Солнечное нейтрино»">
+        </a>
+        <div>
+          <p>Детская научно-популярная книга о нейтрино, Солнце и большой физике маленьких частиц.</p>
+          <div class="lecture-course-actions">
+            <a class="lecture-action-primary" href="https://ast.ru/book/solnechnoe-neytrino-862573/">Страница AST</a>
+          </div>
         </div>
       </div>
     </details>
 
-    <details class="lecture-course">
+    <details class="lecture-course book-course-neutrino">
       <summary>
-        <span class="lecture-course-status">Визуальные материалы</span>
-        <span class="lecture-course-title">Анимации, фото, кино</span>
+        <span class="lecture-course-status">В процессе</span>
+        <span class="lecture-course-title">Введение в физику нейтрино</span>
       </summary>
       <div class="lecture-course-body">
-        <p>
-          Визуальная библиотека для лекций, научной коммуникации и архива событий.
-        </p>
+        <p>Книга готовится. Рабочий приватный репозиторий доступен автору.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../animations.html">Анимации</a>
-          <a href="../photos.html">Фотоальбомы</a>
-          <a href="../cinema.html">Мое кино</a>
+          <a href="https://github.com/dmitryvnaumov/NEUTRINObook">Приватный репозиторий</a>
         </div>
       </div>
     </details>
 
-    <details class="lecture-course">
+    <details class="lecture-course book-course-particles">
       <summary>
-        <span class="lecture-course-status">Код и модели</span>
-        <span class="lecture-course-title">GitHub-проекты и численные демонстрации</span>
+        <span class="lecture-course-status">В процессе</span>
+        <span class="lecture-course-title">Введение в физику элементарных частиц</span>
       </summary>
       <div class="lecture-course-body">
-        <p>
-          Программные инструменты, физические модели и репозитории, связанные
-          с визуализацией, обучением и исследовательской работой.
-        </p>
+        <p>Книга готовится.</p>
+      </div>
+    </details>
+
+    <details class="lecture-course book-course-stat">
+      <summary>
+        <span class="lecture-course-status">Онлайн-книга · в работе</span>
+        <span class="lecture-course-title">Статистический анализ</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Практическая онлайн-книга о вероятностных моделях, оценивании параметров,
+        проверке гипотез и статистическом выводе в экспериментальной физике.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../software.html">Каталог кода</a>
-          <a href="https://github.com/NeutrinoHit">GitHub NeutrinoHit</a>
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/statistical-analysis-course/ru/book/">Открыть книгу</a>
+          <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Слайды курса</a>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <h2 class="section-inline-title">Курсы и лекции</h2>
+  <section class="lecture-course-list" aria-label="Каталог курсов">
+    <details id="qft" class="lecture-course lecture-course-qft" open>
+      <summary>
+        <span class="lecture-course-status">Материалы опубликованы</span>
+        <span class="lecture-course-title">Квантовая теория поля</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Курсы по КТП, Стандартной модели, ренормировке и ускоренным системам отсчёта.</p>
+        <div class="lecture-course-actions">
+          <a href="../books.html">Книги и учебники</a>
+        </div>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Введение в квантовую теорию поля</summary>
+            <div class="lecture-material-body">
+              <p>Базовый курс: конспект и видеозаписи.</p>
+              <div class="lecture-course-actions">
+                <a href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">Конспект</a>
+                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29">YouTube</a>
+                <a href="https://rutube.ru/plst/1531108/">RuTube</a>
+                <a href="https://vkvideo.ru/playlist/-235607329_5">VK</a>
+                <a href="https://teach-in.ru/course/quantum-field-theory-naumov">Teach-in</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Стандартная модель</summary>
+            <div class="lecture-material-body">
+              <p>Введение в Стандартную модель: конспект и видеоматериалы.</p>
+              <div class="lecture-course-actions">
+                <a href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">Конспект</a>
+                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV">YouTube</a>
+                <a href="https://rutube.ru/plst/1538123">RuTube</a>
+                <a href="https://vkvideo.ru/playlist/-235607329_6">VK</a>
+                <a href="https://teach-in.ru/course/introduction-to-the-standard-model">Teach-in</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Ренормировка в квантовой теории поля</summary>
+            <div class="lecture-material-body">
+              <p>Конспект курса и видеоплейлисты по ренормировке.</p>
+              <div class="lecture-course-actions">
+                <a href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">Конспект</a>
+                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG">YouTube</a>
+                <a href="https://rutube.ru/plst/1530811">RuTube</a>
+                <a href="https://vkvideo.ru/playlist/-235607329_4">VK</a>
+                <a href="https://teach-in.ru/course/renormalization-in-qft">Teach-in</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Ускоренные системы отсчёта и эффект Унру</summary>
+            <div class="lecture-material-body">
+              <p>Мини-курс в формате HTML-слайдов.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/qft-lectures/unruh.html">Открыть слайды</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Attraction and Repulsion in Quantum Field Theory</summary>
+            <div class="lecture-material-body">
+              <p>Отдельная лекция по scalar QED и волновым пакетам: как в КТП кодируются притяжение и отталкивание.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/qft-lectures/scalar-qed-attraction-repulsion.html">Страница лекции</a>
+                <a href="https://neutrinohit.github.io/qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html">Слайды</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details id="stat" class="lecture-course lecture-course-stat">
+      <summary>
+        <span class="lecture-course-status">5 лекций опубликованы</span>
+        <span class="lecture-course-title">Статистический анализ данных</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Практический курс для физики высоких энергий, астрофизики и анализа экспериментальных данных.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Открыть русский курс</a>
+          <a href="https://neutrinohit.github.io/statistical-analysis-course/en/slides/">English slides</a>
+        </div>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Мотивация и обзор курса</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/introduction.html">Открыть лекцию</a>
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/exercises/introduction.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Случайные величины, распределения, моменты</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/random-distributions.html">Открыть лекцию</a>
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/exercises/random-distributions.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Характеристические функции и суммы случайных величин</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/characteristic-functions.html">Открыть лекцию</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Центральная предельная теорема и нормальное распределение</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/central-limit-theorem.html">Открыть лекцию</a>
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/exercises/central-limit-theorem.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Когда гаусс не возникает</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/non_gaussian_clt_violations.html">Открыть лекцию</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details id="neutrino" class="lecture-course lecture-course-neutrino">
+      <summary>
+        <span class="lecture-course-status">Отдельный раздел опубликован</span>
+        <span class="lecture-course-title">Физика нейтрино</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Курсы и мастер-классы по физике нейтрино: вводные лекции и солнечный мастер-класс.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Введение в физику нейтрино</summary>
+            <div class="lecture-material-body">
+              <p>Вводный курс: первые три лекции опубликованы в виде HTML-слайдов.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/neutrinophysics/introduction/">Открыть курс</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/introduction/Introduction/">Лекция 1</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/introduction/Parity/">Лекция 2</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/introduction/Helicity/">Лекция 3</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Солнечные нейтрино</summary>
+            <div class="lecture-material-body">
+              <p>Мини-курс мастер-класса: источники, MSW, toy detector, pseudoexperiment and fit.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/">Открыть мини-курс</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html">Занятие 1</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html">Занятие 2</a>
+                <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/slides/03_student_defense.html">Занятие 3</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details id="particles" class="lecture-course lecture-course-particles">
+      <summary>
+        <span class="lecture-course-status">Отдельный раздел опубликован</span>
+        <span class="lecture-course-title">Физика элементарных частиц</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Курсы и мини-курсы по физике элементарных частиц: вводные лекции, формулы и материалы курса.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Мини-курс</summary>
+            <div class="lecture-material-body">
+              <p>Две вводные лекции: частицы, поля, взаимодействия, структура Стандартной модели, слабое взаимодействие и нейтрино.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/">Открыть мини-курс</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">Лекция 1</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">Лекция 2</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Формулы</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Введение в физику элементарных частиц</summary>
+            <div class="lecture-material-body">
+              <p>Планируемый большой курс с русскими и английскими материалами. Ориентир — около 16 лекций; точное число можно менять по мере подготовки.</p>
+              <div class="lecture-course-actions">
+                <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/">Открыть курс</a>
+                <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/ru/slides/">RU slides</a>
+                <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/en/slides/">EN slides</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details id="gravity" class="lecture-course lecture-course-gravity">
+      <summary>
+        <span class="lecture-course-status">Планируется</span>
+        <span class="lecture-course-title">Гравитация</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Раздел подготовлен для будущего курса.</p>
+      </div>
+    </details>
+
+    <details id="oscillations" class="lecture-course lecture-course-oscillations">
+      <summary>
+        <span class="lecture-course-status">Планируется</span>
+        <span class="lecture-course-title">Теория осцилляций нейтрино в КТП</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Будущий специализированный курс по квантово-полевому описанию нейтринных осцилляций.</p>
+      </div>
+    </details>
+  </section>
+
+  <h2 class="section-inline-title">Доклады</h2>
+  <section class="lecture-course-list" aria-label="Доклады">
+    <details class="lecture-course lecture-course-talk-conferences" open>
+      <summary>
+        <span class="lecture-course-status">Конференция · 2026</span>
+        <span class="lecture-course-title">Статус и перспективы физики нейтрино</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Доклад на конференции 2-5 июня 2026 года: российские проекты в глобальном контексте.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://neutrinohit.github.io/talks/protvino-2026/dnaumov.html">Открыть слайды</a>
+          <a href="https://neutrinohit.github.io/talks/protvino-2026/neutrino-overview-protvino-2026.pdf">PDF</a>
+          <a href="https://indico.ihep.su/e/PPIHE2026">Страница конференции</a>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <h2 class="section-inline-title">Анимации</h2>
+  <section class="lecture-course-list" aria-label="Анимации">
+    <details class="lecture-course resource-card-animation" open>
+      <summary>
+        <span class="lecture-course-status">28 сюжетов · 72 ролика</span>
+        <span class="lecture-course-title">Научные анимации dvnanima</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Нейтрино и частицы, поля и волны, математика и динамические системы, визуальные научные истории.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../animations.html">Открыть галерею</a>
+          <a href="https://github.com/NeutrinoHit/dvnanima">Исходный код</a>
+          <a href="../animations.html#neutrino-particles">Нейтрино и частицы</a>
+          <a href="../animations.html#fields-waves">Поля и волны</a>
+          <a href="../animations.html#math-dynamical-systems">Математика</a>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <h2 class="section-inline-title">Код и модели</h2>
+  <section class="lecture-course-list" aria-label="Код и модели">
+    <details class="lecture-course software-course-tools" open>
+      <summary>
+        <span class="lecture-course-status">Инструменты</span>
+        <span class="lecture-course-title">dvnanima и gTracker</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Инструменты для научных анимаций и анимированных карт заявок по городам.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima">dvnanima</a>
+          <a href="https://github.com/NeutrinoHit/gTracker">gTracker</a>
+        </div>
+      </div>
+    </details>
+    <details class="lecture-course software-course-models">
+      <summary>
+        <span class="lecture-course-status">Физические модели</span>
+        <span class="lecture-course-title">TDSE-Diffraction и neutrino-nucleus-coherence</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Численные расчёты и демонстрационные модели физических процессов.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/TDSE-Diffraction">TDSE-Diffraction</a>
+          <a href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence">neutrino-nucleus-coherence</a>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <h2 class="section-inline-title">Фото и кино</h2>
+  <section class="lecture-course-list" aria-label="Фото и кино">
+    <details class="lecture-course photo-course-archive" open>
+      <summary>
+        <span class="lecture-course-status">2 альбома</span>
+        <span class="lecture-course-title">Фотоархив NeutrinoHit</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Фотографии лекций, научных школ, поездок и встреч.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../albums/v-a-rubakov-baikal-school-2009/">В. А. Рубаков, Байкал-2009</a>
+          <a href="../albums/10-17-may-2026/">Визит коллег из Китая, 2026</a>
+        </div>
+      </div>
+    </details>
+    <details class="lecture-course cinema-course-documentary">
+      <summary>
+        <span class="lecture-course-status">2 проекта</span>
+        <span class="lecture-course-title">Фильмы и мультфильмы</span>
+      </summary>
+      <div class="lecture-course-body">
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">Вселенная в нейтринном телескопе</a>
+          <a href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg">Нерпа и тайна Байкала</a>
         </div>
       </div>
     </details>

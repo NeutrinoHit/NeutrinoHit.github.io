@@ -5,9 +5,10 @@
     return;
   }
 
+  const isEnglish = String(document.documentElement.lang || "").toLowerCase().startsWith("en");
   const endpoint =
     "https://inspirehep.net/api/literature/facets?facet_name=citation-summary&q=a%20Dmitry.V.Naumov.1";
-  const formatNumber = new Intl.NumberFormat("ru-RU").format;
+  const formatNumber = new Intl.NumberFormat(isEnglish ? "en-US" : "ru-RU").format;
   const setText = (selector, value) => {
     const element = container.querySelector(selector);
 
@@ -31,9 +32,17 @@
       setText("[data-inspire-papers]", formatNumber(data.hits.total.value));
       setText("[data-inspire-citations]", formatNumber(citeable.citations_count.value));
       setText("[data-inspire-h-index]", formatNumber(summary["h-index"].value.all));
-      setText("[data-inspire-status]", "Обновлено автоматически из INSPIRE.");
+      setText(
+        "[data-inspire-status]",
+        isEnglish ? "Updated automatically from INSPIRE." : "Обновлено автоматически из INSPIRE."
+      );
     })
     .catch(() => {
-      setText("[data-inspire-status]", "Показаны резервные значения: INSPIRE временно недоступен.");
+      setText(
+        "[data-inspire-status]",
+        isEnglish
+          ? "Fallback values are shown: INSPIRE is temporarily unavailable."
+          : "Показаны резервные значения: INSPIRE временно недоступен."
+      );
     });
 })();

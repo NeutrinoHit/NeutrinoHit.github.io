@@ -31,6 +31,13 @@ toc: false
         <a href="https://www.facebook.com/dmitry.naumov.52">Facebook</a>
         <a href="https://www.instagram.com/dmitryvnaumov_dlnp/">Instagram</a>
       </nav>
+        <p class="profile-metrics" data-inspire-stats>
+          <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+          <span><strong data-inspire-papers>~200</strong> publications</span>
+          <span><strong data-inspire-citations>&gt;15,000</strong> citations</span>
+          <span>h-index <strong data-inspire-h-index>51</strong></span>
+          <small data-inspire-status>Metrics are being checked via INSPIRE.</small>
+        </p>
     </div>
   </header>
 
@@ -43,4 +50,6 @@ toc: false
     </p>
   </section>
 </div>
+
+<script src="../assets/inspire-stats.js"></script>
 ```

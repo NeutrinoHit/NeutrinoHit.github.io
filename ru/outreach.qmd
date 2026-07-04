@@ -6,59 +6,209 @@ toc: false
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    Научная коммуникация NeutrinoHit: публичные лекции, книги, интервью,
-    фильмы, каналы и проекты, которые помогают говорить о современной физике
-    за пределами профессиональной аудитории.
+    Научная коммуникация NeutrinoHit: публичные лекции, книга, интервью,
+    фильмы, каналы и визуальные материалы о современной физике для широкой аудитории.
   </p>
 
   <section class="lecture-course-list" aria-label="Разделы научной коммуникации">
-    <details class="lecture-course" open>
+    <details class="lecture-course outreach-course-lectures" open>
       <summary>
-        <span class="lecture-course-status">Лекции для широкой аудитории</span>
-        <span class="lecture-course-title">Научно-популярные выступления</span>
+        <span class="lecture-course-status">Научпоп-лекции</span>
+        <span class="lecture-course-title">Лекции и визуальные материалы по физике частиц, астрофизике и современной физике</span>
       </summary>
       <div class="lecture-course-body">
         <p>
-          Каталог научно-популярных лекций о нейтрино, темной материи,
-          черных дырах, устройстве Вселенной и современной физике.
+          Основной каталог публичных лекций и коротких модулей. Полные слайды и старые адреса сохранены,
+          но вход к материалам теперь находится прямо здесь.
         </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../sciencepop.html">Открыть научно-популярные лекции</a>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>Библиотечка «Простыми словами»</summary>
+            <div class="lecture-material-body">
+              <p>Короткие модули по 5–10 минут: один физический вопрос и один ясный ответ.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../sciencepop/in-a-nutshell/">Открыть библиотечку</a>
+                <a href="../sciencepop/in-a-nutshell/Matter/">Что такое вещество?</a>
+                <a href="../sciencepop/in-a-nutshell/HowDoWeKnowAboutAtoms/">Как узнали про атомы?</a>
+                <a href="../sciencepop/in-a-nutshell/WhatIsAtom/">Что такое атом?</a>
+                <a href="../sciencepop/in-a-nutshell/InsideNucleus/">Что внутри атомного ядра?</a>
+              </div>
+            </div>
+          </details>
+
+          <details class="lecture-material">
+            <summary>Зачем нужны нейтринные телескопы?</summary>
+            <div class="lecture-material-body">
+              <p>Вселенная глазами нейтрино. Лекция на Астрофесте, 2026.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes/">Открыть лекцию</a>
+              </div>
+            </div>
+          </details>
+
+          <details class="lecture-material" open>
+            <summary>Рождение и жизнь Вселенной</summary>
+            <div class="lecture-material-body">
+              <p>Горячее начало, первый свет, звезды, галактики, Земля и далекое будущее.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html">Открыть лекцию</a>
+              </div>
+            </div>
+          </details>
+
+          <details class="lecture-material">
+            <summary>Современная физика без формул</summary>
+            <div class="lecture-material-body">
+              <p>Мини-курс о пространстве-времени, квантовых полях, Стандартной модели и поисках новой физики.</p>
+              <div class="lecture-course-actions">
+                <a href="../sciencepop/ModernPhysics/Lecture1/">Три интеллектуальные революции</a>
+                <a href="../sciencepop/ModernPhysics/Lecture2/">КТП: бесконечные мучения и глоток надежды</a>
+                <a href="../sciencepop/ModernPhysics/Lecture3/">Стандартная модель</a>
+                <a href="../sciencepop/ModernPhysics/Lecture4/">За горизонты Стандартной модели</a>
+              </div>
+            </div>
+          </details>
+
+          <details class="lecture-material">
+            <summary>Что такое частица в квантовой теории поля?</summary>
+            <div class="lecture-material-body">
+              <p>Волна или точка: рассеяние квантовой волны на двух мишенях и интерактивный апплет.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html">Открыть лекцию</a>
+              </div>
+            </div>
+          </details>
+
+          <details class="lecture-material">
+            <summary>Отдельные лекции и фильмы</summary>
+            <div class="lecture-material-body">
+              <p>Видео по нейтринной физике, современной физике и демонстрационным экспериментам.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">Вселенная в нейтринном телескопе</a>
+                <a href="https://youtu.be/ybPLBzujONA?si=QRiMUIRnwwKqxZw0">Как увеличить напряжение без трансформатора?</a>
+                <a href="https://youtu.be/-wFPbyZacts?si=jj20chjE9nmEu0uN">Тайна пропавшей энергии</a>
+              </div>
+            </div>
+          </details>
+
+          <details class="lecture-material">
+            <summary>Чёрные дыры</summary>
+            <div class="lecture-material-body">
+              <p>Научно-популярная лекция о физике чёрных дыр.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../sciencepop/BlackHoles/ЧерныеДыры/">Открыть лекцию</a>
+                <a href="https://youtu.be/c9BkAFfZHC8">YouTube</a>
+              </div>
+            </div>
+          </details>
+
+          <details class="lecture-material">
+            <summary>Тёмная материя</summary>
+            <div class="lecture-material-body">
+              <p>Наблюдательные свидетельства и возможная природа тёмной материи.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../sciencepop/DarkMatter/ТемнаяМатерия/">Открыть лекцию</a>
+                <a href="https://youtu.be/A2sHEkQ0Uww?si=Y7oeKP6kEfgSOszi">YouTube</a>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </details>
 
-    <details class="lecture-course">
+    <details class="lecture-course book-course-solar" open>
       <summary>
-        <span class="lecture-course-status">Книги и медиа</span>
-        <span class="lecture-course-title">Солнечное нейтрино, фильмы, мультфильмы</span>
+        <span class="lecture-course-status">Книги</span>
+        <span class="lecture-course-title">Солнечное нейтрино</span>
       </summary>
-      <div class="lecture-course-body">
-        <p>
-          Научно-популярные книги и визуальные проекты: фильм о нейтринном
-          телескопе, мультфильм о Байкале и материалы для широкой аудитории.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../books.html">Книги</a>
-          <a href="../cinema.html">Мое кино</a>
-          <a href="../animations.html">Анимации</a>
+      <div class="lecture-course-body book-course-with-cover">
+        <a class="book-cover-single" href="https://ast.ru/book/solnechnoe-neytrino-862573/">
+          <img src="https://cdn.ast.ru/v2/ASE000000000862573/COVER/cover1__w340.jpg" alt="Обложка книги «Солнечное нейтрино»">
+        </a>
+        <div>
+          <p>Детская научно-популярная книга о нейтрино, Солнце и большой физике маленьких частиц.</p>
+          <div class="lecture-course-actions">
+            <a class="lecture-action-primary" href="https://ast.ru/book/solnechnoe-neytrino-862573/">Страница AST</a>
+          </div>
         </div>
       </div>
     </details>
 
-    <details class="lecture-course">
+    <details class="lecture-course cinema-course-documentary">
       <summary>
-        <span class="lecture-course-status">Публичные разговоры</span>
-        <span class="lecture-course-title">Интервью, эфиры и подкасты</span>
+        <span class="lecture-course-status">Фильмы</span>
+        <span class="lecture-course-title">Кино и визуальные проекты</span>
       </summary>
       <div class="lecture-course-body">
-        <p>
-          Интервью о нейтрино, Байкальском телескопе, научной коммуникации
-          и роли фундаментальной физики в современной культуре.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../interviews.html">Открыть интервью</a>
-          <a href="https://naumov.jinr.ru/1060/">Профиль JINR: публикации</a>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>Вселенная в нейтринном телескопе</summary>
+            <div class="lecture-material-body cinema-material-detail">
+              <a href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">
+                <img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt="">
+              </a>
+              <div>
+                <p>Фильм о том, как нейтринные телескопы открывают Вселенную. Сценарист и режиссер: Дмитрий Наумов.</p>
+                <div class="lecture-course-actions">
+                  <a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">Смотреть на YouTube</a>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Нерпа и тайна Байкала</summary>
+            <div class="lecture-material-body cinema-material-detail">
+              <a href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg">
+                <img src="https://img.youtube.com/vi/Qja-x8WjYiw/hqdefault.jpg" alt="">
+              </a>
+              <div>
+                <p>Мультфильм о Байкале. Сценарий: Дмитрий Наумов.</p>
+                <div class="lecture-course-actions">
+                  <a class="lecture-action-primary" href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg">Смотреть на YouTube</a>
+                </div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course interview-course-articles">
+      <summary>
+        <span class="lecture-course-status">Интервью</span>
+        <span class="lecture-course-title">Интервью, статьи, эфиры и подкасты</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Разговоры о нейтринной физике, Байкальском телескопе и научной коммуникации.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>Ловушка для призраков: астрофизики черпают нейтрино из Байкала</summary>
+            <div class="lecture-material-body"><p>О Байкальском глубоководном нейтринном телескопе и задачах нейтринной астрономии.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1061/">Открыть материал</a></div></div>
+          </details>
+          <details class="lecture-material">
+            <summary>Научная коммуникация — новое понятие и новые знания</summary>
+            <div class="lecture-material-body"><p>О группе научных коммуникаций ЛЯП ОИЯИ, действующих проектах и планах.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1062/">Открыть материал</a></div></div>
+          </details>
+          <details class="lecture-material">
+            <summary>Байкальский телескоп — уникальный инструмент нейтринной астрономии</summary>
+            <div class="lecture-material-body"><p>О роли Baikal-GVD и о сведениях об эволюции Вселенной, которые несут нейтрино.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1063/">Открыть материал</a></div></div>
+          </details>
+          <details class="lecture-material">
+            <summary>На дно за черной дырой</summary>
+            <div class="lecture-material-body"><p>Интервью «Российской газете» о запуске нейтринного телескопа на озере Байкал.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1064/">Открыть материал</a></div></div>
+          </details>
+          <details class="lecture-material">
+            <summary>Нейтрино нужно разговорить</summary>
+            <div class="lecture-material-body"><p>Интервью Яна Махонина для «Троицкого варианта — Наука».</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1065/">Открыть материал</a></div></div>
+          </details>
+          <details class="lecture-material">
+            <summary>Радиоподкаст «Научный подход»</summary>
+            <div class="lecture-material-body"><p>Эфир «Радио России» о нейтринных телескопах.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1133/">Открыть материал</a></div></div>
+          </details>
+          <details class="lecture-material">
+            <summary>Первый канал. Подкаст.Лаб. «Кот Шредингера»</summary>
+            <div class="lecture-material-body"><p>О происхождении нейтрино, способах их регистрации и телескопах на Байкале и в Антарктиде.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1322/">Открыть материал</a></div></div>
+          </details>
         </div>
       </div>
     </details>
@@ -69,10 +219,7 @@ toc: false
         <span class="lecture-course-title">YouTube, Telegram и социальные сети</span>
       </summary>
       <div class="lecture-course-body">
-        <p>
-          Основные публичные площадки NeutrinoHit и личные каналы для новостей,
-          лекций, фотографий и материалов о физике.
-        </p>
+        <p>Основные публичные площадки NeutrinoHit и личные каналы для новостей, лекций, фотографий и материалов о физике.</p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
           <a href="https://t.me/NeutrinoHit">Telegram</a>
