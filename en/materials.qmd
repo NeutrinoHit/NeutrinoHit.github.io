@@ -7,56 +7,120 @@ toc: false
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    NeutrinoHit library by material type: books, courses, talks, animations, code projects, photo archives, and films.
-    Russian-only resources are marked explicitly.
+    NeutrinoHit library by material type: books, courses, talks, animations,
+    code projects, photo archives, and films. This is a working map with direct entry points,
+    not a list of links to other lists. Russian-only resources are marked explicitly.
   </p>
 
   <h2 class="section-inline-title">Books</h2>
-  <section class="lecture-course-list" aria-label="Books">
+  <section class="lecture-course-list" aria-label="Books catalog">
     <details class="lecture-course book-course-qft" open>
       <summary>
         <span class="lecture-course-status">Textbook · published in Russian</span>
-        <span class="lecture-course-title">Quantum Field Theory for Experimentalists and Not Only</span>
+        <span class="lecture-course-title">Quantum Field Theory for Experimentalists and More</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Two-volume QFT textbook. The Russian edition is published; the English edition is in preparation.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="books.html">Book catalog</a>
-          <a href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">ROSPEX</a>
+        <p>A practical two-volume textbook with examples, problems, and solutions. The Russian edition is published; the English edition is in preparation.</p>
+        <div class="book-cover-spread" aria-label="Quantum field theory textbook cover">
+          <img src="../assets/books/qft-cover-front.jpg" alt="Front cover of the quantum field theory textbook">
+          <img src="../assets/books/qft-cover-back.jpg" alt="Back cover of the quantum field theory textbook">
+        </div>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>Russian edition</summary>
+            <div class="lecture-material-body">
+              <p>The two Russian volumes are available in print and electronic formats.</p>
+              <div class="lecture-material-list">
+                <details class="lecture-material" open>
+                  <summary>Print edition for Russia</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Volume 1</a>
+                      <a href="https://shop.rcd.ru/catalog/fizika/20097/">Volume 2</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>ROSPEX Publishing</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a href="https://rospexpublishing.com/books/qft-volume-1.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Volume 1</a>
+                      <a href="https://rospexpublishing.com/books/qft-volume-2.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Volume 2</a>
+                      <a class="lecture-action-primary" href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Bundle</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>Google Play Books</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ">Volume 1</a>
+                      <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ">Volume 2</a>
+                    </div>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>English edition</summary>
+            <div class="lecture-material-body">
+              <p>In preparation.</p>
+            </div>
+          </details>
         </div>
       </div>
     </details>
+
     <details class="lecture-course book-course-solar">
       <summary>
-        <span class="lecture-course-status">Popular science · in Russian</span>
+        <span class="lecture-course-status">Popular science · published in Russian</span>
         <span class="lecture-course-title">Solar Neutrino</span>
       </summary>
-      <div class="lecture-course-body">
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://ast.ru/book/solnechnoe-neytrino-862573/">AST page</a>
+      <div class="lecture-course-body book-course-with-cover">
+        <a class="book-cover-single" href="https://ast.ru/book/solnechnoe-neytrino-862573/">
+          <img src="https://cdn.ast.ru/v2/ASE000000000862573/COVER/cover1__w340.jpg" alt="Solar Neutrino book cover">
+        </a>
+        <div>
+          <p>A popular-science book for children about neutrinos, the Sun, and the big physics of tiny particles. The book is in Russian.</p>
+          <div class="lecture-course-actions">
+            <a class="lecture-action-primary" href="https://ast.ru/book/solnechnoe-neytrino-862573/">AST page (Russian)</a>
+          </div>
         </div>
       </div>
     </details>
+
     <details class="lecture-course book-course-neutrino">
       <summary>
         <span class="lecture-course-status">In progress</span>
         <span class="lecture-course-title">Introduction to Neutrino Physics</span>
       </summary>
-      <div class="lecture-course-body"><p>Book in progress.</p></div>
+      <div class="lecture-course-body">
+        <p>The book is in preparation. The working private repository is available to the author.</p>
+        <div class="lecture-course-actions">
+          <a href="https://github.com/dmitryvnaumov/NEUTRINObook">Private repository</a>
+        </div>
+      </div>
     </details>
+
     <details class="lecture-course book-course-particles">
       <summary>
         <span class="lecture-course-status">In progress</span>
         <span class="lecture-course-title">Introduction to Particle Physics</span>
       </summary>
-      <div class="lecture-course-body"><p>Book in progress.</p></div>
+      <div class="lecture-course-body">
+        <p>The book is in preparation.</p>
+      </div>
     </details>
+
     <details class="lecture-course book-course-stat">
       <summary>
-        <span class="lecture-course-status">Online book · in Russian</span>
+        <span class="lecture-course-status">Online book · in progress</span>
         <span class="lecture-course-title">Statistical Analysis</span>
       </summary>
       <div class="lecture-course-body">
+        <p>A practical online book on probability models, parameter estimation,
+        hypothesis testing, and statistical inference in experimental physics.</p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="../statistical-analysis-course/ru/book/index.html">Open book (Russian)</a>
           <a href="../statistical-analysis-course/ru/slides/applets.html">Applets (Russian)</a>
@@ -423,44 +487,96 @@ toc: false
     </details>
   </section>
 
-  <h2 class="section-inline-title">Animations, Code, Photos, and Films</h2>
-  <section class="lecture-course-list" aria-label="Visual and code materials">
-    <details class="lecture-course resource-card-animation" open>
+  <h2 class="section-inline-title">Talks</h2>
+  <section class="lecture-course-list" aria-label="Talks">
+    <details class="lecture-course lecture-course-talk-conferences" open>
       <summary>
-        <span class="lecture-course-status">28 stories · 72 clips</span>
-        <span class="lecture-course-title">Scientific animations</span>
+        <span class="lecture-course-status">Conference · 2026</span>
+        <span class="lecture-course-title">Status and Prospects of Neutrino Physics</span>
       </summary>
       <div class="lecture-course-body">
+        <p>Talk at the June 2-5, 2026 conference: Russian projects in the global context.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="animations.html">Open gallery</a>
-          <a href="https://github.com/NeutrinoHit/dvnanima">Source code</a>
+          <a class="lecture-action-primary" href="../talks/protvino-2026/dnaumov.html">Talk slides (Russian)</a>
+          <a href="https://indico.ihep.su/e/PPIHE2026">Conference page (Russian)</a>
         </div>
       </div>
     </details>
-    <details class="lecture-course software-course-tools">
+  </section>
+
+  <h2 class="section-inline-title">Animations</h2>
+  <section class="lecture-course-list" aria-label="Animations">
+    <details class="lecture-course resource-card-animation" open>
       <summary>
-        <span class="lecture-course-status">Code</span>
-        <span class="lecture-course-title">dvnanima, gTracker, TDSE-Diffraction, neutrino-nucleus-coherence</span>
+        <span class="lecture-course-status">28 stories · 72 clips</span>
+        <span class="lecture-course-title">Scientific animations by dvnanima</span>
       </summary>
       <div class="lecture-course-body">
+        <p>Neutrinos and particles, fields and waves, mathematics and dynamical systems, and visual science stories.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../animations.html">Open gallery (Russian labels)</a>
+          <a href="https://github.com/NeutrinoHit/dvnanima">Source code</a>
+          <a href="../animations.html#neutrino-particles">Neutrinos and particles (Russian labels)</a>
+          <a href="../animations.html#fields-waves">Fields and waves (Russian labels)</a>
+          <a href="../animations.html#math-dynamical-systems">Mathematics (Russian labels)</a>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <h2 class="section-inline-title">Code and Models</h2>
+  <section class="lecture-course-list" aria-label="Code and models">
+    <details class="lecture-course software-course-tools" open>
+      <summary>
+        <span class="lecture-course-status">Tools</span>
+        <span class="lecture-course-title">dvnanima and gTracker</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Tools for scientific animations and animated application maps by city.</p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima">dvnanima</a>
           <a href="https://github.com/NeutrinoHit/gTracker">gTracker</a>
-          <a href="https://github.com/NeutrinoHit/TDSE-Diffraction">TDSE-Diffraction</a>
+        </div>
+      </div>
+    </details>
+    <details class="lecture-course software-course-models">
+      <summary>
+        <span class="lecture-course-status">Physical models</span>
+        <span class="lecture-course-title">TDSE-Diffraction and neutrino-nucleus-coherence</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Numerical calculations and demonstration models for physical processes.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/TDSE-Diffraction">TDSE-Diffraction</a>
           <a href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence">neutrino-nucleus-coherence</a>
         </div>
       </div>
     </details>
-    <details class="lecture-course photo-course-archive">
+  </section>
+
+  <h2 class="section-inline-title">Photos and Films</h2>
+  <section class="lecture-course-list" aria-label="Photos and films">
+    <details class="lecture-course photo-course-archive" open>
       <summary>
-        <span class="lecture-course-status">Archive</span>
-        <span class="lecture-course-title">Photo albums and films</span>
+        <span class="lecture-course-status">2 albums</span>
+        <span class="lecture-course-title">NeutrinoHit photo archive</span>
       </summary>
       <div class="lecture-course-body">
+        <p>Photos from lectures, scientific schools, trips, and meetings.</p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="../albums/v-a-rubakov-baikal-school-2009/">V. A. Rubakov, Baikal 2009</a>
           <a href="../albums/10-17-may-2026/">Chinese colleagues visit, 2026</a>
-          <a href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">The Universe in a Neutrino Telescope</a>
+        </div>
+      </div>
+    </details>
+    <details class="lecture-course cinema-course-documentary">
+      <summary>
+        <span class="lecture-course-status">2 projects</span>
+        <span class="lecture-course-title">Films and animated films</span>
+      </summary>
+      <div class="lecture-course-body">
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">The Universe in a Neutrino Telescope</a>
           <a href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg">Nerpa and the Mystery of Baikal</a>
         </div>
       </div>
