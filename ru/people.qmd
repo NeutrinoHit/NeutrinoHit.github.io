@@ -14,7 +14,7 @@ format:
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">Открывается раздел «Школа».</p>
   <div class="lecture-course-actions">
-    <a class="lecture-action-primary" href="school.html">Открыть раздел</a>
+    <a class="lecture-action-primary" href="school.html">Перейти в «Школу»</a>
     <a href="../en/school.html">English version</a>
   </div>
 </div>

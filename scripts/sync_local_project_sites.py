@@ -17,6 +17,7 @@ class ProjectSite:
     slug: str
     source: Path
     static_source: bool = False
+    overlays: tuple[tuple[Path, str], ...] = ()
 
 
 PROJECT_SITES = [
@@ -25,7 +26,16 @@ PROJECT_SITES = [
     ProjectSite("sciencepop", WORKSPACE / "sciencepop", static_source=True),
     ProjectSite("neutrinophysics", WORKSPACE / "neutrinophysics" / "_site"),
     ProjectSite("particlephysics", WORKSPACE / "particlephysics" / "_site"),
-    ProjectSite("statistical-analysis-course", WORKSPACE / "stat-course" / "pages"),
+    ProjectSite(
+        "statistical-analysis-course",
+        WORKSPACE / "stat-course" / "pages",
+        overlays=(
+            (WORKSPACE / "stat-course" / "ru" / "slides" / "_site", "ru/slides"),
+            (WORKSPACE / "stat-course" / "en" / "slides" / "_site", "en/slides"),
+            (WORKSPACE / "stat-course" / "ru" / "book" / "_book", "ru/book"),
+            (WORKSPACE / "stat-course" / "en" / "book" / "_book", "en/book"),
+        ),
+    ),
 ]
 
 
@@ -96,6 +106,16 @@ def copy_site(site: ProjectSite) -> None:
         prune_sciencepop_copy(target)
     else:
         shutil.copytree(site.source, target, ignore=project_ignore, copy_function=copy_available)
+
+    for overlay_source, overlay_rel in site.overlays:
+        if not overlay_source.exists():
+            print(f"[local-preview] skip missing overlay {overlay_source}")
+            continue
+        overlay_target = target / overlay_rel
+        if overlay_target.exists():
+            shutil.rmtree(overlay_target)
+        shutil.copytree(overlay_source, overlay_target, ignore=project_ignore, copy_function=copy_available)
+        print(f"[local-preview] {overlay_source} -> {overlay_target}")
 
     print(f"[local-preview] {site.source} -> {target}")
 

@@ -23,8 +23,7 @@ title: "Доклады"
             <div class="lecture-material-body">
               <p>Российские проекты в глобальном контексте.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="https://neutrinohit.github.io/talks/protvino-2026/dnaumov.html">Открыть слайды</a>
-                <a href="https://neutrinohit.github.io/talks/protvino-2026/neutrino-overview-protvino-2026.pdf">PDF</a>
+                <a class="lecture-action-primary" href="talks/protvino-2026/dnaumov.html">Открыть слайды</a>
                 <a href="https://indico.ihep.su/e/PPIHE2026">Страница конференции</a>
               </div>
             </div>

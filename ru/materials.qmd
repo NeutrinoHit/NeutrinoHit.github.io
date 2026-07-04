@@ -120,8 +120,10 @@ toc: false
         <p>Практическая онлайн-книга о вероятностных моделях, оценивании параметров,
         проверке гипотез и статистическом выводе в экспериментальной физике.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/statistical-analysis-course/ru/book/">Открыть книгу</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Слайды курса</a>
+          <a class="lecture-action-primary" href="../statistical-analysis-course/ru/book/index.html">Открыть книгу</a>
+          <a href="../statistical-analysis-course/ru/slides/applets.html">Апплеты</a>
+          <a href="../statistical-analysis-course/ru/slides/exercises/index.html">Все задачи</a>
+          <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Экзаменационные проекты</a>
         </div>
       </div>
     </details>
@@ -136,12 +138,55 @@ toc: false
       </summary>
       <div class="lecture-course-body">
         <p>Курсы по КТП, Стандартной модели, ренормировке и ускоренным системам отсчёта.</p>
-        <div class="lecture-course-actions">
-          <a href="../books.html">Книги и учебники</a>
-        </div>
         <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>Учебник</summary>
+            <div class="lecture-material-body">
+              <p>Двухтомный учебник «Квантовая теория поля для экспериментаторов и не только»: примеры, задачи, решения и практический взгляд на КТП. Русское издание опубликовано; английское готовится.</p>
+              <div class="book-cover-spread" aria-label="Обложка учебника по квантовой теории поля">
+                <img src="../assets/books/qft-cover-front.jpg" alt="Лицевая сторона обложки учебника «Квантовая теория поля для экспериментаторов и не только»">
+                <img src="../assets/books/qft-cover-back.jpg" alt="Оборотная сторона обложки учебника «Квантовая теория поля для экспериментаторов и не только»">
+              </div>
+              <div class="lecture-material-list">
+                <details class="lecture-material" open>
+                  <summary>Бумажная версия для России</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Том 1</a>
+                      <a href="https://shop.rcd.ru/catalog/fizika/20097/">Том 2</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>ROSPEX Publishing</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a href="https://rospexpublishing.com/books/qft-volume-1.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Том 1</a>
+                      <a href="https://rospexpublishing.com/books/qft-volume-2.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Том 2</a>
+                      <a class="lecture-action-primary" href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Комплект</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>Google Play Books</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ">Том 1</a>
+                      <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ">Том 2</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>English edition</summary>
+                  <div class="lecture-material-body">
+                    <p>Готовится.</p>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </details>
           <details class="lecture-material">
-            <summary>Введение в квантовую теорию поля</summary>
+            <summary>Курс лекций «Квантовая теория поля»</summary>
             <div class="lecture-material-body">
               <p>Базовый курс: конспект и видеозаписи.</p>
               <div class="lecture-course-actions">
@@ -154,7 +199,7 @@ toc: false
             </div>
           </details>
           <details class="lecture-material">
-            <summary>Стандартная модель</summary>
+            <summary>Курс лекций «Стандартная модель»</summary>
             <div class="lecture-material-body">
               <p>Введение в Стандартную модель: конспект и видеоматериалы.</p>
               <div class="lecture-course-actions">
@@ -167,7 +212,7 @@ toc: false
             </div>
           </details>
           <details class="lecture-material">
-            <summary>Ренормировка в квантовой теории поля</summary>
+            <summary>Курс лекций «Ренормировка в квантовой теории поля»</summary>
             <div class="lecture-material-body">
               <p>Конспект курса и видеоплейлисты по ренормировке.</p>
               <div class="lecture-course-actions">
@@ -182,9 +227,12 @@ toc: false
           <details class="lecture-material">
             <summary>Ускоренные системы отсчёта и эффект Унру</summary>
             <div class="lecture-material-body">
-              <p>Мини-курс в формате HTML-слайдов.</p>
+              <p>Четыре прямые HTML-лекции по ускоренным системам отсчёта, термодинамике и эффекту Унру.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/qft-lectures/unruh.html">Открыть слайды</a>
+                <a class="lecture-action-primary" href="../qft-lectures/ru/slides/Rindler.html">01. Ускоренные системы отсчёта</a>
+                <a href="../qft-lectures/ru/slides/Thermodynamics.html">02. Термодинамика</a>
+                <a href="../qft-lectures/ru/slides/UnruhEffect-1.html">03. Эффект Унру I</a>
+                <a href="../qft-lectures/ru/slides/UnruhEffect-2.html">04. Эффект Унру II</a>
               </div>
             </div>
           </details>
@@ -193,8 +241,7 @@ toc: false
             <div class="lecture-material-body">
               <p>Отдельная лекция по scalar QED и волновым пакетам: как в КТП кодируются притяжение и отталкивание.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/qft-lectures/scalar-qed-attraction-repulsion.html">Страница лекции</a>
-                <a href="https://neutrinohit.github.io/qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html">Слайды</a>
+                <a class="lecture-action-primary" href="../qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html">HTML-слайды</a>
               </div>
             </div>
           </details>
@@ -204,56 +251,146 @@ toc: false
 
     <details id="stat" class="lecture-course lecture-course-stat">
       <summary>
-        <span class="lecture-course-status">5 лекций опубликованы</span>
+        <span class="lecture-course-status">13 лекций опубликованы</span>
         <span class="lecture-course-title">Статистический анализ данных</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Практический курс для физики высоких энергий, астрофизики и анализа экспериментальных данных.</p>
+        <p>Практический курс для физики высоких энергий, астрофизики и анализа экспериментальных данных. Все опубликованные лекции открываются прямо отсюда.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Открыть русский курс</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/en/slides/">English slides</a>
+          <a class="lecture-action-primary" href="../statistical-analysis-course/ru/book/index.html">Онлайн-книга</a>
+          <a href="../statistical-analysis-course/ru/slides/applets.html">Апплеты</a>
+          <a href="../statistical-analysis-course/ru/slides/exercises/index.html">Все задачи</a>
+          <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Экзаменационные проекты</a>
         </div>
         <div class="lecture-material-list">
           <details class="lecture-material">
-            <summary>Мотивация и обзор курса</summary>
+            <summary>00. Мотивация и обзор курса</summary>
             <div class="lecture-material-body">
+              <p>Зачем физику статистика и какие вопросы решает курс.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/introduction.html">Открыть лекцию</a>
-                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/exercises/introduction.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/00_introduction.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/00_introduction_exercises.html">Задачи</a>
               </div>
             </div>
           </details>
           <details class="lecture-material">
-            <summary>Случайные величины, распределения, моменты</summary>
+            <summary>01. Случайные величины, распределения, моменты</summary>
             <div class="lecture-material-body">
+              <p>Вероятности, плотности, кумулятивная функция распределения и моменты.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/random-distributions.html">Открыть лекцию</a>
-                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/exercises/random-distributions.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/01_random_distributions.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/01_random_distributions_exercises.html">Задачи</a>
               </div>
             </div>
           </details>
           <details class="lecture-material">
-            <summary>Характеристические функции и суммы случайных величин</summary>
+            <summary>02. Характеристические функции и суммы случайных величин</summary>
             <div class="lecture-material-body">
+              <p>Преобразование Фурье распределения, свёртки, независимые суммы, моменты, кумулянты и мост к ЦПТ.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/characteristic-functions.html">Открыть лекцию</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/02_characteristic_functions.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/02_characteristic_functions_exercises.html">Задачи</a>
               </div>
             </div>
           </details>
           <details class="lecture-material">
-            <summary>Центральная предельная теорема и нормальное распределение</summary>
+            <summary>03. Центральная предельная теорема и нормальное распределение</summary>
             <div class="lecture-material-body">
+              <p>Почему возникает гаусс, как читать квантили и как проверять совместимость измерений.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/central-limit-theorem.html">Открыть лекцию</a>
-                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/exercises/central-limit-theorem.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/03_central_limit_theorem.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/03_central_limit_theorem_exercises.html">Задачи</a>
               </div>
             </div>
           </details>
           <details class="lecture-material">
-            <summary>Когда гаусс не возникает</summary>
+            <summary>04. Когда гаусс не возникает</summary>
             <div class="lecture-material-body">
+              <p>Границы применимости ЦПТ: тяжёлые хвосты, корреляции, смеси распределений, пороги и малые счёты.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/non_gaussian_clt_violations.html">Открыть лекцию</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/04_non_gaussian_clt_violations.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/04_non_gaussian_clt_violations_exercises.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>05. Распространение ошибок</summary>
+            <div class="lecture-material-body">
+              <p>Линейное распространение ошибок, нелинейные функции, оценки среднего, дисперсии, стандартного отклонения и ковариации.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/05_error_propagation.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/05_error_propagation_and_covariance_exercises.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>06. Двумерный гаусс</summary>
+            <div class="lecture-material-body">
+              <p>Ковариационная матрица, корреляция, двумерный гаусс, эллипсы, контуры и практические применения.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/06_two_dimensional_gaussian.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/05_error_propagation_and_covariance_exercises.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>07. Метод Монте-Карло и псевдоэксперименты</summary>
+            <div class="lecture-material-body">
+              <p>Генерация распределений, численное интегрирование, псевдоэксперименты и моделирование детектора.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/07_monte_carlo_method.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/06_monte_carlo_method_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/slides/notebooks/mc_vegas_notebook.html">Ноутбук VEGAS</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>08. Правдоподобие и оценки максимального правдоподобия</summary>
+            <div class="lecture-material-body">
+              <p>Функция правдоподобия, логарифм правдоподобия, ММП и первые примеры оценивания параметров.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/08_maximum_likelihood.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/07_parameter_estimation_and_maximum_likelihood_exercises.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>09. Свойства оценок, профильное правдоподобие и примеры анализа данных</summary>
+            <div class="lecture-material-body">
+              <p>Смещение, дисперсия, информация Фишера, форма правдоподобия, профилирование и диагностика подгонки.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/09_estimator_properties_profile_likelihood.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/07_parameter_estimation_and_maximum_likelihood_exercises.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>10. Метод наименьших квадратов и линейная подгонка</summary>
+            <div class="lecture-material-body">
+              <p>Связь МНК с гауссовым правдоподобием, линейная модель, нормальные уравнения, ковариации параметров и остатки.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/10_least_squares_linear_fit.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/08_method_of_least_squares_exercises.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>11. χ²-интервалы, систематики и практический рецепт МНК</summary>
+            <div class="lecture-material-body">
+              <p>Общий матричный случай, интервалы из формы χ², систематические неопределённости, нормировка и практический рецепт анализа.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/11_least_squares_systematics.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/08_method_of_least_squares_exercises.html">Задачи</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>12. Качество согласия и статистическая значимость</summary>
+            <div class="lecture-material-body">
+              <p>Остатки, распределение χ², число степеней свободы, p-значение, перевод в Z и калибровка псевдоэкспериментами.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/12_goodness_of_fit_and_significance.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/09_statistical_tests_basics_exercises.html">Задачи</a>
               </div>
             </div>
           </details>
@@ -263,33 +400,36 @@ toc: false
 
     <details id="neutrino" class="lecture-course lecture-course-neutrino">
       <summary>
-        <span class="lecture-course-status">Отдельный раздел опубликован</span>
+        <span class="lecture-course-status">Курсы и мастер-классы опубликованы</span>
         <span class="lecture-course-title">Физика нейтрино</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Курсы и мастер-классы по физике нейтрино: вводные лекции и солнечный мастер-класс.</p>
+        <p>Вводный курс и солнечный мастер-класс: лекции, проект и данные открываются прямо отсюда.</p>
         <div class="lecture-material-list">
           <details class="lecture-material">
             <summary>Введение в физику нейтрино</summary>
             <div class="lecture-material-body">
-              <p>Вводный курс: первые три лекции опубликованы в виде HTML-слайдов.</p>
+              <p>Три вводные лекции в виде HTML-слайдов.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/neutrinophysics/introduction/">Открыть курс</a>
-                <a href="https://neutrinohit.github.io/neutrinophysics/introduction/Introduction/">Лекция 1</a>
-                <a href="https://neutrinohit.github.io/neutrinophysics/introduction/Parity/">Лекция 2</a>
-                <a href="https://neutrinohit.github.io/neutrinophysics/introduction/Helicity/">Лекция 3</a>
+                <a class="lecture-action-primary" href="../neutrinophysics/introduction/Introduction/index.html">01. Введение</a>
+                <a href="../neutrinophysics/introduction/Parity/index.html">02. Чётность</a>
+                <a href="../neutrinophysics/introduction/Helicity/index.html">03. Спиральность</a>
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details class="lecture-material" open>
             <summary>Солнечные нейтрино</summary>
             <div class="lecture-material-body">
-              <p>Мини-курс мастер-класса: источники, MSW, toy detector, pseudoexperiment and fit.</p>
+              <p>Мастер-класс по источникам солнечных нейтрино, осцилляциям, MSW-эффекту, детекторной статистике и SK-подобному фитированию. Лекции, проект и данные открываются из одной вкладки.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/">Открыть мини-курс</a>
-                <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html">Занятие 1</a>
-                <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html">Занятие 2</a>
-                <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/slides/03_student_defense.html">Занятие 3</a>
+                <a class="lecture-action-primary" href="../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html">00. Solar Neutrinos and Oscillations</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics_appendix.html">00. Appendix</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html">01. Fluxes, event rates, normalization fit</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html">02. Oscillations and fit</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html">Проект: SK-like fit</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip">Данные мастер-класса 1</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip">Данные мастер-класса 2</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip">Данные проекта</a>
               </div>
             </div>
           </details>
@@ -299,32 +439,35 @@ toc: false
 
     <details id="particles" class="lecture-course lecture-course-particles">
       <summary>
-        <span class="lecture-course-status">Отдельный раздел опубликован</span>
+        <span class="lecture-course-status">Мини-курс и материалы курса опубликованы</span>
         <span class="lecture-course-title">Физика элементарных частиц</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Курсы и мини-курсы по физике элементарных частиц: вводные лекции, формулы и материалы курса.</p>
+        <p>Мини-курс и материалы большого курса по физике элементарных частиц собраны прямо здесь.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material">
-            <summary>Мини-курс</summary>
+          <details class="lecture-material" open>
+            <summary>Мини-курс: введение в физику элементарных частиц</summary>
             <div class="lecture-material-body">
-              <p>Две вводные лекции: частицы, поля, взаимодействия, структура Стандартной модели, слабое взаимодействие и нейтрино.</p>
+              <p>Две вводные лекции, формулы, вопросы и практические notebooks по сечениям, распадам и нейтринным осцилляциям.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/">Открыть мини-курс</a>
-                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">Лекция 1</a>
-                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">Лекция 2</a>
-                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Формулы</a>
+                <a class="lecture-action-primary" href="../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">01. Частицы, поля и взаимодействия</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">02. Стандартная модель и нейтрино</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Формулы</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">Вопросы к лекции 1</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model_neutrinos.html">Вопросы к лекции 2</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/notebooks/01_event_rates_and_cross_sections.ipynb">Notebook: сечения и темпы событий</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/notebooks/02_decay_law_and_lifetime.ipynb">Notebook: закон распада</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/notebooks/03_neutrino_oscillation_probability.ipynb">Notebook: осцилляции нейтрино</a>
               </div>
             </div>
           </details>
           <details class="lecture-material">
-            <summary>Введение в физику элементарных частиц</summary>
+            <summary>Большой курс: введение в физику элементарных частиц</summary>
             <div class="lecture-material-body">
-              <p>Планируемый большой курс с русскими и английскими материалами. Ориентир — около 16 лекций; точное число можно менять по мере подготовки.</p>
+              <p>Русская раскладка полного курса: слайды и книга курса.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/">Открыть курс</a>
-                <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/ru/slides/">RU slides</a>
-                <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/en/slides/">EN slides</a>
+                <a class="lecture-action-primary" href="../particlephysics/ParticlePhysics/ru/slides/index.html">Слайды курса</a>
+                <a href="../particlephysics/ParticlePhysics/ru/book/index.html">Книга курса</a>
               </div>
             </div>
           </details>
@@ -363,8 +506,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Доклад на конференции 2-5 июня 2026 года: российские проекты в глобальном контексте.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/talks/protvino-2026/dnaumov.html">Открыть слайды</a>
-          <a href="https://neutrinohit.github.io/talks/protvino-2026/neutrino-overview-protvino-2026.pdf">PDF</a>
+          <a class="lecture-action-primary" href="../talks/protvino-2026/dnaumov.html">Слайды доклада</a>
           <a href="https://indico.ihep.su/e/PPIHE2026">Страница конференции</a>
         </div>
       </div>

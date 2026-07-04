@@ -58,8 +58,10 @@ toc: false
       </summary>
       <div class="lecture-course-body">
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/statistical-analysis-course/ru/book/">Open book</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Course slides</a>
+          <a class="lecture-action-primary" href="../statistical-analysis-course/ru/book/index.html">Open book (Russian)</a>
+          <a href="../statistical-analysis-course/ru/slides/applets.html">Applets (Russian)</a>
+          <a href="../statistical-analysis-course/ru/slides/exercises/index.html">All exercises (Russian)</a>
+          <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Exam projects (Russian)</a>
         </div>
       </div>
     </details>
@@ -74,13 +76,55 @@ toc: false
       </summary>
       <div class="lecture-course-body">
         <p>Courses on quantum field theory, the Standard Model, renormalization, accelerated frames, and selected QFT topics.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/qft-lectures/">QFT lectures site</a>
-          <a href="books.html">Books</a>
-        </div>
         <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>Textbook</summary>
+            <div class="lecture-material-body">
+              <p><em>Quantum Field Theory for Experimentalists and More</em> is a two-volume textbook with examples, problems, and solutions. The Russian edition is published; the English edition is in preparation.</p>
+              <div class="book-cover-spread" aria-label="Quantum field theory textbook cover">
+                <img src="../assets/books/qft-cover-front.jpg" alt="Front cover of the quantum field theory textbook">
+                <img src="../assets/books/qft-cover-back.jpg" alt="Back cover of the quantum field theory textbook">
+              </div>
+              <div class="lecture-material-list">
+                <details class="lecture-material" open>
+                  <summary>Russian print edition</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Volume 1</a>
+                      <a href="https://shop.rcd.ru/catalog/fizika/20097/">Volume 2</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>ROSPEX Publishing</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a href="https://rospexpublishing.com/books/qft-volume-1.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Volume 1</a>
+                      <a href="https://rospexpublishing.com/books/qft-volume-2.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Volume 2</a>
+                      <a class="lecture-action-primary" href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Bundle</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>Google Play Books</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ">Volume 1</a>
+                      <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ">Volume 2</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>English edition</summary>
+                  <div class="lecture-material-body">
+                    <p>In preparation.</p>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </details>
           <details class="lecture-material">
-            <summary>Introduction to Quantum Field Theory</summary>
+            <summary>Lecture course “Quantum Field Theory”</summary>
             <div class="lecture-material-body">
               <p>Basic QFT course: notes and video recordings are in Russian.</p>
               <div class="lecture-course-actions">
@@ -93,7 +137,7 @@ toc: false
             </div>
           </details>
           <details class="lecture-material">
-            <summary>Introduction to the Standard Model</summary>
+            <summary>Lecture course “Introduction to the Standard Model”</summary>
             <div class="lecture-material-body">
               <p>Introductory Standard Model course: notes and videos are in Russian.</p>
               <div class="lecture-course-actions">
@@ -106,7 +150,7 @@ toc: false
             </div>
           </details>
           <details class="lecture-material">
-            <summary>Renormalization in Quantum Field Theory</summary>
+            <summary>Lecture course “Renormalization in Quantum Field Theory”</summary>
             <div class="lecture-material-body">
               <p>Course notes and video playlists are in Russian.</p>
               <div class="lecture-course-actions">
@@ -121,9 +165,12 @@ toc: false
           <details class="lecture-material">
             <summary>Accelerated frames and the Unruh effect</summary>
             <div class="lecture-material-body">
-              <p>Short course in HTML slides.</p>
+              <p>Four direct HTML slide lectures on accelerated frames, thermodynamics, and the Unruh effect.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/qft-lectures/unruh.html">Open slides</a>
+                <a class="lecture-action-primary" href="../qft-lectures/ru/slides/Rindler.html">01. Accelerated frames (Russian)</a>
+                <a href="../qft-lectures/ru/slides/Thermodynamics.html">02. Thermodynamics (Russian)</a>
+                <a href="../qft-lectures/ru/slides/UnruhEffect-1.html">03. Unruh effect I (Russian)</a>
+                <a href="../qft-lectures/ru/slides/UnruhEffect-2.html">04. Unruh effect II (Russian)</a>
               </div>
             </div>
           </details>
@@ -132,8 +179,7 @@ toc: false
             <div class="lecture-material-body">
               <p>Lecture on scalar QED and wave packets: how attraction and repulsion are encoded in QFT.</p>
               <div class="lecture-course-actions">
-                <a href="https://neutrinohit.github.io/qft-lectures/scalar-qed-attraction-repulsion.html">Lecture page</a>
-                <a href="https://neutrinohit.github.io/qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html">Slides</a>
+                <a class="lecture-action-primary" href="../qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html">HTML slides</a>
               </div>
             </div>
           </details>
@@ -143,43 +189,215 @@ toc: false
 
     <details id="stat" class="lecture-course lecture-course-stat">
       <summary>
-        <span class="lecture-course-status">Course in progress</span>
+        <span class="lecture-course-status">15 English lectures · 13 Russian lectures</span>
         <span class="lecture-course-title">Statistical Analysis of Data</span>
       </summary>
       <div class="lecture-course-body">
-        <p>A practical course for high-energy physics, astrophysics, and experimental data analysis.</p>
+        <p>A practical course for high-energy physics, astrophysics, and experimental data analysis. English-language lectures are listed directly below; Russian-only supporting materials are marked.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Russian slides</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/en/slides/">English slides</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/book/">Online book (Russian)</a>
+          <a class="lecture-action-primary" href="../statistical-analysis-course/ru/book/index.html">Online book (Russian)</a>
+          <a href="../statistical-analysis-course/ru/slides/applets.html">Applets (Russian)</a>
+          <a href="../statistical-analysis-course/ru/slides/exercises/index.html">All exercises (Russian)</a>
+          <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Exam projects (Russian)</a>
+        </div>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>01. Introduction</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-01-introduction.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>02. Probability and Bayes</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-02-probability-bayes.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>03. Random variables and densities</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-03-random-variables-and-densities.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>04. Expectation and error propagation</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-04-expectation-and-error-propagation.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>05. Common probability distributions</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-05-common-probability-distributions.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>06. Monte Carlo method</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-06-monte-carlo-method.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>07. Statistical tests basics</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-07-statistical-tests-basics.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>08. Test statistics and multivariate methods</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-08-test-statistics-and-multivariate-methods.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>09. Goodness of fit and significance</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-09-goodness-of-fit-and-significance.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>10. Feldman-Cousins and CLs</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-10-feldman-cousins-and-cls.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>11. Parameter estimation and maximum likelihood</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-11-parameter-estimation-and-maximum-likelihood.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>12. Method of least squares</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-12-method-of-least-squares.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>13. Interval estimation and limits</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-13-interval-estimation-and-limits.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>14. Nuisance parameters and systematics</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-14-nuisance-parameters-and-systematics.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>15. Bayesian examples</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-15-bayesian-examples.html">Open slides</a>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </details>
 
     <details id="neutrino" class="lecture-course lecture-course-neutrino">
       <summary>
-        <span class="lecture-course-status">Dedicated section</span>
+        <span class="lecture-course-status">Courses and master classes</span>
         <span class="lecture-course-title">Neutrino Physics</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Courses and master classes on neutrino physics.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/neutrinophysics/introduction/">Introduction to neutrino physics</a>
-          <a href="https://neutrinohit.github.io/neutrinophysics/solar-neutrino-masterclass/">Solar neutrino masterclass</a>
+        <p>Introductory neutrino lectures and the solar-neutrino masterclass are listed directly here.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Introduction to neutrino physics</summary>
+            <div class="lecture-material-body">
+              <p>Three introductory HTML slide lectures.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../neutrinophysics/introduction/Introduction/index.html">01. Introduction</a>
+                <a href="../neutrinophysics/introduction/Parity/index.html">02. Parity</a>
+                <a href="../neutrinophysics/introduction/Helicity/index.html">03. Helicity</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material" open>
+            <summary>Solar neutrino masterclass</summary>
+            <div class="lecture-material-body">
+              <p>Sources of solar neutrinos, oscillations, MSW physics, detector statistics, and an SK-like fit project. Lectures, project materials, and datasets are opened from one tab.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html">00. Solar Neutrinos and Oscillations</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics_appendix.html">00. Appendix</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html">01. Fluxes, event rates, normalization fit</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html">02. Oscillations and fit</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html">Project: SK-like fit</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip">Masterclass 1 data</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip">Masterclass 2 data</a>
+                <a href="../neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip">Project data</a>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </details>
 
     <details id="particles" class="lecture-course lecture-course-particles">
       <summary>
-        <span class="lecture-course-status">Dedicated section</span>
+        <span class="lecture-course-status">Mini-course and course materials</span>
         <span class="lecture-course-title">Particle Physics</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Courses and mini-courses on particle physics.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/">Mini-course</a>
-          <a href="https://neutrinohit.github.io/particlephysics/ParticlePhysics/">Particle physics course</a>
+        <p>The particle-physics mini-course and the larger course materials are listed directly here.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>Mini-course: introduction to particle physics</summary>
+            <div class="lecture-material-body">
+              <p>Two introductory lectures, a formula sheet, questions, and practical notebooks on cross sections, decays, and neutrino oscillations.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">01. Particles, Fields, and Interactions</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">02. The Standard Model and Neutrinos</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Formula sheet</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">Questions after lecture 1</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model_neutrinos.html">Questions after lecture 2</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/notebooks/01_event_rates_and_cross_sections.ipynb">Notebook: rates and cross sections</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/notebooks/02_decay_law_and_lifetime.ipynb">Notebook: decay law</a>
+                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/notebooks/03_neutrino_oscillation_probability.ipynb">Notebook: neutrino oscillations</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Full course: introduction to particle physics</summary>
+            <div class="lecture-material-body">
+              <p>English layout of the full course: course slides and course book.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../particlephysics/ParticlePhysics/en/slides/index.html">Course slides</a>
+                <a href="../particlephysics/ParticlePhysics/en/book/index.html">Course book</a>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </details>

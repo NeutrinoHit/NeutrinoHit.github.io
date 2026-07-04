@@ -1,19 +1,26 @@
 ---
 title: "Научно-популярные лекции"
-format:
-  html:
-    include-in-header:
-      text: |
-        <meta http-equiv="refresh" content="0; url=https://neutrinohit.github.io/sciencepop/">
-        <link rel="canonical" href="https://neutrinohit.github.io/sciencepop/">
-        <script>window.location.replace("https://neutrinohit.github.io/sciencepop/");</script>
 ---
 
 ```{=html}
-<div class="resource-list">
-  <a class="resource-card resource-card-sciencepop" href="https://neutrinohit.github.io/sciencepop/">
-    <span class="resource-title">Каталог научно-популярных лекций</span>
-    <span class="resource-note">Переход к полному каталогу лекций</span>
-  </a>
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Научно-популярные лекции теперь встроены в раздел «Научная коммуникация», чтобы до материалов можно было дойти из общей карты сайта.
+  </p>
+  <section class="lecture-course-list" aria-label="Научно-популярные лекции">
+    <details class="lecture-course outreach-course-lectures" open>
+      <summary>
+        <span class="lecture-course-status">Новый вход</span>
+        <span class="lecture-course-title">Научная коммуникация</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Открывайте лекции, библиотечку «Простыми словами», фильмы и книгу «Солнечное нейтрино» из единого раздела.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="ru/outreach.html">Перейти к разделу</a>
+          <a href="sciencepop/index.html">Старый каталог</a>
+        </div>
+      </div>
+    </details>
+  </section>
 </div>
 ```

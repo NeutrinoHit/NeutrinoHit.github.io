@@ -118,8 +118,10 @@ title: "Книги"
         <p>Практическая онлайн-книга о вероятностных моделях, оценивании параметров,
         проверке гипотез и статистическом выводе в экспериментальной физике.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/statistical-analysis-course/ru/book/">Открыть книгу</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Слайды курса</a>
+          <a class="lecture-action-primary" href="statistical-analysis-course/ru/book/index.html">Открыть книгу</a>
+          <a href="statistical-analysis-course/ru/slides/applets.html">Апплеты</a>
+          <a href="statistical-analysis-course/ru/slides/exercises/index.html">Все задачи</a>
+          <a href="statistical-analysis-course/ru/slides/exam_projects/index.html">Экзаменационные проекты</a>
         </div>
       </div>
     </details>
