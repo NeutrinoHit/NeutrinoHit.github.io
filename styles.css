@@ -1582,3 +1582,14 @@
     transform: none;
   }
 }
+
+.section-inline-title {
+  margin: 1.45rem 0 0.65rem;
+  color: #25313a;
+  font-size: 1.22rem;
+  line-height: 1.25;
+}
+
+.outreach-course-lectures > summary {
+  background: linear-gradient(90deg, rgba(191, 139, 44, 0.16), rgba(255, 255, 255, 0.95) 68%);
+}
