@@ -18,9 +18,9 @@ toc: false
       <div class="lecture-course-body">
         <p>Open popular lectures, short modules, films, and the Solar Neutrino book from the unified Outreach page. Most linked lecture materials are in Russian.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="outreach.html">Open Outreach</a>
-          <a href="../sciencepop/index.html">Legacy catalog</a>
-          <a href="../sciencepop/in-a-nutshell/index.html">In a Nutshell (Russian)</a>
+          <a class="lecture-action-primary" href="/en/outreach.html">Open Outreach</a>
+          <a href="/sciencepop/index.html">Legacy catalog</a>
+          <a href="/sciencepop/in-a-nutshell/index.html">In a Nutshell (Russian)</a>
         </div>
       </div>
     </details>

@@ -5,9 +5,9 @@ format:
   html:
     include-in-header:
       text: |
-        <meta http-equiv="refresh" content="0; url=ru/education.html">
+        <meta http-equiv="refresh" content="0; url=/ru/education.html">
         <link rel="canonical" href="https://neutrinohit.github.io/ru/education.html">
-        <script>window.location.replace("ru/education.html");</script>
+        <script>window.location.replace("/ru/education.html");</script>
 ---
 
 ```{=html}
@@ -16,8 +16,8 @@ format:
     Открывается раздел «Образование».
   </p>
   <div class="lecture-course-actions">
-    <a class="lecture-action-primary" href="ru/education.html">Перейти к разделу</a>
-    <a href="en/education.html">English version</a>
+    <a class="lecture-action-primary" href="/ru/education.html">Перейти к разделу</a>
+    <a href="/en/education.html">English version</a>
   </div>
 </div>
 ```

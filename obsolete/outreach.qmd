@@ -5,9 +5,9 @@ format:
   html:
     include-in-header:
       text: |
-        <meta http-equiv="refresh" content="0; url=ru/outreach.html">
+        <meta http-equiv="refresh" content="0; url=/ru/outreach.html">
         <link rel="canonical" href="https://neutrinohit.github.io/ru/outreach.html">
-        <script>window.location.replace("ru/outreach.html");</script>
+        <script>window.location.replace("/ru/outreach.html");</script>
 ---
 
 ```{=html}
@@ -16,8 +16,8 @@ format:
     Открывается раздел «Научная коммуникация».
   </p>
   <div class="lecture-course-actions">
-    <a class="lecture-action-primary" href="ru/outreach.html">Перейти к разделу</a>
-    <a href="en/outreach.html">English version</a>
+    <a class="lecture-action-primary" href="/ru/outreach.html">Перейти к разделу</a>
+    <a href="/en/outreach.html">English version</a>
   </div>
 </div>
 ```
