@@ -19,7 +19,7 @@ Diploma theses, bachelor and master theses, and PhD dissertations supervised by 
 </div>
 
 <div class="thesis-list thesis-list-supervised">
-  <details class="thesis-row" data-thesis-category="diploma" open>
+  <details class="thesis-row" data-thesis-category="diploma">
     <summary><span class="thesis-year">2000</span><span class="thesis-author">D. V. Kustov</span><span class="thesis-type">Diploma thesis</span></summary>
     <div class="thesis-body"><p>Polarization of Lambda hyperons in the NOMAD experiment.</p><a class="thesis-link" href="../students/theses/kustov.pdf">PDF</a></div>
   </details>
@@ -31,21 +31,69 @@ Diploma theses, bachelor and master theses, and PhD dissertations supervised by 
     <summary><span class="thesis-year">2002</span><span class="thesis-author">Vladimir V. Lyubushkin</span><span class="thesis-type">Diploma thesis</span></summary>
     <div class="thesis-body"><p>Selection of quasi-elastic scattering events in the NOMAD experiment at CERN.</p><a class="thesis-link" href="../students/theses/lyubushkin.pdf">PDF</a></div>
   </details>
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary><span class="thesis-year">2004</span><span class="thesis-author">Oleg B. Samoylov</span><span class="thesis-type">Diploma thesis</span></summary>
+    <div class="thesis-body"><p>Search for the strange exotic baryon resonance θ<sup>+</sup>(1530) in the NOMAD experiment at CERN.</p><a class="thesis-link" href="../students/theses/samoylov_diploma.pdf">PDF</a></div>
+  </details>
   <details class="thesis-row" data-thesis-category="phd">
     <summary><span class="thesis-year">2006</span><span class="thesis-author">Artem V. Chukanov</span><span class="thesis-type">PhD dissertation</span></summary>
     <div class="thesis-body"><p>Fragmentation effects in strange-hadron neutrinoproduction in the NOMAD experiment at CERN.</p><a class="thesis-link" href="../students/theses/chukanov_phd_thesis.pdf">PDF</a></div>
+  </details>
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary><span class="thesis-year">2007</span><span class="thesis-author">Andrey S. Sheshukov</span><span class="thesis-type">Diploma thesis</span></summary>
+    <div class="thesis-body"><p>Simulation and reconstruction in the emulsion detector of the OPERA experiment.</p><a class="thesis-link" href="../students/theses/sheshukov.pdf">PDF</a></div>
+  </details>
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary><span class="thesis-year">2007</span><span class="thesis-author">Maxim O. Gonchar</span><span class="thesis-type">Diploma thesis</span></summary>
+    <div class="thesis-body"><p>Study of a plastic-scintillator trigger system for the Daya Bay experiment.</p><a class="thesis-link" href="../students/theses/gonchar_diploma.pdf">PDF</a></div>
+  </details>
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary><span class="thesis-year">2007</span><span class="thesis-author">Svetlana V. Biktemerova</span><span class="thesis-type">Diploma thesis</span></summary>
+    <div class="thesis-body"><p>Simulation and reconstruction in the NUKLON experiment.</p><a class="thesis-link" href="../students/theses/biktemerova_diplom.pdf">PDF</a></div>
+  </details>
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary><span class="thesis-year">2008</span><span class="thesis-author">Vyacheslav A. Li</span><span class="thesis-type">Diploma thesis</span></summary>
+    <div class="thesis-body"><p>Neutrino oscillations within quantum field theory.</p><a class="thesis-link" href="../students/theses/lee.pdf">PDF</a></div>
+  </details>
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary><span class="thesis-year">2010</span><span class="thesis-author">Irina V. Potapova</span><span class="thesis-type">Diploma thesis</span></summary>
+    <div class="thesis-body"><p>Neutrino oscillations in matter within quantum field theory.</p><a class="thesis-link" href="../students/theses/potapova.pdf">PDF</a></div>
+  </details>
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary><span class="thesis-year">2011</span><span class="thesis-author">Varvara S. Batozskaya</span><span class="thesis-type">Diploma thesis</span></summary>
+    <div class="thesis-body"><p>Cosmological neutrinos.</p><a class="thesis-link" href="../students/theses/batozskaya.pdf">PDF</a></div>
   </details>
   <details class="thesis-row" data-thesis-category="phd">
     <summary><span class="thesis-year">2011</span><span class="thesis-author">Oleg B. Samoylov</span><span class="thesis-type">PhD dissertation</span></summary>
     <div class="thesis-body"><p>Charm-quark production cross section and an estimate of the possible pentaquark Θ<sup>+</sup> in neutrino interactions in NOMAD.</p><a class="thesis-link" href="../students/theses/samoylov_phd_thesis.pdf">PDF</a></div>
   </details>
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary><span class="thesis-year">2014</span><span class="thesis-author">Dmitry V. Taychenachev</span><span class="thesis-type">Diploma thesis</span></summary>
+    <div class="thesis-body"><p>Determination of the neutrino mass hierarchy in reactor and accelerator neutrino experiments.</p><a class="thesis-link" href="../students/theses/tayachenachev.pdf">PDF</a></div>
+  </details>
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary><span class="thesis-year">2015</span><span class="thesis-author">Konstantin A. Treskov</span><span class="thesis-type">Diploma thesis</span></summary>
+    <div class="thesis-body"><p>Neutrino oscillations in matter and the possibility of studying decoherence in solar experiments.</p><a class="thesis-link" href="../students/theses/treskov.pdf">PDF</a></div>
+  </details>
   <details class="thesis-row" data-thesis-category="phd">
     <summary><span class="thesis-year">2017</span><span class="thesis-author">Maxim O. Gonchar</span><span class="thesis-type">PhD dissertation</span></summary>
     <div class="thesis-body"><p>Measurement of θ<sub>13</sub> and Δm<sup>2</sup><sub>32</sub> in the Daya Bay experiment.</p><a class="thesis-link" href="../students/theses/gonchar_phd_thesis.pdf">PDF</a></div>
   </details>
-  <details class="thesis-row" data-thesis-category="phd">
-    <summary><span class="thesis-year">2026</span><span class="thesis-author">Vladimir A. Allakhverdyan</span><span class="thesis-type">PhD dissertation</span></summary>
-    <div class="thesis-body"><p>Transport of electromagnetic radiation and neutrinos in modeling the response of a neutrino telescope.</p><a class="thesis-link" href="../students/theses/allaxwerdian.pdf">PDF</a></div>
+  <details class="thesis-row" data-thesis-category="bachelor">
+    <summary><span class="thesis-year">2022</span><span class="thesis-author">Sergey I. Zavyalov</span><span class="thesis-type">Bachelor thesis</span></summary>
+    <div class="thesis-body"><p>Simulation of atmospheric-neutrino fluxes in the Baikal-GVD experiment.</p></div>
+  </details>
+  <details class="thesis-row" data-thesis-category="master">
+    <summary><span class="thesis-year">2022</span><span class="thesis-author">Alisa R. Didenko</span><span class="thesis-type">Master thesis</span></summary>
+    <div class="thesis-body"><p>Application of machine learning to the analysis of Higgs-boson production in association with a top quark.</p></div>
+  </details>
+  <details class="thesis-row" data-thesis-category="bachelor">
+    <summary><span class="thesis-year">2023</span><span class="thesis-author">Petr I. Lensky</span><span class="thesis-type">Bachelor thesis</span></summary>
+    <div class="thesis-body"><p>Determination of the time and coordinates of particle interactions using the optical system of the DUNE near liquid-argon detector.</p></div>
+  </details>
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary><span class="thesis-year">2024</span><span class="thesis-author">V. I. Zhavoronkova</span><span class="thesis-type">Diploma thesis</span></summary>
+    <div class="thesis-body"><p>Application of machine-learning methods to estimate Cherenkov-radiation fluxes in the Baikal-GVD experiment.</p></div>
   </details>
   <details class="thesis-row" data-thesis-category="master">
     <summary><span class="thesis-year">2024</span><span class="thesis-author">Sergey I. Zavyalov</span><span class="thesis-type">Master thesis</span></summary>
@@ -58,6 +106,10 @@ Diploma theses, bachelor and master theses, and PhD dissertations supervised by 
   <details class="thesis-row" data-thesis-category="coursework">
     <summary><span class="thesis-year">2025</span><span class="thesis-author">Maxim B. Kovalev</span><span class="thesis-type">Coursework</span></summary>
     <div class="thesis-body"><p>Finding analogues of neutrino oscillations in matter in classical physics.</p><a class="thesis-link" href="../students/theses/kovalev.pdf">PDF</a></div>
+  </details>
+  <details class="thesis-row" data-thesis-category="phd">
+    <summary><span class="thesis-year">2026</span><span class="thesis-author">Vladimir A. Allakhverdyan</span><span class="thesis-type">PhD dissertation</span></summary>
+    <div class="thesis-body"><p>Transport of electromagnetic radiation and neutrinos in modeling the response of a neutrino telescope.</p><a class="thesis-link" href="../students/theses/allaxwerdian.pdf">PDF</a></div>
   </details>
   <details class="thesis-row" data-thesis-category="master">
     <summary><span class="thesis-year">2026</span><span class="thesis-author">Nikita S. Borodin</span><span class="thesis-type">Master thesis</span></summary>
