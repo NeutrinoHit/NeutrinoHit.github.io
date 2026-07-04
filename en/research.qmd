@@ -33,8 +33,8 @@ toc: false
 
     <details class="lecture-course">
       <summary>
-        <span class="lecture-course-status">Experiments and collaborations</span>
-        <span class="lecture-course-title">Baikal-GVD, JUNO, Daya Bay, OPERA, NOMAD, EUSO</span>
+        <span class="lecture-course-status">Collaborations</span>
+        <span class="lecture-course-title">Experiments</span>
       </summary>
       <div class="lecture-course-body">
         <p>
@@ -54,39 +54,29 @@ toc: false
 
     <details class="lecture-course">
       <summary>
-        <span class="lecture-course-status">Talks and reviews</span>
-        <span class="lecture-course-title">Conference and seminar materials</span>
+        <span class="lecture-course-status">Conferences and seminars</span>
+        <span class="lecture-course-title">Talks and reviews</span>
       </summary>
       <div class="lecture-course-body">
         <p>
           Scientific talks and overview slides on neutrino physics, experimental
           programs, and the state of the field.
         </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="talks.html">Talk archive</a>
-          <a href="https://neutrinohit.github.io/talks/">Talks project</a>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>June 2-5, 2026 · Status and prospects of neutrino physics</summary>
+            <div class="lecture-material-body">
+              <p>Russian projects in the global context. The slides are in Russian.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../talks/protvino-2026/dnaumov.html">Talk slides</a>
+                <a href="https://indico.ihep.su/e/PPIHE2026">Conference page</a>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </details>
 
-    <details class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Related materials</span>
-        <span class="lecture-course-title">Theory, models, visualizations, and code</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Research-adjacent resources: QFT materials, numerical models,
-          physical animations, and code projects.
-        </p>
-        <div class="lecture-course-actions">
-          <a href="https://neutrinohit.github.io/qft-lectures/">QFT lectures</a>
-          <a href="software.html">Code catalog</a>
-          <a href="animations.html">Animations</a>
-          <a href="materials.html">All materials</a>
-        </div>
-      </div>
-    </details>
   </section>
 </div>
 ```

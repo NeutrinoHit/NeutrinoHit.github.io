@@ -16,7 +16,7 @@ format:
     Открывается раздел «Наука».
   </p>
   <div class="lecture-course-actions">
-    <a class="lecture-action-primary" href="ru/research.html">Открыть раздел</a>
+    <a class="lecture-action-primary" href="ru/research.html">Перейти к разделу</a>
     <a href="en/research.html">English version</a>
   </div>
 </div>

@@ -24,8 +24,7 @@ toc: false
             <div class="lecture-material-body">
               <p>Russian projects in the global context. The slides are in Russian.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="https://neutrinohit.github.io/talks/protvino-2026/dnaumov.html">Open slides</a>
-                <a href="https://neutrinohit.github.io/talks/protvino-2026/neutrino-overview-protvino-2026.pdf">PDF</a>
+                <a class="lecture-action-primary" href="../talks/protvino-2026/dnaumov.html">Open slides</a>
                 <a href="https://indico.ihep.su/e/PPIHE2026">Conference page</a>
               </div>
             </div>

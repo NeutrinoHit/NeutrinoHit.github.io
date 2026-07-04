@@ -34,8 +34,8 @@ toc: false
 
     <details class="lecture-course">
       <summary>
-        <span class="lecture-course-status">Эксперименты и коллаборации</span>
-        <span class="lecture-course-title">Baikal-GVD, JUNO, Daya Bay, OPERA, NOMAD, EUSO</span>
+        <span class="lecture-course-status">Коллаборации</span>
+        <span class="lecture-course-title">Эксперименты</span>
       </summary>
       <div class="lecture-course-body">
         <p>
@@ -56,39 +56,29 @@ toc: false
 
     <details class="lecture-course">
       <summary>
-        <span class="lecture-course-status">Доклады и обзоры</span>
-        <span class="lecture-course-title">Конференции, семинары, научные слайды</span>
+        <span class="lecture-course-status">Конференции и семинары</span>
+        <span class="lecture-course-title">Доклады и обзоры</span>
       </summary>
       <div class="lecture-course-body">
         <p>
           Научные выступления и обзорные материалы по физике нейтрино,
           экспериментальным программам и состоянию области.
         </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../talks.html">Открыть доклады</a>
-          <a href="https://neutrinohit.github.io/talks/">Раздел talks</a>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>2-5 июня 2026 · Статус и перспективы физики нейтрино</summary>
+            <div class="lecture-material-body">
+              <p>Российские проекты в глобальном контексте.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../talks/protvino-2026/dnaumov.html">Слайды доклада</a>
+                <a href="https://indico.ihep.su/e/PPIHE2026">Страница конференции</a>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </details>
 
-    <details class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Связанные научные материалы</span>
-        <span class="lecture-course-title">Теория, модели, визуализации и код</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Материалы, полезные для исследовательской работы: курсы по КТП,
-          численные модели, анимации физических процессов и программные проекты.
-        </p>
-        <div class="lecture-course-actions">
-          <a href="https://neutrinohit.github.io/qft-lectures/">КТП</a>
-          <a href="../software.html">Код</a>
-          <a href="../animations.html">Анимации</a>
-          <a href="materials.html">Все материалы</a>
-        </div>
-      </div>
-    </details>
   </section>
 </div>
 ```

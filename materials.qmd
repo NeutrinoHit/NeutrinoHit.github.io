@@ -16,7 +16,7 @@ format:
     Открывается раздел «Материалы».
   </p>
   <div class="lecture-course-actions">
-    <a class="lecture-action-primary" href="ru/materials.html">Открыть раздел</a>
+    <a class="lecture-action-primary" href="ru/materials.html">Перейти к разделу</a>
     <a href="en/materials.html">English version</a>
   </div>
 </div>

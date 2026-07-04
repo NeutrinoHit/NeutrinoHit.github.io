@@ -16,7 +16,7 @@ format:
     Открывается раздел «Научная коммуникация».
   </p>
   <div class="lecture-course-actions">
-    <a class="lecture-action-primary" href="ru/outreach.html">Открыть раздел</a>
+    <a class="lecture-action-primary" href="ru/outreach.html">Перейти к разделу</a>
     <a href="en/outreach.html">English version</a>
   </div>
 </div>

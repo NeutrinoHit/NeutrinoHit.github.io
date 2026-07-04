@@ -16,7 +16,7 @@ format:
     Открывается раздел «Обо мне».
   </p>
   <div class="lecture-course-actions">
-    <a class="lecture-action-primary" href="ru/about.html">Открыть раздел</a>
+    <a class="lecture-action-primary" href="ru/about.html">Перейти к разделу</a>
     <a href="en/about.html">English version</a>
   </div>
 </div>

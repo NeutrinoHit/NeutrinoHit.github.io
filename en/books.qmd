@@ -81,8 +81,10 @@ toc: false
       <div class="lecture-course-body">
         <p>An online book on probability models, parameter estimation, hypothesis testing, and statistical inference in experimental physics.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://neutrinohit.github.io/statistical-analysis-course/ru/book/">Open book (Russian)</a>
-          <a href="https://neutrinohit.github.io/statistical-analysis-course/ru/slides/">Course slides (Russian)</a>
+          <a class="lecture-action-primary" href="../statistical-analysis-course/ru/book/index.html">Open book (Russian)</a>
+          <a href="../statistical-analysis-course/ru/slides/applets.html">Applets (Russian)</a>
+          <a href="../statistical-analysis-course/ru/slides/exercises/index.html">All exercises (Russian)</a>
+          <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Exam projects (Russian)</a>
         </div>
       </div>
     </details>
