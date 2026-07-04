@@ -5,17 +5,17 @@ format:
   html:
     include-in-header:
       text: |
-        <meta http-equiv="refresh" content="0; url=school.html">
+        <meta http-equiv="refresh" content="0; url=/en/school.html">
         <link rel="canonical" href="https://neutrinohit.github.io/en/school.html">
-        <script>window.location.replace("school.html");</script>
+        <script>window.location.replace("/en/school.html");</script>
 ---
 
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">Opening the School section.</p>
   <div class="lecture-course-actions">
-    <a class="lecture-action-primary" href="school.html">Go to School</a>
-    <a href="../ru/school.html">Russian version</a>
+    <a class="lecture-action-primary" href="/en/school.html">Go to School</a>
+    <a href="/ru/school.html">Russian version</a>
   </div>
 </div>
 ```
