@@ -326,22 +326,34 @@ format:
 системно, чтобы команды вроде `\mathcal`, `\mathbb`, `\mathfrak` не зависели от
 загрузки web-fonts в браузере.
 
-По умолчанию:
+Все презентации с этим footer обязаны задавать контекстную кнопку возврата:
 
 ```html
-<script data-external="1" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
+<script data-external="1" data-context-home="https://neutrinohit.github.io/ru/education.html#qft" data-context-home-label="Карта курса КТП" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
 ```
 
-эквивалентно:
+Правило добавления нового материала:
+
+1. Добавить устойчивый `id` на карточку или вложенный материал в `ru/*.qmd` и/или `en/*.qmd`.
+2. Добавить абсолютный URL `https://neutrinohit.github.io/...#id` в `scripts/reveal_context_targets.json`.
+3. В metadata слайдов указать и `data-context-home`, и `data-context-home-label`.
+
+После `quarto render` скрипт `scripts/validate_reveal_context_homes.py` проверяет
+все footer-вставки в карте сайта и соседних проектах. Сборка падает, если
+context-home отсутствует, ведёт на локальную страницу вроде `index.html`, не
+зарегистрирован или указывает на несуществующий якорь.
+
+По умолчанию MathJax fallback включен автоматически; явно это выглядит так же,
+как обычная footer-вставка, но с `data-mathjax-renderer="SVG"`:
 
 ```html
-<script data-external="1" data-mathjax-renderer="SVG" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
+<script data-external="1" data-context-home="https://neutrinohit.github.io/ru/education.html#qft" data-context-home-label="Карта курса КТП" data-mathjax-renderer="SVG" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
 ```
 
 Если нужно отключить этот fallback на отдельной презентации:
 
 ```html
-<script data-external="1" data-mathjax-renderer="default" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
+<script data-external="1" data-context-home="https://neutrinohit.github.io/ru/education.html#qft" data-context-home-label="Карта курса КТП" data-mathjax-renderer="default" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
 ```
 
 ## Фотоальбомы

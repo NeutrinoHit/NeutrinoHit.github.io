@@ -4,6 +4,7 @@ project:
   type: website
   post-render:
     - python scripts/sync_local_project_sites.py
+    - python scripts/validate_reveal_context_homes.py
   resources:
     - "assets/**"
     - "students/theses/**"

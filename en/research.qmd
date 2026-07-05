@@ -12,7 +12,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Research sections">
-    <details class="lecture-course" open>
+    <details id="research-profile" class="lecture-course" open>
       <summary>
         <span class="lecture-course-status">Research profile</span>
         <span class="lecture-course-title">Neutrino physics and astroparticle physics</span>
@@ -31,7 +31,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course">
+    <details id="experiments" class="lecture-course">
       <summary>
         <span class="lecture-course-status">Collaborations</span>
         <span class="lecture-course-title">Experiments</span>
@@ -52,7 +52,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course">
+    <details id="talks" class="lecture-course">
       <summary>
         <span class="lecture-course-status">Conferences and seminars</span>
         <span class="lecture-course-title">Talks and reviews</span>
@@ -63,7 +63,7 @@ toc: false
           programs, and the state of the field.
         </p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details id="talk-protvino-2026" class="lecture-material" open>
             <summary>June 2-5, 2026 · Status and prospects of neutrino physics</summary>
             <div class="lecture-material-body">
               <p>Russian projects in the global context. The slides are in Russian.</p>

@@ -17,27 +17,32 @@ After editing the footer script, logo, or shared Reveal SCSS, run from
 python scripts/sync_reveal_assets.py
 ```
 
-Add one of these snippets to a project-level `_quarto.yml` or a
-directory-level `_metadata.yml`, choosing the relative path for the rendered
-HTML location:
+Every presentation must define where the footer's context button returns. Add a
+stable anchor to the relevant `neutrinohit-map` page, register the absolute URL
+in `scripts/reveal_context_targets.json`, and use that URL in a project-level
+`_quarto.yml` or directory-level `_metadata.yml`.
 
 ```yaml
 format:
   revealjs:
     include-after-body:
       text: |
-        <script data-external="1" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
+        <script data-external="1" data-context-home="https://neutrinohit.github.io/ru/education.html#qft" data-context-home-label="Карта курса КТП" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
 ```
 
-To add a project-specific home link next to the NeutrinoHit logo, pass its URL
-relative to the rendered presentation:
+`quarto render` runs `scripts/validate_reveal_context_homes.py` after rendering.
+The build fails if a footer script is missing `data-context-home`, is missing
+`data-context-home-label`, points to a local page such as `index.html`, or uses
+an unregistered/missing anchor.
+
+The footer button URL must be absolute and canonical:
 
 ```yaml
 format:
   revealjs:
     include-after-body:
       text: |
-        <script data-external="1" data-context-home="index.html" data-context-home-label="Главная страница курса" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
+        <script data-external="1" data-context-home="https://neutrinohit.github.io/ru/outreach.html#birth-life-universe" data-context-home-label="Карта лекции" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
 ```
 
 The footer script also applies a MathJax2 SVG renderer fallback after RevealJS
@@ -51,7 +56,7 @@ format:
   revealjs:
     include-after-body:
       text: |
-        <script data-external="1" data-mathjax-renderer="default" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
+        <script data-external="1" data-context-home="https://neutrinohit.github.io/ru/education.html#qft" data-context-home-label="Карта курса КТП" data-mathjax-renderer="default" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
 ```
 
 To choose another MathJax2 renderer explicitly, for example `HTML-CSS`, pass:
@@ -61,7 +66,7 @@ format:
   revealjs:
     include-after-body:
       text: |
-        <script data-external="1" data-mathjax-renderer="HTML-CSS" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
+        <script data-external="1" data-context-home="https://neutrinohit.github.io/ru/education.html#qft" data-context-home-label="Карта курса КТП" data-mathjax-renderer="HTML-CSS" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
 ```
 
 If a presentation already defines `format.revealjs.logo`, the script moves that

@@ -10,7 +10,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Разделы научной коммуникации">
-    <details class="lecture-course outreach-course-lectures" open>
+    <details id="outreach-lectures" class="lecture-course outreach-course-lectures" open>
       <summary>
         <span class="lecture-course-status">Научпоп-лекции</span>
         <span class="lecture-course-title">Физика частиц, астрофизика и современная физика для широкой аудитории</span>
@@ -18,7 +18,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Лекции и визуальные материалы открываются прямо из этого раздела. Старые адреса сохранены как рабочий архив.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details id="in-a-nutshell" class="lecture-material" open>
             <summary>Библиотечка «Простыми словами»</summary>
             <div class="lecture-material-body">
               <p>Короткие модули по 5–10 минут: один физический вопрос и один ясный ответ.</p>
@@ -32,7 +32,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material">
+          <details id="neutrino-telescopes" class="lecture-material">
             <summary>Зачем нужны нейтринные телескопы?</summary>
             <div class="lecture-material-body">
               <p>Вселенная глазами нейтрино. Лекция на Астрофесте, 2026.</p>
@@ -50,7 +50,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material" open>
+          <details id="birth-life-universe" class="lecture-material" open>
             <summary>Рождение и жизнь Вселенной</summary>
             <div class="lecture-material-body">
               <p>Горячее начало, первый свет, звезды, галактики, Земля и далекое будущее.</p>
@@ -60,7 +60,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material" open>
+          <details id="modern-physics-without-formulas" class="lecture-material" open>
             <summary>Современная физика без формул</summary>
             <div class="lecture-material-body">
               <p class="course-note">Мини-курс о пространстве-времени, квантовых полях, Стандартной модели, поисках новой физики и перспективах экспериментальной физики частиц.</p>
@@ -85,7 +85,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material">
+          <details id="wave-or-particle" class="lecture-material">
             <summary>Что такое частица в квантовой теории поля?</summary>
             <div class="lecture-material-body">
               <p>Волна или точка: рассеяние квантовой волны на двух мишенях и интерактивный апплет.</p>
@@ -95,7 +95,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material" open>
+          <details id="selected-lectures-films" class="lecture-material" open>
             <summary>Отдельные лекции и фильмы</summary>
             <div class="lecture-material-body">
               <p>Видео по нейтринной физике, современной физике и демонстрационным экспериментам.</p>
@@ -116,7 +116,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material" open>
+          <details id="black-holes" class="lecture-material" open>
             <summary>Чёрные дыры</summary>
             <div class="lecture-material-body">
               <p>Научно-популярная лекция о физике чёрных дыр.</p>
@@ -129,7 +129,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material" open>
+          <details id="dark-matter" class="lecture-material" open>
             <summary>Тёмная материя</summary>
             <div class="lecture-material-body">
               <p>Наблюдательные свидетельства и возможная природа тёмной материи.</p>
@@ -145,7 +145,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course book-course-solar" open>
+    <details id="solar-neutrino-book" class="lecture-course book-course-solar" open>
       <summary>
         <span class="lecture-course-status">Книги</span>
         <span class="lecture-course-title">Солнечное нейтрино</span>
@@ -159,7 +159,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course cinema-course-documentary">
+    <details id="outreach-films" class="lecture-course cinema-course-documentary">
       <summary><span class="lecture-course-status">Фильмы</span><span class="lecture-course-title">Кино и визуальные проекты</span></summary>
       <div class="lecture-course-body">
         <div class="lecture-material-list">
@@ -172,7 +172,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course interview-course-articles">
+    <details id="outreach-interviews" class="lecture-course interview-course-articles">
       <summary><span class="lecture-course-status">Интервью</span><span class="lecture-course-title">Интервью, статьи, эфиры и подкасты</span></summary>
       <div class="lecture-course-body">
         <p>Разговоры о нейтринной физике, Байкальском телескопе и научной коммуникации.</p>
@@ -188,7 +188,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course">
+    <details id="outreach-channels" class="lecture-course">
       <summary><span class="lecture-course-status">Каналы</span><span class="lecture-course-title">YouTube, Telegram и социальные сети</span></summary>
       <div class="lecture-course-body"><p>Публичные площадки NeutrinoHit и личные каналы для новостей, лекций, фотографий и материалов о физике.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a><a href="https://t.me/NeutrinoHit">Telegram</a><a href="https://www.facebook.com/dmitry.naumov.52">Facebook</a><a href="https://www.instagram.com/dmitryvnaumov_dlnp/">Instagram</a></div></div>
     </details>

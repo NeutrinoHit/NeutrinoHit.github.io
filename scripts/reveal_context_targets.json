@@ -1,0 +1,116 @@
+{
+  "allowed_context_homes": [
+    {
+      "url": "https://neutrinohit.github.io/ru/education.html#qft",
+      "description": "RU education: quantum field theory"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/education.html#qft",
+      "description": "EN education: quantum field theory"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/education.html#stat",
+      "description": "RU education: statistical analysis"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/education.html#stat",
+      "description": "EN education: statistical analysis"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/education.html#neutrino-introduction",
+      "description": "RU education: introduction to neutrino physics"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/education.html#neutrino-introduction",
+      "description": "EN education: introduction to neutrino physics"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/education.html#solar-neutrino-masterclass",
+      "description": "RU education: solar neutrino masterclass"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/education.html#solar-neutrino-masterclass",
+      "description": "EN education: solar neutrino masterclass"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/education.html#particle-physics-mini-course",
+      "description": "RU education: particle physics mini-course"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/education.html#particle-physics-mini-course",
+      "description": "EN education: particle physics mini-course"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/education.html#particle-physics-course",
+      "description": "RU education: particle physics course"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/education.html#particle-physics-course",
+      "description": "EN education: particle physics course"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/outreach.html#in-a-nutshell",
+      "description": "RU outreach: In a Nutshell"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/outreach.html#neutrino-telescopes",
+      "description": "RU outreach: neutrino telescopes lecture"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/outreach.html#birth-life-universe",
+      "description": "RU outreach: birth and life of the universe"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/outreach.html#modern-physics-without-formulas",
+      "description": "RU outreach: modern physics without formulas"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/outreach.html#wave-or-particle",
+      "description": "RU outreach: wave or particle"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/outreach.html#black-holes",
+      "description": "RU outreach: black holes"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/outreach.html#dark-matter",
+      "description": "RU outreach: dark matter"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/outreach.html#in-a-nutshell",
+      "description": "EN outreach: In a Nutshell"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/outreach.html#neutrino-telescopes",
+      "description": "EN outreach: neutrino telescopes lecture"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/outreach.html#birth-life-universe",
+      "description": "EN outreach: birth and life of the universe"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/outreach.html#modern-physics-without-formulas",
+      "description": "EN outreach: modern physics without formulas"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/outreach.html#wave-or-particle",
+      "description": "EN outreach: wave or particle"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/outreach.html#black-holes",
+      "description": "EN outreach: black holes"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/outreach.html#dark-matter",
+      "description": "EN outreach: dark matter"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/research.html#talk-protvino-2026",
+      "description": "RU research: Protvino 2026 talk"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/research.html#talk-protvino-2026",
+      "description": "EN research: Protvino 2026 talk"
+    }
+  ]
+}
