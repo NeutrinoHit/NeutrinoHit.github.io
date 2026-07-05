@@ -347,14 +347,15 @@ toc: false
         <span class="lecture-course-title">Particle Physics</span>
       </summary>
       <div class="lecture-course-body">
-        <p>The particle-physics mini-course and the larger course materials are listed directly here.</p>
+        <p>This map gives compact entry points, while each course keeps its own working site with lectures, assignments, and additional materials.</p>
         <div class="lecture-material-list">
           <details id="particle-physics-mini-course" class="lecture-material" open>
             <summary>Mini-course: introduction to particle physics</summary>
             <div class="lecture-material-body">
               <p>Two introductory lectures, a formula sheet, questions, and practical notebooks on cross sections, decays, and neutrino oscillations.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">01. Particles, Fields, and Interactions</a>
+                <a class="lecture-action-primary" href="../particlephysics/IntroParticlePhysicsBaikal/index.html">Open mini-course</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">01. Particles, Fields, and Interactions</a>
                 <a href="../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">02. The Standard Model and Neutrinos</a>
                 <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Formula sheet</a>
                 <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">Questions after lecture 1</a>
@@ -368,10 +369,11 @@ toc: false
           <details id="particle-physics-course" class="lecture-material">
             <summary>Full course: introduction to particle physics</summary>
             <div class="lecture-material-body">
-              <p>English layout of the full course: course slides and course book.</p>
+              <p>Working home for the future full course: English slides, book scaffold, and placeholders for problems, applets, and exam projects.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../particlephysics/ParticlePhysics/en/slides/index.html">Course slides</a>
-                <a href="../particlephysics/ParticlePhysics/en/book/index.html">Course book</a>
+                <a class="lecture-action-primary" href="../particlephysics/ParticlePhysics/index.html">Open course site</a>
+                <a href="../particlephysics/ParticlePhysics/en/slides/index.html">Slides EN</a>
+                <a href="../particlephysics/ParticlePhysics/en/book/index.html">Book EN</a>
               </div>
             </div>
           </details>
