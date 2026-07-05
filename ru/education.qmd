@@ -56,7 +56,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Курсы по КТП, Стандартной модели, ренормировке и ускоренным системам отсчёта.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details id="qft-textbook" class="lecture-material" open>
             <summary>Учебник</summary>
             <div class="lecture-material-body">
               <p>Двухтомный учебник «Квантовая теория поля для экспериментаторов и не только»: примеры, задачи, решения и практический взгляд на КТП. Русское издание опубликовано; английское готовится.</p>
@@ -102,7 +102,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="qft-course" class="lecture-material">
             <summary>Курс лекций «Квантовая теория поля»</summary>
             <div class="lecture-material-body">
               <p>Базовый курс: конспект и видеозаписи.</p>
@@ -115,7 +115,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="standard-model-course" class="lecture-material">
             <summary>Курс лекций «Стандартная модель»</summary>
             <div class="lecture-material-body">
               <p>Введение в Стандартную модель: конспект и видеоматериалы.</p>
@@ -128,7 +128,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="qft-renormalization-course" class="lecture-material">
             <summary>Курс лекций «Ренормировка в квантовой теории поля»</summary>
             <div class="lecture-material-body">
               <p>Конспект курса и видеоплейлисты по ренормировке.</p>
@@ -141,7 +141,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="unruh-course" class="lecture-material">
             <summary>Ускоренные системы отсчёта и эффект Унру</summary>
             <div class="lecture-material-body">
               <p>Четыре прямые HTML-лекции по ускоренным системам отсчёта, термодинамике и эффекту Унру.</p>
@@ -153,7 +153,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="qft-attraction-repulsion" class="lecture-material">
             <summary>Attraction and Repulsion in Quantum Field Theory</summary>
             <div class="lecture-material-body">
               <p>Отдельная лекция по scalar QED и волновым пакетам: как в КТП кодируются притяжение и отталкивание.</p>
@@ -180,7 +180,7 @@ toc: false
           <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Экзаменационные проекты</a>
         </div>
         <div class="lecture-material-list">
-          <details class="lecture-material">
+          <details id="stat-00" class="lecture-material">
             <summary>00. Мотивация и обзор курса</summary>
             <div class="lecture-material-body">
               <p>Зачем физику статистика и какие вопросы решает курс.</p>
@@ -190,7 +190,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-01" class="lecture-material">
             <summary>01. Случайные величины, распределения, моменты</summary>
             <div class="lecture-material-body">
               <p>Вероятности, плотности, кумулятивная функция распределения и моменты.</p>
@@ -200,7 +200,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-02" class="lecture-material">
             <summary>02. Характеристические функции и суммы случайных величин</summary>
             <div class="lecture-material-body">
               <p>Преобразование Фурье распределения, свёртки, независимые суммы, моменты, кумулянты и мост к ЦПТ.</p>
@@ -210,7 +210,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-03" class="lecture-material">
             <summary>03. Центральная предельная теорема и нормальное распределение</summary>
             <div class="lecture-material-body">
               <p>Почему возникает гаусс, как читать квантили и как проверять совместимость измерений.</p>
@@ -220,7 +220,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-04" class="lecture-material">
             <summary>04. Когда гаусс не возникает</summary>
             <div class="lecture-material-body">
               <p>Границы применимости ЦПТ: тяжёлые хвосты, корреляции, смеси распределений, пороги и малые счёты.</p>
@@ -230,7 +230,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-05" class="lecture-material">
             <summary>05. Распространение ошибок</summary>
             <div class="lecture-material-body">
               <p>Линейное распространение ошибок, нелинейные функции, оценки среднего, дисперсии, стандартного отклонения и ковариации.</p>
@@ -240,7 +240,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-06" class="lecture-material">
             <summary>06. Двумерный гаусс</summary>
             <div class="lecture-material-body">
               <p>Ковариационная матрица, корреляция, двумерный гаусс, эллипсы, контуры и практические применения.</p>
@@ -250,7 +250,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-07" class="lecture-material">
             <summary>07. Метод Монте-Карло и псевдоэксперименты</summary>
             <div class="lecture-material-body">
               <p>Генерация распределений, численное интегрирование, псевдоэксперименты и моделирование детектора.</p>
@@ -261,7 +261,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-08" class="lecture-material">
             <summary>08. Правдоподобие и оценки максимального правдоподобия</summary>
             <div class="lecture-material-body">
               <p>Функция правдоподобия, логарифм правдоподобия, ММП и первые примеры оценивания параметров.</p>
@@ -271,7 +271,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-09" class="lecture-material">
             <summary>09. Свойства оценок, профильное правдоподобие и примеры анализа данных</summary>
             <div class="lecture-material-body">
               <p>Смещение, дисперсия, информация Фишера, форма правдоподобия, профилирование и диагностика подгонки.</p>
@@ -281,7 +281,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-10" class="lecture-material">
             <summary>10. Метод наименьших квадратов и линейная подгонка</summary>
             <div class="lecture-material-body">
               <p>Связь МНК с гауссовым правдоподобием, линейная модель, нормальные уравнения, ковариации параметров и остатки.</p>
@@ -291,7 +291,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-11" class="lecture-material">
             <summary>11. χ²-интервалы, систематики и практический рецепт МНК</summary>
             <div class="lecture-material-body">
               <p>Общий матричный случай, интервалы из формы χ², систематические неопределённости, нормировка и практический рецепт анализа.</p>
@@ -301,7 +301,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-12" class="lecture-material">
             <summary>12. Качество согласия и статистическая значимость</summary>
             <div class="lecture-material-body">
               <p>Остатки, распределение χ², число степеней свободы, p-значение, перевод в Z и калибровка псевдоэкспериментами.</p>
@@ -323,7 +323,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Вводный курс и солнечный мастер-класс: лекции, проект и данные открываются прямо отсюда.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material">
+          <details id="neutrino-introduction" class="lecture-material">
             <summary>Введение в физику нейтрино</summary>
             <div class="lecture-material-body">
               <p>Три вводные лекции в виде HTML-слайдов.</p>
@@ -334,7 +334,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material" open>
+          <details id="solar-neutrino-masterclass" class="lecture-material" open>
             <summary>Солнечные нейтрино</summary>
             <div class="lecture-material-body">
               <p>Мастер-класс по источникам солнечных нейтрино, осцилляциям, MSW-эффекту, детекторной статистике и SK-подобному фитированию. Лекции, проект и данные открываются из одной вкладки.</p>
@@ -362,7 +362,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Мини-курс и материалы большого курса по физике элементарных частиц собраны прямо здесь.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details id="particle-physics-mini-course" class="lecture-material" open>
             <summary>Мини-курс: введение в физику элементарных частиц</summary>
             <div class="lecture-material-body">
               <p>Две вводные лекции, формулы, вопросы и практические notebooks по сечениям, распадам и нейтринным осцилляциям.</p>
@@ -378,7 +378,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="particle-physics-course" class="lecture-material">
             <summary>Большой курс: введение в физику элементарных частиц</summary>
             <div class="lecture-material-body">
               <p>Русская раскладка полного курса: слайды и книга курса.</p>

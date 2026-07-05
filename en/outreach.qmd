@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Outreach sections">
-    <details class="lecture-course outreach-course-lectures" open>
+    <details id="outreach-lectures" class="lecture-course outreach-course-lectures" open>
       <summary>
         <span class="lecture-course-status">Popular lectures</span>
         <span class="lecture-course-title">Particle physics, astrophysics, and modern physics for broad audiences</span>
@@ -19,7 +19,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Lecture slides and videos open directly from this section. Most linked lecture materials are in Russian.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details id="in-a-nutshell" class="lecture-material" open>
             <summary>In a Nutshell (in Russian)</summary>
             <div class="lecture-material-body">
               <p>Short 5-10 minute modules: one physics question and one clear answer.</p>
@@ -33,7 +33,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material">
+          <details id="neutrino-telescopes" class="lecture-material">
             <summary>Why do we need neutrino telescopes? (in Russian)</summary>
             <div class="lecture-material-body">
               <p>The Universe seen with neutrinos. Astrofest lecture, 2026.</p>
@@ -51,7 +51,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material" open>
+          <details id="birth-life-universe" class="lecture-material" open>
             <summary>The Birth and Life of the Universe (in Russian)</summary>
             <div class="lecture-material-body">
               <p>Hot beginning, first light, stars, galaxies, Earth, and the far future.</p>
@@ -61,7 +61,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material" open>
+          <details id="modern-physics-without-formulas" class="lecture-material" open>
             <summary>Modern Physics Without Formulas (in Russian)</summary>
             <div class="lecture-material-body">
               <p class="course-note">Mini-course on spacetime, quantum fields, the Standard Model, searches for new physics, and the future of experimental particle physics.</p>
@@ -86,7 +86,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material">
+          <details id="wave-or-particle" class="lecture-material">
             <summary>What is a particle in quantum field theory?</summary>
             <div class="lecture-material-body">
               <p>Wave or point: scattering of a quantum wave on two targets, with an interactive applet.</p>
@@ -96,7 +96,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material" open>
+          <details id="selected-lectures-films" class="lecture-material" open>
             <summary>Selected lectures and films</summary>
             <div class="lecture-material-body">
               <p>Videos on neutrino physics, modern physics, and demonstration experiments.</p>
@@ -117,7 +117,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material" open>
+          <details id="black-holes" class="lecture-material" open>
             <summary>Black holes (in Russian)</summary>
             <div class="lecture-material-body">
               <p>Popular lecture on black-hole physics.</p>
@@ -130,7 +130,7 @@ toc: false
             </div>
           </details>
 
-          <details class="lecture-material" open>
+          <details id="dark-matter" class="lecture-material" open>
             <summary>Dark matter (in Russian)</summary>
             <div class="lecture-material-body">
               <p>Observational evidence and possible nature of dark matter.</p>
@@ -146,7 +146,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course book-course-solar" open>
+    <details id="solar-neutrino-book" class="lecture-course book-course-solar" open>
       <summary>
         <span class="lecture-course-status">Book</span>
         <span class="lecture-course-title">Solar Neutrino (in Russian)</span>
@@ -160,7 +160,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course cinema-course-documentary">
+    <details id="outreach-films" class="lecture-course cinema-course-documentary">
       <summary><span class="lecture-course-status">Films</span><span class="lecture-course-title">Films and visual projects</span></summary>
       <div class="lecture-course-body">
         <div class="lecture-material-list">
@@ -173,7 +173,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course interview-course-articles">
+    <details id="outreach-interviews" class="lecture-course interview-course-articles">
       <summary><span class="lecture-course-status">Interviews</span><span class="lecture-course-title">Articles, broadcasts, and podcasts</span></summary>
       <div class="lecture-course-body">
         <p>Interviews about neutrino physics, the Baikal telescope, and science communication. Linked materials are in Russian.</p>
@@ -189,7 +189,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course">
+    <details id="outreach-channels" class="lecture-course">
       <summary><span class="lecture-course-status">Channels</span><span class="lecture-course-title">YouTube, Telegram, and social platforms</span></summary>
       <div class="lecture-course-body"><p>Public NeutrinoHit platforms and personal channels for news, lectures, photos, and physics materials.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a><a href="https://t.me/NeutrinoHit">Telegram</a><a href="https://www.facebook.com/dmitry.naumov.52">Facebook</a><a href="https://www.instagram.com/dmitryvnaumov_dlnp/">Instagram</a></div></div>
     </details>

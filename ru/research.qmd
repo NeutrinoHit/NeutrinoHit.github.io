@@ -13,7 +13,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Научные разделы">
-    <details class="lecture-course" open>
+    <details id="research-profile" class="lecture-course" open>
       <summary>
         <span class="lecture-course-status">Исследовательский профиль</span>
         <span class="lecture-course-title">Нейтринная физика и астрофизика частиц</span>
@@ -32,7 +32,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course">
+    <details id="experiments" class="lecture-course">
       <summary>
         <span class="lecture-course-status">Коллаборации</span>
         <span class="lecture-course-title">Эксперименты</span>
@@ -54,7 +54,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course">
+    <details id="talks" class="lecture-course">
       <summary>
         <span class="lecture-course-status">Конференции и семинары</span>
         <span class="lecture-course-title">Доклады и обзоры</span>
@@ -65,7 +65,7 @@ toc: false
           экспериментальным программам и состоянию области.
         </p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details id="talk-protvino-2026" class="lecture-material" open>
             <summary>2-5 июня 2026 · Статус и перспективы физики нейтрино</summary>
             <div class="lecture-material-body">
               <p>Российские проекты в глобальном контексте.</p>

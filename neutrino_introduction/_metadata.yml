@@ -10,5 +10,5 @@ format:
     toc-title: "План лекции"
     include-after-body:
       - text: |
-          <script data-context-home="../lectures.html" data-context-home-label="Все курсы лекций" src="../assets/reveal/neutrinohit-reveal-footer.js"></script>
+          <script data-context-home="https://neutrinohit.github.io/ru/education.html#neutrino-introduction" data-context-home-label="Карта вводного курса по нейтрино" src="../assets/reveal/neutrinohit-reveal-footer.js"></script>
       - ../analytics/cloudflare-web-analytics.html

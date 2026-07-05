@@ -54,7 +54,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Courses on quantum field theory, the Standard Model, renormalization, accelerated frames, and selected QFT topics.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details id="qft-textbook" class="lecture-material" open>
             <summary>Textbook</summary>
             <div class="lecture-material-body">
               <p><em>Quantum Field Theory for Experimentalists and More</em> is a two-volume textbook with examples, problems, and solutions. The Russian edition is published; the English edition is in preparation.</p>
@@ -100,7 +100,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="qft-course" class="lecture-material">
             <summary>Lecture course “Quantum Field Theory”</summary>
             <div class="lecture-material-body">
               <p>Basic QFT course: notes and video recordings are in Russian.</p>
@@ -113,7 +113,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="standard-model-course" class="lecture-material">
             <summary>Lecture course “Introduction to the Standard Model”</summary>
             <div class="lecture-material-body">
               <p>Introductory Standard Model course: notes and videos are in Russian.</p>
@@ -126,7 +126,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="qft-renormalization-course" class="lecture-material">
             <summary>Lecture course “Renormalization in Quantum Field Theory”</summary>
             <div class="lecture-material-body">
               <p>Course notes and video playlists are in Russian.</p>
@@ -139,7 +139,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="unruh-course" class="lecture-material">
             <summary>Accelerated frames and the Unruh effect</summary>
             <div class="lecture-material-body">
               <p>Four direct HTML slide lectures on accelerated frames, thermodynamics, and the Unruh effect.</p>
@@ -151,7 +151,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="qft-attraction-repulsion" class="lecture-material">
             <summary>Attraction and Repulsion in Quantum Field Theory</summary>
             <div class="lecture-material-body">
               <p>Lecture on scalar QED and wave packets: how attraction and repulsion are encoded in QFT.</p>
@@ -178,7 +178,7 @@ toc: false
           <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Exam projects (Russian)</a>
         </div>
         <div class="lecture-material-list">
-          <details class="lecture-material">
+          <details id="stat-01" class="lecture-material">
             <summary>01. Introduction</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -186,7 +186,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-02" class="lecture-material">
             <summary>02. Probability and Bayes</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -194,7 +194,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-03" class="lecture-material">
             <summary>03. Random variables and densities</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -202,7 +202,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-04" class="lecture-material">
             <summary>04. Expectation and error propagation</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -210,7 +210,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-05" class="lecture-material">
             <summary>05. Common probability distributions</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -218,7 +218,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-06" class="lecture-material">
             <summary>06. Monte Carlo method</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -226,7 +226,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-07" class="lecture-material">
             <summary>07. Statistical tests basics</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -234,7 +234,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-08" class="lecture-material">
             <summary>08. Test statistics and multivariate methods</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -242,7 +242,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-09" class="lecture-material">
             <summary>09. Goodness of fit and significance</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -250,7 +250,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-10" class="lecture-material">
             <summary>10. Feldman-Cousins and CLs</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -258,7 +258,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-11" class="lecture-material">
             <summary>11. Parameter estimation and maximum likelihood</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -266,7 +266,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-12" class="lecture-material">
             <summary>12. Method of least squares</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -274,7 +274,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-13" class="lecture-material">
             <summary>13. Interval estimation and limits</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -282,7 +282,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-14" class="lecture-material">
             <summary>14. Nuisance parameters and systematics</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -290,7 +290,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="stat-15" class="lecture-material">
             <summary>15. Bayesian examples</summary>
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
@@ -310,7 +310,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Introductory neutrino lectures and the solar-neutrino masterclass are listed directly here.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material">
+          <details id="neutrino-introduction" class="lecture-material">
             <summary>Introduction to neutrino physics</summary>
             <div class="lecture-material-body">
               <p>Three introductory HTML slide lectures.</p>
@@ -321,7 +321,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material" open>
+          <details id="solar-neutrino-masterclass" class="lecture-material" open>
             <summary>Solar neutrino masterclass</summary>
             <div class="lecture-material-body">
               <p>Sources of solar neutrinos, oscillations, MSW physics, detector statistics, and an SK-like fit project. Lectures, project materials, and datasets are opened from one tab.</p>
@@ -349,7 +349,7 @@ toc: false
       <div class="lecture-course-body">
         <p>The particle-physics mini-course and the larger course materials are listed directly here.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details id="particle-physics-mini-course" class="lecture-material" open>
             <summary>Mini-course: introduction to particle physics</summary>
             <div class="lecture-material-body">
               <p>Two introductory lectures, a formula sheet, questions, and practical notebooks on cross sections, decays, and neutrino oscillations.</p>
@@ -365,7 +365,7 @@ toc: false
               </div>
             </div>
           </details>
-          <details class="lecture-material">
+          <details id="particle-physics-course" class="lecture-material">
             <summary>Full course: introduction to particle physics</summary>
             <div class="lecture-material-body">
               <p>English layout of the full course: course slides and course book.</p>
