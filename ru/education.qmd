@@ -360,14 +360,15 @@ toc: false
         <span class="lecture-course-title">Физика элементарных частиц</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Мини-курс и материалы большого курса по физике элементарных частиц собраны прямо здесь.</p>
+        <p>Карта дает короткий вход в материалы, а рабочие страницы курсов остаются отдельными сайтами с собственными лекциями, заданиями и дополнительными материалами.</p>
         <div class="lecture-material-list">
           <details id="particle-physics-mini-course" class="lecture-material" open>
             <summary>Мини-курс: введение в физику элементарных частиц</summary>
             <div class="lecture-material-body">
               <p>Две вводные лекции, формулы, вопросы и практические notebooks по сечениям, распадам и нейтринным осцилляциям.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">01. Частицы, поля и взаимодействия</a>
+                <a class="lecture-action-primary" href="../particlephysics/IntroParticlePhysicsBaikal/index.html">Открыть мини-курс</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">01. Частицы, поля и взаимодействия</a>
                 <a href="../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">02. Стандартная модель и нейтрино</a>
                 <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Формулы</a>
                 <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">Вопросы к лекции 1</a>
@@ -381,10 +382,11 @@ toc: false
           <details id="particle-physics-course" class="lecture-material">
             <summary>Большой курс: введение в физику элементарных частиц</summary>
             <div class="lecture-material-body">
-              <p>Русская раскладка полного курса: слайды и книга курса.</p>
+              <p>Рабочая страница будущего полного курса: русские слайды, книга и заготовки для задач, applets и экзаменационных проектов.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../particlephysics/ParticlePhysics/ru/slides/index.html">Слайды курса</a>
-                <a href="../particlephysics/ParticlePhysics/ru/book/index.html">Книга курса</a>
+                <a class="lecture-action-primary" href="../particlephysics/ParticlePhysics/index.html">Открыть сайт курса</a>
+                <a href="../particlephysics/ParticlePhysics/ru/slides/index.html">Слайды RU</a>
+                <a href="../particlephysics/ParticlePhysics/ru/book/index.html">Книга RU</a>
               </div>
             </div>
           </details>

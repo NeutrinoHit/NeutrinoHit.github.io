@@ -103,19 +103,22 @@ def find_occurrences(paths: list[Path]) -> list[Occurrence]:
     return occurrences
 
 
-def load_allowed_urls() -> set[str]:
+def load_allowed_targets() -> dict[str, str]:
     payload = json.loads(REGISTRY.read_text(encoding="utf-8"))
-    urls = {entry["url"] for entry in payload.get("allowed_context_homes", [])}
-    if not urls:
+    targets = {entry["url"]: entry.get("type", "map-card") for entry in payload.get("allowed_context_homes", [])}
+    if not targets:
         raise SystemExit("Reveal footer context registry is empty.")
-    return urls
+    return targets
 
 
 def page_for_url(url: str) -> tuple[Path, str] | None:
     parsed = urlparse(url)
-    if parsed.scheme != "https" or parsed.netloc != CANONICAL_HOST or not parsed.path or not parsed.fragment:
+    if parsed.scheme != "https" or parsed.netloc != CANONICAL_HOST or not parsed.path:
         return None
-    return ROOT / "_site" / parsed.path.lstrip("/"), parsed.fragment
+    path = parsed.path.lstrip("/")
+    if not path or parsed.path.endswith("/"):
+        path = f"{path}index.html"
+    return ROOT / "_site" / path, parsed.fragment
 
 
 def target_anchor_exists(url: str) -> bool:
@@ -125,8 +128,19 @@ def target_anchor_exists(url: str) -> bool:
     page, fragment = target
     if not page.exists():
         return False
+    if not fragment:
+        return True
     text = read_text(page)
     return re.search(rf"\bid\s*=\s*['\"]{re.escape(fragment)}['\"]", text) is not None
+
+
+def target_type_is_valid(url: str, target_type: str) -> bool:
+    parsed = urlparse(url)
+    if target_type == "map-card":
+        return bool(parsed.fragment)
+    if target_type == "course-home":
+        return not parsed.fragment and parsed.path.endswith("/")
+    return False
 
 
 def rel(path: Path) -> str:
@@ -136,14 +150,14 @@ def rel(path: Path) -> str:
         return path.as_posix()
 
 
-def validate_occurrence(occurrence: Occurrence, allowed_urls: set[str]) -> list[str]:
+def validate_occurrence(occurrence: Occurrence, allowed_targets: dict[str, str]) -> list[str]:
     errors: list[str] = []
     home = occurrence.attrs.get("data-context-home", "").strip()
     label = occurrence.attrs.get("data-context-home-label", "").strip()
 
     if not home:
         errors.append("missing data-context-home")
-    elif home not in allowed_urls:
+    elif home not in allowed_targets:
         errors.append(f"data-context-home is not registered: {home}")
     elif not target_anchor_exists(home):
         errors.append(f"registered target page or anchor does not exist after render: {home}")
@@ -155,7 +169,7 @@ def validate_occurrence(occurrence: Occurrence, allowed_urls: set[str]) -> list[
 
 
 def main() -> int:
-    allowed_urls = load_allowed_urls()
+    allowed_targets = load_allowed_targets()
 
     source_files: list[Path] = []
     for root in SOURCE_ROOTS:
@@ -165,12 +179,14 @@ def main() -> int:
     occurrences = find_occurrences(source_files + site_files)
 
     errors: list[str] = []
-    for url in sorted(allowed_urls):
+    for url, target_type in sorted(allowed_targets.items()):
+        if not target_type_is_valid(url, target_type):
+            errors.append(f"registry target has invalid type/path combination: {url} ({target_type})")
         if not target_anchor_exists(url):
             errors.append(f"registry target page or anchor does not exist after render: {url}")
 
     for occurrence in occurrences:
-        for message in validate_occurrence(occurrence, allowed_urls):
+        for message in validate_occurrence(occurrence, allowed_targets):
             errors.append(f"{rel(occurrence.path)}:{occurrence.line}: {message}")
 
     if errors:

@@ -46,7 +46,18 @@
     },
     {
       "url": "https://neutrinohit.github.io/en/education.html#particle-physics-course",
+      "type": "map-card",
       "description": "EN education: particle physics course"
+    },
+    {
+      "url": "https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/",
+      "type": "course-home",
+      "description": "Particle physics mini-course home"
+    },
+    {
+      "url": "https://neutrinohit.github.io/particlephysics/ParticlePhysics/",
+      "type": "course-home",
+      "description": "Particle physics full course home"
     },
     {
       "url": "https://neutrinohit.github.io/ru/outreach.html#in-a-nutshell",

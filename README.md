@@ -338,6 +338,10 @@ format:
 2. Добавить абсолютный URL `https://neutrinohit.github.io/...#id` в `scripts/reveal_context_targets.json`.
 3. В metadata слайдов указать и `data-context-home`, и `data-context-home-label`.
 
+Для полноценных автономных курсов можно регистрировать не только якорь карты,
+но и `course-home` URL вида `https://neutrinohit.github.io/<course>/`.
+Письменный стандарт: `docs/course-site-standard.md`.
+
 После `quarto render` скрипт `scripts/validate_reveal_context_homes.py` проверяет
 все footer-вставки в карте сайта и соседних проектах. Сборка падает, если
 context-home отсутствует, ведёт на локальную страницу вроде `index.html`, не
