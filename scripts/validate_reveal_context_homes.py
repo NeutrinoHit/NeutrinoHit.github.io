@@ -5,6 +5,8 @@ import json
 import errno
 import re
 import sys
+import urllib.error
+import urllib.request
 from dataclasses import dataclass
 from html import unescape
 from pathlib import Path
@@ -41,6 +43,8 @@ EXCLUDED_PARTS = {
 }
 
 READ_WARNINGS: list[str] = []
+READ_WARNING_KEYS: set[str] = set()
+REMOTE_TARGET_CACHE: dict[str, bool] = {}
 
 SCRIPT_RE = re.compile(
     r"<script\b(?=[^>]*neutrinohit-reveal-footer\.js)(?P<attrs>[^>]*)>",
@@ -84,9 +88,16 @@ def read_text(path: Path) -> str:
         return path.read_text(encoding="utf-8", errors="ignore")
     except OSError as exc:
         if getattr(exc, "errno", None) == errno.ETIMEDOUT or "Operation timed out" in str(exc):
-            READ_WARNINGS.append(f"skip unreadable dataless file: {rel(path)}")
+            warn_once(f"dataless:{path}", f"skip unreadable dataless file: {rel(path)}")
             return ""
         raise
+
+
+def warn_once(key: str, message: str) -> None:
+    if key in READ_WARNING_KEYS:
+        return
+    READ_WARNING_KEYS.add(key)
+    READ_WARNINGS.append(message)
 
 
 def parse_attrs(raw_attrs: str) -> dict[str, str]:
@@ -134,6 +145,11 @@ def target_anchor_exists(url: str) -> bool:
     return re.search(rf"\bid\s*=\s*['\"]{re.escape(fragment)}['\"]", text) is not None
 
 
+def target_page_exists(url: str) -> bool:
+    target = page_for_url(url)
+    return bool(target and target[0].exists())
+
+
 def target_type_is_valid(url: str, target_type: str) -> bool:
     parsed = urlparse(url)
     if target_type == "map-card":
@@ -141,6 +157,31 @@ def target_type_is_valid(url: str, target_type: str) -> bool:
     if target_type == "course-home":
         return not parsed.fragment and parsed.path.endswith("/")
     return False
+
+
+def remote_target_exists(url: str) -> bool:
+    if url in REMOTE_TARGET_CACHE:
+        return REMOTE_TARGET_CACHE[url]
+
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": "NeutrinoHit reveal context validator"},
+        method="GET",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=12) as response:
+            ok = 200 <= response.getcode() < 400
+    except (TimeoutError, urllib.error.HTTPError, urllib.error.URLError, OSError):
+        ok = False
+
+    REMOTE_TARGET_CACHE[url] = ok
+    return ok
+
+
+def target_exists_for_type(url: str, target_type: str) -> bool:
+    if target_type == "course-home":
+        return target_page_exists(url) or remote_target_exists(url)
+    return target_anchor_exists(url)
 
 
 def rel(path: Path) -> str:
@@ -159,7 +200,7 @@ def validate_occurrence(occurrence: Occurrence, allowed_targets: dict[str, str])
         errors.append("missing data-context-home")
     elif home not in allowed_targets:
         errors.append(f"data-context-home is not registered: {home}")
-    elif not target_anchor_exists(home):
+    elif not target_exists_for_type(home, allowed_targets[home]):
         errors.append(f"registered target page or anchor does not exist after render: {home}")
 
     if not label:
@@ -182,7 +223,7 @@ def main() -> int:
     for url, target_type in sorted(allowed_targets.items()):
         if not target_type_is_valid(url, target_type):
             errors.append(f"registry target has invalid type/path combination: {url} ({target_type})")
-        if not target_anchor_exists(url):
+        if not target_exists_for_type(url, target_type):
             errors.append(f"registry target page or anchor does not exist after render: {url}")
 
     for occurrence in occurrences:
@@ -194,9 +235,11 @@ def main() -> int:
         print(
             "Every presentation using neutrinohit-reveal-footer.js must define "
             "data-context-home and data-context-home-label. The home URL must be "
-            "an absolute https://neutrinohit.github.io/...#anchor entry from "
-            "neutrinohit-map/scripts/reveal_context_targets.json, and the anchor "
-            "must exist in the rendered site.",
+            "a registered absolute https://neutrinohit.github.io/... target from "
+            "neutrinohit-map/scripts/reveal_context_targets.json. Map-card targets "
+            "must include an anchor that exists in the rendered site. Course-home "
+            "targets must exist either in the local preview copy or as published "
+            "standalone course pages.",
             file=sys.stderr,
         )
         for error in errors:
