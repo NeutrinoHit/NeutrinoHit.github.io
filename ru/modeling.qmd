@@ -1,0 +1,63 @@
+---
+title: "Моделирование"
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Анимации, научные визуализации, численные модели и программные инструменты.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Моделирование и программные проекты">
+    <details class="lecture-course resource-card-animation" open>
+      <summary>
+        <span class="lecture-course-status">28 сюжетов · 72 ролика</span>
+        <span class="lecture-course-title">Анимации</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Научные анимации dvnanima: нейтрино и частицы, поля и волны, математика, динамические системы и визуальные научные истории.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../animations.html">Открыть галерею</a>
+          <a href="https://github.com/NeutrinoHit/dvnanima">Исходный код</a>
+          <a href="../animations.html#neutrino-particles">Нейтрино и частицы</a>
+          <a href="../animations.html#fields-waves">Поля и волны</a>
+          <a href="../animations.html#math-dynamical-systems">Математика</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course software-course-tools">
+      <summary>
+        <span class="lecture-course-status">Инструменты и физические модели</span>
+        <span class="lecture-course-title">Код и модели</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Программные проекты, расчёты и демонстрационные модели физических процессов.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>Визуализация и инструменты</summary>
+            <div class="lecture-material-body">
+              <p>Инструменты для создания научных иллюстраций, анимаций и визуального представления данных.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima">dvnanima</a>
+                <a href="https://github.com/NeutrinoHit/gTracker">gTracker</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Физические модели</summary>
+            <div class="lecture-material-body">
+              <p>Численные расчёты и демонстрационные модели дифракции и когерентных нейтринных процессов.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/TDSE-Diffraction">TDSE-Diffraction</a>
+                <a href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence">neutrino-nucleus-coherence</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

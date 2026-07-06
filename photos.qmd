@@ -12,7 +12,7 @@ title: "Фотоальбомы"
     <details class="lecture-course photo-course-archive" open>
       <summary>
         <span class="lecture-course-status">2 альбома</span>
-        <span class="lecture-course-title">Фотоархив NeutrinoHit</span>
+        <span class="lecture-course-title">Фотоархив</span>
       </summary>
       <div class="lecture-course-body">
         <p>Фотографии лекций, научных школ, поездок и встреч.</p>
