@@ -31,7 +31,11 @@ website:
       - href: ru/outreach.qmd
         text: Научная коммуникация
       - href: ru/materials.qmd
-        text: Материалы
+        text: Книги
+      - href: ru/modeling.qmd
+        text: Моделирование
+      - href: ru/photos-cinema.qmd
+        text: Фото и кино
       - href: ru/school.qmd
         text: Школа
     right:

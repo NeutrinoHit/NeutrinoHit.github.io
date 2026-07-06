@@ -1,0 +1,76 @@
+---
+title: "Фото и кино"
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Фотоальбомы, фильмы и мультфильмы, связанные с научной жизнью, школами,
+    поездками, научной популяризацией и нейтринной физикой.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Фото и кино">
+    <details class="lecture-course photo-course-archive" open>
+      <summary>
+        <span class="lecture-course-status">2 альбома</span>
+        <span class="lecture-course-title">Фотоархив</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Фотографии лекций, научных школ, поездок и встреч.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>2009 · В. А. Рубаков. Байкальская школа по физике элементарных частиц и астрофизике</summary>
+            <div class="lecture-material-body">
+              <p>20 фотографий · Байкал · 22–29 июля 2009 года.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../albums/v-a-rubakov-baikal-school-2009/">Открыть альбом</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>10–17 мая 2026 · Визит коллег из Китая</summary>
+            <div class="lecture-material-body">
+              <p>Визит профессоров Wei Wang, Jianglai Liu и Yuekun Heng в Москву, Дубну и Санкт-Петербург.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../albums/10-17-may-2026/">Открыть альбом</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course cinema-course-documentary" open>
+      <summary>
+        <span class="lecture-course-status">2 проекта</span>
+        <span class="lecture-course-title">Фильмы и мультфильмы</span>
+      </summary>
+      <div class="lecture-course-body">
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>Вселенная в нейтринном телескопе</summary>
+            <div class="lecture-material-body cinema-material-detail">
+              <a href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a>
+              <div>
+                <p>Фильм о том, как нейтринные телескопы открывают Вселенную. Сценарист и режиссер: Дмитрий Наумов.</p>
+                <div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">Смотреть на YouTube</a></div>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Нерпа и тайна Байкала</summary>
+            <div class="lecture-material-body cinema-material-detail">
+              <a href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg"><img src="https://img.youtube.com/vi/Qja-x8WjYiw/hqdefault.jpg" alt=""></a>
+              <div>
+                <p>Мультфильм о Байкале. Сценарий: Дмитрий Наумов.</p>
+                <div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg">Смотреть на YouTube</a></div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

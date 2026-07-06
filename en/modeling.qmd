@@ -1,0 +1,64 @@
+---
+title: "Modeling"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Animations, scientific visualizations, numerical models, and software tools.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Modeling and software projects">
+    <details class="lecture-course resource-card-animation" open>
+      <summary>
+        <span class="lecture-course-status">28 stories · 72 clips</span>
+        <span class="lecture-course-title">Animations</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Scientific animations by dvnanima: neutrinos and particles, fields and waves, mathematics, dynamical systems, and visual science stories.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../animations.html">Open gallery</a>
+          <a href="https://github.com/NeutrinoHit/dvnanima">Source code</a>
+          <a href="../animations.html#neutrino-particles">Neutrinos and particles</a>
+          <a href="../animations.html#fields-waves">Fields and waves</a>
+          <a href="../animations.html#math-dynamical-systems">Mathematics</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course software-course-tools">
+      <summary>
+        <span class="lecture-course-status">Tools and physical models</span>
+        <span class="lecture-course-title">Code and Models</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Software projects, calculations, and demonstrational models of physical processes.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>Visualization and tools</summary>
+            <div class="lecture-material-body">
+              <p>Tools for scientific illustrations, animations, and visual presentation of data.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima">dvnanima</a>
+                <a href="https://github.com/NeutrinoHit/gTracker">gTracker</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Physical models</summary>
+            <div class="lecture-material-body">
+              <p>Numerical calculations and demonstrational models for diffraction and coherent neutrino processes.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/TDSE-Diffraction">TDSE-Diffraction</a>
+                <a href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence">neutrino-nucleus-coherence</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+```

@@ -14,7 +14,7 @@ toc: false
     <details class="lecture-course photo-course-archive" open>
       <summary>
         <span class="lecture-course-status">2 albums</span>
-        <span class="lecture-course-title">NeutrinoHit photo archive</span>
+        <span class="lecture-course-title">Photo Archive</span>
       </summary>
       <div class="lecture-course-body">
         <p>Photographs from lectures, scientific schools, trips, and meetings.</p>
