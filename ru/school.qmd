@@ -6,8 +6,8 @@ toc: false
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    Научная и образовательная школа: студенты, аспиранты, летние школы,
-    фотоархив событий и работы, выполненные под руководством Дмитрия Наумова.
+    Научная и образовательная школа: студенты, аспиранты, летние школы и
+    работы, выполненные под руководством Дмитрия Наумова.
   </p>
 
   <section class="lecture-course-list" aria-label="Научная школа и сообщество">
@@ -314,47 +314,30 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course school-course-baikal" open>
+    <details class="lecture-course school-course-baikal">
       <summary>
-        <span class="lecture-course-status">Школы</span>
-        <span class="lecture-course-title">Baikal Summer School и Baksan School</span>
+        <span class="lecture-course-status">2 школы в архиве</span>
+        <span class="lecture-course-title">Baikal Summer School on Physics of Elementary Particles and Astrophysics</span>
       </summary>
       <div class="lecture-course-body">
-        <div class="lecture-material-list">
-          <details class="lecture-material" open>
-            <summary>Baikal Summer School on Physics of Elementary Particles and Astrophysics</summary>
-            <div class="lecture-material-body">
-              <p>Байкальская летняя школа по физике элементарных частиц и астрофизике.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="https://indico.jinr.ru/event/5998/">2026</a>
-                <a href="https://indico.jinr.ru/event/5198/">2025</a>
-              </div>
-            </div>
-          </details>
-          <details class="lecture-material">
-            <summary>Baksan School</summary>
-            <div class="lecture-material-body">
-              <p>Школы на Баксанской нейтринной обсерватории.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="https://indico.inr.ac.ru/event/6/overview">2025</a>
-                <a href="http://minus.inr.ac.ru/~school/index1.html">2019</a>
-              </div>
-            </div>
-          </details>
+        <p>Байкальская летняя школа по физике элементарных частиц и астрофизике.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://indico.jinr.ru/event/5998/">2026</a>
+          <a href="https://indico.jinr.ru/event/5198/">2025</a>
         </div>
       </div>
     </details>
 
-    <details class="lecture-course photo-course-archive">
+    <details class="lecture-course school-course-baksan">
       <summary>
-        <span class="lecture-course-status">Фотоархив</span>
-        <span class="lecture-course-title">Лекции, школы, поездки и события</span>
+        <span class="lecture-course-status">2 школы в архиве</span>
+        <span class="lecture-course-title">Baksan School</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Публичные фотоальбомы NeutrinoHit: научная жизнь, школы, поездки, встречи с коллегами и образовательные события.</p>
+        <p>Школы на Баксанской нейтринной обсерватории.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../albums/v-a-rubakov-baikal-school-2009/">В. А. Рубаков, Байкал-2009</a>
-          <a href="../albums/10-17-may-2026/">Визит коллег из Китая, 2026</a>
+          <a class="lecture-action-primary" href="https://indico.inr.ac.ru/event/6/overview">2025</a>
+          <a href="http://minus.inr.ac.ru/~school/index1.html">2019</a>
         </div>
       </div>
     </details>
