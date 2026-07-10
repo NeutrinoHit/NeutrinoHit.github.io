@@ -54,8 +54,11 @@ toc: false
             <summary>Рождение и жизнь Вселенной</summary>
             <div class="lecture-material-body">
               <p>Горячее начало, первый свет, звезды, галактики, Земля и далекое будущее.</p>
+              <p class="course-note">Видео лекции появится позже. Интерактивная BBN-игра использует тот же движок и сетку PRyMordial, что и слайд в лекции; на публичной странице подсказочные кнопки скрыты, чтобы параметры искали самостоятельно.</p>
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="../sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html">Открыть лекцию</a>
+                <a href="../sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html">Открыть BBN-игру</a>
+                <a href="https://github.com/NeutrinoHit/sciencepop/tree/main/BirthAndLifeUniverse/bbn-game">Код игры</a>
               </div>
             </div>
           </details>
