@@ -12,7 +12,7 @@ toc: false
   <section class="lecture-course-list" aria-label="Моделирование и программные проекты">
     <details class="lecture-course resource-card-animation" open>
       <summary>
-        <span class="lecture-course-status">28 сюжетов · 72 ролика</span>
+        <span class="lecture-course-status">29 сюжетов · 73 ролика</span>
         <span class="lecture-course-title">Анимации</span>
       </summary>
       <div class="lecture-course-body">

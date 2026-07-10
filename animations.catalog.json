@@ -156,6 +156,19 @@
           ]
         },
         {
+          "id": "bbn",
+          "title": "Первичный нуклеосинтез",
+          "source_dir": "BBN",
+          "description": "Стилизованная картина BBN: дейтериевое горлышко, окно синтеза и связывание нейтронов в He-4.",
+          "videos": [
+            {
+              "id": "bbn-animation",
+              "label": "Первые минуты",
+              "path": "BBN/media/videos/bbn_manim/1080p30/BBNAnimation.mp4"
+            }
+          ]
+        },
+        {
           "id": "feynman-scattering",
           "title": "Диаграммы рассеяния",
           "source_dir": "feynman_scattering",

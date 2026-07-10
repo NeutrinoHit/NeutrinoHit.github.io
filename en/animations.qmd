@@ -10,8 +10,8 @@ toc: false
     Scientific animations from the dvnanima project. The public library includes neutrino oscillations, JUNO, detector concepts, wave packets, fields, quantum mechanics, and other visual explanations.
   </p>
   <div class="animation-catalog-meta">
-    <span>28 stories</span>
-    <span>72 videos</span>
+    <span>29 stories</span>
+    <span>73 videos</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">dvnanima repository</a>
   </div>
 

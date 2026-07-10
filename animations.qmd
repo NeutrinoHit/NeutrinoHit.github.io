@@ -11,14 +11,14 @@ title: "Анимации"
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>28 сюжетов</span>
-    <span>72 ролика</span>
+    <span>29 сюжетов</span>
+    <span>73 ролика</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles" open>
       <summary>
-        <span class="lecture-course-status">10 сюжетов, 27 роликов</span>
+        <span class="lecture-course-status">11 сюжетов, 28 роликов</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -310,6 +310,30 @@ title: "Анимации"
           </details>
           <details class="lecture-material animation-material">
             <summary>
+              <span class="animation-material-title">Первичный нуклеосинтез</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Стилизованная картина BBN: дейтериевое горлышко, окно синтеза и связывание нейтронов в He-4.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="assets/animations/dvnanima/neutrino-particles-bbn-bbn-animation.jpg">
+                    <source src="assets/animations/dvnanima/neutrino-particles-bbn-bbn-animation.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Первые минуты</span>
+                    <small>1.1 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/BBN">Исходный код</a>
+                <a href="assets/animations/dvnanima/neutrino-particles-bbn-bbn-animation.mp4">MP4: Первые минуты</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material animation-material">
+            <summary>
               <span class="animation-material-title">Диаграммы рассеяния</span>
               <span class="animation-material-count">4 ролика</span>
             </summary>
@@ -580,7 +604,7 @@ title: "Анимации"
                   </video>
                   <figcaption>
                     <span>2D</span>
-                    <small>4.0 MB</small>
+                    <small>3.9 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
