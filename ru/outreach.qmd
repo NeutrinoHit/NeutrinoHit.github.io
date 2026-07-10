@@ -58,7 +58,6 @@ toc: false
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="../sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html">Открыть лекцию</a>
                 <a href="../sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html">Открыть BBN-игру</a>
-                <a href="https://github.com/NeutrinoHit/sciencepop/tree/main/BirthAndLifeUniverse/bbn-game">Код игры</a>
               </div>
             </div>
           </details>
