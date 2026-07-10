@@ -55,8 +55,11 @@ toc: false
             <summary>The Birth and Life of the Universe (in Russian)</summary>
             <div class="lecture-material-body">
               <p>Hot beginning, first light, stars, galaxies, Earth, and the far future.</p>
+              <p class="course-note">The lecture video will be added later. The interactive BBN game uses the same engine and PRyMordial grid as the in-slide version; the public applet hides the hint/demo buttons so visitors can search for the parameters themselves.</p>
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="../sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html">Open lecture</a>
+                <a href="../sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html">Open BBN game</a>
+                <a href="https://github.com/NeutrinoHit/sciencepop/tree/main/BirthAndLifeUniverse/bbn-game">Game source</a>
               </div>
             </div>
           </details>
