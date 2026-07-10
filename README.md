@@ -42,6 +42,30 @@ quarto preview
 NEUTRINOHIT_SYNC_PROJECT_SITES=0 quarto preview
 ```
 
+## QR-коды с логотипом
+
+Общий генератор QR-кодов с логотипом NeutrinoHit:
+
+```bash
+python scripts/generate_qrcode.py \
+  --url https://neutrinohit.github.io/sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html \
+  --out assets/site/bbn_game_qr.png \
+  --selfcheck
+```
+
+По умолчанию скрипт использует `assets/reveal/dvnlogo.png`, высокий уровень
+коррекции ошибок `H`, скругленные модули и белый круг под логотипом. Выходной
+файл должен иметь расширение `.png` или `.pdf`.
+
+Если в окружении нет зависимости:
+
+```bash
+python -m pip install 'qrcode[pil]'
+```
+
+Опция `--selfcheck` пытается декодировать результат через OpenCV, если он
+установлен. Если OpenCV нет, QR всё равно сохраняется.
+
 ## Общие RevealJS-классы для лекций
 
 Канонический общий стиль для RevealJS-лекций хранится здесь:
