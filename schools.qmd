@@ -12,7 +12,7 @@ title: "Школы"
   <section class="lecture-course-list" aria-label="Каталог школ">
     <details class="lecture-course school-course-baikal" open>
       <summary>
-        <span class="lecture-course-status">2 школы в архиве</span>
+        <span class="lecture-course-status">2 школы, материалы</span>
         <span class="lecture-course-title">Baikal Summer School on Physics of Elementary Particles and Astrophysics</span>
       </summary>
       <div class="lecture-course-body">
@@ -23,6 +23,7 @@ title: "Школы"
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="https://indico.jinr.ru/event/5998/">Страница школы</a>
+                <a href="ru/baikal-school-2026-projects.html">Проекты (EN)</a>
               </div>
             </div>
           </details>
