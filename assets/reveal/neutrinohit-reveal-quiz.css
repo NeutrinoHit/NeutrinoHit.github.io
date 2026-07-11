@@ -1,0 +1,314 @@
+/* Shared NeutrinoHit RevealJS quiz components.
+   Canonical source: neutrinohit-map/assets/reveal/neutrinohit-reveal-quiz.css */
+
+.reveal .quiz-slide {
+  min-height: 505px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.72rem;
+}
+
+.reveal .quiz-prompt {
+  color: var(--nh-quiz-muted, var(--universe-muted, #c5cfdd));
+  font-size: var(--nh-quiz-prompt-size, 0.82em);
+  font-weight: 700;
+  line-height: 1.24;
+}
+
+.reveal .quiz-options {
+  display: grid;
+  grid-template-columns: repeat(var(--nh-quiz-columns, 3), minmax(0, 1fr));
+  gap: var(--nh-quiz-gap, 0.58rem);
+  align-items: stretch;
+}
+
+.reveal .quiz-options.two-options {
+  --nh-quiz-columns: 2;
+}
+
+.reveal .quiz-options.four-options {
+  --nh-quiz-columns: 4;
+}
+
+.reveal .quiz-option {
+  min-height: var(--nh-quiz-option-min-height, 142px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: var(--nh-quiz-option-padding, 0.58rem 0.68rem);
+  border: 2px solid var(--nh-quiz-border, rgba(195, 165, 255, 0.72));
+  border-radius: 8px;
+  background: var(--nh-quiz-bg, rgba(17, 24, 39, 0.7));
+  color: var(--nh-quiz-text, var(--universe-text, #f4f7fb));
+  font-size: var(--nh-quiz-option-size, 0.88em);
+  font-weight: 800;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.reveal .quiz-option span {
+  min-width: 0;
+}
+
+.reveal .quiz-prompt p,
+.reveal .quiz-option p,
+.reveal .quiz-note p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+}
+
+.reveal .quiz-option p {
+  min-width: 0;
+}
+
+.reveal .quiz-option strong {
+  color: var(--nh-quiz-label, var(--universe-gold, #ffcf70));
+  font-weight: 900;
+}
+
+.reveal .quiz-option.correct {
+  border-color: var(--nh-quiz-correct, var(--universe-green, #8fe3a2));
+  background: var(
+    --nh-quiz-correct-bg,
+    linear-gradient(135deg, rgba(143, 227, 162, 0.28), rgba(118, 199, 255, 0.12)),
+    rgba(17, 24, 39, 0.76)
+  );
+  box-shadow: 0 0 32px rgba(143, 227, 162, 0.18);
+}
+
+.reveal .quiz-option.correct strong {
+  color: var(--nh-quiz-correct, var(--universe-green, #8fe3a2));
+}
+
+.reveal .quiz-option.wrong {
+  opacity: var(--nh-quiz-wrong-opacity, 0.58);
+}
+
+.reveal .quiz-note {
+  max-width: var(--nh-quiz-note-max-width, 1080px);
+  padding: var(--nh-quiz-note-padding, 0.48rem 0.66rem);
+  border-left: 6px solid var(--nh-quiz-correct, var(--universe-green, #8fe3a2));
+  background: var(--nh-quiz-note-bg, rgba(143, 227, 162, 0.11));
+  color: var(--nh-quiz-note-text, rgba(244, 247, 251, 0.92));
+  font-size: var(--nh-quiz-note-size, 0.78em);
+  font-weight: 700;
+  line-height: 1.24;
+}
+
+@media (max-width: 900px) {
+  .reveal .quiz-options,
+  .reveal .quiz-options.two-options,
+  .reveal .quiz-options.four-options {
+    grid-template-columns: 1fr;
+  }
+
+  .reveal .quiz-option {
+    min-height: var(--nh-quiz-option-mobile-min-height, 88px);
+  }
+}
+
+/* Shared NeutrinoHit RevealJS media utilities.
+   Keep lecture-specific storytelling scenes in lecture CSS; use these for
+   ordinary figures, framed media, and full-slide video. */
+
+.reveal .slide-video,
+.reveal .slide-media {
+  display: block;
+  width: var(--media-width, 100%);
+  max-width: var(--media-max-width, 100%);
+  max-height: var(--media-max-height, 560px);
+  margin: var(--media-margin, 0 auto);
+  object-fit: contain;
+  border-radius: var(--media-radius, 8px);
+  background: var(--media-bg, #05070b);
+  box-shadow: var(--media-shadow, 0 0 40px rgba(118, 199, 255, 0.12));
+}
+
+.reveal .media-height-sm {
+  --media-max-height: 448px;
+}
+
+.reveal .media-height-md {
+  --media-max-height: 560px;
+}
+
+.reveal .media-height-lg {
+  --media-max-height: 672px;
+}
+
+.reveal .media-height-xl {
+  --media-max-height: 784px;
+}
+
+.reveal .media-width-sm {
+  --media-width: 60%;
+}
+
+.reveal .media-width-md {
+  --media-width: 75%;
+}
+
+.reveal .media-width-lg {
+  --media-width: 90%;
+}
+
+.reveal .media-width-full {
+  --media-width: 100%;
+}
+
+.reveal .media-frame {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: var(--media-aspect-ratio, 16 / 9);
+  border: var(--media-frame-border, 1px solid rgba(197, 207, 221, 0.24));
+  border-radius: var(--media-radius, 8px);
+  background: var(--media-bg, #05070b);
+  box-shadow: var(--media-shadow, 0 0 40px rgba(118, 199, 255, 0.12));
+}
+
+.reveal .media-frame img,
+.reveal .media-frame video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reveal .media-frame > p,
+.reveal .full-slide-video > p {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 0;
+}
+
+.reveal .media-frame.contain img,
+.reveal .media-frame.contain video {
+  object-fit: contain;
+}
+
+.reveal .media-caption {
+  margin-top: var(--media-caption-margin-top, 0.45em);
+  color: var(--media-caption-color, var(--universe-muted, #c5cfdd));
+  font-size: var(--media-caption-size, 0.68em);
+  font-weight: var(--media-caption-weight, 700);
+  line-height: var(--media-caption-line-height, 1.25);
+}
+
+.reveal .photo-credit {
+  position: absolute;
+  right: var(--media-credit-right, 0.5rem);
+  bottom: var(--media-credit-bottom, 0.42rem);
+  z-index: 1;
+  padding: 0.18rem 0.34rem;
+  border-radius: 4px;
+  background: rgba(5, 7, 11, 0.62);
+  color: rgba(244, 247, 251, 0.9);
+  font-size: 0.34em;
+  font-weight: 650;
+  line-height: 1.1;
+}
+
+.reveal .photo-credit p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+}
+
+.reveal .media-center-section {
+  padding-top: 0 !important;
+}
+
+.reveal .media-center-section > h2 {
+  display: none;
+}
+
+.reveal .media-center-slide {
+  display: grid;
+  place-items: center;
+  min-height: var(--media-slide-min-height, 650px);
+  width: 100%;
+}
+
+.reveal .media-center-slide > p {
+  width: 100%;
+  margin: 0;
+  line-height: 0;
+}
+
+.reveal .media-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--media-figure-gap, 0.18rem);
+  width: 100%;
+  margin: 0;
+  min-height: 0;
+}
+
+.reveal .media-figure img {
+  display: block;
+  width: var(--media-figure-width, min(100%, 1160px));
+  max-height: var(--media-max-height, 560px);
+  object-fit: contain;
+  border-radius: var(--media-radius, 6px);
+  background: var(--media-bg, #000);
+  box-shadow: var(--media-shadow, 0 18px 46px rgba(0, 0, 0, 0.28));
+}
+
+.reveal .media-figure .quarto-figure,
+.reveal .media-figure figure {
+  width: 100%;
+  margin: 0;
+}
+
+.reveal .media-figure p {
+  margin: 0;
+}
+
+.reveal .media-figure figcaption {
+  align-self: var(--media-caption-align, center);
+  color: var(--media-caption-color, var(--universe-muted, #c5cfdd));
+  font-size: var(--media-caption-size, 0.42em);
+  font-weight: var(--media-caption-weight, 720);
+  line-height: var(--media-caption-line-height, 1.18);
+}
+
+.reveal .media-figure .media-caption {
+  align-self: var(--media-caption-align, center);
+  margin-top: 0;
+  font-size: var(--media-caption-size, 0.42em);
+  font-weight: var(--media-caption-weight, 720);
+  line-height: var(--media-caption-line-height, 1.18);
+}
+
+.reveal .full-slide-video-section {
+  padding: 0 !important;
+}
+
+.reveal .full-slide-video-section > h2 {
+  display: none;
+}
+
+.reveal .full-slide-video {
+  position: relative;
+  width: 100%;
+  height: var(--full-slide-video-height, 720px);
+  min-height: var(--full-slide-video-height, 720px);
+  overflow: hidden;
+  background: var(--media-bg, #02050a);
+}
+
+.reveal .full-slide-video video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
