@@ -130,14 +130,29 @@ toc: false
 
     <details class="lecture-course school-course-baikal">
       <summary>
-        <span class="lecture-course-status">2 events</span>
+        <span class="lecture-course-status">2 events, materials</span>
         <span class="lecture-course-title">Baikal Summer School on Physics of Elementary Particles and Astrophysics</span>
       </summary>
       <div class="lecture-course-body">
         <p>Baikal summer school on particle physics and astrophysics.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://indico.jinr.ru/event/5998/">2026 school page</a>
-          <a href="https://indico.jinr.ru/event/5198/">2025 school page</a>
+        <div class="lecture-material-list">
+          <details class="lecture-material" open>
+            <summary>2026</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="https://indico.jinr.ru/event/5998/">School page</a>
+                <a href="baikal-school-2026-projects.html">Student projects</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>2025</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://indico.jinr.ru/event/5198/">School page</a>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </details>

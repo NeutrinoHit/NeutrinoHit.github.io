@@ -1,0 +1,10 @@
+---
+title: "Проекты Baikal School 2026"
+toc: false
+---
+
+Эта страница собирает проектные задания для Baikal Summer School on Physics of Elementary Particles and Astrophysics. Первый набор основан на проектах школы 2025 года; его можно расширять новыми темами для 2026 года.
+
+Сами задания оставлены на английском языке, чтобы их можно было использовать в международных студенческих командах.
+
+{{< include ../_includes/baikal-school-2026-projects.qmd >}}
