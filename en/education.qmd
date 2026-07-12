@@ -343,7 +343,7 @@ toc: false
 
     <details id="particles" class="lecture-course lecture-course-particles">
       <summary>
-        <span class="lecture-course-status">Mini-course and course materials</span>
+        <span class="lecture-course-status">Mini-course published</span>
         <span class="lecture-course-title">Particle Physics</span>
       </summary>
       <div class="lecture-course-body">
@@ -352,14 +352,11 @@ toc: false
           <details id="particle-physics-mini-course" class="lecture-material" open>
             <summary>Mini-course: introduction to particle physics</summary>
             <div class="lecture-material-body">
-              <p>Two introductory lectures, a formula sheet, and self-check questions on particles, fields, interactions, gauge invariance, mass generation, and weak decay.</p>
+              <p>Two introductory lectures on particles, fields, interactions, gauge invariance, mass generation, and weak decay.</p>
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="../particlephysics/IntroParticlePhysicsBaikal/index.html">Open mini-course</a>
                 <a href="../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">01. Particles, Fields, and Interactions</a>
                 <a href="../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model.html">02. The Standard Model</a>
-                <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Formula sheet</a>
-                <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">Questions after lecture 1</a>
-                <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model.html">Questions after lecture 2</a>
               </div>
             </div>
           </details>
