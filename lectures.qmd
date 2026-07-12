@@ -318,7 +318,7 @@ title: "Лекции"
 
     <details id="particles" class="lecture-course lecture-course-particles">
       <summary>
-        <span class="lecture-course-status">Мини-курс и материалы курса опубликованы</span>
+        <span class="lecture-course-status">Мини-курс опубликован</span>
         <span class="lecture-course-title">Физика элементарных частиц</span>
       </summary>
       <div class="lecture-course-body">
@@ -327,13 +327,10 @@ title: "Лекции"
           <details class="lecture-material" open>
             <summary>Мини-курс: введение в физику элементарных частиц</summary>
             <div class="lecture-material-body">
-              <p>Две вводные лекции, формулы и вопросы для самопроверки: частицы, поля, взаимодействия, калибровочная инвариантность, происхождение масс и слабый распад.</p>
+              <p>Две вводные лекции: частицы, поля, взаимодействия, калибровочная инвариантность, происхождение масс и слабый распад.</p>
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">01. Частицы, поля и взаимодействия</a>
                 <a href="particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model.html">02. Стандартная модель</a>
-                <a href="particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Формулы</a>
-                <a href="particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">Вопросы к лекции 1</a>
-                <a href="particlephysics/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model.html">Вопросы к лекции 2</a>
               </div>
             </div>
           </details>
