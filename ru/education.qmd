@@ -365,17 +365,14 @@ toc: false
           <details id="particle-physics-mini-course" class="lecture-material" open>
             <summary>Мини-курс: введение в физику элементарных частиц</summary>
             <div class="lecture-material-body">
-              <p>Две вводные лекции, формулы, вопросы и практические notebooks по сечениям, распадам и нейтринным осцилляциям.</p>
+              <p>Две вводные лекции, формулы и вопросы для самопроверки: частицы, поля, взаимодействия, калибровочная инвариантность, происхождение масс и слабый распад.</p>
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="../particlephysics/IntroParticlePhysicsBaikal/index.html">Открыть мини-курс</a>
                 <a href="../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">01. Частицы, поля и взаимодействия</a>
-                <a href="../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model_neutrinos.html">02. Стандартная модель и нейтрино</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model.html">02. Стандартная модель</a>
                 <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Формулы</a>
                 <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">Вопросы к лекции 1</a>
-                <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model_neutrinos.html">Вопросы к лекции 2</a>
-                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/notebooks/01_event_rates_and_cross_sections.ipynb">Notebook: сечения и темпы событий</a>
-                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/notebooks/02_decay_law_and_lifetime.ipynb">Notebook: закон распада</a>
-                <a href="https://neutrinohit.github.io/particlephysics/IntroParticlePhysicsBaikal/notebooks/03_neutrino_oscillation_probability.ipynb">Notebook: осцилляции нейтрино</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model.html">Вопросы к лекции 2</a>
               </div>
             </div>
           </details>
