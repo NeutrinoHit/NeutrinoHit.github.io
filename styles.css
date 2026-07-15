@@ -693,6 +693,227 @@
   color: #ffffff;
 }
 
+.baikal-school-poster {
+  margin-top: 0.85rem;
+}
+
+.baikal-school-poster a {
+  display: inline-block;
+  max-width: min(100%, 22rem);
+  padding: 0.45rem;
+  border: 1px solid rgba(43, 67, 91, 0.17);
+  border-radius: 8px;
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.baikal-school-poster a:hover {
+  border-color: #1f6f78;
+  text-decoration: none;
+}
+
+.baikal-school-poster img {
+  display: block;
+  width: 21rem;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid rgba(43, 67, 91, 0.16);
+  border-radius: 5px;
+  background: #f5f7fa;
+}
+
+.baikal-school-program-card {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(43, 67, 91, 0.13);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(31, 111, 120, 0.08), rgba(255, 255, 255, 0.96) 58%),
+    #ffffff;
+}
+
+.baikal-school-program-note {
+  max-width: 58rem;
+  margin: 0 0 0.85rem;
+  color: #53616f;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.baikal-program-table-wrap {
+  overflow-x: auto;
+  border: 1px solid rgba(43, 67, 91, 0.13);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.baikal-program-table {
+  width: 100%;
+  min-width: 820px;
+  border-collapse: collapse;
+  color: #25313a;
+  font-size: 0.92rem;
+}
+
+.baikal-program-table caption {
+  padding: 0.75rem 0.85rem;
+  color: #1f2933;
+  font-weight: 800;
+  text-align: left;
+}
+
+.baikal-program-table th,
+.baikal-program-table td {
+  padding: 0.62rem 0.72rem;
+  border-top: 1px solid rgba(43, 67, 91, 0.1);
+  text-align: left;
+  vertical-align: top;
+}
+
+.baikal-program-table th {
+  background: rgba(31, 111, 120, 0.08);
+  color: #27475d;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.baikal-program-date,
+.baikal-program-time {
+  white-space: nowrap;
+}
+
+.baikal-program-date span,
+.baikal-program-kind {
+  display: block;
+  margin-top: 0.18rem;
+  color: #6b7b88;
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
+.baikal-program-title {
+  font-weight: 750;
+}
+
+.baikal-program-speaker {
+  color: #1f2933;
+  font-weight: 720;
+}
+
+.baikal-program-materials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.baikal-program-materials a,
+.baikal-program-placeholder {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.8rem;
+  padding: 0.24rem 0.48rem;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.baikal-program-materials a {
+  border: 1px solid rgba(31, 111, 120, 0.45);
+  color: #175873;
+  text-decoration: none;
+}
+
+.baikal-program-materials a:hover {
+  border-color: #1f6f78;
+  background: rgba(31, 111, 120, 0.08);
+  text-decoration: none;
+}
+
+.baikal-program-placeholder {
+  border: 1px dashed rgba(43, 67, 91, 0.32);
+  color: #6b7b88;
+}
+
+.baikal-lecture-index {
+  overflow: hidden;
+  border: 1px solid rgba(43, 67, 91, 0.13);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.baikal-lecturer-row {
+  display: grid;
+  grid-template-columns: minmax(12rem, 0.72fr) minmax(0, 2fr);
+  gap: 1rem;
+  padding: 0.9rem 1rem;
+  border-top: 1px solid rgba(43, 67, 91, 0.1);
+}
+
+.baikal-lecturer-row:first-child {
+  border-top: 0;
+}
+
+.baikal-lecturer-name {
+  margin: 0;
+  color: #1f2933;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.baikal-talk-list {
+  display: grid;
+  gap: 0.42rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.baikal-talk-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.7rem;
+  align-items: baseline;
+}
+
+.baikal-talk-title {
+  color: #175873;
+  font-weight: 740;
+  text-decoration-color: rgba(31, 111, 120, 0.35);
+  text-underline-offset: 0.16em;
+}
+
+.baikal-talk-title-muted {
+  color: #344654;
+}
+
+.baikal-talk-title-muted a {
+  color: #175873;
+  font-weight: 760;
+  text-decoration-color: rgba(31, 111, 120, 0.35);
+  text-underline-offset: 0.16em;
+}
+
+.baikal-talk-title-muted a:hover {
+  color: #0f3e50;
+  text-decoration-color: currentColor;
+}
+
+.baikal-talk-title:hover {
+  color: #0f3e50;
+  text-decoration-color: currentColor;
+}
+
+@media (max-width: 760px) {
+  .baikal-lecturer-row,
+  .baikal-talk-list li {
+    grid-template-columns: 1fr;
+  }
+}
+
 .lecture-material-list {
   gap: 0;
   margin-top: 0.95rem;

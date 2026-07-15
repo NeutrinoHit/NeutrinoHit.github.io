@@ -130,7 +130,7 @@ toc: false
 
     <details class="lecture-course school-course-baikal">
       <summary>
-        <span class="lecture-course-status">2 events, materials</span>
+        <span class="lecture-course-status">2 events, program</span>
         <span class="lecture-course-title">Baikal Summer School on Physics of Elementary Particles and Astrophysics</span>
       </summary>
       <div class="lecture-course-body">
@@ -139,9 +139,39 @@ toc: false
           <details class="lecture-material" open>
             <summary>2026</summary>
             <div class="lecture-material-body">
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="https://indico.jinr.ru/event/5998/">School page</a>
-                <a href="baikal-school-2026-projects.html">Student projects</a>
+
+<div class="lecture-course-actions">
+  <a class="lecture-action-primary" href="https://indico.jinr.ru/event/5998/">School page</a>
+  <a href="baikal-school-2026-projects.html">Projects</a>
+  <a href="../assets/schools/baikal-2026/baikal-school-2026-program.pdf">Program</a>
+  <a href="../assets/schools/baikal-2026/baikal-school-2026-poster.pdf">Poster</a>
+  <a href="https://disk.jinr.ru/index.php/s/dPLtxmpxcSWAzaK?dir=/Baikal_summer_school/Baikal_Summer_School_2026/Materials">Materials</a>
+  <a href="https://disk.jinr.ru/index.php/s/dPLtxmpxcSWAzaK?dir=/Baikal_summer_school/Baikal_Summer_School_2026">Photo archive</a>
+</div>
+
+<div class="baikal-school-poster">
+  <a href="../assets/schools/baikal-2026/baikal-school-2026-poster.pdf">
+    <img src="../assets/schools/baikal-2026/baikal-school-2026-poster.png" alt="Baikal Summer School 2026 poster" loading="lazy">
+  </a>
+</div>
+              <div class="baikal-school-program-card">
+                <div class="baikal-lecture-index" aria-label="Baikal School 2026 lectures">
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Dmitry Naumov</h4><ul class="baikal-talk-list"><li><a class="baikal-talk-title" href="../particlephysics/IntroParticlePhysicsBaikal/index.html">Introduction to Particle Physics I-II</a></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Zhi-zhong Xing</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Origin of neutrino mass and mixing I (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Zhi-zhong%20Xing%20%28I%29.ppt">ppt</a>, <a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Zhi-zhong%20Xing%20%28I%29.pdf">pdf</a>), II (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Zhi-zhong%20Xing%20%28II%29.ppt">ppt</a>, <a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Zhi-zhong%20Xing%20%28II%29.pdf">pdf</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Dmitry Gorbunov</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Cosmology I (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Dmitry%20Gorbunov%20%28I%29.pdf">pdf</a>), II (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Dmitry%20Gorbunov%20%28II%29.pdf">pdf</a>, <a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Dmitry%20Gorbunov%20%28II%29_v1.pdf">v1 pdf</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Liangjian Wen</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Prospects of neutrino physics I (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Liangjian%20Wen%20%28I%29.pptx">pptx</a>), II (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Liangjian%20Wen%20%28II%29.pptx">pptx</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Junting Huang</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Introduction to dark matter (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Junting%20Huang_v0.pptx">v0 pptx</a>, <a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Junting%20Huang_v1.pptx">v1 pptx</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Andrey Sheshukov</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Simulation Software I-II</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Emil T. Akhmedov</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Gravity, Black Holes and all that I-II</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Sergey Troitsky</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Stars and new physics I-II</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Grigory Safronov</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">UHE Neutrino Telescopes I-II</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Dmitry Bylinkin</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Special evening lecture / discussion</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Dmitry Karlovets</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Vortex states</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Maxim Barkov</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">How to make jets fast, powerful and variable</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Elena Nokhrina</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Magnetic fields in AGN jets</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Evgeny Derishev</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Radiation and particle acceleration processes in relativistic outflows I-II</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name">Students</h4><ul class="baikal-talk-list"><li><a class="baikal-talk-title" href="baikal-school-2026-projects.html">Projects</a></li><li><span class="baikal-talk-title baikal-talk-title-muted">Poster session</span></li></ul></div>
+                </div>
               </div>
             </div>
           </details>
