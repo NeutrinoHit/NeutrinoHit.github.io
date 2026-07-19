@@ -699,7 +699,7 @@
 
 .baikal-school-poster a {
   display: inline-block;
-  max-width: min(100%, 22rem);
+  max-width: min(100%, 32rem);
   padding: 0.45rem;
   border: 1px solid rgba(43, 67, 91, 0.17);
   border-radius: 8px;
@@ -714,7 +714,7 @@
 
 .baikal-school-poster img {
   display: block;
-  width: 21rem;
+  width: 31rem;
   max-width: 100%;
   height: auto;
   border: 1px solid rgba(43, 67, 91, 0.16);
@@ -905,6 +905,37 @@
 .baikal-talk-title:hover {
   color: #0f3e50;
   text-decoration-color: currentColor;
+}
+
+.baikal-student-materials {
+  gap: 0;
+}
+
+.baikal-student-materials li {
+  display: block;
+  padding: 0.42rem 0;
+  border-top: 1px solid rgba(43, 67, 91, 0.08);
+}
+
+.baikal-student-materials li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.baikal-student-materials li:last-child {
+  padding-bottom: 0;
+}
+
+.baikal-student-meta {
+  margin: 0.18rem 0 0;
+  color: #5d6b78;
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.baikal-student-meta strong {
+  color: #344654;
+  font-weight: 720;
 }
 
 @media (max-width: 760px) {
