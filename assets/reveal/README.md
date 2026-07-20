@@ -10,8 +10,8 @@ copies the common Reveal files into each project-level `shared/reveal/`
 directory and copies the common Reveal SCSS into project-level `shared/styles/`
 directories where that style is used.
 
-After editing the footer script, logo, shared component CSS, or shared Reveal
-SCSS, run from `neutrinohit-map`:
+After editing the footer script, timed captions script, logo, shared component
+CSS, or shared Reveal SCSS, run from `neutrinohit-map`:
 
 ```bash
 python scripts/sync_reveal_assets.py
@@ -111,6 +111,12 @@ format:
 The file also contains shared RevealJS slide utilities. Despite the historical
 filename, treat it as the common Reveal components layer for now.
 
+Timed video captions use the shared script:
+
+```text
+assets/reveal/neutrinohit-timed-captions.js
+```
+
 For quizzes, the reusable classes are `.quiz-slide`, `.quiz-prompt`,
 `.quiz-options`, `.quiz-option`, `.quiz-option.correct`, `.quiz-option.wrong`,
 and `.quiz-note`. Lecture-specific colors and sizes can be overridden through
@@ -156,6 +162,8 @@ For media, prefer the shared classes before adding lecture-specific CSS:
   figure/video slide.
 - `.full-slide-video-section` and `.full-slide-video` for a full-frame video
   slide.
+- `.timed-video`, `.timed-video-caption`, `.timed-video-overlay`, and
+  `.timed-video-cues` for video captions synchronized to playback.
 
 Use CSS variables such as `--media-max-height`, `--media-width`,
 `--media-bg`, `--media-radius`, `--media-shadow`, and
@@ -174,6 +182,26 @@ Example:
 Source or short caption
 :::
 :::
+:::
+```
+
+For timed captions, include the shared script and write cues as hidden list
+items:
+
+```markdown
+::: {.timed-video .has-overlay data-timed-video=""}
+<video class="slide-video media-width-full media-height-xl" data-autoplay loop muted playsinline controls>
+  <source src="assets/demo.mp4" type="video/mp4">
+</video>
+
+::: {.timed-video-caption data-caption-display="" aria-live="polite"}
+<span data-caption-text></span>
+:::
+
+<ol class="timed-video-cues" data-caption-cues aria-hidden="true" hidden>
+  <li data-start="0" data-end="2">First caption.</li>
+  <li data-start="2" data-end="5">Second caption.</li>
+</ol>
 :::
 ```
 

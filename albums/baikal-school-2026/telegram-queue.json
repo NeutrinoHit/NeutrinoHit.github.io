@@ -1,0 +1,257 @@
+{
+  "album": "baikal-school-2026",
+  "generatedAt": "2026-07-20T02:25:46.094694+00:00",
+  "batches": [
+    {
+      "batch": 1,
+      "totalBatches": 5,
+      "method": "sendMediaGroup",
+      "caption": "Байкальская школа по физике элементарных частиц и астрофизике 2026 года / Baikal Summer School on Physics of Elementary Particles and Astrophysics 2026\n\n2026-07-20 · Большие Коты, Байкал / Bolshie Koty, Baikal\n\nФото и видео Байкальской школы по физике элементарных частиц и астрофизике 2026 года.\n\nPhotos and videos from the 2026 Baikal Summer School on Physics of Elementary Particles and Astrophysics.\n\nЧасть 1/5\n\nhttps://neutrinohit.github.io/albums/baikal-school-2026/",
+      "media": [
+        {
+          "type": "photo",
+          "file": "photos/01-posters.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/02-skriper.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/03-pesnya-1.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/04-gorbunov.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/05-group-1.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/06-zaryadka.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/07-dsc6316.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/08-obshee-1.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/09-pohod-1.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/10-teach-in.jpg"
+        }
+      ],
+      "photos": [
+        "photos/01-posters.jpg",
+        "photos/02-skriper.jpg",
+        "photos/03-pesnya-1.jpg",
+        "photos/04-gorbunov.jpg",
+        "photos/05-group-1.jpg",
+        "photos/06-zaryadka.jpg",
+        "photos/07-dsc6316.jpg",
+        "photos/08-obshee-1.jpg",
+        "photos/09-pohod-1.jpg",
+        "photos/10-teach-in.jpg"
+      ]
+    },
+    {
+      "batch": 2,
+      "totalBatches": 5,
+      "method": "sendMediaGroup",
+      "caption": "Байкальская школа по физике элементарных частиц и астрофизике 2026 года / Baikal Summer School on Physics of Elementary Particles and Astrophysics 2026\n\n2026-07-20 · Большие Коты, Байкал / Bolshie Koty, Baikal\n\nЧасть 2/5\n\nhttps://neutrinohit.github.io/albums/baikal-school-2026/",
+      "media": [
+        {
+          "type": "photo",
+          "file": "photos/11-kupanie-2.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/12-pohod-2.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/13-dsc8235.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/14-nagrady-1.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/15-dima-emil.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/16-kupanie-1.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/17-korabl.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/18-group-2.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/19-nagrady-2.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/20-lecture-3.jpg"
+        }
+      ],
+      "photos": [
+        "photos/11-kupanie-2.jpg",
+        "photos/12-pohod-2.jpg",
+        "photos/13-dsc8235.jpg",
+        "photos/14-nagrady-1.jpg",
+        "photos/15-dima-emil.jpg",
+        "photos/16-kupanie-1.jpg",
+        "photos/17-korabl.jpg",
+        "photos/18-group-2.jpg",
+        "photos/19-nagrady-2.jpg",
+        "photos/20-lecture-3.jpg"
+      ]
+    },
+    {
+      "batch": 3,
+      "totalBatches": 5,
+      "method": "sendMediaGroup",
+      "caption": "Байкальская школа по физике элементарных частиц и астрофизике 2026 года / Baikal Summer School on Physics of Elementary Particles and Astrophysics 2026\n\n2026-07-20 · Большие Коты, Байкал / Bolshie Koty, Baikal\n\nЧасть 3/5\n\nhttps://neutrinohit.github.io/albums/baikal-school-2026/",
+      "media": [
+        {
+          "type": "photo",
+          "file": "photos/21-devushki.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/22-chinese.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/23-nagrady-3.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/24-niga.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/25-teach-in-2.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/26-obshee-2.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/27-naumov.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/28-dsc6397.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/29-pesnya-2.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/30-zike.jpg"
+        }
+      ],
+      "photos": [
+        "photos/21-devushki.jpg",
+        "photos/22-chinese.jpg",
+        "photos/23-nagrady-3.jpg",
+        "photos/24-niga.jpg",
+        "photos/25-teach-in-2.jpg",
+        "photos/26-obshee-2.jpg",
+        "photos/27-naumov.jpg",
+        "photos/28-dsc6397.jpg",
+        "photos/29-pesnya-2.jpg",
+        "photos/30-zike.jpg"
+      ]
+    },
+    {
+      "batch": 4,
+      "totalBatches": 5,
+      "method": "sendMediaGroup",
+      "caption": "Байкальская школа по физике элементарных частиц и астрофизике 2026 года / Baikal Summer School on Physics of Elementary Particles and Astrophysics 2026\n\n2026-07-20 · Большие Коты, Байкал / Bolshie Koty, Baikal\n\nЧасть 4/5\n\nhttps://neutrinohit.github.io/albums/baikal-school-2026/",
+      "media": [
+        {
+          "type": "photo",
+          "file": "photos/31-priezd.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/32-lecture-2.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/33-lecture-1.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/34-stolovaya.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/35-big-cat-front.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/36-big-cat-back.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/37-small-cat-front.jpg"
+        },
+        {
+          "type": "photo",
+          "file": "photos/38-small-cat-back.jpg"
+        },
+        {
+          "type": "video",
+          "file": "videos/35-vid-20260717-200945.mp4"
+        },
+        {
+          "type": "video",
+          "file": "videos/36-vid-20260715-172132.mp4"
+        }
+      ],
+      "photos": [
+        "photos/31-priezd.jpg",
+        "photos/32-lecture-2.jpg",
+        "photos/33-lecture-1.jpg",
+        "photos/34-stolovaya.jpg",
+        "photos/35-big-cat-front.jpg",
+        "photos/36-big-cat-back.jpg",
+        "photos/37-small-cat-front.jpg",
+        "photos/38-small-cat-back.jpg"
+      ]
+    },
+    {
+      "batch": 5,
+      "totalBatches": 5,
+      "method": "sendVideo",
+      "caption": "Байкальская школа по физике элементарных частиц и астрофизике 2026 года / Baikal Summer School on Physics of Elementary Particles and Astrophysics 2026\n\n2026-07-20 · Большие Коты, Байкал / Bolshie Koty, Baikal\n\nЧасть 5/5\n\nhttps://neutrinohit.github.io/albums/baikal-school-2026/",
+      "media": [
+        {
+          "type": "video",
+          "file": "videos/37-vid-20260717-085018.mp4"
+        }
+      ],
+      "photos": []
+    }
+  ]
+}

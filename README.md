@@ -23,7 +23,7 @@ quarto preview
 
 - `talks/_site` -> `_site/talks`;
 - `qft-lectures/_site` -> `_site/qft-lectures`;
-- `sciencepop/_site` -> `_site/sciencepop`;
+- `sciencepop` + overlay `sciencepop/_site` -> `_site/sciencepop`;
 - `neutrinophysics/_site` -> `_site/neutrinophysics`;
 - `particlephysics/_site` -> `_site/particlephysics`;
 - `stat-course/pages` -> `_site/statistical-analysis-course`.
@@ -41,6 +41,18 @@ quarto preview
 ```bash
 NEUTRINOHIT_SYNC_PROJECT_SITES=0 quarto preview
 ```
+
+## Фотоальбомы
+
+Перед публикацией альбомов сжимать фото и обновлять превью:
+
+```bash
+python scripts/optimize_album_media.py
+```
+
+Скрипт пересобирает `albums/*/photos` как web-JPEG с длинной стороной до
+2560 px, создает `albums/*/previews` до 1280 px и обновляет `album.json` и
+`index.qmd`. Видео скрипт не пережимает.
 
 ## QR-коды с логотипом
 
@@ -397,11 +409,13 @@ quarto preview photo-studio.qmd --port 4201 --no-browser
 ```
 
 2. Открыть `http://localhost:4201/`.
-3. Выбрать фотографии, заполнить метаданные, текст поста, порядок, подписи и alt-тексты.
+3. Выбрать фотографии и видео, заполнить метаданные, текст поста, порядок, подписи и alt-тексты.
 4. Нажать `Сохранить папку` и выбрать `neutrinohit-map/albums`.
-5. Получить `albums/<slug>/album.json`, `index.qmd`, `telegram-queue.json`, `social-posts.md` и `photos/`.
+5. Получить `albums/<slug>/album.json`, `index.qmd`, `telegram-queue.json`, `social-posts.md`, `photos/`, `videos/` и `previews/`.
 
-Чтобы редактировать существующий альбом, в Studio нажать `Открыть папку` и выбрать папку конкретного альбома, например `neutrinohit-map/albums/10-17-may-2026`. Studio прочитает `album.json` и загрузит фото. После этого `Сохранить папку` обновляет эту же папку.
+Чтобы редактировать существующий альбом, в Studio нажать `Открыть папку` и выбрать папку конкретного альбома, например `neutrinohit-map/albums/10-17-may-2026`. Studio прочитает `album.json` и загрузит медиафайлы. После этого `Сохранить папку` обновляет эту же папку.
+
+Для фотографий Studio создает уменьшенные JPEG-превью в `previews/`. Страница альбома загружает превью, а lightbox открывает оригинал из `photos/`. Видео остаются в `videos/` и публикуются в Telegram как `sendVideo` или как элементы `sendMediaGroup`.
 
 Поле `Текст поста` хранится в `album.json` как `postText`, выводится на странице альбома над галереей и используется как текст Telegram-поста.
 

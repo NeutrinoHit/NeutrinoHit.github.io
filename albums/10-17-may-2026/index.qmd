@@ -1,51 +1,50 @@
 ---
 title: "10-17 мая-2026"
 date: "2026-05-18"
+resources:
+  - photos/**
+  - previews/**
 ---
 
+```{=html}
 <div class="album-post-text">
 <p>С 10 по 17 мая 2026 года у нас в гостях были профессора Wei Wang (SYSU), Jianglai Liu (TDLI) и Yuekun Heng (IHEP).</p>
-
 <p>В Москве они посетили МГУ и ВСМПО. В Дубне Jianglai Liu выступил с семинаром о поиске тёмной материи, а затем мы подробно обсудили возможное сотрудничество в эксперименте PandaX. Также коллеги побывали в РХЛ, «Зелёной Лабе» и на НИКЕ.</p>
-
 <p>В Санкт-Петербурге гости посетили научные лаборатории ИТМО и обсудили возможные направления сотрудничества с университетом.</p>
-
 <p>Большое спасибо Александру Чепурнову и его коллегам, Евгению Якушеву, Алексею Гуськову, Игорю Белолаптикову, Сергею Розову, Баиру Шайбонову, Николаю Анфимову, Елене Дубовик, Екатерине Морозовой, Наталье Сергеевой, Дмитрию Карловцу и их коллегам за огромную помощь в организации этого визита.</p>
-
 <p>Кажется, коллеги уехали с очень сильными впечатлениями от увиденного и услышанного. Надеюсь, что этот визит станет началом серьёзного и взаимовыгодного сотрудничества.</p>
 </div>
 
 <div class="published-album">
 <figure class="published-photo">
-<img src="photos/01-image-20260515123123-425-177.jpg" alt="10-17 мая-2026, фото 1" loading="lazy">
-<figcaption>Лекция &quot;Зачем нужны нейтринные телескопы?&quot;. Астрофест 2026</figcaption>
+<img src="previews/01-image-20260515123123-425-177.jpg" data-full="photos/01-image-20260515123123-425-177.jpg" alt="10-17 мая-2026, фото 1" loading="lazy">
+<figcaption>Лекция &quot;Зачем нужны нейтринные телескопы?&quot;. Астрофест 2026</figcaption></figure>
+<figure class="published-photo">
+<img src="previews/02-image-20260515123220-426-177.jpg" data-full="photos/02-image-20260515123220-426-177.jpg" alt="10-17 мая-2026, фото 3" loading="lazy">
+<figcaption>Лекция &quot;Зачем нужны нейтринные телескопы?&quot;. Астрофест 2026</figcaption></figure>
+<figure class="published-photo">
+<img src="previews/03-img-5737.jpg" data-full="photos/03-img-5737.jpeg" alt="10-17 мая-2026, фото 3" loading="lazy">
 </figure>
 <figure class="published-photo">
-<img src="photos/02-image-20260515123220-426-177.jpg" alt="10-17 мая-2026, фото 3" loading="lazy">
-<figcaption>Лекция &quot;Зачем нужны нейтринные телескопы?&quot;. Астрофест 2026</figcaption>
+<img src="previews/04-img-5729.jpg" data-full="photos/04-img-5729.jpeg" alt="10-17 мая-2026, фото 4" loading="lazy">
 </figure>
 <figure class="published-photo">
-<img src="photos/03-img-5737.jpeg" alt="10-17 мая-2026, фото 3" loading="lazy">
+<img src="previews/05-img-5726.jpg" data-full="photos/05-img-5726.jpeg" alt="10-17 мая-2026, фото 5" loading="lazy">
 </figure>
 <figure class="published-photo">
-<img src="photos/04-img-5729.jpeg" alt="10-17 мая-2026, фото 4" loading="lazy">
+<img src="previews/06-img-5712.jpg" data-full="photos/06-img-5712.jpeg" alt="10-17 мая-2026, фото 6" loading="lazy">
 </figure>
 <figure class="published-photo">
-<img src="photos/05-img-5726.jpeg" alt="10-17 мая-2026, фото 5" loading="lazy">
+<img src="previews/07-img-5687.jpg" data-full="photos/07-img-5687.jpeg" alt="10-17 мая-2026, фото 7" loading="lazy">
 </figure>
 <figure class="published-photo">
-<img src="photos/06-img-5712.jpeg" alt="10-17 мая-2026, фото 6" loading="lazy">
+<img src="previews/08-img-5684.jpg" data-full="photos/08-img-5684.jpeg" alt="10-17 мая-2026, фото 8" loading="lazy">
 </figure>
 <figure class="published-photo">
-<img src="photos/07-img-5687.jpeg" alt="10-17 мая-2026, фото 7" loading="lazy">
+<img src="previews/09-img-5707.jpg" data-full="photos/09-img-5707.jpeg" alt="10-17 мая-2026, фото 9" loading="lazy">
 </figure>
 <figure class="published-photo">
-<img src="photos/08-img-5684.jpeg" alt="10-17 мая-2026, фото 8" loading="lazy">
-</figure>
-<figure class="published-photo">
-<img src="photos/09-img-5707.jpeg" alt="10-17 мая-2026, фото 9" loading="lazy">
-</figure>
-<figure class="published-photo">
-<img src="photos/10-img-20260511-102613.jpg" alt="10-17 мая-2026, фото 10" loading="lazy">
+<img src="previews/10-img-20260511-102613.jpg" data-full="photos/10-img-20260511-102613.jpg" alt="10-17 мая-2026, фото 10" loading="lazy">
 </figure>
 </div>
+```

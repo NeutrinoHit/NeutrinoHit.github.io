@@ -1,0 +1,147 @@
+---
+title: "Байкальская школа по физике элементарных частиц и астрофизике 2026 года / Baikal Summer School on Physics of Elementary Particles and Astrophysics 2026"
+date: "2026-07-20"
+resources:
+  - photos/**
+  - previews/**
+  - videos/**
+---
+
+```{=html}
+<div class="album-post-text">
+<p>Фото и видео Байкальской школы по физике элементарных частиц и астрофизике 2026 года.</p>
+<p>Photos and videos from the 2026 Baikal Summer School on Physics of Elementary Particles and Astrophysics.</p>
+</div>
+
+<div class="published-album">
+<figure class="published-photo">
+<img src="previews/01-posters.jpg" data-full="photos/01-posters.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 1" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/02-skriper.jpg" data-full="photos/02-skriper.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 2" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/03-pesnya-1.jpg" data-full="photos/03-pesnya-1.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 3" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/04-gorbunov.jpg" data-full="photos/04-gorbunov.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 4" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/05-group-1.jpg" data-full="photos/05-group-1.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 5" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/06-zaryadka.jpg" data-full="photos/06-zaryadka.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 6" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/07-dsc6316.jpg" data-full="photos/07-dsc6316.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 7" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/08-obshee-1.jpg" data-full="photos/08-obshee-1.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 8" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/09-pohod-1.jpg" data-full="photos/09-pohod-1.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 9" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/10-teach-in.jpg" data-full="photos/10-teach-in.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 10" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/11-kupanie-2.jpg" data-full="photos/11-kupanie-2.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 11" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/12-pohod-2.jpg" data-full="photos/12-pohod-2.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 12" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/13-dsc8235.jpg" data-full="photos/13-dsc8235.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 13" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/14-nagrady-1.jpg" data-full="photos/14-nagrady-1.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 14" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/15-dima-emil.jpg" data-full="photos/15-dima-emil.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 15" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/16-kupanie-1.jpg" data-full="photos/16-kupanie-1.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 16" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/17-korabl.jpg" data-full="photos/17-korabl.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 17" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/18-group-2.jpg" data-full="photos/18-group-2.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 18" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/19-nagrady-2.jpg" data-full="photos/19-nagrady-2.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 19" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/20-lecture-3.jpg" data-full="photos/20-lecture-3.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 20" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/21-devushki.jpg" data-full="photos/21-devushki.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 21" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/22-chinese.jpg" data-full="photos/22-chinese.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 22" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/23-nagrady-3.jpg" data-full="photos/23-nagrady-3.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 23" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/24-niga.jpg" data-full="photos/24-niga.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 24" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/25-teach-in-2.jpg" data-full="photos/25-teach-in-2.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 25" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/26-obshee-2.jpg" data-full="photos/26-obshee-2.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 26" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/27-naumov.jpg" data-full="photos/27-naumov.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 27" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/28-dsc6397.jpg" data-full="photos/28-dsc6397.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 28" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/29-pesnya-2.jpg" data-full="photos/29-pesnya-2.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 29" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/30-zike.jpg" data-full="photos/30-zike.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 30" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/31-priezd.jpg" data-full="photos/31-priezd.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 31" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/32-lecture-2.jpg" data-full="photos/32-lecture-2.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 32" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/33-lecture-1.jpg" data-full="photos/33-lecture-1.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 33" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/34-stolovaya.jpg" data-full="photos/34-stolovaya.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года, фото 34" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/35-big-cat-front.jpg" data-full="photos/35-big-cat-front.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года: Большой Кот, лицевая сторона" loading="lazy">
+<figcaption>Большой Кот, лицевая сторона.</figcaption></figure>
+<figure class="published-photo">
+<img src="previews/36-big-cat-back.jpg" data-full="photos/36-big-cat-back.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года: Большой Кот, оборотная сторона" loading="lazy">
+<figcaption>Большой Кот, оборотная сторона.</figcaption></figure>
+<figure class="published-photo">
+<img src="previews/37-small-cat-front.jpg" data-full="photos/37-small-cat-front.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года: Малый Кот, лицевая сторона" loading="lazy">
+<figcaption>Малый Кот, лицевая сторона.</figcaption></figure>
+<figure class="published-photo">
+<img src="previews/38-small-cat-back.jpg" data-full="photos/38-small-cat-back.jpg" alt="Байкальская школа по физике элементарных частиц и астрофизике 2026 года: Малый Кот, оборотная сторона" loading="lazy">
+<figcaption>Малый Кот, оборотная сторона.</figcaption></figure>
+<figure class="published-video">
+<video controls preload="metadata" playsinline>
+<source src="videos/35-vid-20260717-200945.mp4" type="video/mp4">
+</video>
+</figure>
+<figure class="published-video">
+<video controls preload="metadata" playsinline>
+<source src="videos/36-vid-20260715-172132.mp4" type="video/mp4">
+</video>
+</figure>
+<figure class="published-video">
+<video controls preload="metadata" playsinline>
+<source src="videos/37-vid-20260717-085018.mp4" type="video/mp4">
+</video>
+</figure>
+</div>
+```

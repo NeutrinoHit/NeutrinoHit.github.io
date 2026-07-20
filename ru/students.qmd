@@ -1,0 +1,306 @@
+---
+title: "Студенты и аспиранты"
+lang: ru-RU
+toc: true
+toc-depth: 2
+---
+
+Дипломные работы, магистерские диссертации и кандидатские диссертации, выполненные под моим руководством.
+
+## Работы студентов и аспирантов
+
+```{=html}
+<div class="thesis-stats" data-student-thesis-stats>
+  <span><strong data-thesis-count="total">0</strong> всего работ</span>
+  <span><strong data-thesis-count="phd">0</strong> кандидатские диссертации</span>
+  <span><strong data-thesis-count="master">0</strong> магистерские диссертации</span>
+  <span><strong data-thesis-count="bachelor">0</strong> бакалаврские работы</span>
+  <span><strong data-thesis-count="diploma">0</strong> дипломных работ</span>
+</div>
+
+<div class="thesis-list thesis-list-supervised">
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2000</span>
+      <span class="thesis-author">Кустов Д. В.</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Поляризация Лямбда гиперонов в эксперименте NOMAD.</p>
+      <a class="thesis-link" href="../students/theses/kustov.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2000</span>
+      <span class="thesis-author">Чуканов Артем Владиславович</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Измерение поляризации Λ и Λ̄ гиперонов во взаимодействиях нейтрино и антинейтрино по каналу заряженного тока в эксперименте NOMAD (CERN).</p>
+      <a class="thesis-link" href="../students/theses/chukanov_diplom.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2002</span>
+      <span class="thesis-author">Любушкин Владимир Викторович</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Выделение событий квазиупругого рассеяния в эксперименте NOMAD (CERN).</p>
+      <a class="thesis-link" href="../students/theses/lyubushkin.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2004</span>
+      <span class="thesis-author">Самойлов Олег Борисович</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Поиск странного экзотического барионного резонанса θ<sup>+</sup>(1530) в эксперименте NOMAD (CERN).</p>
+      <a class="thesis-link" href="../students/theses/samoylov_diploma.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="phd">
+    <summary>
+      <span class="thesis-year">2006</span>
+      <span class="thesis-author">Чуканов Артем Владиславович</span>
+      <span class="thesis-type">Кандидатская диссертация</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Изучение эффектов фрагментации в процессах нейтринорождения странных адронов в эксперименте NOMAD (CERN).</p>
+      <a class="thesis-link" href="../students/theses/chukanov_phd_thesis.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2007</span>
+      <span class="thesis-author">Шешуков Андрей Сергеевич</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Моделирование и реконструкция в фотоэмульсионном детекторе в эксперименте OPERA.</p>
+      <a class="thesis-link" href="../students/theses/sheshukov.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2007</span>
+      <span class="thesis-author">Гончар Максим Олегович</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Исследование триггерной системы на основе пластического сцинтиллятора для эксперимента Daya Bay.</p>
+      <a class="thesis-link" href="../students/theses/gonchar_diploma.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2007</span>
+      <span class="thesis-author">Биктемерова Светлана Владимировна</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Моделирование и реконструкция в эксперименте «НУКЛОН».</p>
+      <a class="thesis-link" href="../students/theses/biktemerova_diplom.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2008</span>
+      <span class="thesis-author">Ли Вячеслав Александрович</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Нейтринные осцилляции в рамках квантовой теории поля.</p>
+      <a class="thesis-link" href="../students/theses/lee.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2010</span>
+      <span class="thesis-author">Потапова Ирина Викторовна</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Осцилляции нейтрино в веществе в рамках квантовой теории поля.</p>
+      <a class="thesis-link" href="../students/theses/potapova.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2011</span>
+      <span class="thesis-author">Батозская Варвара Сергеевна</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Космологические нейтрино.</p>
+      <a class="thesis-link" href="../students/theses/batozskaya.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="phd">
+    <summary>
+      <span class="thesis-year">2011</span>
+      <span class="thesis-author">Самойлов Олег Борисович</span>
+      <span class="thesis-type">Кандидатская диссертация</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Сечение рождения очарованного кварка и оценка существования пентакварка Θ<sup>+</sup> в нейтринных взаимодействиях в эксперименте NOMAD.</p>
+      <a class="thesis-link" href="../students/theses/samoylov_phd_thesis.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2014</span>
+      <span class="thesis-author">Тайченачев Дмитрий Владимирович</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Определение иерархии масс нейтрино в экспериментах с реакторными и ускорительными нейтрино.</p>
+      <a class="thesis-link" href="../students/theses/tayachenachev.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2015</span>
+      <span class="thesis-author">Тресков Константин Андреевич</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Нейтринные осцилляции в веществе и возможность исследования декогеренции в солнечных экспериментах.</p>
+      <a class="thesis-link" href="../students/theses/treskov.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="phd">
+    <summary>
+      <span class="thesis-year">2017</span>
+      <span class="thesis-author">Гончар Максим Олегович</span>
+      <span class="thesis-type">Кандидатская диссертация</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Измерение угла смешивания θ<sub>13</sub> и расщепления масс нейтрино Δm<sup>2</sup><sub>32</sub> в эксперименте Daya Bay.</p>
+      <a class="thesis-link" href="../students/theses/gonchar_phd_thesis.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="bachelor">
+    <summary>
+      <span class="thesis-year">2022</span>
+      <span class="thesis-author">Завьялов Сергей Игоревич</span>
+      <span class="thesis-type">Бакалаврская работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Моделирование потоков атмосферных нейтрино в эксперименте Baikal-GVD.</p>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="master">
+    <summary>
+      <span class="thesis-year">2022</span>
+      <span class="thesis-author">Диденко Алиса Романовна</span>
+      <span class="thesis-type">Магистерская диссертация</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Применение машинного обучения к анализу процессов рождения бозона Хиггса в ассоциации с топ-кварком.</p>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="bachelor">
+    <summary>
+      <span class="thesis-year">2023</span>
+      <span class="thesis-author">Ленский Петр Игоревич</span>
+      <span class="thesis-type">Бакалаврская работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Определение времени и координат взаимодействий частиц с помощью оптической системы в ближнем жидкоаргоновом детекторе эксперимента DUNE.</p>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="diploma">
+    <summary>
+      <span class="thesis-year">2024</span>
+      <span class="thesis-author">Жаворонкова В. И.</span>
+      <span class="thesis-type">Дипломная работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Применение методов машинного обучения для оценки потоков черенковского излучения в эксперименте Baikal-GVD.</p>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="master">
+    <summary>
+      <span class="thesis-year">2024</span>
+      <span class="thesis-author">Завьялов Сергей Игоревич</span>
+      <span class="thesis-type">Магистерская диссертация</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Разработка программного пакета NTSim для моделирования нейтринных телескопов и оценка эффективности регистрации нейтринных событий в эксперименте Baikal-GVD.</p>
+      <a class="thesis-link" href="../students/theses/zavyalov_diploma.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="master">
+    <summary>
+      <span class="thesis-year">2025</span>
+      <span class="thesis-author">Ленский Петр Игоревич</span>
+      <span class="thesis-type">Магистерская диссертация</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Определение характеристик оптической системы ближнего жидкоаргонового детектора эксперимента DUNE.</p>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="coursework">
+    <summary>
+      <span class="thesis-year">2025</span>
+      <span class="thesis-author">Ковалев Максим Борисович</span>
+      <span class="thesis-type">Курсовая работа</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Нахождение аналогов нейтринных осцилляций в веществе в классической физике.</p>
+      <a class="thesis-link" href="../students/theses/kovalev.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="phd">
+    <summary>
+      <span class="thesis-year">2026</span>
+      <span class="thesis-author">Аллахвердян Владимир Артурович</span>
+      <span class="thesis-type">Кандидатская диссертация</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Решение задач переноса электромагнитного излучения и нейтрино при моделировании отклика нейтринного телескопа.</p>
+      <a class="thesis-link" href="../students/theses/allaxwerdian.pdf">PDF</a>
+    </div>
+  </details>
+
+  <details class="thesis-row" data-thesis-category="master">
+    <summary>
+      <span class="thesis-year">2026</span>
+      <span class="thesis-author">Бородин Никита Святославович</span>
+      <span class="thesis-type">Магистерская диссертация</span>
+    </summary>
+    <div class="thesis-body">
+      <p>Спин-орбитальные эффекты в распадах (псевдо)скалярных частиц и дифракция закрученных квантовых состояний.</p>
+      <a class="thesis-link" href="../students/theses/Borodin_dissertation.pdf">PDF</a>
+    </div>
+  </details>
+</div>
+<script src="../assets/students-stats.js"></script>
+```

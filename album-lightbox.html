@@ -37,7 +37,7 @@
   function openLightbox(index) {
     current = index;
     var photo = photos[current];
-    image.src = photo.currentSrc || photo.src;
+    image.src = photo.dataset.full || photo.currentSrc || photo.src;
     image.alt = photo.alt || "";
     caption.textContent = photoCaption(photo);
     caption.hidden = !caption.textContent;

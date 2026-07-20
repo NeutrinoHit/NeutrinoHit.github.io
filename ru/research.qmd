@@ -27,7 +27,7 @@ toc: false
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
           <a href="https://naumov.jinr.ru/">Профиль JINR</a>
-          <a href="../theses.html">Мои диссертации</a>
+          <a href="theses.html">Мои диссертации</a>
         </div>
       </div>
     </details>

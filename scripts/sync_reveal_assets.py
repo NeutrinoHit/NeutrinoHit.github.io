@@ -23,6 +23,7 @@ STYLE_TARGETS = [
 
 REVEAL_FILES = [
     "neutrinohit-reveal-footer.js",
+    "neutrinohit-timed-captions.js",
     "neutrinohit-reveal-quiz.css",
     "dvnlogo.png",
 ]

@@ -24,7 +24,7 @@ toc: false
       <div class="lecture-course-body">
         <p>The animation gallery collects lightweight web versions of the videos; most captions are visual or technical and can be used directly in lectures.</p>
         <div class="lecture-course-actions animation-actions">
-          <a class="lecture-action-primary" href="../animations.html">Open gallery</a>
+          <a class="lecture-action-primary" href="../ru/animations.html">Open full gallery</a>
           <a href="https://github.com/NeutrinoHit/dvnanima">Source code</a>
         </div>
       </div>
@@ -38,7 +38,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Animations cover flavor oscillations, neutrino mass hierarchy, JUNO visualizations, coherent processes, diffraction, wave packets, and field dynamics.</p>
         <div class="lecture-course-actions animation-actions">
-          <a href="../animations.html">Browse animations</a>
+          <a href="../ru/animations.html">Browse animations</a>
           <a href="software.html">Code projects</a>
         </div>
       </div>

@@ -10,10 +10,11 @@ project:
     - "students/theses/**"
     - "theses/**"
   render:
-    - "*.qmd"
+    - "index.qmd"
     - "ru/*.qmd"
     - "en/*.qmd"
     - "albums/**/*.qmd"
+    - "!obsolete/**/*.qmd"
     - "!photo-studio.qmd"
 
 website:
@@ -22,7 +23,7 @@ website:
   repo-url: "https://github.com/NeutrinoHit/NeutrinoHit.github.io"
   navbar:
     left:
-      - href: index.qmd
+      - href: ru/index.qmd
         text: Главная
       - href: ru/research.qmd
         text: Наука

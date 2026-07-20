@@ -13,18 +13,27 @@ toc: false
   <section class="lecture-course-list" aria-label="Фото и кино">
     <details class="lecture-course photo-course-archive" open>
       <summary>
-        <span class="lecture-course-status">2 альбома</span>
+        <span class="lecture-course-status">3 альбома</span>
         <span class="lecture-course-title">Фотоархив</span>
       </summary>
       <div class="lecture-course-body">
         <p>Фотографии лекций, научных школ, поездок и встреч.</p>
         <div class="lecture-material-list">
           <details class="lecture-material" open>
+            <summary>2026 · Байкальская школа по физике элементарных частиц и астрофизике</summary>
+            <div class="lecture-material-body">
+              <p>38 фото и 3 видео · Большие Коты, Байкал · июль 2026 года.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../albums/baikal-school-2026/index.html">Открыть альбом</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
             <summary>2009 · В. А. Рубаков. Байкальская школа по физике элементарных частиц и астрофизике</summary>
             <div class="lecture-material-body">
               <p>20 фотографий · Байкал · 22–29 июля 2009 года.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../albums/v-a-rubakov-baikal-school-2009/">Открыть альбом</a>
+                <a class="lecture-action-primary" href="../albums/v-a-rubakov-baikal-school-2009/index.html">Открыть альбом</a>
               </div>
             </div>
           </details>
@@ -33,7 +42,7 @@ toc: false
             <div class="lecture-material-body">
               <p>Визит профессоров Wei Wang, Jianglai Liu и Yuekun Heng в Москву, Дубну и Санкт-Петербург.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../albums/10-17-may-2026/">Открыть альбом</a>
+                <a class="lecture-action-primary" href="../albums/10-17-may-2026/index.html">Открыть альбом</a>
               </div>
             </div>
           </details>
