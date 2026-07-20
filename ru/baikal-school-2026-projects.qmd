@@ -7,4 +7,6 @@ toc: false
 
 Сами задания оставлены на английском языке, чтобы их можно было использовать в международных студенческих командах.
 
+[PDF-версия заданий](../assets/schools/baikal-2026/baikal-school-2026-projects.pdf)
+
 {{< include ../_includes/baikal-school-2026-projects.qmd >}}
