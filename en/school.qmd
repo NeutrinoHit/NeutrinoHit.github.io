@@ -128,7 +128,7 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course school-course-baikal">
+    <details class="lecture-course school-course-baikal" id="baikal-school">
       <summary>
         <span class="lecture-course-status">2 events, program</span>
         <span class="lecture-course-title">Baikal Summer School on Physics of Elementary Particles and Astrophysics</span>
@@ -136,7 +136,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Baikal summer school on particle physics and astrophysics.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details class="lecture-material" id="baikal-school-2026" open>
             <summary>2026</summary>
             <div class="lecture-material-body">
 
