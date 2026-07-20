@@ -1723,6 +1723,10 @@
   background: #e9eef2;
 }
 
+.photo-thumb.is-video {
+  background: #11161a;
+}
+
 .photo-meta {
   min-width: 0;
 }
@@ -1858,7 +1862,8 @@
   margin: 0 0 0.8rem;
 }
 
-.published-photo {
+.published-photo,
+.published-video {
   margin: 0;
   border: 1px solid #d7dde2;
   border-radius: 8px;
@@ -1866,16 +1871,25 @@
   background: #ffffff;
 }
 
-.published-photo img {
+.published-photo img,
+.published-video video {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   background: #e9eef2;
+}
+
+.published-photo img {
   cursor: zoom-in;
 }
 
-.published-photo figcaption {
+.published-video video {
+  background: #11161a;
+}
+
+.published-photo figcaption,
+.published-video figcaption {
   padding: 0.65rem 0.75rem;
   color: #3f4d57;
   font-size: 0.92rem;

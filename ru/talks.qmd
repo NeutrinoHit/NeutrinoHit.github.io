@@ -1,0 +1,47 @@
+---
+title: "Доклады"
+lang: ru-RU
+---
+
+```{=html}
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Материалы докладов на конференциях и семинарах. Для опубликованных
+    выступлений доступны слайды в браузере и версия в PDF.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Каталог докладов">
+    <details class="lecture-course lecture-course-talk-conferences" open>
+      <summary>
+        <span class="lecture-course-status">1 доклад опубликован</span>
+        <span class="lecture-course-title">Конференции</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Доклады на научных конференциях и рабочих совещаниях.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>2-5 июня 2026 · Статус и перспективы физики нейтрино</summary>
+            <div class="lecture-material-body">
+              <p>Российские проекты в глобальном контексте.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../talks/protvino-2026/dnaumov.html">Открыть слайды</a>
+                <a href="https://indico.ihep.su/e/PPIHE2026">Страница конференции</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course lecture-course-talk-seminars">
+      <summary>
+        <span class="lecture-course-status">Раздел будет пополняться</span>
+        <span class="lecture-course-title">Семинары</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Материалы семинаров будут добавляться по мере публикации.</p>
+      </div>
+    </details>
+  </section>
+</div>
+```

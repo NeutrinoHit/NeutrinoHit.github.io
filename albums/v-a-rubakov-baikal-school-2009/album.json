@@ -1,6 +1,6 @@
 {
-  "schema": "neutrinohit.photo-album.v1",
-  "generatedAt": "2026-06-14T15:22:13Z",
+  "schema": "neutrinohit.photo-album.v2",
+  "generatedAt": "2026-07-20T06:50:33.363054+00:00",
   "title": "В. А. Рубаков. Байкальская школа по физике элементарных частиц и астрофизике, 2009",
   "slug": "v-a-rubakov-baikal-school-2009",
   "date": "2009-07-22",
@@ -16,8 +16,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 1",
       "role": "cover",
-      "bytes": 1911477,
-      "modified": "2009-07-22T11:31:17"
+      "bytes": 570052,
+      "modified": "2026-07-20T06:50:29.120710+00:00",
+      "type": "photo",
+      "preview": "previews/01-sg1s5673.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/02-dsc01235.jpg",
@@ -25,8 +28,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 2",
       "role": "photo",
-      "bytes": 2771076,
-      "modified": "2009-07-22T18:10:09"
+      "bytes": 780408,
+      "modified": "2026-07-20T06:50:29.332075+00:00",
+      "type": "photo",
+      "preview": "previews/02-dsc01235.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/03-dsc01236.jpg",
@@ -34,8 +40,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 3",
       "role": "photo",
-      "bytes": 2968825,
-      "modified": "2009-07-22T18:10:24"
+      "bytes": 1011714,
+      "modified": "2026-07-20T06:50:29.561387+00:00",
+      "type": "photo",
+      "preview": "previews/03-dsc01236.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/04-p1000057.jpg",
@@ -43,8 +52,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 4",
       "role": "photo",
-      "bytes": 3907558,
-      "modified": "2009-07-24T18:00:17"
+      "bytes": 813169,
+      "modified": "2026-07-20T06:50:29.831376+00:00",
+      "type": "photo",
+      "preview": "previews/04-p1000057.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/05-p1000143.jpg",
@@ -52,8 +64,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 5",
       "role": "photo",
-      "bytes": 1803823,
-      "modified": "2009-07-26T19:26:57"
+      "bytes": 296799,
+      "modified": "2026-07-20T06:50:30.040029+00:00",
+      "type": "photo",
+      "preview": "previews/05-p1000143.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/06-p1000145.jpg",
@@ -61,8 +76,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 6",
       "role": "photo",
-      "bytes": 2394308,
-      "modified": "2009-07-26T19:27:29"
+      "bytes": 394581,
+      "modified": "2026-07-20T06:50:30.262707+00:00",
+      "type": "photo",
+      "preview": "previews/06-p1000145.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/07-dsc01527.jpg",
@@ -70,8 +88,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 7",
       "role": "photo",
-      "bytes": 2448599,
-      "modified": "2009-07-27T14:41:35"
+      "bytes": 626626,
+      "modified": "2026-07-20T06:50:30.466924+00:00",
+      "type": "photo",
+      "preview": "previews/07-dsc01527.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/08-dsc01529.jpg",
@@ -79,8 +100,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 8",
       "role": "photo",
-      "bytes": 2398534,
-      "modified": "2009-07-27T14:41:56"
+      "bytes": 616915,
+      "modified": "2026-07-20T06:50:30.673140+00:00",
+      "type": "photo",
+      "preview": "previews/08-dsc01529.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/09-dsc01531.jpg",
@@ -88,8 +112,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 9",
       "role": "photo",
-      "bytes": 2523394,
-      "modified": "2009-07-27T14:43:10"
+      "bytes": 525056,
+      "modified": "2026-07-20T06:50:30.880551+00:00",
+      "type": "photo",
+      "preview": "previews/09-dsc01531.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/10-dsc01547.jpg",
@@ -97,8 +124,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 10",
       "role": "photo",
-      "bytes": 2940078,
-      "modified": "2009-07-27T14:47:50"
+      "bytes": 966422,
+      "modified": "2026-07-20T06:50:31.103275+00:00",
+      "type": "photo",
+      "preview": "previews/10-dsc01547.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/11-dsc01552.jpg",
@@ -106,8 +136,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 11",
       "role": "photo",
-      "bytes": 2381125,
-      "modified": "2009-07-27T14:49:47"
+      "bytes": 474617,
+      "modified": "2026-07-20T06:50:31.317565+00:00",
+      "type": "photo",
+      "preview": "previews/11-dsc01552.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/12-dsc01560.jpg",
@@ -115,8 +148,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 12",
       "role": "photo",
-      "bytes": 2919615,
-      "modified": "2009-07-27T14:51:25"
+      "bytes": 788033,
+      "modified": "2026-07-20T06:50:31.527504+00:00",
+      "type": "photo",
+      "preview": "previews/12-dsc01560.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/13-dsc01561.jpg",
@@ -124,8 +160,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 13",
       "role": "photo",
-      "bytes": 2480527,
-      "modified": "2009-07-27T14:51:37"
+      "bytes": 499589,
+      "modified": "2026-07-20T06:50:31.745250+00:00",
+      "type": "photo",
+      "preview": "previews/13-dsc01561.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/14-dsc01580.jpg",
@@ -133,8 +172,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 14",
       "role": "photo",
-      "bytes": 2910083,
-      "modified": "2009-07-27T15:48:15"
+      "bytes": 966981,
+      "modified": "2026-07-20T06:50:31.959888+00:00",
+      "type": "photo",
+      "preview": "previews/14-dsc01580.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/15-dsc01581.jpg",
@@ -142,8 +184,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 15",
       "role": "photo",
-      "bytes": 2714076,
-      "modified": "2009-07-27T15:48:30"
+      "bytes": 1312859,
+      "modified": "2026-07-20T06:50:32.202653+00:00",
+      "type": "photo",
+      "preview": "previews/15-dsc01581.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/16-dsc01583.jpg",
@@ -151,8 +196,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 16",
       "role": "photo",
-      "bytes": 2906996,
-      "modified": "2009-07-27T15:48:57"
+      "bytes": 963037,
+      "modified": "2026-07-20T06:50:32.445475+00:00",
+      "type": "photo",
+      "preview": "previews/16-dsc01583.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/17-dsc01613.jpg",
@@ -160,8 +208,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 17",
       "role": "photo",
-      "bytes": 2745178,
-      "modified": "2009-07-27T15:58:36"
+      "bytes": 723759,
+      "modified": "2026-07-20T06:50:32.665566+00:00",
+      "type": "photo",
+      "preview": "previews/17-dsc01613.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/18-sg1s6012.jpg",
@@ -169,8 +220,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 18",
       "role": "photo",
-      "bytes": 2141118,
-      "modified": "2009-07-29T11:25:54"
+      "bytes": 625596,
+      "modified": "2026-07-20T06:50:32.887732+00:00",
+      "type": "photo",
+      "preview": "previews/18-sg1s6012.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/19-sg1s6041.jpg",
@@ -178,8 +232,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 19",
       "role": "photo",
-      "bytes": 1819927,
-      "modified": "2009-07-29T11:50:42"
+      "bytes": 516631,
+      "modified": "2026-07-20T06:50:33.083783+00:00",
+      "type": "photo",
+      "preview": "previews/19-sg1s6041.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/20-090729-07.jpg",
@@ -187,8 +244,11 @@
       "caption": "",
       "alt": "В. А. Рубаков на Байкальской школе, фото 20",
       "role": "photo",
-      "bytes": 2656227,
-      "modified": "2009-07-29T12:36:33"
+      "bytes": 472722,
+      "modified": "2026-07-20T06:50:33.289035+00:00",
+      "type": "photo",
+      "preview": "previews/20-090729-07.jpg",
+      "mimeType": "image/jpeg"
     }
   ]
 }

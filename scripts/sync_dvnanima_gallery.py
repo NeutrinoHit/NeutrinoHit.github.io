@@ -16,7 +16,7 @@ SITE_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CATALOG = SITE_ROOT / "animations.catalog.json"
 DEFAULT_DVNANIMA_ROOT = SITE_ROOT.parent / "dvnanima"
 DEFAULT_ASSET_DIR = SITE_ROOT / "assets" / "animations" / "dvnanima"
-DEFAULT_OUTPUT = SITE_ROOT / "animations.qmd"
+DEFAULT_OUTPUT = SITE_ROOT / "ru" / "animations.qmd"
 
 
 def parse_args() -> argparse.Namespace:

@@ -1,6 +1,6 @@
 {
-  "schema": "neutrinohit.photo-album.v1",
-  "generatedAt": "2026-05-18T17:53:56.915Z",
+  "schema": "neutrinohit.photo-album.v2",
+  "generatedAt": "2026-07-20T06:50:19.739207+00:00",
   "title": "10-17 мая-2026",
   "slug": "10-17-may-2026",
   "date": "2026-05-18",
@@ -16,8 +16,11 @@
       "caption": "Лекция \"Зачем нужны нейтринные телескопы?\". Астрофест 2026",
       "alt": "10-17 мая-2026, фото 1",
       "role": "cover",
-      "bytes": 4605330,
-      "modified": "2026-05-18T06:13:48.259Z"
+      "bytes": 499327,
+      "modified": "2026-07-20T06:50:14.302472+00:00",
+      "type": "photo",
+      "preview": "previews/01-image-20260515123123-425-177.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/02-image-20260515123220-426-177.jpg",
@@ -25,8 +28,11 @@
       "caption": "Лекция \"Зачем нужны нейтринные телескопы?\". Астрофест 2026",
       "alt": "10-17 мая-2026, фото 3",
       "role": "photo",
-      "bytes": 3242100,
-      "modified": "2026-05-16T06:29:05.795Z"
+      "bytes": 435416,
+      "modified": "2026-07-20T06:50:14.498990+00:00",
+      "type": "photo",
+      "preview": "previews/02-image-20260515123220-426-177.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/03-img-5737.jpeg",
@@ -34,8 +40,11 @@
       "caption": "",
       "alt": "10-17 мая-2026, фото 3",
       "role": "photo",
-      "bytes": 4065279,
-      "modified": "2026-05-18T16:48:58.291Z"
+      "bytes": 1124553,
+      "modified": "2026-07-20T06:50:14.819211+00:00",
+      "type": "photo",
+      "preview": "previews/03-img-5737.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/04-img-5729.jpeg",
@@ -43,8 +52,11 @@
       "caption": "",
       "alt": "10-17 мая-2026, фото 4",
       "role": "photo",
-      "bytes": 3541262,
-      "modified": "2026-05-18T16:49:46.936Z"
+      "bytes": 848312,
+      "modified": "2026-07-20T06:50:15.083454+00:00",
+      "type": "photo",
+      "preview": "previews/04-img-5729.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/05-img-5726.jpeg",
@@ -52,8 +64,11 @@
       "caption": "",
       "alt": "10-17 мая-2026, фото 5",
       "role": "photo",
-      "bytes": 3890583,
-      "modified": "2026-05-18T16:49:58.596Z"
+      "bytes": 966368,
+      "modified": "2026-07-20T06:50:15.344857+00:00",
+      "type": "photo",
+      "preview": "previews/05-img-5726.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/06-img-5712.jpeg",
@@ -61,8 +76,11 @@
       "caption": "",
       "alt": "10-17 мая-2026, фото 6",
       "role": "photo",
-      "bytes": 2745433,
-      "modified": "2026-05-18T16:50:18.565Z"
+      "bytes": 757624,
+      "modified": "2026-07-20T06:50:15.647314+00:00",
+      "type": "photo",
+      "preview": "previews/06-img-5712.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/07-img-5687.jpeg",
@@ -70,8 +88,11 @@
       "caption": "",
       "alt": "10-17 мая-2026, фото 7",
       "role": "photo",
-      "bytes": 5263918,
-      "modified": "2026-05-18T16:50:40.182Z"
+      "bytes": 1447961,
+      "modified": "2026-07-20T06:50:15.929378+00:00",
+      "type": "photo",
+      "preview": "previews/07-img-5687.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/08-img-5684.jpeg",
@@ -79,8 +100,11 @@
       "caption": "",
       "alt": "10-17 мая-2026, фото 8",
       "role": "photo",
-      "bytes": 4351746,
-      "modified": "2026-05-18T16:50:59.441Z"
+      "bytes": 1212594,
+      "modified": "2026-07-20T06:50:16.225204+00:00",
+      "type": "photo",
+      "preview": "previews/08-img-5684.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/09-img-5707.jpeg",
@@ -88,8 +112,11 @@
       "caption": "",
       "alt": "10-17 мая-2026, фото 9",
       "role": "photo",
-      "bytes": 2731392,
-      "modified": "2026-05-18T16:51:26.134Z"
+      "bytes": 688479,
+      "modified": "2026-07-20T06:50:16.485684+00:00",
+      "type": "photo",
+      "preview": "previews/09-img-5707.jpg",
+      "mimeType": "image/jpeg"
     },
     {
       "file": "photos/10-img-20260511-102613.jpg",
@@ -97,8 +124,11 @@
       "caption": "",
       "alt": "10-17 мая-2026, фото 10",
       "role": "photo",
-      "bytes": 6011761,
-      "modified": "2026-05-18T16:52:46.000Z"
+      "bytes": 1107147,
+      "modified": "2026-07-20T06:50:16.777651+00:00",
+      "type": "photo",
+      "preview": "previews/10-img-20260511-102613.jpg",
+      "mimeType": "image/jpeg"
     }
   ]
 }

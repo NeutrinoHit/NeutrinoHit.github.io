@@ -312,3 +312,92 @@
   height: 100%;
   object-fit: cover;
 }
+
+/* Timed video captions and optional equation overlays. */
+
+.reveal .timed-video {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.reveal .timed-video video.slide-video {
+  margin: 0 auto;
+}
+
+.reveal .timed-video-caption {
+  position: absolute;
+  left: 50%;
+  top: var(--timed-caption-top, 1.1rem);
+  width: var(--timed-caption-width, min(88%, 980px));
+  transform: translate(-50%, -0.35rem);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+  box-sizing: border-box;
+  padding: var(--timed-caption-padding, 0.48rem 0.72rem 0.5rem);
+  border-left: var(--timed-caption-border, 4px solid #ffd166);
+  border-radius: var(--timed-caption-radius, 6px);
+  background: var(--timed-caption-bg, rgba(0, 0, 0, 0.76));
+  color: var(--timed-caption-color, #f6f6f6);
+  font-size: var(--timed-caption-size, 0.92em);
+  font-weight: var(--timed-caption-weight, 600);
+  line-height: var(--timed-caption-line-height, 1.12);
+  text-align: left;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.reveal .timed-video.has-overlay .timed-video-caption,
+.reveal .timed-video.has-equations .timed-video-caption {
+  z-index: 4;
+}
+
+.reveal .timed-video-caption.is-visible {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+
+.reveal .timed-video-overlay {
+  position: absolute;
+  top: var(--timed-overlay-top, 4.1rem);
+  right: var(--timed-overlay-right, 0.25rem);
+  z-index: 3;
+  box-sizing: border-box;
+  width: var(--timed-overlay-width, max-content);
+  max-width: var(--timed-overlay-max-width, 52%);
+  padding: var(--timed-overlay-padding, 0.5rem 0.68rem 0.56rem);
+  border-right: var(--timed-overlay-border, 4px solid #7cc7ff);
+  border-radius: var(--timed-overlay-radius, 6px);
+  background: var(--timed-overlay-bg, rgba(0, 0, 0, 0.78));
+  color: var(--timed-overlay-color, #f6f6f6);
+  font-size: var(--timed-overlay-size, 0.54em);
+  line-height: var(--timed-overlay-line-height, 1.08);
+  text-align: left;
+}
+
+.reveal .timed-video-overlay-title {
+  margin-bottom: 0.14rem;
+  color: var(--timed-overlay-title-color, #ffd166);
+  font-size: var(--timed-overlay-title-size, 1.12em);
+  font-weight: 700;
+}
+
+.reveal .timed-video-overlay-note {
+  margin-top: 0.12rem;
+  color: var(--timed-overlay-note-color, #d9ecff);
+  font-size: var(--timed-overlay-note-size, 0.96em);
+  font-weight: 600;
+}
+
+.reveal .timed-video-overlay mjx-container[display="true"] {
+  margin: 0.16rem 0 !important;
+}
+
+.reveal .timed-video-overlay mjx-container {
+  font-size: 96% !important;
+}
+
+.reveal .timed-video-cues,
+.reveal .timed-video [data-caption-cues] {
+  display: none !important;
+}

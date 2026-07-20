@@ -19,11 +19,11 @@ toc: false
       <div class="lecture-course-body">
         <p>Scientific animations by dvnanima: neutrinos and particles, fields and waves, mathematics, dynamical systems, and visual science stories.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../animations.html">Open gallery</a>
+          <a class="lecture-action-primary" href="animations.html">Open animations page</a>
           <a href="https://github.com/NeutrinoHit/dvnanima">Source code</a>
-          <a href="../animations.html#neutrino-particles">Neutrinos and particles</a>
-          <a href="../animations.html#fields-waves">Fields and waves</a>
-          <a href="../animations.html#math-dynamical-systems">Mathematics</a>
+          <a href="../ru/animations.html#neutrino-particles">Full gallery: neutrinos and particles</a>
+          <a href="../ru/animations.html#fields-waves">Full gallery: fields and waves</a>
+          <a href="../ru/animations.html#math-dynamical-systems">Full gallery: mathematics</a>
         </div>
       </div>
     </details>

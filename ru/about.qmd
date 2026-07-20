@@ -41,9 +41,9 @@ toc: false
           и профессиональные ссылки собраны в связанных разделах сайта.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../theses.html">Мои диссертации</a>
+          <a class="lecture-action-primary" href="theses.html">Мои диссертации</a>
           <a href="research.html">Наука</a>
-          <a href="../talks.html">Доклады</a>
+          <a href="talks.html">Доклады</a>
         </div>
       </div>
     </details>

@@ -10,8 +10,8 @@
   архивы не переносятся внутрь одного монолита.
 - На первом этапе меняются точки входа, навигация и оболочка сайта, а не
   физическое расположение материалов.
-- Старые URL сохраняются. Старые страницы могут уйти из верхнего меню, но не
-  удаляются и не переименовываются без отдельного решения.
+- Старые URL сохранялись на переходном этапе. После переноса каталогов под
+  `ru/` и `en/` старые корневые страницы удалены из исходников.
 - RU и EN версии проектируются как равноправные витрины. Материалы, существующие
   только на русском, в английской версии помечаются как `in Russian`.
 - Общий визуальный язык должен жить в корневом `neutrinohit-map` и подключаться
@@ -32,6 +32,15 @@
   semantic URLs remain as transition pages to the Russian version.
 - Phase 4 prep: public section `People / Люди` renamed to `School / Школа` with old `people.html` URLs kept as redirects.
 - Phase 4: English catalog pages added for books, lectures, software, science communication, visual materials, talks, schools, theses, and supervised works; English section pages now link to these EN pages instead of using root Russian catalogs as the primary path.
+- Phase 4 cleanup: public render is scoped to `index.qmd`, `ru/*.qmd`,
+  `en/*.qmd`, and shared `albums/**/*.qmd`. Legacy root catalog pages,
+  `obsolete/**/*.qmd`, and the empty
+  `neutrino_introduction/neutrino-interactions.qmd` are no longer rendered.
+  Russian catalog pages for animations, talks, theses, and supervised works
+  were moved under `ru/` before root pages were excluded.
+- Phase 4 deletion: legacy root catalog pages, `obsolete/`, and the empty
+  `neutrino_introduction/neutrino-interactions.qmd` were removed after the
+  bilingual entry points covered the public content.
 - Deferred projects for later passes: `QFT-book-ru`, `QFT-book-en`, `dvnanima`,
   `gTracker`.
 
@@ -39,21 +48,13 @@
 
 ### Корневой сайт `neutrinohit-map`
 
-Текущий navbar содержит страницы по типу материала:
+Текущий public render содержит только:
 
 - `index.qmd` -> `/`
-- `books.qmd` -> `/books.html`
-- `lectures.qmd` -> `/lectures.html`
-- `students.qmd` -> `/students.html`
-- `theses.qmd` -> `/theses.html`
-- `schools.qmd` -> `/schools.html`
-- `talks.qmd` -> `/talks.html`
-- `interviews.qmd` -> `/interviews.html`
-- `photos.qmd` -> `/photos.html`
-- `sciencepop.qmd` -> `/sciencepop.html`, redirect/card to external project
-- `cinema.qmd` -> `/cinema.html`
-- `animations.qmd` -> `/animations.html`
-- `software.qmd` -> `/software.html`
+- `ru/*.qmd` -> русская версия сайта
+- `en/*.qmd` -> английская версия сайта
+- `albums/**/*.qmd` -> общий архив фото/видео, на который ссылаются обе
+  языковые версии
 
 Технические страницы и инструменты:
 
@@ -62,13 +63,38 @@
 - `scripts/sync_local_project_sites.py` copies sibling project builds into
   `_site/<slug>/` for local preview only.
 
+Legacy root catalog pages such as `animations.qmd`, `lectures.qmd`,
+`students.qmd`, `theses.qmd`, `talks.qmd`, `books.qmd`, `cinema.qmd`,
+`photos.qmd`, `schools.qmd`, `software.qmd`, and `interviews.qmd` were deleted
+after their public content moved to the RU/EN pages.
+
+### Obsolete directory audit
+
+The deleted `obsolete/` pages did not contain unique migrated content:
+
+| File | Current status |
+| --- | --- |
+| `obsolete/about.qmd` | Redirect wrapper to `/ru/about.html`. |
+| `obsolete/education.qmd` | Redirect wrapper to `/ru/education.html`. |
+| `obsolete/materials.qmd` | Redirect wrapper to `/ru/materials.html`. |
+| `obsolete/outreach.qmd` | Redirect wrapper to `/ru/outreach.html`. |
+| `obsolete/research.qmd` | Redirect wrapper to `/ru/research.html`. |
+| `obsolete/people.qmd`, `obsolete/school.qmd`, `obsolete/ru/people.qmd` | Redirect wrappers to `/ru/school.html`. |
+| `obsolete/en/people.qmd` | Redirect wrapper to `/en/school.html`. |
+| `obsolete/sciencepop.qmd`, `obsolete/en/sciencepop.qmd` | Cards pointing users to current Outreach pages and the standalone `sciencepop` archive. |
+
+These files were removed after the audit above; `!obsolete/**/*.qmd` may remain
+in `_quarto.yml` as a harmless guard if the folder is temporarily restored for
+local comparison.
+
 ### Подпроекты, подключаемые локально
 
 Defined in `scripts/sync_local_project_sites.py`:
 
 - `talks/_site` -> `_site/talks`
 - `qft-lectures/_site` -> `_site/qft-lectures`
-- `sciencepop/_site` -> `_site/sciencepop`
+- `sciencepop` -> `_site/sciencepop`, with `sciencepop/_site` overlaid for
+  generated pages that are not present as static HTML in the source tree
 - `neutrinophysics/_site` -> `_site/neutrinophysics`
 - `particlephysics/_site` -> `_site/particlephysics`
 - `stat-course/pages` -> `_site/statistical-analysis-course`
@@ -112,20 +138,20 @@ Decision: use `Научная коммуникация` in Russian and `Outreach
 
 ## Mapping of current pages to target sections
 
-| Current URL | Keep URL | Primary new section | Secondary section | Notes |
+| Legacy URL | Current status | Primary new section | Secondary section | Notes |
 | --- | --- | --- | --- | --- |
-| `/books.html` | yes | Education | Outreach | Textbooks and popular books should appear in different contexts. |
-| `/lectures.html` | yes | Education | Materials | Existing course catalog remains useful as a detailed archive. |
-| `/students.html` | yes | School | Education | Scientific school, supervision, theses. |
-| `/theses.html` | yes | Research | About | Personal degrees are part of research identity. |
-| `/schools.html` | yes | School | Education | School archive and teaching ecosystem. |
-| `/talks.html` | yes | Research | Materials | Talks should stop being a top-level nav item. |
-| `/interviews.html` | yes | Outreach | About | Public communication and media. |
-| `/photos.html` | yes | School | Outreach | Scientific life and archive. |
-| `/sciencepop.html` | yes | Outreach | Materials | Existing redirect/card remains. |
-| `/cinema.html` | yes | Outreach | Materials | Films and animation-style outreach. |
-| `/animations.html` | yes | Materials | Education | Visual assets, videos, reusable illustrations. |
-| `/software.html` | yes | Materials | Research | Code, models, tools. |
+| `/books.html` | deleted after RU/EN migration | Education | Outreach | Textbooks and popular books appear in both language contexts. |
+| `/lectures.html` | deleted after RU/EN migration | Education | Materials | Course catalogs live under language-specific pages. |
+| `/students.html` | deleted after RU/EN migration | School | Education | Scientific school, supervision, theses. |
+| `/theses.html` | deleted after RU/EN migration | Research | About | Personal degrees are part of research identity. |
+| `/schools.html` | deleted after RU/EN migration | School | Education | School archive and teaching ecosystem. |
+| `/talks.html` | deleted after RU/EN migration | Research | Materials | Talks are no longer a top-level root page. |
+| `/interviews.html` | deleted after RU/EN migration | Outreach | About | Public communication and media. |
+| `/photos.html` | deleted after RU/EN migration | School | Outreach | Scientific life and archive. |
+| `/sciencepop.html` | deleted after RU/EN migration | Outreach | Materials | Current pages link to the standalone `sciencepop` archive. |
+| `/cinema.html` | deleted after RU/EN migration | Outreach | Materials | Films and animation-style outreach. |
+| `/animations.html` | deleted after RU/EN migration | Materials | Education | Visual assets, videos, reusable illustrations. |
+| `/software.html` | deleted after RU/EN migration | Materials | Research | Code, models, tools. |
 
 ## RU/EN structure
 
@@ -152,8 +178,9 @@ Preferred structure:
 
 Root `/` should remain a real landing page with visible RU/EN choices and soft
 automatic language suggestion. It should not be a blank redirect-only gateway.
-Existing legacy pages can remain at root during transition. Later they can move
-under `/ru/archive/` with redirects, after the bilingual structure is stable.
+Legacy root catalog pages were kept only during transition and are now removed
+from the source tree after the bilingual structure became the public entry
+point.
 
 Language routing rules:
 
@@ -271,6 +298,12 @@ Checklist:
 - [x] Decide final top-level RU/EN labels.
 - [x] Decide whether legacy root pages remain permanently or become redirects
       after RU/EN launch.
+- [x] Scope public render to RU/EN plus shared album pages.
+- [x] Exclude `obsolete/**/*.qmd` from render.
+- [x] Exclude empty `neutrino_introduction/neutrino-interactions.qmd` from
+      render by removing broad root/discovery globs.
+- [x] Delete legacy root catalog pages, `obsolete/`, and the empty
+      `neutrino_introduction/neutrino-interactions.qmd`.
 
 ### Phase 1: Shared CSS foundation
 
@@ -349,8 +382,9 @@ Checklist:
 - English label: `Outreach`.
 - Root behavior after RU/EN launch: keep a full landing page with visible RU/EN
   choices and auto-suggested language.
-- Legacy pages: later move under `/ru/archive/` with redirects, after the
-  bilingual structure is stable.
+- Legacy pages: no longer rendered as root catalog pages; keep sources for now
+  and delete them in a separate cleanup commit after old external URLs are
+  checked.
 - Custom domain plus edge routing/auth: desirable later only if free or
   low-friction; lower priority if paid.
 - Avoid abbreviations for the education program in both languages. Use full

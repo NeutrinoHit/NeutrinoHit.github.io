@@ -58,12 +58,12 @@ format:
   </section>
 
   <section class="studio-panel">
-    <h2>Фотографии</h2>
+    <h2>Фото и видео</h2>
     <div class="dropzone" id="dropzone">
-      <input id="photoInput" type="file" accept="image/*" multiple>
+      <input id="photoInput" type="file" accept="image/*,video/*" multiple>
     </div>
     <div class="photo-stats" aria-live="polite">
-      <div class="stat-cell"><strong id="statCount">0</strong><span>фото</span></div>
+      <div class="stat-cell"><strong id="statCount">0</strong><span>файлов</span></div>
       <div class="stat-cell"><strong id="statSize">0 MB</strong><span>общий размер</span></div>
       <div class="stat-cell"><strong id="statBatches">0</strong><span>постов TG</span></div>
     </div>
@@ -101,6 +101,10 @@ format:
 
   const MAX_TELEGRAM_CAPTION = 1024;
   const TELEGRAM_BATCH = 10;
+  const WEB_PHOTO_MAX_EDGE = 2560;
+  const WEB_PHOTO_QUALITY = 0.85;
+  const PREVIEW_MAX_EDGE = 1280;
+  const PREVIEW_QUALITY = 0.8;
   const state = {
     photos: [],
     draggingId: null,
@@ -161,7 +165,58 @@ format:
   }
 
   function outputFileName(photo, index) {
-    return normalizeFileName(index, photo.originalName || photo.name);
+    const fileName = normalizeFileName(index, photo.originalName || photo.name);
+    if (mediaKind(photo) !== "photo") return fileName;
+    return fileName.replace(/\.[^.]+$/, ".jpg");
+  }
+
+  function mediaKind(photo) {
+    const explicit = String(photo.type || photo.mediaType || "").toLowerCase();
+    const mimeType = String(photo.mimeType || (photo.file && photo.file.type) || "").toLowerCase();
+    if (explicit === "video" || mimeType.startsWith("video/")) return "video";
+    return "photo";
+  }
+
+  function mediaLabel(photo) {
+    return mediaKind(photo) === "video" ? "видео" : "фото";
+  }
+
+  function mediaFolder(photo) {
+    return mediaKind(photo) === "video" ? "videos" : "photos";
+  }
+
+  function outputPath(photo, index) {
+    return mediaFolder(photo) + "/" + outputFileName(photo, index);
+  }
+
+  function previewFileName(photo, index) {
+    const parts = String(photo.originalName || photo.name || "photo").split(".");
+    if (parts.length > 1) parts.pop();
+    return String(index + 1).padStart(2, "0") + "-" + slugify(parts.join(".") || "photo") + ".jpg";
+  }
+
+  function previewPath(photo, index) {
+    return mediaKind(photo) === "photo" ? "previews/" + previewFileName(photo, index) : "";
+  }
+
+  function mediaCounts(items) {
+    return (items || []).reduce((counts, item) => {
+      counts[mediaKind(item)] += 1;
+      return counts;
+    }, { photo: 0, video: 0 });
+  }
+
+  function mediaSummary(items) {
+    const counts = mediaCounts(items);
+    const parts = [];
+    if (counts.photo) parts.push(counts.photo + " фото");
+    if (counts.video) parts.push(counts.video + " видео");
+    return parts.join(" · ") || "0 файлов";
+  }
+
+  function telegramMethodForBatch(batch) {
+    if (batch.length !== 1) return "sendMediaGroup";
+    return mediaKind(batch[0]) === "video" ? "sendVideo" : "sendPhoto";
   }
 
   function setStatus(message, tone) {
@@ -201,7 +256,7 @@ format:
 
   async function fileHandleFromPath(directoryHandle, relativePath) {
     const parts = String(relativePath || "").split("/").filter(Boolean);
-    if (!parts.length) throw new Error("Пустой путь к фото");
+    if (!parts.length) throw new Error("Пустой путь к файлу");
     let current = directoryHandle;
     for (let index = 0; index < parts.length - 1; index += 1) {
       current = await current.getDirectoryHandle(parts[index]);
@@ -219,8 +274,9 @@ format:
       const albumHandle = await albumDir.getFileHandle("album.json");
       const albumFile = await albumHandle.getFile();
       const data = JSON.parse(await albumFile.text());
-      if (!data || !Array.isArray(data.photos)) {
-        throw new Error("album.json не похож на фотоальбом NeutrinoHit");
+      const albumItems = data && (Array.isArray(data.media) ? data.media : data.photos);
+      if (!Array.isArray(albumItems)) {
+        throw new Error("album.json не похож на альбом NeutrinoHit");
       }
 
       resetPhotos();
@@ -235,22 +291,27 @@ format:
       el.postText.value = data.postText || data.telegramText || data.summary || "";
 
       const loadedPhotos = [];
-      for (const item of data.photos) {
+      for (const item of albumItems) {
         const handle = await fileHandleFromPath(albumDir, item.file);
         const file = await handle.getFile();
         const id = crypto.randomUUID ? crypto.randomUUID() : String(Date.now() + Math.random());
+        const type = mediaKind({ type: item.type, mimeType: item.mimeType, file });
         loadedPhotos.push({
           id,
+          type,
+          mimeType: item.mimeType || file.type || "",
           file,
           url: URL.createObjectURL(file),
           name: item.originalName || file.name,
           originalName: item.originalName || file.name,
           sourceFile: item.file,
+          sourcePreview: item.preview || "",
+          poster: item.poster || "",
           size: file.size,
           modified: item.modified || (file.lastModified ? new Date(file.lastModified).toISOString() : null),
           caption: item.caption || "",
           alt: item.alt || "",
-          role: item.role || "photo"
+          role: item.role || type
         });
       }
       state.photos = loadedPhotos;
@@ -269,21 +330,26 @@ format:
   }
 
   function addFiles(fileList) {
-    const files = Array.from(fileList || []).filter((file) => file.type.startsWith("image/"));
+    const files = Array.from(fileList || []).filter((file) => file.type.startsWith("image/") || file.type.startsWith("video/"));
     files.forEach((file) => {
       const id = crypto.randomUUID ? crypto.randomUUID() : String(Date.now() + Math.random());
+      const type = file.type.startsWith("video/") ? "video" : "photo";
       state.photos.push({
         id,
+        type,
+        mimeType: file.type || "",
         file,
         url: URL.createObjectURL(file),
         name: file.name,
         originalName: file.name,
         sourceFile: null,
+        sourcePreview: "",
+        poster: "",
         size: file.size,
         modified: file.lastModified ? new Date(file.lastModified).toISOString() : null,
         caption: "",
         alt: "",
-        role: state.photos.length === 0 ? "cover" : "photo"
+        role: state.photos.length === 0 ? "cover" : type
       });
     });
     render();
@@ -319,7 +385,7 @@ format:
 
   function setCover(id) {
     state.photos.forEach((photo) => {
-      photo.role = photo.id === id ? "cover" : "photo";
+      photo.role = photo.id === id ? "cover" : mediaKind(photo);
     });
     render();
   }
@@ -332,11 +398,12 @@ format:
   function fillCaptions() {
     const title = el.title.value.trim();
     state.photos.forEach((photo, index) => {
+      const label = mediaKind(photo) === "video" ? "Видео" : "Фото";
       if (!photo.caption) {
-        photo.caption = title ? title + ". Фото " + (index + 1) + "." : "Фото " + (index + 1) + ".";
+        photo.caption = title ? title + ". " + label + " " + (index + 1) + "." : label + " " + (index + 1) + ".";
       }
       if (!photo.alt) {
-        photo.alt = title ? title + ", фото " + (index + 1) : "Фото " + (index + 1);
+        photo.alt = title ? title + ", " + label.toLowerCase() + " " + (index + 1) : label + " " + (index + 1);
       }
     });
     render();
@@ -344,7 +411,7 @@ format:
 
   function clearPhotos() {
     if (!state.photos.length) return;
-    if (!window.confirm("Очистить текущий набор фотографий?")) return;
+    if (!window.confirm("Очистить текущий набор медиафайлов?")) return;
     resetPhotos();
     state.albumDirectoryHandle = null;
     render();
@@ -372,7 +439,7 @@ format:
     const placeDate = [el.date.value, el.place.value.trim()].filter(Boolean).join(" · ");
     const url = albumUrl();
     const selected = [];
-    if (el.platformTelegram.checked) selected.push("Telegram: " + state.photos.length + " фото, группы по 10.");
+    if (el.platformTelegram.checked) selected.push("Telegram: " + mediaSummary(state.photos) + ", группы по 10.");
     if (el.platformVk.checked) selected.push("VK: обложка + ссылка на полный альбом.");
     if (el.platformInstagram.checked) selected.push("Instagram: карусель до 10 фото, ссылка в профиле/сторис.");
     if (el.platformWeb.checked) selected.push("Web: постоянная страница альбома.");
@@ -390,7 +457,7 @@ format:
 
   function buildAlbumData() {
     return {
-      schema: "neutrinohit.photo-album.v1",
+      schema: "neutrinohit.photo-album.v2",
       generatedAt: new Date().toISOString(),
       title: el.title.value.trim() || "Фотоальбом",
       slug: slugify(el.slug.value),
@@ -400,20 +467,29 @@ format:
       summary: el.summary.value.trim() || "",
       postText: el.postText.value.trim() || "",
       siteUrl: albumUrl(),
-      photos: state.photos.map((photo, index) => ({
-        file: "photos/" + outputFileName(photo, index),
-        originalName: photo.originalName || photo.name,
-        caption: photo.caption.trim(),
-        alt: photo.alt.trim() || (el.title.value.trim() + ", фото " + (index + 1)).trim(),
-        role: photo.role,
-        bytes: photo.size,
-        modified: photo.modified
-      }))
+      photos: state.photos.map((photo, index) => {
+        const type = mediaKind(photo);
+        const item = {
+          type,
+          file: outputPath(photo, index),
+          originalName: photo.originalName || photo.name,
+          caption: photo.caption.trim(),
+          alt: photo.alt.trim() || (el.title.value.trim() + ", " + mediaLabel(photo) + " " + (index + 1)).trim(),
+          role: photo.role,
+          bytes: photo.publishedSize || photo.size,
+          modified: photo.publishedModified || photo.modified,
+          mimeType: photo.publishedMimeType || photo.mimeType || (photo.file && photo.file.type) || ""
+        };
+        const preview = previewPath(photo, index);
+        if (preview) item.preview = preview;
+        if (type === "video" && photo.poster) item.poster = photo.poster;
+        return item;
+      })
     };
   }
 
   function buildTelegramQueue(data) {
-    const photos = data.photos || [];
+    const photos = data.media || data.photos || [];
     const batches = [];
     for (let index = 0; index < photos.length; index += TELEGRAM_BATCH) {
       const batchPhotos = photos.slice(index, index + TELEGRAM_BATCH);
@@ -422,9 +498,10 @@ format:
       batches.push({
         batch: batchIndex + 1,
         totalBatches,
-        method: batchPhotos.length === 1 ? "sendPhoto" : "sendMediaGroup",
+        method: telegramMethodForBatch(batchPhotos),
         caption: buildTelegramCaption(batchIndex, totalBatches),
-        photos: batchPhotos.map((photo) => photo.file)
+        media: batchPhotos.map((photo) => ({ type: mediaKind(photo), file: photo.file })),
+        photos: batchPhotos.filter((photo) => mediaKind(photo) === "photo").map((photo) => photo.file)
       });
     }
     return { album: data.slug, generatedAt: new Date().toISOString(), batches };
@@ -437,12 +514,17 @@ format:
     ];
     if (data.date) lines.push('date: "' + data.date + '"');
     lines.push(
+      "resources:",
+      "  - photos/**",
+      "  - previews/**",
+      "  - videos/**",
       "---",
       "",
     );
     if (data.summary) {
       lines.push(data.summary, "");
     }
+    lines.push('```{=html}');
     if (data.postText) {
       lines.push('<div class="album-post-text">');
       lines.push(...escapeHtml(data.postText).split("\n").map((line) => line ? "<p>" + line + "</p>" : ""));
@@ -451,13 +533,25 @@ format:
     lines.push(
       '<div class="published-album">'
     );
-    const figures = data.photos.map((photo) => [
-      '<figure class="published-photo">',
-      '<img src="' + escapeHtml(photo.file) + '" alt="' + escapeHtml(photo.alt) + '" loading="lazy">',
-      photo.caption ? '<figcaption>' + escapeHtml(photo.caption) + "</figcaption>" : "",
-      "</figure>"
-    ].filter(Boolean).join("\n"));
-    return lines.concat(figures, "</div>", "").join("\n");
+    const figures = (data.media || data.photos || []).map((photo) => {
+      if (mediaKind(photo) === "video") {
+        return [
+          '<figure class="published-video">',
+          '<video controls preload="metadata" playsinline' + (photo.poster ? ' poster="' + escapeHtml(photo.poster) + '"' : "") + '>',
+          '<source src="' + escapeHtml(photo.file) + '"' + (photo.mimeType ? ' type="' + escapeHtml(photo.mimeType) + '"' : "") + '>',
+          "</video>",
+          photo.caption ? '<figcaption>' + escapeHtml(photo.caption) + "</figcaption>" : "",
+          "</figure>"
+        ].filter(Boolean).join("\n");
+      }
+      return [
+        '<figure class="published-photo">',
+        '<img src="' + escapeHtml(photo.preview || photo.file) + '" data-full="' + escapeHtml(photo.file) + '" alt="' + escapeHtml(photo.alt) + '" loading="lazy">',
+        photo.caption ? '<figcaption>' + escapeHtml(photo.caption) + "</figcaption>" : "",
+        "</figure>"
+      ].filter(Boolean).join("\n");
+    });
+    return lines.concat(figures, "</div>", "```", "").join("\n");
   }
 
   function buildSocialPosts(data) {
@@ -473,7 +567,7 @@ format:
       "",
       "## Telegram",
       "",
-      queue.batches.map((batch) => "### Часть " + batch.batch + "/" + batch.totalBatches + "\n\n" + batch.caption + "\n\n" + batch.photos.join("\n")).join("\n\n"),
+      queue.batches.map((batch) => "### Часть " + batch.batch + "/" + batch.totalBatches + "\n\n" + batch.caption + "\n\n" + batch.media.map((item) => item.type + ": " + item.file).join("\n")).join("\n\n"),
       "",
       "## VK",
       "",
@@ -493,9 +587,45 @@ format:
     await writable.close();
   }
 
+  async function writeBinaryFile(directoryHandle, name, data) {
+    const handle = await directoryHandle.getFileHandle(name, { create: true });
+    const writable = await handle.createWritable();
+    await writable.write(data);
+    await writable.close();
+  }
+
+  function canvasToBlob(canvas, type, quality) {
+    return new Promise((resolve, reject) => {
+      canvas.toBlob((blob) => {
+        if (blob) resolve(blob);
+        else reject(new Error("Не удалось создать превью"));
+      }, type, quality);
+    });
+  }
+
+  async function buildImageBlob(file, maxEdge, quality) {
+    const bitmap = await createImageBitmap(file);
+    const scale = Math.min(1, maxEdge / Math.max(bitmap.width, bitmap.height));
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.max(1, Math.round(bitmap.width * scale));
+    canvas.height = Math.max(1, Math.round(bitmap.height * scale));
+    const context = canvas.getContext("2d", { alpha: false });
+    context.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+    if (bitmap.close) bitmap.close();
+    return canvasToBlob(canvas, "image/jpeg", quality);
+  }
+
+  async function buildWebPhotoBlob(file) {
+    return buildImageBlob(file, WEB_PHOTO_MAX_EDGE, WEB_PHOTO_QUALITY);
+  }
+
+  async function buildPreviewBlob(file) {
+    return buildImageBlob(file, PREVIEW_MAX_EDGE, PREVIEW_QUALITY);
+  }
+
   async function saveFolder() {
     if (!state.photos.length) {
-      setStatus("Нет фотографий для сохранения", "error");
+      setStatus("Нет файлов для сохранения", "error");
       return;
     }
     if (!window.showDirectoryPicker) {
@@ -503,36 +633,39 @@ format:
       return;
     }
     try {
-      const data = buildAlbumData();
       let albumDir = state.albumDirectoryHandle;
       if (!albumDir) {
         const root = await window.showDirectoryPicker({ mode: "readwrite" });
-        albumDir = await root.getDirectoryHandle(data.slug, { create: true });
+        albumDir = await root.getDirectoryHandle(slugify(el.slug.value), { create: true });
         state.albumDirectoryHandle = albumDir;
       }
       const photosDir = await albumDir.getDirectoryHandle("photos", { create: true });
-      const pendingWrites = [];
+      const videosDir = await albumDir.getDirectoryHandle("videos", { create: true });
+      const previewsDir = await albumDir.getDirectoryHandle("previews", { create: true });
       for (let index = 0; index < state.photos.length; index += 1) {
         const photo = state.photos[index];
+        const targetDir = mediaKind(photo) === "video" ? videosDir : photosDir;
         const fileName = outputFileName(photo, index);
-        const outputPath = "photos/" + fileName;
-        if (photo.sourceFile === outputPath) {
-          continue;
+        const targetPath = outputPath(photo, index);
+        if (photo.sourceFile !== targetPath) {
+          const mediaData = mediaKind(photo) === "photo"
+            ? await buildWebPhotoBlob(photo.file)
+            : await photo.file.arrayBuffer();
+          await writeBinaryFile(targetDir, fileName, mediaData);
+          photo.publishedSize = mediaData.size || mediaData.byteLength || photo.size;
+          photo.publishedModified = new Date().toISOString();
+          photo.publishedMimeType = mediaKind(photo) === "photo" ? "image/jpeg" : (photo.mimeType || "");
+          photo.sourceFile = targetPath;
         }
-        pendingWrites.push({
-          index,
-          fileName,
-          outputPath,
-          bytes: await photo.file.arrayBuffer()
-        });
+        const previewTarget = previewPath(photo, index);
+        if (previewTarget && photo.sourcePreview !== previewTarget) {
+          const previewBlob = await buildPreviewBlob(photo.file);
+          const previewName = previewFileName(photo, index);
+          await writeBinaryFile(previewsDir, previewName, previewBlob);
+          photo.sourcePreview = previewTarget;
+        }
       }
-      for (const item of pendingWrites) {
-        const handle = await photosDir.getFileHandle(item.fileName, { create: true });
-        const writable = await handle.createWritable();
-        await writable.write(item.bytes);
-        await writable.close();
-        state.photos[item.index].sourceFile = item.outputPath;
-      }
+      const data = buildAlbumData();
       await writeTextFile(albumDir, "album.json", JSON.stringify(data, null, 2) + "\n");
       await writeTextFile(albumDir, "index.qmd", buildAlbumQmd(data));
       await writeTextFile(albumDir, "telegram-queue.json", JSON.stringify(buildTelegramQueue(data), null, 2) + "\n");
@@ -567,16 +700,22 @@ format:
       card.draggable = true;
       card.dataset.id = photo.id;
 
-      const img = document.createElement("img");
-      img.className = "photo-thumb";
-      img.src = photo.url;
-      img.alt = photo.alt || photo.name;
-      card.appendChild(img);
+      const thumb = mediaKind(photo) === "video" ? document.createElement("video") : document.createElement("img");
+      thumb.className = "photo-thumb" + (mediaKind(photo) === "video" ? " is-video" : "");
+      thumb.src = photo.url;
+      if (mediaKind(photo) === "video") {
+        thumb.muted = true;
+        thumb.playsInline = true;
+        thumb.preload = "metadata";
+      } else {
+        thumb.alt = photo.alt || photo.name;
+      }
+      card.appendChild(thumb);
 
       const meta = document.createElement("div");
       meta.className = "photo-meta";
       meta.innerHTML =
-        '<div class="photo-name"><span>' + escapeHtml(photo.name) + '</span><small>' + String(index + 1).padStart(2, "0") + "</small></div>" +
+        '<div class="photo-name"><span>' + escapeHtml(photo.name) + '</span><small>' + String(index + 1).padStart(2, "0") + " · " + mediaLabel(photo) + "</small></div>" +
         '<textarea class="photo-caption" data-field="caption" placeholder="Подпись">' + escapeHtml(photo.caption) + "</textarea>" +
         '<input class="photo-alt" data-field="alt" placeholder="Alt" value="' + escapeHtml(photo.alt) + '">' +
         '<div class="photo-actions">' +
@@ -635,18 +774,19 @@ format:
     if (!state.photos.length) {
       const card = document.createElement("div");
       card.className = "publish-card";
-      card.innerHTML = "<h4>Telegram</h4><p>0 фото</p>";
+      card.innerHTML = "<h4>Telegram</h4><p>0 файлов</p>";
       el.preview.appendChild(card);
       el.socialCopy.value = buildSocialCopy();
       return;
     }
     for (let index = 0; index < totalBatches; index += 1) {
       const count = state.photos.slice(index * TELEGRAM_BATCH, (index + 1) * TELEGRAM_BATCH).length;
+      const summary = mediaSummary(state.photos.slice(index * TELEGRAM_BATCH, (index + 1) * TELEGRAM_BATCH));
       const caption = buildTelegramCaption(index, totalBatches);
       const card = document.createElement("div");
       card.className = "publish-card" + (caption.length > MAX_TELEGRAM_CAPTION ? " warning" : "");
       card.innerHTML = "<h4>Telegram " + (index + 1) + "/" + totalBatches + "</h4>" +
-        "<p>" + count + " фото · " + caption.length + "/" + MAX_TELEGRAM_CAPTION + " символов</p>";
+        "<p>" + summary + " · " + count + " файлов · " + caption.length + "/" + MAX_TELEGRAM_CAPTION + " символов</p>";
       el.preview.appendChild(card);
     }
     el.socialCopy.value = buildSocialCopy();

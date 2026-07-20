@@ -18,11 +18,11 @@ toc: false
       <div class="lecture-course-body">
         <p>Научные анимации dvnanima: нейтрино и частицы, поля и волны, математика, динамические системы и визуальные научные истории.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../animations.html">Открыть галерею</a>
+          <a class="lecture-action-primary" href="animations.html">Открыть галерею</a>
           <a href="https://github.com/NeutrinoHit/dvnanima">Исходный код</a>
-          <a href="../animations.html#neutrino-particles">Нейтрино и частицы</a>
-          <a href="../animations.html#fields-waves">Поля и волны</a>
-          <a href="../animations.html#math-dynamical-systems">Математика</a>
+          <a href="animations.html#neutrino-particles">Нейтрино и частицы</a>
+          <a href="animations.html#fields-waves">Поля и волны</a>
+          <a href="animations.html#math-dynamical-systems">Математика</a>
         </div>
       </div>
     </details>

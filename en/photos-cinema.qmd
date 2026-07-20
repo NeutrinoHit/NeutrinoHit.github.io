@@ -14,18 +14,27 @@ toc: false
   <section class="lecture-course-list" aria-label="Photos and cinema">
     <details class="lecture-course photo-course-archive" open>
       <summary>
-        <span class="lecture-course-status">2 albums</span>
+        <span class="lecture-course-status">3 albums</span>
         <span class="lecture-course-title">Photo Archive</span>
       </summary>
       <div class="lecture-course-body">
         <p>Photographs from lectures, scientific schools, trips, and meetings.</p>
         <div class="lecture-material-list">
           <details class="lecture-material" open>
+            <summary>2026 · Baikal Summer School on Physics of Elementary Particles and Astrophysics</summary>
+            <div class="lecture-material-body">
+              <p>38 photos and 3 videos · Bolshie Koty, Lake Baikal · July 2026.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../albums/baikal-school-2026/index.html">Open album</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
             <summary>2009 · V. A. Rubakov. Baikal School on Particle Physics and Astrophysics</summary>
             <div class="lecture-material-body">
               <p>20 photographs · Lake Baikal · July 22-29, 2009.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../albums/v-a-rubakov-baikal-school-2009/">Open album</a>
+                <a class="lecture-action-primary" href="../albums/v-a-rubakov-baikal-school-2009/index.html">Open album</a>
               </div>
             </div>
           </details>
@@ -34,7 +43,7 @@ toc: false
             <div class="lecture-material-body">
               <p>Visit of Professors Wei Wang, Jianglai Liu, and Yuekun Heng to Moscow, Dubna, and Saint Petersburg.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../albums/10-17-may-2026/">Open album</a>
+                <a class="lecture-action-primary" href="../albums/10-17-may-2026/index.html">Open album</a>
               </div>
             </div>
           </details>

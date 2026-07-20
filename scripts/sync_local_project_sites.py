@@ -92,6 +92,20 @@ def prune_sciencepop_copy(target: Path) -> None:
     (target / ".nojekyll").touch()
 
 
+def overlay_sciencepop_build(target: Path) -> None:
+    generated = WORKSPACE / "sciencepop" / "_site"
+    if not generated.exists():
+        print(f"[local-preview] skip missing sciencepop build {generated}")
+        return
+    shutil.copytree(
+        generated,
+        target,
+        dirs_exist_ok=True,
+        ignore=project_ignore,
+        copy_function=copy_available,
+    )
+
+
 def copy_site(site: ProjectSite) -> None:
     if not site.source.exists():
         print(f"[local-preview] skip missing {site.source}")
@@ -103,6 +117,8 @@ def copy_site(site: ProjectSite) -> None:
 
     if site.static_source:
         shutil.copytree(site.source, target, ignore=sciencepop_ignore, copy_function=copy_available)
+        if site.slug == "sciencepop":
+            overlay_sciencepop_build(target)
         prune_sciencepop_copy(target)
     else:
         shutil.copytree(site.source, target, ignore=project_ignore, copy_function=copy_available)
