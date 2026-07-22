@@ -20,7 +20,7 @@
   fetch(endpoint, { headers: { Accept: "application/json" } })
     .then((response) => {
       if (!response.ok) {
-        throw new Error(`INSPIRE request failed: ${response.status}`);
+        throw new Error(`Publication metrics request failed: ${response.status}`);
       }
 
       return response.json();
@@ -34,15 +34,15 @@
       setText("[data-inspire-h-index]", formatNumber(summary["h-index"].value.all));
       setText(
         "[data-inspire-status]",
-        isEnglish ? "Updated automatically from INSPIRE." : "Обновлено автоматически из INSPIRE."
+        isEnglish ? "Publication metrics updated automatically." : "Публикационные метрики обновлены автоматически."
       );
     })
     .catch(() => {
       setText(
         "[data-inspire-status]",
         isEnglish
-          ? "Fallback values are shown: INSPIRE is temporarily unavailable."
-          : "Показаны резервные значения: INSPIRE временно недоступен."
+          ? "Fallback publication metrics are shown."
+          : "Показаны резервные публикационные метрики."
       );
     });
 })();

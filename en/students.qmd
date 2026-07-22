@@ -97,7 +97,7 @@ Diploma theses, bachelor and master theses, and PhD dissertations supervised by 
   </details>
   <details class="thesis-row" data-thesis-category="master">
     <summary><span class="thesis-year">2024</span><span class="thesis-author">Sergey I. Zavyalov</span><span class="thesis-type">Master thesis</span></summary>
-    <div class="thesis-body"><p>Development of the NTSim package for neutrino telescope simulation and efficiency estimates for Baikal-GVD neutrino event registration.</p><a class="thesis-link" href="../students/theses/zavyalov_diploma.pdf">PDF</a></div>
+    <div class="thesis-body"><p>Development of the <a href="https://pypi.org/project/ntsim/">NTSim</a> package for neutrino telescope simulation and efficiency estimates for Baikal-GVD neutrino event registration.</p><a class="thesis-link" href="../students/theses/zavyalov_diploma.pdf">PDF</a></div>
   </details>
   <details class="thesis-row" data-thesis-category="master">
     <summary><span class="thesis-year">2025</span><span class="thesis-author">Petr I. Lensky</span><span class="thesis-type">Master thesis</span></summary>

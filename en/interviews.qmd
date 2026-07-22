@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Interview catalog">
-    <details class="lecture-course interview-course-articles" open>
+    <details class="lecture-course interview-course-articles">
       <summary>
         <span class="lecture-course-status">5 materials</span>
         <span class="lecture-course-title">Interviews and articles</span>

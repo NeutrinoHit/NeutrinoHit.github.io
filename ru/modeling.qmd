@@ -10,7 +10,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Моделирование и программные проекты">
-    <details class="lecture-course resource-card-animation" open>
+    <details class="lecture-course resource-card-animation">
       <summary>
         <span class="lecture-course-status">29 сюжетов · 73 ролика</span>
         <span class="lecture-course-title">Анимации</span>
@@ -35,7 +35,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Программные проекты, расчёты и демонстрационные модели физических процессов.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details class="lecture-material">
             <summary>Визуализация и инструменты</summary>
             <div class="lecture-material-body">
               <p>Инструменты для создания научных иллюстраций, анимаций и визуального представления данных.</p>

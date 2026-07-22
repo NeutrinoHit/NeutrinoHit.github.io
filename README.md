@@ -42,6 +42,48 @@ quarto preview
 NEUTRINOHIT_SYNC_PROJECT_SITES=0 quarto preview
 ```
 
+## CV
+
+Профессиональные CV хранятся как обычные страницы сайта:
+
+- `ru/cv.qmd` -> `ru/cv.html`;
+- `en/cv.qmd` -> `en/cv.html`.
+
+PDF-файлы `ru/cv.pdf` и `en/cv.pdf` публикуются как готовые статические
+ресурсы. Обычная публикация сайта через `quarto render` не должна заново
+собирать PDF.
+
+Если нужно обновить PDF после правки CV, собрать его вручную из
+`neutrinohit-map`:
+
+```bash
+NEUTRINOHIT_SYNC_PROJECT_SITES=0 quarto render ru/cv.qmd --to pdf \
+  -M pdf-engine:xelatex \
+  -M papersize:a4 \
+  -M mainfont:'PT Serif' \
+  -M sansfont:'PT Serif' \
+  -M monofont:Menlo \
+  -M fontsize:10pt \
+  -M geometry:top=18mm,bottom=18mm,left=19mm,right=19mm \
+  -M colorlinks:true
+cp _site/ru/cv.pdf ru/cv.pdf
+
+NEUTRINOHIT_SYNC_PROJECT_SITES=0 quarto render en/cv.qmd --to pdf \
+  -M pdf-engine:xelatex \
+  -M papersize:a4 \
+  -M mainfont:'PT Serif' \
+  -M sansfont:'PT Serif' \
+  -M monofont:Menlo \
+  -M fontsize:10pt \
+  -M geometry:top=18mm,bottom=18mm,left=19mm,right=19mm \
+  -M colorlinks:true
+cp _site/en/cv.pdf en/cv.pdf
+```
+
+Ручной PDF-рендер Quarto пишет результат в `_site`, поэтому после него PDF
+нужно скопировать в исходные `ru/cv.pdf` и `en/cv.pdf`. При следующем обычном
+`quarto render` эти готовые PDF будут скопированы в `_site` как ресурсы.
+
 ## Фотоальбомы
 
 Перед публикацией альбомов сжимать фото и обновлять превью:

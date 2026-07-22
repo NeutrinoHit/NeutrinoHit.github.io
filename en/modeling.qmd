@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Modeling and software projects">
-    <details class="lecture-course resource-card-animation" open>
+    <details class="lecture-course resource-card-animation">
       <summary>
         <span class="lecture-course-status">28 stories · 72 clips</span>
         <span class="lecture-course-title">Animations</span>
@@ -36,7 +36,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Software projects, calculations, and demonstrational models of physical processes.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details class="lecture-material">
             <summary>Visualization and tools</summary>
             <div class="lecture-material-body">
               <p>Tools for scientific illustrations, animations, and visual presentation of data.</p>

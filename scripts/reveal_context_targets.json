@@ -25,6 +25,11 @@
       "description": "EN education: introduction to neutrino physics"
     },
     {
+      "url": "https://neutrinohit.github.io/neutrinophysics/introduction/",
+      "type": "course-home",
+      "description": "Introduction to neutrino physics course home"
+    },
+    {
       "url": "https://neutrinohit.github.io/ru/education.html#solar-neutrino-masterclass",
       "description": "RU education: solar neutrino masterclass"
     },

@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Научная школа и сообщество">
-    <details class="lecture-course" open>
+    <details class="lecture-course">
       <summary>
         <span class="lecture-course-status">Научное руководство</span>
         <span class="lecture-course-title">Студенты и аспиранты</span>
@@ -258,7 +258,7 @@ toc: false
       <span class="thesis-type">Магистерская диссертация</span>
     </summary>
     <div class="thesis-body">
-      <p>Разработка программного пакета NTSim для моделирования нейтринных телескопов и оценка эффективности регистрации нейтринных событий в эксперименте Baikal-GVD.</p>
+      <p>Разработка программного пакета <a href="https://pypi.org/project/ntsim/">NTSim</a> для моделирования нейтринных телескопов и оценка эффективности регистрации нейтринных событий в эксперименте Baikal-GVD.</p>
       <a class="thesis-link" href="../students/theses/zavyalov_diploma.pdf">PDF</a>
     </div>
   </details>
@@ -322,7 +322,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Байкальская летняя школа по физике элементарных частиц и астрофизике.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" id="baikal-school-2026" open>
+          <details class="lecture-material" id="baikal-school-2026">
             <summary>2026</summary>
             <div class="lecture-material-body">
 

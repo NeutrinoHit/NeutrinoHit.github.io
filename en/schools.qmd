@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Schools catalog">
-    <details class="lecture-course school-course-baikal" open>
+    <details class="lecture-course school-course-baikal">
       <summary>
         <span class="lecture-course-status">2 events, program</span>
         <span class="lecture-course-title">Baikal Summer School on Physics of Elementary Particles and Astrophysics</span>
@@ -19,7 +19,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Baikal summer school on particle physics and astrophysics.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details class="lecture-material">
             <summary>2026</summary>
             <div class="lecture-material-body">
 

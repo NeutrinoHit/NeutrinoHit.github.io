@@ -7,26 +7,28 @@ toc: false
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    A compact personal and professional map: scientific profile, positions,
+    A compact personal and professional map: scientific profile, CV, positions,
     books, public channels, theses, and external pages.
   </p>
 
   <section class="lecture-course-list" aria-label="About Dmitry Naumov">
-    <details class="lecture-course" open>
+    <details class="lecture-course">
       <summary>
         <span class="lecture-course-status">Profile</span>
         <span class="lecture-course-title">Dmitry V. Naumov</span>
       </summary>
       <div class="lecture-course-body">
         <p>
-          Physicist, Doctor of Sciences, Deputy Director of the Dzhelepov
-          Laboratory of Nuclear Problems at JINR, Head of the JINR Neutrino
-          Program, educator, and author of NeutrinoHit materials.
+          Physicist, Doctor of Sciences, Deputy Director of
+          <a href="https://dlnp.jinr.ru/">DLNP JINR</a>, Head of the JINR
+          Neutrino Program, educator, and author of NeutrinoHit materials.
         </p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="index.html">English home</a>
-          <a href="https://naumov.jinr.ru/">JINR profile</a>
-          <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+          <a href="cv.html">Curriculum Vitae</a>
+          <a href="cv.pdf">CV PDF</a>
+          <a href="https://naumov.jinr.ru/">JINR</a>
+          <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">Papers</a>
         </div>
       </div>
     </details>
@@ -39,7 +41,8 @@ toc: false
       <div class="lecture-course-body">
         <p>
           Qualification works, scientific interests, experiment participation,
-          and professional references are collected across the site.
+          and professional references are collected across the site and in the
+          downloadable CV.
         </p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="theses.html">Theses</a>

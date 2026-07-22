@@ -6,26 +6,28 @@ toc: false
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    Краткая персональная и профессиональная карта: научный профиль,
+    Краткая персональная и профессиональная карта: научный профиль, CV,
     должности, книги, публичные каналы, диссертации и внешние страницы.
   </p>
 
   <section class="lecture-course-list" aria-label="О Дмитрии Наумове">
-    <details class="lecture-course" open>
+    <details class="lecture-course">
       <summary>
         <span class="lecture-course-status">Профиль</span>
         <span class="lecture-course-title">Дмитрий Вадимович Наумов</span>
       </summary>
       <div class="lecture-course-body">
         <p>
-          Физик, д. ф.-м. н., заместитель директора Лаборатории ядерных проблем
-          им. В. П. Джелепова ОИЯИ, руководитель Нейтринной программы ОИЯИ,
-          преподаватель и автор материалов NeutrinoHit.
+          Физик, д. ф.-м. н., заместитель директора
+          <a href="https://dlnp.jinr.ru/">ЛЯП ОИЯИ</a>, руководитель
+          Нейтринной программы ОИЯИ, преподаватель и автор материалов NeutrinoHit.
         </p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="index.html">Главная страница</a>
-          <a href="https://naumov.jinr.ru/">Профиль JINR</a>
-          <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+          <a href="cv.html">Curriculum Vitae</a>
+          <a href="cv.pdf">CV PDF</a>
+          <a href="https://naumov.jinr.ru/">ОИЯИ</a>
+          <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">Papers</a>
         </div>
       </div>
     </details>
@@ -38,7 +40,8 @@ toc: false
       <div class="lecture-course-body">
         <p>
           Квалификационные работы, научные интересы, участие в экспериментах
-          и профессиональные ссылки собраны в связанных разделах сайта.
+          и профессиональные ссылки собраны в связанных разделах сайта и в
+          загружаемом CV.
         </p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="theses.html">Мои диссертации</a>

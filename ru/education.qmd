@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Образовательные разделы">
-    <details class="lecture-course program-course-teachin" open>
+    <details class="lecture-course program-course-teachin">
       <summary>
         <span class="lecture-course-status">Онлайн-программа</span>
         <span class="lecture-course-title">Физика нейтрино и астрофизика частиц</span>
@@ -48,7 +48,7 @@ toc: false
 
   <h2 class="section-inline-title">Курсы лекций</h2>
   <section class="lecture-course-list" aria-label="Каталог курсов">
-    <details id="qft" class="lecture-course lecture-course-qft" open>
+    <details id="qft" class="lecture-course lecture-course-qft">
       <summary>
         <span class="lecture-course-status">Материалы опубликованы</span>
         <span class="lecture-course-title">Квантовая теория поля</span>
@@ -56,7 +56,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Курсы по КТП, Стандартной модели, ренормировке и ускоренным системам отсчёта.</p>
         <div class="lecture-material-list">
-          <details id="qft-textbook" class="lecture-material" open>
+          <details id="qft-textbook" class="lecture-material">
             <summary>Учебник</summary>
             <div class="lecture-material-body">
               <p>Двухтомный учебник «Квантовая теория поля для экспериментаторов и не только»: примеры, задачи, решения и практический взгляд на КТП. Русское издание опубликовано; английское готовится.</p>
@@ -65,7 +65,7 @@ toc: false
                 <img src="../assets/books/qft-cover-back.jpg" alt="Оборотная сторона обложки учебника «Квантовая теория поля для экспериментаторов и не только»">
               </div>
               <div class="lecture-material-list">
-                <details class="lecture-material" open>
+                <details class="lecture-material">
                   <summary>Бумажная версия для России</summary>
                   <div class="lecture-material-body">
                     <div class="lecture-course-actions">
@@ -326,27 +326,290 @@ toc: false
           <details id="neutrino-introduction" class="lecture-material">
             <summary>Введение в физику нейтрино</summary>
             <div class="lecture-material-body">
-              <p>Три вводные лекции в виде HTML-слайдов.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../neutrinophysics/introduction/Introduction/index.html">01. Введение</a>
-                <a href="../neutrinophysics/introduction/Parity/index.html">02. Чётность</a>
-                <a href="../neutrinophysics/introduction/Helicity/index.html">03. Спиральность</a>
+              <p>Курс лекций по физике нейтрино.</p>
+              <div class="lecture-material-list">
+                <details class="lecture-material">
+                  <summary>01. Нейтрино 101</summary>
+                  <div class="lecture-material-body">
+                    <p>Основные свойства, история открытия и открытые вопросы.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/Introduction/index.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>02. Пространственная четность</summary>
+                  <div class="lecture-material-body">
+                    <p>Пространственная четность и слабые взаимодействия.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/Parity/index.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>03. Спин и поляризация нейтрино</summary>
+                  <div class="lecture-material-body">
+                    <p>Спин, поляризация и спиральность нейтрино.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/Helicity/index.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>04. Прямое определение массы нейтрино</summary>
+                  <div class="lecture-material-body">
+                    <p>Кинематика, ускорители и эксперименты с тритием.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/04_direct_neutrino_mass.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>05. Осцилляции нейтрино в вакууме</summary>
+                  <div class="lecture-material-body">
+                    <p>Плосковолновая теория, длины осцилляций и практические примеры.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/05_vacuum_oscillations.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>06. Осцилляции нейтрино в веществе</summary>
+                  <div class="lecture-material-body">
+                    <p>Потенциал взаимодействия, адиабатическое приближение и MSW-эффект.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/06_matter_oscillations.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>07. Парадоксы в теории осцилляций нейтрино</summary>
+                  <div class="lecture-material-body">
+                    <p>Гипотезы, парадоксы, волновой пакет и одномерная теория.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/07_oscillation_paradoxes.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>08. Нейтрино в Стандартной модели</summary>
+                  <div class="lecture-material-body">
+                    <p>Спиральность, киральность, природа Дирака или Майораны и генерация массы.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/08_standard_model_neutrinos.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>09. Электромагнитные свойства нейтрино</summary>
+                  <div class="lecture-material-body">
+                    <p>Свойства в Стандартной модели, за ее пределами и эксперименты.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/09_electromagnetic_properties.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>10. Стерильные нейтрино</summary>
+                  <div class="lecture-material-body">
+                    <p>Теория, эксперименты и текущий статус.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/10_sterile_neutrinos.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>11. Взаимодействие нейтрино с веществом</summary>
+                  <div class="lecture-material-body">
+                    <p>Сечения, ядерные эффекты, когерентное рассеяние и neutrino floor.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/11_neutrino_interactions.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>12. Экспериментальные методы детектирования</summary>
+                  <div class="lecture-material-body">
+                    <p>Сцинтилляторы, черенковские, радиохимические, трековые и другие методы.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/12_detection_methods.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>13. Солнечные нейтрино</summary>
+                  <div class="lecture-material-body">
+                    <p>Модель Солнца, спектры, сечения, эксперименты и фит данных.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/13_solar_neutrinos.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>14. Атмосферные нейтрино</summary>
+                  <div class="lecture-material-body">
+                    <p>ШАЛ, моделирование, эксперименты, гипотезы дефицита и фит данных.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/14_atmospheric_neutrinos.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>15. Ускорительные нейтрино</summary>
+                  <div class="lecture-material-body">
+                    <p>Пучки, спектры, сечения, эксперименты и осцилляционный анализ.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/15_accelerator_neutrinos.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>16. Реакторные нейтрино</summary>
+                  <div class="lecture-material-body">
+                    <p>Реакторы, ядерные реакции, спектры, эксперименты и мониторинг.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/16_reactor_neutrinos.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>17. Геофизические нейтрино</summary>
+                  <div class="lecture-material-body">
+                    <p>Термальная история Земли, радиоактивные изотопы и эксперименты.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/17_geophysical_neutrinos.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>18. Безнейтринный двойной бета-распад</summary>
+                  <div class="lecture-material-body">
+                    <p>Феноменология, теория, методика экспериментов, результаты и перспективы.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/18_neutrinoless_double_beta_decay.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>19. Реликтовые нейтрино</summary>
+                  <div class="lecture-material-body">
+                    <p>Космология, спектр, температура и экспериментальные идеи регистрации.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/19_relic_neutrinos.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>20. Астрофизические нейтрино сверхвысоких энергий</summary>
+                  <div class="lecture-material-body">
+                    <p>Источники, энергетический баланс, эксперименты, методика и задачи.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/20_uhe_astrophysical_neutrinos.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>21. Нейтрино от сверхновой</summary>
+                  <div class="lecture-material-body">
+                    <p>Теория сверхновой, спектры, осцилляции и коллективные эффекты.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/21_supernova_neutrinos.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>22. Глобальный анализ</summary>
+                  <div class="lecture-material-body">
+                    <p>Chi2, правдоподобие, систематика, корреляции и вырождения.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/22_global_analysis.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>23. Смешивание и CP-нарушение</summary>
+                  <div class="lecture-material-body">
+                    <p>Матрица смешивания, унитарность, CP-фаза, теория и эксперимент.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/23_mixing_cp_violation.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>24. Нейтрино как окно в новую физику</summary>
+                  <div class="lecture-material-body">
+                    <p>Возможные проявления новой физики в нейтринном секторе.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/24_new_physics.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>25. Нейтринная томография</summary>
+                  <div class="lecture-material-body">
+                    <p>Земля, MSW, геонейтрино и сверхвысокие энергии.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/25_neutrino_tomography.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>26. Реакторы как мониторинг</summary>
+                  <div class="lecture-material-body">
+                    <p>Мониторинг реакторов нейтринными методами.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/26_reactor_monitoring.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </details>
               </div>
             </div>
           </details>
-          <details id="solar-neutrino-masterclass" class="lecture-material" open>
+          <details id="solar-neutrino-masterclass" class="lecture-material">
             <summary>Солнечные нейтрино</summary>
             <div class="lecture-material-body">
-              <p>Мастер-класс по источникам солнечных нейтрино, осцилляциям, MSW-эффекту, детекторной статистике и SK-подобному фитированию. Лекции, проект и данные открываются из одной вкладки.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html">00. Solar Neutrinos and Oscillations</a>
-                <a href="../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics_appendix.html">00. Appendix</a>
-                <a href="../neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html">01. Fluxes, event rates, normalization fit</a>
-                <a href="../neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html">02. Oscillations and fit</a>
-                <a href="../neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html">Проект: SK-like fit</a>
-                <a href="../neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip">Данные мастер-класса 1</a>
-                <a href="../neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip">Данные мастер-класса 2</a>
-                <a href="../neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip">Данные проекта</a>
+              <p>Мини-курс по источникам солнечных нейтрино, осцилляциям, MSW-эффекту, детекторной статистике и SK-подобному фитированию.</p>
+              <div class="lecture-material-list">
+                <details class="lecture-material">
+                  <summary>00. Solar Neutrinos and Oscillations</summary>
+                  <div class="lecture-material-body">
+                    <p>Обзор солнечных нейтрино, осцилляций и базовой феноменологии.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html">Открыть лекцию</a>
+                      <a href="../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics_appendix.html">Appendix</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>01. Fluxes, event rates, normalization fit</summary>
+                  <div class="lecture-material-body">
+                    <p>Потоки солнечных нейтрино, скорости событий и нормировочный фит.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html">Открыть лекцию</a>
+                      <a href="../neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip">Данные мастер-класса 1</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>02. Oscillations and fit</summary>
+                  <div class="lecture-material-body">
+                    <p>MSW-физика, детекторная статистика и фит SK-like спектра.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html">Открыть лекцию</a>
+                      <a href="../neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip">Данные мастер-класса 2</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>Проект. SK-like fit</summary>
+                  <div class="lecture-material-body">
+                    <p>Итоговый проект с воспроизводимыми данными.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html">Открыть проект</a>
+                      <a href="../neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip">Данные проекта</a>
+                    </div>
+                  </div>
+                </details>
               </div>
             </div>
           </details>
@@ -362,7 +625,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Карта дает короткий вход в материалы, а рабочие страницы курсов остаются отдельными сайтами с собственными лекциями, заданиями и дополнительными материалами.</p>
         <div class="lecture-material-list">
-          <details id="particle-physics-mini-course" class="lecture-material" open>
+          <details id="particle-physics-mini-course" class="lecture-material">
             <summary>Мини-курс: введение в физику элементарных частиц</summary>
             <div class="lecture-material-body">
               <p>Две вводные лекции: частицы, поля, взаимодействия, калибровочная инвариантность, происхождение масс и слабый распад.</p>

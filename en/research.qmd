@@ -12,7 +12,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Research sections">
-    <details id="research-profile" class="lecture-course" open>
+    <details id="research-profile" class="lecture-course">
       <summary>
         <span class="lecture-course-status">Research profile</span>
         <span class="lecture-course-title">Neutrino physics and astroparticle physics</span>
@@ -24,8 +24,8 @@ toc: false
           descriptions of neutrino processes.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
-          <a href="https://naumov.jinr.ru/">JINR profile</a>
+          <a class="lecture-action-primary" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">Papers</a>
+          <a href="https://naumov.jinr.ru/">JINR</a>
           <a href="theses.html">Theses</a>
         </div>
       </div>
@@ -63,7 +63,7 @@ toc: false
           programs, and the state of the field.
         </p>
         <div class="lecture-material-list">
-          <details id="talk-protvino-2026" class="lecture-material" open>
+          <details id="talk-protvino-2026" class="lecture-material">
             <summary>June 2-5, 2026 · Status and prospects of neutrino physics</summary>
             <div class="lecture-material-body">
               <p>Russian projects in the global context. The slides are in Russian.</p>

@@ -67,6 +67,10 @@
   margin-top: 0.82rem;
 }
 
+.profile-links-social {
+  margin-top: 0.5rem;
+}
+
 .profile-links a {
   display: inline-flex;
   align-items: center;

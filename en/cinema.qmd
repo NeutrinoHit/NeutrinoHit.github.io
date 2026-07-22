@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Films catalog">
-    <details class="lecture-course cinema-course-documentary" open>
+    <details class="lecture-course cinema-course-documentary">
       <summary>
         <span class="lecture-course-status">Film</span>
         <span class="lecture-course-title">The Universe in a Neutrino Telescope</span>

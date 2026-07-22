@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Books catalog">
-    <details class="lecture-course book-course-qft" open>
+    <details class="lecture-course book-course-qft">
       <summary>
         <span class="lecture-course-status">Textbook · published</span>
         <span class="lecture-course-title">Quantum Field Theory for Experimentalists and More</span>

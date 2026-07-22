@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Каталог книг">
-    <details class="lecture-course book-course-qft" open>
+    <details class="lecture-course book-course-qft">
       <summary>
         <span class="lecture-course-status">Учебник · опубликован</span>
         <span class="lecture-course-title">Квантовая теория поля для экспериментаторов и не только</span>
@@ -23,12 +23,12 @@ toc: false
           <img src="../assets/books/qft-cover-back.jpg" alt="Оборотная сторона обложки учебника «Квантовая теория поля для экспериментаторов и не только»">
         </div>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details class="lecture-material">
             <summary>Русское издание</summary>
             <div class="lecture-material-body">
               <p>Два тома доступны в бумажном и электронном форматах.</p>
               <div class="lecture-material-list">
-                <details class="lecture-material" open>
+                <details class="lecture-material">
                   <summary>Бумажная версия для России</summary>
                   <div class="lecture-material-body">
                     <div class="lecture-course-actions">

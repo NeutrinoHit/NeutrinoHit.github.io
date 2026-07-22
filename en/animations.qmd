@@ -16,7 +16,7 @@ toc: false
   </div>
 
   <section class="lecture-course-list animation-section-list" aria-label="Animation catalog">
-    <details class="lecture-course animation-section" open>
+    <details class="lecture-course animation-section">
       <summary>
         <span class="lecture-course-status">Visual library</span>
         <span class="lecture-course-title">Neutrinos, particles, fields, and quantum mechanics</span>
