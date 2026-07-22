@@ -17,7 +17,7 @@ lang: ru-RU
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
-    <details class="lecture-course animation-section animation-section-neutrino-particles" open>
+    <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
         <span class="lecture-course-status">11 сюжетов, 28 роликов</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
@@ -25,7 +25,7 @@ lang: ru-RU
       <div class="lecture-course-body">
         <p>Осцилляции нейтрино, каскады, ядерные процессы и диаграммы взаимодействий.</p>
         <div class="lecture-material-list animation-material-list">
-          <details class="lecture-material animation-material" open>
+          <details class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Нейтринные осцилляции</span>
               <span class="animation-material-count">4 ролика</span>

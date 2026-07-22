@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Photo album catalog">
-    <details class="lecture-course photo-course-archive" open>
+    <details class="lecture-course photo-course-archive">
       <summary>
         <span class="lecture-course-status">3 albums</span>
         <span class="lecture-course-title">Photo Archive</span>
@@ -19,7 +19,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Photographs from lectures, scientific schools, trips, and meetings.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details class="lecture-material">
             <summary>2026 · Baikal Summer School on Physics of Elementary Particles and Astrophysics</summary>
             <div class="lecture-material-body">
               <p>38 photos and 3 videos · Bolshie Koty, Lake Baikal · July 2026.</p>

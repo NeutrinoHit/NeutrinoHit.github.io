@@ -11,7 +11,7 @@ lang: ru-RU
   </p>
 
   <section class="lecture-course-list" aria-label="Каталог докладов">
-    <details class="lecture-course lecture-course-talk-conferences" open>
+    <details class="lecture-course lecture-course-talk-conferences">
       <summary>
         <span class="lecture-course-status">1 доклад опубликован</span>
         <span class="lecture-course-title">Конференции</span>

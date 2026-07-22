@@ -10,7 +10,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Разделы научной коммуникации">
-    <details id="outreach-lectures" class="lecture-course outreach-course-lectures" open>
+    <details id="outreach-lectures" class="lecture-course outreach-course-lectures">
       <summary>
         <span class="lecture-course-status">Научпоп-лекции</span>
         <span class="lecture-course-title">Физика частиц, астрофизика и современная физика для широкой аудитории</span>
@@ -18,7 +18,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Лекции и визуальные материалы открываются прямо из этого раздела. Старые адреса сохранены как рабочий архив.</p>
         <div class="lecture-material-list">
-          <details id="in-a-nutshell" class="lecture-material" open>
+          <details id="in-a-nutshell" class="lecture-material">
             <summary>Библиотечка «Простыми словами»</summary>
             <div class="lecture-material-body">
               <p>Короткие модули по 5–10 минут: один физический вопрос и один ясный ответ.</p>
@@ -50,7 +50,7 @@ toc: false
             </div>
           </details>
 
-          <details id="birth-life-universe" class="lecture-material" open>
+          <details id="birth-life-universe" class="lecture-material">
             <summary>Рождение и жизнь Вселенной</summary>
             <div class="lecture-material-body">
               <p>Горячее начало, первый свет, звезды, галактики, Земля и далекое будущее.</p>
@@ -62,7 +62,7 @@ toc: false
             </div>
           </details>
 
-          <details id="modern-physics-without-formulas" class="lecture-material" open>
+          <details id="modern-physics-without-formulas" class="lecture-material">
             <summary>Современная физика без формул</summary>
             <div class="lecture-material-body">
               <p class="course-note">Мини-курс о пространстве-времени, квантовых полях, Стандартной модели, поисках новой физики и перспективах экспериментальной физики частиц.</p>
@@ -97,7 +97,7 @@ toc: false
             </div>
           </details>
 
-          <details id="selected-lectures-films" class="lecture-material" open>
+          <details id="selected-lectures-films" class="lecture-material">
             <summary>Отдельные лекции и фильмы</summary>
             <div class="lecture-material-body">
               <p>Видео по нейтринной физике, современной физике и демонстрационным экспериментам.</p>
@@ -118,7 +118,7 @@ toc: false
             </div>
           </details>
 
-          <details id="black-holes" class="lecture-material" open>
+          <details id="black-holes" class="lecture-material">
             <summary>Чёрные дыры</summary>
             <div class="lecture-material-body">
               <p>Научно-популярная лекция о физике чёрных дыр.</p>
@@ -131,7 +131,7 @@ toc: false
             </div>
           </details>
 
-          <details id="dark-matter" class="lecture-material" open>
+          <details id="dark-matter" class="lecture-material">
             <summary>Тёмная материя</summary>
             <div class="lecture-material-body">
               <p>Наблюдательные свидетельства и возможная природа тёмной материи.</p>
@@ -147,7 +147,7 @@ toc: false
       </div>
     </details>
 
-    <details id="solar-neutrino-book" class="lecture-course book-course-solar" open>
+    <details id="solar-neutrino-book" class="lecture-course book-course-solar">
       <summary>
         <span class="lecture-course-status">Книги</span>
         <span class="lecture-course-title">Солнечное нейтрино</span>
@@ -165,7 +165,7 @@ toc: false
       <summary><span class="lecture-course-status">Фильмы</span><span class="lecture-course-title">Кино и визуальные проекты</span></summary>
       <div class="lecture-course-body">
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details class="lecture-material">
             <summary>Вселенная в нейтринном телескопе</summary>
             <div class="lecture-material-body cinema-material-detail"><a href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a><div><p>Фильм о том, как нейтринные телескопы открывают Вселенную. Сценарист и режиссер: Дмитрий Наумов.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">Смотреть на YouTube</a></div></div></div>
           </details>
@@ -179,8 +179,8 @@ toc: false
       <div class="lecture-course-body">
         <p>Разговоры о нейтринной физике, Байкальском телескопе и научной коммуникации.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open><summary>Ловушка для призраков: астрофизики черпают нейтрино из Байкала</summary><div class="lecture-material-body"><p>О Байкальском глубоководном нейтринном телескопе и задачах нейтринной астрономии.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1061/">Открыть материал</a></div></div></details>
-          <details class="lecture-material"><summary>Научная коммуникация — новое понятие и новые знания</summary><div class="lecture-material-body"><p>О группе научных коммуникаций ЛЯП ОИЯИ, действующих проектах и планах.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1062/">Открыть материал</a></div></div></details>
+          <details class="lecture-material"><summary>Ловушка для призраков: астрофизики черпают нейтрино из Байкала</summary><div class="lecture-material-body"><p>О Байкальском глубоководном нейтринном телескопе и задачах нейтринной астрономии.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1061/">Открыть материал</a></div></div></details>
+          <details class="lecture-material"><summary>Научная коммуникация — новое понятие и новые знания</summary><div class="lecture-material-body"><p>О группе научных коммуникаций <a href="https://dlnp.jinr.ru/">ЛЯП ОИЯИ</a>, действующих проектах и планах.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1062/">Открыть материал</a></div></div></details>
           <details class="lecture-material"><summary>Байкальский телескоп — уникальный инструмент нейтринной астрономии</summary><div class="lecture-material-body"><p>О роли Baikal-GVD и о сведениях об эволюции Вселенной, которые несут нейтрино.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1063/">Открыть материал</a></div></div></details>
           <details class="lecture-material"><summary>На дно за черной дырой</summary><div class="lecture-material-body"><p>Интервью «Российской газете» о запуске нейтринного телескопа на озере Байкал.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1064/">Открыть материал</a></div></div></details>
           <details class="lecture-material"><summary>Нейтрино нужно разговорить</summary><div class="lecture-material-body"><p>Интервью Яна Махонина для «Троицкого варианта — Наука».</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1065/">Открыть материал</a></div></div></details>

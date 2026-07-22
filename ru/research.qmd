@@ -13,7 +13,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Научные разделы">
-    <details id="research-profile" class="lecture-course" open>
+    <details id="research-profile" class="lecture-course">
       <summary>
         <span class="lecture-course-status">Исследовательский профиль</span>
         <span class="lecture-course-title">Нейтринная физика и астрофизика частиц</span>
@@ -25,8 +25,8 @@ toc: false
           квантово-полевое описание нейтринных процессов.
         </p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
-          <a href="https://naumov.jinr.ru/">Профиль JINR</a>
+          <a class="lecture-action-primary" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">Papers</a>
+          <a href="https://naumov.jinr.ru/">ОИЯИ</a>
           <a href="theses.html">Мои диссертации</a>
         </div>
       </div>
@@ -65,7 +65,7 @@ toc: false
           экспериментальным программам и состоянию области.
         </p>
         <div class="lecture-material-list">
-          <details id="talk-protvino-2026" class="lecture-material" open>
+          <details id="talk-protvino-2026" class="lecture-material">
             <summary>2-5 июня 2026 · Статус и перспективы физики нейтрино</summary>
             <div class="lecture-material-body">
               <p>Российские проекты в глобальном контексте.</p>

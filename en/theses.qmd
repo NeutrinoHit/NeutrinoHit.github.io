@@ -8,7 +8,7 @@ Dmitry Naumov's qualification works: diploma thesis, candidate dissertation, and
 
 ```{=html}
 <div class="thesis-list thesis-list-personal">
-  <details class="thesis-row" open>
+  <details class="thesis-row">
     <summary>
       <span class="thesis-year">1997</span>
       <span class="thesis-author">Diploma thesis</span>

@@ -9,7 +9,7 @@ title: "Альбомы"
   </p>
 
   <section class="lecture-course-list" aria-label="Каталог фотоальбомов">
-    <details class="lecture-course photo-course-archive" open>
+    <details class="lecture-course photo-course-archive">
       <summary>
         <span class="lecture-course-status">3 альбома</span>
         <span class="lecture-course-title">Фотоархив NeutrinoHit</span>
@@ -17,7 +17,7 @@ title: "Альбомы"
       <div class="lecture-course-body">
         <p>Фотографии лекций, научных школ, поездок и встреч.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details class="lecture-material">
             <summary>2026 · Байкальская школа по физике элементарных частиц и астрофизике</summary>
             <div class="lecture-material-body">
               <p>38 фото и 3 видео · Большие Коты, Байкал · июль 2026 года.</p>

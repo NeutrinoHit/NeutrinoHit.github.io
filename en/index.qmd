@@ -22,21 +22,24 @@ toc: false
         neutrino physics, astroparticle physics, quantum field theory,
         particle physics, statistics, astrophysics, and cosmology.
       </p>
-      <nav class="profile-links" aria-label="Main links">
-        <a href="https://naumov.jinr.ru/">JINR profile</a>
-        <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+      <nav class="profile-links" aria-label="Professional links">
+        <a href="cv.html">CV</a>
+        <a href="https://naumov.jinr.ru/">JINR</a>
+        <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">Papers</a>
         <a href="https://teach-in.ru/lecturer/naumov-dv">Teach-in</a>
+      </nav>
+      <nav class="profile-links profile-links-social" aria-label="Social links">
         <a href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a>
         <a href="https://t.me/NeutrinoHit">Telegram</a>
         <a href="https://www.facebook.com/dmitry.naumov.52">Facebook</a>
         <a href="https://www.instagram.com/dmitryvnaumov_dlnp/">Instagram</a>
       </nav>
         <p class="profile-metrics" data-inspire-stats>
-          <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">INSPIRE</a>
+          <a href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">Papers</a>
           <span><strong data-inspire-papers>~200</strong> publications</span>
           <span><strong data-inspire-citations>&gt;15,000</strong> citations</span>
           <span>h-index <strong data-inspire-h-index>51</strong></span>
-          <small data-inspire-status>Metrics are being checked via INSPIRE.</small>
+          <small data-inspire-status>Publication metrics are updated automatically.</small>
         </p>
     </div>
   </header>

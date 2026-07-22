@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <section class="lecture-course-list" aria-label="Software catalog">
-    <details class="lecture-course software-course-tools" open>
+    <details class="lecture-course software-course-tools">
       <summary>
         <span class="lecture-course-status">2 projects</span>
         <span class="lecture-course-title">Visualization and tools</span>
@@ -19,7 +19,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Tools for scientific illustrations and visual presentation of data.</p>
         <div class="lecture-material-list">
-          <details class="lecture-material" open>
+          <details class="lecture-material">
             <summary>dvnanima</summary>
             <div class="lecture-material-body">
               <p>Animations, visualizations, and scientific illustrations.</p>

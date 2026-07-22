@@ -9,6 +9,10 @@ project:
     - "assets/**"
     - "students/theses/**"
     - "theses/**"
+    - "en/cv.qmd"
+    - "ru/cv.qmd"
+    - "en/cv.pdf"
+    - "ru/cv.pdf"
   render:
     - "index.qmd"
     - "ru/*.qmd"

@@ -1,6 +1,6 @@
 ::: {.baikal-project-accordion}
 
-<details class="baikal-project-card" open>
+<details class="baikal-project-card">
 <summary>
   <span class="baikal-project-number">Project 1</span>
   <span class="baikal-project-title">Spacetime Geometry and Observer Kinematics</span>
