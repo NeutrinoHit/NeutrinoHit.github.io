@@ -27,7 +27,7 @@ Head, JINR Neutrino Program
 
 Dmitry V. Naumov is a physicist working in neutrino physics, astroparticle physics, particle physics, quantum field theory, statistical analysis, astrophysics, and cosmology. His work combines experimental leadership in large international collaborations, theoretical studies of neutrino interactions and oscillations, and long-term teaching and science communication.
 
-At JINR he leads the Neutrino Program and the JINR groups in the Daya Bay and JUNO experiments. He is also active in Baikal-GVD, in theoretical work on quantum-field-theoretical descriptions of neutrino processes, and in the development of educational materials for advanced students and researchers. He is the author of the two-volume textbook *Quantum Field Theory for Experimentalists and Beyond*.
+At JINR he leads the Neutrino Program and the JINR groups in the Daya Bay and JUNO experiments. He is also active in Baikal-GVD, in theoretical work on quantum-field-theoretical descriptions of neutrino processes, and in the development of educational materials for advanced students and researchers. He is the author of the two-volume textbook [*Quantum Field Theory for Experimentalists and Beyond*](books.html).
 
 ## Education
 
@@ -46,7 +46,7 @@ At JINR he leads the Neutrino Program and the JINR groups in the Daya Bay and JU
 
 ## Experimental Physics
 
-- **Daya Bay** — JINR group leader. The Daya Bay Collaboration received the Breakthrough Prize in Fundamental Physics and the European Physical Society Prize.
+- **[Daya Bay](https://dayabay.bnl.gov/)** — JINR group leader. The Daya Bay Collaboration received the [Breakthrough Prize in Fundamental Physics](https://breakthroughprize.org/Laureates/1/P1/Y2016) and the [European Physical Society Prize](https://eps-hepp.web.cern.ch/eps-hepp/PrizeAnnouncements/hep2023/EPS_HEPP2023_long.pdf).
 - **JUNO** — JINR group leader; Executive Board member; Publication Committee member.
 - **Baikal-GVD** — leadership of the [NTSim](https://pypi.org/project/ntsim/) simulation group until 2026.
 - **NOMAD** — data analysis and paper writing.
@@ -62,7 +62,7 @@ At JINR he leads the Neutrino Program and the JINR groups in the Daya Bay and JU
 
 ## Teaching, Supervision, and Schools
 
-- Lecturer of the course *Quantum Field Theory* at Moscow State University, with about twenty years of teaching experience.
+- Lecturer of the course [*Quantum Field Theory*](education.html#qft) at Moscow State University, with about twenty years of teaching experience.
 - Lecturer at numerous international and Russian schools in particle physics, neutrino physics, astroparticle physics, and related subjects.
 - Supervisor of more than twenty student projects and four PhD dissertations.
 - Chair and organiser of the Baikal School on Physics of Elementary Particles and Astrophysics since 2004.
@@ -71,8 +71,8 @@ At JINR he leads the Neutrino Program and the JINR groups in the Daya Bay and JU
 
 ## Books and Educational Materials
 
-- *Quantum Field Theory for Experimentalists and Beyond*, two-volume textbook, English edition in preparation for publication.
-- *Sun and Solar Neutrinos*, popular-science book, AVANTA, 2023.
+- [*Quantum Field Theory for Experimentalists and Beyond*](books.html), two-volume textbook, English edition in preparation for publication.
+- [*Sun and Solar Neutrinos*](books.html), popular-science book, AVANTA, 2023.
 - Public lectures, educational videos, interviews, exhibitions, scientific animations, and science-popularisation materials for broad and specialist audiences.
 
 ## Publication Activity
@@ -101,8 +101,8 @@ At JINR he leads the Neutrino Program and the JINR groups in the Daya Bay and JU
 
 ## Awards
 
-- European Physical Society Prize, 2023, as a member of the Daya Bay Collaboration.
-- Breakthrough Prize in Fundamental Physics, 2016, as a member of the Daya Bay Collaboration.
+- [European Physical Society Prize](https://eps-hepp.web.cern.ch/eps-hepp/PrizeAnnouncements/hep2023/EPS_HEPP2023_long.pdf), 2023, as a member of the [Daya Bay Collaboration](https://dayabay.bnl.gov/).
+- [Breakthrough Prize in Fundamental Physics](https://breakthroughprize.org/Laureates/1/P1/Y2016), 2016, as a member of the [Daya Bay Collaboration](https://dayabay.bnl.gov/).
 - JINR Prizes, including awards connected with the NOMAD and Daya Bay experiments.
 - [DLNP JINR](https://dlnp.jinr.ru/) Prizes in 2001, 2004, 2006, and 2016.
 - AYSS JINR Prize and Irkutsk State University Prize, 1997.
