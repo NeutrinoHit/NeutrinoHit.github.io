@@ -2031,3 +2031,98 @@
 .outreach-course-lectures > summary {
   background: linear-gradient(90deg, rgba(191, 139, 44, 0.16), rgba(255, 255, 255, 0.95) 68%);
 }
+
+.reference-row-body {
+  padding-top: 0.9rem;
+}
+
+.reference-source {
+  max-width: 52rem;
+  margin: 0 0 0.95rem !important;
+  padding: 0.74rem 0.86rem;
+  border-left: 4px solid #1f6f78;
+  border-radius: 0 7px 7px 0;
+  background: rgba(255, 255, 255, 0.74);
+  color: #53616f;
+  line-height: 1.5;
+}
+
+.reference-source a {
+  color: #175873;
+  font-weight: 700;
+}
+
+.reference-group {
+  margin-top: 1.05rem;
+}
+
+.reference-group h3 {
+  margin: 0 0 0.55rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(43, 67, 91, 0.12);
+  color: #25313a;
+  font-size: 1rem;
+}
+
+.reference-list {
+  display: grid;
+  gap: 0.52rem;
+}
+
+.reference-item {
+  padding: 0.68rem 0.74rem;
+  border: 1px solid rgba(43, 67, 91, 0.13);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.reference-item p {
+  max-width: none;
+  margin: 0 !important;
+  color: #53616f;
+  line-height: 1.42;
+}
+
+.reference-title {
+  color: #25313a;
+  font-weight: 680;
+}
+
+.reference-details {
+  color: #63717d;
+}
+
+.reference-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+  margin-top: 0.5rem;
+}
+
+
+.reference-links p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+  margin: 0 !important;
+}
+
+.reference-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.85rem;
+  padding: 0.28rem 0.52rem;
+  border: 1px solid #bdcad4;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #27475d;
+  font-size: 0.84rem;
+  font-weight: 680;
+  text-decoration: none;
+}
+
+.reference-links a:hover {
+  border-color: #1f6f78;
+  color: #175873;
+  text-decoration: none;
+}

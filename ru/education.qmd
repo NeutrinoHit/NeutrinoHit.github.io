@@ -328,6 +328,16 @@ toc: false
             <div class="lecture-material-body">
               <p>Курс лекций по физике нейтрино.</p>
               <div class="lecture-material-list">
+                <details id="neutrino-literature" class="lecture-material reference-row">
+                  <summary>Рекомендуемая литература</summary>
+                  <div class="lecture-material-body reference-row-body">
+```
+
+{{< include ../_includes/neutrino-literature-ru.html >}}
+
+```{=html}
+                  </div>
+                </details>
                 <details class="lecture-material">
                   <summary>01. Нейтрино 101</summary>
                   <div class="lecture-material-body">

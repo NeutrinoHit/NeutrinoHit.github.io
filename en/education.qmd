@@ -315,6 +315,16 @@ toc: false
             <div class="lecture-material-body">
               <p>Lecture course in neutrino physics.</p>
               <div class="lecture-material-list">
+                <details id="neutrino-literature" class="lecture-material reference-row">
+                  <summary>Recommended Reading</summary>
+                  <div class="lecture-material-body reference-row-body">
+```
+
+{{< include ../_includes/neutrino-literature-en.html >}}
+
+```{=html}
+                  </div>
+                </details>
                 <details class="lecture-material">
                   <summary>01. Neutrino 101</summary>
                   <div class="lecture-material-body">
