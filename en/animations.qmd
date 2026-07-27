@@ -10,12 +10,57 @@ toc: false
     Scientific animations from the dvnanima project. The public library includes neutrino oscillations, JUNO, detector concepts, wave packets, fields, quantum mechanics, and other visual explanations.
   </p>
   <div class="animation-catalog-meta">
-    <span>29 stories</span>
-    <span>73 videos</span>
+    <span>30 stories</span>
+    <span>76 videos</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">dvnanima repository</a>
   </div>
 
   <section class="lecture-course-list animation-section-list" aria-label="Animation catalog">
+    <details class="lecture-course animation-section" open>
+      <summary>
+        <span class="lecture-course-status">3 videos</span>
+        <span class="lecture-course-title">Electron motion and the KATRIN MAC-E filter</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Exact relativistic helical motion in a uniform magnetic field, reversible magnetic collimation, and electrostatic transmission or reflection in the KATRIN spectrometer.</p>
+        <div class="animation-video-grid">
+          <figure class="animation-video-frame">
+            <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-uniform-field.jpg">
+              <source src="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-uniform-field.mp4" type="video/mp4">
+            </video>
+            <figcaption>
+              <span>Helical motion in a uniform field</span>
+              <small>2.9 MB</small>
+            </figcaption>
+          </figure>
+          <figure class="animation-video-frame">
+            <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-collimation.jpg">
+              <source src="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-collimation.mp4" type="video/mp4">
+            </video>
+            <figcaption>
+              <span>Magnetic collimation in KATRIN</span>
+              <small>354.1 KB</small>
+            </figcaption>
+          </figure>
+          <figure class="animation-video-frame">
+            <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-electric.jpg">
+              <source src="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-electric.mp4" type="video/mp4">
+            </video>
+            <figcaption>
+              <span>MAC-E transmission and reflection</span>
+              <small>412.9 KB</small>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="lecture-course-actions animation-actions">
+          <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/mac-e-filter">Source code and physics notes</a>
+          <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-uniform-field.mp4">MP4: uniform field</a>
+          <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-collimation.mp4">MP4: KATRIN collimation</a>
+          <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-electric.mp4">MP4: MAC-E filter</a>
+        </div>
+      </div>
+    </details>
+
     <details class="lecture-course animation-section">
       <summary>
         <span class="lecture-course-status">Visual library</span>
