@@ -12,14 +12,14 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>29 сюжетов</span>
-    <span>73 ролика</span>
+    <span>30 сюжетов</span>
+    <span>76 роликов</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">11 сюжетов, 28 роликов</span>
+        <span class="lecture-course-status">12 сюжетов, 31 ролик</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -432,6 +432,50 @@ lang: ru-RU
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/pmt">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-pmt-pmt-schematic.mp4">MP4: PMT schematic</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Электроны в магнитном поле и MAC-E-фильтр KATRIN</span>
+              <span class="animation-material-count">3 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Точное релятивистское винтовое движение, обратимая магнитная коллимация и электростатический анализ электронов в спектрометре KATRIN.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-uniform-field.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-uniform-field.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Винтовое движение в однородном поле</span>
+                    <small>2.9 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-collimation.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-collimation.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Магнитная коллимация KATRIN</span>
+                    <small>354.1 KB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-electric.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-electric.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>MAC-E: прохождение и отражение</span>
+                    <small>412.9 KB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/mac-e-filter">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-uniform-field.mp4">MP4: Винтовое движение в однородном поле</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-collimation.mp4">MP4: Магнитная коллимация KATRIN</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-electric.mp4">MP4: MAC-E: прохождение и отражение</a>
               </div>
             </div>
           </details>

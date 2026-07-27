@@ -13,11 +13,11 @@ toc: false
   <section class="lecture-course-list" aria-label="Modeling and software projects">
     <details class="lecture-course resource-card-animation">
       <summary>
-        <span class="lecture-course-status">28 stories · 72 clips</span>
+        <span class="lecture-course-status">30 stories · 76 videos</span>
         <span class="lecture-course-title">Animations</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Scientific animations by dvnanima: neutrinos and particles, fields and waves, mathematics, dynamical systems, and visual science stories.</p>
+        <p>Scientific animations by dvnanima: neutrinos and particles, the KATRIN MAC-E filter, fields and waves, mathematics, dynamical systems, and visual science stories.</p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="animations.html">Open animations page</a>
           <a href="https://github.com/NeutrinoHit/dvnanima">Source code</a>

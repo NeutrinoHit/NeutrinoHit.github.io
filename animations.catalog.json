@@ -223,6 +223,29 @@
           ]
         },
         {
+          "id": "mac-e-filter",
+          "title": "Электроны в магнитном поле и MAC-E-фильтр KATRIN",
+          "source_dir": "mac-e-filter",
+          "description": "Точное релятивистское винтовое движение, обратимая магнитная коллимация и электростатический анализ электронов в спектрометре KATRIN.",
+          "videos": [
+            {
+              "id": "uniform-field",
+              "label": "Винтовое движение в однородном поле",
+              "path": "mac-e-filter/media/uniform_b_ensemble_4k.mp4"
+            },
+            {
+              "id": "katrin-collimation",
+              "label": "Магнитная коллимация KATRIN",
+              "path": "mac-e-filter/media/katrin_source_to_detector_4k.mp4"
+            },
+            {
+              "id": "katrin-electric",
+              "label": "MAC-E: прохождение и отражение",
+              "path": "mac-e-filter/media/katrin_mac_e_electric_4k.mp4"
+            }
+          ]
+        },
+        {
           "id": "cherenkov-cone",
           "title": "Конус Черенкова",
           "source_dir": "cherenkov_cone",
