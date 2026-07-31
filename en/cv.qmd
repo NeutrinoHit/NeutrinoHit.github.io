@@ -27,7 +27,7 @@ Head, JINR Neutrino Program
 
 Dmitry V. Naumov is a physicist working in neutrino physics, astroparticle physics, particle physics, quantum field theory, statistical analysis, astrophysics, and cosmology. His work combines experimental leadership in large international collaborations, theoretical studies of neutrino interactions and oscillations, and long-term teaching and science communication.
 
-At JINR he leads the Neutrino Program and the JINR groups in the Daya Bay and JUNO experiments. He is also active in Baikal-GVD, in theoretical work on quantum-field-theoretical descriptions of neutrino processes, and in the development of educational materials for advanced students and researchers. He is the author of the two-volume textbook [*Quantum Field Theory for Experimentalists and Beyond*](books.html).
+At JINR he leads the Neutrino Program and the JINR groups in the Daya Bay and JUNO experiments. He is also active in Baikal-GVD, in theoretical work on quantum-field-theoretical descriptions of neutrino processes, and in the development of educational materials for advanced students and researchers. He is the author of the published two-volume Russian textbook [*Quantum Field Theory for Experimentalists and Beyond*](books.html).
 
 ## Education
 
@@ -71,8 +71,9 @@ At JINR he leads the Neutrino Program and the JINR groups in the Daya Bay and JU
 
 ## Books and Educational Materials
 
-- [*Quantum Field Theory for Experimentalists and Beyond*](books.html), two-volume textbook, English edition in preparation for publication.
-- [*Sun and Solar Neutrinos*](books.html), popular-science book, AVANTA, 2023.
+- *Квантовая теория поля для экспериментаторов и не только* (*Quantum Field Theory for Experimentalists and Beyond*), two-volume Russian textbook, IKI, 2026; ISBN [978-5-4344-1081-6](https://shop.rcd.ru/catalog/fizika/20042/) (Vol. 1), [978-5-4344-1082-3](https://shop.rcd.ru/catalog/fizika/20097/) (Vol. 2).
+- *Quantum Field Theory for Experimentalists and Beyond*, English-language edition currently being prepared for submission.
+- [*Sun and Solar Neutrinos*](books.html), popular-science book, AVANTA/AST, 2023; ISBN 978-5-17-146555-1.
 - Public lectures, educational videos, interviews, exhibitions, scientific animations, and science-popularisation materials for broad and specialist audiences.
 
 ## Publication Activity

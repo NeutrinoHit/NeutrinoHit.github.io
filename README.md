@@ -57,32 +57,40 @@ PDF-файлы `ru/cv.pdf` и `en/cv.pdf` публикуются как гото
 `neutrinohit-map`:
 
 ```bash
-NEUTRINOHIT_SYNC_PROJECT_SITES=0 quarto render ru/cv.qmd --to pdf \
+NEUTRINOHIT_SYNC_PROJECT_SITES=0 NEUTRINOHIT_VALIDATE_REVEAL_CONTEXTS=0 quarto render ru/cv.qmd --to pdf \
+  -H ../assets/cv-pdf-compact.tex \
   -M pdf-engine:xelatex \
   -M papersize:a4 \
   -M mainfont:'PT Serif' \
   -M sansfont:'PT Serif' \
   -M monofont:Menlo \
-  -M fontsize:10pt \
-  -M geometry:top=18mm,bottom=18mm,left=19mm,right=19mm \
+  -M fontsize:9pt \
+  -M geometry:top=14mm,bottom=14mm,left=16mm,right=16mm \
   -M colorlinks:true
 cp _site/ru/cv.pdf ru/cv.pdf
 
-NEUTRINOHIT_SYNC_PROJECT_SITES=0 quarto render en/cv.qmd --to pdf \
+NEUTRINOHIT_SYNC_PROJECT_SITES=0 NEUTRINOHIT_VALIDATE_REVEAL_CONTEXTS=0 quarto render en/cv.qmd --to pdf \
+  -H ../assets/cv-pdf-compact.tex \
   -M pdf-engine:xelatex \
   -M papersize:a4 \
   -M mainfont:'PT Serif' \
   -M sansfont:'PT Serif' \
   -M monofont:Menlo \
-  -M fontsize:10pt \
-  -M geometry:top=18mm,bottom=18mm,left=19mm,right=19mm \
+  -M fontsize:9pt \
+  -M geometry:top=14mm,bottom=14mm,left=16mm,right=16mm \
   -M colorlinks:true
 cp _site/en/cv.pdf en/cv.pdf
 ```
 
-Ручной PDF-рендер Quarto пишет результат в `_site`, поэтому после него PDF
-нужно скопировать в исходные `ru/cv.pdf` и `en/cv.pdf`. При следующем обычном
-`quarto render` эти готовые PDF будут скопированы в `_site` как ресурсы.
+`assets/cv-pdf-compact.tex` используется только для ручной PDF-сборки CV:
+он уплотняет списки и заголовки в PDF и не влияет на HTML-страницы.
+`NEUTRINOHIT_VALIDATE_REVEAL_CONTEXTS=0` отключает проверку RevealJS-контекстов
+только в этом ручном PDF-сценарии, чтобы сборка CV не зависела от локальных
+копий соседних курсов. Обычный `quarto render` запускается без этой переменной
+и сохраняет проверку. Ручной PDF-рендер Quarto пишет результат в `_site`,
+поэтому после него PDF нужно скопировать в исходные `ru/cv.pdf` и `en/cv.pdf`.
+При следующем обычном `quarto render` эти готовые PDF будут скопированы в
+`_site` как ресурсы.
 
 ## Фотоальбомы
 

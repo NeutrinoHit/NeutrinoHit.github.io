@@ -1,0 +1,25 @@
+\usepackage{enumitem}
+\usepackage{etoolbox}
+\usepackage{needspace}
+
+\setlist[itemize]{nosep,leftmargin=1.25em,topsep=0.1em}
+\setlist[enumerate]{nosep,leftmargin=1.25em,topsep=0.1em}
+
+\RedeclareSectionCommand[
+  beforeskip=0.5\baselineskip,
+  afterskip=0.2\baselineskip
+]{section}
+
+\RedeclareSectionCommand[
+  beforeskip=0.4\baselineskip,
+  afterskip=0.12\baselineskip
+]{subsection}
+
+\setkomafont{title}{\Large\bfseries}
+\setkomafont{subtitle}{\normalsize}
+\setkomafont{section}{\large\bfseries}
+\setkomafont{subsection}{\normalsize\bfseries}
+\setlength{\parskip}{0.2\baselineskip}
+
+\pretocmd{\section}{\Needspace{8\baselineskip}}{}{}
+\pretocmd{\subsection}{\Needspace{5\baselineskip}}{}{}
