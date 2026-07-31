@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import errno
+import os
 import re
 import sys
 import urllib.error
@@ -210,6 +211,10 @@ def validate_occurrence(occurrence: Occurrence, allowed_targets: dict[str, str])
 
 
 def main() -> int:
+    if os.environ.get("NEUTRINOHIT_VALIDATE_REVEAL_CONTEXTS", "1") in {"0", "false", "False"}:
+        print("[reveal-context] skipped")
+        return 0
+
     allowed_targets = load_allowed_targets()
 
     source_files: list[Path] = []
