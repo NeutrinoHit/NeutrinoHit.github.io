@@ -8,24 +8,24 @@ lang: ru-RU
 ```{=html}
 <div class="lecture-catalog animation-catalog">
   <p class="lecture-catalog-lead">
-    Подборка научных анимаций из проекта dvnanima. Ролики на этой странице
+    Подборка научных анимаций проектов NeutrinoHit. Ролики на этой странице
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>30 сюжетов</span>
-    <span>76 роликов</span>
+    <span>35 сюжетов</span>
+    <span>81 ролик</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">12 сюжетов, 31 ролик</span>
+        <span class="lecture-course-status">13 сюжетов, 32 ролика</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
         <p>Осцилляции нейтрино, каскады, ядерные процессы и диаграммы взаимодействий.</p>
         <div class="lecture-material-list animation-material-list">
-          <details class="lecture-material animation-material">
+          <details id="animation-neutrino-particles-neutrino-oscillations" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Нейтринные осцилляции</span>
               <span class="animation-material-count">4 ролика</span>
@@ -79,7 +79,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-neutrino-particles-neutrino-oscillation-phases" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Осцилляции нейтрино с фазами</span>
               <span class="animation-material-count">1 ролик</span>
@@ -103,7 +103,31 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-neutrino-particles-quantum-chameleon" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Нейтрино — квантовый хамелеон</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Шуточная иллюстрация нейтрино как квантового хамелеона, который подстраивает окраску под окружение.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../neutrinophysics/introduction/ru/slides/assets/05_vacuum_oscillations/quantum_chameleon.jpg">
+                    <source src="../neutrinophysics/introduction/ru/slides/assets/05_vacuum_oscillations/quantum_chameleon.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Квантовый хамелеон</span>
+                    <small>1.2 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/neutrinophysics/tree/main/introduction/ru/slides/assets/05_vacuum_oscillations">Исходный код</a>
+                <a href="../neutrinophysics/introduction/ru/slides/assets/05_vacuum_oscillations/quantum_chameleon.mp4">MP4: Квантовый хамелеон</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-neutrino-particles-mass-hierarchy" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Иерархия масс нейтрино</span>
               <span class="animation-material-count">1 ролик</span>
@@ -127,7 +151,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-neutrino-particles-juno" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">JUNO</span>
               <span class="animation-material-count">10 роликов</span>
@@ -241,7 +265,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-neutrino-particles-air-shower" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Атмосферный ливень</span>
               <span class="animation-material-count">1 ролик</span>
@@ -265,7 +289,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-neutrino-particles-pp-cycle" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Протон-протонный цикл</span>
               <span class="animation-material-count">3 ролика</span>
@@ -309,7 +333,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-neutrino-particles-bbn" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Первичный нуклеосинтез</span>
               <span class="animation-material-count">1 ролик</span>
@@ -333,7 +357,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-neutrino-particles-feynman-scattering" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Диаграммы рассеяния</span>
               <span class="animation-material-count">4 ролика</span>
@@ -387,7 +411,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-neutrino-particles-nucleus-shapes" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Формы ядер</span>
               <span class="animation-material-count">1 ролик</span>
@@ -411,7 +435,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-neutrino-particles-pmt" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Фотоумножитель</span>
               <span class="animation-material-count">1 ролик</span>
@@ -435,7 +459,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-neutrino-particles-mac-e-filter" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Электроны в магнитном поле и MAC-E-фильтр KATRIN</span>
               <span class="animation-material-count">3 ролика</span>
@@ -479,7 +503,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-neutrino-particles-cherenkov-cone" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Конус Черенкова</span>
               <span class="animation-material-count">1 ролик</span>
@@ -514,7 +538,7 @@ lang: ru-RU
       <div class="lecture-course-body">
         <p>Электромагнитные поля, волновые пакеты, связанные осцилляторы и простые электронные схемы.</p>
         <div class="lecture-material-list animation-material-list">
-          <details class="lecture-material animation-material">
+          <details id="animation-fields-waves-scalar-qed" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Scalar QED: волновые пакеты</span>
               <span class="animation-material-count">3 ролика</span>
@@ -558,7 +582,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-fields-waves-mediator-interaction" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Взаимодействие через поле-переносчик</span>
               <span class="animation-material-count">2 ролика</span>
@@ -592,7 +616,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-fields-waves-free-wavepackets" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Свободные волновые пакеты</span>
               <span class="animation-material-count">2 ролика</span>
@@ -626,7 +650,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-fields-waves-coupled-oscillators-fields" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Связанные осцилляторы</span>
               <span class="animation-material-count">3 ролика</span>
@@ -670,7 +694,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-fields-waves-radiating-charge" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Излучающий заряд</span>
               <span class="animation-material-count">1 ролик</span>
@@ -694,7 +718,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-fields-waves-coupled-pendulums" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Связанные маятники</span>
               <span class="animation-material-count">1 ролик</span>
@@ -718,7 +742,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-fields-waves-capacitor" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Конденсатор в переменном токе</span>
               <span class="animation-material-count">1 ролик</span>
@@ -742,7 +766,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-fields-waves-diode" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Диод в переменном токе</span>
               <span class="animation-material-count">1 ролик</span>
@@ -766,7 +790,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-fields-waves-peak-detector" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Пиковый детектор</span>
               <span class="animation-material-count">1 ролик</span>
@@ -790,7 +814,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-fields-waves-cockcroft-walton" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Генератор Кокрофта-Уолтона</span>
               <span class="animation-material-count">1 ролик</span>
@@ -825,7 +849,7 @@ lang: ru-RU
       <div class="lecture-course-body">
         <p>Фурье-рисование, аттракторы, ретроградное движение, спирали и комплексные степени.</p>
         <div class="lecture-material-list animation-material-list">
-          <details class="lecture-material animation-material">
+          <details id="animation-math-dynamical-systems-fourier-drawing" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Фурье-рисование</span>
               <span class="animation-material-count">8 роликов</span>
@@ -919,7 +943,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-math-dynamical-systems-retrograde-motion" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Ретроградное движение</span>
               <span class="animation-material-count">9 роликов</span>
@@ -1023,7 +1047,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-math-dynamical-systems-strange-attractors" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Странные аттракторы</span>
               <span class="animation-material-count">5 роликов</span>
@@ -1087,7 +1111,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-math-dynamical-systems-riemann-zeta" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Спираль дзета-функции Римана</span>
               <span class="animation-material-count">2 ролика</span>
@@ -1121,7 +1145,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-math-dynamical-systems-pi-day-spiral" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Спираль числа π</span>
               <span class="animation-material-count">1 ролик</span>
@@ -1145,7 +1169,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-math-dynamical-systems-imaginary-powers" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Комплексные степени</span>
               <span class="animation-material-count">1 ролик</span>
@@ -1172,6 +1196,113 @@ lang: ru-RU
         </div>
       </div>
     </details>
+    <details class="lecture-course animation-section animation-section-accelerator-optics">
+      <summary>
+        <span class="lecture-course-status">4 сюжета, 4 ролика</span>
+        <span class="lecture-course-title">Ускорители и магнитная оптика</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Как диполи, квадруполи и секступоли направляют и удерживают пучок частиц.</p>
+        <div class="lecture-material-list animation-material-list">
+          <details id="animation-accelerator-optics-dipole" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Диполь: поворот частицы</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Почему магнит поворачивает частицу, но не увеличивает её энергию.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/accelerator-optics-dipole-dipole.jpg">
+                    <source src="../assets/animations/dvnanima/accelerator-optics-dipole-dipole.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Как диполь поворачивает частицу</span>
+                    <small>884.0 KB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/magnetic_optics.py">Исходный код</a>
+                <a href="../assets/animations/dvnanima/accelerator-optics-dipole-dipole.mp4">MP4: Как диполь поворачивает частицу</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-accelerator-optics-quadrupole" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Квадруполь: магнитная линза</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Как чередующиеся квадруполи удерживают пучок сразу в двух плоскостях.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/accelerator-optics-quadrupole-quadrupole.jpg">
+                    <source src="../assets/animations/dvnanima/accelerator-optics-quadrupole-quadrupole.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Как квадруполи фокусируют пучок</span>
+                    <small>1.8 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/quadrupole_optics.py">Исходный код</a>
+                <a href="../assets/animations/dvnanima/accelerator-optics-quadrupole-quadrupole.mp4">MP4: Как квадруполи фокусируют пучок</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-accelerator-optics-sextupole" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Секступоль: поправка для разных импульсов</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Почему одного квадруполя недостаточно и как секступоль исправляет импульсную ошибку.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/accelerator-optics-sextupole-sextupole.jpg">
+                    <source src="../assets/animations/dvnanima/accelerator-optics-sextupole-sextupole.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Как секступоль исправляет фокусировку</span>
+                    <small>1.2 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/sextupole_optics.py">Исходный код</a>
+                <a href="../assets/animations/dvnanima/accelerator-optics-sextupole-sextupole.mp4">MP4: Как секступоль исправляет фокусировку</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-accelerator-optics-ring" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Собираем накопительное кольцо</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Диполи, квадруполи и секступоли по шагам, а затем полный оборот пучка по кольцу.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/accelerator-optics-ring-ring.jpg">
+                    <source src="../assets/animations/dvnanima/accelerator-optics-ring-ring.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Как работает накопительное кольцо</span>
+                    <small>5.1 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/ring_optics.py">Исходный код</a>
+                <a href="../assets/animations/dvnanima/accelerator-optics-ring-ring.mp4">MP4: Как работает накопительное кольцо</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
     <details class="lecture-course animation-section animation-section-visual-stories">
       <summary>
         <span class="lecture-course-status">2 сюжета, 3 ролика</span>
@@ -1180,7 +1311,7 @@ lang: ru-RU
       <div class="lecture-course-body">
         <p>Короткие самостоятельные анимации и научно-популярные визуальные истории.</p>
         <div class="lecture-material-list animation-material-list">
-          <details class="lecture-material animation-material">
+          <details id="animation-visual-stories-rose-eight" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Восьмёрка роз</span>
               <span class="animation-material-count">1 ролик</span>
@@ -1204,7 +1335,7 @@ lang: ru-RU
               </div>
             </div>
           </details>
-          <details class="lecture-material animation-material">
+          <details id="animation-visual-stories-barkov" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Звезда, ветер и облако</span>
               <span class="animation-material-count">2 ролика</span>

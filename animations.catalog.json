@@ -49,6 +49,20 @@
           ]
         },
         {
+          "id": "quantum-chameleon",
+          "title": "Нейтрино — квантовый хамелеон",
+          "source_url": "https://github.com/NeutrinoHit/neutrinophysics/tree/main/introduction/ru/slides/assets/05_vacuum_oscillations",
+          "description": "Шуточная иллюстрация нейтрино как квантового хамелеона, который подстраивает окраску под окружение.",
+          "videos": [
+            {
+              "id": "camouflage",
+              "label": "Квантовый хамелеон",
+              "source_path": "neutrinophysics/introduction/ru/slides/assets/05_vacuum_oscillations/quantum_chameleon.mp4",
+              "publish_with_project_site": true
+            }
+          ]
+        },
+        {
           "id": "mass-hierarchy",
           "title": "Иерархия масс нейтрино",
           "source_dir": "mass_hierarchy",
@@ -607,6 +621,70 @@
               "id": "imaginary-power",
               "label": "Imaginary powers",
               "path": "imaginary/media/videos/imagine/1920p60/ImaginaryPowerScene.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accelerator-optics",
+      "title": "Ускорители и магнитная оптика",
+      "summary": "Как диполи, квадруполи и секступоли направляют и удерживают пучок частиц.",
+      "items": [
+        {
+          "id": "dipole",
+          "title": "Диполь: поворот частицы",
+          "source_url": "https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/magnetic_optics.py",
+          "description": "Почему магнит поворачивает частицу, но не увеличивает её энергию.",
+          "videos": [
+            {
+              "id": "dipole",
+              "label": "Как диполь поворачивает частицу",
+              "path": "accelerator_optics/media/videos/magnetic_optics/1920p60/DipoleMagnetScene.mp4",
+              "poster_time": 8.0
+            }
+          ]
+        },
+        {
+          "id": "quadrupole",
+          "title": "Квадруполь: магнитная линза",
+          "source_url": "https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/quadrupole_optics.py",
+          "description": "Как чередующиеся квадруполи удерживают пучок сразу в двух плоскостях.",
+          "videos": [
+            {
+              "id": "quadrupole",
+              "label": "Как квадруполи фокусируют пучок",
+              "path": "accelerator_optics/media/videos/quadrupole_optics/1920p60/QuadrupoleMagnetScene.mp4",
+              "poster_time": 12.0
+            }
+          ]
+        },
+        {
+          "id": "sextupole",
+          "title": "Секступоль: поправка для разных импульсов",
+          "source_url": "https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/sextupole_optics.py",
+          "description": "Почему одного квадруполя недостаточно и как секступоль исправляет импульсную ошибку.",
+          "videos": [
+            {
+              "id": "sextupole",
+              "label": "Как секступоль исправляет фокусировку",
+              "path": "accelerator_optics/media/videos/sextupole_optics/1920p60/SextupoleMagnetScene.mp4",
+              "poster_time": 10.0
+            }
+          ]
+        },
+        {
+          "id": "ring",
+          "title": "Собираем накопительное кольцо",
+          "source_url": "https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/ring_optics.py",
+          "description": "Диполи, квадруполи и секступоли по шагам, а затем полный оборот пучка по кольцу.",
+          "videos": [
+            {
+              "id": "ring",
+              "label": "Как работает накопительное кольцо",
+              "path": "accelerator_optics/media/videos/ring_optics/1920p60/StorageRingScene.mp4",
+              "poster_time": 4.5,
+              "copy_only": true
             }
           ]
         }
