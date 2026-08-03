@@ -109,7 +109,23 @@ def copy_video(source: Path, target: Path) -> None:
     shutil.copy2(source, target)
 
 
-def build_poster(source: Path, target: Path, force: bool) -> None:
+def resolve_video_source(video: dict[str, Any], dvnanima_root: Path) -> Path:
+    source_path = video.get("source_path")
+    if not source_path:
+        return dvnanima_root / video["path"]
+
+    source = Path(source_path)
+    if source.is_absolute():
+        return source
+    return SITE_ROOT.parent / source
+
+
+def build_poster(
+    source: Path,
+    target: Path,
+    force: bool,
+    poster_time: float = 0.35,
+) -> None:
     if not shell_available("ffmpeg") or not needs_update(source, target, force):
         return
     tmp = target.with_suffix(".tmp.jpg")
@@ -127,7 +143,7 @@ def build_poster(source: Path, target: Path, force: bool) -> None:
             "-loglevel",
             "error",
             "-ss",
-            "0.35",
+            str(poster_time),
             "-i",
             str(source),
             "-vframes",
@@ -161,9 +177,27 @@ def sync_assets(
             item_id = item["id"]
             for video in item["videos"]:
                 video_id = video["id"]
-                source = dvnanima_root / video["path"]
+                source = resolve_video_source(video, dvnanima_root)
                 if not source.exists():
                     raise FileNotFoundError(f"Missing animation source: {source}")
+                poster_time = float(video.get("poster_time", 0.35))
+
+                if video.get("publish_with_project_site"):
+                    source_path = Path(video["source_path"])
+                    if source_path.is_absolute():
+                        raise ValueError(
+                            "publish_with_project_site requires a workspace-relative source_path"
+                        )
+                    poster_source = source.with_suffix(".jpg")
+                    build_poster(source, poster_source, force, poster_time)
+                    assets[(section_id, item_id, video_id)] = {
+                        "movie": source_path.as_posix(),
+                        "poster": source_path.with_suffix(".jpg").as_posix()
+                        if poster_source.exists()
+                        else "",
+                        "size": human_size(source),
+                    }
+                    continue
 
                 stem = f"{section_id}-{item_id}-{video_id}"
                 movie = asset_dir / f"{stem}.mp4"
@@ -171,12 +205,17 @@ def sync_assets(
 
                 if not skip_video_sync and needs_update(source, movie, force):
                     source_mb = source.stat().st_size / (1024 * 1024)
-                    if copy_only or not ffmpeg or source_mb <= transcode_threshold_mb:
+                    if (
+                        copy_only
+                        or video.get("copy_only")
+                        or not ffmpeg
+                        or source_mb <= transcode_threshold_mb
+                    ):
                         copy_video(source, movie)
                     else:
                         transcode_video(source, movie)
 
-                build_poster(source, poster, force)
+                build_poster(source, poster, force, poster_time)
 
                 if not movie.exists():
                     raise FileNotFoundError(f"Missing synced animation asset: {movie}")
@@ -233,7 +272,7 @@ def render_qmd(
         "```{=html}",
         '<div class="lecture-catalog animation-catalog">',
         '  <p class="lecture-catalog-lead">',
-        "    Подборка научных анимаций из проекта dvnanima. Ролики на этой странице",
+        "    Подборка научных анимаций проектов NeutrinoHit. Ролики на этой странице",
         "    опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.",
         "  </p>",
         '  <div class="animation-catalog-meta">',
@@ -266,9 +305,10 @@ def render_qmd(
 
         for item in section["items"]:
             video_status = plural_ru(len(item["videos"]), "ролик", "ролика", "роликов")
+            material_id = f'animation-{section["id"]}-{item["id"]}'
             lines.extend(
                 [
-                    '          <details class="lecture-material animation-material">',
+                    f'          <details id="{esc(material_id)}" class="lecture-material animation-material">',
                     "            <summary>",
                     f'              <span class="animation-material-title">{esc(item["title"])}</span>',
                     f'              <span class="animation-material-count">{esc(video_status)}</span>',
@@ -320,9 +360,11 @@ def render_qmd(
                     '              <div class="lecture-course-actions animation-actions">',
                 ]
             )
+            source_url = item.get("source_url")
             source_dir = item.get("source_dir")
-            if source_dir:
+            if not source_url and source_dir:
                 source_url = f"{source_base_url}/{source_dir.strip('/')}"
+            if source_url:
                 lines.append(
                     f'                <a class="lecture-action-primary" href="{esc(source_url)}">Исходный код</a>'
                 )
