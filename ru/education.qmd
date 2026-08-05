@@ -327,6 +327,9 @@ toc: false
             <summary>Введение в физику нейтрино</summary>
             <div class="lecture-material-body">
               <p>Курс лекций по физике нейтрино.</p>
+              <div class="lecture-course-actions">
+                <a href="../neutrinophysics/introduction/ru/exercises/index.html">Все задачи</a>
+              </div>
               <div class="lecture-material-list">
                 <details id="neutrino-literature" class="lecture-material reference-row">
                   <summary>Рекомендуемая литература</summary>
@@ -344,6 +347,7 @@ toc: false
                     <p>Основные свойства, история открытия и открытые вопросы.</p>
                     <div class="lecture-course-actions">
                       <a class="lecture-action-primary" href="../neutrinophysics/introduction/Introduction/index.html">Открыть лекцию</a>
+                      <a href="../neutrinophysics/introduction/ru/exercises/01_neutrino_101_exercises.html">Задачи</a>
                     </div>
                   </div>
                 </details>
@@ -353,6 +357,7 @@ toc: false
                     <p>Пространственная четность и слабые взаимодействия.</p>
                     <div class="lecture-course-actions">
                       <a class="lecture-action-primary" href="../neutrinophysics/introduction/Parity/index.html">Открыть лекцию</a>
+                      <a href="../neutrinophysics/introduction/ru/exercises/02_parity_exercises.html">Задачи</a>
                     </div>
                   </div>
                 </details>
@@ -362,6 +367,7 @@ toc: false
                     <p>Спин, поляризация и спиральность нейтрино.</p>
                     <div class="lecture-course-actions">
                       <a class="lecture-action-primary" href="../neutrinophysics/introduction/Helicity/index.html">Открыть лекцию</a>
+                      <a href="../neutrinophysics/introduction/ru/exercises/03_helicity_exercises.html">Задачи</a>
                     </div>
                   </div>
                 </details>
@@ -371,6 +377,7 @@ toc: false
                     <p>Кинематика, ускорители и эксперименты с тритием.</p>
                     <div class="lecture-course-actions">
                       <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/04_direct_neutrino_mass.html">Открыть лекцию</a>
+                      <a href="../neutrinophysics/introduction/ru/exercises/04_direct_neutrino_mass_exercises.html">Задачи</a>
                     </div>
                   </div>
                 </details>
@@ -380,6 +387,7 @@ toc: false
                     <p>Плосковолновая теория, длины осцилляций и практические примеры.</p>
                     <div class="lecture-course-actions">
                       <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/05_vacuum_oscillations.html">Открыть лекцию</a>
+                      <a href="../neutrinophysics/introduction/ru/exercises/05_vacuum_oscillations_exercises.html">Задачи</a>
                     </div>
                   </div>
                 </details>
