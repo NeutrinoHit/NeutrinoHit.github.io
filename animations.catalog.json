@@ -170,6 +170,28 @@
           ]
         },
         {
+          "id": "solar-photon-diffusion",
+          "title": "Как свет выходит из Солнца",
+          "source_dir": "solar_photon_diffusion",
+          "description": "Минутная физическая визуализация переноса излучения: случайный ход в ядре, радиационная диффузия, температурный профиль и переход к конвективной зоне.",
+          "videos": [
+            {
+              "id": "ru",
+              "label": "Русская версия",
+              "path": "solar_photon_diffusion/media/videos/solar_diffusion/1920p30/solar_photon_diffusion_ru_music.mp4",
+              "poster_time": 5.0,
+              "copy_only": true
+            },
+            {
+              "id": "en",
+              "label": "English version",
+              "path": "solar_photon_diffusion/media/videos/solar_diffusion/1920p30/solar_photon_diffusion_en_music.mp4",
+              "poster_time": 5.0,
+              "copy_only": true
+            }
+          ]
+        },
+        {
           "id": "bbn",
           "title": "Первичный нуклеосинтез",
           "source_dir": "BBN",

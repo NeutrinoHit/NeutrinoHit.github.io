@@ -91,13 +91,18 @@ def main() -> int:
     build_script = gtracker / "scripts/build_from_google.py"
     token_path = gtracker / "credentials/token.json"
     oauth_client_path = gtracker / "credentials/oauth-client.json"
+    backup_token_path = token_path.with_name(f"{token_path.name}.bak")
 
     if not build_script.exists():
         print(f"gTracker build script not found: {build_script}", file=sys.stderr)
         return 2
     if not token_path.exists():
-        print(f"OAuth token not found: {token_path}", file=sys.stderr)
-        return 2
+        if backup_token_path.exists():
+            shutil.copy2(backup_token_path, token_path)
+            print(f"Restored missing OAuth token from {backup_token_path}.")
+        else:
+            print(f"OAuth token not found: {token_path}", file=sys.stderr)
+            return 2
 
     args.mp4.parent.mkdir(parents=True, exist_ok=True)
     args.poster.parent.mkdir(parents=True, exist_ok=True)
@@ -109,10 +114,8 @@ def main() -> int:
         normalized_csv = tmp_path / "applications.csv"
         summary = tmp_path / "applications_summary.json"
         oauth_for_run = oauth_client_path
-        backup_token_path: Path | None = None
 
         if args.reauth:
-            backup_token_path = token_path.with_name(f"{token_path.name}.bak")
             shutil.copy2(token_path, backup_token_path)
             oauth_for_run = token_backed_oauth_client(token_path, tmp_path / "oauth-client-from-token.json")
             token_path.unlink()
@@ -166,6 +169,16 @@ def main() -> int:
 
         result = run_command(cmd, cwd=gtracker, dry_run=args.dry_run)
         if result.returncode != 0:
+            if result.stdout:
+                print(result.stdout, end="")
+            if result.stderr:
+                print(result.stderr, end="", file=sys.stderr)
+            if args.reauth and not token_path.exists() and backup_token_path.exists():
+                shutil.copy2(backup_token_path, token_path)
+                print(
+                    f"OAuth did not complete; restored the previous token from {backup_token_path}.",
+                    file=sys.stderr,
+                )
             combined = f"{result.stdout}\n{result.stderr}"
             if "invalid_grant" in combined and not args.reauth:
                 print(

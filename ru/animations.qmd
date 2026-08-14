@@ -12,14 +12,14 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>35 сюжетов</span>
-    <span>81 ролик</span>
+    <span>36 сюжетов</span>
+    <span>83 ролика</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">13 сюжетов, 32 ролика</span>
+        <span class="lecture-course-status">14 сюжетов, 34 ролика</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -93,7 +93,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Фазы осцилляций</span>
-                    <small>360.9 KB</small>
+                    <small>305.8 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -330,6 +330,40 @@ lang: ru-RU
                 <a href="../assets/animations/dvnanima/neutrino-particles-pp-cycle-pp-to-d.mp4">MP4: p + p → D + e⁺ + νₑ</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-pp-cycle-d-p-he3.mp4">MP4: D + p → ³He + γ</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-pp-cycle-he3-he3.mp4">MP4: ³He + ³He → ⁴He + 2p</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-neutrino-particles-solar-photon-diffusion" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Как свет выходит из Солнца</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Минутная физическая визуализация переноса излучения: случайный ход в ядре, радиационная диффузия, температурный профиль и переход к конвективной зоне.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-ru.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-ru.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Русская версия</span>
+                    <small>5.8 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>English version</span>
+                    <small>5.9 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/solar_photon_diffusion">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-ru.mp4">MP4: Русская версия</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-en.mp4">MP4: English version</a>
               </div>
             </div>
           </details>
