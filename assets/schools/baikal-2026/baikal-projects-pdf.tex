@@ -1,0 +1,60 @@
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\usepackage{needspace}
+\usepackage{titling}
+
+\definecolor{NHBlue}{HTML}{1F6F8B}
+\definecolor{NHInk}{HTML}{25313A}
+\definecolor{NHMuted}{HTML}{53616F}
+\definecolor{NHGold}{HTML}{D6A03A}
+\definecolor{NHSoft}{HTML}{F5F7FD}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\footnotesize Baikal School 2026}
+\fancyhead[R]{\sffamily\footnotesize Student Projects}
+\fancyfoot[C]{\sffamily\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.25pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.42em}
+\setlist{itemsep=0.16em, topsep=0.32em, parsep=0.05em}
+\renewcommand{\labelitemi}{\textcolor{NHBlue}{\small\raisebox{0.12ex}{\textbullet}}}
+
+\pretitle{\begin{center}\vspace*{-7mm}\sffamily\bfseries\Huge\color{NHInk}}
+\posttitle{\par\vspace{1.5mm}{\Large\color{NHBlue}Physics of Elementary Particles and Astrophysics}\par\vspace{1mm}{\normalsize\color{NHMuted}Student project assignments \textbullet{} Baikal Summer School 2026}\par\vspace{2mm}{\color{NHGold}\rule{0.72\textwidth}{0.9pt}}\end{center}\vspace{4mm}}
+\preauthor{\begin{center}\sffamily\color{NHMuted}}
+\postauthor{\par\end{center}\vspace{-2mm}}
+\predate{\begin{center}\sffamily\small\color{NHMuted}}
+\postdate{\par\end{center}\vspace{3mm}}
+
+\newcommand{\pdfsubheading}[1]{\par\smallskip\noindent{\sffamily\bfseries\color{NHBlue}#1}\par\smallskip}
+\newenvironment{projectbox}[3]{%
+  \Needspace{8\baselineskip}%
+  \begin{tcolorbox}[
+    enhanced,
+    breakable,
+    colback=NHSoft,
+    colframe=NHBlue!70!black,
+    boxrule=0.45pt,
+    leftrule=2.2pt,
+    arc=1.6mm,
+    left=3.4mm,
+    right=3.4mm,
+    top=3mm,
+    bottom=3mm,
+    before skip=4mm,
+    after skip=4.8mm
+  ]%
+  {\sffamily\bfseries\footnotesize\color{NHGold}#1}\par
+  {\sffamily\bfseries\large\color{NHInk}#2}\par
+  {\sffamily\small\color{NHMuted}#3}\par
+  \vspace{0.8mm}{\color{NHBlue!40}\hrule height 0.35pt}\vspace{1.4mm}%
+}{%
+  \end{tcolorbox}%
+}
+
+\emergencystretch=2em
