@@ -747,4 +747,81 @@ The true values remain hidden until the project defense.
 
 </details>
 
+<details class="baikal-project-card">
+<summary>
+  <span class="baikal-project-number">Project 15</span>
+  <span class="baikal-project-title">Neutrino Mass Ordering at JUNO</span>
+  <span class="baikal-project-author">Prof. Zhi-zhong Xing</span>
+</summary>
+
+::: {.baikal-project-content}
+
+**Background**
+
+In the standard three-flavor neutrino-mixing scheme, the leptonic weak charged-current interactions are described in the mass bases of the three charged leptons and three neutrinos by
+
+$$
+-\mathcal L_{\mathrm{cc}}
+=
+\frac{g}{\sqrt{2}}\,
+\overline{(e\;\mu\;\tau)_{\mathrm L}}\,
+\gamma^\mu U
+\begin{pmatrix}
+\nu_1\\
+\nu_2\\
+\nu_3
+\end{pmatrix}_{\mathrm L}
+W^-_\mu
++\mathrm{h.c.}
+$$
+
+The reactor-antineutrino survival probability is
+
+$$
+\begin{aligned}
+P(\bar\nu_e\to\bar\nu_e)=1-4\Bigg[{}
+&|U_{e1}|^2|U_{e2}|^2
+\sin^2\!\left(\frac{\Delta m^2_{21}L}{4E}\right)\\
+&+|U_{e1}|^2|U_{e3}|^2
+\sin^2\!\left(\frac{\Delta m^2_{31}L}{4E}\right)\\
+&+|U_{e2}|^2|U_{e3}|^2
+\sin^2\!\left(\frac{\Delta m^2_{32}L}{4E}\right)
+\Bigg].
+\end{aligned}
+$$
+
+In this form, it is not immediately clear why JUNO's precision measurement of $P(\bar\nu_e\to\bar\nu_e)$ as a function of $L/E$ can determine the neutrino mass ordering: whether $m_1<m_2<m_3$ or $m_3<m_1<m_2$. Previous solar and atmospheric neutrino-oscillation experiments have established that
+
+$$
+0<\Delta m^2_{21}\ll|\Delta m^2_{31}|\simeq|\Delta m^2_{32}|.
+$$
+
+The ordering dependence becomes explicit when the survival probability is rearranged to isolate an interference term proportional to
+
+$$
+\sin\!\left(\frac{\Delta m^2_{21}L}{4E}\right)
+\sin\!\left[\frac{(\Delta m^2_{31}+\Delta m^2_{32})L}{4E}\right].
+$$
+
+**Tasks**
+
+1. **Discuss the physical meaning of mass ordering.** Is neutrino mass ordering genuinely observable, given that the three mass eigenstates might appear to be relabeled after their relative masses have been measured? Explain which conventions are fixed by oscillation data and why the two orderings remain physically distinct.
+2. **Expose the ordering-sensitive interference.** Starting from the survival probability above, derive an equivalent expression that contains the interference term explicitly. Show how its sign or phase depends on the signs of $\Delta m^2_{31}$ and $\Delta m^2_{32}$, and explain how JUNO can distinguish the two orderings through the fine structure of the reactor-antineutrino spectrum.
+
+**Deliverables**
+
+- Discussion: a clear answer to the conceptual question of whether neutrino mass ordering is a physical issue or merely a labeling convention.
+- Calculation: a step-by-step derivation of the rearranged survival probability, with the ordering-sensitive interference term identified and interpreted.
+
+**References**
+
+1. L. Zhan, Y. Wang, J. Cao, and L. Wen, “Determination of the neutrino mass hierarchy at an intermediate baseline,” *Physical Review D* **78**, 111103 (2008), [arXiv:0807.3203](https://doi.org/10.48550/arXiv.0807.3203).
+2. Y. F. Wang, “JUNO experiment,” plenary talk at the *Neutrino 2026* conference, University of California, Irvine, June 22–26, 2026.
+3. Z.-z. Xing, “Flavor structures of charged fermions and massive neutrinos,” *Physics Reports* **854**, 1–147 (2020), [arXiv:1909.09610](https://doi.org/10.48550/arXiv.1909.09610).
+4. F. Takahashi *et al.* (Particle Data Group), “Review of Particle Physics,” *International Journal of Modern Physics A* **41**, 2630011 (2026).
+
+:::
+
+</details>
+
 :::
