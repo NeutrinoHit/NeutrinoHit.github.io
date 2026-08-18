@@ -762,30 +762,32 @@ In the standard three-flavor neutrino-mixing scheme, the leptonic weak charged-c
 
 $$
 -\mathcal L_{\mathrm{cc}}
-=
-\frac{g}{\sqrt{2}}\,
-\overline{(e\;\mu\;\tau)_{\mathrm L}}\,
-\gamma^\mu U
-\begin{pmatrix}
-\nu_1\\
-\nu_2\\
-\nu_3
-\end{pmatrix}_{\mathrm L}
-W^-_\mu
-+\mathrm{h.c.}
+=\frac{g}{\sqrt{2}}\,
+\overline{\ell_{\mathrm L}}\gamma^\mu U\nu_{\mathrm L}W^-_\mu
++\mathrm{h.c.},
+\qquad
+\ell_{\mathrm L}=\begin{pmatrix}e\\\mu\\\tau\end{pmatrix}_{\!\mathrm L},
+\quad
+\nu_{\mathrm L}=\begin{pmatrix}\nu_1\\\nu_2\\\nu_3\end{pmatrix}_{\!\mathrm L}.
 $$
 
-The reactor-antineutrino survival probability is
+Introducing the oscillation phases
+
+$$
+\Delta_{ij}\equiv\frac{\Delta m^2_{ij}L}{4E},
+$$
+
+the reactor-antineutrino survival probability is
 
 $$
 \begin{aligned}
 P(\bar\nu_e\to\bar\nu_e)=1-4\Bigg[{}
 &|U_{e1}|^2|U_{e2}|^2
-\sin^2\!\left(\frac{\Delta m^2_{21}L}{4E}\right)\\
+\sin^2\!\Delta_{21}\\
 &+|U_{e1}|^2|U_{e3}|^2
-\sin^2\!\left(\frac{\Delta m^2_{31}L}{4E}\right)\\
+\sin^2\!\Delta_{31}\\
 &+|U_{e2}|^2|U_{e3}|^2
-\sin^2\!\left(\frac{\Delta m^2_{32}L}{4E}\right)
+\sin^2\!\Delta_{32}
 \Bigg].
 \end{aligned}
 $$

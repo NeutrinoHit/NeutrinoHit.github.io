@@ -14,6 +14,11 @@ local function inlines_to_latex(inlines)
   return pandoc.write(doc, "latex"):gsub("%s+$", "")
 end
 
+local function blocks_to_latex(blocks)
+  local doc = pandoc.Pandoc(blocks)
+  return pandoc.write(doc, "latex"):gsub("%s+$", "")
+end
+
 local function is_html_raw(block, pattern)
   return block
     and block.t == "RawBlock"
@@ -52,8 +57,49 @@ local function is_strong_only_para(block)
     and block.content[1].t == "Strong"
 end
 
+local function is_static_pdf_link(block)
+  if not block or block.t ~= "Para" or #block.content ~= 1 then
+    return false
+  end
+
+  local inline = block.content[1]
+  return inline.t == "Link"
+    and inline.target:match("baikal%-school%-2026%-projects%.pdf$") ~= nil
+end
+
+local function is_image_only_para(block)
+  return block
+    and block.t == "Para"
+    and #block.content == 1
+    and block.content[1].t == "Image"
+end
+
 function Para(block)
-  if FORMAT ~= "latex" or not is_strong_only_para(block) then
+  if FORMAT ~= "latex" then
+    return nil
+  end
+
+  if is_static_pdf_link(block) then
+    return pandoc.List()
+  end
+
+  if is_image_only_para(block) then
+    local image = block.content[1]
+    local image_latex = inlines_to_latex({ image })
+    local caption = inlines_to_latex(image.caption)
+    local caption_latex = ""
+
+    if caption ~= "" then
+      caption_latex = "\\par\\smallskip{\\small\\color{NHMuted}\\textit{" .. caption .. "}}\\par"
+    end
+
+    return pandoc.RawBlock(
+      "latex",
+      "\\begin{center}\n" .. image_latex .. "\n" .. caption_latex .. "\n\\end{center}"
+    )
+  end
+
+  if not is_strong_only_para(block) then
     return nil
   end
 
@@ -63,6 +109,27 @@ function Para(block)
   end
 
   return pandoc.RawBlock("latex", "\\pdfsubheading{" .. inlines_to_latex(block.content[1].content) .. "}")
+end
+
+function Figure(figure)
+  if FORMAT ~= "latex" then
+    return nil
+  end
+
+  local blocks = pandoc.List()
+  blocks:insert(pandoc.RawBlock("latex", "\\begin{center}"))
+  blocks:extend(figure.content)
+
+  local caption = blocks_to_latex(figure.caption.long)
+  if caption ~= "" then
+    blocks:insert(pandoc.RawBlock(
+      "latex",
+      "\\par\\smallskip{\\small\\color{NHMuted}\\textit{" .. caption .. "}}\\par"
+    ))
+  end
+
+  blocks:insert(pandoc.RawBlock("latex", "\\end{center}"))
+  return blocks
 end
 
 function Div(div)
