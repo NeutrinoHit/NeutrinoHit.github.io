@@ -328,6 +328,7 @@ toc: false
 
 <div class="lecture-course-actions">
   <a class="lecture-action-primary" href="https://indico.jinr.ru/event/5998/">Страница школы</a>
+  <a href="https://teach-in.ru/course/baikal-summer-school-2026">Видео лекций</a>
   <a href="baikal-school-2026-projects.html">Проекты</a>
   <a href="../assets/schools/baikal-2026/baikal-school-2026-program.pdf">Программа</a>
   <a href="../assets/schools/baikal-2026/baikal-school-2026-poster.pdf">Постер</a>
