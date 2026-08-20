@@ -12,14 +12,14 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>36 сюжетов</span>
+    <span>38 сюжетов</span>
     <span>83 ролика</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">14 сюжетов, 34 ролика</span>
+        <span class="lecture-course-status">15 сюжетов, 35 роликов</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -507,7 +507,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Винтовое движение в однородном поле</span>
-                    <small>2.9 MB</small>
+                    <small>3.5 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -534,6 +534,30 @@ lang: ru-RU
                 <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-uniform-field.mp4">MP4: Винтовое движение в однородном поле</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-collimation.mp4">MP4: Магнитная коллимация KATRIN</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-electric.mp4">MP4: MAC-E: прохождение и отражение</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-neutrino-particles-project8-cres" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Project 8: циклотронное излучение электрона</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Схематическая визуализация CRES: захваченный электрон, циклотронное микроволновое излучение и возрастающий частотный трек при потере энергии.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-project8-cres-cres-event.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-project8-cres-cres-event.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Один электрон — один частотный трек</span>
+                    <small>690.0 KB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/project8_cres">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-project8-cres-cres-event.mp4">MP4: Один электрон — один частотный трек</a>
               </div>
             </div>
           </details>
@@ -566,7 +590,7 @@ lang: ru-RU
     </details>
     <details class="lecture-course animation-section animation-section-fields-waves">
       <summary>
-        <span class="lecture-course-status">10 сюжетов, 16 роликов</span>
+        <span class="lecture-course-status">11 сюжетов, 16 роликов</span>
         <span class="lecture-course-title">Поля, волны и осцилляторы</span>
       </summary>
       <div class="lecture-course-body">
@@ -616,10 +640,34 @@ lang: ru-RU
               </div>
             </div>
           </details>
+          <details id="animation-fields-waves-standard-model-field-mattress" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Поля Стандартной модели</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Визуальная метафора квантовых полей Стандартной модели: флуктуирующие слои, бегущие волны и разрез структуры.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Поля, заполняющие пространство</span>
+                    <small>12.4 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/fields/sm_field_mattress">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack.mp4">MP4: Поля, заполняющие пространство</a>
+              </div>
+            </div>
+          </details>
           <details id="animation-fields-waves-mediator-interaction" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Взаимодействие через поле-переносчик</span>
-              <span class="animation-material-count">2 ролика</span>
+              <span class="animation-material-count">1 ролик</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Две частицы и динамическое поле, через которое проявляется взаимодействие.</p>
@@ -633,20 +681,10 @@ lang: ru-RU
                     <small>820.6 KB</small>
                   </figcaption>
                 </figure>
-                <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-mediator-interaction-without-interaction.jpg">
-                    <source src="../assets/animations/dvnanima/fields-waves-mediator-interaction-without-interaction.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>Без взаимодействия</span>
-                    <small>1.4 MB</small>
-                  </figcaption>
-                </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/fields/mediator_interaction">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-mediator-interaction-with-interaction.mp4">MP4: С взаимодействием</a>
-                <a href="../assets/animations/dvnanima/fields-waves-mediator-interaction-without-interaction.mp4">MP4: Без взаимодействия</a>
               </div>
             </div>
           </details>
@@ -877,7 +915,7 @@ lang: ru-RU
     </details>
     <details class="lecture-course animation-section animation-section-math-dynamical-systems">
       <summary>
-        <span class="lecture-course-status">6 сюжетов, 26 роликов</span>
+        <span class="lecture-course-status">6 сюжетов, 25 роликов</span>
         <span class="lecture-course-title">Математика и динамические системы</span>
       </summary>
       <div class="lecture-course-body">
@@ -1148,7 +1186,7 @@ lang: ru-RU
           <details id="animation-math-dynamical-systems-riemann-zeta" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Спираль дзета-функции Римана</span>
-              <span class="animation-material-count">2 ролика</span>
+              <span class="animation-material-count">1 ролик</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Визуализация траектории значений дзета-функции в комплексной плоскости.</p>
@@ -1162,20 +1200,10 @@ lang: ru-RU
                     <small>2.1 MB</small>
                   </figcaption>
                 </figure>
-                <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/math-dynamical-systems-riemann-zeta-shorts.jpg">
-                    <source src="../assets/animations/dvnanima/math-dynamical-systems-riemann-zeta-shorts.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>Короткая версия</span>
-                    <small>408.7 KB</small>
-                  </figcaption>
-                </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/riemann1">Исходный код</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-riemann-zeta-zeta.mp4">MP4: Riemann zeta</a>
-                <a href="../assets/animations/dvnanima/math-dynamical-systems-riemann-zeta-shorts.mp4">MP4: Короткая версия</a>
               </div>
             </div>
           </details>
