@@ -144,12 +144,9 @@ toc: false
           <details id="unruh-course" class="lecture-material">
             <summary>Ускоренные системы отсчёта и эффект Унру</summary>
             <div class="lecture-material-body">
-              <p>Четыре прямые HTML-лекции по ускоренным системам отсчёта, термодинамике и эффекту Унру.</p>
+              <p>Пять HTML-лекций: от координат Риндлера и энтропии запутанности до эффекта Унру для скалярного и фермионного полей.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../qft-lectures/ru/slides/Rindler.html">01. Ускоренные системы отсчёта</a>
-                <a href="../qft-lectures/ru/slides/Thermodynamics.html">02. Термодинамика</a>
-                <a href="../qft-lectures/ru/slides/UnruhEffect-1.html">03. Эффект Унру I</a>
-                <a href="../qft-lectures/ru/slides/UnruhEffect-2.html">04. Эффект Унру II</a>
+                <a class="lecture-action-primary" href="../qft-lectures/unruh/">Открыть мини-курс</a>
               </div>
             </div>
           </details>
@@ -671,11 +668,15 @@ toc: false
 
     <details id="gravity" class="lecture-course lecture-course-gravity">
       <summary>
-        <span class="lecture-course-status">Планируется</span>
+        <span class="lecture-course-status">Курс готовится · первая лекция — черновик</span>
         <span class="lecture-course-title">Гравитация</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Раздел подготовлен для будущего курса.</p>
+        <p>Рабочий сайт будущего курса по гравитации и общей теории относительности. Первая лекция посвящена световым сигналам между свободно падающими объектами у горизонта чёрной дыры.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../gravity/">Открыть сайт курса</a>
+          <a href="../gravity/ru/slides/01_radial_signals.html">01. Световые сигналы у горизонта</a>
+        </div>
       </div>
     </details>
 
