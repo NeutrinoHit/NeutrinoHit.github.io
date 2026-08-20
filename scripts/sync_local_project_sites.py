@@ -23,6 +23,7 @@ class ProjectSite:
 PROJECT_SITES = [
     ProjectSite("talks", WORKSPACE / "talks" / "_site"),
     ProjectSite("qft-lectures", WORKSPACE / "qft-lectures" / "_site"),
+    ProjectSite("gravity", WORKSPACE / "gravity" / "_site"),
     ProjectSite("sciencepop", WORKSPACE / "sciencepop", static_source=True),
     ProjectSite("neutrinophysics", WORKSPACE / "neutrinophysics" / "_site"),
     ProjectSite("particlephysics", WORKSPACE / "particlephysics" / "_site"),

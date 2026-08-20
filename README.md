@@ -23,6 +23,7 @@ quarto preview
 
 - `talks/_site` -> `_site/talks`;
 - `qft-lectures/_site` -> `_site/qft-lectures`;
+- `gravity/_site` -> `_site/gravity`;
 - `sciencepop` + overlay `sciencepop/_site` -> `_site/sciencepop`;
 - `neutrinophysics/_site` -> `_site/neutrinophysics`;
 - `particlephysics/_site` -> `_site/particlephysics`;

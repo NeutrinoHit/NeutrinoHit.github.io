@@ -9,6 +9,26 @@
       "description": "EN education: quantum field theory"
     },
     {
+      "url": "https://neutrinohit.github.io/qft-lectures/unruh/",
+      "type": "course-home",
+      "description": "Accelerated frames and Unruh effect mini-course home"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/education.html#gravity",
+      "type": "map-card",
+      "description": "RU education: gravity and general relativity"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/education.html#gravity",
+      "type": "map-card",
+      "description": "EN education: gravity and general relativity"
+    },
+    {
+      "url": "https://neutrinohit.github.io/gravity/",
+      "type": "course-home",
+      "description": "Gravity and general relativity course home"
+    },
+    {
       "url": "https://neutrinohit.github.io/ru/education.html#stat",
       "description": "RU education: statistical analysis"
     },

@@ -21,6 +21,7 @@ CANONICAL_HOST = "neutrinohit.github.io"
 
 SOURCE_ROOTS = [
     ROOT,
+    WORKSPACE / "gravity",
     WORKSPACE / "qft-lectures",
     WORKSPACE / "stat-course",
     WORKSPACE / "neutrinophysics",

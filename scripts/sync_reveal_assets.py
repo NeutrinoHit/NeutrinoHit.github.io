@@ -9,6 +9,7 @@ SOURCE = ROOT / "neutrinohit-map" / "assets" / "reveal"
 REVEAL_TARGETS = [
     ROOT / "talks" / "shared" / "reveal",
     ROOT / "qft-lectures" / "shared" / "reveal",
+    ROOT / "gravity" / "shared" / "reveal",
     ROOT / "sciencepop" / "shared" / "reveal",
     ROOT / "stat-course" / "shared" / "reveal",
     ROOT / "neutrinophysics" / "shared" / "reveal",
@@ -17,6 +18,7 @@ REVEAL_TARGETS = [
 
 STYLE_TARGETS = [
     ROOT / "qft-lectures" / "shared" / "styles",
+    ROOT / "gravity" / "shared" / "styles",
     ROOT / "neutrinophysics" / "shared" / "styles",
     ROOT / "particlephysics" / "shared" / "styles",
 ]
