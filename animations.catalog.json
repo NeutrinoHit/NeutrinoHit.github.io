@@ -282,6 +282,19 @@
           ]
         },
         {
+          "id": "project8-cres",
+          "title": "Project 8: циклотронное излучение электрона",
+          "source_dir": "project8_cres",
+          "description": "Схематическая визуализация CRES: захваченный электрон, циклотронное микроволновое излучение и возрастающий частотный трек при потере энергии.",
+          "videos": [
+            {
+              "id": "cres-event",
+              "label": "Один электрон — один частотный трек",
+              "path": "project8_cres/media/videos/project8_cres/900p30/project8_cres.mp4"
+            }
+          ]
+        },
+        {
           "id": "cherenkov-cone",
           "title": "Конус Черенкова",
           "source_dir": "cherenkov_cone",
@@ -325,6 +338,19 @@
           ]
         },
         {
+          "id": "standard-model-field-mattress",
+          "title": "Поля Стандартной модели",
+          "source_dir": "fields/sm_field_mattress",
+          "description": "Визуальная метафора квантовых полей Стандартной модели: флуктуирующие слои, бегущие волны и разрез структуры.",
+          "videos": [
+            {
+              "id": "field-stack",
+              "label": "Поля, заполняющие пространство",
+              "path": "fields/sm_field_mattress/media/videos/sm_field_mattress/1080p30/StandardModelFieldMattress.mp4"
+            }
+          ]
+        },
+        {
           "id": "mediator-interaction",
           "title": "Взаимодействие через поле-переносчик",
           "source_dir": "fields/mediator_interaction",
@@ -334,11 +360,6 @@
               "id": "with-interaction",
               "label": "С взаимодействием",
               "path": "fields/mediator_interaction/media/videos/scene_03_mediator_interaction/1080p60/MediatorInteractionScene.mp4"
-            },
-            {
-              "id": "without-interaction",
-              "label": "Без взаимодействия",
-              "path": "fields/mediator_interaction/media/videos/scene_03_mediator_interaction/480p15/MediatorInteractionScene_noint.mp4"
             }
           ]
         },
@@ -612,11 +633,6 @@
               "id": "zeta",
               "label": "Riemann zeta",
               "path": "riemann1/media/videos/RiemannZetaSpiral/1080p60/RiemannZetaSpiral.mp4"
-            },
-            {
-              "id": "shorts",
-              "label": "Короткая версия",
-              "path": "riemann1/media/videos/RiemannZetaSpiral/480p15/RiemannShorts.mp4"
             }
           ]
         },
