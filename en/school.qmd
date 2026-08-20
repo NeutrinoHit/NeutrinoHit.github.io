@@ -214,6 +214,7 @@ toc: false
             <div class="lecture-material-body">
               <div class="lecture-course-actions">
                 <a href="https://indico.jinr.ru/event/5198/">School page</a>
+                <a href="../assets/schools/baikal-2025/baikal-projects-2025.pdf">Projects</a>
               </div>
             </div>
           </details>
