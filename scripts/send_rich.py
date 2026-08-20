@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
+import argparse
 import json
+import os
+import shutil
+import subprocess
 import sys
 from getpass import getpass
 from pathlib import Path
@@ -8,12 +12,108 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
-# Разрешён только этот канал
-CHAT_ID = -1001881890472
-EXPECTED_TITLE = "Dmitry Naumov"
+TEST_CHAT_ID = -1001881890472
+TEST_CHAT_LABEL = "Dmitry Naumov"
+
+FINAL_CHAT = "@NeutrinoHit"
+FINAL_USERNAME = "NeutrinoHit"
 
 MAX_RICH_MESSAGE_CHARS = 32768
 REQUEST_TIMEOUT_SECONDS = 30
+
+TOKEN_ENV_NAME = "TELEGRAM_BOT_TOKEN"
+KEYCHAIN_SERVICE = "NeutrinoHit Telegram Bot"
+KEYCHAIN_ACCOUNT = "send_rich.py"
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description=(
+            "Отправить Markdown как Telegram Rich Message. "
+            "Без указания режима используется безопасный тестовый канал."
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=(
+            "Примеры:\n"
+            "  python3 scripts/send_rich.py --test post.md\n"
+            "  python3 scripts/send_rich.py --final post.md\n"
+            "  python3 scripts/send_rich.py --final --yes post.md\n"
+            "  python3 scripts/send_rich.py --store-token\n"
+        ),
+    )
+
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument(
+        "--test",
+        dest="mode",
+        action="store_const",
+        const="test",
+        help=(
+            f"отправить в тестовый канал «{TEST_CHAT_LABEL}» "
+            "без проверок и подтверждения (режим по умолчанию)"
+        ),
+    )
+    mode.add_argument(
+        "--final",
+        dest="mode",
+        action="store_const",
+        const="final",
+        help=(
+            f"отправить финальный пост в {FINAL_CHAT} "
+            "после проверки канала и прав бота"
+        ),
+    )
+    parser.set_defaults(mode="test")
+
+    parser.add_argument(
+        "--yes",
+        action="store_true",
+        help="в финальном режиме не спрашивать короткое подтверждение",
+    )
+    parser.add_argument(
+        "--notify",
+        action="store_true",
+        help="отправить пост с уведомлением подписчикам",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="показать файл и режим, ничего не отправляя и не запрашивая токен",
+    )
+    parser.add_argument(
+        "--store-token",
+        action="store_true",
+        help="проверить и сохранить новый токен в macOS Keychain",
+    )
+    parser.add_argument(
+        "--forget-token",
+        action="store_true",
+        help="удалить сохранённый токен из macOS Keychain",
+    )
+    parser.add_argument(
+        "post",
+        nargs="?",
+        type=Path,
+        help="Markdown-файл с постом",
+    )
+
+    args = parser.parse_args()
+
+    maintenance_actions = int(args.store_token) + int(args.forget_token)
+
+    if maintenance_actions > 1:
+        parser.error("--store-token и --forget-token нельзя использовать вместе")
+
+    if maintenance_actions and args.post is not None:
+        parser.error("для работы с токеном Markdown-файл указывать не нужно")
+
+    if not maintenance_actions and args.post is None:
+        parser.error("укажите Markdown-файл с постом")
+
+    if args.mode == "test" and args.yes:
+        parser.error("--yes нужен только вместе с --final")
+
+    return args
 
 
 def telegram_call(api_base, method, payload=None):
@@ -73,25 +173,171 @@ def telegram_call(api_base, method, payload=None):
     return answer["result"]
 
 
-def read_post_file():
-    """Прочитать Markdown-файл, переданный в командной строке."""
+def keychain_available():
+    return sys.platform == "darwin" and shutil.which("security") is not None
 
-    if len(sys.argv) != 2:
-        script_name = Path(sys.argv[0]).name
 
+def read_keychain_token():
+    if not keychain_available():
+        return None
+
+    result = subprocess.run(
+        [
+            "security",
+            "find-generic-password",
+            "-a",
+            KEYCHAIN_ACCOUNT,
+            "-s",
+            KEYCHAIN_SERVICE,
+            "-w",
+        ],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+
+    if result.returncode != 0:
+        return None
+
+    token = result.stdout.strip()
+    return token or None
+
+
+def save_keychain_token(token):
+    if not keychain_available():
         raise SystemExit(
-            f"Запуск: python3 {script_name} post.md"
+            "macOS Keychain недоступен. Используйте переменную окружения "
+            f"{TOKEN_ENV_NAME}."
         )
 
-    post_path = Path(sys.argv[1]).expanduser()
+    result = subprocess.run(
+        [
+            "security",
+            "add-generic-password",
+            "-U",
+            "-a",
+            KEYCHAIN_ACCOUNT,
+            "-s",
+            KEYCHAIN_SERVICE,
+            "-w",
+            token,
+        ],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+
+    if result.returncode != 0:
+        raise SystemExit(
+            "Не удалось сохранить токен в macOS Keychain:\n"
+            f"{result.stderr.strip()}"
+        )
+
+
+def forget_keychain_token():
+    if not keychain_available():
+        raise SystemExit("macOS Keychain недоступен.")
+
+    result = subprocess.run(
+        [
+            "security",
+            "delete-generic-password",
+            "-a",
+            KEYCHAIN_ACCOUNT,
+            "-s",
+            KEYCHAIN_SERVICE,
+        ],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+
+    if result.returncode == 0:
+        print("Сохранённый токен удалён из macOS Keychain.")
+        return
+
+    if "could not be found" in result.stderr:
+        print("Сохранённого токена в macOS Keychain нет.")
+        return
+
+    raise SystemExit(
+        "Не удалось удалить токен из macOS Keychain:\n"
+        f"{result.stderr.strip()}"
+    )
+
+
+def token_api_base(token):
+    return f"https://api.telegram.org/bot{token}"
+
+
+def verify_token(token):
+    bot = telegram_call(
+        token_api_base(token),
+        "getMe",
+    )
+
+    if bot.get("username"):
+        bot_label = f"@{bot['username']}"
+    else:
+        bot_label = bot.get("first_name") or str(bot["id"])
+
+    return bot, bot_label
+
+
+def store_new_token():
+    token = getpass("Новый токен бота: ").strip()
+
+    if not token:
+        raise SystemExit("Токен не введён.")
+
+    _, bot_label = verify_token(token)
+    save_keychain_token(token)
+
+    print(
+        f"Токен бота {bot_label} проверен "
+        "и сохранён в macOS Keychain."
+    )
+
+
+def resolve_token():
+    env_token = os.environ.get(TOKEN_ENV_NAME, "").strip()
+
+    if env_token:
+        return env_token, TOKEN_ENV_NAME
+
+    keychain_token = read_keychain_token()
+
+    if keychain_token:
+        return keychain_token, "macOS Keychain"
+
+    token = getpass("Токен бота: ").strip()
+
+    if not token:
+        raise SystemExit("Токен не введён.")
+
+    if keychain_available():
+        answer = input(
+            "Сохранить токен в macOS Keychain для следующих запусков? "
+            "[Y/n] "
+        ).strip().lower()
+
+        if answer in {"", "y", "yes", "д", "да"}:
+            verify_token(token)
+            save_keychain_token(token)
+            return token, "введён и сохранён в macOS Keychain"
+
+    return token, "введён вручную"
+
+
+def read_post_file(post_path):
+    """Прочитать Markdown-файл и проверить ограничения Rich Message."""
+
+    post_path = post_path.expanduser()
 
     if not post_path.is_file():
-        raise SystemExit(
-            f"Файл не найден: {post_path}"
-        )
+        raise SystemExit(f"Файл не найден: {post_path}")
 
     try:
-        # utf-8-sig также корректно удалит BOM, если он есть.
         post = post_path.read_text(
             encoding="utf-8-sig",
         ).strip()
@@ -120,59 +366,53 @@ def read_post_file():
     return post_path.resolve(), post, char_count
 
 
-def main():
-    # До ввода токена проверяем, что файл существует и читается.
-    post_path, post, char_count = read_post_file()
+def print_preview(mode, post_path, post, char_count, notify):
+    if mode == "test":
+        target = f"тест: «{TEST_CHAT_LABEL}», chat_id={TEST_CHAT_ID}"
+    else:
+        target = f"финал: {FINAL_CHAT}"
 
-    token = getpass("Токен бота: ").strip()
+    print()
+    print(f"Режим: {target}")
+    print(f"Уведомление: {'да' if notify else 'нет'}")
+    print(f"Файл: {post_path}")
+    print(f"Размер: {char_count} символов")
+    print("\n----- НАЧАЛО ПОСТА -----\n")
+    print(post)
+    print("\n----- КОНЕЦ ПОСТА -----\n")
 
-    if not token:
-        raise SystemExit("Токен не введён.")
 
-    api_base = f"https://api.telegram.org/bot{token}"
-
-    # Эти три вызова ничего не публикуют.
-    bot = telegram_call(
-        api_base,
-        "getMe",
-    )
+def validate_final_target(api_base, bot):
+    """Проверить, что финальный получатель — именно @NeutrinoHit."""
 
     chat = telegram_call(
         api_base,
         "getChat",
-        {"chat_id": CHAT_ID},
+        {"chat_id": FINAL_CHAT},
     )
 
     actual_id = chat.get("id")
     actual_type = chat.get("type")
     actual_title = chat.get("title", "")
-
-    # Независимые проверки получателя.
-    if actual_id != CHAT_ID:
-        raise SystemExit(
-            f"Остановка: Telegram вернул chat_id {actual_id}, "
-            f"ожидался {CHAT_ID}."
-        )
+    actual_username = chat.get("username", "")
 
     if actual_type != "channel":
         raise SystemExit(
-            f"Остановка: chat_id {CHAT_ID} относится к типу "
+            f"Остановка: {FINAL_CHAT} относится к типу "
             f"«{actual_type}», а не к каналу."
         )
 
-    if actual_title != EXPECTED_TITLE:
+    if actual_username.casefold() != FINAL_USERNAME.casefold():
         raise SystemExit(
-            f"Остановка: канал называется «{actual_title}», "
-            f"а ожидалось «{EXPECTED_TITLE}»."
+            f"Остановка: Telegram вернул @{actual_username}, "
+            f"а ожидался {FINAL_CHAT}."
         )
 
-    # Проверяем, что именно этот бот является администратором
-    # и имеет право публиковать посты.
     membership = telegram_call(
         api_base,
         "getChatMember",
         {
-            "chat_id": CHAT_ID,
+            "chat_id": actual_id,
             "user_id": bot["id"],
         },
     )
@@ -181,7 +421,7 @@ def main():
 
     if status not in {"administrator", "creator"}:
         raise SystemExit(
-            "Остановка: бот не является администратором канала; "
+            f"Остановка: бот не является администратором {FINAL_CHAT}; "
             f"статус — {status!r}."
         )
 
@@ -190,74 +430,108 @@ def main():
         and membership.get("can_post_messages") is not True
     ):
         raise SystemExit(
-            "Остановка: у бота нет права публиковать "
-            "сообщения в канале."
-        )
-
-    bot_name = (
-        bot.get("username")
-        or bot.get("first_name")
-        or str(bot["id"])
-    )
-
-    print()
-
-    if bot.get("username"):
-        print(f"Бот: @{bot_name}")
-    else:
-        print(f"Бот: {bot_name}")
-
-    print(f"Канал: {actual_title}")
-    print(f"chat_id: {CHAT_ID}")
-    print(f"Файл: {post_path}")
-    print(f"Размер: {char_count} символов")
-
-    # Показываем весь фактически отправляемый текст.
-    print("\n----- НАЧАЛО ПОСТА -----\n")
-    print(post)
-    print("\n----- КОНЕЦ ПОСТА -----\n")
-
-    expected_confirmation = f"PUBLISH {CHAT_ID}"
-
-    confirmation = input(
-        "Для публикации введите точно:\n"
-        f"{expected_confirmation}\n> "
-    ).strip()
-
-    if confirmation != expected_confirmation:
-        raise SystemExit(
-            "Публикация отменена. Ничего не отправлено."
-        )
-
-    # Это единственное место, где происходит публикация.
-    message = telegram_call(
-        api_base,
-        "sendRichMessage",
-        {
-            "chat_id": CHAT_ID,
-            "rich_message": {
-                "markdown": post,
-            },
-            "disable_notification": True,
-        },
-    )
-
-    # Контроль ответа уже после публикации.
-    returned_chat_id = message.get(
-        "chat",
-        {},
-    ).get("id")
-
-    if returned_chat_id != CHAT_ID:
-        raise SystemExit(
-            "Telegram сообщил об успешной отправке, "
-            "но вернул неожиданный chat_id: "
-            f"{returned_chat_id}."
+            f"Остановка: у бота нет права публиковать в {FINAL_CHAT}."
         )
 
     print(
-        f"Опубликовано в «{actual_title}». "
-        f"message_id = {message['message_id']}"
+        f"Финальный канал проверен: «{actual_title}» "
+        f"(@{actual_username}), chat_id={actual_id}"
+    )
+
+    return actual_id
+
+
+def confirm_final_publication():
+    answer = input(
+        f"Опубликовать этот пост в {FINAL_CHAT}? [y/N] "
+    ).strip().lower()
+
+    if answer not in {"y", "yes", "д", "да"}:
+        raise SystemExit("Публикация отменена. Ничего не отправлено.")
+
+
+def send_rich_message(api_base, chat_id, post, notify):
+    return telegram_call(
+        api_base,
+        "sendRichMessage",
+        {
+            "chat_id": chat_id,
+            "rich_message": {
+                "markdown": post,
+            },
+            "disable_notification": not notify,
+        },
+    )
+
+
+def main():
+    args = parse_args()
+
+    if args.forget_token:
+        forget_keychain_token()
+        return
+
+    if args.store_token:
+        store_new_token()
+        return
+
+    post_path, post, char_count = read_post_file(args.post)
+    print_preview(
+        args.mode,
+        post_path,
+        post,
+        char_count,
+        args.notify,
+    )
+
+    if args.dry_run:
+        print("Dry run завершён: Telegram API не вызывался.")
+        return
+
+    token, token_source = resolve_token()
+    api_base = token_api_base(token)
+
+    if args.mode == "test":
+        chat_id = TEST_CHAT_ID
+        bot_label = None
+    else:
+        bot, bot_label = verify_token(token)
+        chat_id = validate_final_target(api_base, bot)
+
+        if not args.yes:
+            confirm_final_publication()
+
+    message = send_rich_message(
+        api_base,
+        chat_id,
+        post,
+        args.notify,
+    )
+
+    returned_chat = message.get("chat", {})
+    returned_chat_id = returned_chat.get("id")
+
+    if returned_chat_id != chat_id:
+        raise SystemExit(
+            "Telegram сообщил об успешной отправке, "
+            f"но вернул неожиданный chat_id: {returned_chat_id}."
+        )
+
+    if args.mode == "test":
+        channel_label = TEST_CHAT_LABEL
+    else:
+        channel_label = (
+            returned_chat.get("title")
+            or FINAL_CHAT
+        )
+
+    if bot_label:
+        print(f"Бот: {bot_label}")
+
+    print(f"Токен: {token_source}")
+    print(
+        f"Опубликовано в «{channel_label}». "
+        f"message_id={message['message_id']}"
     )
 
 
