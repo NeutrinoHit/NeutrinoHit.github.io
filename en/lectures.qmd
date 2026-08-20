@@ -107,12 +107,9 @@ toc: false
           <details class="lecture-material">
             <summary>Accelerated frames and the Unruh effect</summary>
             <div class="lecture-material-body">
-              <p>Four direct HTML slide lectures on accelerated frames, thermodynamics, and the Unruh effect.</p>
+              <p>Five Russian-language HTML lectures, from Rindler coordinates and entanglement entropy to the Unruh effect for scalar and fermion fields.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../qft-lectures/ru/slides/Rindler.html">01. Accelerated frames (Russian)</a>
-                <a href="../qft-lectures/ru/slides/Thermodynamics.html">02. Thermodynamics (Russian)</a>
-                <a href="../qft-lectures/ru/slides/UnruhEffect-1.html">03. Unruh effect I (Russian)</a>
-                <a href="../qft-lectures/ru/slides/UnruhEffect-2.html">04. Unruh effect II (Russian)</a>
+                <a class="lecture-action-primary" href="../qft-lectures/unruh/">Open mini-course</a>
               </div>
             </div>
           </details>

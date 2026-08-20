@@ -142,12 +142,9 @@ toc: false
           <details id="unruh-course" class="lecture-material">
             <summary>Accelerated frames and the Unruh effect</summary>
             <div class="lecture-material-body">
-              <p>Four direct HTML slide lectures on accelerated frames, thermodynamics, and the Unruh effect.</p>
+              <p>Five Russian-language HTML lectures, from Rindler coordinates and entanglement entropy to the Unruh effect for scalar and fermion fields.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../qft-lectures/ru/slides/Rindler.html">01. Accelerated frames (Russian)</a>
-                <a href="../qft-lectures/ru/slides/Thermodynamics.html">02. Thermodynamics (Russian)</a>
-                <a href="../qft-lectures/ru/slides/UnruhEffect-1.html">03. Unruh effect I (Russian)</a>
-                <a href="../qft-lectures/ru/slides/UnruhEffect-2.html">04. Unruh effect II (Russian)</a>
+                <a class="lecture-action-primary" href="../qft-lectures/unruh/">Open mini-course</a>
               </div>
             </div>
           </details>
@@ -650,11 +647,15 @@ toc: false
 
     <details id="gravity" class="lecture-course lecture-course-gravity">
       <summary>
-        <span class="lecture-course-status">Planned</span>
+        <span class="lecture-course-status">In preparation · first lecture draft</span>
         <span class="lecture-course-title">Gravity</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Future course section.</p>
+        <p>Working site for a future course on gravity and general relativity. The first Russian-language lecture studies light signals exchanged by freely falling objects near a black-hole horizon.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../gravity/">Open course site</a>
+          <a href="../gravity/ru/slides/01_radial_signals.html">01. Light signals near the horizon (Russian)</a>
+        </div>
       </div>
     </details>
 
