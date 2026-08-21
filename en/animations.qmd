@@ -11,7 +11,7 @@ toc: false
   </p>
   <div class="animation-catalog-meta">
     <span>38 stories</span>
-    <span>83 videos</span>
+    <span>74 videos</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">dvnanima repository</a>
   </div>
 

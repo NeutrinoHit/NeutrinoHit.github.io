@@ -13,13 +13,13 @@ lang: ru-RU
   </p>
   <div class="animation-catalog-meta">
     <span>38 сюжетов</span>
-    <span>83 ролика</span>
+    <span>74 ролика</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">15 сюжетов, 35 роликов</span>
+        <span class="lecture-course-status">15 сюжетов, 26 роликов</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -154,7 +154,7 @@ lang: ru-RU
           <details id="animation-neutrino-particles-juno" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">JUNO</span>
-              <span class="animation-material-count">10 роликов</span>
+              <span class="animation-material-count">1 ролик</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Анимации про детектор JUNO, осцилляции реакторных нейтрино и путь нейтрино к событию.</p>
@@ -168,100 +168,10 @@ lang: ru-RU
                     <small>4.7 MB</small>
                   </figcaption>
                 </figure>
-                <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-juno-neutrino-pov.jpg">
-                    <source src="../assets/animations/dvnanima/neutrino-particles-juno-neutrino-pov.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>Путь нейтрино</span>
-                    <small>257.9 KB</small>
-                  </figcaption>
-                </figure>
-                <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-juno-intro.jpg">
-                    <source src="../assets/animations/dvnanima/neutrino-particles-juno-intro.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>Intro</span>
-                    <small>515.0 KB</small>
-                  </figcaption>
-                </figure>
-                <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-juno-neutrino-flight.jpg">
-                    <source src="../assets/animations/dvnanima/neutrino-particles-juno-neutrino-flight.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>Neutrino flight</span>
-                    <small>3.1 MB</small>
-                  </figcaption>
-                </figure>
-                <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-juno-chorus-reveal.jpg">
-                    <source src="../assets/animations/dvnanima/neutrino-particles-juno-chorus-reveal.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>Chorus reveal</span>
-                    <small>206.3 KB</small>
-                  </figcaption>
-                </figure>
-                <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-juno-verse-1.jpg">
-                    <source src="../assets/animations/dvnanima/neutrino-particles-juno-verse-1.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>Verse 1</span>
-                    <small>293.4 KB</small>
-                  </figcaption>
-                </figure>
-                <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-juno-verse-2.jpg">
-                    <source src="../assets/animations/dvnanima/neutrino-particles-juno-verse-2.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>Verse 2</span>
-                    <small>338.5 KB</small>
-                  </figcaption>
-                </figure>
-                <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-juno-step-by-step-hit.jpg">
-                    <source src="../assets/animations/dvnanima/neutrino-particles-juno-step-by-step-hit.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>Step-by-step hit</span>
-                    <small>82.7 KB</small>
-                  </figcaption>
-                </figure>
-                <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-juno-final-chorus.jpg">
-                    <source src="../assets/animations/dvnanima/neutrino-particles-juno-final-chorus.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>Final chorus</span>
-                    <small>563.7 KB</small>
-                  </figcaption>
-                </figure>
-                <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-juno-outro.jpg">
-                    <source src="../assets/animations/dvnanima/neutrino-particles-juno-outro.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>Outro</span>
-                    <small>115.6 KB</small>
-                  </figcaption>
-                </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/mass_hierarchy">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-juno-survival.mp4">MP4: Вероятность выживания</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-juno-neutrino-pov.mp4">MP4: Путь нейтрино</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-juno-intro.mp4">MP4: Intro</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-juno-neutrino-flight.mp4">MP4: Neutrino flight</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-juno-chorus-reveal.mp4">MP4: Chorus reveal</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-juno-verse-1.mp4">MP4: Verse 1</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-juno-verse-2.mp4">MP4: Verse 2</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-juno-step-by-step-hit.mp4">MP4: Step-by-step hit</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-juno-final-chorus.mp4">MP4: Final chorus</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-juno-outro.mp4">MP4: Outro</a>
               </div>
             </div>
           </details>
