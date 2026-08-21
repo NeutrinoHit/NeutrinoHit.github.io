@@ -2,7 +2,24 @@
 
 Центральная карта NeutrinoHit на Quarto.
 
-Публикация сайта настроена через GitHub Actions: push в `main` рендерит Quarto и обновляет ветку `gh-pages`, из которой GitHub Pages отдаёт сайт.
+## Сборка и публикация
+
+Локальная сборка каждого репозитория выполняется одной командой:
+
+```bash
+make site
+```
+
+Полный публикуемый сайт репозитория создаётся в `_site/`.
+
+Production-публикация запускается только вручную: `Actions` → `Publish site` →
+`Run workflow`. Каждый репозиторий независимо публикует собственный GitHub
+Pages site; изменения в дочерних репозиториях не запускают публикацию
+центрального сайта.
+
+Общая production-логика находится в
+`.github/workflows/publish-reusable.yml`, а production-версия Quarto
+зафиксирована там как `1.9.37`.
 
 ## Миграция структуры сайта
 
@@ -12,36 +29,30 @@
 
 ## Локальный preview всего сайта
 
-Корневой сайт можно смотреть из `neutrinohit-map`:
+`make site` собирает только центральный сайт. Для полного локального preview
+workspace сначала собрать нужные дочерние репозитории через `make site`, затем
+из `neutrinohit-map` выполнить:
 
 ```bash
-quarto preview
+make local-aggregate
 ```
 
-После рендера локальный post-render скрипт `scripts/sync_local_project_sites.py`
-копирует уже собранные сайты соседних проектов в `_site/<slug>/`:
+Эта команда добавляет уже собранные сайты соседних проектов в `_site/<slug>/`:
 
 - `talks/_site` -> `_site/talks`;
 - `qft-lectures/_site` -> `_site/qft-lectures`;
 - `gravity/_site` -> `_site/gravity`;
-- `sciencepop` + overlay `sciencepop/_site` -> `_site/sciencepop`;
+- `sciencepop/_site` -> `_site/sciencepop`;
 - `neutrinophysics/_site` -> `_site/neutrinophysics`;
 - `particlephysics/_site` -> `_site/particlephysics`;
-- `stat-course/pages` -> `_site/statistical-analysis-course`.
+- `stat-course/_site` -> `_site/statistical-analysis-course`.
 
 На `localhost` скрипт `assets/local-preview-links.js` переписывает ссылки вида
 `https://neutrinohit.github.io/...` в локальные `/...`, поэтому из preview можно
 переходить по разделам так, как на опубликованном сайте.
 
-В GitHub Actions этот локальный compose автоматически пропускается по
-`GITHUB_ACTIONS=true`: корневой сайт публикует только карту NeutrinoHit, а
-отдельные проекты публикуют свои Pages самостоятельно.
-
-Если нужно отключить локальное копирование подпроектов:
-
-```bash
-NEUTRINOHIT_SYNC_PROJECT_SITES=0 quarto preview
-```
+`make local-aggregate` используется только для локального preview и не
+участвует в GitHub Actions.
 
 ## CV
 
@@ -51,8 +62,7 @@ NEUTRINOHIT_SYNC_PROJECT_SITES=0 quarto preview
 - `en/cv.qmd` -> `en/cv.html`.
 
 PDF-файлы `ru/cv.pdf` и `en/cv.pdf` публикуются как готовые статические
-ресурсы. Обычная публикация сайта через `quarto render` не должна заново
-собирать PDF.
+ресурсы. Обычная сборка сайта через `make site` не должна заново собирать PDF.
 
 Если нужно обновить PDF после правки CV, собрать его вручную из
 `neutrinohit-map`:
@@ -90,7 +100,7 @@ cp _site/en/cv.pdf en/cv.pdf
 копий соседних курсов. Обычный `quarto render` запускается без этой переменной
 и сохраняет проверку. Ручной PDF-рендер Quarto пишет результат в `_site`,
 поэтому после него PDF нужно скопировать в исходные `ru/cv.pdf` и `en/cv.pdf`.
-При следующем обычном `quarto render` эти готовые PDF будут скопированы в
+При следующем обычном `make site` эти готовые PDF будут скопированы в
 `_site` как ресурсы.
 
 ## Фотоальбомы

@@ -1,0 +1,97 @@
+name: Reusable Pages publish
+
+on:
+  workflow_call:
+    inputs:
+      python_version:
+        type: string
+        required: false
+        default: ""
+      run_ci_setup:
+        type: boolean
+        required: false
+        default: false
+
+env:
+  QUARTO_VERSION: "1.9.37"
+  PAGES_WARN_BYTES: "800000000"
+  PAGES_MAX_BYTES: "1000000000"
+
+concurrency:
+  group: pages-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: ${{ env.QUARTO_VERSION }}
+
+      - name: Set up Python
+        if: ${{ inputs.python_version != '' }}
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ inputs.python_version }}
+          cache: pip
+
+      - name: Project CI setup
+        if: ${{ inputs.run_ci_setup }}
+        run: make ci-setup
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build site
+        run: make site
+
+      - name: Validate site
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -d _site
+          test -f _site/index.html
+
+          test -z "$(find _site -type l -print -quit)"
+          test -z "$(find _site -type f -links +1 -print -quit)"
+
+          site_bytes="$(du -sb _site | awk '{print $1}')"
+          echo "Published site size: ${site_bytes} bytes"
+
+          if (( site_bytes >= PAGES_WARN_BYTES )); then
+            echo "::warning::Published site is ${site_bytes} bytes"
+          fi
+
+          if (( site_bytes >= PAGES_MAX_BYTES )); then
+            echo "::error::Published site exceeds the 1 GB GitHub Pages limit"
+            exit 1
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5
