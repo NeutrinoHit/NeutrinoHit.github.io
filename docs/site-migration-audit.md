@@ -93,11 +93,11 @@ Defined in `scripts/sync_local_project_sites.py`:
 
 - `talks/_site` -> `_site/talks`
 - `qft-lectures/_site` -> `_site/qft-lectures`
-- `sciencepop` -> `_site/sciencepop`, with `sciencepop/_site` overlaid for
-  generated pages that are not present as static HTML in the source tree
+- `gravity/_site` -> `_site/gravity`
+- `sciencepop/_site` -> `_site/sciencepop`
 - `neutrinophysics/_site` -> `_site/neutrinophysics`
 - `particlephysics/_site` -> `_site/particlephysics`
-- `stat-course/pages` -> `_site/statistical-analysis-course`
+- `stat-course/_site` -> `_site/statistical-analysis-course`
 
 ### CSS observations
 
