@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Schools – NeutrinoHit</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-e3adbaa939bcd423dddc8c8a834270b4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../assets/site/neutrinohit-tokens.css">
+<link rel="stylesheet" href="../assets/site/neutrinohit-base.css">
+<link rel="stylesheet" href="../assets/site/neutrinohit-components.css">
+<link rel="stylesheet" href="../assets/site/neutrinohit-projects.css">
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">NeutrinoHit</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/index.html"> 
+<span class="menu-text">Главная</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/research.html"> 
+<span class="menu-text">Наука</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/education.html"> 
+<span class="menu-text">Образование</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/outreach.html"> 
+<span class="menu-text">Научная коммуникация</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/materials.html"> 
+<span class="menu-text">Книги</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/modeling.html"> 
+<span class="menu-text">Моделирование</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/photos-cinema.html"> 
+<span class="menu-text">Фото и кино</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/school.html"> 
+<span class="menu-text">Школа</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/index.html"> 
+<span class="menu-text">RU</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../en/index.html"> 
+<span class="menu-text">EN</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Schools</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Pages for past and upcoming schools; the archive will keep growing.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Schools catalog">
+    <details class="lecture-course school-course-baikal">
+      <summary>
+        <span class="lecture-course-status">2 events, program</span>
+        <span class="lecture-course-title">Baikal Summer School on Physics of Elementary Particles and Astrophysics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Baikal summer school on particle physics and astrophysics.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>2026</summary>
+            <div class="lecture-material-body">
+
+<div class="lecture-course-actions">
+  <a class="lecture-action-primary" href="https://indico.jinr.ru/event/5998/">School page</a>
+  <a href="https://teach-in.ru/course/baikal-summer-school-2026">Lecture videos</a>
+  <a href="baikal-school-2026-projects.html">Projects</a>
+  <a href="../assets/schools/baikal-2026/baikal-school-2026-program.pdf">Program</a>
+  <a href="../assets/schools/baikal-2026/baikal-school-2026-poster.pdf">Poster</a>
+  <a href="https://disk.jinr.ru/index.php/s/dPLtxmpxcSWAzaK?dir=/Baikal_summer_school/Baikal_Summer_School_2026/Materials">Materials</a>
+  <a href="https://disk.jinr.ru/index.php/s/dPLtxmpxcSWAzaK?dir=/Baikal_summer_school/Baikal_Summer_School_2026">Photo archive</a>
+</div>
+
+<div class="baikal-school-poster">
+  <a href="../assets/schools/baikal-2026/baikal-school-2026-poster.pdf">
+    <img src="../assets/schools/baikal-2026/baikal-school-2026-poster.png" alt="Baikal Summer School 2026 poster" loading="lazy">
+  </a>
+</div>
+              <div class="baikal-school-program-card">
+                <div class="baikal-lecture-index" aria-label="Baikal School 2026 lectures">
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Dmitry Naumov</h4><ul class="baikal-talk-list"><li><a class="baikal-talk-title" href="../particlephysics/IntroParticlePhysicsBaikal/index.html">Introduction to Particle Physics I-II</a></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Zhi-zhong Xing</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Origin of neutrino mass and mixing I (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Zhi-zhong%20Xing%20%28I%29.ppt">ppt</a>, <a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Zhi-zhong%20Xing%20%28I%29.pdf">pdf</a>), II (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Zhi-zhong%20Xing%20%28II%29.ppt">ppt</a>, <a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Zhi-zhong%20Xing%20%28II%29.pdf">pdf</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Dmitry Gorbunov</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Cosmology I (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Dmitry%20Gorbunov%20%28I%29.pdf">pdf</a>), II (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Dmitry%20Gorbunov%20%28II%29_v1.pdf">pdf</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Liangjian Wen</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Prospects of neutrino physics I (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Liangjian%20Wen%20%28I%29.pptx">pptx</a>), II (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Liangjian%20Wen%20%28II%29.pptx">pptx</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Junting Huang</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Introduction to dark matter (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Junting%20Huang_v1.pptx">pptx</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Andrey Sheshukov</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Simulation Software I-II</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Emil T. Akhmedov</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Gravity, Black Holes and all that I-II</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Sergey Troitsky</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Stars and new physics I (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Sergey%20Troitsky%20%28I%29.pdf">pdf</a>), II (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Sergey%20Troitsky%20%28II%29.pdf">pdf</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Grigory Safronov</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">UHE Neutrino Telescopes I (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Grigory%20Safronov%20%28I%29.pptx">pptx</a>, <a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Grigory%20Safronov%20%28I%29.pdf">pdf</a>), II (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Grigory%20Safronov%20%28II%29.pdf">pdf</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Dmitry Bylinkin</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Special evening lecture / discussion (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Dmitry%20Bylinkin.pdf">pdf</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Dmitry Karlovets</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Vortex states (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Dmitry%20Karlovets.pptx">pptx</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Maxim Barkov</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">How to make jets fast, powerful and variable (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Maxim%20Barkov.pptx">pptx</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Elena Nokhrina</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Magnetic fields in AGN jets (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Elena%20Nokhrina.pdf">pdf</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row"><h4 class="baikal-lecturer-name anchored">Evgeny Derishev</h4><ul class="baikal-talk-list"><li><span class="baikal-talk-title baikal-talk-title-muted">Radiation and particle acceleration processes in relativistic outflows I (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Engeny%20Derishev%20%28I%29.pdf">pdf</a>), II (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Engeny%20Derishev%20%28II%29.pdf">pdf</a>); Bz patch movie (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/DER_Bz_patch_movie.avi">avi</a>, <a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/DER_Bz_patch_movie.mp4">mp4</a>)</span></li></ul></div>
+                  <div class="baikal-lecturer-row">
+                    <h4 class="baikal-lecturer-name anchored">Projects</h4>
+                    <ul class="baikal-talk-list baikal-student-materials">
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/1st%20Group.pptx">High-Energy Astrophysical Neutrinos</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/1st%20Group.pptx">pptx</a>)</span><p class="baikal-student-meta"><strong>Group members:</strong> Vladimir Sverkunov, Anastasia Andreeva, Vladimir Astakhov, Sofija Murzakova, Evgeny Bobrov, David Nkundumukiza, Kirill Kudayev. <strong>Supervisor:</strong> Andrey Radjabov. <strong>Project author:</strong> Vladimir Allakhverdian.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/Particle_Acceleration_at_Astrophysical_Shocks%20%281%29.pdf">Particle Acceleration at Astrophysical Shocks</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/Particle_Acceleration_at_Astrophysical_Shocks%20%281%29.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Group members:</strong> Fedor Baykov, Sergey Serga, Alexandra Panfiorova, Sardor Islamov, Matvey Klimenko, Artem Konovalov, Alexander Kuzmichev. <strong>Supervisor:</strong> Evgeny Derishev. <strong>Project author:</strong> Prof. Evgeny Derishev.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/Group3.%20Neutrino%20oscillations%20in%20matter.pdf">Neutrino oscillations in matter</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/Group3.%20Neutrino%20oscillations%20in%20matter.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Group members:</strong> Ekaterina Tyapkina, Julia Vdovina, Sofia Frank-Kamenetskaya, Daniel Kharlamov, Georgy Chachava, Stepan Cherepanov, Alexander Shchepkin. <strong>Supervisor:</strong> Vladimir Allakhverdian. <strong>Project author:</strong> Vladimir Allakhverdian.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/Neutrino%20Emission%20from%20NGC%201068-like%20Seyfert%20Galaxies%20and%20KM3NeTARCA%20Detectability.pdf">Neutrino Emission from NGC 1068-like Seyfert Galaxies and KM3NeT/ARCA Detectability</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/Neutrino%20Emission%20from%20NGC%201068-like%20Seyfert%20Galaxies%20and%20KM3NeTARCA%20Detectability.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Group members:</strong> Lijun Tong, Zike Wang, Yifan Jiang, Shasha Liu, Lili Yang, Haoyan Zhang, Zhaozhi Zhang. <strong>Supervisor:</strong> Junting Huang. <strong>Project author:</strong> Prof. Lili Yang.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/BaikalSchool2026_group5-1.pdf">Unveiling the Quantum Features of Cherenkov Emission: From Momentum Space to Phase Space</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/BaikalSchool2026_group5-1.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Group members:</strong> Anastasia Artamonova, Aleksandra Usoltseva, Yurii Akberov, Daniil Akhmedyanov, Daniil Dekabryov, Igor Popov. <strong>Supervisors:</strong> Simon Sotirov, Andrey Sheshukov. <strong>Project author:</strong> Alexander Schepkin.</p></li>
+                      <li><span class="baikal-talk-title baikal-talk-title-muted">Hawking Radiation and Primordial Black Holes (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/hawking.pptx">pptx</a>, <a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/hawking.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Group members:</strong> Daniil Zubchenko, Maksim Maksimov, Sergey Sorokin, Mariia Tsuranova, Aisen Nikiforov, Ekaterina Khabarova, Alexey Kudashov, Ivan Maslakov. <strong>Supervisors:</strong> Emil Akhmedov, Vladimir Lapushkin. <strong>Project author:</strong> Prof. Dmitry Naumov.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/group7.pdf">Pulsar Wind Nebula Guitar and Its Environment</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/group7.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Group members:</strong> Ozoda Inoyatillo, Polina Medvedeva, Darya Busel, Maxim Tadei, Dashdamir Raqimov, Pavel Kislitsyn, Vladislav Filippov. <strong>Supervisor:</strong> Maxim Barkov. <strong>Project author:</strong> Maxim Barkov.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/How_to_observe_wormhole.pptx">How to Observe a Wormhole</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Projects/How_to_observe_wormhole.pptx">pptx</a>)</span><p class="baikal-student-meta"><strong>Group members:</strong> Maxim Krestiyanskikh, Valery Lavrenenko, Anton Murtazin, Polina Batrakova, Anna Dembitskaia, Valeria Dybova, Konstantin Prokopev. <strong>Supervisor:</strong> Sergey Troitsky. <strong>Project author:</strong> Prof. Dmitry Naumov.</p></li>
+                    </ul>
+                  </div>
+                  <div class="baikal-lecturer-row">
+                    <h4 class="baikal-lecturer-name anchored">Posters</h4>
+                    <ul class="baikal-talk-list baikal-student-materials">
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Akhmedianov%20D.pdf">Calibration of water-based Cherenkov detector</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Akhmedianov%20D.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Author:</strong> Akhmedianov D. <strong>Supervisor:</strong> Monkhoev R.</p></li>
+                      <li><span class="baikal-talk-title baikal-talk-title-muted">Analysis of the ground temperature as part of the search for an optimal site for the TAIGA-100 astrophysical complex (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Astakhov%20V.pptx">pptx</a>, <a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Astakhov%20V.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Author:</strong> Astakhov V.A. <strong>Supervisor:</strong> Ivanova A.L.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Busel%20D.pdf">Sensitivity of the Baikal-GVD detector to diffuse astrophysical neutrino flux in track-like event analysis</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Busel%20D.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Authors:</strong> D.A. Busel, G.B. Safronov.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Chachava%20G.pdf">Searching for heavy neutrinos in e+ e- -&gt; W+ W-</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Chachava%20G.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Authors:</strong> Chachava G.A., Godunov S.I.</p></li>
+                      <li><span class="baikal-talk-title baikal-talk-title-muted">Quantum corrections to the effective potential in SO(N) symmetric scalar field theories in curved spacetime (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Filippov%20V.pptx">pptx</a>, <a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Filippov%20V.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Authors:</strong> Filippov V.A., Tolkachev D.M., Iakhibbaev R.M.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Frank-Kamenetskaya%20S.pdf">Pair gravitino production at the LHC</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Frank-Kamenetskaya%20S.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Authors:</strong> S. Frank-Kamenetskaya, M. Savina.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Kudashov%20A.pdf">Axion-Electron Coupling Constraints from TRGB Luminosities: Assessing Theoretical Uncertainties</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Kudashov%20A.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Speaker:</strong> Kudashov A.M. <strong>Authors:</strong> G.A. Gontcharov, A.M. Kudashov, O.S. Ryutina, S.V. Troitsky.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Lapushkin%20V.pdf">Lessons from the Klein Paradox</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Lapushkin%20V.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Authors:</strong> E.T. Akhmedov, D.V. Diakonov, V.I. Lapushkin, D.I. Sadekov.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Maslakov%20I.pdf">The birth of B-boson in hadron collisions. VMD and formfactors</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Maslakov%20I.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Author:</strong> Ivan Maslakov. <strong>Supervisor:</strong> D.S. Gorbunov.</p></li>
+                      <li><span class="baikal-talk-title baikal-talk-title-muted">Sensitivity to supernova neutrino signal in Baikal-GVD (<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Murzakova%20S.pptx">pptx</a>, <a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Murzakova%20S.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Authors:</strong> Sofia Murzakova, Andrey Sheshukov.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Nkundumukiza%20D.pdf">A Prototype of the Water Cherenkov Detector in the TAIGA-100 Project</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Nkundumukiza%20D.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Author:</strong> David Nkundumukiza. <strong>Leader:</strong> Prof. Budnev N.M.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Panfiorova%20A.pdf">Methods and some results of the search for submicrosecond optical transients with imaging atmospheric Cherenkov telescopes TAIGA-IACT</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Panfiorova%20A.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Author:</strong> A.T. Panfiorova. <strong>Supervisor:</strong> E.E. Korosteleva.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Rubtsov%20D.pptx">Study of Luminescent Characteristics of Epishura baikalensis</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Rubtsov%20D.pptx">pptx</a>)</span><p class="baikal-student-meta"><strong>Author:</strong> Rubtsov Dmitry Alekseevich. <strong>Supervisor:</strong> Dr. Sci. (Phys.-Math.) V.P. Dresvyansky.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Shasha%20Liu.pptx">PMT performance with high-voltage boosting base of TRIDENT</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Shasha%20Liu.pptx">pptx</a>)</span><p class="baikal-student-meta"><strong>Author:</strong> Shasha Liu.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Sotirov%20S.pdf">Galactic neutrinos. Case of nearby PeVatron.</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Sotirov%20S.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Authors:</strong> A. Korochkin, S. Sotirov, S. Troitsky.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Sverkunov%20V.pptx">Development of a methodology for cloud analysis based on sky images from a wide-angle camera to search for the TAIGA-100 installation site</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Sverkunov%20V.pptx">pptx</a>)</span><p class="baikal-student-meta"><strong>Author:</strong> Vladimir Alexandrovich Sverkunov. <strong>Leaders:</strong> D.P. Zhurov, A.L. Ivanova.</p></li>
+                      <li><a class="baikal-talk-title" href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Usolceva%20A.pdf">Simulation of potential astrophysical neutrino sources in NTSim</a> <span class="baikal-talk-title-muted">(<a href="https://disk.jinr.ru/public.php/dav/files/dPLtxmpxcSWAzaK/Baikal_summer_school/Baikal_Summer_School_2026/Materials/Participant%20reports/Usolceva%20A.pdf">pdf</a>)</span><p class="baikal-student-meta"><strong>Author:</strong> Usolceva Alexandra. <strong>Supervisor:</strong> Andrey Sheshukov.</p></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>2025</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a href="https://indico.jinr.ru/event/5198/">School page</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details class="lecture-course school-course-baksan">
+      <summary>
+        <span class="lecture-course-status">2 events</span>
+        <span class="lecture-course-title">Baksan School</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Schools at the Baksan Neutrino Observatory.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="https://indico.inr.ac.ru/event/6/overview">2025 school page</a>
+          <a href="http://minus.inr.ac.ru/~school/index1.html">2019 school page</a>
+        </div>
+      </div>
+    </details>
+  </section>
+</div>
+
+
+
+</main> <!-- /main -->
+<div class="album-lightbox" id="albumLightbox" aria-hidden="true">
+  <button class="album-lightbox-close" type="button" aria-label="Закрыть">×</button>
+  <button class="album-lightbox-prev" type="button" aria-label="Предыдущее фото">‹</button>
+  <figure class="figure">
+    <img alt="" class="figure-img">
+    <figcaption></figcaption>
+  </figure>
+  <button class="album-lightbox-next" type="button" aria-label="Следующее фото">›</button>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var lightbox = document.getElementById("albumLightbox");
+  if (!lightbox) return;
+
+  var image = lightbox.querySelector("img");
+  var caption = lightbox.querySelector("figcaption");
+  var closeButton = lightbox.querySelector(".album-lightbox-close");
+  var prevButton = lightbox.querySelector(".album-lightbox-prev");
+  var nextButton = lightbox.querySelector(".album-lightbox-next");
+  var photos = Array.prototype.slice.call(document.querySelectorAll(".published-album .published-photo img"));
+  var current = 0;
+
+  if (!photos.length) {
+    lightbox.remove();
+    return;
+  }
+
+  function photoCaption(photo) {
+    var figure = photo.closest("figure");
+    var text = figure ? figure.querySelector("figcaption") : null;
+    return text ? text.textContent.trim() : "";
+  }
+
+  function openLightbox(index) {
+    current = index;
+    var photo = photos[current];
+    image.src = photo.dataset.full || photo.currentSrc || photo.src;
+    image.alt = photo.alt || "";
+    caption.textContent = photoCaption(photo);
+    caption.hidden = !caption.textContent;
+    lightbox.setAttribute("aria-hidden", "false");
+    document.body.classList.add("album-lightbox-open");
+    closeButton.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("album-lightbox-open");
+    image.removeAttribute("src");
+  }
+
+  function step(delta) {
+    current = (current + delta + photos.length) % photos.length;
+    openLightbox(current);
+  }
+
+  photos.forEach(function (photo, index) {
+    photo.tabIndex = 0;
+    photo.setAttribute("role", "button");
+    photo.setAttribute("aria-label", "Открыть фото");
+    photo.addEventListener("click", function () {
+      openLightbox(index);
+    });
+    photo.addEventListener("keydown", function (event) {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        openLightbox(index);
+      }
+    });
+  });
+
+  closeButton.addEventListener("click", closeLightbox);
+  prevButton.addEventListener("click", function () { step(-1); });
+  nextButton.addEventListener("click", function () { step(1); });
+  lightbox.addEventListener("click", function (event) {
+    if (event.target === lightbox) closeLightbox();
+  });
+  document.addEventListener("keydown", function (event) {
+    if (lightbox.getAttribute("aria-hidden") === "true") return;
+    if (event.key === "Escape") closeLightbox();
+    if (event.key === "ArrowLeft") step(-1);
+    if (event.key === "ArrowRight") step(1);
+  });
+})();
+</script>
+<script src="../assets/local-preview-links.js"></script>
+<script src="../assets/site/neutrinohit-language.js" defer=""></script>
+<script defer="" src="https://neutrinohit.github.io/assets/analytics/cloudflare-web-analytics.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/neutrinohit\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© NeutrinoHit</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with Quarto</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

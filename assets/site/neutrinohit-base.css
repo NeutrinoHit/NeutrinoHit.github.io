@@ -1,0 +1,31 @@
+.nh-page,
+.nh-shell {
+  color: var(--nh-color-text);
+}
+
+.nh-shell {
+  max-width: var(--nh-content-wide);
+  margin: 0 auto;
+  padding: var(--nh-space-5) var(--nh-space-4) 4rem;
+}
+
+.nh-section {
+  margin: 0 0 var(--nh-space-6);
+}
+
+.nh-section-header {
+  max-width: var(--nh-content-reading);
+  margin-bottom: var(--nh-space-4);
+}
+
+.nh-section-header h2,
+.nh-section-header h3 {
+  margin: 0 0 var(--nh-space-2);
+  color: var(--nh-color-text);
+}
+
+.nh-section-header p {
+  margin: 0;
+  color: var(--nh-color-muted);
+  line-height: 1.55;
+}

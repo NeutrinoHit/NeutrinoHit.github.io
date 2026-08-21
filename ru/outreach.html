@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru-RU" xml:lang="ru-RU"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Научная коммуникация – NeutrinoHit</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-e3adbaa939bcd423dddc8c8a834270b4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Поиск не дал результатов",
+    "search-matching-documents-text": "Результаты поиска",
+    "search-copy-link-title": "Скопировать ссылку",
+    "search-hide-matches-text": "Скрыть дополнительные результаты",
+    "search-more-match-text": "дополнительный результат в этом документе",
+    "search-more-matches-text": "дополнительных результата(-ов) в этом документе",
+    "search-clear-button-title": "Очистить",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Отменить",
+    "search-submit-button-title": "Найти",
+    "search-label": "Поиск"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../assets/site/neutrinohit-tokens.css">
+<link rel="stylesheet" href="../assets/site/neutrinohit-base.css">
+<link rel="stylesheet" href="../assets/site/neutrinohit-components.css">
+<link rel="stylesheet" href="../assets/site/neutrinohit-projects.css">
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">NeutrinoHit</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Поиск"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Переключить навигацию" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/index.html"> 
+<span class="menu-text">Главная</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/research.html"> 
+<span class="menu-text">Наука</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/education.html"> 
+<span class="menu-text">Образование</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../ru/outreach.html" aria-current="page"> 
+<span class="menu-text">Научная коммуникация</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/materials.html"> 
+<span class="menu-text">Книги</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/modeling.html"> 
+<span class="menu-text">Моделирование</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/photos-cinema.html"> 
+<span class="menu-text">Фото и кино</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/school.html"> 
+<span class="menu-text">Школа</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/index.html"> 
+<span class="menu-text">RU</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../en/index.html"> 
+<span class="menu-text">EN</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Научная коммуникация</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Публичные лекции, научно-популярная книга, фильмы, интервью, каналы и визуальные материалы о современной физике для широкой аудитории.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Разделы научной коммуникации">
+    <details id="outreach-lectures" class="lecture-course outreach-course-lectures">
+      <summary>
+        <span class="lecture-course-status">Научпоп-лекции</span>
+        <span class="lecture-course-title">Физика частиц, астрофизика и современная физика для широкой аудитории</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Лекции и визуальные материалы открываются прямо из этого раздела. Старые адреса сохранены как рабочий архив.</p>
+        <div class="lecture-material-list">
+          <details id="in-a-nutshell" class="lecture-material">
+            <summary>Библиотечка «Простыми словами»</summary>
+            <div class="lecture-material-body">
+              <p>Короткие модули по 5–10 минут: один физический вопрос и один ясный ответ.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../sciencepop/in-a-nutshell/index.html">Открыть библиотечку</a>
+                <a href="../sciencepop/in-a-nutshell/Matter/index.html">Что такое вещество?</a>
+                <a href="../sciencepop/in-a-nutshell/HowDoWeKnowAboutAtoms/index.html">Как узнали про атомы?</a>
+                <a href="../sciencepop/in-a-nutshell/WhatIsAtom/index.html">Что такое атом?</a>
+                <a href="../sciencepop/in-a-nutshell/InsideNucleus/index.html">Что внутри атомного ядра?</a>
+              </div>
+            </div>
+          </details>
+
+          <details id="neutrino-telescopes" class="lecture-material">
+            <summary>Зачем нужны нейтринные телескопы?</summary>
+            <div class="lecture-material-body">
+              <p>Вселенная глазами нейтрино. Лекция на Астрофесте, 2026.</p>
+              <div class="course-lectures course-lectures-single">
+                <article class="course-lecture-card">
+                  <a href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes/index.html"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body">
+                    <h3 class="course-lecture-title anchored">Зачем нужны нейтринные телескопы?</h3>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes/index.html">Открыть лекцию</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details id="birth-life-universe" class="lecture-material">
+            <summary>Рождение и жизнь Вселенной</summary>
+            <div class="lecture-material-body">
+              <p>Горячее начало, первый свет, звезды, галактики, Земля и далекое будущее.</p>
+              <p class="course-note">Видео лекции появится позже. Интерактивная BBN-игра использует тот же движок и сетку PRyMordial, что и слайд в лекции; на публичной странице подсказочные кнопки скрыты, чтобы параметры искали самостоятельно.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html">Открыть лекцию</a>
+                <a href="../sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html">Открыть BBN-игру</a>
+              </div>
+            </div>
+          </details>
+
+          <details id="modern-physics-without-formulas" class="lecture-material">
+            <summary>Современная физика без формул</summary>
+            <div class="lecture-material-body">
+              <p class="course-note">Мини-курс о пространстве-времени, квантовых полях, Стандартной модели, поисках новой физики и перспективах экспериментальной физики частиц.</p>
+              <div class="course-lectures">
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/8D2ONSvgm5A?si=jWggkGnI0ed_U7cl"><img src="https://img.youtube.com/vi/8D2ONSvgm5A/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title anchored">Три интеллектуальные революции</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture1/index.html">Открыть лекцию</a><a href="https://youtu.be/8D2ONSvgm5A?si=jWggkGnI0ed_U7cl">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/HNha1FM8pn4?si=BLLsmx5R4DP_HMJl"><img src="https://img.youtube.com/vi/HNha1FM8pn4/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title anchored">КТП: бесконечные мучения и глоток надежды</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture2/index.html">Открыть лекцию</a><a href="https://youtu.be/HNha1FM8pn4?si=BLLsmx5R4DP_HMJl">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/65lufSSiGgg?si=pFlt7Y19XXCWPHsk"><img src="https://img.youtube.com/vi/65lufSSiGgg/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title anchored">Стандартная модель: успешное соединение противоречий</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture3/index.html">Открыть лекцию</a><a href="https://youtu.be/65lufSSiGgg?si=pFlt7Y19XXCWPHsk">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/u7TNiekrClw?si=DL3S9J2OaFzgYpWu"><img src="https://img.youtube.com/vi/u7TNiekrClw/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title anchored">За горизонты Стандартной модели: пути к новой физике</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture4/index.html">Открыть лекцию</a><a href="https://youtu.be/u7TNiekrClw?si=DL3S9J2OaFzgYpWu">YouTube</a></div></div>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details id="wave-or-particle" class="lecture-material">
+            <summary>Что такое частица в квантовой теории поля?</summary>
+            <div class="lecture-material-body">
+              <p>Волна или точка: рассеяние квантовой волны на двух мишенях и интерактивный апплет.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html">Открыть лекцию</a>
+              </div>
+            </div>
+          </details>
+
+          <details id="selected-lectures-films" class="lecture-material">
+            <summary>Отдельные лекции и фильмы</summary>
+            <div class="lecture-material-body">
+              <p>Видео по нейтринной физике, современной физике и демонстрационным экспериментам.</p>
+              <div class="course-lectures">
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title anchored">Вселенная в нейтринном телескопе</h3><p>Фильм. Сценарист и режиссер: Дмитрий Наумов.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/ybPLBzujONA?si=QRiMUIRnwwKqxZw0"><img src="https://img.youtube.com/vi/ybPLBzujONA/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title anchored">Как увеличить напряжение без трансформатора?</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/ybPLBzujONA?si=QRiMUIRnwwKqxZw0">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/-wFPbyZacts?si=jj20chjE9nmEu0uN"><img src="https://img.youtube.com/vi/-wFPbyZacts/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title anchored">Тайна пропавшей энергии. Почти детективная история открытия нейтрино</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/-wFPbyZacts?si=jj20chjE9nmEu0uN">YouTube</a></div></div>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details id="black-holes" class="lecture-material">
+            <summary>Чёрные дыры</summary>
+            <div class="lecture-material-body">
+              <p>Научно-популярная лекция о физике чёрных дыр.</p>
+              <div class="course-lectures course-lectures-single">
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/c9BkAFfZHC8"><img src="https://img.youtube.com/vi/c9BkAFfZHC8/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title anchored">Чёрные дыры: удивительные объекты во Вселенной</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/BlackHoles/ЧерныеДыры/index.html">Открыть лекцию</a><a href="https://youtu.be/c9BkAFfZHC8">YouTube</a></div></div>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details id="dark-matter" class="lecture-material">
+            <summary>Тёмная материя</summary>
+            <div class="lecture-material-body">
+              <p>Наблюдательные свидетельства и возможная природа тёмной материи.</p>
+              <div class="course-lectures course-lectures-single">
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/A2sHEkQ0Uww?si=Y7oeKP6kEfgSOszi"><img src="https://img.youtube.com/vi/A2sHEkQ0Uww/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title anchored">Тёмная материя</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/DarkMatter/ТемнаяМатерия/index.html">Открыть лекцию</a><a href="https://youtu.be/A2sHEkQ0Uww?si=Y7oeKP6kEfgSOszi">YouTube</a></div></div>
+                </article>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details id="solar-neutrino-book" class="lecture-course book-course-solar">
+      <summary>
+        <span class="lecture-course-status">Книги</span>
+        <span class="lecture-course-title">Солнечное нейтрино</span>
+      </summary>
+      <div class="lecture-course-body book-course-with-cover">
+        <a class="book-cover-single" href="https://ast.ru/book/solnechnoe-neytrino-862573/"><img src="https://cdn.ast.ru/v2/ASE000000000862573/COVER/cover1__w340.jpg" alt="Обложка книги «Солнечное нейтрино»"></a>
+        <div>
+          <p>Детская научно-популярная книга о нейтрино, Солнце и большой физике маленьких частиц.</p>
+          <div class="lecture-course-actions"><a class="lecture-action-primary" href="https://ast.ru/book/solnechnoe-neytrino-862573/">Страница AST</a></div>
+        </div>
+      </div>
+    </details>
+
+    <details id="outreach-films" class="lecture-course cinema-course-documentary">
+      <summary><span class="lecture-course-status">Фильмы</span><span class="lecture-course-title">Кино и визуальные проекты</span></summary>
+      <div class="lecture-course-body">
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Вселенная в нейтринном телескопе</summary>
+            <div class="lecture-material-body cinema-material-detail"><a href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a><div><p>Фильм о том, как нейтринные телескопы открывают Вселенную. Сценарист и режиссер: Дмитрий Наумов.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">Смотреть на YouTube</a></div></div></div>
+          </details>
+          <details class="lecture-material"><summary>Нерпа и тайна Байкала</summary><div class="lecture-material-body cinema-material-detail"><a href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg"><img src="https://img.youtube.com/vi/Qja-x8WjYiw/hqdefault.jpg" alt=""></a><div><p>Мультфильм о Байкале. Сценарий: Дмитрий Наумов.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg">Смотреть на YouTube</a></div></div></div></details>
+        </div>
+      </div>
+    </details>
+
+    <details id="outreach-interviews" class="lecture-course interview-course-articles">
+      <summary><span class="lecture-course-status">Интервью</span><span class="lecture-course-title">Интервью, статьи, эфиры и подкасты</span></summary>
+      <div class="lecture-course-body">
+        <p>Разговоры о нейтринной физике, Байкальском телескопе и научной коммуникации.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material"><summary>Ловушка для призраков: астрофизики черпают нейтрино из Байкала</summary><div class="lecture-material-body"><p>О Байкальском глубоководном нейтринном телескопе и задачах нейтринной астрономии.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1061/">Открыть материал</a></div></div></details>
+          <details class="lecture-material"><summary>Научная коммуникация — новое понятие и новые знания</summary><div class="lecture-material-body"><p>О группе научных коммуникаций <a href="https://dlnp.jinr.ru/">ЛЯП ОИЯИ</a>, действующих проектах и планах.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1062/">Открыть материал</a></div></div></details>
+          <details class="lecture-material"><summary>Байкальский телескоп — уникальный инструмент нейтринной астрономии</summary><div class="lecture-material-body"><p>О роли Baikal-GVD и о сведениях об эволюции Вселенной, которые несут нейтрино.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1063/">Открыть материал</a></div></div></details>
+          <details class="lecture-material"><summary>На дно за черной дырой</summary><div class="lecture-material-body"><p>Интервью «Российской газете» о запуске нейтринного телескопа на озере Байкал.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1064/">Открыть материал</a></div></div></details>
+          <details class="lecture-material"><summary>Нейтрино нужно разговорить</summary><div class="lecture-material-body"><p>Интервью Яна Махонина для «Троицкого варианта — Наука».</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1065/">Открыть материал</a></div></div></details>
+          <details class="lecture-material"><summary>Радиоподкаст «Научный подход»</summary><div class="lecture-material-body"><p>Эфир «Радио России» о нейтринных телескопах.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1133/">Открыть материал</a></div></div></details>
+          <details class="lecture-material"><summary>Первый канал. Подкаст.Лаб. «Кот Шредингера»</summary><div class="lecture-material-body"><p>О происхождении нейтрино, способах их регистрации и телескопах на Байкале и в Антарктиде.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1322/">Открыть материал</a></div></div></details>
+        </div>
+      </div>
+    </details>
+
+    <details id="outreach-channels" class="lecture-course">
+      <summary><span class="lecture-course-status">Каналы</span><span class="lecture-course-title">YouTube, Telegram и социальные сети</span></summary>
+      <div class="lecture-course-body"><p>Публичные площадки NeutrinoHit и личные каналы для новостей, лекций, фотографий и материалов о физике.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a><a href="https://t.me/NeutrinoHit">Telegram</a><a href="https://www.facebook.com/dmitry.naumov.52">Facebook</a><a href="https://www.instagram.com/dmitryvnaumov_dlnp/">Instagram</a></div></div>
+    </details>
+  </section>
+</div>
+
+
+
+</main> <!-- /main -->
+<div class="album-lightbox" id="albumLightbox" aria-hidden="true">
+  <button class="album-lightbox-close" type="button" aria-label="Закрыть">×</button>
+  <button class="album-lightbox-prev" type="button" aria-label="Предыдущее фото">‹</button>
+  <figure class="figure">
+    <img alt="" class="figure-img">
+    <figcaption></figcaption>
+  </figure>
+  <button class="album-lightbox-next" type="button" aria-label="Следующее фото">›</button>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var lightbox = document.getElementById("albumLightbox");
+  if (!lightbox) return;
+
+  var image = lightbox.querySelector("img");
+  var caption = lightbox.querySelector("figcaption");
+  var closeButton = lightbox.querySelector(".album-lightbox-close");
+  var prevButton = lightbox.querySelector(".album-lightbox-prev");
+  var nextButton = lightbox.querySelector(".album-lightbox-next");
+  var photos = Array.prototype.slice.call(document.querySelectorAll(".published-album .published-photo img"));
+  var current = 0;
+
+  if (!photos.length) {
+    lightbox.remove();
+    return;
+  }
+
+  function photoCaption(photo) {
+    var figure = photo.closest("figure");
+    var text = figure ? figure.querySelector("figcaption") : null;
+    return text ? text.textContent.trim() : "";
+  }
+
+  function openLightbox(index) {
+    current = index;
+    var photo = photos[current];
+    image.src = photo.dataset.full || photo.currentSrc || photo.src;
+    image.alt = photo.alt || "";
+    caption.textContent = photoCaption(photo);
+    caption.hidden = !caption.textContent;
+    lightbox.setAttribute("aria-hidden", "false");
+    document.body.classList.add("album-lightbox-open");
+    closeButton.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("album-lightbox-open");
+    image.removeAttribute("src");
+  }
+
+  function step(delta) {
+    current = (current + delta + photos.length) % photos.length;
+    openLightbox(current);
+  }
+
+  photos.forEach(function (photo, index) {
+    photo.tabIndex = 0;
+    photo.setAttribute("role", "button");
+    photo.setAttribute("aria-label", "Открыть фото");
+    photo.addEventListener("click", function () {
+      openLightbox(index);
+    });
+    photo.addEventListener("keydown", function (event) {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        openLightbox(index);
+      }
+    });
+  });
+
+  closeButton.addEventListener("click", closeLightbox);
+  prevButton.addEventListener("click", function () { step(-1); });
+  nextButton.addEventListener("click", function () { step(1); });
+  lightbox.addEventListener("click", function (event) {
+    if (event.target === lightbox) closeLightbox();
+  });
+  document.addEventListener("keydown", function (event) {
+    if (lightbox.getAttribute("aria-hidden") === "true") return;
+    if (event.key === "Escape") closeLightbox();
+    if (event.key === "ArrowLeft") step(-1);
+    if (event.key === "ArrowRight") step(1);
+  });
+})();
+</script>
+<script src="../assets/local-preview-links.js"></script>
+<script src="../assets/site/neutrinohit-language.js" defer=""></script>
+<script defer="" src="https://neutrinohit.github.io/assets/analytics/cloudflare-web-analytics.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Скопировано");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Скопировано");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/neutrinohit\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© NeutrinoHit</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with Quarto</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

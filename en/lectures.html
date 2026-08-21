@@ -1,0 +1,1717 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Lectures – NeutrinoHit</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-e3adbaa939bcd423dddc8c8a834270b4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../assets/site/neutrinohit-tokens.css">
+<link rel="stylesheet" href="../assets/site/neutrinohit-base.css">
+<link rel="stylesheet" href="../assets/site/neutrinohit-components.css">
+<link rel="stylesheet" href="../assets/site/neutrinohit-projects.css">
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">NeutrinoHit</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/index.html"> 
+<span class="menu-text">Главная</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/research.html"> 
+<span class="menu-text">Наука</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/education.html"> 
+<span class="menu-text">Образование</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/outreach.html"> 
+<span class="menu-text">Научная коммуникация</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/materials.html"> 
+<span class="menu-text">Книги</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/modeling.html"> 
+<span class="menu-text">Моделирование</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/photos-cinema.html"> 
+<span class="menu-text">Фото и кино</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/school.html"> 
+<span class="menu-text">Школа</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../ru/index.html"> 
+<span class="menu-text">RU</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../en/index.html"> 
+<span class="menu-text">EN</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lectures</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="lecture-catalog">
+  <p class="lecture-catalog-lead">
+    Lecture courses, individual lectures, notes, slides, videos, and exercises.
+  </p>
+
+  <section class="lecture-course-list" aria-label="Lecture catalog">
+    <details id="qft" class="lecture-course lecture-course-qft">
+      <summary>
+        <span class="lecture-course-status">Published materials</span>
+        <span class="lecture-course-title">Quantum Field Theory</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Courses on quantum field theory, the Standard Model, renormalization, accelerated frames, and selected QFT topics.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Textbook</summary>
+            <div class="lecture-material-body">
+              <p><em>Quantum Field Theory for Experimentalists and More</em> is a two-volume textbook with examples, problems, and solutions. The Russian edition is published; the English edition is in preparation.</p>
+              <div class="book-cover-spread" aria-label="Quantum field theory textbook cover">
+                <img src="../assets/books/qft-cover-front.jpg" alt="Front cover of the quantum field theory textbook">
+                <img src="../assets/books/qft-cover-back.jpg" alt="Back cover of the quantum field theory textbook">
+              </div>
+              <div class="lecture-material-list">
+                <details class="lecture-material">
+                  <summary>Russian print edition</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Volume 1</a>
+                      <a href="https://shop.rcd.ru/catalog/fizika/20097/">Volume 2</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>ROSPEX Publishing</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a href="https://rospexpublishing.com/books/qft-volume-1.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Volume 1</a>
+                      <a href="https://rospexpublishing.com/books/qft-volume-2.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Volume 2</a>
+                      <a class="lecture-action-primary" href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Bundle</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>Google Play Books</summary>
+                  <div class="lecture-material-body">
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ">Volume 1</a>
+                      <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ">Volume 2</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>English edition</summary>
+                  <div class="lecture-material-body">
+                    <p>In preparation.</p>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Lecture course “Quantum Field Theory”</summary>
+            <div class="lecture-material-body">
+              <p>Basic QFT course: notes and video recordings are in Russian.</p>
+              <div class="lecture-course-actions">
+                <a href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">Notes (Russian)</a>
+                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29">YouTube</a>
+                <a href="https://rutube.ru/plst/1531108/">RuTube</a>
+                <a href="https://vkvideo.ru/playlist/-235607329_5">VK</a>
+                <a href="https://teach-in.ru/course/quantum-field-theory-naumov">Teach-in</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Lecture course “Introduction to the Standard Model”</summary>
+            <div class="lecture-material-body">
+              <p>Introductory Standard Model course: notes and videos are in Russian.</p>
+              <div class="lecture-course-actions">
+                <a href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">Notes (Russian)</a>
+                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV">YouTube</a>
+                <a href="https://rutube.ru/plst/1538123">RuTube</a>
+                <a href="https://vkvideo.ru/playlist/-235607329_6">VK</a>
+                <a href="https://teach-in.ru/course/introduction-to-the-standard-model">Teach-in</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Lecture course “Renormalization in Quantum Field Theory”</summary>
+            <div class="lecture-material-body">
+              <p>Course notes and video playlists are in Russian.</p>
+              <div class="lecture-course-actions">
+                <a href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">Notes (Russian)</a>
+                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG">YouTube</a>
+                <a href="https://rutube.ru/plst/1530811">RuTube</a>
+                <a href="https://vkvideo.ru/playlist/-235607329_4">VK</a>
+                <a href="https://teach-in.ru/course/renormalization-in-qft">Teach-in</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Accelerated frames and the Unruh effect</summary>
+            <div class="lecture-material-body">
+              <p>Five Russian-language HTML lectures, from Rindler coordinates and entanglement entropy to the Unruh effect for scalar and fermion fields.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../qft-lectures/unruh/">Open mini-course</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Attraction and Repulsion in Quantum Field Theory</summary>
+            <div class="lecture-material-body">
+              <p>Lecture on scalar QED and wave packets: how attraction and repulsion are encoded in QFT.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html">HTML slides</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details id="stat" class="lecture-course lecture-course-stat">
+      <summary>
+        <span class="lecture-course-status">15 English lectures · 13 Russian lectures</span>
+        <span class="lecture-course-title">Statistical Analysis of Data</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>A practical course for high-energy physics, astrophysics, and experimental data analysis. English-language lectures are listed directly below; Russian-only supporting materials are marked.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../statistical-analysis-course/ru/book/index.html">Online book (Russian)</a>
+          <a href="../statistical-analysis-course/ru/slides/applets.html">Applets (Russian)</a>
+          <a href="../statistical-analysis-course/ru/slides/exercises/index.html">All exercises (Russian)</a>
+          <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Exam projects (Russian)</a>
+        </div>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>01. Introduction</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-01-introduction.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>02. Probability and Bayes</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-02-probability-bayes.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>03. Random variables and densities</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-03-random-variables-and-densities.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>04. Expectation and error propagation</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-04-expectation-and-error-propagation.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>05. Common probability distributions</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-05-common-probability-distributions.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>06. Monte Carlo method</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-06-monte-carlo-method.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>07. Statistical tests basics</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-07-statistical-tests-basics.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>08. Test statistics and multivariate methods</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-08-test-statistics-and-multivariate-methods.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>09. Goodness of fit and significance</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-09-goodness-of-fit-and-significance.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>10. Feldman-Cousins and CLs</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-10-feldman-cousins-and-cls.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>11. Parameter estimation and maximum likelihood</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-11-parameter-estimation-and-maximum-likelihood.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>12. Method of least squares</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-12-method-of-least-squares.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>13. Interval estimation and limits</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-13-interval-estimation-and-limits.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>14. Nuisance parameters and systematics</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-14-nuisance-parameters-and-systematics.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>15. Bayesian examples</summary>
+            <div class="lecture-material-body">
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../statistical-analysis-course/en/slides/lecture-15-bayesian-examples.html">Open slides</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details id="neutrino" class="lecture-course lecture-course-neutrino">
+      <summary>
+        <span class="lecture-course-status">Courses and master classes</span>
+        <span class="lecture-course-title">Neutrino Physics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Introductory neutrino lectures and the solar-neutrino masterclass are listed directly here.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Introduction to neutrino physics</summary>
+            <div class="lecture-material-body">
+              <p>Lecture course in neutrino physics.</p>
+              <div class="lecture-material-list">
+                <details id="neutrino-literature" class="lecture-material reference-row">
+                  <summary>Recommended Reading</summary>
+                  <div class="lecture-material-body reference-row-body">
+<p class="reference-source">
+The list was compiled by <a href="http://theor.jinr.ru/~vnaumov/">V. A. Naumov</a> for the course <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/NPA.html">Neutrinos in Physics &amp; Astrophysics</a>.
+</p>
+<section class="reference-group">
+<h3 class="anchored">
+V. A. Naumov course materials
+</h3>
+<div class="reference-list">
+<article class="reference-item">
+<p>
+<strong>V. A. Naumov.</strong> <span class="reference-title">Neutrinos in Physics &amp; Astrophysics.</span> <span class="reference-details">Lecture notes.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/NPA.html">course page</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/Lectures_files/NPA_compressed.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>V. A. Naumov.</strong> <span class="reference-title">Simple warm-up questions.</span> <span class="reference-details">In Russian.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/Lectures_files/Warming.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>V. A. Naumov.</strong> <span class="reference-title">Cosmic Rays.</span> <span class="reference-details">Supplement to atmospheric and astrophysical neutrinos.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/Lectures_files/CR/CR.pdf">PDF</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/Lectures_files/CR/CR.pptx">PPTX</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>V. A. Naumov.</strong> <span class="reference-title">Relevant and Irrelevant.</span> <span class="reference-details">Slides on topics covered in the lectures.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/Lectures_files/RI/RI.pdf">PDF</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/Lectures_files/RI/RI.pptx">PPTX</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>V. A. Naumov.</strong> <span class="reference-title">List of exam questions.</span> <span class="reference-details">In Russian.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/Lectures_files/QuestionsFullList.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>V. A. Naumov.</strong> <span class="reference-title">Introduction to Cosmic Rays.</span> <span class="reference-details">Lectures for postgraduates of Florence University.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/Lectures_files/Cosmic%20Rays.pdf">PDF</a> <a href="http://theor.jinr.ru/%7Evnaumov/Eng/UHECR/UHECR.html">HTML</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>JINR.</strong> <span class="reference-title">Neutrino Oscillations webpage.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/NeutrinoOscillations/index.html">HTML</a></p>
+</div>
+</article>
+</div>
+</section>
+<section class="reference-group">
+<h3 class="anchored">
+Recommended books
+</h3>
+<div class="reference-list">
+<article class="reference-item">
+<p>
+<strong>A. De Angelis and M. J. M. Pimenta.</strong> <span class="reference-title">Introduction to Particle and Astroparticle Physics. Questions to the Universe.</span> <span class="reference-details">Springer, 2015.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/DeAngelis2015.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>C. Giunti and C. W. Kim.</strong> <span class="reference-title">Fundamentals of Neutrino Physics and Astrophysics.</span> <span class="reference-details">Oxford University Press, 2007.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Giunti2007.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>F. Boehm and P. Vogel.</strong> <span class="reference-title">Physics of Massive Neutrinos.</span> <span class="reference-details">2nd ed., Cambridge University Press, 1992.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Boehm1992.djvu">DJVU</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>M. Fukugita and T. Yanagida.</strong> <span class="reference-title">Physics of Neutrinos &amp; Applications to Astrophysics.</span> <span class="reference-details">Springer-Verlag, 2003.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Fukugita2003.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>R. N. Mohapatra and P. B. Pal.</strong> <span class="reference-title">Massive Neutrinos in Physics and Astrophysics.</span> <span class="reference-details">3rd ed., WSLNP72, 2004.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Mohapatra2004.djvu">DJVU</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>S. Bilenky.</strong> <span class="reference-title">Introduction to the Physics of Massive and Mixed Neutrinos.</span> <span class="reference-details">Lect. Not. Phys. 817, 2010.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Bilenky2010.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>V. Barger, D. Marfatia and K. Whisnant.</strong> <span class="reference-title">The Physics of Neutrinos.</span> <span class="reference-details">Princeton University Press, 2012.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Barger2012.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>Z.-z. Xing and S. Zhou.</strong> <span class="reference-title">Neutrinos in Particle Physics, Astronomy and Cosmology.</span> <span class="reference-details">Zhejiang University Press &amp; Springer-Verlag, 2011.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Xing2011.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>N. Schmitz.</strong> <span class="reference-title">Neutrinophysik.</span> <span class="reference-details">B. G. Teubner, Stuttgart, 1997.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Schmitz1997.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>Дж. Бакал.</strong> <span class="reference-title">Нейтринная астрофизика.</span> <span class="reference-details">М.: Мир, 1993.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Bahcall1993.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>C. Grupen.</strong> <span class="reference-title">Astroparticle Physics.</span> <span class="reference-details">Springer, 2005.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Grupen2005.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>U. Sarkar.</strong> <span class="reference-title">Particle and Astroparticle Physics.</span> <span class="reference-details">Taylor &amp; Francis Group, 2008.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Sarkar2008.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>B. Falkenburg and W. Rhode, eds.</strong> <span class="reference-title">From Ultra Rays to Astroparticles. A Historical Introduction to Astroparticle Physics.</span> <span class="reference-details">Springer, 2012.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Falkenburg2012.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>C. Grupen and I. Buvat, eds.</strong> <span class="reference-title">Handbook of Particle Detection and Imaging.</span> <span class="reference-details">Springer-Verlag, 2012.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Grupen2012.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>H. V. Klapdor-Kleingrothaus and A. Staudt.</strong> <span class="reference-title">Non-accelerator Particle Physics.</span> <span class="reference-details">Institute of Physics, 1995.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Klapdor1995.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>М. С. Лонгейр.</strong> <span class="reference-title">Астрофизика высоких энергий.</span> <span class="reference-details">М.: Мир, 1984.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Longair1984.djvu">DJVU</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>P. K. F. Grieder.</strong> <span class="reference-title">Cosmic Rays at Earth. Research Reference Manual and Data Book.</span> <span class="reference-details">Elsevier, 2001.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Grieder2001.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>P. K. F. Grieder.</strong> <span class="reference-title">Extensive Air Showers. High Energy Phenomena and Astrophysical Aspects.</span> <span class="reference-details">Springer, 2010.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Grieder2010.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>W. Greiner and B. Muller.</strong> <span class="reference-title">Gauge Theory of Weak Interactions.</span> <span class="reference-details">4th ed., Springer, 2009.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Greiner2009.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>С. М. Биленький.</strong> <span class="reference-title">Лекции по физике нейтринных и лептон-нуклонных процессов.</span> <span class="reference-details">М.: Энергоиздат, 1981.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Bilenki1981.djvu">DJVU</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>Ю. Комминс и Ф. Буксбаум.</strong> <span class="reference-title">Слабые взаимодействия лептонов и кварков.</span> <span class="reference-details">М.: Энергоиздат, 1987.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Commins1987.djvu">DJVU</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>Л. Б. Окунь.</strong> <span class="reference-title">Лептоны и кварки.</span> <span class="reference-details">2-е изд., М.: Наука, 1990.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Okun1990.djvu">DJVU</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>Д. С. Горбунов и В. А. Рубаков.</strong> <span class="reference-title">Введение в теорию ранней Вселенной: теория горячего Большого взрыва.</span> <span class="reference-details">3-е изд., М.: ЛЕНАНД, 2016.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Gorbunov2016.djvu">DJVU</a></p>
+</div>
+</article>
+</div>
+</section>
+<section class="reference-group">
+<h3 class="anchored">
+Reviews and special items
+</h3>
+<div class="reference-list">
+<article class="reference-item">
+<p>
+<strong>J. Steinberger.</strong> <span class="reference-title">The history of neutrinos, 1930-1985. What have we learned about neutrinos? What have we learned using neutrinos?</span> <span class="reference-details">Ann. Phys. 327 (2012) 3182-3205.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://www.sciencedirect.com/science/article/pii/S0003491612001224">journal</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/articles/Ann.Phys.327%282012%293182-3205.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>С. С. Герштейн, Е. П. Кузнецов, В. А. Рябов.</strong> <span class="reference-title">Природа массы нейтрино и нейтринные осцилляции.</span> <span class="reference-details">УФН 167 (1997) 811-848.</span>
+</p>
+<div class="reference-links">
+<p><a href="https://ufn.ru/ru/articles/1997/8/b/">journal</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/articles/UFN167%281997%29811-848.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>S. S. Gershtein, E. P. Kuznetsov and V. A. Ryabov.</strong> <span class="reference-title">The nature of neutrino mass and the phenomenon of neutrino oscillations.</span> <span class="reference-details">Phys. Usp. 40 (1997) 773-806.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://iopscience.iop.org/article/10.1070/PU1997v040n08ABEH000272/">journal</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/articles/PU40%281997%29773-806.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>F. F. Deppisch, P. S. Bhupal Dev and A. Pilaftsis.</strong> <span class="reference-title">Neutrinos and Collider Physics.</span> <span class="reference-details">New J. Phys. 17 (2015) 075019.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://iopscience.iop.org/article/10.1088/1367-2630/17/7/075019/pdf">journal</a> <a href="http://arxiv.org/abs/1502.06541">arXiv</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/articles/NJP17%282015%29075019.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>V. A. Naumov.</strong> <span class="reference-title">Solar neutrinos. Astrophysical aspects.</span> <span class="reference-details">Phys. Part. Nucl. Lett. 8 (2011) 683-703.</span>
+</p>
+<div class="reference-links">
+<p><a href="https://link.springer.com/article/10.1134/S1547477111070144">journal</a> <a href="https://www.slac.stanford.edu/econf/C1007061/pdf/bsproc2010.pdf">proceedings</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/articles/PEChAYa8%282011%291141-1170.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>R. Wendell and K. Okumura.</strong> <span class="reference-title">Recent progress and future prospects with atmospheric neutrinos.</span> <span class="reference-details">New J. Phys. 17 (2015) 025006.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://iopscience.iop.org/article/10.1088/1367-2630/17/2/025006/meta">journal</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/articles/NJP17%282015%29025006.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>E. Kh. Akhmedov.</strong> <span class="reference-title">Majorana neutrinos and other Majorana particles: theory and experiment.</span> <span class="reference-details">arXiv:1412.3320.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://arxiv.org/abs/1412.3320v1">arXiv</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/articles/hep-ph_1412.3320.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>S. F. King.</strong> <span class="reference-title">Models of neutrino mass, mixing and CP violation.</span> <span class="reference-details">J. Phys. G 42 (2015) 123001.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://iopscience.iop.org/article/10.1088/0954-3899/42/12/123001?fromSearchPage=true">journal</a> <a href="http://arxiv.org/abs/1510.02091">arXiv</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/articles/JPG42%282015%29123001.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>Д. В. Наумов, В. А. Наумов.</strong> <span class="reference-title">Квантово-полевая теория нейтринных осцилляций.</span> <span class="reference-details">ЭЧАЯ 51 (2020) 5-209.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://www1.jinr.ru/Pepan/v-51-1/02_Naumov_r.pdf">journal</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/articles/EChAYa51%282020%29005-209.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>D. V. Naumov and V. A. Naumov.</strong> <span class="reference-title">Quantum Field Theory of Neutrino Oscillations.</span> <span class="reference-details">Phys. Part. Nucl. 51 (2020) 1-106.</span>
+</p>
+<div class="reference-links">
+<p><a href="https://link.springer.com/article/10.1134/S1063779620010050">journal</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/articles/PAN51%282020%29001-106.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>А. Б. Александров и др.</strong> <span class="reference-title">Поиск слабовзаимодействующих массивных частиц темной материи: состояние и перспективы.</span> <span class="reference-details">УФН 191 (2021) 905-936.</span>
+</p>
+<div class="reference-links">
+<p><a href="https://www.ufn.ru/ru/articles/2021/9/a/">journal</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/articles/UFN191%282021%29905-936.pdf">PDF</a></p>
+</div>
+</article>
+</div>
+</section>
+<section class="reference-group">
+<h3 class="anchored">
+Popular books and articles
+</h3>
+<div class="reference-list">
+<article class="reference-item">
+<p>
+<strong>Рэй Джаявардхана.</strong> <span class="reference-title">Охотники за нейтрино. Захватывающая погоня за призрачной элементарной частицей.</span> <span class="reference-details">Альпина нон-фикшн, 2015.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Jayawardhana2013.fb2">FB2</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>Frank Close.</strong> <span class="reference-title">Neutrino.</span> <span class="reference-details">Oxford University Press, 2010.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Close2010.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>Chris Waltham.</strong> <span class="reference-title">Teaching neutrino oscillations.</span> <span class="reference-details">Am. J. Phys. 72 (2004) 742-752.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://scitation.aip.org/content/aapt/journal/ajp/72/6/10.1119/1.1646132">journal</a> <a href="http://arxiv.org/abs/physics/0303116">arXiv</a> <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/articles/AJP72%282004%29742-752.pdf">PDF</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>Александр А. Боровой.</strong> <span class="reference-title">Как регистрируют частицы. По следам нейтрино.</span> <span class="reference-details">Библиотечка Квант, вып. 15. М.: Наука, 1981.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Borovoi1981.djvu">DJVU</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>Александр А. Боровой.</strong> <span class="reference-title">12 шагов нейтринной физики.</span> <span class="reference-details">М.: Знание, 1985.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Borovoi1985.djvu">DJVU</a></p>
+</div>
+</article>
+<article class="reference-item">
+<p>
+<strong>Айзек Азимов.</strong> <span class="reference-title">Нейтрино - призрачная частица атома.</span> <span class="reference-details">М.: Атомиздат, 1969.</span>
+</p>
+<div class="reference-links">
+<p><a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/books/Asimov1969.djvu">DJVU</a></p>
+</div>
+</article>
+</div>
+</section>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>01. Neutrino 101</summary>
+                  <div class="lecture-material-body">
+                    <p>Basic properties, discovery history, and open questions.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/Introduction/index.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>02. Parity</summary>
+                  <div class="lecture-material-body">
+                    <p>Parity and weak interactions.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/Parity/index.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>03. Spin and Neutrino Polarization</summary>
+                  <div class="lecture-material-body">
+                    <p>Spin, polarization, and neutrino helicity.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/Helicity/index.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>04. Direct Determination of the Neutrino Mass</summary>
+                  <div class="lecture-material-body">
+                    <p>Kinematics, accelerators, and tritium experiments.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/04_direct_neutrino_mass.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>05. Neutrino Oscillations in Vacuum</summary>
+                  <div class="lecture-material-body">
+                    <p>Plane-wave theory, oscillation lengths, and practical examples.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/05_vacuum_oscillations.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>06. Neutrino Oscillations in Matter</summary>
+                  <div class="lecture-material-body">
+                    <p>Interaction potential, adiabatic approximation, and the MSW effect.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/06_matter_oscillations.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>07. Paradoxes in Neutrino Oscillation Theory</summary>
+                  <div class="lecture-material-body">
+                    <p>Assumptions, paradoxes, wave packets, and one-dimensional theory.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/07_oscillation_paradoxes.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>08. Neutrinos in the Standard Model</summary>
+                  <div class="lecture-material-body">
+                    <p>Helicity, chirality, Dirac or Majorana nature, and mass generation.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/08_standard_model_neutrinos.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>09. Electromagnetic Properties of Neutrinos</summary>
+                  <div class="lecture-material-body">
+                    <p>Properties in the Standard Model, beyond it, and experiments.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/09_electromagnetic_properties.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>10. Sterile Neutrinos</summary>
+                  <div class="lecture-material-body">
+                    <p>Theory, experiments, and current status.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/10_sterile_neutrinos.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>11. Neutrino Interactions with Matter</summary>
+                  <div class="lecture-material-body">
+                    <p>Cross sections, nuclear effects, coherent scattering, and the neutrino floor.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/11_neutrino_interactions.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>12. Experimental Methods of Neutrino Detection</summary>
+                  <div class="lecture-material-body">
+                    <p>Scintillators, Cherenkov, radiochemical, tracking, and other methods.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/12_detection_methods.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>13. Solar Neutrinos</summary>
+                  <div class="lecture-material-body">
+                    <p>Solar model, spectra, cross sections, experiments, and data fits.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/13_solar_neutrinos.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>14. Atmospheric Neutrinos</summary>
+                  <div class="lecture-material-body">
+                    <p>Air showers, simulations, experiments, deficit hypotheses, and data fits.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/14_atmospheric_neutrinos.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>15. Accelerator Neutrinos</summary>
+                  <div class="lecture-material-body">
+                    <p>Beams, spectra, cross sections, experiments, and oscillation analysis.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/15_accelerator_neutrinos.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>16. Reactor Neutrinos</summary>
+                  <div class="lecture-material-body">
+                    <p>Reactors, nuclear reactions, spectra, experiments, and monitoring.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/16_reactor_neutrinos.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>17. Geophysical Neutrinos</summary>
+                  <div class="lecture-material-body">
+                    <p>Earth thermal history, radioactive isotopes, and experiments.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/17_geophysical_neutrinos.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>18. Neutrinoless Double Beta Decay</summary>
+                  <div class="lecture-material-body">
+                    <p>Phenomenology, theory, experimental methods, results, and prospects.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/18_neutrinoless_double_beta_decay.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>19. Relic Neutrinos</summary>
+                  <div class="lecture-material-body">
+                    <p>Cosmology, spectrum, temperature, and experimental detection ideas.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/19_relic_neutrinos.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>20. Ultra-High-Energy Astrophysical Neutrinos</summary>
+                  <div class="lecture-material-body">
+                    <p>Sources, energy balance, experiments, methods, and goals.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/20_uhe_astrophysical_neutrinos.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>21. Supernova Neutrinos</summary>
+                  <div class="lecture-material-body">
+                    <p>Supernova theory, spectra, oscillations, and collective effects.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/21_supernova_neutrinos.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>22. Global Analysis</summary>
+                  <div class="lecture-material-body">
+                    <p>Chi2, likelihood, systematics, correlations, and degeneracies.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/22_global_analysis.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>23. Mixing and CP Violation</summary>
+                  <div class="lecture-material-body">
+                    <p>Mixing matrix, unitarity, CP phase, theory, and experiment.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/23_mixing_cp_violation.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>24. Neutrinos as a Window to New Physics</summary>
+                  <div class="lecture-material-body">
+                    <p>Possible signatures of new physics in the neutrino sector.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/24_new_physics.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>25. Neutrino Tomography</summary>
+                  <div class="lecture-material-body">
+                    <p>Earth, MSW physics, geoneutrinos, and ultra-high energies.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/25_neutrino_tomography.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>26. Reactors as Monitoring Tools</summary>
+                  <div class="lecture-material-body">
+                    <p>Reactor monitoring with neutrino methods.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/en/slides/26_reactor_monitoring.html">Open lecture</a>
+                    </div>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Solar neutrino masterclass</summary>
+            <div class="lecture-material-body">
+              <p>Mini-course on solar-neutrino sources, oscillations, MSW physics, detector statistics, and an SK-like fit project.</p>
+              <div class="lecture-material-list">
+                <details class="lecture-material">
+                  <summary>00. Solar Neutrinos and Oscillations</summary>
+                  <div class="lecture-material-body">
+                    <p>Overview of solar neutrinos, oscillations, and basic phenomenology.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html">Open lecture</a>
+                      <a href="../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics_appendix.html">Appendix</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>01. Fluxes, event rates, normalization fit</summary>
+                  <div class="lecture-material-body">
+                    <p>Solar-neutrino fluxes, event rates, and normalization fit.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html">Open lecture</a>
+                      <a href="../neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip">Masterclass 1 data</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>02. Oscillations and fit</summary>
+                  <div class="lecture-material-body">
+                    <p>MSW physics, detector statistics, and an SK-like spectrum fit.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html">Open lecture</a>
+                      <a href="../neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip">Masterclass 2 data</a>
+                    </div>
+                  </div>
+                </details>
+                <details class="lecture-material">
+                  <summary>Project. SK-like fit</summary>
+                  <div class="lecture-material-body">
+                    <p>Final project with reproducible data.</p>
+                    <div class="lecture-course-actions">
+                      <a class="lecture-action-primary" href="../neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html">Open project</a>
+                      <a href="../neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip">Project data</a>
+                    </div>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details id="particles" class="lecture-course lecture-course-particles">
+      <summary>
+        <span class="lecture-course-status">Mini-course published</span>
+        <span class="lecture-course-title">Particle Physics</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>The particle-physics mini-course and the larger course materials are listed directly here.</p>
+        <div class="lecture-material-list">
+          <details class="lecture-material">
+            <summary>Mini-course: introduction to particle physics</summary>
+            <div class="lecture-material-body">
+              <p>Two introductory lectures on particles, fields, interactions, gauge invariance, mass generation, and weak decay.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">01. Particles, Fields, and Interactions</a>
+                <a href="../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model.html">02. The Standard Model</a>
+              </div>
+            </div>
+          </details>
+          <details class="lecture-material">
+            <summary>Full course: introduction to particle physics</summary>
+            <div class="lecture-material-body">
+              <p>English layout of the full course: course slides and course book.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../particlephysics/ParticlePhysics/en/slides/index.html">Course slides</a>
+                <a href="../particlephysics/ParticlePhysics/en/book/index.html">Course book</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+
+    <details id="gravity" class="lecture-course lecture-course-gravity">
+      <summary>
+        <span class="lecture-course-status">Planned</span>
+        <span class="lecture-course-title">Gravity</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Future course section.</p>
+      </div>
+    </details>
+
+    <details id="oscillations" class="lecture-course lecture-course-oscillations">
+      <summary>
+        <span class="lecture-course-status">Planned</span>
+        <span class="lecture-course-title">Neutrino oscillation theory in QFT</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Future specialized course on quantum-field descriptions of neutrino oscillations.</p>
+      </div>
+    </details>
+  </section>
+</div>
+
+
+
+</main> <!-- /main -->
+<div class="album-lightbox" id="albumLightbox" aria-hidden="true">
+  <button class="album-lightbox-close" type="button" aria-label="Закрыть">×</button>
+  <button class="album-lightbox-prev" type="button" aria-label="Предыдущее фото">‹</button>
+  <figure class="figure">
+    <img alt="" class="figure-img">
+    <figcaption></figcaption>
+  </figure>
+  <button class="album-lightbox-next" type="button" aria-label="Следующее фото">›</button>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var lightbox = document.getElementById("albumLightbox");
+  if (!lightbox) return;
+
+  var image = lightbox.querySelector("img");
+  var caption = lightbox.querySelector("figcaption");
+  var closeButton = lightbox.querySelector(".album-lightbox-close");
+  var prevButton = lightbox.querySelector(".album-lightbox-prev");
+  var nextButton = lightbox.querySelector(".album-lightbox-next");
+  var photos = Array.prototype.slice.call(document.querySelectorAll(".published-album .published-photo img"));
+  var current = 0;
+
+  if (!photos.length) {
+    lightbox.remove();
+    return;
+  }
+
+  function photoCaption(photo) {
+    var figure = photo.closest("figure");
+    var text = figure ? figure.querySelector("figcaption") : null;
+    return text ? text.textContent.trim() : "";
+  }
+
+  function openLightbox(index) {
+    current = index;
+    var photo = photos[current];
+    image.src = photo.dataset.full || photo.currentSrc || photo.src;
+    image.alt = photo.alt || "";
+    caption.textContent = photoCaption(photo);
+    caption.hidden = !caption.textContent;
+    lightbox.setAttribute("aria-hidden", "false");
+    document.body.classList.add("album-lightbox-open");
+    closeButton.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("album-lightbox-open");
+    image.removeAttribute("src");
+  }
+
+  function step(delta) {
+    current = (current + delta + photos.length) % photos.length;
+    openLightbox(current);
+  }
+
+  photos.forEach(function (photo, index) {
+    photo.tabIndex = 0;
+    photo.setAttribute("role", "button");
+    photo.setAttribute("aria-label", "Открыть фото");
+    photo.addEventListener("click", function () {
+      openLightbox(index);
+    });
+    photo.addEventListener("keydown", function (event) {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        openLightbox(index);
+      }
+    });
+  });
+
+  closeButton.addEventListener("click", closeLightbox);
+  prevButton.addEventListener("click", function () { step(-1); });
+  nextButton.addEventListener("click", function () { step(1); });
+  lightbox.addEventListener("click", function (event) {
+    if (event.target === lightbox) closeLightbox();
+  });
+  document.addEventListener("keydown", function (event) {
+    if (lightbox.getAttribute("aria-hidden") === "true") return;
+    if (event.key === "Escape") closeLightbox();
+    if (event.key === "ArrowLeft") step(-1);
+    if (event.key === "ArrowRight") step(1);
+  });
+})();
+</script>
+<script src="../assets/local-preview-links.js"></script>
+<script src="../assets/site/neutrinohit-language.js" defer=""></script>
+<script defer="" src="https://neutrinohit.github.io/assets/analytics/cloudflare-web-analytics.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/neutrinohit\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© NeutrinoHit</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with Quarto</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

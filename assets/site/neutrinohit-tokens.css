@@ -1,0 +1,22 @@
+:root {
+  --nh-color-text: #25313a;
+  --nh-color-muted: #53616f;
+  --nh-color-accent: #1f6f8b;
+  --nh-color-accent-strong: #175873;
+  --nh-color-surface: rgba(255, 255, 255, 0.9);
+  --nh-color-surface-solid: #ffffff;
+  --nh-color-page: #f5f7fd;
+  --nh-color-border: rgba(43, 67, 91, 0.16);
+  --nh-shadow-card: 0 10px 26px rgba(43, 67, 91, 0.06);
+  --nh-shadow-media: 0 8px 24px rgba(43, 67, 91, 0.18);
+  --nh-radius-card: 8px;
+  --nh-radius-control: 7px;
+  --nh-space-1: 0.25rem;
+  --nh-space-2: 0.5rem;
+  --nh-space-3: 0.75rem;
+  --nh-space-4: 1rem;
+  --nh-space-5: 1.5rem;
+  --nh-space-6: 2rem;
+  --nh-content-wide: 1080px;
+  --nh-content-reading: 780px;
+}
