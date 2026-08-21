@@ -85,51 +85,6 @@
               "id": "survival",
               "label": "Вероятность выживания",
               "path": "mass_hierarchy/videos/juno_survival/1080p60/JunoSurvivalScene.mp4"
-            },
-            {
-              "id": "neutrino-pov",
-              "label": "Путь нейтрино",
-              "path": "mass_hierarchy/videos/neutrino_vision/480p15/NeutrinoPOV.mp4"
-            },
-            {
-              "id": "intro",
-              "label": "Intro",
-              "path": "mass_hierarchy/videos/juno_epic/1080p60/IntroScene.mp4"
-            },
-            {
-              "id": "neutrino-flight",
-              "label": "Neutrino flight",
-              "path": "mass_hierarchy/videos/juno_epic/1080p60/NeutrinoFlightScene.mp4"
-            },
-            {
-              "id": "chorus-reveal",
-              "label": "Chorus reveal",
-              "path": "mass_hierarchy/videos/juno_epic/1080p60/ChorusRevealScene.mp4"
-            },
-            {
-              "id": "verse-1",
-              "label": "Verse 1",
-              "path": "mass_hierarchy/videos/juno_epic/1080p60/Verse1Scene.mp4"
-            },
-            {
-              "id": "verse-2",
-              "label": "Verse 2",
-              "path": "mass_hierarchy/videos/juno_epic/1080p60/Verse2Scene.mp4"
-            },
-            {
-              "id": "step-by-step-hit",
-              "label": "Step-by-step hit",
-              "path": "mass_hierarchy/videos/juno_epic/1080p60/StepByStepHitScene.mp4"
-            },
-            {
-              "id": "final-chorus",
-              "label": "Final chorus",
-              "path": "mass_hierarchy/videos/juno_epic/1080p60/FinalChorusScene.mp4"
-            },
-            {
-              "id": "outro",
-              "label": "Outro",
-              "path": "mass_hierarchy/videos/juno_epic/1080p60/OutroScene.mp4"
             }
           ]
         },
