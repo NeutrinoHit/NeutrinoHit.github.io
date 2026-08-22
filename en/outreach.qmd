@@ -25,10 +25,10 @@ toc: false
               <p>Short 5-10 minute modules: one physics question and one clear answer.</p>
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="../sciencepop/in-a-nutshell/index.html">Open library</a>
-                <a href="../sciencepop/in-a-nutshell/Matter/index.html">What is matter?</a>
-                <a href="../sciencepop/in-a-nutshell/HowDoWeKnowAboutAtoms/index.html">How did we learn about atoms?</a>
-                <a href="../sciencepop/in-a-nutshell/WhatIsAtom/index.html">What is an atom?</a>
-                <a href="../sciencepop/in-a-nutshell/InsideNucleus/index.html">Inside the atomic nucleus</a>
+                <a href="../sciencepop/in-a-nutshell/Matter.pdf">What is matter?</a>
+                <a href="../sciencepop/in-a-nutshell/HowDoWeKnowAboutAtoms.pdf">How did we learn about atoms?</a>
+                <a href="../sciencepop/in-a-nutshell/WhatIsAtom.pdf">What is an atom?</a>
+                <a href="../sciencepop/in-a-nutshell/InsideNucleus.pdf">Inside the atomic nucleus</a>
               </div>
             </div>
           </details>
@@ -39,11 +39,11 @@ toc: false
               <p>The Universe seen with neutrinos. Astrofest lecture, 2026.</p>
               <div class="course-lectures course-lectures-single">
                 <article class="course-lecture-card">
-                  <a href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes/index.html"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a>
+                  <a href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a>
                   <div class="course-lecture-card-body">
                     <h3 class="course-lecture-title">Why do we need neutrino telescopes? (in Russian)</h3>
                     <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes/index.html">Open lecture</a>
+                      <a class="lecture-action-primary" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">Open lecture</a>
                     </div>
                   </div>
                 </article>
@@ -70,19 +70,19 @@ toc: false
               <div class="course-lectures">
                 <article class="course-lecture-card">
                   <a href="https://youtu.be/8D2ONSvgm5A?si=jWggkGnI0ed_U7cl"><img src="https://img.youtube.com/vi/8D2ONSvgm5A/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Three intellectual revolutions</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture1/index.html">Open lecture</a><a href="https://youtu.be/8D2ONSvgm5A?si=jWggkGnI0ed_U7cl">YouTube</a></div></div>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Three intellectual revolutions</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture1.pdf">Open lecture</a><a href="https://youtu.be/8D2ONSvgm5A?si=jWggkGnI0ed_U7cl">YouTube</a></div></div>
                 </article>
                 <article class="course-lecture-card">
                   <a href="https://youtu.be/HNha1FM8pn4?si=BLLsmx5R4DP_HMJl"><img src="https://img.youtube.com/vi/HNha1FM8pn4/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">QFT: endless troubles and a breath of hope</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture2/index.html">Open lecture</a><a href="https://youtu.be/HNha1FM8pn4?si=BLLsmx5R4DP_HMJl">YouTube</a></div></div>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">QFT: endless troubles and a breath of hope</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture2.pdf">Open lecture</a><a href="https://youtu.be/HNha1FM8pn4?si=BLLsmx5R4DP_HMJl">YouTube</a></div></div>
                 </article>
                 <article class="course-lecture-card">
                   <a href="https://youtu.be/65lufSSiGgg?si=pFlt7Y19XXCWPHsk"><img src="https://img.youtube.com/vi/65lufSSiGgg/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">The Standard Model: a successful union of contradictions</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture3/index.html">Open lecture</a><a href="https://youtu.be/65lufSSiGgg?si=pFlt7Y19XXCWPHsk">YouTube</a></div></div>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">The Standard Model: a successful union of contradictions</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture3.pdf">Open lecture</a><a href="https://youtu.be/65lufSSiGgg?si=pFlt7Y19XXCWPHsk">YouTube</a></div></div>
                 </article>
                 <article class="course-lecture-card">
                   <a href="https://youtu.be/u7TNiekrClw?si=DL3S9J2OaFzgYpWu"><img src="https://img.youtube.com/vi/u7TNiekrClw/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Beyond the Standard Model: paths to new physics</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture4/index.html">Open lecture</a><a href="https://youtu.be/u7TNiekrClw?si=DL3S9J2OaFzgYpWu">YouTube</a></div></div>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Beyond the Standard Model: paths to new physics</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture4.pdf">Open lecture</a><a href="https://youtu.be/u7TNiekrClw?si=DL3S9J2OaFzgYpWu">YouTube</a></div></div>
                 </article>
               </div>
             </div>
@@ -126,7 +126,7 @@ toc: false
               <div class="course-lectures course-lectures-single">
                 <article class="course-lecture-card">
                   <a href="https://youtu.be/c9BkAFfZHC8"><img src="https://img.youtube.com/vi/c9BkAFfZHC8/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Black holes: remarkable objects in the Universe (in Russian)</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/BlackHoles/ЧерныеДыры/index.html">Open lecture</a><a href="https://youtu.be/c9BkAFfZHC8">YouTube</a></div></div>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Black holes: remarkable objects in the Universe (in Russian)</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/BlackHoles/BlackHoles.pdf">Open lecture</a><a href="https://youtu.be/c9BkAFfZHC8">YouTube</a></div></div>
                 </article>
               </div>
             </div>
@@ -139,7 +139,7 @@ toc: false
               <div class="course-lectures course-lectures-single">
                 <article class="course-lecture-card">
                   <a href="https://youtu.be/A2sHEkQ0Uww?si=Y7oeKP6kEfgSOszi"><img src="https://img.youtube.com/vi/A2sHEkQ0Uww/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Dark matter (in Russian)</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/DarkMatter/ТемнаяМатерия/index.html">Open lecture</a><a href="https://youtu.be/A2sHEkQ0Uww?si=Y7oeKP6kEfgSOszi">YouTube</a></div></div>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Dark matter (in Russian)</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/DarkMatter/DarkMatter.pdf">Open lecture</a><a href="https://youtu.be/A2sHEkQ0Uww?si=Y7oeKP6kEfgSOszi">YouTube</a></div></div>
                 </article>
               </div>
             </div>
