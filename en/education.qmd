@@ -167,7 +167,7 @@ toc: false
         <span class="lecture-course-title">Statistical Analysis of Data</span>
       </summary>
       <div class="lecture-course-body">
-        <p>A practical course for high-energy physics, astrophysics, and experimental data analysis. English-language lectures are listed directly below; Russian-only supporting materials are marked.</p>
+        <p>A practical course for high-energy physics, astrophysics, and experimental data analysis. The Russian course has thirteen lectures; English-language lectures are listed directly below.</p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="../statistical-analysis-course/ru/book/index.html">Online book (Russian)</a>
           <a href="../statistical-analysis-course/ru/slides/applets.html">Applets (Russian)</a>
