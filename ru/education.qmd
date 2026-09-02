@@ -182,8 +182,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Зачем физику статистика и какие вопросы решает курс.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/00_introduction.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/00_introduction_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/01_introduction.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/01_introduction_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/01_why_statistics.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/01_why_statistics.html">Глава книги</a>
               </div>
             </div>
           </details>
@@ -192,8 +194,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Вероятности, плотности, кумулятивная функция распределения и моменты.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/01_random_distributions.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/01_random_distributions_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/02_random_distributions.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/02_random_distributions_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/02_random_distributions.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/02_random_distributions.html">Глава книги</a>
               </div>
             </div>
           </details>
@@ -202,8 +206,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Преобразование Фурье распределения, свёртки, независимые суммы, моменты, кумулянты и мост к ЦПТ.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/02_characteristic_functions.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/02_characteristic_functions_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/03_characteristic_functions.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/03_characteristic_functions_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/03_characteristic_functions.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/03_characteristic_functions.html">Глава книги</a>
               </div>
             </div>
           </details>
@@ -212,8 +218,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Почему возникает гаусс, как читать квантили и как проверять совместимость измерений.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/03_central_limit_theorem.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/03_central_limit_theorem_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/04_central_limit_theorem.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/04_central_limit_theorem_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.html">Глава книги</a>
               </div>
             </div>
           </details>
@@ -222,8 +230,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Границы применимости ЦПТ: тяжёлые хвосты, корреляции, смеси распределений, пороги и малые счёты.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/04_non_gaussian_clt_violations.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/04_non_gaussian_clt_violations_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/05_non_gaussian_clt_violations.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/05_non_gaussian_clt_violations_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html">Глава книги</a>
               </div>
             </div>
           </details>
@@ -232,8 +242,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Линейное распространение ошибок, нелинейные функции, оценки среднего, дисперсии, стандартного отклонения и ковариации.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/05_error_propagation.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/05_error_propagation_and_covariance_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/06_error_propagation.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/06_error_propagation_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/06_error_propagation.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/06_error_propagation.html">Глава книги</a>
               </div>
             </div>
           </details>
@@ -242,8 +254,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Ковариационная матрица, корреляция, двумерный гаусс, эллипсы, контуры и практические применения.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/06_two_dimensional_gaussian.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/05_error_propagation_and_covariance_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/07_two_dimensional_gaussian.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/07_two_dimensional_gaussian_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/07_two_dimensional_gaussian.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/07_two_dimensional_gaussian.html">Глава книги</a>
               </div>
             </div>
           </details>
@@ -252,8 +266,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Генерация распределений, численное интегрирование, псевдоэксперименты и моделирование детектора.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/07_monte_carlo_method.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/06_monte_carlo_method_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/08_monte_carlo_method.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/08_monte_carlo_method_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html">Глава книги</a>
                 <a href="../statistical-analysis-course/ru/slides/notebooks/mc_vegas_notebook.html">Ноутбук VEGAS</a>
               </div>
             </div>
@@ -263,8 +279,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Функция правдоподобия, логарифм правдоподобия, ММП и первые примеры оценивания параметров.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/08_maximum_likelihood.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/07_parameter_estimation_and_maximum_likelihood_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/09_maximum_likelihood.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/09_maximum_likelihood_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/09_maximum_likelihood.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/09_maximum_likelihood.html">Глава книги</a>
               </div>
             </div>
           </details>
@@ -273,8 +291,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Смещение, дисперсия, информация Фишера, форма правдоподобия, профилирование и диагностика подгонки.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/09_estimator_properties_profile_likelihood.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/07_parameter_estimation_and_maximum_likelihood_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/10_estimator_properties_profile_likelihood.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/10_estimator_properties_profile_likelihood_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html">Глава книги</a>
               </div>
             </div>
           </details>
@@ -283,8 +303,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Связь МНК с гауссовым правдоподобием, линейная модель, нормальные уравнения, ковариации параметров и остатки.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/10_least_squares_linear_fit.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/08_method_of_least_squares_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/11_least_squares_linear_fit.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/11_least_squares_linear_fit_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/11_least_squares_linear_fit.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/11_least_squares_linear_fit.html">Глава книги</a>
               </div>
             </div>
           </details>
@@ -293,8 +315,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Общий матричный случай, интервалы из формы χ², систематические неопределённости, нормировка и практический рецепт анализа.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/11_least_squares_systematics.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/08_method_of_least_squares_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/12_least_squares_systematics.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/12_least_squares_systematics_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/12_least_squares_systematics.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/12_least_squares_systematics.html">Глава книги</a>
               </div>
             </div>
           </details>
@@ -303,8 +327,10 @@ toc: false
             <div class="lecture-material-body">
               <p>Остатки, распределение χ², число степеней свободы, p-значение, перевод в Z и калибровка псевдоэкспериментами.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/12_goodness_of_fit_and_significance.html">Открыть лекцию</a>
-                <a href="../statistical-analysis-course/ru/slides/exercises/09_statistical_tests_basics_exercises.html">Задачи</a>
+                <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/13_goodness_of_fit_and_significance.html">Открыть лекцию</a>
+                <a href="../statistical-analysis-course/ru/slides/exercises/13_goodness_of_fit_and_significance_exercises.html">Задачи</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.pdf">Конспект PDF</a>
+                <a href="../statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html">Глава книги</a>
               </div>
             </div>
           </details>
