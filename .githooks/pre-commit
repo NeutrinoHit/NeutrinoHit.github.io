@@ -1,15 +1,6 @@
 #!/bin/sh
 set -eu
 
-if [ "${NEUTRINOHIT_SKIP_GTRACKER:-}" = "1" ]; then
-  echo "[gTracker] skipped by NEUTRINOHIT_SKIP_GTRACKER=1"
-  exit 0
-fi
-
-if ! command -v python >/dev/null 2>&1; then
-  echo "[gTracker] python is not available; use NEUTRINOHIT_SKIP_GTRACKER=1 to bypass" >&2
-  exit 1
-fi
-
-echo "[gTracker] updating Teach-in applications map"
-python scripts/update_teachin_applications_map.py --stage
+# Заявки закрыты: карту обновляют вручную перед следующим набором.
+# python scripts/update_teachin_applications_map.py --stage
+exit 0
