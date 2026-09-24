@@ -393,7 +393,7 @@ toc: false
                     <div class="lecture-course-actions">
                       <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/03_neutrino_spin.html">Открыть лекцию</a>
                       <a href="../neutrinophysics/introduction/ru/exercises/03_neutrino_spin_exercises.html">Задачи</a>
-                      <a href="../neutrinophysics/introduction/ru/applets/resonance-filter.html">Апплет</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/resonance-filter.html">Ядерный резонанс</a>
                     </div>
                   </div>
                 </details>
@@ -404,7 +404,9 @@ toc: false
                     <div class="lecture-course-actions">
                       <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/04_neutrino_mass_kinematics.html">Открыть лекцию</a>
                       <a href="../neutrinophysics/introduction/ru/exercises/04_neutrino_mass_kinematics_exercises.html">Задачи</a>
-                      <a href="../neutrinophysics/introduction/ru/applets/fermi-function.html">Апплеты</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/fermi-function.html">Функция Ферми</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/mass-spectrum.html">Массовые пороги</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/beta-endpoint-resolution.html">Конец β-спектра</a>
                     </div>
                   </div>
                 </details>
@@ -415,7 +417,8 @@ toc: false
                     <div class="lecture-course-actions">
                       <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/05_electron_to_detector.html">Открыть лекцию</a>
                       <a href="../neutrinophysics/introduction/ru/exercises/05_electron_to_detector_exercises.html">Задачи</a>
-                      <a href="../neutrinophysics/introduction/ru/applets/cyclotron-motion.html">Апплет</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/cyclotron-motion.html">Циклотронное движение</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/planar-rotor.html">Плоский ротатор</a>
                     </div>
                   </div>
                 </details>
@@ -426,7 +429,8 @@ toc: false
                     <div class="lecture-course-actions">
                       <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/06_mac_e_spectrometer.html">Открыть лекцию</a>
                       <a href="../neutrinophysics/introduction/ru/exercises/06_mac_e_spectrometer_exercises.html">Задачи</a>
-                      <a href="../neutrinophysics/introduction/ru/applets/radiation-belts.html">Игра: радиационные пояса</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/adiabatic-trough.html">Адиабатический инвариант</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/radiation-belts.html">Радиационные пояса</a>
                     </div>
                   </div>
                 </details>
@@ -437,6 +441,7 @@ toc: false
                     <div class="lecture-course-actions">
                       <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/07_katrin.html">Открыть лекцию</a>
                       <a href="../neutrinophysics/introduction/ru/exercises/07_katrin_exercises.html">Задачи</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/katrin-integral-spectrum.html">Интегральный спектр</a>
                     </div>
                   </div>
                 </details>
@@ -447,6 +452,10 @@ toc: false
                     <div class="lecture-course-actions">
                       <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/08_alternative_neutrino_mass.html">Открыть лекцию</a>
                       <a href="../neutrinophysics/introduction/ru/exercises/08_alternative_neutrino_mass_exercises.html">Задачи</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/cres-observables.html">Модели CRES</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/cres-sidebands.html">Боковые частоты</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/cres-frequency-track.html">Частотный трек</a>
+                      <a href="../neutrinophysics/introduction/ru/applets/sn-mass-likelihood.html">Времена прилёта</a>
                     </div>
                   </div>
                 </details>
