@@ -149,7 +149,27 @@ def target_anchor_exists(url: str) -> bool:
 
 def target_page_exists(url: str) -> bool:
     target = page_for_url(url)
-    return bool(target and target[0].exists())
+    if target is None:
+        return False
+    if target[0].is_file():
+        return True
+
+    # make site publishes only the central site; sibling builds are mounted by
+    # local-aggregate afterwards. Resolve the same course paths directly during
+    # local validation so that a clean central build does not require copying
+    # or publishing those independent projects first.
+    parts = urlparse(url).path.lstrip("/").split("/", 1)
+    if len(parts) != 2:
+        return False
+    slug, course_path = parts
+    project_names = {root.name: root.name for root in SOURCE_ROOTS if root != ROOT}
+    project_names["statistical-analysis-course"] = "stat-course"
+    project_name = project_names.get(slug)
+    if project_name is None:
+        return False
+    if not course_path or course_path.endswith("/"):
+        course_path += "index.html"
+    return (WORKSPACE / project_name / "_site" / course_path).is_file()
 
 
 def target_type_is_valid(url: str, target_type: str) -> bool:
@@ -229,7 +249,10 @@ def main() -> int:
     for url, target_type in sorted(allowed_targets.items()):
         if not target_type_is_valid(url, target_type):
             errors.append(f"registry target has invalid type/path combination: {url} ({target_type})")
-        if not target_exists_for_type(url, target_type):
+        # The registry is an allowlist, not a deployment manifest. Map cards
+        # belong to this render and must always exist. Independent course homes
+        # are checked below whenever an actual footer refers to them.
+        if target_type == "map-card" and not target_exists_for_type(url, target_type):
             errors.append(f"registry target page or anchor does not exist after render: {url}")
 
     for occurrence in occurrences:
