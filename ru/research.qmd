@@ -65,6 +65,18 @@ toc: false
           экспериментальным программам и состоянию области.
         </p>
         <div class="lecture-material-list">
+          <details id="talk-georgia-2026" class="lecture-material">
+            <summary>2026 · Neutrino Physics: Fundamentals, Frontiers, and Probes</summary>
+            <div class="lecture-material-body">
+              <p>
+                Обзорная лекция: основы нейтринной физики, открытые фундаментальные вопросы
+                и нейтрино как инструмент исследования Земли и Вселенной.
+              </p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../talks/georgia-2026/dnaumov.html">Слайды лекции</a>
+              </div>
+            </div>
+          </details>
           <details id="talk-protvino-2026" class="lecture-material">
             <summary>2-5 июня 2026 · Статус и перспективы физики нейтрино</summary>
             <div class="lecture-material-body">

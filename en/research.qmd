@@ -63,6 +63,18 @@ toc: false
           programs, and the state of the field.
         </p>
         <div class="lecture-material-list">
+          <details id="talk-georgia-2026" class="lecture-material">
+            <summary>2026 · Neutrino Physics: Fundamentals, Frontiers, and Probes</summary>
+            <div class="lecture-material-body">
+              <p>
+                An overview of neutrino physics: fundamentals, open questions,
+                and neutrinos as probes of the Earth and the Universe.
+              </p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../talks/georgia-2026/dnaumov.html">Open slides</a>
+              </div>
+            </div>
+          </details>
           <details id="talk-protvino-2026" class="lecture-material">
             <summary>June 2-5, 2026 · Status and prospects of neutrino physics</summary>
             <div class="lecture-material-body">
