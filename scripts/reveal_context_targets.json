@@ -14,6 +14,11 @@
       "description": "Accelerated frames and Unruh effect mini-course home"
     },
     {
+      "url": "https://neutrinohit.github.io/qft-lectures/vacuum/",
+      "type": "course-home",
+      "description": "Quantum field vacuum mini-course home"
+    },
+    {
       "url": "https://neutrinohit.github.io/ru/education.html#gravity",
       "type": "map-card",
       "description": "RU education: gravity and general relativity"
@@ -139,6 +144,14 @@
     {
       "url": "https://neutrinohit.github.io/en/outreach.html#dark-matter",
       "description": "EN outreach: dark matter"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/research.html#talk-georgia-2026",
+      "description": "RU research: Georgia 2026 talk"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/research.html#talk-georgia-2026",
+      "description": "EN research: Georgia 2026 talk"
     },
     {
       "url": "https://neutrinohit.github.io/ru/research.html#talk-protvino-2026",
