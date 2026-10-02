@@ -72,6 +72,7 @@ toc: false
               </p>
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="../talks/georgia-2026/dnaumov.html">Open slides</a>
+                <a href="../talks/georgia-2026/dnaumov-35min.html">Short version (35 min)</a>
               </div>
             </div>
           </details>
