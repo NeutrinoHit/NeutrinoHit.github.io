@@ -12,8 +12,8 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>38 сюжетов</span>
-    <span>74 ролика</span>
+    <span>39 сюжетов</span>
+    <span>75 роликов</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
@@ -1277,7 +1277,7 @@ lang: ru-RU
     </details>
     <details class="lecture-course animation-section animation-section-visual-stories">
       <summary>
-        <span class="lecture-course-status">2 сюжета, 3 ролика</span>
+        <span class="lecture-course-status">3 сюжета, 4 ролика</span>
         <span class="lecture-course-title">Визуальные сюжеты</span>
       </summary>
       <div class="lecture-course-body">
@@ -1337,6 +1337,30 @@ lang: ru-RU
               <div class="lecture-course-actions animation-actions">
                 <a href="../assets/animations/dvnanima/visual-stories-barkov-star-wind.mp4">MP4: Star + Wind</a>
                 <a href="../assets/animations/dvnanima/visual-stories-barkov-star-jet-cloud.mp4">MP4: Star Jet + Cloud</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-visual-stories-galaxy-merger" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Слияние галактик</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Столкновение двух дисковых галактик в ограниченной задаче N тел с динамическим трением: приливные мосты и хвосты, затем округлый остаток. Расчёт в духе работы Алара и Юри Тумре 1972 года.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/visual-stories-galaxy-merger-merger.jpg">
+                    <source src="../assets/animations/dvnanima/visual-stories-galaxy-merger-merger.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Слияние двух галактик</span>
+                    <small>677.4 KB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/galaxy_merger">Исходный код</a>
+                <a href="../assets/animations/dvnanima/visual-stories-galaxy-merger-merger.mp4">MP4: Слияние двух галактик</a>
               </div>
             </div>
           </details>
