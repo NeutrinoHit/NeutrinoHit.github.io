@@ -718,6 +718,20 @@
               "path": "Barkov/Star_Jet+Cloud.mp4"
             }
           ]
+        },
+        {
+          "id": "galaxy-merger",
+          "title": "Слияние галактик",
+          "source_dir": "galaxy_merger",
+          "description": "Столкновение двух дисковых галактик в ограниченной задаче N тел с динамическим трением: приливные мосты и хвосты, затем округлый остаток. Расчёт в духе работы Алара и Юри Тумре 1972 года.",
+          "videos": [
+            {
+              "id": "merger",
+              "label": "Слияние двух галактик",
+              "path": "galaxy_merger/media/videos/galaxy_merger/1080p30/GalaxyMerger.mp4",
+              "poster_time": 12
+            }
+          ]
         }
       ]
     }
