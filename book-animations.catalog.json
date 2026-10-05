@@ -902,6 +902,111 @@
       },
       "gallery": "neutrino-particles/scattering-experiment",
       "legacy_codes": []
+    },
+    {
+      "id": "0036",
+      "slug": "electron-kick",
+      "qr_file": "ElectronKick.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Пинок электрону: фронт электромагнитной волны",
+        "en": "A kick to an electron: the front of an electromagnetic wave"
+      },
+      "caption": {
+        "ru": "Электрон мгновенно получает скорость v. Вне сферы r = ct поле остаётся полем покоящегося заряда, внутри — это поле движущегося заряда, прижатое к плоскости, перпендикулярной скорости, а на самой сфере силовые линии соединяются дугами: это фронт электромагнитной волны. Линии проведены с равным потоком, поэтому их густота — напряжённость поля. Показаны β = 0,30 и β = 0,85; соединение линий следует из закона Гаусса: cos θ = cos ψ / √(1 − β² sin² ψ).",
+        "en": "An electron is instantaneously given the velocity v. Outside the sphere r = ct the field is still that of the charge at rest; inside it is the field of the moving charge, pressed towards the plane perpendicular to the velocity; on the sphere itself the field lines are joined by arcs: this is the front of the electromagnetic wave. The lines are drawn with equal flux, so their density is the field strength. β = 0.30 and β = 0.85 are shown; the joining of the lines follows from Gauss's law: cos θ = cos ψ / √(1 − β² sin² ψ)."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 23,
+        "chapter_title": {
+          "ru": "Калибровочная инвариантность",
+          "en": "Gauge Invariance"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/electron_kick"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/fields-waves-electron-kick-front.mp4",
+        "poster_time": 16.4
+      },
+      "gallery": "fields-waves/electron-kick",
+      "legacy_codes": []
+    },
+    {
+      "id": "0037",
+      "slug": "pi0-double-dalitz",
+      "qr_file": "Pi0DoubleDalitz.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Распад π⁰ → e⁺e⁻e⁺e⁻: плоскости пар",
+        "en": "The decay π⁰ → e⁺e⁻e⁺e⁻: planes of the pairs"
+      },
+      "caption": {
+        "ru": "Нейтральный пион распадается на два фотона, каждый виртуальный фотон даёт пару e⁺e⁻, и каждая пара задаёт плоскость. От события к событию плоскости ориентированы по-разному; копится распределение по углу φ между ними. Для псевдоскалярного пиона оно ∝ 1 − a cos 2φ с двумя горбами при φ = π/2 и 3π/2, как на гистограмме KTeV. Амплитуда a и угол раствора пар на анимации условные.",
+        "en": "A neutral pion decays into two photons, each virtual photon gives an e⁺e⁻ pair, and each pair spans a plane. The planes are oriented differently from event to event, and the distribution of the angle φ between them builds up. For a pseudoscalar pion it is ∝ 1 − a cos 2φ with two humps at φ = π/2 and 3π/2, as in the KTeV histogram. The amplitude a and the opening angle of the pairs in the animation are illustrative."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 40,
+        "chapter_title": {
+          "ru": "Квантовые аномалии",
+          "en": "Quantum Anomalies"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/pi0_double_dalitz"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes.mp4",
+        "poster_time": 28.0
+      },
+      "gallery": "neutrino-particles/pi0-double-dalitz",
+      "legacy_codes": []
+    },
+    {
+      "id": "0038",
+      "slug": "path-integral",
+      "qr_file": "PathIntegral.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Интеграл по траекториям",
+        "en": "The path integral"
+      },
+      "caption": {
+        "ru": "Амплитуда есть сумма по всем путям. Сначала экраны с 3, 7 и 5 щелями (3 × 7 × 5 = 105 путей): фазы 2πL/λ складываются как векторы, а яркость на детекторе — квадрат суммы. Затем бесконечное число экранов и щелей: все пути; для свободной частицы фаза S/ħ растёт как квадрат отклонения от классического пути, и сумма рисует спираль Корню. При ħ → 0 спираль сжимается, и остаются лишь пути вблизи пути наименьшего действия.",
+        "en": "The amplitude is a sum over all paths. First screens with 3, 7 and 5 slits (3 × 7 × 5 = 105 paths): the phases 2πL/λ add as vectors, and the brightness at the detector is the square of the sum. Then infinitely many screens and slits: all paths; for a free particle the phase S/ħ grows as the square of the deviation from the classical path, and the sum draws the Cornu spiral. As ħ → 0 the spiral shrinks and only the paths near the one of least action survive."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 22,
+        "chapter_title": {
+          "ru": "Интеграл по траекториям",
+          "en": "The Path Integral"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/path_integral"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.mp4",
+        "poster_time": 22.0
+      },
+      "gallery": "relativity-atom-spin/path-integral",
+      "legacy_codes": []
     }
   ]
 }
