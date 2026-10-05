@@ -284,14 +284,14 @@
       "id": "0011",
       "slug": "running-charge",
       "qr_file": "RunningCharge_animation.pdf",
-      "hosting": "pending",
+      "hosting": "self",
       "title": {
-        "ru": "Бегущий заряд электрона",
-        "en": "The running electron charge"
+        "ru": "Бегущий заряд: экранировка виртуальными парами",
+        "en": "The running charge: screening by virtual pairs"
       },
       "caption": {
-        "ru": "Электрический заряд в КТП зависит от расстояния между частицами. Частично это связано с экранировкой виртуальных электрон-позитронных пар.",
-        "en": "The electric charge in QFT depends on the distance between particles. This is partly due to screening by virtual electron–positron pairs."
+        "ru": "Виртуальные электрон-позитронные пары рождаются и исчезают. Вблизи электрона они выстраиваются: позитроны ближе к нему, электроны дальше, и заряд экранируется. Пробный заряд, подлетая, видит заряд всё больший; дальше расстояния порядка комптоновской длины волны заряд равен классическому. Масштаб эффекта на анимации условный: для электрона изменение заряда достигает 1% лишь при r ≈ 10⁻³ λ_C.",
+        "en": "Virtual electron–positron pairs appear and vanish. Near the electron they line up: positrons closer to it, electrons farther away, and the charge is screened. A test charge that flies in sees a larger and larger charge; beyond distances of the order of the Compton wavelength the charge is the classical one. The scale of the effect is schematic: for the electron the charge changes by 1% only at r ≈ 10⁻³ λ_C."
       },
       "book": {
         "volume": 1,
@@ -305,9 +305,19 @@
         "author": {
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/running_charge",
+        "note": {
+          "ru": "Заряд на расстоянии r: Q/e = 1/(1 − b L(r)), L = ½ ln(1 + 1/r²); в ролике b = 0,25 вместо 2α/3π ≈ 0,0015.",
+          "en": "The charge at distance r: Q/e = 1/(1 − b L(r)), L = ½ ln(1 + 1/r²); the film uses b = 0.25 instead of 2α/3π ≈ 0.0015."
         }
       },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "media": {
+        "site_asset": "assets/animations/dvnanima/fields-waves-running-charge-film.mp4",
+        "poster_time": 18.0
+      },
+      "gallery": "fields-waves/running-charge"
     },
     {
       "id": "0014",
@@ -744,6 +754,45 @@
         "site_asset": "assets/animations/dvnanima/neutrino-particles-cherenkov-cone-cylinder.mp4",
         "poster_time": 4.0
       },
+      "legacy_codes": []
+    },
+    {
+      "id": "0032",
+      "slug": "hulse-taylor",
+      "qr_file": "HulseTaylor.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Двойной пульсар Халса — Тейлора",
+        "en": "The Hulse–Taylor binary pulsar"
+      },
+      "caption": {
+        "ru": "Две нейтронные звезды (1,438 и 1,390 массы Солнца) на вытянутой орбите с периодом 7,75 ч излучают гравитационные волны. Орбита сжимается, период падает, и периастр приходит раньше, чем при постоянном периоде. Справа растёт накопленный сдвиг: около −38,6 с за 30 лет по ОТО, измеренная производная периода даёт ту же кривую в пределах погрешности (отношение 0,9983 ± 0,0016). Сжатие орбиты, сдвиг фазы и картина волн на анимации схематичны.",
+        "en": "Two neutron stars (1.438 and 1.390 solar masses) on an eccentric orbit with a period of 7.75 h radiate gravitational waves. The orbit shrinks, the period falls, and the periastron arrives earlier than for a constant period. On the right the accumulated shift grows: about −38.6 s over 30 years in general relativity, and the measured period derivative gives the same curve within the uncertainty (ratio 0.9983 ± 0.0016). The orbit shrinkage, the phase shift and the wave pattern in the animation are schematic."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 4,
+        "chapter_title": {
+          "ru": "Гравитация",
+          "en": "Gravity"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/hulse_taylor",
+        "note": {
+          "ru": "Параметры орбиты и производные периода: Weisberg, Huang, ApJ 829, 55 (2016).",
+          "en": "Orbit parameters and period derivatives: Weisberg and Huang, ApJ 829, 55 (2016)."
+        }
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4",
+        "poster_time": 28.0
+      },
+      "gallery": "relativity-atom-spin/hulse-taylor",
       "legacy_codes": []
     }
   ]

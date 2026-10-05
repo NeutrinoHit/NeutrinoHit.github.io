@@ -436,6 +436,20 @@
               "path": "cockroftwalton/media/videos/CockroftWaltonAnimation/1080p60/CockcroftWaltonAnimation.mp4"
             }
           ]
+        },
+        {
+          "id": "running-charge",
+          "title": "Бегущий заряд: экранировка виртуальными парами",
+          "source_dir": "running_charge",
+          "description": "Виртуальные электрон-позитронные пары выстраиваются вокруг электрона и экранируют его заряд; пробный заряд, подлетая, видит заряд всё больший. Масштаб эффекта условный.",
+          "videos": [
+            {
+              "id": "film",
+              "label": "Заряд и виртуальные пары",
+              "path": "running_charge/media/running_charge.mp4",
+              "poster_time": 18
+            }
+          ]
         }
       ]
     },
@@ -483,6 +497,20 @@
               "label": "Поворот на 720°",
               "path": "spinor_mobius/media/spinor_mobius.mp4",
               "poster_time": 4
+            }
+          ]
+        },
+        {
+          "id": "hulse-taylor",
+          "title": "Двойной пульсар Халса — Тейлора",
+          "source_dir": "hulse_taylor",
+          "description": "Две нейтронные звезды на эксцентрической орбите излучают гравитационные волны, орбита сжимается, а периастр приходит всё раньше: накопленный сдвиг по ОТО и по измеренной производной периода, 1975–2005.",
+          "videos": [
+            {
+              "id": "orbit",
+              "label": "Орбита, волны и сдвиг периастра",
+              "path": "hulse_taylor/media/hulse_taylor.mp4",
+              "poster_time": 28
             }
           ]
         }

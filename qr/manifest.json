@@ -59,6 +59,13 @@
       "0017"
     ]
   },
+  "0032": {
+    "url": "https://neutrinohit.github.io/qr/0032/",
+    "slug": "hulse-taylor",
+    "hosting": "self",
+    "qr_file": "HulseTaylor.pdf",
+    "legacy_codes": []
+  },
   "0007": {
     "url": "https://neutrinohit.github.io/qr/0007/",
     "slug": "oam-beams",
@@ -85,7 +92,7 @@
   "0011": {
     "url": "https://neutrinohit.github.io/qr/0011/",
     "slug": "running-charge",
-    "hosting": "pending",
+    "hosting": "self",
     "qr_file": "RunningCharge_animation.pdf",
     "legacy_codes": []
   },
