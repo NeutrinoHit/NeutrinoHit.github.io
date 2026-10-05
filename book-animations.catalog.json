@@ -568,33 +568,36 @@
       "id": "0026",
       "slug": "coupled-oscillators-2d",
       "qr_file": "CoupledOscillators2D.pdf",
-      "status": "proposed",
       "hosting": "self",
       "title": {
-        "ru": "Поле как решётка связанных осцилляторов",
-        "en": "A field as a lattice of coupled oscillators"
+        "ru": "Двумерная решётка связанных осцилляторов",
+        "en": "A two-dimensional lattice of coupled oscillators"
       },
       "caption": {
-        "ru": "Прямоугольная двумерная решётка связанных осцилляторов с закреплённым краем: нормальные моды, смещение одного узла и расплывание возмущения по решётке.",
-        "en": "A rectangular two-dimensional lattice of coupled oscillators with a fixed boundary: normal modes, a displacement of one site and the spreading of the disturbance across the lattice."
+        "ru": "Прямоугольная решётка связанных осцилляторов с закреплённым краем. Нормальные моды с формулами на экране, затем один узел смещают и отпускают, и возмущение расходится по решётке: так дискретная система переходит в поле φ(x, y, t).",
+        "en": "A rectangular lattice of coupled oscillators with a fixed boundary. Normal modes with their formulas on screen, then one site is displaced and released and the disturbance spreads across the lattice: this is how a discrete system turns into a field φ(x, y, t)."
       },
       "book": {
         "volume": 1,
-        "chapter": 15,
+        "chapter": 12,
         "chapter_title": {
-          "ru": "Поле квантуется раз!",
-          "en": "Field Quantization: Round One!"
+          "ru": "Основы классической теории поля",
+          "en": "Basics of Classical Field Theory"
         }
       },
       "credit": {
-        "author": "Д. В. Наумов",
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
         "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/fields/coupled_oscillators_2d"
       },
       "media": {
         "site_asset": "assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-two-dimensional.mp4",
         "poster_time": 8.0
       },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "gallery": "fields-waves/coupled-oscillators-fields"
     },
     {
       "id": "0027",
@@ -793,6 +796,111 @@
         "poster_time": 28.0
       },
       "gallery": "relativity-atom-spin/hulse-taylor",
+      "legacy_codes": []
+    },
+    {
+      "id": "0033",
+      "slug": "coupled-oscillators-1d",
+      "qr_file": "CoupledOscillators1D.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Цепочка связанных осцилляторов",
+        "en": "A chain of coupled oscillators"
+      },
+      "caption": {
+        "ru": "Цепочка из N одинаковых масс, связанных пружинами (в анимации пружины вертикальные, смещения поперечные). Сначала нормальные моды с формулами на экране, затем один осциллятор смещают и отпускают, и возмущение бежит по цепочке волной.",
+        "en": "A chain of N identical masses connected by springs (in the animation the springs are vertical and the displacements transverse). First the normal modes with their formulas, then one oscillator is displaced and released and the disturbance runs along the chain as a wave."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 12,
+        "chapter_title": {
+          "ru": "Основы классической теории поля",
+          "en": "Basics of Classical Field Theory"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/fields/coupled_oscillators_1d"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-one-dimensional.mp4",
+        "poster_time": 8.0
+      },
+      "gallery": "fields-waves/coupled-oscillators-fields",
+      "legacy_codes": []
+    },
+    {
+      "id": "0034",
+      "slug": "coupled-oscillators-3d",
+      "qr_file": "CoupledOscillators3D.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Трёхмерная решётка связанных осцилляторов",
+        "en": "A three-dimensional lattice of coupled oscillators"
+      },
+      "caption": {
+        "ru": "Кубическая решётка связанных осцилляторов с закреплённой границей и всеми пружинами между ближайшими соседями. Нормальные моды с формулами на экране, затем один узел смещают и отпускают, и возмущение расходится по объёму.",
+        "en": "A cubic lattice of coupled oscillators with a fixed boundary and springs between all nearest neighbours. Normal modes with their formulas on screen, then one site is displaced and released and the disturbance spreads through the volume."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 12,
+        "chapter_title": {
+          "ru": "Основы классической теории поля",
+          "en": "Basics of Classical Field Theory"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/fields/coupled_oscillators_3d"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-three-dimensional.mp4",
+        "poster_time": 8.0
+      },
+      "gallery": "fields-waves/coupled-oscillators-fields",
+      "legacy_codes": []
+    },
+    {
+      "id": "0035",
+      "slug": "scattering-experiment",
+      "qr_file": "ScatteringExperiment.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻",
+        "en": "A scattering experiment: e⁺e⁻ → μ⁺μ⁻"
+      },
+      "caption": {
+        "ru": "Три стадии эксперимента на коллайдере: ускорение и фокусировка пучков, взаимодействие в малой области и регистрация конечного состояния. Почти все частицы пролетают сквозь друг друга; изредка пара e⁺e⁻ аннигилирует и рождается пара μ⁺μ⁻ (первое событие показано замедленно). Из многих столкновений складывается угловое распределение dN/dcosθ ∝ 1 + cos²θ. Число событий равно сечению, умноженному на поток и число мишеней. Частота событий на анимации сильно завышена.",
+        "en": "The three stages of a collider experiment: acceleration and focusing of the beams, interaction in a localized region, and measurement of the final state. Almost all particles pass through each other; rarely an e⁺e⁻ pair annihilates and a μ⁺μ⁻ pair is born (the first event is shown in slow motion). Many collisions build up the angular distribution dN/dcosθ ∝ 1 + cos²θ. The number of events equals the cross section times the flux and the number of targets. The event rate in the animation is greatly exaggerated."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 18,
+        "chapter_title": {
+          "ru": "S-матрица",
+          "en": "The S-Matrix"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/scattering_experiment"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.mp4",
+        "poster_time": 20.0
+      },
+      "gallery": "neutrino-particles/scattering-experiment",
       "legacy_codes": []
     }
   ]

@@ -261,6 +261,20 @@
               "path": "cherenkov_cone/cherenkov_cylinder.mp4"
             }
           ]
+        },
+        {
+          "id": "scattering-experiment",
+          "title": "Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻",
+          "source_dir": "scattering_experiment",
+          "description": "Три стадии эксперимента на коллайдере: ускорение пучков, взаимодействие в малой области (почти все частицы пролетают насквозь), регистрация мюонов. Из многих событий растёт угловое распределение 1 + cos²θ.",
+          "videos": [
+            {
+              "id": "collider",
+              "label": "Столкновения пучков и детектор",
+              "path": "scattering_experiment/media/scattering_experiment.mp4",
+              "poster_time": 20
+            }
+          ]
         }
       ]
     },
