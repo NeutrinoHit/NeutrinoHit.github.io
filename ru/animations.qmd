@@ -12,14 +12,14 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>45 сюжетов</span>
-    <span>81 ролик</span>
+    <span>48 сюжетов</span>
+    <span>84 ролика</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">16 сюжетов, 27 роликов</span>
+        <span class="lecture-course-status">17 сюжетов, 28 роликов</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -519,12 +519,36 @@ lang: ru-RU
               </div>
             </div>
           </details>
+          <details id="animation-neutrino-particles-pi0-double-dalitz" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Распад π⁰ → e⁺e⁻e⁺e⁻</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Две пары e⁺e⁻ от виртуальных фотонов задают две плоскости; от события к событию их ориентация разная, и копится распределение по углу φ ∝ 1 − a cos 2φ (псевдоскалярный пион).</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Плоскости пар и угол φ</span>
+                    <small>3.2 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/pi0_double_dalitz">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes.mp4">MP4: Плоскости пар и угол φ</a>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </details>
     <details class="lecture-course animation-section animation-section-fields-waves">
       <summary>
-        <span class="lecture-course-status">12 сюжетов, 17 роликов</span>
+        <span class="lecture-course-status">13 сюжетов, 18 роликов</span>
         <span class="lecture-course-title">Поля, волны и осцилляторы</span>
       </summary>
       <div class="lecture-course-body">
@@ -868,12 +892,36 @@ lang: ru-RU
               </div>
             </div>
           </details>
+          <details id="animation-fields-waves-electron-kick" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Пинок электрону: фронт электромагнитной волны</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Заряд мгновенно получает скорость: вне сферы r = ct поле покоящегося заряда, внутри — поле движущегося, на сфере силовые линии соединяются дугами. Точная релятивистская картина для β = 0,30 и 0,85.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-electron-kick-front.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-electron-kick-front.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Фронт волны от пинка</span>
+                    <small>1.1 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/electron_kick">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-electron-kick-front.mp4">MP4: Фронт волны от пинка</a>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </details>
     <details class="lecture-course animation-section animation-section-relativity-atom-spin">
       <summary>
-        <span class="lecture-course-status">4 сюжета, 4 ролика</span>
+        <span class="lecture-course-status">5 сюжетов, 5 роликов</span>
         <span class="lecture-course-title">Относительность, атом и спин</span>
       </summary>
       <div class="lecture-course-body">
@@ -972,6 +1020,30 @@ lang: ru-RU
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/hulse_taylor">Исходный код</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4">MP4: Орбита, волны и сдвиг периастра</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-relativity-atom-spin-path-integral" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Интеграл по траекториям</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Амплитуда как сумма по путям: экраны с 3, 7 и 5 щелями (105 путей), затем все пути и спираль Корню, и классический предел ħ → 0.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>От щелей к континуальному интегралу</span>
+                    <small>2.1 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/path_integral">Исходный код</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.mp4">MP4: От щелей к континуальному интегралу</a>
               </div>
             </div>
           </details>

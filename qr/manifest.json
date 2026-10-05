@@ -138,6 +138,20 @@
     "qr_file": "ScalarQED_Repulsion.pdf",
     "legacy_codes": []
   },
+  "0038": {
+    "url": "https://neutrinohit.github.io/qr/0038/",
+    "slug": "path-integral",
+    "hosting": "self",
+    "qr_file": "PathIntegral.pdf",
+    "legacy_codes": []
+  },
+  "0036": {
+    "url": "https://neutrinohit.github.io/qr/0036/",
+    "slug": "electron-kick",
+    "hosting": "self",
+    "qr_file": "ElectronKick.pdf",
+    "legacy_codes": []
+  },
   "0027": {
     "url": "https://neutrinohit.github.io/qr/0027/",
     "slug": "feynman-numu-electron",
@@ -150,6 +164,13 @@
     "slug": "feynman-numu-z",
     "hosting": "self",
     "qr_file": "Feynman_NuMuZ.pdf",
+    "legacy_codes": []
+  },
+  "0037": {
+    "url": "https://neutrinohit.github.io/qr/0037/",
+    "slug": "pi0-double-dalitz",
+    "hosting": "self",
+    "qr_file": "Pi0DoubleDalitz.pdf",
     "legacy_codes": []
   }
 }

@@ -275,6 +275,20 @@
               "poster_time": 20
             }
           ]
+        },
+        {
+          "id": "pi0-double-dalitz",
+          "title": "Распад π⁰ → e⁺e⁻e⁺e⁻",
+          "source_dir": "pi0_double_dalitz",
+          "description": "Две пары e⁺e⁻ от виртуальных фотонов задают две плоскости; от события к событию их ориентация разная, и копится распределение по углу φ ∝ 1 − a cos 2φ (псевдоскалярный пион).",
+          "videos": [
+            {
+              "id": "planes",
+              "label": "Плоскости пар и угол φ",
+              "path": "pi0_double_dalitz/media/pi0_double_dalitz.mp4",
+              "poster_time": 28
+            }
+          ]
         }
       ]
     },
@@ -464,6 +478,20 @@
               "poster_time": 18
             }
           ]
+        },
+        {
+          "id": "electron-kick",
+          "title": "Пинок электрону: фронт электромагнитной волны",
+          "source_dir": "electron_kick",
+          "description": "Заряд мгновенно получает скорость: вне сферы r = ct поле покоящегося заряда, внутри — поле движущегося, на сфере силовые линии соединяются дугами. Точная релятивистская картина для β = 0,30 и 0,85.",
+          "videos": [
+            {
+              "id": "front",
+              "label": "Фронт волны от пинка",
+              "path": "electron_kick/media/electron_kick.mp4",
+              "poster_time": 16.4
+            }
+          ]
         }
       ]
     },
@@ -525,6 +553,20 @@
               "label": "Орбита, волны и сдвиг периастра",
               "path": "hulse_taylor/media/hulse_taylor.mp4",
               "poster_time": 28
+            }
+          ]
+        },
+        {
+          "id": "path-integral",
+          "title": "Интеграл по траекториям",
+          "source_dir": "path_integral",
+          "description": "Амплитуда как сумма по путям: экраны с 3, 7 и 5 щелями (105 путей), затем все пути и спираль Корню, и классический предел ħ → 0.",
+          "videos": [
+            {
+              "id": "paths",
+              "label": "От щелей к континуальному интегралу",
+              "path": "path_integral/media/path_integral.mp4",
+              "poster_time": 22
             }
           ]
         }
