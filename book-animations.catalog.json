@@ -1,0 +1,750 @@
+{
+  "base_url": "https://neutrinohit.github.io",
+  "qr_path": "/qr/",
+  "book": {
+    "title": {
+      "ru": "Квантовая теория поля для экспериментаторов и не только",
+      "en": "Quantum Field Theory for Experimentalists and Beyond"
+    },
+    "author": {
+      "ru": "Д. В. Наумов",
+      "en": "D. V. Naumov"
+    },
+    "page": {
+      "ru": "/ru/materials.html",
+      "en": "/en/materials.html"
+    }
+  },
+  "items": [
+    {
+      "id": "0003",
+      "slug": "higgs-honey",
+      "qr_file": "Higgs_as_Honey.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Поле Хиггса как мёд",
+        "en": "The Higgs field as honey"
+      },
+      "caption": {
+        "ru": "Идея: Вселенная залита полем Хиггса как мёдом, а частицы, продираясь сквозь этот «мёд», эффективно приобретают массу. Две мухи: одна остаётся «безмассовой», а вторая, попав в мёд, «приобретает массу».",
+        "en": "The Universe is filled with the Higgs field like honey, and particles pushing through this “honey” effectively acquire mass. Two flies: one remains “massless”, while the other, having entered the honey, “acquires mass”."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 1,
+        "chapter_title": {
+          "ru": "Волны внутри нас",
+          "en": "Waves Inside Us"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "М. Мищенко",
+          "en": "M. Mishchenko"
+        }
+      },
+      "media": {
+        "source": "higgs-honey.mp4",
+        "poster_time": 6.0
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0004",
+      "slug": "thomson-tube",
+      "qr_file": "ThomsonTube.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Опыт Томсона: отклонение катодного луча",
+        "en": "Thomson's experiment: deflection of a cathode ray"
+      },
+      "caption": {
+        "ru": "Катодный луч отклоняется электрическим полем в эксперименте Томсона.",
+        "en": "A cathode ray is deflected by an electric field in Thomson's experiment."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 2,
+        "chapter_title": {
+          "ru": "Век открытий",
+          "en": "A Century of Discoveries"
+        }
+      },
+      "credit": {
+        "author": "Kurzon",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/File:Thomson_cathode_ray_exp.gif",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Thomson_cathode_ray_exp.gif",
+        "source_label": "Wikimedia Commons",
+        "note": {
+          "ru": "GIF переведён в видео без других изменений.",
+          "en": "The GIF was converted to video with no other changes."
+        }
+      },
+      "media": {
+        "source": "thomson-cathode-ray.gif",
+        "poster_time": 2.0
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0005",
+      "slug": "zero-field",
+      "qr_file": "ZeroField_animation.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Электрон в вакуумном электромагнитном поле",
+        "en": "An electron in the vacuum electromagnetic field"
+      },
+      "caption": {
+        "ru": "Электрон взаимодействует с вакуумным электромагнитным полем. В среднем смещение электрона равно нулю: ⟨δr⟩ = 0, однако его дисперсия отлична от нуля: ⟨δr²⟩ ≠ 0.",
+        "en": "The electron interacts with the vacuum electromagnetic field. On average, the electron displacement is zero: ⟨δr⟩ = 0. However, its variance is nonzero: ⟨δr²⟩ ≠ 0."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 2,
+        "chapter_title": {
+          "ru": "Век открытий",
+          "en": "A Century of Discoveries"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Н. Бородин (студент Д. В. Наумова), @nsborodin",
+          "en": "N. Borodin (student of D. V. Naumov), @nsborodin"
+        },
+        "work": "Electron Trajectory in Vacuum due to Zero Mode of Quantum Field"
+      },
+      "media": {
+        "source": "zero-field.mp4",
+        "poster_time": 6.0,
+        "crf": 32
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0006",
+      "slug": "penrose-rotation",
+      "qr_file": "PenroseRotation_animation.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Вращение Пенроуза — Террелла",
+        "en": "Penrose–Terrell rotation"
+      },
+      "caption": {
+        "ru": "Футбольный мяч летит мимо камеры со скоростью 99% от скорости света. Слева — мяч в покое, в центре — что записывает камера: свет, ушедший с разных точек в разное время, приходит одновременно, и мяч остаётся круглым, но выглядит повёрнутым (угол arcsin β ≈ 82°). Справа — мгновенный снимок сжатого шара: так его не увидит ни одна камера.",
+        "en": "A football flies past a camera at 99% of the speed of light. Left: the ball at rest. Centre: what the camera records: light that left different points at different times arrives together, so the ball stays round but looks rotated (by arcsin β ≈ 82°). Right: a snapshot of the contracted ball, which no camera can take."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 3,
+        "chapter_title": {
+          "ru": "Специальная теория относительности",
+          "en": "Special Relativity"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/penrose_terrell",
+        "note": {
+          "ru": "Трассировка лучей с запаздыванием; схема по Пенроузу (1959) и Терреллу (1959).",
+          "en": "Ray tracing with retarded times, after Penrose (1959) and Terrell (1959)."
+        }
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera.mp4",
+        "poster_time": 4.0
+      },
+      "legacy_codes": [],
+      "gallery": "relativity-atom-spin/penrose-terrell"
+    },
+    {
+      "id": "0007",
+      "slug": "oam-beams",
+      "qr_file": "OAM_beams.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Пучки с орбитальным угловым моментом",
+        "en": "Beams with orbital angular momentum"
+      },
+      "caption": {
+        "ru": "Световой пучок с заданным орбитальным угловым моментом можно получить путём воздействия стандартного гауссовского пучка на дисплей пространственного модулятора света с винтовой структурой.",
+        "en": "A light beam with a given orbital angular momentum can be obtained by sending a standard Gaussian beam onto a spatial light modulator with a helical structure."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 5,
+        "chapter_title": {
+          "ru": "Нерелятивистская квантовая механика",
+          "en": "Nonrelativistic Quantum Mechanics"
+        }
+      },
+      "credit": {
+        "author": "JozumBjada",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Generation_of_OAM_beams_using_SLM.gif",
+        "source_label": "Wikimedia Commons",
+        "note": {
+          "ru": "GIF переведён в видео без других изменений.",
+          "en": "The GIF was converted to video with no other changes."
+        }
+      },
+      "media": {
+        "source": "oam-beams.gif",
+        "poster_time": 8.0
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0008",
+      "slug": "circular-polarization",
+      "qr_file": "CircularPolarization_animation.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Круговая поляризация электромагнитной волны",
+        "en": "Circular polarization of an electromagnetic wave"
+      },
+      "caption": {
+        "ru": "Вектор электрического поля бегущей круговой поляризованной электромагнитной волны. Волна правополяризована, если определение даётся со стороны источника, и левополяризована — если со стороны приёмника.",
+        "en": "The electric-field vector of a traveling circularly polarized electromagnetic wave. The wave is right-polarized if the definition is made from the source side, or left-polarized if made from the receiver side."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 13,
+        "chapter_title": {
+          "ru": "Классические поля и их лагранжианы",
+          "en": "Classical Fields and Their Lagrangians"
+        }
+      },
+      "credit": {
+        "author": "Dave3457",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/File:Circular.Polarization.Circularly.Polarized.Light_Left.Hand.Animation.305x190.255Colors.gif",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Circular.Polarization.Circularly.Polarized.Light_Left.Hand.Animation.305x190.255Colors.gif",
+        "source_label": "Wikimedia Commons",
+        "note": {
+          "ru": "GIF переведён в видео без других изменений.",
+          "en": "The GIF was converted to video with no other changes."
+        }
+      },
+      "media": {
+        "source": "circular-polarization.gif",
+        "poster_time": 0.4
+      },
+      "legacy_codes": [
+        "0001"
+      ]
+    },
+    {
+      "id": "0009",
+      "slug": "spinor-mobius",
+      "qr_file": "SpinorMobius.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Спинор и лента Мёбиуса",
+        "en": "A spinor and the Möbius strip"
+      },
+      "caption": {
+        "ru": "Поворот на 360° меняет знак спинора, поворот на 720° возвращает его. Вектор, лежащий поперёк ленты Мёбиуса, при обходе ленты возвращается обращённым и лишь после второго оборота становится прежним. Справа: угол поворота φ и компонента спинора ψ = e^(−iφ/2) из примера в книге.",
+        "en": "A rotation by 360° changes the sign of a spinor and a rotation by 720° restores it. A vector lying across a Möbius strip comes back reversed after one trip around the strip and is restored only after the second. Right: the rotation angle φ and the spinor component ψ = e^(−iφ/2) from the example in the book."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 10,
+        "chapter_title": {
+          "ru": "Лоренц-инвариантность уравнения Дирака",
+          "en": "Lorentz Invariance of the Dirac Equation"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/spinor_mobius",
+        "see_also": [
+          {
+            "url": "https://elastic-universe.org/wave-and-spin-visualizations/",
+            "label": "Elastic Universe: Wave and Spin Visualizations"
+          }
+        ]
+      },
+      "legacy_codes": [],
+      "media": {
+        "site_asset": "assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip.mp4",
+        "poster_time": 4.0
+      },
+      "gallery": "relativity-atom-spin/spinor-mobius"
+    },
+    {
+      "id": "0011",
+      "slug": "running-charge",
+      "qr_file": "RunningCharge_animation.pdf",
+      "hosting": "pending",
+      "title": {
+        "ru": "Бегущий заряд электрона",
+        "en": "The running electron charge"
+      },
+      "caption": {
+        "ru": "Электрический заряд в КТП зависит от расстояния между частицами. Частично это связано с экранировкой виртуальных электрон-позитронных пар.",
+        "en": "The electric charge in QFT depends on the distance between particles. This is partly due to screening by virtual electron–positron pairs."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 17,
+        "chapter_title": {
+          "ru": "Вакуумная катастрофа",
+          "en": "The Vacuum Catastrophe"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0014",
+      "slug": "rutherford-geiger-marsden",
+      "qr_file": "Rutherford_animation.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Опыт Резерфорда — Гейгера — Марсдена",
+        "en": "The Rutherford–Geiger–Marsden experiment"
+      },
+      "caption": {
+        "ru": "Альфа-частицы (ядра ⁴He) проходят через тонкую золотую фольгу. Траектории рассчитаны численно в кулоновском поле ядер; большинство частиц отклоняется слабо, но редкие поворачивают назад. Гистограмма углов совпадает с формулой Резерфорда ∝ 1/sin⁴(θ/2). В опытах Гейгера и Марсдена доля отражённых назад частиц составляла примерно одну из восьми тысяч, что противоречило модели Томсона.",
+        "en": "Alpha particles (⁴He nuclei) cross a thin gold foil. The trajectories are integrated numerically in the Coulomb field of the nuclei; most particles are deflected slightly, a few turn back. The angular histogram follows the Rutherford formula ∝ 1/sin⁴(θ/2). In the experiments of Geiger and Marsden about one particle in eight thousand was reflected backward, in conflict with Thomson's model."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 2,
+        "chapter_title": {
+          "ru": "Век открытий",
+          "en": "A Century of Discoveries"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/rutherford",
+        "note": {
+          "ru": "Схема: число слоёв, размер ядер и число частиц подобраны для наглядности.",
+          "en": "Schematic: the number of layers, the size of the nuclei and the number of particles are chosen for clarity."
+        }
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/relativity-atom-spin-rutherford-foil.mp4",
+        "poster_time": 14.0
+      },
+      "legacy_codes": [],
+      "gallery": "relativity-atom-spin/rutherford"
+    },
+    {
+      "id": "0015",
+      "slug": "relativity-simultaneity",
+      "qr_file": "Relativity_of_Simultaneity_animation.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Относительность одновременности",
+        "en": "Relativity of simultaneity"
+      },
+      "caption": {
+        "ru": "Три события (A, B, C) одновременны в системе отсчёта наблюдателя O. В системе, движущейся со скоростью v = 0,3c относительно O, они следуют в порядке C, B, A, а при v = −0,5c — в порядке A, B, C.",
+        "en": "Three events (A, B, C) are simultaneous in the reference frame of observer O. In a frame moving with velocity v = 0.3c relative to O, they occur in the order C, B, A, while for v = −0.5c they occur in the order A, B, C."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 3,
+        "chapter_title": {
+          "ru": "Специальная теория относительности",
+          "en": "Special Relativity"
+        }
+      },
+      "credit": {
+        "author": "Acdx",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Relativity_of_Simultaneity_Animation.gif",
+        "source_label": "Wikimedia Commons",
+        "note": {
+          "ru": "GIF переведён в видео без других изменений.",
+          "en": "The GIF was converted to video with no other changes."
+        }
+      },
+      "media": {
+        "source": "relativity-simultaneity.gif",
+        "poster_time": 2.0
+      },
+      "legacy_codes": [
+        "0017"
+      ]
+    },
+    {
+      "id": "0021",
+      "slug": "galaxy-merger",
+      "qr_file": "Galaxy_Merger.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Слияние двух галактик",
+        "en": "Merger of two galaxies"
+      },
+      "caption": {
+        "ru": "Столкновение двух дисковых галактик в ограниченной задаче N тел с динамическим трением: приливные мосты и хвосты, затем округлый остаток. Рисунок в книге построен по этой же модели.",
+        "en": "A collision of two disk galaxies in a restricted N-body problem with dynamical friction: tidal bridges and tails, then a rounded remnant. The figure in the book is built from the same model."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 1,
+        "chapter_title": {
+          "ru": "Волны внутри нас",
+          "en": "Waves Inside Us"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/galaxy_merger"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/visual-stories-galaxy-merger-merger.mp4",
+        "poster_time": 9.0
+      },
+      "legacy_codes": [],
+      "gallery": "visual-stories/galaxy-merger"
+    },
+    {
+      "id": "0022",
+      "slug": "scalar-qed-attraction",
+      "qr_file": "ScalarQED_Attraction.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Притяжение: интерференция волновых пакетов",
+        "en": "Attraction: interference of wave packets"
+      },
+      "caption": {
+        "ru": "Два волновых пакета скалярной электродинамики с зарядами противоположных знаков (двумерный срез). Слева — |φ|², справа — потенциал A₀. Взаимодействие учтено эйкональной фазой; пакеты притягиваются.",
+        "en": "Two wave packets of scalar electrodynamics with charges of opposite sign (a two-dimensional slice). Left: |φ|²; right: the potential A₀. The interaction is encoded in an eikonal phase; the packets attract each other."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 19,
+        "chapter_title": {
+          "ru": "Притяжение и отталкивание",
+          "en": "Attraction and Repulsion"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/fields/scalar_qed"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/fields-waves-scalar-qed-attraction.mp4",
+        "poster_time": 1.2
+      },
+      "legacy_codes": [],
+      "gallery": "fields-waves/scalar-qed"
+    },
+    {
+      "id": "0023",
+      "slug": "scalar-qed-repulsion",
+      "qr_file": "ScalarQED_Repulsion.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Отталкивание: интерференция волновых пакетов",
+        "en": "Repulsion: interference of wave packets"
+      },
+      "caption": {
+        "ru": "Два волновых пакета скалярной электродинамики с зарядами одного знака (двумерный срез). Слева — |φ|², справа — потенциал A₀. Взаимодействие учтено эйкональной фазой; пакеты отталкиваются.",
+        "en": "Two wave packets of scalar electrodynamics with charges of the same sign (a two-dimensional slice). Left: |φ|²; right: the potential A₀. The interaction is encoded in an eikonal phase; the packets repel each other."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 19,
+        "chapter_title": {
+          "ru": "Притяжение и отталкивание",
+          "en": "Attraction and Repulsion"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/fields/scalar_qed"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.mp4",
+        "poster_time": 1.2
+      },
+      "legacy_codes": [],
+      "gallery": "fields-waves/scalar-qed"
+    },
+    {
+      "id": "0024",
+      "slug": "sm-field-mattress",
+      "qr_file": "StandardModel_FieldMattress.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Поля Стандартной модели: матрас полей",
+        "en": "Standard Model fields: a mattress of fields"
+      },
+      "caption": {
+        "ru": "Визуальная метафора квантовых полей Стандартной модели: слои полей заполняют пространство, все они постоянно флуктуируют, по ним бегут волны. Слои — образ различных полей, а не буквальное расслоение вакуума.",
+        "en": "A visual metaphor for the quantum fields of the Standard Model: layers of fields fill space, all of them fluctuate constantly, and waves run through them. The layers are a picture of distinct fields, not a literal stratification of the vacuum."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 1,
+        "chapter_title": {
+          "ru": "Волны внутри нас",
+          "en": "Waves Inside Us"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/fields/sm_field_mattress",
+        "note": {
+          "ru": "Собственная анимация вместо ролика Arvin Ash, использованного в первом тираже.",
+          "en": "An original animation in place of the Arvin Ash video used in the first printing."
+        }
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack.mp4",
+        "poster_time": 20.0
+      },
+      "legacy_codes": [
+        "0002"
+      ],
+      "gallery": "fields-waves/standard-model-field-mattress"
+    },
+    {
+      "id": "0025",
+      "slug": "free-wavepacket",
+      "qr_file": "FreeWavePacket.pdf",
+      "status": "proposed",
+      "hosting": "self",
+      "title": {
+        "ru": "Свободный гауссов волновой пакет",
+        "en": "A free Gaussian wave packet"
+      },
+      "caption": {
+        "ru": "Одиночный гауссов волновой пакет скалярного поля: движение с групповой скоростью, расплывание и убывание амплитуды (аналитическое приближение узкого пакета).",
+        "en": "A single Gaussian wave packet of a scalar field: motion with the group velocity, spreading and amplitude decay (the analytic narrow-packet approximation)."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 5,
+        "chapter_title": {
+          "ru": "Нерелятивистская квантовая механика",
+          "en": "Nonrelativistic Quantum Mechanics"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/fields/wavepackets_free"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/fields-waves-free-wavepackets-single.mp4",
+        "poster_time": 6.0
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0026",
+      "slug": "coupled-oscillators-2d",
+      "qr_file": "CoupledOscillators2D.pdf",
+      "status": "proposed",
+      "hosting": "self",
+      "title": {
+        "ru": "Поле как решётка связанных осцилляторов",
+        "en": "A field as a lattice of coupled oscillators"
+      },
+      "caption": {
+        "ru": "Прямоугольная двумерная решётка связанных осцилляторов с закреплённым краем: нормальные моды, смещение одного узла и расплывание возмущения по решётке.",
+        "en": "A rectangular two-dimensional lattice of coupled oscillators with a fixed boundary: normal modes, a displacement of one site and the spreading of the disturbance across the lattice."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 15,
+        "chapter_title": {
+          "ru": "Поле квантуется раз!",
+          "en": "Field Quantization: Round One!"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/fields/coupled_oscillators_2d"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-two-dimensional.mp4",
+        "poster_time": 8.0
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0027",
+      "slug": "feynman-numu-electron",
+      "qr_file": "Feynman_NuMuElectron.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Рассеяние νμ + e → νe + μ",
+        "en": "Scattering νμ + e → νe + μ"
+      },
+      "caption": {
+        "ru": "Анимированная диаграмма Фейнмана реакции νμ e⁻ → μ⁻ νe через обмен W-бозоном.",
+        "en": "An animated Feynman diagram of the reaction νμ e⁻ → μ⁻ νe through W-boson exchange."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 29,
+        "chapter_title": {
+          "ru": "Взаимодействие нейтрино с электроном",
+          "en": "Neutrino–Electron Scattering"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/feynman_scattering"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-electron.mp4",
+        "poster_time": 6.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/feynman-scattering"
+    },
+    {
+      "id": "0028",
+      "slug": "feynman-numu-z",
+      "qr_file": "Feynman_NuMuZ.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Рассеяние нейтрино через Z-бозон",
+        "en": "Neutrino scattering through the Z boson"
+      },
+      "caption": {
+        "ru": "Анимированная диаграмма Фейнмана рассеяния нейтрино через обмен Z-бозоном (нейтральный ток).",
+        "en": "An animated Feynman diagram of neutrino scattering through Z-boson exchange (neutral current)."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 29,
+        "chapter_title": {
+          "ru": "Взаимодействие нейтрино с электроном",
+          "en": "Neutrino–Electron Scattering"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/feynman_scattering"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-z.mp4",
+        "poster_time": 6.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/feynman-scattering"
+    },
+    {
+      "id": "0029",
+      "slug": "air-shower",
+      "qr_file": "AirShower.pdf",
+      "status": "proposed",
+      "hosting": "self",
+      "title": {
+        "ru": "Атмосферный ливень космических лучей",
+        "en": "A cosmic-ray air shower"
+      },
+      "caption": {
+        "ru": "Схематическая анимация развития атмосферного каскада, порождённого частицей космических лучей.",
+        "en": "A schematic animation of an atmospheric cascade initiated by a cosmic-ray particle."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 2,
+        "chapter_title": {
+          "ru": "Век открытий",
+          "en": "A Century of Discoveries"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/airshower"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4",
+        "poster_time": 5.0
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0030",
+      "slug": "pmt",
+      "qr_file": "PMT.pdf",
+      "status": "proposed",
+      "hosting": "self",
+      "title": {
+        "ru": "Как работает фотоумножитель",
+        "en": "How a photomultiplier tube works"
+      },
+      "caption": {
+        "ru": "Схематическая траектория электронов в фотоумножителе (ФЭУ) по численным данным.",
+        "en": "A schematic trajectory of electrons in a photomultiplier tube (PMT) based on numerical data."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 2,
+        "chapter_title": {
+          "ru": "Век открытий",
+          "en": "A Century of Discoveries"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/pmt"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-pmt-pmt-schematic.mp4",
+        "poster_time": 6.0
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0031",
+      "slug": "cherenkov-cone",
+      "qr_file": "CherenkovCone.pdf",
+      "status": "proposed",
+      "hosting": "self",
+      "title": {
+        "ru": "Конус Черенкова",
+        "en": "The Cherenkov cone"
+      },
+      "caption": {
+        "ru": "Геометрия черенковского излучения заряженной частицы, летящей в среде быстрее фазовой скорости света.",
+        "en": "The geometry of Cherenkov radiation from a charged particle moving in a medium faster than the phase velocity of light."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 13,
+        "chapter_title": {
+          "ru": "Классические поля и их лагранжианы",
+          "en": "Classical Fields and Their Lagrangians"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_cone"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-cherenkov-cone-cylinder.mp4",
+        "poster_time": 4.0
+      },
+      "legacy_codes": []
+    }
+  ]
+}

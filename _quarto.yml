@@ -6,6 +6,7 @@ project:
     - python scripts/validate_reveal_context_homes.py
   resources:
     - "assets/**"
+    - "qr/**"
     - "students/theses/**"
     - "theses/**"
     - "en/cv.pdf"

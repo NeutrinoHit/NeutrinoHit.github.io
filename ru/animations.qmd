@@ -12,8 +12,8 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>39 сюжетов</span>
-    <span>75 роликов</span>
+    <span>42 сюжета</span>
+    <span>78 роликов</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
@@ -817,6 +817,89 @@ lang: ru-RU
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/cockroftwalton">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-cockcroft-walton-cascade.mp4">MP4: Cascade</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </details>
+    <details class="lecture-course animation-section animation-section-relativity-atom-spin">
+      <summary>
+        <span class="lecture-course-status">3 сюжета, 3 ролика</span>
+        <span class="lecture-course-title">Относительность, атом и спин</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Анимации к книге «Квантовая теория поля для экспериментаторов и не только»: релятивистское изображение шара, опыт Резерфорда, спинор и лента Мёбиуса.</p>
+        <div class="lecture-material-list animation-material-list">
+          <details id="animation-relativity-atom-spin-penrose-terrell" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Вращение Пенроуза — Террелла</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Футбольный мяч летит мимо камеры со скоростью 0,99 c. Трассировка лучей с запаздыванием: камера видит круглый, повёрнутый мяч, а мгновенный снимок сжатого шара ненаблюдаем.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Камера и мгновенный снимок</span>
+                    <small>330.5 KB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/penrose_terrell">Исходный код</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera.mp4">MP4: Камера и мгновенный снимок</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-relativity-atom-spin-rutherford" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Опыт Резерфорда — Гейгера — Марсдена</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Альфа-частицы в кулоновском поле ядер тонкой фольги: траектории рассчитаны численно, угловое распределение сравнивается с формулой Резерфорда.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-rutherford-foil.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-rutherford-foil.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Рассеяние на золотой фольге</span>
+                    <small>1.2 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/rutherford">Исходный код</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-rutherford-foil.mp4">MP4: Рассеяние на золотой фольге</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-relativity-atom-spin-spinor-mobius" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Спинор и лента Мёбиуса</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Поворот на 360° меняет знак спинора, поворот на 720° возвращает его: вектор на ленте Мёбиуса и компонента ψ = exp(−iφ/2).</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Поворот на 720°</span>
+                    <small>889.6 KB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/spinor_mobius">Исходный код</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip.mp4">MP4: Поворот на 720°</a>
               </div>
             </div>
           </details>

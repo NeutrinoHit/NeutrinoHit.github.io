@@ -1,0 +1,120 @@
+{
+  "0003": {
+    "url": "https://neutrinohit.github.io/qr/0003/",
+    "slug": "higgs-honey",
+    "hosting": "self",
+    "qr_file": "Higgs_as_Honey.pdf",
+    "legacy_codes": []
+  },
+  "0021": {
+    "url": "https://neutrinohit.github.io/qr/0021/",
+    "slug": "galaxy-merger",
+    "hosting": "self",
+    "qr_file": "Galaxy_Merger.pdf",
+    "legacy_codes": []
+  },
+  "0024": {
+    "url": "https://neutrinohit.github.io/qr/0024/",
+    "slug": "sm-field-mattress",
+    "hosting": "self",
+    "qr_file": "StandardModel_FieldMattress.pdf",
+    "legacy_codes": [
+      "0002"
+    ]
+  },
+  "0004": {
+    "url": "https://neutrinohit.github.io/qr/0004/",
+    "slug": "thomson-tube",
+    "hosting": "self",
+    "qr_file": "ThomsonTube.pdf",
+    "legacy_codes": []
+  },
+  "0005": {
+    "url": "https://neutrinohit.github.io/qr/0005/",
+    "slug": "zero-field",
+    "hosting": "self",
+    "qr_file": "ZeroField_animation.pdf",
+    "legacy_codes": []
+  },
+  "0014": {
+    "url": "https://neutrinohit.github.io/qr/0014/",
+    "slug": "rutherford-geiger-marsden",
+    "hosting": "self",
+    "qr_file": "Rutherford_animation.pdf",
+    "legacy_codes": []
+  },
+  "0006": {
+    "url": "https://neutrinohit.github.io/qr/0006/",
+    "slug": "penrose-rotation",
+    "hosting": "self",
+    "qr_file": "PenroseRotation_animation.pdf",
+    "legacy_codes": []
+  },
+  "0015": {
+    "url": "https://neutrinohit.github.io/qr/0015/",
+    "slug": "relativity-simultaneity",
+    "hosting": "self",
+    "qr_file": "Relativity_of_Simultaneity_animation.pdf",
+    "legacy_codes": [
+      "0017"
+    ]
+  },
+  "0007": {
+    "url": "https://neutrinohit.github.io/qr/0007/",
+    "slug": "oam-beams",
+    "hosting": "self",
+    "qr_file": "OAM_beams.pdf",
+    "legacy_codes": []
+  },
+  "0009": {
+    "url": "https://neutrinohit.github.io/qr/0009/",
+    "slug": "spinor-mobius",
+    "hosting": "self",
+    "qr_file": "SpinorMobius.pdf",
+    "legacy_codes": []
+  },
+  "0008": {
+    "url": "https://neutrinohit.github.io/qr/0008/",
+    "slug": "circular-polarization",
+    "hosting": "self",
+    "qr_file": "CircularPolarization_animation.pdf",
+    "legacy_codes": [
+      "0001"
+    ]
+  },
+  "0011": {
+    "url": "https://neutrinohit.github.io/qr/0011/",
+    "slug": "running-charge",
+    "hosting": "pending",
+    "qr_file": "RunningCharge_animation.pdf",
+    "legacy_codes": []
+  },
+  "0022": {
+    "url": "https://neutrinohit.github.io/qr/0022/",
+    "slug": "scalar-qed-attraction",
+    "hosting": "self",
+    "qr_file": "ScalarQED_Attraction.pdf",
+    "legacy_codes": []
+  },
+  "0023": {
+    "url": "https://neutrinohit.github.io/qr/0023/",
+    "slug": "scalar-qed-repulsion",
+    "hosting": "self",
+    "qr_file": "ScalarQED_Repulsion.pdf",
+    "legacy_codes": []
+  },
+  "0027": {
+    "url": "https://neutrinohit.github.io/qr/0027/",
+    "slug": "feynman-numu-electron",
+    "hosting": "self",
+    "qr_file": "Feynman_NuMuElectron.pdf",
+    "legacy_codes": []
+  },
+  "0028": {
+    "url": "https://neutrinohit.github.io/qr/0028/",
+    "slug": "feynman-numu-z",
+    "hosting": "self",
+    "qr_file": "Feynman_NuMuZ.pdf",
+    "legacy_codes": []
+  }
+}
