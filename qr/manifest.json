@@ -80,6 +80,27 @@
     "qr_file": "SpinorMobius.pdf",
     "legacy_codes": []
   },
+  "0026": {
+    "url": "https://neutrinohit.github.io/qr/0026/",
+    "slug": "coupled-oscillators-2d",
+    "hosting": "self",
+    "qr_file": "CoupledOscillators2D.pdf",
+    "legacy_codes": []
+  },
+  "0033": {
+    "url": "https://neutrinohit.github.io/qr/0033/",
+    "slug": "coupled-oscillators-1d",
+    "hosting": "self",
+    "qr_file": "CoupledOscillators1D.pdf",
+    "legacy_codes": []
+  },
+  "0034": {
+    "url": "https://neutrinohit.github.io/qr/0034/",
+    "slug": "coupled-oscillators-3d",
+    "hosting": "self",
+    "qr_file": "CoupledOscillators3D.pdf",
+    "legacy_codes": []
+  },
   "0008": {
     "url": "https://neutrinohit.github.io/qr/0008/",
     "slug": "circular-polarization",
@@ -94,6 +115,13 @@
     "slug": "running-charge",
     "hosting": "self",
     "qr_file": "RunningCharge_animation.pdf",
+    "legacy_codes": []
+  },
+  "0035": {
+    "url": "https://neutrinohit.github.io/qr/0035/",
+    "slug": "scattering-experiment",
+    "hosting": "self",
+    "qr_file": "ScatteringExperiment.pdf",
     "legacy_codes": []
   },
   "0022": {

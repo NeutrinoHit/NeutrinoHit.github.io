@@ -12,14 +12,14 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>44 сюжета</span>
-    <span>80 роликов</span>
+    <span>45 сюжетов</span>
+    <span>81 ролик</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">15 сюжетов, 26 роликов</span>
+        <span class="lecture-course-status">16 сюжетов, 27 роликов</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -492,6 +492,30 @@ lang: ru-RU
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_cone">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-cherenkov-cone-cylinder.mp4">MP4: Конус в цилиндре</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-neutrino-particles-scattering-experiment" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Три стадии эксперимента на коллайдере: ускорение пучков, взаимодействие в малой области (почти все частицы пролетают насквозь), регистрация мюонов. Из многих событий растёт угловое распределение 1 + cos²θ.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Столкновения пучков и детектор</span>
+                    <small>2.6 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/scattering_experiment">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.mp4">MP4: Столкновения пучков и детектор</a>
               </div>
             </div>
           </details>
