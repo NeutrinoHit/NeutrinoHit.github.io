@@ -12,8 +12,8 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>42 сюжета</span>
-    <span>78 роликов</span>
+    <span>44 сюжета</span>
+    <span>80 роликов</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
@@ -500,7 +500,7 @@ lang: ru-RU
     </details>
     <details class="lecture-course animation-section animation-section-fields-waves">
       <summary>
-        <span class="lecture-course-status">11 сюжетов, 16 роликов</span>
+        <span class="lecture-course-status">12 сюжетов, 17 роликов</span>
         <span class="lecture-course-title">Поля, волны и осцилляторы</span>
       </summary>
       <div class="lecture-course-body">
@@ -820,12 +820,36 @@ lang: ru-RU
               </div>
             </div>
           </details>
+          <details id="animation-fields-waves-running-charge" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Бегущий заряд: экранировка виртуальными парами</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Виртуальные электрон-позитронные пары выстраиваются вокруг электрона и экранируют его заряд; пробный заряд, подлетая, видит заряд всё больший. Масштаб эффекта условный.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-running-charge-film.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-running-charge-film.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Заряд и виртуальные пары</span>
+                    <small>1.1 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/running_charge">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-running-charge-film.mp4">MP4: Заряд и виртуальные пары</a>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </details>
     <details class="lecture-course animation-section animation-section-relativity-atom-spin">
       <summary>
-        <span class="lecture-course-status">3 сюжета, 3 ролика</span>
+        <span class="lecture-course-status">4 сюжета, 4 ролика</span>
         <span class="lecture-course-title">Относительность, атом и спин</span>
       </summary>
       <div class="lecture-course-body">
@@ -900,6 +924,30 @@ lang: ru-RU
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/spinor_mobius">Исходный код</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip.mp4">MP4: Поворот на 720°</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-relativity-atom-spin-hulse-taylor" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Двойной пульсар Халса — Тейлора</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Две нейтронные звезды на эксцентрической орбите излучают гравитационные волны, орбита сжимается, а периастр приходит всё раньше: накопленный сдвиг по ОТО и по измеренной производной периода, 1975–2005.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Орбита, волны и сдвиг периастра</span>
+                    <small>1.6 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/hulse_taylor">Исходный код</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4">MP4: Орбита, волны и сдвиг периастра</a>
               </div>
             </div>
           </details>

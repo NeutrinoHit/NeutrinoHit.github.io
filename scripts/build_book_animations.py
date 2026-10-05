@@ -173,7 +173,7 @@ def build_media(item: dict[str, Any], force: bool) -> None:
     if stale(source, poster, force):
         at = float(item["media"].get("poster_time", 0.5))
         if info["duration"]:
-            at = min(at, info["duration"] * 0.5)
+            at = min(at, info["duration"] * 0.95)
         tmp = poster.with_suffix(".tmp.jpg")
         run(["ffmpeg", "-y", "-v", "error", "-ss", f"{at:.3f}", "-i", str(source),
              "-frames:v", "1", "-vf", "scale='min(960,iw)':-2", "-q:v", "3", str(tmp)])
