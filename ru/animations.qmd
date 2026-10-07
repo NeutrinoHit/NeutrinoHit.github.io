@@ -12,14 +12,14 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>48 сюжетов</span>
-    <span>84 ролика</span>
+    <span>51 сюжет</span>
+    <span>87 роликов</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">17 сюжетов, 28 роликов</span>
+        <span class="lecture-course-status">19 сюжетов, 30 роликов</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -403,6 +403,30 @@ lang: ru-RU
               </div>
             </div>
           </details>
+          <details id="animation-neutrino-particles-pmt-multiplication" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Умножение электронов в ФЭУ</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Один фотоэлектрон превращается в лавину: каждый динод выбивает в среднем δ = 4 вторичных электрона, десять динодов дают усиление ≈ 10⁶; затем три вспышки сцинтиллятора и амплитуда импульса, в среднем пропорциональная числу фотоэлектронов.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Лавина электронов и импульс на аноде</span>
+                    <small>987.4 KB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/pmt_multiplication">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4">MP4: Лавина электронов и импульс на аноде</a>
+              </div>
+            </div>
+          </details>
           <details id="animation-neutrino-particles-mac-e-filter" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Электроны в магнитном поле и MAC-E-фильтр KATRIN</span>
@@ -495,6 +519,30 @@ lang: ru-RU
               </div>
             </div>
           </details>
+          <details id="animation-neutrino-particles-cherenkov-radiation" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Излучение Вавилова — Черенкова</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Построение Гюйгенса: при v &lt; c/n волны вложены друг в друга, при v &gt; c/n у них появляется общая огибающая — конус; cos θ = 1/(nβ), кольцо на детекторе, порог для электрона и мюона в воде.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Конус из волн Гюйгенса</span>
+                    <small>1.7 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_radiation">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4">MP4: Конус из волн Гюйгенса</a>
+              </div>
+            </div>
+          </details>
           <details id="animation-neutrino-particles-scattering-experiment" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻</span>
@@ -548,7 +596,7 @@ lang: ru-RU
     </details>
     <details class="lecture-course animation-section animation-section-fields-waves">
       <summary>
-        <span class="lecture-course-status">13 сюжетов, 18 роликов</span>
+        <span class="lecture-course-status">14 сюжетов, 19 роликов</span>
         <span class="lecture-course-title">Поля, волны и осцилляторы</span>
       </summary>
       <div class="lecture-course-body">
@@ -677,6 +725,30 @@ lang: ru-RU
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/fields/wavepackets_free">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-free-wavepackets-single.mp4">MP4: Один пакет</a>
                 <a href="../assets/animations/dvnanima/fields-waves-free-wavepackets-two.mp4">MP4: Два пакета</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-schrodinger-packet" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Свободный гауссов пакет: расплывание</span>
+              <span class="animation-material-count">1 ролик</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Точная эволюция гауссова пакета свободной частицы (ħ = m = 1): центр движется с групповой скоростью, ширина растёт как σ₀√(1 + (t/2σ₀²)²), а |ψ̃(p)|² не меняется; узкий пакет расплывается быстрее широкого.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Движение и расплывание пакета</span>
+                    <small>1.3 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/free_wavepacket">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4">MP4: Движение и расплывание пакета</a>
               </div>
             </div>
           </details>

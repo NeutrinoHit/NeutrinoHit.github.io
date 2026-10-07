@@ -43,6 +43,13 @@
     "qr_file": "Rutherford_animation.pdf",
     "legacy_codes": []
   },
+  "0030": {
+    "url": "https://neutrinohit.github.io/qr/0030/",
+    "slug": "pmt",
+    "hosting": "self",
+    "qr_file": "PMT.pdf",
+    "legacy_codes": []
+  },
   "0006": {
     "url": "https://neutrinohit.github.io/qr/0006/",
     "slug": "penrose-rotation",
@@ -71,6 +78,13 @@
     "slug": "oam-beams",
     "hosting": "self",
     "qr_file": "OAM_beams.pdf",
+    "legacy_codes": []
+  },
+  "0025": {
+    "url": "https://neutrinohit.github.io/qr/0025/",
+    "slug": "free-wavepacket",
+    "hosting": "self",
+    "qr_file": "FreeWavePacket.pdf",
     "legacy_codes": []
   },
   "0009": {
@@ -109,6 +123,13 @@
     "legacy_codes": [
       "0001"
     ]
+  },
+  "0031": {
+    "url": "https://neutrinohit.github.io/qr/0031/",
+    "slug": "cherenkov-cone",
+    "hosting": "self",
+    "qr_file": "CherenkovCone.pdf",
+    "legacy_codes": []
   },
   "0011": {
     "url": "https://neutrinohit.github.io/qr/0011/",

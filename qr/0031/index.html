@@ -1,16 +1,16 @@
 <!doctype html>
-<html lang="ru" data-lang="ru" data-title-ru="Бегущий заряд: экранировка виртуальными парами — NeutrinoHit" data-title-en="The running charge: screening by virtual pairs — NeutrinoHit">
+<html lang="ru" data-lang="ru" data-title-ru="Излучение Вавилова — Черенкова: конус из волн — NeutrinoHit" data-title-en="Cherenkov radiation: a cone of wavelets — NeutrinoHit">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Бегущий заряд: экранировка виртуальными парами — NeutrinoHit</title>
-<meta name="description" content="Виртуальные электрон-позитронные пары рождаются и исчезают. Вблизи электрона они выстраиваются: позитроны ближе к нему, электроны дальше, и заряд экранируется. Пробный заряд, подлетая, видит заряд всё больший; дальше расстояния порядка комптоновской длины волны заряд равен классическому. Масштаб эффекта на анимации условный: для электрона изменение заряда достигает 1% лишь при r ≈ 10⁻³ λ_C.">
-<link rel="canonical" href="https://neutrinohit.github.io/qr/0011/">
+<title>Излучение Вавилова — Черенкова: конус из волн — NeutrinoHit</title>
+<meta name="description" content="Построение Гюйгенса для заряда, летящего в среде с показателем преломления n = 1,33 (вода). Пока v &lt; c/n, волны от последовательных положений вложены друг в друга и света нет. При v &gt; c/n у волн появляется общая огибающая, конус; свет идёт перпендикулярно ей под углом θ к траектории, cos θ = 1/(nβ). Кольцо на детекторе имеет радиус L tg θ. Порог в воде: 0,26 МэВ для электрона и 55 МэВ для мюона, предельный угол 41,2°.">
+<link rel="canonical" href="https://neutrinohit.github.io/qr/0031/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Бегущий заряд: экранировка виртуальными парами">
-<meta property="og:description" content="Виртуальные электрон-позитронные пары рождаются и исчезают. Вблизи электрона они выстраиваются: позитроны ближе к нему, электроны дальше, и заряд экранируется. Пробный заряд, подлетая, видит заряд всё больший; дальше расстояния порядка комптоновской длины волны заряд равен классическому. Масштаб эффекта на анимации условный: для электрона изменение заряда достигает 1% лишь при r ≈ 10⁻³ λ_C.">
-<meta property="og:url" content="https://neutrinohit.github.io/qr/0011/">
-<meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/0011.jpg">
+<meta property="og:title" content="Излучение Вавилова — Черенкова: конус из волн">
+<meta property="og:description" content="Построение Гюйгенса для заряда, летящего в среде с показателем преломления n = 1,33 (вода). Пока v &lt; c/n, волны от последовательных положений вложены друг в друга и света нет. При v &gt; c/n у волн появляется общая огибающая, конус; свет идёт перпендикулярно ей под углом θ к траектории, cos θ = 1/(nβ). Кольцо на детекторе имеет радиус L tg θ. Порог в воде: 0,26 МэВ для электрона и 55 МэВ для мюона, предельный угол 41,2°.">
+<meta property="og:url" content="https://neutrinohit.github.io/qr/0031/">
+<meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/0031.jpg">
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
 if(l!=='ru'&&l!=='en'){l=((navigator.language||'ru').toLowerCase().indexOf('ru')===0)?'ru':'en'}
 d.setAttribute('data-lang',l);d.lang=l})();</script>
@@ -56,9 +56,9 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <a href="../"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
-<h1><span lang="ru">Бегущий заряд: экранировка виртуальными парами</span><span lang="en">The running charge: screening by virtual pairs</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0011.jpg">
-<source src="../../assets/animations/dvnanima/fields-waves-running-charge-film.mp4" type="video/mp4">
+<h1><span lang="ru">Излучение Вавилова — Черенкова: конус из волн</span><span lang="en">Cherenkov radiation: a cone of wavelets</span></h1>
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0031.jpg">
+<source src="../../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
 <span><span lang="ru">Скорость</span><span lang="en">Speed</span>:</span>
@@ -66,17 +66,16 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" href="../../assets/animations/dvnanima/fields-waves-running-charge-film.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" href="../../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Виртуальные электрон-позитронные пары рождаются и исчезают. Вблизи электрона они выстраиваются: позитроны ближе к нему, электроны дальше, и заряд экранируется. Пробный заряд, подлетая, видит заряд всё больший; дальше расстояния порядка комптоновской длины волны заряд равен классическому. Масштаб эффекта на анимации условный: для электрона изменение заряда достигает 1% лишь при r ≈ 10⁻³ λ_C.</span><span lang="en">Virtual electron–positron pairs appear and vanish. Near the electron they line up: positrons closer to it, electrons farther away, and the charge is screened. A test charge that flies in sees a larger and larger charge; beyond distances of the order of the Compton wavelength the charge is the classical one. The scale of the effect is schematic: for the electron the charge changes by 1% only at r ≈ 10⁻³ λ_C.</span></p>
+<p class="caption"><span lang="ru">Построение Гюйгенса для заряда, летящего в среде с показателем преломления n = 1,33 (вода). Пока v &lt; c/n, волны от последовательных положений вложены друг в друга и света нет. При v &gt; c/n у волн появляется общая огибающая, конус; свет идёт перпендикулярно ей под углом θ к траектории, cos θ = 1/(nβ). Кольцо на детекторе имеет радиус L tg θ. Порог в воде: 0,26 МэВ для электрона и 55 МэВ для мюона, предельный угол 41,2°.</span><span lang="en">Huygens construction for a charge moving in a medium of refractive index n = 1.33 (water). While v &lt; c/n the wavelets of successive positions lie inside one another and there is no light. For v &gt; c/n the wavelets acquire a common envelope, a cone; light travels perpendicular to it at the angle θ to the track, cos θ = 1/(nβ). The ring on the detector has radius L tan θ. Threshold in water: 0.26 MeV for an electron and 55 MeV for a muon, the limiting angle is 41.2°.</span></p>
 <div class="card"><dl class="meta">
-<dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 1, гл. 17 «Вакуумная катастрофа»</span><span lang="en">Volume 1, Chapter 17 “The Vacuum Catastrophe”</span></dd>
+<dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 1, гл. 13 «Классические поля и их лагранжианы»</span><span lang="en">Volume 1, Chapter 13 “Classical Fields and Their Lagrangians”</span></dd>
 <dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
-<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/running_charge" rel="noopener">GitHub</a></dd>
-<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">Заряд на расстоянии r: Q/e = 1/(1 − b L(r)), L = ½ ln(1 + 1/r²); в ролике b = 0,25 вместо 2α/3π ≈ 0,0015.</span><span lang="en">The charge at distance r: Q/e = 1/(1 − b L(r)), L = ½ ln(1 + 1/r²); the film uses b = 0.25 instead of 2α/3π ≈ 0.0015.</span></dd>
-<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-running-charge"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_radiation" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-neutrino-particles-cherenkov-radiation"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
-<nav class="nav"><a href="../0031/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Излучение Вавилова — Черенкова: конус из волн</span><span lang="en">Cherenkov radiation: a cone of wavelets</span></a><a href="../0035/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻</span><span lang="en">A scattering experiment: e⁺e⁻ → μ⁺μ⁻</span> →</a></nav>
+<nav class="nav"><a href="../0008/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Круговая поляризация электромагнитной волны</span><span lang="en">Circular polarization of an electromagnetic wave</span></a><a href="../0011/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Бегущий заряд: экранировка виртуальными парами</span><span lang="en">The running charge: screening by virtual pairs</span> →</a></nav>
 <footer>
 <p><span lang="ru">Анимация к книге</span><span lang="en">Animation for the book</span> <a href="/ru/materials.html" lang="ru">«Квантовая теория поля для экспериментаторов и не только»</a><a href="/en/materials.html" lang="en">“Quantum Field Theory for Experimentalists and Beyond”</a>, <span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span> · <a href="/">NeutrinoHit</a></p>
 </footer>

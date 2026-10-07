@@ -536,15 +536,14 @@
       "id": "0025",
       "slug": "free-wavepacket",
       "qr_file": "FreeWavePacket.pdf",
-      "status": "proposed",
       "hosting": "self",
       "title": {
-        "ru": "Свободный гауссов волновой пакет",
-        "en": "A free Gaussian wave packet"
+        "ru": "Свободный гауссов пакет: движение и расплывание",
+        "en": "A free Gaussian wave packet: motion and spreading"
       },
       "caption": {
-        "ru": "Одиночный гауссов волновой пакет скалярного поля: движение с групповой скоростью, расплывание и убывание амплитуды (аналитическое приближение узкого пакета).",
-        "en": "A single Gaussian wave packet of a scalar field: motion with the group velocity, spreading and amplitude decay (the analytic narrow-packet approximation)."
+        "ru": "Точная эволюция гауссова пакета свободной частицы (ħ = m = 1). Центр движется с групповой скоростью, огибающая расширяется по закону σ(t) = σ₀√(1 + (t/2σ₀²)²), высота падает. Распределение по импульсу |ψ̃(p)|² не меняется, вращаются только фазы e^{-iE_p t}. Во второй части сравниваются узкий и широкий пакеты: чем уже пакет по x, тем он шире по p и тем быстрее расплывается.",
+        "en": "Exact evolution of a free Gaussian wave packet (ħ = m = 1). The centre moves with the group velocity and the envelope broadens as σ(t) = σ₀√(1 + (t/2σ₀²)²) while its height falls. The momentum distribution |ψ̃(p)|² does not change; only the phases e^{-iE_p t} rotate. The second part compares a narrow and a wide packet: the narrower in x, the broader in p and the faster it spreads."
       },
       "book": {
         "volume": 1,
@@ -555,14 +554,18 @@
         }
       },
       "credit": {
-        "author": "Д. В. Наумов",
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/fields/wavepackets_free"
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/free_wavepacket"
       },
       "media": {
-        "site_asset": "assets/animations/dvnanima/fields-waves-free-wavepackets-single.mp4",
-        "poster_time": 6.0
+        "site_asset": "assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4",
+        "poster_time": 8.0
       },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "gallery": "fields-waves/schrodinger-packet"
     },
     {
       "id": "0026",
@@ -699,15 +702,14 @@
       "id": "0030",
       "slug": "pmt",
       "qr_file": "PMT.pdf",
-      "status": "proposed",
       "hosting": "self",
       "title": {
         "ru": "Как работает фотоумножитель",
         "en": "How a photomultiplier tube works"
       },
       "caption": {
-        "ru": "Схематическая траектория электронов в фотоумножителе (ФЭУ) по численным данным.",
-        "en": "A schematic trajectory of electrons in a photomultiplier tube (PMT) based on numerical data."
+        "ru": "Один фотон выбивает с фотокатода электрон; на каждом из десяти динодов электрон выбивает в среднем δ = 4 вторичных (число случайно, распределение Пуассона), поэтому число электронов растёт как δ^j и усиление равно ≈ 10⁶. Усиление линейно: во второй части три вспышки сцинтиллятора с 2, 6 и 12 фотоэлектронами дают импульсы, высоты которых примерно пропорциональны 2 : 6 : 12 (число вторичных электронов случайно). По высоте импульса измеряют число фотонов, а значит, энергию.",
+        "en": "A photon knocks an electron out of the photocathode; at each of ten dynodes an electron knocks out on average δ = 4 secondary electrons (the number is random, Poisson distributed), so the number of electrons grows as δ^j and the gain is about 10⁶. The amplification is linear: in the second part three scintillation flashes with 2, 6 and 12 photoelectrons give pulses whose heights are roughly proportional to 2 : 6 : 12 (the numbers of secondary electrons are random). The pulse height measures the number of photons and hence the energy."
       },
       "book": {
         "volume": 1,
@@ -718,28 +720,31 @@
         }
       },
       "credit": {
-        "author": "Д. В. Наумов",
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/pmt"
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/pmt_multiplication"
       },
       "media": {
-        "site_asset": "assets/animations/dvnanima/neutrino-particles-pmt-pmt-schematic.mp4",
-        "poster_time": 6.0
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4",
+        "poster_time": 15.0
       },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/pmt-multiplication"
     },
     {
       "id": "0031",
       "slug": "cherenkov-cone",
       "qr_file": "CherenkovCone.pdf",
-      "status": "proposed",
       "hosting": "self",
       "title": {
-        "ru": "Конус Черенкова",
-        "en": "The Cherenkov cone"
+        "ru": "Излучение Вавилова — Черенкова: конус из волн",
+        "en": "Cherenkov radiation: a cone of wavelets"
       },
       "caption": {
-        "ru": "Геометрия черенковского излучения заряженной частицы, летящей в среде быстрее фазовой скорости света.",
-        "en": "The geometry of Cherenkov radiation from a charged particle moving in a medium faster than the phase velocity of light."
+        "ru": "Построение Гюйгенса для заряда, летящего в среде с показателем преломления n = 1,33 (вода). Пока v < c/n, волны от последовательных положений вложены друг в друга и света нет. При v > c/n у волн появляется общая огибающая, конус; свет идёт перпендикулярно ей под углом θ к траектории, cos θ = 1/(nβ). Кольцо на детекторе имеет радиус L tg θ. Порог в воде: 0,26 МэВ для электрона и 55 МэВ для мюона, предельный угол 41,2°.",
+        "en": "Huygens construction for a charge moving in a medium of refractive index n = 1.33 (water). While v < c/n the wavelets of successive positions lie inside one another and there is no light. For v > c/n the wavelets acquire a common envelope, a cone; light travels perpendicular to it at the angle θ to the track, cos θ = 1/(nβ). The ring on the detector has radius L tan θ. Threshold in water: 0.26 MeV for an electron and 55 MeV for a muon, the limiting angle is 41.2°."
       },
       "book": {
         "volume": 1,
@@ -750,14 +755,18 @@
         }
       },
       "credit": {
-        "author": "Д. В. Наумов",
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_cone"
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_radiation"
       },
       "media": {
-        "site_asset": "assets/animations/dvnanima/neutrino-particles-cherenkov-cone-cylinder.mp4",
-        "poster_time": 4.0
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4",
+        "poster_time": 24.0
       },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/cherenkov-radiation"
     },
     {
       "id": "0032",

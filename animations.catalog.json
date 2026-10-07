@@ -214,6 +214,20 @@
           ]
         },
         {
+          "id": "pmt-multiplication",
+          "title": "Умножение электронов в ФЭУ",
+          "source_dir": "pmt_multiplication",
+          "description": "Один фотоэлектрон превращается в лавину: каждый динод выбивает в среднем δ = 4 вторичных электрона, десять динодов дают усиление ≈ 10⁶; затем три вспышки сцинтиллятора и амплитуда импульса, в среднем пропорциональная числу фотоэлектронов.",
+          "videos": [
+            {
+              "id": "avalanche",
+              "label": "Лавина электронов и импульс на аноде",
+              "path": "pmt_multiplication/media/pmt_multiplication.mp4",
+              "poster_time": 15
+            }
+          ]
+        },
+        {
           "id": "mac-e-filter",
           "title": "Электроны в магнитном поле и MAC-E-фильтр KATRIN",
           "source_dir": "mac-e-filter",
@@ -259,6 +273,20 @@
               "id": "cylinder",
               "label": "Конус в цилиндре",
               "path": "cherenkov_cone/cherenkov_cylinder.mp4"
+            }
+          ]
+        },
+        {
+          "id": "cherenkov-radiation",
+          "title": "Излучение Вавилова — Черенкова",
+          "source_dir": "cherenkov_radiation",
+          "description": "Построение Гюйгенса: при v < c/n волны вложены друг в друга, при v > c/n у них появляется общая огибающая — конус; cos θ = 1/(nβ), кольцо на детекторе, порог для электрона и мюона в воде.",
+          "videos": [
+            {
+              "id": "huygens",
+              "label": "Конус из волн Гюйгенса",
+              "path": "cherenkov_radiation/media/cherenkov_radiation.mp4",
+              "poster_time": 24
             }
           ]
         },
@@ -361,6 +389,20 @@
               "id": "two",
               "label": "Два пакета",
               "path": "fields/wavepackets_free/media/videos/scene_02_two_packets/1080p60/TwoFreeWavePackets.mp4"
+            }
+          ]
+        },
+        {
+          "id": "schrodinger-packet",
+          "title": "Свободный гауссов пакет: расплывание",
+          "source_dir": "free_wavepacket",
+          "description": "Точная эволюция гауссова пакета свободной частицы (ħ = m = 1): центр движется с групповой скоростью, ширина растёт как σ₀√(1 + (t/2σ₀²)²), а |ψ̃(p)|² не меняется; узкий пакет расплывается быстрее широкого.",
+          "videos": [
+            {
+              "id": "spreading",
+              "label": "Движение и расплывание пакета",
+              "path": "free_wavepacket/media/free_wavepacket.mp4",
+              "poster_time": 8
             }
           ]
         },
