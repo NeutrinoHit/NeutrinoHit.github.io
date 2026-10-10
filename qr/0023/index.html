@@ -1,16 +1,20 @@
 <!doctype html>
-<html lang="ru" data-lang="ru" data-title-ru="Отталкивание: интерференция волновых пакетов — NeutrinoHit" data-title-en="Repulsion: interference of wave packets — NeutrinoHit">
+<html lang="ru" data-lang="ru" data-title-ru="Отталкивание: интерференция волн — NeutrinoHit" data-title-en="Repulsion: interference of waves — NeutrinoHit">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Отталкивание: интерференция волновых пакетов — NeutrinoHit</title>
-<meta name="description" content="Два волновых пакета скалярной электродинамики с зарядами одного знака (двумерный срез). Слева — |φ|², справа — потенциал A₀. Взаимодействие учтено эйкональной фазой; пакеты отталкиваются.">
+<title>Отталкивание: интерференция волн — NeutrinoHit</title>
+<meta name="description" content="Два волновых пакета с зарядами одного знака. У каждого пакета есть поле: потенциал $A_0$ (линии уровня). Поле одного пакета добавляет к волне другого фазу $\chi$, зависящую от точки, и траектории изгибаются друг от друга (пунктир — свободное движение). Градиент фазы $\Delta\mathbf{P}=\langle\nabla\chi\rangle$ сдвигает распределение по импульсам от другого пакета: свободная волна и волна взаимодействия складываются, и гребни сгущаются от партнёра. Это отталкивание.">
 <link rel="canonical" href="https://neutrinohit.github.io/qr/0023/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Отталкивание: интерференция волновых пакетов">
-<meta property="og:description" content="Два волновых пакета скалярной электродинамики с зарядами одного знака (двумерный срез). Слева — |φ|², справа — потенциал A₀. Взаимодействие учтено эйкональной фазой; пакеты отталкиваются.">
+<meta property="og:title" content="Отталкивание: интерференция волн">
+<meta property="og:description" content="Два волновых пакета с зарядами одного знака. У каждого пакета есть поле: потенциал $A_0$ (линии уровня). Поле одного пакета добавляет к волне другого фазу $\chi$, зависящую от точки, и траектории изгибаются друг от друга (пунктир — свободное движение). Градиент фазы $\Delta\mathbf{P}=\langle\nabla\chi\rangle$ сдвигает распределение по импульсам от другого пакета: свободная волна и волна взаимодействия складываются, и гребни сгущаются от партнёра. Это отталкивание.">
 <meta property="og:url" content="https://neutrinohit.github.io/qr/0023/">
 <meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/0023.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+ onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false})"></script>
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
 if(l!=='ru'&&l!=='en'){l=((navigator.language||'ru').toLowerCase().indexOf('ru')===0)?'ru':'en'}
 d.setAttribute('data-lang',l);d.lang=l})();</script>
@@ -53,11 +57,11 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <body>
 <div class="wrap">
 <div class="top">
-<a href="../"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
+<a href="/qr/qft/"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
-<h1><span lang="ru">Отталкивание: интерференция волновых пакетов</span><span lang="en">Repulsion: interference of wave packets</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0023.jpg">
+<h1><span lang="ru">Отталкивание: интерференция волн</span><span lang="en">Repulsion: interference of waves</span></h1>
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0023.jpg" data-src-ru="../../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.mp4" data-src-en="../../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion-en.mp4" data-poster-ru="../../assets/book-animations/0023.jpg" data-poster-en="../../assets/book-animations/0023_en.jpg">
 <source src="../../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
@@ -68,14 +72,15 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
 <a class="btn" id="dl" href="../../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Два волновых пакета скалярной электродинамики с зарядами одного знака (двумерный срез). Слева — |φ|², справа — потенциал A₀. Взаимодействие учтено эйкональной фазой; пакеты отталкиваются.</span><span lang="en">Two wave packets of scalar electrodynamics with charges of the same sign (a two-dimensional slice). Left: |φ|²; right: the potential A₀. The interaction is encoded in an eikonal phase; the packets repel each other.</span></p>
+<p class="caption"><span lang="ru">Два волновых пакета с зарядами одного знака. У каждого пакета есть поле: потенциал $A_0$ (линии уровня). Поле одного пакета добавляет к волне другого фазу $\chi$, зависящую от точки, и траектории изгибаются друг от друга (пунктир — свободное движение). Градиент фазы $\Delta\mathbf{P}=\langle\nabla\chi\rangle$ сдвигает распределение по импульсам от другого пакета: свободная волна и волна взаимодействия складываются, и гребни сгущаются от партнёра. Это отталкивание.</span><span lang="en">Two wave packets with charges of the same sign. Each packet has a field: the potential $A_0$ (contours). The field of one packet adds to the wave of the other a phase $\chi$ that depends on the point, and the trajectories bend away from each other (dashed: the free motion). The gradient of the phase, $\Delta\mathbf{P}=\langle\nabla\chi\rangle$, shifts the momentum distribution away from the other packet: the free wave and the wave of the interaction add up, and the crests crowd away from the partner. This is the repulsion.</span></p>
 <div class="card"><dl class="meta">
 <dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 1, гл. 19 «Притяжение и отталкивание»</span><span lang="en">Volume 1, Chapter 19 “Attraction and Repulsion”</span></dd>
-<dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd>Д. В. Наумов</dd>
-<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/fields/scalar_qed" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/attraction_repulsion" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">Модель скалярной КЭД: аналитические гауссовы пакеты, потенциал $A_0$ пакетов и эйкональная фаза $\chi=-sq^2\theta$ взаимодействия; центры пакетов следуют градиенту фазы. Параметры: $m=6$, $q=0{,}88$, $\sigma=0{,}38$, заряды $\pm4{,}2$ (в единицах модели).</span><span lang="en">Scalar-QED model: analytic Gaussian packets, the potential $A_0$ of the packets and the eikonal phase $\chi=-sq^2\theta$ of the interaction; the centres of the packets follow the gradient of the phase. Parameters: $m=6$, $q=0.88$, $\sigma=0.38$, charges $\pm4.2$ (model units).</span></dd>
 <dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-scalar-qed"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
-<nav class="nav"><a href="../0022/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Притяжение: интерференция волновых пакетов</span><span lang="en">Attraction: interference of wave packets</span></a><a href="../0038/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Интеграл по траекториям</span><span lang="en">The path integral</span> →</a></nav>
+<nav class="nav"><a href="../0022/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Притяжение: интерференция волн</span><span lang="en">Attraction: interference of waves</span></a><a href="../0038/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Интеграл по траекториям</span><span lang="en">The path integral</span> →</a></nav>
 <footer>
 <p><span lang="ru">Анимация к книге</span><span lang="en">Animation for the book</span> <a href="/ru/materials.html" lang="ru">«Квантовая теория поля для экспериментаторов и не только»</a><a href="/en/materials.html" lang="en">“Quantum Field Theory for Experimentalists and Beyond”</a>, <span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span> · <a href="/">NeutrinoHit</a></p>
 </footer>
@@ -91,6 +96,14 @@ document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener
 if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
 var bs=document.querySelectorAll('[data-rate]');bs.forEach(function(b){b.addEventListener('click',function(){
 v.playbackRate=parseFloat(b.getAttribute('data-rate'));bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
-if(v.paused)v.play().catch(function(){})})})})();</script>
+if(v.paused)v.play().catch(function(){})})})})();
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();</script>
 </body>
 </html>

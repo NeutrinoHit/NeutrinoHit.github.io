@@ -1,0 +1,19 @@
+{
+  "base_url": "https://neutrinohit.github.io",
+  "qr_path": "/qr/neutrino-physics/",
+  "book": {
+    "title": {
+      "ru": "Введение в физику нейтрино",
+      "en": "Introduction to Neutrino Physics"
+    },
+    "author": {
+      "ru": "Д. В. Наумов",
+      "en": "D. V. Naumov"
+    },
+    "page": {
+      "ru": "/ru/materials.html",
+      "en": "/en/materials.html"
+    }
+  },
+  "items": []
+}

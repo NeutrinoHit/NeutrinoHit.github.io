@@ -1,0 +1,91 @@
+{
+  "base_url": "https://neutrinohit.github.io",
+  "site": {
+    "title": {
+      "ru": "NeutrinoHit",
+      "en": "NeutrinoHit"
+    },
+    "author": {
+      "ru": "Д. В. Наумов",
+      "en": "D. V. Naumov"
+    },
+    "page": {
+      "ru": "/",
+      "en": "/"
+    }
+  },
+  "books": [
+    {
+      "slug": "qft",
+      "title": {
+        "ru": "Квантовая теория поля для экспериментаторов и не только",
+        "en": "Quantum Field Theory for Experimentalists and Beyond"
+      },
+      "catalog": "book-animations.catalog.json",
+      "qr_path": "/qr/",
+      "index_path": "/qr/qft/",
+      "asset_subdir": "book-animations",
+      "status": "published"
+    },
+    {
+      "slug": "neutrino-physics",
+      "title": {
+        "ru": "Введение в физику нейтрино",
+        "en": "Introduction to Neutrino Physics"
+      },
+      "catalog": "books/neutrino-physics.catalog.json",
+      "qr_path": "/qr/neutrino-physics/",
+      "index_path": "/qr/neutrino-physics/",
+      "asset_subdir": "book-animations/neutrino-physics",
+      "status": "planned"
+    },
+    {
+      "slug": "statistics",
+      "title": {
+        "ru": "Статистический анализ данных",
+        "en": "Statistical Data Analysis"
+      },
+      "catalog": "books/statistics.catalog.json",
+      "qr_path": "/qr/statistics/",
+      "index_path": "/qr/statistics/",
+      "asset_subdir": "book-animations/statistics",
+      "status": "planned"
+    },
+    {
+      "slug": "particle-physics",
+      "title": {
+        "ru": "Физика элементарных частиц",
+        "en": "Elementary Particle Physics"
+      },
+      "catalog": "books/particle-physics.catalog.json",
+      "qr_path": "/qr/particle-physics/",
+      "index_path": "/qr/particle-physics/",
+      "asset_subdir": "book-animations/particle-physics",
+      "status": "planned"
+    },
+    {
+      "slug": "gravity",
+      "title": {
+        "ru": "Гравитация",
+        "en": "Gravity"
+      },
+      "catalog": "books/gravity.catalog.json",
+      "qr_path": "/qr/gravity/",
+      "index_path": "/qr/gravity/",
+      "asset_subdir": "book-animations/gravity",
+      "status": "planned"
+    },
+    {
+      "slug": "numerical-methods",
+      "title": {
+        "ru": "Численные методы",
+        "en": "Numerical Methods"
+      },
+      "catalog": "books/numerical-methods.catalog.json",
+      "qr_path": "/qr/numerical-methods/",
+      "index_path": "/qr/numerical-methods/",
+      "asset_subdir": "book-animations/numerical-methods",
+      "status": "planned"
+    }
+  ]
+}

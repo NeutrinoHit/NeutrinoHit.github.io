@@ -471,12 +471,12 @@
       "qr_file": "ScalarQED_Attraction.pdf",
       "hosting": "self",
       "title": {
-        "ru": "Притяжение: интерференция волновых пакетов",
-        "en": "Attraction: interference of wave packets"
+        "ru": "Притяжение: интерференция волн",
+        "en": "Attraction: interference of waves"
       },
       "caption": {
-        "ru": "Два волновых пакета скалярной электродинамики с зарядами противоположных знаков (двумерный срез). Слева — |φ|², справа — потенциал A₀. Взаимодействие учтено эйкональной фазой; пакеты притягиваются.",
-        "en": "Two wave packets of scalar electrodynamics with charges of opposite sign (a two-dimensional slice). Left: |φ|²; right: the potential A₀. The interaction is encoded in an eikonal phase; the packets attract each other."
+        "ru": "Два волновых пакета с зарядами противоположных знаков. У каждого пакета есть поле: потенциал $A_0$ (линии уровня). Поле одного пакета добавляет к волне другого фазу $\\chi$, зависящую от точки, и траектории изгибаются навстречу друг другу (пунктир — свободное движение). Градиент фазы $\\Delta\\mathbf{P}=\\langle\\nabla\\chi\\rangle$ сдвигает распределение по импульсам к другому пакету: свободная волна и волна взаимодействия складываются, и гребни сгущаются в сторону партнёра. Это притяжение.",
+        "en": "Two wave packets with charges of opposite signs. Each packet has a field: the potential $A_0$ (contours). The field of one packet adds to the wave of the other a phase $\\chi$ that depends on the point, and the trajectories bend toward each other (dashed: the free motion). The gradient of the phase, $\\Delta\\mathbf{P}=\\langle\\nabla\\chi\\rangle$, shifts the momentum distribution toward the other packet: the free wave and the wave of the interaction add up, and the crests crowd toward the partner. This is the attraction."
       },
       "book": {
         "volume": 1,
@@ -487,12 +487,22 @@
         }
       },
       "credit": {
-        "author": "Д. В. Наумов",
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/fields/scalar_qed"
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/attraction_repulsion",
+        "note": {
+          "ru": "Модель скалярной КЭД: аналитические гауссовы пакеты, потенциал $A_0$ пакетов и эйкональная фаза $\\chi=-sq^2\\theta$ взаимодействия; центры пакетов следуют градиенту фазы. Параметры: $m=6$, $q=0{,}88$, $\\sigma=0{,}38$, заряды $\\pm4{,}2$ (в единицах модели).",
+          "en": "Scalar-QED model: analytic Gaussian packets, the potential $A_0$ of the packets and the eikonal phase $\\chi=-sq^2\\theta$ of the interaction; the centres of the packets follow the gradient of the phase. Parameters: $m=6$, $q=0.88$, $\\sigma=0.38$, charges $\\pm4.2$ (model units)."
+        }
       },
       "media": {
-        "site_asset": "assets/animations/dvnanima/fields-waves-scalar-qed-attraction.mp4",
-        "poster_time": 1.2
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-scalar-qed-attraction.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-scalar-qed-attraction-en.mp4"
+        },
+        "poster_time": 40.0
       },
       "legacy_codes": [],
       "gallery": "fields-waves/scalar-qed"
@@ -503,12 +513,12 @@
       "qr_file": "ScalarQED_Repulsion.pdf",
       "hosting": "self",
       "title": {
-        "ru": "Отталкивание: интерференция волновых пакетов",
-        "en": "Repulsion: interference of wave packets"
+        "ru": "Отталкивание: интерференция волн",
+        "en": "Repulsion: interference of waves"
       },
       "caption": {
-        "ru": "Два волновых пакета скалярной электродинамики с зарядами одного знака (двумерный срез). Слева — |φ|², справа — потенциал A₀. Взаимодействие учтено эйкональной фазой; пакеты отталкиваются.",
-        "en": "Two wave packets of scalar electrodynamics with charges of the same sign (a two-dimensional slice). Left: |φ|²; right: the potential A₀. The interaction is encoded in an eikonal phase; the packets repel each other."
+        "ru": "Два волновых пакета с зарядами одного знака. У каждого пакета есть поле: потенциал $A_0$ (линии уровня). Поле одного пакета добавляет к волне другого фазу $\\chi$, зависящую от точки, и траектории изгибаются друг от друга (пунктир — свободное движение). Градиент фазы $\\Delta\\mathbf{P}=\\langle\\nabla\\chi\\rangle$ сдвигает распределение по импульсам от другого пакета: свободная волна и волна взаимодействия складываются, и гребни сгущаются от партнёра. Это отталкивание.",
+        "en": "Two wave packets with charges of the same sign. Each packet has a field: the potential $A_0$ (contours). The field of one packet adds to the wave of the other a phase $\\chi$ that depends on the point, and the trajectories bend away from each other (dashed: the free motion). The gradient of the phase, $\\Delta\\mathbf{P}=\\langle\\nabla\\chi\\rangle$, shifts the momentum distribution away from the other packet: the free wave and the wave of the interaction add up, and the crests crowd away from the partner. This is the repulsion."
       },
       "book": {
         "volume": 1,
@@ -519,12 +529,22 @@
         }
       },
       "credit": {
-        "author": "Д. В. Наумов",
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/fields/scalar_qed"
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/attraction_repulsion",
+        "note": {
+          "ru": "Модель скалярной КЭД: аналитические гауссовы пакеты, потенциал $A_0$ пакетов и эйкональная фаза $\\chi=-sq^2\\theta$ взаимодействия; центры пакетов следуют градиенту фазы. Параметры: $m=6$, $q=0{,}88$, $\\sigma=0{,}38$, заряды $\\pm4{,}2$ (в единицах модели).",
+          "en": "Scalar-QED model: analytic Gaussian packets, the potential $A_0$ of the packets and the eikonal phase $\\chi=-sq^2\\theta$ of the interaction; the centres of the packets follow the gradient of the phase. Parameters: $m=6$, $q=0.88$, $\\sigma=0.38$, charges $\\pm4.2$ (model units)."
+        }
       },
       "media": {
-        "site_asset": "assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.mp4",
-        "poster_time": 1.2
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-scalar-qed-repulsion-en.mp4"
+        },
+        "poster_time": 40.0
       },
       "legacy_codes": [],
       "gallery": "fields-waves/scalar-qed"
@@ -723,8 +743,8 @@
         "en": "A cosmic-ray air shower"
       },
       "caption": {
-        "ru": "Протон космических лучей с энергией E0 = 10^15 эВ входит в атмосферу. Сначала правило Гайтлера для одного фотона: после глубины d = X0 ln 2 частица делится на две с половинной энергией, N = 2^n, и размножение останавливается при E = Ec (Nmax = E0/Ec на глубине Xmax = X0 ln(E0/Ec)). Затем метод Монте-Карло для протона: пионы, π0 → γγ запускают электромагнитные каскады, заряженные пионы с E ≤ 20 ГэВ распадаются на мюоны и нейтрино; на графике растёт профиль N(X), отмечены оценки Гайтлера. В конце — матрица детекторов на земле, плотность e± и μ в зависимости от расстояния до оси и свет ливня (флуоресценция и черенковское излучение). Модель игрушечная, траектории — случайная выборка, горизонтальный масштаб растянут.",
-        "en": "A cosmic-ray proton with E0 = 10^15 eV enters the atmosphere. First Heitler's rule for a single photon: after the depth d = X0 ln 2 a particle splits in two with half the energy, N = 2^n, and the multiplication stops at E = Ec (Nmax = E0/Ec at Xmax = X0 ln(E0/Ec)). Then a Monte Carlo of the proton shower: pions, π0 → γγ start electromagnetic cascades, charged pions with E ≤ 20 GeV decay into muons and neutrinos; the profile N(X) builds up with the Heitler estimates marked. Finally a detector array on the ground, the density of e± and μ against the distance from the axis, and the light of the shower (fluorescence and Cherenkov radiation). A toy model; the tracks are a random sample and the horizontal scale is exaggerated."
+        "ru": "Пионы и мюоны первых десятилетий были найдены в космических лучах. Анимация показывает, как один протон с энергией $10^{15}$ эВ создаёт в атмосфере широкий ливень: сначала правило Гайтлера для одного фотона ($N=2^n$, остановка при $E=E_c$), затем ливень от протона методом Монте-Карло, где $\\pi^0\\to\\gamma\\gamma$ питает электромагнитный каскад, а распады $\\pi^\\pm$ дают мюоны и нейтрино. Справа растёт профиль $N(X)$ с оценками Гайтлера $N_{\\max}=E_0/E_c$ и $X_{\\max}=X_0\\ln(E_0/E_c)$; в конце — детекторы на земле и свет ливня. Модель игрушечная.",
+        "en": "The pions and muons of the first decades were found in cosmic rays. The animation shows how one proton of energy $10^{15}$ eV makes an extensive air shower: first Heitler's rule for a single photon ($N=2^n$, stop at $E=E_c$), then a Monte Carlo shower of a proton, in which $\\pi^0\\to\\gamma\\gamma$ feeds the electromagnetic cascade and the decays of $\\pi^\\pm$ give muons and neutrinos. On the right the profile $N(X)$ grows with Heitler's estimates $N_{\\max}=E_0/E_c$ and $X_{\\max}=X_0\\ln(E_0/E_c)$; at the end, the detectors on the ground and the light of the shower. A toy model."
       },
       "book": {
         "volume": 1,
@@ -1111,8 +1131,8 @@
         "en": "The Meissner effect and the photon mass"
       },
       "caption": {
-        "ru": "Конденсат с |φ|² = v²/2 даёт калибровочному полю массу m_A = ev. Сначала статика: диск конденсата в однородном магнитном поле; по мере роста v силовые линии вытесняются (в каждом кадре показано точное равновесное поле), вдоль разреза поле спадает как exp(−x/λ_L), λ_L = 1/m_A, а в слое течёт экранирующий ток j = −m_A²A. Затем динамика: уравнение ∂_t²A − ∂_x²A + m_A²(x)A = 0 решается численно. Пакет с ω < m_A отражается и оставляет затухающий хвост exp(−κx), κ = √(m_A² − ω²); пакет с ω > m_A проходит с k = √(ω² − m_A²) и групповой скоростью v_g = k/ω < 1. Наконец, дисперсия ω² = k² + m_A² и поляризации: у безмассового фотона две, у массивного три (продольная — голдстоуновская мода): 2 + 2 = 1 + 3. Конденсат считается заданным фоном.",
-        "en": "A condensate with |φ|² = v²/2 gives the gauge field the mass m_A = ev. First the static picture: a disc of the condensate in a uniform magnetic field; as v grows the field lines are pushed out (each frame shows the exact equilibrium field), along a cut the field decays as exp(−x/λ_L), λ_L = 1/m_A, and a screening current j = −m_A²A flows in the layer. Then the dynamics: the equation ∂_t²A − ∂_x²A + m_A²(x)A = 0 is solved numerically. A packet with ω < m_A is reflected and leaves an evanescent tail exp(−κx), κ = √(m_A² − ω²); a packet with ω > m_A is transmitted with k = √(ω² − m_A²) and group velocity v_g = k/ω < 1. Finally the dispersion ω² = k² + m_A² and the polarizations: a massless photon has two, a massive one three (the longitudinal one is the Goldstone mode): 2 + 2 = 1 + 3. The condensate is a fixed background."
+        "ru": "Диск конденсата вытесняет магнитное поле (эффект Мейснера): поле спадает как $e^{-x/\\lambda_L}$, $\\lambda_L=1/m_A$. Затем волновой пакет подходит к границе конденсата: при $\\omega<m_A$ он отражается и оставляет затухающий хвост, при $\\omega>m_A$ проходит с групповой скоростью $v_g=k/\\omega<1$. В конце — дисперсия $\\omega^2=k^2+m_A^2$ и счёт поляризаций $2+2=1+3$. Конденсат считается заданным фоном.",
+        "en": "A disc of condensate pushes out the magnetic field (the Meissner effect): the field decays as $e^{-x/\\lambda_L}$, $\\lambda_L=1/m_A$. Then a wave packet approaches the boundary of the condensate: for $\\omega<m_A$ it is reflected and leaves an evanescent tail, for $\\omega>m_A$ it passes with the group velocity $v_g=k/\\omega<1$. At the end: the dispersion $\\omega^2=k^2+m_A^2$ and the counting of polarizations $2+2=1+3$. The condensate is treated as a fixed background."
       },
       "book": {
         "volume": 2,
@@ -1153,8 +1173,8 @@
         "en": "Chiral waves and the fermion mass"
       },
       "caption": {
-        "ru": "Без массы уравнение Дирака в (1+1) измерениях распадается на две независимые волны: ψ_R бежит вправо, ψ_L влево, обе со скоростью света, и киральность совпадает с направлением движения. Хиггсовский конденсат v связывает их, m = fv/√2: ψ_R становится источником ψ_L и наоборот, киральность ⟨γ₅⟩ колеблется с частотой 2E = 2√(p² + m²), а пакет замедляется до v = p/E < c. Для покоящейся волны переворот идёт с частотой 2m, равной щели между ветвями E = ±m, как у двух связанных маятников; чем тяжелее фермион, тем быстрее переворот и тем медленнее он движется. Массивной частице нужны обе киральности: массовый член запрещён SU(2)-симметрией, а юкавский член с хиггсовским дублетом даёт m = fv/√2. Включение конденсата, пружинки и потенциал Хиггса схематичны.",
-        "en": "Without mass the Dirac equation in 1+1 dimensions splits into two independent waves: ψ_R runs to the right and ψ_L to the left, both at the speed of light, and chirality coincides with the direction of motion. The Higgs condensate v couples them, m = fv/√2: ψ_R becomes a source of ψ_L and back, the chirality ⟨γ₅⟩ oscillates with the frequency 2E = 2√(p² + m²), and the packet slows down to v = p/E < c. For a wave at rest the flip frequency is 2m, the gap between the branches E = ±m, as for two coupled pendulums; the heavier the fermion, the faster it flips and the slower it moves. A massive particle needs both chiralities: the mass term is forbidden by SU(2) symmetry, and the Yukawa term with the Higgs doublet gives m = fv/√2. The switching on of the condensate, the springs and the Higgs potential are schematic."
+        "ru": "В $(1+1)$ измерениях безмассовое уравнение Дирака даёт две независимые волны: $\\psi_R$ бежит вправо, $\\psi_L$ — влево. Массовый член связывает их, $i(\\partial_t\\pm\\partial_x)\\psi=m\\psi$; киральность $\\langle\\gamma_5\\rangle$ колеблется с частотой $2E$, а пакет замедляется до $v=p/E<1$. В конце показано, почему массовый член запрещён $SU(2)$-симметрией и как его даёт юкавская связь с хиггсовским конденсатом, $m=fv/\\sqrt{2}$.",
+        "en": "In $(1+1)$ dimensions the massless Dirac equation gives two independent waves: $\\psi_R$ runs to the right, $\\psi_L$ to the left. The mass term couples them, $i(\\partial_t\\pm\\partial_x)\\psi=m\\psi$; the chirality $\\langle\\gamma_5\\rangle$ oscillates with the frequency $2E$, and the packet slows down to $v=p/E<1$. At the end: why the mass term is forbidden by $SU(2)$ symmetry and how the Yukawa coupling to the Higgs condensate gives it, $m=fv/\\sqrt{2}$."
       },
       "book": {
         "volume": 2,
@@ -1195,8 +1215,8 @@
         "en": "Asymmetry in Z-boson production and decay"
       },
       "caption": {
-        "ru": "Z-бозон взаимодействует с левыми и правыми фермионами с разной силой: g_L = 2t₃ − 2q sin²θ_W, g_R = −2q sin²θ_W. Поэтому в e⁺e⁻ → Z → f f̄ каналы e_L⁻e_R⁺ и e_R⁻e_L⁺ входят с весами (g_a^e g_b^f)², а фермион летит вперёд как (1 + cosθ)² при равных киральностях и назад как (1 − cosθ)² при разных. Сумма даёт dN/dcosθ ∝ 1 + cos²θ + (8/3)A_FB cosθ, где A_FB = (3/4)A_LR^e A_LR^f; для мюонов 0,016, для b-кварков 0,103 (древесный уровень, sin²θ_W = 0,2316). Ролик показывает четыре спиральных канала, слайдер sin²θ_W от 1/4 (асимметрии нет), события Монте-Карло с ошибкой A_FB = (N_F − N_B)/(N_F + N_B) и зависимость A_FB(√s) от 50 до 150 ГэВ с интерференцией γ и Z.",
-        "en": "The Z couples to left- and right-handed fermions with different strengths: g_L = 2t₃ − 2q sin²θ_W, g_R = −2q sin²θ_W. In e⁺e⁻ → Z → f f̄ the channels e_L⁻e_R⁺ and e_R⁻e_L⁺ therefore enter with weights (g_a^e g_b^f)², and the fermion goes forward as (1 + cosθ)² for equal chiralities and backward as (1 − cosθ)² for different ones. The sum is dN/dcosθ ∝ 1 + cos²θ + (8/3)A_FB cosθ with A_FB = (3/4)A_LR^e A_LR^f: 0.016 for muons and 0.103 for b quarks (tree level, sin²θ_W = 0.2316). The film shows the four helicity channels, a slider of sin²θ_W from 1/4 (no asymmetry), Monte-Carlo events with the error of A_FB = (N_F − N_B)/(N_F + N_B), and A_FB(√s) from 50 to 150 GeV with γ–Z interference."
+        "ru": "Четыре спиральных канала $e^+e^-\\to Z\\to f\\bar f$ с весами $(g_a^eg_b^f)^2$ и угловыми распределениями $(1\\pm\\cos\\theta)^2$, их сумма, асимметрия «вперёд – назад» $A_{FB}=\\frac34A_{LR}^eA_{LR}^f$ при $\\sin^2\\theta_W=0{,}2316$, события Монте-Карло и зависимость $A_{FB}(\\sqrt{s})$ с интерференцией $\\gamma$ и $Z$.",
+        "en": "The four helicity channels of $e^+e^-\\to Z\\to f\\bar f$ with the weights $(g_a^eg_b^f)^2$ and the angular distributions $(1\\pm\\cos\\theta)^2$, their sum, the forward–backward asymmetry $A_{FB}=\\frac34A_{LR}^eA_{LR}^f$ at $\\sin^2\\theta_W=0.2316$, Monte-Carlo events and the dependence $A_{FB}(\\sqrt{s})$ with $\\gamma$–$Z$ interference."
       },
       "book": {
         "volume": 2,
@@ -1237,8 +1257,8 @@
         "en": "Spin and orbital structure of the f f̄ pair in Higgs decays"
       },
       "caption": {
-        "ru": "Бозон Хиггса (0⁺) распадается на пару f f̄ в P-волне (³P₀). Фильм строит волновую функцию ψ(r) относительной координаты r = x₁ − x₂ как сумму плоских волн e^{ipn·r} пар, разлетающихся «спиной к спине» во всех направлениях n: получается вихрь ψ ∝ j₁(pr), L = 1. Если зафиксировать проекции обоих спинов на общую ось, пара оказывается в состоянии с определённой проекцией m = −(ρ₁+ρ₂)/2 (J = 0): m = 0 при антипараллельных спинах (две доли вдоль оси) и m = ∓1 при параллельных (кольцо, фаза делает один оборот); на оси остаются только антипараллельные спины, в экваториальной плоскости только параллельные: |ψ|² ∝ j₁²·½[1 + ξ₁·ξ₂ − 2(ξ₁·r̂)(ξ₂·r̂)]. Псевдоскаляр (0⁻) даёт чистую S-волну, синглет, без зависимости от r̂. В смеси скаляра и псевдоскаляра интерференция ∝ ε₁ε₂ j₀j₁ ξ₁·(r̂×ξ₂) наклоняет облако, а обмен спинами f ↔ f̄ меняет наклон (CP-нечётность). Детектор проецирует пару на импульсные состояния, поэтому фаза e^{imφ} не видна: остаются спин-угловые корреляции. Цвет — фаза ψ, поверхности — постоянное |ψ|²; чистая модель, β = 0,996.",
-        "en": "A scalar Higgs boson (0⁺) decays into an f f̄ pair in the P-wave (³P₀). The film builds the wave function ψ(r) of the relative coordinate r = x₁ − x₂ as a sum of the plane waves e^{ipn·r} of pairs flying apart back to back in all directions n: the result is a vortex ψ ∝ j₁(pr), L = 1. Fixing the spin projections of both particles on a common axis puts the pair into a state of definite m = −(ρ₁+ρ₂)/2 (J = 0): m = 0 for antiparallel spins (two lobes along the axis) and m = ∓1 for parallel ones (a ring, the phase winds once); on the axis only antiparallel spins survive, in the equatorial plane only parallel ones: |ψ|² ∝ j₁²·½[1 + ξ₁·ξ₂ − 2(ξ₁·r̂)(ξ₂·r̂)]. A pseudoscalar (0⁻) gives a pure S-wave, the singlet, with no dependence on r̂. In a scalar-pseudoscalar mixture the interference ∝ ε₁ε₂ j₀j₁ ξ₁·(r̂×ξ₂) makes the cloud lean, and exchanging the spins of f and f̄ reverses the lean (CP-odd). A detector projects the pair on momentum states, so the phase e^{imφ} is invisible and only spin-angle correlations survive. Colour is the phase of ψ, surfaces are |ψ|² = const; β = 0.996 (a b quark), the mixing ε₂/ε₁ = 1 is illustrative."
+        "ru": "Пара $f\\bar f$ как волна относительной координаты $\\mathbf{r}$: скалярный распад $H\\to f\\bar f$ даёт P-волну (вихрь $\\psi\\propto j_1(pr)$), и выбор проекций спинов фиксирует орбитальную проекцию $m=-(\\rho_1+\\rho_2)/2$; псевдоскаляр даёт чистую S-волну; интерференция скаляра и псевдоскаляра наклоняет облако ($CP$-нечётность). Цвет — фаза $\\psi$. Детектор проецирует пару на импульсные состояния, поэтому остаются лишь спин-угловые корреляции.",
+        "en": "The $f\\bar f$ pair as a wave of the relative coordinate $\\mathbf{r}$: the scalar decay $H\\to f\\bar f$ gives a P-wave (a vortex $\\psi\\propto j_1(pr)$), and the choice of the spin projections fixes the orbital projection $m=-(\\rho_1+\\rho_2)/2$; a pseudoscalar gives a pure S-wave; the interference of the scalar and the pseudoscalar makes the cloud lean ($CP$ oddness). Colour is the phase of $\\psi$. A detector projects the pair on momentum states, so only spin-angle correlations survive."
       },
       "book": {
         "volume": 2,
@@ -1279,8 +1299,8 @@
         "en": "Tunnelling: a point body and an extended body"
       },
       "caption": {
-        "ru": "Шар с E < V не переваливает холм, а поезд из N вагонов с той же скоростью каждого вагона проходит: барьер всего тела max U(S) ниже, чем NV, а энергия сохраняется в каждый момент. Волна тоже протяжённая: на цепочке масс с пружинками к полу только в отрезке толщины a волна частоты ω < Ω не бежит в отрезке, а затухает как exp(−κx), κ = √(Ω² − ω²)/c, и часть волны выходит с другой стороны, T = [1 + sinh²(κa)/(4(ω/Ω)²(1 − ω²/Ω²))]⁻¹ ≈ exp(−2κa); поток падающей волны равен сумме потоков отражённой и прошедшей. Для волны материи то же уравнение, ω² → E, Ω² → V, κ = √(2m(V − E))/ħ, поэтому T падает экспоненциально с ростом √m: электрон туннелирует через барьер в доли нанометра, тяжёлые тела нет. Классическая цепочка (без квантов и ħ) и квантовая частица подчиняются одному уравнению: туннелирование есть свойство волн.",
-        "en": "A ball with E < V does not climb the hill, but a train of N cars with the same speed of every car passes: the barrier of the whole body max U(S) is lower than NV, and the energy is conserved at every moment. A wave is extended too: on a chain of masses with springs to the floor only in a segment of thickness a, a wave of frequency ω < Ω does not run in the segment but decays as exp(−κx), κ = √(Ω² − ω²)/c, and a part of the wave comes out on the other side, T = [1 + sinh²(κa)/(4(ω/Ω)²(1 − ω²/Ω²))]⁻¹ ≈ exp(−2κa); the flux of the incident wave equals the sum of the reflected and the transmitted fluxes. For a matter wave the equation is the same, ω² → E, Ω² → V, κ = √(2m(V − E))/ħ, so T falls exponentially with √m: an electron tunnels through a barrier of a fraction of a nanometre, heavy bodies do not. A classical chain (no quanta, no ħ) and a quantum particle obey the same equation: tunnelling is a property of waves."
+        "ru": "Шар с $E<V$ не переваливает холм, а поезд из $N$ вагонов с той же скоростью каждого вагона проходит: его барьер $\\max U(S)$ ниже $NV$. Затем классическая волна на цепочке масс, связанных пружинками с полом только в отрезке: волна частоты $\\omega<\\Omega$ затухает как $e^{-\\kappa x}$ и частично выходит с другой стороны, $T\\approx e^{-2\\kappa a}$, без квантов. Для волны материи то же уравнение с $\\omega^2\\to E$, $\\Omega^2\\to V$, $\\kappa=\\sqrt{2m(V-E)}/\\hbar$, поэтому $T$ падает с ростом массы экспоненциально.",
+        "en": "A ball with $E<V$ does not climb the hill, but a train of $N$ cars with the same speed of every car passes: its barrier $\\max U(S)$ is lower than $NV$. Then a classical wave on a chain of masses joined to the floor by springs only in a segment: a wave of frequency $\\omega<\\Omega$ decays as $e^{-\\kappa x}$ and partly comes out on the other side, $T\\approx e^{-2\\kappa a}$, with no quanta. For a matter wave the equation is the same with $\\omega^2\\to E$, $\\Omega^2\\to V$, $\\kappa=\\sqrt{2m(V-E)}/\\hbar$, so $T$ falls exponentially with the mass."
       },
       "book": {
         "volume": 1,
@@ -1321,8 +1341,8 @@
         "en": "Oscillations of neutral kaons"
       },
       "caption": {
-        "ru": "Нейтральный каон рождается в сильной реакции π⁻p → ΛK⁰ как состояние странности S = +1, то есть как равная суперпозиция K_S и K_L: |K⁰> = (|K_S> + |K_L>)/√2. Состояния определённой массы и времени жизни эволюционируют как exp(−i m t − Γ t/2); при τ_S = 0,895·10⁻¹⁰ с, τ_L = 5,12·10⁻⁸ с и Δm = 3,5·10⁻⁶ эВ вероятности равны P(K⁰→K⁰), P(K⁰→K̄⁰) = (1/4)[e^{−Γ_S t} + e^{−Γ_L t} ± 2e^{−(Γ_S+Γ_L)t/2} cos(Δm t)]. Фильм численно решает i dψ/dt = (M − iΓ/2)ψ в базисе (K⁰, K̄⁰) и показывает осцилляцию как сумму и разность двух вращающихся стрелок (частей K_S и K_L): сначала для стабильных каонов (полный период 2π/Δm), затем с реальными ширинами (Δm τ_S = 0,48, K_S быстро гибнет) и в масштабе τ_L, где остаётся чистый пучок K_L, наполовину K⁰ и наполовину K̄⁰. Детектор видит K̄⁰ в выходе гиперонов (K̄⁰N → Λπ разрешено, K⁰N → Λπ запрещено по странности) и в зарядовой асимметрии лептонов A_ℓ = cos(Δm t)/cosh(ΔΓ t/2); в конце тонкий поглотитель в пучке K_L регенерирует K_S. Нарушением CP пренебрегается.",
-        "en": "A neutral kaon is born in the strong reaction π⁻p → ΛK⁰ with strangeness S = +1, that is, as an equal superposition of K_S and K_L: |K⁰> = (|K_S> + |K_L>)/√2. The states of definite mass and lifetime evolve as exp(−i m t − Γ t/2); with τ_S = 0.895·10⁻¹⁰ s, τ_L = 5.12·10⁻⁸ s and Δm = 3.5·10⁻⁶ eV the probabilities are P(K⁰→K⁰), P(K⁰→K̄⁰) = (1/4)[e^{−Γ_S t} + e^{−Γ_L t} ± 2e^{−(Γ_S+Γ_L)t/2} cos(Δm t)]. The film integrates i dψ/dt = (M − iΓ/2)ψ numerically in the basis (K⁰, K̄⁰) and shows the oscillation as the sum and the difference of two rotating arrows (the K_S and K_L parts): first for stable kaons (a full period 2π/Δm), then with the real widths (Δm τ_S = 0.48, K_S dies fast) and on the scale of τ_L, where a pure K_L beam is left, half K⁰ and half K̄⁰. The detector sees the K̄⁰ in the yield of hyperons (K̄⁰N → Λπ is allowed, K⁰N → Λπ is forbidden by strangeness) and in the lepton charge asymmetry A_ℓ = cos(Δm t)/cosh(ΔΓ t/2); in the end a thin absorber in a K_L beam regenerates K_S. CP violation is neglected."
+        "ru": "$K^0$ рождается в сильной реакции как суперпозиция $K_S$ и $K_L$ и эволюционирует с эффективным гамильтонианом $H=M-i\\Gamma/2$: странность осциллирует с частотой $\\Delta m$, пока $K_S$ распадается; остаётся чистый пучок $K_L$ с равными долями $K^0$ и $\\bar K^0$. Показаны мишени вдоль пучка ($\\bar K^0N\\to\\Lambda\\pi$ разрешено, $K^0N\\to\\Lambda\\pi$ запрещено), асимметрия заряда лептона и регенерация $K_S$. Нарушение $CP$ не учитывается.",
+        "en": "A $K^0$ is born in a strong reaction as a superposition of $K_S$ and $K_L$ and evolves with the effective Hamiltonian $H=M-i\\Gamma/2$: the strangeness oscillates with the frequency $\\Delta m$ while $K_S$ decays; a pure $K_L$ beam remains, with equal parts of $K^0$ and $\\bar K^0$. Targets along the beam are shown ($\\bar K^0N\\to\\Lambda\\pi$ is allowed, $K^0N\\to\\Lambda\\pi$ is forbidden), the lepton-charge asymmetry and the regeneration of $K_S$. $CP$ violation is neglected."
       },
       "book": {
         "volume": 2,
@@ -1363,8 +1383,8 @@
         "en": "The chiral anomaly: where do the particles come from?"
       },
       "caption": {
-        "ru": "Безмассовый фермион в одном пространственном измерении на кольце: правые уровни имеют E = +p, левые E = -p, а море Дирака (все уровни с E < 0) заполнено. Электрическое поле сдвигает p -> p + eEt: правые уровни поднимаются через E = 0 и становятся частицами, левые опускаются и оставляют дырки, в каждой ветви за единицу времени пересекают E = 0 ровно eEL/2pi уровней; поэтому Q = N_R + N_L сохраняется, а Q_5 = N_R - N_L растёт со скоростью eEL/pi, d_mu j^mu_5 = (e/pi) E. Бесконечное море нужно обрезать, и обрезание решает, что считать: обрезание по энергии сохраняет калибровочную инвариантность и впускает заполненные уровни снизу в правую ветвь, обрезание по фиксированным уровням сохраняет Q_5, но даёт вакууму калибровочно-зависимый ток, а в кристалле (E = sin ka) уровни просто перетекают из одной ферми-точки в другую. В магнитном поле нижний уровень Ландау безмассового фермиона есть киральная ветвь 1+1 с eB/2pi состояний на единицу площади; подсчёт уровней даёт dn_5/dt = e^2 E.B/(2 pi^2) = (2 alpha/pi) E.B, ту же аномалию, что определяет распад pi0 -> gamma gamma, Gamma = alpha^2 m^3/(64 pi^3 f^2) = 7,76 эВ.",
-        "en": "A massless fermion in one space dimension on a ring: right-handed levels have E = +p, left-handed levels E = -p, and the Dirac sea (all levels with E < 0) is filled. An electric field shifts p -> p + eEt: right-handed levels climb through E = 0 and become particles, left-handed levels descend and leave holes, eEL/2pi levels cross E = 0 per unit time in each branch, so Q = N_R + N_L is conserved while Q_5 = N_R - N_L grows at the rate eEL/pi, d_mu j^mu_5 = (e/pi) E. The infinite sea has to be cut off, and the cut-off decides what is counted: a cut in the energy keeps gauge invariance and lets filled levels in at the bottom of the right branch, a cut in fixed levels keeps Q_5 but gives the vacuum a gauge-dependent current, and in a crystal (E = sin ka) the levels simply flow from one Fermi point to the other. In a magnetic field the lowest Landau level of a massless fermion is a chiral 1+1 branch with eB/2pi states per unit area; counting the levels gives dn_5/dt = e^2 E.B/(2 pi^2) = (2 alpha/pi) E.B, the same anomaly that gives pi0 -> gamma gamma, Gamma = alpha^2 m^3/(64 pi^3 f^2) = 7.76 eV."
+        "ru": "Безмассовый фермион на кольце: электрическое поле сдвигает уровни, правые поднимаются через $E=0$, левые опускаются, и подсчёт даёт $dQ_5/dt=eEL/\\pi$ при сохранении векторного заряда; разные способы обрезать бесконечное море показывают, что выбор регуляризации решает, какой ток сохранится. Затем уровни Ландау в $3+1$ измерениях дают $\\partial_\\mu j_5^\\mu=\\frac{e^2}{2\\pi^2}\\mathbf{E}\\cdot\\mathbf{B}$ и распад $\\pi^0\\to\\gamma\\gamma$.",
+        "en": "A massless fermion on a ring: an electric field shifts the levels, the right-handed ones rise through $E=0$, the left-handed ones fall, and the counting gives $dQ_5/dt=eEL/\\pi$ with the vector charge conserved; different ways to cut the infinite sea show that the choice of the regularisation decides which current survives. Then the Landau levels in $3+1$ dimensions give $\\partial_\\mu j_5^\\mu=\\frac{e^2}{2\\pi^2}\\mathbf{E}\\cdot\\mathbf{B}$ and the decay $\\pi^0\\to\\gamma\\gamma$."
       },
       "book": {
         "volume": 2,
@@ -1381,8 +1401,8 @@
         },
         "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/chiral_anomaly",
         "note": {
-          "ru": "Модель: безмассовый фермион на кольце, уровни k_n(t) = 2 pi (n + theta)/L + eEt, заполненное море Дирака, число частиц и дырок считается по уровням; регуляризации (окно по энергии, окно по фиксированным уровням, цепочка E = sin ka) и уровни Ландау оператора Вейля (диагонализация на полосе) просчитаны численно; Gamma(pi0 -> gamma gamma) по формуле книги, f_pi = 92,2 МэВ. Кольцо с частицами и пластина с состояниями уровня Ландау схематичны. Анимация создана автором книги.",
-          "en": "Model: a massless fermion on a ring, levels k_n(t) = 2 pi (n + theta)/L + eEt, the filled Dirac sea; the numbers of particles and holes are counted level by level; the regularisations (a window in the energy, a window in fixed levels, a chain with E = sin ka) and the Landau levels of the Weyl operator (diagonalisation on a strip) are computed numerically; Gamma(pi0 -> gamma gamma) from the formula of the book with f_pi = 92.2 MeV. The ring with the particles and the plate with the states of a Landau level are schematic. Animation made for the book."
+          "ru": "Модель: безмассовый фермион на кольце, уровни k_n(t) = 2 pi (n + theta)/L + eEt, заполненное море Дирака, число частиц и дырок считается по уровням; регуляризации (окно по энергии, окно по фиксированным уровням, цепочка E = sin ka) и уровни Ландау оператора Вейля (диагонализация на полосе) просчитаны численно; Gamma(pi0 -> gamma gamma) по формуле книги, f_pi = 92,1 МэВ. Кольцо с частицами и пластина с состояниями уровня Ландау схематичны. Анимация создана автором книги.",
+          "en": "Model: a massless fermion on a ring, levels k_n(t) = 2 pi (n + theta)/L + eEt, the filled Dirac sea; the numbers of particles and holes are counted level by level; the regularisations (a window in the energy, a window in fixed levels, a chain with E = sin ka) and the Landau levels of the Weyl operator (diagonalisation on a strip) are computed numerically; Gamma(pi0 -> gamma gamma) from the formula of the book with f_pi = 92.1 MeV. The ring with the particles and the plate with the states of a Landau level are schematic. Animation made for the book."
         }
       },
       "media": {
@@ -1405,8 +1425,8 @@
         "en": "The gauge principle: two friends and a field"
       },
       "caption": {
-        "ru": "Фаза волновой функции — договорённость. Общий сдвиг фаз двух путей не меняет интерференционную картину, относительный сдвиг двигает полосы на δ/2π периодов (точный расчёт). Если каждый наблюдатель выбирает фазу α(x) в своей точке, свободное уравнение перестаёт работать: градиент ∂α добавляет волне импульс, и пакет экспериментатора дрейфует со скоростью (k₀ + ⟨α′⟩)/m. Ковариантная производная D = ∂ + iqA с A → A − ∂α/q возвращает предсказание теоретика с точностью до ошибок округления (D ψ′ = e^{iα} D ψ). Напряжённость F = ∂A − ∂A от выбора фазы не зависит: у чисто калибровочного поля F = 0, а петля вокруг трубки потока даёт qΦ (формула Стокса) и сдвигает полосы на qΦ/2π периодов в любой калибровке.",
-        "en": "The phase of the wave function is a convention. A common phase of two paths leaves the interference pattern unchanged, a relative phase moves the fringes by δ/2π periods (exact computation). If every observer chooses the phase α(x) at his own point, the free equation stops working: the gradient ∂α adds momentum to the wave and the experimenter's packet drifts with the velocity (k₀ + ⟨α′⟩)/m. The covariant derivative D = ∂ + iqA with A → A − ∂α/q restores the theorist's prediction to rounding errors (D ψ′ = e^{iα} D ψ). The field strength F = ∂A − ∂A does not depend on the convention: a pure-gauge field has F = 0, and the loop around a flux tube gives qΦ (Stokes) and moves the fringes by qΦ/2π periods in any gauge."
+        "ru": "Два друга выбирают фазу волновой функции независимо в разных точках: общий сдвиг фазы не меняет картину интерференции, а сдвиг в одном плече сдвигает полосы. Свободный пакет в новом выборе фазы выглядит отклонённым, пока не добавлено компенсирующее поле $A_\\mu\\to A_\\mu-\\partial_\\mu\\alpha/q$ в ковариантной производной $D_\\mu=\\partial_\\mu+iqA_\\mu$. Напряжённость $F_{\\mu\\nu}$ и фаза по замкнутой петле не зависят от выбора фазы.",
+        "en": "Two friends choose the phase of the wave function independently at different points: a common phase shift does not change the interference pattern, a shift in one path moves the fringes. A free packet looks deflected in the new choice of the phase until the compensating field $A_\\mu\\to A_\\mu-\\partial_\\mu\\alpha/q$ is added in the covariant derivative $D_\\mu=\\partial_\\mu+iqA_\\mu$. The field strength $F_{\\mu\\nu}$ and the phase around a closed loop do not depend on the choice of the phase."
       },
       "book": {
         "volume": 2,
