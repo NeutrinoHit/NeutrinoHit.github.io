@@ -21,8 +21,14 @@ published outputs are committed.  To publish an item that is currently
 "external" or "pending" once the rights are cleared, set hosting to "self"
 and make sure media.source exists in the source directory.
 
+Several books: books.catalog.json lists the books (slug, catalog file, address of the pages); the QFT book keeps its
+original addresses /qr/<id>/, every other book gets /qr/<slug>/<id>/ and its own catalog (books/<slug>.catalog.json),
+poster directory (assets/book-animations/<slug>/), index (/qr/<slug>/) and manifest. /qr/ is the hub of all books.
+Captions, notes and credits may contain LaTeX in $...$ (rendered by KaTeX in the browser); titles must be plain text.
+
 Usage:
-  python scripts/build_book_animations.py            # build everything
+  python scripts/build_book_animations.py            # build everything (all published books)
+  python scripts/build_book_animations.py --book qft # one book
   python scripts/build_book_animations.py --check    # validate only
   python scripts/build_book_animations.py --urls     # "url, qr_file" lines
   python scripts/build_book_animations.py --include-proposed   # local preview only
@@ -42,10 +48,22 @@ from urllib.parse import urlparse
 
 
 SITE_ROOT = Path(__file__).resolve().parents[1]
-CATALOG = SITE_ROOT / "book-animations.catalog.json"
+REGISTRY = SITE_ROOT / "books.catalog.json"
+QR_ROOT = SITE_ROOT / "qr"
 SOURCE_DIR = SITE_ROOT / "not-to-commit" / "book-animations-src"
-ASSET_DIR = SITE_ROOT / "assets" / "book-animations"
-OUT_DIR = SITE_ROOT / "qr"
+
+# the book that is being built (set by set_book): the catalog, the poster directory, the pages and the relative links
+CATALOG = SITE_ROOT / "book-animations.catalog.json"
+ASSET_SUB = "book-animations"
+ASSET_DIR = SITE_ROOT / "assets" / ASSET_SUB
+OUT_DIR = QR_ROOT
+INDEX_PATH = "/qr/qft/"                      # address of the index page of the book
+ROOT_UP = "../../"                           # from an item page to the site root
+INDEX_UP = "../../"                          # from the index page to the site root
+ITEM_REL = "../"                             # from the index page to the item pages
+INDEX_DIR = QR_ROOT / "qft"                  # where the index page is written
+MANIFEST_DIR = QR_ROOT                       # where manifest.json is written
+BOOK_SLUG = "qft"
 
 HOSTING = ("self", "external", "pending")
 MAX_SIDE = 1280
@@ -54,9 +72,37 @@ COPY_LIMIT_MB = 3.0
 
 # ---------------------------------------------------------------- catalog
 
-def load_catalog() -> dict[str, Any]:
-    with CATALOG.open("r", encoding="utf-8") as handle:
+def load_registry() -> dict[str, Any]:
+    with REGISTRY.open("r", encoding="utf-8") as handle:
         return json.load(handle)
+
+
+def set_book(book: dict[str, Any]) -> None:
+    """Point the module-level paths and relative links at the given book of the registry."""
+    global CATALOG, ASSET_SUB, ASSET_DIR, OUT_DIR, INDEX_PATH, ROOT_UP, INDEX_UP, ITEM_REL, INDEX_DIR, MANIFEST_DIR, BOOK_SLUG
+    BOOK_SLUG = book["slug"]
+    CATALOG = SITE_ROOT / book["catalog"]
+    ASSET_SUB = book["asset_subdir"]
+    ASSET_DIR = SITE_ROOT / "assets" / ASSET_SUB
+    qr_path = book["qr_path"].strip("/")                       # "qr" (the first book) or "qr/<slug>"
+    OUT_DIR = SITE_ROOT / qr_path
+    INDEX_PATH = book["index_path"]
+    n_index = len(INDEX_PATH.strip("/").split("/"))
+    ROOT_UP = "../" * (len(qr_path.split("/")) + 1)
+    INDEX_UP = "../" * n_index
+    legacy = INDEX_PATH.strip("/") != qr_path                  # the index lives next to the item pages or one level deeper
+    ITEM_REL = "../" if legacy else ""
+    INDEX_DIR = SITE_ROOT / INDEX_PATH.strip("/")
+    MANIFEST_DIR = OUT_DIR
+
+
+def load_catalog(book: dict[str, Any] | None = None) -> dict[str, Any]:
+    with CATALOG.open("r", encoding="utf-8") as handle:
+        data = json.load(handle)
+    if book is not None:
+        data["qr_path"] = book["qr_path"]
+        data.setdefault("base_url", load_registry()["base_url"])
+    return data
 
 
 def sort_key(item: dict[str, Any]) -> tuple[int, int, str]:
@@ -329,7 +375,7 @@ def page_url(catalog: dict[str, Any], ident: str = "") -> str:
 def movie_path(item: dict[str, Any], lang: str = "ru") -> str:
     """Site-root-relative path of the video shown on the page in the given language."""
     assets = lang_assets(item)
-    return assets[lang] if assets else f'assets/book-animations/{item["id"]}.mp4'
+    return assets[lang] if assets else f'assets/{ASSET_SUB}/{item["id"]}.mp4'
 
 
 def chapter_ref(item: dict[str, Any]) -> str:
@@ -339,6 +385,25 @@ def chapter_ref(item: dict[str, Any]) -> str:
         f'Том {book["volume"]}, гл. {book["chapter"]} «{esc(title["ru"])}»',
         f'Volume {book["volume"]}, Chapter {book["chapter"]} “{esc(title["en"])}”',
     )
+
+
+KATEX = """<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+ onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false})"></script>
+"""
+
+
+def has_math(value: Any) -> bool:
+    if isinstance(value, dict):
+        return any(has_math(v) for v in value.values())
+    return isinstance(value, str) and "$" in value
+
+
+def math_head(item: dict[str, Any]) -> str:
+    """KaTeX is loaded only for the pages whose caption or note contains LaTeX in $...$."""
+    credit = item.get("credit", {})
+    return KATEX if has_math(item.get("caption")) or has_math(credit.get("note")) else ""
 
 
 def head(catalog: dict[str, Any], title: dict[str, str], description: dict[str, str],
@@ -438,21 +503,21 @@ def render_item(catalog: dict[str, Any], items: list[dict[str, Any]], index: int
     hosting = item["hosting"]
     url = page_url(catalog, ident)
     poster_exists = (ASSET_DIR / f"{ident}.jpg").is_file()
-    og_image = f'{catalog["base_url"]}/assets/book-animations/{ident}.jpg' if (
+    og_image = f'{catalog["base_url"]}/assets/{ASSET_SUB}/{ident}.jpg' if (
         hosting == "self" and poster_exists) else ""
-    page = head(catalog, item["title"], item["caption"], url, og_image)
-    page += topbar("../")
+    page = head(catalog, item["title"], item["caption"], url, og_image, extra=math_head(item))
+    page += topbar(INDEX_PATH)
     page += f'<h1>{bi(item["title"])}</h1>\n'
 
     if hosting == "self":
         split = per_language(item)
-        poster = f' poster="../../assets/book-animations/{ident}.jpg"' if poster_exists else ""
-        movie = f"../../{movie_path(item, 'ru')}"
+        poster = f' poster="{ROOT_UP}assets/{ASSET_SUB}/{ident}.jpg"' if poster_exists else ""
+        movie = f"{ROOT_UP}{movie_path(item, 'ru')}"
         data = ""
         if split:
-            data = (f' data-src-ru="{movie}" data-src-en="../../{movie_path(item, "en")}"'
-                    f' data-poster-ru="../../assets/book-animations/{poster_name(ident, "ru", True)}"'
-                    f' data-poster-en="../../assets/book-animations/{poster_name(ident, "en", True)}"')
+            data = (f' data-src-ru="{movie}" data-src-en="{ROOT_UP}{movie_path(item, "en")}"'
+                    f' data-poster-ru="{ROOT_UP}assets/{ASSET_SUB}/{poster_name(ident, "ru", True)}"'
+                    f' data-poster-en="{ROOT_UP}assets/{ASSET_SUB}/{poster_name(ident, "en", True)}"')
         page += f"""<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata"{poster}{data}>
 <source src="{movie}" type="video/mp4">
 </video></div>
@@ -507,13 +572,14 @@ def render_alias(catalog: dict[str, Any], item: dict[str, Any], code: str) -> st
 
 
 def render_index(catalog: dict[str, Any], items: list[dict[str, Any]]) -> str:
+    book = catalog["book"]
     title = {"ru": "Анимации книги", "en": "Animations of the book"}
     desc = {
-        "ru": "Все анимации, на которые ведут QR-коды книги «Квантовая теория поля для экспериментаторов и не только».",
-        "en": "All animations linked by the QR codes of the book “Quantum Field Theory for Experimentalists and Beyond”.",
+        "ru": f"Все анимации, на которые ведут QR-коды книги «{book['title']['ru']}».",
+        "en": f"All animations linked by the QR codes of the book “{book['title']['en']}”.",
     }
-    page = head(catalog, title, desc, page_url(catalog))
-    page += f"""<div class="top"><a href="/">NeutrinoHit</a>
+    page = head(catalog, title, desc, f'{catalog["base_url"]}{INDEX_PATH}')
+    page += f"""<div class="top"><a href="/qr/">{bi_raw("← Все книги", "← All books")}</a>
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span></div>
 <h1>{bi(title)}</h1>
 <p class="caption">{bi(desc)}</p>
@@ -528,10 +594,10 @@ def render_index(catalog: dict[str, Any], items: list[dict[str, Any]]) -> str:
             page += f'<h2>{chapter_ref(item)}</h2>\n<ul class="grid">\n'
         ident = item["id"]
         if item["hosting"] == "self" and (ASSET_DIR / f"{ident}.jpg").is_file():
-            thumb = f'<img src="../assets/book-animations/{ident}.jpg" alt="" loading="lazy">'
+            thumb = f'<img src="{INDEX_UP}assets/{ASSET_SUB}/{ident}.jpg" alt="" loading="lazy">'
         else:
             thumb = f'<div class="ph">{bi_raw("на сайте автора", "on the author’s site") if item["hosting"] == "external" else bi_raw("скоро", "soon")}</div>'
-        page += (f'<li><a href="{ident}/">{thumb}<div class="t">{bi(item["title"])}'
+        page += (f'<li><a href="{ITEM_REL}{ident}/">{thumb}<div class="t">{bi(item["title"])}'
                  f'<small>QR {ident}</small></div></a></li>\n')
     page += "</ul>\n"
     page += footer(catalog)
@@ -558,8 +624,8 @@ def build_pages(catalog: dict[str, Any], items: list[dict[str, Any]],
             alias = OUT / code / "index.html"
             if write_if_changed(alias, render_alias(catalog, item, code)):
                 written.append(alias)
-    if write_if_changed(OUT / "index.html", render_index(catalog, items)):
-        written.append(OUT / "index.html")
+    if write_if_changed(INDEX_DIR / "index.html", render_index(catalog, items)):
+        written.append(INDEX_DIR / "index.html")
     manifest = {
         item["id"]: {
             "url": page_url(catalog, item["id"]),
@@ -571,65 +637,120 @@ def build_pages(catalog: dict[str, Any], items: list[dict[str, Any]],
         for item in items
     }
     text = json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"
-    if write_if_changed(OUT / "manifest.json", text):
-        written.append(OUT / "manifest.json")
+    if write_if_changed(MANIFEST_DIR / "manifest.json", text):
+        written.append(MANIFEST_DIR / "manifest.json")
     return written
+
+
+def render_hub(registry: dict[str, Any], built: dict[str, dict[str, Any]]) -> str:
+    """The page /qr/ : the books and the number of their animations."""
+    catalog = {"base_url": registry["base_url"], "qr_path": "/qr/", "book": registry["site"]}
+    title = {"ru": "Книги и анимации", "en": "Books and animations"}
+    desc = {"ru": "QR-коды книг ведут на страницы анимаций; здесь список книг.", "en": "The QR codes of the books lead to the pages of the animations; here is the list of the books."}
+    page = head(catalog, title, desc, f'{registry["base_url"]}/qr/')
+    page += f"""<div class="top"><a href="/">NeutrinoHit</a>
+<span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span></div>
+<h1>{bi(title)}</h1>
+<p class="caption">{bi(desc)}</p>
+<ul class="grid">
+"""
+    for book in registry["books"]:
+        info = built.get(book["slug"])
+        if not info:
+            continue
+        count = info["count"]
+        page += (f'<li><a href="{book["index_path"]}"><div class="t">{bi(book["title"])}'
+                 f'<small>{count} {bi_raw("анимаций", "animations")}</small></div></a></li>\n')
+    page += "</ul>\n"
+    page += f"""<footer><p><a href="/">NeutrinoHit</a></p></footer>
+</div>
+<script>{LANG_BAR_JS}</script>
+</body>
+</html>
+"""
+    return page
 
 
 # ------------------------------------------------------------------- main
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    parser.add_argument("--book", help="build one book of books.catalog.json (default: all published books)")
     parser.add_argument("--check", action="store_true", help="validate the catalog only")
     parser.add_argument("--urls", action="store_true",
                         help='print "url, qr_file" lines for pyplots/qrcodes/urls.txt')
     parser.add_argument("--force", action="store_true", help="re-encode all media")
     parser.add_argument("--skip-media", action="store_true")
-    parser.add_argument("--out-dir", type=Path, default=OUT_DIR,
-                        help="where to write the pages (default: qr/)")
+    parser.add_argument("--out-dir", type=Path, default=None,
+                        help="where to write the pages of ONE book (default: qr/ or qr/<slug>/)")
     parser.add_argument("--include-proposed", action="store_true",
                         help="also build items with status \"proposed\" (local preview only)")
     args = parser.parse_args()
 
-    catalog = load_catalog()
-    problems = validate(catalog)
-    if problems:
-        print("Catalog problems:", file=sys.stderr)
-        for problem in problems:
-            print(f"  - {problem}", file=sys.stderr)
+    registry = load_registry()
+    books = [b for b in registry["books"] if (args.book == b["slug"] if args.book else b.get("status", "published") == "published")]
+    if not books:
+        print("no such book / no published books", file=sys.stderr)
         return 1
-
-    if args.include_proposed and args.out_dir.resolve() == OUT_DIR.resolve():
+    if args.out_dir is not None and len(books) != 1:
+        print("--out-dir needs --book", file=sys.stderr)
+        return 1
+    if args.include_proposed and args.out_dir is None:
         print("--include-proposed needs --out-dir elsewhere (e.g. a scratch directory "
               "whose assets/ points to this site's assets/)", file=sys.stderr)
         return 1
-    visible = [i for i in catalog["items"]
-               if args.include_proposed or i.get("status", "published") == "published"]
-    items = sorted(visible, key=sort_key)
 
-    if args.urls:
-        for item in sorted(visible, key=lambda i: i["id"]):
-            print(f'{page_url(catalog, item["id"])}, {item["qr_file"]}')
-        return 0
-    if args.check:
-        proposed = len(catalog["items"]) - len(
-            [i for i in catalog["items"] if i.get("status", "published") == "published"])
-        print(f"OK: {len(catalog['items'])} items ({proposed} proposed)")
-        return 0
-
-    if not args.skip_media:
-        if not (shutil.which("ffmpeg") and shutil.which("ffprobe")):
-            print("ffmpeg/ffprobe not found; use --skip-media", file=sys.stderr)
+    built: dict[str, dict[str, Any]] = {}
+    for book in books:
+        set_book(book)
+        catalog = load_catalog(book)
+        problems = validate(catalog)
+        if problems:
+            print(f"Catalog problems ({book['slug']}):", file=sys.stderr)
+            for problem in problems:
+                print(f"  - {problem}", file=sys.stderr)
             return 1
-        for item in items:
-            if item["hosting"] == "self":
-                build_media(item, args.force)
+        visible = [i for i in catalog["items"]
+                   if args.include_proposed or i.get("status", "published") == "published"]
+        items = sorted(visible, key=sort_key)
+        built[book["slug"]] = {"count": len(items)}
 
-    written = build_pages(catalog, items, args.out_dir)
-    for item in items:
-        flag = "  [proposed]" if item.get("status") == "proposed" else ""
-        print(f'{item["id"]}  {item["hosting"]:8}  {item["slug"]}{flag}')
-    print(f"Wrote {len(written)} file(s) under {args.out_dir}")
+        if args.urls:
+            for item in sorted(visible, key=lambda i: i["id"]):
+                print(f'{page_url(catalog, item["id"])}, {item["qr_file"]}')
+            continue
+        if args.check:
+            proposed = len(catalog["items"]) - len(
+                [i for i in catalog["items"] if i.get("status", "published") == "published"])
+            print(f"OK: {book['slug']}: {len(catalog['items'])} items ({proposed} proposed)")
+            continue
+
+        if not args.skip_media:
+            if not (shutil.which("ffmpeg") and shutil.which("ffprobe")):
+                print("ffmpeg/ffprobe not found; use --skip-media", file=sys.stderr)
+                return 1
+            for item in items:
+                if item["hosting"] == "self":
+                    build_media(item, args.force)
+
+        global INDEX_DIR, MANIFEST_DIR
+        out_dir = args.out_dir or OUT_DIR
+        if args.out_dir is not None:                           # a scratch directory: the index and the manifest go there too
+            INDEX_DIR = MANIFEST_DIR = out_dir
+        written = build_pages(catalog, items, out_dir)
+        for item in items:
+            flag = "  [proposed]" if item.get("status") == "proposed" else ""
+            print(f'{book["slug"]}  {item["id"]}  {item["hosting"]:8}  {item["slug"]}{flag}')
+        print(f"Wrote {len(written)} file(s) under {out_dir}")
+
+    if not args.urls and not args.check and args.out_dir is None and not args.book:
+        hub = QR_ROOT / "index.html"
+        text = render_hub(registry, built)
+        if write_if_changed(hub, text):
+            print(f"Wrote the hub {hub}")
+        (QR_ROOT / "books.json").write_text(json.dumps(
+            {b["slug"]: {"title": b["title"], "index": registry["base_url"] + b["index_path"], "count": built[b["slug"]]["count"]}
+             for b in registry["books"] if b["slug"] in built}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return 0
 
 

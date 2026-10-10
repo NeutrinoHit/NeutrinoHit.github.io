@@ -399,8 +399,8 @@
         {
           "id": "scalar-qed",
           "title": "Scalar QED: волновые пакеты",
-          "source_dir": "fields/scalar_qed",
-          "description": "Притяжение и отталкивание волновых пакетов через аналитическое поле и эйкональную фазу.",
+          "source_dir": "attraction_repulsion",
+          "description": "Притяжение и отталкивание волновых пакетов как интерференция свободной волны и волны взаимодействия: поле пакета, фаза эйконала, сдвиг распределения по импульсам.",
           "videos": [
             {
               "id": "single",
@@ -408,14 +408,28 @@
               "path": "fields/scalar_qed/media/single.mp4"
             },
             {
-              "id": "repulsion",
-              "label": "Одинаковые заряды",
-              "path": "fields/scalar_qed/media/pp.mp4"
+              "id": "attraction",
+              "label": "Притяжение: противоположные заряды (русская версия)",
+              "path": "attraction_repulsion/media/attraction_ru.mp4",
+              "poster_time": 40.0
             },
             {
-              "id": "attraction",
-              "label": "Противоположные заряды",
-              "path": "fields/scalar_qed/media/pm.mp4"
+              "id": "attraction-en",
+              "label": "Attraction: opposite charges (English version)",
+              "path": "attraction_repulsion/media/attraction_en.mp4",
+              "poster_time": 40.0
+            },
+            {
+              "id": "repulsion",
+              "label": "Отталкивание: заряды одного знака (русская версия)",
+              "path": "attraction_repulsion/media/repulsion_ru.mp4",
+              "poster_time": 40.0
+            },
+            {
+              "id": "repulsion-en",
+              "label": "Repulsion: charges of the same sign (English version)",
+              "path": "attraction_repulsion/media/repulsion_en.mp4",
+              "poster_time": 40.0
             }
           ]
         },

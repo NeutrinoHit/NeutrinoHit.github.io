@@ -1,0 +1,19 @@
+{
+  "base_url": "https://neutrinohit.github.io",
+  "qr_path": "/qr/numerical-methods/",
+  "book": {
+    "title": {
+      "ru": "Численные методы",
+      "en": "Numerical Methods"
+    },
+    "author": {
+      "ru": "Д. В. Наумов",
+      "en": "D. V. Naumov"
+    },
+    "page": {
+      "ru": "/ru/materials.html",
+      "en": "/en/materials.html"
+    }
+  },
+  "items": []
+}

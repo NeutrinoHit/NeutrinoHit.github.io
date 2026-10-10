@@ -4,13 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Асимметрия в рождении и распаде Z-бозона — NeutrinoHit</title>
-<meta name="description" content="Z-бозон взаимодействует с левыми и правыми фермионами с разной силой: g_L = 2t₃ − 2q sin²θ_W, g_R = −2q sin²θ_W. Поэтому в e⁺e⁻ → Z → f f̄ каналы e_L⁻e_R⁺ и e_R⁻e_L⁺ входят с весами (g_a^e g_b^f)², а фермион летит вперёд как (1 + cosθ)² при равных киральностях и назад как (1 − cosθ)² при разных. Сумма даёт dN/dcosθ ∝ 1 + cos²θ + (8/3)A_FB cosθ, где A_FB = (3/4)A_LR^e A_LR^f; для мюонов 0,016, для b-кварков 0,103 (древесный уровень, sin²θ_W = 0,2316). Ролик показывает четыре спиральных канала, слайдер sin²θ_W от 1/4 (асимметрии нет), события Монте-Карло с ошибкой A_FB = (N_F − N_B)/(N_F + N_B) и зависимость A_FB(√s) от 50 до 150 ГэВ с интерференцией γ и Z.">
+<meta name="description" content="Четыре спиральных канала $e^+e^-\to Z\to f\bar f$ с весами $(g_a^eg_b^f)^2$ и угловыми распределениями $(1\pm\cos\theta)^2$, их сумма, асимметрия «вперёд – назад» $A_{FB}=\frac34A_{LR}^eA_{LR}^f$ при $\sin^2\theta_W=0{,}2316$, события Монте-Карло и зависимость $A_{FB}(\sqrt{s})$ с интерференцией $\gamma$ и $Z$.">
 <link rel="canonical" href="https://neutrinohit.github.io/qr/0041/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Асимметрия в рождении и распаде Z-бозона">
-<meta property="og:description" content="Z-бозон взаимодействует с левыми и правыми фермионами с разной силой: g_L = 2t₃ − 2q sin²θ_W, g_R = −2q sin²θ_W. Поэтому в e⁺e⁻ → Z → f f̄ каналы e_L⁻e_R⁺ и e_R⁻e_L⁺ входят с весами (g_a^e g_b^f)², а фермион летит вперёд как (1 + cosθ)² при равных киральностях и назад как (1 − cosθ)² при разных. Сумма даёт dN/dcosθ ∝ 1 + cos²θ + (8/3)A_FB cosθ, где A_FB = (3/4)A_LR^e A_LR^f; для мюонов 0,016, для b-кварков 0,103 (древесный уровень, sin²θ_W = 0,2316). Ролик показывает четыре спиральных канала, слайдер sin²θ_W от 1/4 (асимметрии нет), события Монте-Карло с ошибкой A_FB = (N_F − N_B)/(N_F + N_B) и зависимость A_FB(√s) от 50 до 150 ГэВ с интерференцией γ и Z.">
+<meta property="og:description" content="Четыре спиральных канала $e^+e^-\to Z\to f\bar f$ с весами $(g_a^eg_b^f)^2$ и угловыми распределениями $(1\pm\cos\theta)^2$, их сумма, асимметрия «вперёд – назад» $A_{FB}=\frac34A_{LR}^eA_{LR}^f$ при $\sin^2\theta_W=0{,}2316$, события Монте-Карло и зависимость $A_{FB}(\sqrt{s})$ с интерференцией $\gamma$ и $Z$.">
 <meta property="og:url" content="https://neutrinohit.github.io/qr/0041/">
 <meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/0041.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+ onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false})"></script>
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
 if(l!=='ru'&&l!=='en'){l=((navigator.language||'ru').toLowerCase().indexOf('ru')===0)?'ru':'en'}
 d.setAttribute('data-lang',l);d.lang=l})();</script>
@@ -53,7 +57,7 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <body>
 <div class="wrap">
 <div class="top">
-<a href="../"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
+<a href="/qr/qft/"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
 <h1><span lang="ru">Асимметрия в рождении и распаде Z-бозона</span><span lang="en">Asymmetry in Z-boson production and decay</span></h1>
@@ -68,7 +72,7 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
 <a class="btn" id="dl" href="../../assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Z-бозон взаимодействует с левыми и правыми фермионами с разной силой: g_L = 2t₃ − 2q sin²θ_W, g_R = −2q sin²θ_W. Поэтому в e⁺e⁻ → Z → f f̄ каналы e_L⁻e_R⁺ и e_R⁻e_L⁺ входят с весами (g_a^e g_b^f)², а фермион летит вперёд как (1 + cosθ)² при равных киральностях и назад как (1 − cosθ)² при разных. Сумма даёт dN/dcosθ ∝ 1 + cos²θ + (8/3)A_FB cosθ, где A_FB = (3/4)A_LR^e A_LR^f; для мюонов 0,016, для b-кварков 0,103 (древесный уровень, sin²θ_W = 0,2316). Ролик показывает четыре спиральных канала, слайдер sin²θ_W от 1/4 (асимметрии нет), события Монте-Карло с ошибкой A_FB = (N_F − N_B)/(N_F + N_B) и зависимость A_FB(√s) от 50 до 150 ГэВ с интерференцией γ и Z.</span><span lang="en">The Z couples to left- and right-handed fermions with different strengths: g_L = 2t₃ − 2q sin²θ_W, g_R = −2q sin²θ_W. In e⁺e⁻ → Z → f f̄ the channels e_L⁻e_R⁺ and e_R⁻e_L⁺ therefore enter with weights (g_a^e g_b^f)², and the fermion goes forward as (1 + cosθ)² for equal chiralities and backward as (1 − cosθ)² for different ones. The sum is dN/dcosθ ∝ 1 + cos²θ + (8/3)A_FB cosθ with A_FB = (3/4)A_LR^e A_LR^f: 0.016 for muons and 0.103 for b quarks (tree level, sin²θ_W = 0.2316). The film shows the four helicity channels, a slider of sin²θ_W from 1/4 (no asymmetry), Monte-Carlo events with the error of A_FB = (N_F − N_B)/(N_F + N_B), and A_FB(√s) from 50 to 150 GeV with γ–Z interference.</span></p>
+<p class="caption"><span lang="ru">Четыре спиральных канала $e^+e^-\to Z\to f\bar f$ с весами $(g_a^eg_b^f)^2$ и угловыми распределениями $(1\pm\cos\theta)^2$, их сумма, асимметрия «вперёд – назад» $A_{FB}=\frac34A_{LR}^eA_{LR}^f$ при $\sin^2\theta_W=0{,}2316$, события Монте-Карло и зависимость $A_{FB}(\sqrt{s})$ с интерференцией $\gamma$ и $Z$.</span><span lang="en">The four helicity channels of $e^+e^-\to Z\to f\bar f$ with the weights $(g_a^eg_b^f)^2$ and the angular distributions $(1\pm\cos\theta)^2$, their sum, the forward–backward asymmetry $A_{FB}=\frac34A_{LR}^eA_{LR}^f$ at $\sin^2\theta_W=0.2316$, Monte-Carlo events and the dependence $A_{FB}(\sqrt{s})$ with $\gamma$–$Z$ interference.</span></p>
 <div class="card"><dl class="meta">
 <dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 2, гл. 27 «Слабые распады W-, Z-бозонов»</span><span lang="en">Volume 2, Chapter 27 “Weak Decays of the W and Z Bosons”</span></dd>
 <dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>

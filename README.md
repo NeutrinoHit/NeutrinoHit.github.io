@@ -185,6 +185,39 @@ python scripts/build_book_animations.py --urls   # строки для pyplots/q
 `TheBook/pyplots/qrcodes/check_qrcodes.py` (декодирует PDF и открывает страницы,
 в том числе на локальной сборке `--base http://127.0.0.1:8765`).
 
+### Несколько книг
+
+Книги (QFT, введение в физику нейтрино, статистический анализ, ФЭЧ, гравитация, численные методы)
+зарегистрированы в `books.catalog.json`: `slug`, название, файл каталога, адрес страниц, каталог постеров, `status`
+(`published` — собирается; `planned` — пока пусто). Адреса:
+
+| Книга | страница анимации | список книги | постеры |
+|---|---|---|---|
+| `qft` (первая, печатные QR уже заданы) | `/qr/<id>/` | `/qr/qft/` | `assets/book-animations/` |
+| остальные | `/qr/<slug>/<id>/` | `/qr/<slug>/` | `assets/book-animations/<slug>/` |
+
+`/qr/` — общая страница со списком книг (`/qr/books.json` — то же для машины); манифест каждой книги лежит рядом
+с её страницами (`qr/manifest.json` у QFT, `qr/<slug>/manifest.json` у остальных). Номера `id` (четыре цифры) уникальны
+внутри книги, а не на сайте; печатный адрес книги = `base_url` + `qr_path` + `id` + `/`.
+
+Новая книга: перевести `status` в `published`, заполнить `books/<slug>.catalog.json` (та же схема, что у
+`book-animations.catalog.json`: `book`, `items`), затем
+
+```bash
+python scripts/build_book_animations.py --book <slug>      # одна книга
+python scripts/build_book_animations.py --book <slug> --urls   # строки для urls.txt книги
+python scripts/build_book_animations.py                    # все книги и общая страница /qr/
+python ../TheBook/pyplots/qrcodes/make_previews.py --book <slug> <id> ...   # превью для печати
+```
+
+Названия новых книг в `books.catalog.json` предварительные: проверить английские названия и страницы книг (`book.page`).
+
+### Формулы в подписях
+
+В `caption` и `credit.note` формулы пишутся в LaTeX между `$...$` (KaTeX подгружается на странице автоматически, только если
+в тексте есть `$`). В заголовках `title` формул нет. Знак `<` внутри формулы допустим (экранируется генератором);
+`\bm` в KaTeX нет, пользуйтесь `\mathbf`.
+
 ## Общие RevealJS-классы для лекций
 
 Канонический общий стиль для RevealJS-лекций хранится здесь:
