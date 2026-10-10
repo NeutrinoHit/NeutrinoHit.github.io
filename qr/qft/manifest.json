@@ -1,23 +1,23 @@
 {
-  "0003": {
-    "url": "https://neutrinohit.github.io/qr/qft/0003/",
+  "0001": {
+    "url": "https://neutrinohit.github.io/qr/qft/0001/",
     "slug": "higgs-honey",
     "hosting": "self",
     "qr_file": "Higgs_as_Honey.pdf",
     "legacy_codes": []
   },
-  "0021": {
-    "url": "https://neutrinohit.github.io/qr/qft/0021/",
-    "slug": "galaxy-merger",
-    "hosting": "self",
-    "qr_file": "Galaxy_Merger.pdf",
-    "legacy_codes": []
-  },
-  "0024": {
-    "url": "https://neutrinohit.github.io/qr/qft/0024/",
+  "0002": {
+    "url": "https://neutrinohit.github.io/qr/qft/0002/",
     "slug": "sm-field-mattress",
     "hosting": "self",
     "qr_file": "StandardModel_FieldMattress.pdf",
+    "legacy_codes": []
+  },
+  "0003": {
+    "url": "https://neutrinohit.github.io/qr/qft/0003/",
+    "slug": "galaxy-merger",
+    "hosting": "self",
+    "qr_file": "Galaxy_Merger.pdf",
     "legacy_codes": []
   },
   "0004": {
@@ -29,219 +29,226 @@
   },
   "0005": {
     "url": "https://neutrinohit.github.io/qr/qft/0005/",
-    "slug": "zero-field",
-    "hosting": "self",
-    "qr_file": "ZeroField_animation.pdf",
-    "legacy_codes": []
-  },
-  "0014": {
-    "url": "https://neutrinohit.github.io/qr/qft/0014/",
     "slug": "rutherford-geiger-marsden",
     "hosting": "self",
     "qr_file": "Rutherford_animation.pdf",
     "legacy_codes": []
   },
-  "0029": {
-    "url": "https://neutrinohit.github.io/qr/qft/0029/",
+  "0006": {
+    "url": "https://neutrinohit.github.io/qr/qft/0006/",
+    "slug": "zero-field",
+    "hosting": "self",
+    "qr_file": "ZeroField_animation.pdf",
+    "legacy_codes": []
+  },
+  "0007": {
+    "url": "https://neutrinohit.github.io/qr/qft/0007/",
     "slug": "air-shower",
     "hosting": "self",
     "qr_file": "AirShower.pdf",
     "legacy_codes": []
   },
-  "0030": {
-    "url": "https://neutrinohit.github.io/qr/qft/0030/",
+  "0008": {
+    "url": "https://neutrinohit.github.io/qr/qft/0008/",
     "slug": "pmt",
     "hosting": "self",
     "qr_file": "PMT.pdf",
     "legacy_codes": []
   },
-  "0006": {
-    "url": "https://neutrinohit.github.io/qr/qft/0006/",
-    "slug": "penrose-rotation",
-    "hosting": "self",
-    "qr_file": "PenroseRotation_animation.pdf",
-    "legacy_codes": []
-  },
-  "0015": {
-    "url": "https://neutrinohit.github.io/qr/qft/0015/",
+  "0009": {
+    "url": "https://neutrinohit.github.io/qr/qft/0009/",
     "slug": "relativity-simultaneity",
     "hosting": "self",
     "qr_file": "Relativity_of_Simultaneity_animation.pdf",
     "legacy_codes": []
   },
-  "0032": {
-    "url": "https://neutrinohit.github.io/qr/qft/0032/",
+  "0010": {
+    "url": "https://neutrinohit.github.io/qr/qft/0010/",
+    "slug": "penrose-rotation",
+    "hosting": "self",
+    "qr_file": "PenroseRotation_animation.pdf",
+    "legacy_codes": []
+  },
+  "0011": {
+    "url": "https://neutrinohit.github.io/qr/qft/0011/",
     "slug": "hulse-taylor",
     "hosting": "self",
     "qr_file": "HulseTaylor.pdf",
     "legacy_codes": []
   },
-  "0047": {
-    "url": "https://neutrinohit.github.io/qr/qft/0047/",
+  "0012": {
+    "url": "https://neutrinohit.github.io/qr/qft/0012/",
     "slug": "wormhole-camera",
     "hosting": "self",
     "qr_file": "Wormhole_Camera.pdf",
     "legacy_codes": []
   },
-  "0007": {
-    "url": "https://neutrinohit.github.io/qr/qft/0007/",
-    "slug": "oam-beams",
-    "hosting": "self",
-    "qr_file": "OAM_beams.pdf",
-    "legacy_codes": []
-  },
-  "0025": {
-    "url": "https://neutrinohit.github.io/qr/qft/0025/",
+  "0013": {
+    "url": "https://neutrinohit.github.io/qr/qft/0013/",
     "slug": "free-wavepacket",
     "hosting": "self",
     "qr_file": "FreeWavePacket.pdf",
     "legacy_codes": []
   },
-  "0043": {
-    "url": "https://neutrinohit.github.io/qr/qft/0043/",
+  "0014": {
+    "url": "https://neutrinohit.github.io/qr/qft/0014/",
+    "slug": "oam-beams",
+    "hosting": "self",
+    "qr_file": "OAM_beams.pdf",
+    "legacy_codes": []
+  },
+  "0015": {
+    "url": "https://neutrinohit.github.io/qr/qft/0015/",
     "slug": "quantum-tunneling",
     "hosting": "self",
     "qr_file": "QuantumTunneling.pdf",
     "legacy_codes": []
   },
-  "0009": {
-    "url": "https://neutrinohit.github.io/qr/qft/0009/",
+  "0016": {
+    "url": "https://neutrinohit.github.io/qr/qft/0016/",
     "slug": "spinor-mobius",
     "hosting": "self",
     "qr_file": "SpinorMobius.pdf",
     "legacy_codes": []
   },
-  "0026": {
-    "url": "https://neutrinohit.github.io/qr/qft/0026/",
-    "slug": "coupled-oscillators-2d",
-    "hosting": "self",
-    "qr_file": "CoupledOscillators2D.pdf",
-    "legacy_codes": []
-  },
-  "0033": {
-    "url": "https://neutrinohit.github.io/qr/qft/0033/",
+  "0017": {
+    "url": "https://neutrinohit.github.io/qr/qft/0017/",
     "slug": "coupled-oscillators-1d",
     "hosting": "self",
     "qr_file": "CoupledOscillators1D.pdf",
     "legacy_codes": []
   },
-  "0034": {
-    "url": "https://neutrinohit.github.io/qr/qft/0034/",
+  "0018": {
+    "url": "https://neutrinohit.github.io/qr/qft/0018/",
+    "slug": "coupled-oscillators-2d",
+    "hosting": "self",
+    "qr_file": "CoupledOscillators2D.pdf",
+    "legacy_codes": []
+  },
+  "0019": {
+    "url": "https://neutrinohit.github.io/qr/qft/0019/",
     "slug": "coupled-oscillators-3d",
     "hosting": "self",
     "qr_file": "CoupledOscillators3D.pdf",
     "legacy_codes": []
   },
-  "0008": {
-    "url": "https://neutrinohit.github.io/qr/qft/0008/",
-    "slug": "circular-polarization",
-    "hosting": "self",
-    "qr_file": "CircularPolarization_animation.pdf",
-    "legacy_codes": []
-  },
-  "0031": {
-    "url": "https://neutrinohit.github.io/qr/qft/0031/",
+  "0020": {
+    "url": "https://neutrinohit.github.io/qr/qft/0020/",
     "slug": "cherenkov-cone",
     "hosting": "self",
     "qr_file": "CherenkovCone.pdf",
     "legacy_codes": []
   },
-  "0011": {
-    "url": "https://neutrinohit.github.io/qr/qft/0011/",
+  "0021": {
+    "url": "https://neutrinohit.github.io/qr/qft/0021/",
+    "slug": "circular-polarization",
+    "hosting": "self",
+    "qr_file": "CircularPolarization_animation.pdf",
+    "legacy_codes": []
+  },
+  "0022": {
+    "url": "https://neutrinohit.github.io/qr/qft/0022/",
     "slug": "running-charge",
     "hosting": "self",
     "qr_file": "RunningCharge_animation.pdf",
     "legacy_codes": []
   },
-  "0035": {
-    "url": "https://neutrinohit.github.io/qr/qft/0035/",
+  "0023": {
+    "url": "https://neutrinohit.github.io/qr/qft/0023/",
     "slug": "scattering-experiment",
     "hosting": "self",
     "qr_file": "ScatteringExperiment.pdf",
     "legacy_codes": []
   },
-  "0022": {
-    "url": "https://neutrinohit.github.io/qr/qft/0022/",
+  "0024": {
+    "url": "https://neutrinohit.github.io/qr/qft/0024/",
     "slug": "scalar-qed-attraction",
     "hosting": "self",
     "qr_file": "ScalarQED_Attraction.pdf",
     "legacy_codes": []
   },
-  "0023": {
-    "url": "https://neutrinohit.github.io/qr/qft/0023/",
+  "0025": {
+    "url": "https://neutrinohit.github.io/qr/qft/0025/",
     "slug": "scalar-qed-repulsion",
     "hosting": "self",
     "qr_file": "ScalarQED_Repulsion.pdf",
     "legacy_codes": []
   },
-  "0038": {
-    "url": "https://neutrinohit.github.io/qr/qft/0038/",
+  "0026": {
+    "url": "https://neutrinohit.github.io/qr/qft/0026/",
     "slug": "path-integral",
     "hosting": "self",
     "qr_file": "PathIntegral.pdf",
     "legacy_codes": []
   },
-  "0036": {
-    "url": "https://neutrinohit.github.io/qr/qft/0036/",
-    "slug": "electron-kick",
-    "hosting": "self",
-    "qr_file": "ElectronKick.pdf",
-    "legacy_codes": []
-  },
-  "0046": {
-    "url": "https://neutrinohit.github.io/qr/qft/0046/",
+  "0027": {
+    "url": "https://neutrinohit.github.io/qr/qft/0027/",
     "slug": "gauge-principle",
     "hosting": "self",
     "qr_file": "GaugePrinciple.pdf",
     "legacy_codes": []
   },
-  "0039": {
-    "url": "https://neutrinohit.github.io/qr/qft/0039/",
+  "0028": {
+    "url": "https://neutrinohit.github.io/qr/qft/0028/",
+    "slug": "electron-kick",
+    "hosting": "self",
+    "qr_file": "ElectronKick.pdf",
+    "legacy_codes": []
+  },
+  "0029": {
+    "url": "https://neutrinohit.github.io/qr/qft/0029/",
     "slug": "meissner-photon-mass",
     "hosting": "self",
     "qr_file": "MeissnerPhotonMass.pdf",
     "legacy_codes": []
   },
-  "0040": {
-    "url": "https://neutrinohit.github.io/qr/qft/0040/",
+  "0030": {
+    "url": "https://neutrinohit.github.io/qr/qft/0030/",
     "slug": "chiral-fermion-mass",
     "hosting": "self",
     "qr_file": "ChiralFermionMass.pdf",
     "legacy_codes": []
   },
-  "0041": {
-    "url": "https://neutrinohit.github.io/qr/qft/0041/",
+  "0031": {
+    "url": "https://neutrinohit.github.io/qr/qft/0031/",
     "slug": "z-decay-asymmetry",
     "hosting": "self",
     "qr_file": "ZDecayAsymmetry.pdf",
     "legacy_codes": []
   },
-  "0042": {
-    "url": "https://neutrinohit.github.io/qr/qft/0042/",
+  "0032": {
+    "url": "https://neutrinohit.github.io/qr/qft/0032/",
     "slug": "higgs-ff-spin",
     "hosting": "self",
     "qr_file": "HiggsFFbarSpin.pdf",
     "legacy_codes": []
   },
-  "0027": {
-    "url": "https://neutrinohit.github.io/qr/qft/0027/",
+  "0033": {
+    "url": "https://neutrinohit.github.io/qr/qft/0033/",
     "slug": "feynman-numu-electron",
     "hosting": "self",
     "qr_file": "Feynman_NuMuElectron.pdf",
     "legacy_codes": []
   },
-  "0028": {
-    "url": "https://neutrinohit.github.io/qr/qft/0028/",
+  "0034": {
+    "url": "https://neutrinohit.github.io/qr/qft/0034/",
     "slug": "feynman-numu-z",
     "hosting": "self",
     "qr_file": "Feynman_NuMuZ.pdf",
     "legacy_codes": []
   },
-  "0044": {
-    "url": "https://neutrinohit.github.io/qr/qft/0044/",
+  "0035": {
+    "url": "https://neutrinohit.github.io/qr/qft/0035/",
     "slug": "kaon-oscillations",
     "hosting": "self",
     "qr_file": "KaonOscillations.pdf",
+    "legacy_codes": []
+  },
+  "0036": {
+    "url": "https://neutrinohit.github.io/qr/qft/0036/",
+    "slug": "chiral-anomaly",
+    "hosting": "self",
+    "qr_file": "ChiralAnomaly.pdf",
     "legacy_codes": []
   },
   "0037": {
@@ -249,13 +256,6 @@
     "slug": "pi0-double-dalitz",
     "hosting": "self",
     "qr_file": "Pi0DoubleDalitz.pdf",
-    "legacy_codes": []
-  },
-  "0045": {
-    "url": "https://neutrinohit.github.io/qr/qft/0045/",
-    "slug": "chiral-anomaly",
-    "hosting": "self",
-    "qr_file": "ChiralAnomaly.pdf",
     "legacy_codes": []
   }
 }

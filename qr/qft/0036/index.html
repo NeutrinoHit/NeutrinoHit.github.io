@@ -1,16 +1,20 @@
 <!doctype html>
-<html lang="ru" data-lang="ru" data-title-ru="Пинок электрону: фронт электромагнитной волны — NeutrinoHit" data-title-en="A kick to an electron: the front of an electromagnetic wave — NeutrinoHit">
+<html lang="ru" data-lang="ru" data-title-ru="Киральная аномалия: откуда берутся частицы? — NeutrinoHit" data-title-en="The chiral anomaly: where do the particles come from? — NeutrinoHit">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Пинок электрону: фронт электромагнитной волны — NeutrinoHit</title>
-<meta name="description" content="Электрон мгновенно получает скорость v. Вне сферы r = ct поле остаётся полем покоящегося заряда, внутри — это поле движущегося заряда, прижатое к плоскости, перпендикулярной скорости, а на самой сфере силовые линии соединяются дугами: это фронт электромагнитной волны. Линии проведены с равным потоком, поэтому их густота — напряжённость поля. Показаны β = 0,30 и β = 0,85; соединение линий следует из закона Гаусса: cos θ = cos ψ / √(1 − β² sin² ψ).">
+<title>Киральная аномалия: откуда берутся частицы? — NeutrinoHit</title>
+<meta name="description" content="Безмассовый фермион на кольце: электрическое поле сдвигает уровни, правые поднимаются через $E=0$, левые опускаются, и подсчёт даёт $dQ_5/dt=eEL/\pi$ при сохранении векторного заряда; разные способы обрезать бесконечное море показывают, что выбор регуляризации решает, какой ток сохранится. Затем уровни Ландау в $3+1$ измерениях дают $\partial_\mu j_5^\mu=\frac{e^2}{2\pi^2}\mathbf{E}\cdot\mathbf{B}$ и распад $\pi^0\to\gamma\gamma$.">
 <link rel="canonical" href="https://neutrinohit.github.io/qr/qft/0036/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Пинок электрону: фронт электромагнитной волны">
-<meta property="og:description" content="Электрон мгновенно получает скорость v. Вне сферы r = ct поле остаётся полем покоящегося заряда, внутри — это поле движущегося заряда, прижатое к плоскости, перпендикулярной скорости, а на самой сфере силовые линии соединяются дугами: это фронт электромагнитной волны. Линии проведены с равным потоком, поэтому их густота — напряжённость поля. Показаны β = 0,30 и β = 0,85; соединение линий следует из закона Гаусса: cos θ = cos ψ / √(1 − β² sin² ψ).">
+<meta property="og:title" content="Киральная аномалия: откуда берутся частицы?">
+<meta property="og:description" content="Безмассовый фермион на кольце: электрическое поле сдвигает уровни, правые поднимаются через $E=0$, левые опускаются, и подсчёт даёт $dQ_5/dt=eEL/\pi$ при сохранении векторного заряда; разные способы обрезать бесконечное море показывают, что выбор регуляризации решает, какой ток сохранится. Затем уровни Ландау в $3+1$ измерениях дают $\partial_\mu j_5^\mu=\frac{e^2}{2\pi^2}\mathbf{E}\cdot\mathbf{B}$ и распад $\pi^0\to\gamma\gamma$.">
 <meta property="og:url" content="https://neutrinohit.github.io/qr/qft/0036/">
 <meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/qft/0036.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+ onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false})"></script>
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
 if(l!=='ru'&&l!=='en'){l=((navigator.language||'ru').toLowerCase().indexOf('ru')===0)?'ru':'en'}
 d.setAttribute('data-lang',l);d.lang=l})();</script>
@@ -56,9 +60,9 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <a href="/qr/qft/"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
-<h1><span lang="ru">Пинок электрону: фронт электромагнитной волны</span><span lang="en">A kick to an electron: the front of an electromagnetic wave</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../../assets/book-animations/qft/0036.jpg" data-src-ru="../../../assets/animations/dvnanima/fields-waves-electron-kick-front.mp4" data-src-en="../../../assets/animations/dvnanima/fields-waves-electron-kick-front-en.mp4" data-poster-ru="../../../assets/book-animations/qft/0036.jpg" data-poster-en="../../../assets/book-animations/qft/0036_en.jpg">
-<source src="../../../assets/animations/dvnanima/fields-waves-electron-kick-front.mp4" type="video/mp4">
+<h1><span lang="ru">Киральная аномалия: откуда берутся частицы?</span><span lang="en">The chiral anomaly: where do the particles come from?</span></h1>
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../../assets/book-animations/qft/0036.jpg" data-src-ru="../../../assets/animations/dvnanima/fields-waves-chiral-anomaly-film.mp4" data-src-en="../../../assets/animations/dvnanima/fields-waves-chiral-anomaly-film-en.mp4" data-poster-ru="../../../assets/book-animations/qft/0036.jpg" data-poster-en="../../../assets/book-animations/qft/0036_en.jpg">
+<source src="../../../assets/animations/dvnanima/fields-waves-chiral-anomaly-film.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
 <span><span lang="ru">Скорость</span><span lang="en">Speed</span>:</span>
@@ -66,16 +70,17 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" id="dl" href="../../../assets/animations/dvnanima/fields-waves-electron-kick-front.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" id="dl" href="../../../assets/animations/dvnanima/fields-waves-chiral-anomaly-film.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Электрон мгновенно получает скорость v. Вне сферы r = ct поле остаётся полем покоящегося заряда, внутри — это поле движущегося заряда, прижатое к плоскости, перпендикулярной скорости, а на самой сфере силовые линии соединяются дугами: это фронт электромагнитной волны. Линии проведены с равным потоком, поэтому их густота — напряжённость поля. Показаны β = 0,30 и β = 0,85; соединение линий следует из закона Гаусса: cos θ = cos ψ / √(1 − β² sin² ψ).</span><span lang="en">An electron is instantaneously given the velocity v. Outside the sphere r = ct the field is still that of the charge at rest; inside it is the field of the moving charge, pressed towards the plane perpendicular to the velocity; on the sphere itself the field lines are joined by arcs: this is the front of the electromagnetic wave. The lines are drawn with equal flux, so their density is the field strength. β = 0.30 and β = 0.85 are shown; the joining of the lines follows from Gauss&#x27;s law: cos θ = cos ψ / √(1 − β² sin² ψ).</span></p>
+<p class="caption"><span lang="ru">Безмассовый фермион на кольце: электрическое поле сдвигает уровни, правые поднимаются через $E=0$, левые опускаются, и подсчёт даёт $dQ_5/dt=eEL/\pi$ при сохранении векторного заряда; разные способы обрезать бесконечное море показывают, что выбор регуляризации решает, какой ток сохранится. Затем уровни Ландау в $3+1$ измерениях дают $\partial_\mu j_5^\mu=\frac{e^2}{2\pi^2}\mathbf{E}\cdot\mathbf{B}$ и распад $\pi^0\to\gamma\gamma$.</span><span lang="en">A massless fermion on a ring: an electric field shifts the levels, the right-handed ones rise through $E=0$, the left-handed ones fall, and the counting gives $dQ_5/dt=eEL/\pi$ with the vector charge conserved; different ways to cut the infinite sea show that the choice of the regularisation decides which current survives. Then the Landau levels in $3+1$ dimensions give $\partial_\mu j_5^\mu=\frac{e^2}{2\pi^2}\mathbf{E}\cdot\mathbf{B}$ and the decay $\pi^0\to\gamma\gamma$.</span></p>
 <div class="card"><dl class="meta">
-<dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 2, гл. 23 «Калибровочная инвариантность»</span><span lang="en">Volume 2, Chapter 23 “Gauge Invariance”</span></dd>
+<dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 2, гл. 40 «Квантовые аномалии»</span><span lang="en">Volume 2, Chapter 40 “Quantum Anomalies”</span></dd>
 <dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
-<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/electron_kick" rel="noopener">GitHub</a></dd>
-<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-electron-kick"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/chiral_anomaly" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">Модель: безмассовый фермион на кольце, уровни k_n(t) = 2 pi (n + theta)/L + eEt, заполненное море Дирака, число частиц и дырок считается по уровням; регуляризации (окно по энергии, окно по фиксированным уровням, цепочка E = sin ka) и уровни Ландау оператора Вейля (диагонализация на полосе) просчитаны численно; Gamma(pi0 -&gt; gamma gamma) по формуле книги, f_pi = 92,1 МэВ. Кольцо с частицами и пластина с состояниями уровня Ландау схематичны. Анимация создана автором книги.</span><span lang="en">Model: a massless fermion on a ring, levels k_n(t) = 2 pi (n + theta)/L + eEt, the filled Dirac sea; the numbers of particles and holes are counted level by level; the regularisations (a window in the energy, a window in fixed levels, a chain with E = sin ka) and the Landau levels of the Weyl operator (diagonalisation on a strip) are computed numerically; Gamma(pi0 -&gt; gamma gamma) from the formula of the book with f_pi = 92.1 MeV. The ring with the particles and the plate with the states of a Landau level are schematic. Animation made for the book.</span></dd>
+<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-chiral-anomaly"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
-<nav class="nav"><a href="../0038/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Интеграл по траекториям</span><span lang="en">The path integral</span></a><a href="../0046/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Калибровочный принцип: два друга и поле</span><span lang="en">The gauge principle: two friends and a field</span> →</a></nav>
+<nav class="nav"><a href="../0035/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Осцилляции нейтральных каонов</span><span lang="en">Oscillations of neutral kaons</span></a><a href="../0037/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Распад π⁰ → e⁺e⁻e⁺e⁻: E, B и плоскости пар</span><span lang="en">The decay π⁰ → e⁺e⁻e⁺e⁻: E, B and the planes of the pairs</span> →</a></nav>
 <footer>
 <p><span lang="ru">Анимация к книге</span><span lang="en">Animation for the book</span> <a href="/ru/materials.html" lang="ru">«Квантовая теория поля для экспериментаторов и не только»</a><a href="/en/materials.html" lang="en">“Quantum Field Theory for Experimentalists and Beyond”</a>, <span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span> · <a href="/">NeutrinoHit</a></p>
 </footer>

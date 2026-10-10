@@ -1,16 +1,20 @@
 <!doctype html>
-<html lang="ru" data-lang="ru" data-title-ru="Рассеяние νμ + e → νe + μ — NeutrinoHit" data-title-en="Scattering νμ + e → νe + μ — NeutrinoHit">
+<html lang="ru" data-lang="ru" data-title-ru="Калибровочный принцип: два друга и поле — NeutrinoHit" data-title-en="The gauge principle: two friends and a field — NeutrinoHit">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Рассеяние νμ + e → νe + μ — NeutrinoHit</title>
-<meta name="description" content="Анимированная диаграмма Фейнмана реакции νμ e⁻ → μ⁻ νe через обмен W-бозоном.">
+<title>Калибровочный принцип: два друга и поле — NeutrinoHit</title>
+<meta name="description" content="Два друга выбирают фазу волновой функции независимо в разных точках: общий сдвиг фазы не меняет картину интерференции, а сдвиг в одном плече сдвигает полосы. Свободный пакет в новом выборе фазы выглядит отклонённым, пока не добавлено компенсирующее поле $A_\mu\to A_\mu-\partial_\mu\alpha/q$ в ковариантной производной $D_\mu=\partial_\mu+iqA_\mu$. Напряжённость $F_{\mu\nu}$ и фаза по замкнутой петле не зависят от выбора фазы.">
 <link rel="canonical" href="https://neutrinohit.github.io/qr/qft/0027/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Рассеяние νμ + e → νe + μ">
-<meta property="og:description" content="Анимированная диаграмма Фейнмана реакции νμ e⁻ → μ⁻ νe через обмен W-бозоном.">
+<meta property="og:title" content="Калибровочный принцип: два друга и поле">
+<meta property="og:description" content="Два друга выбирают фазу волновой функции независимо в разных точках: общий сдвиг фазы не меняет картину интерференции, а сдвиг в одном плече сдвигает полосы. Свободный пакет в новом выборе фазы выглядит отклонённым, пока не добавлено компенсирующее поле $A_\mu\to A_\mu-\partial_\mu\alpha/q$ в ковариантной производной $D_\mu=\partial_\mu+iqA_\mu$. Напряжённость $F_{\mu\nu}$ и фаза по замкнутой петле не зависят от выбора фазы.">
 <meta property="og:url" content="https://neutrinohit.github.io/qr/qft/0027/">
 <meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/qft/0027.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+ onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false})"></script>
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
 if(l!=='ru'&&l!=='en'){l=((navigator.language||'ru').toLowerCase().indexOf('ru')===0)?'ru':'en'}
 d.setAttribute('data-lang',l);d.lang=l})();</script>
@@ -56,9 +60,9 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <a href="/qr/qft/"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
-<h1><span lang="ru">Рассеяние νμ + e → νe + μ</span><span lang="en">Scattering νμ + e → νe + μ</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../../assets/book-animations/qft/0027.jpg">
-<source src="../../../assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-electron.mp4" type="video/mp4">
+<h1><span lang="ru">Калибровочный принцип: два друга и поле</span><span lang="en">The gauge principle: two friends and a field</span></h1>
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../../assets/book-animations/qft/0027.jpg" data-src-ru="../../../assets/animations/dvnanima/fields-waves-gauge-principle-film.mp4" data-src-en="../../../assets/animations/dvnanima/fields-waves-gauge-principle-film-en.mp4" data-poster-ru="../../../assets/book-animations/qft/0027.jpg" data-poster-en="../../../assets/book-animations/qft/0027_en.jpg">
+<source src="../../../assets/animations/dvnanima/fields-waves-gauge-principle-film.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
 <span><span lang="ru">Скорость</span><span lang="en">Speed</span>:</span>
@@ -66,16 +70,17 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" id="dl" href="../../../assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-electron.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" id="dl" href="../../../assets/animations/dvnanima/fields-waves-gauge-principle-film.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Анимированная диаграмма Фейнмана реакции νμ e⁻ → μ⁻ νe через обмен W-бозоном.</span><span lang="en">An animated Feynman diagram of the reaction νμ e⁻ → μ⁻ νe through W-boson exchange.</span></p>
+<p class="caption"><span lang="ru">Два друга выбирают фазу волновой функции независимо в разных точках: общий сдвиг фазы не меняет картину интерференции, а сдвиг в одном плече сдвигает полосы. Свободный пакет в новом выборе фазы выглядит отклонённым, пока не добавлено компенсирующее поле $A_\mu\to A_\mu-\partial_\mu\alpha/q$ в ковариантной производной $D_\mu=\partial_\mu+iqA_\mu$. Напряжённость $F_{\mu\nu}$ и фаза по замкнутой петле не зависят от выбора фазы.</span><span lang="en">Two friends choose the phase of the wave function independently at different points: a common phase shift does not change the interference pattern, a shift in one path moves the fringes. A free packet looks deflected in the new choice of the phase until the compensating field $A_\mu\to A_\mu-\partial_\mu\alpha/q$ is added in the covariant derivative $D_\mu=\partial_\mu+iqA_\mu$. The field strength $F_{\mu\nu}$ and the phase around a closed loop do not depend on the choice of the phase.</span></p>
 <div class="card"><dl class="meta">
-<dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 2, гл. 29 «Взаимодействие нейтрино с электроном»</span><span lang="en">Volume 2, Chapter 29 “Neutrino–Electron Scattering”</span></dd>
-<dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd>Д. В. Наумов</dd>
-<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/feynman_scattering" rel="noopener">GitHub</a></dd>
-<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-neutrino-particles-feynman-scattering"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
+<dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 2, гл. 23 «Калибровочная инвариантность»</span><span lang="en">Volume 2, Chapter 23 “Gauge Invariance”</span></dd>
+<dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/gauge_principle" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">Двухщелевая интерференция: точное решение параксиального уравнения (гауссовы пучки); частица на решётке с ковариантным лапласианом на связях (линиях Вильсона), точная эволюция диагонализацией гамильтониана; плоскость с трубкой потока, интегралы по контурам и по площади. Соглашения книги: ψ → e^{iα}ψ, A → A − ∂α/q, D = ∂ + iqA.</span><span lang="en">Two-slit interference: the exact solution of the paraxial equation (Gaussian beams); a particle on a lattice with the covariant Laplacian built from the links (Wilson lines), exact time evolution by diagonalisation of the Hamiltonian; a plane with a flux tube, contour and area integrals. The book&#x27;s conventions: ψ → e^{iα}ψ, A → A − ∂α/q, D = ∂ + iqA.</span></dd>
+<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-gauge-principle"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
-<nav class="nav"><a href="../0042/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Спиновая и орбитальная структура пары f f̄ в распадах бозона Хиггса</span><span lang="en">Spin and orbital structure of the f f̄ pair in Higgs decays</span></a><a href="../0028/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Рассеяние нейтрино через Z-бозон</span><span lang="en">Neutrino scattering through the Z boson</span> →</a></nav>
+<nav class="nav"><a href="../0026/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Интеграл по траекториям</span><span lang="en">The path integral</span></a><a href="../0028/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Пинок электрону: фронт электромагнитной волны</span><span lang="en">A kick to an electron: the front of an electromagnetic wave</span> →</a></nav>
 <footer>
 <p><span lang="ru">Анимация к книге</span><span lang="en">Animation for the book</span> <a href="/ru/materials.html" lang="ru">«Квантовая теория поля для экспериментаторов и не только»</a><a href="/en/materials.html" lang="en">“Quantum Field Theory for Experimentalists and Beyond”</a>, <span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span> · <a href="/">NeutrinoHit</a></p>
 </footer>
@@ -91,6 +96,14 @@ document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener
 if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
 var bs=document.querySelectorAll('[data-rate]');bs.forEach(function(b){b.addEventListener('click',function(){
 v.playbackRate=parseFloat(b.getAttribute('data-rate'));bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
-if(v.paused)v.play().catch(function(){})})})})();</script>
+if(v.paused)v.play().catch(function(){})})})})();
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();</script>
 </body>
 </html>
