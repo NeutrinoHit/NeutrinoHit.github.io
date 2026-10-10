@@ -256,9 +256,7 @@
         },
         "poster_time": 6.0
       },
-      "legacy_codes": [
-        "0001"
-      ],
+      "legacy_codes": [],
       "gallery": "fields-waves/circular-polarization"
     },
     {
@@ -428,9 +426,7 @@
         },
         "poster_time": 20.0
       },
-      "legacy_codes": [
-        "0017"
-      ],
+      "legacy_codes": [],
       "gallery": "relativity-atom-spin/simultaneity"
     },
     {
@@ -588,9 +584,7 @@
         },
         "poster_time": 56.0
       },
-      "legacy_codes": [
-        "0002"
-      ],
+      "legacy_codes": [],
       "gallery": "fields-waves/standard-model-field-mattress"
     },
     {
