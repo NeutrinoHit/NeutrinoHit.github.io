@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru" data-lang="ru" data-title-ru="Трёхмерная решётка связанных осцилляторов — NeutrinoHit" data-title-en="A three-dimensional lattice of coupled oscillators — NeutrinoHit">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Трёхмерная решётка связанных осцилляторов — NeutrinoHit</title>
+<meta name="description" content="Трёхмерная решётка 14×8×8 масс m, соединённых пружинками k, с закреплённой границей. Масса — точка, размер и яркость которой показывают смещение, а цвет — его знак. Нормальные моды (a, b, c) с формулами и спектр энергий мод; рядом дисперсия ω(|k|). Выпуклость в центре отпускают: бежит сферическая волна, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, z, t), а дисперсия — в ω = c|k|.">
+<link rel="canonical" href="https://neutrinohit.github.io/qr/qft/0034/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Трёхмерная решётка связанных осцилляторов">
+<meta property="og:description" content="Трёхмерная решётка 14×8×8 масс m, соединённых пружинками k, с закреплённой границей. Масса — точка, размер и яркость которой показывают смещение, а цвет — его знак. Нормальные моды (a, b, c) с формулами и спектр энергий мод; рядом дисперсия ω(|k|). Выпуклость в центре отпускают: бежит сферическая волна, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, z, t), а дисперсия — в ω = c|k|.">
+<meta property="og:url" content="https://neutrinohit.github.io/qr/qft/0034/">
+<meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/qft/0034.jpg">
+<script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
+if(l!=='ru'&&l!=='en'){l=((navigator.language||'ru').toLowerCase().indexOf('ru')===0)?'ru':'en'}
+d.setAttribute('data-lang',l);d.lang=l})();</script>
+<style>:root{--bg:#f5f7fd;--card:#fff;--text:#25313a;--muted:#53616f;--accent:#1f6f8b;--border:rgba(43,67,91,.16);--shadow:0 8px 24px rgba(43,67,91,.12);--media:#000}
+@media (prefers-color-scheme:dark){:root{--bg:#10161c;--card:#18212a;--text:#e6edf3;--muted:#9fb0bf;--accent:#6cc0dc;--border:rgba(160,190,220,.22);--shadow:none}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--accent)}
+.wrap{max-width:780px;margin:0 auto;padding:12px max(16px,env(safe-area-inset-right)) 40px max(16px,env(safe-area-inset-left))}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:14px;color:var(--muted);padding:6px 0 10px}
+.top a{color:inherit;text-decoration:none}
+.lang{display:inline-flex;border:1px solid var(--border);border-radius:7px;overflow:hidden}
+.lang button{font:inherit;font-size:13px;border:0;background:transparent;color:var(--muted);padding:4px 10px;cursor:pointer}
+html[data-lang=ru] .lang [data-set=ru],html[data-lang=en] .lang [data-set=en]{background:var(--accent);color:var(--card)}
+h1{font-size:1.45rem;line-height:1.25;margin:.2em 0 .6em}
+.stage{margin:0 0 14px;background:var(--media);border-radius:8px;overflow:hidden;box-shadow:var(--shadow);text-align:center}
+.stage video{display:block;width:100%;height:auto;max-height:72vh;margin:0 auto;object-fit:contain}
+.tools{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 14px;font-size:14px;color:var(--muted)}
+.tools button,.btn{font:inherit;font-size:14px;border:1px solid var(--border);background:var(--card);color:var(--text);border-radius:7px;padding:5px 11px;cursor:pointer;text-decoration:none}
+.tools button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--card)}
+.btn.primary{display:inline-block;background:var(--accent);border-color:var(--accent);color:var(--card);padding:10px 18px;font-size:16px}
+.caption{margin:0 0 16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin:0 0 16px}
+.card p{margin:.2em 0 .8em}
+dl.meta{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;font-size:15px}
+dl.meta dt{color:var(--muted)}
+dl.meta dd{margin:0}
+.nav{display:flex;justify-content:space-between;gap:12px;font-size:15px;margin:22px 0 0}
+.nav a{max-width:48%}
+footer{margin-top:26px;font-size:13px;color:var(--muted)}
+html[data-lang=ru] [lang=en],html[data-lang=en] [lang=ru]{display:none!important}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin:0;padding:0;list-style:none}
+.grid a{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border);border-radius:8px;overflow:hidden;height:100%}
+.grid img,.grid .ph{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;background:var(--media)}
+.grid .ph{display:flex;align-items:center;justify-content:center;color:#9fb0bf;font-size:13px}
+.grid .t{padding:8px 11px 10px;font-size:15px;line-height:1.35}
+.grid small{display:block;color:var(--muted);font-size:12.5px;margin-top:3px}
+h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top">
+<a href="/qr/qft/"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
+<span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
+</div>
+<h1><span lang="ru">Трёхмерная решётка связанных осцилляторов</span><span lang="en">A three-dimensional lattice of coupled oscillators</span></h1>
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../../assets/book-animations/qft/0034.jpg" data-src-ru="../../../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.mp4" data-src-en="../../../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice-en.mp4" data-poster-ru="../../../assets/book-animations/qft/0034.jpg" data-poster-en="../../../assets/book-animations/qft/0034_en.jpg">
+<source src="../../../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.mp4" type="video/mp4">
+</video></div>
+<div class="tools" aria-label="Скорость / Speed">
+<span><span lang="ru">Скорость</span><span lang="en">Speed</span>:</span>
+<button type="button" data-rate="0.25" aria-pressed="false">0.25×</button>
+<button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
+<button type="button" data-rate="1" aria-pressed="true">1×</button>
+<button type="button" data-rate="2" aria-pressed="false">2×</button>
+<a class="btn" id="dl" href="../../../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+</div>
+<p class="caption"><span lang="ru">Трёхмерная решётка 14×8×8 масс m, соединённых пружинками k, с закреплённой границей. Масса — точка, размер и яркость которой показывают смещение, а цвет — его знак. Нормальные моды (a, b, c) с формулами и спектр энергий мод; рядом дисперсия ω(|k|). Выпуклость в центре отпускают: бежит сферическая волна, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, z, t), а дисперсия — в ω = c|k|.</span><span lang="en">A three-dimensional 14×8×8 lattice of masses m joined by springs k with a fixed boundary. A mass is a dot whose size and brightness show the displacement and whose colour is its sign. The normal modes (a, b, c) with their formulas and the spectrum of the mode energies; beside it the dispersion ω(|k|). A bump at the centre is released: a spherical wave runs out, many modes take part and their energies are constant. Two waves in the linear lattice pass through each other (free particles). With anharmonic terms (cubic and quartic) in the Lagrangian the energy is redistributed among the modes: this is the interaction. For N → ∞ the lattice becomes the field φ(x, y, z, t) and the dispersion becomes ω = c|k|.</span></p>
+<div class="card"><dl class="meta">
+<dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 1, гл. 12 «Основы классической теории поля»</span><span lang="en">Volume 1, Chapter 12 “Basics of Classical Field Theory”</span></dd>
+<dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_lattice_3d" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-coupled-lattice-3d"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
+</dl></div>
+<nav class="nav"><a href="../0033/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Цепочка связанных осцилляторов</span><span lang="en">A chain of coupled oscillators</span></a><a href="../0008/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Круговая поляризация</span><span lang="en">Circular polarization</span> →</a></nav>
+<footer>
+<p><span lang="ru">Анимация к книге</span><span lang="en">Animation for the book</span> <a href="/ru/materials.html" lang="ru">«Квантовая теория поля для экспериментаторов и не только»</a><a href="/en/materials.html" lang="en">“Quantum Field Theory for Experimentalists and Beyond”</a>, <span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span> · <a href="/">NeutrinoHit</a></p>
+</footer>
+</div>
+<script>(function(){var d=document.documentElement;function apply(l,save){d.setAttribute('data-lang',l);d.lang=l;
+var t=d.getAttribute('data-title-'+l);if(t)document.title=t;
+if(save){try{localStorage.setItem('nh-lang',l)}catch(e){}}}
+apply(d.getAttribute('data-lang'),false);
+document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){apply(b.getAttribute('data-set'),true)})});
+})();</script>
+<script defer src="https://neutrinohit.github.io/assets/analytics/cloudflare-web-analytics.js"></script>
+<script>(function(){var v=document.getElementById('v');if(!v)return;
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
+var bs=document.querySelectorAll('[data-rate]');bs.forEach(function(b){b.addEventListener('click',function(){
+v.playbackRate=parseFloat(b.getAttribute('data-rate'));bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+if(v.paused)v.play().catch(function(){})})})})();
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();</script>
+</body>
+</html>

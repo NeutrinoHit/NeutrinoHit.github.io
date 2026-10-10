@@ -84,14 +84,12 @@ def set_book(book: dict[str, Any]) -> None:
     CATALOG = SITE_ROOT / book["catalog"]
     ASSET_SUB = book["asset_subdir"]
     ASSET_DIR = SITE_ROOT / "assets" / ASSET_SUB
-    qr_path = book["qr_path"].strip("/")                       # "qr" (the first book) or "qr/<slug>"
+    qr_path = book["qr_path"].strip("/")                       # "qr/<slug>"
     OUT_DIR = SITE_ROOT / qr_path
     INDEX_PATH = book["index_path"]
-    n_index = len(INDEX_PATH.strip("/").split("/"))
     ROOT_UP = "../" * (len(qr_path.split("/")) + 1)
-    INDEX_UP = "../" * n_index
-    legacy = INDEX_PATH.strip("/") != qr_path                  # the index lives next to the item pages or one level deeper
-    ITEM_REL = "../" if legacy else ""
+    INDEX_UP = "../" * len(INDEX_PATH.strip("/").split("/"))
+    ITEM_REL = "" if INDEX_PATH.strip("/") == qr_path else "../"
     INDEX_DIR = SITE_ROOT / INDEX_PATH.strip("/")
     MANIFEST_DIR = OUT_DIR
 
@@ -106,8 +104,9 @@ def load_catalog(book: dict[str, Any] | None = None) -> dict[str, Any]:
 
 
 def sort_key(item: dict[str, Any]) -> tuple[int, int, str]:
+    """(volume, chapter) of a printed book; a book without volumes orders its sections by book.order."""
     book = item["book"]
-    return (book["volume"], book["chapter"], item["id"])
+    return (book.get("volume", 0), book.get("chapter", book.get("order", 0)), item["id"])
 
 
 LANGS = ("ru", "en")
@@ -379,7 +378,11 @@ def movie_path(item: dict[str, Any], lang: str = "ru") -> str:
 
 
 def chapter_ref(item: dict[str, Any]) -> str:
+    """The place of the animation in the book: "Volume V, Chapter N “title”", or just "Section “title”" for a book without volumes."""
     book = item["book"]
+    if "volume" not in book:
+        title = book["section_title"]
+        return bi_raw(f'Раздел «{esc(title["ru"])}»', f'Section “{esc(title["en"])}”')
     title = book["chapter_title"]
     return bi_raw(
         f'Том {book["volume"]}, гл. {book["chapter"]} «{esc(title["ru"])}»',
@@ -586,7 +589,7 @@ def render_index(catalog: dict[str, Any], items: list[dict[str, Any]]) -> str:
 """
     current = None
     for item in items:
-        group = (item["book"]["volume"], item["book"]["chapter"])
+        group = sort_key(item)[:2]
         if group != current:
             if current is not None:
                 page += "</ul>\n"
@@ -640,6 +643,26 @@ def build_pages(catalog: dict[str, Any], items: list[dict[str, Any]],
     if write_if_changed(MANIFEST_DIR / "manifest.json", text):
         written.append(MANIFEST_DIR / "manifest.json")
     return written
+
+
+def render_root_alias(catalog: dict[str, Any], item: dict[str, Any]) -> str:
+    """/qr/<id>/ (the first addresses of the book) redirects to /qr/<slug>/<id>/."""
+    target = page_url(catalog, item["id"])
+    rel = f'{BOOK_SLUG}/{item["id"]}/'
+    return f"""<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{esc(item["title"]["ru"])} — NeutrinoHit</title>
+<meta http-equiv="refresh" content="0; url={rel}">
+<link rel="canonical" href="{esc(target)}">
+<meta name="robots" content="noindex">
+<script>location.replace("{rel}"+location.search+location.hash)</script>
+</head>
+<body><p><a href="{rel}">{esc(item["title"]["ru"])}</a></p></body>
+</html>
+"""
 
 
 def render_hub(registry: dict[str, Any], built: dict[str, dict[str, Any]]) -> str:
@@ -738,6 +761,10 @@ def main() -> int:
         if args.out_dir is not None:                           # a scratch directory: the index and the manifest go there too
             INDEX_DIR = MANIFEST_DIR = out_dir
         written = build_pages(catalog, items, out_dir)
+        if book.get("root_aliases") and args.out_dir is None:
+            for item in items:
+                if write_if_changed(QR_ROOT / item["id"] / "index.html", render_root_alias(catalog, item)):
+                    written.append(QR_ROOT / item["id"] / "index.html")
         for item in items:
             flag = "  [proposed]" if item.get("status") == "proposed" else ""
             print(f'{book["slug"]}  {item["id"]}  {item["hosting"]:8}  {item["slug"]}{flag}')

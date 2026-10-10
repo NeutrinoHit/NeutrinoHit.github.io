@@ -1,0 +1,198 @@
+{
+  "0001": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0001/",
+    "slug": "scale-ladder",
+    "hosting": "self",
+    "qr_file": "ScaleLadder.pdf",
+    "legacy_codes": []
+  },
+  "0002": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0002/",
+    "slug": "standard-model-particles",
+    "hosting": "self",
+    "qr_file": "StandardModelParticles.pdf",
+    "legacy_codes": []
+  },
+  "0003": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0003/",
+    "slug": "why-particle-physics",
+    "hosting": "self",
+    "qr_file": "WhyParticlePhysics.pdf",
+    "legacy_codes": []
+  },
+  "0004": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0004/",
+    "slug": "qcd-spring",
+    "hosting": "self",
+    "qr_file": "QCDSpring.pdf",
+    "legacy_codes": []
+  },
+  "0005": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0005/",
+    "slug": "cross-section",
+    "hosting": "self",
+    "qr_file": "CrossSection.pdf",
+    "legacy_codes": []
+  },
+  "0006": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0006/",
+    "slug": "rutherford-geiger-marsden",
+    "hosting": "self",
+    "qr_file": "Rutherford_animation.pdf",
+    "legacy_codes": []
+  },
+  "0007": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0007/",
+    "slug": "scattering-experiment",
+    "hosting": "self",
+    "qr_file": "ScatteringExperiment.pdf",
+    "legacy_codes": []
+  },
+  "0008": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0008/",
+    "slug": "thomson-tube",
+    "hosting": "self",
+    "qr_file": "ThomsonTube.pdf",
+    "legacy_codes": []
+  },
+  "0009": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0009/",
+    "slug": "sm-field-mattress",
+    "hosting": "self",
+    "qr_file": "StandardModel_FieldMattress.pdf",
+    "legacy_codes": []
+  },
+  "0010": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0010/",
+    "slug": "lagrangian-scroll",
+    "hosting": "self",
+    "qr_file": "LagrangianScroll.pdf",
+    "legacy_codes": []
+  },
+  "0011": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0011/",
+    "slug": "formula-cat",
+    "hosting": "self",
+    "qr_file": "FormulaCat.pdf",
+    "legacy_codes": []
+  },
+  "0012": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0012/",
+    "slug": "coupled-pendulums",
+    "hosting": "self",
+    "qr_file": "CoupledPendulums.pdf",
+    "legacy_codes": []
+  },
+  "0013": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0013/",
+    "slug": "chiral-condensate-layer",
+    "hosting": "self",
+    "qr_file": "ChiralCondensateLayer.pdf",
+    "legacy_codes": []
+  },
+  "0014": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0014/",
+    "slug": "standard-model-finale",
+    "hosting": "self",
+    "qr_file": "StandardModelFinale.pdf",
+    "legacy_codes": []
+  },
+  "0015": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0015/",
+    "slug": "radiating-charge",
+    "hosting": "self",
+    "qr_file": "RadiatingCharge.pdf",
+    "legacy_codes": []
+  },
+  "0016": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0016/",
+    "slug": "gauge-principle",
+    "hosting": "self",
+    "qr_file": "GaugePrinciple.pdf",
+    "legacy_codes": []
+  },
+  "0017": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0017/",
+    "slug": "electron-kick",
+    "hosting": "self",
+    "qr_file": "ElectronKick.pdf",
+    "legacy_codes": []
+  },
+  "0018": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0018/",
+    "slug": "meissner-photon-mass",
+    "hosting": "self",
+    "qr_file": "MeissnerPhotonMass.pdf",
+    "legacy_codes": []
+  },
+  "0019": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0019/",
+    "slug": "chiral-fermion-mass",
+    "hosting": "self",
+    "qr_file": "ChiralFermionMass.pdf",
+    "legacy_codes": []
+  },
+  "0020": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0020/",
+    "slug": "higgs-ff-spin",
+    "hosting": "self",
+    "qr_file": "HiggsFFbarSpin.pdf",
+    "legacy_codes": []
+  },
+  "0021": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0021/",
+    "slug": "z-decay-asymmetry",
+    "hosting": "self",
+    "qr_file": "ZDecayAsymmetry.pdf",
+    "legacy_codes": []
+  },
+  "0022": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0022/",
+    "slug": "feynman-numu-electron",
+    "hosting": "self",
+    "qr_file": "Feynman_NuMuElectron.pdf",
+    "legacy_codes": []
+  },
+  "0023": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0023/",
+    "slug": "feynman-numu-z",
+    "hosting": "self",
+    "qr_file": "Feynman_NuMuZ.pdf",
+    "legacy_codes": []
+  },
+  "0024": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0024/",
+    "slug": "quantum-chameleon",
+    "hosting": "self",
+    "qr_file": "QuantumChameleon.pdf",
+    "legacy_codes": []
+  },
+  "0025": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0025/",
+    "slug": "oscillation-phases",
+    "hosting": "self",
+    "qr_file": "OscillationPhases.pdf",
+    "legacy_codes": []
+  },
+  "0026": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0026/",
+    "slug": "kaon-oscillations",
+    "hosting": "self",
+    "qr_file": "KaonOscillations.pdf",
+    "legacy_codes": []
+  },
+  "0027": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0027/",
+    "slug": "chiral-anomaly",
+    "hosting": "self",
+    "qr_file": "ChiralAnomaly.pdf",
+    "legacy_codes": []
+  },
+  "0028": {
+    "url": "https://neutrinohit.github.io/qr/particle-physics/0028/",
+    "slug": "pi0-double-dalitz",
+    "hosting": "self",
+    "qr_file": "Pi0DoubleDalitz.pdf",
+    "legacy_codes": []
+  }
+}

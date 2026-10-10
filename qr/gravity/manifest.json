@@ -1,0 +1,30 @@
+{
+  "0001": {
+    "url": "https://neutrinohit.github.io/qr/gravity/0001/",
+    "slug": "hulse-taylor",
+    "hosting": "self",
+    "qr_file": "HulseTaylor.pdf",
+    "legacy_codes": []
+  },
+  "0002": {
+    "url": "https://neutrinohit.github.io/qr/gravity/0002/",
+    "slug": "galaxy-merger",
+    "hosting": "self",
+    "qr_file": "Galaxy_Merger.pdf",
+    "legacy_codes": []
+  },
+  "0003": {
+    "url": "https://neutrinohit.github.io/qr/gravity/0003/",
+    "slug": "penrose-rotation",
+    "hosting": "self",
+    "qr_file": "PenroseRotation_animation.pdf",
+    "legacy_codes": []
+  },
+  "0004": {
+    "url": "https://neutrinohit.github.io/qr/gravity/0004/",
+    "slug": "relativity-simultaneity",
+    "hosting": "self",
+    "qr_file": "Relativity_of_Simultaneity_animation.pdf",
+    "legacy_codes": []
+  }
+}

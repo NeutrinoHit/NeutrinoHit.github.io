@@ -3,8 +3,8 @@
   "qr_path": "/qr/numerical-methods/",
   "book": {
     "title": {
-      "ru": "Численные методы",
-      "en": "Numerical Methods"
+      "ru": "Численные методы для физиков",
+      "en": "Numerical Methods for Physicists"
     },
     "author": {
       "ru": "Д. В. Наумов",

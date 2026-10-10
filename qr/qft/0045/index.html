@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ru" data-lang="ru" data-title-ru="Киральная аномалия: откуда берутся частицы? — NeutrinoHit" data-title-en="The chiral anomaly: where do the particles come from? — NeutrinoHit">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Киральная аномалия: откуда берутся частицы? — NeutrinoHit</title>
+<meta name="description" content="Безмассовый фермион на кольце: электрическое поле сдвигает уровни, правые поднимаются через $E=0$, левые опускаются, и подсчёт даёт $dQ_5/dt=eEL/\pi$ при сохранении векторного заряда; разные способы обрезать бесконечное море показывают, что выбор регуляризации решает, какой ток сохранится. Затем уровни Ландау в $3+1$ измерениях дают $\partial_\mu j_5^\mu=\frac{e^2}{2\pi^2}\mathbf{E}\cdot\mathbf{B}$ и распад $\pi^0\to\gamma\gamma$.">
+<link rel="canonical" href="https://neutrinohit.github.io/qr/qft/0045/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Киральная аномалия: откуда берутся частицы?">
+<meta property="og:description" content="Безмассовый фермион на кольце: электрическое поле сдвигает уровни, правые поднимаются через $E=0$, левые опускаются, и подсчёт даёт $dQ_5/dt=eEL/\pi$ при сохранении векторного заряда; разные способы обрезать бесконечное море показывают, что выбор регуляризации решает, какой ток сохранится. Затем уровни Ландау в $3+1$ измерениях дают $\partial_\mu j_5^\mu=\frac{e^2}{2\pi^2}\mathbf{E}\cdot\mathbf{B}$ и распад $\pi^0\to\gamma\gamma$.">
+<meta property="og:url" content="https://neutrinohit.github.io/qr/qft/0045/">
+<meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/qft/0045.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+ onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false})"></script>
+<script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
+if(l!=='ru'&&l!=='en'){l=((navigator.language||'ru').toLowerCase().indexOf('ru')===0)?'ru':'en'}
+d.setAttribute('data-lang',l);d.lang=l})();</script>
+<style>:root{--bg:#f5f7fd;--card:#fff;--text:#25313a;--muted:#53616f;--accent:#1f6f8b;--border:rgba(43,67,91,.16);--shadow:0 8px 24px rgba(43,67,91,.12);--media:#000}
+@media (prefers-color-scheme:dark){:root{--bg:#10161c;--card:#18212a;--text:#e6edf3;--muted:#9fb0bf;--accent:#6cc0dc;--border:rgba(160,190,220,.22);--shadow:none}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--accent)}
+.wrap{max-width:780px;margin:0 auto;padding:12px max(16px,env(safe-area-inset-right)) 40px max(16px,env(safe-area-inset-left))}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:14px;color:var(--muted);padding:6px 0 10px}
+.top a{color:inherit;text-decoration:none}
+.lang{display:inline-flex;border:1px solid var(--border);border-radius:7px;overflow:hidden}
+.lang button{font:inherit;font-size:13px;border:0;background:transparent;color:var(--muted);padding:4px 10px;cursor:pointer}
+html[data-lang=ru] .lang [data-set=ru],html[data-lang=en] .lang [data-set=en]{background:var(--accent);color:var(--card)}
+h1{font-size:1.45rem;line-height:1.25;margin:.2em 0 .6em}
+.stage{margin:0 0 14px;background:var(--media);border-radius:8px;overflow:hidden;box-shadow:var(--shadow);text-align:center}
+.stage video{display:block;width:100%;height:auto;max-height:72vh;margin:0 auto;object-fit:contain}
+.tools{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 14px;font-size:14px;color:var(--muted)}
+.tools button,.btn{font:inherit;font-size:14px;border:1px solid var(--border);background:var(--card);color:var(--text);border-radius:7px;padding:5px 11px;cursor:pointer;text-decoration:none}
+.tools button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--card)}
+.btn.primary{display:inline-block;background:var(--accent);border-color:var(--accent);color:var(--card);padding:10px 18px;font-size:16px}
+.caption{margin:0 0 16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin:0 0 16px}
+.card p{margin:.2em 0 .8em}
+dl.meta{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;font-size:15px}
+dl.meta dt{color:var(--muted)}
+dl.meta dd{margin:0}
+.nav{display:flex;justify-content:space-between;gap:12px;font-size:15px;margin:22px 0 0}
+.nav a{max-width:48%}
+footer{margin-top:26px;font-size:13px;color:var(--muted)}
+html[data-lang=ru] [lang=en],html[data-lang=en] [lang=ru]{display:none!important}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin:0;padding:0;list-style:none}
+.grid a{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border);border-radius:8px;overflow:hidden;height:100%}
+.grid img,.grid .ph{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;background:var(--media)}
+.grid .ph{display:flex;align-items:center;justify-content:center;color:#9fb0bf;font-size:13px}
+.grid .t{padding:8px 11px 10px;font-size:15px;line-height:1.35}
+.grid small{display:block;color:var(--muted);font-size:12.5px;margin-top:3px}
+h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top">
+<a href="/qr/qft/"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
+<span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
+</div>
+<h1><span lang="ru">Киральная аномалия: откуда берутся частицы?</span><span lang="en">The chiral anomaly: where do the particles come from?</span></h1>
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../../assets/book-animations/qft/0045.jpg" data-src-ru="../../../assets/animations/dvnanima/fields-waves-chiral-anomaly-film.mp4" data-src-en="../../../assets/animations/dvnanima/fields-waves-chiral-anomaly-film-en.mp4" data-poster-ru="../../../assets/book-animations/qft/0045.jpg" data-poster-en="../../../assets/book-animations/qft/0045_en.jpg">
+<source src="../../../assets/animations/dvnanima/fields-waves-chiral-anomaly-film.mp4" type="video/mp4">
+</video></div>
+<div class="tools" aria-label="Скорость / Speed">
+<span><span lang="ru">Скорость</span><span lang="en">Speed</span>:</span>
+<button type="button" data-rate="0.25" aria-pressed="false">0.25×</button>
+<button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
+<button type="button" data-rate="1" aria-pressed="true">1×</button>
+<button type="button" data-rate="2" aria-pressed="false">2×</button>
+<a class="btn" id="dl" href="../../../assets/animations/dvnanima/fields-waves-chiral-anomaly-film.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+</div>
+<p class="caption"><span lang="ru">Безмассовый фермион на кольце: электрическое поле сдвигает уровни, правые поднимаются через $E=0$, левые опускаются, и подсчёт даёт $dQ_5/dt=eEL/\pi$ при сохранении векторного заряда; разные способы обрезать бесконечное море показывают, что выбор регуляризации решает, какой ток сохранится. Затем уровни Ландау в $3+1$ измерениях дают $\partial_\mu j_5^\mu=\frac{e^2}{2\pi^2}\mathbf{E}\cdot\mathbf{B}$ и распад $\pi^0\to\gamma\gamma$.</span><span lang="en">A massless fermion on a ring: an electric field shifts the levels, the right-handed ones rise through $E=0$, the left-handed ones fall, and the counting gives $dQ_5/dt=eEL/\pi$ with the vector charge conserved; different ways to cut the infinite sea show that the choice of the regularisation decides which current survives. Then the Landau levels in $3+1$ dimensions give $\partial_\mu j_5^\mu=\frac{e^2}{2\pi^2}\mathbf{E}\cdot\mathbf{B}$ and the decay $\pi^0\to\gamma\gamma$.</span></p>
+<div class="card"><dl class="meta">
+<dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 2, гл. 40 «Квантовые аномалии»</span><span lang="en">Volume 2, Chapter 40 “Quantum Anomalies”</span></dd>
+<dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/chiral_anomaly" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">Модель: безмассовый фермион на кольце, уровни k_n(t) = 2 pi (n + theta)/L + eEt, заполненное море Дирака, число частиц и дырок считается по уровням; регуляризации (окно по энергии, окно по фиксированным уровням, цепочка E = sin ka) и уровни Ландау оператора Вейля (диагонализация на полосе) просчитаны численно; Gamma(pi0 -&gt; gamma gamma) по формуле книги, f_pi = 92,1 МэВ. Кольцо с частицами и пластина с состояниями уровня Ландау схематичны. Анимация создана автором книги.</span><span lang="en">Model: a massless fermion on a ring, levels k_n(t) = 2 pi (n + theta)/L + eEt, the filled Dirac sea; the numbers of particles and holes are counted level by level; the regularisations (a window in the energy, a window in fixed levels, a chain with E = sin ka) and the Landau levels of the Weyl operator (diagonalisation on a strip) are computed numerically; Gamma(pi0 -&gt; gamma gamma) from the formula of the book with f_pi = 92.1 MeV. The ring with the particles and the plate with the states of a Landau level are schematic. Animation made for the book.</span></dd>
+<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-chiral-anomaly"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
+</dl></div>
+<nav class="nav"><a href="../0037/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Распад π⁰ → e⁺e⁻e⁺e⁻: E, B и плоскости пар</span><span lang="en">The decay π⁰ → e⁺e⁻e⁺e⁻: E, B and the planes of the pairs</span></a><span></span></nav>
+<footer>
+<p><span lang="ru">Анимация к книге</span><span lang="en">Animation for the book</span> <a href="/ru/materials.html" lang="ru">«Квантовая теория поля для экспериментаторов и не только»</a><a href="/en/materials.html" lang="en">“Quantum Field Theory for Experimentalists and Beyond”</a>, <span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span> · <a href="/">NeutrinoHit</a></p>
+</footer>
+</div>
+<script>(function(){var d=document.documentElement;function apply(l,save){d.setAttribute('data-lang',l);d.lang=l;
+var t=d.getAttribute('data-title-'+l);if(t)document.title=t;
+if(save){try{localStorage.setItem('nh-lang',l)}catch(e){}}}
+apply(d.getAttribute('data-lang'),false);
+document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){apply(b.getAttribute('data-set'),true)})});
+})();</script>
+<script defer src="https://neutrinohit.github.io/assets/analytics/cloudflare-web-analytics.js"></script>
+<script>(function(){var v=document.getElementById('v');if(!v)return;
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
+var bs=document.querySelectorAll('[data-rate]');bs.forEach(function(b){b.addEventListener('click',function(){
+v.playbackRate=parseFloat(b.getAttribute('data-rate'));bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+if(v.paused)v.play().catch(function(){})})})})();
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();</script>
+</body>
+</html>

@@ -15,5 +15,791 @@
       "en": "/en/materials.html"
     }
   },
-  "items": []
+  "items": [
+    {
+      "id": "0001",
+      "slug": "coupled-oscillators",
+      "qr_file": "CoupledOscillators.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Аналогия: связанные осцилляторы",
+        "en": "An analogy: coupled oscillators"
+      },
+      "caption": {
+        "ru": "Двумерная решётка связанных осцилляторов как наглядная модель поля: волны на решётке и её нормальные моды.",
+        "en": "A two-dimensional lattice of coupled oscillators as a picture of a field: the waves on the lattice and its normal modes."
+      },
+      "book": {
+        "order": 1,
+        "section_title": {
+          "ru": "Знакомство с нейтрино",
+          "en": "First contact with the neutrino"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/coupled_oscillators_baikal.mp4",
+        "poster_time": 20.1
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0002",
+      "slug": "mass-ordering",
+      "qr_file": "MassOrdering.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Порядок масс нейтрино",
+        "en": "The ordering of the neutrino masses"
+      },
+      "caption": {
+        "ru": "Весы сравнивают массы $\\nu_1$ и $\\nu_3$: какое из состояний тяжелее (нормальная или обратная иерархия), пока неизвестно.",
+        "en": "The balance compares the masses of $\\nu_1$ and $\\nu_3$: which state is heavier (the normal or the inverted ordering) is not known yet."
+      },
+      "book": {
+        "order": 1,
+        "section_title": {
+          "ru": "Знакомство с нейтрино",
+          "en": "First contact with the neutrino"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/mass_ordering.mp4",
+        "poster_time": 5.1
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0003",
+      "slug": "spin",
+      "qr_file": "Spin.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Спин и вращение",
+        "en": "Spin and rotation"
+      },
+      "caption": {
+        "ru": "Вращение тела, связанного лентами с окружением: образ спина $1/2$, у которого полный оборот и два оборота отличаются.",
+        "en": "A body joined to its surroundings by ribbons is turned: an image of spin $1/2$, for which one full turn and two turns differ."
+      },
+      "book": {
+        "order": 1,
+        "section_title": {
+          "ru": "Знакомство с нейтрино",
+          "en": "First contact with the neutrino"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/spin.mp4",
+        "poster_time": 18.2
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0004",
+      "slug": "quantum-chameleon-phases",
+      "qr_file": "QuantumChameleonPhases.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Нейтрино как квантовый хамелеон",
+        "en": "Neutrino as a quantum chameleon"
+      },
+      "caption": {
+        "ru": "Две массовые фазы $\\nu_1$ и $\\nu_2$: в фазе нейтрино сохраняет аромат, в противофазе меняет; вероятности $P_{ee}$ и $P_{e\\mu}$ колеблются. Надписи на видео английские.",
+        "en": "Two mass phases $\\nu_1$ and $\\nu_2$: in phase the neutrino keeps its flavour, out of phase it changes; the probabilities $P_{ee}$ and $P_{e\\mu}$ oscillate. The labels in the video are in English."
+      },
+      "book": {
+        "order": 1,
+        "section_title": {
+          "ru": "Знакомство с нейтрино",
+          "en": "First contact with the neutrino"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/oscillation_chameleon.mp4",
+        "poster_time": 2.8
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0005",
+      "slug": "feynman-numu-electron",
+      "qr_file": "Feynman_NuMuElectron.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Рассеяние νμ + e → νe + μ",
+        "en": "Scattering νμ + e → νe + μ"
+      },
+      "caption": {
+        "ru": "Анимированная диаграмма Фейнмана реакции νμ e⁻ → μ⁻ νe через обмен W-бозоном.",
+        "en": "An animated Feynman diagram of the reaction νμ e⁻ → μ⁻ νe through W-boson exchange."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Взаимодействия нейтрино",
+          "en": "Neutrino interactions"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/feynman_scattering"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-electron.mp4",
+        "poster_time": 6.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/feynman-scattering"
+    },
+    {
+      "id": "0006",
+      "slug": "feynman-numu-z",
+      "qr_file": "Feynman_NuMuZ.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Рассеяние нейтрино через Z-бозон",
+        "en": "Neutrino scattering through the Z boson"
+      },
+      "caption": {
+        "ru": "Анимированная диаграмма Фейнмана рассеяния нейтрино через обмен Z-бозоном (нейтральный ток).",
+        "en": "An animated Feynman diagram of neutrino scattering through Z-boson exchange (neutral current)."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Взаимодействия нейтрино",
+          "en": "Neutrino interactions"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/feynman_scattering"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-z.mp4",
+        "poster_time": 6.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/feynman-scattering"
+    },
+    {
+      "id": "0007",
+      "slug": "electron-electron-scattering",
+      "qr_file": "ElectronElectronScattering.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Рассеяние $e^-e^-$ с обменом фотоном",
+        "en": "$e^-e^-$ scattering with a photon exchange"
+      },
+      "caption": {
+        "ru": "Диаграмма Фейнмана: два электрона обмениваются виртуальным фотоном (КЭД).",
+        "en": "A Feynman diagram: two electrons exchange a virtual photon (QED)."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Взаимодействия нейтрино",
+          "en": "Neutrino interactions"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/electron_scattering.mp4",
+        "poster_time": 2.6
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0008",
+      "slug": "quark-quark-scattering",
+      "qr_file": "QuarkQuarkScattering.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Рассеяние $qq\\to qq$ с обменом глюоном",
+        "en": "$qq\\to qq$ scattering with a gluon exchange"
+      },
+      "caption": {
+        "ru": "Диаграмма Фейнмана: два кварка обмениваются виртуальным глюоном (КХД).",
+        "en": "A Feynman diagram: two quarks exchange a virtual gluon (QCD)."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Взаимодействия нейтрино",
+          "en": "Neutrino interactions"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/quark_scattering.mp4",
+        "poster_time": 2.6
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0009",
+      "slug": "air-shower",
+      "qr_file": "AirShower.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Широкий атмосферный ливень",
+        "en": "A cosmic-ray air shower"
+      },
+      "caption": {
+        "ru": "Пионы и мюоны первых десятилетий были найдены в космических лучах. Анимация показывает, как один протон с энергией $10^{15}$ эВ создаёт в атмосфере широкий ливень: сначала правило Гайтлера для одного фотона ($N=2^n$, остановка при $E=E_c$), затем ливень от протона методом Монте-Карло, где $\\pi^0\\to\\gamma\\gamma$ питает электромагнитный каскад, а распады $\\pi^\\pm$ дают мюоны и нейтрино. Справа растёт профиль $N(X)$ с оценками Гайтлера $N_{\\max}=E_0/E_c$ и $X_{\\max}=X_0\\ln(E_0/E_c)$; в конце — детекторы на земле и свет ливня. Модель игрушечная.",
+        "en": "The pions and muons of the first decades were found in cosmic rays. The animation shows how one proton of energy $10^{15}$ eV makes an extensive air shower: first Heitler's rule for a single photon ($N=2^n$, stop at $E=E_c$), then a Monte Carlo shower of a proton, in which $\\pi^0\\to\\gamma\\gamma$ feeds the electromagnetic cascade and the decays of $\\pi^\\pm$ give muons and neutrinos. On the right the profile $N(X)$ grows with Heitler's estimates $N_{\\max}=E_0/E_c$ and $X_{\\max}=X_0\\ln(E_0/E_c)$; at the end, the detectors on the ground and the light of the shower. A toy model."
+      },
+      "book": {
+        "order": 3,
+        "section_title": {
+          "ru": "Детектирование",
+          "en": "Detection"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/air_shower_cascade",
+        "note": {
+          "ru": "Игрушечная модель Гайтлера (электромагнитный каскад, 1944) и Мэтьюза (адронная часть, 2005), метод Монте-Карло с фиксированным зерном, разрежение (thinning) по Хилласу; формула НКГ для поперечного распределения; N_max = E0/Ec, X_max = X0 ln(E0/Ec), N_μ = (E0/E_dec)^β.",
+          "en": "Toy model of Heitler (electromagnetic cascade, 1944) and Matthews (hadronic part, 2005), Monte Carlo with a fixed seed, Hillas thinning; NKG formula for the lateral distribution; N_max = E0/Ec, X_max = X0 ln(E0/Ec), N_mu = (E0/E_dec)^beta."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-air-shower-air-shower-en.mp4"
+        },
+        "poster_time": 62.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/air-shower"
+    },
+    {
+      "id": "0010",
+      "slug": "pmt",
+      "qr_file": "PMT.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Как работает фотоумножитель",
+        "en": "How a photomultiplier tube works"
+      },
+      "caption": {
+        "ru": "Один фотон выбивает с фотокатода электрон; на каждом из десяти динодов электрон выбивает в среднем δ = 4 вторичных (число случайно, распределение Пуассона), поэтому число электронов растёт как δ^j и усиление равно ≈ 10⁶. Усиление линейно: во второй части три вспышки сцинтиллятора с 2, 6 и 12 фотоэлектронами дают импульсы, высоты которых примерно пропорциональны 2 : 6 : 12 (число вторичных электронов случайно). По высоте импульса измеряют число фотонов, а значит, энергию.",
+        "en": "A photon knocks an electron out of the photocathode; at each of ten dynodes an electron knocks out on average δ = 4 secondary electrons (the number is random, Poisson distributed), so the number of electrons grows as δ^j and the gain is about 10⁶. The amplification is linear: in the second part three scintillation flashes with 2, 6 and 12 photoelectrons give pulses whose heights are roughly proportional to 2 : 6 : 12 (the numbers of secondary electrons are random). The pulse height measures the number of photons and hence the energy."
+      },
+      "book": {
+        "order": 3,
+        "section_title": {
+          "ru": "Детектирование",
+          "en": "Detection"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/pmt_multiplication"
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche-en.mp4"
+        },
+        "poster_time": 15.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/pmt-multiplication"
+    },
+    {
+      "id": "0011",
+      "slug": "cherenkov-cone",
+      "qr_file": "CherenkovCone.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Излучение Вавилова — Черенкова: конус из волн",
+        "en": "Cherenkov radiation: a cone of wavelets"
+      },
+      "caption": {
+        "ru": "Построение Гюйгенса для заряда, летящего в среде с показателем преломления n = 1,33 (вода). Пока v < c/n, волны от последовательных положений вложены друг в друга и света нет. При v > c/n у волн появляется общая огибающая, конус; свет идёт перпендикулярно ей под углом θ к траектории, cos θ = 1/(nβ). Кольцо на детекторе имеет радиус L tg θ. Порог в воде: 0,26 МэВ для электрона и 55 МэВ для мюона, предельный угол 41,2°.",
+        "en": "Huygens construction for a charge moving in a medium of refractive index n = 1.33 (water). While v < c/n the wavelets of successive positions lie inside one another and there is no light. For v > c/n the wavelets acquire a common envelope, a cone; light travels perpendicular to it at the angle θ to the track, cos θ = 1/(nβ). The ring on the detector has radius L tan θ. Threshold in water: 0.26 MeV for an electron and 55 MeV for a muon, the limiting angle is 41.2°."
+      },
+      "book": {
+        "order": 3,
+        "section_title": {
+          "ru": "Детектирование",
+          "en": "Detection"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_radiation"
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens-en.mp4"
+        },
+        "poster_time": 24.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/cherenkov-radiation"
+    },
+    {
+      "id": "0012",
+      "slug": "electrons-in-magnetic-field",
+      "qr_file": "ElectronsInMagneticField.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Электроны в постоянном магнитном поле",
+        "en": "Electrons in a constant magnetic field"
+      },
+      "caption": {
+        "ru": "Винтовые траектории электронов в однородном поле $B$: сохраняется адиабатический инвариант $\\mu=E_\\perp/B=\\mathrm{const}$. Надписи на видео русские.",
+        "en": "Helical trajectories of electrons in a uniform field $B$: the adiabatic invariant $\\mu=E_\\perp/B=\\mathrm{const}$ is conserved. The labels in the video are in Russian."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/uniform_b_ensemble.mp4",
+        "poster_time": 6.3
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0013",
+      "slug": "katrin-magnetic-collimation",
+      "qr_file": "KatrinMagneticCollimation.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "KATRIN: от сильного поля источника к детектору",
+        "en": "KATRIN: from the strong field of the source to the detector"
+      },
+      "caption": {
+        "ru": "Магнитная адиабатическая коллимация в спектрометре типа MAC-E: при уменьшении поля поперечная энергия электрона переходит в продольную. Надписи на видео русские.",
+        "en": "Magnetic adiabatic collimation in a MAC-E spectrometer: as the field decreases, the transverse energy of the electron turns into the longitudinal one. The labels in the video are in Russian."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/katrin_magnetic_collimation.mp4",
+        "poster_time": 6.3
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0014",
+      "slug": "katrin-mac-e-electric",
+      "qr_file": "KatrinMacEElectric.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "KATRIN MAC-E: прохождение и отражение",
+        "en": "KATRIN MAC-E: transmission and reflection"
+      },
+      "caption": {
+        "ru": "Электростатический барьер пропускает электроны с энергией выше $qU$ и отражает остальные. Надписи на видео русские.",
+        "en": "The electrostatic barrier lets through the electrons with energy above $qU$ and reflects the others. The labels in the video are in Russian."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/katrin_mac_e_electric.mp4",
+        "poster_time": 6.3
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0015",
+      "slug": "project8-cres",
+      "qr_file": "Project8CRES.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Project 8: один электрон — один частотный трек",
+        "en": "Project 8: one electron, one frequency track"
+      },
+      "caption": {
+        "ru": "Электрон в магнитной ловушке излучает на циклотронной частоте $f_c\\approx27$ ГГц; теряя энергию, он повышает частоту, и на спектрограмме растёт трек. Надписи на видео русские.",
+        "en": "An electron in a magnetic trap radiates at the cyclotron frequency $f_c\\approx27$ GHz; as it loses energy its frequency rises and a track grows on the spectrogram. The labels in the video are in Russian."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/project8_cres.mp4",
+        "poster_time": 6.2
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0016",
+      "slug": "quantum-chameleon",
+      "qr_file": "QuantumChameleon.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Квантовый хамелеон",
+        "en": "The quantum chameleon"
+      },
+      "caption": {
+        "ru": "Образ осцилляций: нейтрино — суперпозиция состояний с определёнными массами, и по мере полёта меняется вероятность увидеть тот или иной аромат.",
+        "en": "An image of oscillations: a neutrino is a superposition of states with definite masses, and in flight the probability to see one flavour or another changes."
+      },
+      "book": {
+        "order": 5,
+        "section_title": {
+          "ru": "Вакуумные осцилляции",
+          "en": "Vacuum oscillations"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/quantum_chameleon.mp4",
+        "poster_time": 13.5
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0017",
+      "slug": "oscillation-phases",
+      "qr_file": "OscillationPhases.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Две массовые фазы и вероятности осцилляций",
+        "en": "Two mass phases and the oscillation probabilities"
+      },
+      "caption": {
+        "ru": "Фазы двух массовых состояний нейтрино и возникающие вероятности $P(\\nu_\\alpha\\to\\nu_\\beta)$ как функции $L/E$.",
+        "en": "The phases of the two mass states of the neutrino and the resulting probabilities $P(\\nu_\\alpha\\to\\nu_\\beta)$ as functions of $L/E$."
+      },
+      "book": {
+        "order": 5,
+        "section_title": {
+          "ru": "Вакуумные осцилляции",
+          "en": "Vacuum oscillations"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/neutrino_oscillation_phases.mp4",
+        "poster_time": 2.8
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0018",
+      "slug": "msw-parametric",
+      "qr_file": "MSWParametric.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Параметрическое усиление в чередующихся слоях вещества",
+        "en": "Parametric amplification in alternating layers of matter"
+      },
+      "caption": {
+        "ru": "Осцилляции в чередующихся слоях вещества: при согласованных толщинах слоёв вероятность перехода нарастает от слоя к слою.",
+        "en": "Oscillations in alternating layers of matter: for matched thicknesses of the layers the transition probability grows from layer to layer."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Осцилляции в веществе",
+          "en": "Oscillations in matter"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/msw_parametric.mp4",
+        "poster_time": 4.5
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0019",
+      "slug": "msw-adiabatic-passage",
+      "qr_file": "MSWAdiabaticPassage.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Адиабатический и неадиабатический проход через MSW-резонанс",
+        "en": "Adiabatic and non-adiabatic passage through the MSW resonance"
+      },
+      "caption": {
+        "ru": "Прохождение резонанса MSW при плавном и при быстром изменении плотности: в адиабатическом случае нейтрино следует за мгновенным собственным состоянием.",
+        "en": "Passage through the MSW resonance for a smooth and for a fast change of the density: in the adiabatic case the neutrino follows the instantaneous eigenstate."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Осцилляции в веществе",
+          "en": "Oscillations in matter"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/msw_adiabatic_passage.mp4",
+        "poster_time": 4.5
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0020",
+      "slug": "msw-solar-exit-bases",
+      "qr_file": "MSWSolarExitBases.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Солнечный адиабатический выход в трёх базисах",
+        "en": "The solar adiabatic exit in three bases"
+      },
+      "caption": {
+        "ru": "Выход нейтрино из Солнца, описанный во флэйворном, вакуумном массовом и мгновенном (материальном) базисах.",
+        "en": "The exit of the neutrino from the Sun in the flavour, the vacuum mass and the instantaneous (matter) bases."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Осцилляции в веществе",
+          "en": "Oscillations in matter"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/msw_solar_exit_bases.mp4",
+        "poster_time": 4.5
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0021",
+      "slug": "msw-constant-matter",
+      "qr_file": "MSWConstantMatter.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Вакуумные осцилляции, резонанс и подавление: механическая модель",
+        "en": "Vacuum oscillations, resonance and suppression: a mechanical model"
+      },
+      "caption": {
+        "ru": "Механическая модель осцилляций в веществе постоянной плотности: вакуумный режим, резонанс и подавление осцилляций.",
+        "en": "A mechanical model of oscillations in matter of constant density: the vacuum regime, the resonance and the suppression of oscillations."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Осцилляции в веществе",
+          "en": "Oscillations in matter"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/msw_constant_matter.mp4",
+        "poster_time": 4.5
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0022",
+      "slug": "msw-control-equivalence",
+      "qr_file": "MSWControlEquivalence.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Маятник переменной длины и маятник с ускоренной опорой",
+        "en": "A pendulum of variable length and a pendulum with an accelerated support"
+      },
+      "caption": {
+        "ru": "Два управляемых маятника описываются одними уравнениями: сравнение показывает эквивалентность механических моделей.",
+        "en": "Two driven pendulums obey the same equations: the comparison shows the equivalence of the mechanical models."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Осцилляции в веществе",
+          "en": "Oscillations in matter"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/msw_control_equivalence.mp4",
+        "poster_time": 4.5
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0023",
+      "slug": "msw-thin-layer-interference",
+      "qr_file": "MSWThinLayerInterference.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Интерференция волн и фазоров в тонком резонансном слое",
+        "en": "Interference of waves and phasors in a thin resonant layer"
+      },
+      "caption": {
+        "ru": "Волны и фазоры при прохождении тонкого резонансного слоя: интерференция амплитуд определяет вероятность перехода.",
+        "en": "Waves and phasors on passing a thin resonant layer: the interference of the amplitudes determines the transition probability."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Осцилляции в веществе",
+          "en": "Oscillations in matter"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/msw_thin_layer_interference.mp4",
+        "poster_time": 4.5
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0024",
+      "slug": "msw-mode-cancellation",
+      "qr_file": "MSWModeCancellation.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Деструктивная интерференция амплитуд конечной моды $\\nu_1$",
+        "en": "Destructive interference of the amplitudes of the final mode $\\nu_1$"
+      },
+      "caption": {
+        "ru": "Две массовые амплитуды складываются на комплексной плоскости; их деструктивная интерференция гасит фиксированную вакуумную моду.",
+        "en": "The two mass amplitudes add in the complex plane; their destructive interference cancels the fixed vacuum mode."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Осцилляции в веществе",
+          "en": "Oscillations in matter"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/msw_mode_cancellation.mp4",
+        "poster_time": 4.5
+      },
+      "legacy_codes": []
+    }
+  ]
 }
