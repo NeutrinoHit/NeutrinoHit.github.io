@@ -17,7 +17,7 @@
   },
   "items": [
     {
-      "id": "0003",
+      "id": "0001",
       "slug": "higgs-honey",
       "qr_file": "Higgs_as_Honey.pdf",
       "hosting": "self",
@@ -48,6 +48,80 @@
         "poster_time": 6.0
       },
       "legacy_codes": []
+    },
+    {
+      "id": "0002",
+      "slug": "sm-field-mattress",
+      "qr_file": "StandardModel_FieldMattress.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Поля Стандартной модели: матрас полей",
+        "en": "Standard Model fields: a mattress of fields"
+      },
+      "caption": {
+        "ru": "Семнадцать видов полей Стандартной модели как листы одной стопки (кварковое поле существует в трёх цветах, глюонное имеет восемь компонент: лист изображает их все). Каждое поле заполняет всё пространство, и в каждой точке есть каждое поле. Частица — волновой пакет на листе своего поля; две волны одного поля проходят друг сквозь друга. Чтобы увидеть взаимодействие, оставлены два поля, электронное и электромагнитное: заряд создаёт поле на фотонном листе, поле другого заряда сдвигает фазу волны (модель скалярной КЭД), одноимённые заряды отталкиваются, разноимённые притягиваются. Затем e⁻e⁺ → γγ: волны уходят с электронного листа и появляются на фотонном; после этого два других фотона, столкнувшись, рождают новую пару (схематично). Листы — образ различных полей, а не буквальное расслоение вакуума.",
+        "en": "Seventeen kinds of fields of the Standard Model as sheets of one stack (a quark field exists in three colours and the gluon field has eight components: one sheet stands for all of them). Each field fills all of space, and every point has every field. A particle is a wave packet on the sheet of its own field; two waves of one field pass through each other. To see an interaction, only two fields are kept, the electron field and the electromagnetic field: a charge creates a field on the photon sheet, the field of another charge shifts the phase of the wave (the scalar-QED model), equal charges repel and opposite charges attract. Then e⁻e⁺ → γγ: the waves leave the electron sheet and appear on the photon sheet; after that two other photons collide and create a new pair (schematic). The sheets are a picture of distinct fields, not a literal layering of the vacuum."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 1,
+        "chapter_title": {
+          "ru": "Волны внутри нас",
+          "en": "Waves Inside Us"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/sm_fields",
+        "note": {
+          "ru": "Собственная анимация вместо ролика Arvin Ash, использованного в первом тираже.",
+          "en": "An original animation in place of the Arvin Ash video used in the first printing."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack-en.mp4"
+        },
+        "poster_time": 56.0
+      },
+      "legacy_codes": [],
+      "gallery": "fields-waves/standard-model-field-mattress"
+    },
+    {
+      "id": "0003",
+      "slug": "galaxy-merger",
+      "qr_file": "Galaxy_Merger.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Слияние двух галактик",
+        "en": "Merger of two galaxies"
+      },
+      "caption": {
+        "ru": "Столкновение двух дисковых галактик в ограниченной задаче N тел с динамическим трением: приливные мосты и хвосты, затем округлый остаток. Рисунок в книге построен по этой же модели.",
+        "en": "A collision of two disk galaxies in a restricted N-body problem with dynamical friction: tidal bridges and tails, then a rounded remnant. The figure in the book is built from the same model."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 1,
+        "chapter_title": {
+          "ru": "Волны внутри нас",
+          "en": "Waves Inside Us"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/galaxy_merger"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/visual-stories-galaxy-merger-merger.mp4",
+        "poster_time": 9.0
+      },
+      "legacy_codes": [],
+      "gallery": "visual-stories/galaxy-merger"
     },
     {
       "id": "0004",
@@ -93,6 +167,48 @@
     },
     {
       "id": "0005",
+      "slug": "rutherford-geiger-marsden",
+      "qr_file": "Rutherford_animation.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Опыт Резерфорда — Гейгера — Марсдена",
+        "en": "The Rutherford–Geiger–Marsden experiment"
+      },
+      "caption": {
+        "ru": "Альфа-частицы (ядра ⁴He) проходят через тонкую золотую фольгу. Траектории рассчитаны численно в кулоновском поле ядер; большинство частиц отклоняется слабо, но редкие поворачивают назад. Гистограмма углов совпадает с формулой Резерфорда ∝ 1/sin⁴(θ/2). В опытах Гейгера и Марсдена доля отражённых назад частиц составляла примерно одну из восьми тысяч, что противоречило модели Томсона.",
+        "en": "Alpha particles (⁴He nuclei) cross a thin gold foil. The trajectories are integrated numerically in the Coulomb field of the nuclei; most particles are deflected slightly, a few turn back. The angular histogram follows the Rutherford formula ∝ 1/sin⁴(θ/2). In the experiments of Geiger and Marsden about one particle in eight thousand was reflected backward, in conflict with Thomson's model."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 2,
+        "chapter_title": {
+          "ru": "Век открытий",
+          "en": "A Century of Discoveries"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/rutherford",
+        "note": {
+          "ru": "Схема: число слоёв, размер ядер и число частиц подобраны для наглядности.",
+          "en": "Schematic: the number of layers, the size of the nuclei and the number of particles are chosen for clarity."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/relativity-atom-spin-rutherford-foil.mp4",
+          "en": "assets/animations/dvnanima/relativity-atom-spin-rutherford-foil-en.mp4"
+        },
+        "poster_time": 14.0
+      },
+      "legacy_codes": [],
+      "gallery": "relativity-atom-spin/rutherford"
+    },
+    {
+      "id": "0006",
       "slug": "zero-field",
       "qr_file": "ZeroField_animation.pdf",
       "hosting": "self",
@@ -134,7 +250,129 @@
       "gallery": "fields-waves/zero-point-electron"
     },
     {
-      "id": "0006",
+      "id": "0007",
+      "slug": "air-shower",
+      "qr_file": "AirShower.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Широкий атмосферный ливень",
+        "en": "A cosmic-ray air shower"
+      },
+      "caption": {
+        "ru": "Пионы и мюоны первых десятилетий были найдены в космических лучах. Анимация показывает, как один протон с энергией $10^{15}$ эВ создаёт в атмосфере широкий ливень: сначала правило Гайтлера для одного фотона ($N=2^n$, остановка при $E=E_c$), затем ливень от протона методом Монте-Карло, где $\\pi^0\\to\\gamma\\gamma$ питает электромагнитный каскад, а распады $\\pi^\\pm$ дают мюоны и нейтрино. Справа растёт профиль $N(X)$ с оценками Гайтлера $N_{\\max}=E_0/E_c$ и $X_{\\max}=X_0\\ln(E_0/E_c)$; в конце — детекторы на земле и свет ливня. Модель игрушечная.",
+        "en": "The pions and muons of the first decades were found in cosmic rays. The animation shows how one proton of energy $10^{15}$ eV makes an extensive air shower: first Heitler's rule for a single photon ($N=2^n$, stop at $E=E_c$), then a Monte Carlo shower of a proton, in which $\\pi^0\\to\\gamma\\gamma$ feeds the electromagnetic cascade and the decays of $\\pi^\\pm$ give muons and neutrinos. On the right the profile $N(X)$ grows with Heitler's estimates $N_{\\max}=E_0/E_c$ and $X_{\\max}=X_0\\ln(E_0/E_c)$; at the end, the detectors on the ground and the light of the shower. A toy model."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 2,
+        "chapter_title": {
+          "ru": "Век открытий",
+          "en": "A Century of Discoveries"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/air_shower_cascade",
+        "note": {
+          "ru": "Игрушечная модель Гайтлера (электромагнитный каскад, 1944) и Мэтьюза (адронная часть, 2005), метод Монте-Карло с фиксированным зерном, разрежение (thinning) по Хилласу; формула НКГ для поперечного распределения; N_max = E0/Ec, X_max = X0 ln(E0/Ec), N_μ = (E0/E_dec)^β.",
+          "en": "Toy model of Heitler (electromagnetic cascade, 1944) and Matthews (hadronic part, 2005), Monte Carlo with a fixed seed, Hillas thinning; NKG formula for the lateral distribution; N_max = E0/Ec, X_max = X0 ln(E0/Ec), N_mu = (E0/E_dec)^beta."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-air-shower-air-shower-en.mp4"
+        },
+        "poster_time": 62.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/air-shower"
+    },
+    {
+      "id": "0008",
+      "slug": "pmt",
+      "qr_file": "PMT.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Как работает фотоумножитель",
+        "en": "How a photomultiplier tube works"
+      },
+      "caption": {
+        "ru": "Один фотон выбивает с фотокатода электрон; на каждом из десяти динодов электрон выбивает в среднем δ = 4 вторичных (число случайно, распределение Пуассона), поэтому число электронов растёт как δ^j и усиление равно ≈ 10⁶. Усиление линейно: во второй части три вспышки сцинтиллятора с 2, 6 и 12 фотоэлектронами дают импульсы, высоты которых примерно пропорциональны 2 : 6 : 12 (число вторичных электронов случайно). По высоте импульса измеряют число фотонов, а значит, энергию.",
+        "en": "A photon knocks an electron out of the photocathode; at each of ten dynodes an electron knocks out on average δ = 4 secondary electrons (the number is random, Poisson distributed), so the number of electrons grows as δ^j and the gain is about 10⁶. The amplification is linear: in the second part three scintillation flashes with 2, 6 and 12 photoelectrons give pulses whose heights are roughly proportional to 2 : 6 : 12 (the numbers of secondary electrons are random). The pulse height measures the number of photons and hence the energy."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 2,
+        "chapter_title": {
+          "ru": "Век открытий",
+          "en": "A Century of Discoveries"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/pmt_multiplication"
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche-en.mp4"
+        },
+        "poster_time": 15.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/pmt-multiplication"
+    },
+    {
+      "id": "0009",
+      "slug": "relativity-simultaneity",
+      "qr_file": "Relativity_of_Simultaneity_animation.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Относительность одновременности",
+        "en": "The relativity of simultaneity"
+      },
+      "caption": {
+        "ru": "Три вспышки A, B, C происходят в один момент t = 0 в системе O (x = −1, 0, +1). В системе O′, движущейся со скоростью v, они происходят в моменты t′ = −γvx: при v > 0 порядок C, B, A, при v < 0 порядок A, B, C, при v = 0 вспышки одновременны. На диаграмме Минковского линия одновременности O′ параллельна оси x′ и наклоняется вместе с ней; штриховая линия от события вдоль неё до оси ct′ показывает, как считывается t′. В последней части: порядок пространственноподобных событий (|Δx| > |Δt|) зависит от системы, а временноподобных не меняется никогда, поэтому причинность не нарушается.",
+        "en": "Three flashes A, B, C happen at the same moment t = 0 in the frame O (x = −1, 0, +1). In the frame O′ that moves with the velocity v they happen at t′ = −γvx: for v > 0 the order is C, B, A, for v < 0 it is A, B, C, for v = 0 the flashes are simultaneous. On the Minkowski diagram the line of simultaneity of O′ is parallel to the x′ axis and tilts with it; a dashed line from an event along it to the ct′ axis shows how t′ is read off. In the last part: the order of spacelike separated events (|Δx| > |Δt|) depends on the frame, while that of timelike separated events never changes, so causality is safe."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 3,
+        "chapter_title": {
+          "ru": "Специальная теория относительности",
+          "en": "Special Relativity"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/simultaneity",
+        "note": {
+          "ru": "Диаграмма Минковского, преобразования Лоренца.",
+          "en": "Minkowski diagram, Lorentz transformations."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski.mp4",
+          "en": "assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski-en.mp4"
+        },
+        "poster_time": 20.0
+      },
+      "legacy_codes": [],
+      "gallery": "relativity-atom-spin/simultaneity"
+    },
+    {
+      "id": "0010",
       "slug": "penrose-rotation",
       "qr_file": "PenroseRotation_animation.pdf",
       "hosting": "self",
@@ -176,7 +414,129 @@
       "gallery": "relativity-atom-spin/penrose-terrell"
     },
     {
-      "id": "0007",
+      "id": "0011",
+      "slug": "hulse-taylor",
+      "qr_file": "HulseTaylor.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Двойной пульсар Халса — Тейлора",
+        "en": "The Hulse–Taylor binary pulsar"
+      },
+      "caption": {
+        "ru": "Две нейтронные звезды (1,438 и 1,390 массы Солнца) на вытянутой орбите с периодом 7,75 ч излучают гравитационные волны. Орбита сжимается, период падает, и периастр приходит раньше, чем при постоянном периоде. Справа растёт накопленный сдвиг: около −38,6 с за 30 лет по ОТО, измеренная производная периода даёт ту же кривую в пределах погрешности (отношение 0,9983 ± 0,0016). Сжатие орбиты, сдвиг фазы и картина волн на анимации схематичны.",
+        "en": "Two neutron stars (1.438 and 1.390 solar masses) on an eccentric orbit with a period of 7.75 h radiate gravitational waves. The orbit shrinks, the period falls, and the periastron arrives earlier than for a constant period. On the right the accumulated shift grows: about −38.6 s over 30 years in general relativity, and the measured period derivative gives the same curve within the uncertainty (ratio 0.9983 ± 0.0016). The orbit shrinkage, the phase shift and the wave pattern in the animation are schematic."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 4,
+        "chapter_title": {
+          "ru": "Гравитация",
+          "en": "Gravity"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/hulse_taylor",
+        "note": {
+          "ru": "Параметры орбиты и производные периода: Weisberg, Huang, ApJ 829, 55 (2016).",
+          "en": "Orbit parameters and period derivatives: Weisberg and Huang, ApJ 829, 55 (2016)."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4",
+          "en": "assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit-en.mp4"
+        },
+        "poster_time": 28.0
+      },
+      "gallery": "relativity-atom-spin/hulse-taylor",
+      "legacy_codes": []
+    },
+    {
+      "id": "0012",
+      "slug": "wormhole-camera",
+      "qr_file": "Wormhole_Camera.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Камера у кротовой норы: свет двух Вселенных",
+        "en": "A camera at a wormhole: the light of two universes"
+      },
+      "caption": {
+        "ru": "Кротовая нора Морриса и Торна — решение уравнений Эйнштейна для статического сферически симметричного пространства без горизонта; оно требует отрицательной плотности энергии. На экваториальной плоскости поверхность $r=b\\cosh(z/b)$ соединяет две Вселенные, самая узкая окружность имеет радиус $b$. Свет движется по геодезическим этой поверхности: луч с прицельным параметром $p<b$ проходит через горловину, луч с $p>b$ возвращается. Камера издалека видит всю другую Вселенную в круглом окне, а небо вокруг него изогнуто в кольца; при $\\sin\\psi_c=b/\\sqrt{l^2+b^2}$ радиус окна $\\psi_c$ зависит только от расстояния до горловины, и движущаяся камера может измерить $b$.",
+        "en": "The Morris-Thorne wormhole is a solution of Einstein's equations for a static, spherically symmetric space without a horizon; it requires a negative energy density. In the equatorial plane the surface $r=b\\cosh(z/b)$ joins two universes, the narrowest circle has radius $b$. Light moves along the geodesics of this surface: a ray with the impact parameter $p<b$ crosses the throat, a ray with $p>b$ turns back. A camera far away sees the whole other universe in a round window, and the sky around it is bent into rings; with $\\sin\\psi_c=b/\\sqrt{l^2+b^2}$ the radius $\\psi_c$ of the window depends only on the distance to the throat, so a moving camera can measure $b$."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 4,
+        "chapter_title": {
+          "ru": "Гравитация",
+          "en": "Gravity"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/wormhole_camera",
+        "note": {
+          "ru": "Лучи вычислены точно (эллиптические интегралы, как в решении задачи), небо — собственная процедурная модель (галактики, звёзды, туманности; пара взаимодействующих галактик — из N-body-расчёта книги). Параметры: $b=1$ (единица длины); для оценки энергии $b=1$ км.",
+          "en": "The rays are computed exactly (elliptic integrals, as in the solution of the exercise); the sky is our own procedural model (galaxies, stars, nebulae; the pair of interacting galaxies comes from the N-body calculation of the book). Parameters: $b=1$ (the unit of length); for the energy estimate $b=1$ km."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera.mp4",
+          "en": "assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera-en.mp4"
+        },
+        "poster_time": 76.0
+      },
+      "gallery": "relativity-atom-spin/wormhole-camera",
+      "legacy_codes": []
+    },
+    {
+      "id": "0013",
+      "slug": "free-wavepacket",
+      "qr_file": "FreeWavePacket.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Свободный гауссов пакет: движение и расплывание",
+        "en": "A free Gaussian wave packet: motion and spreading"
+      },
+      "caption": {
+        "ru": "Точная эволюция гауссова пакета свободной частицы (ħ = m = 1). Центр движется с групповой скоростью, огибающая расширяется по закону σ(t) = σ₀√(1 + (t/2σ₀²)²), высота падает. Распределение по импульсу |ψ̃(p)|² не меняется, вращаются только фазы e^{-iE_p t}. Во второй части сравниваются узкий и широкий пакеты: чем уже пакет по x, тем он шире по p и тем быстрее расплывается.",
+        "en": "Exact evolution of a free Gaussian wave packet (ħ = m = 1). The centre moves with the group velocity and the envelope broadens as σ(t) = σ₀√(1 + (t/2σ₀²)²) while its height falls. The momentum distribution |ψ̃(p)|² does not change; only the phases e^{-iE_p t} rotate. The second part compares a narrow and a wide packet: the narrower in x, the broader in p and the faster it spreads."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 5,
+        "chapter_title": {
+          "ru": "Нерелятивистская квантовая механика",
+          "en": "Nonrelativistic Quantum Mechanics"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/free_wavepacket"
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading-en.mp4"
+        },
+        "poster_time": 8.0
+      },
+      "legacy_codes": [],
+      "gallery": "fields-waves/schrodinger-packet"
+    },
+    {
+      "id": "0014",
       "slug": "oam-beams",
       "qr_file": "OAM_beams.pdf",
       "hosting": "self",
@@ -218,24 +578,24 @@
       "gallery": "fields-waves/oam-beams"
     },
     {
-      "id": "0008",
-      "slug": "circular-polarization",
-      "qr_file": "CircularPolarization_animation.pdf",
+      "id": "0015",
+      "slug": "quantum-tunneling",
+      "qr_file": "QuantumTunneling.pdf",
       "hosting": "self",
       "title": {
-        "ru": "Круговая поляризация",
-        "en": "Circular polarization"
+        "ru": "Туннельный эффект: точечное и протяжённое тело",
+        "en": "Tunnelling: a point body and an extended body"
       },
       "caption": {
-        "ru": "Плоская волна, бегущая вдоль z, с поляризациями ε_R ∝ (1, i, 0) (правая) и ε_L ∝ (1, −i, 0) (левая): E_R = (cos(ωt − kz), sin(ωt − kz), 0), у E_L знак второй компоненты обратный. В соглашении книги (как в физике частиц) «правая» значит, что для наблюдателя у источника, смотрящего вдоль волны, E вращается по часовой стрелке (для приёмника, смотрящего навстречу волне, против часовой): это положительная спиральность, проекция спина фотона S_z = +ħ. У ε_L всё наоборот, S_z = −ħ. В оптике считают от приёмника и называют ту же волну левой. Мгновенный снимок E_R(z) в пространстве — левый винт, а вращение во времени — правое. Любая поляризация есть a_R ε_R + a_L ε_L: равные амплитуды дают линейную поляризацию (фаза поворачивает ось), неравные — эллипс с полуосями a_R + a_L и |a_R − a_L|.",
-        "en": "A plane wave along z with the polarizations ε_R ∝ (1, i, 0) (right) and ε_L ∝ (1, −i, 0) (left): E_R = (cos(ωt − kz), sin(ωt − kz), 0), E_L has the opposite sign of the second component. In the convention of the book (as in particle physics) “right” means that for an observer at the source looking along the wave E rotates clockwise (counterclockwise for the receiver looking toward the oncoming wave): this is positive helicity, the photon spin projection S_z = +ħ. For ε_L it is the other way round, S_z = −ħ. Optics counts from the receiver and calls the same wave left. A snapshot of E_R(z) is a left-handed helix in space, while the rotation in time is right-handed. Any polarization is a_R ε_R + a_L ε_L: equal amplitudes give linear polarization (the phase turns the axis), unequal ones an ellipse with semi-axes a_R + a_L and |a_R − a_L|."
+        "ru": "Шар с $E<V$ не переваливает холм, а поезд из $N$ вагонов с той же скоростью каждого вагона проходит: его барьер $\\max U(S)$ ниже $NV$. Затем классическая волна на цепочке масс, связанных пружинками с полом только в отрезке: волна частоты $\\omega<\\Omega$ затухает как $e^{-\\kappa x}$ и частично выходит с другой стороны, $T\\approx e^{-2\\kappa a}$, без квантов. Для волны материи то же уравнение с $\\omega^2\\to E$, $\\Omega^2\\to V$, $\\kappa=\\sqrt{2m(V-E)}/\\hbar$, поэтому $T$ падает с ростом массы экспоненциально.",
+        "en": "A ball with $E<V$ does not climb the hill, but a train of $N$ cars with the same speed of every car passes: its barrier $\\max U(S)$ is lower than $NV$. Then a classical wave on a chain of masses joined to the floor by springs only in a segment: a wave of frequency $\\omega<\\Omega$ decays as $e^{-\\kappa x}$ and partly comes out on the other side, $T\\approx e^{-2\\kappa a}$, with no quanta. For a matter wave the equation is the same with $\\omega^2\\to E$, $\\Omega^2\\to V$, $\\kappa=\\sqrt{2m(V-E)}/\\hbar$, so $T$ falls exponentially with the mass."
       },
       "book": {
         "volume": 1,
-        "chapter": 13,
+        "chapter": 6,
         "chapter_title": {
-          "ru": "Классические поля и их лагранжианы",
-          "en": "Classical Fields and Their Lagrangians"
+          "ru": "Уравнение Клейна — Фока — Гордона",
+          "en": "The Klein–Fock–Gordon Equation"
         }
       },
       "credit": {
@@ -243,24 +603,24 @@
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
         },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/circular_polarization",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/quantum_tunneling",
         "note": {
-          "ru": "Расчёт по формулам книги.",
-          "en": "Computed from the formulas of the book."
+          "ru": "Поезд: точная механика жёсткой цепочки вагонов по дуге трассы, L = ½MṠ² − U(S), симплектическое интегрирование. Волна на цепочке: схема «чехарда» с шагом 0,02, мягкий источник, поглощающие слои; прохождение сверено с точной формулой (0,1 %). Волна материи: стационарное уравнение Шрёдингера, точное решение рассеяния на гауссовом холме.",
+          "en": "The train: exact mechanics of a rigid chain of cars along the arc of the track, L = ½MṠ² − U(S), symplectic integration. The wave on the chain: leapfrog with the step 0.02, a soft source and damping layers; the transmission agrees with the exact formula (0.1 %). The matter wave: the stationary Schrödinger equation, the exact scattering solution on a Gaussian hill."
         }
       },
       "media": {
         "site_asset": {
-          "ru": "assets/animations/dvnanima/fields-waves-circular-polarization-helicity.mp4",
-          "en": "assets/animations/dvnanima/fields-waves-circular-polarization-helicity-en.mp4"
+          "ru": "assets/animations/dvnanima/fields-waves-quantum-tunneling-film.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-quantum-tunneling-film-en.mp4"
         },
-        "poster_time": 6.0
+        "poster_time": 57.4
       },
-      "legacy_codes": [],
-      "gallery": "fields-waves/circular-polarization"
+      "gallery": "fields-waves/quantum-tunneling",
+      "legacy_codes": []
     },
     {
-      "id": "0009",
+      "id": "0016",
       "slug": "spinor-mobius",
       "qr_file": "SpinorMobius.pdf",
       "hosting": "self",
@@ -304,7 +664,201 @@
       "gallery": "relativity-atom-spin/spinor-mobius"
     },
     {
-      "id": "0011",
+      "id": "0017",
+      "slug": "coupled-oscillators-1d",
+      "qr_file": "CoupledOscillators1D.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Цепочка связанных осцилляторов",
+        "en": "A chain of coupled oscillators"
+      },
+      "caption": {
+        "ru": "Цепочка из N одинаковых масс m, соединённых пружинками k, с закреплёнными концами. Нормальные моды s = 1, 2, 4, 9, 24 с формулой для частоты ω_s = 2√(k/m) sin[sπ/(2(N+1))] и положением на кривой дисперсии; столбики показывают энергию каждой моды. Выпуклость отпускают: две волны бегут к концам, участвуют много мод, и их энергии постоянны. Две волны в линейной цепочке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ цепочка превращается в поле φ(x, t), а дисперсия — в ω = ck.",
+        "en": "A chain of N identical masses m joined by springs k with fixed ends. The normal modes s = 1, 2, 4, 9, 24 with the frequency formula ω_s = 2√(k/m) sin[sπ/(2(N+1))] and their place on the dispersion curve; the bars show the energy of every mode. A bump is released: two waves run to the ends, many modes take part and their energies are constant. Two waves in a linear chain pass through each other (free particles). With anharmonic terms (cubic and quartic) in the Lagrangian the energy is redistributed among the modes: this is the interaction. For N → ∞ the chain becomes the field φ(x, t) and the dispersion becomes ω = ck."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 12,
+        "chapter_title": {
+          "ru": "Основы классической теории поля",
+          "en": "Basics of Classical Field Theory"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_chain"
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-coupled-chain-chain.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-coupled-chain-chain-en.mp4"
+        },
+        "poster_time": 60.0
+      },
+      "gallery": "fields-waves/coupled-chain",
+      "legacy_codes": []
+    },
+    {
+      "id": "0018",
+      "slug": "coupled-oscillators-2d",
+      "qr_file": "CoupledOscillators2D.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Двумерная решётка связанных осцилляторов",
+        "en": "A two-dimensional lattice of coupled oscillators"
+      },
+      "caption": {
+        "ru": "Прямоугольная решётка 14×10 масс m, соединённых пружинками k, с закреплённым краем (матрас полей). Нормальные моды (a, b) с формулами q ∼ sin(aπi/(N_x+1)) sin(bπj/(N_y+1)) cos ω_ab t и карта энергий мод E_ab; рядом дисперсия ω(|k|). Выпуклость отпускают: расходятся круговые волны, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, t), а дисперсия — в ω = c|k|.",
+        "en": "A rectangular 14×10 lattice of masses m joined by springs k with a fixed edge (the mattress of fields). The normal modes (a, b) with the formulas q ∼ sin(aπi/(N_x+1)) sin(bπj/(N_y+1)) cos ω_ab t and the map of the mode energies E_ab; beside it the dispersion ω(|k|). A bump is released: circular waves spread, many modes take part and their energies are constant. Two waves in the linear lattice pass through each other (free particles). With anharmonic terms (cubic and quartic) in the Lagrangian the energy is redistributed among the modes: this is the interaction. For N → ∞ the lattice becomes the field φ(x, y, t) and the dispersion becomes ω = c|k|."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 12,
+        "chapter_title": {
+          "ru": "Основы классической теории поля",
+          "en": "Basics of Classical Field Theory"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_lattice_2d"
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice-en.mp4"
+        },
+        "poster_time": 66.0
+      },
+      "legacy_codes": [],
+      "gallery": "fields-waves/coupled-lattice-2d"
+    },
+    {
+      "id": "0019",
+      "slug": "coupled-oscillators-3d",
+      "qr_file": "CoupledOscillators3D.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Трёхмерная решётка связанных осцилляторов",
+        "en": "A three-dimensional lattice of coupled oscillators"
+      },
+      "caption": {
+        "ru": "Трёхмерная решётка 14×8×8 масс m, соединённых пружинками k, с закреплённой границей. Масса — точка, размер и яркость которой показывают смещение, а цвет — его знак. Нормальные моды (a, b, c) с формулами и спектр энергий мод; рядом дисперсия ω(|k|). Выпуклость в центре отпускают: бежит сферическая волна, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, z, t), а дисперсия — в ω = c|k|.",
+        "en": "A three-dimensional 14×8×8 lattice of masses m joined by springs k with a fixed boundary. A mass is a dot whose size and brightness show the displacement and whose colour is its sign. The normal modes (a, b, c) with their formulas and the spectrum of the mode energies; beside it the dispersion ω(|k|). A bump at the centre is released: a spherical wave runs out, many modes take part and their energies are constant. Two waves in the linear lattice pass through each other (free particles). With anharmonic terms (cubic and quartic) in the Lagrangian the energy is redistributed among the modes: this is the interaction. For N → ∞ the lattice becomes the field φ(x, y, z, t) and the dispersion becomes ω = c|k|."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 12,
+        "chapter_title": {
+          "ru": "Основы классической теории поля",
+          "en": "Basics of Classical Field Theory"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_lattice_3d"
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice-en.mp4"
+        },
+        "poster_time": 59.0
+      },
+      "gallery": "fields-waves/coupled-lattice-3d",
+      "legacy_codes": []
+    },
+    {
+      "id": "0020",
+      "slug": "cherenkov-cone",
+      "qr_file": "CherenkovCone.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Излучение Вавилова — Черенкова: конус из волн",
+        "en": "Cherenkov radiation: a cone of wavelets"
+      },
+      "caption": {
+        "ru": "Построение Гюйгенса для заряда, летящего в среде с показателем преломления n = 1,33 (вода). Пока v < c/n, волны от последовательных положений вложены друг в друга и света нет. При v > c/n у волн появляется общая огибающая, конус; свет идёт перпендикулярно ей под углом θ к траектории, cos θ = 1/(nβ). Кольцо на детекторе имеет радиус L tg θ. Порог в воде: 0,26 МэВ для электрона и 55 МэВ для мюона, предельный угол 41,2°.",
+        "en": "Huygens construction for a charge moving in a medium of refractive index n = 1.33 (water). While v < c/n the wavelets of successive positions lie inside one another and there is no light. For v > c/n the wavelets acquire a common envelope, a cone; light travels perpendicular to it at the angle θ to the track, cos θ = 1/(nβ). The ring on the detector has radius L tan θ. Threshold in water: 0.26 MeV for an electron and 55 MeV for a muon, the limiting angle is 41.2°."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 13,
+        "chapter_title": {
+          "ru": "Классические поля и их лагранжианы",
+          "en": "Classical Fields and Their Lagrangians"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_radiation"
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens-en.mp4"
+        },
+        "poster_time": 24.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/cherenkov-radiation"
+    },
+    {
+      "id": "0021",
+      "slug": "circular-polarization",
+      "qr_file": "CircularPolarization_animation.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Круговая поляризация",
+        "en": "Circular polarization"
+      },
+      "caption": {
+        "ru": "Плоская волна, бегущая вдоль z, с поляризациями ε_R ∝ (1, i, 0) (правая) и ε_L ∝ (1, −i, 0) (левая): E_R = (cos(ωt − kz), sin(ωt − kz), 0), у E_L знак второй компоненты обратный. В соглашении книги (как в физике частиц) «правая» значит, что для наблюдателя у источника, смотрящего вдоль волны, E вращается по часовой стрелке (для приёмника, смотрящего навстречу волне, против часовой): это положительная спиральность, проекция спина фотона S_z = +ħ. У ε_L всё наоборот, S_z = −ħ. В оптике считают от приёмника и называют ту же волну левой. Мгновенный снимок E_R(z) в пространстве — левый винт, а вращение во времени — правое. Любая поляризация есть a_R ε_R + a_L ε_L: равные амплитуды дают линейную поляризацию (фаза поворачивает ось), неравные — эллипс с полуосями a_R + a_L и |a_R − a_L|.",
+        "en": "A plane wave along z with the polarizations ε_R ∝ (1, i, 0) (right) and ε_L ∝ (1, −i, 0) (left): E_R = (cos(ωt − kz), sin(ωt − kz), 0), E_L has the opposite sign of the second component. In the convention of the book (as in particle physics) “right” means that for an observer at the source looking along the wave E rotates clockwise (counterclockwise for the receiver looking toward the oncoming wave): this is positive helicity, the photon spin projection S_z = +ħ. For ε_L it is the other way round, S_z = −ħ. Optics counts from the receiver and calls the same wave left. A snapshot of E_R(z) is a left-handed helix in space, while the rotation in time is right-handed. Any polarization is a_R ε_R + a_L ε_L: equal amplitudes give linear polarization (the phase turns the axis), unequal ones an ellipse with semi-axes a_R + a_L and |a_R − a_L|."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 13,
+        "chapter_title": {
+          "ru": "Классические поля и их лагранжианы",
+          "en": "Classical Fields and Their Lagrangians"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/circular_polarization",
+        "note": {
+          "ru": "Расчёт по формулам книги.",
+          "en": "Computed from the formulas of the book."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-circular-polarization-helicity.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-circular-polarization-helicity-en.mp4"
+        },
+        "poster_time": 6.0
+      },
+      "legacy_codes": [],
+      "gallery": "fields-waves/circular-polarization"
+    },
+    {
+      "id": "0022",
       "slug": "running-charge",
       "qr_file": "RunningCharge_animation.pdf",
       "hosting": "self",
@@ -346,24 +900,24 @@
       "gallery": "fields-waves/running-charge"
     },
     {
-      "id": "0014",
-      "slug": "rutherford-geiger-marsden",
-      "qr_file": "Rutherford_animation.pdf",
+      "id": "0023",
+      "slug": "scattering-experiment",
+      "qr_file": "ScatteringExperiment.pdf",
       "hosting": "self",
       "title": {
-        "ru": "Опыт Резерфорда — Гейгера — Марсдена",
-        "en": "The Rutherford–Geiger–Marsden experiment"
+        "ru": "Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻",
+        "en": "A scattering experiment: e⁺e⁻ → μ⁺μ⁻"
       },
       "caption": {
-        "ru": "Альфа-частицы (ядра ⁴He) проходят через тонкую золотую фольгу. Траектории рассчитаны численно в кулоновском поле ядер; большинство частиц отклоняется слабо, но редкие поворачивают назад. Гистограмма углов совпадает с формулой Резерфорда ∝ 1/sin⁴(θ/2). В опытах Гейгера и Марсдена доля отражённых назад частиц составляла примерно одну из восьми тысяч, что противоречило модели Томсона.",
-        "en": "Alpha particles (⁴He nuclei) cross a thin gold foil. The trajectories are integrated numerically in the Coulomb field of the nuclei; most particles are deflected slightly, a few turn back. The angular histogram follows the Rutherford formula ∝ 1/sin⁴(θ/2). In the experiments of Geiger and Marsden about one particle in eight thousand was reflected backward, in conflict with Thomson's model."
+        "ru": "Три стадии эксперимента на коллайдере: ускорение и фокусировка пучков, взаимодействие в малой области и регистрация конечного состояния. Почти все частицы пролетают сквозь друг друга; изредка пара e⁺e⁻ аннигилирует и рождается пара μ⁺μ⁻ (первое событие показано замедленно). Из многих столкновений складывается угловое распределение dN/dcosθ ∝ 1 + cos²θ. Число событий равно сечению, умноженному на поток и число мишеней. Частота событий на анимации сильно завышена.",
+        "en": "The three stages of a collider experiment: acceleration and focusing of the beams, interaction in a localized region, and measurement of the final state. Almost all particles pass through each other; rarely an e⁺e⁻ pair annihilates and a μ⁺μ⁻ pair is born (the first event is shown in slow motion). Many collisions build up the angular distribution dN/dcosθ ∝ 1 + cos²θ. The number of events equals the cross section times the flux and the number of targets. The event rate in the animation is greatly exaggerated."
       },
       "book": {
         "volume": 1,
-        "chapter": 2,
+        "chapter": 18,
         "chapter_title": {
-          "ru": "Век открытий",
-          "en": "A Century of Discoveries"
+          "ru": "S-матрица",
+          "en": "The S-Matrix"
         }
       },
       "credit": {
@@ -371,98 +925,20 @@
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
         },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/rutherford",
-        "note": {
-          "ru": "Схема: число слоёв, размер ядер и число частиц подобраны для наглядности.",
-          "en": "Schematic: the number of layers, the size of the nuclei and the number of particles are chosen for clarity."
-        }
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/scattering_experiment"
       },
       "media": {
         "site_asset": {
-          "ru": "assets/animations/dvnanima/relativity-atom-spin-rutherford-foil.mp4",
-          "en": "assets/animations/dvnanima/relativity-atom-spin-rutherford-foil-en.mp4"
-        },
-        "poster_time": 14.0
-      },
-      "legacy_codes": [],
-      "gallery": "relativity-atom-spin/rutherford"
-    },
-    {
-      "id": "0015",
-      "slug": "relativity-simultaneity",
-      "qr_file": "Relativity_of_Simultaneity_animation.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Относительность одновременности",
-        "en": "The relativity of simultaneity"
-      },
-      "caption": {
-        "ru": "Три вспышки A, B, C происходят в один момент t = 0 в системе O (x = −1, 0, +1). В системе O′, движущейся со скоростью v, они происходят в моменты t′ = −γvx: при v > 0 порядок C, B, A, при v < 0 порядок A, B, C, при v = 0 вспышки одновременны. На диаграмме Минковского линия одновременности O′ параллельна оси x′ и наклоняется вместе с ней; штриховая линия от события вдоль неё до оси ct′ показывает, как считывается t′. В последней части: порядок пространственноподобных событий (|Δx| > |Δt|) зависит от системы, а временноподобных не меняется никогда, поэтому причинность не нарушается.",
-        "en": "Three flashes A, B, C happen at the same moment t = 0 in the frame O (x = −1, 0, +1). In the frame O′ that moves with the velocity v they happen at t′ = −γvx: for v > 0 the order is C, B, A, for v < 0 it is A, B, C, for v = 0 the flashes are simultaneous. On the Minkowski diagram the line of simultaneity of O′ is parallel to the x′ axis and tilts with it; a dashed line from an event along it to the ct′ axis shows how t′ is read off. In the last part: the order of spacelike separated events (|Δx| > |Δt|) depends on the frame, while that of timelike separated events never changes, so causality is safe."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 3,
-        "chapter_title": {
-          "ru": "Специальная теория относительности",
-          "en": "Special Relativity"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/simultaneity",
-        "note": {
-          "ru": "Диаграмма Минковского, преобразования Лоренца.",
-          "en": "Minkowski diagram, Lorentz transformations."
-        }
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski.mp4",
-          "en": "assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski-en.mp4"
+          "ru": "assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider-en.mp4"
         },
         "poster_time": 20.0
       },
-      "legacy_codes": [],
-      "gallery": "relativity-atom-spin/simultaneity"
+      "gallery": "neutrino-particles/scattering-experiment",
+      "legacy_codes": []
     },
     {
-      "id": "0021",
-      "slug": "galaxy-merger",
-      "qr_file": "Galaxy_Merger.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Слияние двух галактик",
-        "en": "Merger of two galaxies"
-      },
-      "caption": {
-        "ru": "Столкновение двух дисковых галактик в ограниченной задаче N тел с динамическим трением: приливные мосты и хвосты, затем округлый остаток. Рисунок в книге построен по этой же модели.",
-        "en": "A collision of two disk galaxies in a restricted N-body problem with dynamical friction: tidal bridges and tails, then a rounded remnant. The figure in the book is built from the same model."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 1,
-        "chapter_title": {
-          "ru": "Волны внутри нас",
-          "en": "Waves Inside Us"
-        }
-      },
-      "credit": {
-        "author": "Д. В. Наумов",
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/galaxy_merger"
-      },
-      "media": {
-        "site_asset": "assets/animations/dvnanima/visual-stories-galaxy-merger-merger.mp4",
-        "poster_time": 9.0
-      },
-      "legacy_codes": [],
-      "gallery": "visual-stories/galaxy-merger"
-    },
-    {
-      "id": "0022",
+      "id": "0024",
       "slug": "scalar-qed-attraction",
       "qr_file": "ScalarQED_Attraction.pdf",
       "hosting": "self",
@@ -504,7 +980,7 @@
       "gallery": "fields-waves/scalar-qed"
     },
     {
-      "id": "0023",
+      "id": "0025",
       "slug": "scalar-qed-repulsion",
       "qr_file": "ScalarQED_Repulsion.pdf",
       "hosting": "self",
@@ -546,539 +1022,7 @@
       "gallery": "fields-waves/scalar-qed"
     },
     {
-      "id": "0024",
-      "slug": "sm-field-mattress",
-      "qr_file": "StandardModel_FieldMattress.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Поля Стандартной модели: матрас полей",
-        "en": "Standard Model fields: a mattress of fields"
-      },
-      "caption": {
-        "ru": "Семнадцать видов полей Стандартной модели как листы одной стопки (кварковое поле существует в трёх цветах, глюонное имеет восемь компонент: лист изображает их все). Каждое поле заполняет всё пространство, и в каждой точке есть каждое поле. Частица — волновой пакет на листе своего поля; две волны одного поля проходят друг сквозь друга. Чтобы увидеть взаимодействие, оставлены два поля, электронное и электромагнитное: заряд создаёт поле на фотонном листе, поле другого заряда сдвигает фазу волны (модель скалярной КЭД), одноимённые заряды отталкиваются, разноимённые притягиваются. Затем e⁻e⁺ → γγ: волны уходят с электронного листа и появляются на фотонном; после этого два других фотона, столкнувшись, рождают новую пару (схематично). Листы — образ различных полей, а не буквальное расслоение вакуума.",
-        "en": "Seventeen kinds of fields of the Standard Model as sheets of one stack (a quark field exists in three colours and the gluon field has eight components: one sheet stands for all of them). Each field fills all of space, and every point has every field. A particle is a wave packet on the sheet of its own field; two waves of one field pass through each other. To see an interaction, only two fields are kept, the electron field and the electromagnetic field: a charge creates a field on the photon sheet, the field of another charge shifts the phase of the wave (the scalar-QED model), equal charges repel and opposite charges attract. Then e⁻e⁺ → γγ: the waves leave the electron sheet and appear on the photon sheet; after that two other photons collide and create a new pair (schematic). The sheets are a picture of distinct fields, not a literal layering of the vacuum."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 1,
-        "chapter_title": {
-          "ru": "Волны внутри нас",
-          "en": "Waves Inside Us"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/sm_fields",
-        "note": {
-          "ru": "Собственная анимация вместо ролика Arvin Ash, использованного в первом тираже.",
-          "en": "An original animation in place of the Arvin Ash video used in the first printing."
-        }
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack.mp4",
-          "en": "assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack-en.mp4"
-        },
-        "poster_time": 56.0
-      },
-      "legacy_codes": [],
-      "gallery": "fields-waves/standard-model-field-mattress"
-    },
-    {
-      "id": "0025",
-      "slug": "free-wavepacket",
-      "qr_file": "FreeWavePacket.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Свободный гауссов пакет: движение и расплывание",
-        "en": "A free Gaussian wave packet: motion and spreading"
-      },
-      "caption": {
-        "ru": "Точная эволюция гауссова пакета свободной частицы (ħ = m = 1). Центр движется с групповой скоростью, огибающая расширяется по закону σ(t) = σ₀√(1 + (t/2σ₀²)²), высота падает. Распределение по импульсу |ψ̃(p)|² не меняется, вращаются только фазы e^{-iE_p t}. Во второй части сравниваются узкий и широкий пакеты: чем уже пакет по x, тем он шире по p и тем быстрее расплывается.",
-        "en": "Exact evolution of a free Gaussian wave packet (ħ = m = 1). The centre moves with the group velocity and the envelope broadens as σ(t) = σ₀√(1 + (t/2σ₀²)²) while its height falls. The momentum distribution |ψ̃(p)|² does not change; only the phases e^{-iE_p t} rotate. The second part compares a narrow and a wide packet: the narrower in x, the broader in p and the faster it spreads."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 5,
-        "chapter_title": {
-          "ru": "Нерелятивистская квантовая механика",
-          "en": "Nonrelativistic Quantum Mechanics"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/free_wavepacket"
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4",
-          "en": "assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading-en.mp4"
-        },
-        "poster_time": 8.0
-      },
-      "legacy_codes": [],
-      "gallery": "fields-waves/schrodinger-packet"
-    },
-    {
       "id": "0026",
-      "slug": "coupled-oscillators-2d",
-      "qr_file": "CoupledOscillators2D.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Двумерная решётка связанных осцилляторов",
-        "en": "A two-dimensional lattice of coupled oscillators"
-      },
-      "caption": {
-        "ru": "Прямоугольная решётка 14×10 масс m, соединённых пружинками k, с закреплённым краем (матрас полей). Нормальные моды (a, b) с формулами q ∼ sin(aπi/(N_x+1)) sin(bπj/(N_y+1)) cos ω_ab t и карта энергий мод E_ab; рядом дисперсия ω(|k|). Выпуклость отпускают: расходятся круговые волны, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, t), а дисперсия — в ω = c|k|.",
-        "en": "A rectangular 14×10 lattice of masses m joined by springs k with a fixed edge (the mattress of fields). The normal modes (a, b) with the formulas q ∼ sin(aπi/(N_x+1)) sin(bπj/(N_y+1)) cos ω_ab t and the map of the mode energies E_ab; beside it the dispersion ω(|k|). A bump is released: circular waves spread, many modes take part and their energies are constant. Two waves in the linear lattice pass through each other (free particles). With anharmonic terms (cubic and quartic) in the Lagrangian the energy is redistributed among the modes: this is the interaction. For N → ∞ the lattice becomes the field φ(x, y, t) and the dispersion becomes ω = c|k|."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 12,
-        "chapter_title": {
-          "ru": "Основы классической теории поля",
-          "en": "Basics of Classical Field Theory"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_lattice_2d"
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice.mp4",
-          "en": "assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice-en.mp4"
-        },
-        "poster_time": 66.0
-      },
-      "legacy_codes": [],
-      "gallery": "fields-waves/coupled-lattice-2d"
-    },
-    {
-      "id": "0027",
-      "slug": "feynman-numu-electron",
-      "qr_file": "Feynman_NuMuElectron.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Рассеяние νμ + e → νe + μ",
-        "en": "Scattering νμ + e → νe + μ"
-      },
-      "caption": {
-        "ru": "Анимированная диаграмма Фейнмана реакции νμ e⁻ → μ⁻ νe через обмен W-бозоном.",
-        "en": "An animated Feynman diagram of the reaction νμ e⁻ → μ⁻ νe through W-boson exchange."
-      },
-      "book": {
-        "volume": 2,
-        "chapter": 29,
-        "chapter_title": {
-          "ru": "Взаимодействие нейтрино с электроном",
-          "en": "Neutrino–Electron Scattering"
-        }
-      },
-      "credit": {
-        "author": "Д. В. Наумов",
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/feynman_scattering"
-      },
-      "media": {
-        "site_asset": "assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-electron.mp4",
-        "poster_time": 6.0
-      },
-      "legacy_codes": [],
-      "gallery": "neutrino-particles/feynman-scattering"
-    },
-    {
-      "id": "0028",
-      "slug": "feynman-numu-z",
-      "qr_file": "Feynman_NuMuZ.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Рассеяние нейтрино через Z-бозон",
-        "en": "Neutrino scattering through the Z boson"
-      },
-      "caption": {
-        "ru": "Анимированная диаграмма Фейнмана рассеяния нейтрино через обмен Z-бозоном (нейтральный ток).",
-        "en": "An animated Feynman diagram of neutrino scattering through Z-boson exchange (neutral current)."
-      },
-      "book": {
-        "volume": 2,
-        "chapter": 29,
-        "chapter_title": {
-          "ru": "Взаимодействие нейтрино с электроном",
-          "en": "Neutrino–Electron Scattering"
-        }
-      },
-      "credit": {
-        "author": "Д. В. Наумов",
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/feynman_scattering"
-      },
-      "media": {
-        "site_asset": "assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-z.mp4",
-        "poster_time": 6.0
-      },
-      "legacy_codes": [],
-      "gallery": "neutrino-particles/feynman-scattering"
-    },
-    {
-      "id": "0029",
-      "slug": "air-shower",
-      "qr_file": "AirShower.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Широкий атмосферный ливень",
-        "en": "A cosmic-ray air shower"
-      },
-      "caption": {
-        "ru": "Пионы и мюоны первых десятилетий были найдены в космических лучах. Анимация показывает, как один протон с энергией $10^{15}$ эВ создаёт в атмосфере широкий ливень: сначала правило Гайтлера для одного фотона ($N=2^n$, остановка при $E=E_c$), затем ливень от протона методом Монте-Карло, где $\\pi^0\\to\\gamma\\gamma$ питает электромагнитный каскад, а распады $\\pi^\\pm$ дают мюоны и нейтрино. Справа растёт профиль $N(X)$ с оценками Гайтлера $N_{\\max}=E_0/E_c$ и $X_{\\max}=X_0\\ln(E_0/E_c)$; в конце — детекторы на земле и свет ливня. Модель игрушечная.",
-        "en": "The pions and muons of the first decades were found in cosmic rays. The animation shows how one proton of energy $10^{15}$ eV makes an extensive air shower: first Heitler's rule for a single photon ($N=2^n$, stop at $E=E_c$), then a Monte Carlo shower of a proton, in which $\\pi^0\\to\\gamma\\gamma$ feeds the electromagnetic cascade and the decays of $\\pi^\\pm$ give muons and neutrinos. On the right the profile $N(X)$ grows with Heitler's estimates $N_{\\max}=E_0/E_c$ and $X_{\\max}=X_0\\ln(E_0/E_c)$; at the end, the detectors on the ground and the light of the shower. A toy model."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 2,
-        "chapter_title": {
-          "ru": "Век открытий",
-          "en": "A Century of Discoveries"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/air_shower_cascade",
-        "note": {
-          "ru": "Игрушечная модель Гайтлера (электромагнитный каскад, 1944) и Мэтьюза (адронная часть, 2005), метод Монте-Карло с фиксированным зерном, разрежение (thinning) по Хилласу; формула НКГ для поперечного распределения; N_max = E0/Ec, X_max = X0 ln(E0/Ec), N_μ = (E0/E_dec)^β.",
-          "en": "Toy model of Heitler (electromagnetic cascade, 1944) and Matthews (hadronic part, 2005), Monte Carlo with a fixed seed, Hillas thinning; NKG formula for the lateral distribution; N_max = E0/Ec, X_max = X0 ln(E0/Ec), N_mu = (E0/E_dec)^beta."
-        }
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4",
-          "en": "assets/animations/dvnanima/neutrino-particles-air-shower-air-shower-en.mp4"
-        },
-        "poster_time": 62.0
-      },
-      "legacy_codes": [],
-      "gallery": "neutrino-particles/air-shower"
-    },
-    {
-      "id": "0030",
-      "slug": "pmt",
-      "qr_file": "PMT.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Как работает фотоумножитель",
-        "en": "How a photomultiplier tube works"
-      },
-      "caption": {
-        "ru": "Один фотон выбивает с фотокатода электрон; на каждом из десяти динодов электрон выбивает в среднем δ = 4 вторичных (число случайно, распределение Пуассона), поэтому число электронов растёт как δ^j и усиление равно ≈ 10⁶. Усиление линейно: во второй части три вспышки сцинтиллятора с 2, 6 и 12 фотоэлектронами дают импульсы, высоты которых примерно пропорциональны 2 : 6 : 12 (число вторичных электронов случайно). По высоте импульса измеряют число фотонов, а значит, энергию.",
-        "en": "A photon knocks an electron out of the photocathode; at each of ten dynodes an electron knocks out on average δ = 4 secondary electrons (the number is random, Poisson distributed), so the number of electrons grows as δ^j and the gain is about 10⁶. The amplification is linear: in the second part three scintillation flashes with 2, 6 and 12 photoelectrons give pulses whose heights are roughly proportional to 2 : 6 : 12 (the numbers of secondary electrons are random). The pulse height measures the number of photons and hence the energy."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 2,
-        "chapter_title": {
-          "ru": "Век открытий",
-          "en": "A Century of Discoveries"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/pmt_multiplication"
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4",
-          "en": "assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche-en.mp4"
-        },
-        "poster_time": 15.0
-      },
-      "legacy_codes": [],
-      "gallery": "neutrino-particles/pmt-multiplication"
-    },
-    {
-      "id": "0031",
-      "slug": "cherenkov-cone",
-      "qr_file": "CherenkovCone.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Излучение Вавилова — Черенкова: конус из волн",
-        "en": "Cherenkov radiation: a cone of wavelets"
-      },
-      "caption": {
-        "ru": "Построение Гюйгенса для заряда, летящего в среде с показателем преломления n = 1,33 (вода). Пока v < c/n, волны от последовательных положений вложены друг в друга и света нет. При v > c/n у волн появляется общая огибающая, конус; свет идёт перпендикулярно ей под углом θ к траектории, cos θ = 1/(nβ). Кольцо на детекторе имеет радиус L tg θ. Порог в воде: 0,26 МэВ для электрона и 55 МэВ для мюона, предельный угол 41,2°.",
-        "en": "Huygens construction for a charge moving in a medium of refractive index n = 1.33 (water). While v < c/n the wavelets of successive positions lie inside one another and there is no light. For v > c/n the wavelets acquire a common envelope, a cone; light travels perpendicular to it at the angle θ to the track, cos θ = 1/(nβ). The ring on the detector has radius L tan θ. Threshold in water: 0.26 MeV for an electron and 55 MeV for a muon, the limiting angle is 41.2°."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 13,
-        "chapter_title": {
-          "ru": "Классические поля и их лагранжианы",
-          "en": "Classical Fields and Their Lagrangians"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_radiation"
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4",
-          "en": "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens-en.mp4"
-        },
-        "poster_time": 24.0
-      },
-      "legacy_codes": [],
-      "gallery": "neutrino-particles/cherenkov-radiation"
-    },
-    {
-      "id": "0032",
-      "slug": "hulse-taylor",
-      "qr_file": "HulseTaylor.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Двойной пульсар Халса — Тейлора",
-        "en": "The Hulse–Taylor binary pulsar"
-      },
-      "caption": {
-        "ru": "Две нейтронные звезды (1,438 и 1,390 массы Солнца) на вытянутой орбите с периодом 7,75 ч излучают гравитационные волны. Орбита сжимается, период падает, и периастр приходит раньше, чем при постоянном периоде. Справа растёт накопленный сдвиг: около −38,6 с за 30 лет по ОТО, измеренная производная периода даёт ту же кривую в пределах погрешности (отношение 0,9983 ± 0,0016). Сжатие орбиты, сдвиг фазы и картина волн на анимации схематичны.",
-        "en": "Two neutron stars (1.438 and 1.390 solar masses) on an eccentric orbit with a period of 7.75 h radiate gravitational waves. The orbit shrinks, the period falls, and the periastron arrives earlier than for a constant period. On the right the accumulated shift grows: about −38.6 s over 30 years in general relativity, and the measured period derivative gives the same curve within the uncertainty (ratio 0.9983 ± 0.0016). The orbit shrinkage, the phase shift and the wave pattern in the animation are schematic."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 4,
-        "chapter_title": {
-          "ru": "Гравитация",
-          "en": "Gravity"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/hulse_taylor",
-        "note": {
-          "ru": "Параметры орбиты и производные периода: Weisberg, Huang, ApJ 829, 55 (2016).",
-          "en": "Orbit parameters and period derivatives: Weisberg and Huang, ApJ 829, 55 (2016)."
-        }
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4",
-          "en": "assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit-en.mp4"
-        },
-        "poster_time": 28.0
-      },
-      "gallery": "relativity-atom-spin/hulse-taylor",
-      "legacy_codes": []
-    },
-    {
-      "id": "0033",
-      "slug": "coupled-oscillators-1d",
-      "qr_file": "CoupledOscillators1D.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Цепочка связанных осцилляторов",
-        "en": "A chain of coupled oscillators"
-      },
-      "caption": {
-        "ru": "Цепочка из N одинаковых масс m, соединённых пружинками k, с закреплёнными концами. Нормальные моды s = 1, 2, 4, 9, 24 с формулой для частоты ω_s = 2√(k/m) sin[sπ/(2(N+1))] и положением на кривой дисперсии; столбики показывают энергию каждой моды. Выпуклость отпускают: две волны бегут к концам, участвуют много мод, и их энергии постоянны. Две волны в линейной цепочке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ цепочка превращается в поле φ(x, t), а дисперсия — в ω = ck.",
-        "en": "A chain of N identical masses m joined by springs k with fixed ends. The normal modes s = 1, 2, 4, 9, 24 with the frequency formula ω_s = 2√(k/m) sin[sπ/(2(N+1))] and their place on the dispersion curve; the bars show the energy of every mode. A bump is released: two waves run to the ends, many modes take part and their energies are constant. Two waves in a linear chain pass through each other (free particles). With anharmonic terms (cubic and quartic) in the Lagrangian the energy is redistributed among the modes: this is the interaction. For N → ∞ the chain becomes the field φ(x, t) and the dispersion becomes ω = ck."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 12,
-        "chapter_title": {
-          "ru": "Основы классической теории поля",
-          "en": "Basics of Classical Field Theory"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_chain"
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/fields-waves-coupled-chain-chain.mp4",
-          "en": "assets/animations/dvnanima/fields-waves-coupled-chain-chain-en.mp4"
-        },
-        "poster_time": 60.0
-      },
-      "gallery": "fields-waves/coupled-chain",
-      "legacy_codes": []
-    },
-    {
-      "id": "0034",
-      "slug": "coupled-oscillators-3d",
-      "qr_file": "CoupledOscillators3D.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Трёхмерная решётка связанных осцилляторов",
-        "en": "A three-dimensional lattice of coupled oscillators"
-      },
-      "caption": {
-        "ru": "Трёхмерная решётка 14×8×8 масс m, соединённых пружинками k, с закреплённой границей. Масса — точка, размер и яркость которой показывают смещение, а цвет — его знак. Нормальные моды (a, b, c) с формулами и спектр энергий мод; рядом дисперсия ω(|k|). Выпуклость в центре отпускают: бежит сферическая волна, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, z, t), а дисперсия — в ω = c|k|.",
-        "en": "A three-dimensional 14×8×8 lattice of masses m joined by springs k with a fixed boundary. A mass is a dot whose size and brightness show the displacement and whose colour is its sign. The normal modes (a, b, c) with their formulas and the spectrum of the mode energies; beside it the dispersion ω(|k|). A bump at the centre is released: a spherical wave runs out, many modes take part and their energies are constant. Two waves in the linear lattice pass through each other (free particles). With anharmonic terms (cubic and quartic) in the Lagrangian the energy is redistributed among the modes: this is the interaction. For N → ∞ the lattice becomes the field φ(x, y, z, t) and the dispersion becomes ω = c|k|."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 12,
-        "chapter_title": {
-          "ru": "Основы классической теории поля",
-          "en": "Basics of Classical Field Theory"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_lattice_3d"
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.mp4",
-          "en": "assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice-en.mp4"
-        },
-        "poster_time": 59.0
-      },
-      "gallery": "fields-waves/coupled-lattice-3d",
-      "legacy_codes": []
-    },
-    {
-      "id": "0035",
-      "slug": "scattering-experiment",
-      "qr_file": "ScatteringExperiment.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻",
-        "en": "A scattering experiment: e⁺e⁻ → μ⁺μ⁻"
-      },
-      "caption": {
-        "ru": "Три стадии эксперимента на коллайдере: ускорение и фокусировка пучков, взаимодействие в малой области и регистрация конечного состояния. Почти все частицы пролетают сквозь друг друга; изредка пара e⁺e⁻ аннигилирует и рождается пара μ⁺μ⁻ (первое событие показано замедленно). Из многих столкновений складывается угловое распределение dN/dcosθ ∝ 1 + cos²θ. Число событий равно сечению, умноженному на поток и число мишеней. Частота событий на анимации сильно завышена.",
-        "en": "The three stages of a collider experiment: acceleration and focusing of the beams, interaction in a localized region, and measurement of the final state. Almost all particles pass through each other; rarely an e⁺e⁻ pair annihilates and a μ⁺μ⁻ pair is born (the first event is shown in slow motion). Many collisions build up the angular distribution dN/dcosθ ∝ 1 + cos²θ. The number of events equals the cross section times the flux and the number of targets. The event rate in the animation is greatly exaggerated."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 18,
-        "chapter_title": {
-          "ru": "S-матрица",
-          "en": "The S-Matrix"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/scattering_experiment"
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.mp4",
-          "en": "assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider-en.mp4"
-        },
-        "poster_time": 20.0
-      },
-      "gallery": "neutrino-particles/scattering-experiment",
-      "legacy_codes": []
-    },
-    {
-      "id": "0036",
-      "slug": "electron-kick",
-      "qr_file": "ElectronKick.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Пинок электрону: фронт электромагнитной волны",
-        "en": "A kick to an electron: the front of an electromagnetic wave"
-      },
-      "caption": {
-        "ru": "Электрон мгновенно получает скорость v. Вне сферы r = ct поле остаётся полем покоящегося заряда, внутри — это поле движущегося заряда, прижатое к плоскости, перпендикулярной скорости, а на самой сфере силовые линии соединяются дугами: это фронт электромагнитной волны. Линии проведены с равным потоком, поэтому их густота — напряжённость поля. Показаны β = 0,30 и β = 0,85; соединение линий следует из закона Гаусса: cos θ = cos ψ / √(1 − β² sin² ψ).",
-        "en": "An electron is instantaneously given the velocity v. Outside the sphere r = ct the field is still that of the charge at rest; inside it is the field of the moving charge, pressed towards the plane perpendicular to the velocity; on the sphere itself the field lines are joined by arcs: this is the front of the electromagnetic wave. The lines are drawn with equal flux, so their density is the field strength. β = 0.30 and β = 0.85 are shown; the joining of the lines follows from Gauss's law: cos θ = cos ψ / √(1 − β² sin² ψ)."
-      },
-      "book": {
-        "volume": 2,
-        "chapter": 23,
-        "chapter_title": {
-          "ru": "Калибровочная инвариантность",
-          "en": "Gauge Invariance"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/electron_kick"
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/fields-waves-electron-kick-front.mp4",
-          "en": "assets/animations/dvnanima/fields-waves-electron-kick-front-en.mp4"
-        },
-        "poster_time": 16.4
-      },
-      "gallery": "fields-waves/electron-kick",
-      "legacy_codes": []
-    },
-    {
-      "id": "0037",
-      "slug": "pi0-double-dalitz",
-      "qr_file": "Pi0DoubleDalitz.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Распад π⁰ → e⁺e⁻e⁺e⁻: E, B и плоскости пар",
-        "en": "The decay π⁰ → e⁺e⁻e⁺e⁻: E, B and the planes of the pairs"
-      },
-      "caption": {
-        "ru": "Нейтральный пион (P = −1) распадается на два виртуальных фотона, каждый превращается в пару e⁺e⁻; плоскость пары содержит поляризацию E своего фотона, а B перпендикулярно ей. Амплитуда ∝ E₁·B₂ + E₂·B₁ ∝ sin φ (из L = (α/πf_π)π⁰E·B, Γ = α²m_π³/(64π³f_π²) = 7,8 эВ), поэтому плоскости предпочитают быть перпендикулярными. Ролик показывает первое событие подробно, затем события ускоряются и копится распределение по углу φ между плоскостями. Во второй части та же картина для скалярной частицы (P = +1, L ∝ S(E² − B²)): амплитуда ∝ E₁·E₂ − B₁·B₂ ∝ cos φ, плоскости параллельны. Амплитуда a в распределении 1 ∓ a cos 2φ условная.",
-        "en": "A neutral pion (P = −1) decays into two virtual photons and each turns into an e⁺e⁻ pair; the plane of the pair contains the polarization E of its photon and B is perpendicular to it. The amplitude ∝ E₁·B₂ + E₂·B₁ ∝ sin φ (from L = (α/πf_π)π⁰E·B, Γ = α²m_π³/(64π³f_π²) = 7.8 eV), so the planes prefer to be perpendicular. The film shows the first event in detail, then the events speed up and the distribution of the angle φ between the planes builds up. In the second part the same picture for a scalar particle (P = +1, L ∝ S(E² − B²)): the amplitude ∝ E₁·E₂ − B₁·B₂ ∝ cos φ, the planes are parallel. The amplitude a in the distribution 1 ∓ a cos 2φ is illustrative."
-      },
-      "book": {
-        "volume": 2,
-        "chapter": 40,
-        "chapter_title": {
-          "ru": "Квантовые аномалии",
-          "en": "Quantum Anomalies"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/pi0_double_dalitz"
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes.mp4",
-          "en": "assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes-en.mp4"
-        },
-        "poster_time": 16.0
-      },
-      "gallery": "neutrino-particles/pi0-double-dalitz",
-      "legacy_codes": []
-    },
-    {
-      "id": "0038",
       "slug": "path-integral",
       "qr_file": "PathIntegral.pdf",
       "hosting": "self",
@@ -1116,301 +1060,7 @@
       "legacy_codes": []
     },
     {
-      "id": "0039",
-      "slug": "meissner-photon-mass",
-      "qr_file": "MeissnerPhotonMass.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Эффект Мейснера и масса фотона",
-        "en": "The Meissner effect and the photon mass"
-      },
-      "caption": {
-        "ru": "Диск конденсата вытесняет магнитное поле (эффект Мейснера): поле спадает как $e^{-x/\\lambda_L}$, $\\lambda_L=1/m_A$. Затем волновой пакет подходит к границе конденсата: при $\\omega<m_A$ он отражается и оставляет затухающий хвост, при $\\omega>m_A$ проходит с групповой скоростью $v_g=k/\\omega<1$. В конце — дисперсия $\\omega^2=k^2+m_A^2$ и счёт поляризаций $2+2=1+3$. Конденсат считается заданным фоном.",
-        "en": "A disc of condensate pushes out the magnetic field (the Meissner effect): the field decays as $e^{-x/\\lambda_L}$, $\\lambda_L=1/m_A$. Then a wave packet approaches the boundary of the condensate: for $\\omega<m_A$ it is reflected and leaves an evanescent tail, for $\\omega>m_A$ it passes with the group velocity $v_g=k/\\omega<1$. At the end: the dispersion $\\omega^2=k^2+m_A^2$ and the counting of polarizations $2+2=1+3$. The condensate is treated as a fixed background."
-      },
-      "book": {
-        "volume": 2,
-        "chapter": 24,
-        "chapter_title": {
-          "ru": "Откуда у частицы масса?",
-          "en": "Where Does a Particle Get Its Mass?"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/meissner_photon_mass",
-        "note": {
-          "ru": "Абелева модель Хиггса и уравнение Прока (m_A = ev), уравнение Лондонов; статика: точное решение для цилиндра в поперечном поле; динамика: численное решение (leapfrog) уравнения ∂_t²A − ∂_x²A + m_A²(x)A = 0.",
-          "en": "The Abelian Higgs model and the Proca equation (m_A = ev), the London equation; statics: the exact solution for a cylinder in a transverse field; dynamics: numerical (leapfrog) solution of ∂_t²A − ∂_x²A + m_A²(x)A = 0."
-        }
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/fields-waves-meissner-photon-mass-film.mp4",
-          "en": "assets/animations/dvnanima/fields-waves-meissner-photon-mass-film-en.mp4"
-        },
-        "poster_time": 22.0
-      },
-      "gallery": "fields-waves/meissner-photon-mass",
-      "legacy_codes": []
-    },
-    {
-      "id": "0040",
-      "slug": "chiral-fermion-mass",
-      "qr_file": "ChiralFermionMass.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Киральные волны и масса фермиона",
-        "en": "Chiral waves and the fermion mass"
-      },
-      "caption": {
-        "ru": "В $(1+1)$ измерениях безмассовое уравнение Дирака даёт две независимые волны: $\\psi_R$ бежит вправо, $\\psi_L$ — влево. Массовый член связывает их, $i(\\partial_t\\pm\\partial_x)\\psi=m\\psi$; киральность $\\langle\\gamma_5\\rangle$ колеблется с частотой $2E$, а пакет замедляется до $v=p/E<1$. В конце показано, почему массовый член запрещён $SU(2)$-симметрией и как его даёт юкавская связь с хиггсовским конденсатом, $m=fv/\\sqrt{2}$.",
-        "en": "In $(1+1)$ dimensions the massless Dirac equation gives two independent waves: $\\psi_R$ runs to the right, $\\psi_L$ to the left. The mass term couples them, $i(\\partial_t\\pm\\partial_x)\\psi=m\\psi$; the chirality $\\langle\\gamma_5\\rangle$ oscillates with the frequency $2E$, and the packet slows down to $v=p/E<1$. At the end: why the mass term is forbidden by $SU(2)$ symmetry and how the Yukawa coupling to the Higgs condensate gives it, $m=fv/\\sqrt{2}$."
-      },
-      "book": {
-        "volume": 2,
-        "chapter": 24,
-        "chapter_title": {
-          "ru": "Откуда у частицы масса?",
-          "en": "Where Does a Particle Get Its Mass?"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/chiral_fermion_mass",
-        "note": {
-          "ru": "Уравнение Дирака в (1+1) измерениях в киральном базисе, i(∂_t + ∂_x)ψ_R = mψ_L, i(∂_t − ∂_x)ψ_L = mψ_R, решено точно в импульсном представлении (унитарная эволюция); m = fv/√2. Единицы ħ = c = 1 условные.",
-          "en": "The Dirac equation in 1+1 dimensions in the chiral basis, i(∂_t + ∂_x)ψ_R = mψ_L, i(∂_t − ∂_x)ψ_L = mψ_R, solved exactly in momentum space (unitary evolution); m = fv/√2. The units ħ = c = 1 are arbitrary."
-        }
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film.mp4",
-          "en": "assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film-en.mp4"
-        },
-        "poster_time": 26.8
-      },
-      "gallery": "fields-waves/chiral-fermion-mass",
-      "legacy_codes": []
-    },
-    {
-      "id": "0041",
-      "slug": "z-decay-asymmetry",
-      "qr_file": "ZDecayAsymmetry.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Асимметрия в рождении и распаде Z-бозона",
-        "en": "Asymmetry in Z-boson production and decay"
-      },
-      "caption": {
-        "ru": "Четыре спиральных канала $e^+e^-\\to Z\\to f\\bar f$ с весами $(g_a^eg_b^f)^2$ и угловыми распределениями $(1\\pm\\cos\\theta)^2$, их сумма, асимметрия «вперёд – назад» $A_{FB}=\\frac34A_{LR}^eA_{LR}^f$ при $\\sin^2\\theta_W=0{,}2316$, события Монте-Карло и зависимость $A_{FB}(\\sqrt{s})$ с интерференцией $\\gamma$ и $Z$.",
-        "en": "The four helicity channels of $e^+e^-\\to Z\\to f\\bar f$ with the weights $(g_a^eg_b^f)^2$ and the angular distributions $(1\\pm\\cos\\theta)^2$, their sum, the forward–backward asymmetry $A_{FB}=\\frac34A_{LR}^eA_{LR}^f$ at $\\sin^2\\theta_W=0.2316$, Monte-Carlo events and the dependence $A_{FB}(\\sqrt{s})$ with $\\gamma$–$Z$ interference."
-      },
-      "book": {
-        "volume": 2,
-        "chapter": 27,
-        "chapter_title": {
-          "ru": "Слабые распады W-, Z-бозонов",
-          "en": "Weak Decays of the W and Z Bosons"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/z_decay_asymmetry",
-        "note": {
-          "ru": "Древесная амплитуда e⁺e⁻ → γ*/Z → f f̄ в безмассовом пределе, киральные амплитуды ρ_ab из главы книги, sin²θ_W = 0,2316, 1/α(m_Z) = 128,95, Γ_Z = 2495,5 МэВ; события Монте-Карло разыграны из dN/dcosθ. Рисунок схематичен: события повёрнуты вокруг оси пучка в плоскость кадра, радиационные поправки не учтены.",
-          "en": "Tree-level e⁺e⁻ → γ*/Z → f f̄ amplitude in the massless limit with the chiral amplitudes ρ_ab of the book chapter, sin²θ_W = 0.2316, 1/α(m_Z) = 128.95, Γ_Z = 2495.5 MeV; the Monte-Carlo events are drawn from dN/dcosθ. The picture is schematic: events are rotated about the beam axis into the picture plane, radiative corrections are not included."
-        }
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film.mp4",
-          "en": "assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film-en.mp4"
-        },
-        "poster_time": 42.0
-      },
-      "gallery": "neutrino-particles/z-decay-asymmetry",
-      "legacy_codes": []
-    },
-    {
-      "id": "0042",
-      "slug": "higgs-ff-spin",
-      "qr_file": "HiggsFFbarSpin.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Спиновая и орбитальная структура пары f f̄ в распадах бозона Хиггса",
-        "en": "Spin and orbital structure of the f f̄ pair in Higgs decays"
-      },
-      "caption": {
-        "ru": "Пара $f\\bar f$ как волна относительной координаты $\\mathbf{r}$: скалярный распад $H\\to f\\bar f$ даёт P-волну (вихрь $\\psi\\propto j_1(pr)$), и выбор проекций спинов фиксирует орбитальную проекцию $m=-(\\rho_1+\\rho_2)/2$; псевдоскаляр даёт чистую S-волну; интерференция скаляра и псевдоскаляра наклоняет облако ($CP$-нечётность). Цвет — фаза $\\psi$. Детектор проецирует пару на импульсные состояния, поэтому остаются лишь спин-угловые корреляции.",
-        "en": "The $f\\bar f$ pair as a wave of the relative coordinate $\\mathbf{r}$: the scalar decay $H\\to f\\bar f$ gives a P-wave (a vortex $\\psi\\propto j_1(pr)$), and the choice of the spin projections fixes the orbital projection $m=-(\\rho_1+\\rho_2)/2$; a pseudoscalar gives a pure S-wave; the interference of the scalar and the pseudoscalar makes the cloud lean ($CP$ oddness). Colour is the phase of $\\psi$. A detector projects the pair on momentum states, so only spin-angle correlations survive."
-      },
-      "book": {
-        "volume": 2,
-        "chapter": 28,
-        "chapter_title": {
-          "ru": "Распады бозона Хиггса",
-          "en": "Higgs Boson Decays"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/higgs_ff_spin",
-        "note": {
-          "ru": "Модель: волновая функция пары в координатном представлении ψ_{ρ₁ρ₂}(r; s₁, s₂) = i m_f p/(16π²v) ∫dΩ_n e^{ipn·r} ū(pn)Γv(−pn), Γ = 1 (скаляр) или γ₅ (псевдоскаляр); ψ_S ∝ β j₁(pr) χ†(σ·r̂)η, ψ_P ∝ j₀(pr) χ†η; плотность в замкнутом виде (проверена численно, см. README).",
-          "en": "Model: the coordinate-space wave function of the pair ψ_{ρ₁ρ₂}(r; s₁, s₂) = i m_f p/(16π²v) ∫dΩ_n e^{ipn·r} ū(pn)Γv(−pn), Γ = 1 (scalar) or γ₅ (pseudoscalar); ψ_S ∝ β j₁(pr) χ†(σ·r̂)η, ψ_P ∝ j₀(pr) χ†η; the densities in closed form (checked numerically, see the README)."
-        }
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/fields-waves-higgs-ff-spin-film.mp4",
-          "en": "assets/animations/dvnanima/fields-waves-higgs-ff-spin-film-en.mp4"
-        },
-        "poster_time": 35.1
-      },
-      "gallery": "fields-waves/higgs-ff-spin",
-      "legacy_codes": []
-    },
-    {
-      "id": "0043",
-      "slug": "quantum-tunneling",
-      "qr_file": "QuantumTunneling.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Туннельный эффект: точечное и протяжённое тело",
-        "en": "Tunnelling: a point body and an extended body"
-      },
-      "caption": {
-        "ru": "Шар с $E<V$ не переваливает холм, а поезд из $N$ вагонов с той же скоростью каждого вагона проходит: его барьер $\\max U(S)$ ниже $NV$. Затем классическая волна на цепочке масс, связанных пружинками с полом только в отрезке: волна частоты $\\omega<\\Omega$ затухает как $e^{-\\kappa x}$ и частично выходит с другой стороны, $T\\approx e^{-2\\kappa a}$, без квантов. Для волны материи то же уравнение с $\\omega^2\\to E$, $\\Omega^2\\to V$, $\\kappa=\\sqrt{2m(V-E)}/\\hbar$, поэтому $T$ падает с ростом массы экспоненциально.",
-        "en": "A ball with $E<V$ does not climb the hill, but a train of $N$ cars with the same speed of every car passes: its barrier $\\max U(S)$ is lower than $NV$. Then a classical wave on a chain of masses joined to the floor by springs only in a segment: a wave of frequency $\\omega<\\Omega$ decays as $e^{-\\kappa x}$ and partly comes out on the other side, $T\\approx e^{-2\\kappa a}$, with no quanta. For a matter wave the equation is the same with $\\omega^2\\to E$, $\\Omega^2\\to V$, $\\kappa=\\sqrt{2m(V-E)}/\\hbar$, so $T$ falls exponentially with the mass."
-      },
-      "book": {
-        "volume": 1,
-        "chapter": 6,
-        "chapter_title": {
-          "ru": "Уравнение Клейна — Фока — Гордона",
-          "en": "The Klein–Fock–Gordon Equation"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/quantum_tunneling",
-        "note": {
-          "ru": "Поезд: точная механика жёсткой цепочки вагонов по дуге трассы, L = ½MṠ² − U(S), симплектическое интегрирование. Волна на цепочке: схема «чехарда» с шагом 0,02, мягкий источник, поглощающие слои; прохождение сверено с точной формулой (0,1 %). Волна материи: стационарное уравнение Шрёдингера, точное решение рассеяния на гауссовом холме.",
-          "en": "The train: exact mechanics of a rigid chain of cars along the arc of the track, L = ½MṠ² − U(S), symplectic integration. The wave on the chain: leapfrog with the step 0.02, a soft source and damping layers; the transmission agrees with the exact formula (0.1 %). The matter wave: the stationary Schrödinger equation, the exact scattering solution on a Gaussian hill."
-        }
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/fields-waves-quantum-tunneling-film.mp4",
-          "en": "assets/animations/dvnanima/fields-waves-quantum-tunneling-film-en.mp4"
-        },
-        "poster_time": 57.4
-      },
-      "gallery": "fields-waves/quantum-tunneling",
-      "legacy_codes": []
-    },
-    {
-      "id": "0044",
-      "slug": "kaon-oscillations",
-      "qr_file": "KaonOscillations.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Осцилляции нейтральных каонов",
-        "en": "Oscillations of neutral kaons"
-      },
-      "caption": {
-        "ru": "$K^0$ рождается в сильной реакции как суперпозиция $K_S$ и $K_L$ и эволюционирует с эффективным гамильтонианом $H=M-i\\Gamma/2$: странность осциллирует с частотой $\\Delta m$, пока $K_S$ распадается; остаётся чистый пучок $K_L$ с равными долями $K^0$ и $\\bar K^0$. Показаны мишени вдоль пучка ($\\bar K^0N\\to\\Lambda\\pi$ разрешено, $K^0N\\to\\Lambda\\pi$ запрещено), асимметрия заряда лептона и регенерация $K_S$. Нарушение $CP$ не учитывается.",
-        "en": "A $K^0$ is born in a strong reaction as a superposition of $K_S$ and $K_L$ and evolves with the effective Hamiltonian $H=M-i\\Gamma/2$: the strangeness oscillates with the frequency $\\Delta m$ while $K_S$ decays; a pure $K_L$ beam remains, with equal parts of $K^0$ and $\\bar K^0$. Targets along the beam are shown ($\\bar K^0N\\to\\Lambda\\pi$ is allowed, $K^0N\\to\\Lambda\\pi$ is forbidden), the lepton-charge asymmetry and the regeneration of $K_S$. $CP$ violation is neglected."
-      },
-      "book": {
-        "volume": 2,
-        "chapter": 33,
-        "chapter_title": {
-          "ru": "Загадки нейтральных каонов",
-          "en": "The Mysteries of Neutral Kaons"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/kaon_oscillations",
-        "note": {
-          "ru": "Модель: двухуровневая система (K⁰, K̄⁰) с эффективным гамильтонианом H = M − iΓ/2 при сохранении CP (K_S = (K⁰ − K̄⁰)/√2, K_L = (K⁰ + K̄⁰)/√2); параметры из главы «Загадки нейтральных каонов»: τ_S = 8,954·10⁻¹¹ с, τ_L = 5,116·10⁻⁸ с, Δm = 3,5·10⁻⁶ эВ. Уравнение Шрёдингера интегрируется численно (DOP853), результат совпадает с формулами книги с точностью 10⁻⁹; фаза средней массы убрана. Рисунок схематичен: толщина пучка пропорциональна интенсивности; поглотитель в последней части иллюстративный (амплитуды пропускания f = 0,9 для K⁰ и f̄ = 0,1 для K̄⁰), реальное взаимодействие с веществом не моделируется; нарушение CP не учитывается.",
-          "en": "Model: a two-level system (K⁰, K̄⁰) with the effective Hamiltonian H = M − iΓ/2 and CP conserved (K_S = (K⁰ − K̄⁰)/√2, K_L = (K⁰ + K̄⁰)/√2); the parameters are those of the chapter \"The Mysteries of Neutral Kaons\": τ_S = 8.954·10⁻¹¹ s, τ_L = 5.116·10⁻⁸ s, Δm = 3.5·10⁻⁶ eV. The Schrödinger equation is integrated numerically (DOP853) and agrees with the formulas of the book to 10⁻⁹; the phase of the mean mass is removed. The picture is schematic: the thickness of the beam is proportional to its intensity; the absorber of the last part is illustrative (transmission amplitudes f = 0.9 for K⁰ and f̄ = 0.1 for K̄⁰), real interactions in matter are not modelled; CP violation is not included."
-        }
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film.mp4",
-          "en": "assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film-en.mp4"
-        },
-        "poster_time": 46.0
-      },
-      "gallery": "neutrino-particles/kaon-oscillations",
-      "legacy_codes": []
-    },
-    {
-      "id": "0045",
-      "slug": "chiral-anomaly",
-      "qr_file": "ChiralAnomaly.pdf",
-      "hosting": "self",
-      "title": {
-        "ru": "Киральная аномалия: откуда берутся частицы?",
-        "en": "The chiral anomaly: where do the particles come from?"
-      },
-      "caption": {
-        "ru": "Безмассовый фермион на кольце: электрическое поле сдвигает уровни, правые поднимаются через $E=0$, левые опускаются, и подсчёт даёт $dQ_5/dt=eEL/\\pi$ при сохранении векторного заряда; разные способы обрезать бесконечное море показывают, что выбор регуляризации решает, какой ток сохранится. Затем уровни Ландау в $3+1$ измерениях дают $\\partial_\\mu j_5^\\mu=\\frac{e^2}{2\\pi^2}\\mathbf{E}\\cdot\\mathbf{B}$ и распад $\\pi^0\\to\\gamma\\gamma$.",
-        "en": "A massless fermion on a ring: an electric field shifts the levels, the right-handed ones rise through $E=0$, the left-handed ones fall, and the counting gives $dQ_5/dt=eEL/\\pi$ with the vector charge conserved; different ways to cut the infinite sea show that the choice of the regularisation decides which current survives. Then the Landau levels in $3+1$ dimensions give $\\partial_\\mu j_5^\\mu=\\frac{e^2}{2\\pi^2}\\mathbf{E}\\cdot\\mathbf{B}$ and the decay $\\pi^0\\to\\gamma\\gamma$."
-      },
-      "book": {
-        "volume": 2,
-        "chapter": 40,
-        "chapter_title": {
-          "ru": "Квантовые аномалии",
-          "en": "Quantum Anomalies"
-        }
-      },
-      "credit": {
-        "author": {
-          "ru": "Д. В. Наумов",
-          "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/chiral_anomaly",
-        "note": {
-          "ru": "Модель: безмассовый фермион на кольце, уровни k_n(t) = 2 pi (n + theta)/L + eEt, заполненное море Дирака, число частиц и дырок считается по уровням; регуляризации (окно по энергии, окно по фиксированным уровням, цепочка E = sin ka) и уровни Ландау оператора Вейля (диагонализация на полосе) просчитаны численно; Gamma(pi0 -> gamma gamma) по формуле книги, f_pi = 92,1 МэВ. Кольцо с частицами и пластина с состояниями уровня Ландау схематичны. Анимация создана автором книги.",
-          "en": "Model: a massless fermion on a ring, levels k_n(t) = 2 pi (n + theta)/L + eEt, the filled Dirac sea; the numbers of particles and holes are counted level by level; the regularisations (a window in the energy, a window in fixed levels, a chain with E = sin ka) and the Landau levels of the Weyl operator (diagonalisation on a strip) are computed numerically; Gamma(pi0 -> gamma gamma) from the formula of the book with f_pi = 92.1 MeV. The ring with the particles and the plate with the states of a Landau level are schematic. Animation made for the book."
-        }
-      },
-      "media": {
-        "site_asset": {
-          "ru": "assets/animations/dvnanima/fields-waves-chiral-anomaly-film.mp4",
-          "en": "assets/animations/dvnanima/fields-waves-chiral-anomaly-film-en.mp4"
-        },
-        "poster_time": 35.5
-      },
-      "gallery": "fields-waves/chiral-anomaly",
-      "legacy_codes": []
-    },
-    {
-      "id": "0046",
+      "id": "0027",
       "slug": "gauge-principle",
       "qr_file": "GaugePrinciple.pdf",
       "hosting": "self",
@@ -1452,24 +1102,24 @@
       "legacy_codes": []
     },
     {
-      "id": "0047",
-      "slug": "wormhole-camera",
-      "qr_file": "Wormhole_Camera.pdf",
+      "id": "0028",
+      "slug": "electron-kick",
+      "qr_file": "ElectronKick.pdf",
       "hosting": "self",
       "title": {
-        "ru": "Камера у кротовой норы: свет двух Вселенных",
-        "en": "A camera at a wormhole: the light of two universes"
+        "ru": "Пинок электрону: фронт электромагнитной волны",
+        "en": "A kick to an electron: the front of an electromagnetic wave"
       },
       "caption": {
-        "ru": "Кротовая нора Морриса и Торна — решение уравнений Эйнштейна для статического сферически симметричного пространства без горизонта; оно требует отрицательной плотности энергии. На экваториальной плоскости поверхность $r=b\\cosh(z/b)$ соединяет две Вселенные, самая узкая окружность имеет радиус $b$. Свет движется по геодезическим этой поверхности: луч с прицельным параметром $p<b$ проходит через горловину, луч с $p>b$ возвращается. Камера издалека видит всю другую Вселенную в круглом окне, а небо вокруг него изогнуто в кольца; при $\\sin\\psi_c=b/\\sqrt{l^2+b^2}$ радиус окна $\\psi_c$ зависит только от расстояния до горловины, и движущаяся камера может измерить $b$.",
-        "en": "The Morris-Thorne wormhole is a solution of Einstein's equations for a static, spherically symmetric space without a horizon; it requires a negative energy density. In the equatorial plane the surface $r=b\\cosh(z/b)$ joins two universes, the narrowest circle has radius $b$. Light moves along the geodesics of this surface: a ray with the impact parameter $p<b$ crosses the throat, a ray with $p>b$ turns back. A camera far away sees the whole other universe in a round window, and the sky around it is bent into rings; with $\\sin\\psi_c=b/\\sqrt{l^2+b^2}$ the radius $\\psi_c$ of the window depends only on the distance to the throat, so a moving camera can measure $b$."
+        "ru": "Электрон мгновенно получает скорость v. Вне сферы r = ct поле остаётся полем покоящегося заряда, внутри — это поле движущегося заряда, прижатое к плоскости, перпендикулярной скорости, а на самой сфере силовые линии соединяются дугами: это фронт электромагнитной волны. Линии проведены с равным потоком, поэтому их густота — напряжённость поля. Показаны β = 0,30 и β = 0,85; соединение линий следует из закона Гаусса: cos θ = cos ψ / √(1 − β² sin² ψ).",
+        "en": "An electron is instantaneously given the velocity v. Outside the sphere r = ct the field is still that of the charge at rest; inside it is the field of the moving charge, pressed towards the plane perpendicular to the velocity; on the sphere itself the field lines are joined by arcs: this is the front of the electromagnetic wave. The lines are drawn with equal flux, so their density is the field strength. β = 0.30 and β = 0.85 are shown; the joining of the lines follows from Gauss's law: cos θ = cos ψ / √(1 − β² sin² ψ)."
       },
       "book": {
-        "volume": 1,
-        "chapter": 4,
+        "volume": 2,
+        "chapter": 23,
         "chapter_title": {
-          "ru": "Гравитация",
-          "en": "Gravity"
+          "ru": "Калибровочная инвариантность",
+          "en": "Gauge Invariance"
         }
       },
       "credit": {
@@ -1477,20 +1127,370 @@
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
         },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/wormhole_camera",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/electron_kick"
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-electron-kick-front.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-electron-kick-front-en.mp4"
+        },
+        "poster_time": 16.4
+      },
+      "gallery": "fields-waves/electron-kick",
+      "legacy_codes": []
+    },
+    {
+      "id": "0029",
+      "slug": "meissner-photon-mass",
+      "qr_file": "MeissnerPhotonMass.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Эффект Мейснера и масса фотона",
+        "en": "The Meissner effect and the photon mass"
+      },
+      "caption": {
+        "ru": "Диск конденсата вытесняет магнитное поле (эффект Мейснера): поле спадает как $e^{-x/\\lambda_L}$, $\\lambda_L=1/m_A$. Затем волновой пакет подходит к границе конденсата: при $\\omega<m_A$ он отражается и оставляет затухающий хвост, при $\\omega>m_A$ проходит с групповой скоростью $v_g=k/\\omega<1$. В конце — дисперсия $\\omega^2=k^2+m_A^2$ и счёт поляризаций $2+2=1+3$. Конденсат считается заданным фоном.",
+        "en": "A disc of condensate pushes out the magnetic field (the Meissner effect): the field decays as $e^{-x/\\lambda_L}$, $\\lambda_L=1/m_A$. Then a wave packet approaches the boundary of the condensate: for $\\omega<m_A$ it is reflected and leaves an evanescent tail, for $\\omega>m_A$ it passes with the group velocity $v_g=k/\\omega<1$. At the end: the dispersion $\\omega^2=k^2+m_A^2$ and the counting of polarizations $2+2=1+3$. The condensate is treated as a fixed background."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 24,
+        "chapter_title": {
+          "ru": "Откуда у частицы масса?",
+          "en": "Where Does a Particle Get Its Mass?"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/meissner_photon_mass",
         "note": {
-          "ru": "Лучи вычислены точно (эллиптические интегралы, как в решении задачи), небо — собственная процедурная модель (галактики, звёзды, туманности; пара взаимодействующих галактик — из N-body-расчёта книги). Параметры: $b=1$ (единица длины); для оценки энергии $b=1$ км.",
-          "en": "The rays are computed exactly (elliptic integrals, as in the solution of the exercise); the sky is our own procedural model (galaxies, stars, nebulae; the pair of interacting galaxies comes from the N-body calculation of the book). Parameters: $b=1$ (the unit of length); for the energy estimate $b=1$ km."
+          "ru": "Абелева модель Хиггса и уравнение Прока (m_A = ev), уравнение Лондонов; статика: точное решение для цилиндра в поперечном поле; динамика: численное решение (leapfrog) уравнения ∂_t²A − ∂_x²A + m_A²(x)A = 0.",
+          "en": "The Abelian Higgs model and the Proca equation (m_A = ev), the London equation; statics: the exact solution for a cylinder in a transverse field; dynamics: numerical (leapfrog) solution of ∂_t²A − ∂_x²A + m_A²(x)A = 0."
         }
       },
       "media": {
         "site_asset": {
-          "ru": "assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera.mp4",
-          "en": "assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera-en.mp4"
+          "ru": "assets/animations/dvnanima/fields-waves-meissner-photon-mass-film.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-meissner-photon-mass-film-en.mp4"
         },
-        "poster_time": 76.0
+        "poster_time": 22.0
       },
-      "gallery": "relativity-atom-spin/wormhole-camera",
+      "gallery": "fields-waves/meissner-photon-mass",
+      "legacy_codes": []
+    },
+    {
+      "id": "0030",
+      "slug": "chiral-fermion-mass",
+      "qr_file": "ChiralFermionMass.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Киральные волны и масса фермиона",
+        "en": "Chiral waves and the fermion mass"
+      },
+      "caption": {
+        "ru": "В $(1+1)$ измерениях безмассовое уравнение Дирака даёт две независимые волны: $\\psi_R$ бежит вправо, $\\psi_L$ — влево. Массовый член связывает их, $i(\\partial_t\\pm\\partial_x)\\psi=m\\psi$; киральность $\\langle\\gamma_5\\rangle$ колеблется с частотой $2E$, а пакет замедляется до $v=p/E<1$. В конце показано, почему массовый член запрещён $SU(2)$-симметрией и как его даёт юкавская связь с хиггсовским конденсатом, $m=fv/\\sqrt{2}$.",
+        "en": "In $(1+1)$ dimensions the massless Dirac equation gives two independent waves: $\\psi_R$ runs to the right, $\\psi_L$ to the left. The mass term couples them, $i(\\partial_t\\pm\\partial_x)\\psi=m\\psi$; the chirality $\\langle\\gamma_5\\rangle$ oscillates with the frequency $2E$, and the packet slows down to $v=p/E<1$. At the end: why the mass term is forbidden by $SU(2)$ symmetry and how the Yukawa coupling to the Higgs condensate gives it, $m=fv/\\sqrt{2}$."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 24,
+        "chapter_title": {
+          "ru": "Откуда у частицы масса?",
+          "en": "Where Does a Particle Get Its Mass?"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/chiral_fermion_mass",
+        "note": {
+          "ru": "Уравнение Дирака в (1+1) измерениях в киральном базисе, i(∂_t + ∂_x)ψ_R = mψ_L, i(∂_t − ∂_x)ψ_L = mψ_R, решено точно в импульсном представлении (унитарная эволюция); m = fv/√2. Единицы ħ = c = 1 условные.",
+          "en": "The Dirac equation in 1+1 dimensions in the chiral basis, i(∂_t + ∂_x)ψ_R = mψ_L, i(∂_t − ∂_x)ψ_L = mψ_R, solved exactly in momentum space (unitary evolution); m = fv/√2. The units ħ = c = 1 are arbitrary."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film-en.mp4"
+        },
+        "poster_time": 26.8
+      },
+      "gallery": "fields-waves/chiral-fermion-mass",
+      "legacy_codes": []
+    },
+    {
+      "id": "0031",
+      "slug": "z-decay-asymmetry",
+      "qr_file": "ZDecayAsymmetry.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Асимметрия в рождении и распаде Z-бозона",
+        "en": "Asymmetry in Z-boson production and decay"
+      },
+      "caption": {
+        "ru": "Четыре спиральных канала $e^+e^-\\to Z\\to f\\bar f$ с весами $(g_a^eg_b^f)^2$ и угловыми распределениями $(1\\pm\\cos\\theta)^2$, их сумма, асимметрия «вперёд – назад» $A_{FB}=\\frac34A_{LR}^eA_{LR}^f$ при $\\sin^2\\theta_W=0{,}2316$, события Монте-Карло и зависимость $A_{FB}(\\sqrt{s})$ с интерференцией $\\gamma$ и $Z$.",
+        "en": "The four helicity channels of $e^+e^-\\to Z\\to f\\bar f$ with the weights $(g_a^eg_b^f)^2$ and the angular distributions $(1\\pm\\cos\\theta)^2$, their sum, the forward–backward asymmetry $A_{FB}=\\frac34A_{LR}^eA_{LR}^f$ at $\\sin^2\\theta_W=0.2316$, Monte-Carlo events and the dependence $A_{FB}(\\sqrt{s})$ with $\\gamma$–$Z$ interference."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 27,
+        "chapter_title": {
+          "ru": "Слабые распады W-, Z-бозонов",
+          "en": "Weak Decays of the W and Z Bosons"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/z_decay_asymmetry",
+        "note": {
+          "ru": "Древесная амплитуда e⁺e⁻ → γ*/Z → f f̄ в безмассовом пределе, киральные амплитуды ρ_ab из главы книги, sin²θ_W = 0,2316, 1/α(m_Z) = 128,95, Γ_Z = 2495,5 МэВ; события Монте-Карло разыграны из dN/dcosθ. Рисунок схематичен: события повёрнуты вокруг оси пучка в плоскость кадра, радиационные поправки не учтены.",
+          "en": "Tree-level e⁺e⁻ → γ*/Z → f f̄ amplitude in the massless limit with the chiral amplitudes ρ_ab of the book chapter, sin²θ_W = 0.2316, 1/α(m_Z) = 128.95, Γ_Z = 2495.5 MeV; the Monte-Carlo events are drawn from dN/dcosθ. The picture is schematic: events are rotated about the beam axis into the picture plane, radiative corrections are not included."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film-en.mp4"
+        },
+        "poster_time": 42.0
+      },
+      "gallery": "neutrino-particles/z-decay-asymmetry",
+      "legacy_codes": []
+    },
+    {
+      "id": "0032",
+      "slug": "higgs-ff-spin",
+      "qr_file": "HiggsFFbarSpin.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Спиновая и орбитальная структура пары f f̄ в распадах бозона Хиггса",
+        "en": "Spin and orbital structure of the f f̄ pair in Higgs decays"
+      },
+      "caption": {
+        "ru": "Пара $f\\bar f$ как волна относительной координаты $\\mathbf{r}$: скалярный распад $H\\to f\\bar f$ даёт P-волну (вихрь $\\psi\\propto j_1(pr)$), и выбор проекций спинов фиксирует орбитальную проекцию $m=-(\\rho_1+\\rho_2)/2$; псевдоскаляр даёт чистую S-волну; интерференция скаляра и псевдоскаляра наклоняет облако ($CP$-нечётность). Цвет — фаза $\\psi$. Детектор проецирует пару на импульсные состояния, поэтому остаются лишь спин-угловые корреляции.",
+        "en": "The $f\\bar f$ pair as a wave of the relative coordinate $\\mathbf{r}$: the scalar decay $H\\to f\\bar f$ gives a P-wave (a vortex $\\psi\\propto j_1(pr)$), and the choice of the spin projections fixes the orbital projection $m=-(\\rho_1+\\rho_2)/2$; a pseudoscalar gives a pure S-wave; the interference of the scalar and the pseudoscalar makes the cloud lean ($CP$ oddness). Colour is the phase of $\\psi$. A detector projects the pair on momentum states, so only spin-angle correlations survive."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 28,
+        "chapter_title": {
+          "ru": "Распады бозона Хиггса",
+          "en": "Higgs Boson Decays"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/higgs_ff_spin",
+        "note": {
+          "ru": "Модель: волновая функция пары в координатном представлении ψ_{ρ₁ρ₂}(r; s₁, s₂) = i m_f p/(16π²v) ∫dΩ_n e^{ipn·r} ū(pn)Γv(−pn), Γ = 1 (скаляр) или γ₅ (псевдоскаляр); ψ_S ∝ β j₁(pr) χ†(σ·r̂)η, ψ_P ∝ j₀(pr) χ†η; плотность в замкнутом виде (проверена численно, см. README).",
+          "en": "Model: the coordinate-space wave function of the pair ψ_{ρ₁ρ₂}(r; s₁, s₂) = i m_f p/(16π²v) ∫dΩ_n e^{ipn·r} ū(pn)Γv(−pn), Γ = 1 (scalar) or γ₅ (pseudoscalar); ψ_S ∝ β j₁(pr) χ†(σ·r̂)η, ψ_P ∝ j₀(pr) χ†η; the densities in closed form (checked numerically, see the README)."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-higgs-ff-spin-film.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-higgs-ff-spin-film-en.mp4"
+        },
+        "poster_time": 35.1
+      },
+      "gallery": "fields-waves/higgs-ff-spin",
+      "legacy_codes": []
+    },
+    {
+      "id": "0033",
+      "slug": "feynman-numu-electron",
+      "qr_file": "Feynman_NuMuElectron.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Рассеяние νμ + e → νe + μ",
+        "en": "Scattering νμ + e → νe + μ"
+      },
+      "caption": {
+        "ru": "Анимированная диаграмма Фейнмана реакции νμ e⁻ → μ⁻ νe через обмен W-бозоном.",
+        "en": "An animated Feynman diagram of the reaction νμ e⁻ → μ⁻ νe through W-boson exchange."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 29,
+        "chapter_title": {
+          "ru": "Взаимодействие нейтрино с электроном",
+          "en": "Neutrino–Electron Scattering"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/feynman_scattering"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-electron.mp4",
+        "poster_time": 6.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/feynman-scattering"
+    },
+    {
+      "id": "0034",
+      "slug": "feynman-numu-z",
+      "qr_file": "Feynman_NuMuZ.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Рассеяние нейтрино через Z-бозон",
+        "en": "Neutrino scattering through the Z boson"
+      },
+      "caption": {
+        "ru": "Анимированная диаграмма Фейнмана рассеяния нейтрино через обмен Z-бозоном (нейтральный ток).",
+        "en": "An animated Feynman diagram of neutrino scattering through Z-boson exchange (neutral current)."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 29,
+        "chapter_title": {
+          "ru": "Взаимодействие нейтрино с электроном",
+          "en": "Neutrino–Electron Scattering"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/feynman_scattering"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-z.mp4",
+        "poster_time": 6.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/feynman-scattering"
+    },
+    {
+      "id": "0035",
+      "slug": "kaon-oscillations",
+      "qr_file": "KaonOscillations.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Осцилляции нейтральных каонов",
+        "en": "Oscillations of neutral kaons"
+      },
+      "caption": {
+        "ru": "$K^0$ рождается в сильной реакции как суперпозиция $K_S$ и $K_L$ и эволюционирует с эффективным гамильтонианом $H=M-i\\Gamma/2$: странность осциллирует с частотой $\\Delta m$, пока $K_S$ распадается; остаётся чистый пучок $K_L$ с равными долями $K^0$ и $\\bar K^0$. Показаны мишени вдоль пучка ($\\bar K^0N\\to\\Lambda\\pi$ разрешено, $K^0N\\to\\Lambda\\pi$ запрещено), асимметрия заряда лептона и регенерация $K_S$. Нарушение $CP$ не учитывается.",
+        "en": "A $K^0$ is born in a strong reaction as a superposition of $K_S$ and $K_L$ and evolves with the effective Hamiltonian $H=M-i\\Gamma/2$: the strangeness oscillates with the frequency $\\Delta m$ while $K_S$ decays; a pure $K_L$ beam remains, with equal parts of $K^0$ and $\\bar K^0$. Targets along the beam are shown ($\\bar K^0N\\to\\Lambda\\pi$ is allowed, $K^0N\\to\\Lambda\\pi$ is forbidden), the lepton-charge asymmetry and the regeneration of $K_S$. $CP$ violation is neglected."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 33,
+        "chapter_title": {
+          "ru": "Загадки нейтральных каонов",
+          "en": "The Mysteries of Neutral Kaons"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/kaon_oscillations",
+        "note": {
+          "ru": "Модель: двухуровневая система (K⁰, K̄⁰) с эффективным гамильтонианом H = M − iΓ/2 при сохранении CP (K_S = (K⁰ − K̄⁰)/√2, K_L = (K⁰ + K̄⁰)/√2); параметры из главы «Загадки нейтральных каонов»: τ_S = 8,954·10⁻¹¹ с, τ_L = 5,116·10⁻⁸ с, Δm = 3,5·10⁻⁶ эВ. Уравнение Шрёдингера интегрируется численно (DOP853), результат совпадает с формулами книги с точностью 10⁻⁹; фаза средней массы убрана. Рисунок схематичен: толщина пучка пропорциональна интенсивности; поглотитель в последней части иллюстративный (амплитуды пропускания f = 0,9 для K⁰ и f̄ = 0,1 для K̄⁰), реальное взаимодействие с веществом не моделируется; нарушение CP не учитывается.",
+          "en": "Model: a two-level system (K⁰, K̄⁰) with the effective Hamiltonian H = M − iΓ/2 and CP conserved (K_S = (K⁰ − K̄⁰)/√2, K_L = (K⁰ + K̄⁰)/√2); the parameters are those of the chapter \"The Mysteries of Neutral Kaons\": τ_S = 8.954·10⁻¹¹ s, τ_L = 5.116·10⁻⁸ s, Δm = 3.5·10⁻⁶ eV. The Schrödinger equation is integrated numerically (DOP853) and agrees with the formulas of the book to 10⁻⁹; the phase of the mean mass is removed. The picture is schematic: the thickness of the beam is proportional to its intensity; the absorber of the last part is illustrative (transmission amplitudes f = 0.9 for K⁰ and f̄ = 0.1 for K̄⁰), real interactions in matter are not modelled; CP violation is not included."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film-en.mp4"
+        },
+        "poster_time": 46.0
+      },
+      "gallery": "neutrino-particles/kaon-oscillations",
+      "legacy_codes": []
+    },
+    {
+      "id": "0036",
+      "slug": "chiral-anomaly",
+      "qr_file": "ChiralAnomaly.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Киральная аномалия: откуда берутся частицы?",
+        "en": "The chiral anomaly: where do the particles come from?"
+      },
+      "caption": {
+        "ru": "Безмассовый фермион на кольце: электрическое поле сдвигает уровни, правые поднимаются через $E=0$, левые опускаются, и подсчёт даёт $dQ_5/dt=eEL/\\pi$ при сохранении векторного заряда; разные способы обрезать бесконечное море показывают, что выбор регуляризации решает, какой ток сохранится. Затем уровни Ландау в $3+1$ измерениях дают $\\partial_\\mu j_5^\\mu=\\frac{e^2}{2\\pi^2}\\mathbf{E}\\cdot\\mathbf{B}$ и распад $\\pi^0\\to\\gamma\\gamma$.",
+        "en": "A massless fermion on a ring: an electric field shifts the levels, the right-handed ones rise through $E=0$, the left-handed ones fall, and the counting gives $dQ_5/dt=eEL/\\pi$ with the vector charge conserved; different ways to cut the infinite sea show that the choice of the regularisation decides which current survives. Then the Landau levels in $3+1$ dimensions give $\\partial_\\mu j_5^\\mu=\\frac{e^2}{2\\pi^2}\\mathbf{E}\\cdot\\mathbf{B}$ and the decay $\\pi^0\\to\\gamma\\gamma$."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 40,
+        "chapter_title": {
+          "ru": "Квантовые аномалии",
+          "en": "Quantum Anomalies"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/chiral_anomaly",
+        "note": {
+          "ru": "Модель: безмассовый фермион на кольце, уровни k_n(t) = 2 pi (n + theta)/L + eEt, заполненное море Дирака, число частиц и дырок считается по уровням; регуляризации (окно по энергии, окно по фиксированным уровням, цепочка E = sin ka) и уровни Ландау оператора Вейля (диагонализация на полосе) просчитаны численно; Gamma(pi0 -> gamma gamma) по формуле книги, f_pi = 92,1 МэВ. Кольцо с частицами и пластина с состояниями уровня Ландау схематичны. Анимация создана автором книги.",
+          "en": "Model: a massless fermion on a ring, levels k_n(t) = 2 pi (n + theta)/L + eEt, the filled Dirac sea; the numbers of particles and holes are counted level by level; the regularisations (a window in the energy, a window in fixed levels, a chain with E = sin ka) and the Landau levels of the Weyl operator (diagonalisation on a strip) are computed numerically; Gamma(pi0 -> gamma gamma) from the formula of the book with f_pi = 92.1 MeV. The ring with the particles and the plate with the states of a Landau level are schematic. Animation made for the book."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-chiral-anomaly-film.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-chiral-anomaly-film-en.mp4"
+        },
+        "poster_time": 35.5
+      },
+      "gallery": "fields-waves/chiral-anomaly",
+      "legacy_codes": []
+    },
+    {
+      "id": "0037",
+      "slug": "pi0-double-dalitz",
+      "qr_file": "Pi0DoubleDalitz.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Распад π⁰ → e⁺e⁻e⁺e⁻: E, B и плоскости пар",
+        "en": "The decay π⁰ → e⁺e⁻e⁺e⁻: E, B and the planes of the pairs"
+      },
+      "caption": {
+        "ru": "Нейтральный пион (P = −1) распадается на два виртуальных фотона, каждый превращается в пару e⁺e⁻; плоскость пары содержит поляризацию E своего фотона, а B перпендикулярно ей. Амплитуда ∝ E₁·B₂ + E₂·B₁ ∝ sin φ (из L = (α/πf_π)π⁰E·B, Γ = α²m_π³/(64π³f_π²) = 7,8 эВ), поэтому плоскости предпочитают быть перпендикулярными. Ролик показывает первое событие подробно, затем события ускоряются и копится распределение по углу φ между плоскостями. Во второй части та же картина для скалярной частицы (P = +1, L ∝ S(E² − B²)): амплитуда ∝ E₁·E₂ − B₁·B₂ ∝ cos φ, плоскости параллельны. Амплитуда a в распределении 1 ∓ a cos 2φ условная.",
+        "en": "A neutral pion (P = −1) decays into two virtual photons and each turns into an e⁺e⁻ pair; the plane of the pair contains the polarization E of its photon and B is perpendicular to it. The amplitude ∝ E₁·B₂ + E₂·B₁ ∝ sin φ (from L = (α/πf_π)π⁰E·B, Γ = α²m_π³/(64π³f_π²) = 7.8 eV), so the planes prefer to be perpendicular. The film shows the first event in detail, then the events speed up and the distribution of the angle φ between the planes builds up. In the second part the same picture for a scalar particle (P = +1, L ∝ S(E² − B²)): the amplitude ∝ E₁·E₂ − B₁·B₂ ∝ cos φ, the planes are parallel. The amplitude a in the distribution 1 ∓ a cos 2φ is illustrative."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 40,
+        "chapter_title": {
+          "ru": "Квантовые аномалии",
+          "en": "Quantum Anomalies"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/pi0_double_dalitz"
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes-en.mp4"
+        },
+        "poster_time": 16.0
+      },
+      "gallery": "neutrino-particles/pi0-double-dalitz",
       "legacy_codes": []
     }
   ]

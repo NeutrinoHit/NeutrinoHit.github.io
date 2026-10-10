@@ -1,16 +1,20 @@
 <!doctype html>
-<html lang="ru" data-lang="ru" data-title-ru="Двойной пульсар Халса — Тейлора — NeutrinoHit" data-title-en="The Hulse–Taylor binary pulsar — NeutrinoHit">
+<html lang="ru" data-lang="ru" data-title-ru="Спиновая и орбитальная структура пары f f̄ в распадах бозона Хиггса — NeutrinoHit" data-title-en="Spin and orbital structure of the f f̄ pair in Higgs decays — NeutrinoHit">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Двойной пульсар Халса — Тейлора — NeutrinoHit</title>
-<meta name="description" content="Две нейтронные звезды (1,438 и 1,390 массы Солнца) на вытянутой орбите с периодом 7,75 ч излучают гравитационные волны. Орбита сжимается, период падает, и периастр приходит раньше, чем при постоянном периоде. Справа растёт накопленный сдвиг: около −38,6 с за 30 лет по ОТО, измеренная производная периода даёт ту же кривую в пределах погрешности (отношение 0,9983 ± 0,0016). Сжатие орбиты, сдвиг фазы и картина волн на анимации схематичны.">
+<title>Спиновая и орбитальная структура пары f f̄ в распадах бозона Хиггса — NeutrinoHit</title>
+<meta name="description" content="Пара $f\bar f$ как волна относительной координаты $\mathbf{r}$: скалярный распад $H\to f\bar f$ даёт P-волну (вихрь $\psi\propto j_1(pr)$), и выбор проекций спинов фиксирует орбитальную проекцию $m=-(\rho_1+\rho_2)/2$; псевдоскаляр даёт чистую S-волну; интерференция скаляра и псевдоскаляра наклоняет облако ($CP$-нечётность). Цвет — фаза $\psi$. Детектор проецирует пару на импульсные состояния, поэтому остаются лишь спин-угловые корреляции.">
 <link rel="canonical" href="https://neutrinohit.github.io/qr/qft/0032/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Двойной пульсар Халса — Тейлора">
-<meta property="og:description" content="Две нейтронные звезды (1,438 и 1,390 массы Солнца) на вытянутой орбите с периодом 7,75 ч излучают гравитационные волны. Орбита сжимается, период падает, и периастр приходит раньше, чем при постоянном периоде. Справа растёт накопленный сдвиг: около −38,6 с за 30 лет по ОТО, измеренная производная периода даёт ту же кривую в пределах погрешности (отношение 0,9983 ± 0,0016). Сжатие орбиты, сдвиг фазы и картина волн на анимации схематичны.">
+<meta property="og:title" content="Спиновая и орбитальная структура пары f f̄ в распадах бозона Хиггса">
+<meta property="og:description" content="Пара $f\bar f$ как волна относительной координаты $\mathbf{r}$: скалярный распад $H\to f\bar f$ даёт P-волну (вихрь $\psi\propto j_1(pr)$), и выбор проекций спинов фиксирует орбитальную проекцию $m=-(\rho_1+\rho_2)/2$; псевдоскаляр даёт чистую S-волну; интерференция скаляра и псевдоскаляра наклоняет облако ($CP$-нечётность). Цвет — фаза $\psi$. Детектор проецирует пару на импульсные состояния, поэтому остаются лишь спин-угловые корреляции.">
 <meta property="og:url" content="https://neutrinohit.github.io/qr/qft/0032/">
 <meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/qft/0032.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+ onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false})"></script>
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
 if(l!=='ru'&&l!=='en'){l=((navigator.language||'ru').toLowerCase().indexOf('ru')===0)?'ru':'en'}
 d.setAttribute('data-lang',l);d.lang=l})();</script>
@@ -56,9 +60,9 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <a href="/qr/qft/"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
-<h1><span lang="ru">Двойной пульсар Халса — Тейлора</span><span lang="en">The Hulse–Taylor binary pulsar</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../../assets/book-animations/qft/0032.jpg" data-src-ru="../../../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4" data-src-en="../../../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit-en.mp4" data-poster-ru="../../../assets/book-animations/qft/0032.jpg" data-poster-en="../../../assets/book-animations/qft/0032_en.jpg">
-<source src="../../../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4" type="video/mp4">
+<h1><span lang="ru">Спиновая и орбитальная структура пары f f̄ в распадах бозона Хиггса</span><span lang="en">Spin and orbital structure of the f f̄ pair in Higgs decays</span></h1>
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../../assets/book-animations/qft/0032.jpg" data-src-ru="../../../assets/animations/dvnanima/fields-waves-higgs-ff-spin-film.mp4" data-src-en="../../../assets/animations/dvnanima/fields-waves-higgs-ff-spin-film-en.mp4" data-poster-ru="../../../assets/book-animations/qft/0032.jpg" data-poster-en="../../../assets/book-animations/qft/0032_en.jpg">
+<source src="../../../assets/animations/dvnanima/fields-waves-higgs-ff-spin-film.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
 <span><span lang="ru">Скорость</span><span lang="en">Speed</span>:</span>
@@ -66,17 +70,17 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" id="dl" href="../../../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" id="dl" href="../../../assets/animations/dvnanima/fields-waves-higgs-ff-spin-film.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Две нейтронные звезды (1,438 и 1,390 массы Солнца) на вытянутой орбите с периодом 7,75 ч излучают гравитационные волны. Орбита сжимается, период падает, и периастр приходит раньше, чем при постоянном периоде. Справа растёт накопленный сдвиг: около −38,6 с за 30 лет по ОТО, измеренная производная периода даёт ту же кривую в пределах погрешности (отношение 0,9983 ± 0,0016). Сжатие орбиты, сдвиг фазы и картина волн на анимации схематичны.</span><span lang="en">Two neutron stars (1.438 and 1.390 solar masses) on an eccentric orbit with a period of 7.75 h radiate gravitational waves. The orbit shrinks, the period falls, and the periastron arrives earlier than for a constant period. On the right the accumulated shift grows: about −38.6 s over 30 years in general relativity, and the measured period derivative gives the same curve within the uncertainty (ratio 0.9983 ± 0.0016). The orbit shrinkage, the phase shift and the wave pattern in the animation are schematic.</span></p>
+<p class="caption"><span lang="ru">Пара $f\bar f$ как волна относительной координаты $\mathbf{r}$: скалярный распад $H\to f\bar f$ даёт P-волну (вихрь $\psi\propto j_1(pr)$), и выбор проекций спинов фиксирует орбитальную проекцию $m=-(\rho_1+\rho_2)/2$; псевдоскаляр даёт чистую S-волну; интерференция скаляра и псевдоскаляра наклоняет облако ($CP$-нечётность). Цвет — фаза $\psi$. Детектор проецирует пару на импульсные состояния, поэтому остаются лишь спин-угловые корреляции.</span><span lang="en">The $f\bar f$ pair as a wave of the relative coordinate $\mathbf{r}$: the scalar decay $H\to f\bar f$ gives a P-wave (a vortex $\psi\propto j_1(pr)$), and the choice of the spin projections fixes the orbital projection $m=-(\rho_1+\rho_2)/2$; a pseudoscalar gives a pure S-wave; the interference of the scalar and the pseudoscalar makes the cloud lean ($CP$ oddness). Colour is the phase of $\psi$. A detector projects the pair on momentum states, so only spin-angle correlations survive.</span></p>
 <div class="card"><dl class="meta">
-<dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 1, гл. 4 «Гравитация»</span><span lang="en">Volume 1, Chapter 4 “Gravity”</span></dd>
+<dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 2, гл. 28 «Распады бозона Хиггса»</span><span lang="en">Volume 2, Chapter 28 “Higgs Boson Decays”</span></dd>
 <dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
-<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/hulse_taylor" rel="noopener">GitHub</a></dd>
-<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">Параметры орбиты и производные периода: Weisberg, Huang, ApJ 829, 55 (2016).</span><span lang="en">Orbit parameters and period derivatives: Weisberg and Huang, ApJ 829, 55 (2016).</span></dd>
-<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-relativity-atom-spin-hulse-taylor"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/higgs_ff_spin" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">Модель: волновая функция пары в координатном представлении ψ_{ρ₁ρ₂}(r; s₁, s₂) = i m_f p/(16π²v) ∫dΩ_n e^{ipn·r} ū(pn)Γv(−pn), Γ = 1 (скаляр) или γ₅ (псевдоскаляр); ψ_S ∝ β j₁(pr) χ†(σ·r̂)η, ψ_P ∝ j₀(pr) χ†η; плотность в замкнутом виде (проверена численно, см. README).</span><span lang="en">Model: the coordinate-space wave function of the pair ψ_{ρ₁ρ₂}(r; s₁, s₂) = i m_f p/(16π²v) ∫dΩ_n e^{ipn·r} ū(pn)Γv(−pn), Γ = 1 (scalar) or γ₅ (pseudoscalar); ψ_S ∝ β j₁(pr) χ†(σ·r̂)η, ψ_P ∝ j₀(pr) χ†η; the densities in closed form (checked numerically, see the README).</span></dd>
+<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-higgs-ff-spin"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
-<nav class="nav"><a href="../0015/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Относительность одновременности</span><span lang="en">The relativity of simultaneity</span></a><a href="../0047/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Камера у кротовой норы: свет двух Вселенных</span><span lang="en">A camera at a wormhole: the light of two universes</span> →</a></nav>
+<nav class="nav"><a href="../0031/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Асимметрия в рождении и распаде Z-бозона</span><span lang="en">Asymmetry in Z-boson production and decay</span></a><a href="../0033/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Рассеяние νμ + e → νe + μ</span><span lang="en">Scattering νμ + e → νe + μ</span> →</a></nav>
 <footer>
 <p><span lang="ru">Анимация к книге</span><span lang="en">Animation for the book</span> <a href="/ru/materials.html" lang="ru">«Квантовая теория поля для экспериментаторов и не только»</a><a href="/en/materials.html" lang="en">“Quantum Field Theory for Experimentalists and Beyond”</a>, <span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span> · <a href="/">NeutrinoHit</a></p>
 </footer>

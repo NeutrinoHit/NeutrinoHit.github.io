@@ -1,16 +1,20 @@
 <!doctype html>
-<html lang="ru" data-lang="ru" data-title-ru="Как работает фотоумножитель — NeutrinoHit" data-title-en="How a photomultiplier tube works — NeutrinoHit">
+<html lang="ru" data-lang="ru" data-title-ru="Киральные волны и масса фермиона — NeutrinoHit" data-title-en="Chiral waves and the fermion mass — NeutrinoHit">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Как работает фотоумножитель — NeutrinoHit</title>
-<meta name="description" content="Один фотон выбивает с фотокатода электрон; на каждом из десяти динодов электрон выбивает в среднем δ = 4 вторичных (число случайно, распределение Пуассона), поэтому число электронов растёт как δ^j и усиление равно ≈ 10⁶. Усиление линейно: во второй части три вспышки сцинтиллятора с 2, 6 и 12 фотоэлектронами дают импульсы, высоты которых примерно пропорциональны 2 : 6 : 12 (число вторичных электронов случайно). По высоте импульса измеряют число фотонов, а значит, энергию.">
+<title>Киральные волны и масса фермиона — NeutrinoHit</title>
+<meta name="description" content="В $(1+1)$ измерениях безмассовое уравнение Дирака даёт две независимые волны: $\psi_R$ бежит вправо, $\psi_L$ — влево. Массовый член связывает их, $i(\partial_t\pm\partial_x)\psi=m\psi$; киральность $\langle\gamma_5\rangle$ колеблется с частотой $2E$, а пакет замедляется до $v=p/E&lt;1$. В конце показано, почему массовый член запрещён $SU(2)$-симметрией и как его даёт юкавская связь с хиггсовским конденсатом, $m=fv/\sqrt{2}$.">
 <link rel="canonical" href="https://neutrinohit.github.io/qr/qft/0030/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Как работает фотоумножитель">
-<meta property="og:description" content="Один фотон выбивает с фотокатода электрон; на каждом из десяти динодов электрон выбивает в среднем δ = 4 вторичных (число случайно, распределение Пуассона), поэтому число электронов растёт как δ^j и усиление равно ≈ 10⁶. Усиление линейно: во второй части три вспышки сцинтиллятора с 2, 6 и 12 фотоэлектронами дают импульсы, высоты которых примерно пропорциональны 2 : 6 : 12 (число вторичных электронов случайно). По высоте импульса измеряют число фотонов, а значит, энергию.">
+<meta property="og:title" content="Киральные волны и масса фермиона">
+<meta property="og:description" content="В $(1+1)$ измерениях безмассовое уравнение Дирака даёт две независимые волны: $\psi_R$ бежит вправо, $\psi_L$ — влево. Массовый член связывает их, $i(\partial_t\pm\partial_x)\psi=m\psi$; киральность $\langle\gamma_5\rangle$ колеблется с частотой $2E$, а пакет замедляется до $v=p/E&lt;1$. В конце показано, почему массовый член запрещён $SU(2)$-симметрией и как его даёт юкавская связь с хиггсовским конденсатом, $m=fv/\sqrt{2}$.">
 <meta property="og:url" content="https://neutrinohit.github.io/qr/qft/0030/">
 <meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/qft/0030.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+ onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false})"></script>
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
 if(l!=='ru'&&l!=='en'){l=((navigator.language||'ru').toLowerCase().indexOf('ru')===0)?'ru':'en'}
 d.setAttribute('data-lang',l);d.lang=l})();</script>
@@ -56,9 +60,9 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <a href="/qr/qft/"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
-<h1><span lang="ru">Как работает фотоумножитель</span><span lang="en">How a photomultiplier tube works</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../../assets/book-animations/qft/0030.jpg" data-src-ru="../../../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4" data-src-en="../../../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche-en.mp4" data-poster-ru="../../../assets/book-animations/qft/0030.jpg" data-poster-en="../../../assets/book-animations/qft/0030_en.jpg">
-<source src="../../../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4" type="video/mp4">
+<h1><span lang="ru">Киральные волны и масса фермиона</span><span lang="en">Chiral waves and the fermion mass</span></h1>
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../../assets/book-animations/qft/0030.jpg" data-src-ru="../../../assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film.mp4" data-src-en="../../../assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film-en.mp4" data-poster-ru="../../../assets/book-animations/qft/0030.jpg" data-poster-en="../../../assets/book-animations/qft/0030_en.jpg">
+<source src="../../../assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
 <span><span lang="ru">Скорость</span><span lang="en">Speed</span>:</span>
@@ -66,16 +70,17 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" id="dl" href="../../../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" id="dl" href="../../../assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Один фотон выбивает с фотокатода электрон; на каждом из десяти динодов электрон выбивает в среднем δ = 4 вторичных (число случайно, распределение Пуассона), поэтому число электронов растёт как δ^j и усиление равно ≈ 10⁶. Усиление линейно: во второй части три вспышки сцинтиллятора с 2, 6 и 12 фотоэлектронами дают импульсы, высоты которых примерно пропорциональны 2 : 6 : 12 (число вторичных электронов случайно). По высоте импульса измеряют число фотонов, а значит, энергию.</span><span lang="en">A photon knocks an electron out of the photocathode; at each of ten dynodes an electron knocks out on average δ = 4 secondary electrons (the number is random, Poisson distributed), so the number of electrons grows as δ^j and the gain is about 10⁶. The amplification is linear: in the second part three scintillation flashes with 2, 6 and 12 photoelectrons give pulses whose heights are roughly proportional to 2 : 6 : 12 (the numbers of secondary electrons are random). The pulse height measures the number of photons and hence the energy.</span></p>
+<p class="caption"><span lang="ru">В $(1+1)$ измерениях безмассовое уравнение Дирака даёт две независимые волны: $\psi_R$ бежит вправо, $\psi_L$ — влево. Массовый член связывает их, $i(\partial_t\pm\partial_x)\psi=m\psi$; киральность $\langle\gamma_5\rangle$ колеблется с частотой $2E$, а пакет замедляется до $v=p/E&lt;1$. В конце показано, почему массовый член запрещён $SU(2)$-симметрией и как его даёт юкавская связь с хиггсовским конденсатом, $m=fv/\sqrt{2}$.</span><span lang="en">In $(1+1)$ dimensions the massless Dirac equation gives two independent waves: $\psi_R$ runs to the right, $\psi_L$ to the left. The mass term couples them, $i(\partial_t\pm\partial_x)\psi=m\psi$; the chirality $\langle\gamma_5\rangle$ oscillates with the frequency $2E$, and the packet slows down to $v=p/E&lt;1$. At the end: why the mass term is forbidden by $SU(2)$ symmetry and how the Yukawa coupling to the Higgs condensate gives it, $m=fv/\sqrt{2}$.</span></p>
 <div class="card"><dl class="meta">
-<dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 1, гл. 2 «Век открытий»</span><span lang="en">Volume 1, Chapter 2 “A Century of Discoveries”</span></dd>
+<dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 2, гл. 24 «Откуда у частицы масса?»</span><span lang="en">Volume 2, Chapter 24 “Where Does a Particle Get Its Mass?”</span></dd>
 <dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
-<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/pmt_multiplication" rel="noopener">GitHub</a></dd>
-<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-neutrino-particles-pmt-multiplication"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/chiral_fermion_mass" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">Уравнение Дирака в (1+1) измерениях в киральном базисе, i(∂_t + ∂_x)ψ_R = mψ_L, i(∂_t − ∂_x)ψ_L = mψ_R, решено точно в импульсном представлении (унитарная эволюция); m = fv/√2. Единицы ħ = c = 1 условные.</span><span lang="en">The Dirac equation in 1+1 dimensions in the chiral basis, i(∂_t + ∂_x)ψ_R = mψ_L, i(∂_t − ∂_x)ψ_L = mψ_R, solved exactly in momentum space (unitary evolution); m = fv/√2. The units ħ = c = 1 are arbitrary.</span></dd>
+<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-chiral-fermion-mass"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
-<nav class="nav"><a href="../0029/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Широкий атмосферный ливень</span><span lang="en">A cosmic-ray air shower</span></a><a href="../0006/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Вращение Пенроуза — Террелла</span><span lang="en">Penrose–Terrell rotation</span> →</a></nav>
+<nav class="nav"><a href="../0029/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Эффект Мейснера и масса фотона</span><span lang="en">The Meissner effect and the photon mass</span></a><a href="../0031/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Асимметрия в рождении и распаде Z-бозона</span><span lang="en">Asymmetry in Z-boson production and decay</span> →</a></nav>
 <footer>
 <p><span lang="ru">Анимация к книге</span><span lang="en">Animation for the book</span> <a href="/ru/materials.html" lang="ru">«Квантовая теория поля для экспериментаторов и не только»</a><a href="/en/materials.html" lang="en">“Quantum Field Theory for Experimentalists and Beyond”</a>, <span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span> · <a href="/">NeutrinoHit</a></p>
 </footer>

@@ -199,7 +199,7 @@ python scripts/build_book_animations.py --urls   # строки для pyplots/q
 | видео и постеры | `/assets/book-animations/<slug>/<id>.mp4`, `.jpg` | либо `media.site_asset` (видео уже на сайте) |
 | все книги | `/qr/`, `/qr/books.json` | `qr/index.html` |
 
-Примеры: `/qr/qft/0033/`, `/qr/neutrino-physics/0014/`, `/qr/particle-physics/0021/`, `/qr/gravity/0001/`. Номера `id` (четыре
+Примеры: `/qr/qft/0017/`, `/qr/neutrino-physics/0014/`, `/qr/particle-physics/0021/`, `/qr/gravity/0001/`. Номера `id` (четыре
 цифры) уникальны внутри книги. Адресов вида `/qr/<id>/` больше нет: QR-коды всех книг печатаются с адресом `/qr/<slug>/<id>/`.
 
 Запись каталога книги без томов (`book` без `volume`/`chapter`) группируется по разделам: `book.order` и
