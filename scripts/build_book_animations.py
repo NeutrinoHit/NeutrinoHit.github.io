@@ -645,26 +645,6 @@ def build_pages(catalog: dict[str, Any], items: list[dict[str, Any]],
     return written
 
 
-def render_root_alias(catalog: dict[str, Any], item: dict[str, Any]) -> str:
-    """/qr/<id>/ (the first addresses of the book) redirects to /qr/<slug>/<id>/."""
-    target = page_url(catalog, item["id"])
-    rel = f'{BOOK_SLUG}/{item["id"]}/'
-    return f"""<!doctype html>
-<html lang="ru">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(item["title"]["ru"])} — NeutrinoHit</title>
-<meta http-equiv="refresh" content="0; url={rel}">
-<link rel="canonical" href="{esc(target)}">
-<meta name="robots" content="noindex">
-<script>location.replace("{rel}"+location.search+location.hash)</script>
-</head>
-<body><p><a href="{rel}">{esc(item["title"]["ru"])}</a></p></body>
-</html>
-"""
-
-
 def render_hub(registry: dict[str, Any], built: dict[str, dict[str, Any]]) -> str:
     """The page /qr/ : the books and the number of their animations."""
     catalog = {"base_url": registry["base_url"], "qr_path": "/qr/", "book": registry["site"]}
@@ -761,10 +741,6 @@ def main() -> int:
         if args.out_dir is not None:                           # a scratch directory: the index and the manifest go there too
             INDEX_DIR = MANIFEST_DIR = out_dir
         written = build_pages(catalog, items, out_dir)
-        if book.get("root_aliases") and args.out_dir is None:
-            for item in items:
-                if write_if_changed(QR_ROOT / item["id"] / "index.html", render_root_alias(catalog, item)):
-                    written.append(QR_ROOT / item["id"] / "index.html")
         for item in items:
             flag = "  [proposed]" if item.get("status") == "proposed" else ""
             print(f'{book["slug"]}  {item["id"]}  {item["hosting"]:8}  {item["slug"]}{flag}')
