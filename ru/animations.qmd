@@ -12,14 +12,14 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>51 сюжет</span>
-    <span>87 роликов</span>
+    <span>67 сюжетов</span>
+    <span>134 ролика</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">19 сюжетов, 30 роликов</span>
+        <span class="lecture-course-status">21 сюжет, 39 роликов</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -177,25 +177,35 @@ lang: ru-RU
           </details>
           <details id="animation-neutrino-particles-air-shower" class="lecture-material animation-material">
             <summary>
-              <span class="animation-material-title">Атмосферный ливень</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-title">Широкий атмосферный ливень</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
-              <p>Схематическая анимация развития атмосферного каскада.</p>
+              <p>Игрушечная модель Гайтлера–Мэтьюза: электромагнитный каскад одного фотона, ливень от протона с энергией 10^15 эВ методом Монте-Карло, профиль N(X) и оценки Гайтлера, матрица детекторов на земле, флуоресценция и черенковский свет.</p>
               <div class="animation-video-grid">
                 <figure class="animation-video-frame">
                   <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.jpg">
                     <source src="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Каскад</span>
-                    <small>730.7 KB</small>
+                    <span>Каскад (русская версия)</span>
+                    <small>1.9 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>The cascade (English version)</span>
+                    <small>1.9 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/airshower">Исходный код</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4">MP4: Каскад</a>
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/air_shower_cascade">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4">MP4: Каскад (русская версия)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower-en.mp4">MP4: The cascade (English version)</a>
               </div>
             </div>
           </details>
@@ -406,7 +416,7 @@ lang: ru-RU
           <details id="animation-neutrino-particles-pmt-multiplication" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Умножение электронов в ФЭУ</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Один фотоэлектрон превращается в лавину: каждый динод выбивает в среднем δ = 4 вторичных электрона, десять динодов дают усиление ≈ 10⁶; затем три вспышки сцинтиллятора и амплитуда импульса, в среднем пропорциональная числу фотоэлектронов.</p>
@@ -416,14 +426,24 @@ lang: ru-RU
                     <source src="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Лавина электронов и импульс на аноде</span>
-                    <small>987.4 KB</small>
+                    <span>Лавина электронов и импульс на аноде (русская версия)</span>
+                    <small>955.4 KB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Avalanche of electrons and the anode pulse (English version)</span>
+                    <small>938.1 KB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/pmt_multiplication">Исходный код</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4">MP4: Лавина электронов и импульс на аноде</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4">MP4: Лавина электронов и импульс на аноде (русская версия)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche-en.mp4">MP4: Avalanche of electrons and the anode pulse (English version)</a>
               </div>
             </div>
           </details>
@@ -522,7 +542,7 @@ lang: ru-RU
           <details id="animation-neutrino-particles-cherenkov-radiation" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Излучение Вавилова — Черенкова</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Построение Гюйгенса: при v &lt; c/n волны вложены друг в друга, при v &gt; c/n у них появляется общая огибающая — конус; cos θ = 1/(nβ), кольцо на детекторе, порог для электрона и мюона в воде.</p>
@@ -532,21 +552,31 @@ lang: ru-RU
                     <source src="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Конус из волн Гюйгенса</span>
+                    <span>Конус из волн Гюйгенса (русская версия)</span>
+                    <small>1.7 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>A cone of Huygens wavelets (English version)</span>
                     <small>1.7 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_radiation">Исходный код</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4">MP4: Конус из волн Гюйгенса</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4">MP4: Конус из волн Гюйгенса (русская версия)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens-en.mp4">MP4: A cone of Huygens wavelets (English version)</a>
               </div>
             </div>
           </details>
           <details id="animation-neutrino-particles-scattering-experiment" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Три стадии эксперимента на коллайдере: ускорение пучков, взаимодействие в малой области (почти все частицы пролетают насквозь), регистрация мюонов. Из многих событий растёт угловое распределение 1 + cos²θ.</p>
@@ -556,38 +586,126 @@ lang: ru-RU
                     <source src="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Столкновения пучков и детектор</span>
-                    <small>2.6 MB</small>
+                    <span>Столкновения пучков и детектор (русская версия)</span>
+                    <small>2.5 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Colliding beams and the detector (English version)</span>
+                    <small>2.5 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/scattering_experiment">Исходный код</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.mp4">MP4: Столкновения пучков и детектор</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.mp4">MP4: Столкновения пучков и детектор (русская версия)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider-en.mp4">MP4: Colliding beams and the detector (English version)</a>
               </div>
             </div>
           </details>
           <details id="animation-neutrino-particles-pi0-double-dalitz" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Распад π⁰ → e⁺e⁻e⁺e⁻</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
-              <p>Две пары e⁺e⁻ от виртуальных фотонов задают две плоскости; от события к событию их ориентация разная, и копится распределение по углу φ ∝ 1 − a cos 2φ (псевдоскалярный пион).</p>
+              <p>Две пары e⁺e⁻ от виртуальных фотонов лежат в плоскостях, содержащих поляризацию (E) своего фотона. Для псевдоскаляра π⁰ амплитуда ∝ E₁·B₂ + E₂·B₁ ∝ sin φ (плоскости перпендикулярны), для скаляра ∝ E₁·E₂ − B₁·B₂ ∝ cos φ (параллельны); копится распределение по углу φ. Две версии: русская и английская.</p>
               <div class="animation-video-grid">
                 <figure class="animation-video-frame">
                   <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes.jpg">
                     <source src="../assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Плоскости пар и угол φ</span>
-                    <small>3.2 MB</small>
+                    <span>Плоскости пар, E и B (русская версия)</span>
+                    <small>3.7 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Planes of the pairs, E and B (English version)</span>
+                    <small>3.7 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/pi0_double_dalitz">Исходный код</a>
-                <a href="../assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes.mp4">MP4: Плоскости пар и угол φ</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes.mp4">MP4: Плоскости пар, E и B (русская версия)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes-en.mp4">MP4: Planes of the pairs, E and B (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-neutrino-particles-z-decay-asymmetry" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Асимметрия в рождении и распаде Z-бозона</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Четыре спиральных канала e⁺e⁻ → Z → f f̄ с весами (g_a g_b)², распределения (1 ± cosθ)² и их сумма, асимметрия «вперёд–назад» A_FB, события Монте-Карло и зависимость A_FB(√s) с интерференцией γ и Z.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Каналы, сумма, события и A_FB(√s) (русская версия)</span>
+                    <small>3.3 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Channels, the sum, events and A_FB(√s) (English version)</span>
+                    <small>3.3 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/z_decay_asymmetry">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film.mp4">MP4: Каналы, сумма, события и A_FB(√s) (русская версия)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film-en.mp4">MP4: Channels, the sum, events and A_FB(√s) (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-neutrino-particles-kaon-oscillations" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Осцилляции нейтральных каонов</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>K⁰ рождается в сильной реакции как суперпозиция K_S и K_L; двухуровневая эволюция с H = M − iΓ/2 (интегрирование численно), осцилляции странности вдоль пучка, детектор (K̄⁰N → Λπ) и заряд лептона, регенерация K_S.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Осцилляции K⁰–K̄⁰ вдоль пучка (русская версия)</span>
+                    <small>2.3 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>K⁰–K̄⁰ oscillations along the beam (English version)</span>
+                    <small>2.3 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/kaon_oscillations">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film.mp4">MP4: Осцилляции K⁰–K̄⁰ вдоль пучка (русская версия)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film-en.mp4">MP4: K⁰–K̄⁰ oscillations along the beam (English version)</a>
               </div>
             </div>
           </details>
@@ -596,7 +714,7 @@ lang: ru-RU
     </details>
     <details class="lecture-course animation-section animation-section-fields-waves">
       <summary>
-        <span class="lecture-course-status">14 сюжетов, 19 роликов</span>
+        <span class="lecture-course-status">26 сюжетов, 48 роликов</span>
         <span class="lecture-course-title">Поля, волны и осцилляторы</span>
       </summary>
       <div class="lecture-course-body">
@@ -605,10 +723,10 @@ lang: ru-RU
           <details id="animation-fields-waves-scalar-qed" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Scalar QED: волновые пакеты</span>
-              <span class="animation-material-count">3 ролика</span>
+              <span class="animation-material-count">5 роликов</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
-              <p>Притяжение и отталкивание волновых пакетов через аналитическое поле и эйкональную фазу.</p>
+              <p>Притяжение и отталкивание волновых пакетов как интерференция свободной волны и волны взаимодействия: поле пакета, фаза эйконала, сдвиг распределения по импульсам.</p>
               <div class="animation-video-grid">
                 <figure class="animation-video-frame">
                   <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-scalar-qed-single.jpg">
@@ -620,53 +738,83 @@ lang: ru-RU
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.jpg">
-                    <source src="../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>Одинаковые заряды</span>
-                    <small>668.0 KB</small>
-                  </figcaption>
-                </figure>
-                <figure class="animation-video-frame">
                   <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-scalar-qed-attraction.jpg">
                     <source src="../assets/animations/dvnanima/fields-waves-scalar-qed-attraction.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Противоположные заряды</span>
-                    <small>952.0 KB</small>
+                    <span>Притяжение: противоположные заряды (русская версия)</span>
+                    <small>2.0 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-scalar-qed-attraction-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-scalar-qed-attraction-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Attraction: opposite charges (English version)</span>
+                    <small>1.9 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Отталкивание: заряды одного знака (русская версия)</span>
+                    <small>3.0 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Repulsion: charges of the same sign (English version)</span>
+                    <small>3.0 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/fields/scalar_qed">Исходный код</a>
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/attraction_repulsion">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-scalar-qed-single.mp4">MP4: Один пакет и поле</a>
-                <a href="../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.mp4">MP4: Одинаковые заряды</a>
-                <a href="../assets/animations/dvnanima/fields-waves-scalar-qed-attraction.mp4">MP4: Противоположные заряды</a>
+                <a href="../assets/animations/dvnanima/fields-waves-scalar-qed-attraction.mp4">MP4: Притяжение: противоположные заряды (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-scalar-qed-attraction-en.mp4">MP4: Attraction: opposite charges (English version)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.mp4">MP4: Отталкивание: заряды одного знака (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-scalar-qed-repulsion-en.mp4">MP4: Repulsion: charges of the same sign (English version)</a>
               </div>
             </div>
           </details>
           <details id="animation-fields-waves-standard-model-field-mattress" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Поля Стандартной модели</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
-              <p>Визуальная метафора квантовых полей Стандартной модели: флуктуирующие слои, бегущие волны и разрез структуры.</p>
+              <p>17 полей Стандартной модели как листы одной стопки; частица — волновой пакет на листе своего поля; два поля крупно: взаимодействие e⁻e⁻ (отталкивание) и e⁻e⁺ (притяжение) по модели скалярной КЭД, затем e⁻e⁺ ↔ γγ как перетекание энергии между полями.</p>
               <div class="animation-video-grid">
                 <figure class="animation-video-frame">
                   <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack.jpg">
                     <source src="../assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Поля, заполняющие пространство</span>
-                    <small>12.4 MB</small>
+                    <span>Поля Стандартной модели: стопка листов (русская версия)</span>
+                    <small>7.6 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Fields of the Standard Model: a stack of sheets (English version)</span>
+                    <small>7.6 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/fields/sm_field_mattress">Исходный код</a>
-                <a href="../assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack.mp4">MP4: Поля, заполняющие пространство</a>
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/sm_fields">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack.mp4">MP4: Поля Стандартной модели: стопка листов (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack-en.mp4">MP4: Fields of the Standard Model: a stack of sheets (English version)</a>
               </div>
             </div>
           </details>
@@ -731,7 +879,7 @@ lang: ru-RU
           <details id="animation-fields-waves-schrodinger-packet" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Свободный гауссов пакет: расплывание</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Точная эволюция гауссова пакета свободной частицы (ħ = m = 1): центр движется с групповой скоростью, ширина растёт как σ₀√(1 + (t/2σ₀²)²), а |ψ̃(p)|² не меняется; узкий пакет расплывается быстрее широкого.</p>
@@ -741,58 +889,126 @@ lang: ru-RU
                     <source src="../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Движение и расплывание пакета</span>
+                    <span>Движение и расплывание пакета (русская версия)</span>
+                    <small>1.3 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Motion and spreading of the packet (English version)</span>
                     <small>1.3 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/free_wavepacket">Исходный код</a>
-                <a href="../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4">MP4: Движение и расплывание пакета</a>
+                <a href="../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4">MP4: Движение и расплывание пакета (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading-en.mp4">MP4: Motion and spreading of the packet (English version)</a>
               </div>
             </div>
           </details>
-          <details id="animation-fields-waves-coupled-oscillators-fields" class="lecture-material animation-material">
+          <details id="animation-fields-waves-coupled-chain" class="lecture-material animation-material">
             <summary>
-              <span class="animation-material-title">Связанные осцилляторы</span>
-              <span class="animation-material-count">3 ролика</span>
+              <span class="animation-material-title">Цепочка связанных осцилляторов</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
-              <p>Одномерные, двумерные и трёхмерные связанные осцилляторные системы.</p>
+              <p>Цепочка из N масс: нормальные моды и дисперсия, волна от отпущенного смещения, столкновение волн в линейной цепочке (свободные частицы) и с кубическим членом (обмен энергией между модами), предел N → ∞ и поле.</p>
               <div class="animation-video-grid">
                 <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-one-dimensional.jpg">
-                    <source src="../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-one-dimensional.mp4" type="video/mp4">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-coupled-chain-chain.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-coupled-chain-chain.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>1D</span>
-                    <small>883.8 KB</small>
+                    <span>Цепочка связанных осцилляторов (русская версия)</span>
+                    <small>3.8 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-two-dimensional.jpg">
-                    <source src="../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-two-dimensional.mp4" type="video/mp4">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-coupled-chain-chain-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-coupled-chain-chain-en.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>2D</span>
-                    <small>3.9 MB</small>
-                  </figcaption>
-                </figure>
-                <figure class="animation-video-frame">
-                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-three-dimensional.jpg">
-                    <source src="../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-three-dimensional.mp4" type="video/mp4">
-                  </video>
-                  <figcaption>
-                    <span>3D</span>
-                    <small>925.5 KB</small>
+                    <span>A chain of coupled oscillators (English version)</span>
+                    <small>3.7 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/fields/coupled_oscillators_2d">Исходный код</a>
-                <a href="../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-one-dimensional.mp4">MP4: 1D</a>
-                <a href="../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-two-dimensional.mp4">MP4: 2D</a>
-                <a href="../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-three-dimensional.mp4">MP4: 3D</a>
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_chain">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-coupled-chain-chain.mp4">MP4: Цепочка связанных осцилляторов (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-coupled-chain-chain-en.mp4">MP4: A chain of coupled oscillators (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-coupled-lattice-2d" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Двумерная решётка связанных осцилляторов</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Решётка 14×10 масс на пружинках: нормальные моды и карта их энергий, круговые волны от отпущенного смещения, столкновение волн в линейной решётке и с ангармоническими членами (перераспределение энергии между модами), предел N → ∞ и поле.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Двумерная решётка связанных осцилляторов (русская версия)</span>
+                    <small>4.9 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>A two-dimensional lattice of coupled oscillators (English version)</span>
+                    <small>4.9 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_lattice_2d">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice.mp4">MP4: Двумерная решётка связанных осцилляторов (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice-en.mp4">MP4: A two-dimensional lattice of coupled oscillators (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-coupled-lattice-3d" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Трёхмерная решётка связанных осцилляторов</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Ящик 14×8×8 масс на пружинках: нормальные моды и спектр их энергий, сферическая волна от отпущенного смещения, столкновение волн в линейной решётке и с ангармоническими членами (перераспределение энергии между модами), предел N → ∞ и поле.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Трёхмерная решётка связанных осцилляторов (русская версия)</span>
+                    <small>5.8 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>A three-dimensional lattice of coupled oscillators (English version)</span>
+                    <small>5.7 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_lattice_3d">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.mp4">MP4: Трёхмерная решётка связанных осцилляторов (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice-en.mp4">MP4: A three-dimensional lattice of coupled oscillators (English version)</a>
               </div>
             </div>
           </details>
@@ -943,7 +1159,7 @@ lang: ru-RU
           <details id="animation-fields-waves-running-charge" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Бегущий заряд: экранировка виртуальными парами</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Виртуальные электрон-позитронные пары выстраиваются вокруг электрона и экранируют его заряд; пробный заряд, подлетая, видит заряд всё больший. Масштаб эффекта условный.</p>
@@ -953,21 +1169,31 @@ lang: ru-RU
                     <source src="../assets/animations/dvnanima/fields-waves-running-charge-film.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Заряд и виртуальные пары</span>
+                    <span>Заряд и виртуальные пары (русская версия)</span>
+                    <small>1.1 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-running-charge-film-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-running-charge-film-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>The charge and the virtual pairs (English version)</span>
                     <small>1.1 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/running_charge">Исходный код</a>
-                <a href="../assets/animations/dvnanima/fields-waves-running-charge-film.mp4">MP4: Заряд и виртуальные пары</a>
+                <a href="../assets/animations/dvnanima/fields-waves-running-charge-film.mp4">MP4: Заряд и виртуальные пары (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-running-charge-film-en.mp4">MP4: The charge and the virtual pairs (English version)</a>
               </div>
             </div>
           </details>
           <details id="animation-fields-waves-electron-kick" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Пинок электрону: фронт электромагнитной волны</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Заряд мгновенно получает скорость: вне сферы r = ct поле покоящегося заряда, внутри — поле движущегося, на сфере силовые линии соединяются дугами. Точная релятивистская картина для β = 0,30 и 0,85.</p>
@@ -977,14 +1203,364 @@ lang: ru-RU
                     <source src="../assets/animations/dvnanima/fields-waves-electron-kick-front.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Фронт волны от пинка</span>
+                    <span>Фронт волны от пинка (русская версия)</span>
+                    <small>1.1 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-electron-kick-front-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-electron-kick-front-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>The wavefront of a kick (English version)</span>
                     <small>1.1 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/electron_kick">Исходный код</a>
-                <a href="../assets/animations/dvnanima/fields-waves-electron-kick-front.mp4">MP4: Фронт волны от пинка</a>
+                <a href="../assets/animations/dvnanima/fields-waves-electron-kick-front.mp4">MP4: Фронт волны от пинка (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-electron-kick-front-en.mp4">MP4: The wavefront of a kick (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-zero-point-electron" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Электрон в вакуумном поле: нулевые колебания</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Нулевые колебания электрического поля: в каждой точке вектор E вращается по эллипсу на каждой частоте, ⟨E⟩ = 0, ⟨E²⟩ ≠ 0. Электрон повторяет эллипс с амплитудой ∝ E/ω²; каждая октава вносит равный вклад ⟨δr²⟩ = (2α/π)(ħ/mc)² ln 2, путь заполняет шар √⟨δr²⟩ ≈ 90 фм. Две версии: русская и английская.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Поле и электрон (русская версия)</span>
+                    <small>3.5 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>The field and the electron (English version)</span>
+                    <small>3.5 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/zero_point_electron">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field.mp4">MP4: Поле и электрон (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field-en.mp4">MP4: The field and the electron (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-thomson-tube" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Опыт Томсона: e/m</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Катодные лучи в скрещённых E и B: отклонение вверх электрическим полем, вниз магнитным, баланс v = E/B и отношение e/m по отклонению. Траектории рассчитаны численно. Две версии: русская и английская.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-thomson-tube-crossed-fields.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-thomson-tube-crossed-fields.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Скрещённые поля и e/m (русская версия)</span>
+                    <small>2.8 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-thomson-tube-crossed-fields-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-thomson-tube-crossed-fields-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Crossed fields and e/m (English version)</span>
+                    <small>2.7 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/thomson_tube">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-thomson-tube-crossed-fields.mp4">MP4: Скрещённые поля и e/m (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-thomson-tube-crossed-fields-en.mp4">MP4: Crossed fields and e/m (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-oam-beams" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Закрученные пучки: орбитальный угловой момент</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Фаза делает m оборотов вокруг оси, L_z = mħ; винтовые волновые фронты с m заходами; получение пучка спиральной фазовой пластинкой (гауссов пучок → мода Лагерра — Гаусса). Две версии: русская и английская.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Закрученные пучки (русская версия)</span>
+                    <small>1.7 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Twisted beams (English version)</span>
+                    <small>1.7 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/oam_beams">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams.mp4">MP4: Закрученные пучки (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams-en.mp4">MP4: Twisted beams (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-circular-polarization" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Круговая поляризация</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Вращение E для приёмника и источника, спиральность S_z = ±ħ, мгновенный снимок в пространстве (левый винт) и сложение ε_L и ε_R: линейная, эллиптическая и круговая поляризации. Две версии: русская и английская.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-circular-polarization-helicity.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-circular-polarization-helicity.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Спиральность и сложение поляризаций (русская версия)</span>
+                    <small>1.4 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-circular-polarization-helicity-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-circular-polarization-helicity-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Helicity and the sum of polarizations (English version)</span>
+                    <small>1.3 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/circular_polarization">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-circular-polarization-helicity.mp4">MP4: Спиральность и сложение поляризаций (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-circular-polarization-helicity-en.mp4">MP4: Helicity and the sum of polarizations (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-meissner-photon-mass" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Эффект Мейснера и масса фотона</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Конденсат Хиггса выталкивает магнитное поле (эффект Мейснера), пакет электромагнитной волны отражается от границы конденсата или проходит с групповой скоростью k/ω &lt; 1; дисперсия ω² = k² + m_A² и счёт поляризаций 2 + 2 = 1 + 3.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-meissner-photon-mass-film.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-meissner-photon-mass-film.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Конденсат, пакет на границе, дисперсия (русская версия)</span>
+                    <small>2.0 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-meissner-photon-mass-film-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-meissner-photon-mass-film-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Condensate, a packet at the boundary, dispersion (English version)</span>
+                    <small>2.0 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/meissner_photon_mass">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-meissner-photon-mass-film.mp4">MP4: Конденсат, пакет на границе, дисперсия (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-meissner-photon-mass-film-en.mp4">MP4: Condensate, a packet at the boundary, dispersion (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-chiral-fermion-mass" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Киральные волны и масса фермиона</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Две киральные волны уравнения Дирака в (1+1) измерениях: масса — это связь ψ_R и ψ_L через хиггсовский конденсат; осцилляции киральности с частотой 2E, замедление пакета до p/E, запрет массового члена в SU(2) и юкавская связь.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Две связанные киральные волны (русская версия)</span>
+                    <small>3.1 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Two coupled chiral waves (English version)</span>
+                    <small>3.0 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/chiral_fermion_mass">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film.mp4">MP4: Две связанные киральные волны (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film-en.mp4">MP4: Two coupled chiral waves (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-higgs-ff-spin" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Спиновая и орбитальная структура пары f f̄ в распадах бозона Хиггса</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Волновая функция пары f f̄ относительной координаты: P-волна скалярного распада (вихрь, орбитальная проекция m выбирается спинами), S-волна псевдоскаляра, наклон облака от интерференции скаляра и псевдоскаляра (CP-нечётность) и то, что остаётся для детектора.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-higgs-ff-spin-film.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-higgs-ff-spin-film.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Спин и орбитальный момент пары (русская версия)</span>
+                    <small>2.8 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-higgs-ff-spin-film-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-higgs-ff-spin-film-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Spin and orbital momentum of the pair (English version)</span>
+                    <small>2.7 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/higgs_ff_spin">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-higgs-ff-spin-film.mp4">MP4: Спин и орбитальный момент пары (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-higgs-ff-spin-film-en.mp4">MP4: Spin and orbital momentum of the pair (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-quantum-tunneling" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Туннельный эффект: точечное и протяжённое тело</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Шар, поезд и волна: протяжённое тело ощущает усреднённый барьер; классическая волна на цепочке туннелирует через отрезок с T ≈ exp(−2κa) без квантов; для волны материи то же уравнение, κ = √(2m(V−E))/ħ, и T падает экспоненциально с массой.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-quantum-tunneling-film.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-quantum-tunneling-film.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Точка, поезд, классическая волна и волна материи (русская версия)</span>
+                    <small>2.3 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-quantum-tunneling-film-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-quantum-tunneling-film-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>A point, a train, a classical wave and a matter wave (English version)</span>
+                    <small>2.3 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/quantum_tunneling">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-quantum-tunneling-film.mp4">MP4: Точка, поезд, классическая волна и волна материи (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-quantum-tunneling-film-en.mp4">MP4: A point, a train, a classical wave and a matter wave (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-chiral-anomaly" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Киральная аномалия: откуда берутся частицы?</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Безмассовый фермион на кольце: электрическое поле сдвигает уровни, уровни пересекают E = 0 (подсчёт даёт dQ₅/dt = eEL/π); регуляризация и сохранение векторного тока; уровни Ландау и e²E·B/2π²; треугольник и распад π⁰ → γγ.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-chiral-anomaly-film.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-chiral-anomaly-film.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Спектральный поток и аномалия (русская версия)</span>
+                    <small>2.0 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-chiral-anomaly-film-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-chiral-anomaly-film-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Spectral flow and the anomaly (English version)</span>
+                    <small>2.0 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/chiral_anomaly">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-chiral-anomaly-film.mp4">MP4: Спектральный поток и аномалия (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-chiral-anomaly-film-en.mp4">MP4: Spectral flow and the anomaly (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-fields-waves-gauge-principle" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Калибровочный принцип: два друга и поле</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Два друга выбирают фазу волновой функции независимо в каждой точке: интерференция, свободный пакет и ковариантная производная; компенсирующее поле A_μ, напряжённость F и калибровочно инвариантная петля.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-gauge-principle-film.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-gauge-principle-film.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Два друга и поле (русская версия)</span>
+                    <small>2.6 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/fields-waves-gauge-principle-film-en.jpg">
+                    <source src="../assets/animations/dvnanima/fields-waves-gauge-principle-film-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Two friends and a field (English version)</span>
+                    <small>2.6 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/gauge_principle">Исходный код</a>
+                <a href="../assets/animations/dvnanima/fields-waves-gauge-principle-film.mp4">MP4: Два друга и поле (русская версия)</a>
+                <a href="../assets/animations/dvnanima/fields-waves-gauge-principle-film-en.mp4">MP4: Two friends and a field (English version)</a>
               </div>
             </div>
           </details>
@@ -993,7 +1569,7 @@ lang: ru-RU
     </details>
     <details class="lecture-course animation-section animation-section-relativity-atom-spin">
       <summary>
-        <span class="lecture-course-status">5 сюжетов, 5 роликов</span>
+        <span class="lecture-course-status">7 сюжетов, 14 роликов</span>
         <span class="lecture-course-title">Относительность, атом и спин</span>
       </summary>
       <div class="lecture-course-body">
@@ -1002,7 +1578,7 @@ lang: ru-RU
           <details id="animation-relativity-atom-spin-penrose-terrell" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Вращение Пенроуза — Террелла</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Футбольный мяч летит мимо камеры со скоростью 0,99 c. Трассировка лучей с запаздыванием: камера видит круглый, повёрнутый мяч, а мгновенный снимок сжатого шара ненаблюдаем.</p>
@@ -1012,21 +1588,31 @@ lang: ru-RU
                     <source src="../assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Камера и мгновенный снимок</span>
-                    <small>330.5 KB</small>
+                    <span>Камера и мгновенный снимок (русская версия)</span>
+                    <small>321.5 KB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera-en.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Camera and instantaneous snapshot (English version)</span>
+                    <small>322.9 KB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/penrose_terrell">Исходный код</a>
-                <a href="../assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera.mp4">MP4: Камера и мгновенный снимок</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera.mp4">MP4: Камера и мгновенный снимок (русская версия)</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera-en.mp4">MP4: Camera and instantaneous snapshot (English version)</a>
               </div>
             </div>
           </details>
           <details id="animation-relativity-atom-spin-rutherford" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Опыт Резерфорда — Гейгера — Марсдена</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Альфа-частицы в кулоновском поле ядер тонкой фольги: траектории рассчитаны численно, угловое распределение сравнивается с формулой Резерфорда.</p>
@@ -1036,21 +1622,31 @@ lang: ru-RU
                     <source src="../assets/animations/dvnanima/relativity-atom-spin-rutherford-foil.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Рассеяние на золотой фольге</span>
-                    <small>1.2 MB</small>
+                    <span>Рассеяние на золотой фольге (русская версия)</span>
+                    <small>1.1 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-rutherford-foil-en.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-rutherford-foil-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Scattering on gold foil (English version)</span>
+                    <small>1.1 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/rutherford">Исходный код</a>
-                <a href="../assets/animations/dvnanima/relativity-atom-spin-rutherford-foil.mp4">MP4: Рассеяние на золотой фольге</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-rutherford-foil.mp4">MP4: Рассеяние на золотой фольге (русская версия)</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-rutherford-foil-en.mp4">MP4: Scattering on gold foil (English version)</a>
               </div>
             </div>
           </details>
           <details id="animation-relativity-atom-spin-spinor-mobius" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Спинор и лента Мёбиуса</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Поворот на 360° меняет знак спинора, поворот на 720° возвращает его: вектор на ленте Мёбиуса и компонента ψ = exp(−iφ/2).</p>
@@ -1060,21 +1656,31 @@ lang: ru-RU
                     <source src="../assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Поворот на 720°</span>
-                    <small>889.6 KB</small>
+                    <span>Поворот на 720° (русская версия)</span>
+                    <small>849.1 KB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip-en.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Rotation by 720° (English version)</span>
+                    <small>852.4 KB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/spinor_mobius">Исходный код</a>
-                <a href="../assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip.mp4">MP4: Поворот на 720°</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip.mp4">MP4: Поворот на 720° (русская версия)</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip-en.mp4">MP4: Rotation by 720° (English version)</a>
               </div>
             </div>
           </details>
           <details id="animation-relativity-atom-spin-hulse-taylor" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Двойной пульсар Халса — Тейлора</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Две нейтронные звезды на эксцентрической орбите излучают гравитационные волны, орбита сжимается, а периастр приходит всё раньше: накопленный сдвиг по ОТО и по измеренной производной периода, 1975–2005.</p>
@@ -1084,21 +1690,31 @@ lang: ru-RU
                     <source src="../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>Орбита, волны и сдвиг периастра</span>
+                    <span>Орбита, волны и сдвиг периастра (русская версия)</span>
+                    <small>1.6 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit-en.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Orbit, waves and the periastron shift (English version)</span>
                     <small>1.6 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/hulse_taylor">Исходный код</a>
-                <a href="../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4">MP4: Орбита, волны и сдвиг периастра</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4">MP4: Орбита, волны и сдвиг периастра (русская версия)</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit-en.mp4">MP4: Orbit, waves and the periastron shift (English version)</a>
               </div>
             </div>
           </details>
           <details id="animation-relativity-atom-spin-path-integral" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Интеграл по траекториям</span>
-              <span class="animation-material-count">1 ролик</span>
+              <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
               <p>Амплитуда как сумма по путям: экраны с 3, 7 и 5 щелями (105 путей), затем все пути и спираль Корню, и классический предел ħ → 0.</p>
@@ -1108,14 +1724,92 @@ lang: ru-RU
                     <source src="../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.mp4" type="video/mp4">
                   </video>
                   <figcaption>
-                    <span>От щелей к континуальному интегралу</span>
-                    <small>2.1 MB</small>
+                    <span>От щелей к континуальному интегралу (русская версия)</span>
+                    <small>2.0 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths-en.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>From slits to the path integral (English version)</span>
+                    <small>2.0 MB</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/path_integral">Исходный код</a>
-                <a href="../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.mp4">MP4: От щелей к континуальному интегралу</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.mp4">MP4: От щелей к континуальному интегралу (русская версия)</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths-en.mp4">MP4: From slits to the path integral (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-relativity-atom-spin-simultaneity" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Относительность одновременности</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Диаграмма Минковского: вспышки A, B, C одновременны в O и идут в порядке C, B, A (v &gt; 0) или A, B, C (v &lt; 0) в O′; пространственноподобные пары меняют порядок, временноподобные никогда. Две версии: русская и английская.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Диаграмма Минковского (русская версия)</span>
+                    <small>2.3 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski-en.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Minkowski diagram (English version)</span>
+                    <small>2.3 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/simultaneity">Исходный код</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski.mp4">MP4: Диаграмма Минковского (русская версия)</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski-en.mp4">MP4: Minkowski diagram (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-relativity-atom-spin-wormhole-camera" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Камера у кротовой норы</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Кротовая нора Морриса и Торна как решение уравнений Эйнштейна, ход лучей по её поверхности и вид из камеры, которая облетает нору, пролетает через горловину и видит свет галактик обеих Вселенных.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Камера у кротовой норы (русская версия)</span>
+                    <small>10.1 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera-en.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>A camera at a wormhole (English version)</span>
+                    <small>10.1 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/wormhole_camera">Исходный код</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera.mp4">MP4: Камера у кротовой норы (русская версия)</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera-en.mp4">MP4: A camera at a wormhole (English version)</a>
               </div>
             </div>
           </details>

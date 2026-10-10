@@ -80,6 +80,13 @@
     "qr_file": "HulseTaylor.pdf",
     "legacy_codes": []
   },
+  "0047": {
+    "url": "https://neutrinohit.github.io/qr/qft/0047/",
+    "slug": "wormhole-camera",
+    "hosting": "self",
+    "qr_file": "Wormhole_Camera.pdf",
+    "legacy_codes": []
+  },
   "0007": {
     "url": "https://neutrinohit.github.io/qr/qft/0007/",
     "slug": "oam-beams",
