@@ -173,7 +173,7 @@ python scripts/build_book_animations.py --urls   # строки для pyplots/q
 либо прямо из галереи (`media.site_asset`, копий нет). Свои анимации лучше сначала
 добавить в галерею (`animations.catalog.json`, `scripts/sync_dvnanima_gallery.py`),
 а книжной записи дать `media.site_asset` и `gallery` (раздел/сюжет галереи): на странице
-появится ссылка на сюжет в галерее. Страница `/qr/<id>/` остаётся стабильным адресом
+появится ссылка на сюжет в галерее. Страница `/qr/<slug>/<id>/` остаётся стабильным адресом
 для печати, галерея — полной библиотекой.
 
 Запись со `status: "proposed"` проверяется, но не публикуется (нет страницы, строки в
@@ -200,8 +200,7 @@ python scripts/build_book_animations.py --urls   # строки для pyplots/q
 | все книги | `/qr/`, `/qr/books.json` | `qr/index.html` |
 
 Примеры: `/qr/qft/0033/`, `/qr/neutrino-physics/0014/`, `/qr/particle-physics/0021/`, `/qr/gravity/0001/`. Номера `id` (четыре
-цифры) уникальны внутри книги. Адреса вида `/qr/<id>/` (первые адреса QFT) оставлены как редиректы на `/qr/qft/<id>/`
-(`root_aliases` у книги `qft` в реестре); новые QR-коды печатаются с адресом `/qr/<slug>/<id>/`.
+цифры) уникальны внутри книги. Адресов вида `/qr/<id>/` больше нет: QR-коды всех книг печатаются с адресом `/qr/<slug>/<id>/`.
 
 Запись каталога книги без томов (`book` без `volume`/`chapter`) группируется по разделам: `book.order` и
 `book.section_title` (`ru`, `en`); у печатной книги остаются `volume`, `chapter`, `chapter_title`. Если анимация уже
