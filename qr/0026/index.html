@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Двумерная решётка связанных осцилляторов — NeutrinoHit</title>
-<meta name="description" content="Прямоугольная решётка связанных осцилляторов с закреплённым краем. Нормальные моды с формулами на экране, затем один узел смещают и отпускают, и возмущение расходится по решётке: так дискретная система переходит в поле φ(x, y, t).">
+<meta name="description" content="Прямоугольная решётка 14×10 масс m, соединённых пружинками k, с закреплённым краем (матрас полей). Нормальные моды (a, b) с формулами q ∼ sin(aπi/(N_x+1)) sin(bπj/(N_y+1)) cos ω_ab t и карта энергий мод E_ab; рядом дисперсия ω(|k|). Выпуклость отпускают: расходятся круговые волны, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, t), а дисперсия — в ω = c|k|.">
 <link rel="canonical" href="https://neutrinohit.github.io/qr/0026/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Двумерная решётка связанных осцилляторов">
-<meta property="og:description" content="Прямоугольная решётка связанных осцилляторов с закреплённым краем. Нормальные моды с формулами на экране, затем один узел смещают и отпускают, и возмущение расходится по решётке: так дискретная система переходит в поле φ(x, y, t).">
+<meta property="og:description" content="Прямоугольная решётка 14×10 масс m, соединённых пружинками k, с закреплённым краем (матрас полей). Нормальные моды (a, b) с формулами q ∼ sin(aπi/(N_x+1)) sin(bπj/(N_y+1)) cos ω_ab t и карта энергий мод E_ab; рядом дисперсия ω(|k|). Выпуклость отпускают: расходятся круговые волны, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, t), а дисперсия — в ω = c|k|.">
 <meta property="og:url" content="https://neutrinohit.github.io/qr/0026/">
 <meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/0026.jpg">
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
@@ -57,8 +57,8 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
 <h1><span lang="ru">Двумерная решётка связанных осцилляторов</span><span lang="en">A two-dimensional lattice of coupled oscillators</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0026.jpg">
-<source src="../../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-two-dimensional.mp4" type="video/mp4">
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0026.jpg" data-src-ru="../../assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice.mp4" data-src-en="../../assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice-en.mp4" data-poster-ru="../../assets/book-animations/0026.jpg" data-poster-en="../../assets/book-animations/0026_en.jpg">
+<source src="../../assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
 <span><span lang="ru">Скорость</span><span lang="en">Speed</span>:</span>
@@ -66,14 +66,14 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" href="../../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-two-dimensional.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" id="dl" href="../../assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Прямоугольная решётка связанных осцилляторов с закреплённым краем. Нормальные моды с формулами на экране, затем один узел смещают и отпускают, и возмущение расходится по решётке: так дискретная система переходит в поле φ(x, y, t).</span><span lang="en">A rectangular lattice of coupled oscillators with a fixed boundary. Normal modes with their formulas on screen, then one site is displaced and released and the disturbance spreads across the lattice: this is how a discrete system turns into a field φ(x, y, t).</span></p>
+<p class="caption"><span lang="ru">Прямоугольная решётка 14×10 масс m, соединённых пружинками k, с закреплённым краем (матрас полей). Нормальные моды (a, b) с формулами q ∼ sin(aπi/(N_x+1)) sin(bπj/(N_y+1)) cos ω_ab t и карта энергий мод E_ab; рядом дисперсия ω(|k|). Выпуклость отпускают: расходятся круговые волны, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, t), а дисперсия — в ω = c|k|.</span><span lang="en">A rectangular 14×10 lattice of masses m joined by springs k with a fixed edge (the mattress of fields). The normal modes (a, b) with the formulas q ∼ sin(aπi/(N_x+1)) sin(bπj/(N_y+1)) cos ω_ab t and the map of the mode energies E_ab; beside it the dispersion ω(|k|). A bump is released: circular waves spread, many modes take part and their energies are constant. Two waves in the linear lattice pass through each other (free particles). With anharmonic terms (cubic and quartic) in the Lagrangian the energy is redistributed among the modes: this is the interaction. For N → ∞ the lattice becomes the field φ(x, y, t) and the dispersion becomes ω = c|k|.</span></p>
 <div class="card"><dl class="meta">
 <dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 1, гл. 12 «Основы классической теории поля»</span><span lang="en">Volume 1, Chapter 12 “Basics of Classical Field Theory”</span></dd>
 <dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
-<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/fields/coupled_oscillators_2d" rel="noopener">GitHub</a></dd>
-<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-coupled-oscillators-fields"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_lattice_2d" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-coupled-lattice-2d"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
 <nav class="nav"><a href="../0009/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Спинор и лента Мёбиуса</span><span lang="en">A spinor and the Möbius strip</span></a><a href="../0033/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Цепочка связанных осцилляторов</span><span lang="en">A chain of coupled oscillators</span> →</a></nav>
 <footer>
@@ -91,6 +91,14 @@ document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener
 if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
 var bs=document.querySelectorAll('[data-rate]');bs.forEach(function(b){b.addEventListener('click',function(){
 v.playbackRate=parseFloat(b.getAttribute('data-rate'));bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
-if(v.paused)v.play().catch(function(){})})})})();</script>
+if(v.paused)v.play().catch(function(){})})})})();
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();</script>
 </body>
 </html>

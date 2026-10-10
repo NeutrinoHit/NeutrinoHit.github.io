@@ -57,7 +57,7 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
 <h1><span lang="ru">Интеграл по траекториям</span><span lang="en">The path integral</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0038.jpg">
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0038.jpg" data-src-ru="../../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.mp4" data-src-en="../../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths-en.mp4" data-poster-ru="../../assets/book-animations/0038.jpg" data-poster-en="../../assets/book-animations/0038_en.jpg">
 <source src="../../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
@@ -66,7 +66,7 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" href="../../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" id="dl" href="../../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
 <p class="caption"><span lang="ru">Амплитуда есть сумма по всем путям. Сначала экраны с 3, 7 и 5 щелями (3 × 7 × 5 = 105 путей): фазы 2πL/λ складываются как векторы, а яркость на детекторе — квадрат суммы. Затем бесконечное число экранов и щелей: все пути; для свободной частицы фаза S/ħ растёт как квадрат отклонения от классического пути, и сумма рисует спираль Корню. При ħ → 0 спираль сжимается, и остаются лишь пути вблизи пути наименьшего действия.</span><span lang="en">The amplitude is a sum over all paths. First screens with 3, 7 and 5 slits (3 × 7 × 5 = 105 paths): the phases 2πL/λ add as vectors, and the brightness at the detector is the square of the sum. Then infinitely many screens and slits: all paths; for a free particle the phase S/ħ grows as the square of the deviation from the classical path, and the sum draws the Cornu spiral. As ħ → 0 the spiral shrinks and only the paths near the one of least action survive.</span></p>
 <div class="card"><dl class="meta">
@@ -91,6 +91,14 @@ document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener
 if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
 var bs=document.querySelectorAll('[data-rate]');bs.forEach(function(b){b.addEventListener('click',function(){
 v.playbackRate=parseFloat(b.getAttribute('data-rate'));bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
-if(v.paused)v.play().catch(function(){})})})})();</script>
+if(v.paused)v.play().catch(function(){})})})})();
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();</script>
 </body>
 </html>

@@ -1,0 +1,13 @@
+{
+  "paper": "#EEE8DC",
+  "panel": "#E1DACC",
+  "series_teal": "#0A6674",
+  "accent": "#C98212",
+  "ink": "#183038",
+  "subtle": "#64767B",
+  "hair": "#CAD6D5",
+  "front_branding": false,
+  "front_logo_safe_zone_mm": [32, 12, 162, 20],
+  "formula": "profile_likelihood_ratio",
+  "spine_width_mm_provisional": 18
+}

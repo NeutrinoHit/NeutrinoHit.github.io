@@ -1,0 +1,28 @@
+/* Canonical book-cover presentation; synced with the published vector assets. */
+.book-cover-page main.content .quarto-cover-image,
+.book-home main.content .book-front-cover {
+  display: block;
+  float: none;
+  width: min(100%, 38rem);
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto 2rem;
+  box-shadow: 0 16px 42px rgb(8 24 34 / 18%);
+}
+.book-cover-back {
+  clear: both;
+  max-width: 38rem;
+  margin: 1.5rem auto 2.5rem;
+}
+.book-cover-back summary {
+  cursor: pointer;
+  font-family: var(--book-sans, sans-serif);
+  color: var(--book-teal, #0f6972);
+  padding: .65rem 0;
+}
+.book-cover-back img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: .5rem 0 0;
+}

@@ -1,0 +1,124 @@
+{
+  "paper": "#07131B",
+  "panel": "#102A33",
+  "series_teal": "#0A5965",
+  "accent": "#57B9CF",
+  "brand_ink": "#57B9CF",
+  "logo_backplate": "#F2E9D8",
+  "ink": "#F2E9D8",
+  "subtle": "#A8BDC2",
+  "hair": "#35505A",
+  "overview_ink": "#183038",
+  "star_field": true,
+  "star": "#F3E9D4",
+  "star_cool": "#9CDBE6",
+  "black_hole": "#010305",
+  "shadow": "#101A20",
+  "disk_outer": "#B9572F",
+  "disk_middle": "#E38A3C",
+  "disk_hot": "#F6CA77",
+  "ring_white": "#FFF0C6",
+  "jet": "#247EAE",
+  "jet_light": "#74CADB",
+  "detector_water": "#0A4665",
+  "detector_cable": "#689FA9",
+  "detector_glass": "#BAC7BE",
+  "detector_buoy": "#CDA568",
+  "cherenkov_light": "#49CDEF",
+  "cherenkov_core": "#D9F7FC",
+  "composition": {
+    "telescope_origin": [612, 27],
+    "telescope_scale": 0.84,
+    "source_to_signal_distance": 500,
+    "black_hole_scale": 0.95
+  },
+  "constellations": {
+    "labels_visible": true,
+    "line_color": "#7FA6B1",
+    "label_color": "#91ACB4",
+    "star_color": "#CBD8D6",
+    "label_font": "Cochin",
+    "label_size": 18,
+    "mist_color": "#879AA8",
+    "portal_color": "#939CB7",
+    "pmns": {
+      "sin2_theta12": 0.307,
+      "sin2_theta13": 0.0222,
+      "sin2_theta23": 0.573,
+      "delta_cp_degrees": -90,
+      "dm21_sq_ev2": 0.0000753,
+      "dm31_sq_ev2": 0.002453
+    },
+    "unitarity": {
+      "origin": [110, 83],
+      "width": 179,
+      "angle": -12,
+      "label": [203, 197],
+      "label_angle": -8,
+      "name": "Unitarity Constellation"
+    },
+    "oscillations": {
+      "origin": [104, 270],
+      "width": 285,
+      "angle": -6,
+      "samples": 17,
+      "flavor": 1,
+      "lovere_max_km_per_gev": 2200,
+      "label": [255, 320],
+      "label_angle": -6,
+      "name": "Oscillation Constellation"
+    },
+    "hierarchy": {
+      "origin": [478, 94],
+      "scale": 0.88,
+      "angle": 3,
+      "label": [472, 207],
+      "label_angle": 3,
+      "name": "Hierarchy Constellation"
+    },
+    "relics": {
+      "origin": [160, 401],
+      "angle": -8,
+      "label": [158, 461],
+      "label_angle": -8,
+      "name": "Big Bang Relics"
+    },
+    "anomalies": {
+      "origin": [799, 460],
+      "angle": -6,
+      "label": [807, 522],
+      "label_angle": -4,
+      "name": "Anomaly Clouds"
+    },
+    "majorana": {
+      "origin": [663, 619],
+      "angle": -14,
+      "label": [669, 680],
+      "label_angle": -8,
+      "name": "Majorana Cluster"
+    },
+    "cp": {
+      "origin": [858, 674],
+      "angle": 7,
+      "label": [858, 723],
+      "label_angle": 5,
+      "name": "CP Bridge"
+    },
+    "bsm": {
+      "origin": [827, 814],
+      "angle": -18,
+      "label": [827, 873],
+      "label_angle": -3,
+      "label_opacity": 0.52,
+      "name": "BSM Portal"
+    },
+    "atlas": {
+      "position": [559, 903],
+      "title": "Neutrino Sky",
+      "subtitle": "ATLAS"
+    }
+  },
+  "front_branding": false,
+  "front_logo_safe_zone_mm": [32, 12, 162, 20],
+  "spine_width_mm_provisional": 18
+}

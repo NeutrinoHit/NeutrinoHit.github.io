@@ -43,6 +43,13 @@
     "qr_file": "Rutherford_animation.pdf",
     "legacy_codes": []
   },
+  "0029": {
+    "url": "https://neutrinohit.github.io/qr/0029/",
+    "slug": "air-shower",
+    "hosting": "self",
+    "qr_file": "AirShower.pdf",
+    "legacy_codes": []
+  },
   "0030": {
     "url": "https://neutrinohit.github.io/qr/0030/",
     "slug": "pmt",
@@ -85,6 +92,13 @@
     "slug": "free-wavepacket",
     "hosting": "self",
     "qr_file": "FreeWavePacket.pdf",
+    "legacy_codes": []
+  },
+  "0043": {
+    "url": "https://neutrinohit.github.io/qr/0043/",
+    "slug": "quantum-tunneling",
+    "hosting": "self",
+    "qr_file": "QuantumTunneling.pdf",
     "legacy_codes": []
   },
   "0009": {
@@ -173,6 +187,41 @@
     "qr_file": "ElectronKick.pdf",
     "legacy_codes": []
   },
+  "0046": {
+    "url": "https://neutrinohit.github.io/qr/0046/",
+    "slug": "gauge-principle",
+    "hosting": "self",
+    "qr_file": "GaugePrinciple.pdf",
+    "legacy_codes": []
+  },
+  "0039": {
+    "url": "https://neutrinohit.github.io/qr/0039/",
+    "slug": "meissner-photon-mass",
+    "hosting": "self",
+    "qr_file": "MeissnerPhotonMass.pdf",
+    "legacy_codes": []
+  },
+  "0040": {
+    "url": "https://neutrinohit.github.io/qr/0040/",
+    "slug": "chiral-fermion-mass",
+    "hosting": "self",
+    "qr_file": "ChiralFermionMass.pdf",
+    "legacy_codes": []
+  },
+  "0041": {
+    "url": "https://neutrinohit.github.io/qr/0041/",
+    "slug": "z-decay-asymmetry",
+    "hosting": "self",
+    "qr_file": "ZDecayAsymmetry.pdf",
+    "legacy_codes": []
+  },
+  "0042": {
+    "url": "https://neutrinohit.github.io/qr/0042/",
+    "slug": "higgs-ff-spin",
+    "hosting": "self",
+    "qr_file": "HiggsFFbarSpin.pdf",
+    "legacy_codes": []
+  },
   "0027": {
     "url": "https://neutrinohit.github.io/qr/0027/",
     "slug": "feynman-numu-electron",
@@ -187,11 +236,25 @@
     "qr_file": "Feynman_NuMuZ.pdf",
     "legacy_codes": []
   },
+  "0044": {
+    "url": "https://neutrinohit.github.io/qr/0044/",
+    "slug": "kaon-oscillations",
+    "hosting": "self",
+    "qr_file": "KaonOscillations.pdf",
+    "legacy_codes": []
+  },
   "0037": {
     "url": "https://neutrinohit.github.io/qr/0037/",
     "slug": "pi0-double-dalitz",
     "hosting": "self",
     "qr_file": "Pi0DoubleDalitz.pdf",
+    "legacy_codes": []
+  },
+  "0045": {
+    "url": "https://neutrinohit.github.io/qr/0045/",
+    "slug": "chiral-anomaly",
+    "hosting": "self",
+    "qr_file": "ChiralAnomaly.pdf",
     "legacy_codes": []
   }
 }
