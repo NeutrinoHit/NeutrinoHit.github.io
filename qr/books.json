@@ -5,7 +5,7 @@
       "en": "Quantum Field Theory for Experimentalists and Beyond"
     },
     "index": "https://neutrinohit.github.io/qr/qft/",
-    "count": 36
+    "count": 37
   },
   "neutrino-physics": {
     "title": {
@@ -29,6 +29,6 @@
       "en": "General Relativity for Experimentalists"
     },
     "index": "https://neutrinohit.github.io/qr/gravity/",
-    "count": 4
+    "count": 5
   }
 }

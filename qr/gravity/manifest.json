@@ -26,5 +26,12 @@
     "hosting": "self",
     "qr_file": "Relativity_of_Simultaneity_animation.pdf",
     "legacy_codes": []
+  },
+  "0005": {
+    "url": "https://neutrinohit.github.io/qr/gravity/0005/",
+    "slug": "wormhole-camera",
+    "hosting": "self",
+    "qr_file": "Wormhole_Camera.pdf",
+    "legacy_codes": []
   }
 }

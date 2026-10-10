@@ -1008,6 +1008,26 @@
               "poster_time": 20
             }
           ]
+        },
+        {
+          "id": "wormhole-camera",
+          "title": "Камера у кротовой норы",
+          "source_dir": "wormhole_camera",
+          "description": "Кротовая нора Морриса и Торна как решение уравнений Эйнштейна, ход лучей по её поверхности и вид из камеры, которая облетает нору, пролетает через горловину и видит свет галактик обеих Вселенных.",
+          "videos": [
+            {
+              "id": "camera",
+              "label": "Камера у кротовой норы (русская версия)",
+              "path": "wormhole_camera/media/wormhole_camera_ru.mp4",
+              "poster_time": 76
+            },
+            {
+              "id": "camera-en",
+              "label": "A camera at a wormhole (English version)",
+              "path": "wormhole_camera/media/wormhole_camera_en.mp4",
+              "poster_time": 76
+            }
+          ]
         }
       ]
     },
