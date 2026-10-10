@@ -1,14 +1,14 @@
 <!doctype html>
-<html lang="ru" data-lang="ru" data-title-ru="Относительность одновременности — NeutrinoHit" data-title-en="Relativity of simultaneity — NeutrinoHit">
+<html lang="ru" data-lang="ru" data-title-ru="Относительность одновременности — NeutrinoHit" data-title-en="The relativity of simultaneity — NeutrinoHit">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Относительность одновременности — NeutrinoHit</title>
-<meta name="description" content="Три события (A, B, C) одновременны в системе отсчёта наблюдателя O. В системе, движущейся со скоростью v = 0,3c относительно O, они следуют в порядке C, B, A, а при v = −0,5c — в порядке A, B, C.">
+<meta name="description" content="Три вспышки A, B, C происходят в один момент t = 0 в системе O (x = −1, 0, +1). В системе O′, движущейся со скоростью v, они происходят в моменты t′ = −γvx: при v &gt; 0 порядок C, B, A, при v &lt; 0 порядок A, B, C, при v = 0 вспышки одновременны. На диаграмме Минковского линия одновременности O′ параллельна оси x′ и наклоняется вместе с ней; штриховая линия от события вдоль неё до оси ct′ показывает, как считывается t′. В последней части: порядок пространственноподобных событий (|Δx| &gt; |Δt|) зависит от системы, а временноподобных не меняется никогда, поэтому причинность не нарушается.">
 <link rel="canonical" href="https://neutrinohit.github.io/qr/0015/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Относительность одновременности">
-<meta property="og:description" content="Три события (A, B, C) одновременны в системе отсчёта наблюдателя O. В системе, движущейся со скоростью v = 0,3c относительно O, они следуют в порядке C, B, A, а при v = −0,5c — в порядке A, B, C.">
+<meta property="og:description" content="Три вспышки A, B, C происходят в один момент t = 0 в системе O (x = −1, 0, +1). В системе O′, движущейся со скоростью v, они происходят в моменты t′ = −γvx: при v &gt; 0 порядок C, B, A, при v &lt; 0 порядок A, B, C, при v = 0 вспышки одновременны. На диаграмме Минковского линия одновременности O′ параллельна оси x′ и наклоняется вместе с ней; штриховая линия от события вдоль неё до оси ct′ показывает, как считывается t′. В последней части: порядок пространственноподобных событий (|Δx| &gt; |Δt|) зависит от системы, а временноподобных не меняется никогда, поэтому причинность не нарушается.">
 <meta property="og:url" content="https://neutrinohit.github.io/qr/0015/">
 <meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/0015.jpg">
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
@@ -56,9 +56,9 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <a href="../"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
-<h1><span lang="ru">Относительность одновременности</span><span lang="en">Relativity of simultaneity</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0015.jpg">
-<source src="../../assets/book-animations/0015.mp4" type="video/mp4">
+<h1><span lang="ru">Относительность одновременности</span><span lang="en">The relativity of simultaneity</span></h1>
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0015.jpg" data-src-ru="../../assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski.mp4" data-src-en="../../assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski-en.mp4" data-poster-ru="../../assets/book-animations/0015.jpg" data-poster-en="../../assets/book-animations/0015_en.jpg">
+<source src="../../assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
 <span><span lang="ru">Скорость</span><span lang="en">Speed</span>:</span>
@@ -66,15 +66,15 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" href="../../assets/book-animations/0015.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" id="dl" href="../../assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Три события (A, B, C) одновременны в системе отсчёта наблюдателя O. В системе, движущейся со скоростью v = 0,3c относительно O, они следуют в порядке C, B, A, а при v = −0,5c — в порядке A, B, C.</span><span lang="en">Three events (A, B, C) are simultaneous in the reference frame of observer O. In a frame moving with velocity v = 0.3c relative to O, they occur in the order C, B, A, while for v = −0.5c they occur in the order A, B, C.</span></p>
+<p class="caption"><span lang="ru">Три вспышки A, B, C происходят в один момент t = 0 в системе O (x = −1, 0, +1). В системе O′, движущейся со скоростью v, они происходят в моменты t′ = −γvx: при v &gt; 0 порядок C, B, A, при v &lt; 0 порядок A, B, C, при v = 0 вспышки одновременны. На диаграмме Минковского линия одновременности O′ параллельна оси x′ и наклоняется вместе с ней; штриховая линия от события вдоль неё до оси ct′ показывает, как считывается t′. В последней части: порядок пространственноподобных событий (|Δx| &gt; |Δt|) зависит от системы, а временноподобных не меняется никогда, поэтому причинность не нарушается.</span><span lang="en">Three flashes A, B, C happen at the same moment t = 0 in the frame O (x = −1, 0, +1). In the frame O′ that moves with the velocity v they happen at t′ = −γvx: for v &gt; 0 the order is C, B, A, for v &lt; 0 it is A, B, C, for v = 0 the flashes are simultaneous. On the Minkowski diagram the line of simultaneity of O′ is parallel to the x′ axis and tilts with it; a dashed line from an event along it to the ct′ axis shows how t′ is read off. In the last part: the order of spacelike separated events (|Δx| &gt; |Δt|) depends on the frame, while that of timelike separated events never changes, so causality is safe.</span></p>
 <div class="card"><dl class="meta">
 <dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 1, гл. 3 «Специальная теория относительности»</span><span lang="en">Volume 1, Chapter 3 “Special Relativity”</span></dd>
-<dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd>Acdx</dd>
-<dt><span lang="ru">Источник</span><span lang="en">Source</span></dt><dd><a href="https://commons.wikimedia.org/wiki/File:Relativity_of_Simultaneity_Animation.gif" rel="noopener">Wikimedia Commons</a></dd>
-<dt><span lang="ru">Лицензия</span><span lang="en">License</span></dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a></dd>
-<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">GIF переведён в видео без других изменений.</span><span lang="en">The GIF was converted to video with no other changes.</span></dd>
+<dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/simultaneity" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">Диаграмма Минковского, преобразования Лоренца.</span><span lang="en">Minkowski diagram, Lorentz transformations.</span></dd>
+<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-relativity-atom-spin-simultaneity"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
 <nav class="nav"><a href="../0006/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Вращение Пенроуза — Террелла</span><span lang="en">Penrose–Terrell rotation</span></a><a href="../0032/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Двойной пульсар Халса — Тейлора</span><span lang="en">The Hulse–Taylor binary pulsar</span> →</a></nav>
 <footer>
@@ -92,6 +92,14 @@ document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener
 if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
 var bs=document.querySelectorAll('[data-rate]');bs.forEach(function(b){b.addEventListener('click',function(){
 v.playbackRate=parseFloat(b.getAttribute('data-rate'));bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
-if(v.paused)v.play().catch(function(){})})})})();</script>
+if(v.paused)v.play().catch(function(){})})})})();
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();</script>
 </body>
 </html>

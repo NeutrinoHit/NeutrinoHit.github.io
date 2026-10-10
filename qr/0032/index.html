@@ -57,7 +57,7 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
 <h1><span lang="ru">Двойной пульсар Халса — Тейлора</span><span lang="en">The Hulse–Taylor binary pulsar</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0032.jpg">
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0032.jpg" data-src-ru="../../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4" data-src-en="../../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit-en.mp4" data-poster-ru="../../assets/book-animations/0032.jpg" data-poster-en="../../assets/book-animations/0032_en.jpg">
 <source src="../../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
@@ -66,7 +66,7 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" href="../../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" id="dl" href="../../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
 <p class="caption"><span lang="ru">Две нейтронные звезды (1,438 и 1,390 массы Солнца) на вытянутой орбите с периодом 7,75 ч излучают гравитационные волны. Орбита сжимается, период падает, и периастр приходит раньше, чем при постоянном периоде. Справа растёт накопленный сдвиг: около −38,6 с за 30 лет по ОТО, измеренная производная периода даёт ту же кривую в пределах погрешности (отношение 0,9983 ± 0,0016). Сжатие орбиты, сдвиг фазы и картина волн на анимации схематичны.</span><span lang="en">Two neutron stars (1.438 and 1.390 solar masses) on an eccentric orbit with a period of 7.75 h radiate gravitational waves. The orbit shrinks, the period falls, and the periastron arrives earlier than for a constant period. On the right the accumulated shift grows: about −38.6 s over 30 years in general relativity, and the measured period derivative gives the same curve within the uncertainty (ratio 0.9983 ± 0.0016). The orbit shrinkage, the phase shift and the wave pattern in the animation are schematic.</span></p>
 <div class="card"><dl class="meta">
@@ -76,7 +76,7 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">Параметры орбиты и производные периода: Weisberg, Huang, ApJ 829, 55 (2016).</span><span lang="en">Orbit parameters and period derivatives: Weisberg and Huang, ApJ 829, 55 (2016).</span></dd>
 <dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-relativity-atom-spin-hulse-taylor"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
-<nav class="nav"><a href="../0015/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Относительность одновременности</span><span lang="en">Relativity of simultaneity</span></a><a href="../0007/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Пучки с орбитальным угловым моментом</span><span lang="en">Beams with orbital angular momentum</span> →</a></nav>
+<nav class="nav"><a href="../0015/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Относительность одновременности</span><span lang="en">The relativity of simultaneity</span></a><a href="../0007/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Закрученные пучки: орбитальный угловой момент</span><span lang="en">Twisted beams: orbital angular momentum</span> →</a></nav>
 <footer>
 <p><span lang="ru">Анимация к книге</span><span lang="en">Animation for the book</span> <a href="/ru/materials.html" lang="ru">«Квантовая теория поля для экспериментаторов и не только»</a><a href="/en/materials.html" lang="en">“Quantum Field Theory for Experimentalists and Beyond”</a>, <span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span> · <a href="/">NeutrinoHit</a></p>
 </footer>
@@ -92,6 +92,14 @@ document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener
 if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
 var bs=document.querySelectorAll('[data-rate]');bs.forEach(function(b){b.addEventListener('click',function(){
 v.playbackRate=parseFloat(b.getAttribute('data-rate'));bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
-if(v.paused)v.play().catch(function(){})})})})();</script>
+if(v.paused)v.play().catch(function(){})})})})();
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();</script>
 </body>
 </html>

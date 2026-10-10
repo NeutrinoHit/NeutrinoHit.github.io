@@ -57,7 +57,7 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
 <h1><span lang="ru">Свободный гауссов пакет: движение и расплывание</span><span lang="en">A free Gaussian wave packet: motion and spreading</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0025.jpg">
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0025.jpg" data-src-ru="../../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4" data-src-en="../../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading-en.mp4" data-poster-ru="../../assets/book-animations/0025.jpg" data-poster-en="../../assets/book-animations/0025_en.jpg">
 <source src="../../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
@@ -66,7 +66,7 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" href="../../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" id="dl" href="../../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
 <p class="caption"><span lang="ru">Точная эволюция гауссова пакета свободной частицы (ħ = m = 1). Центр движется с групповой скоростью, огибающая расширяется по закону σ(t) = σ₀√(1 + (t/2σ₀²)²), высота падает. Распределение по импульсу |ψ̃(p)|² не меняется, вращаются только фазы e^{-iE_p t}. Во второй части сравниваются узкий и широкий пакеты: чем уже пакет по x, тем он шире по p и тем быстрее расплывается.</span><span lang="en">Exact evolution of a free Gaussian wave packet (ħ = m = 1). The centre moves with the group velocity and the envelope broadens as σ(t) = σ₀√(1 + (t/2σ₀²)²) while its height falls. The momentum distribution |ψ̃(p)|² does not change; only the phases e^{-iE_p t} rotate. The second part compares a narrow and a wide packet: the narrower in x, the broader in p and the faster it spreads.</span></p>
 <div class="card"><dl class="meta">
@@ -75,7 +75,7 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/free_wavepacket" rel="noopener">GitHub</a></dd>
 <dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-schrodinger-packet"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
-<nav class="nav"><a href="../0007/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Пучки с орбитальным угловым моментом</span><span lang="en">Beams with orbital angular momentum</span></a><a href="../0009/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Спинор и лента Мёбиуса</span><span lang="en">A spinor and the Möbius strip</span> →</a></nav>
+<nav class="nav"><a href="../0007/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Закрученные пучки: орбитальный угловой момент</span><span lang="en">Twisted beams: orbital angular momentum</span></a><a href="../0043/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Туннельный эффект: точечное и протяжённое тело</span><span lang="en">Tunnelling: a point body and an extended body</span> →</a></nav>
 <footer>
 <p><span lang="ru">Анимация к книге</span><span lang="en">Animation for the book</span> <a href="/ru/materials.html" lang="ru">«Квантовая теория поля для экспериментаторов и не только»</a><a href="/en/materials.html" lang="en">“Quantum Field Theory for Experimentalists and Beyond”</a>, <span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span> · <a href="/">NeutrinoHit</a></p>
 </footer>
@@ -91,6 +91,14 @@ document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener
 if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
 var bs=document.querySelectorAll('[data-rate]');bs.forEach(function(b){b.addEventListener('click',function(){
 v.playbackRate=parseFloat(b.getAttribute('data-rate'));bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
-if(v.paused)v.play().catch(function(){})})})})();</script>
+if(v.paused)v.play().catch(function(){})})})})();
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();</script>
 </body>
 </html>

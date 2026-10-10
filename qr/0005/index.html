@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Электрон в вакуумном электромагнитном поле — NeutrinoHit</title>
-<meta name="description" content="Электрон взаимодействует с вакуумным электромагнитным полем. В среднем смещение электрона равно нулю: ⟨δr⟩ = 0, однако его дисперсия отлична от нуля: ⟨δr²⟩ ≠ 0.">
+<meta name="description" content="Вакуумное электрическое поле как случайное поле на всех частотах сразу: в каждой точке вектор E вращается по эллипсу, ⟨E⟩ = 0, но ⟨E²⟩ ≠ 0, причём ⟨E²⟩ в октаве растёт в 16 раз при удвоении частоты. Электрон отвечает на частоте ω смещением δr ∝ E_ω/ω², поэтому каждая октава вносит в дисперсию одинаковый вклад ⟨δr²⟩ = (2α/π)(ħ/mc)² ln 2. Складываясь, они заметают шар радиуса √⟨δr²⟩ ≈ 90 фм: в среднем смещение равно нулю, ⟨δr⟩ = 0, а дисперсия отлична от нуля, ⟨δr²⟩ ≠ 0. Это одна случайная реализация поля, а не классическая траектория; три частоты в кадре изображают весь спектр от ħω ∼ нескольких эВ до ħω ∼ mc².">
 <link rel="canonical" href="https://neutrinohit.github.io/qr/0005/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Электрон в вакуумном электромагнитном поле">
-<meta property="og:description" content="Электрон взаимодействует с вакуумным электромагнитным полем. В среднем смещение электрона равно нулю: ⟨δr⟩ = 0, однако его дисперсия отлична от нуля: ⟨δr²⟩ ≠ 0.">
+<meta property="og:description" content="Вакуумное электрическое поле как случайное поле на всех частотах сразу: в каждой точке вектор E вращается по эллипсу, ⟨E⟩ = 0, но ⟨E²⟩ ≠ 0, причём ⟨E²⟩ в октаве растёт в 16 раз при удвоении частоты. Электрон отвечает на частоте ω смещением δr ∝ E_ω/ω², поэтому каждая октава вносит в дисперсию одинаковый вклад ⟨δr²⟩ = (2α/π)(ħ/mc)² ln 2. Складываясь, они заметают шар радиуса √⟨δr²⟩ ≈ 90 фм: в среднем смещение равно нулю, ⟨δr⟩ = 0, а дисперсия отлична от нуля, ⟨δr²⟩ ≠ 0. Это одна случайная реализация поля, а не классическая траектория; три частоты в кадре изображают весь спектр от ħω ∼ нескольких эВ до ħω ∼ mc².">
 <meta property="og:url" content="https://neutrinohit.github.io/qr/0005/">
 <meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/0005.jpg">
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
@@ -57,8 +57,8 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
 <h1><span lang="ru">Электрон в вакуумном электромагнитном поле</span><span lang="en">An electron in the vacuum electromagnetic field</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0005.jpg">
-<source src="../../assets/book-animations/0005.mp4" type="video/mp4">
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0005.jpg" data-src-ru="../../assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field.mp4" data-src-en="../../assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field-en.mp4" data-poster-ru="../../assets/book-animations/0005.jpg" data-poster-en="../../assets/book-animations/0005_en.jpg">
+<source src="../../assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
 <span><span lang="ru">Скорость</span><span lang="en">Speed</span>:</span>
@@ -66,14 +66,17 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" href="../../assets/book-animations/0005.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" id="dl" href="../../assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Электрон взаимодействует с вакуумным электромагнитным полем. В среднем смещение электрона равно нулю: ⟨δr⟩ = 0, однако его дисперсия отлична от нуля: ⟨δr²⟩ ≠ 0.</span><span lang="en">The electron interacts with the vacuum electromagnetic field. On average, the electron displacement is zero: ⟨δr⟩ = 0. However, its variance is nonzero: ⟨δr²⟩ ≠ 0.</span></p>
+<p class="caption"><span lang="ru">Вакуумное электрическое поле как случайное поле на всех частотах сразу: в каждой точке вектор E вращается по эллипсу, ⟨E⟩ = 0, но ⟨E²⟩ ≠ 0, причём ⟨E²⟩ в октаве растёт в 16 раз при удвоении частоты. Электрон отвечает на частоте ω смещением δr ∝ E_ω/ω², поэтому каждая октава вносит в дисперсию одинаковый вклад ⟨δr²⟩ = (2α/π)(ħ/mc)² ln 2. Складываясь, они заметают шар радиуса √⟨δr²⟩ ≈ 90 фм: в среднем смещение равно нулю, ⟨δr⟩ = 0, а дисперсия отлична от нуля, ⟨δr²⟩ ≠ 0. Это одна случайная реализация поля, а не классическая траектория; три частоты в кадре изображают весь спектр от ħω ∼ нескольких эВ до ħω ∼ mc².</span><span lang="en">The vacuum electric field as a random field on all frequencies at once: at every point the vector E turns along an ellipse, ⟨E⟩ = 0 but ⟨E²⟩ ≠ 0, and ⟨E²⟩ in an octave grows 16 times when the frequency doubles. The electron answers at the frequency ω with a displacement δr ∝ E_ω/ω², so every octave adds the same amount to the variance, ⟨δr²⟩ = (2α/π)(ħ/mc)² ln 2. Together they sweep out a ball of radius √⟨δr²⟩ ≈ 90 fm: on average the displacement is zero, ⟨δr⟩ = 0, but the variance is nonzero, ⟨δr²⟩ ≠ 0. This is one random realization of the field, not a classical trajectory; the three frequencies in the picture stand for the whole spectrum from ħω ∼ a few eV to ħω ∼ mc².</span></p>
 <div class="card"><dl class="meta">
 <dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 1, гл. 2 «Век открытий»</span><span lang="en">Volume 1, Chapter 2 “A Century of Discoveries”</span></dd>
-<dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Н. Бородин (студент Д. В. Наумова), @nsborodin</span><span lang="en">N. Borodin (student of D. V. Naumov), @nsborodin</span> — Electron Trajectory in Vacuum due to Zero Mode of Quantum Field</dd>
+<dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/zero_point_electron" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">Модель Велтона для лэмбовского сдвига (1948); поле и путь — случайные реализации, рассчитанные численно.</span><span lang="en">Welton&#x27;s model of the Lamb shift (1948); the field and the path are random realizations computed numerically.</span></dd>
+<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-zero-point-electron"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
-<nav class="nav"><a href="../0004/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Опыт Томсона: отклонение катодного луча</span><span lang="en">Thomson&#x27;s experiment: deflection of a cathode ray</span></a><a href="../0014/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Опыт Резерфорда — Гейгера — Марсдена</span><span lang="en">The Rutherford–Geiger–Marsden experiment</span> →</a></nav>
+<nav class="nav"><a href="../0004/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Опыт Томсона: отношение заряда катодных лучей к массе</span><span lang="en">Thomson&#x27;s experiment: the charge-to-mass ratio of cathode rays</span></a><a href="../0014/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Опыт Резерфорда — Гейгера — Марсдена</span><span lang="en">The Rutherford–Geiger–Marsden experiment</span> →</a></nav>
 <footer>
 <p><span lang="ru">Анимация к книге</span><span lang="en">Animation for the book</span> <a href="/ru/materials.html" lang="ru">«Квантовая теория поля для экспериментаторов и не только»</a><a href="/en/materials.html" lang="en">“Quantum Field Theory for Experimentalists and Beyond”</a>, <span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span> · <a href="/">NeutrinoHit</a></p>
 </footer>
@@ -89,6 +92,14 @@ document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener
 if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
 var bs=document.querySelectorAll('[data-rate]');bs.forEach(function(b){b.addEventListener('click',function(){
 v.playbackRate=parseFloat(b.getAttribute('data-rate'));bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
-if(v.paused)v.play().catch(function(){})})})})();</script>
+if(v.paused)v.play().catch(function(){})})})})();
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();</script>
 </body>
 </html>

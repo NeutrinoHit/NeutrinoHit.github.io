@@ -64,6 +64,20 @@ def sort_key(item: dict[str, Any]) -> tuple[int, int, str]:
     return (book["volume"], book["chapter"], item["id"])
 
 
+LANGS = ("ru", "en")
+
+
+def lang_assets(item: dict[str, Any]) -> dict[str, str] | None:
+    """media.site_asset as {lang: path}: a string serves both languages, a {ru, en} pair gives one film per
+    language (separate Russian and English versions of the same animation). None when not set."""
+    asset = item.get("media", {}).get("site_asset")
+    if not asset:
+        return None
+    if isinstance(asset, dict):
+        return {lang: asset[lang] for lang in LANGS if asset.get(lang)}
+    return {lang: asset for lang in LANGS}
+
+
 def validate(catalog: dict[str, Any]) -> list[str]:
     problems: list[str] = []
     seen_ids: set[str] = set()
@@ -95,8 +109,12 @@ def validate(catalog: dict[str, Any]) -> list[str]:
         if hosting == "self":
             media = item.get("media", {})
             if media.get("site_asset"):
-                if not (SITE_ROOT / media["site_asset"]).is_file():
-                    problems.append(f"{ident}: missing site asset {media['site_asset']}")
+                assets = lang_assets(item)
+                if set(assets) != set(LANGS):
+                    problems.append(f"{ident}: media.site_asset needs both ru and en")
+                for lang, path in assets.items():
+                    if not (SITE_ROOT / path).is_file():
+                        problems.append(f"{ident}: missing site asset {path} ({lang})")
             else:
                 source = SOURCE_DIR / media.get("source", "")
                 published = ASSET_DIR / f"{ident}.mp4"
@@ -137,18 +155,47 @@ def stale(source: Path, target: Path, force: bool) -> bool:
     return force or not target.exists() or source.stat().st_mtime > target.stat().st_mtime
 
 
+def make_poster(source: Path, poster: Path, at: float, duration: float, force: bool) -> None:
+    if not stale(source, poster, force):
+        return
+    if duration:
+        at = min(at, duration * 0.95)
+    tmp = poster.with_suffix(".tmp.jpg")
+    run(["ffmpeg", "-y", "-v", "error", "-ss", f"{at:.3f}", "-i", str(source),
+         "-frames:v", "1", "-vf", "scale='min(960,iw)':-2", "-q:v", "3", str(tmp)])
+    tmp.replace(poster)
+
+
+def poster_name(ident: str, lang: str, per_language: bool) -> str:
+    return f"{ident}_en.jpg" if (per_language and lang == "en") else f"{ident}.jpg"
+
+
+def per_language(item: dict[str, Any]) -> bool:
+    assets = lang_assets(item)
+    return bool(assets) and assets["ru"] != assets["en"]
+
+
 def build_media(item: dict[str, Any], force: bool) -> None:
     ident = item["id"]
-    site_asset = item["media"].get("site_asset")
-    source = SITE_ROOT / site_asset if site_asset else SOURCE_DIR / item["media"]["source"]
+    assets = lang_assets(item)
     movie = ASSET_DIR / f"{ident}.mp4"
+    at = float(item["media"].get("poster_time", 0.5))
+    if assets:
+        ASSET_DIR.mkdir(parents=True, exist_ok=True)
+        split = per_language(item)
+        for lang in (LANGS if split else ("ru",)):
+            source = SITE_ROOT / assets[lang]
+            if source.is_file():
+                make_poster(source, ASSET_DIR / poster_name(ident, lang, split), at, probe(source)["duration"], force)
+        return
+    source = SOURCE_DIR / item["media"]["source"]
     poster = ASSET_DIR / f"{ident}.jpg"
     if not source.is_file():
         return  # outputs are committed; sources are optional
     ASSET_DIR.mkdir(parents=True, exist_ok=True)
     info = probe(source)
 
-    if not site_asset and stale(source, movie, force):
+    if stale(source, movie, force):
         tmp = movie.with_suffix(".tmp.mp4")
         is_small_h264 = (
             source.suffix.lower() == ".mp4"
@@ -170,14 +217,7 @@ def build_media(item: dict[str, Any], force: bool) -> None:
         run(command)
         tmp.replace(movie)
 
-    if stale(source, poster, force):
-        at = float(item["media"].get("poster_time", 0.5))
-        if info["duration"]:
-            at = min(at, info["duration"] * 0.95)
-        tmp = poster.with_suffix(".tmp.jpg")
-        run(["ffmpeg", "-y", "-v", "error", "-ss", f"{at:.3f}", "-i", str(source),
-             "-frames:v", "1", "-vf", "scale='min(960,iw)':-2", "-q:v", "3", str(tmp)])
-        tmp.replace(poster)
+    make_poster(source, poster, at, info["duration"], force)
 
 
 # ------------------------------------------------------------------- html
@@ -244,6 +284,18 @@ if(v.paused)v.play().catch(function(){})})})})();
 """.strip()
 
 
+MEDIA_JS = """
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();
+""".strip()
+
+
 def esc(value: str) -> str:
     return html.escape(value, quote=True)
 
@@ -274,9 +326,10 @@ def page_url(catalog: dict[str, Any], ident: str = "") -> str:
     return f'{catalog["base_url"]}{catalog["qr_path"]}{ident + "/" if ident else ""}'
 
 
-def movie_path(item: dict[str, Any]) -> str:
-    """Site-root-relative path of the video shown on the page."""
-    return item["media"].get("site_asset") or f'assets/book-animations/{item["id"]}.mp4'
+def movie_path(item: dict[str, Any], lang: str = "ru") -> str:
+    """Site-root-relative path of the video shown on the page in the given language."""
+    assets = lang_assets(item)
+    return assets[lang] if assets else f'assets/book-animations/{item["id"]}.mp4'
 
 
 def chapter_ref(item: dict[str, Any]) -> str:
@@ -392,9 +445,15 @@ def render_item(catalog: dict[str, Any], items: list[dict[str, Any]], index: int
     page += f'<h1>{bi(item["title"])}</h1>\n'
 
     if hosting == "self":
+        split = per_language(item)
         poster = f' poster="../../assets/book-animations/{ident}.jpg"' if poster_exists else ""
-        movie = f"../../{movie_path(item)}"
-        page += f"""<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata"{poster}>
+        movie = f"../../{movie_path(item, 'ru')}"
+        data = ""
+        if split:
+            data = (f' data-src-ru="{movie}" data-src-en="../../{movie_path(item, "en")}"'
+                    f' data-poster-ru="../../assets/book-animations/{poster_name(ident, "ru", True)}"'
+                    f' data-poster-en="../../assets/book-animations/{poster_name(ident, "en", True)}"')
+        page += f"""<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata"{poster}{data}>
 <source src="{movie}" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="{esc("Скорость / Speed")}">
@@ -403,7 +462,7 @@ def render_item(catalog: dict[str, Any], items: list[dict[str, Any]], index: int
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" href="{movie}" download>{bi_raw("Скачать MP4", "Download MP4")}</a>
+<a class="btn" id="dl" href="{movie}" download>{bi_raw("Скачать MP4", "Download MP4")}</a>
 </div>
 """
     elif hosting == "external":
@@ -424,7 +483,8 @@ def render_item(catalog: dict[str, Any], items: list[dict[str, Any]], index: int
     page += neighbours(items, index)
     page += footer(catalog)
     if hosting == "self":
-        page = page.replace("</body>", f"<script>{PLAYER_JS}</script>\n</body>")
+        scripts = PLAYER_JS + ("\n" + MEDIA_JS if per_language(item) else "")
+        page = page.replace("</body>", f"<script>{scripts}</script>\n</body>")
     return page
 
 

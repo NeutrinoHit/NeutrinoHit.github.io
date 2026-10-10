@@ -1,0 +1,57 @@
+{
+  "seed": 20260904,
+  "true_parameters": {
+    "sin2_theta12": 0.3092,
+    "dm21_eV2": 7.5e-05,
+    "sin2_theta13_fixed": 0.022,
+    "dm31_eV2_fixed": 0.0025
+  },
+  "reactor_baselines_km": [
+    52.77,
+    52.64,
+    52.74,
+    52.82,
+    52.41,
+    52.49,
+    52.11,
+    52.19,
+    215.0
+  ],
+  "source_weights_current_code": [
+    0.16,
+    0.161,
+    0.101,
+    0.101,
+    0.103,
+    0.102,
+    0.104,
+    0.104,
+    0.064
+  ],
+  "resolution": {
+    "a": 0.0261,
+    "b": 0.0082,
+    "c": 0.0123
+  },
+  "exposure": {
+    "years": 6.0,
+    "selected_ibd_per_day_target": 47.1
+  },
+  "nuisance_priors_illustrative": {
+    "normalization_fraction": 0.01,
+    "energy_scale_fraction": 0.003,
+    "resolution_scale_fraction": 0.05
+  },
+  "fit_grid": {
+    "sin2_theta12": [
+      0.3,
+      0.318,
+      61
+    ],
+    "dm21_eV2": [
+      7.32e-05,
+      7.68e-05,
+      61
+    ]
+  }
+}

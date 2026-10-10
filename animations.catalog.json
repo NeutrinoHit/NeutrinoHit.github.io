@@ -90,14 +90,21 @@
         },
         {
           "id": "air-shower",
-          "title": "Атмосферный ливень",
-          "source_dir": "airshower",
-          "description": "Схематическая анимация развития атмосферного каскада.",
+          "title": "Широкий атмосферный ливень",
+          "source_dir": "air_shower_cascade",
+          "description": "Игрушечная модель Гайтлера–Мэтьюза: электромагнитный каскад одного фотона, ливень от протона с энергией 10^15 эВ методом Монте-Карло, профиль N(X) и оценки Гайтлера, матрица детекторов на земле, флуоресценция и черенковский свет.",
           "videos": [
             {
               "id": "air-shower",
-              "label": "Каскад",
-              "path": "airshower/media/videos/airshower/1080p60/AirShower.mp4"
+              "label": "Каскад (русская версия)",
+              "path": "air_shower_cascade/media/air_shower_cascade_ru.mp4",
+              "poster_time": 62.0
+            },
+            {
+              "id": "air-shower-en",
+              "label": "The cascade (English version)",
+              "path": "air_shower_cascade/media/air_shower_cascade_en.mp4",
+              "poster_time": 62.0
             }
           ]
         },
@@ -221,8 +228,14 @@
           "videos": [
             {
               "id": "avalanche",
-              "label": "Лавина электронов и импульс на аноде",
-              "path": "pmt_multiplication/media/pmt_multiplication.mp4",
+              "label": "Лавина электронов и импульс на аноде (русская версия)",
+              "path": "pmt_multiplication/media/pmt_multiplication_ru.mp4",
+              "poster_time": 15
+            },
+            {
+              "id": "avalanche-en",
+              "label": "Avalanche of electrons and the anode pulse (English version)",
+              "path": "pmt_multiplication/media/pmt_multiplication_en.mp4",
               "poster_time": 15
             }
           ]
@@ -284,8 +297,14 @@
           "videos": [
             {
               "id": "huygens",
-              "label": "Конус из волн Гюйгенса",
-              "path": "cherenkov_radiation/media/cherenkov_radiation.mp4",
+              "label": "Конус из волн Гюйгенса (русская версия)",
+              "path": "cherenkov_radiation/media/cherenkov_radiation_ru.mp4",
+              "poster_time": 24
+            },
+            {
+              "id": "huygens-en",
+              "label": "A cone of Huygens wavelets (English version)",
+              "path": "cherenkov_radiation/media/cherenkov_radiation_en.mp4",
               "poster_time": 24
             }
           ]
@@ -298,8 +317,14 @@
           "videos": [
             {
               "id": "collider",
-              "label": "Столкновения пучков и детектор",
-              "path": "scattering_experiment/media/scattering_experiment.mp4",
+              "label": "Столкновения пучков и детектор (русская версия)",
+              "path": "scattering_experiment/media/scattering_experiment_ru.mp4",
+              "poster_time": 20
+            },
+            {
+              "id": "collider-en",
+              "label": "Colliding beams and the detector (English version)",
+              "path": "scattering_experiment/media/scattering_experiment_en.mp4",
               "poster_time": 20
             }
           ]
@@ -308,13 +333,59 @@
           "id": "pi0-double-dalitz",
           "title": "Распад π⁰ → e⁺e⁻e⁺e⁻",
           "source_dir": "pi0_double_dalitz",
-          "description": "Две пары e⁺e⁻ от виртуальных фотонов задают две плоскости; от события к событию их ориентация разная, и копится распределение по углу φ ∝ 1 − a cos 2φ (псевдоскалярный пион).",
+          "description": "Две пары e⁺e⁻ от виртуальных фотонов лежат в плоскостях, содержащих поляризацию (E) своего фотона. Для псевдоскаляра π⁰ амплитуда ∝ E₁·B₂ + E₂·B₁ ∝ sin φ (плоскости перпендикулярны), для скаляра ∝ E₁·E₂ − B₁·B₂ ∝ cos φ (параллельны); копится распределение по углу φ. Две версии: русская и английская.",
           "videos": [
             {
               "id": "planes",
-              "label": "Плоскости пар и угол φ",
-              "path": "pi0_double_dalitz/media/pi0_double_dalitz.mp4",
-              "poster_time": 28
+              "label": "Плоскости пар, E и B (русская версия)",
+              "path": "pi0_double_dalitz/media/pi0_double_dalitz_ru.mp4",
+              "poster_time": 16
+            },
+            {
+              "id": "planes-en",
+              "label": "Planes of the pairs, E and B (English version)",
+              "path": "pi0_double_dalitz/media/pi0_double_dalitz_en.mp4",
+              "poster_time": 16
+            }
+          ]
+        },
+        {
+          "id": "z-decay-asymmetry",
+          "title": "Асимметрия в рождении и распаде Z-бозона",
+          "source_dir": "z_decay_asymmetry",
+          "description": "Четыре спиральных канала e⁺e⁻ → Z → f f̄ с весами (g_a g_b)², распределения (1 ± cosθ)² и их сумма, асимметрия «вперёд–назад» A_FB, события Монте-Карло и зависимость A_FB(√s) с интерференцией γ и Z.",
+          "videos": [
+            {
+              "id": "film",
+              "label": "Каналы, сумма, события и A_FB(√s) (русская версия)",
+              "path": "z_decay_asymmetry/media/z_decay_asymmetry_ru.mp4",
+              "poster_time": 42.0
+            },
+            {
+              "id": "film-en",
+              "label": "Channels, the sum, events and A_FB(√s) (English version)",
+              "path": "z_decay_asymmetry/media/z_decay_asymmetry_en.mp4",
+              "poster_time": 42.0
+            }
+          ]
+        },
+        {
+          "id": "kaon-oscillations",
+          "title": "Осцилляции нейтральных каонов",
+          "source_dir": "kaon_oscillations",
+          "description": "K⁰ рождается в сильной реакции как суперпозиция K_S и K_L; двухуровневая эволюция с H = M − iΓ/2 (интегрирование численно), осцилляции странности вдоль пучка, детектор (K̄⁰N → Λπ) и заряд лептона, регенерация K_S.",
+          "videos": [
+            {
+              "id": "film",
+              "label": "Осцилляции K⁰–K̄⁰ вдоль пучка (русская версия)",
+              "path": "kaon_oscillations/media/kaon_oscillations_ru.mp4",
+              "poster_time": 46.0
+            },
+            {
+              "id": "film-en",
+              "label": "K⁰–K̄⁰ oscillations along the beam (English version)",
+              "path": "kaon_oscillations/media/kaon_oscillations_en.mp4",
+              "poster_time": 46.0
             }
           ]
         }
@@ -351,13 +422,20 @@
         {
           "id": "standard-model-field-mattress",
           "title": "Поля Стандартной модели",
-          "source_dir": "fields/sm_field_mattress",
-          "description": "Визуальная метафора квантовых полей Стандартной модели: флуктуирующие слои, бегущие волны и разрез структуры.",
+          "source_dir": "sm_fields",
+          "description": "17 полей Стандартной модели как листы одной стопки; частица — волновой пакет на листе своего поля; два поля крупно: взаимодействие e⁻e⁻ (отталкивание) и e⁻e⁺ (притяжение) по модели скалярной КЭД, затем e⁻e⁺ ↔ γγ как перетекание энергии между полями.",
           "videos": [
             {
               "id": "field-stack",
-              "label": "Поля, заполняющие пространство",
-              "path": "fields/sm_field_mattress/media/videos/sm_field_mattress/1080p30/StandardModelFieldMattress.mp4"
+              "label": "Поля Стандартной модели: стопка листов (русская версия)",
+              "path": "sm_fields/media/sm_fields_ru.mp4",
+              "poster_time": 56
+            },
+            {
+              "id": "field-stack-en",
+              "label": "Fields of the Standard Model: a stack of sheets (English version)",
+              "path": "sm_fields/media/sm_fields_en.mp4",
+              "poster_time": 56
             }
           ]
         },
@@ -400,32 +478,75 @@
           "videos": [
             {
               "id": "spreading",
-              "label": "Движение и расплывание пакета",
-              "path": "free_wavepacket/media/free_wavepacket.mp4",
+              "label": "Движение и расплывание пакета (русская версия)",
+              "path": "free_wavepacket/media/free_wavepacket_ru.mp4",
+              "poster_time": 8
+            },
+            {
+              "id": "spreading-en",
+              "label": "Motion and spreading of the packet (English version)",
+              "path": "free_wavepacket/media/free_wavepacket_en.mp4",
               "poster_time": 8
             }
           ]
         },
         {
-          "id": "coupled-oscillators-fields",
-          "title": "Связанные осцилляторы",
-          "source_dir": "fields/coupled_oscillators_2d",
-          "description": "Одномерные, двумерные и трёхмерные связанные осцилляторные системы.",
+          "id": "coupled-chain",
+          "title": "Цепочка связанных осцилляторов",
+          "source_dir": "coupled_chain",
+          "description": "Цепочка из N масс: нормальные моды и дисперсия, волна от отпущенного смещения, столкновение волн в линейной цепочке (свободные частицы) и с кубическим членом (обмен энергией между модами), предел N → ∞ и поле.",
           "videos": [
             {
-              "id": "one-dimensional",
-              "label": "1D",
-              "path": "fields/coupled_oscillators_1d/media/videos/coupled_oscillators_1d/1920p60/CoupledOscillators1D.mp4"
+              "id": "chain",
+              "label": "Цепочка связанных осцилляторов (русская версия)",
+              "path": "coupled_chain/media/coupled_chain_ru.mp4",
+              "poster_time": 60
             },
             {
-              "id": "two-dimensional",
-              "label": "2D",
-              "path": "fields/coupled_oscillators_2d/media/videos/coupled_oscillators_2d/1080p60/CoupledOscillators2D.mp4"
+              "id": "chain-en",
+              "label": "A chain of coupled oscillators (English version)",
+              "path": "coupled_chain/media/coupled_chain_en.mp4",
+              "poster_time": 60
+            }
+          ]
+        },
+        {
+          "id": "coupled-lattice-2d",
+          "title": "Двумерная решётка связанных осцилляторов",
+          "source_dir": "coupled_lattice_2d",
+          "description": "Решётка 14×10 масс на пружинках: нормальные моды и карта их энергий, круговые волны от отпущенного смещения, столкновение волн в линейной решётке и с ангармоническими членами (перераспределение энергии между модами), предел N → ∞ и поле.",
+          "videos": [
+            {
+              "id": "lattice",
+              "label": "Двумерная решётка связанных осцилляторов (русская версия)",
+              "path": "coupled_lattice_2d/media/coupled_lattice_2d_ru.mp4",
+              "poster_time": 66
             },
             {
-              "id": "three-dimensional",
-              "label": "3D",
-              "path": "fields/coupled_oscillators_3d/media/videos/coupled_oscillators_3d/1920p60/CoupledOscillators3D.mp4"
+              "id": "lattice-en",
+              "label": "A two-dimensional lattice of coupled oscillators (English version)",
+              "path": "coupled_lattice_2d/media/coupled_lattice_2d_en.mp4",
+              "poster_time": 66
+            }
+          ]
+        },
+        {
+          "id": "coupled-lattice-3d",
+          "title": "Трёхмерная решётка связанных осцилляторов",
+          "source_dir": "coupled_lattice_3d",
+          "description": "Ящик 14×8×8 масс на пружинках: нормальные моды и спектр их энергий, сферическая волна от отпущенного смещения, столкновение волн в линейной решётке и с ангармоническими членами (перераспределение энергии между модами), предел N → ∞ и поле.",
+          "videos": [
+            {
+              "id": "lattice",
+              "label": "Трёхмерная решётка связанных осцилляторов (русская версия)",
+              "path": "coupled_lattice_3d/media/coupled_lattice_3d_ru.mp4",
+              "poster_time": 59
+            },
+            {
+              "id": "lattice-en",
+              "label": "A three-dimensional lattice of coupled oscillators (English version)",
+              "path": "coupled_lattice_3d/media/coupled_lattice_3d_en.mp4",
+              "poster_time": 59
             }
           ]
         },
@@ -515,8 +636,14 @@
           "videos": [
             {
               "id": "film",
-              "label": "Заряд и виртуальные пары",
-              "path": "running_charge/media/running_charge.mp4",
+              "label": "Заряд и виртуальные пары (русская версия)",
+              "path": "running_charge/media/running_charge_ru.mp4",
+              "poster_time": 18
+            },
+            {
+              "id": "film-en",
+              "label": "The charge and the virtual pairs (English version)",
+              "path": "running_charge/media/running_charge_en.mp4",
               "poster_time": 18
             }
           ]
@@ -529,9 +656,215 @@
           "videos": [
             {
               "id": "front",
-              "label": "Фронт волны от пинка",
-              "path": "electron_kick/media/electron_kick.mp4",
+              "label": "Фронт волны от пинка (русская версия)",
+              "path": "electron_kick/media/electron_kick_ru.mp4",
               "poster_time": 16.4
+            },
+            {
+              "id": "front-en",
+              "label": "The wavefront of a kick (English version)",
+              "path": "electron_kick/media/electron_kick_en.mp4",
+              "poster_time": 16.4
+            }
+          ]
+        },
+        {
+          "id": "zero-point-electron",
+          "title": "Электрон в вакуумном поле: нулевые колебания",
+          "source_dir": "zero_point_electron",
+          "description": "Нулевые колебания электрического поля: в каждой точке вектор E вращается по эллипсу на каждой частоте, ⟨E⟩ = 0, ⟨E²⟩ ≠ 0. Электрон повторяет эллипс с амплитудой ∝ E/ω²; каждая октава вносит равный вклад ⟨δr²⟩ = (2α/π)(ħ/mc)² ln 2, путь заполняет шар √⟨δr²⟩ ≈ 90 фм. Две версии: русская и английская.",
+          "videos": [
+            {
+              "id": "vacuum-field",
+              "label": "Поле и электрон (русская версия)",
+              "path": "zero_point_electron/media/zero_point_electron_ru.mp4",
+              "poster_time": 57
+            },
+            {
+              "id": "vacuum-field-en",
+              "label": "The field and the electron (English version)",
+              "path": "zero_point_electron/media/zero_point_electron_en.mp4",
+              "poster_time": 57
+            }
+          ]
+        },
+        {
+          "id": "thomson-tube",
+          "title": "Опыт Томсона: e/m",
+          "source_dir": "thomson_tube",
+          "description": "Катодные лучи в скрещённых E и B: отклонение вверх электрическим полем, вниз магнитным, баланс v = E/B и отношение e/m по отклонению. Траектории рассчитаны численно. Две версии: русская и английская.",
+          "videos": [
+            {
+              "id": "crossed-fields",
+              "label": "Скрещённые поля и e/m (русская версия)",
+              "path": "thomson_tube/media/thomson_tube_ru.mp4",
+              "poster_time": 14
+            },
+            {
+              "id": "crossed-fields-en",
+              "label": "Crossed fields and e/m (English version)",
+              "path": "thomson_tube/media/thomson_tube_en.mp4",
+              "poster_time": 14
+            }
+          ]
+        },
+        {
+          "id": "oam-beams",
+          "title": "Закрученные пучки: орбитальный угловой момент",
+          "source_dir": "oam_beams",
+          "description": "Фаза делает m оборотов вокруг оси, L_z = mħ; винтовые волновые фронты с m заходами; получение пучка спиральной фазовой пластинкой (гауссов пучок → мода Лагерра — Гаусса). Две версии: русская и английская.",
+          "videos": [
+            {
+              "id": "twisted-beams",
+              "label": "Закрученные пучки (русская версия)",
+              "path": "oam_beams/media/oam_beams_ru.mp4",
+              "poster_time": 42
+            },
+            {
+              "id": "twisted-beams-en",
+              "label": "Twisted beams (English version)",
+              "path": "oam_beams/media/oam_beams_en.mp4",
+              "poster_time": 42
+            }
+          ]
+        },
+        {
+          "id": "circular-polarization",
+          "title": "Круговая поляризация",
+          "source_dir": "circular_polarization",
+          "description": "Вращение E для приёмника и источника, спиральность S_z = ±ħ, мгновенный снимок в пространстве (левый винт) и сложение ε_L и ε_R: линейная, эллиптическая и круговая поляризации. Две версии: русская и английская.",
+          "videos": [
+            {
+              "id": "helicity",
+              "label": "Спиральность и сложение поляризаций (русская версия)",
+              "path": "circular_polarization/media/circular_polarization_ru.mp4",
+              "poster_time": 6
+            },
+            {
+              "id": "helicity-en",
+              "label": "Helicity and the sum of polarizations (English version)",
+              "path": "circular_polarization/media/circular_polarization_en.mp4",
+              "poster_time": 6
+            }
+          ]
+        },
+        {
+          "id": "meissner-photon-mass",
+          "title": "Эффект Мейснера и масса фотона",
+          "source_dir": "meissner_photon_mass",
+          "description": "Конденсат Хиггса выталкивает магнитное поле (эффект Мейснера), пакет электромагнитной волны отражается от границы конденсата или проходит с групповой скоростью k/ω < 1; дисперсия ω² = k² + m_A² и счёт поляризаций 2 + 2 = 1 + 3.",
+          "videos": [
+            {
+              "id": "film",
+              "label": "Конденсат, пакет на границе, дисперсия (русская версия)",
+              "path": "meissner_photon_mass/media/meissner_photon_mass_ru.mp4",
+              "poster_time": 22.0
+            },
+            {
+              "id": "film-en",
+              "label": "Condensate, a packet at the boundary, dispersion (English version)",
+              "path": "meissner_photon_mass/media/meissner_photon_mass_en.mp4",
+              "poster_time": 22.0
+            }
+          ]
+        },
+        {
+          "id": "chiral-fermion-mass",
+          "title": "Киральные волны и масса фермиона",
+          "source_dir": "chiral_fermion_mass",
+          "description": "Две киральные волны уравнения Дирака в (1+1) измерениях: масса — это связь ψ_R и ψ_L через хиггсовский конденсат; осцилляции киральности с частотой 2E, замедление пакета до p/E, запрет массового члена в SU(2) и юкавская связь.",
+          "videos": [
+            {
+              "id": "film",
+              "label": "Две связанные киральные волны (русская версия)",
+              "path": "chiral_fermion_mass/media/chiral_fermion_mass_ru.mp4",
+              "poster_time": 26.8
+            },
+            {
+              "id": "film-en",
+              "label": "Two coupled chiral waves (English version)",
+              "path": "chiral_fermion_mass/media/chiral_fermion_mass_en.mp4",
+              "poster_time": 26.8
+            }
+          ]
+        },
+        {
+          "id": "higgs-ff-spin",
+          "title": "Спиновая и орбитальная структура пары f f̄ в распадах бозона Хиггса",
+          "source_dir": "higgs_ff_spin",
+          "description": "Волновая функция пары f f̄ относительной координаты: P-волна скалярного распада (вихрь, орбитальная проекция m выбирается спинами), S-волна псевдоскаляра, наклон облака от интерференции скаляра и псевдоскаляра (CP-нечётность) и то, что остаётся для детектора.",
+          "videos": [
+            {
+              "id": "film",
+              "label": "Спин и орбитальный момент пары (русская версия)",
+              "path": "higgs_ff_spin/media/higgs_ff_spin_ru.mp4",
+              "poster_time": 35.1
+            },
+            {
+              "id": "film-en",
+              "label": "Spin and orbital momentum of the pair (English version)",
+              "path": "higgs_ff_spin/media/higgs_ff_spin_en.mp4",
+              "poster_time": 35.1
+            }
+          ]
+        },
+        {
+          "id": "quantum-tunneling",
+          "title": "Туннельный эффект: точечное и протяжённое тело",
+          "source_dir": "quantum_tunneling",
+          "description": "Шар, поезд и волна: протяжённое тело ощущает усреднённый барьер; классическая волна на цепочке туннелирует через отрезок с T ≈ exp(−2κa) без квантов; для волны материи то же уравнение, κ = √(2m(V−E))/ħ, и T падает экспоненциально с массой.",
+          "videos": [
+            {
+              "id": "film",
+              "label": "Точка, поезд, классическая волна и волна материи (русская версия)",
+              "path": "quantum_tunneling/media/quantum_tunneling_ru.mp4",
+              "poster_time": 57.4
+            },
+            {
+              "id": "film-en",
+              "label": "A point, a train, a classical wave and a matter wave (English version)",
+              "path": "quantum_tunneling/media/quantum_tunneling_en.mp4",
+              "poster_time": 57.4
+            }
+          ]
+        },
+        {
+          "id": "chiral-anomaly",
+          "title": "Киральная аномалия: откуда берутся частицы?",
+          "source_dir": "chiral_anomaly",
+          "description": "Безмассовый фермион на кольце: электрическое поле сдвигает уровни, уровни пересекают E = 0 (подсчёт даёт dQ₅/dt = eEL/π); регуляризация и сохранение векторного тока; уровни Ландау и e²E·B/2π²; треугольник и распад π⁰ → γγ.",
+          "videos": [
+            {
+              "id": "film",
+              "label": "Спектральный поток и аномалия (русская версия)",
+              "path": "chiral_anomaly/media/chiral_anomaly_ru.mp4",
+              "poster_time": 35.5
+            },
+            {
+              "id": "film-en",
+              "label": "Spectral flow and the anomaly (English version)",
+              "path": "chiral_anomaly/media/chiral_anomaly_en.mp4",
+              "poster_time": 35.5
+            }
+          ]
+        },
+        {
+          "id": "gauge-principle",
+          "title": "Калибровочный принцип: два друга и поле",
+          "source_dir": "gauge_principle",
+          "description": "Два друга выбирают фазу волновой функции независимо в каждой точке: интерференция, свободный пакет и ковариантная производная; компенсирующее поле A_μ, напряжённость F и калибровочно инвариантная петля.",
+          "videos": [
+            {
+              "id": "film",
+              "label": "Два друга и поле (русская версия)",
+              "path": "gauge_principle/media/gauge_principle_ru.mp4",
+              "poster_time": 29.0
+            },
+            {
+              "id": "film-en",
+              "label": "Two friends and a field (English version)",
+              "path": "gauge_principle/media/gauge_principle_en.mp4",
+              "poster_time": 29.0
             }
           ]
         }
@@ -550,8 +883,14 @@
           "videos": [
             {
               "id": "camera",
-              "label": "Камера и мгновенный снимок",
-              "path": "penrose_terrell/media/penrose_terrell.mp4",
+              "label": "Камера и мгновенный снимок (русская версия)",
+              "path": "penrose_terrell/media/penrose_terrell_ru.mp4",
+              "poster_time": 4
+            },
+            {
+              "id": "camera-en",
+              "label": "Camera and instantaneous snapshot (English version)",
+              "path": "penrose_terrell/media/penrose_terrell_en.mp4",
               "poster_time": 4
             }
           ]
@@ -564,8 +903,14 @@
           "videos": [
             {
               "id": "foil",
-              "label": "Рассеяние на золотой фольге",
-              "path": "rutherford/media/rutherford.mp4",
+              "label": "Рассеяние на золотой фольге (русская версия)",
+              "path": "rutherford/media/rutherford_ru.mp4",
+              "poster_time": 14
+            },
+            {
+              "id": "foil-en",
+              "label": "Scattering on gold foil (English version)",
+              "path": "rutherford/media/rutherford_en.mp4",
               "poster_time": 14
             }
           ]
@@ -578,8 +923,14 @@
           "videos": [
             {
               "id": "strip",
-              "label": "Поворот на 720°",
-              "path": "spinor_mobius/media/spinor_mobius.mp4",
+              "label": "Поворот на 720° (русская версия)",
+              "path": "spinor_mobius/media/spinor_mobius_ru.mp4",
+              "poster_time": 4
+            },
+            {
+              "id": "strip-en",
+              "label": "Rotation by 720° (English version)",
+              "path": "spinor_mobius/media/spinor_mobius_en.mp4",
               "poster_time": 4
             }
           ]
@@ -592,8 +943,14 @@
           "videos": [
             {
               "id": "orbit",
-              "label": "Орбита, волны и сдвиг периастра",
-              "path": "hulse_taylor/media/hulse_taylor.mp4",
+              "label": "Орбита, волны и сдвиг периастра (русская версия)",
+              "path": "hulse_taylor/media/hulse_taylor_ru.mp4",
+              "poster_time": 28
+            },
+            {
+              "id": "orbit-en",
+              "label": "Orbit, waves and the periastron shift (English version)",
+              "path": "hulse_taylor/media/hulse_taylor_en.mp4",
               "poster_time": 28
             }
           ]
@@ -606,9 +963,35 @@
           "videos": [
             {
               "id": "paths",
-              "label": "От щелей к континуальному интегралу",
-              "path": "path_integral/media/path_integral.mp4",
+              "label": "От щелей к континуальному интегралу (русская версия)",
+              "path": "path_integral/media/path_integral_ru.mp4",
               "poster_time": 22
+            },
+            {
+              "id": "paths-en",
+              "label": "From slits to the path integral (English version)",
+              "path": "path_integral/media/path_integral_en.mp4",
+              "poster_time": 22
+            }
+          ]
+        },
+        {
+          "id": "simultaneity",
+          "title": "Относительность одновременности",
+          "source_dir": "simultaneity",
+          "description": "Диаграмма Минковского: вспышки A, B, C одновременны в O и идут в порядке C, B, A (v > 0) или A, B, C (v < 0) в O′; пространственноподобные пары меняют порядок, временноподобные никогда. Две версии: русская и английская.",
+          "videos": [
+            {
+              "id": "minkowski",
+              "label": "Диаграмма Минковского (русская версия)",
+              "path": "simultaneity/media/simultaneity_ru.mp4",
+              "poster_time": 20
+            },
+            {
+              "id": "minkowski-en",
+              "label": "Minkowski diagram (English version)",
+              "path": "simultaneity/media/simultaneity_en.mp4",
+              "poster_time": 20
             }
           ]
         }

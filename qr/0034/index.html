@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Трёхмерная решётка связанных осцилляторов — NeutrinoHit</title>
-<meta name="description" content="Кубическая решётка связанных осцилляторов с закреплённой границей и всеми пружинами между ближайшими соседями. Нормальные моды с формулами на экране, затем один узел смещают и отпускают, и возмущение расходится по объёму.">
+<meta name="description" content="Трёхмерная решётка 14×8×8 масс m, соединённых пружинками k, с закреплённой границей. Масса — точка, размер и яркость которой показывают смещение, а цвет — его знак. Нормальные моды (a, b, c) с формулами и спектр энергий мод; рядом дисперсия ω(|k|). Выпуклость в центре отпускают: бежит сферическая волна, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, z, t), а дисперсия — в ω = c|k|.">
 <link rel="canonical" href="https://neutrinohit.github.io/qr/0034/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Трёхмерная решётка связанных осцилляторов">
-<meta property="og:description" content="Кубическая решётка связанных осцилляторов с закреплённой границей и всеми пружинами между ближайшими соседями. Нормальные моды с формулами на экране, затем один узел смещают и отпускают, и возмущение расходится по объёму.">
+<meta property="og:description" content="Трёхмерная решётка 14×8×8 масс m, соединённых пружинками k, с закреплённой границей. Масса — точка, размер и яркость которой показывают смещение, а цвет — его знак. Нормальные моды (a, b, c) с формулами и спектр энергий мод; рядом дисперсия ω(|k|). Выпуклость в центре отпускают: бежит сферическая волна, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, z, t), а дисперсия — в ω = c|k|.">
 <meta property="og:url" content="https://neutrinohit.github.io/qr/0034/">
 <meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/0034.jpg">
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
@@ -57,8 +57,8 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
 <h1><span lang="ru">Трёхмерная решётка связанных осцилляторов</span><span lang="en">A three-dimensional lattice of coupled oscillators</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0034.jpg">
-<source src="../../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-three-dimensional.mp4" type="video/mp4">
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0034.jpg" data-src-ru="../../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.mp4" data-src-en="../../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice-en.mp4" data-poster-ru="../../assets/book-animations/0034.jpg" data-poster-en="../../assets/book-animations/0034_en.jpg">
+<source src="../../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
 <span><span lang="ru">Скорость</span><span lang="en">Speed</span>:</span>
@@ -66,16 +66,16 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" href="../../assets/animations/dvnanima/fields-waves-coupled-oscillators-fields-three-dimensional.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" id="dl" href="../../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Кубическая решётка связанных осцилляторов с закреплённой границей и всеми пружинами между ближайшими соседями. Нормальные моды с формулами на экране, затем один узел смещают и отпускают, и возмущение расходится по объёму.</span><span lang="en">A cubic lattice of coupled oscillators with a fixed boundary and springs between all nearest neighbours. Normal modes with their formulas on screen, then one site is displaced and released and the disturbance spreads through the volume.</span></p>
+<p class="caption"><span lang="ru">Трёхмерная решётка 14×8×8 масс m, соединённых пружинками k, с закреплённой границей. Масса — точка, размер и яркость которой показывают смещение, а цвет — его знак. Нормальные моды (a, b, c) с формулами и спектр энергий мод; рядом дисперсия ω(|k|). Выпуклость в центре отпускают: бежит сферическая волна, участвует много мод, и их энергии постоянны. Две волны в линейной решётке проходят друг сквозь друга (свободные частицы). С ангармоническими членами (кубическим и четвёртой степени) в функции Лагранжа энергия перераспределяется между модами: это и есть взаимодействие. При N → ∞ решётка превращается в поле φ(x, y, z, t), а дисперсия — в ω = c|k|.</span><span lang="en">A three-dimensional 14×8×8 lattice of masses m joined by springs k with a fixed boundary. A mass is a dot whose size and brightness show the displacement and whose colour is its sign. The normal modes (a, b, c) with their formulas and the spectrum of the mode energies; beside it the dispersion ω(|k|). A bump at the centre is released: a spherical wave runs out, many modes take part and their energies are constant. Two waves in the linear lattice pass through each other (free particles). With anharmonic terms (cubic and quartic) in the Lagrangian the energy is redistributed among the modes: this is the interaction. For N → ∞ the lattice becomes the field φ(x, y, z, t) and the dispersion becomes ω = c|k|.</span></p>
 <div class="card"><dl class="meta">
 <dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 1, гл. 12 «Основы классической теории поля»</span><span lang="en">Volume 1, Chapter 12 “Basics of Classical Field Theory”</span></dd>
 <dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
-<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/fields/coupled_oscillators_3d" rel="noopener">GitHub</a></dd>
-<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-coupled-oscillators-fields"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_lattice_3d" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-coupled-lattice-3d"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
-<nav class="nav"><a href="../0033/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Цепочка связанных осцилляторов</span><span lang="en">A chain of coupled oscillators</span></a><a href="../0008/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Круговая поляризация электромагнитной волны</span><span lang="en">Circular polarization of an electromagnetic wave</span> →</a></nav>
+<nav class="nav"><a href="../0033/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Цепочка связанных осцилляторов</span><span lang="en">A chain of coupled oscillators</span></a><a href="../0008/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Круговая поляризация</span><span lang="en">Circular polarization</span> →</a></nav>
 <footer>
 <p><span lang="ru">Анимация к книге</span><span lang="en">Animation for the book</span> <a href="/ru/materials.html" lang="ru">«Квантовая теория поля для экспериментаторов и не только»</a><a href="/en/materials.html" lang="en">“Quantum Field Theory for Experimentalists and Beyond”</a>, <span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span> · <a href="/">NeutrinoHit</a></p>
 </footer>
@@ -91,6 +91,14 @@ document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener
 if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
 var bs=document.querySelectorAll('[data-rate]');bs.forEach(function(b){b.addEventListener('click',function(){
 v.playbackRate=parseFloat(b.getAttribute('data-rate'));bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
-if(v.paused)v.play().catch(function(){})})})})();</script>
+if(v.paused)v.play().catch(function(){})})})})();
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();</script>
 </body>
 </html>

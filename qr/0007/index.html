@@ -1,14 +1,14 @@
 <!doctype html>
-<html lang="ru" data-lang="ru" data-title-ru="Пучки с орбитальным угловым моментом — NeutrinoHit" data-title-en="Beams with orbital angular momentum — NeutrinoHit">
+<html lang="ru" data-lang="ru" data-title-ru="Закрученные пучки: орбитальный угловой момент — NeutrinoHit" data-title-en="Twisted beams: orbital angular momentum — NeutrinoHit">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Пучки с орбитальным угловым моментом — NeutrinoHit</title>
-<meta name="description" content="Световой пучок с заданным орбитальным угловым моментом можно получить путём воздействия стандартного гауссовского пучка на дисплей пространственного модулятора света с винтовой структурой.">
+<title>Закрученные пучки: орбитальный угловой момент — NeutrinoHit</title>
+<meta name="description" content="Цилиндрическая (бесселева) волна ψ = J_m(κρ)·e^{i(mφ + k_z z − ωt)} имеет определённую проекцию орбитального момента L_z = mħ: её фаза делает m оборотов вокруг оси, на оси (m ≠ 0) фаза не определена, а интенсивность равна нулю — тёмное ядро. Поверхности постоянной фазы — m сплетённых геликоидов (винт с m заходами). Такой пучок получают, пропустив гауссов пучок через спиральную фазовую пластинку или пространственный модулятор света с картинкой e^{imφ}: поле превращается в моду Лагерра — Гаусса LG₀^m — кольцо радиуса w·√(|m|/2) с той же закруткой фазы. Знак m задаёт направление закрутки.">
 <link rel="canonical" href="https://neutrinohit.github.io/qr/0007/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Пучки с орбитальным угловым моментом">
-<meta property="og:description" content="Световой пучок с заданным орбитальным угловым моментом можно получить путём воздействия стандартного гауссовского пучка на дисплей пространственного модулятора света с винтовой структурой.">
+<meta property="og:title" content="Закрученные пучки: орбитальный угловой момент">
+<meta property="og:description" content="Цилиндрическая (бесселева) волна ψ = J_m(κρ)·e^{i(mφ + k_z z − ωt)} имеет определённую проекцию орбитального момента L_z = mħ: её фаза делает m оборотов вокруг оси, на оси (m ≠ 0) фаза не определена, а интенсивность равна нулю — тёмное ядро. Поверхности постоянной фазы — m сплетённых геликоидов (винт с m заходами). Такой пучок получают, пропустив гауссов пучок через спиральную фазовую пластинку или пространственный модулятор света с картинкой e^{imφ}: поле превращается в моду Лагерра — Гаусса LG₀^m — кольцо радиуса w·√(|m|/2) с той же закруткой фазы. Знак m задаёт направление закрутки.">
 <meta property="og:url" content="https://neutrinohit.github.io/qr/0007/">
 <meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/0007.jpg">
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
@@ -56,9 +56,9 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <a href="../"><span lang="ru">← Все анимации книги</span><span lang="en">← All animations of the book</span></a>
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span>
 </div>
-<h1><span lang="ru">Пучки с орбитальным угловым моментом</span><span lang="en">Beams with orbital angular momentum</span></h1>
-<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0007.jpg">
-<source src="../../assets/book-animations/0007.mp4" type="video/mp4">
+<h1><span lang="ru">Закрученные пучки: орбитальный угловой момент</span><span lang="en">Twisted beams: orbital angular momentum</span></h1>
+<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata" poster="../../assets/book-animations/0007.jpg" data-src-ru="../../assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams.mp4" data-src-en="../../assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams-en.mp4" data-poster-ru="../../assets/book-animations/0007.jpg" data-poster-en="../../assets/book-animations/0007_en.jpg">
+<source src="../../assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams.mp4" type="video/mp4">
 </video></div>
 <div class="tools" aria-label="Скорость / Speed">
 <span><span lang="ru">Скорость</span><span lang="en">Speed</span>:</span>
@@ -66,15 +66,15 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="0.5" aria-pressed="false">0.5×</button>
 <button type="button" data-rate="1" aria-pressed="true">1×</button>
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
-<a class="btn" href="../../assets/book-animations/0007.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
+<a class="btn" id="dl" href="../../assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Световой пучок с заданным орбитальным угловым моментом можно получить путём воздействия стандартного гауссовского пучка на дисплей пространственного модулятора света с винтовой структурой.</span><span lang="en">A light beam with a given orbital angular momentum can be obtained by sending a standard Gaussian beam onto a spatial light modulator with a helical structure.</span></p>
+<p class="caption"><span lang="ru">Цилиндрическая (бесселева) волна ψ = J_m(κρ)·e^{i(mφ + k_z z − ωt)} имеет определённую проекцию орбитального момента L_z = mħ: её фаза делает m оборотов вокруг оси, на оси (m ≠ 0) фаза не определена, а интенсивность равна нулю — тёмное ядро. Поверхности постоянной фазы — m сплетённых геликоидов (винт с m заходами). Такой пучок получают, пропустив гауссов пучок через спиральную фазовую пластинку или пространственный модулятор света с картинкой e^{imφ}: поле превращается в моду Лагерра — Гаусса LG₀^m — кольцо радиуса w·√(|m|/2) с той же закруткой фазы. Знак m задаёт направление закрутки.</span><span lang="en">A cylindrical (Bessel) wave ψ = J_m(κρ)·e^{i(mφ + k_z z − ωt)} has a definite projection of the orbital angular momentum, L_z = mħ: its phase winds m times around the axis, on the axis (m ≠ 0) the phase is undefined and the intensity vanishes — a dark core. The surfaces of constant phase are m intertwined helicoids (a screw with m threads). Such a beam is made by sending a Gaussian beam through a spiral phase plate or a spatial light modulator showing e^{imφ}: the field becomes a Laguerre–Gauss mode LG₀^m — a ring of radius w·√(|m|/2) with the same winding of the phase. The sign of m is the direction of the twist.</span></p>
 <div class="card"><dl class="meta">
 <dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 1, гл. 5 «Нерелятивистская квантовая механика»</span><span lang="en">Volume 1, Chapter 5 “Nonrelativistic Quantum Mechanics”</span></dd>
-<dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd>JozumBjada</dd>
-<dt><span lang="ru">Источник</span><span lang="en">Source</span></dt><dd><a href="https://commons.wikimedia.org/wiki/File:Generation_of_OAM_beams_using_SLM.gif" rel="noopener">Wikimedia Commons</a></dd>
-<dt><span lang="ru">Лицензия</span><span lang="en">License</span></dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a></dd>
-<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">GIF переведён в видео без других изменений.</span><span lang="en">The GIF was converted to video with no other changes.</span></dd>
+<dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>
+<dt><span lang="ru">Код</span><span lang="en">Code</span></dt><dd><a href="https://github.com/NeutrinoHit/dvnanima/tree/main/oam_beams" rel="noopener">GitHub</a></dd>
+<dt><span lang="ru">Примечание</span><span lang="en">Note</span></dt><dd><span lang="ru">Бесселевы и лагерр-гауссовы пучки, расчёт численный.</span><span lang="en">Bessel and Laguerre–Gauss beams, computed numerically.</span></dd>
+<dt><span lang="ru">Галерея</span><span lang="en">Gallery</span></dt><dd><a href="/ru/animations.html#animation-fields-waves-oam-beams"><span lang="ru">Все анимации NeutrinoHit</span><span lang="en">All NeutrinoHit animations</span></a></dd>
 </dl></div>
 <nav class="nav"><a href="../0032/">← <span lang="ru">Предыдущая</span><span lang="en">Previous</span>: <span lang="ru">Двойной пульсар Халса — Тейлора</span><span lang="en">The Hulse–Taylor binary pulsar</span></a><a href="../0025/"><span lang="ru">Следующая</span><span lang="en">Next</span>: <span lang="ru">Свободный гауссов пакет: движение и расплывание</span><span lang="en">A free Gaussian wave packet: motion and spreading</span> →</a></nav>
 <footer>
@@ -92,6 +92,14 @@ document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener
 if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
 var bs=document.querySelectorAll('[data-rate]');bs.forEach(function(b){b.addEventListener('click',function(){
 v.playbackRate=parseFloat(b.getAttribute('data-rate'));bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
-if(v.paused)v.play().catch(function(){})})})})();</script>
+if(v.paused)v.play().catch(function(){})})})})();
+(function(){var v=document.getElementById('v');if(!v||!v.getAttribute('data-src-en'))return;
+var d=document.documentElement,s=v.querySelector('source'),a=document.getElementById('dl'),cur='';
+function sync(){var l=d.getAttribute('data-lang')==='en'?'en':'ru';if(l===cur)return;cur=l;
+var t=v.currentTime,paused=v.paused,rate=v.playbackRate;
+s.src=v.getAttribute('data-src-'+l);v.poster=v.getAttribute('data-poster-'+l);if(a)a.href=v.getAttribute('data-src-'+l);
+v.load();v.playbackRate=rate;
+v.addEventListener('loadedmetadata',function f(){v.removeEventListener('loadedmetadata',f);try{v.currentTime=t}catch(e){}if(!paused)v.play().catch(function(){})});}
+sync();new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['data-lang']});})();</script>
 </body>
 </html>
