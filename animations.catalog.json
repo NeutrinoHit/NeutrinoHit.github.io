@@ -109,6 +109,26 @@
           ]
         },
         {
+          "id": "earth-shield",
+          "title": "Земля как щит: мюоны останавливаются, нейтрино проходят",
+          "source_dir": "earth_shield",
+          "description": "Космические лучи и их ливни во всей атмосфере; разрез планеты по плоскости через детектор (слои PREM); мюон останавливается в нескольких километрах породы, нейтрино доходит; метод Монте-Карло: вероятность не провзаимодействовать вдоль хорды $P_0=e^{-\\tau}$ при 1 ТэВ, 100 ТэВ и 1 ПэВ (сечения CSMS) и её зависимость от зенитного угла.",
+          "videos": [
+            {
+              "id": "earth-shield",
+              "label": "Земля как щит (русская версия)",
+              "path": "earth_shield/media/earth_shield_ru.mp4",
+              "poster_time": 75.0
+            },
+            {
+              "id": "earth-shield-en",
+              "label": "The Earth as a shield (English version)",
+              "path": "earth_shield/media/earth_shield_en.mp4",
+              "poster_time": 75.0
+            }
+          ]
+        },
+        {
           "id": "pp-cycle",
           "title": "Протон-протонный цикл",
           "source_dir": "pp_cycle",

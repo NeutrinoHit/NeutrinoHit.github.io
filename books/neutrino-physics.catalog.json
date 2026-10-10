@@ -800,6 +800,47 @@
         "poster_time": 4.5
       },
       "legacy_codes": []
+    },
+    {
+      "id": "0025",
+      "slug": "earth-shield",
+      "qr_file": "EarthShield.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Земля как щит: мюоны останавливаются, нейтрино проходят",
+        "en": "The Earth as a shield: muons stop, neutrinos pass"
+      },
+      "caption": {
+        "ru": "Космические лучи рождают ливни во всей атмосфере Земли, и каждый ливень даёт мюоны и нейтрино. Планета разрезана плоскостью, проходящей через детектор: кора, мантия, жидкое внешнее ядро и твёрдое внутреннее ядро с плотностями по модели PREM. Мюон ТэВ-ной энергии теряет её в нескольких километрах породы (пробег $0{,}93$ км для $1$ ТэВ и $6{,}4$ км для $1$ ПэВ — около $10^{-3}R_\\oplus$ или меньше), поэтому снизу приходят только нейтрино; восходящий мюон — след нейтрино, провзаимодействовавшего вблизи детектора. Но и нейтрино проходит не всегда: вероятность не провзаимодействовать вдоль хорды равна $P_0=e^{-\\tau}$, $\\tau=N_A\\sigma(E)X$, где $X=\\int\\rho\\,dl$ — толща вещества. Вдоль диаметра ($X=1{,}09\\cdot10^{10}$ г/см$^2$) $P_0=95\\%$ при $1$ ТэВ, $15\\%$ при $100$ ТэВ и $0{,}19\\%$ при $1$ ПэВ; чем короче хорда, тем прозрачнее Земля, и с ростом энергии «окно» сужается к горизонту.",
+        "en": "Cosmic rays make showers all over the atmosphere of the Earth, and each shower gives muons and neutrinos. The planet is cut along a plane through the detector: crust, mantle, liquid outer core and solid inner core with the PREM densities. A muon of TeV energy loses it in a few kilometres of rock (the range is $0.93$ km for $1$ TeV and $6.4$ km for $1$ PeV: about $10^{-3}R_\\oplus$ or less), so only neutrinos arrive from below; an upgoing muon is the footprint of a neutrino that interacted near the detector. But a neutrino does not always pass either: the probability of no interaction along a chord is $P_0=e^{-\\tau}$, $\\tau=N_A\\sigma(E)X$, where $X=\\int\\rho\\,dl$ is the column of matter. Along a diameter ($X=1.09\\cdot10^{10}$ g/cm$^2$) $P_0=95\\%$ at $1$ TeV, $15\\%$ at $100$ TeV and $0.19\\%$ at $1$ PeV; the shorter the chord, the more transparent the Earth, and with the energy the \"window\" narrows towards the horizon."
+      },
+      "book": {
+        "order": 3,
+        "section_title": {
+          "ru": "Детектирование",
+          "en": "Detection"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/earth_shield",
+        "note": {
+          "ru": "Карта поверхности — NASA Blue Marble Next Generation (июль 2004, NASA Earth Observatory); плотность — PREM (Dziewonski, Anderson, 1981); сечения нейтрино — CSMS (Cooper-Sarkar, Mertsch, Sarkar, arXiv:1106.3723); пробеги мюонов — таблицы PDG для стандартной породы и воды; ливни — модель Гайтлера–Мэтьюза. Нейтрино считаются только до первого взаимодействия (продукты NC и регенерация $\\tau$ не прослеживаются); атмосфера (показана до 40 км), ливни и детектор увеличены; пересечение Земли показано замедленно (на деле $43$ мс).",
+          "en": "Surface map: NASA Blue Marble Next Generation (July 2004, NASA Earth Observatory); density: PREM (Dziewonski, Anderson, 1981); neutrino cross sections: CSMS (Cooper-Sarkar, Mertsch, Sarkar, arXiv:1106.3723); muon ranges: PDG tables of standard rock and water; showers: the Heitler–Matthews model. Neutrinos are followed up to the first interaction only (NC products and tau regeneration are not propagated); the atmosphere (shown up to 40 km), showers and the detector are enlarged; the crossing of the Earth is shown in slow motion (the real one takes $43$ ms)."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield-en.mp4"
+        },
+        "poster_time": 75.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/earth-shield"
     }
   ]
 }
