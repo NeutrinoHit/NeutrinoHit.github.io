@@ -18,9 +18,7 @@
     "slug": "sm-field-mattress",
     "hosting": "self",
     "qr_file": "StandardModel_FieldMattress.pdf",
-    "legacy_codes": [
-      "0002"
-    ]
+    "legacy_codes": []
   },
   "0004": {
     "url": "https://neutrinohit.github.io/qr/qft/0004/",
@@ -69,9 +67,7 @@
     "slug": "relativity-simultaneity",
     "hosting": "self",
     "qr_file": "Relativity_of_Simultaneity_animation.pdf",
-    "legacy_codes": [
-      "0017"
-    ]
+    "legacy_codes": []
   },
   "0032": {
     "url": "https://neutrinohit.github.io/qr/qft/0032/",
@@ -141,9 +137,7 @@
     "slug": "circular-polarization",
     "hosting": "self",
     "qr_file": "CircularPolarization_animation.pdf",
-    "legacy_codes": [
-      "0001"
-    ]
+    "legacy_codes": []
   },
   "0031": {
     "url": "https://neutrinohit.github.io/qr/qft/0031/",
