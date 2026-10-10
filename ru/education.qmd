@@ -54,7 +54,7 @@ toc: false
         <span class="lecture-course-title">Квантовая теория поля</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Курсы по КТП, Стандартной модели, ренормировке и ускоренным системам отсчёта.</p>
+        <p>Курсы по КТП, Стандартной модели, ренормировке, ускоренным системам отсчёта и вакууму квантового поля.</p>
         <div class="lecture-material-list">
           <details id="qft-textbook" class="lecture-material">
             <summary>Учебник</summary>
@@ -147,6 +147,16 @@ toc: false
               <p>Пять HTML-лекций: от координат Риндлера и энтропии запутанности до эффекта Унру для скалярного и фермионного полей.</p>
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="../qft-lectures/unruh/">Открыть мини-курс</a>
+              </div>
+            </div>
+          </details>
+          <details id="qft-vacuum-course" class="lecture-material">
+            <summary>Вакуум квантового поля</summary>
+            <div class="lecture-material-body">
+              <p>Мини-курс о вакууме КТП. Первая HTML-лекция: волновой функционал свободного скалярного поля, гауссов вакуум и отличие вакуумных конфигураций от белого шума.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../qft-lectures/vacuum/">Открыть мини-курс</a>
+                <a href="../qft-lectures/vacuum/ru/slides/01_free_scalar_field.html">01. Вакуум свободного скалярного поля</a>
               </div>
             </div>
           </details>
@@ -349,7 +359,7 @@ toc: false
           <details id="neutrino-introduction" class="lecture-material">
             <summary>Введение в физику нейтрино</summary>
             <div class="lecture-material-body">
-              <p>Курс из 35 лекций: от первого знакомства с нейтрино и прямого измерения массы до осцилляций, источников нейтрино и приложений.</p>
+              <p>Опубликовано 15 лекций. Курс пополняется по мере записи лекций.</p>
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="../neutrinophysics/introduction/index.html">Открыть курс</a>
                 <a href="../neutrinophysics/introduction/ru/exercises/index.html">Все задачи</a>
@@ -525,187 +535,6 @@ toc: false
                     <p>Трёхфлэйворный гамильтониан, эффект день–ночь и связь с данными.</p>
                     <div class="lecture-course-actions">
                       <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/15_matter_three_flavors.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>16. Осцилляции нейтрино. Парадоксы и тонкости</summary>
-                  <div class="lecture-material-body">
-                    <p>Производство и регистрация, волновые пакеты, когерентность и кажущиеся парадоксы.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/16_oscillation_paradoxes.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>17. Нейтрино в Стандартной модели</summary>
-                  <div class="lecture-material-body">
-                    <p>Киральность, дираковская и майорановская природа, механизмы генерации массы.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/17_standard_model_neutrinos.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>18. Электромагнитные свойства нейтрино</summary>
-                  <div class="lecture-material-body">
-                    <p>Магнитный момент и другие электромагнитные формфакторы: теория и эксперимент.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/18_electromagnetic_properties.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>19. Стерильные нейтрино</summary>
-                  <div class="lecture-material-body">
-                    <p>Теория, экспериментальные аномалии и современный статус.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/19_sterile_neutrinos.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>20. Взаимодействие нейтрино с веществом</summary>
-                  <div class="lecture-material-body">
-                    <p>Сечения, ядерные эффекты, когерентное рассеяние и neutrino floor.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/20_neutrino_interactions.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>21. Детектирование нейтрино. Экспериментальные методы</summary>
-                  <div class="lecture-material-body">
-                    <p>Сцинтилляционные, черенковские, радиохимические, трековые и другие методы.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/21_detection_methods.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>22. Источники нейтрино. Солнце</summary>
-                  <div class="lecture-material-body">
-                    <p>Модель Солнца, спектры, сечения, эксперименты и анализ данных.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/22_solar_neutrinos.html">Открыть лекцию</a>
-                      <a href="../neutrinophysics/introduction/ru/exercises/22_solar_neutrinos_exercises.html">Задачи</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>23. Источники нейтрино. Атмосфера</summary>
-                  <div class="lecture-material-body">
-                    <p>Атмосферные ливни, потоки, эксперименты и осцилляционный анализ.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/23_atmospheric_neutrinos.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>24. Источники нейтрино. Ускорители</summary>
-                  <div class="lecture-material-body">
-                    <p>Формирование пучков, спектры, сечения и дальнобазовые эксперименты.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/24_accelerator_neutrinos.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>25. Источники нейтрино. Реакторы</summary>
-                  <div class="lecture-material-body">
-                    <p>Реакторные процессы, спектры, эксперименты и осцилляции.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/25_reactor_neutrinos.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>26. Источники нейтрино. Земля</summary>
-                  <div class="lecture-material-body">
-                    <p>Тепловая история Земли, радиоактивные изотопы и геонейтринные измерения.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/26_geophysical_neutrinos.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>27. Майорановская масса. Безнейтринный двойной β-распад</summary>
-                  <div class="lecture-material-body">
-                    <p>Феноменология, ядерная теория, экспериментальные методы и ограничения.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/27_neutrinoless_double_beta_decay.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>28. Космические нейтрино. Реликтовый фон</summary>
-                  <div class="lecture-material-body">
-                    <p>Космологическое происхождение, спектр, температура и идеи регистрации.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/28_relic_neutrinos.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>29. Космические нейтрино. Сверхвысокие энергии</summary>
-                  <div class="lecture-material-body">
-                    <p>Астрофизические источники, энергетический баланс и нейтринные телескопы.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/29_uhe_astrophysical_neutrinos.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>30. Космические нейтрино. Сверхновые</summary>
-                  <div class="lecture-material-body">
-                    <p>Коллапс звезды, нейтринные спектры, осцилляции и коллективные эффекты.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/30_supernova_neutrinos.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>31. Глобальный анализ нейтринных данных</summary>
-                  <div class="lecture-material-body">
-                    <p>Правдоподобие, систематики, корреляции, вырождения и объединение экспериментов.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/31_global_analysis.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>32. Смешивание нейтрино. CP-нарушение</summary>
-                  <div class="lecture-material-body">
-                    <p>Унитарность матрицы смешивания, CP-фаза, теория и эксперимент.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/32_mixing_cp_violation.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>33. Нейтрино за пределами Стандартной модели</summary>
-                  <div class="lecture-material-body">
-                    <p>Возможные проявления новой физики в нейтринном секторе.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/33_new_physics.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>34. Применения нейтрино. Томография Земли</summary>
-                  <div class="lecture-material-body">
-                    <p>Осцилляционная, геонейтринная и высокоэнергетическая томография планеты.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/34_neutrino_tomography.html">Открыть лекцию</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>35. Применения нейтрино. Мониторинг реакторов</summary>
-                  <div class="lecture-material-body">
-                    <p>Дистанционный контроль реакторов по антинейтринному потоку.</p>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/slides/35_reactor_monitoring.html">Открыть лекцию</a>
                     </div>
                   </div>
                 </details>
