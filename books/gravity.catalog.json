@@ -3,17 +3,172 @@
   "qr_path": "/qr/gravity/",
   "book": {
     "title": {
-      "ru": "Гравитация",
-      "en": "Gravity"
+      "ru": "ОТО для экспериментаторов",
+      "en": "General Relativity for Experimentalists"
     },
     "author": {
       "ru": "Д. В. Наумов",
       "en": "D. V. Naumov"
     },
     "page": {
-      "ru": "/ru/materials.html",
-      "en": "/en/materials.html"
+      "ru": "/gravity/",
+      "en": "/gravity/"
     }
   },
-  "items": []
+  "items": [
+    {
+      "id": "0001",
+      "slug": "hulse-taylor",
+      "qr_file": "HulseTaylor.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Двойной пульсар Халса — Тейлора",
+        "en": "The Hulse–Taylor binary pulsar"
+      },
+      "caption": {
+        "ru": "Две нейтронные звезды (1,438 и 1,390 массы Солнца) на вытянутой орбите с периодом 7,75 ч излучают гравитационные волны. Орбита сжимается, период падает, и периастр приходит раньше, чем при постоянном периоде. Справа растёт накопленный сдвиг: около −38,6 с за 30 лет по ОТО, измеренная производная периода даёт ту же кривую в пределах погрешности (отношение 0,9983 ± 0,0016). Сжатие орбиты, сдвиг фазы и картина волн на анимации схематичны.",
+        "en": "Two neutron stars (1.438 and 1.390 solar masses) on an eccentric orbit with a period of 7.75 h radiate gravitational waves. The orbit shrinks, the period falls, and the periastron arrives earlier than for a constant period. On the right the accumulated shift grows: about −38.6 s over 30 years in general relativity, and the measured period derivative gives the same curve within the uncertainty (ratio 0.9983 ± 0.0016). The orbit shrinkage, the phase shift and the wave pattern in the animation are schematic."
+      },
+      "book": {
+        "order": 1,
+        "section_title": {
+          "ru": "Двойные системы и гравитационные волны",
+          "en": "Binary systems and gravitational waves"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/hulse_taylor",
+        "note": {
+          "ru": "Параметры орбиты и производные периода: Weisberg, Huang, ApJ 829, 55 (2016).",
+          "en": "Orbit parameters and period derivatives: Weisberg and Huang, ApJ 829, 55 (2016)."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4",
+          "en": "assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit-en.mp4"
+        },
+        "poster_time": 28.0
+      },
+      "legacy_codes": [],
+      "gallery": "relativity-atom-spin/hulse-taylor"
+    },
+    {
+      "id": "0002",
+      "slug": "galaxy-merger",
+      "qr_file": "Galaxy_Merger.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Слияние двух галактик",
+        "en": "Merger of two galaxies"
+      },
+      "caption": {
+        "ru": "Столкновение двух дисковых галактик в ограниченной задаче N тел с динамическим трением: приливные мосты и хвосты, затем округлый остаток. Рисунок в книге построен по этой же модели.",
+        "en": "A collision of two disk galaxies in a restricted N-body problem with dynamical friction: tidal bridges and tails, then a rounded remnant. The figure in the book is built from the same model."
+      },
+      "book": {
+        "order": 1,
+        "section_title": {
+          "ru": "Двойные системы и гравитационные волны",
+          "en": "Binary systems and gravitational waves"
+        }
+      },
+      "credit": {
+        "author": "Д. В. Наумов",
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/galaxy_merger"
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/visual-stories-galaxy-merger-merger.mp4",
+        "poster_time": 9.0
+      },
+      "legacy_codes": [],
+      "gallery": "visual-stories/galaxy-merger"
+    },
+    {
+      "id": "0003",
+      "slug": "penrose-rotation",
+      "qr_file": "PenroseRotation_animation.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Вращение Пенроуза — Террелла",
+        "en": "Penrose–Terrell rotation"
+      },
+      "caption": {
+        "ru": "Футбольный мяч летит мимо камеры со скоростью 99% от скорости света. Слева — мяч в покое, в центре — что записывает камера: свет, ушедший с разных точек в разное время, приходит одновременно, и мяч остаётся круглым, но выглядит повёрнутым (угол arcsin β ≈ 82°). Справа — мгновенный снимок сжатого шара: так его не увидит ни одна камера.",
+        "en": "A football flies past a camera at 99% of the speed of light. Left: the ball at rest. Centre: what the camera records: light that left different points at different times arrives together, so the ball stays round but looks rotated (by arcsin β ≈ 82°). Right: a snapshot of the contracted ball, which no camera can take."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Относительность и наблюдаемые",
+          "en": "Relativity and observables"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/penrose_terrell",
+        "note": {
+          "ru": "Трассировка лучей с запаздыванием; схема по Пенроузу (1959) и Терреллу (1959).",
+          "en": "Ray tracing with retarded times, after Penrose (1959) and Terrell (1959)."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera.mp4",
+          "en": "assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera-en.mp4"
+        },
+        "poster_time": 4.0
+      },
+      "legacy_codes": [],
+      "gallery": "relativity-atom-spin/penrose-terrell"
+    },
+    {
+      "id": "0004",
+      "slug": "relativity-simultaneity",
+      "qr_file": "Relativity_of_Simultaneity_animation.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Относительность одновременности",
+        "en": "The relativity of simultaneity"
+      },
+      "caption": {
+        "ru": "Три вспышки A, B, C происходят в один момент t = 0 в системе O (x = −1, 0, +1). В системе O′, движущейся со скоростью v, они происходят в моменты t′ = −γvx: при v > 0 порядок C, B, A, при v < 0 порядок A, B, C, при v = 0 вспышки одновременны. На диаграмме Минковского линия одновременности O′ параллельна оси x′ и наклоняется вместе с ней; штриховая линия от события вдоль неё до оси ct′ показывает, как считывается t′. В последней части: порядок пространственноподобных событий (|Δx| > |Δt|) зависит от системы, а временноподобных не меняется никогда, поэтому причинность не нарушается.",
+        "en": "Three flashes A, B, C happen at the same moment t = 0 in the frame O (x = −1, 0, +1). In the frame O′ that moves with the velocity v they happen at t′ = −γvx: for v > 0 the order is C, B, A, for v < 0 it is A, B, C, for v = 0 the flashes are simultaneous. On the Minkowski diagram the line of simultaneity of O′ is parallel to the x′ axis and tilts with it; a dashed line from an event along it to the ct′ axis shows how t′ is read off. In the last part: the order of spacelike separated events (|Δx| > |Δt|) depends on the frame, while that of timelike separated events never changes, so causality is safe."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Относительность и наблюдаемые",
+          "en": "Relativity and observables"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/simultaneity",
+        "note": {
+          "ru": "Диаграмма Минковского, преобразования Лоренца.",
+          "en": "Minkowski diagram, Lorentz transformations."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski.mp4",
+          "en": "assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski-en.mp4"
+        },
+        "poster_time": 20.0
+      },
+      "legacy_codes": [],
+      "gallery": "relativity-atom-spin/simultaneity"
+    }
+  ]
 }

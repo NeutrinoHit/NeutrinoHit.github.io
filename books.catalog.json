@@ -22,10 +22,11 @@
         "en": "Quantum Field Theory for Experimentalists and Beyond"
       },
       "catalog": "book-animations.catalog.json",
-      "qr_path": "/qr/",
+      "qr_path": "/qr/qft/",
       "index_path": "/qr/qft/",
-      "asset_subdir": "book-animations",
-      "status": "published"
+      "asset_subdir": "book-animations/qft",
+      "status": "published",
+      "root_aliases": true
     },
     {
       "slug": "neutrino-physics",
@@ -37,7 +38,7 @@
       "qr_path": "/qr/neutrino-physics/",
       "index_path": "/qr/neutrino-physics/",
       "asset_subdir": "book-animations/neutrino-physics",
-      "status": "planned"
+      "status": "published"
     },
     {
       "slug": "statistics",
@@ -55,31 +56,31 @@
       "slug": "particle-physics",
       "title": {
         "ru": "Физика элементарных частиц",
-        "en": "Elementary Particle Physics"
+        "en": "Particle Physics"
       },
       "catalog": "books/particle-physics.catalog.json",
       "qr_path": "/qr/particle-physics/",
       "index_path": "/qr/particle-physics/",
       "asset_subdir": "book-animations/particle-physics",
-      "status": "planned"
+      "status": "published"
     },
     {
       "slug": "gravity",
       "title": {
-        "ru": "Гравитация",
-        "en": "Gravity"
+        "ru": "ОТО для экспериментаторов",
+        "en": "General Relativity for Experimentalists"
       },
       "catalog": "books/gravity.catalog.json",
       "qr_path": "/qr/gravity/",
       "index_path": "/qr/gravity/",
       "asset_subdir": "book-animations/gravity",
-      "status": "planned"
+      "status": "published"
     },
     {
       "slug": "numerical-methods",
       "title": {
-        "ru": "Численные методы",
-        "en": "Numerical Methods"
+        "ru": "Численные методы для физиков",
+        "en": "Numerical Methods for Physicists"
       },
       "catalog": "books/numerical-methods.catalog.json",
       "qr_path": "/qr/numerical-methods/",

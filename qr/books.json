@@ -6,5 +6,29 @@
     },
     "index": "https://neutrinohit.github.io/qr/qft/",
     "count": 36
+  },
+  "neutrino-physics": {
+    "title": {
+      "ru": "Введение в физику нейтрино",
+      "en": "Introduction to Neutrino Physics"
+    },
+    "index": "https://neutrinohit.github.io/qr/neutrino-physics/",
+    "count": 24
+  },
+  "particle-physics": {
+    "title": {
+      "ru": "Физика элементарных частиц",
+      "en": "Particle Physics"
+    },
+    "index": "https://neutrinohit.github.io/qr/particle-physics/",
+    "count": 28
+  },
+  "gravity": {
+    "title": {
+      "ru": "ОТО для экспериментаторов",
+      "en": "General Relativity for Experimentalists"
+    },
+    "index": "https://neutrinohit.github.io/qr/gravity/",
+    "count": 4
   }
 }

@@ -151,11 +151,11 @@ python -m pip install 'qrcode[pil]'
 ## Страницы анимаций из книги (QR)
 
 QR-коды в книге «Квантовая теория поля для экспериментаторов и не только» ведут
-на постоянные страницы `https://neutrinohit.github.io/qr/<id>/` (четыре цифры;
+на постоянные страницы `https://neutrinohit.github.io/qr/qft/<id>/` (четыре цифры;
 номера сохранены из прежних коротких ссылок `dnaumov-qft-book-<id>`). Страница
 двуязычная (RU/EN по языку браузера, переключатель сохраняется), воспроизводит
 анимацию на телефоне, показывает автора, лицензию и место в книге. Список всех
-анимаций: `/qr/`, машинный индекс: `/qr/manifest.json`.
+анимаций книги: `/qr/qft/`, машинный индекс: `/qr/qft/manifest.json`; адреса всех книг и общая страница — в разделе «Несколько книг».
 
 Источник правды — `book-animations.catalog.json`. Страницы, MP4 и постеры
 получаются генератором, вручную их не править:
@@ -187,30 +187,38 @@ python scripts/build_book_animations.py --urls   # строки для pyplots/q
 
 ### Несколько книг
 
-Книги (QFT, введение в физику нейтрино, статистический анализ, ФЭЧ, гравитация, численные методы)
-зарегистрированы в `books.catalog.json`: `slug`, название, файл каталога, адрес страниц, каталог постеров, `status`
-(`published` — собирается; `planned` — пока пусто). Адреса:
+Книги (QFT, введение в физику нейтрино, статистический анализ, ФЭЧ, гравитация, численные методы) зарегистрированы в
+`books.catalog.json`: `slug`, название, файл каталога, адрес страниц, каталог постеров, `status` (`published` — собирается;
+`planned` — заготовка без анимаций). Единая схема адресов для всех книг:
 
-| Книга | страница анимации | список книги | постеры |
-|---|---|---|---|
-| `qft` (первая, печатные QR уже заданы) | `/qr/<id>/` | `/qr/qft/` | `assets/book-animations/` |
-| остальные | `/qr/<slug>/<id>/` | `/qr/<slug>/` | `assets/book-animations/<slug>/` |
+| что | адрес | где лежит |
+|---|---|---|
+| страница анимации | `/qr/<slug>/<id>/` | `qr/<slug>/<id>/index.html` (генератор) |
+| список анимаций книги | `/qr/<slug>/` | `qr/<slug>/index.html` |
+| манифест книги | `/qr/<slug>/manifest.json` | то же |
+| видео и постеры | `/assets/book-animations/<slug>/<id>.mp4`, `.jpg` | либо `media.site_asset` (видео уже на сайте) |
+| все книги | `/qr/`, `/qr/books.json` | `qr/index.html` |
 
-`/qr/` — общая страница со списком книг (`/qr/books.json` — то же для машины); манифест каждой книги лежит рядом
-с её страницами (`qr/manifest.json` у QFT, `qr/<slug>/manifest.json` у остальных). Номера `id` (четыре цифры) уникальны
-внутри книги, а не на сайте; печатный адрес книги = `base_url` + `qr_path` + `id` + `/`.
+Примеры: `/qr/qft/0033/`, `/qr/neutrino-physics/0014/`, `/qr/particle-physics/0021/`, `/qr/gravity/0001/`. Номера `id` (четыре
+цифры) уникальны внутри книги. Адреса вида `/qr/<id>/` (первые адреса QFT) оставлены как редиректы на `/qr/qft/<id>/`
+(`root_aliases` у книги `qft` в реестре); новые QR-коды печатаются с адресом `/qr/<slug>/<id>/`.
 
-Новая книга: перевести `status` в `published`, заполнить `books/<slug>.catalog.json` (та же схема, что у
-`book-animations.catalog.json`: `book`, `items`), затем
+Запись каталога книги без томов (`book` без `volume`/`chapter`) группируется по разделам: `book.order` и
+`book.section_title` (`ru`, `en`); у печатной книги остаются `volume`, `chapter`, `chapter_title`. Если анимация уже
+опубликована в другой книге, запись повторяет её: тот же `media.site_asset` (копии видео нет), подпись, `credit` и `gallery`;
+новая лекционная анимация кладётся в `not-to-commit/book-animations-src/<slug>/` и описывается через `media.source`.
+
+Новая книга или новая запись:
 
 ```bash
-python scripts/build_book_animations.py --book <slug>      # одна книга
-python scripts/build_book_animations.py --book <slug> --urls   # строки для urls.txt книги
-python scripts/build_book_animations.py                    # все книги и общая страница /qr/
-python ../TheBook/pyplots/qrcodes/make_previews.py --book <slug> <id> ...   # превью для печати
+python scripts/build_book_animations.py --book <slug>            # одна книга
+python scripts/build_book_animations.py --book <slug> --urls     # строки "url, файл QR" для urls.txt книги
+python scripts/build_book_animations.py                          # все книги и общая страница /qr/
+python ../TheBook/pyplots/qrcodes/make_previews.py --book <slug> <id> ...     # превью для печати
 ```
 
-Названия новых книг в `books.catalog.json` предварительные: проверить английские названия и страницы книг (`book.page`).
+Для новой книги достаточно перевести `status` в `published` и заполнить `books/<slug>.catalog.json` (шаблон записей: `books/README.md`).
+Названия книг в реестре предварительные: проверить английские названия и страницы книг (`book.page`).
 
 ### Формулы в подписях
 
