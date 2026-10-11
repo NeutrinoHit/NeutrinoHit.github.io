@@ -841,6 +841,47 @@
       },
       "legacy_codes": [],
       "gallery": "neutrino-particles/earth-shield"
+    },
+    {
+      "id": "0026",
+      "slug": "star-in-jet",
+      "qr_file": "StarInJet.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Звезда в джете: один из способов родить нейтрино",
+        "en": "A star in the jet: one way to make neutrinos"
+      },
+      "caption": {
+        "ru": "Чёрная дыра с аккреционным диском запускает джет, и в него попадает звезда с ветром. Газ джета обтекает звезду: перед ней возникает ударная волна, другая бежит внутрь, неустойчивости Кельвина–Гельмгольца и Рэлея–Тейлора рвут звезду на плотное облако (гидродинамический расчёт, осесимметричный, нерелятивистский, контраст плотности $100$). У ударной волны протон пересекает фронт снова и снова и каждый раз набирает долю энергии; число циклов распределено геометрически, поэтому спектр степенной, а энергию даёт поток джета. Быстрый протон сталкивается с ядром облака: пионы, затем нейтрино и гамма-кванты, часть которых поглощается. Для $n=10^{10}$ см$^{-3}$ и $R=10^{14}$ см оптическая толща $\\tau_{pp}=n\\sigma_{pp}R=0{,}05$, за один проход в пионы уходит $\\kappa\\tau_{pp}\\approx2{,}5\\,\\%$ энергии протона ($R/c\\approx0{,}9$ ч против $t_{pp}\\approx1{,}5$ сут); удержание или более длинный путь увеличивают выход. Нейтрино не останавливаются облаком и летят к Земле.",
+        "en": "A black hole with an accretion disc launches a jet, and a star with a wind plunges into it. The jet gas streams around the star: a shock forms in front of it, another one runs inside, and Kelvin–Helmholtz and Rayleigh–Taylor instabilities tear the star into a dense cloud (a hydrodynamic calculation, axisymmetric, non-relativistic, density contrast $100$). At the shock a proton crosses the front again and again and gains a fraction of its energy each time; the number of cycles is geometric, hence a power-law spectrum, and the energy comes from the flow of the jet. A fast proton hits a nucleus of the cloud: pions, then neutrinos and gamma rays, some of which are absorbed. For $n=10^{10}$ cm$^{-3}$ and $R=10^{14}$ cm the optical depth is $\\tau_{pp}=n\\sigma_{pp}R=0.05$ and one passage turns $\\kappa\\tau_{pp}\\approx2.5\\,\\%$ of the proton energy into pions ($R/c\\approx0.9$ h against $t_{pp}\\approx1.5$ d); confinement or a longer path raises the yield. The neutrinos are not stopped by the cloud and fly on towards the Earth."
+      },
+      "book": {
+        "order": 7,
+        "section_title": {
+          "ru": "Источники нейтрино",
+          "en": "Neutrino sources"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/jet_star",
+        "note": {
+          "ru": "Газ: собственный осесимметричный гидродинамический расчёт (схема HLLC, проверена на задаче Сода), нерелятивистский, контраст плотности $100$, число Маха $10$; это не воспроизведение релятивистского расчёта Баркова, Ахаронян, Бош-Рамона (2010). Вводный план, протоны, столкновения и нейтрино — схематическая иллюстрация; посчитаны числа столкновений и циклы ускорения. Сценарий: Barkov, Aharonian, Bosch-Ramon (2010); Wang и др. (2018); Fichet de Clairfontaine и др. (2025). Земля: NASA Blue Marble (июль 2004).",
+          "en": "The gas is our own axisymmetric hydrodynamic calculation (an HLLC scheme checked on the Sod problem), non-relativistic, density contrast $100$, Mach number $10$; it does not reproduce the relativistic calculation of Barkov, Aharonian and Bosch-Ramon (2010). The establishing shot, the protons, the collisions and the neutrinos are a schematic illustration; the numbers of the collisions and the acceleration cycles are computed. Scenario: Barkov, Aharonian, Bosch-Ramon (2010); Wang et al. (2018); Fichet de Clairfontaine et al. (2025). The Earth: NASA Blue Marble (July 2004)."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet-en.mp4"
+        },
+        "poster_time": 46.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/star-in-jet"
     }
   ]
 }
