@@ -76,6 +76,13 @@
     "qr_file": "CherenkovCone.pdf",
     "legacy_codes": []
   },
+  "0025": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0025/",
+    "slug": "earth-shield",
+    "hosting": "self",
+    "qr_file": "EarthShield.pdf",
+    "legacy_codes": []
+  },
   "0012": {
     "url": "https://neutrinohit.github.io/qr/neutrino-physics/0012/",
     "slug": "electrons-in-magnetic-field",
