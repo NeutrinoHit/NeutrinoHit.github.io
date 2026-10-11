@@ -12,14 +12,14 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>68 сюжетов</span>
-    <span>136 роликов</span>
+    <span>69 сюжетов</span>
+    <span>138 роликов</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">22 сюжета, 41 ролик</span>
+        <span class="lecture-course-status">23 сюжета, 43 ролика</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -240,6 +240,40 @@ lang: ru-RU
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/earth_shield">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield.mp4">MP4: Земля как щит (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield-en.mp4">MP4: The Earth as a shield (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-neutrino-particles-star-in-jet" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Звезда в джете: один из способов родить нейтрино</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Чёрная дыра с аккреционным диском запускает джет, звезда с ветром попадает в него; осесимметричный гидродинамический расчёт разрушения звезды у ударной волны; протоны, ускоренные на фронте, сталкиваются с веществом облака, рождая нейтрино и гамма-кванты; числа одного прохода $\tau_{pp}$, $\kappa\tau_{pp}$; нейтрино летят к Земле.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Звезда в джете (русская версия)</span>
+                    <small>6.1 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>A star in the jet (English version)</span>
+                    <small>6.0 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/jet_star">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet.mp4">MP4: Звезда в джете (русская версия)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet-en.mp4">MP4: A star in the jet (English version)</a>
               </div>
             </div>
           </details>

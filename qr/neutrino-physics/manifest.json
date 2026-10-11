@@ -173,5 +173,12 @@
     "hosting": "self",
     "qr_file": "MSWModeCancellation.pdf",
     "legacy_codes": []
+  },
+  "0026": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0026/",
+    "slug": "star-in-jet",
+    "hosting": "self",
+    "qr_file": "StarInJet.pdf",
+    "legacy_codes": []
   }
 }
