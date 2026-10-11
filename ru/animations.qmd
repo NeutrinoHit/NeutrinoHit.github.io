@@ -12,14 +12,14 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>67 сюжетов</span>
-    <span>134 ролика</span>
+    <span>68 сюжетов</span>
+    <span>136 роликов</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">21 сюжет, 39 роликов</span>
+        <span class="lecture-course-status">22 сюжета, 41 ролик</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -189,7 +189,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Каскад (русская версия)</span>
-                    <small>1.9 MB</small>
+                    <small>2.8 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -198,7 +198,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>The cascade (English version)</span>
-                    <small>1.9 MB</small>
+                    <small>2.7 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -206,6 +206,40 @@ lang: ru-RU
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/air_shower_cascade">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4">MP4: Каскад (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower-en.mp4">MP4: The cascade (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-neutrino-particles-earth-shield" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Земля как щит: мюоны останавливаются, нейтрино проходят</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Космические лучи и их ливни во всей атмосфере; разрез планеты по плоскости через детектор (слои PREM); мюон останавливается в нескольких километрах породы, нейтрино доходит; метод Монте-Карло: вероятность не провзаимодействовать вдоль хорды $P_0=e^{-\tau}$ при 1 ТэВ, 100 ТэВ и 1 ПэВ (сечения CSMS) и её зависимость от зенитного угла.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Земля как щит (русская версия)</span>
+                    <small>2.2 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>The Earth as a shield (English version)</span>
+                    <small>2.2 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/earth_shield">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield.mp4">MP4: Земля как щит (русская версия)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield-en.mp4">MP4: The Earth as a shield (English version)</a>
               </div>
             </div>
           </details>
@@ -427,7 +461,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Лавина электронов и импульс на аноде (русская версия)</span>
-                    <small>955.4 KB</small>
+                    <small>1.1 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -436,7 +470,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Avalanche of electrons and the anode pulse (English version)</span>
-                    <small>938.1 KB</small>
+                    <small>1.1 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -587,7 +621,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Столкновения пучков и детектор (русская версия)</span>
-                    <small>2.5 MB</small>
+                    <small>2.9 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -596,7 +630,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Colliding beams and the detector (English version)</span>
-                    <small>2.5 MB</small>
+                    <small>2.9 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -621,7 +655,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Плоскости пар, E и B (русская версия)</span>
-                    <small>3.7 MB</small>
+                    <small>1.5 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -630,7 +664,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Planes of the pairs, E and B (English version)</span>
-                    <small>3.7 MB</small>
+                    <small>1.5 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -655,7 +689,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Каналы, сумма, события и A_FB(√s) (русская версия)</span>
-                    <small>3.3 MB</small>
+                    <small>1.7 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -664,7 +698,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Channels, the sum, events and A_FB(√s) (English version)</span>
-                    <small>3.3 MB</small>
+                    <small>1.7 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -689,7 +723,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Осцилляции K⁰–K̄⁰ вдоль пучка (русская версия)</span>
-                    <small>2.3 MB</small>
+                    <small>3.2 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -698,7 +732,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>K⁰–K̄⁰ oscillations along the beam (English version)</span>
-                    <small>2.3 MB</small>
+                    <small>3.1 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -752,7 +786,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Attraction: opposite charges (English version)</span>
-                    <small>1.9 MB</small>
+                    <small>2.0 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -761,7 +795,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Отталкивание: заряды одного знака (русская версия)</span>
-                    <small>3.0 MB</small>
+                    <small>1.5 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -770,7 +804,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Repulsion: charges of the same sign (English version)</span>
-                    <small>3.0 MB</small>
+                    <small>1.5 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -798,7 +832,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Поля Стандартной модели: стопка листов (русская версия)</span>
-                    <small>7.6 MB</small>
+                    <small>7.4 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -807,7 +841,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Fields of the Standard Model: a stack of sheets (English version)</span>
-                    <small>7.6 MB</small>
+                    <small>7.4 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -890,7 +924,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Движение и расплывание пакета (русская версия)</span>
-                    <small>1.3 MB</small>
+                    <small>1.5 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -899,7 +933,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Motion and spreading of the packet (English version)</span>
-                    <small>1.3 MB</small>
+                    <small>1.5 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -924,7 +958,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Цепочка связанных осцилляторов (русская версия)</span>
-                    <small>3.8 MB</small>
+                    <small>2.1 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -933,7 +967,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>A chain of coupled oscillators (English version)</span>
-                    <small>3.7 MB</small>
+                    <small>2.1 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -958,7 +992,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Двумерная решётка связанных осцилляторов (русская версия)</span>
-                    <small>4.9 MB</small>
+                    <small>4.8 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -967,7 +1001,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>A two-dimensional lattice of coupled oscillators (English version)</span>
-                    <small>4.9 MB</small>
+                    <small>4.8 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -992,7 +1026,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Трёхмерная решётка связанных осцилляторов (русская версия)</span>
-                    <small>5.8 MB</small>
+                    <small>5.7 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1001,7 +1035,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>A three-dimensional lattice of coupled oscillators (English version)</span>
-                    <small>5.7 MB</small>
+                    <small>5.6 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1170,7 +1204,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Заряд и виртуальные пары (русская версия)</span>
-                    <small>1.1 MB</small>
+                    <small>1.2 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1204,7 +1238,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Фронт волны от пинка (русская версия)</span>
-                    <small>1.1 MB</small>
+                    <small>1.5 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1213,7 +1247,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>The wavefront of a kick (English version)</span>
-                    <small>1.1 MB</small>
+                    <small>1.5 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1272,7 +1306,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Скрещённые поля и e/m (русская версия)</span>
-                    <small>2.8 MB</small>
+                    <small>3.3 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1281,7 +1315,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Crossed fields and e/m (English version)</span>
-                    <small>2.7 MB</small>
+                    <small>3.3 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1315,7 +1349,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Twisted beams (English version)</span>
-                    <small>1.7 MB</small>
+                    <small>1.6 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1340,7 +1374,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Спиральность и сложение поляризаций (русская версия)</span>
-                    <small>1.4 MB</small>
+                    <small>1.3 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1374,7 +1408,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Конденсат, пакет на границе, дисперсия (русская версия)</span>
-                    <small>2.0 MB</small>
+                    <small>3.2 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1383,7 +1417,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Condensate, a packet at the boundary, dispersion (English version)</span>
-                    <small>2.0 MB</small>
+                    <small>3.2 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1408,7 +1442,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Две связанные киральные волны (русская версия)</span>
-                    <small>3.1 MB</small>
+                    <small>2.0 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1417,7 +1451,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Two coupled chiral waves (English version)</span>
-                    <small>3.0 MB</small>
+                    <small>2.0 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1476,7 +1510,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Точка, поезд, классическая волна и волна материи (русская версия)</span>
-                    <small>2.3 MB</small>
+                    <small>3.6 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1485,7 +1519,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>A point, a train, a classical wave and a matter wave (English version)</span>
-                    <small>2.3 MB</small>
+                    <small>3.6 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1544,7 +1578,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Два друга и поле (русская версия)</span>
-                    <small>2.6 MB</small>
+                    <small>1.6 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1553,7 +1587,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Two friends and a field (English version)</span>
-                    <small>2.6 MB</small>
+                    <small>1.6 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1589,7 +1623,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Камера и мгновенный снимок (русская версия)</span>
-                    <small>321.5 KB</small>
+                    <small>522.5 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1598,7 +1632,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Camera and instantaneous snapshot (English version)</span>
-                    <small>322.9 KB</small>
+                    <small>527.6 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1623,7 +1657,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Рассеяние на золотой фольге (русская версия)</span>
-                    <small>1.1 MB</small>
+                    <small>1.4 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1632,7 +1666,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Scattering on gold foil (English version)</span>
-                    <small>1.1 MB</small>
+                    <small>1.4 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1657,7 +1691,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Поворот на 720° (русская версия)</span>
-                    <small>849.1 KB</small>
+                    <small>1.1 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1666,7 +1700,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Rotation by 720° (English version)</span>
-                    <small>852.4 KB</small>
+                    <small>1.1 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1725,7 +1759,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>От щелей к континуальному интегралу (русская версия)</span>
-                    <small>2.0 MB</small>
+                    <small>1.9 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1734,7 +1768,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>From slits to the path integral (English version)</span>
-                    <small>2.0 MB</small>
+                    <small>1.9 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1759,7 +1793,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Диаграмма Минковского (русская версия)</span>
-                    <small>2.3 MB</small>
+                    <small>2.7 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1768,7 +1802,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Minkowski diagram (English version)</span>
-                    <small>2.3 MB</small>
+                    <small>2.7 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1793,7 +1827,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Камера у кротовой норы (русская версия)</span>
-                    <small>10.1 MB</small>
+                    <small>10.3 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1802,7 +1836,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>A camera at a wormhole (English version)</span>
-                    <small>10.1 MB</small>
+                    <small>10.2 MB</small>
                   </figcaption>
                 </figure>
               </div>
