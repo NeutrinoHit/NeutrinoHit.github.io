@@ -787,8 +787,8 @@
         "en": "Cherenkov radiation: a cone of wavelets"
       },
       "caption": {
-        "ru": "Построение Гюйгенса для заряда, летящего в среде с показателем преломления n = 1,33 (вода). Пока v < c/n, волны от последовательных положений вложены друг в друга и света нет. При v > c/n у волн появляется общая огибающая, конус; свет идёт перпендикулярно ей под углом θ к траектории, cos θ = 1/(nβ). Кольцо на детекторе имеет радиус L tg θ. Порог в воде: 0,26 МэВ для электрона и 55 МэВ для мюона, предельный угол 41,2°.",
-        "en": "Huygens construction for a charge moving in a medium of refractive index n = 1.33 (water). While v < c/n the wavelets of successive positions lie inside one another and there is no light. For v > c/n the wavelets acquire a common envelope, a cone; light travels perpendicular to it at the angle θ to the track, cos θ = 1/(nβ). The ring on the detector has radius L tan θ. Threshold in water: 0.26 MeV for an electron and 55 MeV for a muon, the limiting angle is 41.2°."
+        "ru": "Четыре волновых фронта в двух отдельных опытах с постоянной скоростью. Ниже порога фронты вложены друг в друга; при $v>c/n$ у них появляется общая касательная — поверхность конуса. Свет идёт по нормали к фронту, $\\cos\\theta_C=1/(n\\beta)$. Построение Гюйгенса при $n=1{,}33$: окружности — вспомогательные фронты, не четыре испущенных фотона. Ниже порога черенковского излучения нет.",
+        "en": "Four wavefronts in two separate constant-speed trials. Below threshold the fronts are nested; at $v>c/n$ they share a common tangent, the surface of a cone. Light travels normal to the front, $\\cos\\theta_C=1/(n\\beta)$. Huygens construction with $n=1.33$: the circles are auxiliary wavefronts, not four emitted photons. There is no Cherenkov radiation below threshold."
       },
       "book": {
         "volume": 1,
@@ -810,7 +810,7 @@
           "ru": "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4",
           "en": "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens-en.mp4"
         },
-        "poster_time": 24.0
+        "poster_time": 36.0
       },
       "legacy_codes": [],
       "gallery": "neutrino-particles/cherenkov-radiation"
@@ -1491,6 +1491,48 @@
         "poster_time": 16.0
       },
       "gallery": "neutrino-particles/pi0-double-dalitz",
+      "legacy_codes": []
+    },
+    {
+      "id": "0038",
+      "slug": "black-hole-flyby",
+      "qr_file": "Black_Hole_Flyby.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Облёт чёрной дыры: камера в свободном падении",
+        "en": "A camera flies around a black hole: a free-falling camera"
+      },
+      "caption": {
+        "ru": "Камера свободно падает по связанной орбите вокруг невращающейся чёрной дыры с массой $4{,}3\\cdot10^6M_\\odot$ (такова масса чёрной дыры в центре нашей Галактики); в перицентре $4{,}6\\,GM/c^2$ её скорость равна $0{,}65\\,c$. Лучи света идут по геодезическим метрики Шварцшильда и прослеживаются от камеры назад: луч с прицельным параметром $b<b_c=3\\sqrt3\\,GM/c^2$ падает в дыру и даёт чёрную тень, остальные лучи отклоняются и приходят от неба или от тонкого светящегося диска, причём диск виден много раз (над тенью, под ней и тонкими дугами внутри). Из-за движения камеры небо впереди смещено в синюю сторону и ярче, а часть диска, которая летит навстречу, горячее и ярче; часы камеры отстают от часов далёкого наблюдателя. Угловой размер тени $2\\theta_{\\rm sh}=6\\sqrt3\\,GM/(c^2D)$ позволяет измерить массу.",
+        "en": "A camera falls freely on a bound orbit round a non-rotating black hole of $4.3\\cdot10^6M_\\odot$ (the mass of the black hole in the centre of our Galaxy); at the pericentre, $4.6\\,GM/c^2$, its speed is $0.65\\,c$. The light follows the geodesics of the Schwarzschild metric and the rays are traced backwards from the camera: a ray with the impact parameter $b<b_c=3\\sqrt3\\,GM/c^2$ falls into the hole and gives the black shadow, the other rays are bent and come from the sky or from a thin glowing disk, which is seen many times (over the shadow, under it and in thin arcs inside it). Because the camera moves, the sky ahead is shifted to the blue and brightened, and the part of the disk that moves towards us is hotter and brighter; the clock of the camera runs behind the clock of a distant observer. The angular size of the shadow, $2\\theta_{\\rm sh}=6\\sqrt3\\,GM/(c^2D)$, measures the mass."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 4,
+        "chapter_title": {
+          "ru": "Гравитация",
+          "en": "Gravity"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/black_hole_flyby",
+        "note": {
+          "ru": "Лучи вычислены численно (уравнение орбиты света, метод Рунге — Кутты; проверено по точному решению через эллиптические функции), орбита камеры — геодезическая Шварцшильда, аберрация и допплеровский сдвиг учтены точно. Диск тонкий, непрозрачный, температура по стандартной модели тонкого диска; цвет диска подобран для наглядности (температура 3800 K в самом ярком кольце), реальный диск вокруг такой чёрной дыры горячее. Небо — собственная процедурная модель (галактики, звёзды, туманности). Не учтены вращение дыры и толщина диска.",
+          "en": "The rays are computed numerically (the orbit equation of light, Runge-Kutta method; checked against the closed form with elliptic functions), the orbit of the camera is a Schwarzschild geodesic, aberration and the Doppler shift are included exactly. The disk is thin and opaque with the temperature of the standard thin-disk model; its colour is chosen for clarity (3800 K at the brightest ring), the real disk round such a black hole is hotter. The sky is our own procedural model (galaxies, stars, nebulae). The rotation of the hole and the thickness of the disk are not included."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby.mp4",
+          "en": "assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby-en.mp4"
+        },
+        "poster_time": 66.0
+      },
+      "gallery": "relativity-atom-spin/black-hole-flyby",
       "legacy_codes": []
     }
   ]

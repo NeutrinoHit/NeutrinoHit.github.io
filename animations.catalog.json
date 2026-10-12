@@ -129,6 +129,26 @@
           ]
         },
         {
+          "id": "jet-launch",
+          "title": "От звезды к джету: откуда берётся мощность",
+          "source_dir": "jet_launch",
+          "description": "Чёрная дыра, эргосфера и диск; звезда разрывается приливными силами, вещество возвращается по закону $t^{-5/3}$; вращающаяся дыра закручивает магнитное поле, поток Пойнтинга выносит энергию, плазма разгоняется вдоль поля (джет приливного разрушения звезды, Swift J1644+57).",
+          "videos": [
+            {
+              "id": "jet-launch",
+              "label": "От звезды к джету (русская версия)",
+              "path": "jet_launch/media/jet_launch_ru.mp4",
+              "poster_time": 75.0
+            },
+            {
+              "id": "jet-launch-en",
+              "label": "From a star to a jet (English version)",
+              "path": "jet_launch/media/jet_launch_en.mp4",
+              "poster_time": 75.0
+            }
+          ]
+        },
+        {
           "id": "star-in-jet",
           "title": "Звезда в джете: один из способов родить нейтрино",
           "source_dir": "jet_star",
@@ -333,19 +353,19 @@
           "id": "cherenkov-radiation",
           "title": "Излучение Вавилова — Черенкова",
           "source_dir": "cherenkov_radiation",
-          "description": "Построение Гюйгенса: при v < c/n волны вложены друг в друга, при v > c/n у них появляется общая огибающая — конус; cos θ = 1/(nβ), кольцо на детекторе, порог для электрона и мюона в воде.",
+          "description": "Четыре волновых фронта, два отдельных опыта с постоянной скоростью и паузы для объяснения. Медленная частица остаётся внутри фронтов; быстрая обгоняет их. Общая касательная образует поверхность конуса, а свет идёт поперёк неё. Без графика и кольца на детекторе.",
           "videos": [
             {
               "id": "huygens",
               "label": "Конус из волн Гюйгенса (русская версия)",
               "path": "cherenkov_radiation/media/cherenkov_radiation_ru.mp4",
-              "poster_time": 24
+              "poster_time": 36
             },
             {
               "id": "huygens-en",
               "label": "A cone of Huygens wavelets (English version)",
               "path": "cherenkov_radiation/media/cherenkov_radiation_en.mp4",
-              "poster_time": 24
+              "poster_time": 36
             }
           ]
         },
@@ -1066,6 +1086,26 @@
               "label": "A camera at a wormhole (English version)",
               "path": "wormhole_camera/media/wormhole_camera_en.mp4",
               "poster_time": 76
+            }
+          ]
+        },
+        {
+          "id": "black-hole-flyby",
+          "title": "Облёт чёрной дыры",
+          "source_dir": "black_hole_flyby",
+          "description": "Камера свободно падает по орбите вокруг невращающейся чёрной дыры: ход лучей света в метрике Шварцшильда, тень, диск и его изображения, аберрация и сдвиг частоты при скорости 0,65c, часы камеры и далёкого наблюдателя.",
+          "videos": [
+            {
+              "id": "flyby",
+              "label": "Облёт чёрной дыры (русская версия)",
+              "path": "black_hole_flyby/media/black_hole_flyby_ru.mp4",
+              "poster_time": 66
+            },
+            {
+              "id": "flyby-en",
+              "label": "A camera flies around a black hole (English version)",
+              "path": "black_hole_flyby/media/black_hole_flyby_en.mp4",
+              "poster_time": 66
             }
           ]
         }

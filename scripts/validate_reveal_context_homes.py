@@ -85,6 +85,58 @@ def iter_files(root: Path, suffixes: set[str], *, include_build: bool = False) -
     ]
 
 
+def explicit_render_exclusions(root: Path) -> set[Path]:
+    """Read exact quoted !file.qmd exclusions in project.render.
+
+    This intentionally handles only literal file exclusions, not arbitrary
+    YAML or glob interpretation. A dormant source must not block publication
+    of enabled presentations. No dependency or global validation bypass.
+    """
+    config = root / "_quarto.yml"
+    if not config.exists():
+        return set()
+    excluded: set[Path] = set()
+    in_project = False
+    render_indent: int | None = None
+    for line in read_text(config).splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        indent = len(line) - len(line.lstrip(" "))
+        if indent == 0:
+            in_project = stripped == "project:"
+            render_indent = None
+            continue
+        if not in_project:
+            continue
+        if re.fullmatch(r"render:\s*(?:#.*)?", stripped):
+            render_indent = indent
+            continue
+        if render_indent is None:
+            continue
+        if indent <= render_indent:
+            render_indent = None
+            continue
+        match = re.fullmatch(r'''-\s*(["'])!(?P<path>[^"']+\.qmd)\1\s*(?:#.*)?''', stripped)
+        if not match or any(char in match["path"] for char in "*?["):
+            continue
+        relative = Path(match["path"])
+        if relative.is_absolute() or ".." in relative.parts:
+            continue
+        excluded.add(root / relative)
+    return excluded
+
+
+def excluded_rendered_pages(root: Path, excluded: set[Path]) -> set[Path]:
+    pages: set[Path] = set()
+    for source in excluded:
+        relative = source.relative_to(root).with_suffix(".html")
+        pages.add(root / "_site" / relative)
+        if root != ROOT:
+            pages.add(ROOT / "_site" / root.name / relative)
+    return pages
+
+
 def read_text(path: Path) -> str:
     try:
         return path.read_text(encoding="utf-8", errors="ignore")
@@ -239,10 +291,14 @@ def main() -> int:
     allowed_targets = load_allowed_targets()
 
     source_files: list[Path] = []
+    disabled_pages: set[Path] = set()
     for root in SOURCE_ROOTS:
-        source_files.extend(iter_files(root, SOURCE_SUFFIXES))
+        disabled = explicit_render_exclusions(root)
+        disabled_pages.update(excluded_rendered_pages(root, disabled))
+        source_files.extend(path for path in iter_files(root, SOURCE_SUFFIXES) if path not in disabled)
 
-    site_files = iter_files(ROOT / "_site", SITE_SUFFIXES, include_build=True)
+    site_files = [path for path in iter_files(ROOT / "_site", SITE_SUFFIXES, include_build=True)
+                  if path not in disabled_pages]
     occurrences = find_occurrences(source_files + site_files)
 
     errors: list[str] = []

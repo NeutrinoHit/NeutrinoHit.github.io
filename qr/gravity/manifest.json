@@ -33,5 +33,12 @@
     "hosting": "self",
     "qr_file": "Wormhole_Camera.pdf",
     "legacy_codes": []
+  },
+  "0006": {
+    "url": "https://neutrinohit.github.io/qr/gravity/0006/",
+    "slug": "black-hole-flyby",
+    "hosting": "self",
+    "qr_file": "Black_Hole_Flyby.pdf",
+    "legacy_codes": []
   }
 }
