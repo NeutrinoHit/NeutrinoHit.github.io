@@ -358,8 +358,8 @@
         "en": "Cherenkov radiation: a cone of wavelets"
       },
       "caption": {
-        "ru": "Построение Гюйгенса для заряда, летящего в среде с показателем преломления n = 1,33 (вода). Пока v < c/n, волны от последовательных положений вложены друг в друга и света нет. При v > c/n у волн появляется общая огибающая, конус; свет идёт перпендикулярно ей под углом θ к траектории, cos θ = 1/(nβ). Кольцо на детекторе имеет радиус L tg θ. Порог в воде: 0,26 МэВ для электрона и 55 МэВ для мюона, предельный угол 41,2°.",
-        "en": "Huygens construction for a charge moving in a medium of refractive index n = 1.33 (water). While v < c/n the wavelets of successive positions lie inside one another and there is no light. For v > c/n the wavelets acquire a common envelope, a cone; light travels perpendicular to it at the angle θ to the track, cos θ = 1/(nβ). The ring on the detector has radius L tan θ. Threshold in water: 0.26 MeV for an electron and 55 MeV for a muon, the limiting angle is 41.2°."
+        "ru": "Четыре волновых фронта в двух отдельных опытах с постоянной скоростью. Ниже порога фронты вложены друг в друга; при $v>c/n$ у них появляется общая касательная — поверхность конуса. Свет идёт по нормали к фронту, $\\cos\\theta_C=1/(n\\beta)$. Построение Гюйгенса при $n=1{,}33$: окружности — вспомогательные фронты, не четыре испущенных фотона. Ниже порога черенковского излучения нет.",
+        "en": "Four wavefronts in two separate constant-speed trials. Below threshold the fronts are nested; at $v>c/n$ they share a common tangent, the surface of a cone. Light travels normal to the front, $\\cos\\theta_C=1/(n\\beta)$. Huygens construction with $n=1.33$: the circles are auxiliary wavefronts, not four emitted photons. There is no Cherenkov radiation below threshold."
       },
       "book": {
         "order": 3,
@@ -380,7 +380,7 @@
           "ru": "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4",
           "en": "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens-en.mp4"
         },
-        "poster_time": 24.0
+        "poster_time": 36.0
       },
       "legacy_codes": [],
       "gallery": "neutrino-particles/cherenkov-radiation"
@@ -843,6 +843,47 @@
       "gallery": "neutrino-particles/earth-shield"
     },
     {
+      "id": "0027",
+      "slug": "jet-launch",
+      "qr_file": "JetLaunch.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "От звезды к джету: откуда берётся мощность",
+        "en": "From a star to a jet: where the power comes from"
+      },
+      "caption": {
+        "ru": "Чёрная дыра в миллион масс Солнца: горизонт событий, эргосфера и диск, внутренний край которого — последняя устойчивая орбита. Звезда, похожая на Солнце, падает на дыру и разрывается приливными силами на расстоянии $r_t=R_*(M/m)^{1/3}\\approx47\\,r_g$ (гравитационный радиус $r_g=GM/c^2$). Около половины вещества звезды связано и возвращается к дыре; темп возврата падает как $t^{-5/3}$, и такому закону следовал рентгеновский джет Swift J1644+57 около 500 суток, после чего выключился. Оседающий диск несёт магнитное поле; вращающаяся дыра закручивает его в спираль, и энергия вращения уходит наружу потоком Пойнтинга; вдоль поля плазма разгоняется так, что энергия на барион $\\Gamma(1+\\sigma)=\\mu$ сохраняется, а магнитная энергия переходит в движение. Это другой сценарий, чем в фильме «Звезда в джете»: здесь джет запускает сама разрушенная звезда, там звезда встречает уже существующий джет.",
+        "en": "A black hole of a million solar masses: the event horizon, the ergosphere and a disc whose inner edge is the last stable orbit. A Sun-like star falls on the hole and is torn apart by the tides at $r_t=R_*(M/m)^{1/3}\\approx47\\,r_g$ (the gravitational radius is $r_g=GM/c^2$). About half of the stellar matter is bound and returns to the hole; the return rate falls as $t^{-5/3}$, and the X-ray jet of Swift J1644+57 followed this law for about 500 days and then switched off. The settling disc carries a magnetic field; the spinning hole winds it into a spiral and the rotation energy streams out as Poynting flux; along the field the plasma accelerates, with the energy per baryon $\\Gamma(1+\\sigma)=\\mu$ conserved while magnetic energy turns into motion. This is a different scenario from the film \"A star in the jet\": here the jet is launched by the torn star itself, there a star meets a jet that already exists."
+      },
+      "book": {
+        "order": 7,
+        "section_title": {
+          "ru": "Источники нейтрино",
+          "en": "Neutrino sources"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/jet_launch",
+        "note": {
+          "ru": "Орбиты $400\\,000$ пробных частиц рассчитаны (приближение «замороженной» звезды, Lacy, Townes, Hollenbach 1982; релятивистская прецессия апсид); диск, импульсы потока Пойнтинга и пакеты плазмы схематичны (это не GRMHD-расчёт); поле Блэндфорда–Знаека (1977), спин $a=0{,}9$; последняя устойчивая орбита: Bardeen, Press, Teukolsky 1972; данные Swift J1644+57: Burrows и др. 2011, Levan и др. 2011; выключение джета: Zauderer и др. 2013. Джет возникает примерно у $1\\,\\%$ разрушений звёзд (оценки расходятся на порядок); джеты обычных AGN питаются газом.",
+          "en": "The orbits of $400\\,000$ test particles are computed (the frozen-in star of Lacy, Townes, Hollenbach 1982, with the relativistic apsidal precession); the disc, the pulses of Poynting flux and the packets of plasma are schematic (not a GRMHD run); the Blandford–Znajek field (1977), spin $a=0.9$; the last stable orbit: Bardeen, Press, Teukolsky 1972; the data of Swift J1644+57: Burrows et al. 2011, Levan et al. 2011; the switch-off of the jet: Zauderer et al. 2013. A jet is launched in about $1\\,\\%$ of tidal disruptions (estimates differ by an order of magnitude); the jets of ordinary AGN are fed by gas."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch-en.mp4"
+        },
+        "poster_time": 75.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/jet-launch"
+    },
+    {
       "id": "0026",
       "slug": "star-in-jet",
       "qr_file": "StarInJet.pdf",
@@ -852,11 +893,11 @@
         "en": "A star in the jet: one way to make neutrinos"
       },
       "caption": {
-        "ru": "Чёрная дыра с аккреционным диском запускает джет, и в него попадает звезда с ветром. Газ джета обтекает звезду: перед ней возникает ударная волна, другая бежит внутрь, неустойчивости Кельвина–Гельмгольца и Рэлея–Тейлора рвут звезду на плотное облако (гидродинамический расчёт, осесимметричный, нерелятивистский, контраст плотности $100$). У ударной волны протон пересекает фронт снова и снова и каждый раз набирает долю энергии; число циклов распределено геометрически, поэтому спектр степенной, а энергию даёт поток джета. Быстрый протон сталкивается с ядром облака: пионы, затем нейтрино и гамма-кванты, часть которых поглощается. Для $n=10^{10}$ см$^{-3}$ и $R=10^{14}$ см оптическая толща $\\tau_{pp}=n\\sigma_{pp}R=0{,}05$, за один проход в пионы уходит $\\kappa\\tau_{pp}\\approx2{,}5\\,\\%$ энергии протона ($R/c\\approx0{,}9$ ч против $t_{pp}\\approx1{,}5$ сут); удержание или более длинный путь увеличивают выход. Нейтрино не останавливаются облаком и летят к Земле.",
-        "en": "A black hole with an accretion disc launches a jet, and a star with a wind plunges into it. The jet gas streams around the star: a shock forms in front of it, another one runs inside, and Kelvin–Helmholtz and Rayleigh–Taylor instabilities tear the star into a dense cloud (a hydrodynamic calculation, axisymmetric, non-relativistic, density contrast $100$). At the shock a proton crosses the front again and again and gains a fraction of its energy each time; the number of cycles is geometric, hence a power-law spectrum, and the energy comes from the flow of the jet. A fast proton hits a nucleus of the cloud: pions, then neutrinos and gamma rays, some of which are absorbed. For $n=10^{10}$ cm$^{-3}$ and $R=10^{14}$ cm the optical depth is $\\tau_{pp}=n\\sigma_{pp}R=0.05$ and one passage turns $\\kappa\\tau_{pp}\\approx2.5\\,\\%$ of the proton energy into pions ($R/c\\approx0.9$ h against $t_{pp}\\approx1.5$ d); confinement or a longer path raises the yield. The neutrinos are not stopped by the cloud and fly on towards the Earth."
+        "ru": "Чёрная дыра с аккреционным диском запускает джет, и в него попадает звезда с ветром. Газ джета обтекает звезду: перед ней возникает ударная волна, другая бежит внутрь, неустойчивости Кельвина–Гельмгольца и Рэлея–Тейлора рвут звезду на плотное облако (гидродинамический расчёт, осесимметричный, нерелятивистский, контраст плотности $100$). У ударной волны протон пересекает фронт снова и снова и каждый раз набирает долю энергии; число циклов распределено геометрически, поэтому спектр степенной, а энергию даёт поток джета. Быстрый протон сталкивается с ядром облака: пионы, затем нейтрино и гамма-кванты, часть которых поглощается. Для $n=10^{10}$ см$^{-3}$ и $R=10^{14}$ см оптическая толща $\\tau_{pp}=n\\sigma_{pp}R=0{,}05$, за один проход в пионы уходит $\\kappa\\tau_{pp}\\approx2{,}5\\,\\%$ энергии протона (время пересечения облака $R/c\\approx0{,}9$ ч, столкновение раз в $\\approx0{,}8$ сут, время потери энергии $t_{pp}\\approx1{,}5$ сут); удержание или более длинный путь увеличивают выход. Нейтрино не останавливаются облаком и летят к Земле.",
+        "en": "A black hole with an accretion disc launches a jet, and a star with a wind plunges into it. The jet gas streams around the star: a shock forms in front of it, another one runs inside, and Kelvin–Helmholtz and Rayleigh–Taylor instabilities tear the star into a dense cloud (a hydrodynamic calculation, axisymmetric, non-relativistic, density contrast $100$). At the shock a proton crosses the front again and again and gains a fraction of its energy each time; the number of cycles is geometric, hence a power-law spectrum, and the energy comes from the flow of the jet. A fast proton hits a nucleus of the cloud: pions, then neutrinos and gamma rays, some of which are absorbed. For $n=10^{10}$ cm$^{-3}$ and $R=10^{14}$ cm the optical depth is $\\tau_{pp}=n\\sigma_{pp}R=0.05$ and one passage turns $\\kappa\\tau_{pp}\\approx2.5\\,\\%$ of the proton energy into pions (crossing time $R/c\\approx0.9$ h, a collision every $\\approx0.8$ d, energy-loss time $t_{pp}\\approx1.5$ d); confinement or a longer path raises the yield. The neutrinos are not stopped by the cloud and fly on towards the Earth."
       },
       "book": {
-        "order": 7,
+        "order": 8,
         "section_title": {
           "ru": "Источники нейтрино",
           "en": "Neutrino sources"

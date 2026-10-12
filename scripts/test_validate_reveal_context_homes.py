@@ -64,6 +64,26 @@ class CourseHomeValidationTests(unittest.TestCase):
         page.write_text('<html><div id="qft"></div></html>', encoding="utf-8")
         self.assertTrue(validator.target_exists_for_type(url, "map-card"))
 
+    def test_exact_disabled_source_and_stale_aggregate_do_not_block(self):
+        self.course.mkdir()
+        (self.course / '_quarto.yml').write_text('project:\n  render:\n    - "active.qmd"\n    - "!disabled.qmd"\n')
+        invalid = '<script src="neutrinohit-reveal-footer.js"></script>'
+        (self.course / 'disabled.qmd').write_text(invalid)
+        stale = self.central / '_site/qft-lectures/disabled.html'
+        stale.parent.mkdir(parents=True); stale.write_text(invalid)
+        registry = self.central / 'registry.json'
+        registry.write_text(json.dumps({'allowed_context_homes': [{'url':self.url,'type':'course-home'}]}))
+        with patch.object(validator,'REGISTRY',registry), contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(validator.main(),0)
+        (self.course / 'active.qmd').write_text(invalid)
+        with patch.object(validator,'REGISTRY',registry), contextlib.redirect_stderr(io.StringIO()):
+            self.assertEqual(validator.main(),1)
+
+    def test_exclusions_are_exact_local_project_render_files(self):
+        self.course.mkdir()
+        (self.course / '_quarto.yml').write_text('project:\n  render:\n    - "!skip.qmd"\n    - "!*.qmd"\n    - "!../outside.qmd"\n    - "active.qmd"\nother:\n  render:\n    - "!not-project.qmd"\n')
+        self.assertEqual(validator.explicit_render_exclusions(self.course),{self.course / 'skip.qmd'})
+
 
 if __name__ == "__main__":
     unittest.main()

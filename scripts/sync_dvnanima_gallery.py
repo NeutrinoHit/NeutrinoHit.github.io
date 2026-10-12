@@ -31,6 +31,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--skip-video-sync", action="store_true")
     parser.add_argument("--copy-only", action="store_true")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--item", action="append", default=[], metavar="SECTION/ITEM",
+                        help="refresh only these items' media; keep all gallery cards")
     parser.add_argument("--transcode-threshold-mb", type=float, default=4.0)
     return parser.parse_args()
 
@@ -166,6 +168,7 @@ def sync_assets(
     copy_only: bool,
     force: bool,
     transcode_threshold_mb: float,
+    only_items: set[tuple[str, str]] | None = None,
 ) -> dict[tuple[str, str, str], dict[str, str]]:
     ffmpeg = shell_available("ffmpeg")
     asset_dir.mkdir(parents=True, exist_ok=True)
@@ -175,10 +178,11 @@ def sync_assets(
         section_id = section["id"]
         for item in section["items"]:
             item_id = item["id"]
+            selected = not only_items or (section_id, item_id) in only_items
             for video in item["videos"]:
                 video_id = video["id"]
                 source = resolve_video_source(video, dvnanima_root)
-                if not source.exists():
+                if selected and not source.exists():
                     raise FileNotFoundError(f"Missing animation source: {source}")
                 poster_time = float(video.get("poster_time", 0.35))
 
@@ -189,7 +193,8 @@ def sync_assets(
                             "publish_with_project_site requires a workspace-relative source_path"
                         )
                     poster_source = source.with_suffix(".jpg")
-                    build_poster(source, poster_source, force, poster_time)
+                    if selected:
+                        build_poster(source, poster_source, force, poster_time)
                     assets[(section_id, item_id, video_id)] = {
                         "movie": source_path.as_posix(),
                         "poster": source_path.with_suffix(".jpg").as_posix()
@@ -203,7 +208,7 @@ def sync_assets(
                 movie = asset_dir / f"{stem}.mp4"
                 poster = asset_dir / f"{stem}.jpg"
 
-                if not skip_video_sync and needs_update(source, movie, force):
+                if selected and not skip_video_sync and needs_update(source, movie, force):
                     source_mb = source.stat().st_size / (1024 * 1024)
                     if (
                         copy_only
@@ -215,7 +220,8 @@ def sync_assets(
                     else:
                         transcode_video(source, movie)
 
-                build_poster(source, poster, force, poster_time)
+                if selected:
+                    build_poster(source, poster, force, poster_time)
 
                 if not movie.exists():
                     raise FileNotFoundError(f"Missing synced animation asset: {movie}")
@@ -402,6 +408,14 @@ def render_qmd(
 def main() -> None:
     args = parse_args()
     catalog = load_catalog(args.catalog)
+    only_items = set()
+    known = {(section["id"], item["id"])
+             for section in catalog["sections"] for item in section["items"]}
+    for token in args.item:
+        parts = token.split("/")
+        if len(parts) != 2 or tuple(parts) not in known:
+            raise ValueError(f"Unknown SECTION/ITEM: {token}")
+        only_items.add(tuple(parts))
     assets = sync_assets(
         catalog=catalog,
         dvnanima_root=args.dvnanima_root.resolve(),
@@ -410,6 +424,7 @@ def main() -> None:
         copy_only=args.copy_only,
         force=args.force,
         transcode_threshold_mb=args.transcode_threshold_mb,
+        only_items=only_items or None,
     )
     args.output.write_text(
         render_qmd(catalog, assets, args.output),

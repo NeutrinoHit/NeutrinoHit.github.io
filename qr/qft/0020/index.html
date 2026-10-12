@@ -4,13 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Излучение Вавилова — Черенкова: конус из волн — NeutrinoHit</title>
-<meta name="description" content="Построение Гюйгенса для заряда, летящего в среде с показателем преломления n = 1,33 (вода). Пока v &lt; c/n, волны от последовательных положений вложены друг в друга и света нет. При v &gt; c/n у волн появляется общая огибающая, конус; свет идёт перпендикулярно ей под углом θ к траектории, cos θ = 1/(nβ). Кольцо на детекторе имеет радиус L tg θ. Порог в воде: 0,26 МэВ для электрона и 55 МэВ для мюона, предельный угол 41,2°.">
+<meta name="description" content="Четыре волновых фронта в двух отдельных опытах с постоянной скоростью. Ниже порога фронты вложены друг в друга; при $v&gt;c/n$ у них появляется общая касательная — поверхность конуса. Свет идёт по нормали к фронту, $\cos\theta_C=1/(n\beta)$. Построение Гюйгенса при $n=1{,}33$: окружности — вспомогательные фронты, не четыре испущенных фотона. Ниже порога черенковского излучения нет.">
 <link rel="canonical" href="https://neutrinohit.github.io/qr/qft/0020/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Излучение Вавилова — Черенкова: конус из волн">
-<meta property="og:description" content="Построение Гюйгенса для заряда, летящего в среде с показателем преломления n = 1,33 (вода). Пока v &lt; c/n, волны от последовательных положений вложены друг в друга и света нет. При v &gt; c/n у волн появляется общая огибающая, конус; свет идёт перпендикулярно ей под углом θ к траектории, cos θ = 1/(nβ). Кольцо на детекторе имеет радиус L tg θ. Порог в воде: 0,26 МэВ для электрона и 55 МэВ для мюона, предельный угол 41,2°.">
+<meta property="og:description" content="Четыре волновых фронта в двух отдельных опытах с постоянной скоростью. Ниже порога фронты вложены друг в друга; при $v&gt;c/n$ у них появляется общая касательная — поверхность конуса. Свет идёт по нормали к фронту, $\cos\theta_C=1/(n\beta)$. Построение Гюйгенса при $n=1{,}33$: окружности — вспомогательные фронты, не четыре испущенных фотона. Ниже порога черенковского излучения нет.">
 <meta property="og:url" content="https://neutrinohit.github.io/qr/qft/0020/">
 <meta property="og:image" content="https://neutrinohit.github.io/assets/book-animations/qft/0020.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+ onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false})"></script>
 <script>(function(){var d=document.documentElement,l,q;try{q=new URLSearchParams(location.search).get('lang');l=q||localStorage.getItem('nh-lang')}catch(e){}
 if(l!=='ru'&&l!=='en'){l=((navigator.language||'ru').toLowerCase().indexOf('ru')===0)?'ru':'en'}
 d.setAttribute('data-lang',l);d.lang=l})();</script>
@@ -68,7 +72,7 @@ h2{font-size:1.1rem;margin:1.6em 0 .6em;color:var(--muted);font-weight:600}</sty
 <button type="button" data-rate="2" aria-pressed="false">2×</button>
 <a class="btn" id="dl" href="../../../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4" download><span lang="ru">Скачать MP4</span><span lang="en">Download MP4</span></a>
 </div>
-<p class="caption"><span lang="ru">Построение Гюйгенса для заряда, летящего в среде с показателем преломления n = 1,33 (вода). Пока v &lt; c/n, волны от последовательных положений вложены друг в друга и света нет. При v &gt; c/n у волн появляется общая огибающая, конус; свет идёт перпендикулярно ей под углом θ к траектории, cos θ = 1/(nβ). Кольцо на детекторе имеет радиус L tg θ. Порог в воде: 0,26 МэВ для электрона и 55 МэВ для мюона, предельный угол 41,2°.</span><span lang="en">Huygens construction for a charge moving in a medium of refractive index n = 1.33 (water). While v &lt; c/n the wavelets of successive positions lie inside one another and there is no light. For v &gt; c/n the wavelets acquire a common envelope, a cone; light travels perpendicular to it at the angle θ to the track, cos θ = 1/(nβ). The ring on the detector has radius L tan θ. Threshold in water: 0.26 MeV for an electron and 55 MeV for a muon, the limiting angle is 41.2°.</span></p>
+<p class="caption"><span lang="ru">Четыре волновых фронта в двух отдельных опытах с постоянной скоростью. Ниже порога фронты вложены друг в друга; при $v&gt;c/n$ у них появляется общая касательная — поверхность конуса. Свет идёт по нормали к фронту, $\cos\theta_C=1/(n\beta)$. Построение Гюйгенса при $n=1{,}33$: окружности — вспомогательные фронты, не четыре испущенных фотона. Ниже порога черенковского излучения нет.</span><span lang="en">Four wavefronts in two separate constant-speed trials. Below threshold the fronts are nested; at $v&gt;c/n$ they share a common tangent, the surface of a cone. Light travels normal to the front, $\cos\theta_C=1/(n\beta)$. Huygens construction with $n=1.33$: the circles are auxiliary wavefronts, not four emitted photons. There is no Cherenkov radiation below threshold.</span></p>
 <div class="card"><dl class="meta">
 <dt><span lang="ru">В книге</span><span lang="en">In the book</span></dt><dd><span lang="ru">Том 1, гл. 13 «Классические поля и их лагранжианы»</span><span lang="en">Volume 1, Chapter 13 “Classical Fields and Their Lagrangians”</span></dd>
 <dt><span lang="ru">Автор</span><span lang="en">Author</span></dt><dd><span lang="ru">Д. В. Наумов</span><span lang="en">D. V. Naumov</span></dd>

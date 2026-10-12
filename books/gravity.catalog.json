@@ -210,6 +210,47 @@
       },
       "legacy_codes": [],
       "gallery": "relativity-atom-spin/wormhole-camera"
+    },
+    {
+      "id": "0006",
+      "slug": "black-hole-flyby",
+      "qr_file": "Black_Hole_Flyby.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Облёт чёрной дыры: камера в свободном падении",
+        "en": "A camera flies around a black hole: a free-falling camera"
+      },
+      "caption": {
+        "ru": "Камера свободно падает по связанной орбите вокруг невращающейся чёрной дыры с массой $4{,}3\\cdot10^6M_\\odot$ (такова масса чёрной дыры в центре нашей Галактики); в перицентре $4{,}6\\,GM/c^2$ её скорость равна $0{,}65\\,c$. Лучи света идут по геодезическим метрики Шварцшильда и прослеживаются от камеры назад: луч с прицельным параметром $b<b_c=3\\sqrt3\\,GM/c^2$ падает в дыру и даёт чёрную тень, остальные лучи отклоняются и приходят от неба или от тонкого светящегося диска, причём диск виден много раз (над тенью, под ней и тонкими дугами внутри). Из-за движения камеры небо впереди смещено в синюю сторону и ярче, а часть диска, которая летит навстречу, горячее и ярче; часы камеры отстают от часов далёкого наблюдателя. Угловой размер тени $2\\theta_{\\rm sh}=6\\sqrt3\\,GM/(c^2D)$ позволяет измерить массу.",
+        "en": "A camera falls freely on a bound orbit round a non-rotating black hole of $4.3\\cdot10^6M_\\odot$ (the mass of the black hole in the centre of our Galaxy); at the pericentre, $4.6\\,GM/c^2$, its speed is $0.65\\,c$. The light follows the geodesics of the Schwarzschild metric and the rays are traced backwards from the camera: a ray with the impact parameter $b<b_c=3\\sqrt3\\,GM/c^2$ falls into the hole and gives the black shadow, the other rays are bent and come from the sky or from a thin glowing disk, which is seen many times (over the shadow, under it and in thin arcs inside it). Because the camera moves, the sky ahead is shifted to the blue and brightened, and the part of the disk that moves towards us is hotter and brighter; the clock of the camera runs behind the clock of a distant observer. The angular size of the shadow, $2\\theta_{\\rm sh}=6\\sqrt3\\,GM/(c^2D)$, measures the mass."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Чёрные дыры",
+          "en": "Black holes"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/black_hole_flyby",
+        "note": {
+          "ru": "Лучи вычислены численно (уравнение орбиты света, метод Рунге — Кутты; проверено по точному решению через эллиптические функции), орбита камеры — геодезическая Шварцшильда, аберрация и допплеровский сдвиг учтены точно. Диск тонкий, непрозрачный, температура по стандартной модели тонкого диска; цвет диска подобран для наглядности (температура 3800 K в самом ярком кольце), реальный диск вокруг такой чёрной дыры горячее. Небо — собственная процедурная модель (галактики, звёзды, туманности). Не учтены вращение дыры и толщина диска.",
+          "en": "The rays are computed numerically (the orbit equation of light, Runge-Kutta method; checked against the closed form with elliptic functions), the orbit of the camera is a Schwarzschild geodesic, aberration and the Doppler shift are included exactly. The disk is thin and opaque with the temperature of the standard thin-disk model; its colour is chosen for clarity (3800 K at the brightest ring), the real disk round such a black hole is hotter. The sky is our own procedural model (galaxies, stars, nebulae). The rotation of the hole and the thickness of the disk are not included."
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby.mp4",
+          "en": "assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby-en.mp4"
+        },
+        "poster_time": 66.0
+      },
+      "gallery": "relativity-atom-spin/black-hole-flyby",
+      "legacy_codes": []
     }
   ]
 }

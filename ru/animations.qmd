@@ -12,14 +12,14 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>69 сюжетов</span>
-    <span>138 роликов</span>
+    <span>71 сюжет</span>
+    <span>142 ролика</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">23 сюжета, 43 ролика</span>
+        <span class="lecture-course-status">24 сюжета, 45 роликов</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -243,6 +243,40 @@ lang: ru-RU
               </div>
             </div>
           </details>
+          <details id="animation-neutrino-particles-jet-launch" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">От звезды к джету: откуда берётся мощность</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Чёрная дыра, эргосфера и диск; звезда разрывается приливными силами, вещество возвращается по закону $t^{-5/3}$; вращающаяся дыра закручивает магнитное поле, поток Пойнтинга выносит энергию, плазма разгоняется вдоль поля (джет приливного разрушения звезды, Swift J1644+57).</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>От звезды к джету (русская версия)</span>
+                    <small>2.5 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>From a star to a jet (English version)</span>
+                    <small>2.4 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/jet_launch">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch.mp4">MP4: От звезды к джету (русская версия)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch-en.mp4">MP4: From a star to a jet (English version)</a>
+              </div>
+            </div>
+          </details>
           <details id="animation-neutrino-particles-star-in-jet" class="lecture-material animation-material">
             <summary>
               <span class="animation-material-title">Звезда в джете: один из способов родить нейтрино</span>
@@ -257,7 +291,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Звезда в джете (русская версия)</span>
-                    <small>6.1 MB</small>
+                    <small>4.2 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -266,7 +300,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>A star in the jet (English version)</span>
-                    <small>6.0 MB</small>
+                    <small>4.1 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -613,7 +647,7 @@ lang: ru-RU
               <span class="animation-material-count">2 ролика</span>
             </summary>
             <div class="lecture-material-body animation-material-body">
-              <p>Построение Гюйгенса: при v &lt; c/n волны вложены друг в друга, при v &gt; c/n у них появляется общая огибающая — конус; cos θ = 1/(nβ), кольцо на детекторе, порог для электрона и мюона в воде.</p>
+              <p>Четыре волновых фронта, два отдельных опыта с постоянной скоростью и паузы для объяснения. Медленная частица остаётся внутри фронтов; быстрая обгоняет их. Общая касательная образует поверхность конуса, а свет идёт поперёк неё. Без графика и кольца на детекторе.</p>
               <div class="animation-video-grid">
                 <figure class="animation-video-frame">
                   <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.jpg">
@@ -621,7 +655,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Конус из волн Гюйгенса (русская версия)</span>
-                    <small>1.7 MB</small>
+                    <small>1.4 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -630,7 +664,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>A cone of Huygens wavelets (English version)</span>
-                    <small>1.7 MB</small>
+                    <small>1.3 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1637,7 +1671,7 @@ lang: ru-RU
     </details>
     <details class="lecture-course animation-section animation-section-relativity-atom-spin">
       <summary>
-        <span class="lecture-course-status">7 сюжетов, 14 роликов</span>
+        <span class="lecture-course-status">8 сюжетов, 16 роликов</span>
         <span class="lecture-course-title">Относительность, атом и спин</span>
       </summary>
       <div class="lecture-course-body">
@@ -1878,6 +1912,40 @@ lang: ru-RU
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/wormhole_camera">Исходный код</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera.mp4">MP4: Камера у кротовой норы (русская версия)</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera-en.mp4">MP4: A camera at a wormhole (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-relativity-atom-spin-black-hole-flyby" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Облёт чёрной дыры</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Камера свободно падает по орбите вокруг невращающейся чёрной дыры: ход лучей света в метрике Шварцшильда, тень, диск и его изображения, аберрация и сдвиг частоты при скорости 0,65c, часы камеры и далёкого наблюдателя.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Облёт чёрной дыры (русская версия)</span>
+                    <small>8.4 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby-en.jpg">
+                    <source src="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>A camera flies around a black hole (English version)</span>
+                    <small>8.4 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/black_hole_flyby">Исходный код</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby.mp4">MP4: Облёт чёрной дыры (русская версия)</a>
+                <a href="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby-en.mp4">MP4: A camera flies around a black hole (English version)</a>
               </div>
             </div>
           </details>
