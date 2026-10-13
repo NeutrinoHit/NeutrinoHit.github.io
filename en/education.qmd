@@ -52,7 +52,7 @@ toc: false
         <span class="lecture-course-title">Quantum Field Theory</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Courses on quantum field theory, the Standard Model, renormalization, accelerated frames, and selected QFT topics.</p>
+        <p>Courses on quantum field theory, the Standard Model, renormalization, accelerated frames, the quantum vacuum, and selected QFT topics.</p>
         <div class="lecture-material-list">
           <details id="qft-textbook" class="lecture-material">
             <summary>Textbook</summary>
@@ -146,6 +146,13 @@ toc: false
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="../qft-lectures/unruh/">Open mini-course</a>
               </div>
+            </div>
+          </details>
+          <details id="qft-vacuum-course" class="lecture-material">
+            <summary>Quantum field vacuum</summary>
+            <div class="lecture-material-body">
+              <p>A Russian-language mini-course on the QFT vacuum. Its first HTML lecture covers the wave functional of a free scalar field, the Gaussian vacuum, and how vacuum configurations differ from white noise.</p>
+              <p>In preparation.</p>
             </div>
           </details>
           <details id="qft-attraction-repulsion" class="lecture-material">

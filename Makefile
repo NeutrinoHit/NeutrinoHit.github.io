@@ -1,4 +1,4 @@
-.PHONY: site local-aggregate book-covers check-book-covers book-covers-full export-book-covers sync-book-covers check-book-cover-sync
+.PHONY: site local-aggregate sync-book-assets book-covers check-book-covers book-covers-full export-book-covers sync-book-covers check-book-cover-sync
 
 site:
 	rm -rf _site
@@ -17,6 +17,9 @@ site:
 
 local-aggregate: site
 	NEUTRINOHIT_SYNC_PROJECT_SITES=1 python scripts/sync_local_project_sites.py
+
+sync-book-assets:
+	python scripts/sync_book_assets.py
 
 book-covers:
 	python assets/books/covers/source/generate_series.py

@@ -12,14 +12,14 @@ lang: ru-RU
     опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
   </p>
   <div class="animation-catalog-meta">
-    <span>71 сюжет</span>
-    <span>142 ролика</span>
+    <span>73 сюжета</span>
+    <span>146 роликов</span>
     <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">24 сюжета, 45 роликов</span>
+        <span class="lecture-course-status">26 сюжетов, 49 роликов</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -257,7 +257,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>От звезды к джету (русская версия)</span>
-                    <small>2.5 MB</small>
+                    <small>2.2 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -266,7 +266,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>From a star to a jet (English version)</span>
-                    <small>2.4 MB</small>
+                    <small>2.1 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -291,7 +291,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Звезда в джете (русская версия)</span>
-                    <small>4.2 MB</small>
+                    <small>4.3 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -300,7 +300,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>A star in the jet (English version)</span>
-                    <small>4.1 MB</small>
+                    <small>4.3 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -308,6 +308,74 @@ lang: ru-RU
                 <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/jet_star">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet.mp4">MP4: Звезда в джете (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet-en.mp4">MP4: A star in the jet (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-neutrino-particles-milky-way-neutrinos" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Млечный Путь в нейтрино</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Протоны космических лучей блуждают в диске Галактики и сталкиваются с ядрами межзвёздного газа; рождаются пионы, затем нейтрино, которые летят прямо. Изнутри диска вся Галактика видна как полоса через небо: карта — интеграл «газ × плотность космических лучей» вдоль луча зрения в иллюстративной модели. С севера центр Галактики большую часть суток под горизонтом (Baikal-GVD — 75 %, KM3NeT ARCA — 63 %, IceCube — 0 %), то есть виден сквозь Землю. Восемь каскадов Baikal-GVD выше 200 ТэВ лежат ближе к плоскости, чем в перемешанных небах: медиана $|b|$ меньше лишь в 1,4 % из них (вместе с данными IceCube — 0,034 %).</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Млечный Путь в нейтрино (русская версия)</span>
+                    <small>1.3 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>The Milky Way in neutrinos (English version)</span>
+                    <small>1.3 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/milky_way_neutrinos">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos.mp4">MP4: Млечный Путь в нейтрино (русская версия)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos-en.mp4">MP4: The Milky Way in neutrinos (English version)</a>
+              </div>
+            </div>
+          </details>
+          <details id="animation-neutrino-particles-source-emerges" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Источник проступает</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Нейтрино приходят по одному; почти все — атмосферный фон, немногие — от источника. Считаем события в круге вокруг источника и сравниваем с ожидаемым фоном: избыток растёт пропорционально времени, а шум — как корень из него, поэтому значимость растёт как √t. Тот же источник за те же годы виден по-разному при разной точности направлений: каскад во льду (половина событий в пределах 10°), каскад в воде (2,5°), трек (0,4°). В 30 раз больший объём даёт значимость в √30 ≈ 5,5 раза выше: каскады в воде, невидимые за 10 лет в 1 км³, выходят за 5σ в 30 км³. Правило: $Z\propto\sqrt{\text{экспозиция}}/\sigma_\theta$, пока доминирует фон.</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-source-emerges-source-emerges.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-source-emerges-source-emerges.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Источник проступает (русская версия)</span>
+                    <small>1.4 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-source-emerges-source-emerges-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-source-emerges-source-emerges-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>A source emerges (English version)</span>
+                    <small>1.4 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/source_emerges">Исходный код</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-source-emerges-source-emerges.mp4">MP4: Источник проступает (русская версия)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-source-emerges-source-emerges-en.mp4">MP4: A source emerges (English version)</a>
               </div>
             </div>
           </details>
@@ -2498,4 +2566,8 @@ lang: ru-RU
     </details>
   </section>
 </div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+ onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false})"></script>
 ```
