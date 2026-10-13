@@ -12,6 +12,8 @@ import subprocess
 from pathlib import Path
 from typing import Any
 
+from build_book_animations import KATEX  # same KaTeX as the QR pages; descriptions may contain $...$
+
 
 SITE_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CATALOG = SITE_ROOT / "animations.catalog.json"
@@ -401,7 +403,11 @@ def render_qmd(
             ]
         )
 
-    lines.extend(["  </section>", "</div>", "```", ""])
+    lines.extend(["  </section>", "</div>"])
+    if any("$" in item.get("description", "")
+           for section in catalog["sections"] for item in section["items"]):
+        lines.append(KATEX.rstrip("\n"))
+    lines.extend(["```", ""])
     return "\n".join(lines)
 
 

@@ -17,6 +17,7 @@ REVEAL_TARGETS = [
 ]
 
 STYLE_TARGETS = [
+    ROOT / "talks" / "shared" / "styles",
     ROOT / "qft-lectures" / "shared" / "styles",
     ROOT / "gravity" / "shared" / "styles",
     ROOT / "neutrinophysics" / "shared" / "styles",

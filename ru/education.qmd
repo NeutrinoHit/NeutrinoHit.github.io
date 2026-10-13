@@ -154,10 +154,7 @@ toc: false
             <summary>Вакуум квантового поля</summary>
             <div class="lecture-material-body">
               <p>Мини-курс о вакууме КТП. Первая HTML-лекция: волновой функционал свободного скалярного поля, гауссов вакуум и отличие вакуумных конфигураций от белого шума.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../qft-lectures/vacuum/">Открыть мини-курс</a>
-                <a href="../qft-lectures/vacuum/ru/slides/01_free_scalar_field.html">01. Вакуум свободного скалярного поля</a>
-              </div>
+              <p>Готовится.</p>
             </div>
           </details>
           <details id="qft-attraction-repulsion" class="lecture-material">

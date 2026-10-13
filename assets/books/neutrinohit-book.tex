@@ -1,0 +1,270 @@
+% Canonical PDF foundation for books in the NeutrinoHit universe.
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{unicode-math}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage[most]{tcolorbox}
+\usepackage{caption}
+\usepackage{ragged2e}
+\usepackage{etoc}
+\usepackage[automark]{scrlayer-scrpage}
+
+\defaultfontfeatures{Ligatures=TeX, Scale=MatchLowercase}
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}[Scale=0.9]
+\setmathfont{Libertinus Math}
+
+\definecolor{BookInk}{HTML}{18262F}
+\definecolor{BookInkSoft}{HTML}{42545F}
+\definecolor{BookMuted}{HTML}{687984}
+\definecolor{BookPaper}{HTML}{FFFFFF}
+\definecolor{BookCanvas}{HTML}{F4F6F7}
+\definecolor{BookLine}{HTML}{D9E0E3}
+\definecolor{BookLineStrong}{HTML}{BCC9CE}
+\definecolor{BookTeal}{HTML}{0F6972}
+\definecolor{BookTealDark}{HTML}{094B52}
+\definecolor{BookTealSoft}{HTML}{E8F1F2}
+\definecolor{BookBlue}{HTML}{2F6F9F}
+\definecolor{BookBlueSoft}{HTML}{EDF3FA}
+\definecolor{BookCoral}{HTML}{C7472F}
+\definecolor{BookCoralSoft}{HTML}{FAEEEB}
+\definecolor{BookGold}{HTML}{B97817}
+\definecolor{BookGoldSoft}{HTML}{FBF3E4}
+\definecolor{BookBiography}{HTML}{465B8C}
+\definecolor{BookBiographySoft}{HTML}{F0F2F8}
+\definecolor{BookMargin}{HTML}{F1F3F4}
+\definecolor{BookSticky}{HTML}{FFF2A8}
+\definecolor{BookStickyDeep}{HTML}{FFE06D}
+\definecolor{BookStickyInk}{HTML}{211700}
+\definecolor{BookStickyBorder}{HTML}{7A5C00}
+\definecolor{BookStickyTape}{HTML}{F4C542}
+
+% Compatibility aliases let established books keep their local command style.
+\colorlet{bookInk}{BookInk}
+\colorlet{bookMuted}{BookMuted}
+\colorlet{bookTeal}{BookTeal}
+\colorlet{bookTealSoft}{BookTealSoft}
+\colorlet{bookBlue}{BookBlue}
+\colorlet{bookBlueSoft}{BookBlueSoft}
+\colorlet{bookCoral}{BookCoral}
+\colorlet{bookCoralSoft}{BookCoralSoft}
+\colorlet{bookBiography}{BookBiography}
+\colorlet{bookBiographySoft}{BookBiographySoft}
+\colorlet{bookMargin}{BookMargin}
+
+\setlength{\emergencystretch}{3em}
+\raggedbottom
+
+\hypersetup{
+  pdfborder={0 0 0},
+  colorlinks=true,
+  linkcolor=BookTeal,
+  citecolor=BookTeal,
+  urlcolor=BookTeal
+}
+
+% Short remarks rendered in the outer margin of the printed book. In HTML
+% and EPUB the Lua filter turns the same source block into a disclosure.
+\newcommand{\bookmarginnote}[2][]{%
+  \marginpar{%
+    \begin{tcolorbox}[
+      enhanced,
+      width=\marginparwidth,
+      colback=BookSticky,
+      colframe=BookStickyBorder!28!BookSticky,
+      interior style={top color=BookSticky,bottom color=BookStickyDeep},
+      boxrule=0.25pt,
+      arc=0.6mm,
+      left=2mm,
+      right=2mm,
+      top=2.6mm,
+      bottom=2mm,
+      boxsep=0pt,
+      drop fuzzy shadow=BookInk!35!white,
+      overlay={%
+        \fill[BookStickyTape,opacity=0.9,rounded corners=0.7mm]
+          ([xshift=-5.5mm,yshift=-0.8mm]frame.north)
+          rectangle
+          ([xshift=5.5mm,yshift=0.8mm]frame.north);%
+      }
+    ]%
+      \raggedright\setlength{\parindent}{0pt}%
+      \sffamily\footnotesize\color{BookStickyInk}%
+      \if\relax\detokenize{#1}\relax\else
+        {\bfseries\color{BookStickyInk}#1\par}\vspace{0.5mm}%
+      \fi
+      #2%
+    \end{tcolorbox}%
+  }%
+}
+
+% Shared semantic boxes used by biographies, media cards, notes and exercises.
+\newtcolorbox{semanticpdfbox}[1][]{
+  enhanced,
+  breakable,
+  sharp corners,
+  colback=BookTealSoft,
+  colframe=BookTeal,
+  boxrule=0pt,
+  borderline west={1.2mm}{0pt}{BookTeal},
+  left=4mm,
+  right=3mm,
+  top=2mm,
+  bottom=2mm,
+  #1
+}
+
+% Public labels and colour hook. A book changes these without copying the
+% layout machinery: for example, "Лекция" in the neutrino book and "Глава"
+% in the statistics book.
+\providecommand{\bookchaptercolor}{BookTeal}
+\newcommand{\BookChapterLabel}{Глава}
+\newcommand{\BookPartLabel}{РАЗДЕЛ КНИГИ}
+\newcommand{\BookPartContentsLabel}{Главы}
+\newcommand{\BookTocChapterLabel}{Глава}
+\DeclareRobustCommand{\BookTitleBreak}{\space}
+
+\clearpairofpagestyles
+\ihead{\headmark}
+\newcommand{\BookHeaderPage}{%
+  \ifnum\value{part}=0\relax
+    \ifnum\value{chapter}=0\relax\pagemark\fi
+  \fi
+}
+\ohead{\BookHeaderPage}
+\setkomafont{pageheadfoot}{\small\sffamily\color{BookMuted}}
+\setkomafont{pagehead}{\small\sffamily\color{BookInk}}
+\KOMAoptions{headsepline=0.35pt}
+\addtokomafont{chapter}{\sffamily\color{BookInk}}
+\addtokomafont{section}{\sffamily\color{BookInk}}
+\addtokomafont{subsection}{\sffamily\color{BookInk}}
+
+% Numbered chapter opener with a local table of contents.
+\renewcommand*{\chapterformat}{}
+\renewcommand*{\chapterlinesformat}[3]{%
+  \ifnum\value{chapter}>0\relax
+    \parbox[t]{\linewidth}{%
+      {\sffamily\bfseries\color{\bookchaptercolor}%
+       \fontsize{15}{18}\selectfont \BookChapterLabel~\thechapter\par}%
+      \vspace{7mm}%
+      {\RaggedRight\sffamily\bfseries\color{BookInk}%
+       \hyphenpenalty=10000\exhyphenpenalty=10000\pretolerance=10000%
+       \let\BookTitleBreak\\%
+       \fontsize{32}{36}\selectfont #3\par}%
+      \vspace{9mm}%
+      {\noindent\color{\bookchaptercolor}\rule{\linewidth}{1.3mm}\par}%
+    }%
+  \else
+    \parbox[t]{\linewidth}{#3}%
+  \fi
+}
+\RedeclareSectionCommand[beforeskip=10mm,afterskip=0pt]{chapter}
+
+% Part opener with the list of chapters belonging to the current part.
+\renewcommand*{\partformat}{}
+\renewcommand*{\partlineswithprefixformat}[3]{%
+  \parbox[t]{\linewidth}{%
+    {\sffamily\bfseries\color{\bookchaptercolor}%
+     \fontsize{13}{16}\selectfont \BookPartLabel\par}%
+    \vspace{9mm}%
+    {\RaggedRight\sffamily\bfseries\color{BookInk}%
+     \hyphenpenalty=10000\exhyphenpenalty=10000\pretolerance=10000%
+     \let\BookTitleBreak\\%
+     \fontsize{30}{35}\selectfont #3\par}%
+    \vspace{11mm}%
+    {\noindent\color{\bookchaptercolor}\rule{\linewidth}{1.3mm}\par}%
+    \vspace{13mm}%
+    {\sffamily\bfseries\color{BookInk}%
+     \fontsize{18}{22}\selectfont \BookPartContentsLabel\par}%
+    \vspace{3mm}%
+    {\noindent\color{\bookchaptercolor}\rule{18mm}{0.75mm}\par}%
+    \vspace{5mm}%
+    \begingroup
+      \normalfont
+      \setlength{\parindent}{0pt}%
+      \etocsettocstyle{}{}%
+      \etocsetnexttocdepth{chapter}%
+      \localtableofcontents
+    \endgroup
+  }%
+}
+\RedeclareSectionCommand[beforeskip=20mm,afterskip=0pt]{part}
+
+\newcommand{\BookHidePartNumber}[1]{}
+\newcommand{\BookChapterTocNumber}[1]{\BookTocChapterLabel~#1}
+\DeclareTOCStyleEntry[numwidth=0pt,entrynumberformat=\BookHidePartNumber]{tocline}{part}
+\DeclareTOCStyleEntry[numwidth=5.6em,entrynumberformat=\BookChapterTocNumber]{tocline}{chapter}
+
+\newcommand{\bookchapteropeningcontents}{%
+  \vspace{14mm}%
+  \noindent
+  {\sffamily\bfseries\color{BookInk}\fontsize{18}{22}\selectfont
+   Содержание\par}%
+  \vspace{3mm}%
+  {\noindent\color{\bookchaptercolor}\rule{18mm}{0.75mm}\par}%
+  \vspace{5mm}%
+  \begingroup
+    \setlength{\parindent}{0pt}%
+    \etocsettocstyle{}{}%
+    \etocsetnexttocdepth{section}%
+    \localtableofcontents
+  \endgroup
+  \vfill
+  \clearpage
+}
+
+% A quiet outer-edge navigator. The thin strip follows the current topic. The
+% folio is deliberately unframed: a large, light numeral in the outer margin.
+\newif\ifbookpagenavigator
+\bookpagenavigatortrue
+\newlength{\bookpageedgewidth}
+\newlength{\bookfoliooffset}
+\newlength{\bookfoliotopoffset}
+\setlength{\bookpageedgewidth}{1.5mm}
+\setlength{\bookfoliooffset}{20mm}
+\setlength{\bookfoliotopoffset}{15mm}
+
+\newcommand{\BookFolioNumber}[1]{%
+  \node[inner sep=0pt,font=\sffamily\fontsize{16}{16}\selectfont,
+        text=BookMuted] at #1 {\thepage};
+}
+
+\newcommand{\BookPageNavigatorLeft}{%
+  \fill[\bookchaptercolor]
+    (current page.north west) rectangle
+    ([xshift=\bookpageedgewidth]current page.south west);
+  \BookFolioNumber{([xshift=\bookfoliooffset,yshift=-\bookfoliotopoffset]current page.north west)}%
+}
+
+\newcommand{\BookPageNavigatorRight}{%
+  \fill[\bookchaptercolor]
+    ([xshift=-\bookpageedgewidth]current page.north east) rectangle
+    (current page.south east);
+  \BookFolioNumber{([xshift=-\bookfoliooffset,yshift=-\bookfoliotopoffset]current page.north east)}%
+}
+
+\newcommand{\BookRenderPageNavigator}{%
+  \ifbookpagenavigator
+    \ifnum\value{part}>0\relax
+      \begin{tikzpicture}[remember picture,overlay]
+        \ifodd\value{page}
+          \BookPageNavigatorRight
+        \else
+          \BookPageNavigatorLeft
+        \fi
+      \end{tikzpicture}%
+    \fi
+  \fi
+}
+\AddToHook{shipout/foreground}{\BookRenderPageNavigator}
