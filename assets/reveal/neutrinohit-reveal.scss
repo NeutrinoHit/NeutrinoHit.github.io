@@ -91,6 +91,158 @@ $code-block-font-size: 0.58em;
   font-weight: 700;
 }
 
+/*
+ * Универсальные текстовые акценты для всех лекций.
+ *
+ * Примеры:
+ *   ::: {.nh-box tone="success" size="lg" align="center" weight="bold"}
+ *   ::: {.nh-text tone="muted" size="sm"}
+ *   ::: {.nh-statement size="xxl" weight="bold"}
+ *
+ * Оформление, размер и выравнивание задаются независимо: для нового текста
+ * не нужно создавать отдельный класс в CSS конкретной лекции.
+ */
+.reveal .nh-box {
+  --nh-accent: #7cc7ff;
+  --nh-accent-rgb: 124 199 255;
+  box-sizing: border-box;
+  margin: 0.65rem 0;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid rgb(var(--nh-accent-rgb) / 42%);
+  border-left: 0.22rem solid var(--nh-accent);
+  border-radius: 0.38rem;
+  background: linear-gradient(
+    100deg,
+    rgb(var(--nh-accent-rgb) / 17%),
+    rgb(var(--nh-accent-rgb) / 6%) 68%,
+    transparent
+  );
+  color: #f4f8fa;
+  font-size: 1em;
+  line-height: 1.24;
+}
+
+.reveal .nh-box > :first-child,
+.reveal .nh-statement > :first-child,
+.reveal .nh-text > :first-child {
+  margin-top: 0;
+}
+
+.reveal .nh-box > :last-child,
+.reveal .nh-statement > :last-child,
+.reveal .nh-text > :last-child {
+  margin-bottom: 0;
+}
+
+.reveal .nh-box strong {
+  color: var(--nh-accent);
+}
+
+.reveal .nh-box[tone="question"],
+.reveal .nh-box[data-tone="question"] {
+  --nh-accent: #b59cff;
+  --nh-accent-rgb: 181 156 255;
+}
+
+.reveal .nh-box[tone="success"],
+.reveal .nh-box[data-tone="success"] {
+  --nh-accent: #75ddb8;
+  --nh-accent-rgb: 117 221 184;
+}
+
+.reveal .nh-box[tone="warning"],
+.reveal .nh-box[data-tone="warning"] {
+  --nh-accent: #ffad5a;
+  --nh-accent-rgb: 255 173 90;
+}
+
+.reveal .nh-box[tone="danger"],
+.reveal .nh-box[data-tone="danger"] {
+  --nh-accent: #ff7897;
+  --nh-accent-rgb: 255 120 151;
+}
+
+.reveal .nh-box[tone="muted"],
+.reveal .nh-box[data-tone="muted"] {
+  --nh-accent: #9aabb5;
+  --nh-accent-rgb: 154 171 181;
+}
+
+.reveal .nh-box[size="sm"],
+.reveal .nh-text[size="sm"],
+.reveal .nh-statement[size="sm"] {
+  font-size: 0.72em;
+}
+
+.reveal .nh-box[size="md"],
+.reveal .nh-text[size="md"],
+.reveal .nh-statement[size="md"] {
+  font-size: 1em;
+}
+
+.reveal .nh-box[size="lg"],
+.reveal .nh-text[size="lg"],
+.reveal .nh-statement[size="lg"] {
+  font-size: 1.1em;
+}
+
+.reveal .nh-box[size="xl"],
+.reveal .nh-text[size="xl"],
+.reveal .nh-statement[size="xl"] {
+  font-size: 1.22em;
+}
+
+.reveal .nh-box[size="xxl"],
+.reveal .nh-text[size="xxl"],
+.reveal .nh-statement[size="xxl"] {
+  font-size: 1.35em;
+}
+
+.reveal .nh-box[align="center"],
+.reveal .nh-box[data-align="center"],
+.reveal .nh-text[align="center"],
+.reveal .nh-text[data-align="center"],
+.reveal .nh-statement[align="center"],
+.reveal .nh-statement[data-align="center"] {
+  text-align: center;
+}
+
+.reveal .nh-box[align="right"],
+.reveal .nh-box[data-align="right"],
+.reveal .nh-text[align="right"],
+.reveal .nh-text[data-align="right"],
+.reveal .nh-statement[align="right"],
+.reveal .nh-statement[data-align="right"] {
+  text-align: right;
+}
+
+.reveal .nh-box[weight="bold"],
+.reveal .nh-box[data-weight="bold"],
+.reveal .nh-text[weight="bold"],
+.reveal .nh-text[data-weight="bold"],
+.reveal .nh-statement[weight="bold"],
+.reveal .nh-statement[data-weight="bold"] {
+  font-weight: 700;
+}
+
+.reveal .nh-text[tone="accent"], .reveal .nh-text[data-tone="accent"] { color: #7cc7ff; }
+.reveal .nh-text[tone="question"], .reveal .nh-text[data-tone="question"] { color: #b59cff; }
+.reveal .nh-text[tone="success"], .reveal .nh-text[data-tone="success"] { color: #75ddb8; }
+.reveal .nh-text[tone="warning"], .reveal .nh-text[data-tone="warning"] { color: #ffcc8a; }
+.reveal .nh-text[tone="danger"], .reveal .nh-text[data-tone="danger"] { color: #ff9ab0; }
+.reveal .nh-text[tone="muted"], .reveal .nh-text[data-tone="muted"] { color: #b8c7d1; }
+
+.reveal .nh-statement {
+  display: grid;
+  min-height: 570px;
+  place-items: center;
+  text-align: center;
+}
+
+.reveal .nh-statement > * {
+  max-width: 1120px;
+}
+
 .reveal .timing {
   display: grid;
   grid-template-columns: 7rem 1fr;
@@ -123,6 +275,12 @@ $code-block-font-size: 0.58em;
   display: block;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+/* Quarto places copy buttons outside hidden OJS source blocks. Hide only
+   those orphaned buttons; copy controls on visible code blocks remain. */
+.reveal .code-copy-outer-scaffold > .cell-code.hidden + .code-copy-button {
+  display: none !important;
 }
 
 .reveal .centered-figure {
@@ -345,4 +503,17 @@ $code-block-font-size: 0.58em;
 .reveal .marginnote.note-lg {
   --note-width: 16rem;
   --note-font-size: 0.78em;
+}
+
+/*
+ * Tabset with story content. Quarto copies the tabset classes onto the inner
+ * .tab-content, so a font-size set on the class would be applied twice. This
+ * keeps both levels at the inherited size; size the text through the slide or
+ * a wrapper instead.
+ *
+ *   ::: {.panel-tabset .nh-story-tabs}
+ */
+.reveal .panel-tabset.nh-story-tabs,
+.reveal .panel-tabset.nh-story-tabs > .tab-content.nh-story-tabs {
+  font-size: 1em;
 }
