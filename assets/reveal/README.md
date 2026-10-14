@@ -7,15 +7,20 @@ repository so `quarto preview` works without waiting for GitHub Pages.
 
 The sync target list is defined in `../../scripts/sync_reveal_assets.py`. It
 copies the common Reveal files into each project-level `shared/reveal/`
-directory and copies the common Reveal SCSS into project-level `shared/styles/`
-directories where that style is used.
+directory and the common Reveal SCSS into project-level `shared/styles/`.
 
 After editing the footer script, timed captions script, logo, shared component
-CSS, or shared Reveal SCSS, run from `neutrinohit-map`:
+CSS, or shared Reveal SCSS, check and then refresh named consumers from
+`neutrinohit-map`:
 
 ```bash
-python scripts/sync_reveal_assets.py
+python scripts/sync_reveal_assets.py --check --all
+python scripts/sync_reveal_assets.py --target talks --target gravity
 ```
+
+Files with uncommitted changes in the consumer repository and copies marked
+as held are not overwritten without `--force`. Running the script without
+`--target`/`--all` keeps the historical default set (see the main README).
 
 Every presentation must define where the footer's context button returns. Add a
 stable anchor to the relevant `neutrinohit-map` page, register the absolute URL
@@ -91,7 +96,7 @@ assets/reveal/neutrinohit-reveal-quiz.css
 They were first extracted from the opening audience quiz in
 `sciencepop/BirthAndLifeUniverse` so future RevealJS lectures can reuse the
 same large, clicker-friendly question/answer layout without copying local CSS.
-After running `python scripts/sync_reveal_assets.py`, project-level copies live
+After syncing, project-level copies live
 under:
 
 ```text
