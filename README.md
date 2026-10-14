@@ -280,19 +280,35 @@ python ../TheBook/pyplots/qrcodes/make_previews.py --book <slug> <id> ...     # 
 assets/reveal/neutrinohit-reveal.scss
 ```
 
-Локальные копии лежат в проектах, например:
+Локальные копии лежат в проектах: `<repo>/shared/reveal/` (футер, подписи
+к видео, CSS викторин, логотип) и `<repo>/shared/styles/neutrinohit-reveal.scss`.
+Потребители: talks, qft-lectures, gravity, sciencepop, stat-course,
+neutrinophysics, particlephysics, numerical_methods, rte_lectures; полный
+список с путями — `python scripts/sync_reveal_assets.py --list`.
 
-```text
-qft-lectures/shared/styles/neutrinohit-reveal.scss
-particlephysics/shared/styles/neutrinohit-reveal.scss
-neutrinophysics/shared/styles/neutrinohit-reveal.scss
-```
-
-После изменения общего стиля запускать из `neutrinohit-map`:
+Проверка расхождений (ничего не пишет, код выхода 1 при расхождении):
 
 ```bash
-python scripts/sync_reveal_assets.py
+python scripts/sync_reveal_assets.py --check --all
+python scripts/sync_reveal_assets.py --check --target talks --diff
+make check-shared-assets
 ```
+
+Обновление копий — только с явными адресатами:
+
+```bash
+python scripts/sync_reveal_assets.py --target talks --target gravity
+python scripts/sync_reveal_assets.py --all
+```
+
+Скрипт не перезаписывает файл, у которого в репозитории-потребителе есть
+незакоммиченные изменения (изменён, в индексе или не отслеживается), и не
+трогает копии, помеченные как удерживаемые (`held`: потребитель сначала должен
+перенести локальные правила); и то и другое снимается флагом `--force`.
+Совпадающие файлы не переписываются. Без `--target`/`--all` скрипт, как и
+раньше, обновляет исходный набор: Reveal-файлы в talks, qft-lectures, gravity,
+sciencepop, stat-course, neutrinophysics, particlephysics и SCSS в talks,
+qft-lectures, gravity, neutrinophysics, particlephysics.
 
 ## Общий стиль книг
 
@@ -303,6 +319,16 @@ assets/books/neutrinohit-book.css
 assets/books/neutrinohit-book.tex
 assets/books/neutrinohit-book.lua
 ```
+
+Там же лежат общие фильтры:
+
+- `hide-book-index.lua` убирает заголовок первого уровня на главной странице
+  книги, если он повторяет название. Название берётся из
+  `hide-book-index-title`, иначе из `book.title`, иначе из `title`. Режим
+  задаётся ключом `hide-book-index`: `combined` (по умолчанию, только PDF/LaTeX
+  и EPUB), `all` (все форматы, включая HTML) или `false`.
+- `chapter-bibliographies.lua` запускает citeproc отдельно для каждой главы,
+  чтобы у каждой главы был свой список литературы.
 
 CSS задаёт общую типографику HTML и EPUB, ритм страницы, навигацию, таблицы
 и базовую палитру. TeX задаёт те же шрифты и цвета для PDF. Lua-фильтр
@@ -315,12 +341,17 @@ CSS задаёт общую типографику HTML и EPUB, ритм стр
 После изменения общей основы синхронизировать локальные копии:
 
 ```bash
-make sync-book-assets
+python scripts/sync_book_assets.py --check --all
+python scripts/sync_book_assets.py --target stat-course
 ```
 
 Скрипт кладёт CSS внутрь `assets/styles` каждой книги, чтобы Quarto включал его
-в HTML и EPUB, Lua-фильтр — в `assets/filters`, а TeX-основу — в `shared/latex`
-проектов-потребителей (сейчас `stat-course` и `neutrinophysics`).
+в HTML и EPUB, Lua-фильтры — в `assets/filters`, а TeX-основу — в `shared/latex`
+проектов-потребителей: stat-course, neutrinophysics, gravity, numerical_methods
+(`--list` показывает пути). Ключи `--check`, `--diff`, `--force` и защита
+незакоммиченных изменений работают так же, как у `sync_reveal_assets.py`.
+`make sync-book-assets` (без адресатов) по-прежнему обновляет CSS, TeX и
+`neutrinohit-book.lua` в stat-course и neutrinophysics.
 
 ### Серия обложек
 
@@ -366,6 +397,30 @@ make check-book-covers
 The sign of the charge product changes the interference pattern.
 :::
 ```
+
+Настраиваемые акценты (оттенок, размер, выравнивание и насыщенность задаются
+атрибутами независимо):
+
+```markdown
+::: {.nh-box tone="success" size="lg" align="center" weight="bold"}
+Boxed statement with a coloured left rule.
+:::
+
+::: {.nh-text tone="muted" size="sm"}
+Plain coloured text.
+:::
+
+::: {.nh-statement size="xxl" weight="bold"}
+One centred statement on an otherwise empty slide.
+:::
+```
+
+- `tone`: `question`, `success`, `warning`, `danger`, `muted` (у `.nh-text`
+  ещё `accent`); `size`: `sm`, `md`, `lg`, `xl`, `xxl`; `align`: `center`,
+  `right`; `weight`: `bold`. Работают и формы `data-tone` и т. п.
+- `{.panel-tabset .nh-story-tabs}` удерживает размер шрифта вкладок: Quarto
+  копирует классы набора вкладок на внутренний `.tab-content`, и размер,
+  заданный классу, иначе применяется дважды.
 
 ### Тайминг
 

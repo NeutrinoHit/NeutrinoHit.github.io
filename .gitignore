@@ -28,3 +28,6 @@ __pycache__/
 /baikal-post-*/
 /Post-*.zip
 /БайкалКоты.zip
+
+# Project working files: probes, logs, check reports.
+/.work/
