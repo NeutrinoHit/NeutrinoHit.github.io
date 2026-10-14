@@ -26,6 +26,8 @@ PROJECT_SITES = [
     ProjectSite("neutrinophysics", WORKSPACE / "neutrinophysics" / "_site"),
     ProjectSite("particlephysics", WORKSPACE / "particlephysics" / "_site"),
     ProjectSite("statistical-analysis-course", WORKSPACE / "stat-course" / "_site"),
+    ProjectSite("rte_lectures", WORKSPACE / "rte_lectures" / "_site"),
+    ProjectSite("numerical_methods", WORKSPACE / "numerical_methods" / "_site"),
 ]
 
 
