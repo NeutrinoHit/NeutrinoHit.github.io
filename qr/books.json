@@ -13,7 +13,15 @@
       "en": "Introduction to Neutrino Physics"
     },
     "index": "https://neutrinohit.github.io/qr/neutrino-physics/",
-    "count": 27
+    "count": 55
+  },
+  "statistics": {
+    "title": {
+      "ru": "Статистический анализ данных",
+      "en": "Statistical Data Analysis"
+    },
+    "index": "https://neutrinohit.github.io/qr/statistics/",
+    "count": 36
   },
   "particle-physics": {
     "title": {

@@ -923,6 +923,921 @@
       },
       "legacy_codes": [],
       "gallery": "neutrino-particles/star-in-jet"
+    },
+    {
+      "id": "0028",
+      "slug": "atmospheric-ratio",
+      "qr_file": "AtmosphericRatio.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Отношение потоков атмосферных нейтрино",
+        "en": "The flux ratio of atmospheric neutrinos"
+      },
+      "caption": {
+        "ru": "Источник атмосферных нейтрино один, а длина пути до детектора меняется от десятков до примерно $12\\,800$ км. Интерактивная схема сопоставляет этот путь с отношением $R_{\\mu/e}=(\\nu_\\mu+\\bar\\nu_\\mu)/(\\nu_e+\\bar\\nu_e)$.",
+        "en": "Atmospheric neutrinos have one source, but the path to the detector ranges from tens of kilometres to about $12\\,800$ km. The interactive scheme relates this path to the ratio $R_{\\mu/e}=(\\nu_\\mu+\\bar\\nu_\\mu)/(\\nu_e+\\bar\\nu_e)$."
+      },
+      "book": {
+        "order": 1,
+        "section_title": {
+          "ru": "Знакомство с нейтрино",
+          "en": "First contact with the neutrino"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "slides",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/01_neutrino_first_contact.html#/atmospheric-neutrino-ratio"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0029",
+      "slug": "parity-transform",
+      "qr_file": "ParityTransform.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Пространственное отражение",
+        "en": "Spatial reflection"
+      },
+      "caption": {
+        "ru": "Интерактивная схема отражает вектор положения относительно начала координат. Она показывает инверсию пространства, а не поворот рисунка на $180^\\circ$.",
+        "en": "The interactive scheme reflects the position vector through the origin. It shows the inversion of space, not a rotation of the picture by $180^\\circ$."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Взаимодействия нейтрино",
+          "en": "Neutrino interactions"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "slides",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/02_parity_violation.html#/parity-transform"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0030",
+      "slug": "wu-result",
+      "qr_file": "WuResult.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Результат опыта Ву",
+        "en": "The result of the Wu experiment"
+      },
+      "caption": {
+        "ru": "На интерактивном слайде показаны угловое распределение электронов и его изменение при потере поляризации образца. Ненулевой наклон — прямое проявление псевдоскалярной корреляции $\\mathbf I\\cdot\\mathbf p_e$.",
+        "en": "The interactive slide shows the angular distribution of the electrons and how it changes when the sample loses its polarization. The nonzero slope is a direct manifestation of the pseudoscalar correlation $\\mathbf I\\cdot\\mathbf p_e$."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Взаимодействия нейтрино",
+          "en": "Neutrino interactions"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "slides",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/02_parity_violation.html#/wu-result"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0031",
+      "slug": "helicity-frame-change",
+      "qr_file": "HelicityFrameChange.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Смена спиральности при выборе системы отсчёта",
+        "en": "Helicity changes with the reference frame"
+      },
+      "caption": {
+        "ru": "В верхней части показана массивная частица: после перехода в систему, обгоняющую её, импульс меняет знак относительно спина. В нижней части показано, почему тот же приём невозможен для безмассовой частицы.",
+        "en": "The upper part shows a massive particle: in a frame that overtakes it, the momentum changes sign relative to the spin. The lower part shows why the same trick is impossible for a massless particle."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Взаимодействия нейтрино",
+          "en": "Neutrino interactions"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "slides",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/03_neutrino_spin.html#/frame-change"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0032",
+      "slug": "spin-tagging",
+      "qr_file": "SpinTagging.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Передача спиновой метки от нейтрино к фотону",
+        "en": "The spin tag passes from the neutrino to the photon"
+      },
+      "caption": {
+        "ru": "Анимация последовательно показывает электронный захват, разлёт нейтрино и ядра отдачи, а затем $\\gamma$-переход. Ось квантования всё время связана с импульсом нейтрино.",
+        "en": "The animation shows electron capture, the neutrino and the recoil nucleus flying apart, and then the $\\gamma$ transition. The quantization axis is tied to the neutrino momentum throughout."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Взаимодействия нейтрино",
+          "en": "Neutrino interactions"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "slides",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/03_neutrino_spin.html#/spin-tagging"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0033",
+      "slug": "resonance-filter",
+      "qr_file": "ResonanceFilter.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Резонанс как фильтр направления",
+        "en": "Resonance as a filter of direction"
+      },
+      "caption": {
+        "ru": "Фотон вдоль отдачи получает положительный доплеровский сдвиг и возбуждает резонанс в самариевом поглотителе. Фотон противоположного направления теряет энергию и не попадает в резонансную линию.",
+        "en": "A photon emitted along the recoil gets a positive Doppler shift and excites the resonance in the samarium absorber. A photon emitted in the opposite direction loses energy and misses the resonance line."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Взаимодействия нейтрино",
+          "en": "Neutrino interactions"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/resonance-filter.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/resonance-filter.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0034",
+      "slug": "photon-analyzer",
+      "qr_file": "PhotonAnalyzer.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Магнитный анализатор круговой поляризации",
+        "en": "A magnetic analyzer of circular polarization"
+      },
+      "caption": {
+        "ru": "При смене направления магнитного поля меняется спин-зависимая часть пропускания. Разность $N_+-N_-$ выделяет её на фоне гораздо большего неполяризованного потока.",
+        "en": "Reversing the magnetic field changes the spin-dependent part of the transmission. The difference $N_+-N_-$ separates it from the much larger unpolarized flux."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Взаимодействия нейтрино",
+          "en": "Neutrino interactions"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "slides",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/03_neutrino_spin.html#/photon-analyzer"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0035",
+      "slug": "goldhaber-chain",
+      "qr_file": "GoldhaberChain.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Цепочка измерения спиральности нейтрино",
+        "en": "The chain of the neutrino helicity measurement"
+      },
+      "caption": {
+        "ru": "Показана передача спиновой метки от нейтрино к ядру и фотону, отбор направления по доплеровскому сдвигу и измерение круговой поляризации фотона.",
+        "en": "The spin tag passes from the neutrino to the nucleus and the photon, the direction is selected by the Doppler shift, and the circular polarization of the photon is measured."
+      },
+      "book": {
+        "order": 2,
+        "section_title": {
+          "ru": "Взаимодействия нейтрино",
+          "en": "Neutrino interactions"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "slides",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/03_neutrino_spin.html#/experiment-chain"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0036",
+      "slug": "fermi-function",
+      "qr_file": "FermiFunction.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Кулоновская поправка к β-спектру",
+        "en": "The Coulomb correction to the β spectrum"
+      },
+      "caption": {
+        "ru": "Меняйте заряд дочернего ядра и сравнивайте β⁻- и β⁺-распады. Притяжение электрона усиливает спектр при малых энергиях, а отталкивание позитрона подавляет его.",
+        "en": "Change the charge of the daughter nucleus and compare β⁻ and β⁺ decays. The attraction of the electron enhances the spectrum at low energies, and the repulsion of the positron suppresses it."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/fermi-function.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/fermi-function.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0037",
+      "slug": "beta-endpoint",
+      "qr_file": "BetaEndpoint.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Масса нейтрино и конец β-спектра",
+        "en": "The neutrino mass and the end of the β spectrum"
+      },
+      "caption": {
+        "ru": "При увеличении массы конечная точка сдвигается влево, а последняя часть спектра подавляется.",
+        "en": "As the mass grows, the endpoint moves to the left and the last part of the spectrum is suppressed."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "slides",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/04_neutrino_mass_kinematics.html#/beta-endpoint-spectrum"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0038",
+      "slug": "endpoint-resolution",
+      "qr_file": "EndpointResolution.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Масса нейтрино и энергетическое разрешение",
+        "en": "The neutrino mass and the energy resolution"
+      },
+      "caption": {
+        "ru": "Интерактивный график сопоставляет истинный спектр со спектром после гауссова размытия. Особенно заметно изменение последних нескольких электронвольт.",
+        "en": "The interactive plot compares the true spectrum with the spectrum after Gaussian smearing. The change is most visible in the last few electronvolts."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/beta-endpoint-resolution.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/beta-endpoint-resolution.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0039",
+      "slug": "resolved-mass-spectrum",
+      "qr_file": "ResolvedMassSpectrum.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Один β-спектр и несколько массовых порогов",
+        "en": "One β spectrum and several mass thresholds"
+      },
+      "caption": {
+        "ru": "При достаточно хорошем разрешении каждому $m_i$ соответствовал бы собственный излом с весом $|U_{ei}|^2$. В реальном эксперименте эти пороги сливаются в одну деформацию, задаваемую $m_\\beta$.",
+        "en": "With a good enough resolution each $m_i$ would give its own kink with weight $|U_{ei}|^2$. In a real experiment these thresholds merge into one distortion set by $m_\\beta$."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/mass-spectrum.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/mass-spectrum.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0040",
+      "slug": "kurie-plot",
+      "qr_file": "KuriePlot.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "График Кури вблизи конечной точки",
+        "en": "The Kurie plot near the endpoint"
+      },
+      "caption": {
+        "ru": "Безмассовый спектр даёт прямую, а масса искривляет её у конца. В анализе данных подгоняют исходный спектр, а не преобразованный график, вместе с полной функцией отклика.",
+        "en": "A massless spectrum gives a straight line, and a mass bends it near the end. The data analysis fits the original spectrum, not the transformed plot, together with the full response function."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "slides",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/04_neutrino_mass_kinematics.html#/kurie-plot"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0041",
+      "slug": "cyclotron-motion",
+      "qr_file": "CyclotronMotion.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Циклотронное движение в двух пространствах",
+        "en": "Cyclotron motion in two spaces"
+      },
+      "caption": {
+        "ru": "Меняйте импульс и магнитное поле. Слева показана орбита электрона, справа — то же движение в плоскости поперечных импульсов.",
+        "en": "Change the momentum and the magnetic field. The left panel shows the orbit of the electron, the right panel the same motion in the plane of the transverse momenta."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/cyclotron-motion.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/cyclotron-motion.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0042",
+      "slug": "planar-rotor",
+      "qr_file": "PlanarRotor.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Плоский ротатор",
+        "en": "A planar rotor"
+      },
+      "caption": {
+        "ru": "Остановите движение в произвольной фазе и сравните угол с касательной скоростью. Координата возвращается к тому же направлению через $2\\pi$.",
+        "en": "Stop the motion at any phase and compare the angle with the tangential velocity. The coordinate returns to the same direction after $2\\pi$."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/planar-rotor.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/planar-rotor.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0043",
+      "slug": "adiabatic-trough",
+      "qr_file": "AdiabaticTrough.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Частица в медленно меняющемся желобе",
+        "en": "A particle in a slowly changing trough"
+      },
+      "caption": {
+        "ru": "Запустите плавное изменение профиля. Апплет одновременно показывает движение частицы, фазовую орбиту и обмен между продольной и поперечной энергиями.",
+        "en": "Start a smooth change of the profile. The applet shows at once the motion of the particle, its phase orbit and the exchange between the longitudinal and transverse energies."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/adiabatic-trough.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/adiabatic-trough.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0044",
+      "slug": "loss-cone",
+      "qr_file": "LossCone.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Силовая линия, зеркальная точка и конус потерь",
+        "en": "A field line, the mirror point and the loss cone"
+      },
+      "caption": {
+        "ru": "Выберите силовую линию $L$ и экваториальный угол. Апплет показывает соответствующую высоту, движение направляющего центра и место, где частица отражается или входит в атмосферу. Быстрая циклотронная спираль не рисуется.",
+        "en": "Choose the field line $L$ and the equatorial angle. The applet shows the corresponding altitude, the motion of the guiding centre and the place where the particle is reflected or enters the atmosphere. The fast cyclotron spiral is not drawn."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/radiation-belts.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/radiation-belts.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0045",
+      "slug": "katrin-integral-spectrum",
+      "qr_file": "KatrinIntegralSpectrum.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Интегральный спектр KATRIN",
+        "en": "The integral spectrum of KATRIN"
+      },
+      "caption": {
+        "ru": "Запирающий потенциал задаёт нижнюю границу интеграла. Точки ближе всего к конечной энергии сильнее зависят от массы и содержат меньше событий.",
+        "en": "The retarding potential sets the lower limit of the integral. The points closest to the endpoint depend most strongly on the mass and contain the fewest events."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/katrin-integral-spectrum.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/katrin-integral-spectrum.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0046",
+      "slug": "cres-observables",
+      "qr_file": "CresObservables.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Спектр излучения и частотный трек CRES",
+        "en": "The emission spectrum and the CRES frequency track"
+      },
+      "caption": {
+        "ru": "Наклон линии возникает из-за радиационных потерь. Резкие скачки соответствуют столкновениям с остаточным газом, после которых начинается новый сегмент трека.",
+        "en": "The slope of the line comes from radiative losses. The sharp jumps are collisions with the residual gas, after which a new segment of the track begins."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/cres-observables.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/cres-observables.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0047",
+      "slug": "sn-mass-likelihood",
+      "qr_file": "SnMassLikelihood.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Масса нейтрино по временам прилёта",
+        "en": "The neutrino mass from the arrival times"
+      },
+      "caption": {
+        "ru": "Меняйте массу, число зарегистрированных нейтрино и разброс времени рождения. Наклон зависимости времени прилёта от $1/E^2$ определяет $m^2$, а свободный член поглощает неизвестный момент вспышки.",
+        "en": "Change the mass, the number of detected neutrinos and the spread of the emission times. The slope of the arrival time versus $1/E^2$ gives $m^2$, and the intercept absorbs the unknown moment of the burst."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Прямое измерение массы",
+          "en": "Direct measurement of the neutrino mass"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/sn-mass-likelihood.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/sn-mass-likelihood.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0048",
+      "slug": "two-flavor-lab",
+      "qr_file": "TwoFlavorLab.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Лаборатория двухфлэйворных осцилляций",
+        "en": "A laboratory of two-flavour oscillations"
+      },
+      "caption": {
+        "ru": "Интерактив позволяет независимо менять угол смешивания и путь в единицах $L_{\\mathrm{osc}}$. Первый управляет амплитудой, второй — фазой. В каждой точке выполняется $P_{\\alpha\\to\\alpha}+P_{\\alpha\\to\\beta}=1$.",
+        "en": "The interactive lets you change the mixing angle and the path in units of $L_{\\mathrm{osc}}$ independently. The first controls the amplitude, the second the phase. At every point $P_{\\alpha\\to\\alpha}+P_{\\alpha\\to\\beta}=1$."
+      },
+      "book": {
+        "order": 5,
+        "section_title": {
+          "ru": "Вакуумные осцилляции",
+          "en": "Vacuum oscillations"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/two-flavor-oscillations.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/two-flavor-oscillations.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0049",
+      "slug": "coupled-pendula",
+      "qr_file": "CoupledPendula.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Связанные маятники разных масс",
+        "en": "Coupled pendulums of different masses"
+      },
+      "caption": {
+        "ru": "Отношение масс задаёт угол смешивания, жёсткость пружины — разность собственных частот. График показывает точные нормированные величины $P_i=|a_i|^2/(|a_1|^2+|a_2|^2)$, а не приближённое распределение энергии.",
+        "en": "The mass ratio sets the mixing angle, the spring stiffness the difference of the eigenfrequencies. The plot shows the exact normalized quantities $P_i=|a_i|^2/(|a_1|^2+|a_2|^2)$, not an approximate energy distribution."
+      },
+      "book": {
+        "order": 5,
+        "section_title": {
+          "ru": "Вакуумные осцилляции",
+          "en": "Vacuum oscillations"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/coupled-pendula.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/coupled-pendula.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0050",
+      "slug": "pmns-from-data",
+      "qr_file": "PmnsFromData.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Соберите матрицу PMNS из измерений",
+        "en": "Build the PMNS matrix from measurements"
+      },
+      "caption": {
+        "ru": "Солнечный дефицит даёт электронную долю второй моды; атмосферное исчезновение фиксирует мюонную долю третьей. Нормировки и ортогональность заполняют остальные клетки приближённой матрицы. Последний шаг показывает реакторную поправку и границу такого восстановления.",
+        "en": "The solar deficit gives the electron share of the second mode; atmospheric disappearance fixes the muon share of the third. Normalization and orthogonality fill the remaining cells of the approximate matrix. The last step shows the reactor correction and the limit of such a reconstruction."
+      },
+      "book": {
+        "order": 5,
+        "section_title": {
+          "ru": "Вакуумные осцилляции",
+          "en": "Vacuum oscillations"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/pmns-from-data.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/pmns-from-data.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0051",
+      "slug": "three-flavor-triangle",
+      "qr_file": "ThreeFlavorTriangle.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Три флэйворные вероятности",
+        "en": "Three flavour probabilities"
+      },
+      "caption": {
+        "ru": "Точка внутри треугольника имеет барицентрические координаты $(P_{\\alpha e},P_{\\alpha\\mu},P_{\\alpha\\tau})$. Интерактив позволяет менять начальный флэйвор, три угла, $\\delta_{\\mathrm{CP}}$, порядок масс и $L/L_{\\mathrm{osc}}^{21}$ до трёх солнечных периодов. Можно переключать нейтрино и антинейтрино.",
+        "en": "A point inside the triangle has the barycentric coordinates $(P_{\\alpha e},P_{\\alpha\\mu},P_{\\alpha\\tau})$. The interactive lets you change the initial flavour, the three angles, $\\delta_{\\mathrm{CP}}$, the mass ordering and $L/L_{\\mathrm{osc}}^{21}$ up to three solar periods. Neutrinos and antineutrinos can be switched."
+      },
+      "book": {
+        "order": 5,
+        "section_title": {
+          "ru": "Вакуумные осцилляции",
+          "en": "Vacuum oscillations"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/flavor-triangle.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/flavor-triangle.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0052",
+      "slug": "refraction-layers",
+      "qr_file": "RefractionLayers.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Тонкий слой и накопленная фаза",
+        "en": "A thin layer and the accumulated phase"
+      },
+      "caption": {
+        "ru": "Меняйте показатель преломления и толщину пластинки. После выхода длина волны снова равна вакуумной, но накопленная фаза остаётся. Пунктир показывает волну без пластинки. Отражение на границах в этой модели не учитывается.",
+        "en": "Change the refractive index and the thickness of the plate. After the exit the wavelength equals the vacuum one again, but the accumulated phase remains. The dashed line shows the wave without the plate. Reflection at the boundaries is neglected in this model."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Осцилляции в веществе",
+          "en": "Oscillations in matter"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/slides/assets/06_matter_oscillations/refraction_labs.js"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/refraction-layers.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0053",
+      "slug": "refraction-two-modes",
+      "qr_file": "RefractionTwoModes.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Две волны в веществе",
+        "en": "Two waves in matter"
+      },
+      "caption": {
+        "ru": "Задавайте угол $\\theta_m$ и относительную фазу нормальных волн независимо. Фазоры слева показывают их фазы, а график справа — результат проекции на другой флэйвор. Величины $\\theta_m$ и $k_{2m}-k_{1m}$ пока заданы; их зависимость от плотности и энергии найдём в следующей главе.",
+        "en": "Set the angle $\\theta_m$ and the relative phase of the normal waves independently. The phasors on the left show their phases, the plot on the right the projection onto the other flavour. Here $\\theta_m$ and $k_{2m}-k_{1m}$ are given; their dependence on the density and the energy is found in the next chapter."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Осцилляции в веществе",
+          "en": "Oscillations in matter"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/slides/assets/06_matter_oscillations/refraction_labs.js"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/refraction-two-modes.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0054",
+      "slug": "matter-constant",
+      "qr_file": "MatterConstant.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Осцилляции при постоянной плотности",
+        "en": "Oscillations at constant density"
+      },
+      "caption": {
+        "ru": "Сравните вакуум, резонанс и область высокой плотности. Вещество меняет две разные величины: высоту огибающей $\\sin^22\\theta_m$ и длину осцилляций $L_m$. Далеко за резонансом электронный флэйвор становится почти собственной модой, поэтому переход подавляется.",
+        "en": "Compare the vacuum, the resonance and the high-density region. Matter changes two different quantities: the height of the envelope $\\sin^22\\theta_m$ and the oscillation length $L_m$. Far beyond the resonance the electron flavour becomes almost an eigenmode, so the transition is suppressed."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Осцилляции в веществе",
+          "en": "Oscillations in matter"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/matter-constant.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/matter-constant.html"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0055",
+      "slug": "matter-adiabatic",
+      "qr_file": "MatterAdiabatic.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Медленный и быстрый проход через избегаемое пересечение",
+        "en": "Slow and fast passage through an avoided crossing"
+      },
+      "caption": {
+        "ru": "При медленном профиле $P_{2m}$ остаётся близкой к единице. При быстром профиле состояние отстаёт от поворачивающегося собственного вектора и появляется настоящий переход между мгновенными ветвями.",
+        "en": "For a slow profile $P_{2m}$ stays close to one. For a fast profile the state lags behind the rotating eigenvector, and a real transition between the instantaneous branches appears."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Осцилляции в веществе",
+          "en": "Oscillations in matter"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        },
+        "code_url": "https://github.com/NeutrinoHit/neutrinophysics/blob/main/introduction/ru/applets/matter-adiabatic.qmd"
+      },
+      "link": {
+        "kind": "applet",
+        "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/matter-adiabatic.html"
+      },
+      "legacy_codes": []
     }
   ]
 }

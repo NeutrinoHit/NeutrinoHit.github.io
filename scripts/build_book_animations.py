@@ -10,6 +10,9 @@ Hosting modes (field "hosting" of an item):
   self      the animation is published here (needs "media.source")
   external  rights are not ours: the page credits the author and links out
   pending   the animation is not available yet: the page says so
+  link      our own interactive material published elsewhere on NeutrinoHit (an applet, a slide of
+            a lecture, an interactive figure of the online book): the page describes it and links
+            to "link.url"; "link.kind" (applet, slides, book) selects the wording
 
 An item with "status": "proposed" is validated but not published (no page, no
 index entry, no QR url) until the status is removed; --include-proposed builds
@@ -65,7 +68,19 @@ INDEX_DIR = QR_ROOT / "qft"                  # where the index page is written
 MANIFEST_DIR = QR_ROOT                       # where manifest.json is written
 BOOK_SLUG = "qft"
 
-HOSTING = ("self", "external", "pending")
+HOSTING = ("self", "external", "pending", "link")
+# link.kind: (what it is, button) as {ru, en} pairs
+LINK_KINDS = {
+    "applet": ({"ru": "Интерактивный апплет: параметры можно менять прямо в браузере.",
+                "en": "An interactive applet: change the parameters right in the browser."},
+               {"ru": "Открыть апплет", "en": "Open the applet"}, {"ru": "апплет", "en": "applet"}),
+    "slides": ({"ru": "Анимация на слайде лекции.", "en": "An animation on a slide of the lecture."},
+               {"ru": "Открыть слайд", "en": "Open the slide"}, {"ru": "слайд", "en": "slide"}),
+    "book":   ({"ru": "Интерактивная иллюстрация в электронной версии книги.",
+                "en": "An interactive figure in the online version of the book."},
+               {"ru": "Открыть в электронной книге", "en": "Open in the online book"},
+               {"ru": "интерактив", "en": "interactive"}),
+}
 MAX_SIDE = 1280
 COPY_LIMIT_MB = 3.0
 
@@ -171,6 +186,12 @@ def validate(catalog: dict[str, Any]) -> list[str]:
             url = item.get("external_url", "")
             if urlparse(url).scheme != "https":
                 problems.append(f"{ident}: external_url must be https")
+        if hosting == "link":
+            link = item.get("link", {})
+            if urlparse(link.get("url", "")).scheme != "https":
+                problems.append(f"{ident}: link.url must be https")
+            if link.get("kind") not in LINK_KINDS:
+                problems.append(f"{ident}: link.kind must be one of {tuple(LINK_KINDS)}")
     return problems
 
 
@@ -442,11 +463,11 @@ def topbar(prefix: str) -> str:
 """
 
 
-def footer(catalog: dict[str, Any]) -> str:
+def footer(catalog: dict[str, Any], what: tuple[str, str] = ("Анимация к книге", "Animation for the book")) -> str:
     book = catalog["book"]
     author = bi_raw(esc(book["author"]["ru"]), esc(book["author"]["en"]))
     return f"""<footer>
-<p>{bi_raw("Анимация к книге", "Animation for the book")} <a href="{esc(book["page"]["ru"])}" lang="ru">«{esc(book["title"]["ru"])}»</a><a href="{esc(book["page"]["en"])}" lang="en">“{esc(book["title"]["en"])}”</a>, {author} · <a href="/">NeutrinoHit</a></p>
+<p>{bi_raw(*what)} <a href="{esc(book["page"]["ru"])}" lang="ru">«{esc(book["title"]["ru"])}»</a><a href="{esc(book["page"]["en"])}" lang="en">“{esc(book["title"]["en"])}”</a>, {author} · <a href="/">NeutrinoHit</a></p>
 </footer>
 </div>
 <script>{LANG_BAR_JS}</script>
@@ -540,6 +561,13 @@ def render_item(catalog: dict[str, Any], items: list[dict[str, Any]], index: int
 <p><a class="btn primary" href="{esc(item["external_url"])}" rel="noopener">{bi_raw("Смотреть анимацию", "Watch the animation")} ({host})</a></p>
 </div>
 """
+    elif hosting == "link":
+        about, button, _ = LINK_KINDS[item["link"]["kind"]]
+        page += f"""<div class="card">
+<p>{bi(about)}</p>
+<p><a class="btn primary" href="{esc(item["link"]["url"])}">{bi(button)}</a></p>
+</div>
+"""
     else:
         page += f"""<div class="card">
 <p>{bi_raw("Эта анимация скоро появится на странице. Загляните позже.", "This animation will appear here soon. Please check back later.")}</p>
@@ -549,7 +577,8 @@ def render_item(catalog: dict[str, Any], items: list[dict[str, Any]], index: int
     page += f'<p class="caption">{bi(item["caption"])}</p>\n'
     page += credit_block(item)
     page += neighbours(items, index)
-    page += footer(catalog)
+    page += footer(catalog, ("Материал к книге", "Material for the book") if hosting == "link" else
+                   ("Анимация к книге", "Animation for the book"))
     if hosting == "self":
         scripts = PLAYER_JS + ("\n" + MEDIA_JS if per_language(item) else "")
         page = page.replace("</body>", f"<script>{scripts}</script>\n</body>")
@@ -576,11 +605,18 @@ def render_alias(catalog: dict[str, Any], item: dict[str, Any], code: str) -> st
 
 def render_index(catalog: dict[str, Any], items: list[dict[str, Any]]) -> str:
     book = catalog["book"]
-    title = {"ru": "Анимации книги", "en": "Animations of the book"}
-    desc = {
-        "ru": f"Все анимации, на которые ведут QR-коды книги «{book['title']['ru']}».",
-        "en": f"All animations linked by the QR codes of the book “{book['title']['en']}”.",
-    }
+    if any(item["hosting"] == "link" for item in items):
+        title = {"ru": "Анимации и интерактивы книги", "en": "Animations and interactives of the book"}
+        desc = {
+            "ru": f"Все анимации, апплеты и интерактивы, на которые ведут QR-коды книги «{book['title']['ru']}».",
+            "en": f"All animations, applets and interactives linked by the QR codes of the book “{book['title']['en']}”.",
+        }
+    else:
+        title = {"ru": "Анимации книги", "en": "Animations of the book"}
+        desc = {
+            "ru": f"Все анимации, на которые ведут QR-коды книги «{book['title']['ru']}».",
+            "en": f"All animations linked by the QR codes of the book “{book['title']['en']}”.",
+        }
     page = head(catalog, title, desc, f'{catalog["base_url"]}{INDEX_PATH}')
     page += f"""<div class="top"><a href="/qr/">{bi_raw("← Все книги", "← All books")}</a>
 <span class="lang" role="group" aria-label="Language"><button type="button" data-set="ru">RU</button><button type="button" data-set="en">EN</button></span></div>
@@ -598,6 +634,8 @@ def render_index(catalog: dict[str, Any], items: list[dict[str, Any]]) -> str:
         ident = item["id"]
         if item["hosting"] == "self" and (ASSET_DIR / f"{ident}.jpg").is_file():
             thumb = f'<img src="{INDEX_UP}assets/{ASSET_SUB}/{ident}.jpg" alt="" loading="lazy">'
+        elif item["hosting"] == "link":
+            thumb = f'<div class="ph">{bi(LINK_KINDS[item["link"]["kind"]][2])}</div>'
         else:
             thumb = f'<div class="ph">{bi_raw("на сайте автора", "on the author’s site") if item["hosting"] == "external" else bi_raw("скоро", "soon")}</div>'
         page += (f'<li><a href="{ITEM_REL}{ident}/">{thumb}<div class="t">{bi(item["title"])}'
@@ -636,6 +674,7 @@ def build_pages(catalog: dict[str, Any], items: list[dict[str, Any]],
             "hosting": item["hosting"],
             "qr_file": item.get("qr_file"),
             "legacy_codes": item.get("legacy_codes", []),
+            **({"link": item["link"]["url"]} if item["hosting"] == "link" else {}),
         }
         for item in items
     }
@@ -663,7 +702,7 @@ def render_hub(registry: dict[str, Any], built: dict[str, dict[str, Any]]) -> st
             continue
         count = info["count"]
         page += (f'<li><a href="{book["index_path"]}"><div class="t">{bi(book["title"])}'
-                 f'<small>{count} {bi_raw("анимаций", "animations")}</small></div></a></li>\n')
+                 f'<small>{count} {bi_raw("материалов", "items") if info.get("links") else bi_raw("анимаций", "animations")}</small></div></a></li>\n')
     page += "</ul>\n"
     page += f"""<footer><p><a href="/">NeutrinoHit</a></p></footer>
 </div>
@@ -716,7 +755,7 @@ def main() -> int:
         visible = [i for i in catalog["items"]
                    if args.include_proposed or i.get("status", "published") == "published"]
         items = sorted(visible, key=sort_key)
-        built[book["slug"]] = {"count": len(items)}
+        built[book["slug"]] = {"count": len(items), "links": any(i["hosting"] == "link" for i in items)}
 
         if args.urls:
             for item in sorted(visible, key=lambda i: i["id"]):

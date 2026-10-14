@@ -11,9 +11,1160 @@
       "en": "D. V. Naumov"
     },
     "page": {
-      "ru": "/ru/materials.html",
-      "en": "/en/materials.html"
+      "ru": "/statistical-analysis-course/ru/book/",
+      "en": "/statistical-analysis-course/en/book/"
     }
   },
-  "items": []
+  "items": [
+    {
+      "id": "0001",
+      "slug": "first-fit",
+      "qr_file": "FirstFit.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Подбор ширины распределения",
+        "en": "Fitting the width of a distribution"
+      },
+      "caption": {
+        "ru": "Интерактив позволяет самостоятельно подобрать ширину распределения.",
+        "en": "The interactive lets you fit the width of the distribution yourself."
+      },
+      "book": {
+        "order": 1,
+        "section_title": {
+          "ru": "Зачем физику статистика",
+          "en": "Why a physicist needs statistics"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/01_why_statistics.html#interactive-first-fit"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0002",
+      "slug": "cauchy-sum",
+      "qr_file": "CauchySum.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Сумма двух величин Коши",
+        "en": "The sum of two Cauchy variables"
+      },
+      "caption": {
+        "ru": "График строится из характеристических функций исходной величины и её суммы с независимой копией.",
+        "en": "The plot is built from the characteristic functions of the original variable and of its sum with an independent copy."
+      },
+      "book": {
+        "order": 3,
+        "section_title": {
+          "ru": "Характеристические функции и суммы случайных величин",
+          "en": "Characteristic functions and sums of random variables"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/03_characteristic_functions.html#interactive-cauchy-sum"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0003",
+      "slug": "clt-fourier",
+      "qr_file": "CltFourier.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Гауссов предел в пространстве Фурье",
+        "en": "The Gaussian limit in Fourier space"
+      },
+      "caption": {
+        "ru": "Меняя число слагаемых, можно проследить, как характеристическая функция нормированной суммы приближается к $e^{-t^2/2}$.",
+        "en": "Changing the number of terms, one can follow how the characteristic function of the normalized sum approaches $e^{-t^2/2}$."
+      },
+      "book": {
+        "order": 3,
+        "section_title": {
+          "ru": "Характеристические функции и суммы случайных величин",
+          "en": "Characteristic functions and sums of random variables"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/03_characteristic_functions.html#interactive-clt-fourier"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0004",
+      "slug": "clt-sums",
+      "qr_file": "CltSums.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Форма нормированной суммы",
+        "en": "The shape of the normalized sum"
+      },
+      "caption": {
+        "ru": "Меняйте число слагаемых и объём выборки. Гистограмма показывает новую реализацию численного эксперимента, а гладкая кривая — плотность $\\mathcal N(0,1)$.",
+        "en": "Change the number of terms and the sample size. The histogram shows a new realization of the numerical experiment, the smooth curve the density $\\mathcal N(0,1)$."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Центральная предельная теорема и нормальное распределение",
+          "en": "The central limit theorem and the normal distribution"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.html#interactive-clt-sums"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0005",
+      "slug": "compatibility",
+      "qr_file": "Compatibility.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Совместимость двух измерений",
+        "en": "Compatibility of two measurements"
+      },
+      "caption": {
+        "ru": "Изменяйте уровень $\\alpha$ и полученное значение $z_{\\mathrm{obs}}$. На графике показаны центральная область неотвержения, два хвоста и двустороннее $p$-значение.",
+        "en": "Change the level $\\alpha$ and the observed value $z_{\\mathrm{obs}}$. The plot shows the central non-rejection region, the two tails and the two-sided $p$-value."
+      },
+      "book": {
+        "order": 4,
+        "section_title": {
+          "ru": "Центральная предельная теорема и нормальное распределение",
+          "en": "The central limit theorem and the normal distribution"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.html#interactive-compatibility"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0006",
+      "slug": "cauchy-mean",
+      "qr_file": "CauchyMean.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Среднее распределения Коши",
+        "en": "The mean of the Cauchy distribution"
+      },
+      "caption": {
+        "ru": "Меняя число слагаемых, можно сравнить среднее величин Коши с нормированной суммой гауссовых величин.",
+        "en": "Changing the number of terms, one can compare the mean of Cauchy variables with the normalized sum of Gaussian variables."
+      },
+      "book": {
+        "order": 5,
+        "section_title": {
+          "ru": "Когда гаусс не возникает",
+          "en": "When the Gaussian does not appear"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-cauchy-mean"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0007",
+      "slug": "landau-tail",
+      "qr_file": "LandauTail.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Длинный хвост распределения Ландау",
+        "en": "The long tail of the Landau distribution"
+      },
+      "caption": {
+        "ru": "Интерактив сопоставляет ландау-подобное распределение с гауссовой кривой, имеющей ту же медиану и ту же центральную ширину.",
+        "en": "The interactive compares a Landau-like distribution with a Gaussian curve of the same median and the same central width."
+      },
+      "book": {
+        "order": 5,
+        "section_title": {
+          "ru": "Когда гаусс не возникает",
+          "en": "When the Gaussian does not appear"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-landau-tail"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0008",
+      "slug": "correlated-errors",
+      "qr_file": "CorrelatedErrors.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Статистическая и общая ошибки",
+        "en": "Statistical and common errors"
+      },
+      "caption": {
+        "ru": "Меняйте статистическую и общую составляющие ошибки и следите за шириной распределения среднего при росте выборки.",
+        "en": "Change the statistical and the common components of the error and follow the width of the distribution of the mean as the sample grows."
+      },
+      "book": {
+        "order": 5,
+        "section_title": {
+          "ru": "Когда гаусс не возникает",
+          "en": "When the Gaussian does not appear"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-correlated-errors"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0009",
+      "slug": "gaussian-mixture",
+      "qr_file": "GaussianMixture.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Смесь двух гауссовых классов",
+        "en": "A mixture of two Gaussian classes"
+      },
+      "caption": {
+        "ru": "Интерактив показывает, как веса, ширины и расстояние между средними меняют форму смеси.",
+        "en": "The interactive shows how the weights, the widths and the distance between the means change the shape of the mixture."
+      },
+      "book": {
+        "order": 5,
+        "section_title": {
+          "ru": "Когда гаусс не возникает",
+          "en": "When the Gaussian does not appear"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-gaussian-mixture"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0010",
+      "slug": "ratio-cauchy",
+      "qr_file": "RatioCauchy.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Отношение гауссовых величин",
+        "en": "The ratio of Gaussian variables"
+      },
+      "caption": {
+        "ru": "Меняйте среднее и ширину знаменателя и следите за появлением длинных хвостов у отношения.",
+        "en": "Change the mean and the width of the denominator and watch long tails appear in the ratio."
+      },
+      "book": {
+        "order": 5,
+        "section_title": {
+          "ru": "Когда гаусс не возникает",
+          "en": "When the Gaussian does not appear"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-ratio-cauchy"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0011",
+      "slug": "error-propagation-nonlinear",
+      "qr_file": "ErrorPropagationNonlinear.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Нелинейное преобразование Y = X + aX²",
+        "en": "The nonlinear transformation Y = X + aX²"
+      },
+      "caption": {
+        "ru": "Меняйте ширину исходного гаусса и коэффициент $a$. Гистограмма показывает распределение $Y$, а гладкая кривая — линейный прогноз.",
+        "en": "Change the width of the original Gaussian and the coefficient $a$. The histogram shows the distribution of $Y$, the smooth curve the linear prediction."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Распространение ошибок",
+          "en": "Error propagation"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/06_error_propagation.html#interactive-error-propagation-nonlinear"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0012",
+      "slug": "error-propagation-sample-variance",
+      "qr_file": "ErrorPropagationSampleVariance.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Десять гауссовских измерений",
+        "en": "Ten Gaussian measurements"
+      },
+      "caption": {
+        "ru": "Меняйте параметры распределения и начальное состояние генератора. Таблица показывает выборку, оценки $\\widehat\\mu$, $\\widehat{\\sigma^2}$, $\\widehat\\sigma$ и их расчётные неопределённости.",
+        "en": "Change the parameters of the distribution and the seed of the generator. The table shows the sample, the estimates $\\widehat\\mu$, $\\widehat{\\sigma^2}$, $\\widehat\\sigma$ and their computed uncertainties."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Распространение ошибок",
+          "en": "Error propagation"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/06_error_propagation.html#interactive-error-propagation-sample-variance"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0013",
+      "slug": "error-propagation-correlation",
+      "qr_file": "ErrorPropagationCorrelation.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Корреляционный вклад в дисперсию",
+        "en": "The correlation contribution to the variance"
+      },
+      "caption": {
+        "ru": "Меняйте производные, стандартные отклонения и $\\rho$. Три полосы показывают два диагональных и один корреляционный вклад в $\\sigma_F^2$.",
+        "en": "Change the derivatives, the standard deviations and $\\rho$. The three bars show the two diagonal contributions and the correlation contribution to $\\sigma_F^2$."
+      },
+      "book": {
+        "order": 6,
+        "section_title": {
+          "ru": "Распространение ошибок",
+          "en": "Error propagation"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/06_error_propagation.html#interactive-error-propagation-correlation"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0014",
+      "slug": "gaussian-correlation-ellipse",
+      "qr_file": "GaussianCorrelationEllipse.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Корреляция и эллипс",
+        "en": "Correlation and the ellipse"
+      },
+      "caption": {
+        "ru": "Меняйте $\\rho$, $\\sigma_X$ и $\\sigma_Y$. Точки показывают выборку из двумерного гаусса, линия — эллипс $D^2=2.30$.",
+        "en": "Change $\\rho$, $\\sigma_X$ and $\\sigma_Y$. The points are a sample from the two-dimensional Gaussian, the line is the ellipse $D^2=2.30$."
+      },
+      "book": {
+        "order": 7,
+        "section_title": {
+          "ru": "Двумерное гауссово распределение",
+          "en": "The two-dimensional Gaussian distribution"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/07_two_dimensional_gaussian.html#interactive-gaussian-correlation-ellipse"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0015",
+      "slug": "gaussian-probability-contour",
+      "qr_file": "GaussianProbabilityContour.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Вероятность и размер контура",
+        "en": "Probability and the size of the contour"
+      },
+      "caption": {
+        "ru": "Сплошная линия ограничивает выбранную долю распределения. Пунктир показывает $D^2=1$, который в двух измерениях содержит $39.3\\%$ вероятности.",
+        "en": "The solid line encloses the chosen fraction of the distribution. The dashed line shows $D^2=1$, which in two dimensions contains $39.3\\%$ of the probability."
+      },
+      "book": {
+        "order": 7,
+        "section_title": {
+          "ru": "Двумерное гауссово распределение",
+          "en": "The two-dimensional Gaussian distribution"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/07_two_dimensional_gaussian.html#interactive-gaussian-probability-contour"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0016",
+      "slug": "monte-carlo-rejection-sampling",
+      "qr_file": "MonteCarloRejectionSampling.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Метод отбора для плотности 6x(1 − x)",
+        "en": "Rejection sampling for the density 6x(1 − x)"
+      },
+      "caption": {
+        "ru": "Синие точки приняты, серые отброшены. Теоретическая доля принятых событий равна $2/3$.",
+        "en": "Blue points are accepted, grey ones rejected. The theoretical fraction of accepted events is $2/3$."
+      },
+      "book": {
+        "order": 8,
+        "section_title": {
+          "ru": "Метод Монте-Карло и псевдоэксперименты",
+          "en": "The Monte Carlo method and pseudo-experiments"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-rejection-sampling"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0017",
+      "slug": "monte-carlo-pi",
+      "qr_file": "MonteCarloPi.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Оценка числа π методом Монте-Карло",
+        "en": "Estimating π by the Monte Carlo method"
+      },
+      "caption": {
+        "ru": "Доля синих точек внутри четверти круга оценивает $\\pi/4$.",
+        "en": "The fraction of blue points inside the quarter circle estimates $\\pi/4$."
+      },
+      "book": {
+        "order": 8,
+        "section_title": {
+          "ru": "Метод Монте-Карло и псевдоэксперименты",
+          "en": "The Monte Carlo method and pseudo-experiments"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-pi"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0018",
+      "slug": "monte-carlo-grid-dimension",
+      "qr_file": "MonteCarloGridDimension.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Рост числа узлов регулярной сетки",
+        "en": "The growth of the number of nodes of a regular grid"
+      },
+      "caption": {
+        "ru": "При пяти узлах по каждой из восьми координат требуется $5^8=390\\,625$ вычислений.",
+        "en": "With five nodes along each of eight coordinates, $5^8=390\\,625$ evaluations are needed."
+      },
+      "book": {
+        "order": 8,
+        "section_title": {
+          "ru": "Метод Монте-Карло и псевдоэксперименты",
+          "en": "The Monte Carlo method and pseudo-experiments"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-grid-dimension"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0019",
+      "slug": "monte-carlo-importance-sampling",
+      "qr_file": "MonteCarloImportanceSampling.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Равномерная выборка и выборка по важности",
+        "en": "Uniform sampling and importance sampling"
+      },
+      "caption": {
+        "ru": "При равномерной генерации малая доля точек попадает в важную область.",
+        "en": "With uniform generation only a small fraction of the points falls into the important region."
+      },
+      "book": {
+        "order": 8,
+        "section_title": {
+          "ru": "Метод Монте-Карло и псевдоэксперименты",
+          "en": "The Monte Carlo method and pseudo-experiments"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-importance-sampling"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0020",
+      "slug": "monte-carlo-counting-experiment",
+      "qr_file": "MonteCarloCountingExperiment.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Ансамбль счётных экспериментов",
+        "en": "An ensemble of counting experiments"
+      },
+      "caption": {
+        "ru": "При $s=5$ и $b=10$ среднее распределения равно пяти, а около семи процентов псевдоэкспериментов дают $\\widehat s<0$.",
+        "en": "For $s=5$ and $b=10$ the mean of the distribution is five, and about seven per cent of the pseudo-experiments give $\\widehat s<0$."
+      },
+      "book": {
+        "order": 8,
+        "section_title": {
+          "ru": "Метод Монте-Карло и псевдоэксперименты",
+          "en": "The Monte Carlo method and pseudo-experiments"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-counting-experiment"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0021",
+      "slug": "opticks",
+      "qr_file": "Opticks.pdf",
+      "hosting": "external",
+      "external_url": "https://juno.ihep.ac.cn/~blyth/",
+      "title": {
+        "ru": "Моделирование оптических фотонов в Daya Bay и JUNO",
+        "en": "Simulation of optical photons in Daya Bay and JUNO"
+      },
+      "caption": {
+        "ru": "В ролике Саймона Блита показана работа Opticks: распространение оптических фотонов рассчитывается на графическом процессоре для геометрий детекторов Daya Bay и JUNO.",
+        "en": "Simon Blyth's video shows Opticks at work: the propagation of optical photons is computed on a GPU for the detector geometries of Daya Bay and JUNO."
+      },
+      "book": {
+        "order": 8,
+        "section_title": {
+          "ru": "Метод Монте-Карло и псевдоэксперименты",
+          "en": "The Monte Carlo method and pseudo-experiments"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Саймон Блит",
+          "en": "Simon Blyth"
+        },
+        "work": "Opticks"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0022",
+      "slug": "likelihood-binomial",
+      "qr_file": "LikelihoodBinomial.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Биномиальное правдоподобие",
+        "en": "The binomial likelihood"
+      },
+      "caption": {
+        "ru": "Меняйте число частиц $N$ и число срабатываний $k$. Вертикальная линия показывает оценку $\\widehat\\varepsilon=k/N$. При увеличении выборки максимум становится уже.",
+        "en": "Change the number of particles $N$ and the number of hits $k$. The vertical line shows the estimate $\\widehat\\varepsilon=k/N$. As the sample grows, the maximum becomes narrower."
+      },
+      "book": {
+        "order": 9,
+        "section_title": {
+          "ru": "Правдоподобие и оценки максимального правдоподобия",
+          "en": "Likelihood and maximum likelihood estimates"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/09_maximum_likelihood.html#interactive-likelihood-binomial"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0023",
+      "slug": "likelihood-variance-estimators",
+      "qr_file": "LikelihoodVarianceEstimators.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Две оценки дисперсии",
+        "en": "Two estimates of the variance"
+      },
+      "caption": {
+        "ru": "Распределения оценок дисперсии для $6000$ гауссовых выборок размера $N=6$ при $\\sigma^2=1$. Делитель $N-1$ устраняет смещение и одновременно увеличивает разброс оценки.",
+        "en": "Distributions of the variance estimates for $6000$ Gaussian samples of size $N=6$ with $\\sigma^2=1$. The divisor $N-1$ removes the bias and at the same time increases the spread of the estimate."
+      },
+      "book": {
+        "order": 10,
+        "section_title": {
+          "ru": "Свойства оценок и профильное правдоподобие",
+          "en": "Properties of estimators and the profile likelihood"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html#interactive-likelihood-variance-estimators"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0024",
+      "slug": "likelihood-lifetime",
+      "qr_file": "LikelihoodLifetime.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Оценка времени жизни",
+        "en": "Estimating a lifetime"
+      },
+      "caption": {
+        "ru": "Одна выборка из $N=20$ распадов при $\\tau_0=2\\ \\text{мкс}$. Показаны разность $\\ell(\\tau)-\\ell_{\\max}$, её квадратичное приближение и границы $q=1$. Все данные в этом примере сгенерированы.",
+        "en": "One sample of $N=20$ decays with $\\tau_0=2\\ \\mu\\text{s}$. Shown are the difference $\\ell(\\tau)-\\ell_{\\max}$, its quadratic approximation and the limits $q=1$. All data in this example are simulated."
+      },
+      "book": {
+        "order": 10,
+        "section_title": {
+          "ru": "Свойства оценок и профильное правдоподобие",
+          "en": "Properties of estimators and the profile likelihood"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html#interactive-likelihood-lifetime"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0025",
+      "slug": "likelihood-profile",
+      "qr_file": "LikelihoodProfile.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Профиль и фиксированное сечение",
+        "en": "The profile and the fixed slice"
+      },
+      "caption": {
+        "ru": "Двумерное относительное правдоподобие при $\\rho=0.75$ и две одномерные кривые: профиль $q_{\\mathrm p}(\\theta)$ и сечение $q(\\theta,0)$. Белая линия показывает $\\widehat{\\widehat\\eta}(\\theta)=\\rho\\theta$.",
+        "en": "The two-dimensional relative likelihood at $\\rho=0.75$ and two one-dimensional curves: the profile $q_{\\mathrm p}(\\theta)$ and the slice $q(\\theta,0)$. The white line shows $\\widehat{\\widehat\\eta}(\\theta)=\\rho\\theta$."
+      },
+      "book": {
+        "order": 10,
+        "section_title": {
+          "ru": "Свойства оценок и профильное правдоподобие",
+          "en": "Properties of estimators and the profile likelihood"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html#interactive-likelihood-profile"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0026",
+      "slug": "likelihood-reactor-oscillation",
+      "qr_file": "LikelihoodReactorOscillation.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Подгонка реакторного спектра",
+        "en": "Fitting a reactor spectrum"
+      },
+      "caption": {
+        "ru": "Псевдоэксперимент при $N_0=2500$, $A_0=0.085$, $\\Delta m_0^2=2.5\\cdot10^{-3}\\ \\text{эВ}^2$ и 18 энергетических бинах. Зелёным обозначены параметры генерации, оранжевым — максимум на сетке. Показаны двумерное правдоподобие, спектр событий и два одномерных профиля.",
+        "en": "A pseudo-experiment with $N_0=2500$, $A_0=0.085$, $\\Delta m_0^2=2.5\\cdot10^{-3}\\ \\text{eV}^2$ and 18 energy bins. Green marks the generated parameters, orange the maximum on the grid. Shown are the two-dimensional likelihood, the event spectrum and two one-dimensional profiles."
+      },
+      "book": {
+        "order": 10,
+        "section_title": {
+          "ru": "Свойства оценок и профильное правдоподобие",
+          "en": "Properties of estimators and the profile likelihood"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html#interactive-likelihood-reactor-oscillation"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0027",
+      "slug": "least-squares-parameter-geometry",
+      "qr_file": "LeastSquaresParameterGeometry.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Геометрия корреляции параметров",
+        "en": "The geometry of the parameter correlation"
+      },
+      "caption": {
+        "ru": "При $\\bar x_w=1.8$ и $s_x=1$ корреляция оценок равна $-0.87$. Перенос центра к нулю устраняет наклон эллипса. Увеличение разброса точек уменьшает ошибку наклона прямой.",
+        "en": "For $\\bar x_w=1.8$ and $s_x=1$ the correlation of the estimates is $-0.87$. Moving the centre to zero removes the tilt of the ellipse. A larger spread of the points reduces the error of the slope."
+      },
+      "book": {
+        "order": 11,
+        "section_title": {
+          "ru": "Метод наименьших квадратов и линейная подгонка",
+          "en": "Least squares and the linear fit"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/11_least_squares_linear_fit.html#interactive-least-squares-parameter-geometry"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0028",
+      "slug": "least-squares-outlier",
+      "qr_file": "LeastSquaresOutlier.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Прямая, остатки и выброс",
+        "en": "A straight line, residuals and an outlier"
+      },
+      "caption": {
+        "ru": "Подгонка $16$ псевдоизмерений при масштабе ошибок $0.55$ и без дополнительного сдвига. Пунктиром показана истинная прямая, сплошной линией — результат подгонки. Нижний график содержит остатки, делённые на ошибки точек.",
+        "en": "A fit of $16$ pseudo-measurements with an error scale of $0.55$ and no extra shift. The dashed line is the true line, the solid line the fit. The lower plot shows the residuals divided by the errors of the points."
+      },
+      "book": {
+        "order": 11,
+        "section_title": {
+          "ru": "Метод наименьших квадратов и линейная подгонка",
+          "en": "Least squares and the linear fit"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/11_least_squares_linear_fit.html#interactive-least-squares-outlier"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0029",
+      "slug": "least-squares-delta-chi2",
+      "qr_file": "LeastSquaresDeltaChi2.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Интервал по пересечению с уровнем χ²",
+        "en": "An interval from the crossing of a χ² level"
+      },
+      "caption": {
+        "ru": "При $\\sigma_\\theta=1$ и $c=1$ границы лежат при $\\theta-\\widehat\\theta=\\pm1$. Пунктир задаёт уровень отсечения, сплошная кривая показывает $\\Delta\\chi^2$.",
+        "en": "For $\\sigma_\\theta=1$ and $c=1$ the limits lie at $\\theta-\\widehat\\theta=\\pm1$. The dashed line sets the cut level, the solid curve shows $\\Delta\\chi^2$."
+      },
+      "book": {
+        "order": 12,
+        "section_title": {
+          "ru": "χ²-интервалы и систематические неопределённости",
+          "en": "χ² intervals and systematic uncertainties"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/12_least_squares_systematics.html#interactive-least-squares-delta-chi2"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0030",
+      "slug": "least-squares-normalization",
+      "qr_file": "LeastSquaresNormalization.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Общая нормировка: модель и подстановка данных",
+        "en": "A common normalization: the model and the data substitution"
+      },
+      "caption": {
+        "ru": "При $f_N=0.10$ модель даёт центральное значение $8.235$ пб, а подстановка данных в нормировочную ковариацию — $7.874$ пб. Профиль модели асимметричен; пунктирная функция с фиксированной матрицей является параболой.",
+        "en": "For $f_N=0.10$ the model gives the central value $8.235$ pb, and substituting the data into the normalization covariance gives $7.874$ pb. The profile of the model is asymmetric; the dashed function with a fixed matrix is a parabola."
+      },
+      "book": {
+        "order": 12,
+        "section_title": {
+          "ru": "χ²-интервалы и систематические неопределённости",
+          "en": "χ² intervals and systematic uncertainties"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/12_least_squares_systematics.html#interactive-least-squares-normalization"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0031",
+      "slug": "goodness-chi2-shape",
+      "qr_file": "GoodnessChi2Shape.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Форма распределения χ²",
+        "en": "The shape of the χ² distribution"
+      },
+      "caption": {
+        "ru": "При $\\nu=10$ среднее равно $10$, стандартное отклонение — $\\sqrt{20}$. Плотность асимметрична. Отметки среднего и ширины не являются границами интервала с заданной вероятностью.",
+        "en": "For $\\nu=10$ the mean is $10$ and the standard deviation $\\sqrt{20}$. The density is asymmetric. The marks of the mean and the width are not the limits of an interval with a given probability."
+      },
+      "book": {
+        "order": 13,
+        "section_title": {
+          "ru": "Качество согласия и статистическая значимость",
+          "en": "Goodness of fit and statistical significance"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-chi2-shape"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0032",
+      "slug": "goodness-pvalue-tail",
+      "qr_file": "GoodnessPvalueTail.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "p-значение как площадь хвоста",
+        "en": "The p-value as the area of a tail"
+      },
+      "caption": {
+        "ru": "Для $\\nu=50$ и $t_{\\mathrm{obs}}=70$ площадь правого хвоста равна $p\\simeq0.0324$. Закрашена вероятность получить $T\\ge70$ при этой модели.",
+        "en": "For $\\nu=50$ and $t_{\\mathrm{obs}}=70$ the area of the right tail is $p\\simeq0.0324$. The shaded area is the probability to get $T\\ge70$ under this model."
+      },
+      "book": {
+        "order": 13,
+        "section_title": {
+          "ru": "Качество согласия и статистическая значимость",
+          "en": "Goodness of fit and statistical significance"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-pvalue-tail"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0033",
+      "slug": "goodness-pvalue-calibration",
+      "qr_file": "GoodnessPvalueCalibration.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Распределение p-значений",
+        "en": "The distribution of p-values"
+      },
+      "caption": {
+        "ru": "20 000 опытов задают калибровку; для 5000 независимых опытов построена гистограмма p-значений. Пунктир показывает единичную плотность. Отклонения столбцов связаны с конечным размером обеих выборок.",
+        "en": "20 000 trials set the calibration; a histogram of the p-values is built for 5000 independent trials. The dashed line shows the unit density. The deviations of the bars come from the finite size of both samples."
+      },
+      "book": {
+        "order": 13,
+        "section_title": {
+          "ru": "Качество согласия и статистическая значимость",
+          "en": "Goodness of fit and statistical significance"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-pvalue-calibration"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0034",
+      "slug": "goodness-p-to-z-one-sided",
+      "qr_file": "GoodnessPToZOneSided.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Односторонняя гауссова шкала",
+        "en": "The one-sided Gaussian scale"
+      },
+      "caption": {
+        "ru": "При $Z=2$ правый хвост содержит $p=0.02275$. Ползунок позволяет сопоставить положение границы с площадью хвоста.",
+        "en": "For $Z=2$ the right tail contains $p=0.02275$. The slider relates the position of the limit to the area of the tail."
+      },
+      "book": {
+        "order": 13,
+        "section_title": {
+          "ru": "Качество согласия и статистическая значимость",
+          "en": "Goodness of fit and statistical significance"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-p-to-z-one-sided"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0035",
+      "slug": "goodness-p-to-z-two-sided",
+      "qr_file": "GoodnessPToZTwoSided.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Два гауссовых хвоста",
+        "en": "Two Gaussian tails"
+      },
+      "caption": {
+        "ru": "За пределами $[-2,2]$ находится вероятность $0.04550$. Каждый из двух хвостов содержит половину этой вероятности.",
+        "en": "Outside $[-2,2]$ lies the probability $0.04550$. Each of the two tails contains half of it."
+      },
+      "book": {
+        "order": 13,
+        "section_title": {
+          "ru": "Качество согласия и статистическая значимость",
+          "en": "Goodness of fit and statistical significance"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-p-to-z-two-sided"
+      },
+      "legacy_codes": []
+    },
+    {
+      "id": "0036",
+      "slug": "goodness-low-count-calibration",
+      "qr_file": "GoodnessLowCountCalibration.pdf",
+      "hosting": "link",
+      "title": {
+        "ru": "Проверка χ²-приближения при малых счётах",
+        "en": "Checking the χ² approximation at low counts"
+      },
+      "caption": {
+        "ru": "Гистограмма построена по 80 000 опытов для ожиданий из таблицы главы. Пунктир — плотность $\\chi^2_{20}$, вертикальная линия — $t_{\\mathrm{obs}}=29.8$. Оба p-значения вычисляются по всему хвосту, включая значения за правой границей рисунка.",
+        "en": "The histogram is built from 80 000 trials for the expectations of the table in the chapter. The dashed line is the density $\\chi^2_{20}$, the vertical line $t_{\\mathrm{obs}}=29.8$. Both p-values are computed over the whole tail, including the values beyond the right edge of the plot."
+      },
+      "book": {
+        "order": 13,
+        "section_title": {
+          "ru": "Качество согласия и статистическая значимость",
+          "en": "Goodness of fit and statistical significance"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "link": {
+        "kind": "book",
+        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-low-count-calibration"
+      },
+      "legacy_codes": []
+    }
+  ]
 }

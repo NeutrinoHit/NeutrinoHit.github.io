@@ -29,5 +29,7 @@
 `assets/book-animations/<slug>/`). Анимация, которая уже есть на сайте, задаётся как `"media": {"site_asset": {"ru": "assets/...mp4", "en": "assets/...-en.mp4"}, "poster_time": 12.0}`
 (строка вместо пары — одно видео для обоих языков); можно добавить `"gallery": "раздел/сюжет"`.
 Для книги с томами в `book` вместо `order`/`section_title` указываются `volume`, `chapter`, `chapter_title`.
-`hosting`: `self` — видео на странице; `external` — права не у нас, нужен `external_url`; `pending` — «скоро».
+`hosting`: `self` — видео на странице; `external` — права не у нас, нужен `external_url`; `pending` — «скоро»;
+`link` — наш интерактивный материал в другом месте NeutrinoHit: `"link": {"kind": "applet" | "slides" | "book", "url": "https://..."}`
+(апплет, слайд лекции, интерактив электронной книги); страница описывает его и даёт кнопку перехода, `media` не нужен.
 Номер `id` после печати менять нельзя.

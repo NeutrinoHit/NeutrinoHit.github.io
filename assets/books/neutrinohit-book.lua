@@ -339,6 +339,81 @@ local function render_biography(div)
   return blocks
 end
 
+-- Printed QR card (the NeutrinoHit book standard, as in TheBook): a box of the
+-- text width titled «Отсканируйте», the code on the left with its short address
+-- printed under it in two lines (host / path), the caption on the right. The
+-- code and the address are links. No poster or film frame is printed next to it.
+local function qr_address(url)
+  local host, path = url:match("^%a[%w+.-]*://([^/]+)(/.*)$")
+  if not host then
+    return pandoc.RawInline("latex", latex_escape(url))
+  end
+  -- a long path (an applet, a slide) may break after / _ - #
+  local printed = latex_escape(path)
+    :gsub("/", "/\\allowbreak{}")
+    :gsub("\\_", "\\_\\allowbreak{}")
+    :gsub("%-", "-\\allowbreak{}")
+    :gsub("\\#", "\\#\\allowbreak{}")
+  return pandoc.RawInline("latex", latex_escape(host) .. "\\\\" .. printed)
+end
+
+local function qr_card(div, url, qr, caption)
+  local latex = FORMAT:match("latex")
+  local blocks = {}
+  if latex then
+    blocks[#blocks + 1] = pandoc.RawBlock(
+      "latex", "\\noindent\\begin{minipage}[t]{0.25\\linewidth}\\vspace{0pt}\\centering"
+    )
+  end
+  blocks[#blocks + 1] = pandoc.Para({
+    pandoc.Link({
+      pandoc.Image(
+        {pandoc.Str("QR-код")}, qr, "",
+        pandoc.Attr("", {"book-qr"}, {width = latex and "100%" or "24mm"})
+      )
+    }, url)
+  })
+  if latex then
+    blocks[#blocks + 1] = pandoc.Plain({
+      pandoc.RawInline("latex", "{\\fontsize{5pt}{6pt}\\selectfont\\ttfamily\\centering"),
+      pandoc.Link({qr_address(url)}, url),
+      pandoc.RawInline("latex", "\\par}")
+    })
+    blocks[#blocks + 1] = pandoc.RawBlock(
+      "latex",
+      "\\end{minipage}\\hfill\\begin{minipage}[t]{\\dimexpr0.75\\linewidth-3mm\\relax}\\vspace{0pt}"
+    )
+  end
+  for _, block in ipairs(caption) do
+    blocks[#blocks + 1] = block
+  end
+  if latex then
+    blocks[#blocks + 1] = pandoc.RawBlock("latex", "\\end{minipage}")
+    return latex_box(
+      blocks, div.identifier,
+      "[breakable=false,title={Отсканируйте\\ifdefined\\faIcon\\ \\faIcon{mobile-alt}\\fi},"
+        .. "fonttitle=\\sffamily\\small,coltitle=BookInk,top=3mm,"
+        .. "attach boxed title to top left={xshift=4mm,yshift*=-\\tcboxedtitleheight/2},"
+        .. "boxed title style={colback=BookPaper,colframe=BookTeal,boxrule=0.5pt,sharp corners}]"
+    )
+  end
+  return blocks
+end
+
+local function media_caption(div, title, label, source)
+  local blocks = {}
+  if title ~= "" then
+    blocks[#blocks + 1] = heading(title, label)
+  end
+  for _, block in ipairs(div.content) do
+    blocks[#blocks + 1] = block
+  end
+  if source then
+    blocks[#blocks + 1] = source
+  end
+  return blocks
+end
+
 local function render_animation(div)
   local title = value(div.attributes.title)
   local src = value(div.attributes.src)
@@ -397,8 +472,11 @@ local function render_animation(div)
     return blocks
   end
 
+  -- Print: the caption with the QR card. The poster of a video is a film frame
+  -- and is not printed; a block without a video (a static picture of an applet)
+  -- keeps its picture above the box.
   local blocks = {}
-  if poster_fixed ~= "" then
+  if poster_fixed ~= "" and src == "" and epub_src == "" then
     if FORMAT:match("latex") then
       blocks[#blocks + 1] = pandoc.RawBlock("latex", "\\begin{center}")
     end
@@ -413,42 +491,19 @@ local function render_animation(div)
     end
   end
 
-  local has_qr = qr_fixed ~= "" and url ~= ""
-  if FORMAT:match("latex") and has_qr then
-    blocks[#blocks + 1] = pandoc.RawBlock(
-      "latex", "\\noindent\\begin{minipage}[c]{\\dimexpr\\linewidth-30mm\\relax}"
-    )
+  local caption = media_caption(div, title, "Анимация", source)
+  local card
+  if qr_fixed ~= "" and url ~= "" then
+    card = qr_card(div, url, qr_fixed, caption)
+  else
+    card = FORMAT:match("latex") and
+      latex_box(caption, div.identifier, "[breakable=false]") or caption
   end
-  if title ~= "" then
-    blocks[#blocks + 1] = heading(title, "Анимация")
-  end
-  for _, block in ipairs(div.content) do
+  for _, block in ipairs(card) do
     blocks[#blocks + 1] = block
   end
-  if source then
-    blocks[#blocks + 1] = source
-  end
-  if FORMAT:match("latex") and has_qr then
-    blocks[#blocks + 1] = pandoc.RawBlock(
-      "latex", "\\end{minipage}\\hfill\\begin{minipage}[c]{26mm}\\centering"
-    )
-  end
-  if has_qr then
-    blocks[#blocks + 1] = pandoc.Para({
-      pandoc.Link({
-        pandoc.Image(
-          {pandoc.Str("QR-код интерактива")}, qr_fixed, "",
-          pandoc.Attr("", {"animation-qr"}, {width = "24mm"})
-        )
-      }, url)
-    })
-  end
-  if FORMAT:match("latex") and has_qr then
-    blocks[#blocks + 1] = pandoc.RawBlock("latex", "\\end{minipage}")
-  end
-
   if FORMAT:match("latex") then
-    return latex_box(blocks, div.identifier, "[breakable=false]")
+    return blocks
   end
   return pandoc.Div(
     blocks, pandoc.Attr(div.identifier, {"animation-block", "semantic-block"})
@@ -510,6 +565,7 @@ local function render_interactive(div)
     return blocks
   end
 
+  -- Print: an applet screenshot stays above the box; the QR card follows.
   local blocks = {}
   if poster_fixed ~= "" then
     if FORMAT:match("latex") then
@@ -526,46 +582,24 @@ local function render_interactive(div)
     end
   end
 
-  local has_qr = qr_fixed ~= "" and url ~= ""
-  if FORMAT:match("latex") and has_qr then
-    blocks[#blocks + 1] = pandoc.RawBlock(
-      "latex", "\\noindent\\begin{minipage}[c]{\\dimexpr\\linewidth-30mm\\relax}"
-    )
+  local caption = media_caption(div, title, "Интерактив", source)
+  local card
+  if qr_fixed ~= "" and url ~= "" then
+    card = qr_card(div, url, qr_fixed, caption)
+  else
+    if url ~= "" then
+      caption[#caption + 1] = pandoc.Para({
+        pandoc.Link({pandoc.Str("Открыть интерактив")}, url)
+      })
+    end
+    card = FORMAT:match("latex") and
+      latex_box(caption, div.identifier, "[breakable=false]") or caption
   end
-  if title ~= "" then
-    blocks[#blocks + 1] = heading(title, "Интерактив")
-  end
-  for _, block in ipairs(div.content) do
+  for _, block in ipairs(card) do
     blocks[#blocks + 1] = block
   end
-  if source then
-    blocks[#blocks + 1] = source
-  end
-  if FORMAT:match("latex") and has_qr then
-    blocks[#blocks + 1] = pandoc.RawBlock(
-      "latex", "\\end{minipage}\\hfill\\begin{minipage}[c]{26mm}\\centering"
-    )
-  end
-  if has_qr then
-    blocks[#blocks + 1] = pandoc.Para({
-      pandoc.Link({
-        pandoc.Image(
-          {pandoc.Str("QR-код интерактива")}, qr_fixed, "",
-          pandoc.Attr("", {"interactive-qr"}, {width = "24mm"})
-        )
-      }, url)
-    })
-  elseif url ~= "" then
-    blocks[#blocks + 1] = pandoc.Para({
-      pandoc.Link({pandoc.Str("Открыть интерактив")}, url)
-    })
-  end
-  if FORMAT:match("latex") and has_qr then
-    blocks[#blocks + 1] = pandoc.RawBlock("latex", "\\end{minipage}")
-  end
-
   if FORMAT:match("latex") then
-    return latex_box(blocks, div.identifier, "[breakable=false]")
+    return blocks
   end
   return pandoc.Div(
     blocks, pandoc.Attr(div.identifier, {"interactive-block", "semantic-block"})
