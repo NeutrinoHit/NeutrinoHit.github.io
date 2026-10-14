@@ -90,6 +90,36 @@
       "description": "Particle physics full course home"
     },
     {
+      "url": "https://neutrinohit.github.io/ru/education.html#light-propagation",
+      "type": "map-card",
+      "description": "RU education: light propagation in media (RTE)"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/education.html#light-propagation",
+      "type": "map-card",
+      "description": "EN education: light propagation in media (RTE)"
+    },
+    {
+      "url": "https://neutrinohit.github.io/rte_lectures/",
+      "type": "course-home",
+      "description": "Light propagation in media (RTE) course home"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/education.html#numerical-methods",
+      "type": "map-card",
+      "description": "RU education: numerical methods for physicists"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/education.html#numerical-methods",
+      "type": "map-card",
+      "description": "EN education: numerical methods for physicists"
+    },
+    {
+      "url": "https://neutrinohit.github.io/numerical_methods/",
+      "type": "course-home",
+      "description": "Numerical methods for physicists course home"
+    },
+    {
       "url": "https://neutrinohit.github.io/ru/outreach.html#in-a-nutshell",
       "description": "RU outreach: In a Nutshell"
     },
