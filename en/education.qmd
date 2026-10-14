@@ -666,6 +666,32 @@ toc: false
       </div>
     </details>
 
+    <details id="light-propagation" class="lecture-course lecture-course-light">
+      <summary>
+        <span class="lecture-course-status">In preparation · Russian</span>
+        <span class="lecture-course-title">Light propagation in media</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Russian-language lecture course on light transport in a scattering and absorbing medium: from the photon balance and the radiative transfer equation (RTE) to the expected signal of an optical module.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../rte_lectures/">Open course site</a>
+        </div>
+      </div>
+    </details>
+
+    <details id="numerical-methods" class="lecture-course lecture-course-numerical">
+      <summary>
+        <span class="lecture-course-status">In preparation · RU / EN</span>
+        <span class="lecture-course-title">Numerical methods for physicists</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>How a physicist solves problems that have no analytic solution: one lecture is one physical problem, and the methods are introduced when the problem cannot be solved without them. Python with Numba, lectures, problems and an online book.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../numerical_methods/">Open course site</a>
+        </div>
+      </div>
+    </details>
+
     <details id="oscillations" class="lecture-course lecture-course-oscillations">
       <summary>
         <span class="lecture-course-status">Planned</span>
