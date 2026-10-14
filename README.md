@@ -204,12 +204,16 @@ python scripts/build_book_animations.py --urls   # строки для pyplots/q
 говорит, что анимация скоро появится; `link` — наш апплет, слайд лекции или интерактив
 электронной книги в другом месте NeutrinoHit (`link.kind`, `link.url`), страница даёт кнопку
 перехода, так что и такой QR-код короткий. Видео для `self` берётся либо из
-`not-to-commit/book-animations-src/` (`media.source`, кодируется в `assets/book-animations/`),
+`data/book-animations-src/` (`media.source`, кодируется в `assets/book-animations/`; каталог в git не входит,
+исходники копируются туда из рендеров dvnanima и лекционных проектов),
 либо прямо из галереи (`media.site_asset`, копий нет). Свои анимации лучше сначала
 добавить в галерею (`animations.catalog.json`, `scripts/sync_dvnanima_gallery.py`),
 а книжной записи дать `media.site_asset` и `gallery` (раздел/сюжет галереи): на странице
 появится ссылка на сюжет в галерее. Страница `/qr/<slug>/<id>/` остаётся стабильным адресом
-для печати, галерея — полной библиотекой.
+для печати, галерея — полной библиотекой. Репозиторий dvnanima закрытый: в каталогах нет ссылок
+на его код (`credit.code_url`, `source_url`), `source_dir` галереи служит только для синхронизации;
+оба генератора отклоняют такие ссылки. Страницу галереи без пересборки медиа обновляет
+`scripts/sync_dvnanima_gallery.py --render-only`.
 
 Для обновления одного готового сюжета без замены медиа остальных анимаций:
 
@@ -252,7 +256,7 @@ QR-картинки книги QFT делает `TheBook/pyplots/qrcodes/make_qr
 Запись каталога книги без томов (`book` без `volume`/`chapter`) группируется по разделам: `book.order` и
 `book.section_title` (`ru`, `en`); у печатной книги остаются `volume`, `chapter`, `chapter_title`. Если анимация уже
 опубликована в другой книге, запись повторяет её: тот же `media.site_asset` (копии видео нет), подпись, `credit` и `gallery`;
-новая лекционная анимация кладётся в `not-to-commit/book-animations-src/<slug>/` и описывается через `media.source`.
+новая лекционная анимация кладётся в `data/book-animations-src/<slug>/` и описывается через `media.source`.
 
 Новая книга или новая запись:
 

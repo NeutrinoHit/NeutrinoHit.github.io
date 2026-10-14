@@ -31,3 +31,6 @@ __pycache__/
 
 # Project working files: probes, logs, check reports.
 /.work/
+
+# Large local inputs (sources of the QR book animations, see README).
+/data/
