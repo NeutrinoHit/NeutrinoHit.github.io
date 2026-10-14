@@ -7,6 +7,7 @@ import argparse
 import html
 import json
 import os
+import re
 import shutil
 import subprocess
 from pathlib import Path
@@ -36,12 +37,19 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--item", action="append", default=[], metavar="SECTION/ITEM",
                         help="refresh only these items' media; keep all gallery cards")
     parser.add_argument("--transcode-threshold-mb", type=float, default=4.0)
+    parser.add_argument("--render-only", action="store_true",
+                        help="rewrite the page from the published assets; touch no media")
     return parser.parse_args()
 
 
+PRIVATE_REPOSITORY = re.compile(r"github\.com/[^/\s\"]+/dvnanima\b")
+
+
 def load_catalog(path: Path) -> dict[str, Any]:
-    with path.open("r", encoding="utf-8") as handle:
-        return json.load(handle)
+    text = path.read_text(encoding="utf-8")
+    if PRIVATE_REPOSITORY.search(text):
+        raise ValueError(f"{path}: links to the private dvnanima repository are not published")
+    return json.loads(text)
 
 
 def shell_available(name: str) -> bool:
@@ -264,8 +272,6 @@ def render_qmd(
     assets: dict[tuple[str, str, str], dict[str, str]],
     output_path: Path,
 ) -> str:
-    repository_url = catalog["repository_url"].rstrip("/")
-    source_base_url = catalog["source_base_url"].rstrip("/")
     total_items = sum(len(section["items"]) for section in catalog["sections"])
     total_videos = sum(count_videos(section) for section in catalog["sections"])
 
@@ -281,12 +287,11 @@ def render_qmd(
         '<div class="lecture-catalog animation-catalog">',
         '  <p class="lecture-catalog-lead">',
         "    Подборка научных анимаций проектов NeutrinoHit. Ролики на этой странице",
-        "    опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.",
+        "    опубликованы как облегчённые web-версии.",
         "  </p>",
         '  <div class="animation-catalog-meta">',
         f'    <span>{esc(plural_ru(total_items, "сюжет", "сюжета", "сюжетов"))}</span>',
         f'    <span>{esc(plural_ru(total_videos, "ролик", "ролика", "роликов"))}</span>',
-        f'    <a href="{esc(repository_url)}">Репозиторий dvnanima</a>',
         "  </div>",
         '  <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">',
     ]
@@ -368,10 +373,9 @@ def render_qmd(
                     '              <div class="lecture-course-actions animation-actions">',
                 ]
             )
+            # dvnanima is private: "source_dir" stays internal; only an explicit
+            # public "source_url" (another repository) gets a link
             source_url = item.get("source_url")
-            source_dir = item.get("source_dir")
-            if not source_url and source_dir:
-                source_url = f"{source_base_url}/{source_dir.strip('/')}"
             if source_url:
                 lines.append(
                     f'                <a class="lecture-action-primary" href="{esc(source_url)}">Исходный код</a>'
@@ -422,6 +426,8 @@ def main() -> None:
         if len(parts) != 2 or tuple(parts) not in known:
             raise ValueError(f"Unknown SECTION/ITEM: {token}")
         only_items.add(tuple(parts))
+    if args.render_only:
+        only_items = {("", "")}                                # nothing selected: no copies, no posters
     assets = sync_assets(
         catalog=catalog,
         dvnanima_root=args.dvnanima_root.resolve(),

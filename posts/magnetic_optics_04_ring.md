@@ -15,5 +15,3 @@
 **диполь поворачивает, квадруполь фокусирует, секступоль корректирует.**
 
 🎬 [Полная анимация на сайте](https://neutrinohit.github.io/ru/animations.html#animation-accelerator-optics-ring)
-
-💻 [Код анимации](https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/ring_optics.py) · [код модели](https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/ring_model.py)

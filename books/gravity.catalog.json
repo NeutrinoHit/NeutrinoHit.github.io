@@ -41,7 +41,6 @@
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
         },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/hulse_taylor",
         "note": {
           "ru": "Параметры орбиты и производные периода: Weisberg, Huang, ApJ 829, 55 (2016).",
           "en": "Orbit parameters and period derivatives: Weisberg and Huang, ApJ 829, 55 (2016)."
@@ -78,8 +77,7 @@
         }
       },
       "credit": {
-        "author": "Д. В. Наумов",
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/galaxy_merger"
+        "author": "Д. В. Наумов"
       },
       "media": {
         "site_asset": "assets/animations/dvnanima/visual-stories-galaxy-merger-merger.mp4",
@@ -113,7 +111,6 @@
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
         },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/penrose_terrell",
         "note": {
           "ru": "Трассировка лучей с запаздыванием; схема по Пенроузу (1959) и Терреллу (1959).",
           "en": "Ray tracing with retarded times, after Penrose (1959) and Terrell (1959)."
@@ -154,7 +151,6 @@
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
         },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/simultaneity",
         "note": {
           "ru": "Диаграмма Минковского, преобразования Лоренца.",
           "en": "Minkowski diagram, Lorentz transformations."
@@ -195,7 +191,6 @@
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
         },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/wormhole_camera",
         "note": {
           "ru": "Лучи вычислены точно (эллиптические интегралы, как в решении задачи), небо — собственная процедурная модель (галактики, звёзды, туманности; пара взаимодействующих галактик — из N-body-расчёта книги). Параметры: $b=1$ (единица длины); для оценки энергии $b=1$ км.",
           "en": "The rays are computed exactly (elliptic integrals, as in the solution of the exercise); the sky is our own procedural model (galaxies, stars, nebulae; the pair of interacting galaxies comes from the N-body calculation of the book). Parameters: $b=1$ (the unit of length); for the energy estimate $b=1$ km."
@@ -236,7 +231,6 @@
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
         },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/black_hole_flyby",
         "note": {
           "ru": "Лучи вычислены численно (уравнение орбиты света, метод Рунге — Кутты; проверено по точному решению через эллиптические функции), орбита камеры — геодезическая Шварцшильда, аберрация и допплеровский сдвиг учтены точно. Диск тонкий, непрозрачный, температура по стандартной модели тонкого диска; цвет диска подобран для наглядности (температура 3800 K в самом ярком кольце), реальный диск вокруг такой чёрной дыры горячее. Небо — собственная процедурная модель (галактики, звёзды, туманности). Не учтены вращение дыры и толщина диска.",
           "en": "The rays are computed numerically (the orbit equation of light, Runge-Kutta method; checked against the closed form with elliptic functions), the orbit of the camera is a Schwarzschild geodesic, aberration and the Doppler shift are included exactly. The disk is thin and opaque with the temperature of the standard thin-disk model; its colour is chosen for clarity (3800 K at the brightest ring), the real disk round such a black hole is hotter. The sky is our own procedural model (galaxies, stars, nebulae). The rotation of the hole and the thickness of the disk are not included."

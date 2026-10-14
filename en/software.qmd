@@ -23,9 +23,6 @@ toc: false
             <summary>dvnanima</summary>
             <div class="lecture-material-body">
               <p>Animations, visualizations, and scientific illustrations.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima">Open GitHub</a>
-              </div>
             </div>
           </details>
           <details class="lecture-material">
