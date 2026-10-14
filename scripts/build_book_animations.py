@@ -19,7 +19,7 @@ index entry, no QR url) until the status is removed; --include-proposed builds
 it anyway for a local preview.  An item may reuse a video that already lives on
 the site (media.site_asset) instead of copying it.
 
-Local sources live in not-to-commit/book-animations-src/ (git-ignored);
+Local sources live in data/book-animations-src/ (git-ignored);
 published outputs are committed.  To publish an item that is currently
 "external" or "pending" once the rights are cleared, set hosting to "self"
 and make sure media.source exists in the source directory.
@@ -42,6 +42,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -53,7 +54,9 @@ from urllib.parse import urlparse
 SITE_ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = SITE_ROOT / "books.catalog.json"
 QR_ROOT = SITE_ROOT / "qr"
-SOURCE_DIR = SITE_ROOT / "not-to-commit" / "book-animations-src"
+SOURCE_DIR = SITE_ROOT / "data" / "book-animations-src"
+# private repositories: their addresses never appear on a public page
+PRIVATE_REPOSITORY = re.compile(r"github\.com/[^/\s\"]+/dvnanima\b")
 
 # the book that is being built (set by set_book): the catalog, the poster directory, the pages and the relative links
 CATALOG = SITE_ROOT / "book-animations.catalog.json"
@@ -166,6 +169,8 @@ def validate(catalog: dict[str, Any]) -> list[str]:
         if hosting not in HOSTING:
             problems.append(f"{ident}: hosting must be one of {HOSTING}")
         credit = item.get("credit", {})
+        if PRIVATE_REPOSITORY.search(json.dumps(item)):
+            problems.append(f"{ident}: links to the private dvnanima repository are not published")
         if hosting == "self":
             media = item.get("media", {})
             if media.get("site_asset"):

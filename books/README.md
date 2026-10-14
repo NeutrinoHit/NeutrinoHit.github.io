@@ -19,17 +19,18 @@
   "title":   {"ru": "...", "en": "..."},
   "caption": {"ru": "... $E=mc^2$ ...", "en": "... $E=mc^2$ ..."},
   "book":    {"order": 1, "section_title": {"ru": "Раздел", "en": "Section"}},
-  "credit":  {"author": {"ru": "Д. В. Наумов", "en": "D. V. Naumov"}, "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/<project>"},
+  "credit":  {"author": {"ru": "Д. В. Наумов", "en": "D. V. Naumov"}},
   "media":   {"source": "<slug>/file.mp4", "poster_time": 12.0},
   "legacy_codes": []
 }
 ```
 
-`media.source` — файл в `not-to-commit/book-animations-src/` (в git не входит; на сайт идёт кодированная копия в
+`media.source` — файл в `data/book-animations-src/` (в git не входит; на сайт идёт кодированная копия в
 `assets/book-animations/<slug>/`). Анимация, которая уже есть на сайте, задаётся как `"media": {"site_asset": {"ru": "assets/...mp4", "en": "assets/...-en.mp4"}, "poster_time": 12.0}`
 (строка вместо пары — одно видео для обоих языков); можно добавить `"gallery": "раздел/сюжет"`.
 Для книги с томами в `book` вместо `order`/`section_title` указываются `volume`, `chapter`, `chapter_title`.
 `hosting`: `self` — видео на странице; `external` — права не у нас, нужен `external_url`; `pending` — «скоро»;
 `link` — наш интерактивный материал в другом месте NeutrinoHit: `"link": {"kind": "applet" | "slides" | "book", "url": "https://..."}`
 (апплет, слайд лекции, интерактив электронной книги); страница описывает его и даёт кнопку перехода, `media` не нужен.
-Номер `id` после печати менять нельзя.
+`credit.code_url` — ссылка на открытый код (например, апплет в открытом репозитории); на закрытый dvnanima
+не ссылаемся. Номер `id` после печати менять нельзя.
