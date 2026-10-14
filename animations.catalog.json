@@ -1,6 +1,4 @@
 {
-  "repository_url": "https://github.com/NeutrinoHit/dvnanima",
-  "source_base_url": "https://github.com/NeutrinoHit/dvnanima/tree/main",
   "sections": [
     {
       "id": "neutrino-particles",
@@ -1339,7 +1337,7 @@
         {
           "id": "dipole",
           "title": "Диполь: поворот частицы",
-          "source_url": "https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/magnetic_optics.py",
+          "source_dir": "accelerator_optics",
           "description": "Почему магнит поворачивает частицу, но не увеличивает её энергию.",
           "videos": [
             {
@@ -1353,7 +1351,7 @@
         {
           "id": "quadrupole",
           "title": "Квадруполь: магнитная линза",
-          "source_url": "https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/quadrupole_optics.py",
+          "source_dir": "accelerator_optics",
           "description": "Как чередующиеся квадруполи удерживают пучок сразу в двух плоскостях.",
           "videos": [
             {
@@ -1367,7 +1365,7 @@
         {
           "id": "sextupole",
           "title": "Секступоль: поправка для разных импульсов",
-          "source_url": "https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/sextupole_optics.py",
+          "source_dir": "accelerator_optics",
           "description": "Почему одного квадруполя недостаточно и как секступоль исправляет импульсную ошибку.",
           "videos": [
             {
@@ -1381,7 +1379,7 @@
         {
           "id": "ring",
           "title": "Собираем накопительное кольцо",
-          "source_url": "https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/ring_optics.py",
+          "source_dir": "accelerator_optics",
           "description": "Диполи, квадруполи и секступоли по шагам, а затем полный оборот пучка по кольцу.",
           "videos": [
             {

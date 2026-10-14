@@ -13,5 +13,3 @@
 В следующей части выяснится, почему даже хорошо настроенные квадруполи по-разному действуют на частицы разных импульсов.
 
 🎬 [Анимация на сайте](https://neutrinohit.github.io/ru/animations.html#animation-accelerator-optics-quadrupole)
-
-💻 [Исходный код](https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/quadrupole_optics.py)

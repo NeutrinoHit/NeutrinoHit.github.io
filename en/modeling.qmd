@@ -20,7 +20,6 @@ toc: false
         <p>Scientific animations by dvnanima: neutrinos and particles, the KATRIN MAC-E filter, fields and waves, mathematics, dynamical systems, and visual science stories.</p>
         <div class="lecture-course-actions">
           <a class="lecture-action-primary" href="animations.html">Open animations page</a>
-          <a href="https://github.com/NeutrinoHit/dvnanima">Source code</a>
           <a href="../ru/animations.html#neutrino-particles">Full gallery: neutrinos and particles</a>
           <a href="../ru/animations.html#fields-waves">Full gallery: fields and waves</a>
           <a href="../ru/animations.html#math-dynamical-systems">Full gallery: mathematics</a>
@@ -41,8 +40,7 @@ toc: false
             <div class="lecture-material-body">
               <p>Tools for scientific illustrations, animations, and visual presentation of data.</p>
               <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima">dvnanima</a>
-                <a href="https://github.com/NeutrinoHit/gTracker">gTracker</a>
+                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/gTracker">gTracker</a>
               </div>
             </div>
           </details>

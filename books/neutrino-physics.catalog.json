@@ -165,8 +165,7 @@
         }
       },
       "credit": {
-        "author": "Д. В. Наумов",
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/feynman_scattering"
+        "author": "Д. В. Наумов"
       },
       "media": {
         "site_asset": "assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-electron.mp4",
@@ -196,8 +195,7 @@
         }
       },
       "credit": {
-        "author": "Д. В. Наумов",
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/feynman_scattering"
+        "author": "Д. В. Наумов"
       },
       "media": {
         "site_asset": "assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-z.mp4",
@@ -295,7 +293,6 @@
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
         },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/air_shower_cascade",
         "note": {
           "ru": "Игрушечная модель Гайтлера (электромагнитный каскад, 1944) и Мэтьюза (адронная часть, 2005), метод Монте-Карло с фиксированным зерном, разрежение (thinning) по Хилласу; формула НКГ для поперечного распределения; N_max = E0/Ec, X_max = X0 ln(E0/Ec), N_μ = (E0/E_dec)^β.",
           "en": "Toy model of Heitler (electromagnetic cascade, 1944) and Matthews (hadronic part, 2005), Monte Carlo with a fixed seed, Hillas thinning; NKG formula for the lateral distribution; N_max = E0/Ec, X_max = X0 ln(E0/Ec), N_mu = (E0/E_dec)^beta."
@@ -335,8 +332,7 @@
         "author": {
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/pmt_multiplication"
+        }
       },
       "media": {
         "site_asset": {
@@ -372,8 +368,7 @@
         "author": {
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
-        },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_radiation"
+        }
       },
       "media": {
         "site_asset": {
@@ -826,7 +821,6 @@
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
         },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/earth_shield",
         "note": {
           "ru": "Карта поверхности — NASA Blue Marble Next Generation (июль 2004, NASA Earth Observatory); плотность — PREM (Dziewonski, Anderson, 1981); сечения нейтрино — CSMS (Cooper-Sarkar, Mertsch, Sarkar, arXiv:1106.3723); пробеги мюонов — таблицы PDG для стандартной породы и воды; ливни — модель Гайтлера–Мэтьюза. Нейтрино считаются только до первого взаимодействия (продукты NC и регенерация $\\tau$ не прослеживаются); атмосфера (показана до 40 км), ливни и детектор увеличены; пересечение Земли показано замедленно (на деле $43$ мс).",
           "en": "Surface map: NASA Blue Marble Next Generation (July 2004, NASA Earth Observatory); density: PREM (Dziewonski, Anderson, 1981); neutrino cross sections: CSMS (Cooper-Sarkar, Mertsch, Sarkar, arXiv:1106.3723); muon ranges: PDG tables of standard rock and water; showers: the Heitler–Matthews model. Neutrinos are followed up to the first interaction only (NC products and tau regeneration are not propagated); the atmosphere (shown up to 40 km), showers and the detector are enlarged; the crossing of the Earth is shown in slow motion (the real one takes $43$ ms)."
@@ -867,7 +861,6 @@
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
         },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/jet_launch",
         "note": {
           "ru": "Орбиты $400\\,000$ пробных частиц рассчитаны (приближение «замороженной» звезды, Lacy, Townes, Hollenbach 1982; релятивистская прецессия апсид); диск, импульсы потока Пойнтинга и пакеты плазмы схематичны (это не GRMHD-расчёт); поле Блэндфорда–Знаека (1977), спин $a=0{,}9$; последняя устойчивая орбита: Bardeen, Press, Teukolsky 1972; данные Swift J1644+57: Burrows и др. 2011, Levan и др. 2011; выключение джета: Zauderer и др. 2013. Джет возникает примерно у $1\\,\\%$ разрушений звёзд (оценки расходятся на порядок); джеты обычных AGN питаются газом.",
           "en": "The orbits of $400\\,000$ test particles are computed (the frozen-in star of Lacy, Townes, Hollenbach 1982, with the relativistic apsidal precession); the disc, the pulses of Poynting flux and the packets of plasma are schematic (not a GRMHD run); the Blandford–Znajek field (1977), spin $a=0.9$; the last stable orbit: Bardeen, Press, Teukolsky 1972; the data of Swift J1644+57: Burrows et al. 2011, Levan et al. 2011; the switch-off of the jet: Zauderer et al. 2013. A jet is launched in about $1\\,\\%$ of tidal disruptions (estimates differ by an order of magnitude); the jets of ordinary AGN are fed by gas."
@@ -908,7 +901,6 @@
           "ru": "Д. В. Наумов",
           "en": "D. V. Naumov"
         },
-        "code_url": "https://github.com/NeutrinoHit/dvnanima/tree/main/jet_star",
         "note": {
           "ru": "Газ: собственный осесимметричный гидродинамический расчёт (схема HLLC, проверена на задаче Сода), нерелятивистский, контраст плотности $100$, число Маха $10$; это не воспроизведение релятивистского расчёта Баркова, Ахаронян, Бош-Рамона (2010). Вводный план, протоны, столкновения и нейтрино — схематическая иллюстрация; посчитаны числа столкновений и циклы ускорения. Сценарий: Barkov, Aharonian, Bosch-Ramon (2010); Wang и др. (2018); Fichet de Clairfontaine и др. (2025). Земля: NASA Blue Marble (июль 2004).",
           "en": "The gas is our own axisymmetric hydrodynamic calculation (an HLLC scheme checked on the Sod problem), non-relativistic, density contrast $100$, Mach number $10$; it does not reproduce the relativistic calculation of Barkov, Aharonian and Bosch-Ramon (2010). The establishing shot, the protons, the collisions and the neutrinos are a schematic illustration; the numbers of the collisions and the acceleration cycles are computed. Scenario: Barkov, Aharonian, Bosch-Ramon (2010); Wang et al. (2018); Fichet de Clairfontaine et al. (2025). The Earth: NASA Blue Marble (July 2004)."

@@ -9,12 +9,11 @@ lang: ru-RU
 <div class="lecture-catalog animation-catalog">
   <p class="lecture-catalog-lead">
     Подборка научных анимаций проектов NeutrinoHit. Ролики на этой странице
-    опубликованы как облегчённые web-версии, а исходный код хранится в GitHub.
+    опубликованы как облегчённые web-версии.
   </p>
   <div class="animation-catalog-meta">
     <span>73 сюжета</span>
     <span>146 роликов</span>
-    <a href="https://github.com/NeutrinoHit/dvnanima">Репозиторий dvnanima</a>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
@@ -71,7 +70,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/neutrino_oscillations">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-neutrino-oscillations-triangle.mp4">MP4: Общая эволюция</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-neutrino-oscillations-electron.mp4">MP4: Электронный аромат</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-neutrino-oscillations-muon.mp4">MP4: Мюонный аромат</a>
@@ -98,7 +96,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/neutrino_oscillations_phases">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-neutrino-oscillation-phases-phases.mp4">MP4: Фазы осцилляций</a>
               </div>
             </div>
@@ -146,7 +143,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/mass_hierarchy">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-mass-hierarchy-scales.mp4">MP4: Шкалы масс</a>
               </div>
             </div>
@@ -170,7 +166,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/mass_hierarchy">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-juno-survival.mp4">MP4: Вероятность выживания</a>
               </div>
             </div>
@@ -203,7 +198,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/air_shower_cascade">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4">MP4: Каскад (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower-en.mp4">MP4: The cascade (English version)</a>
               </div>
@@ -237,7 +231,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/earth_shield">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield.mp4">MP4: Земля как щит (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield-en.mp4">MP4: The Earth as a shield (English version)</a>
               </div>
@@ -271,7 +264,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/jet_launch">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch.mp4">MP4: От звезды к джету (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch-en.mp4">MP4: From a star to a jet (English version)</a>
               </div>
@@ -305,7 +297,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/jet_star">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet.mp4">MP4: Звезда в джете (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet-en.mp4">MP4: A star in the jet (English version)</a>
               </div>
@@ -339,7 +330,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/milky_way_neutrinos">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos.mp4">MP4: Млечный Путь в нейтрино (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos-en.mp4">MP4: The Milky Way in neutrinos (English version)</a>
               </div>
@@ -373,7 +363,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/source_emerges">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-source-emerges-source-emerges.mp4">MP4: Источник проступает (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-source-emerges-source-emerges-en.mp4">MP4: A source emerges (English version)</a>
               </div>
@@ -416,7 +405,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/pp_cycle">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-pp-cycle-pp-to-d.mp4">MP4: p + p → D + e⁺ + νₑ</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-pp-cycle-d-p-he3.mp4">MP4: D + p → ³He + γ</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-pp-cycle-he3-he3.mp4">MP4: ³He + ³He → ⁴He + 2p</a>
@@ -451,7 +439,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/solar_photon_diffusion">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-ru.mp4">MP4: Русская версия</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-en.mp4">MP4: English version</a>
               </div>
@@ -476,7 +463,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/BBN">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-bbn-bbn-animation.mp4">MP4: Первые минуты</a>
               </div>
             </div>
@@ -527,7 +513,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/feynman_scattering">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-electron.mp4">MP4: νμ + e → νe + μ</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-z.mp4">MP4: Нейтринное рассеяние через Z</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-feynman-scattering-electron-electron.mp4">MP4: e + e</a>
@@ -554,7 +539,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/nucleus_shapes">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-nucleus-shapes-shape-morphs.mp4">MP4: Деформации</a>
               </div>
             </div>
@@ -578,7 +562,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/pmt">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-pmt-pmt-schematic.mp4">MP4: PMT schematic</a>
               </div>
             </div>
@@ -611,7 +594,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/pmt_multiplication">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4">MP4: Лавина электронов и импульс на аноде (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche-en.mp4">MP4: Avalanche of electrons and the anode pulse (English version)</a>
               </div>
@@ -654,7 +636,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/mac-e-filter">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-uniform-field.mp4">MP4: Винтовое движение в однородном поле</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-collimation.mp4">MP4: Магнитная коллимация KATRIN</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-electric.mp4">MP4: MAC-E: прохождение и отражение</a>
@@ -680,7 +661,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/project8_cres">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-project8-cres-cres-event.mp4">MP4: Один электрон — один частотный трек</a>
               </div>
             </div>
@@ -704,7 +684,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_cone">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-cherenkov-cone-cylinder.mp4">MP4: Конус в цилиндре</a>
               </div>
             </div>
@@ -737,7 +716,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/cherenkov_radiation">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4">MP4: Конус из волн Гюйгенса (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens-en.mp4">MP4: A cone of Huygens wavelets (English version)</a>
               </div>
@@ -771,7 +749,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/scattering_experiment">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.mp4">MP4: Столкновения пучков и детектор (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider-en.mp4">MP4: Colliding beams and the detector (English version)</a>
               </div>
@@ -805,7 +782,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/pi0_double_dalitz">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes.mp4">MP4: Плоскости пар, E и B (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes-en.mp4">MP4: Planes of the pairs, E and B (English version)</a>
               </div>
@@ -839,7 +815,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/z_decay_asymmetry">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film.mp4">MP4: Каналы, сумма, события и A_FB(√s) (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film-en.mp4">MP4: Channels, the sum, events and A_FB(√s) (English version)</a>
               </div>
@@ -873,7 +848,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/kaon_oscillations">Исходный код</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film.mp4">MP4: Осцилляции K⁰–K̄⁰ вдоль пучка (русская версия)</a>
                 <a href="../assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film-en.mp4">MP4: K⁰–K̄⁰ oscillations along the beam (English version)</a>
               </div>
@@ -945,7 +919,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/attraction_repulsion">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-scalar-qed-single.mp4">MP4: Один пакет и поле</a>
                 <a href="../assets/animations/dvnanima/fields-waves-scalar-qed-attraction.mp4">MP4: Притяжение: противоположные заряды (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-scalar-qed-attraction-en.mp4">MP4: Attraction: opposite charges (English version)</a>
@@ -982,7 +955,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/sm_fields">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack.mp4">MP4: Поля Стандартной модели: стопка листов (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack-en.mp4">MP4: Fields of the Standard Model: a stack of sheets (English version)</a>
               </div>
@@ -1007,7 +979,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/fields/mediator_interaction">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-mediator-interaction-with-interaction.mp4">MP4: С взаимодействием</a>
               </div>
             </div>
@@ -1040,7 +1011,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/fields/wavepackets_free">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-free-wavepackets-single.mp4">MP4: Один пакет</a>
                 <a href="../assets/animations/dvnanima/fields-waves-free-wavepackets-two.mp4">MP4: Два пакета</a>
               </div>
@@ -1074,7 +1044,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/free_wavepacket">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4">MP4: Движение и расплывание пакета (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading-en.mp4">MP4: Motion and spreading of the packet (English version)</a>
               </div>
@@ -1108,7 +1077,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_chain">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-coupled-chain-chain.mp4">MP4: Цепочка связанных осцилляторов (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-coupled-chain-chain-en.mp4">MP4: A chain of coupled oscillators (English version)</a>
               </div>
@@ -1142,7 +1110,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_lattice_2d">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice.mp4">MP4: Двумерная решётка связанных осцилляторов (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice-en.mp4">MP4: A two-dimensional lattice of coupled oscillators (English version)</a>
               </div>
@@ -1176,7 +1143,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_lattice_3d">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.mp4">MP4: Трёхмерная решётка связанных осцилляторов (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice-en.mp4">MP4: A three-dimensional lattice of coupled oscillators (English version)</a>
               </div>
@@ -1201,7 +1167,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/fields/radiating_charge">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-radiating-charge-three-dimensional.mp4">MP4: 3D</a>
               </div>
             </div>
@@ -1225,7 +1190,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/coupled_pendulums">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-coupled-pendulums-pendulums.mp4">MP4: Маятники</a>
               </div>
             </div>
@@ -1249,7 +1213,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/capacitor">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-capacitor-capacitor.mp4">MP4: Capacitor</a>
               </div>
             </div>
@@ -1273,7 +1236,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/diode">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-diode-diode.mp4">MP4: Diode</a>
               </div>
             </div>
@@ -1297,7 +1259,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/peak_detector">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-peak-detector-peak-detector.mp4">MP4: Peak detector</a>
               </div>
             </div>
@@ -1321,7 +1282,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/cockroftwalton">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-cockcroft-walton-cascade.mp4">MP4: Cascade</a>
               </div>
             </div>
@@ -1354,7 +1314,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/running_charge">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-running-charge-film.mp4">MP4: Заряд и виртуальные пары (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-running-charge-film-en.mp4">MP4: The charge and the virtual pairs (English version)</a>
               </div>
@@ -1388,7 +1347,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/electron_kick">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-electron-kick-front.mp4">MP4: Фронт волны от пинка (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-electron-kick-front-en.mp4">MP4: The wavefront of a kick (English version)</a>
               </div>
@@ -1422,7 +1380,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/zero_point_electron">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field.mp4">MP4: Поле и электрон (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field-en.mp4">MP4: The field and the electron (English version)</a>
               </div>
@@ -1456,7 +1413,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/thomson_tube">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-thomson-tube-crossed-fields.mp4">MP4: Скрещённые поля и e/m (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-thomson-tube-crossed-fields-en.mp4">MP4: Crossed fields and e/m (English version)</a>
               </div>
@@ -1490,7 +1446,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/oam_beams">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams.mp4">MP4: Закрученные пучки (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams-en.mp4">MP4: Twisted beams (English version)</a>
               </div>
@@ -1524,7 +1479,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/circular_polarization">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-circular-polarization-helicity.mp4">MP4: Спиральность и сложение поляризаций (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-circular-polarization-helicity-en.mp4">MP4: Helicity and the sum of polarizations (English version)</a>
               </div>
@@ -1558,7 +1512,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/meissner_photon_mass">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-meissner-photon-mass-film.mp4">MP4: Конденсат, пакет на границе, дисперсия (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-meissner-photon-mass-film-en.mp4">MP4: Condensate, a packet at the boundary, dispersion (English version)</a>
               </div>
@@ -1592,7 +1545,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/chiral_fermion_mass">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film.mp4">MP4: Две связанные киральные волны (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film-en.mp4">MP4: Two coupled chiral waves (English version)</a>
               </div>
@@ -1626,7 +1578,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/higgs_ff_spin">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-higgs-ff-spin-film.mp4">MP4: Спин и орбитальный момент пары (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-higgs-ff-spin-film-en.mp4">MP4: Spin and orbital momentum of the pair (English version)</a>
               </div>
@@ -1660,7 +1611,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/quantum_tunneling">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-quantum-tunneling-film.mp4">MP4: Точка, поезд, классическая волна и волна материи (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-quantum-tunneling-film-en.mp4">MP4: A point, a train, a classical wave and a matter wave (English version)</a>
               </div>
@@ -1694,7 +1644,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/chiral_anomaly">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-chiral-anomaly-film.mp4">MP4: Спектральный поток и аномалия (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-chiral-anomaly-film-en.mp4">MP4: Spectral flow and the anomaly (English version)</a>
               </div>
@@ -1728,7 +1677,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/gauge_principle">Исходный код</a>
                 <a href="../assets/animations/dvnanima/fields-waves-gauge-principle-film.mp4">MP4: Два друга и поле (русская версия)</a>
                 <a href="../assets/animations/dvnanima/fields-waves-gauge-principle-film-en.mp4">MP4: Two friends and a field (English version)</a>
               </div>
@@ -1773,7 +1721,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/penrose_terrell">Исходный код</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera.mp4">MP4: Камера и мгновенный снимок (русская версия)</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera-en.mp4">MP4: Camera and instantaneous snapshot (English version)</a>
               </div>
@@ -1807,7 +1754,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/rutherford">Исходный код</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-rutherford-foil.mp4">MP4: Рассеяние на золотой фольге (русская версия)</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-rutherford-foil-en.mp4">MP4: Scattering on gold foil (English version)</a>
               </div>
@@ -1841,7 +1787,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/spinor_mobius">Исходный код</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip.mp4">MP4: Поворот на 720° (русская версия)</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip-en.mp4">MP4: Rotation by 720° (English version)</a>
               </div>
@@ -1875,7 +1820,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/hulse_taylor">Исходный код</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4">MP4: Орбита, волны и сдвиг периастра (русская версия)</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit-en.mp4">MP4: Orbit, waves and the periastron shift (English version)</a>
               </div>
@@ -1909,7 +1853,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/path_integral">Исходный код</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.mp4">MP4: От щелей к континуальному интегралу (русская версия)</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-path-integral-paths-en.mp4">MP4: From slits to the path integral (English version)</a>
               </div>
@@ -1943,7 +1886,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/simultaneity">Исходный код</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski.mp4">MP4: Диаграмма Минковского (русская версия)</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski-en.mp4">MP4: Minkowski diagram (English version)</a>
               </div>
@@ -1977,7 +1919,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/wormhole_camera">Исходный код</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera.mp4">MP4: Камера у кротовой норы (русская версия)</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera-en.mp4">MP4: A camera at a wormhole (English version)</a>
               </div>
@@ -2011,7 +1952,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/black_hole_flyby">Исходный код</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby.mp4">MP4: Облёт чёрной дыры (русская версия)</a>
                 <a href="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby-en.mp4">MP4: A camera flies around a black hole (English version)</a>
               </div>
@@ -2110,7 +2050,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/FourierTransform">Исходный код</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-fourier-drawing-fourier-svg.mp4">MP4: Fourier SVG</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-fourier-drawing-pi.mp4">MP4: π</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-fourier-drawing-telescope.mp4">MP4: Телескоп</a>
@@ -2213,7 +2152,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/retrograde">Исходный код</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-retrograde-motion-geocentric.mp4">MP4: Геоцентрическая траектория</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-retrograde-motion-mars.mp4">MP4: Марс</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-retrograde-motion-jupiter.mp4">MP4: Юпитер</a>
@@ -2281,7 +2219,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/strange_attractors">Исходный код</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-strange-attractors-lorenz.mp4">MP4: Lorenz</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-strange-attractors-aizawa.mp4">MP4: Aizawa</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-strange-attractors-rossler.mp4">MP4: Rössler</a>
@@ -2309,7 +2246,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/riemann1">Исходный код</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-riemann-zeta-zeta.mp4">MP4: Riemann zeta</a>
               </div>
             </div>
@@ -2333,7 +2269,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/pi_day_spiral">Исходный код</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-pi-day-spiral-spiral.mp4">MP4: Pi Day</a>
               </div>
             </div>
@@ -2357,7 +2292,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/imaginary">Исходный код</a>
                 <a href="../assets/animations/dvnanima/math-dynamical-systems-imaginary-powers-imaginary-power.mp4">MP4: Imaginary powers</a>
               </div>
             </div>
@@ -2392,7 +2326,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/magnetic_optics.py">Исходный код</a>
                 <a href="../assets/animations/dvnanima/accelerator-optics-dipole-dipole.mp4">MP4: Как диполь поворачивает частицу</a>
               </div>
             </div>
@@ -2416,7 +2349,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/quadrupole_optics.py">Исходный код</a>
                 <a href="../assets/animations/dvnanima/accelerator-optics-quadrupole-quadrupole.mp4">MP4: Как квадруполи фокусируют пучок</a>
               </div>
             </div>
@@ -2440,7 +2372,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/sextupole_optics.py">Исходный код</a>
                 <a href="../assets/animations/dvnanima/accelerator-optics-sextupole-sextupole.mp4">MP4: Как секступоль исправляет фокусировку</a>
               </div>
             </div>
@@ -2464,7 +2395,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/ring_optics.py">Исходный код</a>
                 <a href="../assets/animations/dvnanima/accelerator-optics-ring-ring.mp4">MP4: Как работает накопительное кольцо</a>
               </div>
             </div>
@@ -2499,7 +2429,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/march8">Исходный код</a>
                 <a href="../assets/animations/dvnanima/visual-stories-rose-eight-rose-eight.mp4">MP4: Rose Eight</a>
               </div>
             </div>
@@ -2556,7 +2485,6 @@ lang: ru-RU
                 </figure>
               </div>
               <div class="lecture-course-actions animation-actions">
-                <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/galaxy_merger">Исходный код</a>
                 <a href="../assets/animations/dvnanima/visual-stories-galaxy-merger-merger.mp4">MP4: Слияние двух галактик</a>
               </div>
             </div>

@@ -12,7 +12,6 @@ toc: false
   <div class="animation-catalog-meta">
     <span>51 stories</span>
     <span>87 videos</span>
-    <a href="https://github.com/NeutrinoHit/dvnanima">dvnanima repository</a>
   </div>
 
   <section class="lecture-course-list animation-section-list" aria-label="Animation catalog">
@@ -44,8 +43,7 @@ toc: false
           </figure>
         </div>
         <div class="lecture-course-actions animation-actions">
-          <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/solar_photon_diffusion">Source code and physics notes</a>
-          <a href="../assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-ru.mp4">MP4: Russian</a>
+          <a class="lecture-action-primary" href="../assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-ru.mp4">MP4: Russian</a>
           <a href="../assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-en.mp4">MP4: English</a>
         </div>
       </div>
@@ -88,8 +86,7 @@ toc: false
           </figure>
         </div>
         <div class="lecture-course-actions animation-actions">
-          <a class="lecture-action-primary" href="https://github.com/NeutrinoHit/dvnanima/tree/main/mac-e-filter">Source code and physics notes</a>
-          <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-uniform-field.mp4">MP4: uniform field</a>
+          <a class="lecture-action-primary" href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-uniform-field.mp4">MP4: uniform field</a>
           <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-collimation.mp4">MP4: KATRIN collimation</a>
           <a href="../assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-electric.mp4">MP4: MAC-E filter</a>
         </div>
@@ -105,7 +102,6 @@ toc: false
         <p>The animation gallery collects lightweight web versions of the videos; most captions are visual or technical and can be used directly in lectures.</p>
         <div class="lecture-course-actions animation-actions">
           <a class="lecture-action-primary" href="../ru/animations.html">Open full gallery</a>
-          <a href="https://github.com/NeutrinoHit/dvnanima">Source code</a>
         </div>
       </div>
     </details>

@@ -13,5 +13,3 @@
 В следующей части соберём диполи, квадруполи и секступоли в полное кольцо.
 
 🎬 [Анимация на сайте](https://neutrinohit.github.io/ru/animations.html#animation-accelerator-optics-sextupole)
-
-💻 [Исходный код](https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/sextupole_optics.py)

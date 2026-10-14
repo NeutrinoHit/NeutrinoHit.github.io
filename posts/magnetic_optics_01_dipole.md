@@ -15,5 +15,3 @@
 В следующей части появится магнитная линза — квадруполь.
 
 🎬 [Анимация на сайте](https://neutrinohit.github.io/ru/animations.html#animation-accelerator-optics-dipole)
-
-💻 [Исходный код](https://github.com/NeutrinoHit/dvnanima/blob/main/accelerator_optics/magnetic_optics.py)

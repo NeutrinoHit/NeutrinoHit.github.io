@@ -20,10 +20,8 @@ class SelectiveSyncTest(unittest.TestCase):
             # Nonselected source can be absent: the published asset is preserved.
             (assets/'section-second-film.mp4').write_bytes(b'old second')
             (assets/'section-second-film.jpg').write_bytes(b'old poster')
-            catalog = {'repository_url':'https://example.org/repo',
-                       'source_base_url':'https://example.org/source',
-                       'sections':[{'id':'section','title':'Test','summary':'Test',
-                           'items':[{'id':i,'title':i,'description':i,
+            catalog = {'sections':[{'id':'section','title':'Test','summary':'Test',
+                           'items':[{'id':i,'title':i,'description':i,'source_dir':'scene',
                            'videos':[{'id':'film','label':i,'path':i+'.mp4'}]}
                            for i in ('first','second')]}]}
             def poster(source, target, force, at):
@@ -40,6 +38,7 @@ class SelectiveSyncTest(unittest.TestCase):
             self.assertEqual(len(records),2)
             self.assertIn('animation-section-first',page)
             self.assertIn('animation-section-second',page)
+            self.assertNotIn('Исходный код',page)  # source_dir is internal
 
 
 if __name__ == '__main__':
