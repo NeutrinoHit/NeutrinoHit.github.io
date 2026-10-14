@@ -736,16 +736,23 @@ local function apply_pdf_title_lines(header, title)
     return header
   end
 
-  local inlines = {}
+  local parts = {}
   for line in configured:gmatch("[^|]+") do
-    line = line:match("^%s*(.-)%s*$")
-    if #inlines > 0 then
-      inlines[#inlines + 1] = pandoc.RawInline("latex", "\\BookTitleBreak{}")
-    end
-    inlines[#inlines + 1] = pandoc.RawInline("latex", latex_escape(line))
+    parts[#parts + 1] = latex_escape(line:match("^%s*(.-)%s*$"))
   end
-  if #inlines > 0 then
-    header.content = inlines
+  if #parts > 0 then
+    -- Pandoc derives the PDF bookmark from the plain text of the heading and
+    -- drops raw LaTeX from it. The broken title is therefore typeset through
+    -- the first argument of \texorpdfstring, while the plain heading text
+    -- stays in the inline list and becomes the bookmark.
+    header.content = {
+      pandoc.RawInline(
+        "latex",
+        "\\texorpdfstring{" .. table.concat(parts, "\\BookTitleBreak{}") .. "}{"
+      ),
+      pandoc.Str(title),
+      pandoc.RawInline("latex", "}"),
+    }
   end
   header.attributes["pdf-title-lines"] = nil
   return header
