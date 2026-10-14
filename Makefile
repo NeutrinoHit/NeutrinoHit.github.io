@@ -1,4 +1,4 @@
-.PHONY: site local-aggregate sync-book-assets book-covers check-book-covers book-covers-full export-book-covers sync-book-covers check-book-cover-sync
+.PHONY: site local-aggregate sync-book-assets check-shared-assets book-covers check-book-covers book-covers-full export-book-covers sync-book-covers check-book-cover-sync
 
 site:
 	rm -rf _site
@@ -20,6 +20,11 @@ local-aggregate: site
 
 sync-book-assets:
 	python scripts/sync_book_assets.py
+
+check-shared-assets:
+	python scripts/sync_reveal_assets.py --check --all; r=$$?; \
+	python scripts/sync_book_assets.py --check --all; b=$$?; \
+	test $$r -eq 0 -a $$b -eq 0
 
 book-covers:
 	python assets/books/covers/source/generate_series.py
