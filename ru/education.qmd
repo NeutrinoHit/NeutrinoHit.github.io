@@ -638,6 +638,32 @@ toc: false
       </div>
     </details>
 
+    <details id="light-propagation" class="lecture-course lecture-course-light">
+      <summary>
+        <span class="lecture-course-status">Курс готовится · RU</span>
+        <span class="lecture-course-title">Распространение света в среде</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Курс лекций о переносе света в рассеивающей и поглощающей среде: от баланса фотонов и уравнения переноса (RTE) до ожидаемого сигнала оптического модуля.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../rte_lectures/">Открыть сайт курса</a>
+        </div>
+      </div>
+    </details>
+
+    <details id="numerical-methods" class="lecture-course lecture-course-numerical">
+      <summary>
+        <span class="lecture-course-status">Курс готовится · RU / EN</span>
+        <span class="lecture-course-title">Численные методы для физиков</span>
+      </summary>
+      <div class="lecture-course-body">
+        <p>Как физик решает задачи, которые не берутся аналитически: одна лекция — одна физическая задача, нужные методы вводятся тогда, когда без них задача не решается. Python с Numba, лекции, задачи и онлайн-книга.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../numerical_methods/">Открыть сайт курса</a>
+        </div>
+      </div>
+    </details>
+
     <details id="oscillations" class="lecture-course lecture-course-oscillations">
       <summary>
         <span class="lecture-course-status">Планируется</span>

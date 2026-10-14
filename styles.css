@@ -1158,6 +1158,14 @@
   background: linear-gradient(90deg, rgba(72, 104, 92, 0.15), rgba(255, 255, 255, 0.95) 68%);
 }
 
+.lecture-course-light > summary {
+  background: linear-gradient(90deg, rgba(46, 120, 160, 0.15), rgba(255, 255, 255, 0.95) 68%);
+}
+
+.lecture-course-numerical > summary {
+  background: linear-gradient(90deg, rgba(96, 104, 120, 0.15), rgba(255, 255, 255, 0.95) 68%);
+}
+
 .lecture-course-talk-conferences > summary {
   background: linear-gradient(90deg, rgba(54, 95, 145, 0.15), rgba(255, 255, 255, 0.95) 68%);
 }
