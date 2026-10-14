@@ -27,6 +27,14 @@
     "qr_file": "QuantumChameleonPhases.pdf",
     "legacy_codes": []
   },
+  "0028": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0028/",
+    "slug": "atmospheric-ratio",
+    "hosting": "link",
+    "qr_file": "AtmosphericRatio.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/01_neutrino_first_contact.html#/atmospheric-neutrino-ratio"
+  },
   "0005": {
     "url": "https://neutrinohit.github.io/qr/neutrino-physics/0005/",
     "slug": "feynman-numu-electron",
@@ -54,6 +62,62 @@
     "hosting": "self",
     "qr_file": "QuarkQuarkScattering.pdf",
     "legacy_codes": []
+  },
+  "0029": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0029/",
+    "slug": "parity-transform",
+    "hosting": "link",
+    "qr_file": "ParityTransform.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/02_parity_violation.html#/parity-transform"
+  },
+  "0030": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0030/",
+    "slug": "wu-result",
+    "hosting": "link",
+    "qr_file": "WuResult.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/02_parity_violation.html#/wu-result"
+  },
+  "0031": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0031/",
+    "slug": "helicity-frame-change",
+    "hosting": "link",
+    "qr_file": "HelicityFrameChange.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/03_neutrino_spin.html#/frame-change"
+  },
+  "0032": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0032/",
+    "slug": "spin-tagging",
+    "hosting": "link",
+    "qr_file": "SpinTagging.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/03_neutrino_spin.html#/spin-tagging"
+  },
+  "0033": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0033/",
+    "slug": "resonance-filter",
+    "hosting": "link",
+    "qr_file": "ResonanceFilter.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/resonance-filter.html"
+  },
+  "0034": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0034/",
+    "slug": "photon-analyzer",
+    "hosting": "link",
+    "qr_file": "PhotonAnalyzer.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/03_neutrino_spin.html#/photon-analyzer"
+  },
+  "0035": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0035/",
+    "slug": "goldhaber-chain",
+    "hosting": "link",
+    "qr_file": "GoldhaberChain.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/03_neutrino_spin.html#/experiment-chain"
   },
   "0009": {
     "url": "https://neutrinohit.github.io/qr/neutrino-physics/0009/",
@@ -111,6 +175,102 @@
     "qr_file": "Project8CRES.pdf",
     "legacy_codes": []
   },
+  "0036": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0036/",
+    "slug": "fermi-function",
+    "hosting": "link",
+    "qr_file": "FermiFunction.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/fermi-function.html"
+  },
+  "0037": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0037/",
+    "slug": "beta-endpoint",
+    "hosting": "link",
+    "qr_file": "BetaEndpoint.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/04_neutrino_mass_kinematics.html#/beta-endpoint-spectrum"
+  },
+  "0038": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0038/",
+    "slug": "endpoint-resolution",
+    "hosting": "link",
+    "qr_file": "EndpointResolution.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/beta-endpoint-resolution.html"
+  },
+  "0039": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0039/",
+    "slug": "resolved-mass-spectrum",
+    "hosting": "link",
+    "qr_file": "ResolvedMassSpectrum.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/mass-spectrum.html"
+  },
+  "0040": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0040/",
+    "slug": "kurie-plot",
+    "hosting": "link",
+    "qr_file": "KuriePlot.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/04_neutrino_mass_kinematics.html#/kurie-plot"
+  },
+  "0041": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0041/",
+    "slug": "cyclotron-motion",
+    "hosting": "link",
+    "qr_file": "CyclotronMotion.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/cyclotron-motion.html"
+  },
+  "0042": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0042/",
+    "slug": "planar-rotor",
+    "hosting": "link",
+    "qr_file": "PlanarRotor.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/planar-rotor.html"
+  },
+  "0043": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0043/",
+    "slug": "adiabatic-trough",
+    "hosting": "link",
+    "qr_file": "AdiabaticTrough.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/adiabatic-trough.html"
+  },
+  "0044": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0044/",
+    "slug": "loss-cone",
+    "hosting": "link",
+    "qr_file": "LossCone.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/radiation-belts.html"
+  },
+  "0045": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0045/",
+    "slug": "katrin-integral-spectrum",
+    "hosting": "link",
+    "qr_file": "KatrinIntegralSpectrum.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/katrin-integral-spectrum.html"
+  },
+  "0046": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0046/",
+    "slug": "cres-observables",
+    "hosting": "link",
+    "qr_file": "CresObservables.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/cres-observables.html"
+  },
+  "0047": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0047/",
+    "slug": "sn-mass-likelihood",
+    "hosting": "link",
+    "qr_file": "SnMassLikelihood.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/sn-mass-likelihood.html"
+  },
   "0016": {
     "url": "https://neutrinohit.github.io/qr/neutrino-physics/0016/",
     "slug": "quantum-chameleon",
@@ -124,6 +284,38 @@
     "hosting": "self",
     "qr_file": "OscillationPhases.pdf",
     "legacy_codes": []
+  },
+  "0048": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0048/",
+    "slug": "two-flavor-lab",
+    "hosting": "link",
+    "qr_file": "TwoFlavorLab.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/two-flavor-oscillations.html"
+  },
+  "0049": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0049/",
+    "slug": "coupled-pendula",
+    "hosting": "link",
+    "qr_file": "CoupledPendula.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/coupled-pendula.html"
+  },
+  "0050": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0050/",
+    "slug": "pmns-from-data",
+    "hosting": "link",
+    "qr_file": "PmnsFromData.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/pmns-from-data.html"
+  },
+  "0051": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0051/",
+    "slug": "three-flavor-triangle",
+    "hosting": "link",
+    "qr_file": "ThreeFlavorTriangle.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/flavor-triangle.html"
   },
   "0018": {
     "url": "https://neutrinohit.github.io/qr/neutrino-physics/0018/",
@@ -173,6 +365,38 @@
     "hosting": "self",
     "qr_file": "MSWModeCancellation.pdf",
     "legacy_codes": []
+  },
+  "0052": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0052/",
+    "slug": "refraction-layers",
+    "hosting": "link",
+    "qr_file": "RefractionLayers.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/refraction-layers.html"
+  },
+  "0053": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0053/",
+    "slug": "refraction-two-modes",
+    "hosting": "link",
+    "qr_file": "RefractionTwoModes.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/refraction-two-modes.html"
+  },
+  "0054": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0054/",
+    "slug": "matter-constant",
+    "hosting": "link",
+    "qr_file": "MatterConstant.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/matter-constant.html"
+  },
+  "0055": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0055/",
+    "slug": "matter-adiabatic",
+    "hosting": "link",
+    "qr_file": "MatterAdiabatic.pdf",
+    "legacy_codes": [],
+    "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/matter-adiabatic.html"
   },
   "0027": {
     "url": "https://neutrinohit.github.io/qr/neutrino-physics/0027/",
