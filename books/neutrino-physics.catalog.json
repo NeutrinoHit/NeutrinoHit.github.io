@@ -1830,6 +1830,38 @@
         "url": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/applets/matter-adiabatic.html"
       },
       "legacy_codes": []
+    },
+    {
+      "id": "0056",
+      "slug": "interaction-gallery",
+      "qr_file": "InteractionGallery.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Три обменных взаимодействия",
+        "en": "Three exchange interactions"
+      },
+      "caption": {
+        "ru": "Слева направо: заряженный слабый ток $\\nu_\\mu e^-\\to\\nu_e\\mu^-$ с обменом $W$-бозоном, электромагнитное рассеяние $e^-e^-\\to e^-e^-$ с обменом фотоном и сильное рассеяние $qq\\to qq$ с обменом глюоном. Надписи на видео английские.",
+        "en": "From left to right: the charged weak current $\\nu_\\mu e^-\\to\\nu_e\\mu^-$ with a $W$-boson exchange, electromagnetic scattering $e^-e^-\\to e^-e^-$ with a photon exchange and strong scattering $qq\\to qq$ with a gluon exchange. The labels in the video are in English."
+      },
+      "book": {
+        "order": 1,
+        "section_title": {
+          "ru": "Знакомство с нейтрино",
+          "en": "First contact with the neutrino"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "source": "neutrino-physics/interaction_gallery.mp4",
+        "poster_time": 5.0
+      },
+      "legacy_codes": []
     }
   ]
 }

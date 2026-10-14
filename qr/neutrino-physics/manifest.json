@@ -35,6 +35,13 @@
     "legacy_codes": [],
     "link": "https://neutrinohit.github.io/neutrinophysics/introduction/ru/slides/01_neutrino_first_contact.html#/atmospheric-neutrino-ratio"
   },
+  "0056": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0056/",
+    "slug": "interaction-gallery",
+    "hosting": "self",
+    "qr_file": "InteractionGallery.pdf",
+    "legacy_codes": []
+  },
   "0005": {
     "url": "https://neutrinohit.github.io/qr/neutrino-physics/0005/",
     "slug": "feynman-numu-electron",
