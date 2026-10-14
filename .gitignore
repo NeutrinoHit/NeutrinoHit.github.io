@@ -23,7 +23,6 @@ __pycache__/
 
 # Local bulky source archives and staging folders. Keep published derivatives in
 # tracked site folders such as albums/.
-/not-to-commit/
 /baikal-schools/
 /baikal-post-*/
 /Post-*.zip
