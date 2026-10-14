@@ -40,7 +40,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--poster-time", default="last", help="Poster frame time in seconds, or 'last'.")
     parser.add_argument("--reauth", action="store_true", help="Force a new local OAuth browser flow.")
     parser.add_argument("--stage", action="store_true", help="git add the updated MP4 and poster.")
-    parser.add_argument("--dry-run", action="store_true", help="Print the gTracker command without running it.")
+    parser.add_argument("--dry-run", action="store_true", help="Print the gTracker command and planned changes; write nothing.")
     return parser.parse_args()
 
 
@@ -59,10 +59,8 @@ def token_backed_oauth_client(token_path: Path, target_path: Path) -> Path:
     return target_path
 
 
-def run_command(cmd: list[str], *, cwd: Path, dry_run: bool = False) -> subprocess.CompletedProcess[str]:
+def run_command(cmd: list[str], *, cwd: Path) -> subprocess.CompletedProcess[str]:
     print(" ".join(str(part) for part in cmd), flush=True)
-    if dry_run:
-        return subprocess.CompletedProcess(cmd, 0, "", "")
     return subprocess.run(cmd, cwd=cwd, text=True, capture_output=True)
 
 
@@ -85,6 +83,99 @@ def stage_outputs(paths: list[Path]) -> None:
     subprocess.run(["git", "add", *[str(path.relative_to(ROOT)) for path in paths]], cwd=ROOT, check=True)
 
 
+def build_command(
+    args: argparse.Namespace,
+    *,
+    gtracker: Path,
+    build_script: Path,
+    token_path: Path,
+    oauth_client: Path,
+    work_dir: Path,
+) -> list[str]:
+    return [
+        args.python,
+        str(build_script),
+        "--sheet-id",
+        args.sheet_id,
+        "--gid",
+        args.gid,
+        "--worksheet",
+        args.worksheet,
+        "--oauth-client",
+        str(oauth_client),
+        "--token",
+        str(token_path),
+        "--raw-csv",
+        str(work_dir / "raw_applications.csv"),
+        "--normalized-csv",
+        str(work_dir / "applications.csv"),
+        "--summary",
+        str(work_dir / "applications_summary.json"),
+        "--city-cache",
+        str(gtracker / "data/city_cache.csv"),
+        "--geojson",
+        str(gtracker / "data/ne_110m_admin_0_countries.geojson"),
+        "--scope",
+        "russia",
+        "--download-map",
+        "--geocode-missing",
+        "--no-gif",
+        "--frames",
+        str(work_dir / "frames"),
+        "--mp4",
+        str(args.mp4),
+        "--date-mode",
+        "events",
+        "--mp4-fps",
+        str(args.mp4_fps),
+        "--hold-first",
+        str(args.hold_first),
+        "--hold-last",
+        str(args.hold_last),
+        "--label-top",
+        str(args.label_top),
+        "--network-neighbors",
+        str(args.network_neighbors),
+    ]
+
+
+def dry_run(
+    args: argparse.Namespace,
+    *,
+    gtracker: Path,
+    build_script: Path,
+    token_path: Path,
+    oauth_client_path: Path,
+    backup_token_path: Path,
+) -> int:
+    """Report what a real run would do. Reads only; creates, copies or deletes nothing."""
+    if not token_path.exists():
+        if backup_token_path.exists():
+            print(f"would restore missing OAuth token from {backup_token_path}")
+        else:
+            print(f"OAuth token not found: {token_path}", file=sys.stderr)
+            return 2
+    work_dir = Path(tempfile.gettempdir()) / "teachin-gtracker-<run>"
+    oauth_client = oauth_client_path
+    if args.reauth:
+        oauth_client = work_dir / "oauth-client-from-token.json"
+        print(f"would back up {token_path} to {backup_token_path} and start a browser OAuth flow")
+    cmd = build_command(
+        args,
+        gtracker=gtracker,
+        build_script=build_script,
+        token_path=token_path,
+        oauth_client=oauth_client,
+        work_dir=work_dir,
+    )
+    print(" ".join(str(part) for part in cmd))
+    print(f"would update: {args.mp4}")
+    print(f"would update: {args.poster}")
+    if args.stage:
+        print("would stage both files with git add")
+    return 0
+
+
 def main() -> int:
     args = parse_args()
     gtracker = args.gtracker_dir.resolve()
@@ -96,6 +187,18 @@ def main() -> int:
     if not build_script.exists():
         print(f"gTracker build script not found: {build_script}", file=sys.stderr)
         return 2
+
+    if args.dry_run:
+        return dry_run(
+            args,
+            gtracker=gtracker,
+            build_script=build_script,
+            token_path=token_path,
+            oauth_client_path=oauth_client_path,
+            backup_token_path=backup_token_path,
+        )
+
+    # Everything below may write files: token restore and backup, output folders.
     if not token_path.exists():
         if backup_token_path.exists():
             shutil.copy2(backup_token_path, token_path)
@@ -109,10 +212,6 @@ def main() -> int:
 
     with tempfile.TemporaryDirectory(prefix="teachin-gtracker-") as tmp:
         tmp_path = Path(tmp)
-        frames = tmp_path / "frames"
-        raw_csv = tmp_path / "raw_applications.csv"
-        normalized_csv = tmp_path / "applications.csv"
-        summary = tmp_path / "applications_summary.json"
         oauth_for_run = oauth_client_path
 
         if args.reauth:
@@ -121,53 +220,16 @@ def main() -> int:
             token_path.unlink()
             print(f"Backed up old OAuth token to {backup_token_path}; a browser OAuth flow may open now.")
 
-        cmd = [
-            args.python,
-            str(build_script),
-            "--sheet-id",
-            args.sheet_id,
-            "--gid",
-            args.gid,
-            "--worksheet",
-            args.worksheet,
-            "--oauth-client",
-            str(oauth_for_run),
-            "--token",
-            str(token_path),
-            "--raw-csv",
-            str(raw_csv),
-            "--normalized-csv",
-            str(normalized_csv),
-            "--summary",
-            str(summary),
-            "--city-cache",
-            str(gtracker / "data/city_cache.csv"),
-            "--geojson",
-            str(gtracker / "data/ne_110m_admin_0_countries.geojson"),
-            "--scope",
-            "russia",
-            "--download-map",
-            "--geocode-missing",
-            "--no-gif",
-            "--frames",
-            str(frames),
-            "--mp4",
-            str(args.mp4),
-            "--date-mode",
-            "events",
-            "--mp4-fps",
-            str(args.mp4_fps),
-            "--hold-first",
-            str(args.hold_first),
-            "--hold-last",
-            str(args.hold_last),
-            "--label-top",
-            str(args.label_top),
-            "--network-neighbors",
-            str(args.network_neighbors),
-        ]
+        cmd = build_command(
+            args,
+            gtracker=gtracker,
+            build_script=build_script,
+            token_path=token_path,
+            oauth_client=oauth_for_run,
+            work_dir=tmp_path,
+        )
 
-        result = run_command(cmd, cwd=gtracker, dry_run=args.dry_run)
+        result = run_command(cmd, cwd=gtracker)
         if result.returncode != 0:
             if result.stdout:
                 print(result.stdout, end="")
@@ -189,12 +251,11 @@ def main() -> int:
                 )
             return result.returncode
 
-    if not args.dry_run:
-        make_poster(args.mp4, args.poster, poster_time=args.poster_time)
-        if args.stage:
-            stage_outputs([args.mp4, args.poster])
-        print(f"updated: {args.mp4.relative_to(ROOT)}")
-        print(f"updated: {args.poster.relative_to(ROOT)}")
+    make_poster(args.mp4, args.poster, poster_time=args.poster_time)
+    if args.stage:
+        stage_outputs([args.mp4, args.poster])
+    print(f"updated: {args.mp4.relative_to(ROOT)}")
+    print(f"updated: {args.poster.relative_to(ROOT)}")
     return 0
 
 
