@@ -63,6 +63,21 @@
       "description": "EN education: solar neutrino masterclass"
     },
     {
+      "url": "https://neutrinohit.github.io/ru/education.html#oscillations-minicourse",
+      "type": "map-card",
+      "description": "RU education: neutrino oscillations mini-course"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/education.html#oscillations-minicourse",
+      "type": "map-card",
+      "description": "EN education: neutrino oscillations mini-course"
+    },
+    {
+      "url": "https://neutrinohit.github.io/neutrinophysics/oscillations-minicourse/",
+      "type": "course-home",
+      "description": "Neutrino oscillations mini-course home"
+    },
+    {
       "url": "https://neutrinohit.github.io/ru/education.html#particle-physics-mini-course",
       "description": "RU education: particle physics mini-course"
     },

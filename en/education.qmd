@@ -312,7 +312,7 @@ toc: false
         <span class="lecture-course-title">Neutrino Physics</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Introductory neutrino lectures and the solar-neutrino masterclass are listed directly here.</p>
+        <p>Introductory neutrino lectures, the solar-neutrino masterclass and the oscillations mini-course are listed directly here.</p>
         <div class="lecture-material-list">
           <details id="neutrino-introduction" class="lecture-material">
             <summary>Introduction to neutrino physics</summary>
@@ -611,6 +611,18 @@ toc: false
                     </div>
                   </div>
                 </details>
+              </div>
+            </div>
+          </details>
+          <details id="oscillations-minicourse" class="lecture-material">
+            <summary>Mini-course: neutrino oscillations from vacuum to the Earth's core</summary>
+            <div class="lecture-material-body">
+              <p>Three English lectures for students of particle physics and geophysics: vacuum oscillations, matter and the Sun, and neutrino probes of the Earth's interior, with applets and animations.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../neutrinophysics/oscillations-minicourse/index.html">Open mini-course</a>
+                <a href="../neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html">I. Vacuum</a>
+                <a href="../neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html">II. Matter and the Sun</a>
+                <a href="../neutrinophysics/oscillations-minicourse/en/slides/03_earth.html">III. The Earth</a>
               </div>
             </div>
           </details>

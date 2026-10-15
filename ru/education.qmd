@@ -351,7 +351,7 @@ toc: false
         <span class="lecture-course-title">Физика нейтрино</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Вводный курс и солнечный мастер-класс: лекции, проект и данные открываются прямо отсюда.</p>
+        <p>Вводный курс, солнечный мастер-класс и мини-курс по осцилляциям: лекции, проект и данные открываются прямо отсюда.</p>
         <div class="lecture-material-list">
           <details id="neutrino-introduction" class="lecture-material">
             <summary>Введение в физику нейтрино</summary>
@@ -583,6 +583,18 @@ toc: false
                     </div>
                   </div>
                 </details>
+              </div>
+            </div>
+          </details>
+          <details id="oscillations-minicourse" class="lecture-material">
+            <summary>Мини-курс: осцилляции нейтрино от вакуума до ядра Земли (англ.)</summary>
+            <div class="lecture-material-body">
+              <p>Три лекции на английском для студентов физики частиц и геофизиков: осцилляции в вакууме, вещество и Солнце, нейтринные зонды недр Земли; апплеты и анимации.</p>
+              <div class="lecture-course-actions">
+                <a class="lecture-action-primary" href="../neutrinophysics/oscillations-minicourse/index.html">Открыть мини-курс</a>
+                <a href="../neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html">I. Vacuum</a>
+                <a href="../neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html">II. Matter and the Sun</a>
+                <a href="../neutrinophysics/oscillations-minicourse/en/slides/03_earth.html">III. The Earth</a>
               </div>
             </div>
           </details>
