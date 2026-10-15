@@ -39,6 +39,7 @@ EXCLUDED_PARTS = {
     ".git",
     ".quarto",
     ".make-tmp",
+    ".work",
     "_site",
     "pages",
     "node_modules",
