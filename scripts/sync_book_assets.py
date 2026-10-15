@@ -84,6 +84,12 @@ def consumers() -> list[Consumer]:
             book_copies("ru/book") + [latex_copy("shared/latex")],
         ),
         Consumer(
+            "particlephysics",
+            book_copies("ParticlePhysics/ru/book")
+            + book_copies("ParticlePhysics/en/book")
+            + [latex_copy("shared/latex")],
+        ),
+        Consumer(
             "numerical_methods",
             book_copies(
                 "ru/book",

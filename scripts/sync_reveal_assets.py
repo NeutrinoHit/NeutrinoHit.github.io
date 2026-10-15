@@ -87,15 +87,7 @@ def standard_copies(repo: str) -> list[Copy]:
 
 
 def consumers() -> list[Consumer]:
-    result = [Consumer(repo, standard_copies(repo)) for repo in REPOSITORIES]
-    particle = next(consumer for consumer in result if consumer.repo == "particlephysics")
-    # The Baikal school talk is published from its own folder.
-    particle.copies += [
-        Copy("neutrinohit-reveal-footer.js", "IntroParticlePhysicsBaikal/assets/reveal"),
-        Copy("neutrinohit-timed-captions.js", "IntroParticlePhysicsBaikal/assets/reveal"),
-        Copy("dvnlogo.png", "IntroParticlePhysicsBaikal/assets/logos"),
-    ]
-    return result
+    return [Consumer(repo, standard_copies(repo)) for repo in REPOSITORIES]
 
 
 def main(argv: list[str] | None = None) -> int:
