@@ -34,18 +34,21 @@ toc: false
           </details>
 
           <details id="neutrino-telescopes" class="lecture-material">
-            <summary>Why do we need neutrino telescopes? (in Russian)</summary>
+            <summary>Neutrino telescopes</summary>
             <div class="lecture-material-body">
-              <p>The Universe seen with neutrinos. Astrofest lecture, 2026.</p>
-              <div class="course-lectures course-lectures-single">
+              <p>The Universe seen with neutrinos: how high-energy neutrinos are caught and what they have already told us about galaxies and sources.</p>
+              <div class="course-lectures">
+                <article class="course-lecture-card">
+                  <a href="../talks/neutrino-telescopes-2026/lecture.html"><img src="../talks/neutrino-telescopes-2026/media/icecube/icecube_first_pev_en.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Neutrino Telescopes: Principles, Results, and Prospects</h3><p class="course-note">Plenary talk for specialists, 2026.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="../talks/neutrino-telescopes-2026/lecture.html">Open slides</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="../talks/neutrino-telescopes-ru-2026/lecture.html"><img src="../talks/neutrino-telescopes-ru-2026/media/films/icecube_first_pev_ru.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">How to catch a neutrino from a distant galaxy (in Russian)</h3><p class="course-note">Lecture for students, 2026.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="../talks/neutrino-telescopes-ru-2026/lecture.html">Open slides</a></div></div>
+                </article>
                 <article class="course-lecture-card">
                   <a href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body">
-                    <h3 class="course-lecture-title">Why do we need neutrino telescopes? (in Russian)</h3>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">Open lecture</a>
-                    </div>
-                  </div>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Why do we need neutrino telescopes? (in Russian)</h3><p class="course-note">Popular lecture at Astrofest, 2026.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">Open lecture</a></div></div>
                 </article>
               </div>
             </div>

@@ -33,18 +33,21 @@ toc: false
           </details>
 
           <details id="neutrino-telescopes" class="lecture-material">
-            <summary>Зачем нужны нейтринные телескопы?</summary>
+            <summary>Нейтринные телескопы</summary>
             <div class="lecture-material-body">
-              <p>Вселенная глазами нейтрино. Лекция на Астрофесте, 2026.</p>
-              <div class="course-lectures course-lectures-single">
+              <p>Вселенная глазами нейтрино: как ловят нейтрино высоких энергий и что они уже рассказали о галактиках и источниках.</p>
+              <div class="course-lectures">
+                <article class="course-lecture-card">
+                  <a href="../talks/neutrino-telescopes-ru-2026/lecture.html"><img src="../talks/neutrino-telescopes-ru-2026/media/films/icecube_first_pev_ru.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Как поймать нейтрино из далёкой галактики</h3><p class="course-note">Лекция для студентов, 2026.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="../talks/neutrino-telescopes-ru-2026/lecture.html">Открыть слайды</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="../talks/neutrino-telescopes-2026/lecture.html"><img src="../talks/neutrino-telescopes-2026/media/icecube/icecube_first_pev_en.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Neutrino Telescopes: Principles, Results, and Prospects</h3><p class="course-note">Пленарный доклад для специалистов, 2026 (на английском).</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="../talks/neutrino-telescopes-2026/lecture.html">Открыть слайды</a></div></div>
+                </article>
                 <article class="course-lecture-card">
                   <a href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body">
-                    <h3 class="course-lecture-title">Зачем нужны нейтринные телескопы?</h3>
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">Открыть лекцию</a>
-                    </div>
-                  </div>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Зачем нужны нейтринные телескопы?</h3><p class="course-note">Научно-популярная лекция на Астрофесте, 2026.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">Открыть лекцию</a></div></div>
                 </article>
               </div>
             </div>
