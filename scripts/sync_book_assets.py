@@ -81,7 +81,7 @@ def consumers() -> list[Consumer]:
         ),
         Consumer(
             "gravity",
-            book_copies("ru/book") + [latex_copy("shared/latex")],
+            book_copies("ru/book", filters=("hide-book-index.lua",)) + [latex_copy("shared/latex")],
         ),
         Consumer(
             "particlephysics",
