@@ -2108,7 +2108,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Геоцентрическая траектория</span>
-                    <small>621.7 KB</small>
+                    <small>955.8 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2238,7 +2238,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Thomas</span>
-                    <small>1.1 MB</small>
+                    <small>1.7 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2247,7 +2247,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Dadras</span>
-                    <small>3.5 MB</small>
+                    <small>1.3 MB</small>
                   </figcaption>
                 </figure>
               </div>
