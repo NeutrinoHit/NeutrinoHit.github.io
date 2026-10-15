@@ -1233,7 +1233,7 @@
             {
               "id": "geocentric",
               "label": "Геоцентрическая траектория",
-              "path": "retrograde/media/videos/Ptolemy/1080p60/GeocentricRetrograde.mp4"
+              "path": "retrograde/media/videos/Ptolemy/1920p60/GeocentricRetrograde.mp4"
             },
             {
               "id": "mars",
@@ -1301,12 +1301,12 @@
             {
               "id": "thomas",
               "label": "Thomas",
-              "path": "mass_hierarchy/videos/attractors/1080p60/ThomasScene.mp4"
+              "path": "strange_attractors/media/videos/attractors/1920p60/ThomasScene.mp4"
             },
             {
               "id": "dadras",
               "label": "Dadras",
-              "path": "mass_hierarchy/videos/attractors/1080p60/DadrasScene.mp4"
+              "path": "strange_attractors/media/videos/attractors/1920p60/DadrasScene.mp4"
             }
           ]
         },
