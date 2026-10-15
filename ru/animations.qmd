@@ -12,13 +12,13 @@ lang: ru-RU
     опубликованы как облегчённые web-версии.
   </p>
   <div class="animation-catalog-meta">
-    <span>73 сюжета</span>
-    <span>146 роликов</span>
+    <span>74 сюжета</span>
+    <span>148 роликов</span>
   </div>
   <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">
     <details class="lecture-course animation-section animation-section-neutrino-particles">
       <summary>
-        <span class="lecture-course-status">26 сюжетов, 49 роликов</span>
+        <span class="lecture-course-status">27 сюжетов, 51 ролик</span>
         <span class="lecture-course-title">Нейтрино и частицы</span>
       </summary>
       <div class="lecture-course-body">
@@ -38,7 +38,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Общая эволюция</span>
-                    <small>2.3 MB</small>
+                    <small>1.5 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -47,7 +47,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Электронный аромат</span>
-                    <small>2.3 MB</small>
+                    <small>1.5 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -56,7 +56,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Мюонный аромат</span>
-                    <small>3.0 MB</small>
+                    <small>2.1 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -65,7 +65,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Тау-аромат</span>
-                    <small>2.9 MB</small>
+                    <small>2.1 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -91,7 +91,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Фазы осцилляций</span>
-                    <small>305.8 KB</small>
+                    <small>231.6 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -138,7 +138,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Шкалы масс</span>
-                    <small>509.5 KB</small>
+                    <small>459.5 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -161,7 +161,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Вероятность выживания</span>
-                    <small>4.7 MB</small>
+                    <small>11.2 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -382,7 +382,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>p + p → D + e⁺ + νₑ</span>
-                    <small>320.2 KB</small>
+                    <small>205.4 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -391,7 +391,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>D + p → ³He + γ</span>
-                    <small>267.7 KB</small>
+                    <small>160.7 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -400,7 +400,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>³He + ³He → ⁴He + 2p</span>
-                    <small>308.1 KB</small>
+                    <small>183.5 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -425,7 +425,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Русская версия</span>
-                    <small>5.8 MB</small>
+                    <small>5.1 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -434,7 +434,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>English version</span>
-                    <small>5.9 MB</small>
+                    <small>5.1 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -458,7 +458,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Первые минуты</span>
-                    <small>1.1 MB</small>
+                    <small>2.6 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -481,7 +481,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>νμ + e → νe + μ</span>
-                    <small>295.6 KB</small>
+                    <small>172.6 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -490,7 +490,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Нейтринное рассеяние через Z</span>
-                    <small>294.6 KB</small>
+                    <small>171.1 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -499,7 +499,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>e + e</span>
-                    <small>280.1 KB</small>
+                    <small>160.4 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -508,7 +508,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>q + q</span>
-                    <small>304.7 KB</small>
+                    <small>182.0 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -534,7 +534,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Деформации</span>
-                    <small>728.3 KB</small>
+                    <small>1.2 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -557,7 +557,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>PMT schematic</span>
-                    <small>1.6 MB</small>
+                    <small>1.9 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -613,7 +613,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Винтовое движение в однородном поле</span>
-                    <small>3.5 MB</small>
+                    <small>1.4 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -622,7 +622,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Магнитная коллимация KATRIN</span>
-                    <small>354.1 KB</small>
+                    <small>645.9 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -631,7 +631,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>MAC-E: прохождение и отражение</span>
-                    <small>412.9 KB</small>
+                    <small>752.9 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -656,7 +656,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Один электрон — один частотный трек</span>
-                    <small>690.0 KB</small>
+                    <small>830.3 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -679,7 +679,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Конус в цилиндре</span>
-                    <small>503.6 KB</small>
+                    <small>703.2 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -853,6 +853,39 @@ lang: ru-RU
               </div>
             </div>
           </details>
+          <details id="animation-neutrino-particles-humanity-cube" class="lecture-material animation-material">
+            <summary>
+              <span class="animation-material-title">Всё человечество в половине кубического километра</span>
+              <span class="animation-material-count">2 ролика</span>
+            </summary>
+            <div class="lecture-material-body animation-material-body">
+              <p>Нейтринному телескопу нужна мишень в кубический километр. Вращающийся глобус (NASA Blue Marble) покрывается точками там, где живут люди (страны и города Natural Earth), одна точка — миллион человек, 8200 точек — всё человечество (8,2 млрд, ООН 2024). Рядом появляется стеклянный куб со стороной 1 км (не в масштабе с планетой), и все точки одновременно втягиваются в него. При 62 кг на человека (Walpole и др., 2012) человечество весит 0,51 млрд т — половина массы воды в кубе, и тела без зазоров занимают половину куба. Затем камера ныряет в куб: точки превращаются в толпу людей со всех континентов (доли — по населению стран Natural Earth; облик людей условный).</p>
+              <div class="animation-video-grid">
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-humanity-cube-ru.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-humanity-cube-ru.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>Русская версия (22 с)</span>
+                    <small>24.7 MB</small>
+                  </figcaption>
+                </figure>
+                <figure class="animation-video-frame">
+                  <video controls preload="none" playsinline poster="../assets/animations/dvnanima/neutrino-particles-humanity-cube-en.jpg">
+                    <source src="../assets/animations/dvnanima/neutrino-particles-humanity-cube-en.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>
+                    <span>English version (22 s)</span>
+                    <small>25.1 MB</small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="lecture-course-actions animation-actions">
+                <a href="../assets/animations/dvnanima/neutrino-particles-humanity-cube-ru.mp4">MP4: Русская версия (22 с)</a>
+                <a href="../assets/animations/dvnanima/neutrino-particles-humanity-cube-en.mp4">MP4: English version (22 s)</a>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </details>
@@ -878,7 +911,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Один пакет и поле</span>
-                    <small>391.1 KB</small>
+                    <small>447.1 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -974,7 +1007,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>С взаимодействием</span>
-                    <small>820.6 KB</small>
+                    <small>1.9 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -997,7 +1030,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Один пакет</span>
-                    <small>3.8 MB</small>
+                    <small>5.2 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1006,7 +1039,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Два пакета</span>
-                    <small>716.3 KB</small>
+                    <small>2.2 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1162,7 +1195,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>3D</span>
-                    <small>284.8 KB</small>
+                    <small>325.4 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1185,7 +1218,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Маятники</span>
-                    <small>1.8 MB</small>
+                    <small>1.3 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1208,7 +1241,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Capacitor</span>
-                    <small>584.4 KB</small>
+                    <small>546.8 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1231,7 +1264,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Diode</span>
-                    <small>443.7 KB</small>
+                    <small>381.3 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1254,7 +1287,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Peak detector</span>
-                    <small>526.5 KB</small>
+                    <small>523.7 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1277,7 +1310,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Cascade</span>
-                    <small>493.3 KB</small>
+                    <small>367.3 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -1982,7 +2015,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Fourier SVG</span>
-                    <small>997.8 KB</small>
+                    <small>775.8 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -1991,7 +2024,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>π</span>
-                    <small>1004.5 KB</small>
+                    <small>794.5 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2000,7 +2033,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Телескоп</span>
-                    <small>1.6 MB</small>
+                    <small>1.4 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2009,7 +2042,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Мозг</span>
-                    <small>743.1 KB</small>
+                    <small>549.0 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2018,7 +2051,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Динозавр</span>
-                    <small>1.7 MB</small>
+                    <small>1.4 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2027,7 +2060,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Портрет 1</span>
-                    <small>963.9 KB</small>
+                    <small>745.3 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2036,7 +2069,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Портрет 2</span>
-                    <small>1.1 MB</small>
+                    <small>858.3 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2045,7 +2078,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Портрет 4</span>
-                    <small>1.1 MB</small>
+                    <small>929.4 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -2075,7 +2108,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Геоцентрическая траектория</span>
-                    <small>680.9 KB</small>
+                    <small>621.7 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2084,7 +2117,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Марс</span>
-                    <small>1.0 MB</small>
+                    <small>727.2 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2093,7 +2126,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Юпитер</span>
-                    <small>1.0 MB</small>
+                    <small>686.7 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2102,7 +2135,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Сатурн</span>
-                    <small>1.1 MB</small>
+                    <small>747.5 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2111,7 +2144,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Марс: Фурье</span>
-                    <small>1.6 MB</small>
+                    <small>1.1 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2120,7 +2153,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Сатурн: Фурье</span>
-                    <small>1.9 MB</small>
+                    <small>1.3 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2129,7 +2162,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Карточка Марса</span>
-                    <small>191.1 KB</small>
+                    <small>144.2 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2138,7 +2171,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Карточка Юпитера</span>
-                    <small>130.5 KB</small>
+                    <small>89.8 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2147,7 +2180,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Карточка Сатурна</span>
-                    <small>409.9 KB</small>
+                    <small>364.2 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -2178,7 +2211,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Lorenz</span>
-                    <small>1.7 MB</small>
+                    <small>1.4 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2187,7 +2220,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Aizawa</span>
-                    <small>1.3 MB</small>
+                    <small>1.1 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2196,7 +2229,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Rössler</span>
-                    <small>969.6 KB</small>
+                    <small>682.2 KB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2205,7 +2238,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Thomas</span>
-                    <small>1.6 MB</small>
+                    <small>1.1 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2214,7 +2247,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Dadras</span>
-                    <small>1.7 MB</small>
+                    <small>3.5 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -2241,7 +2274,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Riemann zeta</span>
-                    <small>2.1 MB</small>
+                    <small>1.6 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -2264,7 +2297,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Pi Day</span>
-                    <small>3.5 MB</small>
+                    <small>3.0 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -2287,7 +2320,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Imaginary powers</span>
-                    <small>1.3 MB</small>
+                    <small>1.0 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -2321,7 +2354,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Как диполь поворачивает частицу</span>
-                    <small>884.0 KB</small>
+                    <small>541.3 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -2344,7 +2377,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Как квадруполи фокусируют пучок</span>
-                    <small>1.8 MB</small>
+                    <small>1.2 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -2367,7 +2400,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Как секступоль исправляет фокусировку</span>
-                    <small>1.2 MB</small>
+                    <small>937.3 KB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -2390,7 +2423,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Как работает накопительное кольцо</span>
-                    <small>5.1 MB</small>
+                    <small>3.4 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -2424,7 +2457,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Rose Eight</span>
-                    <small>2.6 MB</small>
+                    <small>2.0 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -2447,7 +2480,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Star + Wind</span>
-                    <small>2.1 MB</small>
+                    <small>1.9 MB</small>
                   </figcaption>
                 </figure>
                 <figure class="animation-video-frame">
@@ -2456,7 +2489,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Star Jet + Cloud</span>
-                    <small>3.9 MB</small>
+                    <small>4.0 MB</small>
                   </figcaption>
                 </figure>
               </div>
@@ -2480,7 +2513,7 @@ lang: ru-RU
                   </video>
                   <figcaption>
                     <span>Слияние двух галактик</span>
-                    <small>677.4 KB</small>
+                    <small>1.8 MB</small>
                   </figcaption>
                 </figure>
               </div>
