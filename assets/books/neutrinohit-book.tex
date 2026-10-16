@@ -127,21 +127,25 @@
 
 % Public labels and colour hook. A book changes these without copying the
 % layout machinery: for example, "Лекция" in the neutrino book and "Глава"
-% in the statistics book.
+% in the statistics book. The defaults are Russian; neutrinohit-book.lua
+% switches them to English for a book with `lang: en`.
 \providecommand{\bookchaptercolor}{BookTeal}
-\newcommand{\BookChapterLabel}{Глава}
-\newcommand{\BookPartLabel}{РАЗДЕЛ КНИГИ}
-\newcommand{\BookPartContentsLabel}{Главы}
-\newcommand{\BookTocChapterLabel}{Глава}
+\newif\ifBookEnglishLabels
+\newcommand{\BookLabel}[2]{\ifBookEnglishLabels#2\else#1\fi}
+\newcommand{\BookChapterLabel}{\BookLabel{Глава}{Chapter}}
+\newcommand{\BookPartLabel}{\BookLabel{РАЗДЕЛ КНИГИ}{PART}}
+\newcommand{\BookPartContentsLabel}{\BookLabel{Главы}{Chapters}}
+\newcommand{\BookTocChapterLabel}{\BookLabel{Глава}{Chapter}}
+\newcommand{\BookContentsLabel}{\BookLabel{Содержание}{Contents}}
 \DeclareRobustCommand{\BookTitleBreak}{\space}
 
 \clearpairofpagestyles
 \ihead{\headmark}
-\newcommand{\BookHeaderPage}{%
-  \ifnum\value{part}=0\relax
-    \ifnum\value{chapter}=0\relax\pagemark\fi
-  \fi
-}
+% Front matter has its page number in the header; from the first part or
+% numbered chapter on, the outer-edge navigator prints it.
+\newcommand{\BookInBody}[2]{%
+  \ifnum\numexpr\value{part}+\value{chapter}\relax>0 #1\else #2\fi}
+\newcommand{\BookHeaderPage}{\BookInBody{}{\pagemark}}
 \ohead{\BookHeaderPage}
 \setkomafont{pageheadfoot}{\small\sffamily\color{BookMuted}}
 \setkomafont{pagehead}{\small\sffamily\color{BookInk}}
@@ -210,7 +214,7 @@
   \vspace{14mm}%
   \noindent
   {\sffamily\bfseries\color{BookInk}\fontsize{18}{22}\selectfont
-   Содержание\par}%
+   \BookContentsLabel\par}%
   \vspace{3mm}%
   {\noindent\color{\bookchaptercolor}\rule{18mm}{0.75mm}\par}%
   \vspace{5mm}%
@@ -256,7 +260,7 @@
 
 \newcommand{\BookRenderPageNavigator}{%
   \ifbookpagenavigator
-    \ifnum\value{part}>0\relax
+    \BookInBody{%
       \begin{tikzpicture}[remember picture,overlay]
         \ifodd\value{page}
           \BookPageNavigatorRight
@@ -264,7 +268,7 @@
           \BookPageNavigatorLeft
         \fi
       \end{tikzpicture}%
-    \fi
+    }{}%
   \fi
 }
 \AddToHook{shipout/foreground}{\BookRenderPageNavigator}

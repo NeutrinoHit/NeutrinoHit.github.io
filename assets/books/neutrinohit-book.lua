@@ -16,6 +16,44 @@ local function value(value)
   return value or ""
 end
 
+-- Labels printed by the filter; configure_book_profile picks the set by the
+-- book's `lang` (English for `en*`, Russian otherwise).
+local label_sets = {
+  ru = {
+    source_code = "Исходный код:",
+    source = "Источник:",
+    photo = "фото",
+    photo_colon = "фото:",
+    source_link = "источник",
+    animation = "Анимация",
+    interactive = "Интерактив",
+    open_interactive = "Открыть интерактив",
+    margin_note = "Заметка на полях",
+    physical_comment = "Физический смысл",
+    experimental_fact = "Экспериментальный факт",
+    warning = "Важно",
+    exercises = "Задачи",
+    exercise_pattern = "^Задача%s+%d+"
+  },
+  en = {
+    source_code = "Source code:",
+    source = "Source:",
+    photo = "photo",
+    photo_colon = "photo:",
+    source_link = "source",
+    animation = "Animation",
+    interactive = "Interactive",
+    open_interactive = "Open the interactive",
+    margin_note = "Margin note",
+    physical_comment = "Physical meaning",
+    experimental_fact = "Experimental fact",
+    warning = "Important",
+    exercises = "Exercises",
+    exercise_pattern = "^Exercise%s+%d+"
+  }
+}
+local L = label_sets.ru
+
 local function project_path(path)
   path = value(path)
   if FORMAT:match("latex") or FORMAT:match("epub") then
@@ -85,7 +123,7 @@ local function source_note(div)
   end
   return pandoc.Div({
     pandoc.Para({
-      pandoc.Str("Исходный код:"),
+      pandoc.Str(L.source_code),
       pandoc.Space(),
       pandoc.Link({pandoc.Str(label)}, repo)
     })
@@ -197,7 +235,7 @@ local function biography_sources(div)
   local inlines = {}
 
   if source ~= "" then
-    inlines[#inlines + 1] = pandoc.Strong("Источник:")
+    inlines[#inlines + 1] = pandoc.Strong(L.source)
     inlines[#inlines + 1] = pandoc.Space()
     inlines[#inlines + 1] = pandoc.Link(
       {pandoc.Str(source_label ~= "" and source_label or source)}, source
@@ -208,10 +246,10 @@ local function biography_sources(div)
       inlines[#inlines + 1] = pandoc.Str(";")
       inlines[#inlines + 1] = pandoc.Space()
     end
-    inlines[#inlines + 1] = pandoc.Str("фото")
+    inlines[#inlines + 1] = pandoc.Str(L.photo)
     inlines[#inlines + 1] = pandoc.Space()
     inlines[#inlines + 1] = pandoc.Link(
-      {pandoc.Str(photo_credit ~= "" and photo_credit or "источник")},
+      {pandoc.Str(photo_credit ~= "" and photo_credit or L.source_link)},
       photo_source
     )
   elseif photo_credit ~= "" then
@@ -219,7 +257,7 @@ local function biography_sources(div)
       inlines[#inlines + 1] = pandoc.Str(";")
       inlines[#inlines + 1] = pandoc.Space()
     end
-    inlines[#inlines + 1] = pandoc.Str("фото:")
+    inlines[#inlines + 1] = pandoc.Str(L.photo_colon)
     inlines[#inlines + 1] = pandoc.Space()
     inlines[#inlines + 1] = pandoc.Str(photo_credit)
   end
@@ -491,7 +529,7 @@ local function render_animation(div)
     end
   end
 
-  local caption = media_caption(div, title, "Анимация", source)
+  local caption = media_caption(div, title, L.animation, source)
   local card
   if qr_fixed ~= "" and url ~= "" then
     card = qr_card(div, url, qr_fixed, caption)
@@ -582,14 +620,14 @@ local function render_interactive(div)
     end
   end
 
-  local caption = media_caption(div, title, "Интерактив", source)
+  local caption = media_caption(div, title, L.interactive, source)
   local card
   if qr_fixed ~= "" and url ~= "" then
     card = qr_card(div, url, qr_fixed, caption)
   else
     if url ~= "" then
       caption[#caption + 1] = pandoc.Para({
-        pandoc.Link({pandoc.Str("Открыть интерактив")}, url)
+        pandoc.Link({pandoc.Str(L.open_interactive)}, url)
       })
     end
     card = FORMAT:match("latex") and
@@ -609,7 +647,7 @@ end
 local function render_margin_note(div)
   local title = value(div.attributes.title)
   if title == "" then
-    title = "Заметка на полях"
+    title = L.margin_note
   end
 
   if FORMAT:match("html") or FORMAT:match("epub") then
@@ -642,10 +680,10 @@ local function render_margin_note(div)
   return div
 end
 
-local semantic_labels = {
-  ["physical-comment"] = "Физический смысл",
-  ["experimental-fact"] = "Экспериментальный факт",
-  ["warning"] = "Важно"
+local semantic_classes = {
+  ["physical-comment"] = "physical_comment",
+  ["experimental-fact"] = "experimental_fact",
+  ["warning"] = "warning"
 }
 
 function Div(div)
@@ -673,9 +711,9 @@ function Div(div)
     end
     return div
   end
-  for class, label in pairs(semantic_labels) do
+  for class, key in pairs(semantic_classes) do
     if has_class(div, class) then
-      div.content:insert(1, heading(value(div.attributes.title), label))
+      div.content:insert(1, heading(value(div.attributes.title), L[key]))
       add_class(div, "semantic-block")
       if FORMAT:match("latex") then
         local options = ""
@@ -697,6 +735,19 @@ local part_titles = {}
 local pdf_title_lines = {}
 
 local function configure_book_profile(meta)
+  local lang = meta.lang and pandoc.utils.stringify(meta.lang) or ""
+  L = lang:match("^en") and label_sets.en or label_sets.ru
+  if FORMAT:match("latex") and L == label_sets.en then
+    -- Order-independent of the preamble include that defines the switch.
+    local includes = meta["header-includes"] or pandoc.MetaList({})
+    if includes.t ~= "MetaList" then
+      includes = pandoc.MetaList({includes})
+    end
+    includes:insert(pandoc.MetaBlocks({pandoc.RawBlock(
+      "latex", "\\AtBeginDocument{\\csname BookEnglishLabelstrue\\endcsname}"
+    )}))
+    meta["header-includes"] = includes
+  end
   local configured_titles = meta["book-part-titles"]
   if configured_titles then
     for _, item in ipairs(configured_titles) do
@@ -765,10 +816,10 @@ function Header(header)
   if header.level == 1 then
     close_exercise_box(prefix)
     inside_exercises = false
-  elseif header.level == 2 and title == "Задачи" then
+  elseif header.level == 2 and title == L.exercises then
     close_exercise_box(prefix)
     inside_exercises = true
-  elseif inside_exercises and header.level == 2 and title:match("^Задача%s+%d+") then
+  elseif inside_exercises and header.level == 2 and title:match(L.exercise_pattern) then
     add_class(header, "unnumbered")
     add_class(header, "unlisted")
     add_class(header, "exercise-heading")
