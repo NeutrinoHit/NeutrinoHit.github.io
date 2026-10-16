@@ -9,6 +9,7 @@ to each book:
   <book>/assets/styles/    neutrinohit-book.css
   <book>/assets/filters/   *.lua
   <repo>/shared/latex/     neutrinohit-book.tex
+  <repo>/scripts/          setup_book_tex.sh (TeX for PDF books in CI; called by `make ci-setup`)
 
 Examples:
 
@@ -58,6 +59,9 @@ def latex_copy(repo_latex: str, *, legacy: bool = False) -> Copy:
     return Copy("neutrinohit-book.tex", repo_latex, legacy=legacy)
 
 
+TEX_SETUP = Copy("setup_book_tex.sh", "scripts")
+
+
 def consumers() -> list[Consumer]:
     return [
         Consumer(
@@ -67,7 +71,7 @@ def consumers() -> list[Consumer]:
                 legacy=True,
                 filters=("hide-book-index.lua", "chapter-bibliographies.lua"),
             )
-            + [latex_copy("shared/latex", legacy=True)],
+            + [latex_copy("shared/latex", legacy=True), TEX_SETUP],
         ),
         Consumer(
             "neutrinophysics",
@@ -77,11 +81,11 @@ def consumers() -> list[Consumer]:
                 filters=("hide-book-index.lua",),
                 holds={"hide-book-index.lua": HIDE_INDEX_ALL},
             )
-            + [latex_copy("shared/latex", legacy=True)],
+            + [latex_copy("shared/latex", legacy=True), TEX_SETUP],
         ),
         Consumer(
             "gravity",
-            book_copies("ru/book", filters=("hide-book-index.lua",)) + [latex_copy("shared/latex")],
+            book_copies("ru/book", filters=("hide-book-index.lua",)) + [latex_copy("shared/latex"), TEX_SETUP],
         ),
         Consumer(
             "particlephysics",
@@ -99,7 +103,7 @@ def consumers() -> list[Consumer]:
                 "en/book",
                 filters=("hide-book-index.lua", "chapter-bibliographies.lua"),
             )
-            + [latex_copy("shared/latex")],
+            + [latex_copy("shared/latex"), TEX_SETUP],
         ),
     ]
 
