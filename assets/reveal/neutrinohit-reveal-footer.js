@@ -201,6 +201,43 @@
     if (hub && menu) hub.Queue(["Typeset", hub, menu]);
   }
 
+  // MathJax measures the surrounding font when it typesets. Formulas on a
+  // slide or tab that is not displayed at that moment come out at half size,
+  // so the visible part of a slide is rendered again the first time it is shown.
+  const renderedWhileShown = new WeakSet();
+
+  function visibleTabPanels(slide) {
+    return Array.from(slide.querySelectorAll('[role="tabpanel"]'))
+      .filter((panel) => !panel.hidden && panel.offsetParent !== null);
+  }
+
+  function rerenderShownMath() {
+    const hub = window.MathJax && window.MathJax.Hub;
+    const slide = window.Reveal && typeof window.Reveal.getCurrentSlide === "function"
+      ? window.Reveal.getCurrentSlide()
+      : null;
+    if (!hub || !slide) return;
+    const parts = [slide, ...visibleTabPanels(slide)]
+      .filter((part) => !renderedWhileShown.has(part));
+    // A slide rerender covers its visible tabs; hidden tabs wait for their turn.
+    const targets = renderedWhileShown.has(slide) ? parts : [slide];
+    parts.forEach((part) => renderedWhileShown.add(part));
+    if (!targets.some((part) => part.querySelector(".MathJax_CHTML, .MathJax_SVG, .MathJax"))) return;
+    targets.forEach((part) => hub.Queue(["Rerender", hub, part]));
+    hub.Queue(() => window.Reveal.layout());
+  }
+
+  function watchShownMath() {
+    // The slide shown at load is typeset while displayed.
+    const slide = window.Reveal.getCurrentSlide();
+    if (slide) [slide, ...visibleTabPanels(slide)].forEach((part) => renderedWhileShown.add(part));
+    window.Reveal.on("slidechanged", rerenderShownMath);
+    // Capture phase: the click on a tab does not always bubble to the document.
+    document.addEventListener("click", (event) => {
+      if (event.target.closest('[role="tab"]')) window.setTimeout(rerenderShownMath, 0);
+    }, true);
+  }
+
   function configureMathJax() {
     if (window.__neutrinohitMathJaxConfigured) return;
     const setRenderer = config.mathJaxRenderer && config.mathJaxRenderer !== "default";
@@ -230,6 +267,7 @@
         hub.Queue(() => {
           if (window.Reveal && typeof window.Reveal.layout === "function") {
             window.Reveal.layout();
+            watchShownMath();
           }
         });
       } catch (error) {
