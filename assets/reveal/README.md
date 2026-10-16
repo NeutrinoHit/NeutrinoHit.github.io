@@ -58,6 +58,12 @@ does not depend on web fonts; choose it per presentation if needed. The script
 also typesets formulas in the slide-menu titles, which the RevealJS MathJax2
 plugin skips.
 
+MathJax measures the surrounding font when it typesets, and formulas on a
+slide or tab that is not displayed at that moment come out at half size. The
+footer therefore renders the formulas of a slide once more the first time the
+slide is shown, and those of a tab the first time the tab is opened. Lectures
+need no local workaround for this.
+
 Do not set `html-math-method: mathjax` in slide metadata: that string selects
 the MathJax 3 URL, while the RevealJS math plugin uses the MathJax 2 API and
 fails with `Cannot read properties of undefined (reading 'Config')`. Quarto's
