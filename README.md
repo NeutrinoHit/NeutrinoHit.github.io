@@ -646,18 +646,33 @@ $$
 
 ### Математика и `\mathcal`
 
-Для RevealJS-презентаций использовать MathJax:
+RevealJS-презентации используют MathJax 2, который Quarto подключает по
+умолчанию: плагин math.js в шаблоне RevealJS вызывает API MathJax 2
+(`MathJax.Hub`). Поэтому `html-math-method` в metadata слайдов не задавать.
+Строка `html-math-method: mathjax` подставляет адрес MathJax 3 из pandoc;
+формулы при этом набираются, но плагин падает в консоли с ошибкой
+`Cannot read properties of undefined (reading 'Config')`. Если адрес нужно
+указать явно, то только MathJax 2:
 
 ```yaml
 format:
   revealjs:
-    html-math-method: mathjax
+    html-math-method:
+      method: mathjax
+      url: https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js
 ```
 
 Общий footer script `assets/reveal/neutrinohit-reveal-footer.js` после
-инициализации RevealJS переключает MathJax2 на SVG renderer. Это сделано
-системно, чтобы команды вроде `\mathcal`, `\mathbb`, `\mathfrak` не зависели от
-загрузки web-fonts в браузере.
+инициализации RevealJS задаёт MathJax2 renderer `CommonHTML` (решение
+2026-10-16): формулы выглядят как прежде с MathJax 3 и не бледнеют на тёмном
+фоне; `\mathcal` и `\mathbb` проверены. `SVG` (тоньше, не зависит от
+web-fonts) выбирается для отдельной презентации атрибутом
+`data-mathjax-renderer="SVG"`. Он же набирает формулы в заголовках меню
+слайдов: плагин MathJax2 обрабатывает только сами слайды.
+
+Скрипты слайдов, которые вставляют TeX динамически, вызывают
+`MathJax.Hub.Queue(["Typeset", MathJax.Hub, element])`; API MathJax 3
+(`MathJax.typesetPromise`) в RevealJS-презентациях недоступен.
 
 Все презентации с этим footer обязаны задавать контекстную кнопку возврата:
 
@@ -680,14 +695,14 @@ format:
 context-home отсутствует, ведёт на локальную страницу вроде `index.html`, не
 зарегистрирован или указывает на несуществующий якорь.
 
-По умолчанию MathJax fallback включен автоматически; явно это выглядит так же,
-как обычная footer-вставка, но с `data-mathjax-renderer="SVG"`:
+По умолчанию footer включает renderer `CommonHTML`; другой renderer задаётся
+атрибутом, например `data-mathjax-renderer="SVG"`:
 
 ```html
 <script data-external="1" data-context-home="https://neutrinohit.github.io/ru/education.html#qft" data-context-home-label="Карта курса КТП" data-mathjax-renderer="SVG" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
 ```
 
-Если нужно отключить этот fallback на отдельной презентации:
+Если нужно оставить renderer самого MathJax на отдельной презентации:
 
 ```html
 <script data-external="1" data-context-home="https://neutrinohit.github.io/ru/education.html#qft" data-context-home-label="Карта курса КТП" data-mathjax-renderer="default" src="shared/reveal/neutrinohit-reveal-footer.js"></script>

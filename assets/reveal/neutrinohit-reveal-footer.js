@@ -16,7 +16,7 @@
       : "Главная страница материалов",
     mathJaxRenderer: scriptElement && scriptElement.dataset.mathjaxRenderer
       ? scriptElement.dataset.mathjaxRenderer
-      : "SVG",
+      : "CommonHTML",
     logoUrl: new URL("dvnlogo.png", assetBaseUrl).href,
     telegramUrl: "https://t.me/NeutrinoHit",
     youtubeUrl: "https://www.youtube.com/@dmitrynaumov6099/"
@@ -193,9 +193,20 @@
     document.body.appendChild(footer);
   }
 
+  // The RevealJS MathJax2 plugin typesets only the slides; slide titles
+  // copied into the slide menu would otherwise show raw TeX.
+  function typesetSlideMenu() {
+    const hub = window.MathJax && window.MathJax.Hub;
+    const menu = document.querySelector(".slide-menu-wrapper");
+    if (hub && menu) hub.Queue(["Typeset", hub, menu]);
+  }
+
   function configureMathJax() {
-    if (!config.mathJaxRenderer || config.mathJaxRenderer === "default") return;
     if (window.__neutrinohitMathJaxConfigured) return;
+    const setRenderer = config.mathJaxRenderer && config.mathJaxRenderer !== "default";
+
+    const revealElement = document.querySelector(".reveal");
+    if (revealElement) revealElement.addEventListener("menu-ready", typesetSlideMenu);
 
     let attempts = 0;
     const maxAttempts = 120;
@@ -211,8 +222,11 @@
       window.__neutrinohitMathJaxConfigured = true;
 
       try {
-        hub.Queue(["setRenderer", hub, config.mathJaxRenderer]);
-        hub.Queue(["Rerender", hub]);
+        if (setRenderer) {
+          hub.Queue(["setRenderer", hub, config.mathJaxRenderer]);
+          hub.Queue(["Rerender", hub]);
+        }
+        typesetSlideMenu();
         hub.Queue(() => {
           if (window.Reveal && typeof window.Reveal.layout === "function") {
             window.Reveal.layout();
