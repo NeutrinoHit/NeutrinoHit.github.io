@@ -50,11 +50,20 @@ format:
         <script data-external="1" data-context-home="https://neutrinohit.github.io/ru/outreach.html#birth-life-universe" data-context-home-label="Карта лекции" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
 ```
 
-The footer script also applies a MathJax2 SVG renderer fallback after RevealJS
-initializes MathJax. This avoids browser/web-font issues with commands such as
-`\mathcal` in RevealJS output. The default renderer is `SVG`.
+The footer script sets the MathJax2 output renderer after RevealJS
+initializes MathJax. The default renderer is `CommonHTML`: formulas look as
+they did with MathJax 3 and keep their weight on a dark background
+(`\mathcal`, `\mathbb` checked, 2026-10-16). `SVG` gives thinner glyphs and
+does not depend on web fonts; choose it per presentation if needed. The script
+also typesets formulas in the slide-menu titles, which the RevealJS MathJax2
+plugin skips.
 
-To disable this fallback for a particular presentation, pass:
+Do not set `html-math-method: mathjax` in slide metadata: that string selects
+the MathJax 3 URL, while the RevealJS math plugin uses the MathJax 2 API and
+fails with `Cannot read properties of undefined (reading 'Config')`. Quarto's
+RevealJS default (MathJax 2.7.9) needs no setting.
+
+To keep MathJax's own renderer for a particular presentation, pass:
 
 ```yaml
 format:
@@ -64,14 +73,14 @@ format:
         <script data-external="1" data-context-home="https://neutrinohit.github.io/ru/education.html#qft" data-context-home-label="Карта курса КТП" data-mathjax-renderer="default" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
 ```
 
-To choose another MathJax2 renderer explicitly, for example `HTML-CSS`, pass:
+To choose another MathJax2 renderer explicitly, for example `SVG`, pass:
 
 ```yaml
 format:
   revealjs:
     include-after-body:
       text: |
-        <script data-external="1" data-context-home="https://neutrinohit.github.io/ru/education.html#qft" data-context-home-label="Карта курса КТП" data-mathjax-renderer="HTML-CSS" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
+        <script data-external="1" data-context-home="https://neutrinohit.github.io/ru/education.html#qft" data-context-home-label="Карта курса КТП" data-mathjax-renderer="SVG" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
 ```
 
 If a presentation already defines `format.revealjs.logo`, the script moves that
