@@ -25,9 +25,9 @@ tlmgr --version
 tlmgr option repository "$book_tex_repository"
 tlmgr update --self
 tlmgr install \
-  amsmath booktabs caption colortbl etoc float fontspec footnotehyper \
+  amsmath booktabs caption colortbl enumitem etoc float fontspec footnotehyper \
   framed fvextra graphics hyperref hyphen-russian koma-script \
-  libertinus-fonts lua-ul luatexbase marginnote mathtools microtype \
+  libertinus-fonts listingsutf8 lua-ul luatexbase marginnote mathtools microtype \
   needspace pdfpages pgf polyglossia ragged2e selnolig tcolorbox \
   tools unicode-math upquote xcolor xurl
 

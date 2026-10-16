@@ -71,6 +71,10 @@ def consumers() -> list[Consumer]:
                 legacy=True,
                 filters=("hide-book-index.lua", "chapter-bibliographies.lua"),
             )
+            + book_copies(
+                "en/book",
+                filters=("hide-book-index.lua", "chapter-bibliographies.lua"),
+            )
             + [latex_copy("shared/latex", legacy=True), TEX_SETUP],
         ),
         Consumer(
