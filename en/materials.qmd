@@ -52,11 +52,11 @@ toc: false
 
   <h2 class="section-inline-title">Other books</h2>
   <section class="lecture-course-list" aria-label="Books catalog">
-    <details id="solar-neutrino-book" class="lecture-course book-course-solar">
-      <summary>
+    <div id="solar-neutrino-book" class="lecture-course book-course-solar">
+      <div class="lecture-course-head">
         <span class="lecture-course-status">Popular science · published in Russian</span>
         <span class="lecture-course-title">Solar Neutrino</span>
-      </summary>
+      </div>
       <div class="lecture-course-body book-course-with-cover">
         <a class="book-cover-single" href="https://ast.ru/book/solnechnoe-neytrino-862573/">
           <img src="https://cdn.ast.ru/v2/ASE000000000862573/COVER/cover1__w340.jpg" alt="Solar Neutrino book cover">
@@ -68,13 +68,13 @@ toc: false
           </div>
         </div>
       </div>
-    </details>
+    </div>
 
-    <details class="lecture-course book-course-neutrino">
-      <summary>
+    <div class="lecture-course book-course-neutrino">
+      <div class="lecture-course-head">
         <span class="lecture-course-status">In progress</span>
         <span class="lecture-course-title">Introduction to Neutrino Physics</span>
-      </summary>
+      </div>
       <div class="lecture-course-body">
         <p>The online book of the introductory course (in Russian); a printed edition is in preparation.</p>
         <div class="lecture-course-actions">
@@ -82,13 +82,13 @@ toc: false
           <a href="../qr/neutrino-physics/">QR materials</a>
         </div>
       </div>
-    </details>
+    </div>
 
-    <details class="lecture-course book-course-particles">
-      <summary>
+    <div class="lecture-course book-course-particles">
+      <div class="lecture-course-head">
         <span class="lecture-course-status">In progress</span>
         <span class="lecture-course-title">Introduction to Particle Physics</span>
-      </summary>
+      </div>
       <div class="lecture-course-body">
         <p>The online book of the full course; a printed edition is in preparation.</p>
         <div class="lecture-course-actions">
@@ -96,13 +96,13 @@ toc: false
           <a href="../qr/particle-physics/">QR materials</a>
         </div>
       </div>
-    </details>
+    </div>
 
-    <details class="lecture-course book-course-stat">
-      <summary>
+    <div class="lecture-course book-course-stat">
+      <div class="lecture-course-head">
         <span class="lecture-course-status">Online book · in progress</span>
         <span class="lecture-course-title">Statistical Analysis</span>
-      </summary>
+      </div>
       <div class="lecture-course-body">
         <p>A practical online book on probability models, parameter estimation,
         hypothesis testing, and statistical inference in experimental physics.</p>
@@ -113,7 +113,7 @@ toc: false
           <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Exam projects (Russian)</a>
         </div>
       </div>
-    </details>
+    </div>
   </section>
 </div>
 ```

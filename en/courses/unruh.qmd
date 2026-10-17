@@ -1,0 +1,37 @@
+---
+pagetitle: "Accelerated Frames and the Unruh Effect – NeutrinoHit"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="unruh">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>Accelerated Frames and the Unruh Effect</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Mini-course · Russian</span>
+    <h1>Accelerated Frames and the Unruh Effect</h1>
+    <p class="course-page-summary">Five Russian-language HTML lectures, from Rindler coordinates and entanglement entropy to the Unruh effect for scalar and fermion fields.</p>
+    <p class="course-toc-meta">5 lectures</p>
+  </header>
+  <h2 class="course-page-section">Contents</h2>
+  <table class="course-toc course-toc-full">
+    <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-col">Slides</th></tr></thead>
+    <tbody>
+      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../qft-lectures/unruh/ru/slides/01_rindler.html">Релятивистское ускорение и координаты Риндлера</a></td><td class="course-toc-col" data-label="Slides"><a href="../../qft-lectures/unruh/ru/slides/01_rindler.html">slides</a></td></tr>
+      <tr id="lecture-02"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="../../qft-lectures/unruh/ru/slides/02_thermodynamics.html">Введение в квантовую статистическую механику</a></td><td class="course-toc-col" data-label="Slides"><a href="../../qft-lectures/unruh/ru/slides/02_thermodynamics.html">slides</a></td></tr>
+      <tr id="lecture-03"><td class="course-toc-num">03</td><td class="course-toc-topic"><a href="../../qft-lectures/unruh/ru/slides/03_unruh_wave.html">Эффект Унру для плоской волны</a></td><td class="course-toc-col" data-label="Slides"><a href="../../qft-lectures/unruh/ru/slides/03_unruh_wave.html">slides</a></td></tr>
+      <tr id="lecture-04"><td class="course-toc-num">04</td><td class="course-toc-topic"><a href="../../qft-lectures/unruh/ru/slides/04_unruh_scalar_field.html">Эффект Унру для скалярного поля</a></td><td class="course-toc-col" data-label="Slides"><a href="../../qft-lectures/unruh/ru/slides/04_unruh_scalar_field.html">slides</a></td></tr>
+      <tr id="lecture-05"><td class="course-toc-num">05</td><td class="course-toc-topic"><a href="../../qft-lectures/unruh/ru/slides/05_unruh_fermion_field.html">Фермионное поле и эффект Унру</a></td><td class="course-toc-col" data-label="Slides"><a href="../../qft-lectures/unruh/ru/slides/05_unruh_fermion_field.html">slides</a></td></tr>
+    </tbody>
+  </table>
+  <h2 class="course-page-section">More in this section</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status is-ready">Video course · Russian</span><a class="course-tile-title" href="quantum-field-theory.html">Quantum Field Theory</a><span class="course-tile-text">Introduction to QFT and QED: from the Dirac equation to the S‑matrix and Wick’s theorems.</span><span class="course-tile-meta">26 videos · 41 h · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">notes PDF</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Video course · Russian</span><a class="course-tile-title" href="standard-model.html">Introduction to the Standard Model</a><span class="course-tile-text">Scattering and decays in QED and electroweak theory, the Higgs mechanism.</span><span class="course-tile-meta">23 videos · 35 h · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">notes PDF</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Video course · Russian</span><a class="course-tile-title" href="qft-renormalization.html">Renormalization in Quantum Field Theory</a><span class="course-tile-text">Dimensional regularization, vacuum polarization, g−2, neutral kaons, anomalies.</span><span class="course-tile-meta">20 videos · 29 h · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">notes PDF</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Lecture</span><a class="course-tile-title" href="qft-attraction-repulsion.html">Attraction and Repulsion in QFT</a><span class="course-tile-text">Scalar QED and wave packets: how QFT encodes attraction and repulsion.</span><span class="course-tile-meta">1 lecture</span></div>
+    <div class="course-tile"><span class="course-tile-status">In preparation · Russian</span><a class="course-tile-title" href="qft-vacuum.html">The Quantum Field Vacuum</a><span class="course-tile-text">The wave functional of a free field, the Gaussian vacuum and white noise.</span><span class="course-tile-meta">1 lecture</span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← All courses</a></p>
+</article>
+```

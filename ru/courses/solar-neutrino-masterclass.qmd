@@ -1,0 +1,59 @@
+---
+pagetitle: "Солнечные нейтрино: мастер-класс – NeutrinoHit"
+lang: ru-RU
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="solar-neutrino-masterclass">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><span>Солнечные нейтрино: мастер-класс</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Мастер-класс · англ.</span>
+    <h1>Солнечные нейтрино: мастер-класс</h1>
+    <p class="course-page-summary">Мини-курс по источникам солнечных нейтрино, осцилляциям, MSW-эффекту, детекторной статистике и SK-подобному фитированию.</p>
+    <p class="course-toc-meta">3 лекции · лекции на английском</p>
+  </header>
+  <h2 class="course-page-section">Оглавление</h2>
+  <table class="course-toc course-toc-full">
+    <thead><tr><th class="course-toc-num">№</th><th>Тема</th><th class="course-toc-col">Слайды</th><th class="course-toc-col">Ещё</th></tr></thead>
+    <tbody>
+      <tr id="lecture-00"><td class="course-toc-num">00</td><td class="course-toc-topic"><a href="../../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html">Solar Neutrinos and Oscillations</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html">слайды</a></td><td class="course-toc-col" data-label="Ещё"><a href="#lecture-00-more">ещё&nbsp;1</a></td></tr>
+      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html">Fluxes, event rates, normalization fit</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html">слайды</a></td><td class="course-toc-col" data-label="Ещё"><a href="#lecture-01-more">ещё&nbsp;1</a></td></tr>
+      <tr id="lecture-02"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="../../neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html">Oscillations and fit</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html">слайды</a></td><td class="course-toc-col" data-label="Ещё"><a href="#lecture-02-more">ещё&nbsp;1</a></td></tr>
+    </tbody>
+  </table>
+  <h2 class="course-page-section">Материалы</h2>
+  <div class="course-page-card">
+    <h3>Проект. SK-like fit</h3>
+    <div class="lecture-course-actions">
+      <a href="../../neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html">Открыть проект</a>
+      <a href="../../neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip">Данные проекта</a>
+    </div>
+  </div>
+  <div class="course-page-card" id="lecture-00-more">
+    <h3>К лекции 00</h3>
+    <div class="lecture-course-actions">
+      <a href="../../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics_appendix.html">Приложение</a>
+    </div>
+  </div>
+  <div class="course-page-card" id="lecture-01-more">
+    <h3>К лекции 01</h3>
+    <div class="lecture-course-actions">
+      <a href="../../neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip">Данные мастер-класса 1</a>
+    </div>
+  </div>
+  <div class="course-page-card" id="lecture-02-more">
+    <h3>К лекции 02</h3>
+    <div class="lecture-course-actions">
+      <a href="../../neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip">Данные мастер-класса 2</a>
+    </div>
+  </div>
+  <h2 class="course-page-section">Ещё в этом разделе</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status is-ready">Курс</span><a class="course-tile-title" href="neutrino-introduction.html">Введение в физику нейтрино</a><span class="course-tile-text">Слабое взаимодействие, масса нейтрино, осцилляции в вакууме и веществе.</span><span class="course-tile-meta">15 лекций · <a class="course-tile-book" href="../../neutrinophysics/introduction/ru/book/">онлайн‑книга</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Мини-курс · англ.</span><a class="course-tile-title" href="oscillations-minicourse.html">Осцилляции нейтрино: от вакуума до ядра Земли</a><span class="course-tile-text">Вакуум, вещество и Солнце, нейтринные зонды недр Земли.</span><span class="course-tile-meta">3 лекции</span></div>
+    <div class="course-tile"><span class="course-tile-status">Планируется</span><a class="course-tile-title" href="neutrino-oscillation-theory.html">Теория осцилляций нейтрино в КТП</a><span class="course-tile-text">Будущий специализированный курс по квантово-полевому описанию нейтринных осцилляций.</span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← Все курсы</a></p>
+</article>
+```

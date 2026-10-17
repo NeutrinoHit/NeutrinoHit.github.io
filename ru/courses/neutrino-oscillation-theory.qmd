@@ -1,0 +1,24 @@
+---
+pagetitle: "Теория осцилляций нейтрино в КТП – NeutrinoHit"
+lang: ru-RU
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="neutrino-oscillation-theory">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><span>Теория осцилляций нейтрино в КТП</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status">Планируется</span>
+    <h1>Теория осцилляций нейтрино в КТП</h1>
+    <p class="course-page-summary">Будущий специализированный курс по квантово-полевому описанию нейтринных осцилляций.</p>
+  </header>
+  <p class="course-page-note">Курс планируется; лекции появятся здесь.</p>
+  <h2 class="course-page-section">Ещё в этом разделе</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status is-ready">Курс</span><a class="course-tile-title" href="neutrino-introduction.html">Введение в физику нейтрино</a><span class="course-tile-text">Слабое взаимодействие, масса нейтрино, осцилляции в вакууме и веществе.</span><span class="course-tile-meta">15 лекций · <a class="course-tile-book" href="../../neutrinophysics/introduction/ru/book/">онлайн‑книга</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Мини-курс · англ.</span><a class="course-tile-title" href="oscillations-minicourse.html">Осцилляции нейтрино: от вакуума до ядра Земли</a><span class="course-tile-text">Вакуум, вещество и Солнце, нейтринные зонды недр Земли.</span><span class="course-tile-meta">3 лекции</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Мастер-класс · англ.</span><a class="course-tile-title" href="solar-neutrino-masterclass.html">Солнечные нейтрино: мастер-класс</a><span class="course-tile-text">Потоки, скорости счёта и фит осцилляций по данным.</span><span class="course-tile-meta">3 лекции</span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← Все курсы</a></p>
+</article>
+```

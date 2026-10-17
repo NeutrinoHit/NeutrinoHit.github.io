@@ -51,11 +51,11 @@ toc: false
 
   <h2 class="section-inline-title">Остальные книги</h2>
   <section class="lecture-course-list" aria-label="Каталог книг">
-    <details id="solar-neutrino-book" class="lecture-course book-course-solar">
-      <summary>
+    <div id="solar-neutrino-book" class="lecture-course book-course-solar">
+      <div class="lecture-course-head">
         <span class="lecture-course-status">Научно-популярная · опубликована</span>
         <span class="lecture-course-title">Солнечное нейтрино</span>
-      </summary>
+      </div>
       <div class="lecture-course-body book-course-with-cover">
         <a class="book-cover-single" href="https://ast.ru/book/solnechnoe-neytrino-862573/">
           <img src="https://cdn.ast.ru/v2/ASE000000000862573/COVER/cover1__w340.jpg" alt="Обложка книги «Солнечное нейтрино»">
@@ -67,13 +67,13 @@ toc: false
           </div>
         </div>
       </div>
-    </details>
+    </div>
 
-    <details class="lecture-course book-course-neutrino">
-      <summary>
+    <div class="lecture-course book-course-neutrino">
+      <div class="lecture-course-head">
         <span class="lecture-course-status">В процессе</span>
         <span class="lecture-course-title">Введение в физику нейтрино</span>
-      </summary>
+      </div>
       <div class="lecture-course-body">
         <p>Онлайн-книга к вводному курсу; печатное издание готовится.</p>
         <div class="lecture-course-actions">
@@ -81,13 +81,13 @@ toc: false
           <a href="../qr/neutrino-physics/">Материалы к QR-кодам</a>
         </div>
       </div>
-    </details>
+    </div>
 
-    <details class="lecture-course book-course-particles">
-      <summary>
+    <div class="lecture-course book-course-particles">
+      <div class="lecture-course-head">
         <span class="lecture-course-status">В процессе</span>
         <span class="lecture-course-title">Введение в физику элементарных частиц</span>
-      </summary>
+      </div>
       <div class="lecture-course-body">
         <p>Онлайн-книга к большому курсу; печатное издание готовится.</p>
         <div class="lecture-course-actions">
@@ -95,13 +95,13 @@ toc: false
           <a href="../qr/particle-physics/">Материалы к QR-кодам</a>
         </div>
       </div>
-    </details>
+    </div>
 
-    <details class="lecture-course book-course-stat">
-      <summary>
+    <div class="lecture-course book-course-stat">
+      <div class="lecture-course-head">
         <span class="lecture-course-status">Онлайн-книга · в работе</span>
         <span class="lecture-course-title">Статистический анализ</span>
-      </summary>
+      </div>
       <div class="lecture-course-body">
         <p>Практическая онлайн-книга о вероятностных моделях, оценивании параметров,
         проверке гипотез и статистическом выводе в экспериментальной физике.</p>
@@ -112,7 +112,7 @@ toc: false
           <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Экзаменационные проекты</a>
         </div>
       </div>
-    </details>
+    </div>
   </section>
 </div>
 ```

@@ -1,0 +1,33 @@
+---
+pagetitle: "Притяжение и отталкивание в КТП – NeutrinoHit"
+lang: ru-RU
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="qft-attraction-repulsion">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><span>Притяжение и отталкивание в КТП</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Лекция · англ.</span>
+    <h1>Притяжение и отталкивание в КТП</h1>
+    <p class="course-page-summary">Отдельная лекция по scalar QED и волновым пакетам: как в КТП кодируются притяжение и отталкивание.</p>
+    <p class="course-toc-meta">1 лекция · лекции на английском</p>
+  </header>
+  <h2 class="course-page-section">Оглавление</h2>
+  <table class="course-toc course-toc-full">
+    <thead><tr><th class="course-toc-num">№</th><th>Тема</th><th class="course-toc-col">Слайды</th></tr></thead>
+    <tbody>
+      <tr id="lecture-1"><td class="course-toc-num">1</td><td class="course-toc-topic"><a href="../../qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html">Attraction and Repulsion in Quantum Field Theory</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html">слайды</a></td></tr>
+    </tbody>
+  </table>
+  <h2 class="course-page-section">Ещё в этом разделе</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status is-ready">Видеокурс</span><a class="course-tile-title" href="quantum-field-theory.html">Квантовая теория поля</a><span class="course-tile-text">Введение в КТП и КЭД: от уравнения Дирака до S‑матрицы и теорем Вика.</span><span class="course-tile-meta">26 видео · 41 ч · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">конспект PDF</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Видеокурс</span><a class="course-tile-title" href="standard-model.html">Стандартная модель</a><span class="course-tile-text">Рассеяние и распады в КЭД и электрослабой теории, механизм Хиггса.</span><span class="course-tile-meta">23 видео · 35 ч · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">конспект PDF</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Видеокурс</span><a class="course-tile-title" href="qft-renormalization.html">Ренормировка в квантовой теории поля</a><span class="course-tile-text">Размерная регуляризация, поляризация вакуума, g−2, нейтральные каоны, аномалии.</span><span class="course-tile-meta">20 видео · 29 ч · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">конспект PDF</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Мини-курс</span><a class="course-tile-title" href="unruh.html">Ускоренные системы отсчёта и эффект Унру</a><span class="course-tile-text">От координат Риндлера до эффекта Унру для скалярного и фермионного полей.</span><span class="course-tile-meta">5 лекций</span></div>
+    <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="qft-vacuum.html">Вакуум квантового поля</a><span class="course-tile-text">Волновой функционал свободного поля, гауссов вакуум и белый шум.</span><span class="course-tile-meta">1 лекция</span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← Все курсы</a></p>
+</article>
+```

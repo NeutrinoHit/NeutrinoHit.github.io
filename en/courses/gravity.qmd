@@ -1,0 +1,56 @@
+---
+pagetitle: "Gravity – NeutrinoHit"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="gravity">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>Gravity</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status">In preparation · Russian</span>
+    <h1>Gravity</h1>
+    <p class="course-page-summary">Working site for a future course on gravity and general relativity. The first Russian-language lecture studies light signals exchanged by freely falling objects near a black-hole horizon.</p>
+    <p class="course-toc-meta">1 lecture</p>
+  </header>
+  <h2 class="course-page-section">Contents</h2>
+  <table class="course-toc course-toc-full">
+    <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-col">Slides</th></tr></thead>
+    <tbody>
+      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../gravity/ru/slides/01_radial_signals.html">Световые сигналы у горизонта чёрной дыры</a> <span class="course-toc-note">draft</span></td><td class="course-toc-col" data-label="Slides"><a href="../../gravity/ru/slides/01_radial_signals.html">slides</a></td></tr>
+    </tbody>
+  </table>
+  <h2 class="course-page-section">Book</h2>
+  <div class="course-page-card">
+    <p><strong>Gravity</strong>. The online book of the course (in Russian), in progress.</p>
+    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../gravity/ru/book/">Open the book</a></div>
+    <h3>Chapters</h3>
+    <ol class="course-book-chapters">
+      <li><a href="../../gravity/ru/book/chapters/01_gravity_as_experiment.html">Гравитация как экспериментальная наука</a></li>
+      <li><a href="../../gravity/ru/book/chapters/02_minkowski_signals.html">Геометрия Минковского из световых сигналов</a></li>
+      <li><a href="../../gravity/ru/book/chapters/03_four_momentum.html">Четырёх-импульс и релятивистская кинематика</a></li>
+      <li><a href="../../gravity/ru/book/chapters/04_acceleration_equivalence.html">Ускоренные наблюдатели и принцип эквивалентности</a></li>
+      <li><a href="../../gravity/ru/book/chapters/05_metric_local_frame.html">Координаты, метрика и локальная система отсчёта</a></li>
+      <li><a href="../../gravity/ru/book/chapters/06_geodesics_tides.html">Геодезические и приливные силы</a></li>
+      <li><a href="../../gravity/ru/book/chapters/07_curvature_einstein.html">Кривизна и уравнения Эйнштейна</a></li>
+      <li><a href="../../gravity/ru/book/chapters/08_weak_field_tests.html">Слабое поле и параметризованные проверки</a></li>
+      <li><a href="../../gravity/ru/book/chapters/09_schwarzschild_tests.html">Геометрия Шварцшильда и классические тесты</a></li>
+      <li><a href="../../gravity/ru/book/chapters/10_clocks_navigation.html">Часы и релятивистская навигация</a></li>
+      <li><a href="../../gravity/ru/book/chapters/11_horizons_signals.html">Горизонт: координаты, сигналы и причинность</a></li>
+      <li><a href="../../gravity/ru/book/chapters/12_rotating_black_holes.html">Вращение и окрестность компактного объекта</a></li>
+      <li><a href="../../gravity/ru/book/chapters/13_gravitational_waves.html">Линеаризованная гравитация и волны</a></li>
+      <li><a href="../../gravity/ru/book/chapters/14_compact_binaries.html">Компактные двойные и генерация сигнала</a></li>
+      <li><a href="../../gravity/ru/book/chapters/15_interferometers.html">Интерферометр как измерительный прибор</a></li>
+      <li><a href="../../gravity/ru/book/chapters/16_testing_gr.html">От данных к проверке ОТО</a></li>
+      <li><a href="../../gravity/ru/book/chapters/17_relativistic_cosmology.html">Однородная Вселенная и космологические расстояния</a></li>
+      <li><a href="../../gravity/ru/book/chapters/18_observational_cosmology.html">Наблюдательная космология и границы модели</a></li>
+    </ol>
+  </div>
+  <h2 class="course-page-section">More in this section</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status">In preparation · Russian</span><a class="course-tile-title" href="light-propagation.html">Light Propagation in a Medium</a><span class="course-tile-text">Light transport in a scattering medium and the optical-module signal.</span><span class="course-tile-meta">3 lectures</span></div>
+    <div class="course-tile"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="numerical-methods.html">Numerical Methods for Physicists</a><span class="course-tile-text">One lecture, one physics problem; Python with Numba.</span><span class="course-tile-meta"><a class="course-tile-book" href="../../numerical_methods/en/book/">online book</a></span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← All courses</a></p>
+</article>
+```

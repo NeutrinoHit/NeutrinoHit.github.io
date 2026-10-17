@@ -1,0 +1,30 @@
+---
+pagetitle: "Particle Physics: Full Course – NeutrinoHit"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="particle-physics">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>Particle Physics: Full Course</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status">In preparation</span>
+    <h1>Particle Physics: Full Course</h1>
+    <p class="course-page-summary">The future full course on particle physics: slides, book, problems, applets and exam projects.</p>
+    <div class="lecture-course-actions">
+      <a href="../../particlephysics/ParticlePhysics/en/slides/index.html">Slides</a>
+    </div>
+  </header>
+  <p class="course-page-note">The course is in preparation; lectures will appear here as they are ready. Slide and book scaffolds are online.</p>
+  <h2 class="course-page-section">Book</h2>
+  <div class="course-page-card">
+    <p><strong>Particle Physics</strong>. The online book of the course, in progress.</p>
+    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../particlephysics/ParticlePhysics/en/book/">Open the book</a></div>
+  </div>
+  <h2 class="course-page-section">More in this section</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status is-ready">Mini-course</span><a class="course-tile-title" href="particle-physics-baikal.html">Particle Physics: Mini-course</a><span class="course-tile-text">Particles, fields, interactions, gauge invariance and masses.</span><span class="course-tile-meta">2 lectures</span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← All courses</a></p>
+</article>
+```

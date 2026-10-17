@@ -1,0 +1,32 @@
+---
+pagetitle: "Распространение света в среде – NeutrinoHit"
+lang: ru-RU
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="light-propagation">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><span>Распространение света в среде</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status">Готовится</span>
+    <h1>Распространение света в среде</h1>
+    <p class="course-page-summary">Курс лекций о переносе света в рассеивающей и поглощающей среде: от баланса фотонов и уравнения переноса (RTE) до ожидаемого сигнала оптического модуля.</p>
+    <p class="course-toc-meta">3 лекции</p>
+  </header>
+  <h2 class="course-page-section">Оглавление</h2>
+  <table class="course-toc course-toc-full">
+    <thead><tr><th class="course-toc-num">№</th><th>Тема</th><th class="course-toc-col">Слайды</th></tr></thead>
+    <tbody>
+      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../rte_lectures/ru/slides/01_definitions.html">Уравнение переноса</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../rte_lectures/ru/slides/01_definitions.html">слайды</a></td></tr>
+      <tr id="lecture-02"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="../../rte_lectures/ru/slides/02_diffusion.html">Диффузионное приближение</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../rte_lectures/ru/slides/02_diffusion.html">слайды</a></td></tr>
+      <tr id="lecture-03"><td class="course-toc-num">03</td><td class="course-toc-topic"><a href="../../rte_lectures/ru/slides/03_detector_response.html">От светового поля к сигналу детектора</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../rte_lectures/ru/slides/03_detector_response.html">слайды</a></td></tr>
+    </tbody>
+  </table>
+  <h2 class="course-page-section">Ещё в этом разделе</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="gravity.html">Гравитация</a><span class="course-tile-text">Общая теория относительности как экспериментальная наука.</span><span class="course-tile-meta">1 лекция · <a class="course-tile-book" href="../../gravity/ru/book/">онлайн‑книга</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="numerical-methods.html">Численные методы для физиков</a><span class="course-tile-text">Одна лекция — одна физическая задача; Python с Numba.</span><span class="course-tile-meta">1 лекция · <a class="course-tile-book" href="../../numerical_methods/ru/book/">онлайн‑книга</a></span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← Все курсы</a></p>
+</article>
+```

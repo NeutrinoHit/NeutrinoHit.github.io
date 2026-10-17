@@ -1,0 +1,918 @@
+# Lecture courses shown on the site. scripts/build_course_pages.py writes ru|en/education.qmd and ru|en/courses/*.qmd from this file.
+# Paths starting with "/" are site paths on neutrinohit.github.io; a key ending in "_en" overrides its key on English pages.
+education:
+  title: {ru: Образование, en: Education}
+  lead: {ru: 'Курсы лекций, образовательные программы и материалы для самостоятельной работы по КТП, физике нейтрино и частиц, статистическому анализу данных.', en: 'Lecture courses, educational programs and self-study materials on QFT, neutrino and particle
+      physics, and statistical data analysis.'}
+  sections:
+  - id: qft
+    title: {ru: Квантовая теория поля, en: Quantum Field Theory}
+    line:
+      text: {ru: 'Учебник к курсам:', en: 'Textbook for the courses:'}
+      label: {ru: «Квантовая теория поля для экспериментаторов и не только» →, en: “Quantum Field Theory for Experimentalists and Beyond” (in Russian) →}
+      href: /ru/materials.html#qft-book
+      href_en: /en/materials.html#qft-book
+    courses: [quantum-field-theory, standard-model, qft-renormalization, unruh, qft-attraction-repulsion, qft-vacuum]
+  - id: stat
+    title: {ru: Статистический анализ данных, en: Statistical Data Analysis}
+    courses: [statistical-analysis]
+  - id: neutrino
+    title: {ru: Физика нейтрино, en: Neutrino Physics}
+    courses: [neutrino-introduction, oscillations-minicourse, solar-neutrino-masterclass, neutrino-oscillation-theory]
+  - id: particles
+    title: {ru: Физика элементарных частиц, en: Particle Physics}
+    courses: [particle-physics-baikal, particle-physics]
+  - id: more
+    title: {ru: Другие курсы, en: More courses}
+    courses: [gravity, light-propagation, numerical-methods]
+courses:
+- slug: quantum-field-theory
+  section: qft
+  kind: {ru: Видеокурс, en: Video course · Russian}
+  materials_lang: ru
+  title: {ru: Квантовая теория поля, en: Quantum Field Theory}
+  summary: {ru: 'Введение в КТП и КЭД: релятивистская квантовая механика, уравнение Дирака, классическая теория поля, квантование полей, пропагатор и S‑матрица.', en: 'Introduction to QFT and QED: relativistic quantum mechanics, the Dirac equation, classical
+      field theory, field quantization, the propagator and the S‑matrix.'}
+  playlist: PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29
+  links:
+  - label: {ru: Плейлист, en: Playlist}
+    href: https://www.youtube.com/playlist?list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29
+    primary: true
+  - label: {ru: Конспект PDF, en: Notes PDF}
+    href: https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf
+  - label: {ru: RuTube, en: RuTube}
+    href: https://rutube.ru/plst/1531108/
+  - label: {ru: VK, en: VK}
+    href: https://vkvideo.ru/playlist/-235607329_5
+  - label: {ru: Teach-in, en: Teach-in}
+    href: https://teach-in.ru/course/quantum-field-theory-naumov
+  book:
+    title: {ru: Квантовая теория поля для экспериментаторов и не только, en: Quantum Field Theory for Experimentalists and Beyond}
+    href: /ru/materials.html#qft-book
+    href_en: /en/materials.html#qft-book
+    note: {ru: 'Учебник к курсам КТП: два тома, ИКИ, 2026.', en: 'The textbook for the QFT courses: two volumes in Russian, IKI, 2026.'}
+  lectures:
+  - n: '1.1'
+    title: {ru: Волны внутри нас, en: Waves within us}
+    video: pcOLUI9Z-mk
+    seconds: 7458
+  - n: '1.2'
+    title: {ru: Век открытий, en: A century of discoveries}
+    video: wak3QOjD5II
+    seconds: 7259
+  - n: '1.3'
+    title: {ru: Уравнение Клейна-Фока-Гордона, en: The Klein–Fock–Gordon equation}
+    video: mO3TToWcGuI
+    seconds: 7544
+  - n: '1.4'
+    title: {ru: Парадокс Клейна, en: The Klein paradox}
+    video: ZJnQGFpdYD4
+    seconds: 5643
+  - n: '1.5'
+    title: {ru: Уравнение Дирака, en: The Dirac equation}
+    video: 1wtPiZTVcYo
+    seconds: 11004
+  - n: '1.6'
+    title: {ru: Спин и орбитальный момент в уравнении Дирака, en: Spin and orbital angular momentum in the Dirac equation}
+    video: vGh_hRiByn0
+    seconds: 2547
+  - n: '1.7'
+    title: {ru: γ-матрицы Дирака, en: Dirac γ-matrices}
+    video: cz5remCD0yY
+    seconds: 5285
+  - n: '1.8'
+    title: {ru: Решение свободного уравнения Дирака, en: Solving the free Dirac equation}
+    video: sfH49H0lCgA
+    seconds: 3300
+  - n: '1.9'
+    title: {ru: Античастицы в уравнении Дирака, en: Antiparticles in the Dirac equation}
+    video: Fjxb1Ne2Kkc
+    seconds: 5883
+  - n: '1.10'
+    title: {ru: Вычисление энергии атома водорода, en: Calculating the energy levels of the hydrogen atom}
+    video: pBEpxm5HoEo
+    seconds: 5581
+  - n: '1.11'
+    title: {ru: Частица в плоской э/м волне, en: A particle in a plane electromagnetic wave}
+    video: XrVgdGu0pow
+    seconds: 4974
+  - n: '1.12'
+    title: {ru: Киральные операторы, en: Chiral operators}
+    video: dxAK4hfcTEo
+    seconds: 7756
+  - n: '1.13'
+    title: {ru: Обсуждение релятивистской квантовой механики, en: 'Relativistic quantum mechanics: a discussion'}
+    video: UPZOfsZe78w
+    seconds: 4873
+  - n: '1.14'
+    title: {ru: Основы классической теории поля, en: Foundations of classical field theory}
+    video: oKJOfjNydA4
+    seconds: 4887
+  - n: '1.15'
+    title: {ru: Теорема Нётер, en: Noether’s theorem}
+    video: wjQXmoBRZ8w
+    seconds: 7127
+  - n: '1.16'
+    title: {ru: Комплексное скалярное и электромагнитное поле, en: Complex scalar and electromagnetic fields}
+    video: bCPa8SWhjIc
+    seconds: 5369
+  - n: '1.17'
+    title: {ru: Вектор поляризации. Энергия-импульс э/м поля, en: The polarization vector. Energy and momentum of the electromagnetic field}
+    video: dWDWD0q1EDI
+    seconds: 4762
+  - n: '1.18'
+    title: {ru: Фермионное поле и функции Грина, en: The fermion field and Green’s functions}
+    video: koBfOzUrjJQ
+    seconds: 4621
+  - n: '1.19'
+    title: {ru: Дифракция. Функции Грина некоторых уравнений, en: Diffraction. Green’s functions of some equations}
+    video: sZgZOZBsWMY
+    seconds: 4587
+  - n: '1.20'
+    title: {ru: Поле квантуется раз!, en: 'Quantizing the field, take one!'}
+    video: wBnQHAy2dfM
+    seconds: 5115
+  - n: '1.21'
+    title: {ru: Квантовая статистика. Нормальное упорядочение, en: Quantum statistics. Normal ordering}
+    video: bY1QdjR9XqI
+    seconds: 4504
+  - n: '1.22'
+    title: {ru: Поле квантуется два!, en: 'Quantizing the field, take two!'}
+    video: gE5wsYuAt3g
+    seconds: 5521
+  - n: '1.23'
+    title: {ru: Пропагатор, en: The propagator}
+    video: vWa4t3D-OZY
+    seconds: 6792
+  - n: '1.24'
+    title: {ru: S-матрица, en: The S-matrix}
+    video: x6lhdZXpEwg
+    seconds: 5770
+  - n: '1.25'
+    title: {ru: Оператор эволюции и теоремы Вика, en: The evolution operator and Wick’s theorems}
+    video: sp7xIWP3mJY
+    seconds: 5660
+  - n: '1.26'
+    title: {ru: Притяжение и отталкивание, en: Attraction and repulsion}
+    video: mw-z66p28bg
+    seconds: 4896
+  related: [standard-model, qft-renormalization, unruh, qft-attraction-repulsion, qft-vacuum]
+  anchor: qft-course
+  tile: {ru: 'Введение в КТП и КЭД: от уравнения Дирака до S‑матрицы и теорем Вика.', en: 'Introduction to QFT and QED: from the Dirac equation to the S‑matrix and Wick’s theorems.'}
+  tile_no_book: true
+  tile_meta:
+  - label: {ru: конспект PDF, en: notes PDF}
+    href: https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf
+- slug: standard-model
+  section: qft
+  kind: {ru: Видеокурс, en: Video course · Russian}
+  materials_lang: ru
+  title: {ru: Стандартная модель, en: Introduction to the Standard Model}
+  summary: {ru: 'Процессы КЭД, калибровочная симметрия и механизм Хиггса, взаимодействия Стандартной модели, распады частиц и рассеяние лептонов на нуклонах.', en: 'QED processes, gauge symmetry and the Higgs mechanism, interactions of the Standard Model,
+      particle decays and lepton–nucleon scattering.'}
+  playlist: PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV
+  links:
+  - label: {ru: Плейлист, en: Playlist}
+    href: https://www.youtube.com/playlist?list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV
+    primary: true
+  - label: {ru: Конспект PDF, en: Notes PDF}
+    href: https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf
+  - label: {ru: RuTube, en: RuTube}
+    href: https://rutube.ru/plst/1538123
+  - label: {ru: VK, en: VK}
+    href: https://vkvideo.ru/playlist/-235607329_6
+  - label: {ru: Teach-in, en: Teach-in}
+    href: https://teach-in.ru/course/introduction-to-the-standard-model
+  book:
+    title: {ru: Квантовая теория поля для экспериментаторов и не только, en: Quantum Field Theory for Experimentalists and Beyond}
+    href: /ru/materials.html#qft-book
+    href_en: /en/materials.html#qft-book
+    note: {ru: 'Учебник к курсам КТП: два тома, ИКИ, 2026.', en: 'The textbook for the QFT courses: two volumes in Russian, IKI, 2026.'}
+  lectures:
+  - n: '2.1'
+    title: {ru: Рассеяние электронов за счет обмена скалярной частицей, en: Electron scattering via scalar-particle exchange}
+    video: 7aRjHq7DZdM
+    seconds: 6493
+  - n: '2.2'
+    title: {ru: Процесс рассеяния электрона на электроне, en: Electron–electron scattering}
+    video: BDeqda7RyHE
+    seconds: 3254
+  - n: '2.3'
+    title: {ru: Потенциальная энергия в квантовой теории поля, en: Potential energy in quantum field theory}
+    video: d_PCRHeSZqo
+    seconds: 4080
+  - n: '2.4'
+    title: {ru: Притяжение и отталкивание в квантовой электродинамике, en: Attraction and repulsion in quantum electrodynamics}
+    video: R5vvOcfTaXg
+    seconds: 8533
+  - n: '2.5'
+    title: {ru: Сечение рассеяния Резерфорда (Мотта), en: The Rutherford (Mott) scattering cross section}
+    video: 44oVByqPxuQ
+    seconds: 4648
+  - n: '2.6'
+    title: {ru: Сечение рассеяния пары электронов и позитронов, en: The scattering cross section of electrons and positrons}
+    video: _wf0nrM1QmI
+    seconds: 5509
+  - n: '2.7'
+    title: {ru: Эффект Комптона, en: The Compton effect}
+    video: g2ONUlR-4Bk
+    seconds: 7521
+  - n: '2.8'
+    title: {ru: Комптоновское рассеяние, en: Compton scattering}
+    video: oTvxQ46TIRw
+    seconds: 4231
+  - n: '2.9'
+    title: {ru: Рассеяние Баба, en: Bhabha scattering}
+    video: 4MH88ptEghw
+    seconds: 3604
+  - n: '2.10'
+    title: {ru: Калибровочная симметрия, en: Gauge symmetry}
+    video: LgbSEJslNUI
+    seconds: 8778
+  - n: '2.11'
+    title: {ru: Спонтанное нарушение симметрии и природа массы, en: Spontaneous symmetry breaking and the nature of mass}
+    video: nXnNyYbiONA
+    seconds: 7848
+  - n: '2.12'
+    title: {ru: Физика механизма Хиггса генерации фермионных масс, en: The physics of the Higgs mechanism of fermion mass generation}
+    video: 9GyjcdtqDkM
+    seconds: 7264
+  - n: '2.13'
+    title: {ru: Стандартная модель, en: The Standard Model}
+    video: SJgnWifg_MY
+    seconds: 5498
+  - n: '2.14'
+    title: {ru: Взаимодействия Стандартной модели, en: Interactions of the Standard Model}
+    video: mAAc6QaMCgw
+    seconds: 7388
+  - n: '2.15'
+    title: {ru: Распад мюона, en: Muon decay}
+    video: kTLfcI8wbfE
+    seconds: 7541
+  - n: '2.16'
+    title: {ru: Распад пи-мезона, en: Pion decay}
+    video: bYNpbdQHSEU
+    seconds: 3643
+  - n: '2.17'
+    title: {ru: Распад нейтрона, en: Neutron decay}
+    video: lHQlNjm3mzs
+    seconds: 4368
+  - n: '2.18'
+    title: {ru: 'Распады тау-лептонов, W-бозонов и Z-бозонов', en: 'Decays of τ leptons, W bosons and Z bosons'}
+    video: kzkOiXW2VkQ
+    seconds: 5998
+  - n: '2.19'
+    title: {ru: 'Бозон Хиггса — распады. Реакция: нейтрино + электрон', en: Higgs boson decays. The reaction neutrino + electron}
+    video: IeUO8Kzko9I
+    seconds: 3274
+  - n: '2.20'
+    title: {ru: Рассеяние лептонов на элементарных заряженных частицах, en: Scattering of leptons on elementary charged particles}
+    video: qyaHqgkjNXI
+    seconds: 3878
+  - n: '2.21'
+    title: {ru: Нейтральный ток в рассеянии нейтрино на электроне, en: The neutral current in neutrino–electron scattering}
+    video: 8RauxAlKaIE
+    seconds: 4399
+  - n: '2.22'
+    title: {ru: Упругое рассеяние электрона на нуклоне, en: Elastic electron–nucleon scattering}
+    video: c_kbsM8rWzc
+    seconds: 5009
+  - n: '2.23'
+    title: {ru: Глубоко-неупругое рассеяние, en: Deep inelastic scattering}
+    video: xoc-pEj0BNM
+    seconds: 4552
+  related: [quantum-field-theory, qft-renormalization, unruh, qft-attraction-repulsion, qft-vacuum]
+  anchor: standard-model-course
+  tile: {ru: 'Рассеяние и распады в КЭД и электрослабой теории, механизм Хиггса.', en: 'Scattering and decays in QED and electroweak theory, the Higgs mechanism.'}
+  tile_no_book: true
+  tile_meta:
+  - label: {ru: конспект PDF, en: notes PDF}
+    href: https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf
+- slug: qft-renormalization
+  section: qft
+  kind: {ru: Видеокурс, en: Video course · Russian}
+  materials_lang: ru
+  title: {ru: Ренормировка в квантовой теории поля, en: Renormalization in Quantum Field Theory}
+  summary: {ru: 'Размерная регуляризация, собственная энергия электрона, поляризация вакуума, g−2, нейтральные каоны, квантовые аномалии и сечения с волновыми пакетами.', en: 'Dimensional regularization, electron self-energy, vacuum polarization, g−2,
+      neutral kaons, quantum anomalies and cross sections with wave packets.'}
+  playlist: PL28BG43DETPT4L04sUPUNvZC93w4b60wG
+  links:
+  - label: {ru: Плейлист, en: Playlist}
+    href: https://www.youtube.com/playlist?list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG
+    primary: true
+  - label: {ru: Конспект PDF, en: Notes PDF}
+    href: https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf
+  - label: {ru: RuTube, en: RuTube}
+    href: https://rutube.ru/plst/1530811
+  - label: {ru: VK, en: VK}
+    href: https://vkvideo.ru/playlist/-235607329_4
+  - label: {ru: Teach-in, en: Teach-in}
+    href: https://teach-in.ru/course/renormalization-in-qft
+  book:
+    title: {ru: Квантовая теория поля для экспериментаторов и не только, en: Quantum Field Theory for Experimentalists and Beyond}
+    href: /ru/materials.html#qft-book
+    href_en: /en/materials.html#qft-book
+    note: {ru: 'Учебник к курсам КТП: два тома, ИКИ, 2026.', en: 'The textbook for the QFT courses: two volumes in Russian, IKI, 2026.'}
+  lectures:
+  - n: '3.1'
+    title: {ru: Введение в идею ренормировки, en: Introduction to the idea of renormalization}
+    video: 9NxS1EzFSrc
+    seconds: 4296
+  - n: '3.2'
+    title: {ru: Метод размерной регуляризации, en: Dimensional regularization}
+    video: U7GuBzlgNwo
+    seconds: 6079
+  - n: '3.3'
+    title: {ru: Ренормировка без тумана, en: Renormalization without the fog}
+    video: o060mihnDz8
+    seconds: 5983
+  - n: '3.4'
+    title: {ru: Собственная энергия электрона. Часть 1, en: Electron self-energy. Part 1}
+    video: K1ThexLCdTU
+    seconds: 5659
+  - n: '3.5'
+    title: {ru: Собственная энергия электрона. Часть 2, en: Electron self-energy. Part 2}
+    video: DwftfFPjZ5o
+    seconds: 4044
+  - n: '3.6'
+    title: {ru: Собственная энергия электрона. Часть 3, en: Electron self-energy. Part 3}
+    video: R8mzNHtF2Jw
+    seconds: 4492
+  - n: '3.7'
+    title: {ru: Ренормировка пропагатора электрона с ненулевой массой, en: Renormalization of the electron propagator with nonzero mass}
+    video: 478Br_okxzg
+    seconds: 5085
+  - n: '3.8'
+    title: {ru: Поляризация вакуума. Часть 1, en: Vacuum polarization. Part 1}
+    video: _R2vs5PlZaY
+    seconds: 6716
+  - n: '3.9'
+    title: {ru: Поляризация вакуума. Часть 2, en: Vacuum polarization. Part 2}
+    video: Ujs93m1aCc0
+    seconds: 4741
+  - n: '3.10'
+    title: {ru: Потенциал Юлинга, en: The Uehling potential}
+    video: 16EzKn-1kFo
+    seconds: 4948
+  - n: '3.11'
+    title: {ru: Вычисление g−2. Часть 1, en: Calculating g−2. Part 1}
+    video: pEuFscT7J7g
+    seconds: 5452
+  - n: '3.12'
+    title: {ru: Вычисление g−2. Часть 2, en: Calculating g−2. Part 2}
+    video: DsVpGKcCAGE
+    seconds: 7346
+  - n: '3.13'
+    title: {ru: Загадки нейтральных каонов. Часть 1, en: The mysteries of neutral kaons. Part 1}
+    video: ow51lg7L6CE
+    seconds: 4472
+  - n: '3.14'
+    title: {ru: Загадки нейтральных каонов. Часть 2, en: The mysteries of neutral kaons. Part 2}
+    video: d5jMezMdLa0
+    seconds: 4079
+  - n: '3.15'
+    title: {ru: Загадки нейтральных каонов. Часть 3, en: The mysteries of neutral kaons. Part 3}
+    video: EY-T96l1C04
+    seconds: 4267
+  - n: '3.16'
+    title: {ru: Квантовые аномалии, en: Quantum anomalies}
+    video: vzmLG5IopYc
+    seconds: 7051
+  - n: '3.17'
+    title: {ru: Распад π⁰→γγ, en: The decay π⁰ → γγ}
+    video: IjiE2jihcBc
+    seconds: 5039
+  - n: '3.18'
+    title: {ru: Математические приёмы, en: Mathematical techniques}
+    video: U8toFdOZyqY
+    seconds: 5667
+  - n: '3.19'
+    title: {ru: Сечение рассеяния с волновыми пакетами. Часть 1, en: Scattering cross section with wave packets. Part 1}
+    video: p5js5hn_hto
+    seconds: 4386
+  - n: '3.20'
+    title: {ru: Сечение рассеяния с волновыми пакетами. Часть 2, en: Scattering cross section with wave packets. Part 2}
+    video: KV3zsUNE0RM
+    seconds: 4201
+  related: [quantum-field-theory, standard-model, unruh, qft-attraction-repulsion, qft-vacuum]
+  anchor: qft-renormalization-course
+  tile: {ru: 'Размерная регуляризация, поляризация вакуума, g−2, нейтральные каоны, аномалии.', en: 'Dimensional regularization, vacuum polarization, g−2, neutral kaons, anomalies.'}
+  tile_no_book: true
+  tile_meta:
+  - label: {ru: конспект PDF, en: notes PDF}
+    href: https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf
+- slug: unruh
+  anchor: unruh-course
+  section: qft
+  kind: {ru: Мини-курс, en: Mini-course · Russian}
+  materials_lang: ru
+  title: {ru: Ускоренные системы отсчёта и эффект Унру, en: Accelerated Frames and the Unruh Effect}
+  summary: {ru: 'Пять HTML-лекций: от координат Риндлера и энтропии запутанности до эффекта Унру для скалярного и фермионного полей.', en: 'Five Russian-language HTML lectures, from Rindler coordinates and entanglement entropy to the Unruh effect for scalar
+      and fermion fields.'}
+  tile: {ru: От координат Риндлера до эффекта Унру для скалярного и фермионного полей., en: From Rindler coordinates to the Unruh effect for scalar and fermion fields.}
+  lectures:
+  - {n: '01', title: Релятивистское ускорение и координаты Риндлера, slides: /qft-lectures/unruh/ru/slides/01_rindler.html}
+  - {n: '02', title: Введение в квантовую статистическую механику, slides: /qft-lectures/unruh/ru/slides/02_thermodynamics.html}
+  - {n: '03', title: Эффект Унру для плоской волны, slides: /qft-lectures/unruh/ru/slides/03_unruh_wave.html}
+  - {n: '04', title: Эффект Унру для скалярного поля, slides: /qft-lectures/unruh/ru/slides/04_unruh_scalar_field.html}
+  - {n: '05', title: Фермионное поле и эффект Унру, slides: /qft-lectures/unruh/ru/slides/05_unruh_fermion_field.html}
+  related: [quantum-field-theory, standard-model, qft-renormalization, qft-attraction-repulsion, qft-vacuum]
+- slug: qft-attraction-repulsion
+  anchor: qft-attraction-repulsion
+  section: qft
+  kind: {ru: Лекция · англ., en: Lecture}
+  materials_lang: en
+  title: {ru: Притяжение и отталкивание в КТП, en: Attraction and Repulsion in QFT}
+  summary: {ru: 'Отдельная лекция по scalar QED и волновым пакетам: как в КТП кодируются притяжение и отталкивание.', en: 'Lecture on scalar QED and wave packets: how attraction and repulsion are encoded in QFT.'}
+  tile: {ru: 'Scalar QED и волновые пакеты: как в КТП кодируются притяжение и отталкивание.', en: 'Scalar QED and wave packets: how QFT encodes attraction and repulsion.'}
+  lectures:
+  - {n: '1', title: Attraction and Repulsion in Quantum Field Theory, slides: /qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html}
+  related: [quantum-field-theory, standard-model, qft-renormalization, unruh, qft-vacuum]
+- slug: qft-vacuum
+  anchor: qft-vacuum-course
+  section: qft
+  kind: {ru: Готовится, en: In preparation · Russian}
+  ready: false
+  materials_lang: ru
+  title: {ru: Вакуум квантового поля, en: The Quantum Field Vacuum}
+  summary: {ru: 'Мини-курс о вакууме КТП. Первая HTML-лекция: волновой функционал свободного скалярного поля, гауссов вакуум и отличие вакуумных конфигураций от белого шума.', en: 'A Russian-language mini-course on the QFT vacuum. Its first HTML lecture
+      covers the wave functional of a free scalar field, the Gaussian vacuum, and how vacuum configurations differ from white noise.'}
+  tile: {ru: 'Волновой функционал свободного поля, гауссов вакуум и белый шум.', en: 'The wave functional of a free field, the Gaussian vacuum and white noise.'}
+  status_note: {ru: Мини-курс готовится; первая лекция уже открыта., en: The mini-course is in preparation; the first lecture is online.}
+  lectures:
+  - {n: '01', title: Вакуум свободного скалярного поля, slides: /qft-lectures/vacuum/ru/slides/01_free_scalar_field.html}
+  related: [quantum-field-theory, standard-model, qft-renormalization, unruh, qft-attraction-repulsion]
+- slug: statistical-analysis
+  anchor: statistical-analysis
+  section: stat
+  kind: {ru: Курс · видео, en: Course}
+  materials_lang: ru
+  materials_lang_en: en
+  title: {ru: Статистический анализ данных, en: Statistical Data Analysis}
+  summary: {ru: 'Практический курс для физики высоких энергий, астрофизики и анализа экспериментальных данных: тринадцать лекций от мотивации до статистических тестов.', en: 'A practical course for high-energy physics, astrophysics, and experimental data
+      analysis.'}
+  tile: {ru: От вероятности и правдоподобия до значимости и систематик., en: From probability and likelihood to significance and systematics.}
+  playlist: PLGGzOVFWOf3s
+  links:
+  - {label: Апплеты, href: /statistical-analysis-course/ru/slides/applets.html}
+  - {label: Все задачи, href: /statistical-analysis-course/ru/slides/exercises/index.html}
+  - {label: Экзаменационные проекты, href: /statistical-analysis-course/ru/slides/exam_projects/index.html}
+  - label: {ru: Плейлист, en: Playlist}
+    href: https://www.youtube.com/playlist?list=PLGGzOVFWOf3s
+    primary: true
+  - {label: RuTube, href: 'https://rutube.ru/plst/1807652'}
+  - {label: VK, href: 'https://vkvideo.ru/playlist/-235607329_10'}
+  - {label: Teach-in, href: 'https://teach-in.ru/course/statistical-methods-of-data-analysis-naumov'}
+  links_en:
+  - {label: Applets (Russian), href: /statistical-analysis-course/ru/slides/applets.html}
+  - {label: Russian lecture videos, href: 'https://www.youtube.com/playlist?list=PLGGzOVFWOf3s'}
+  lectures:
+  - {n: '01', title: Мотивация и обзор курса, slides: /statistical-analysis-course/ru/slides/01_introduction.html, exercises: /statistical-analysis-course/ru/slides/exercises/01_introduction_exercises.html, pdf: /statistical-analysis-course/ru/book/chapters/01_why_statistics.pdf,
+    chapter: /statistical-analysis-course/ru/book/chapters/01_why_statistics.html, video: OLDuaktf_xk, seconds: 2106}
+  - {n: '02', title: 'Случайные величины, распределения, моменты', slides: /statistical-analysis-course/ru/slides/02_random_distributions.html, exercises: /statistical-analysis-course/ru/slides/exercises/02_random_distributions_exercises.html, pdf: /statistical-analysis-course/ru/book/chapters/02_random_distributions.pdf,
+    chapter: /statistical-analysis-course/ru/book/chapters/02_random_distributions.html, video: Vvdj7pOVBGo, seconds: 2728}
+  - {n: '03', title: Характеристические функции и суммы случайных величин, slides: /statistical-analysis-course/ru/slides/03_characteristic_functions.html, exercises: /statistical-analysis-course/ru/slides/exercises/03_characteristic_functions_exercises.html,
+    pdf: /statistical-analysis-course/ru/book/chapters/03_characteristic_functions.pdf, chapter: /statistical-analysis-course/ru/book/chapters/03_characteristic_functions.html, video: qYEK6F2h7sc, seconds: 5124}
+  - {n: '04', title: Центральная предельная теорема и нормальное распределение, slides: /statistical-analysis-course/ru/slides/04_central_limit_theorem.html, exercises: /statistical-analysis-course/ru/slides/exercises/04_central_limit_theorem_exercises.html,
+    pdf: /statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.pdf, chapter: /statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.html, video: XMpp4KFtO8c, seconds: 3444}
+  - {n: '05', title: Когда гаусс не возникает, slides: /statistical-analysis-course/ru/slides/05_non_gaussian_clt_violations.html, exercises: /statistical-analysis-course/ru/slides/exercises/05_non_gaussian_clt_violations_exercises.html, pdf: /statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.pdf,
+    chapter: /statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html, video: 3_B_CiVg5_o, seconds: 4561}
+  - {n: '06', title: Распространение ошибок, slides: /statistical-analysis-course/ru/slides/06_error_propagation.html, exercises: /statistical-analysis-course/ru/slides/exercises/06_error_propagation_exercises.html, pdf: /statistical-analysis-course/ru/book/chapters/06_error_propagation.pdf,
+    chapter: /statistical-analysis-course/ru/book/chapters/06_error_propagation.html}
+  - {n: '07', title: Двумерный гаусс, slides: /statistical-analysis-course/ru/slides/07_two_dimensional_gaussian.html, exercises: /statistical-analysis-course/ru/slides/exercises/07_two_dimensional_gaussian_exercises.html, pdf: /statistical-analysis-course/ru/book/chapters/07_two_dimensional_gaussian.pdf,
+    chapter: /statistical-analysis-course/ru/book/chapters/07_two_dimensional_gaussian.html}
+  - n: 08
+    title: Метод Монте-Карло и псевдоэксперименты
+    slides: /statistical-analysis-course/ru/slides/08_monte_carlo_method.html
+    exercises: /statistical-analysis-course/ru/slides/exercises/08_monte_carlo_method_exercises.html
+    pdf: /statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.pdf
+    chapter: /statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html
+    extra:
+    - {label: Ноутбук VEGAS, href: /statistical-analysis-course/ru/slides/notebooks/mc_vegas_notebook.html}
+  - {n: 09, title: Правдоподобие и оценки максимального правдоподобия, slides: /statistical-analysis-course/ru/slides/09_maximum_likelihood.html, exercises: /statistical-analysis-course/ru/slides/exercises/09_maximum_likelihood_exercises.html, pdf: /statistical-analysis-course/ru/book/chapters/09_maximum_likelihood.pdf,
+    chapter: /statistical-analysis-course/ru/book/chapters/09_maximum_likelihood.html}
+  - {n: '10', title: 'Свойства оценок, профильное правдоподобие и примеры анализа данных', slides: /statistical-analysis-course/ru/slides/10_estimator_properties_profile_likelihood.html, exercises: /statistical-analysis-course/ru/slides/exercises/10_estimator_properties_profile_likelihood_exercises.html,
+    pdf: /statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.pdf, chapter: /statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html}
+  - {n: '11', title: Метод наименьших квадратов и линейная подгонка, slides: /statistical-analysis-course/ru/slides/11_least_squares_linear_fit.html, exercises: /statistical-analysis-course/ru/slides/exercises/11_least_squares_linear_fit_exercises.html,
+    pdf: /statistical-analysis-course/ru/book/chapters/11_least_squares_linear_fit.pdf, chapter: /statistical-analysis-course/ru/book/chapters/11_least_squares_linear_fit.html}
+  - {n: '12', title: 'χ²-интервалы, систематики и практический рецепт МНК', slides: /statistical-analysis-course/ru/slides/12_least_squares_systematics.html, exercises: /statistical-analysis-course/ru/slides/exercises/12_least_squares_systematics_exercises.html,
+    pdf: /statistical-analysis-course/ru/book/chapters/12_least_squares_systematics.pdf, chapter: /statistical-analysis-course/ru/book/chapters/12_least_squares_systematics.html}
+  - {n: '13', title: Качество согласия и статистическая значимость, slides: /statistical-analysis-course/ru/slides/13_goodness_of_fit_and_significance.html, exercises: /statistical-analysis-course/ru/slides/exercises/13_goodness_of_fit_and_significance_exercises.html,
+    pdf: /statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.pdf, chapter: /statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html}
+  lectures_en:
+  - {n: '01', title: Introduction, slides: /statistical-analysis-course/en/slides/lecture-01-introduction.html}
+  - {n: '02', title: Probability and Bayes, slides: /statistical-analysis-course/en/slides/lecture-02-probability-bayes.html}
+  - {n: '03', title: Random variables and densities, slides: /statistical-analysis-course/en/slides/lecture-03-random-variables-and-densities.html}
+  - {n: '04', title: Expectation and error propagation, slides: /statistical-analysis-course/en/slides/lecture-04-expectation-and-error-propagation.html}
+  - {n: '05', title: Common probability distributions, slides: /statistical-analysis-course/en/slides/lecture-05-common-probability-distributions.html}
+  - {n: '06', title: Monte Carlo method, slides: /statistical-analysis-course/en/slides/lecture-06-monte-carlo-method.html}
+  - {n: '07', title: Statistical tests basics, slides: /statistical-analysis-course/en/slides/lecture-07-statistical-tests-basics.html}
+  - {n: 08, title: Test statistics and multivariate methods, slides: /statistical-analysis-course/en/slides/lecture-08-test-statistics-and-multivariate-methods.html}
+  - {n: 09, title: Goodness of fit and significance, slides: /statistical-analysis-course/en/slides/lecture-09-goodness-of-fit-and-significance.html}
+  - {n: '10', title: Feldman-Cousins and CLs, slides: /statistical-analysis-course/en/slides/lecture-10-feldman-cousins-and-cls.html}
+  - {n: '11', title: Parameter estimation and maximum likelihood, slides: /statistical-analysis-course/en/slides/lecture-11-parameter-estimation-and-maximum-likelihood.html}
+  - {n: '12', title: Method of least squares, slides: /statistical-analysis-course/en/slides/lecture-12-method-of-least-squares.html}
+  - {n: '13', title: Interval estimation and limits, slides: /statistical-analysis-course/en/slides/lecture-13-interval-estimation-and-limits.html}
+  - {n: '14', title: Nuisance parameters and systematics, slides: /statistical-analysis-course/en/slides/lecture-14-nuisance-parameters-and-systematics.html}
+  - {n: '15', title: Bayesian examples, slides: /statistical-analysis-course/en/slides/lecture-15-bayesian-examples.html}
+  book:
+    title: {ru: Статистический анализ данных, en: Statistical Data Analysis}
+    href: /statistical-analysis-course/ru/book/index.html
+    href_en: /statistical-analysis-course/en/book/
+    note: {ru: 'Онлайн-книга к курсу: главы с задачами, PDF каждой главы.', en: The online book of the course.}
+  related: []
+- slug: neutrino-introduction
+  anchor: neutrino-introduction
+  section: neutrino
+  kind: {ru: Курс, en: Course · Russian}
+  materials_lang: ru
+  materials_lang_en: en
+  title: {ru: Введение в физику нейтрино, en: Introduction to Neutrino Physics}
+  summary: {ru: 'Слабое взаимодействие, спин и масса нейтрино, прямые измерения массы, осцилляции в вакууме и веществе.', en: 'The weak interaction, neutrino spin and mass, direct mass measurements, oscillations in vacuum and matter.'}
+  tile: {ru: 'Слабое взаимодействие, масса нейтрино, осцилляции в вакууме и веществе.', en: 'Weak interaction, neutrino mass, oscillations in vacuum and matter.'}
+  links:
+  - {label: Все задачи, href: /neutrinophysics/introduction/ru/exercises/index.html}
+  - {label: Интерактивные апплеты, href: /neutrinophysics/introduction/ru/applets/index.html}
+  links_en:
+  - {label: Problems (Russian), href: /neutrinophysics/introduction/ru/exercises/index.html}
+  - {label: Applets (Russian), href: /neutrinophysics/introduction/ru/applets/index.html}
+  lectures:
+  - {n: '01', title: Нейтрино. Первое знакомство, slides: /neutrinophysics/introduction/ru/slides/01_neutrino_first_contact.html, exercises: /neutrinophysics/introduction/ru/exercises/01_neutrino_first_contact_exercises.html, chapter: /neutrinophysics/introduction/ru/book/chapters/01_neutrino_first_contact.html}
+  - {n: '02', title: Слабое взаимодействие. Нарушение пространственной чётности, slides: /neutrinophysics/introduction/ru/slides/02_parity_violation.html, exercises: /neutrinophysics/introduction/ru/exercises/02_parity_violation_exercises.html, chapter: /neutrinophysics/introduction/ru/book/chapters/02_parity_violation.html}
+  - n: '03'
+    title: Спин нейтрино. Спиральность и поляризация
+    slides: /neutrinophysics/introduction/ru/slides/03_neutrino_spin.html
+    exercises: /neutrinophysics/introduction/ru/exercises/03_neutrino_spin_exercises.html
+    extra:
+    - {label: Ядерный резонанс, href: /neutrinophysics/introduction/ru/applets/resonance-filter.html}
+    chapter: /neutrinophysics/introduction/ru/book/chapters/03_neutrino_spin.html
+  - n: '04'
+    title: Прямое измерение массы нейтрино. Кинематика β-спектра
+    slides: /neutrinophysics/introduction/ru/slides/04_neutrino_mass_kinematics.html
+    exercises: /neutrinophysics/introduction/ru/exercises/04_neutrino_mass_kinematics_exercises.html
+    extra:
+    - {label: Функция Ферми, href: /neutrinophysics/introduction/ru/applets/fermi-function.html}
+    - {label: Массовые пороги, href: /neutrinophysics/introduction/ru/applets/mass-spectrum.html}
+    - {label: Конец β-спектра, href: /neutrinophysics/introduction/ru/applets/beta-endpoint-resolution.html}
+    chapter: /neutrinophysics/introduction/ru/book/chapters/04_neutrino_mass_kinematics.html
+  - n: '05'
+    title: Прямое измерение массы нейтрино. Ведём электрон к детектору
+    slides: /neutrinophysics/introduction/ru/slides/05_electron_to_detector.html
+    exercises: /neutrinophysics/introduction/ru/exercises/05_electron_to_detector_exercises.html
+    extra:
+    - {label: Циклотронное движение, href: /neutrinophysics/introduction/ru/applets/cyclotron-motion.html}
+    - {label: Плоский ротатор, href: /neutrinophysics/introduction/ru/applets/planar-rotor.html}
+    chapter: /neutrinophysics/introduction/ru/book/chapters/05_electron_to_detector.html
+  - n: '06'
+    title: Прямое измерение массы нейтрино. MAC-E-спектрометр
+    slides: /neutrinophysics/introduction/ru/slides/06_mac_e_spectrometer.html
+    exercises: /neutrinophysics/introduction/ru/exercises/06_mac_e_spectrometer_exercises.html
+    extra:
+    - {label: Адиабатический инвариант, href: /neutrinophysics/introduction/ru/applets/adiabatic-trough.html}
+    - {label: Радиационные пояса, href: /neutrinophysics/introduction/ru/applets/radiation-belts.html}
+    chapter: /neutrinophysics/introduction/ru/book/chapters/06_mac_e_spectrometer.html
+  - n: '07'
+    title: Прямое измерение массы нейтрино. Эксперимент KATRIN
+    slides: /neutrinophysics/introduction/ru/slides/07_katrin.html
+    exercises: /neutrinophysics/introduction/ru/exercises/07_katrin_exercises.html
+    extra:
+    - {label: Интегральный спектр, href: /neutrinophysics/introduction/ru/applets/katrin-integral-spectrum.html}
+    chapter: /neutrinophysics/introduction/ru/book/chapters/07_katrin.html
+  - n: 08
+    title: Прямое измерение массы нейтрино. Другие способы взвесить нейтрино
+    slides: /neutrinophysics/introduction/ru/slides/08_alternative_neutrino_mass.html
+    exercises: /neutrinophysics/introduction/ru/exercises/08_alternative_neutrino_mass_exercises.html
+    extra:
+    - {label: Модели CRES, href: /neutrinophysics/introduction/ru/applets/cres-observables.html}
+    - {label: Боковые частоты, href: /neutrinophysics/introduction/ru/applets/cres-sidebands.html}
+    - {label: Частотный трек, href: /neutrinophysics/introduction/ru/applets/cres-frequency-track.html}
+    - {label: Времена прилёта, href: /neutrinophysics/introduction/ru/applets/sn-mass-likelihood.html}
+    chapter: /neutrinophysics/introduction/ru/book/chapters/08_alternative_neutrino_mass.html
+  - n: 09
+    title: Осцилляции в вакууме. Два флэйвора
+    slides: /neutrinophysics/introduction/ru/slides/09_vacuum_two_flavors.html
+    exercises: /neutrinophysics/introduction/ru/exercises/09_vacuum_oscillations_exercises.html
+    extra:
+    - {label: Апплеты, href: /neutrinophysics/introduction/ru/applets/two-flavor-oscillations.html}
+    chapter: /neutrinophysics/introduction/ru/book/chapters/09_vacuum_two_flavors.html
+  - n: '10'
+    title: Осцилляции в вакууме. Три флэйвора и матрица PMNS
+    slides: /neutrinophysics/introduction/ru/slides/10_vacuum_pmns.html
+    exercises: /neutrinophysics/introduction/ru/exercises/10_vacuum_pmns_exercises.html
+    extra:
+    - {label: Апплет, href: /neutrinophysics/introduction/ru/applets/flavor-triangle.html}
+    chapter: /neutrinophysics/introduction/ru/book/chapters/10_vacuum_pmns.html
+  - {n: '11', title: Осцилляции в веществе. Откуда берётся преломление, slides: /neutrinophysics/introduction/ru/slides/11_matter_refraction.html, chapter: /neutrinophysics/introduction/ru/book/chapters/11_matter_refraction.html}
+  - n: '12'
+    title: Осцилляции в веществе. Постоянная плотность
+    slides: /neutrinophysics/introduction/ru/slides/12_matter_constant_density.html
+    extra:
+    - {label: Апплет, href: /neutrinophysics/introduction/ru/applets/matter-constant.html}
+    chapter: /neutrinophysics/introduction/ru/book/chapters/12_matter_constant_density.html
+  - n: '13'
+    title: Осцилляции в веществе. Адиабатический MSW-эффект
+    slides: /neutrinophysics/introduction/ru/slides/13_matter_adiabatic_msw.html
+    extra:
+    - {label: Апплет, href: /neutrinophysics/introduction/ru/applets/matter-adiabatic.html}
+    chapter: /neutrinophysics/introduction/ru/book/chapters/13_matter_adiabatic_msw.html
+  - {n: '14', title: Осцилляции в веществе. Интерференция и маятники, slides: /neutrinophysics/introduction/ru/slides/14_matter_interference_pendulums.html, chapter: /neutrinophysics/introduction/ru/book/chapters/14_matter_interference_pendulums.html}
+  - {n: '15', title: Осцилляции в веществе. Три флэйвора, slides: /neutrinophysics/introduction/ru/slides/15_matter_three_flavors.html, chapter: /neutrinophysics/introduction/ru/book/chapters/15_matter_three_flavors.html}
+  lectures_en:
+  - {n: '01', title: Neutrino 101, slides: /neutrinophysics/introduction/Introduction/index.html}
+  - {n: '02', title: Parity, slides: /neutrinophysics/introduction/Parity/index.html}
+  - {n: '03', title: Spin and Neutrino Polarization, slides: /neutrinophysics/introduction/Helicity/index.html}
+  - {n: '04', title: Direct Determination of the Neutrino Mass, slides: /neutrinophysics/introduction/en/slides/04_direct_neutrino_mass.html}
+  - {n: '05', title: Neutrino Oscillations in Vacuum, slides: /neutrinophysics/introduction/en/slides/05_vacuum_oscillations.html}
+  - {n: '06', title: Neutrino Oscillations in Matter, slides: /neutrinophysics/introduction/en/slides/06_matter_oscillations.html}
+  - {n: '07', title: Paradoxes in Neutrino Oscillation Theory, slides: /neutrinophysics/introduction/en/slides/07_oscillation_paradoxes.html}
+  - {n: 08, title: Neutrinos in the Standard Model, slides: /neutrinophysics/introduction/en/slides/08_standard_model_neutrinos.html}
+  - {n: 09, title: Electromagnetic Properties of Neutrinos, slides: /neutrinophysics/introduction/en/slides/09_electromagnetic_properties.html}
+  - {n: '10', title: Sterile Neutrinos, slides: /neutrinophysics/introduction/en/slides/10_sterile_neutrinos.html}
+  - {n: '11', title: Neutrino Interactions with Matter, slides: /neutrinophysics/introduction/en/slides/11_neutrino_interactions.html}
+  - {n: '12', title: Experimental Methods of Neutrino Detection, slides: /neutrinophysics/introduction/en/slides/12_detection_methods.html}
+  - {n: '13', title: Solar Neutrinos, slides: /neutrinophysics/introduction/en/slides/13_solar_neutrinos.html}
+  - {n: '14', title: Atmospheric Neutrinos, slides: /neutrinophysics/introduction/en/slides/14_atmospheric_neutrinos.html}
+  - {n: '15', title: Accelerator Neutrinos, slides: /neutrinophysics/introduction/en/slides/15_accelerator_neutrinos.html}
+  - {n: '16', title: Reactor Neutrinos, slides: /neutrinophysics/introduction/en/slides/16_reactor_neutrinos.html}
+  - {n: '17', title: Geophysical Neutrinos, slides: /neutrinophysics/introduction/en/slides/17_geophysical_neutrinos.html}
+  - {n: '18', title: Neutrinoless Double Beta Decay, slides: /neutrinophysics/introduction/en/slides/18_neutrinoless_double_beta_decay.html}
+  - {n: '19', title: Relic Neutrinos, slides: /neutrinophysics/introduction/en/slides/19_relic_neutrinos.html}
+  - {n: '20', title: Ultra-High-Energy Astrophysical Neutrinos, slides: /neutrinophysics/introduction/en/slides/20_uhe_astrophysical_neutrinos.html}
+  - {n: '21', title: Supernova Neutrinos, slides: /neutrinophysics/introduction/en/slides/21_supernova_neutrinos.html}
+  - {n: '22', title: Global Analysis, slides: /neutrinophysics/introduction/en/slides/22_global_analysis.html}
+  - {n: '23', title: Mixing and CP Violation, slides: /neutrinophysics/introduction/en/slides/23_mixing_cp_violation.html}
+  - {n: '24', title: Neutrinos as a Window to New Physics, slides: /neutrinophysics/introduction/en/slides/24_new_physics.html}
+  - {n: '25', title: Neutrino Tomography, slides: /neutrinophysics/introduction/en/slides/25_neutrino_tomography.html}
+  - {n: '26', title: Reactors as Monitoring Tools, slides: /neutrinophysics/introduction/en/slides/26_reactor_monitoring.html}
+  book:
+    title: {ru: Введение в физику нейтрино, en: Introduction to Neutrino Physics}
+    href: /neutrinophysics/introduction/ru/book/
+    note: {ru: 'Онлайн-книга к курсу, главы пополняются.', en: 'The online book of the course (in Russian), in progress.'}
+    chapters:
+    - {title: Нейтрино. Первое знакомство, href: /neutrinophysics/introduction/ru/book/chapters/01_neutrino_first_contact.html}
+    - {title: Слабое взаимодействие. Нарушение пространственной чётности, href: /neutrinophysics/introduction/ru/book/chapters/02_parity_violation.html}
+    - {title: Спин нейтрино. Спиральность и поляризация, href: /neutrinophysics/introduction/ru/book/chapters/03_neutrino_spin.html}
+    - {title: Кинематика β-спектра, href: /neutrinophysics/introduction/ru/book/chapters/04_neutrino_mass_kinematics.html}
+    - {title: Ведём электрон к детектору, href: /neutrinophysics/introduction/ru/book/chapters/05_electron_to_detector.html}
+    - {title: MAC-E-спектрометр, href: /neutrinophysics/introduction/ru/book/chapters/06_mac_e_spectrometer.html}
+    - {title: Эксперимент KATRIN, href: /neutrinophysics/introduction/ru/book/chapters/07_katrin.html}
+    - {title: Другие способы взвесить нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/08_alternative_neutrino_mass.html}
+    - {title: Два флэйвора, href: /neutrinophysics/introduction/ru/book/chapters/09_vacuum_two_flavors.html}
+    - {title: Три флэйвора и матрица PMNS, href: /neutrinophysics/introduction/ru/book/chapters/10_vacuum_pmns.html}
+    - {title: Преломление нейтрино в веществе, href: /neutrinophysics/introduction/ru/book/chapters/11_matter_refraction.html}
+    - {title: Нейтрино в веществе постоянной плотности, href: /neutrinophysics/introduction/ru/book/chapters/12_matter_constant_density.html}
+    - {title: Адиабатический MSW-эффект, href: /neutrinophysics/introduction/ru/book/chapters/13_matter_adiabatic_msw.html}
+    - {title: 'Интерференция, мгновенные моды и маятники', href: /neutrinophysics/introduction/ru/book/chapters/14_matter_interference_pendulums.html}
+    - {title: Три нейтрино в веществе, href: /neutrinophysics/introduction/ru/book/chapters/15_matter_three_flavors.html}
+    - {title: Парадоксы и тонкости осцилляций нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/16_oscillation_paradoxes.html}
+    - {title: Нейтрино в Стандартной модели, href: /neutrinophysics/introduction/ru/book/chapters/17_standard_model_neutrinos.html}
+    - {title: Электромагнитные свойства нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/18_electromagnetic_properties.html}
+    - {title: Стерильные нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/19_sterile_neutrinos.html}
+    - {title: Взаимодействие нейтрино с веществом, href: /neutrinophysics/introduction/ru/book/chapters/20_neutrino_interactions.html}
+    - {title: Экспериментальные методы детектирования, href: /neutrinophysics/introduction/ru/book/chapters/21_detection_methods.html}
+    - {title: Солнечные нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/22_solar_neutrinos.html}
+    - {title: Атмосферные нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/23_atmospheric_neutrinos.html}
+    - {title: Ускорительные нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/24_accelerator_neutrinos.html}
+    - {title: Реакторные нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/25_reactor_neutrinos.html}
+    - {title: Геофизические нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/26_geophysical_neutrinos.html}
+    - {title: Безнейтринный двойной бета-распад, href: /neutrinophysics/introduction/ru/book/chapters/27_neutrinoless_double_beta_decay.html}
+    - {title: Реликтовые нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/28_relic_neutrinos.html}
+    - {title: Астрофизические нейтрино сверхвысоких энергий, href: /neutrinophysics/introduction/ru/book/chapters/29_uhe_astrophysical_neutrinos.html}
+    - {title: Нейтрино от сверхновой, href: /neutrinophysics/introduction/ru/book/chapters/30_supernova_neutrinos.html}
+    - {title: Глобальный анализ, href: /neutrinophysics/introduction/ru/book/chapters/31_global_analysis.html}
+    - {title: Смешивание и CP-нарушение, href: /neutrinophysics/introduction/ru/book/chapters/32_mixing_cp_violation.html}
+    - {title: Нейтрино как окно в новую физику, href: /neutrinophysics/introduction/ru/book/chapters/33_new_physics.html}
+    - {title: Нейтринная томография, href: /neutrinophysics/introduction/ru/book/chapters/34_neutrino_tomography.html}
+    - {title: Реакторы как мониторинг, href: /neutrinophysics/introduction/ru/book/chapters/35_reactor_monitoring.html}
+  related: [oscillations-minicourse, solar-neutrino-masterclass, neutrino-oscillation-theory]
+  reading: neutrino-literature
+- slug: oscillations-minicourse
+  anchor: oscillations-minicourse
+  section: neutrino
+  kind: {ru: Мини-курс · англ., en: Mini-course}
+  materials_lang: en
+  title: {ru: 'Осцилляции нейтрино: от вакуума до ядра Земли', en: Neutrino Oscillations from Vacuum to the Earth’s Core}
+  summary: {ru: 'Три лекции на английском для студентов физики частиц и геофизиков: осцилляции в вакууме, вещество и Солнце, нейтринные зонды недр Земли; апплеты и анимации.', en: 'Three English lectures for students of particle physics and geophysics:
+      vacuum oscillations, matter and the Sun, and neutrino probes of the Earth''s interior, with applets and animations.'}
+  tile: {ru: 'Вакуум, вещество и Солнце, нейтринные зонды недр Земли.', en: 'Vacuum, matter and the Sun, neutrino probes of the Earth’s interior.'}
+  lectures:
+  - {n: I, title: Vacuum, slides: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html}
+  - {n: II, title: Matter and the Sun, slides: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html}
+  - {n: III, title: The Earth, slides: /neutrinophysics/oscillations-minicourse/en/slides/03_earth.html}
+  related: [neutrino-introduction, solar-neutrino-masterclass, neutrino-oscillation-theory]
+- slug: solar-neutrino-masterclass
+  anchor: solar-neutrino-masterclass
+  section: neutrino
+  kind: {ru: Мастер-класс · англ., en: Masterclass}
+  materials_lang: en
+  title: {ru: 'Солнечные нейтрино: мастер-класс', en: Solar Neutrino Masterclass}
+  summary: {ru: 'Мини-курс по источникам солнечных нейтрино, осцилляциям, MSW-эффекту, детекторной статистике и SK-подобному фитированию.', en: 'Mini-course on solar-neutrino sources, oscillations, MSW physics, detector statistics, and an SK-like fit project.'}
+  tile: {ru: 'Потоки, скорости счёта и фит осцилляций по данным.', en: 'Fluxes, event rates and an oscillation fit to the data.'}
+  lectures:
+  - n: '00'
+    title: Solar Neutrinos and Oscillations
+    slides: /neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html
+    extra:
+    - {label: Приложение, href: /neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics_appendix.html}
+  - n: '01'
+    title: Fluxes, event rates, normalization fit
+    slides: /neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html
+    extra:
+    - {label: Данные мастер-класса 1, href: /neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip}
+  - n: '02'
+    title: Oscillations and fit
+    slides: /neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html
+    extra:
+    - {label: Данные мастер-класса 2, href: /neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip}
+  lectures_en:
+  - n: '00'
+    title: Solar Neutrinos and Oscillations
+    slides: /neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html
+    extra:
+    - {label: Appendix, href: /neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics_appendix.html}
+  - n: '01'
+    title: Fluxes, event rates, normalization fit
+    slides: /neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html
+    extra:
+    - {label: Masterclass 1 data, href: /neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip}
+  - n: '02'
+    title: Oscillations and fit
+    slides: /neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html
+    extra:
+    - {label: Masterclass 2 data, href: /neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip}
+  materials:
+  - title: Проект. SK-like fit
+    items:
+    - {label: Открыть проект, href: /neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html}
+    - {label: Данные проекта, href: /neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip}
+  materials_en:
+  - title: Project. SK-like fit
+    items:
+    - {label: Open project, href: /neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html}
+    - {label: Project data, href: /neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip}
+  related: [neutrino-introduction, oscillations-minicourse, neutrino-oscillation-theory]
+- slug: neutrino-oscillation-theory
+  anchor: oscillations
+  section: neutrino
+  kind: {ru: Планируется, en: Planned}
+  ready: false
+  title: {ru: Теория осцилляций нейтрино в КТП, en: Neutrino Oscillation Theory in QFT}
+  summary: {ru: Будущий специализированный курс по квантово-полевому описанию нейтринных осцилляций., en: Future specialized course on quantum-field descriptions of neutrino oscillations.}
+  status_note: {ru: Курс планируется; лекции появятся здесь., en: The course is planned; lectures will appear here.}
+  lectures: []
+  related: [neutrino-introduction, oscillations-minicourse, solar-neutrino-masterclass]
+- slug: particle-physics-baikal
+  section: particles
+  kind: {ru: Мини-курс · англ., en: Mini-course}
+  materials_lang: en
+  title: {ru: 'Физика элементарных частиц: мини-курс', en: 'Particle Physics: Mini-course'}
+  summary: {ru: 'Две вводные лекции Байкальской школы: частицы, поля, взаимодействия, калибровочная инвариантность, происхождение масс и слабый распад.', en: 'Two introductory lectures of the Baikal school on particles, fields, interactions, gauge invariance,
+      mass generation and weak decay.'}
+  links:
+  - label: {ru: Формулы, en: Formula sheet}
+    href: /particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html
+  lectures:
+  - n: '01'
+    title: {ru: 'Частицы, поля и взаимодействия', en: 'Particles, Fields, and their Interactions'}
+    slides: /particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html
+    exercises: /particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html
+    extra:
+    - label: {ru: Scale ladder, en: Scale ladder}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-01-scale-ladder.mp4
+    - label: {ru: Standard Model particles, en: Standard Model particles}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-01-standard-model-particles.mp4
+    - label: {ru: 'Why particle physics?', en: 'Why particle physics?'}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-01-why-particle-physics.mp4
+    - label: {ru: QCD spring, en: QCD spring}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-01-qcd-bears-spring.mp4
+    - label: {ru: Cross-section, en: Cross-section}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-01-cross-section.mp4
+  - n: '02'
+    title: {ru: Стандартная модель, en: The Standard Model}
+    slides: /particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model.html
+    exercises: /particlephysics/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model.html
+    extra:
+    - label: {ru: Lagrangian scroll, en: Lagrangian scroll}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-lagrangian-scroll.mp4
+    - label: {ru: Physicist rockets, en: Physicist rockets}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-physicist-rockets.mp4
+    - label: {ru: Accelerating electron field, en: Accelerating electron field}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-accelerating-electron-field.mp4
+    - label: {ru: Formula cat, en: Formula cat}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-formula-cat.mp4
+    - label: {ru: Meissner effect, en: Meissner effect}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-meissner-effect.mp4
+    - label: {ru: Coupled pendulums, en: Coupled pendulums}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-coupled-pendulums.mp4
+    - label: {ru: Chiral mass gap, en: Chiral mass gap}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-chiral-waves-mass-gap.mp4
+    - label: {ru: Condensate layer, en: Condensate layer}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-chiral-condensate-layer.mp4
+    - label: {ru: The Code Runs, en: The Code Runs}
+      href: /particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-standard-model-finale.mp4
+  materials:
+  - title: {ru: Приложение к лекции 02, en: Appendix to lecture 02}
+    items:
+    - label: {ru: 'Делает ли массивный фотон сверхпроводник тяжелее?', en: 'Does a Massive Photon Make a Superconductor Heavier?'}
+      href: /particlephysics/IntroParticlePhysicsBaikal/appendices/massive_photon_weight.html
+  related: [particle-physics]
+  anchor: particle-physics-mini-course
+  extra_title: {ru: Анимации, en: Animations}
+  tile: {ru: 'Частицы, поля, взаимодействия, калибровочная инвариантность и массы.', en: 'Particles, fields, interactions, gauge invariance and masses.'}
+- slug: particle-physics
+  section: particles
+  kind: {ru: Курс готовится, en: In preparation}
+  materials_lang: ru
+  title: {ru: 'Физика элементарных частиц: большой курс', en: 'Particle Physics: Full Course'}
+  summary: {ru: 'Будущий полный курс по физике элементарных частиц: слайды, книга, задачи, апплеты и экзаменационные проекты.', en: 'The future full course on particle physics: slides, book, problems, applets and exam projects.'}
+  status_note: {ru: 'Курс готовится: лекции появятся здесь по мере готовности. Пока опубликованы заготовки слайдов и книги.', en: The course is in preparation; lectures will appear here as they are ready. Slide and book scaffolds are online.}
+  links:
+  - label: {ru: Слайды, en: Slides}
+    href: /particlephysics/ParticlePhysics/ru/slides/
+    href_en: /particlephysics/ParticlePhysics/en/slides/index.html
+  book:
+    title: {ru: Физика элементарных частиц, en: Particle Physics}
+    href: /particlephysics/ParticlePhysics/ru/book/index.html
+    href_en: /particlephysics/ParticlePhysics/en/book/
+    note: {ru: 'Онлайн-книга к курсу, в работе.', en: 'The online book of the course, in progress.'}
+  lectures: []
+  related: [particle-physics-baikal]
+  anchor: particle-physics-course
+  ready: false
+  tile: {ru: 'Будущий полный курс: слайды, книга, задачи и апплеты.', en: 'The future full course: slides, book, problems and applets.'}
+- slug: gravity
+  anchor: gravity
+  section: more
+  kind: {ru: Готовится, en: In preparation · Russian}
+  ready: false
+  materials_lang: ru
+  title: {ru: Гравитация, en: Gravity}
+  summary: {ru: Рабочий сайт будущего курса по гравитации и общей теории относительности. Первая лекция посвящена световым сигналам между свободно падающими объектами у горизонта чёрной дыры., en: Working site for a future course on gravity and general
+      relativity. The first Russian-language lecture studies light signals exchanged by freely falling objects near a black-hole horizon.}
+  tile: {ru: Общая теория относительности как экспериментальная наука., en: General relativity as an experimental science.}
+  lectures:
+  - n: '01'
+    title: Световые сигналы у горизонта чёрной дыры
+    slides: /gravity/ru/slides/01_radial_signals.html
+    note: {ru: черновик, en: draft}
+  book:
+    title: {ru: Гравитация, en: Gravity}
+    href: /gravity/ru/book/
+    note: {ru: 'Онлайн-книга к курсу, в работе.', en: 'The online book of the course (in Russian), in progress.'}
+    chapters:
+    - {title: Гравитация как экспериментальная наука, href: /gravity/ru/book/chapters/01_gravity_as_experiment.html}
+    - {title: Геометрия Минковского из световых сигналов, href: /gravity/ru/book/chapters/02_minkowski_signals.html}
+    - {title: Четырёх-импульс и релятивистская кинематика, href: /gravity/ru/book/chapters/03_four_momentum.html}
+    - {title: Ускоренные наблюдатели и принцип эквивалентности, href: /gravity/ru/book/chapters/04_acceleration_equivalence.html}
+    - {title: 'Координаты, метрика и локальная система отсчёта', href: /gravity/ru/book/chapters/05_metric_local_frame.html}
+    - {title: Геодезические и приливные силы, href: /gravity/ru/book/chapters/06_geodesics_tides.html}
+    - {title: Кривизна и уравнения Эйнштейна, href: /gravity/ru/book/chapters/07_curvature_einstein.html}
+    - {title: Слабое поле и параметризованные проверки, href: /gravity/ru/book/chapters/08_weak_field_tests.html}
+    - {title: Геометрия Шварцшильда и классические тесты, href: /gravity/ru/book/chapters/09_schwarzschild_tests.html}
+    - {title: Часы и релятивистская навигация, href: /gravity/ru/book/chapters/10_clocks_navigation.html}
+    - {title: 'Горизонт: координаты, сигналы и причинность', href: /gravity/ru/book/chapters/11_horizons_signals.html}
+    - {title: Вращение и окрестность компактного объекта, href: /gravity/ru/book/chapters/12_rotating_black_holes.html}
+    - {title: Линеаризованная гравитация и волны, href: /gravity/ru/book/chapters/13_gravitational_waves.html}
+    - {title: Компактные двойные и генерация сигнала, href: /gravity/ru/book/chapters/14_compact_binaries.html}
+    - {title: Интерферометр как измерительный прибор, href: /gravity/ru/book/chapters/15_interferometers.html}
+    - {title: От данных к проверке ОТО, href: /gravity/ru/book/chapters/16_testing_gr.html}
+    - {title: Однородная Вселенная и космологические расстояния, href: /gravity/ru/book/chapters/17_relativistic_cosmology.html}
+    - {title: Наблюдательная космология и границы модели, href: /gravity/ru/book/chapters/18_observational_cosmology.html}
+  related: [light-propagation, numerical-methods]
+- slug: light-propagation
+  anchor: light-propagation
+  section: more
+  kind: {ru: Готовится, en: In preparation · Russian}
+  ready: false
+  materials_lang: ru
+  title: {ru: Распространение света в среде, en: Light Propagation in a Medium}
+  summary: {ru: 'Курс лекций о переносе света в рассеивающей и поглощающей среде: от баланса фотонов и уравнения переноса (RTE) до ожидаемого сигнала оптического модуля.', en: 'Russian-language lecture course on light transport in a scattering and absorbing
+      medium: from the photon balance and the radiative transfer equation (RTE) to the expected signal of an optical module.'}
+  tile: {ru: Перенос света в рассеивающей среде и сигнал оптического модуля., en: Light transport in a scattering medium and the optical-module signal.}
+  lectures:
+  - {n: '01', title: Уравнение переноса, slides: /rte_lectures/ru/slides/01_definitions.html}
+  - {n: '02', title: Диффузионное приближение, slides: /rte_lectures/ru/slides/02_diffusion.html}
+  - {n: '03', title: От светового поля к сигналу детектора, slides: /rte_lectures/ru/slides/03_detector_response.html}
+  related: [gravity, numerical-methods]
+- slug: numerical-methods
+  anchor: numerical-methods
+  section: more
+  kind: {ru: Готовится, en: In preparation}
+  ready: false
+  materials_lang: ru
+  title: {ru: Численные методы для физиков, en: Numerical Methods for Physicists}
+  summary: {ru: 'Как физик решает задачи, которые не берутся аналитически: одна лекция — одна физическая задача, нужные методы вводятся тогда, когда без них задача не решается. Python с Numba, лекции, задачи и онлайн-книга.', en: 'How a physicist solves
+      problems that have no analytic solution: one lecture is one physical problem, and the methods are introduced when the problem cannot be solved without them. Python with Numba, lectures, problems and an online book.'}
+  tile: {ru: Одна лекция — одна физическая задача; Python с Numba., en: 'One lecture, one physics problem; Python with Numba.'}
+  lectures:
+  - {n: '01', title: 'Python, NumPy и Numba', slides: /numerical_methods/ru/slides/01_python_numpy_numba.html, chapter: /numerical_methods/ru/book/chapters/01_python_numpy_numba.html}
+  lectures_en: []
+  book:
+    title: {ru: Численные методы для физиков, en: Numerical Methods for Physicists}
+    href: /numerical_methods/ru/book/
+    href_en: /numerical_methods/en/book/
+    note: {ru: 'Онлайн-книга к курсу, в работе.', en: 'The online book of the course, in progress.'}
+    chapters:
+    - {title: 'Python, NumPy и Numba', href: /numerical_methods/ru/book/chapters/01_python_numpy_numba.html}
+    chapters_en: []
+  related: [gravity, light-propagation]
