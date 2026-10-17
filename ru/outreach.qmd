@@ -24,10 +24,10 @@ toc: false
               <p>Короткие модули по 5–10 минут: один физический вопрос и один ясный ответ.</p>
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="../sciencepop/in-a-nutshell/index.html">Открыть библиотечку</a>
-                <a href="../sciencepop/in-a-nutshell/Matter.pdf">Что такое вещество?</a>
-                <a href="../sciencepop/in-a-nutshell/HowDoWeKnowAboutAtoms.pdf">Как узнали про атомы?</a>
-                <a href="../sciencepop/in-a-nutshell/WhatIsAtom.pdf">Что такое атом?</a>
-                <a href="../sciencepop/in-a-nutshell/InsideNucleus.pdf">Что внутри атомного ядра?</a>
+                <a href="../sciencepop/in-a-nutshell/01_matter.html">Что такое вещество?</a>
+                <a href="../sciencepop/in-a-nutshell/02_how-we-know-atoms.html">Как узнали про атомы?</a>
+                <a href="../sciencepop/in-a-nutshell/03_what-is-atom.html">Что такое атом?</a>
+                <a href="../sciencepop/in-a-nutshell/04_inside-nucleus.html">Что внутри атомного ядра?</a>
               </div>
             </div>
           </details>
