@@ -15,12 +15,8 @@ toc: false
       <a href="../../particlephysics/ParticlePhysics/en/slides/index.html">Slides</a>
     </div>
   </header>
-  <p class="course-page-note">The course is in preparation; lectures will appear here as they are ready. Slide and book scaffolds are online.</p>
-  <h2 class="course-page-section">Book</h2>
-  <div class="course-page-card">
-    <p><strong>Particle Physics</strong>. The online book of the course, in progress.</p>
-    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../particlephysics/ParticlePhysics/en/book/">Open the book</a></div>
-  </div>
+  <p class="course-page-note">The course is in preparation; lectures will appear here as they are ready. Slide scaffolds are online.</p>
+  <p class="course-book-line">A book for the course is in preparation.</p>
   <h2 class="course-page-section">More in this section</h2>
   <nav class="course-tiles">
     <div class="course-tile"><span class="course-tile-status is-ready">Mini-course</span><a class="course-tile-title" href="particle-physics-baikal.html">Particle Physics: Mini-course</a><span class="course-tile-text">Particles, fields, interactions, gauge invariance and masses.</span><span class="course-tile-meta">2 lectures</span></div>

@@ -7,18 +7,17 @@ toc: false
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    NeutrinoHit books and manuscripts: published editions, online books, and
-    works in progress.
+    NeutrinoHit books: published editions and books in progress.
   </p>
 
   <nav class="course-tiles" aria-label="Books">
     <div class="course-tile"><span class="course-tile-status is-ready">Textbook · 2 volumes · Russian</span><a class="course-tile-title" href="#qft-book">Quantum Field Theory for Experimentalists and Beyond</a><span class="course-tile-text">From the foundations to renormalization, anomalies and functional integrals, with problems.</span><span class="course-tile-meta">IKI, 2026 · <a class="course-tile-book" href="../qr/qft/">38 animations for the book online</a></span></div>
     <div class="course-tile"><span class="course-tile-status is-ready">Popular science · Russian</span><a class="course-tile-title" href="#solar-neutrino-book">Solar Neutrino</a><span class="course-tile-text">A children’s book about neutrinos, the Sun and the big physics of tiny particles.</span><span class="course-tile-meta">AVANTA/AST, 2023</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Online book · Russian · in progress</span><a class="course-tile-title" href="../neutrinophysics/introduction/ru/book/">Introduction to Neutrino Physics</a><span class="course-tile-text">The book of the introductory neutrino physics course.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/neutrino-physics/">56 QR items</a></span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Online book · in progress</span><a class="course-tile-title" href="../statistical-analysis-course/en/book/">Statistical Data Analysis</a><span class="course-tile-text">Probability models, estimation and hypothesis testing in experimental physics.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/statistics/">36 QR items</a></span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Online book · in progress</span><a class="course-tile-title" href="../particlephysics/ParticlePhysics/en/book/">Particle Physics</a><span class="course-tile-text">The book of the full particle physics course.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/particle-physics/">28 animations</a></span></div>
-    <div class="course-tile"><span class="course-tile-status">Online book · Russian · in progress</span><a class="course-tile-title" href="../gravity/ru/book/">Gravity</a><span class="course-tile-text">The book of the general relativity course.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/gravity/">6 animations</a></span></div>
-    <div class="course-tile"><span class="course-tile-status">Online book · in progress</span><a class="course-tile-title" href="../numerical_methods/en/book/">Numerical Methods for Physicists</a><span class="course-tile-text">One chapter, one physics problem.</span><span class="course-tile-meta">RU / EN</span></div>
+    <div class="course-tile"><span class="course-tile-status">In progress</span><a class="course-tile-title" href="#neutrino-physics-book">Introduction to Neutrino Physics</a><span class="course-tile-text">Theory and experiments.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/neutrino-physics/">56 QR items</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">In progress</span><a class="course-tile-title" href="#statistics-book">Statistical Methods in Physics</a><span class="course-tile-text">A practical course for experimentalists and theorists.</span></div>
+    <div class="course-tile"><span class="course-tile-status">In progress</span><a class="course-tile-title" href="#particle-physics-book">Introduction to Particle Physics</a><span class="course-tile-text">From symmetries and fields to observable processes.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/particle-physics/">28 animations</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">In progress</span><a class="course-tile-title" href="#gravity-book">Gravity</a><span class="course-tile-text">General relativity for experimentalists.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/gravity/">6 animations</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">In progress</span><a class="course-tile-title" href="#numerical-methods-book">Numerical Methods for Physicists</a><span class="course-tile-text">Method, check, physical result.</span></div>
   </nav>
 
   <section id="qft-book" class="book-showcase" aria-label="Quantum Field Theory for Experimentalists and Beyond">
@@ -69,51 +68,57 @@ toc: false
         </div>
       </div>
     </div>
+  </section>
 
-    <div class="lecture-course book-course-neutrino">
-      <div class="lecture-course-head">
-        <span class="lecture-course-status">In progress</span>
-        <span class="lecture-course-title">Introduction to Neutrino Physics</span>
+  <h2 id="books-in-progress" class="section-inline-title">Books in progress</h2>
+  <p class="book-wip-lead">Textbooks for the NeutrinoHit courses, in preparation for print.</p>
+  <section class="book-wip-grid" aria-label="Books in progress">
+    <article id="neutrino-physics-book" class="book-wip">
+      <img class="book-wip-cover" src="../assets/books/series/neutrino-physics-front.jpg" alt="Cover of the book “Introduction to Neutrino Physics” (in Russian)" width="400" height="566" loading="lazy">
+      <div class="book-wip-body">
+        <span class="course-tile-status">In progress</span>
+        <h3>Introduction to Neutrino Physics</h3>
+        <p class="book-wip-sub">Theory and experiments</p>
+        <div class="book-wip-links"><a href="courses/neutrino-introduction.html">Course</a> · <a href="../qr/neutrino-physics/">QR materials</a></div>
       </div>
-      <div class="lecture-course-body">
-        <p>The online book of the introductory course (in Russian); a printed edition is in preparation.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/book/">Open the book (Russian)</a>
-          <a href="../qr/neutrino-physics/">QR materials</a>
-        </div>
+    </article>
+    <article id="statistics-book" class="book-wip">
+      <img class="book-wip-cover" src="../assets/books/series/statistical-methods-front.jpg" alt="Cover of the book “Statistical Methods in Physics” (in Russian)" width="400" height="566" loading="lazy">
+      <div class="book-wip-body">
+        <span class="course-tile-status">In progress</span>
+        <h3>Statistical Methods in Physics</h3>
+        <p class="book-wip-sub">A practical course for experimentalists and theorists</p>
+        <div class="book-wip-links"><a href="courses/statistical-analysis.html">Course</a></div>
       </div>
-    </div>
-
-    <div class="lecture-course book-course-particles">
-      <div class="lecture-course-head">
-        <span class="lecture-course-status">In progress</span>
-        <span class="lecture-course-title">Introduction to Particle Physics</span>
+    </article>
+    <article id="particle-physics-book" class="book-wip">
+      <img class="book-wip-cover" src="../assets/books/series/particle-physics-front.jpg" alt="Cover of the book “Introduction to Particle Physics” (in Russian)" width="400" height="566" loading="lazy">
+      <div class="book-wip-body">
+        <span class="course-tile-status">In progress</span>
+        <h3>Introduction to Particle Physics</h3>
+        <p class="book-wip-sub">From symmetries and fields to observable processes</p>
+        <div class="book-wip-links"><a href="courses/particle-physics.html">Course</a> · <a href="../qr/particle-physics/">QR materials</a></div>
       </div>
-      <div class="lecture-course-body">
-        <p>The online book of the full course; a printed edition is in preparation.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../particlephysics/ParticlePhysics/en/book/">Open the book</a>
-          <a href="../qr/particle-physics/">QR materials</a>
-        </div>
+    </article>
+    <article id="gravity-book" class="book-wip">
+      <img class="book-wip-cover" src="../assets/books/series/gravity-front.jpg" alt="Cover of the book “Gravity” (in Russian)" width="400" height="566" loading="lazy">
+      <div class="book-wip-body">
+        <span class="course-tile-status">In progress</span>
+        <h3>Gravity</h3>
+        <p class="book-wip-sub">General relativity for experimentalists</p>
+        <div class="book-wip-links"><a href="courses/gravity.html">Course</a> · <a href="../qr/gravity/">QR materials</a></div>
       </div>
-    </div>
-
-    <div class="lecture-course book-course-stat">
-      <div class="lecture-course-head">
-        <span class="lecture-course-status">Online book · in progress</span>
-        <span class="lecture-course-title">Statistical Analysis</span>
+    </article>
+    <article id="numerical-methods-book" class="book-wip">
+      <img class="book-wip-cover" src="../assets/books/series/numerical-methods-front.jpg" alt="Cover of the book “Numerical Methods for Physicists” (in Russian)" width="400" height="566" loading="lazy">
+      <div class="book-wip-body">
+        <span class="course-tile-status">In progress</span>
+        <h3>Numerical Methods for Physicists</h3>
+        <p class="book-wip-sub">Method, check, physical result</p>
+        <p class="book-wip-authors">K. Bazarov, D. V. Naumov</p>
+        <div class="book-wip-links"><a href="courses/numerical-methods.html">Course</a></div>
       </div>
-      <div class="lecture-course-body">
-        <p>A practical online book on probability models, parameter estimation,
-        hypothesis testing, and statistical inference in experimental physics.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../statistical-analysis-course/ru/book/index.html">Open book (Russian)</a>
-          <a href="../statistical-analysis-course/ru/slides/applets.html">Applets (Russian)</a>
-          <a href="../statistical-analysis-course/ru/slides/exercises/index.html">All exercises (Russian)</a>
-          <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Exam projects (Russian)</a>
-        </div>
-      </div>
-    </div>
+    </article>
   </section>
 </div>
 ```

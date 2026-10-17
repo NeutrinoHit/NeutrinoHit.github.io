@@ -6,18 +6,17 @@ toc: false
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    Книги и рукописи NeutrinoHit: опубликованные издания, онлайн-книги и
-    проекты в работе.
+    Книги NeutrinoHit: опубликованные издания и книги в работе.
   </p>
 
   <nav class="course-tiles" aria-label="Книги">
     <div class="course-tile"><span class="course-tile-status is-ready">Учебник · 2 тома</span><a class="course-tile-title" href="#qft-book">Квантовая теория поля для экспериментаторов и не только</a><span class="course-tile-text">От основ до перенормировки, аномалий и функциональных интегралов, с задачами.</span><span class="course-tile-meta">ИКИ, 2026 · <a class="course-tile-book" href="../qr/qft/">38 анимаций к книге на сайте</a></span></div>
     <div class="course-tile"><span class="course-tile-status is-ready">Научно-популярная</span><a class="course-tile-title" href="#solar-neutrino-book">Солнечное нейтрино</a><span class="course-tile-text">Детская книга о нейтрино, Солнце и большой физике маленьких частиц.</span><span class="course-tile-meta">Аванта/АСТ, 2023</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Онлайн‑книга · в работе</span><a class="course-tile-title" href="../neutrinophysics/introduction/ru/book/">Введение в физику нейтрино</a><span class="course-tile-text">Книга к вводному курсу по физике нейтрино.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/neutrino-physics/">56 материалов к QR</a></span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Онлайн‑книга · в работе</span><a class="course-tile-title" href="../statistical-analysis-course/ru/book/index.html">Статистический анализ данных</a><span class="course-tile-text">Вероятностные модели, оценивание, проверка гипотез в экспериментальной физике.</span><span class="course-tile-meta">13 глав · <a class="course-tile-book" href="../qr/statistics/">36 материалов к QR</a></span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Онлайн‑книга · в работе</span><a class="course-tile-title" href="../particlephysics/ParticlePhysics/ru/book/index.html">Физика элементарных частиц</a><span class="course-tile-text">Книга к большому курсу по физике элементарных частиц.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/particle-physics/">28 анимаций</a></span></div>
-    <div class="course-tile"><span class="course-tile-status">Онлайн‑книга · в работе</span><a class="course-tile-title" href="../gravity/ru/book/">Гравитация</a><span class="course-tile-text">Книга к курсу по общей теории относительности.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/gravity/">6 анимаций</a></span></div>
-    <div class="course-tile"><span class="course-tile-status">Онлайн‑книга · в работе</span><a class="course-tile-title" href="../numerical_methods/ru/book/">Численные методы для физиков</a><span class="course-tile-text">Книга к курсу: одна глава — одна физическая задача.</span><span class="course-tile-meta">RU / EN</span></div>
+    <div class="course-tile"><span class="course-tile-status">В работе</span><a class="course-tile-title" href="#neutrino-physics-book">Введение в физику нейтрино</a><span class="course-tile-text">Теория и эксперименты.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/neutrino-physics/">56 материалов к QR</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">В работе</span><a class="course-tile-title" href="#statistics-book">Статистические методы в физике</a><span class="course-tile-text">Практический курс для экспериментаторов и теоретиков.</span></div>
+    <div class="course-tile"><span class="course-tile-status">В работе</span><a class="course-tile-title" href="#particle-physics-book">Введение в физику элементарных частиц</a><span class="course-tile-text">От симметрий и полей к наблюдаемым процессам.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/particle-physics/">28 анимаций</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">В работе</span><a class="course-tile-title" href="#gravity-book">Гравитация</a><span class="course-tile-text">Общая теория относительности для экспериментаторов.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/gravity/">6 анимаций</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">В работе</span><a class="course-tile-title" href="#numerical-methods-book">Численные методы для физиков</a><span class="course-tile-text">Метод, проверка, физический результат.</span></div>
   </nav>
 
   <section id="qft-book" class="book-showcase" aria-label="Квантовая теория поля для экспериментаторов и не только">
@@ -68,51 +67,57 @@ toc: false
         </div>
       </div>
     </div>
+  </section>
 
-    <div class="lecture-course book-course-neutrino">
-      <div class="lecture-course-head">
-        <span class="lecture-course-status">В процессе</span>
-        <span class="lecture-course-title">Введение в физику нейтрино</span>
+  <h2 id="books-in-progress" class="section-inline-title">Книги в работе</h2>
+  <p class="book-wip-lead">Учебники к курсам NeutrinoHit готовятся к изданию.</p>
+  <section class="book-wip-grid" aria-label="Книги в работе">
+    <article id="neutrino-physics-book" class="book-wip">
+      <img class="book-wip-cover" src="../assets/books/series/neutrino-physics-front.jpg" alt="Обложка книги «Введение в физику нейтрино»" width="400" height="566" loading="lazy">
+      <div class="book-wip-body">
+        <span class="course-tile-status">В работе</span>
+        <h3>Введение в физику нейтрино</h3>
+        <p class="book-wip-sub">Теория и эксперименты</p>
+        <div class="book-wip-links"><a href="courses/neutrino-introduction.html">Курс</a> · <a href="../qr/neutrino-physics/">Материалы к QR-кодам</a></div>
       </div>
-      <div class="lecture-course-body">
-        <p>Онлайн-книга к вводному курсу; печатное издание готовится.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/book/">Открыть книгу</a>
-          <a href="../qr/neutrino-physics/">Материалы к QR-кодам</a>
-        </div>
+    </article>
+    <article id="statistics-book" class="book-wip">
+      <img class="book-wip-cover" src="../assets/books/series/statistical-methods-front.jpg" alt="Обложка книги «Статистические методы в физике»" width="400" height="566" loading="lazy">
+      <div class="book-wip-body">
+        <span class="course-tile-status">В работе</span>
+        <h3>Статистические методы в физике</h3>
+        <p class="book-wip-sub">Практический курс для экспериментаторов и теоретиков</p>
+        <div class="book-wip-links"><a href="courses/statistical-analysis.html">Курс</a></div>
       </div>
-    </div>
-
-    <div class="lecture-course book-course-particles">
-      <div class="lecture-course-head">
-        <span class="lecture-course-status">В процессе</span>
-        <span class="lecture-course-title">Введение в физику элементарных частиц</span>
+    </article>
+    <article id="particle-physics-book" class="book-wip">
+      <img class="book-wip-cover" src="../assets/books/series/particle-physics-front.jpg" alt="Обложка книги «Введение в физику элементарных частиц»" width="400" height="566" loading="lazy">
+      <div class="book-wip-body">
+        <span class="course-tile-status">В работе</span>
+        <h3>Введение в физику элементарных частиц</h3>
+        <p class="book-wip-sub">От симметрий и полей к наблюдаемым процессам</p>
+        <div class="book-wip-links"><a href="courses/particle-physics.html">Курс</a> · <a href="../qr/particle-physics/">Материалы к QR-кодам</a></div>
       </div>
-      <div class="lecture-course-body">
-        <p>Онлайн-книга к большому курсу; печатное издание готовится.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../particlephysics/ParticlePhysics/ru/book/index.html">Открыть книгу</a>
-          <a href="../qr/particle-physics/">Материалы к QR-кодам</a>
-        </div>
+    </article>
+    <article id="gravity-book" class="book-wip">
+      <img class="book-wip-cover" src="../assets/books/series/gravity-front.jpg" alt="Обложка книги «Гравитация»" width="400" height="566" loading="lazy">
+      <div class="book-wip-body">
+        <span class="course-tile-status">В работе</span>
+        <h3>Гравитация</h3>
+        <p class="book-wip-sub">Общая теория относительности для экспериментаторов</p>
+        <div class="book-wip-links"><a href="courses/gravity.html">Курс</a> · <a href="../qr/gravity/">Материалы к QR-кодам</a></div>
       </div>
-    </div>
-
-    <div class="lecture-course book-course-stat">
-      <div class="lecture-course-head">
-        <span class="lecture-course-status">Онлайн-книга · в работе</span>
-        <span class="lecture-course-title">Статистический анализ</span>
+    </article>
+    <article id="numerical-methods-book" class="book-wip">
+      <img class="book-wip-cover" src="../assets/books/series/numerical-methods-front.jpg" alt="Обложка книги «Численные методы для физиков»" width="400" height="566" loading="lazy">
+      <div class="book-wip-body">
+        <span class="course-tile-status">В работе</span>
+        <h3>Численные методы для физиков</h3>
+        <p class="book-wip-sub">Метод, проверка, физический результат</p>
+        <p class="book-wip-authors">К. Базаров, Д. В. Наумов</p>
+        <div class="book-wip-links"><a href="courses/numerical-methods.html">Курс</a></div>
       </div>
-      <div class="lecture-course-body">
-        <p>Практическая онлайн-книга о вероятностных моделях, оценивании параметров,
-        проверке гипотез и статистическом выводе в экспериментальной физике.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../statistical-analysis-course/ru/book/index.html">Открыть книгу</a>
-          <a href="../statistical-analysis-course/ru/slides/applets.html">Апплеты</a>
-          <a href="../statistical-analysis-course/ru/slides/exercises/index.html">Все задачи</a>
-          <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Экзаменационные проекты</a>
-        </div>
-      </div>
-    </div>
+    </article>
   </section>
 </div>
 ```

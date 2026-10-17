@@ -20,36 +20,11 @@ toc: false
       <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../gravity/ru/slides/01_radial_signals.html">Световые сигналы у горизонта чёрной дыры</a> <span class="course-toc-note">черновик</span></td><td class="course-toc-col" data-label="Слайды"><a href="../../gravity/ru/slides/01_radial_signals.html">слайды</a></td></tr>
     </tbody>
   </table>
-  <h2 class="course-page-section">Книга</h2>
-  <div class="course-page-card">
-    <p><strong>Гравитация</strong>. Онлайн-книга к курсу, в работе.</p>
-    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../gravity/ru/book/">Открыть книгу</a></div>
-    <h3>Главы</h3>
-    <ol class="course-book-chapters">
-      <li><a href="../../gravity/ru/book/chapters/01_gravity_as_experiment.html">Гравитация как экспериментальная наука</a></li>
-      <li><a href="../../gravity/ru/book/chapters/02_minkowski_signals.html">Геометрия Минковского из световых сигналов</a></li>
-      <li><a href="../../gravity/ru/book/chapters/03_four_momentum.html">Четырёх-импульс и релятивистская кинематика</a></li>
-      <li><a href="../../gravity/ru/book/chapters/04_acceleration_equivalence.html">Ускоренные наблюдатели и принцип эквивалентности</a></li>
-      <li><a href="../../gravity/ru/book/chapters/05_metric_local_frame.html">Координаты, метрика и локальная система отсчёта</a></li>
-      <li><a href="../../gravity/ru/book/chapters/06_geodesics_tides.html">Геодезические и приливные силы</a></li>
-      <li><a href="../../gravity/ru/book/chapters/07_curvature_einstein.html">Кривизна и уравнения Эйнштейна</a></li>
-      <li><a href="../../gravity/ru/book/chapters/08_weak_field_tests.html">Слабое поле и параметризованные проверки</a></li>
-      <li><a href="../../gravity/ru/book/chapters/09_schwarzschild_tests.html">Геометрия Шварцшильда и классические тесты</a></li>
-      <li><a href="../../gravity/ru/book/chapters/10_clocks_navigation.html">Часы и релятивистская навигация</a></li>
-      <li><a href="../../gravity/ru/book/chapters/11_horizons_signals.html">Горизонт: координаты, сигналы и причинность</a></li>
-      <li><a href="../../gravity/ru/book/chapters/12_rotating_black_holes.html">Вращение и окрестность компактного объекта</a></li>
-      <li><a href="../../gravity/ru/book/chapters/13_gravitational_waves.html">Линеаризованная гравитация и волны</a></li>
-      <li><a href="../../gravity/ru/book/chapters/14_compact_binaries.html">Компактные двойные и генерация сигнала</a></li>
-      <li><a href="../../gravity/ru/book/chapters/15_interferometers.html">Интерферометр как измерительный прибор</a></li>
-      <li><a href="../../gravity/ru/book/chapters/16_testing_gr.html">От данных к проверке ОТО</a></li>
-      <li><a href="../../gravity/ru/book/chapters/17_relativistic_cosmology.html">Однородная Вселенная и космологические расстояния</a></li>
-      <li><a href="../../gravity/ru/book/chapters/18_observational_cosmology.html">Наблюдательная космология и границы модели</a></li>
-    </ol>
-  </div>
+  <p class="course-book-line">Книга к курсу готовится.</p>
   <h2 class="course-page-section">Ещё в этом разделе</h2>
   <nav class="course-tiles">
     <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="light-propagation.html">Распространение света в среде</a><span class="course-tile-text">Перенос света в рассеивающей среде и сигнал оптического модуля.</span><span class="course-tile-meta">3 лекции</span></div>
-    <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="numerical-methods.html">Численные методы для физиков</a><span class="course-tile-text">Одна лекция — одна физическая задача; Python с Numba.</span><span class="course-tile-meta">1 лекция · <a class="course-tile-book" href="../../numerical_methods/ru/book/">онлайн‑книга</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="numerical-methods.html">Численные методы для физиков</a><span class="course-tile-text">Одна лекция — одна физическая задача; Python с Numba.</span><span class="course-tile-meta">1 лекция</span></div>
   </nav>
   <p class="course-page-back"><a href="../education.html">← Все курсы</a></p>
 </article>

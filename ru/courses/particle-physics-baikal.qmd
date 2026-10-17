@@ -57,7 +57,7 @@ toc: false
   </div>
   <h2 class="course-page-section">Ещё в этом разделе</h2>
   <nav class="course-tiles">
-    <div class="course-tile"><span class="course-tile-status">Курс готовится</span><a class="course-tile-title" href="particle-physics.html">Физика элементарных частиц: большой курс</a><span class="course-tile-text">Будущий полный курс: слайды, книга, задачи и апплеты.</span><span class="course-tile-meta"><a class="course-tile-book" href="../../particlephysics/ParticlePhysics/ru/book/index.html">онлайн‑книга</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">Курс готовится</span><a class="course-tile-title" href="particle-physics.html">Физика элементарных частиц: большой курс</a><span class="course-tile-text">Будущий полный курс: слайды, книга, задачи и апплеты.</span></div>
   </nav>
   <p class="course-page-back"><a href="../education.html">← Все курсы</a></p>
 </article>

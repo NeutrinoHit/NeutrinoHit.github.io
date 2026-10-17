@@ -4,6 +4,8 @@ site:
 	rm -rf _site
 	NEUTRINOHIT_SYNC_PROJECT_SITES=0 quarto render
 	rm -rf _site/neutrino_introduction
+	# Cover sources (SVG, configs, generators) are not site pages; the Books page uses assets/books/series/.
+	rm -rf _site/assets/books/covers
 	rm -f \
 		_site/albums/10-17-may-2026/photos/03-image-20260515123220-426-177.jpg \
 		_site/albums/10-17-may-2026/photos/04-img-5737.jpeg \

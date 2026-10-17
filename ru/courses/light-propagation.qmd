@@ -24,8 +24,8 @@ toc: false
   </table>
   <h2 class="course-page-section">Ещё в этом разделе</h2>
   <nav class="course-tiles">
-    <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="gravity.html">Гравитация</a><span class="course-tile-text">Общая теория относительности как экспериментальная наука.</span><span class="course-tile-meta">1 лекция · <a class="course-tile-book" href="../../gravity/ru/book/">онлайн‑книга</a></span></div>
-    <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="numerical-methods.html">Численные методы для физиков</a><span class="course-tile-text">Одна лекция — одна физическая задача; Python с Numba.</span><span class="course-tile-meta">1 лекция · <a class="course-tile-book" href="../../numerical_methods/ru/book/">онлайн‑книга</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="gravity.html">Гравитация</a><span class="course-tile-text">Общая теория относительности как экспериментальная наука.</span><span class="course-tile-meta">1 лекция</span></div>
+    <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="numerical-methods.html">Численные методы для физиков</a><span class="course-tile-text">Одна лекция — одна физическая задача; Python с Numba.</span><span class="course-tile-meta">1 лекция</span></div>
   </nav>
   <p class="course-page-back"><a href="../education.html">← Все курсы</a></p>
 </article>

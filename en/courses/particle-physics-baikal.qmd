@@ -57,7 +57,7 @@ toc: false
   </div>
   <h2 class="course-page-section">More in this section</h2>
   <nav class="course-tiles">
-    <div class="course-tile"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="particle-physics.html">Particle Physics: Full Course</a><span class="course-tile-text">The future full course: slides, book, problems and applets.</span><span class="course-tile-meta"><a class="course-tile-book" href="../../particlephysics/ParticlePhysics/en/book/">online book</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="particle-physics.html">Particle Physics: Full Course</a><span class="course-tile-text">The future full course: slides, book, problems and applets.</span></div>
   </nav>
   <p class="course-page-back"><a href="../education.html">← All courses</a></p>
 </article>

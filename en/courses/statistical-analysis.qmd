@@ -38,11 +38,7 @@ toc: false
       <tr id="lecture-15"><td class="course-toc-num">15</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-15-bayesian-examples.html">Bayesian examples</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-15-bayesian-examples.html">slides</a></td></tr>
     </tbody>
   </table>
-  <h2 class="course-page-section">Book</h2>
-  <div class="course-page-card">
-    <p><strong>Statistical Data Analysis</strong>. The online book of the course.</p>
-    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../statistical-analysis-course/en/book/">Open the book</a></div>
-  </div>
+  <p class="course-book-line">A book for the course is in preparation.</p>
   <p class="course-page-back"><a href="../education.html">← All courses</a></p>
 </article>
 ```

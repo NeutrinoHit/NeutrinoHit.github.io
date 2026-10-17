@@ -10,28 +10,20 @@ toc: false
   <header class="course-page-head">
     <span class="course-tile-status">Готовится</span>
     <h1>Численные методы для физиков</h1>
-    <p class="course-page-summary">Как физик решает задачи, которые не берутся аналитически: одна лекция — одна физическая задача, нужные методы вводятся тогда, когда без них задача не решается. Python с Numba, лекции, задачи и онлайн-книга.</p>
+    <p class="course-page-summary">Как физик решает задачи, которые не берутся аналитически: одна лекция — одна физическая задача, нужные методы вводятся тогда, когда без них задача не решается. Python с Numba, лекции и задачи.</p>
     <p class="course-toc-meta">1 лекция</p>
   </header>
   <h2 class="course-page-section">Оглавление</h2>
   <table class="course-toc course-toc-full">
-    <thead><tr><th class="course-toc-num">№</th><th>Тема</th><th class="course-toc-col">Слайды</th><th class="course-toc-col">Глава</th></tr></thead>
+    <thead><tr><th class="course-toc-num">№</th><th>Тема</th><th class="course-toc-col">Слайды</th></tr></thead>
     <tbody>
-      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../numerical_methods/ru/slides/01_python_numpy_numba.html">Python, NumPy и Numba</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../numerical_methods/ru/slides/01_python_numpy_numba.html">слайды</a></td><td class="course-toc-col" data-label="Глава"><a href="../../numerical_methods/ru/book/chapters/01_python_numpy_numba.html">глава</a></td></tr>
+      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../numerical_methods/ru/slides/01_python_numpy_numba.html">Python, NumPy и Numba</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../numerical_methods/ru/slides/01_python_numpy_numba.html">слайды</a></td></tr>
     </tbody>
   </table>
-  <h2 class="course-page-section">Книга</h2>
-  <div class="course-page-card">
-    <p><strong>Численные методы для физиков</strong>. Онлайн-книга к курсу, в работе.</p>
-    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../numerical_methods/ru/book/">Открыть книгу</a></div>
-    <h3>Главы</h3>
-    <ol class="course-book-chapters">
-      <li><a href="../../numerical_methods/ru/book/chapters/01_python_numpy_numba.html">Python, NumPy и Numba</a></li>
-    </ol>
-  </div>
+  <p class="course-book-line">Книга к курсу готовится.</p>
   <h2 class="course-page-section">Ещё в этом разделе</h2>
   <nav class="course-tiles">
-    <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="gravity.html">Гравитация</a><span class="course-tile-text">Общая теория относительности как экспериментальная наука.</span><span class="course-tile-meta">1 лекция · <a class="course-tile-book" href="../../gravity/ru/book/">онлайн‑книга</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="gravity.html">Гравитация</a><span class="course-tile-text">Общая теория относительности как экспериментальная наука.</span><span class="course-tile-meta">1 лекция</span></div>
     <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="light-propagation.html">Распространение света в среде</a><span class="course-tile-text">Перенос света в рассеивающей среде и сигнал оптического модуля.</span><span class="course-tile-meta">3 лекции</span></div>
   </nav>
   <p class="course-page-back"><a href="../education.html">← Все курсы</a></p>
