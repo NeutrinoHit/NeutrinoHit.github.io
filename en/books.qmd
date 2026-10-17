@@ -56,9 +56,9 @@ toc: false
         <span class="lecture-course-title">Introduction to Neutrino Physics</span>
       </summary>
       <div class="lecture-course-body">
-        <p>The book is in progress. The working repository is private.</p>
+        <p>The online book of the introductory course (in Russian); a printed edition is in preparation.</p>
         <div class="lecture-course-actions">
-          <a href="https://github.com/dmitryvnaumov/NEUTRINObook">Private repository</a>
+          <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/book/">Open the book (Russian)</a>
         </div>
       </div>
     </details>
