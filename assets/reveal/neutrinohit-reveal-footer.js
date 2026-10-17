@@ -14,6 +14,9 @@
     contextHomeLabel: scriptElement && scriptElement.dataset.contextHomeLabel
       ? scriptElement.dataset.contextHomeLabel
       : "Главная страница материалов",
+    contextHomeShort: scriptElement && scriptElement.dataset.contextHomeShort
+      ? scriptElement.dataset.contextHomeShort
+      : null,
     mathJaxRenderer: scriptElement && scriptElement.dataset.mathjaxRenderer
       ? scriptElement.dataset.mathjaxRenderer
       : "CommonHTML",
@@ -67,6 +70,37 @@
         height: 38px;
       }
 
+      .nh-footer-course {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        height: 38px;
+        padding: 0 15px 0 12px;
+        border: 1px solid rgba(255, 255, 255, 0.9);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.95);
+        color: #1d2b36 !important;
+        font: 700 15px/1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        white-space: nowrap;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+        transition: background 0.15s ease, transform 0.15s ease;
+      }
+
+      .nh-footer-course:hover {
+        background: #ffffff;
+        transform: translateY(-1px);
+      }
+
+      .nh-footer-course kbd {
+        padding: 1px 5px;
+        background: transparent !important;
+        box-shadow: none !important;
+        border: 1px solid rgba(29, 43, 54, 0.3);
+        border-radius: 4px;
+        color: #53616f;
+        font: 600 11px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+      }
+
       .nh-footer-logo-link:hover,
       .nh-footer-link:hover {
         border-color: rgba(255, 255, 255, 0.72);
@@ -113,6 +147,10 @@
           right: 1rem;
           bottom: 3.3rem;
         }
+
+        .nh-footer-course kbd {
+          display: none;
+        }
       }
 
       @media print {
@@ -136,6 +174,45 @@
     link.setAttribute("aria-label", label);
     link.innerHTML = svg;
     return link;
+  }
+
+  const COURSE_KEY = "u";
+
+  function pageIsRussian() {
+    return (document.documentElement.lang || "").toLowerCase().startsWith("ru");
+  }
+
+  function courseLink() {
+    const ru = pageIsRussian();
+    const link = document.createElement("a");
+    link.className = "nh-footer-course";
+    link.href = config.contextHomeUrl;
+    const hint = ru ? `${config.contextHomeLabel} (клавиша U)` : `${config.contextHomeLabel} (key U)`;
+    link.title = hint;
+    link.setAttribute("aria-label", hint);
+    link.append("← " + (config.contextHomeShort || (ru ? "Курс" : "Course")));
+    const kbd = document.createElement("kbd");
+    kbd.textContent = "U";
+    link.appendChild(kbd);
+    return link;
+  }
+
+  // U returns to the course page; Reveal leaves this key unbound
+  // (Esc and O open the overview, H/J/K/L navigate).
+  function bindCourseKey() {
+    if (!config.contextHomeUrl || window.__neutrinohitCourseKey) return;
+    window.__neutrinohitCourseKey = true;
+    document.addEventListener("keydown", (event) => {
+      if (event.key.toLowerCase() !== COURSE_KEY) return;
+      if (event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+      const target = event.target;
+      if (target && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName))) return;
+      event.preventDefault();
+      window.location.href = config.contextHomeUrl;
+    });
+    if (window.Reveal && typeof window.Reveal.registerKeyboardShortcut === "function") {
+      window.Reveal.registerKeyboardShortcut("U", pageIsRussian() ? "К странице курса" : "Back to the course page");
+    }
   }
 
   function logoLink() {
@@ -170,15 +247,11 @@
     const footer = document.createElement("nav");
     footer.className = "nh-slide-footer";
     footer.setAttribute("aria-label", "NeutrinoHit links");
-    footer.appendChild(logoLink());
     if (config.contextHomeUrl) {
-      footer.appendChild(iconLink(
-        config.contextHomeUrl,
-        config.contextHomeLabel,
-        '<svg viewBox="0 0 48 48" role="img" aria-hidden="true"><rect x="7" y="8" width="34" height="32" rx="4"></rect><path d="M15 15h18v3H15zm0 7h18v3H15zm0 7h12v3H15z"></path></svg>',
-        false
-      ));
+      footer.appendChild(courseLink());
+      bindCourseKey();
     }
+    footer.appendChild(logoLink());
     footer.appendChild(iconLink(
       config.telegramUrl,
       "Telegram",
