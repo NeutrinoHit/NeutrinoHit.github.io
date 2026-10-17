@@ -305,7 +305,7 @@ def render_qmd(
         )
         lines.extend(
             [
-                f'    <details class="lecture-course animation-section animation-section-{esc(section["id"])}">',
+                f'    <details id="{esc(section["id"])}" class="lecture-course animation-section animation-section-{esc(section["id"])}">',
                 "      <summary>",
                 f'        <span class="lecture-course-status">{esc(status)}</span>',
                 f'        <span class="lecture-course-title">{esc(section["title"])}</span>',
