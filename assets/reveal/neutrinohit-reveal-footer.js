@@ -326,6 +326,39 @@
     rerenderShownMath();
   }
 
+  // MathJax 2 matches the formula size to the x-height of the surrounding
+  // text, and it cannot measure text that is not displayed: formulas on hidden
+  // slides and tabs came out at half size and jumped when shown. A probe
+  // formula on the visible slide gives the right scale once; with that scale
+  // fixed and the matching switched off, every formula is typeset at its final
+  // size at load, shown or not.
+  let mathScaleFixed = false;
+
+  function mathScaleProbe() {
+    const slide = window.Reveal && window.Reveal.getCurrentSlide && window.Reveal.getCurrentSlide();
+    window.__neutrinohitMathScale = { probe: Boolean(slide), renderer: config.mathJaxRenderer };
+    if (!slide || config.mathJaxRenderer !== "CommonHTML") return null;
+    const probe = document.createElement("div");
+    probe.setAttribute("aria-hidden", "true");
+    probe.style.cssText = "position:absolute;left:0;top:0;visibility:hidden;pointer-events:none";
+    probe.innerHTML = '<span class="math inline">\\(x\\)</span>';
+    slide.appendChild(probe);
+    return probe;
+  }
+
+  function fixMathScale(hub, probe) {
+    const jax = window.MathJax.OutputJax && window.MathJax.OutputJax.CommonHTML;
+    const out = probe.querySelector(".MathJax_CHTML");
+    const ratio = out && parseFloat(getComputedStyle(out).fontSize) / parseFloat(getComputedStyle(out.parentElement).fontSize);
+    window.__neutrinohitMathScale = { ratio: ratio || null, typeset: Boolean(out) };
+    probe.remove();
+    if (!jax || !jax.config || !ratio || ratio < 0.6 || ratio > 2) return;
+    const scale = Math.round(ratio * 100);
+    Object.assign(jax.config, { matchFontHeight: false, scale });
+    hub.config.CommonHTML = Object.assign(hub.config.CommonHTML || {}, { matchFontHeight: false, scale });
+    mathScaleFixed = true;
+  }
+
   function configureMathJax() {
     if (window.__neutrinohitMathJaxConfigured) return;
     const setRenderer = config.mathJaxRenderer && config.mathJaxRenderer !== "default";
@@ -349,13 +382,22 @@
       try {
         if (setRenderer) {
           hub.Queue(["setRenderer", hub, config.mathJaxRenderer]);
+          const probe = mathScaleProbe();
+          if (probe) {
+            // The page's first typesetting may already have taken the probe with the old
+            // renderer: typeset it, then render it again with the chosen one.
+            hub.Queue(["Typeset", hub, probe]);
+            hub.Queue(["Rerender", hub, probe]);
+            hub.Queue(() => fixMathScale(hub, probe));
+          }
           hub.Queue(["Rerender", hub]);
         }
         typesetSlideMenu();
         hub.Queue(() => {
           if (window.Reveal && typeof window.Reveal.layout === "function") {
             window.Reveal.layout();
-            watchShownMath();
+            // Without a fixed scale (SVG renderer, failed probe) hidden parts are redone when shown.
+            if (!mathScaleFixed) watchShownMath();
           }
         });
       } catch (error) {
