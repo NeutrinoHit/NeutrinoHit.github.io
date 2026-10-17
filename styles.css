@@ -1131,6 +1131,13 @@ a.course-tile-title:hover {
   scroll-margin-top: 5rem;
 }
 
+/* Quarto's navbar script adds section:target::before as a scroll offset;
+   in this grid it would become the first cell and push the covers aside. */
+.book-showcase:target::before {
+  content: none;
+  display: none;
+}
+
 .book-showcase-covers {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
