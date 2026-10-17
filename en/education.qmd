@@ -10,6 +10,21 @@ toc: false
     Courses, educational programs, textbooks, and self-study materials. Russian-language materials are marked at the link level.
   </p>
 
+  <nav class="course-tiles" aria-label="Courses">
+    <div class="course-tile"><span class="course-tile-status is-ready">Video course · Russian</span><a class="course-tile-title" href="#qft-course">Quantum Field Theory</a><span class="course-tile-text">Introduction to QFT and QED: from the Dirac equation to the S‑matrix and Wick’s theorems.</span><span class="course-tile-meta">26 videos · 41 h · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">notes PDF</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Video course · Russian</span><a class="course-tile-title" href="#standard-model-course">Standard Model</a><span class="course-tile-text">Scattering and decays in QED and electroweak theory, the Higgs mechanism.</span><span class="course-tile-meta">23 videos · 35 h · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">notes PDF</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Video course · Russian</span><a class="course-tile-title" href="#qft-renormalization-course">Renormalization in QFT</a><span class="course-tile-text">Dimensional regularization, vacuum polarization, g−2, neutral kaons, anomalies.</span><span class="course-tile-meta">20 videos · 29 h · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">notes PDF</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Course published</span><a class="course-tile-title" href="#stat">Statistical Data Analysis</a><span class="course-tile-text">From probability and likelihood to significance and systematics.</span><span class="course-tile-meta">15 English lectures · <a class="course-tile-book" href="../statistical-analysis-course/en/book/">online book</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Course published · Russian</span><a class="course-tile-title" href="#neutrino-introduction">Introduction to Neutrino Physics</a><span class="course-tile-text">Weak interaction, neutrino mass, oscillations in vacuum and matter.</span><span class="course-tile-meta">15 lectures · <a class="course-tile-book" href="../neutrinophysics/introduction/ru/book/">online book (Russian)</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Mini-course</span><a class="course-tile-title" href="../neutrinophysics/oscillations-minicourse/index.html">Oscillations from Vacuum to the Earth’s Core</a><span class="course-tile-text">Vacuum, matter and the Sun, neutrino probes of the Earth’s interior.</span><span class="course-tile-meta">3 lectures</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Masterclass</span><a class="course-tile-title" href="#solar-neutrino-masterclass">Solar Neutrinos</a><span class="course-tile-text">Fluxes, event rates and an oscillation fit to the data.</span><span class="course-tile-meta">3 sessions · project</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Mini-course · Russian</span><a class="course-tile-title" href="../qft-lectures/unruh/">The Unruh Effect</a><span class="course-tile-text">Accelerated frames: from Rindler coordinates to the Unruh effect.</span><span class="course-tile-meta">5 lectures</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Mini-course</span><a class="course-tile-title" href="../particlephysics/IntroParticlePhysicsBaikal/index.html">Particle Physics</a><span class="course-tile-text">Particles, fields, interactions, gauge invariance and masses.</span><span class="course-tile-meta">2 lectures · <a class="course-tile-book" href="../particlephysics/ParticlePhysics/en/book/">online book</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">In preparation · Russian</span><a class="course-tile-title" href="../rte_lectures/">Light Propagation in a Medium</a><span class="course-tile-text">Light transport in a scattering medium and the optical-module signal.</span><span class="course-tile-meta">3 lectures</span></div>
+    <div class="course-tile"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="../numerical_methods/">Numerical Methods for Physicists</a><span class="course-tile-text">One lecture, one physics problem; Python with Numba.</span><span class="course-tile-meta">RU / EN · <a class="course-tile-book" href="../numerical_methods/en/book/">online book</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="../gravity/">Gravity</a><span class="course-tile-text">General relativity; the first lecture is on signals near a horizon.</span><span class="course-tile-meta">lecture 01 — draft · <a class="course-tile-book" href="../gravity/ru/book/">online book (Russian)</a></span></div>
+  </nav>
+
   <section class="lecture-course-list" aria-label="Education sections">
     <details class="lecture-course program-course-teachin">
       <summary>
@@ -103,322 +118,127 @@ toc: false
           <details id="qft-course" class="lecture-material">
             <summary>Lecture course “Quantum Field Theory”</summary>
             <div class="lecture-material-body">
-              <p>Basic QFT course: notes and video recordings are in Russian.</p>
+              <p>Introduction to QFT and QED: relativistic quantum mechanics, the Dirac equation, classical field theory, field quantization, the propagator and the S‑matrix. Videos and notes are in Russian.</p>
+              <p class="course-toc-meta">26 lectures · 41 h 19 min of video · notes PDF</p>
               <div class="lecture-course-actions">
-                <a href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">Notes (Russian)</a>
-                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29">YouTube</a>
+                <a class="lecture-action-primary" href="https://www.youtube.com/playlist?list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29">Playlist</a>
+                <a href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">Notes PDF (Russian)</a>
                 <a href="https://rutube.ru/plst/1531108/">RuTube</a>
                 <a href="https://vkvideo.ru/playlist/-235607329_5">VK</a>
                 <a href="https://teach-in.ru/course/quantum-field-theory-naumov">Teach-in</a>
               </div>
-              <div class="course-lectures">
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/pcOLUI9Z-mk"><img src="https://img.youtube.com/vi/pcOLUI9Z-mk/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.1. Waves within us</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/pcOLUI9Z-mk">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/wak3QOjD5II"><img src="https://img.youtube.com/vi/wak3QOjD5II/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.2. A century of discoveries</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/wak3QOjD5II">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/mO3TToWcGuI"><img src="https://img.youtube.com/vi/mO3TToWcGuI/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.3. The Klein–Fock–Gordon equation</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/mO3TToWcGuI">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/ZJnQGFpdYD4"><img src="https://img.youtube.com/vi/ZJnQGFpdYD4/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.4. The Klein paradox</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/ZJnQGFpdYD4">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/1wtPiZTVcYo"><img src="https://img.youtube.com/vi/1wtPiZTVcYo/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.5. The Dirac equation</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/1wtPiZTVcYo">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/vGh_hRiByn0"><img src="https://img.youtube.com/vi/vGh_hRiByn0/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.6. Spin and orbital angular momentum in the Dirac equation</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/vGh_hRiByn0">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/cz5remCD0yY"><img src="https://img.youtube.com/vi/cz5remCD0yY/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.7. Dirac γ-matrices</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/cz5remCD0yY">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/sfH49H0lCgA"><img src="https://img.youtube.com/vi/sfH49H0lCgA/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.8. Solving the free Dirac equation</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/sfH49H0lCgA">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/Fjxb1Ne2Kkc"><img src="https://img.youtube.com/vi/Fjxb1Ne2Kkc/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.9. Antiparticles in the Dirac equation</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/Fjxb1Ne2Kkc">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/pBEpxm5HoEo"><img src="https://img.youtube.com/vi/pBEpxm5HoEo/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.10. Calculating the energy levels of the hydrogen atom</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/pBEpxm5HoEo">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/XrVgdGu0pow"><img src="https://img.youtube.com/vi/XrVgdGu0pow/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.11. A particle in a plane electromagnetic wave</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/XrVgdGu0pow">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/dxAK4hfcTEo"><img src="https://img.youtube.com/vi/dxAK4hfcTEo/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.12. Chiral operators</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/dxAK4hfcTEo">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/UPZOfsZe78w"><img src="https://img.youtube.com/vi/UPZOfsZe78w/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.13. Relativistic quantum mechanics: a discussion</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/UPZOfsZe78w">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/oKJOfjNydA4"><img src="https://img.youtube.com/vi/oKJOfjNydA4/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.14. Foundations of classical field theory</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/oKJOfjNydA4">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/wjQXmoBRZ8w"><img src="https://img.youtube.com/vi/wjQXmoBRZ8w/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.15. Noether’s theorem</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/wjQXmoBRZ8w">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/bCPa8SWhjIc"><img src="https://img.youtube.com/vi/bCPa8SWhjIc/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.16. Complex scalar and electromagnetic fields</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/bCPa8SWhjIc">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/dWDWD0q1EDI"><img src="https://img.youtube.com/vi/dWDWD0q1EDI/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.17. The polarization vector. Energy and momentum of the electromagnetic field</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/dWDWD0q1EDI">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/koBfOzUrjJQ"><img src="https://img.youtube.com/vi/koBfOzUrjJQ/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.18. The fermion field and Green’s functions</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/koBfOzUrjJQ">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/sZgZOZBsWMY"><img src="https://img.youtube.com/vi/sZgZOZBsWMY/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.19. Diffraction. Green’s functions of some equations</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/sZgZOZBsWMY">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/wBnQHAy2dfM"><img src="https://img.youtube.com/vi/wBnQHAy2dfM/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.20. Quantizing the field, take one!</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/wBnQHAy2dfM">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/bY1QdjR9XqI"><img src="https://img.youtube.com/vi/bY1QdjR9XqI/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.21. Quantum statistics. Normal ordering</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/bY1QdjR9XqI">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/gE5wsYuAt3g"><img src="https://img.youtube.com/vi/gE5wsYuAt3g/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.22. Quantizing the field, take two!</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/gE5wsYuAt3g">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/vWa4t3D-OZY"><img src="https://img.youtube.com/vi/vWa4t3D-OZY/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.23. The propagator</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/vWa4t3D-OZY">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/x6lhdZXpEwg"><img src="https://img.youtube.com/vi/x6lhdZXpEwg/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.24. The S-matrix</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/x6lhdZXpEwg">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/sp7xIWP3mJY"><img src="https://img.youtube.com/vi/sp7xIWP3mJY/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.25. The evolution operator and Wick’s theorems</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/sp7xIWP3mJY">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/mw-z66p28bg"><img src="https://img.youtube.com/vi/mw-z66p28bg/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.26. Attraction and repulsion</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/mw-z66p28bg">YouTube</a></div></div>
-                </article>
-              </div>
+              <table class="course-toc">
+                <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-time">Time</th><th class="course-toc-play"><span class="visually-hidden">Video</span></th></tr></thead>
+                <tbody>
+                  <tr><td class="course-toc-num">1.1</td><td>Waves within us</td><td class="course-toc-time">2:04:18</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=pcOLUI9Z-mk&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.1 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.2</td><td>A century of discoveries</td><td class="course-toc-time">2:00:59</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=wak3QOjD5II&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.2 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.3</td><td>The Klein–Fock–Gordon equation</td><td class="course-toc-time">2:05:44</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=mO3TToWcGuI&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.3 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.4</td><td>The Klein paradox</td><td class="course-toc-time">1:34:03</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=ZJnQGFpdYD4&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.4 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.5</td><td>The Dirac equation</td><td class="course-toc-time">3:03:24</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=1wtPiZTVcYo&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.5 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.6</td><td>Spin and orbital angular momentum in the Dirac equation</td><td class="course-toc-time">42:27</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=vGh_hRiByn0&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.6 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.7</td><td>Dirac γ-matrices</td><td class="course-toc-time">1:28:05</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=cz5remCD0yY&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.7 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.8</td><td>Solving the free Dirac equation</td><td class="course-toc-time">55:00</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=sfH49H0lCgA&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.8 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.9</td><td>Antiparticles in the Dirac equation</td><td class="course-toc-time">1:38:03</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=Fjxb1Ne2Kkc&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.9 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.10</td><td>Calculating the energy levels of the hydrogen atom</td><td class="course-toc-time">1:33:01</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=pBEpxm5HoEo&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.10 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.11</td><td>A particle in a plane electromagnetic wave</td><td class="course-toc-time">1:22:54</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=XrVgdGu0pow&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.11 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.12</td><td>Chiral operators</td><td class="course-toc-time">2:09:16</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=dxAK4hfcTEo&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.12 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.13</td><td>Relativistic quantum mechanics: a discussion</td><td class="course-toc-time">1:21:13</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=UPZOfsZe78w&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.13 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.14</td><td>Foundations of classical field theory</td><td class="course-toc-time">1:21:27</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=oKJOfjNydA4&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.14 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.15</td><td>Noether’s theorem</td><td class="course-toc-time">1:58:47</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=wjQXmoBRZ8w&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.15 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.16</td><td>Complex scalar and electromagnetic fields</td><td class="course-toc-time">1:29:29</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=bCPa8SWhjIc&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.16 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.17</td><td>The polarization vector. Energy and momentum of the electromagnetic field</td><td class="course-toc-time">1:19:22</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=dWDWD0q1EDI&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.17 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.18</td><td>The fermion field and Green’s functions</td><td class="course-toc-time">1:17:01</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=koBfOzUrjJQ&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.18 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.19</td><td>Diffraction. Green’s functions of some equations</td><td class="course-toc-time">1:16:27</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=sZgZOZBsWMY&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.19 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.20</td><td>Quantizing the field, take one!</td><td class="course-toc-time">1:25:15</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=wBnQHAy2dfM&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.20 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.21</td><td>Quantum statistics. Normal ordering</td><td class="course-toc-time">1:15:04</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=bY1QdjR9XqI&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.21 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.22</td><td>Quantizing the field, take two!</td><td class="course-toc-time">1:32:01</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=gE5wsYuAt3g&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.22 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.23</td><td>The propagator</td><td class="course-toc-time">1:53:12</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=vWa4t3D-OZY&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.23 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.24</td><td>The S-matrix</td><td class="course-toc-time">1:36:10</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=x6lhdZXpEwg&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.24 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.25</td><td>The evolution operator and Wick’s theorems</td><td class="course-toc-time">1:34:20</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=sp7xIWP3mJY&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.25 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">1.26</td><td>Attraction and repulsion</td><td class="course-toc-time">1:21:36</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=mw-z66p28bg&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Lecture 1.26 on YouTube">▶</a></td></tr>
+                </tbody>
+              </table>
             </div>
           </details>
           <details id="standard-model-course" class="lecture-material">
             <summary>Lecture course “Introduction to the Standard Model”</summary>
             <div class="lecture-material-body">
-              <p>Introductory Standard Model course: notes and videos are in Russian.</p>
+              <p>QED processes, gauge symmetry and the Higgs mechanism, interactions of the Standard Model, particle decays and lepton–nucleon scattering. Videos and notes are in Russian.</p>
+              <p class="course-toc-meta">23 lectures · 35 h 22 min of video · notes PDF</p>
               <div class="lecture-course-actions">
-                <a href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">Notes (Russian)</a>
-                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV">YouTube</a>
+                <a class="lecture-action-primary" href="https://www.youtube.com/playlist?list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV">Playlist</a>
+                <a href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">Notes PDF (Russian)</a>
                 <a href="https://rutube.ru/plst/1538123">RuTube</a>
                 <a href="https://vkvideo.ru/playlist/-235607329_6">VK</a>
                 <a href="https://teach-in.ru/course/introduction-to-the-standard-model">Teach-in</a>
               </div>
-              <div class="course-lectures">
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/7aRjHq7DZdM"><img src="https://img.youtube.com/vi/7aRjHq7DZdM/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.1. Electron scattering via scalar-particle exchange</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/7aRjHq7DZdM">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/BDeqda7RyHE"><img src="https://img.youtube.com/vi/BDeqda7RyHE/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.2. Electron–electron scattering</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/BDeqda7RyHE">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/d_PCRHeSZqo"><img src="https://img.youtube.com/vi/d_PCRHeSZqo/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.3. Potential energy in quantum field theory</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/d_PCRHeSZqo">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/R5vvOcfTaXg"><img src="https://img.youtube.com/vi/R5vvOcfTaXg/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.4. Attraction and repulsion in quantum electrodynamics</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/R5vvOcfTaXg">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/44oVByqPxuQ"><img src="https://img.youtube.com/vi/44oVByqPxuQ/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.5. The Rutherford (Mott) scattering cross section</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/44oVByqPxuQ">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/_wf0nrM1QmI"><img src="https://img.youtube.com/vi/_wf0nrM1QmI/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.6. The scattering cross section of electrons and positrons</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/_wf0nrM1QmI">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/g2ONUlR-4Bk"><img src="https://img.youtube.com/vi/g2ONUlR-4Bk/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.7. The Compton effect</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/g2ONUlR-4Bk">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/oTvxQ46TIRw"><img src="https://img.youtube.com/vi/oTvxQ46TIRw/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.8. Compton scattering</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/oTvxQ46TIRw">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/4MH88ptEghw"><img src="https://img.youtube.com/vi/4MH88ptEghw/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.9. Bhabha scattering</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/4MH88ptEghw">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/LgbSEJslNUI"><img src="https://img.youtube.com/vi/LgbSEJslNUI/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.10. Gauge symmetry</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/LgbSEJslNUI">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/nXnNyYbiONA"><img src="https://img.youtube.com/vi/nXnNyYbiONA/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.11. Spontaneous symmetry breaking and the nature of mass</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/nXnNyYbiONA">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/9GyjcdtqDkM"><img src="https://img.youtube.com/vi/9GyjcdtqDkM/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.12. The physics of the Higgs mechanism of fermion mass generation</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/9GyjcdtqDkM">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/SJgnWifg_MY"><img src="https://img.youtube.com/vi/SJgnWifg_MY/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.13. The Standard Model</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/SJgnWifg_MY">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/mAAc6QaMCgw"><img src="https://img.youtube.com/vi/mAAc6QaMCgw/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.14. Interactions of the Standard Model</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/mAAc6QaMCgw">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/kTLfcI8wbfE"><img src="https://img.youtube.com/vi/kTLfcI8wbfE/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.15. Muon decay</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/kTLfcI8wbfE">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/bYNpbdQHSEU"><img src="https://img.youtube.com/vi/bYNpbdQHSEU/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.16. Pion decay</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/bYNpbdQHSEU">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/lHQlNjm3mzs"><img src="https://img.youtube.com/vi/lHQlNjm3mzs/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.17. Neutron decay</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/lHQlNjm3mzs">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/kzkOiXW2VkQ"><img src="https://img.youtube.com/vi/kzkOiXW2VkQ/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.18. Decays of τ leptons, W bosons and Z bosons</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/kzkOiXW2VkQ">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/IeUO8Kzko9I"><img src="https://img.youtube.com/vi/IeUO8Kzko9I/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.19. Higgs boson decays. The reaction neutrino + electron</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/IeUO8Kzko9I">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/qyaHqgkjNXI"><img src="https://img.youtube.com/vi/qyaHqgkjNXI/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.20. Scattering of leptons on elementary charged particles</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/qyaHqgkjNXI">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/8RauxAlKaIE"><img src="https://img.youtube.com/vi/8RauxAlKaIE/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.21. The neutral current in neutrino–electron scattering</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/8RauxAlKaIE">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/c_kbsM8rWzc"><img src="https://img.youtube.com/vi/c_kbsM8rWzc/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.22. Elastic electron–nucleon scattering</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/c_kbsM8rWzc">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/xoc-pEj0BNM"><img src="https://img.youtube.com/vi/xoc-pEj0BNM/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.23. Deep inelastic scattering</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/xoc-pEj0BNM">YouTube</a></div></div>
-                </article>
-              </div>
+              <table class="course-toc">
+                <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-time">Time</th><th class="course-toc-play"><span class="visually-hidden">Video</span></th></tr></thead>
+                <tbody>
+                  <tr><td class="course-toc-num">2.1</td><td>Electron scattering via scalar-particle exchange</td><td class="course-toc-time">1:48:13</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=7aRjHq7DZdM&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.1 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.2</td><td>Electron–electron scattering</td><td class="course-toc-time">54:14</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=BDeqda7RyHE&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.2 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.3</td><td>Potential energy in quantum field theory</td><td class="course-toc-time">1:08:00</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=d_PCRHeSZqo&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.3 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.4</td><td>Attraction and repulsion in quantum electrodynamics</td><td class="course-toc-time">2:22:13</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=R5vvOcfTaXg&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.4 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.5</td><td>The Rutherford (Mott) scattering cross section</td><td class="course-toc-time">1:17:28</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=44oVByqPxuQ&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.5 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.6</td><td>The scattering cross section of electrons and positrons</td><td class="course-toc-time">1:31:49</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=_wf0nrM1QmI&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.6 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.7</td><td>The Compton effect</td><td class="course-toc-time">2:05:21</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=g2ONUlR-4Bk&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.7 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.8</td><td>Compton scattering</td><td class="course-toc-time">1:10:31</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=oTvxQ46TIRw&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.8 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.9</td><td>Bhabha scattering</td><td class="course-toc-time">1:00:04</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=4MH88ptEghw&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.9 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.10</td><td>Gauge symmetry</td><td class="course-toc-time">2:26:18</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=LgbSEJslNUI&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.10 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.11</td><td>Spontaneous symmetry breaking and the nature of mass</td><td class="course-toc-time">2:10:48</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=nXnNyYbiONA&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.11 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.12</td><td>The physics of the Higgs mechanism of fermion mass generation</td><td class="course-toc-time">2:01:04</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=9GyjcdtqDkM&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.12 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.13</td><td>The Standard Model</td><td class="course-toc-time">1:31:38</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=SJgnWifg_MY&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.13 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.14</td><td>Interactions of the Standard Model</td><td class="course-toc-time">2:03:08</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=mAAc6QaMCgw&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.14 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.15</td><td>Muon decay</td><td class="course-toc-time">2:05:41</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=kTLfcI8wbfE&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.15 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.16</td><td>Pion decay</td><td class="course-toc-time">1:00:43</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=bYNpbdQHSEU&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.16 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.17</td><td>Neutron decay</td><td class="course-toc-time">1:12:48</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=lHQlNjm3mzs&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.17 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.18</td><td>Decays of τ leptons, W bosons and Z bosons</td><td class="course-toc-time">1:39:58</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=kzkOiXW2VkQ&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.18 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.19</td><td>Higgs boson decays. The reaction neutrino + electron</td><td class="course-toc-time">54:34</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=IeUO8Kzko9I&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.19 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.20</td><td>Scattering of leptons on elementary charged particles</td><td class="course-toc-time">1:04:38</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=qyaHqgkjNXI&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.20 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.21</td><td>The neutral current in neutrino–electron scattering</td><td class="course-toc-time">1:13:19</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=8RauxAlKaIE&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.21 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.22</td><td>Elastic electron–nucleon scattering</td><td class="course-toc-time">1:23:29</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=c_kbsM8rWzc&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.22 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">2.23</td><td>Deep inelastic scattering</td><td class="course-toc-time">1:15:52</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=xoc-pEj0BNM&amp;list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV" aria-label="Lecture 2.23 on YouTube">▶</a></td></tr>
+                </tbody>
+              </table>
             </div>
           </details>
           <details id="qft-renormalization-course" class="lecture-material">
             <summary>Lecture course “Renormalization in Quantum Field Theory”</summary>
             <div class="lecture-material-body">
-              <p>Course notes and video playlists are in Russian.</p>
+              <p>Dimensional regularization, electron self-energy, vacuum polarization, g−2, neutral kaons, quantum anomalies and cross sections with wave packets. Videos and notes are in Russian.</p>
+              <p class="course-toc-meta">20 lectures · 28 h 53 min of video · notes PDF</p>
               <div class="lecture-course-actions">
-                <a href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">Notes (Russian)</a>
-                <a href="https://www.youtube.com/playlist?list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG">YouTube</a>
+                <a class="lecture-action-primary" href="https://www.youtube.com/playlist?list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG">Playlist</a>
+                <a href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">Notes PDF (Russian)</a>
                 <a href="https://rutube.ru/plst/1530811">RuTube</a>
                 <a href="https://vkvideo.ru/playlist/-235607329_4">VK</a>
                 <a href="https://teach-in.ru/course/renormalization-in-qft">Teach-in</a>
               </div>
-              <div class="course-lectures">
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/9NxS1EzFSrc"><img src="https://img.youtube.com/vi/9NxS1EzFSrc/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.1. Introduction to the idea of renormalization</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/9NxS1EzFSrc">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/U7GuBzlgNwo"><img src="https://img.youtube.com/vi/U7GuBzlgNwo/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.2. Dimensional regularization</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/U7GuBzlgNwo">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/o060mihnDz8"><img src="https://img.youtube.com/vi/o060mihnDz8/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.3. Renormalization without the fog</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/o060mihnDz8">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/K1ThexLCdTU"><img src="https://img.youtube.com/vi/K1ThexLCdTU/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.4. Electron self-energy. Part 1</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/K1ThexLCdTU">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/DwftfFPjZ5o"><img src="https://img.youtube.com/vi/DwftfFPjZ5o/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.5. Electron self-energy. Part 2</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/DwftfFPjZ5o">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/R8mzNHtF2Jw"><img src="https://img.youtube.com/vi/R8mzNHtF2Jw/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.6. Electron self-energy. Part 3</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/R8mzNHtF2Jw">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/478Br_okxzg"><img src="https://img.youtube.com/vi/478Br_okxzg/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.7. Renormalization of the electron propagator with nonzero mass</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/478Br_okxzg">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/_R2vs5PlZaY"><img src="https://img.youtube.com/vi/_R2vs5PlZaY/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.8. Vacuum polarization. Part 1</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/_R2vs5PlZaY">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/Ujs93m1aCc0"><img src="https://img.youtube.com/vi/Ujs93m1aCc0/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.9. Vacuum polarization. Part 2</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/Ujs93m1aCc0">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/16EzKn-1kFo"><img src="https://img.youtube.com/vi/16EzKn-1kFo/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.10. The Uehling potential</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/16EzKn-1kFo">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/pEuFscT7J7g"><img src="https://img.youtube.com/vi/pEuFscT7J7g/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.11. Calculating g−2. Part 1</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/pEuFscT7J7g">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/DsVpGKcCAGE"><img src="https://img.youtube.com/vi/DsVpGKcCAGE/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.12. Calculating g−2. Part 2</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/DsVpGKcCAGE">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/ow51lg7L6CE"><img src="https://img.youtube.com/vi/ow51lg7L6CE/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.13. The mysteries of neutral kaons. Part 1</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/ow51lg7L6CE">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/d5jMezMdLa0"><img src="https://img.youtube.com/vi/d5jMezMdLa0/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.14. The mysteries of neutral kaons. Part 2</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/d5jMezMdLa0">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/EY-T96l1C04"><img src="https://img.youtube.com/vi/EY-T96l1C04/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.15. The mysteries of neutral kaons. Part 3</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/EY-T96l1C04">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/vzmLG5IopYc"><img src="https://img.youtube.com/vi/vzmLG5IopYc/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.16. Quantum anomalies</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/vzmLG5IopYc">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/IjiE2jihcBc"><img src="https://img.youtube.com/vi/IjiE2jihcBc/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.17. The decay π⁰ → γγ</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/IjiE2jihcBc">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/U8toFdOZyqY"><img src="https://img.youtube.com/vi/U8toFdOZyqY/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.18. Mathematical techniques</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/U8toFdOZyqY">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/p5js5hn_hto"><img src="https://img.youtube.com/vi/p5js5hn_hto/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.19. Scattering cross section with wave packets. Part 1</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/p5js5hn_hto">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/KV3zsUNE0RM"><img src="https://img.youtube.com/vi/KV3zsUNE0RM/hqdefault.jpg" alt="" loading="lazy"></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.20. Scattering cross section with wave packets. Part 2</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/KV3zsUNE0RM">YouTube</a></div></div>
-                </article>
-              </div>
+              <table class="course-toc">
+                <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-time">Time</th><th class="course-toc-play"><span class="visually-hidden">Video</span></th></tr></thead>
+                <tbody>
+                  <tr><td class="course-toc-num">3.1</td><td>Introduction to the idea of renormalization</td><td class="course-toc-time">1:11:36</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=9NxS1EzFSrc&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.1 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.2</td><td>Dimensional regularization</td><td class="course-toc-time">1:41:19</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=U7GuBzlgNwo&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.2 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.3</td><td>Renormalization without the fog</td><td class="course-toc-time">1:39:43</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=o060mihnDz8&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.3 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.4</td><td>Electron self-energy. Part 1</td><td class="course-toc-time">1:34:19</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=K1ThexLCdTU&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.4 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.5</td><td>Electron self-energy. Part 2</td><td class="course-toc-time">1:07:24</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=DwftfFPjZ5o&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.5 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.6</td><td>Electron self-energy. Part 3</td><td class="course-toc-time">1:14:52</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=R8mzNHtF2Jw&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.6 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.7</td><td>Renormalization of the electron propagator with nonzero mass</td><td class="course-toc-time">1:24:45</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=478Br_okxzg&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.7 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.8</td><td>Vacuum polarization. Part 1</td><td class="course-toc-time">1:51:56</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=_R2vs5PlZaY&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.8 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.9</td><td>Vacuum polarization. Part 2</td><td class="course-toc-time">1:19:01</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=Ujs93m1aCc0&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.9 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.10</td><td>The Uehling potential</td><td class="course-toc-time">1:22:28</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=16EzKn-1kFo&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.10 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.11</td><td>Calculating g−2. Part 1</td><td class="course-toc-time">1:30:52</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=pEuFscT7J7g&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.11 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.12</td><td>Calculating g−2. Part 2</td><td class="course-toc-time">2:02:26</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=DsVpGKcCAGE&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.12 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.13</td><td>The mysteries of neutral kaons. Part 1</td><td class="course-toc-time">1:14:32</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=ow51lg7L6CE&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.13 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.14</td><td>The mysteries of neutral kaons. Part 2</td><td class="course-toc-time">1:07:59</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=d5jMezMdLa0&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.14 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.15</td><td>The mysteries of neutral kaons. Part 3</td><td class="course-toc-time">1:11:07</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=EY-T96l1C04&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.15 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.16</td><td>Quantum anomalies</td><td class="course-toc-time">1:57:31</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=vzmLG5IopYc&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.16 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.17</td><td>The decay π⁰ → γγ</td><td class="course-toc-time">1:23:59</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=IjiE2jihcBc&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.17 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.18</td><td>Mathematical techniques</td><td class="course-toc-time">1:34:27</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=U8toFdOZyqY&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.18 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.19</td><td>Scattering cross section with wave packets. Part 1</td><td class="course-toc-time">1:13:06</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=p5js5hn_hto&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.19 on YouTube">▶</a></td></tr>
+                  <tr><td class="course-toc-num">3.20</td><td>Scattering cross section with wave packets. Part 2</td><td class="course-toc-time">1:10:01</td><td class="course-toc-play"><a href="https://www.youtube.com/watch?v=KV3zsUNE0RM&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Lecture 3.20 on YouTube">▶</a></td></tr>
+                </tbody>
+              </table>
             </div>
           </details>
           <details id="unruh-course" class="lecture-material">
