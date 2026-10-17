@@ -58,11 +58,16 @@ does not depend on web fonts; choose it per presentation if needed. The script
 also typesets formulas in the slide-menu titles, which the RevealJS MathJax2
 plugin skips.
 
-MathJax measures the surrounding font when it typesets, and formulas on a
-slide or tab that is not displayed at that moment come out at half size. The
-footer therefore renders the formulas of a slide once more the first time the
-slide is shown, and those of a tab the first time the tab is opened. Lectures
-need no local workaround for this.
+MathJax 2 matches the formula size to the x-height of the surrounding text,
+and it cannot measure text that is not displayed: formulas on hidden slides
+and tabs used to come out at half size and jump when shown. The footer
+therefore typesets one invisible probe formula on the visible slide, takes its
+scale (about 109% with the NeutrinoHit fonts), fixes it
+(`CommonHTML.scale`, `matchFontHeight: false`) and typesets the whole deck
+once more. Every formula then has its final size at load, shown or not, in
+`quarto preview` and on the site alike. If the probe fails (or with the SVG
+renderer), a slide or tab is typeset again the first time it is shown.
+Lectures need no local workaround for this.
 
 Do not set `html-math-method: mathjax` in slide metadata: that string selects
 the MathJax 3 URL, while the RevealJS math plugin uses the MathJax 2 API and
