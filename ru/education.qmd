@@ -113,6 +113,112 @@ toc: false
                 <a href="https://vkvideo.ru/playlist/-235607329_5">VK</a>
                 <a href="https://teach-in.ru/course/quantum-field-theory-naumov">Teach-in</a>
               </div>
+              <div class="course-lectures">
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/pcOLUI9Z-mk"><img src="https://img.youtube.com/vi/pcOLUI9Z-mk/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.1. Волны внутри нас</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/pcOLUI9Z-mk">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/wak3QOjD5II"><img src="https://img.youtube.com/vi/wak3QOjD5II/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.2. Век открытий</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/wak3QOjD5II">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/mO3TToWcGuI"><img src="https://img.youtube.com/vi/mO3TToWcGuI/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.3. Уравнение Клейна-Фока-Гордона</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/mO3TToWcGuI">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/ZJnQGFpdYD4"><img src="https://img.youtube.com/vi/ZJnQGFpdYD4/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.4. Парадокс Клейна</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/ZJnQGFpdYD4">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/1wtPiZTVcYo"><img src="https://img.youtube.com/vi/1wtPiZTVcYo/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.5. Уравнение Дирака</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/1wtPiZTVcYo">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/vGh_hRiByn0"><img src="https://img.youtube.com/vi/vGh_hRiByn0/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.6. Спин и орбитальный момент в уравнении Дирака</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/vGh_hRiByn0">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/cz5remCD0yY"><img src="https://img.youtube.com/vi/cz5remCD0yY/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.7. γ-матрицы Дирака</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/cz5remCD0yY">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/sfH49H0lCgA"><img src="https://img.youtube.com/vi/sfH49H0lCgA/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.8. Решение свободного уравнения Дирака</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/sfH49H0lCgA">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/Fjxb1Ne2Kkc"><img src="https://img.youtube.com/vi/Fjxb1Ne2Kkc/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.9. Античастицы в уравнении Дирака</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/Fjxb1Ne2Kkc">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/pBEpxm5HoEo"><img src="https://img.youtube.com/vi/pBEpxm5HoEo/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.10. Вычисление энергии атома водорода</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/pBEpxm5HoEo">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/XrVgdGu0pow"><img src="https://img.youtube.com/vi/XrVgdGu0pow/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.11. Частица в плоской э/м волне</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/XrVgdGu0pow">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/dxAK4hfcTEo"><img src="https://img.youtube.com/vi/dxAK4hfcTEo/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.12. Киральные операторы</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/dxAK4hfcTEo">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/UPZOfsZe78w"><img src="https://img.youtube.com/vi/UPZOfsZe78w/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.13. Обсуждение релятивистской квантовой механики</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/UPZOfsZe78w">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/oKJOfjNydA4"><img src="https://img.youtube.com/vi/oKJOfjNydA4/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.14. Основы классической теории поля</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/oKJOfjNydA4">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/wjQXmoBRZ8w"><img src="https://img.youtube.com/vi/wjQXmoBRZ8w/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.15. Теорема Нётер</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/wjQXmoBRZ8w">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/bCPa8SWhjIc"><img src="https://img.youtube.com/vi/bCPa8SWhjIc/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.16. Комплексное скалярное и электромагнитное поле</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/bCPa8SWhjIc">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/dWDWD0q1EDI"><img src="https://img.youtube.com/vi/dWDWD0q1EDI/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.17. Вектор поляризации. Энергия-импульс э/м поля</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/dWDWD0q1EDI">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/koBfOzUrjJQ"><img src="https://img.youtube.com/vi/koBfOzUrjJQ/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.18. Фермионное поле и функции Грина</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/koBfOzUrjJQ">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/sZgZOZBsWMY"><img src="https://img.youtube.com/vi/sZgZOZBsWMY/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.19. Дифракция. Функции Грина некоторых уравнений</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/sZgZOZBsWMY">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/wBnQHAy2dfM"><img src="https://img.youtube.com/vi/wBnQHAy2dfM/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.20. Поле квантуется раз!</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/wBnQHAy2dfM">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/bY1QdjR9XqI"><img src="https://img.youtube.com/vi/bY1QdjR9XqI/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.21. Квантовая статистика. Нормальное упорядочение</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/bY1QdjR9XqI">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/gE5wsYuAt3g"><img src="https://img.youtube.com/vi/gE5wsYuAt3g/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.22. Поле квантуется два!</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/gE5wsYuAt3g">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/vWa4t3D-OZY"><img src="https://img.youtube.com/vi/vWa4t3D-OZY/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.23. Пропагатор</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/vWa4t3D-OZY">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/x6lhdZXpEwg"><img src="https://img.youtube.com/vi/x6lhdZXpEwg/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.24. S-матрица</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/x6lhdZXpEwg">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/sp7xIWP3mJY"><img src="https://img.youtube.com/vi/sp7xIWP3mJY/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.25. Оператор эволюции и теоремы Вика</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/sp7xIWP3mJY">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/mw-z66p28bg"><img src="https://img.youtube.com/vi/mw-z66p28bg/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">1.26. Притяжение и отталкивание</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/mw-z66p28bg">YouTube</a></div></div>
+                </article>
+              </div>
             </div>
           </details>
           <details id="standard-model-course" class="lecture-material">
@@ -126,6 +232,100 @@ toc: false
                 <a href="https://vkvideo.ru/playlist/-235607329_6">VK</a>
                 <a href="https://teach-in.ru/course/introduction-to-the-standard-model">Teach-in</a>
               </div>
+              <div class="course-lectures">
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/7aRjHq7DZdM"><img src="https://img.youtube.com/vi/7aRjHq7DZdM/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.1. Рассеяние электронов за счет обмена скалярной частицей</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/7aRjHq7DZdM">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/BDeqda7RyHE"><img src="https://img.youtube.com/vi/BDeqda7RyHE/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.2. Процесс рассеяния электрона на электроне</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/BDeqda7RyHE">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/d_PCRHeSZqo"><img src="https://img.youtube.com/vi/d_PCRHeSZqo/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.3. Потенциальная энергия в квантовой теории поля</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/d_PCRHeSZqo">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/R5vvOcfTaXg"><img src="https://img.youtube.com/vi/R5vvOcfTaXg/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.4. Притяжение и отталкивание в квантовой электродинамике</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/R5vvOcfTaXg">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/44oVByqPxuQ"><img src="https://img.youtube.com/vi/44oVByqPxuQ/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.5. Сечение рассеяния Резерфорда (Мотта)</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/44oVByqPxuQ">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/_wf0nrM1QmI"><img src="https://img.youtube.com/vi/_wf0nrM1QmI/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.6. Сечение рассеяния пары электронов и позитронов</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/_wf0nrM1QmI">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/g2ONUlR-4Bk"><img src="https://img.youtube.com/vi/g2ONUlR-4Bk/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.7. Эффект Комптона</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/g2ONUlR-4Bk">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/oTvxQ46TIRw"><img src="https://img.youtube.com/vi/oTvxQ46TIRw/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.8. Комптоновское рассеяние</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/oTvxQ46TIRw">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/4MH88ptEghw"><img src="https://img.youtube.com/vi/4MH88ptEghw/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.9. Рассеяние Баба</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/4MH88ptEghw">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/LgbSEJslNUI"><img src="https://img.youtube.com/vi/LgbSEJslNUI/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.10. Калибровочная симметрия</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/LgbSEJslNUI">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/nXnNyYbiONA"><img src="https://img.youtube.com/vi/nXnNyYbiONA/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.11. Спонтанное нарушение симметрии и природа массы</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/nXnNyYbiONA">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/9GyjcdtqDkM"><img src="https://img.youtube.com/vi/9GyjcdtqDkM/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.12. Физика механизма Хиггса генерации фермионных масс</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/9GyjcdtqDkM">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/SJgnWifg_MY"><img src="https://img.youtube.com/vi/SJgnWifg_MY/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.13. Стандартная модель</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/SJgnWifg_MY">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/mAAc6QaMCgw"><img src="https://img.youtube.com/vi/mAAc6QaMCgw/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.14. Взаимодействия Стандартной модели</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/mAAc6QaMCgw">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/kTLfcI8wbfE"><img src="https://img.youtube.com/vi/kTLfcI8wbfE/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.15. Распад мюона</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/kTLfcI8wbfE">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/bYNpbdQHSEU"><img src="https://img.youtube.com/vi/bYNpbdQHSEU/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.16. Распад пи-мезона</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/bYNpbdQHSEU">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/lHQlNjm3mzs"><img src="https://img.youtube.com/vi/lHQlNjm3mzs/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.17. Распад нейтрона</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/lHQlNjm3mzs">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/kzkOiXW2VkQ"><img src="https://img.youtube.com/vi/kzkOiXW2VkQ/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.18. Распады тау-лептонов, W-бозонов и Z-бозонов</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/kzkOiXW2VkQ">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/IeUO8Kzko9I"><img src="https://img.youtube.com/vi/IeUO8Kzko9I/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.19. Бозон Хиггса — распады. Реакция: нейтрино + электрон</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/IeUO8Kzko9I">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/qyaHqgkjNXI"><img src="https://img.youtube.com/vi/qyaHqgkjNXI/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.20. Рассеяние лептонов на элементарных заряженных частицах</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/qyaHqgkjNXI">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/8RauxAlKaIE"><img src="https://img.youtube.com/vi/8RauxAlKaIE/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.21. Нейтральный ток в рассеянии нейтрино на электроне</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/8RauxAlKaIE">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/c_kbsM8rWzc"><img src="https://img.youtube.com/vi/c_kbsM8rWzc/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.22. Упругое рассеяние электрона на нуклоне</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/c_kbsM8rWzc">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/xoc-pEj0BNM"><img src="https://img.youtube.com/vi/xoc-pEj0BNM/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">2.23. Глубоко-неупругое рассеяние</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/xoc-pEj0BNM">YouTube</a></div></div>
+                </article>
+              </div>
             </div>
           </details>
           <details id="qft-renormalization-course" class="lecture-material">
@@ -138,6 +338,88 @@ toc: false
                 <a href="https://rutube.ru/plst/1530811">RuTube</a>
                 <a href="https://vkvideo.ru/playlist/-235607329_4">VK</a>
                 <a href="https://teach-in.ru/course/renormalization-in-qft">Teach-in</a>
+              </div>
+              <div class="course-lectures">
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/9NxS1EzFSrc"><img src="https://img.youtube.com/vi/9NxS1EzFSrc/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.1. Введение в идею ренормировки</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/9NxS1EzFSrc">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/U7GuBzlgNwo"><img src="https://img.youtube.com/vi/U7GuBzlgNwo/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.2. Метод размерной регуляризации</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/U7GuBzlgNwo">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/o060mihnDz8"><img src="https://img.youtube.com/vi/o060mihnDz8/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.3. Ренормировка без тумана</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/o060mihnDz8">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/K1ThexLCdTU"><img src="https://img.youtube.com/vi/K1ThexLCdTU/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.4. Собственная энергия электрона. Часть 1</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/K1ThexLCdTU">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/DwftfFPjZ5o"><img src="https://img.youtube.com/vi/DwftfFPjZ5o/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.5. Собственная энергия электрона. Часть 2</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/DwftfFPjZ5o">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/R8mzNHtF2Jw"><img src="https://img.youtube.com/vi/R8mzNHtF2Jw/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.6. Собственная энергия электрона. Часть 3</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/R8mzNHtF2Jw">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/478Br_okxzg"><img src="https://img.youtube.com/vi/478Br_okxzg/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.7. Ренормировка пропагатора электрона с ненулевой массой</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/478Br_okxzg">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/_R2vs5PlZaY"><img src="https://img.youtube.com/vi/_R2vs5PlZaY/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.8. Поляризация вакуума. Часть 1</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/_R2vs5PlZaY">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/Ujs93m1aCc0"><img src="https://img.youtube.com/vi/Ujs93m1aCc0/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.9. Поляризация вакуума. Часть 2</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/Ujs93m1aCc0">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/16EzKn-1kFo"><img src="https://img.youtube.com/vi/16EzKn-1kFo/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.10. Потенциал Юлинга</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/16EzKn-1kFo">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/pEuFscT7J7g"><img src="https://img.youtube.com/vi/pEuFscT7J7g/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.11. Вычисление g−2. Часть 1</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/pEuFscT7J7g">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/DsVpGKcCAGE"><img src="https://img.youtube.com/vi/DsVpGKcCAGE/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.12. Вычисление g−2. Часть 2</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/DsVpGKcCAGE">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/ow51lg7L6CE"><img src="https://img.youtube.com/vi/ow51lg7L6CE/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.13. Загадки нейтральных каонов. Часть 1</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/ow51lg7L6CE">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/d5jMezMdLa0"><img src="https://img.youtube.com/vi/d5jMezMdLa0/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.14. Загадки нейтральных каонов. Часть 2</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/d5jMezMdLa0">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/EY-T96l1C04"><img src="https://img.youtube.com/vi/EY-T96l1C04/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.15. Загадки нейтральных каонов. Часть 3</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/EY-T96l1C04">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/vzmLG5IopYc"><img src="https://img.youtube.com/vi/vzmLG5IopYc/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.16. Квантовые аномалии</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/vzmLG5IopYc">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/IjiE2jihcBc"><img src="https://img.youtube.com/vi/IjiE2jihcBc/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.17. Распад π⁰→γγ</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/IjiE2jihcBc">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/U8toFdOZyqY"><img src="https://img.youtube.com/vi/U8toFdOZyqY/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.18. Математические приёмы</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/U8toFdOZyqY">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/p5js5hn_hto"><img src="https://img.youtube.com/vi/p5js5hn_hto/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.19. Сечение рассеяния с волновыми пакетами. Часть 1</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/p5js5hn_hto">YouTube</a></div></div>
+                </article>
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/KV3zsUNE0RM"><img src="https://img.youtube.com/vi/KV3zsUNE0RM/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">3.20. Сечение рассеяния с волновыми пакетами. Часть 2</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/KV3zsUNE0RM">YouTube</a></div></div>
+                </article>
               </div>
             </div>
           </details>
@@ -182,6 +464,10 @@ toc: false
           <a href="../statistical-analysis-course/ru/slides/applets.html">Апплеты</a>
           <a href="../statistical-analysis-course/ru/slides/exercises/index.html">Все задачи</a>
           <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Экзаменационные проекты</a>
+          <a href="https://www.youtube.com/playlist?list=PLGGzOVFWOf3s">YouTube</a>
+          <a href="https://rutube.ru/plst/1807652">RuTube</a>
+          <a href="https://vkvideo.ru/playlist/-235607329_10">VK</a>
+          <a href="https://teach-in.ru/course/statistical-methods-of-data-analysis-naumov">Teach-in</a>
         </div>
         <div class="lecture-material-list">
           <details id="stat-01" class="lecture-material">
@@ -193,6 +479,12 @@ toc: false
                 <a href="../statistical-analysis-course/ru/slides/exercises/01_introduction_exercises.html">Задачи</a>
                 <a href="../statistical-analysis-course/ru/book/chapters/01_why_statistics.pdf">Конспект PDF</a>
                 <a href="../statistical-analysis-course/ru/book/chapters/01_why_statistics.html">Глава книги</a>
+              </div>
+              <div class="course-lectures course-lectures-single">
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/OLDuaktf_xk"><img src="https://img.youtube.com/vi/OLDuaktf_xk/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Видеозапись лекции</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/OLDuaktf_xk">YouTube</a></div></div>
+                </article>
               </div>
             </div>
           </details>
@@ -206,6 +498,12 @@ toc: false
                 <a href="../statistical-analysis-course/ru/book/chapters/02_random_distributions.pdf">Конспект PDF</a>
                 <a href="../statistical-analysis-course/ru/book/chapters/02_random_distributions.html">Глава книги</a>
               </div>
+              <div class="course-lectures course-lectures-single">
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/Vvdj7pOVBGo"><img src="https://img.youtube.com/vi/Vvdj7pOVBGo/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Видеозапись лекции</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/Vvdj7pOVBGo">YouTube</a></div></div>
+                </article>
+              </div>
             </div>
           </details>
           <details id="stat-03" class="lecture-material">
@@ -217,6 +515,12 @@ toc: false
                 <a href="../statistical-analysis-course/ru/slides/exercises/03_characteristic_functions_exercises.html">Задачи</a>
                 <a href="../statistical-analysis-course/ru/book/chapters/03_characteristic_functions.pdf">Конспект PDF</a>
                 <a href="../statistical-analysis-course/ru/book/chapters/03_characteristic_functions.html">Глава книги</a>
+              </div>
+              <div class="course-lectures course-lectures-single">
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/qYEK6F2h7sc"><img src="https://img.youtube.com/vi/qYEK6F2h7sc/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Видеозапись лекции</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/qYEK6F2h7sc">YouTube</a></div></div>
+                </article>
               </div>
             </div>
           </details>
@@ -230,6 +534,12 @@ toc: false
                 <a href="../statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.pdf">Конспект PDF</a>
                 <a href="../statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.html">Глава книги</a>
               </div>
+              <div class="course-lectures course-lectures-single">
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/XMpp4KFtO8c"><img src="https://img.youtube.com/vi/XMpp4KFtO8c/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Видеозапись лекции</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/XMpp4KFtO8c">YouTube</a></div></div>
+                </article>
+              </div>
             </div>
           </details>
           <details id="stat-05" class="lecture-material">
@@ -241,6 +551,12 @@ toc: false
                 <a href="../statistical-analysis-course/ru/slides/exercises/05_non_gaussian_clt_violations_exercises.html">Задачи</a>
                 <a href="../statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.pdf">Конспект PDF</a>
                 <a href="../statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html">Глава книги</a>
+              </div>
+              <div class="course-lectures course-lectures-single">
+                <article class="course-lecture-card">
+                  <a href="https://youtu.be/3_B_CiVg5_o"><img src="https://img.youtube.com/vi/3_B_CiVg5_o/hqdefault.jpg" alt="" loading="lazy"></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Видеозапись лекции</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/3_B_CiVg5_o">YouTube</a></div></div>
+                </article>
               </div>
             </div>
           </details>
