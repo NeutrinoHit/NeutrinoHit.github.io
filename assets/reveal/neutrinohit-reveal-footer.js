@@ -211,31 +211,46 @@
       .filter((panel) => !panel.hidden && panel.offsetParent !== null);
   }
 
+  function isShown(part) {
+    const slide = window.Reveal && window.Reveal.getCurrentSlide();
+    return Boolean(slide && part.isConnected && (part === slide || slide.contains(part))
+      && part.offsetParent !== null && !part.closest("[hidden]"));
+  }
+
+  // Visibility is checked when the queued job runs, not when it is queued:
+  // a slide or tab left before MathJax reaches it keeps its mark unset and
+  // is rendered again the next time it is shown.
+  function rerenderIfShown(part) {
+    const hub = window.MathJax && window.MathJax.Hub;
+    if (!hub || renderedWhileShown.has(part) || !isShown(part)) return null;
+    renderedWhileShown.add(part);
+    if (part.matches(".slide, section")) {
+      // The whole slide is typeset again: its visible tabs come out right,
+      // its hidden tabs come out wrong and must be redone when opened.
+      part.querySelectorAll('[role="tabpanel"]').forEach((panel) => renderedWhileShown.delete(panel));
+      visibleTabPanels(part).forEach((panel) => renderedWhileShown.add(panel));
+    }
+    if (!part.querySelector(".MathJax_CHTML, .MathJax_SVG, .MathJax")) return null;
+    return hub.Rerender(part);
+  }
+
   function rerenderShownMath() {
     const hub = window.MathJax && window.MathJax.Hub;
     const slide = window.Reveal && typeof window.Reveal.getCurrentSlide === "function"
       ? window.Reveal.getCurrentSlide()
       : null;
     if (!hub || !slide) return;
-    const parts = [slide, ...visibleTabPanels(slide)]
-      .filter((part) => !renderedWhileShown.has(part));
-    // A slide rerender covers its visible tabs; hidden tabs wait for their turn.
-    const targets = renderedWhileShown.has(slide) ? parts : [slide];
-    parts.forEach((part) => renderedWhileShown.add(part));
-    if (!targets.some((part) => part.querySelector(".MathJax_CHTML, .MathJax_SVG, .MathJax"))) return;
-    targets.forEach((part) => hub.Queue(["Rerender", hub, part]));
+    [slide, ...visibleTabPanels(slide)].forEach((part) => hub.Queue(() => rerenderIfShown(part)));
     hub.Queue(() => window.Reveal.layout());
   }
 
   function watchShownMath() {
-    // The slide shown at load is typeset while displayed.
-    const slide = window.Reveal.getCurrentSlide();
-    if (slide) [slide, ...visibleTabPanels(slide)].forEach((part) => renderedWhileShown.add(part));
     window.Reveal.on("slidechanged", rerenderShownMath);
     // Capture phase: the click on a tab does not always bubble to the document.
     document.addEventListener("click", (event) => {
       if (event.target.closest('[role="tab"]')) window.setTimeout(rerenderShownMath, 0);
     }, true);
+    rerenderShownMath();
   }
 
   function configureMathJax() {
