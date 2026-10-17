@@ -85,5 +85,15 @@ class CourseHomeValidationTests(unittest.TestCase):
         self.assertEqual(validator.explicit_render_exclusions(self.course),{self.course / 'skip.qmd'})
 
 
+    def test_course_page_must_be_a_rendered_page_of_this_site(self):
+        url = "https://neutrinohit.github.io/ru/courses/unruh.html"
+        self.assertTrue(validator.target_type_is_valid(url, "course-page"))
+        self.assertFalse(validator.target_type_is_valid(url + "#lecture-01", "course-page"))
+        self.assertFalse(validator.target_exists_for_type(url, "course-page"))
+        page = self.central / "_site/ru/courses/unruh.html"
+        page.parent.mkdir(parents=True)
+        page.write_text("<html>Unruh</html>", encoding="utf-8")
+        self.assertTrue(validator.target_exists_for_type(url, "course-page"))
+
 if __name__ == "__main__":
     unittest.main()

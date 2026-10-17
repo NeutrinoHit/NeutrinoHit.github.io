@@ -233,6 +233,8 @@ def target_type_is_valid(url: str, target_type: str) -> bool:
         return bool(parsed.fragment)
     if target_type == "course-home":
         return not parsed.fragment and parsed.path.endswith("/")
+    if target_type == "course-page":
+        return not parsed.fragment and parsed.path.endswith(".html")
     return False
 
 
@@ -309,9 +311,9 @@ def main() -> int:
         if not target_type_is_valid(url, target_type):
             errors.append(f"registry target has invalid type/path combination: {url} ({target_type})")
         # The registry is an allowlist, not a deployment manifest. Map cards
-        # belong to this render and must always exist. Independent course homes
+        # and course pages belong to this render and must always exist. Independent course homes
         # are checked below whenever an actual footer refers to them.
-        if target_type == "map-card" and not target_exists_for_type(url, target_type):
+        if target_type in {"map-card", "course-page"} and not target_exists_for_type(url, target_type):
             errors.append(f"registry target page or anchor does not exist after render: {url}")
 
     for occurrence in occurrences:
@@ -325,7 +327,8 @@ def main() -> int:
             "data-context-home and data-context-home-label. The home URL must be "
             "a registered absolute https://neutrinohit.github.io/... target from "
             "neutrinohit-map/scripts/reveal_context_targets.json. Map-card targets "
-            "must include an anchor that exists in the rendered site. Course-home "
+            "must include an anchor that exists in the rendered site, course-page "
+            "targets must be rendered pages of this site. Course-home "
             "targets must exist either in the local preview copy or as published "
             "standalone course pages.",
             file=sys.stderr,
