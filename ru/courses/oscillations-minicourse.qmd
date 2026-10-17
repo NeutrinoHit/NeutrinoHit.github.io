@@ -1,0 +1,33 @@
+---
+pagetitle: "Осцилляции нейтрино: от вакуума до ядра Земли – NeutrinoHit"
+lang: ru-RU
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="oscillations-minicourse">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><span>Осцилляции нейтрино: от вакуума до ядра Земли</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Мини-курс · англ.</span>
+    <h1>Осцилляции нейтрино: от вакуума до ядра Земли</h1>
+    <p class="course-page-summary">Три лекции на английском для студентов физики частиц и геофизиков: осцилляции в вакууме, вещество и Солнце, нейтринные зонды недр Земли; апплеты и анимации.</p>
+    <p class="course-toc-meta">3 лекции · лекции на английском</p>
+  </header>
+  <h2 class="course-page-section">Оглавление</h2>
+  <table class="course-toc course-toc-full">
+    <thead><tr><th class="course-toc-num">№</th><th>Тема</th><th class="course-toc-col">Слайды</th></tr></thead>
+    <tbody>
+      <tr id="lecture-I"><td class="course-toc-num">I</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html">Vacuum</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html">слайды</a></td></tr>
+      <tr id="lecture-II"><td class="course-toc-num">II</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html">Matter and the Sun</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html">слайды</a></td></tr>
+      <tr id="lecture-III"><td class="course-toc-num">III</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/03_earth.html">The Earth</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/03_earth.html">слайды</a></td></tr>
+    </tbody>
+  </table>
+  <h2 class="course-page-section">Ещё в этом разделе</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status is-ready">Курс</span><a class="course-tile-title" href="neutrino-introduction.html">Введение в физику нейтрино</a><span class="course-tile-text">Слабое взаимодействие, масса нейтрино, осцилляции в вакууме и веществе.</span><span class="course-tile-meta">15 лекций · <a class="course-tile-book" href="../../neutrinophysics/introduction/ru/book/">онлайн‑книга</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Мастер-класс · англ.</span><a class="course-tile-title" href="solar-neutrino-masterclass.html">Солнечные нейтрино: мастер-класс</a><span class="course-tile-text">Потоки, скорости счёта и фит осцилляций по данным.</span><span class="course-tile-meta">3 лекции</span></div>
+    <div class="course-tile"><span class="course-tile-status">Планируется</span><a class="course-tile-title" href="neutrino-oscillation-theory.html">Теория осцилляций нейтрино в КТП</a><span class="course-tile-text">Будущий специализированный курс по квантово-полевому описанию нейтринных осцилляций.</span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← Все курсы</a></p>
+</article>
+```

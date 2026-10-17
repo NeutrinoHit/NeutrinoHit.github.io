@@ -1,0 +1,27 @@
+---
+pagetitle: "Numerical Methods for Physicists – NeutrinoHit"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="numerical-methods">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>Numerical Methods for Physicists</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status">In preparation</span>
+    <h1>Numerical Methods for Physicists</h1>
+    <p class="course-page-summary">How a physicist solves problems that have no analytic solution: one lecture is one physical problem, and the methods are introduced when the problem cannot be solved without them. Python with Numba, lectures, problems and an online book.</p>
+  </header>
+  <h2 class="course-page-section">Book</h2>
+  <div class="course-page-card">
+    <p><strong>Numerical Methods for Physicists</strong>. The online book of the course, in progress.</p>
+    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../numerical_methods/en/book/">Open the book</a></div>
+  </div>
+  <h2 class="course-page-section">More in this section</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status">In preparation · Russian</span><a class="course-tile-title" href="gravity.html">Gravity</a><span class="course-tile-text">General relativity as an experimental science.</span><span class="course-tile-meta">1 lecture · <a class="course-tile-book" href="../../gravity/ru/book/">online book</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">In preparation · Russian</span><a class="course-tile-title" href="light-propagation.html">Light Propagation in a Medium</a><span class="course-tile-text">Light transport in a scattering medium and the optical-module signal.</span><span class="course-tile-meta">3 lectures</span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← All courses</a></p>
+</article>
+```

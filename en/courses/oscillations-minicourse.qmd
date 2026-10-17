@@ -1,0 +1,33 @@
+---
+pagetitle: "Neutrino Oscillations from Vacuum to the Earth’s Core – NeutrinoHit"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="oscillations-minicourse">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>Neutrino Oscillations from Vacuum to the Earth’s Core</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Mini-course</span>
+    <h1>Neutrino Oscillations from Vacuum to the Earth’s Core</h1>
+    <p class="course-page-summary">Three English lectures for students of particle physics and geophysics: vacuum oscillations, matter and the Sun, and neutrino probes of the Earth&#x27;s interior, with applets and animations.</p>
+    <p class="course-toc-meta">3 lectures</p>
+  </header>
+  <h2 class="course-page-section">Contents</h2>
+  <table class="course-toc course-toc-full">
+    <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-col">Slides</th></tr></thead>
+    <tbody>
+      <tr id="lecture-I"><td class="course-toc-num">I</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html">Vacuum</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html">slides</a></td></tr>
+      <tr id="lecture-II"><td class="course-toc-num">II</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html">Matter and the Sun</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html">slides</a></td></tr>
+      <tr id="lecture-III"><td class="course-toc-num">III</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/03_earth.html">The Earth</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/03_earth.html">slides</a></td></tr>
+    </tbody>
+  </table>
+  <h2 class="course-page-section">More in this section</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status is-ready">Course · Russian</span><a class="course-tile-title" href="neutrino-introduction.html">Introduction to Neutrino Physics</a><span class="course-tile-text">Weak interaction, neutrino mass, oscillations in vacuum and matter.</span><span class="course-tile-meta">26 lectures · <a class="course-tile-book" href="../../neutrinophysics/introduction/ru/book/">online book</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Masterclass</span><a class="course-tile-title" href="solar-neutrino-masterclass.html">Solar Neutrino Masterclass</a><span class="course-tile-text">Fluxes, event rates and an oscillation fit to the data.</span><span class="course-tile-meta">3 lectures</span></div>
+    <div class="course-tile"><span class="course-tile-status">Planned</span><a class="course-tile-title" href="neutrino-oscillation-theory.html">Neutrino Oscillation Theory in QFT</a><span class="course-tile-text">Future specialized course on quantum-field descriptions of neutrino oscillations.</span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← All courses</a></p>
+</article>
+```

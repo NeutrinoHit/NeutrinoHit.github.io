@@ -1,0 +1,59 @@
+---
+pagetitle: "Solar Neutrino Masterclass – NeutrinoHit"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="solar-neutrino-masterclass">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>Solar Neutrino Masterclass</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Masterclass</span>
+    <h1>Solar Neutrino Masterclass</h1>
+    <p class="course-page-summary">Mini-course on solar-neutrino sources, oscillations, MSW physics, detector statistics, and an SK-like fit project.</p>
+    <p class="course-toc-meta">3 lectures</p>
+  </header>
+  <h2 class="course-page-section">Contents</h2>
+  <table class="course-toc course-toc-full">
+    <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-col">Slides</th><th class="course-toc-col">More</th></tr></thead>
+    <tbody>
+      <tr id="lecture-00"><td class="course-toc-num">00</td><td class="course-toc-topic"><a href="../../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html">Solar Neutrinos and Oscillations</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html">slides</a></td><td class="course-toc-col" data-label="More"><a href="#lecture-00-more">more&nbsp;1</a></td></tr>
+      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html">Fluxes, event rates, normalization fit</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html">slides</a></td><td class="course-toc-col" data-label="More"><a href="#lecture-01-more">more&nbsp;1</a></td></tr>
+      <tr id="lecture-02"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="../../neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html">Oscillations and fit</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html">slides</a></td><td class="course-toc-col" data-label="More"><a href="#lecture-02-more">more&nbsp;1</a></td></tr>
+    </tbody>
+  </table>
+  <h2 class="course-page-section">Materials</h2>
+  <div class="course-page-card">
+    <h3>Project. SK-like fit</h3>
+    <div class="lecture-course-actions">
+      <a href="../../neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html">Open project</a>
+      <a href="../../neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip">Project data</a>
+    </div>
+  </div>
+  <div class="course-page-card" id="lecture-00-more">
+    <h3>For lecture 00</h3>
+    <div class="lecture-course-actions">
+      <a href="../../neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics_appendix.html">Appendix</a>
+    </div>
+  </div>
+  <div class="course-page-card" id="lecture-01-more">
+    <h3>For lecture 01</h3>
+    <div class="lecture-course-actions">
+      <a href="../../neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip">Masterclass 1 data</a>
+    </div>
+  </div>
+  <div class="course-page-card" id="lecture-02-more">
+    <h3>For lecture 02</h3>
+    <div class="lecture-course-actions">
+      <a href="../../neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip">Masterclass 2 data</a>
+    </div>
+  </div>
+  <h2 class="course-page-section">More in this section</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status is-ready">Course · Russian</span><a class="course-tile-title" href="neutrino-introduction.html">Introduction to Neutrino Physics</a><span class="course-tile-text">Weak interaction, neutrino mass, oscillations in vacuum and matter.</span><span class="course-tile-meta">26 lectures · <a class="course-tile-book" href="../../neutrinophysics/introduction/ru/book/">online book</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Mini-course</span><a class="course-tile-title" href="oscillations-minicourse.html">Neutrino Oscillations from Vacuum to the Earth’s Core</a><span class="course-tile-text">Vacuum, matter and the Sun, neutrino probes of the Earth’s interior.</span><span class="course-tile-meta">3 lectures</span></div>
+    <div class="course-tile"><span class="course-tile-status">Planned</span><a class="course-tile-title" href="neutrino-oscillation-theory.html">Neutrino Oscillation Theory in QFT</a><span class="course-tile-text">Future specialized course on quantum-field descriptions of neutrino oscillations.</span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← All courses</a></p>
+</article>
+```

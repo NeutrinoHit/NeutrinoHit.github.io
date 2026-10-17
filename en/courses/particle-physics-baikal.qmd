@@ -1,0 +1,64 @@
+---
+pagetitle: "Particle Physics: Mini-course – NeutrinoHit"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="particle-physics-baikal">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>Particle Physics: Mini-course</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Mini-course</span>
+    <h1>Particle Physics: Mini-course</h1>
+    <p class="course-page-summary">Two introductory lectures of the Baikal school on particles, fields, interactions, gauge invariance, mass generation and weak decay.</p>
+    <p class="course-toc-meta">2 lectures</p>
+    <div class="lecture-course-actions">
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/handouts/formula_sheet.html">Formula sheet</a>
+    </div>
+  </header>
+  <h2 class="course-page-section">Contents</h2>
+  <table class="course-toc course-toc-full">
+    <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-col">Slides</th><th class="course-toc-col">Problems</th><th class="course-toc-col">More</th></tr></thead>
+    <tbody>
+      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">Particles, Fields, and their Interactions</a></td><td class="course-toc-col" data-label="Slides"><a href="../../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">slides</a></td><td class="course-toc-col" data-label="Problems"><a href="../../particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">problems</a></td><td class="course-toc-col" data-label="More"><a href="#lecture-01-more">more&nbsp;5</a></td></tr>
+      <tr id="lecture-02"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="../../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model.html">The Standard Model</a></td><td class="course-toc-col" data-label="Slides"><a href="../../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model.html">slides</a></td><td class="course-toc-col" data-label="Problems"><a href="../../particlephysics/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model.html">problems</a></td><td class="course-toc-col" data-label="More"><a href="#lecture-02-more">more&nbsp;9</a></td></tr>
+    </tbody>
+  </table>
+  <h2 class="course-page-section">Materials</h2>
+  <div class="course-page-card">
+    <h3>Appendix to lecture 02</h3>
+    <div class="lecture-course-actions">
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/appendices/massive_photon_weight.html">Does a Massive Photon Make a Superconductor Heavier?</a>
+    </div>
+  </div>
+  <div class="course-page-card" id="lecture-01-more">
+    <h3>Animations · for lecture 01</h3>
+    <div class="lecture-course-actions">
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-01-scale-ladder.mp4">Scale ladder</a>
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-01-standard-model-particles.mp4">Standard Model particles</a>
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-01-why-particle-physics.mp4">Why particle physics?</a>
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-01-qcd-bears-spring.mp4">QCD spring</a>
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-01-cross-section.mp4">Cross-section</a>
+    </div>
+  </div>
+  <div class="course-page-card" id="lecture-02-more">
+    <h3>Animations · for lecture 02</h3>
+    <div class="lecture-course-actions">
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-lagrangian-scroll.mp4">Lagrangian scroll</a>
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-physicist-rockets.mp4">Physicist rockets</a>
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-accelerating-electron-field.mp4">Accelerating electron field</a>
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-formula-cat.mp4">Formula cat</a>
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-meissner-effect.mp4">Meissner effect</a>
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-coupled-pendulums.mp4">Coupled pendulums</a>
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-chiral-waves-mass-gap.mp4">Chiral mass gap</a>
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-chiral-condensate-layer.mp4">Condensate layer</a>
+      <a href="../../particlephysics/IntroParticlePhysicsBaikal/exports/animations/lecture-02-standard-model-finale.mp4">The Code Runs</a>
+    </div>
+  </div>
+  <h2 class="course-page-section">More in this section</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="particle-physics.html">Particle Physics: Full Course</a><span class="course-tile-text">The future full course: slides, book, problems and applets.</span><span class="course-tile-meta"><a class="course-tile-book" href="../../particlephysics/ParticlePhysics/en/book/">online book</a></span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← All courses</a></p>
+</article>
+```

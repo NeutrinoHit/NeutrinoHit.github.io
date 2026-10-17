@@ -36,6 +36,23 @@ Push в `main` автоматически публикует только сай
 сайта и не создаётся командой `make site`. Например, опубликованная PDF-лекция
 является таким файлом.
 
+## Курсы и страница «Образование»
+
+Курсы описаны в `courses.catalog.yml`: разделы страницы «Образование», плитки,
+лекции со ссылками на слайды, PDF, видео, задачи и главы книг. Страницы
+`ru|en/education.qmd` и `ru|en/courses/<курс>.qmd` пишет генератор, их не правят
+руками:
+
+```bash
+python scripts/build_course_pages.py          # записать страницы
+python scripts/build_course_pages.py --check  # проверить, что страницы не устарели
+```
+
+Карточка программы Teach-in лежит в `_includes/education-program-ru.html` и
+`-en.html`. Кнопка «← Курс» в слайдах курса ведёт на его страницу
+`https://neutrinohit.github.io/<lang>/courses/<курс>.html`; такие адреса
+зарегистрированы в `scripts/reveal_context_targets.json` с типом `course-page`.
+
 ## Локальный preview всего сайта
 
 `make site` собирает только центральный сайт. Для полного локального preview

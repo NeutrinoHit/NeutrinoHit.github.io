@@ -1,0 +1,48 @@
+---
+pagetitle: "Statistical Data Analysis – NeutrinoHit"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="statistical-analysis">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>Statistical Data Analysis</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Course</span>
+    <h1>Statistical Data Analysis</h1>
+    <p class="course-page-summary">A practical course for high-energy physics, astrophysics, and experimental data analysis.</p>
+    <p class="course-toc-meta">15 lectures</p>
+    <div class="lecture-course-actions">
+      <a href="../../statistical-analysis-course/ru/slides/applets.html">Applets (Russian)</a>
+      <a href="https://www.youtube.com/playlist?list=PLGGzOVFWOf3s">Russian lecture videos</a>
+    </div>
+  </header>
+  <h2 class="course-page-section">Contents</h2>
+  <table class="course-toc course-toc-full">
+    <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-col">Slides</th></tr></thead>
+    <tbody>
+      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-01-introduction.html">Introduction</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-01-introduction.html">slides</a></td></tr>
+      <tr id="lecture-02"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-02-probability-bayes.html">Probability and Bayes</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-02-probability-bayes.html">slides</a></td></tr>
+      <tr id="lecture-03"><td class="course-toc-num">03</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-03-random-variables-and-densities.html">Random variables and densities</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-03-random-variables-and-densities.html">slides</a></td></tr>
+      <tr id="lecture-04"><td class="course-toc-num">04</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-04-expectation-and-error-propagation.html">Expectation and error propagation</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-04-expectation-and-error-propagation.html">slides</a></td></tr>
+      <tr id="lecture-05"><td class="course-toc-num">05</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-05-common-probability-distributions.html">Common probability distributions</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-05-common-probability-distributions.html">slides</a></td></tr>
+      <tr id="lecture-06"><td class="course-toc-num">06</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-06-monte-carlo-method.html">Monte Carlo method</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-06-monte-carlo-method.html">slides</a></td></tr>
+      <tr id="lecture-07"><td class="course-toc-num">07</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-07-statistical-tests-basics.html">Statistical tests basics</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-07-statistical-tests-basics.html">slides</a></td></tr>
+      <tr id="lecture-08"><td class="course-toc-num">08</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-08-test-statistics-and-multivariate-methods.html">Test statistics and multivariate methods</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-08-test-statistics-and-multivariate-methods.html">slides</a></td></tr>
+      <tr id="lecture-09"><td class="course-toc-num">09</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-09-goodness-of-fit-and-significance.html">Goodness of fit and significance</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-09-goodness-of-fit-and-significance.html">slides</a></td></tr>
+      <tr id="lecture-10"><td class="course-toc-num">10</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-10-feldman-cousins-and-cls.html">Feldman-Cousins and CLs</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-10-feldman-cousins-and-cls.html">slides</a></td></tr>
+      <tr id="lecture-11"><td class="course-toc-num">11</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-11-parameter-estimation-and-maximum-likelihood.html">Parameter estimation and maximum likelihood</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-11-parameter-estimation-and-maximum-likelihood.html">slides</a></td></tr>
+      <tr id="lecture-12"><td class="course-toc-num">12</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-12-method-of-least-squares.html">Method of least squares</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-12-method-of-least-squares.html">slides</a></td></tr>
+      <tr id="lecture-13"><td class="course-toc-num">13</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-13-interval-estimation-and-limits.html">Interval estimation and limits</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-13-interval-estimation-and-limits.html">slides</a></td></tr>
+      <tr id="lecture-14"><td class="course-toc-num">14</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-14-nuisance-parameters-and-systematics.html">Nuisance parameters and systematics</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-14-nuisance-parameters-and-systematics.html">slides</a></td></tr>
+      <tr id="lecture-15"><td class="course-toc-num">15</td><td class="course-toc-topic"><a href="../../statistical-analysis-course/en/slides/lecture-15-bayesian-examples.html">Bayesian examples</a></td><td class="course-toc-col" data-label="Slides"><a href="../../statistical-analysis-course/en/slides/lecture-15-bayesian-examples.html">slides</a></td></tr>
+    </tbody>
+  </table>
+  <h2 class="course-page-section">Book</h2>
+  <div class="course-page-card">
+    <p><strong>Statistical Data Analysis</strong>. The online book of the course.</p>
+    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../statistical-analysis-course/en/book/">Open the book</a></div>
+  </div>
+  <p class="course-page-back"><a href="../education.html">← All courses</a></p>
+</article>
+```

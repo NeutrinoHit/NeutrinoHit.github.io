@@ -1,0 +1,34 @@
+---
+pagetitle: "The Quantum Field Vacuum – NeutrinoHit"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="qft-vacuum">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>The Quantum Field Vacuum</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status">In preparation · Russian</span>
+    <h1>The Quantum Field Vacuum</h1>
+    <p class="course-page-summary">A Russian-language mini-course on the QFT vacuum. Its first HTML lecture covers the wave functional of a free scalar field, the Gaussian vacuum, and how vacuum configurations differ from white noise.</p>
+    <p class="course-toc-meta">1 lecture</p>
+  </header>
+  <p class="course-page-note">The mini-course is in preparation; the first lecture is online.</p>
+  <h2 class="course-page-section">Contents</h2>
+  <table class="course-toc course-toc-full">
+    <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-col">Slides</th></tr></thead>
+    <tbody>
+      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../qft-lectures/vacuum/ru/slides/01_free_scalar_field.html">Вакуум свободного скалярного поля</a></td><td class="course-toc-col" data-label="Slides"><a href="../../qft-lectures/vacuum/ru/slides/01_free_scalar_field.html">slides</a></td></tr>
+    </tbody>
+  </table>
+  <h2 class="course-page-section">More in this section</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status is-ready">Video course · Russian</span><a class="course-tile-title" href="quantum-field-theory.html">Quantum Field Theory</a><span class="course-tile-text">Introduction to QFT and QED: from the Dirac equation to the S‑matrix and Wick’s theorems.</span><span class="course-tile-meta">26 videos · 41 h · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">notes PDF</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Video course · Russian</span><a class="course-tile-title" href="standard-model.html">Introduction to the Standard Model</a><span class="course-tile-text">Scattering and decays in QED and electroweak theory, the Higgs mechanism.</span><span class="course-tile-meta">23 videos · 35 h · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">notes PDF</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Video course · Russian</span><a class="course-tile-title" href="qft-renormalization.html">Renormalization in Quantum Field Theory</a><span class="course-tile-text">Dimensional regularization, vacuum polarization, g−2, neutral kaons, anomalies.</span><span class="course-tile-meta">20 videos · 29 h · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">notes PDF</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Mini-course · Russian</span><a class="course-tile-title" href="unruh.html">Accelerated Frames and the Unruh Effect</a><span class="course-tile-text">From Rindler coordinates to the Unruh effect for scalar and fermion fields.</span><span class="course-tile-meta">5 lectures</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Lecture</span><a class="course-tile-title" href="qft-attraction-repulsion.html">Attraction and Repulsion in QFT</a><span class="course-tile-text">Scalar QED and wave packets: how QFT encodes attraction and repulsion.</span><span class="course-tile-meta">1 lecture</span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← All courses</a></p>
+</article>
+```

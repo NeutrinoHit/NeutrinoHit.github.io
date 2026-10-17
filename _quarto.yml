@@ -15,6 +15,8 @@ project:
     - "index.qmd"
     - "ru/*.qmd"
     - "en/*.qmd"
+    - "ru/courses/*.qmd"
+    - "en/courses/*.qmd"
     - "albums/**/*.qmd"
     - "!obsolete/**/*.qmd"
     - "!photo-studio.qmd"
