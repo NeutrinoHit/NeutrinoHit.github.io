@@ -9,18 +9,18 @@
     { key: 'photos-cinema', ruText: 'Фото и кино', enText: 'Photos and Cinema', ruHref: '/ru/photos-cinema.html', enHref: '/en/photos-cinema.html' },
     { key: 'school', ruText: 'Школа', enText: 'School', ruHref: '/ru/school.html', enHref: '/en/school.html' },
     { key: 'about', ruText: 'Обо мне', enText: 'About', ruHref: '/ru/about.html', enHref: '/en/about.html' },
-    { key: 'books', ruText: 'Книги', enText: 'Books', ruHref: '/books.html', enHref: '/en/books.html' },
-    { key: 'lectures', ruText: 'Лекции', enText: 'Lectures', ruHref: '/lectures.html', enHref: '/en/lectures.html' },
-    { key: 'students', ruText: 'Студенты', enText: 'Students', ruHref: '/students.html', enHref: '/en/students.html' },
-    { key: 'theses', ruText: 'Диссертации', enText: 'Theses', ruHref: '/theses.html', enHref: '/en/theses.html' },
-    { key: 'schools', ruText: 'Школы', enText: 'Schools', ruHref: '/schools.html', enHref: '/en/schools.html' },
-    { key: 'talks', ruText: 'Доклады', enText: 'Talks', ruHref: '/talks.html', enHref: '/en/talks.html' },
-    { key: 'interviews', ruText: 'Интервью', enText: 'Interviews', ruHref: '/interviews.html', enHref: '/en/interviews.html' },
-    { key: 'photos', ruText: 'Фото', enText: 'Photos', ruHref: '/photos.html', enHref: '/en/photos.html' },
-    { key: 'sciencepop', ruText: 'Научно-популярные лекции', enText: 'Popular Science', ruHref: '/sciencepop.html', enHref: '/en/sciencepop.html' },
-    { key: 'cinema', ruText: 'Мое кино', enText: 'Films', ruHref: '/cinema.html', enHref: '/en/cinema.html' },
-    { key: 'animations', ruText: 'Анимации', enText: 'Animations', ruHref: '/animations.html', enHref: '/en/animations.html' },
-    { key: 'software', ruText: 'Код', enText: 'Code', ruHref: '/software.html', enHref: '/en/software.html' }
+    { key: 'books', ruText: 'Книги', enText: 'Books', ruHref: '/ru/materials.html', enHref: '/en/books.html' },
+    { key: 'lectures', ruText: 'Лекции', enText: 'Lectures', ruHref: '/ru/education.html', enHref: '/en/lectures.html' },
+    { key: 'students', ruText: 'Студенты', enText: 'Students', ruHref: '/ru/students.html', enHref: '/en/students.html' },
+    { key: 'theses', ruText: 'Диссертации', enText: 'Theses', ruHref: '/ru/theses.html', enHref: '/en/theses.html' },
+    { key: 'schools', ruText: 'Школы', enText: 'Schools', ruHref: '/ru/school.html', enHref: '/en/schools.html' },
+    { key: 'talks', ruText: 'Доклады', enText: 'Talks', ruHref: '/ru/talks.html', enHref: '/en/talks.html' },
+    { key: 'interviews', ruText: 'Интервью', enText: 'Interviews', ruHref: '/ru/outreach.html#outreach-interviews', enHref: '/en/interviews.html' },
+    { key: 'photos', ruText: 'Фото', enText: 'Photos', ruHref: '/ru/photos-cinema.html', enHref: '/en/photos.html' },
+    { key: 'sciencepop', ruText: 'Научно-популярные лекции', enText: 'Popular Science', ruHref: '/ru/outreach.html', enHref: '/en/outreach.html' },
+    { key: 'cinema', ruText: 'Мое кино', enText: 'Films', ruHref: '/ru/photos-cinema.html', enHref: '/en/cinema.html' },
+    { key: 'animations', ruText: 'Анимации', enText: 'Animations', ruHref: '/ru/animations.html', enHref: '/en/animations.html' },
+    { key: 'software', ruText: 'Код', enText: 'Code', ruHref: '/ru/modeling.html', enHref: '/en/software.html' }
   ];
 
   const ruLanguageCodes = new Set(['ru', 'be', 'uk', 'kk', 'ky', 'uz', 'tg', 'tk', 'hy', 'az', 'ka', 'ro', 'mo']);
@@ -115,11 +115,18 @@
       link.href = siteHref(target === 'en' ? section.enHref : section.ruHref);
     });
 
+    // A course page has the same name in both languages: /ru/courses/x.html, /en/courses/x.html.
+    const coursePage = pathname.match(/\/(?:ru|en)\/courses\/([^/]+\.html)$/);
+
     document.querySelectorAll('.navbar a.nav-link').forEach((link) => {
       const label = link.textContent.trim();
       if (label !== 'RU' && label !== 'EN') return;
       const section = sections.find((item) => item.key === key) || sections[0];
-      link.href = siteHref(label === 'RU' ? section.ruHref : section.enHref);
+      if (coursePage) {
+        link.href = siteHref(`/${label === 'RU' ? 'ru' : 'en'}/courses/${coursePage[1]}`);
+      } else {
+        link.href = siteHref(label === 'RU' ? section.ruHref : section.enHref);
+      }
       link.addEventListener('click', () => rememberLanguage(label.toLowerCase()));
     });
 
