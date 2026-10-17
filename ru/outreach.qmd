@@ -9,6 +9,21 @@ toc: false
     Публичные лекции, научно-популярная книга, фильмы, интервью, каналы и визуальные материалы о современной физике для широкой аудитории.
   </p>
 
+  <nav class="course-tiles" aria-label="Разделы">
+    <div class="course-tile"><span class="course-tile-status is-ready">Библиотечка</span><a class="course-tile-title" href="#in-a-nutshell">Простыми словами</a><span class="course-tile-text">Короткие модули: один физический вопрос и один ясный ответ.</span><span class="course-tile-meta">4 лекции · 21 тема в плане</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Лекции</span><a class="course-tile-title" href="#neutrino-telescopes">Нейтринные телескопы</a><span class="course-tile-text">Как поймать нейтрино из далёкой галактики: для студентов, широкой публики и специалистов.</span><span class="course-tile-meta">3 лекции, 2026</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Мини-курс</span><a class="course-tile-title" href="#modern-physics-without-formulas">Современная физика без формул</a><span class="course-tile-text">Пространство-время, квантовые поля, Стандартная модель и новая физика.</span><span class="course-tile-meta">4 видео · 4 лекции PDF</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Лекция</span><a class="course-tile-title" href="#birth-life-universe">Рождение и жизнь Вселенной</a><span class="course-tile-text">Горячее начало, первый свет, звёзды и галактики.</span><span class="course-tile-meta">лекция · BBN-игра</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Лекция</span><a class="course-tile-title" href="#wave-or-particle">Что такое частица в КТП?</a><span class="course-tile-text">Волна или точка: рассеяние квантовой волны на двух мишенях.</span><span class="course-tile-meta">лекция · апплет</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Лекция</span><a class="course-tile-title" href="#black-holes">Чёрные дыры</a><span class="course-tile-text">Удивительные объекты во Вселенной.</span><span class="course-tile-meta">видео · PDF</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Лекция</span><a class="course-tile-title" href="#dark-matter">Тёмная материя</a><span class="course-tile-text">Наблюдательные свидетельства и возможная природа тёмной материи.</span><span class="course-tile-meta">видео · PDF</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Ролики</span><a class="course-tile-title" href="#selected-lectures-films">Короткие видео</a><span class="course-tile-text">Открытие нейтрино, умножитель напряжения для JUNO и фильм о телескопе.</span><span class="course-tile-meta">3 видео</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Кино</span><a class="course-tile-title" href="#outreach-films">Фильмы</a><span class="course-tile-text">«Вселенная в нейтринном телескопе» и «Нерпа и тайна Байкала».</span><span class="course-tile-meta">2 фильма</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Книга</span><a class="course-tile-title" href="materials.html#solar-neutrino-book">Солнечное нейтрино</a><span class="course-tile-text">Детская книга о нейтрино и Солнце.</span><span class="course-tile-meta">Аванта/АСТ, 2023</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Интервью</span><a class="course-tile-title" href="#outreach-interviews">Интервью и подкасты</a><span class="course-tile-text">Разговоры о нейтринной физике, Байкальском телескопе и научной коммуникации.</span><span class="course-tile-meta">7 материалов</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Доклады</span><a class="course-tile-title" href="talks.html">Доклады</a><span class="course-tile-text">Слайды докладов на конференциях и семинарах.</span><span class="course-tile-meta">1 доклад, 2026</span></div>
+  </nav>
+
   <section class="lecture-course-list" aria-label="Разделы научной коммуникации">
     <details id="outreach-lectures" class="lecture-course outreach-course-lectures">
       <summary>

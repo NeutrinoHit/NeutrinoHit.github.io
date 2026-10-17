@@ -69,52 +69,7 @@ toc: false
       <div class="lecture-course-body">
         <p>Courses on quantum field theory, the Standard Model, renormalization, accelerated frames, the quantum vacuum, and selected QFT topics.</p>
         <div class="lecture-material-list">
-          <details id="qft-textbook" class="lecture-material">
-            <summary>Textbook</summary>
-            <div class="lecture-material-body">
-              <p><em>Quantum Field Theory for Experimentalists and More</em> is a two-volume textbook with examples, problems, and solutions. The Russian edition is published; the English edition is in preparation.</p>
-              <div class="book-cover-spread" aria-label="Quantum field theory textbook cover">
-                <img src="../assets/books/qft-cover-front.jpg" alt="Front cover of the quantum field theory textbook">
-                <img src="../assets/books/qft-cover-back.jpg" alt="Back cover of the quantum field theory textbook">
-              </div>
-              <div class="lecture-material-list">
-                <details class="lecture-material">
-                  <summary>Russian print edition</summary>
-                  <div class="lecture-material-body">
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Volume 1</a>
-                      <a href="https://shop.rcd.ru/catalog/fizika/20097/">Volume 2</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>ROSPEX Publishing</summary>
-                  <div class="lecture-material-body">
-                    <div class="lecture-course-actions">
-                      <a href="https://rospexpublishing.com/books/qft-volume-1.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Volume 1</a>
-                      <a href="https://rospexpublishing.com/books/qft-volume-2.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Volume 2</a>
-                      <a class="lecture-action-primary" href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Bundle</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>Google Play Books</summary>
-                  <div class="lecture-material-body">
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ">Volume 1</a>
-                      <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ">Volume 2</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>English edition</summary>
-                  <div class="lecture-material-body">
-                    <p>In preparation.</p>
-                  </div>
-                </details>
-              </div>
-            </div>
-          </details>
+          <p id="qft-textbook" class="course-book-line">Textbook for the courses: <a href="materials.html#qft-book">“Quantum Field Theory for Experimentalists and Beyond” (in Russian) →</a></p>
           <details id="qft-course" class="lecture-material">
             <summary>Lecture course “Quantum Field Theory”</summary>
             <div class="lecture-material-body">

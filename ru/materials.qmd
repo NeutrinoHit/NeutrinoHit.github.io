@@ -10,66 +10,48 @@ toc: false
     проекты в работе.
   </p>
 
-  <section class="lecture-course-list" aria-label="Каталог книг">
-    <details class="lecture-course book-course-qft">
-      <summary>
-        <span class="lecture-course-status">Учебник · опубликован</span>
-        <span class="lecture-course-title">Квантовая теория поля для экспериментаторов и не только</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>Практический курс с примерами, задачами и решениями. Русское издание состоит из двух томов; английское издание готовится.</p>
-        <div class="book-cover-spread" aria-label="Обложка учебника по квантовой теории поля">
-          <img src="../assets/books/qft-cover-front.jpg" alt="Лицевая сторона обложки учебника «Квантовая теория поля для экспериментаторов и не только»">
-          <img src="../assets/books/qft-cover-back.jpg" alt="Оборотная сторона обложки учебника «Квантовая теория поля для экспериментаторов и не только»">
-        </div>
-        <div class="lecture-material-list">
-          <details class="lecture-material">
-            <summary>Русское издание</summary>
-            <div class="lecture-material-body">
-              <p>Два тома доступны в бумажном и электронном форматах.</p>
-              <div class="lecture-material-list">
-                <details class="lecture-material">
-                  <summary>Бумажная версия для России</summary>
-                  <div class="lecture-material-body">
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Том 1</a>
-                      <a href="https://shop.rcd.ru/catalog/fizika/20097/">Том 2</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>ROSPEX Publishing</summary>
-                  <div class="lecture-material-body">
-                    <div class="lecture-course-actions">
-                      <a href="https://rospexpublishing.com/books/qft-volume-1.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Том 1</a>
-                      <a href="https://rospexpublishing.com/books/qft-volume-2.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Том 2</a>
-                      <a class="lecture-action-primary" href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Комплект</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>Google Play Books</summary>
-                  <div class="lecture-material-body">
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ">Том 1</a>
-                      <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ">Том 2</a>
-                    </div>
-                  </div>
-                </details>
-              </div>
-            </div>
-          </details>
-          <details class="lecture-material">
-            <summary>English edition</summary>
-            <div class="lecture-material-body">
-              <p>Готовится.</p>
-            </div>
-          </details>
-        </div>
-      </div>
-    </details>
+  <nav class="course-tiles" aria-label="Книги">
+    <div class="course-tile"><span class="course-tile-status is-ready">Учебник · 2 тома</span><a class="course-tile-title" href="#qft-book">Квантовая теория поля для экспериментаторов и не только</a><span class="course-tile-text">От основ до перенормировки, аномалий и функциональных интегралов, с задачами.</span><span class="course-tile-meta">ИКИ, 2026 · <a class="course-tile-book" href="../qr/qft/">38 анимаций</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Научно-популярная</span><a class="course-tile-title" href="#solar-neutrino-book">Солнечное нейтрино</a><span class="course-tile-text">Детская книга о нейтрино, Солнце и большой физике маленьких частиц.</span><span class="course-tile-meta">Аванта/АСТ, 2023</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Онлайн‑книга · в работе</span><a class="course-tile-title" href="../neutrinophysics/introduction/ru/book/">Введение в физику нейтрино</a><span class="course-tile-text">Книга к вводному курсу по физике нейтрино.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/neutrino-physics/">56 материалов к QR</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Онлайн‑книга · в работе</span><a class="course-tile-title" href="../statistical-analysis-course/ru/book/index.html">Статистический анализ данных</a><span class="course-tile-text">Вероятностные модели, оценивание, проверка гипотез в экспериментальной физике.</span><span class="course-tile-meta">13 глав · <a class="course-tile-book" href="../qr/statistics/">36 материалов к QR</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Онлайн‑книга · в работе</span><a class="course-tile-title" href="../particlephysics/ParticlePhysics/ru/book/index.html">Физика элементарных частиц</a><span class="course-tile-text">Книга к большому курсу по физике элементарных частиц.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/particle-physics/">28 анимаций</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">Онлайн‑книга · в работе</span><a class="course-tile-title" href="../gravity/ru/book/">Гравитация</a><span class="course-tile-text">Книга к курсу по общей теории относительности.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/gravity/">6 анимаций</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">Онлайн‑книга · в работе</span><a class="course-tile-title" href="../numerical_methods/ru/book/">Численные методы для физиков</a><span class="course-tile-text">Книга к курсу: одна глава — одна физическая задача.</span><span class="course-tile-meta">RU / EN</span></div>
+  </nav>
 
-    <details class="lecture-course book-course-solar">
+  <section id="qft-book" class="book-showcase" aria-label="Квантовая теория поля для экспериментаторов и не только">
+    <div class="book-showcase-covers">
+      <img src="../assets/books/qft-cover-front.jpg" alt="Лицевая сторона обложки учебника «Квантовая теория поля для экспериментаторов и не только»">
+      <img src="../assets/books/qft-cover-back.jpg" alt="Оборотная сторона обложки учебника «Квантовая теория поля для экспериментаторов и не только»">
+    </div>
+    <div class="book-showcase-body">
+      <span class="course-tile-status is-ready">Учебник · опубликован</span>
+      <h2>Квантовая теория поля для экспериментаторов и не только</h2>
+      <p>Учебник квантовой теории поля для теоретиков и экспериментаторов — от основ до перенормировки, аномалий и функциональных интегралов, с упором на связь с экспериментом, с задачами и QR-кодами с анимациями.</p>
+      <dl class="book-showcase-facts">
+        <dt>Русское издание</dt>
+        <dd>«Квантовая теория поля для экспериментаторов и не только», два тома, Ижевск: ИКИ, 2026, переплёт; т. 1 — 534 с., т. 2 — 514 с. ISBN <span class="nowrap">978-5-4344-1081-6</span> (т. 1), <span class="nowrap">978-5-4344-1082-3</span> (т. 2).</dd>
+        <dt>Задачи</dt>
+        <dd>346 задач: 189 в т. 1, 157 в т. 2.</dd>
+        <dt>English edition</dt>
+        <dd>Готовится английское издание «Quantum Field Theory for Experimentalists and Beyond».</dd>
+        <dt>К книге</dt>
+        <dd><a href="../qr/qft/">анимации по QR-кодам</a> · <a href="education.html#qft-course">видеокурсы КТП</a></dd>
+      </dl>
+      <div class="lecture-course-actions">
+        <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Купить т. 1</a>
+        <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20097/">Купить т. 2</a>
+        <a href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">ROSPEX: комплект</a>
+        <a href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ">Google Play: т. 1</a>
+        <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ">Google Play: т. 2</a>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="section-inline-title">Остальные книги</h2>
+  <section class="lecture-course-list" aria-label="Каталог книг">
+    <details id="solar-neutrino-book" class="lecture-course book-course-solar">
       <summary>
         <span class="lecture-course-status">Научно-популярная · опубликована</span>
         <span class="lecture-course-title">Солнечное нейтрино</span>
@@ -93,9 +75,10 @@ toc: false
         <span class="lecture-course-title">Введение в физику нейтрино</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Книга готовится. Рабочий приватный репозиторий доступен автору.</p>
+        <p>Онлайн-книга к вводному курсу; печатное издание готовится.</p>
         <div class="lecture-course-actions">
-          <a href="https://github.com/dmitryvnaumov/NEUTRINObook">Приватный репозиторий</a>
+          <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/book/">Открыть книгу</a>
+          <a href="../qr/neutrino-physics/">Материалы к QR-кодам</a>
         </div>
       </div>
     </details>
@@ -106,7 +89,11 @@ toc: false
         <span class="lecture-course-title">Введение в физику элементарных частиц</span>
       </summary>
       <div class="lecture-course-body">
-        <p>Книга готовится.</p>
+        <p>Онлайн-книга к большому курсу; печатное издание готовится.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../particlephysics/ParticlePhysics/ru/book/index.html">Открыть книгу</a>
+          <a href="../qr/particle-physics/">Материалы к QR-кодам</a>
+        </div>
       </div>
     </details>
 

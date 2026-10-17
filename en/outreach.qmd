@@ -10,6 +10,21 @@ toc: false
     Public science lectures, a popular science book, films, interviews, channels, and visual materials. Russian-language resources are marked in the titles or buttons.
   </p>
 
+  <nav class="course-tiles" aria-label="Sections">
+    <div class="course-tile"><span class="course-tile-status is-ready">Library · Russian</span><a class="course-tile-title" href="#in-a-nutshell">In a Nutshell</a><span class="course-tile-text">Short modules: one physics question and one clear answer.</span><span class="course-tile-meta">4 lectures · 21 topics planned</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Lectures</span><a class="course-tile-title" href="#neutrino-telescopes">Neutrino Telescopes</a><span class="course-tile-text">How to catch a neutrino from a distant galaxy: for students, the general public and specialists.</span><span class="course-tile-meta">3 lectures, 2026</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Mini-course · Russian</span><a class="course-tile-title" href="#modern-physics-without-formulas">Modern Physics Without Formulas</a><span class="course-tile-text">Spacetime, quantum fields, the Standard Model and new physics.</span><span class="course-tile-meta">4 videos · 4 PDF lectures</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Lecture · Russian</span><a class="course-tile-title" href="#birth-life-universe">The Birth and Life of the Universe</a><span class="course-tile-text">The hot beginning, the first light, stars and galaxies.</span><span class="course-tile-meta">lecture · BBN game</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Lecture · Russian</span><a class="course-tile-title" href="#wave-or-particle">What Is a Particle in QFT?</a><span class="course-tile-text">Wave or point: scattering of a quantum wave on two targets.</span><span class="course-tile-meta">lecture · applet</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Lecture · Russian</span><a class="course-tile-title" href="#black-holes">Black Holes</a><span class="course-tile-text">Amazing objects in the Universe.</span><span class="course-tile-meta">video · PDF</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Lecture · Russian</span><a class="course-tile-title" href="#dark-matter">Dark Matter</a><span class="course-tile-text">Observational evidence and the possible nature of dark matter.</span><span class="course-tile-meta">video · PDF</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Short videos</span><a class="course-tile-title" href="#selected-lectures-films">Short Videos</a><span class="course-tile-text">The neutrino discovery, a voltage multiplier for JUNO and a telescope film.</span><span class="course-tile-meta">3 videos</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Cinema</span><a class="course-tile-title" href="#outreach-films">Films</a><span class="course-tile-text">“The Universe in a Neutrino Telescope” and “Nerpa and the Mystery of Baikal”.</span><span class="course-tile-meta">2 films</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Book · Russian</span><a class="course-tile-title" href="materials.html#solar-neutrino-book">Solar Neutrino</a><span class="course-tile-text">A children’s book about neutrinos and the Sun.</span><span class="course-tile-meta">AVANTA/AST, 2023</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Interviews</span><a class="course-tile-title" href="#outreach-interviews">Interviews and Podcasts</a><span class="course-tile-text">Conversations on neutrino physics, the Baikal telescope and science communication.</span><span class="course-tile-meta">7 items</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Talks</span><a class="course-tile-title" href="talks.html">Talks</a><span class="course-tile-text">Slides of conference and seminar talks.</span><span class="course-tile-meta">1 talk, 2026</span></div>
+  </nav>
+
   <section class="lecture-course-list" aria-label="Outreach sections">
     <details id="outreach-lectures" class="lecture-course outreach-course-lectures">
       <summary>

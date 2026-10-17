@@ -1118,6 +1118,103 @@ a.course-tile-title:hover {
   font-weight: 650;
 }
 
+.book-showcase {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr);
+  gap: 1.6rem;
+  align-items: start;
+  margin: 0.4rem 0 2.2rem;
+  padding: 1.2rem;
+  border: 1px solid rgba(43, 67, 91, 0.16);
+  border-radius: 8px;
+  background: #ffffff;
+  scroll-margin-top: 5rem;
+}
+
+.book-showcase-covers {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.book-showcase-covers img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 8px 20px rgba(23, 57, 96, 0.18);
+}
+
+.book-showcase-body h2 {
+  margin: 0.3rem 0 0.5rem;
+  color: #25313a;
+  font-size: 1.45rem;
+  line-height: 1.25;
+  border: 0;
+}
+
+.book-showcase-body > p {
+  color: #53616f;
+}
+
+.book-showcase-facts {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 0.35rem 0.9rem;
+  margin: 0.9rem 0 1rem;
+  font-size: 0.94rem;
+}
+
+.book-showcase-facts dt {
+  color: #344654;
+  font-weight: 700;
+}
+
+.book-showcase-facts dd {
+  margin: 0;
+  color: #53616f;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.book-showcase-facts a {
+  color: #1f6f78;
+  font-weight: 650;
+}
+
+@media (max-width: 760px) {
+  .book-showcase {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 1rem;
+  }
+
+  .book-showcase-facts {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.1rem;
+  }
+
+  .book-showcase-facts dd {
+    margin-bottom: 0.45rem;
+  }
+}
+
+.course-book-line {
+  margin: 0 0 0.9rem;
+  color: #53616f;
+}
+
+.course-book-line a {
+  color: #1f6f78;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.course-book-line a:hover {
+  text-decoration: underline;
+}
+
 .course-toc-meta {
   margin-top: -0.35rem;
   color: #53616f;
