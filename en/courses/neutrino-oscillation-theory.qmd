@@ -15,7 +15,7 @@ toc: false
   <p class="course-page-note">The course is planned; lectures will appear here.</p>
   <h2 class="course-page-section">More in this section</h2>
   <nav class="course-tiles">
-    <div class="course-tile"><span class="course-tile-status is-ready">Course · Russian</span><a class="course-tile-title" href="neutrino-introduction.html">Introduction to Neutrino Physics</a><span class="course-tile-text">Weak interaction, neutrino mass, oscillations in vacuum and matter.</span><span class="course-tile-meta">26 lectures · <a class="course-tile-book" href="../../neutrinophysics/introduction/ru/book/">online book</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Course · Russian</span><a class="course-tile-title" href="neutrino-introduction.html">Introduction to Neutrino Physics</a><span class="course-tile-text">Weak interaction, neutrino mass, oscillations in vacuum and matter.</span><span class="course-tile-meta">26 lectures</span></div>
     <div class="course-tile"><span class="course-tile-status is-ready">Mini-course</span><a class="course-tile-title" href="oscillations-minicourse.html">Neutrino Oscillations from Vacuum to the Earth’s Core</a><span class="course-tile-text">Vacuum, matter and the Sun, neutrino probes of the Earth’s interior.</span><span class="course-tile-meta">3 lectures</span></div>
     <div class="course-tile"><span class="course-tile-status is-ready">Masterclass</span><a class="course-tile-title" href="solar-neutrino-masterclass.html">Solar Neutrino Masterclass</a><span class="course-tile-text">Fluxes, event rates and an oscillation fit to the data.</span><span class="course-tile-meta">3 lectures</span></div>
   </nav>

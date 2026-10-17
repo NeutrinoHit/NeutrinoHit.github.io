@@ -15,12 +15,8 @@ toc: false
       <a href="../../particlephysics/ParticlePhysics/ru/slides/">Слайды</a>
     </div>
   </header>
-  <p class="course-page-note">Курс готовится: лекции появятся здесь по мере готовности. Пока опубликованы заготовки слайдов и книги.</p>
-  <h2 class="course-page-section">Книга</h2>
-  <div class="course-page-card">
-    <p><strong>Физика элементарных частиц</strong>. Онлайн-книга к курсу, в работе.</p>
-    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../particlephysics/ParticlePhysics/ru/book/index.html">Открыть книгу</a></div>
-  </div>
+  <p class="course-page-note">Курс готовится: лекции появятся здесь по мере готовности. Пока опубликованы заготовки слайдов.</p>
+  <p class="course-book-line">Книга к курсу готовится.</p>
   <h2 class="course-page-section">Ещё в этом разделе</h2>
   <nav class="course-tiles">
     <div class="course-tile"><span class="course-tile-status is-ready">Мини-курс · англ.</span><a class="course-tile-title" href="particle-physics-baikal.html">Физика элементарных частиц: мини-курс</a><span class="course-tile-text">Частицы, поля, взаимодействия, калибровочная инвариантность и массы.</span><span class="course-tile-meta">2 лекции</span></div>

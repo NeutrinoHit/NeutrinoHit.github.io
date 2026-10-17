@@ -50,7 +50,7 @@ toc: false
   </div>
   <h2 class="course-page-section">More in this section</h2>
   <nav class="course-tiles">
-    <div class="course-tile"><span class="course-tile-status is-ready">Course · Russian</span><a class="course-tile-title" href="neutrino-introduction.html">Introduction to Neutrino Physics</a><span class="course-tile-text">Weak interaction, neutrino mass, oscillations in vacuum and matter.</span><span class="course-tile-meta">26 lectures · <a class="course-tile-book" href="../../neutrinophysics/introduction/ru/book/">online book</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Course · Russian</span><a class="course-tile-title" href="neutrino-introduction.html">Introduction to Neutrino Physics</a><span class="course-tile-text">Weak interaction, neutrino mass, oscillations in vacuum and matter.</span><span class="course-tile-meta">26 lectures</span></div>
     <div class="course-tile"><span class="course-tile-status is-ready">Mini-course</span><a class="course-tile-title" href="oscillations-minicourse.html">Neutrino Oscillations from Vacuum to the Earth’s Core</a><span class="course-tile-text">Vacuum, matter and the Sun, neutrino probes of the Earth’s interior.</span><span class="course-tile-meta">3 lectures</span></div>
     <div class="course-tile"><span class="course-tile-status">Planned</span><a class="course-tile-title" href="neutrino-oscillation-theory.html">Neutrino Oscillation Theory in QFT</a><span class="course-tile-text">Future specialized course on quantum-field descriptions of neutrino oscillations.</span></div>
   </nav>

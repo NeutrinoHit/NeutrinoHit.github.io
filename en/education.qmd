@@ -21,12 +21,12 @@ toc: false
 
   <h2 id="stat" class="section-inline-title">Statistical Data Analysis</h2>
   <nav class="course-tiles" aria-label="Statistical Data Analysis">
-    <div class="course-tile" id="statistical-analysis"><span class="course-tile-status is-ready">Course</span><a class="course-tile-title" href="courses/statistical-analysis.html">Statistical Data Analysis</a><span class="course-tile-text">From probability and likelihood to significance and systematics.</span><span class="course-tile-meta">15 lectures · <a class="course-tile-book" href="../statistical-analysis-course/en/book/">online book</a></span></div>
+    <div class="course-tile" id="statistical-analysis"><span class="course-tile-status is-ready">Course</span><a class="course-tile-title" href="courses/statistical-analysis.html">Statistical Data Analysis</a><span class="course-tile-text">From probability and likelihood to significance and systematics.</span><span class="course-tile-meta">15 lectures</span></div>
   </nav>
 
   <h2 id="neutrino" class="section-inline-title">Neutrino Physics</h2>
   <nav class="course-tiles" aria-label="Neutrino Physics">
-    <div class="course-tile" id="neutrino-introduction"><span class="course-tile-status is-ready">Course · Russian</span><a class="course-tile-title" href="courses/neutrino-introduction.html">Introduction to Neutrino Physics</a><span class="course-tile-text">Weak interaction, neutrino mass, oscillations in vacuum and matter.</span><span class="course-tile-meta">26 lectures · <a class="course-tile-book" href="../neutrinophysics/introduction/ru/book/">online book</a></span></div>
+    <div class="course-tile" id="neutrino-introduction"><span class="course-tile-status is-ready">Course · Russian</span><a class="course-tile-title" href="courses/neutrino-introduction.html">Introduction to Neutrino Physics</a><span class="course-tile-text">Weak interaction, neutrino mass, oscillations in vacuum and matter.</span><span class="course-tile-meta">26 lectures</span></div>
     <div class="course-tile" id="oscillations-minicourse"><span class="course-tile-status is-ready">Mini-course</span><a class="course-tile-title" href="courses/oscillations-minicourse.html">Neutrino Oscillations from Vacuum to the Earth’s Core</a><span class="course-tile-text">Vacuum, matter and the Sun, neutrino probes of the Earth’s interior.</span><span class="course-tile-meta">3 lectures</span></div>
     <div class="course-tile" id="solar-neutrino-masterclass"><span class="course-tile-status is-ready">Masterclass</span><a class="course-tile-title" href="courses/solar-neutrino-masterclass.html">Solar Neutrino Masterclass</a><span class="course-tile-text">Fluxes, event rates and an oscillation fit to the data.</span><span class="course-tile-meta">3 lectures</span></div>
     <div class="course-tile" id="oscillations"><span class="course-tile-status">Planned</span><a class="course-tile-title" href="courses/neutrino-oscillation-theory.html">Neutrino Oscillation Theory in QFT</a><span class="course-tile-text">Future specialized course on quantum-field descriptions of neutrino oscillations.</span></div>
@@ -35,14 +35,14 @@ toc: false
   <h2 id="particles" class="section-inline-title">Particle Physics</h2>
   <nav class="course-tiles" aria-label="Particle Physics">
     <div class="course-tile" id="particle-physics-mini-course"><span class="course-tile-status is-ready">Mini-course</span><a class="course-tile-title" href="courses/particle-physics-baikal.html">Particle Physics: Mini-course</a><span class="course-tile-text">Particles, fields, interactions, gauge invariance and masses.</span><span class="course-tile-meta">2 lectures</span></div>
-    <div class="course-tile" id="particle-physics-course"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="courses/particle-physics.html">Particle Physics: Full Course</a><span class="course-tile-text">The future full course: slides, book, problems and applets.</span><span class="course-tile-meta"><a class="course-tile-book" href="../particlephysics/ParticlePhysics/en/book/">online book</a></span></div>
+    <div class="course-tile" id="particle-physics-course"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="courses/particle-physics.html">Particle Physics: Full Course</a><span class="course-tile-text">The future full course: slides, book, problems and applets.</span></div>
   </nav>
 
   <h2 id="more" class="section-inline-title">More courses</h2>
   <nav class="course-tiles" aria-label="More courses">
-    <div class="course-tile" id="gravity"><span class="course-tile-status">In preparation · Russian</span><a class="course-tile-title" href="courses/gravity.html">Gravity</a><span class="course-tile-text">General relativity as an experimental science.</span><span class="course-tile-meta">1 lecture · <a class="course-tile-book" href="../gravity/ru/book/">online book</a></span></div>
+    <div class="course-tile" id="gravity"><span class="course-tile-status">In preparation · Russian</span><a class="course-tile-title" href="courses/gravity.html">Gravity</a><span class="course-tile-text">General relativity as an experimental science.</span><span class="course-tile-meta">1 lecture</span></div>
     <div class="course-tile" id="light-propagation"><span class="course-tile-status">In preparation · Russian</span><a class="course-tile-title" href="courses/light-propagation.html">Light Propagation in a Medium</a><span class="course-tile-text">Light transport in a scattering medium and the optical-module signal.</span><span class="course-tile-meta">3 lectures</span></div>
-    <div class="course-tile" id="numerical-methods"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="courses/numerical-methods.html">Numerical Methods for Physicists</a><span class="course-tile-text">One lecture, one physics problem; Python with Numba.</span><span class="course-tile-meta"><a class="course-tile-book" href="../numerical_methods/en/book/">online book</a></span></div>
+    <div class="course-tile" id="numerical-methods"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="courses/numerical-methods.html">Numerical Methods for Physicists</a><span class="course-tile-text">One lecture, one physics problem; Python with Numba.</span></div>
   </nav>
 
   <h2 id="programs" class="section-inline-title">Programs</h2>

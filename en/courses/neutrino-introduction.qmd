@@ -49,49 +49,7 @@ toc: false
       <tr id="lecture-26"><td class="course-toc-num">26</td><td class="course-toc-topic"><a href="../../neutrinophysics/introduction/en/slides/26_reactor_monitoring.html">Reactors as Monitoring Tools</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/introduction/en/slides/26_reactor_monitoring.html">slides</a></td></tr>
     </tbody>
   </table>
-  <h2 class="course-page-section">Book</h2>
-  <div class="course-page-card">
-    <p><strong>Introduction to Neutrino Physics</strong>. The online book of the course (in Russian), in progress.</p>
-    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../neutrinophysics/introduction/ru/book/">Open the book</a></div>
-    <h3>Chapters</h3>
-    <ol class="course-book-chapters">
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/01_neutrino_first_contact.html">Нейтрино. Первое знакомство</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/02_parity_violation.html">Слабое взаимодействие. Нарушение пространственной чётности</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/03_neutrino_spin.html">Спин нейтрино. Спиральность и поляризация</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/04_neutrino_mass_kinematics.html">Кинематика β-спектра</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/05_electron_to_detector.html">Ведём электрон к детектору</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/06_mac_e_spectrometer.html">MAC-E-спектрометр</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/07_katrin.html">Эксперимент KATRIN</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/08_alternative_neutrino_mass.html">Другие способы взвесить нейтрино</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/09_vacuum_two_flavors.html">Два флэйвора</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/10_vacuum_pmns.html">Три флэйвора и матрица PMNS</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/11_matter_refraction.html">Преломление нейтрино в веществе</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/12_matter_constant_density.html">Нейтрино в веществе постоянной плотности</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/13_matter_adiabatic_msw.html">Адиабатический MSW-эффект</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/14_matter_interference_pendulums.html">Интерференция, мгновенные моды и маятники</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/15_matter_three_flavors.html">Три нейтрино в веществе</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/16_oscillation_paradoxes.html">Парадоксы и тонкости осцилляций нейтрино</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/17_standard_model_neutrinos.html">Нейтрино в Стандартной модели</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/18_electromagnetic_properties.html">Электромагнитные свойства нейтрино</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/19_sterile_neutrinos.html">Стерильные нейтрино</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/20_neutrino_interactions.html">Взаимодействие нейтрино с веществом</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/21_detection_methods.html">Экспериментальные методы детектирования</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/22_solar_neutrinos.html">Солнечные нейтрино</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/23_atmospheric_neutrinos.html">Атмосферные нейтрино</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/24_accelerator_neutrinos.html">Ускорительные нейтрино</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/25_reactor_neutrinos.html">Реакторные нейтрино</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/26_geophysical_neutrinos.html">Геофизические нейтрино</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/27_neutrinoless_double_beta_decay.html">Безнейтринный двойной бета-распад</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/28_relic_neutrinos.html">Реликтовые нейтрино</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/29_uhe_astrophysical_neutrinos.html">Астрофизические нейтрино сверхвысоких энергий</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/30_supernova_neutrinos.html">Нейтрино от сверхновой</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/31_global_analysis.html">Глобальный анализ</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/32_mixing_cp_violation.html">Смешивание и CP-нарушение</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/33_new_physics.html">Нейтрино как окно в новую физику</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/34_neutrino_tomography.html">Нейтринная томография</a></li>
-      <li><a href="../../neutrinophysics/introduction/ru/book/chapters/35_reactor_monitoring.html">Реакторы как мониторинг</a></li>
-    </ol>
-  </div>
+  <p class="course-book-line">A book for the course is in preparation.</p>
   <h2 class="course-page-section">Recommended reading</h2>
   <div class="course-page-card course-page-reading">
 <p class="reference-source">The list was compiled by <a href="http://theor.jinr.ru/~vnaumov/">V. A. Naumov</a> for the course <a href="http://theor.jinr.ru/~vnaumov/Eng/JINR_Lectures/NPA.html">Neutrinos in Physics &amp; Astrophysics</a>.</p>

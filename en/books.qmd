@@ -7,7 +7,7 @@ toc: false
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    Published books and manuscripts in progress: textbooks, online books, and outreach books.
+    Published books and books in progress: textbooks and outreach books.
   </p>
 
   <section class="lecture-course-list" aria-label="Books catalog">
@@ -56,10 +56,7 @@ toc: false
         <span class="lecture-course-title">Introduction to Neutrino Physics</span>
       </summary>
       <div class="lecture-course-body">
-        <p>The online book of the introductory course (in Russian); a printed edition is in preparation.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/book/">Open the book (Russian)</a>
-        </div>
+        <p>The book is in preparation.</p>
       </div>
     </details>
 
@@ -75,14 +72,13 @@ toc: false
 
     <details class="lecture-course book-course-stat">
       <summary>
-        <span class="lecture-course-status">Online book · in progress</span>
+        <span class="lecture-course-status">In progress</span>
         <span class="lecture-course-title">Statistical Analysis</span>
       </summary>
       <div class="lecture-course-body">
-        <p>An online book on probability models, parameter estimation, hypothesis testing, and statistical inference in experimental physics.</p>
+        <p>A book on probability models, parameter estimation, hypothesis testing, and statistical inference in experimental physics; in preparation.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../statistical-analysis-course/ru/book/index.html">Open book (Russian)</a>
-          <a href="../statistical-analysis-course/ru/slides/applets.html">Applets (Russian)</a>
+          <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/applets.html">Applets (Russian)</a>
           <a href="../statistical-analysis-course/ru/slides/exercises/index.html">All exercises (Russian)</a>
           <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Exam projects (Russian)</a>
         </div>

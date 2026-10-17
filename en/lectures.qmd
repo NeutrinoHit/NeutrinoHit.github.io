@@ -134,8 +134,7 @@ toc: false
       <div class="lecture-course-body">
         <p>A practical course for high-energy physics, astrophysics, and experimental data analysis. English-language lectures are listed directly below; Russian-only supporting materials are marked.</p>
         <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="../statistical-analysis-course/ru/book/index.html">Online book (Russian)</a>
-          <a href="../statistical-analysis-course/ru/slides/applets.html">Applets (Russian)</a>
+          <a class="lecture-action-primary" href="../statistical-analysis-course/ru/slides/applets.html">Applets (Russian)</a>
           <a href="../statistical-analysis-course/ru/slides/exercises/index.html">All exercises (Russian)</a>
           <a href="../statistical-analysis-course/ru/slides/exam_projects/index.html">Exam projects (Russian)</a>
         </div>
@@ -597,10 +596,9 @@ toc: false
           <details class="lecture-material">
             <summary>Full course: introduction to particle physics</summary>
             <div class="lecture-material-body">
-              <p>English layout of the full course: course slides and course book.</p>
+              <p>English layout of the full course: course slides.</p>
               <div class="lecture-course-actions">
                 <a class="lecture-action-primary" href="../particlephysics/ParticlePhysics/en/slides/index.html">Course slides</a>
-                <a href="../particlephysics/ParticlePhysics/en/book/index.html">Course book</a>
               </div>
             </div>
           </details>

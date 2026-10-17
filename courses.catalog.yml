@@ -467,38 +467,24 @@ courses:
   - {label: Applets (Russian), href: /statistical-analysis-course/ru/slides/applets.html}
   - {label: Russian lecture videos, href: 'https://www.youtube.com/playlist?list=PLGGzOVFWOf3s'}
   lectures:
-  - {n: '01', title: Мотивация и обзор курса, slides: /statistical-analysis-course/ru/slides/01_introduction.html, exercises: /statistical-analysis-course/ru/slides/exercises/01_introduction_exercises.html, pdf: /statistical-analysis-course/ru/book/chapters/01_why_statistics.pdf,
-    chapter: /statistical-analysis-course/ru/book/chapters/01_why_statistics.html, video: OLDuaktf_xk, seconds: 2106}
-  - {n: '02', title: 'Случайные величины, распределения, моменты', slides: /statistical-analysis-course/ru/slides/02_random_distributions.html, exercises: /statistical-analysis-course/ru/slides/exercises/02_random_distributions_exercises.html, pdf: /statistical-analysis-course/ru/book/chapters/02_random_distributions.pdf,
-    chapter: /statistical-analysis-course/ru/book/chapters/02_random_distributions.html, video: Vvdj7pOVBGo, seconds: 2728}
-  - {n: '03', title: Характеристические функции и суммы случайных величин, slides: /statistical-analysis-course/ru/slides/03_characteristic_functions.html, exercises: /statistical-analysis-course/ru/slides/exercises/03_characteristic_functions_exercises.html,
-    pdf: /statistical-analysis-course/ru/book/chapters/03_characteristic_functions.pdf, chapter: /statistical-analysis-course/ru/book/chapters/03_characteristic_functions.html, video: qYEK6F2h7sc, seconds: 5124}
-  - {n: '04', title: Центральная предельная теорема и нормальное распределение, slides: /statistical-analysis-course/ru/slides/04_central_limit_theorem.html, exercises: /statistical-analysis-course/ru/slides/exercises/04_central_limit_theorem_exercises.html,
-    pdf: /statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.pdf, chapter: /statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.html, video: XMpp4KFtO8c, seconds: 3444}
-  - {n: '05', title: Когда гаусс не возникает, slides: /statistical-analysis-course/ru/slides/05_non_gaussian_clt_violations.html, exercises: /statistical-analysis-course/ru/slides/exercises/05_non_gaussian_clt_violations_exercises.html, pdf: /statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.pdf,
-    chapter: /statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html, video: 3_B_CiVg5_o, seconds: 4561}
-  - {n: '06', title: Распространение ошибок, slides: /statistical-analysis-course/ru/slides/06_error_propagation.html, exercises: /statistical-analysis-course/ru/slides/exercises/06_error_propagation_exercises.html, pdf: /statistical-analysis-course/ru/book/chapters/06_error_propagation.pdf,
-    chapter: /statistical-analysis-course/ru/book/chapters/06_error_propagation.html}
-  - {n: '07', title: Двумерный гаусс, slides: /statistical-analysis-course/ru/slides/07_two_dimensional_gaussian.html, exercises: /statistical-analysis-course/ru/slides/exercises/07_two_dimensional_gaussian_exercises.html, pdf: /statistical-analysis-course/ru/book/chapters/07_two_dimensional_gaussian.pdf,
-    chapter: /statistical-analysis-course/ru/book/chapters/07_two_dimensional_gaussian.html}
+  - {n: '01', title: Мотивация и обзор курса, slides: /statistical-analysis-course/ru/slides/01_introduction.html, exercises: /statistical-analysis-course/ru/slides/exercises/01_introduction_exercises.html, video: OLDuaktf_xk, seconds: 2106}
+  - {n: '02', title: 'Случайные величины, распределения, моменты', slides: /statistical-analysis-course/ru/slides/02_random_distributions.html, exercises: /statistical-analysis-course/ru/slides/exercises/02_random_distributions_exercises.html, video: Vvdj7pOVBGo, seconds: 2728}
+  - {n: '03', title: Характеристические функции и суммы случайных величин, slides: /statistical-analysis-course/ru/slides/03_characteristic_functions.html, exercises: /statistical-analysis-course/ru/slides/exercises/03_characteristic_functions_exercises.html, video: qYEK6F2h7sc, seconds: 5124}
+  - {n: '04', title: Центральная предельная теорема и нормальное распределение, slides: /statistical-analysis-course/ru/slides/04_central_limit_theorem.html, exercises: /statistical-analysis-course/ru/slides/exercises/04_central_limit_theorem_exercises.html, video: XMpp4KFtO8c, seconds: 3444}
+  - {n: '05', title: Когда гаусс не возникает, slides: /statistical-analysis-course/ru/slides/05_non_gaussian_clt_violations.html, exercises: /statistical-analysis-course/ru/slides/exercises/05_non_gaussian_clt_violations_exercises.html, video: 3_B_CiVg5_o, seconds: 4561}
+  - {n: '06', title: Распространение ошибок, slides: /statistical-analysis-course/ru/slides/06_error_propagation.html, exercises: /statistical-analysis-course/ru/slides/exercises/06_error_propagation_exercises.html}
+  - {n: '07', title: Двумерный гаусс, slides: /statistical-analysis-course/ru/slides/07_two_dimensional_gaussian.html, exercises: /statistical-analysis-course/ru/slides/exercises/07_two_dimensional_gaussian_exercises.html}
   - n: 08
     title: Метод Монте-Карло и псевдоэксперименты
     slides: /statistical-analysis-course/ru/slides/08_monte_carlo_method.html
     exercises: /statistical-analysis-course/ru/slides/exercises/08_monte_carlo_method_exercises.html
-    pdf: /statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.pdf
-    chapter: /statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html
     extra:
     - {label: Ноутбук VEGAS, href: /statistical-analysis-course/ru/slides/notebooks/mc_vegas_notebook.html}
-  - {n: 09, title: Правдоподобие и оценки максимального правдоподобия, slides: /statistical-analysis-course/ru/slides/09_maximum_likelihood.html, exercises: /statistical-analysis-course/ru/slides/exercises/09_maximum_likelihood_exercises.html, pdf: /statistical-analysis-course/ru/book/chapters/09_maximum_likelihood.pdf,
-    chapter: /statistical-analysis-course/ru/book/chapters/09_maximum_likelihood.html}
-  - {n: '10', title: 'Свойства оценок, профильное правдоподобие и примеры анализа данных', slides: /statistical-analysis-course/ru/slides/10_estimator_properties_profile_likelihood.html, exercises: /statistical-analysis-course/ru/slides/exercises/10_estimator_properties_profile_likelihood_exercises.html,
-    pdf: /statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.pdf, chapter: /statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html}
-  - {n: '11', title: Метод наименьших квадратов и линейная подгонка, slides: /statistical-analysis-course/ru/slides/11_least_squares_linear_fit.html, exercises: /statistical-analysis-course/ru/slides/exercises/11_least_squares_linear_fit_exercises.html,
-    pdf: /statistical-analysis-course/ru/book/chapters/11_least_squares_linear_fit.pdf, chapter: /statistical-analysis-course/ru/book/chapters/11_least_squares_linear_fit.html}
-  - {n: '12', title: 'χ²-интервалы, систематики и практический рецепт МНК', slides: /statistical-analysis-course/ru/slides/12_least_squares_systematics.html, exercises: /statistical-analysis-course/ru/slides/exercises/12_least_squares_systematics_exercises.html,
-    pdf: /statistical-analysis-course/ru/book/chapters/12_least_squares_systematics.pdf, chapter: /statistical-analysis-course/ru/book/chapters/12_least_squares_systematics.html}
-  - {n: '13', title: Качество согласия и статистическая значимость, slides: /statistical-analysis-course/ru/slides/13_goodness_of_fit_and_significance.html, exercises: /statistical-analysis-course/ru/slides/exercises/13_goodness_of_fit_and_significance_exercises.html,
-    pdf: /statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.pdf, chapter: /statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html}
+  - {n: 09, title: Правдоподобие и оценки максимального правдоподобия, slides: /statistical-analysis-course/ru/slides/09_maximum_likelihood.html, exercises: /statistical-analysis-course/ru/slides/exercises/09_maximum_likelihood_exercises.html}
+  - {n: '10', title: 'Свойства оценок, профильное правдоподобие и примеры анализа данных', slides: /statistical-analysis-course/ru/slides/10_estimator_properties_profile_likelihood.html, exercises: /statistical-analysis-course/ru/slides/exercises/10_estimator_properties_profile_likelihood_exercises.html}
+  - {n: '11', title: Метод наименьших квадратов и линейная подгонка, slides: /statistical-analysis-course/ru/slides/11_least_squares_linear_fit.html, exercises: /statistical-analysis-course/ru/slides/exercises/11_least_squares_linear_fit_exercises.html}
+  - {n: '12', title: 'χ²-интервалы, систематики и практический рецепт МНК', slides: /statistical-analysis-course/ru/slides/12_least_squares_systematics.html, exercises: /statistical-analysis-course/ru/slides/exercises/12_least_squares_systematics_exercises.html}
+  - {n: '13', title: Качество согласия и статистическая значимость, slides: /statistical-analysis-course/ru/slides/13_goodness_of_fit_and_significance.html, exercises: /statistical-analysis-course/ru/slides/exercises/13_goodness_of_fit_and_significance_exercises.html}
   lectures_en:
   - {n: '01', title: Introduction, slides: /statistical-analysis-course/en/slides/lecture-01-introduction.html}
   - {n: '02', title: Probability and Bayes, slides: /statistical-analysis-course/en/slides/lecture-02-probability-bayes.html}
@@ -515,11 +501,7 @@ courses:
   - {n: '13', title: Interval estimation and limits, slides: /statistical-analysis-course/en/slides/lecture-13-interval-estimation-and-limits.html}
   - {n: '14', title: Nuisance parameters and systematics, slides: /statistical-analysis-course/en/slides/lecture-14-nuisance-parameters-and-systematics.html}
   - {n: '15', title: Bayesian examples, slides: /statistical-analysis-course/en/slides/lecture-15-bayesian-examples.html}
-  book:
-    title: {ru: Статистический анализ данных, en: Statistical Data Analysis}
-    href: /statistical-analysis-course/ru/book/index.html
-    href_en: /statistical-analysis-course/en/book/
-    note: {ru: 'Онлайн-книга к курсу: главы с задачами, PDF каждой главы.', en: The online book of the course.}
+  book_pending: true
   related: []
 - slug: neutrino-introduction
   anchor: neutrino-introduction
@@ -537,15 +519,14 @@ courses:
   - {label: Problems (Russian), href: /neutrinophysics/introduction/ru/exercises/index.html}
   - {label: Applets (Russian), href: /neutrinophysics/introduction/ru/applets/index.html}
   lectures:
-  - {n: '01', title: Нейтрино. Первое знакомство, slides: /neutrinophysics/introduction/ru/slides/01_neutrino_first_contact.html, exercises: /neutrinophysics/introduction/ru/exercises/01_neutrino_first_contact_exercises.html, chapter: /neutrinophysics/introduction/ru/book/chapters/01_neutrino_first_contact.html}
-  - {n: '02', title: Слабое взаимодействие. Нарушение пространственной чётности, slides: /neutrinophysics/introduction/ru/slides/02_parity_violation.html, exercises: /neutrinophysics/introduction/ru/exercises/02_parity_violation_exercises.html, chapter: /neutrinophysics/introduction/ru/book/chapters/02_parity_violation.html}
+  - {n: '01', title: Нейтрино. Первое знакомство, slides: /neutrinophysics/introduction/ru/slides/01_neutrino_first_contact.html, exercises: /neutrinophysics/introduction/ru/exercises/01_neutrino_first_contact_exercises.html}
+  - {n: '02', title: Слабое взаимодействие. Нарушение пространственной чётности, slides: /neutrinophysics/introduction/ru/slides/02_parity_violation.html, exercises: /neutrinophysics/introduction/ru/exercises/02_parity_violation_exercises.html}
   - n: '03'
     title: Спин нейтрино. Спиральность и поляризация
     slides: /neutrinophysics/introduction/ru/slides/03_neutrino_spin.html
     exercises: /neutrinophysics/introduction/ru/exercises/03_neutrino_spin_exercises.html
     extra:
     - {label: Ядерный резонанс, href: /neutrinophysics/introduction/ru/applets/resonance-filter.html}
-    chapter: /neutrinophysics/introduction/ru/book/chapters/03_neutrino_spin.html
   - n: '04'
     title: Прямое измерение массы нейтрино. Кинематика β-спектра
     slides: /neutrinophysics/introduction/ru/slides/04_neutrino_mass_kinematics.html
@@ -554,7 +535,6 @@ courses:
     - {label: Функция Ферми, href: /neutrinophysics/introduction/ru/applets/fermi-function.html}
     - {label: Массовые пороги, href: /neutrinophysics/introduction/ru/applets/mass-spectrum.html}
     - {label: Конец β-спектра, href: /neutrinophysics/introduction/ru/applets/beta-endpoint-resolution.html}
-    chapter: /neutrinophysics/introduction/ru/book/chapters/04_neutrino_mass_kinematics.html
   - n: '05'
     title: Прямое измерение массы нейтрино. Ведём электрон к детектору
     slides: /neutrinophysics/introduction/ru/slides/05_electron_to_detector.html
@@ -562,7 +542,6 @@ courses:
     extra:
     - {label: Циклотронное движение, href: /neutrinophysics/introduction/ru/applets/cyclotron-motion.html}
     - {label: Плоский ротатор, href: /neutrinophysics/introduction/ru/applets/planar-rotor.html}
-    chapter: /neutrinophysics/introduction/ru/book/chapters/05_electron_to_detector.html
   - n: '06'
     title: Прямое измерение массы нейтрино. MAC-E-спектрометр
     slides: /neutrinophysics/introduction/ru/slides/06_mac_e_spectrometer.html
@@ -570,14 +549,12 @@ courses:
     extra:
     - {label: Адиабатический инвариант, href: /neutrinophysics/introduction/ru/applets/adiabatic-trough.html}
     - {label: Радиационные пояса, href: /neutrinophysics/introduction/ru/applets/radiation-belts.html}
-    chapter: /neutrinophysics/introduction/ru/book/chapters/06_mac_e_spectrometer.html
   - n: '07'
     title: Прямое измерение массы нейтрино. Эксперимент KATRIN
     slides: /neutrinophysics/introduction/ru/slides/07_katrin.html
     exercises: /neutrinophysics/introduction/ru/exercises/07_katrin_exercises.html
     extra:
     - {label: Интегральный спектр, href: /neutrinophysics/introduction/ru/applets/katrin-integral-spectrum.html}
-    chapter: /neutrinophysics/introduction/ru/book/chapters/07_katrin.html
   - n: 08
     title: Прямое измерение массы нейтрино. Другие способы взвесить нейтрино
     slides: /neutrinophysics/introduction/ru/slides/08_alternative_neutrino_mass.html
@@ -587,36 +564,31 @@ courses:
     - {label: Боковые частоты, href: /neutrinophysics/introduction/ru/applets/cres-sidebands.html}
     - {label: Частотный трек, href: /neutrinophysics/introduction/ru/applets/cres-frequency-track.html}
     - {label: Времена прилёта, href: /neutrinophysics/introduction/ru/applets/sn-mass-likelihood.html}
-    chapter: /neutrinophysics/introduction/ru/book/chapters/08_alternative_neutrino_mass.html
   - n: 09
     title: Осцилляции в вакууме. Два флэйвора
     slides: /neutrinophysics/introduction/ru/slides/09_vacuum_two_flavors.html
     exercises: /neutrinophysics/introduction/ru/exercises/09_vacuum_oscillations_exercises.html
     extra:
     - {label: Апплеты, href: /neutrinophysics/introduction/ru/applets/two-flavor-oscillations.html}
-    chapter: /neutrinophysics/introduction/ru/book/chapters/09_vacuum_two_flavors.html
   - n: '10'
     title: Осцилляции в вакууме. Три флэйвора и матрица PMNS
     slides: /neutrinophysics/introduction/ru/slides/10_vacuum_pmns.html
     exercises: /neutrinophysics/introduction/ru/exercises/10_vacuum_pmns_exercises.html
     extra:
     - {label: Апплет, href: /neutrinophysics/introduction/ru/applets/flavor-triangle.html}
-    chapter: /neutrinophysics/introduction/ru/book/chapters/10_vacuum_pmns.html
-  - {n: '11', title: Осцилляции в веществе. Откуда берётся преломление, slides: /neutrinophysics/introduction/ru/slides/11_matter_refraction.html, chapter: /neutrinophysics/introduction/ru/book/chapters/11_matter_refraction.html}
+  - {n: '11', title: Осцилляции в веществе. Откуда берётся преломление, slides: /neutrinophysics/introduction/ru/slides/11_matter_refraction.html}
   - n: '12'
     title: Осцилляции в веществе. Постоянная плотность
     slides: /neutrinophysics/introduction/ru/slides/12_matter_constant_density.html
     extra:
     - {label: Апплет, href: /neutrinophysics/introduction/ru/applets/matter-constant.html}
-    chapter: /neutrinophysics/introduction/ru/book/chapters/12_matter_constant_density.html
   - n: '13'
     title: Осцилляции в веществе. Адиабатический MSW-эффект
     slides: /neutrinophysics/introduction/ru/slides/13_matter_adiabatic_msw.html
     extra:
     - {label: Апплет, href: /neutrinophysics/introduction/ru/applets/matter-adiabatic.html}
-    chapter: /neutrinophysics/introduction/ru/book/chapters/13_matter_adiabatic_msw.html
-  - {n: '14', title: Осцилляции в веществе. Интерференция и маятники, slides: /neutrinophysics/introduction/ru/slides/14_matter_interference_pendulums.html, chapter: /neutrinophysics/introduction/ru/book/chapters/14_matter_interference_pendulums.html}
-  - {n: '15', title: Осцилляции в веществе. Три флэйвора, slides: /neutrinophysics/introduction/ru/slides/15_matter_three_flavors.html, chapter: /neutrinophysics/introduction/ru/book/chapters/15_matter_three_flavors.html}
+  - {n: '14', title: Осцилляции в веществе. Интерференция и маятники, slides: /neutrinophysics/introduction/ru/slides/14_matter_interference_pendulums.html}
+  - {n: '15', title: Осцилляции в веществе. Три флэйвора, slides: /neutrinophysics/introduction/ru/slides/15_matter_three_flavors.html}
   lectures_en:
   - {n: '01', title: Neutrino 101, slides: /neutrinophysics/introduction/Introduction/index.html}
   - {n: '02', title: Parity, slides: /neutrinophysics/introduction/Parity/index.html}
@@ -644,46 +616,7 @@ courses:
   - {n: '24', title: Neutrinos as a Window to New Physics, slides: /neutrinophysics/introduction/en/slides/24_new_physics.html}
   - {n: '25', title: Neutrino Tomography, slides: /neutrinophysics/introduction/en/slides/25_neutrino_tomography.html}
   - {n: '26', title: Reactors as Monitoring Tools, slides: /neutrinophysics/introduction/en/slides/26_reactor_monitoring.html}
-  book:
-    title: {ru: Введение в физику нейтрино, en: Introduction to Neutrino Physics}
-    href: /neutrinophysics/introduction/ru/book/
-    note: {ru: 'Онлайн-книга к курсу, главы пополняются.', en: 'The online book of the course (in Russian), in progress.'}
-    chapters:
-    - {title: Нейтрино. Первое знакомство, href: /neutrinophysics/introduction/ru/book/chapters/01_neutrino_first_contact.html}
-    - {title: Слабое взаимодействие. Нарушение пространственной чётности, href: /neutrinophysics/introduction/ru/book/chapters/02_parity_violation.html}
-    - {title: Спин нейтрино. Спиральность и поляризация, href: /neutrinophysics/introduction/ru/book/chapters/03_neutrino_spin.html}
-    - {title: Кинематика β-спектра, href: /neutrinophysics/introduction/ru/book/chapters/04_neutrino_mass_kinematics.html}
-    - {title: Ведём электрон к детектору, href: /neutrinophysics/introduction/ru/book/chapters/05_electron_to_detector.html}
-    - {title: MAC-E-спектрометр, href: /neutrinophysics/introduction/ru/book/chapters/06_mac_e_spectrometer.html}
-    - {title: Эксперимент KATRIN, href: /neutrinophysics/introduction/ru/book/chapters/07_katrin.html}
-    - {title: Другие способы взвесить нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/08_alternative_neutrino_mass.html}
-    - {title: Два флэйвора, href: /neutrinophysics/introduction/ru/book/chapters/09_vacuum_two_flavors.html}
-    - {title: Три флэйвора и матрица PMNS, href: /neutrinophysics/introduction/ru/book/chapters/10_vacuum_pmns.html}
-    - {title: Преломление нейтрино в веществе, href: /neutrinophysics/introduction/ru/book/chapters/11_matter_refraction.html}
-    - {title: Нейтрино в веществе постоянной плотности, href: /neutrinophysics/introduction/ru/book/chapters/12_matter_constant_density.html}
-    - {title: Адиабатический MSW-эффект, href: /neutrinophysics/introduction/ru/book/chapters/13_matter_adiabatic_msw.html}
-    - {title: 'Интерференция, мгновенные моды и маятники', href: /neutrinophysics/introduction/ru/book/chapters/14_matter_interference_pendulums.html}
-    - {title: Три нейтрино в веществе, href: /neutrinophysics/introduction/ru/book/chapters/15_matter_three_flavors.html}
-    - {title: Парадоксы и тонкости осцилляций нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/16_oscillation_paradoxes.html}
-    - {title: Нейтрино в Стандартной модели, href: /neutrinophysics/introduction/ru/book/chapters/17_standard_model_neutrinos.html}
-    - {title: Электромагнитные свойства нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/18_electromagnetic_properties.html}
-    - {title: Стерильные нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/19_sterile_neutrinos.html}
-    - {title: Взаимодействие нейтрино с веществом, href: /neutrinophysics/introduction/ru/book/chapters/20_neutrino_interactions.html}
-    - {title: Экспериментальные методы детектирования, href: /neutrinophysics/introduction/ru/book/chapters/21_detection_methods.html}
-    - {title: Солнечные нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/22_solar_neutrinos.html}
-    - {title: Атмосферные нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/23_atmospheric_neutrinos.html}
-    - {title: Ускорительные нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/24_accelerator_neutrinos.html}
-    - {title: Реакторные нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/25_reactor_neutrinos.html}
-    - {title: Геофизические нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/26_geophysical_neutrinos.html}
-    - {title: Безнейтринный двойной бета-распад, href: /neutrinophysics/introduction/ru/book/chapters/27_neutrinoless_double_beta_decay.html}
-    - {title: Реликтовые нейтрино, href: /neutrinophysics/introduction/ru/book/chapters/28_relic_neutrinos.html}
-    - {title: Астрофизические нейтрино сверхвысоких энергий, href: /neutrinophysics/introduction/ru/book/chapters/29_uhe_astrophysical_neutrinos.html}
-    - {title: Нейтрино от сверхновой, href: /neutrinophysics/introduction/ru/book/chapters/30_supernova_neutrinos.html}
-    - {title: Глобальный анализ, href: /neutrinophysics/introduction/ru/book/chapters/31_global_analysis.html}
-    - {title: Смешивание и CP-нарушение, href: /neutrinophysics/introduction/ru/book/chapters/32_mixing_cp_violation.html}
-    - {title: Нейтрино как окно в новую физику, href: /neutrinophysics/introduction/ru/book/chapters/33_new_physics.html}
-    - {title: Нейтринная томография, href: /neutrinophysics/introduction/ru/book/chapters/34_neutrino_tomography.html}
-    - {title: Реакторы как мониторинг, href: /neutrinophysics/introduction/ru/book/chapters/35_reactor_monitoring.html}
+  book_pending: true
   related: [oscillations-minicourse, solar-neutrino-masterclass, neutrino-oscillation-theory]
   reading: neutrino-literature
 - slug: oscillations-minicourse
@@ -825,16 +758,12 @@ courses:
   materials_lang: ru
   title: {ru: 'Физика элементарных частиц: большой курс', en: 'Particle Physics: Full Course'}
   summary: {ru: 'Будущий полный курс по физике элементарных частиц: слайды, книга, задачи, апплеты и экзаменационные проекты.', en: 'The future full course on particle physics: slides, book, problems, applets and exam projects.'}
-  status_note: {ru: 'Курс готовится: лекции появятся здесь по мере готовности. Пока опубликованы заготовки слайдов и книги.', en: The course is in preparation; lectures will appear here as they are ready. Slide and book scaffolds are online.}
+  status_note: {ru: 'Курс готовится: лекции появятся здесь по мере готовности. Пока опубликованы заготовки слайдов.', en: The course is in preparation; lectures will appear here as they are ready. Slide scaffolds are online.}
   links:
   - label: {ru: Слайды, en: Slides}
     href: /particlephysics/ParticlePhysics/ru/slides/
     href_en: /particlephysics/ParticlePhysics/en/slides/index.html
-  book:
-    title: {ru: Физика элементарных частиц, en: Particle Physics}
-    href: /particlephysics/ParticlePhysics/ru/book/index.html
-    href_en: /particlephysics/ParticlePhysics/en/book/
-    note: {ru: 'Онлайн-книга к курсу, в работе.', en: 'The online book of the course, in progress.'}
+  book_pending: true
   lectures: []
   related: [particle-physics-baikal]
   anchor: particle-physics-course
@@ -855,29 +784,7 @@ courses:
     title: Световые сигналы у горизонта чёрной дыры
     slides: /gravity/ru/slides/01_radial_signals.html
     note: {ru: черновик, en: draft}
-  book:
-    title: {ru: Гравитация, en: Gravity}
-    href: /gravity/ru/book/
-    note: {ru: 'Онлайн-книга к курсу, в работе.', en: 'The online book of the course (in Russian), in progress.'}
-    chapters:
-    - {title: Гравитация как экспериментальная наука, href: /gravity/ru/book/chapters/01_gravity_as_experiment.html}
-    - {title: Геометрия Минковского из световых сигналов, href: /gravity/ru/book/chapters/02_minkowski_signals.html}
-    - {title: Четырёх-импульс и релятивистская кинематика, href: /gravity/ru/book/chapters/03_four_momentum.html}
-    - {title: Ускоренные наблюдатели и принцип эквивалентности, href: /gravity/ru/book/chapters/04_acceleration_equivalence.html}
-    - {title: 'Координаты, метрика и локальная система отсчёта', href: /gravity/ru/book/chapters/05_metric_local_frame.html}
-    - {title: Геодезические и приливные силы, href: /gravity/ru/book/chapters/06_geodesics_tides.html}
-    - {title: Кривизна и уравнения Эйнштейна, href: /gravity/ru/book/chapters/07_curvature_einstein.html}
-    - {title: Слабое поле и параметризованные проверки, href: /gravity/ru/book/chapters/08_weak_field_tests.html}
-    - {title: Геометрия Шварцшильда и классические тесты, href: /gravity/ru/book/chapters/09_schwarzschild_tests.html}
-    - {title: Часы и релятивистская навигация, href: /gravity/ru/book/chapters/10_clocks_navigation.html}
-    - {title: 'Горизонт: координаты, сигналы и причинность', href: /gravity/ru/book/chapters/11_horizons_signals.html}
-    - {title: Вращение и окрестность компактного объекта, href: /gravity/ru/book/chapters/12_rotating_black_holes.html}
-    - {title: Линеаризованная гравитация и волны, href: /gravity/ru/book/chapters/13_gravitational_waves.html}
-    - {title: Компактные двойные и генерация сигнала, href: /gravity/ru/book/chapters/14_compact_binaries.html}
-    - {title: Интерферометр как измерительный прибор, href: /gravity/ru/book/chapters/15_interferometers.html}
-    - {title: От данных к проверке ОТО, href: /gravity/ru/book/chapters/16_testing_gr.html}
-    - {title: Однородная Вселенная и космологические расстояния, href: /gravity/ru/book/chapters/17_relativistic_cosmology.html}
-    - {title: Наблюдательная космология и границы модели, href: /gravity/ru/book/chapters/18_observational_cosmology.html}
+  book_pending: true
   related: [light-propagation, numerical-methods]
 - slug: light-propagation
   anchor: light-propagation
@@ -901,18 +808,11 @@ courses:
   ready: false
   materials_lang: ru
   title: {ru: Численные методы для физиков, en: Numerical Methods for Physicists}
-  summary: {ru: 'Как физик решает задачи, которые не берутся аналитически: одна лекция — одна физическая задача, нужные методы вводятся тогда, когда без них задача не решается. Python с Numba, лекции, задачи и онлайн-книга.', en: 'How a physicist solves
-      problems that have no analytic solution: one lecture is one physical problem, and the methods are introduced when the problem cannot be solved without them. Python with Numba, lectures, problems and an online book.'}
+  summary: {ru: 'Как физик решает задачи, которые не берутся аналитически: одна лекция — одна физическая задача, нужные методы вводятся тогда, когда без них задача не решается. Python с Numba, лекции и задачи.', en: 'How a physicist solves
+      problems that have no analytic solution: one lecture is one physical problem, and the methods are introduced when the problem cannot be solved without them. Python with Numba, lectures and problems.'}
   tile: {ru: Одна лекция — одна физическая задача; Python с Numba., en: 'One lecture, one physics problem; Python with Numba.'}
   lectures:
-  - {n: '01', title: 'Python, NumPy и Numba', slides: /numerical_methods/ru/slides/01_python_numpy_numba.html, chapter: /numerical_methods/ru/book/chapters/01_python_numpy_numba.html}
+  - {n: '01', title: 'Python, NumPy и Numba', slides: /numerical_methods/ru/slides/01_python_numpy_numba.html}
   lectures_en: []
-  book:
-    title: {ru: Численные методы для физиков, en: Numerical Methods for Physicists}
-    href: /numerical_methods/ru/book/
-    href_en: /numerical_methods/en/book/
-    note: {ru: 'Онлайн-книга к курсу, в работе.', en: 'The online book of the course, in progress.'}
-    chapters:
-    - {title: 'Python, NumPy и Numba', href: /numerical_methods/ru/book/chapters/01_python_numpy_numba.html}
-    chapters_en: []
+  book_pending: true
   related: [gravity, light-propagation]

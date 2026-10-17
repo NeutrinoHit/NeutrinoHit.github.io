@@ -5,7 +5,8 @@ The catalog lists the sections of the education page and every lecture course.
 Each course becomes ru/courses/<slug>.qmd and en/courses/<slug>.qmd: a header
 with the course links, a table of contents (number, topic, slides, PDF, video,
 problems, book chapter, further materials; only the columns the course has),
-the book with its chapters, further materials and related courses.
+the book with its chapters (or one line for a book in preparation, "book_pending"),
+further materials and related courses.
 ru/education.qmd and en/education.qmd get one tile per course, grouped by
 section; each tile keeps the anchor the old page had, so existing links and
 slide footers still land on it.
@@ -44,7 +45,8 @@ T = {
         "in_lang": {"en": "лекции на английском", "ru": None},
         "extra_of": lambda n: f"К лекции {n}",
         "aria_video": lambda n: f"Видео лекции {n}",
-        "book_short": "онлайн‑книга",
+        "book_short": "книга",
+        "book_pending": "Книга к курсу готовится.",
         "programs": "Программы",
     },
     "en": {
@@ -61,7 +63,8 @@ T = {
         "in_lang": {"ru": "lectures in Russian", "en": None},
         "extra_of": lambda n: f"For lecture {n}",
         "aria_video": lambda n: f"Video of lecture {n}",
-        "book_short": "online book",
+        "book_short": "book",
+        "book_pending": "A book for the course is in preparation.",
         "programs": "Programs",
     },
 }
@@ -224,6 +227,8 @@ def page(course: dict, catalog: dict, lang: str) -> str:
                 out.append(f'      <li><a href="{e(href(chapter, lang))}">{e(tr(chapter["title"], lang))}</a></li>')
             out.append("    </ol>")
         out.append("  </div>")
+    elif course.get("book_pending"):
+        out.append(f'  <p class="course-book-line">{t["book_pending"]}</p>')
 
     if course.get("reading"):
         reading = (ROOT / "_includes" / f"{course['reading']}-{lang}.html").read_text(encoding="utf-8").strip()

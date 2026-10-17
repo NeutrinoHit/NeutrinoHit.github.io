@@ -50,7 +50,7 @@ toc: false
   </div>
   <h2 class="course-page-section">Ещё в этом разделе</h2>
   <nav class="course-tiles">
-    <div class="course-tile"><span class="course-tile-status is-ready">Курс</span><a class="course-tile-title" href="neutrino-introduction.html">Введение в физику нейтрино</a><span class="course-tile-text">Слабое взаимодействие, масса нейтрино, осцилляции в вакууме и веществе.</span><span class="course-tile-meta">15 лекций · <a class="course-tile-book" href="../../neutrinophysics/introduction/ru/book/">онлайн‑книга</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Курс</span><a class="course-tile-title" href="neutrino-introduction.html">Введение в физику нейтрино</a><span class="course-tile-text">Слабое взаимодействие, масса нейтрино, осцилляции в вакууме и веществе.</span><span class="course-tile-meta">15 лекций</span></div>
     <div class="course-tile"><span class="course-tile-status is-ready">Мини-курс · англ.</span><a class="course-tile-title" href="oscillations-minicourse.html">Осцилляции нейтрино: от вакуума до ядра Земли</a><span class="course-tile-text">Вакуум, вещество и Солнце, нейтринные зонды недр Земли.</span><span class="course-tile-meta">3 лекции</span></div>
     <div class="course-tile"><span class="course-tile-status">Планируется</span><a class="course-tile-title" href="neutrino-oscillation-theory.html">Теория осцилляций нейтрино в КТП</a><span class="course-tile-text">Будущий специализированный курс по квантово-полевому описанию нейтринных осцилляций.</span></div>
   </nav>

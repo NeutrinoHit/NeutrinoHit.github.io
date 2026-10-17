@@ -1794,6 +1794,91 @@ a.course-tile-title:hover {
   display: block;
 }
 
+.book-wip-lead {
+  color: #53616f;
+}
+
+.book-wip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
+  gap: 0.9rem;
+  margin: 1rem 0 2rem;
+}
+
+.book-wip {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+  padding: 0.9rem;
+  border: 1px solid rgba(43, 67, 91, 0.16);
+  border-radius: 8px;
+  background: #ffffff;
+  scroll-margin-top: 5rem;
+}
+
+.book-wip:target {
+  border-color: #1f6f78;
+  box-shadow: 0 6px 18px rgba(43, 67, 91, 0.1);
+}
+
+/* Quarto's navbar script adds :target::before as a scroll offset; in this grid it would take the cover cell. */
+.book-wip:target::before {
+  content: none;
+  display: none;
+}
+
+.book-wip-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(43, 67, 91, 0.15);
+  border-radius: 3px;
+  box-shadow: 0 6px 14px rgba(23, 57, 96, 0.14);
+}
+
+.book-wip-body h3 {
+  margin: 0.3rem 0 0.35rem;
+  color: #25313a;
+  font-size: 1.08rem;
+  font-weight: 760;
+  line-height: 1.28;
+}
+
+.book-wip-sub,
+.book-wip-authors {
+  margin: 0 0 0.4rem;
+  color: #53616f;
+  font-size: 0.9rem;
+  line-height: 1.42;
+}
+
+.book-wip-authors {
+  color: #344654;
+  font-weight: 650;
+}
+
+.book-wip-links {
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+}
+
+.book-wip-links a {
+  color: #1f6f78;
+  font-weight: 650;
+}
+
+@media (max-width: 420px) {
+  .book-wip-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .book-wip {
+    grid-template-columns: 6.2rem minmax(0, 1fr);
+    gap: 0.8rem;
+  }
+}
+
 .book-course-qft > summary,
 .book-course-qft > .lecture-course-head {
   background: linear-gradient(90deg, rgba(111, 82, 154, 0.15), rgba(255, 255, 255, 0.95) 68%);
