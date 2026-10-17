@@ -11,66 +11,48 @@ toc: false
     works in progress.
   </p>
 
-  <section class="lecture-course-list" aria-label="Books catalog">
-    <details class="lecture-course book-course-qft">
-      <summary>
-        <span class="lecture-course-status">Textbook · published in Russian</span>
-        <span class="lecture-course-title">Quantum Field Theory for Experimentalists and More</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>A practical two-volume textbook with examples, problems, and solutions. The Russian edition is published; the English edition is in preparation.</p>
-        <div class="book-cover-spread" aria-label="Quantum field theory textbook cover">
-          <img src="../assets/books/qft-cover-front.jpg" alt="Front cover of the quantum field theory textbook">
-          <img src="../assets/books/qft-cover-back.jpg" alt="Back cover of the quantum field theory textbook">
-        </div>
-        <div class="lecture-material-list">
-          <details class="lecture-material">
-            <summary>Russian edition</summary>
-            <div class="lecture-material-body">
-              <p>The two Russian volumes are available in print and electronic formats.</p>
-              <div class="lecture-material-list">
-                <details class="lecture-material">
-                  <summary>Print edition for Russia</summary>
-                  <div class="lecture-material-body">
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Volume 1</a>
-                      <a href="https://shop.rcd.ru/catalog/fizika/20097/">Volume 2</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>ROSPEX Publishing</summary>
-                  <div class="lecture-material-body">
-                    <div class="lecture-course-actions">
-                      <a href="https://rospexpublishing.com/books/qft-volume-1.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Volume 1</a>
-                      <a href="https://rospexpublishing.com/books/qft-volume-2.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Volume 2</a>
-                      <a class="lecture-action-primary" href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">Bundle</a>
-                    </div>
-                  </div>
-                </details>
-                <details class="lecture-material">
-                  <summary>Google Play Books</summary>
-                  <div class="lecture-material-body">
-                    <div class="lecture-course-actions">
-                      <a class="lecture-action-primary" href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ">Volume 1</a>
-                      <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ">Volume 2</a>
-                    </div>
-                  </div>
-                </details>
-              </div>
-            </div>
-          </details>
-          <details class="lecture-material">
-            <summary>English edition</summary>
-            <div class="lecture-material-body">
-              <p>In preparation.</p>
-            </div>
-          </details>
-        </div>
-      </div>
-    </details>
+  <nav class="course-tiles" aria-label="Books">
+    <div class="course-tile"><span class="course-tile-status is-ready">Textbook · 2 volumes · Russian</span><a class="course-tile-title" href="#qft-book">Quantum Field Theory for Experimentalists and Beyond</a><span class="course-tile-text">From the foundations to renormalization, anomalies and functional integrals, with problems.</span><span class="course-tile-meta">IKI, 2026 · <a class="course-tile-book" href="../qr/qft/">38 animations</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Popular science · Russian</span><a class="course-tile-title" href="#solar-neutrino-book">Solar Neutrino</a><span class="course-tile-text">A children’s book about neutrinos, the Sun and the big physics of tiny particles.</span><span class="course-tile-meta">AVANTA/AST, 2023</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Online book · Russian · in progress</span><a class="course-tile-title" href="../neutrinophysics/introduction/ru/book/">Introduction to Neutrino Physics</a><span class="course-tile-text">The book of the introductory neutrino physics course.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/neutrino-physics/">56 QR items</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Online book · in progress</span><a class="course-tile-title" href="../statistical-analysis-course/en/book/">Statistical Data Analysis</a><span class="course-tile-text">Probability models, estimation and hypothesis testing in experimental physics.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/statistics/">36 QR items</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Online book · in progress</span><a class="course-tile-title" href="../particlephysics/ParticlePhysics/en/book/">Particle Physics</a><span class="course-tile-text">The book of the full particle physics course.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/particle-physics/">28 animations</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">Online book · Russian · in progress</span><a class="course-tile-title" href="../gravity/ru/book/">Gravity</a><span class="course-tile-text">The book of the general relativity course.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/gravity/">6 animations</a></span></div>
+    <div class="course-tile"><span class="course-tile-status">Online book · in progress</span><a class="course-tile-title" href="../numerical_methods/en/book/">Numerical Methods for Physicists</a><span class="course-tile-text">One chapter, one physics problem.</span><span class="course-tile-meta">RU / EN</span></div>
+  </nav>
 
-    <details class="lecture-course book-course-solar">
+  <section id="qft-book" class="book-showcase" aria-label="Quantum Field Theory for Experimentalists and Beyond">
+    <div class="book-showcase-covers">
+      <img src="../assets/books/qft-cover-front.jpg" alt="Front cover of the quantum field theory textbook">
+      <img src="../assets/books/qft-cover-back.jpg" alt="Back cover of the quantum field theory textbook">
+    </div>
+    <div class="book-showcase-body">
+      <span class="course-tile-status is-ready">Textbook · published in Russian</span>
+      <h2>Quantum Field Theory for Experimentalists and Beyond</h2>
+      <p>A textbook of quantum field theory for theorists and experimentalists, from the foundations to renormalization, anomalies and functional integrals, with emphasis on the connection to experiment, with problems and QR codes leading to animations.</p>
+      <dl class="book-showcase-facts">
+        <dt>Russian edition</dt>
+        <dd>«Квантовая теория поля для экспериментаторов и не только», two volumes, Izhevsk: IKI, 2026, hardcover; vol. 1, 534 pp., vol. 2, 514 pp. ISBN <span class="nowrap">978-5-4344-1081-6</span> (vol. 1), <span class="nowrap">978-5-4344-1082-3</span> (vol. 2).</dd>
+        <dt>Problems</dt>
+        <dd>346 problems: 189 in vol. 1, 157 in vol. 2.</dd>
+        <dt>English edition</dt>
+        <dd>An English edition is in preparation.</dd>
+        <dt>With the book</dt>
+        <dd><a href="../qr/qft/">animations behind the QR codes</a> · <a href="education.html#qft-course">QFT video courses (Russian)</a></dd>
+      </dl>
+      <div class="lecture-course-actions">
+        <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Buy vol. 1 (Russia)</a>
+        <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20097/">Buy vol. 2 (Russia)</a>
+        <a href="https://rospexpublishing.com/books/qft-bundle.html?utm_source=neutrinohit&amp;utm_medium=website&amp;utm_campaign=qft_book">ROSPEX: both volumes</a>
+        <a href="https://play.google.com/store/books/details?id=uLXTEQAAQBAJ">Google Play: vol. 1</a>
+        <a href="https://play.google.com/store/books/details?id=KrbTEQAAQBAJ">Google Play: vol. 2</a>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="section-inline-title">Other books</h2>
+  <section class="lecture-course-list" aria-label="Books catalog">
+    <details id="solar-neutrino-book" class="lecture-course book-course-solar">
       <summary>
         <span class="lecture-course-status">Popular science · published in Russian</span>
         <span class="lecture-course-title">Solar Neutrino</span>
@@ -94,9 +76,10 @@ toc: false
         <span class="lecture-course-title">Introduction to Neutrino Physics</span>
       </summary>
       <div class="lecture-course-body">
-        <p>The book is in preparation. The working private repository is available to the author.</p>
+        <p>The online book of the introductory course (in Russian); a printed edition is in preparation.</p>
         <div class="lecture-course-actions">
-          <a href="https://github.com/dmitryvnaumov/NEUTRINObook">Private repository</a>
+          <a class="lecture-action-primary" href="../neutrinophysics/introduction/ru/book/">Open the book (Russian)</a>
+          <a href="../qr/neutrino-physics/">QR materials</a>
         </div>
       </div>
     </details>
@@ -107,7 +90,11 @@ toc: false
         <span class="lecture-course-title">Introduction to Particle Physics</span>
       </summary>
       <div class="lecture-course-body">
-        <p>The book is in preparation.</p>
+        <p>The online book of the full course; a printed edition is in preparation.</p>
+        <div class="lecture-course-actions">
+          <a class="lecture-action-primary" href="../particlephysics/ParticlePhysics/en/book/">Open the book</a>
+          <a href="../qr/particle-physics/">QR materials</a>
+        </div>
       </div>
     </details>
 
