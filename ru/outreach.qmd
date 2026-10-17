@@ -110,12 +110,12 @@ toc: false
                   <div class="course-lecture-card-body"><h3 class="course-lecture-title">Вселенная в нейтринном телескопе</h3><p>Фильм. Сценарист и режиссер: Дмитрий Наумов.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">YouTube</a></div></div>
                 </article>
                 <article class="course-lecture-card">
-                  <a href="https://youtu.be/ybPLBzujONA?si=QRiMUIRnwwKqxZw0"><img src="https://img.youtube.com/vi/ybPLBzujONA/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Как увеличить напряжение без трансформатора?</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/ybPLBzujONA?si=QRiMUIRnwwKqxZw0">YouTube</a></div></div>
+                  <a href="https://youtu.be/WRAEhMhGPew"><img src="https://img.youtube.com/vi/WRAEhMhGPew/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Как увеличить напряжение без трансформатора?</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/WRAEhMhGPew">YouTube</a></div></div>
                 </article>
                 <article class="course-lecture-card">
-                  <a href="https://youtu.be/-wFPbyZacts?si=jj20chjE9nmEu0uN"><img src="https://img.youtube.com/vi/-wFPbyZacts/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Тайна пропавшей энергии. Почти детективная история открытия нейтрино</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/-wFPbyZacts?si=jj20chjE9nmEu0uN">YouTube</a></div></div>
+                  <a href="https://youtu.be/ybPLBzujONA"><img src="https://img.youtube.com/vi/ybPLBzujONA/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Тайна пропавшей энергии. Почти детективная история открытия нейтрино</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/ybPLBzujONA">YouTube</a></div></div>
                 </article>
               </div>
             </div>

@@ -111,12 +111,12 @@ toc: false
                   <div class="course-lecture-card-body"><h3 class="course-lecture-title">The Universe in a Neutrino Telescope</h3><p>Film. Written and directed by Dmitry Naumov.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">YouTube</a></div></div>
                 </article>
                 <article class="course-lecture-card">
-                  <a href="https://youtu.be/ybPLBzujONA?si=QRiMUIRnwwKqxZw0"><img src="https://img.youtube.com/vi/ybPLBzujONA/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">How to increase voltage without a transformer?</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/ybPLBzujONA?si=QRiMUIRnwwKqxZw0">YouTube</a></div></div>
+                  <a href="https://youtu.be/WRAEhMhGPew"><img src="https://img.youtube.com/vi/WRAEhMhGPew/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">How to increase voltage without a transformer?</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/WRAEhMhGPew">YouTube</a></div></div>
                 </article>
                 <article class="course-lecture-card">
-                  <a href="https://youtu.be/-wFPbyZacts?si=jj20chjE9nmEu0uN"><img src="https://img.youtube.com/vi/-wFPbyZacts/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">The mystery of missing energy: almost a detective story of the neutrino discovery</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/-wFPbyZacts?si=jj20chjE9nmEu0uN">YouTube</a></div></div>
+                  <a href="https://youtu.be/ybPLBzujONA"><img src="https://img.youtube.com/vi/ybPLBzujONA/hqdefault.jpg" alt=""></a>
+                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">The mystery of missing energy: almost a detective story of the neutrino discovery</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/ybPLBzujONA">YouTube</a></div></div>
                 </article>
               </div>
             </div>
