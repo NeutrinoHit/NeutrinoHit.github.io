@@ -712,6 +712,7 @@ def render_hub(registry: dict[str, Any], built: dict[str, dict[str, Any]]) -> st
     page += f"""<footer><p><a href="/">NeutrinoHit</a></p></footer>
 </div>
 <script>{LANG_BAR_JS}</script>
+<script defer src="https://neutrinohit.github.io/assets/analytics/cloudflare-web-analytics.js"></script>
 </body>
 </html>
 """
