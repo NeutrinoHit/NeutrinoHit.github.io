@@ -2,162 +2,142 @@
   "0001": {
     "url": "https://neutrinohit.github.io/qr/statistics/0001/",
     "slug": "first-fit",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "FirstFit.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/01_why_statistics.html#interactive-first-fit"
+    "legacy_codes": []
   },
   "0002": {
     "url": "https://neutrinohit.github.io/qr/statistics/0002/",
     "slug": "cauchy-sum",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "CauchySum.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/03_characteristic_functions.html#interactive-cauchy-sum"
+    "legacy_codes": []
   },
   "0003": {
     "url": "https://neutrinohit.github.io/qr/statistics/0003/",
     "slug": "clt-fourier",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "CltFourier.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/03_characteristic_functions.html#interactive-clt-fourier"
+    "legacy_codes": []
   },
   "0004": {
     "url": "https://neutrinohit.github.io/qr/statistics/0004/",
     "slug": "clt-sums",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "CltSums.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.html#interactive-clt-sums"
+    "legacy_codes": []
   },
   "0005": {
     "url": "https://neutrinohit.github.io/qr/statistics/0005/",
     "slug": "compatibility",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "Compatibility.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.html#interactive-compatibility"
+    "legacy_codes": []
   },
   "0006": {
     "url": "https://neutrinohit.github.io/qr/statistics/0006/",
     "slug": "cauchy-mean",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "CauchyMean.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-cauchy-mean"
+    "legacy_codes": []
   },
   "0007": {
     "url": "https://neutrinohit.github.io/qr/statistics/0007/",
     "slug": "landau-tail",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "LandauTail.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-landau-tail"
+    "legacy_codes": []
   },
   "0008": {
     "url": "https://neutrinohit.github.io/qr/statistics/0008/",
     "slug": "correlated-errors",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "CorrelatedErrors.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-correlated-errors"
+    "legacy_codes": []
   },
   "0009": {
     "url": "https://neutrinohit.github.io/qr/statistics/0009/",
     "slug": "gaussian-mixture",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "GaussianMixture.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-gaussian-mixture"
+    "legacy_codes": []
   },
   "0010": {
     "url": "https://neutrinohit.github.io/qr/statistics/0010/",
     "slug": "ratio-cauchy",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "RatioCauchy.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-ratio-cauchy"
+    "legacy_codes": []
   },
   "0011": {
     "url": "https://neutrinohit.github.io/qr/statistics/0011/",
     "slug": "error-propagation-nonlinear",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "ErrorPropagationNonlinear.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/06_error_propagation.html#interactive-error-propagation-nonlinear"
+    "legacy_codes": []
   },
   "0012": {
     "url": "https://neutrinohit.github.io/qr/statistics/0012/",
     "slug": "error-propagation-sample-variance",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "ErrorPropagationSampleVariance.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/06_error_propagation.html#interactive-error-propagation-sample-variance"
+    "legacy_codes": []
   },
   "0013": {
     "url": "https://neutrinohit.github.io/qr/statistics/0013/",
     "slug": "error-propagation-correlation",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "ErrorPropagationCorrelation.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/06_error_propagation.html#interactive-error-propagation-correlation"
+    "legacy_codes": []
   },
   "0014": {
     "url": "https://neutrinohit.github.io/qr/statistics/0014/",
     "slug": "gaussian-correlation-ellipse",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "GaussianCorrelationEllipse.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/07_two_dimensional_gaussian.html#interactive-gaussian-correlation-ellipse"
+    "legacy_codes": []
   },
   "0015": {
     "url": "https://neutrinohit.github.io/qr/statistics/0015/",
     "slug": "gaussian-probability-contour",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "GaussianProbabilityContour.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/07_two_dimensional_gaussian.html#interactive-gaussian-probability-contour"
+    "legacy_codes": []
   },
   "0016": {
     "url": "https://neutrinohit.github.io/qr/statistics/0016/",
     "slug": "monte-carlo-rejection-sampling",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "MonteCarloRejectionSampling.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-rejection-sampling"
+    "legacy_codes": []
   },
   "0017": {
     "url": "https://neutrinohit.github.io/qr/statistics/0017/",
     "slug": "monte-carlo-pi",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "MonteCarloPi.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-pi"
+    "legacy_codes": []
   },
   "0018": {
     "url": "https://neutrinohit.github.io/qr/statistics/0018/",
     "slug": "monte-carlo-grid-dimension",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "MonteCarloGridDimension.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-grid-dimension"
+    "legacy_codes": []
   },
   "0019": {
     "url": "https://neutrinohit.github.io/qr/statistics/0019/",
     "slug": "monte-carlo-importance-sampling",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "MonteCarloImportanceSampling.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-importance-sampling"
+    "legacy_codes": []
   },
   "0020": {
     "url": "https://neutrinohit.github.io/qr/statistics/0020/",
     "slug": "monte-carlo-counting-experiment",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "MonteCarloCountingExperiment.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-counting-experiment"
+    "legacy_codes": []
   },
   "0021": {
     "url": "https://neutrinohit.github.io/qr/statistics/0021/",
@@ -169,121 +149,106 @@
   "0022": {
     "url": "https://neutrinohit.github.io/qr/statistics/0022/",
     "slug": "likelihood-binomial",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "LikelihoodBinomial.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/09_maximum_likelihood.html#interactive-likelihood-binomial"
+    "legacy_codes": []
   },
   "0023": {
     "url": "https://neutrinohit.github.io/qr/statistics/0023/",
     "slug": "likelihood-variance-estimators",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "LikelihoodVarianceEstimators.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html#interactive-likelihood-variance-estimators"
+    "legacy_codes": []
   },
   "0024": {
     "url": "https://neutrinohit.github.io/qr/statistics/0024/",
     "slug": "likelihood-lifetime",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "LikelihoodLifetime.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html#interactive-likelihood-lifetime"
+    "legacy_codes": []
   },
   "0025": {
     "url": "https://neutrinohit.github.io/qr/statistics/0025/",
     "slug": "likelihood-profile",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "LikelihoodProfile.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html#interactive-likelihood-profile"
+    "legacy_codes": []
   },
   "0026": {
     "url": "https://neutrinohit.github.io/qr/statistics/0026/",
     "slug": "likelihood-reactor-oscillation",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "LikelihoodReactorOscillation.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html#interactive-likelihood-reactor-oscillation"
+    "legacy_codes": []
   },
   "0027": {
     "url": "https://neutrinohit.github.io/qr/statistics/0027/",
     "slug": "least-squares-parameter-geometry",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "LeastSquaresParameterGeometry.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/11_least_squares_linear_fit.html#interactive-least-squares-parameter-geometry"
+    "legacy_codes": []
   },
   "0028": {
     "url": "https://neutrinohit.github.io/qr/statistics/0028/",
     "slug": "least-squares-outlier",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "LeastSquaresOutlier.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/11_least_squares_linear_fit.html#interactive-least-squares-outlier"
+    "legacy_codes": []
   },
   "0029": {
     "url": "https://neutrinohit.github.io/qr/statistics/0029/",
     "slug": "least-squares-delta-chi2",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "LeastSquaresDeltaChi2.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/12_least_squares_systematics.html#interactive-least-squares-delta-chi2"
+    "legacy_codes": []
   },
   "0030": {
     "url": "https://neutrinohit.github.io/qr/statistics/0030/",
     "slug": "least-squares-normalization",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "LeastSquaresNormalization.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/12_least_squares_systematics.html#interactive-least-squares-normalization"
+    "legacy_codes": []
   },
   "0031": {
     "url": "https://neutrinohit.github.io/qr/statistics/0031/",
     "slug": "goodness-chi2-shape",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "GoodnessChi2Shape.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-chi2-shape"
+    "legacy_codes": []
   },
   "0032": {
     "url": "https://neutrinohit.github.io/qr/statistics/0032/",
     "slug": "goodness-pvalue-tail",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "GoodnessPvalueTail.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-pvalue-tail"
+    "legacy_codes": []
   },
   "0033": {
     "url": "https://neutrinohit.github.io/qr/statistics/0033/",
     "slug": "goodness-pvalue-calibration",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "GoodnessPvalueCalibration.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-pvalue-calibration"
+    "legacy_codes": []
   },
   "0034": {
     "url": "https://neutrinohit.github.io/qr/statistics/0034/",
     "slug": "goodness-p-to-z-one-sided",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "GoodnessPToZOneSided.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-p-to-z-one-sided"
+    "legacy_codes": []
   },
   "0035": {
     "url": "https://neutrinohit.github.io/qr/statistics/0035/",
     "slug": "goodness-p-to-z-two-sided",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "GoodnessPToZTwoSided.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-p-to-z-two-sided"
+    "legacy_codes": []
   },
   "0036": {
     "url": "https://neutrinohit.github.io/qr/statistics/0036/",
     "slug": "goodness-low-count-calibration",
-    "hosting": "link",
+    "hosting": "pending",
     "qr_file": "GoodnessLowCountCalibration.pdf",
-    "legacy_codes": [],
-    "link": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-low-count-calibration"
+    "legacy_codes": []
   }
 }
