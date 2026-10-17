@@ -476,6 +476,162 @@ def gravity_artwork(book: dict, palette: dict, fonts: dict) -> str:
     )
 
 
+def pendulum_step(state: tuple[float, float], step: float, method: str) -> tuple[float, float]:
+    """One step of theta'' = -sin(theta) (natural frequency 1) by explicit Euler or classical RK4."""
+    def rhs(s: tuple[float, float]) -> tuple[float, float]:
+        return s[1], -math.sin(s[0])
+
+    theta, omega = state
+    if method == "euler":
+        d_theta, d_omega = rhs(state)
+        return theta + step * d_theta, omega + step * d_omega
+    k1 = rhs(state)
+    k2 = rhs((theta + step * k1[0] / 2, omega + step * k1[1] / 2))
+    k3 = rhs((theta + step * k2[0] / 2, omega + step * k2[1] / 2))
+    k4 = rhs((theta + step * k3[0], omega + step * k3[1]))
+    return (
+        theta + step * (k1[0] + 2 * k2[0] + 2 * k3[0] + k4[0]) / 6,
+        omega + step * (k1[1] + 2 * k2[1] + 2 * k3[1] + k4[1]) / 6,
+    )
+
+
+def pendulum_angle(amplitude: float, duration: float, steps: int, method: str) -> float:
+    state = (amplitude, 0.0)
+    for _ in range(steps):
+        state = pendulum_step(state, duration / steps, method)
+    return state[0]
+
+
+def numerical_artwork(book: dict, palette: dict, fonts: dict) -> str:
+    accent = book["accent"]
+    teal = palette["series_teal"]
+    ink = palette["ink"]
+    subtle = palette["subtle"]
+    pale = book["accent_pale"]
+
+    x0, x1 = 94.0, 902.0
+    y0, y1 = 82.0, 565.0
+    theta_max, omega_max = 3.6, 2.6
+
+    def map_phase(theta: float, omega: float) -> tuple[float, float]:
+        return (
+            x0 + (theta + theta_max) / (2 * theta_max) * (x1 - x0),
+            (y0 + y1) / 2 - omega / omega_max * (y1 - y0) / 2,
+        )
+
+    separatrix = []
+    for sign in (1, -1):
+        points = [
+            map_phase(theta, sign * 2 * abs(math.cos(theta / 2)))
+            for theta in (-theta_max + 2 * theta_max * i / 360 for i in range(361))
+        ]
+        separatrix.append(
+            f'<path d="{polyline_path(points)}" fill="none" stroke="{accent}" stroke-width="2.6" stroke-dasharray="9 7" opacity="0.75"/>'
+        )
+
+    # Closed orbits: RK4 over one full swing; the curves close on themselves.
+    orbits = []
+    for amplitude in (0.6, 1.2, 1.8, 2.4):
+        state, points = (amplitude, 0.0), []
+        for _ in range(1300):
+            points.append(map_phase(*state))
+            state = pendulum_step(state, 0.01, "rk4")
+        orbits.append(
+            f'<path d="{polyline_path(points)}" fill="none" stroke="{teal}" stroke-width="2.8" opacity="0.55" stroke-linecap="round"/>'
+        )
+    # Rotations above the separatrix: energy E = omega^2/2 - cos(theta) > 1.
+    for energy in (1.45, 2.3):
+        for sign in (1, -1):
+            points = [
+                map_phase(theta, sign * math.sqrt(2 * (energy + math.cos(theta))))
+                for theta in (-theta_max + 2 * theta_max * i / 360 for i in range(361))
+            ]
+            orbits.append(
+                f'<path d="{polyline_path(points)}" fill="none" stroke="{teal}" stroke-width="2.0" opacity="0.35"/>'
+            )
+
+    # Explicit Euler from the innermost orbit: the energy grows by about (1 + h^2) per step.
+    state, euler = (0.6, 0.0), []
+    while abs(state[0]) < 2.75 and len(euler) < 400:
+        euler.append(map_phase(*state))
+        state = pendulum_step(state, 0.15, "euler")
+    euler_dots = "".join(
+        f'<circle cx="{x:.2f}" cy="{y:.2f}" r="3.1" fill="{accent}"/>' for x, y in euler
+    )
+
+    # Global error of theta(t = 2) for amplitude 1 rad against an RK4 reference; the axes span the data.
+    duration, amplitude = 2.0, 1.0
+    reference = pendulum_angle(amplitude, duration, 20000, "rk4")
+    counts = [20, 40, 80, 160, 320, 640]
+    errors = {
+        method: [abs(pendulum_angle(amplitude, duration, n, method) - reference) for n in counts]
+        for method in ("euler", "rk4")
+    }
+    px0, px1, py0, py1 = 120.0, 470.0, 656.0, 846.0
+    lh0, lh1 = math.log10(duration / counts[-1]), math.log10(duration / counts[0])
+    le0 = math.log10(min(errors["rk4"])) - 0.3
+    le1 = math.log10(max(errors["euler"])) + 0.3
+
+    def map_error(step: float, error: float) -> tuple[float, float]:
+        return (
+            px0 + (math.log10(step) - lh0) / (lh1 - lh0) * (px1 - px0),
+            py1 - (math.log10(error) - le0) / (le1 - le0) * (py1 - py0),
+        )
+
+    convergence = []
+    for method, color in (("euler", accent), ("rk4", teal)):
+        points = [map_error(duration / n, error) for n, error in zip(counts, errors[method])]
+        convergence.append(
+            f'<path d="{polyline_path(points)}" fill="none" stroke="{color}" stroke-width="3.6" stroke-linecap="round"/>'
+            + "".join(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="6.5" fill="#FFFFFF" stroke="{color}" stroke-width="3"/>' for x, y in points)
+        )
+    euler_label = map_error(duration / counts[3], errors["euler"][3])
+    rk4_label = map_error(duration / counts[2], errors["rk4"][2])
+
+    pivot_x, pivot_y, rod = 790.0, 662.0, 160.0
+    swing = math.radians(28)
+    bob_x, bob_y = pivot_x + rod * math.sin(swing), pivot_y + rod * math.cos(swing)
+    arc = [
+        (pivot_x + rod * math.sin(a), pivot_y + rod * math.cos(a))
+        for a in (math.radians(-34 + 68 * i / 60) for i in range(61))
+    ]
+
+    content = f'''
+<rect width="1000" height="930" fill="#FFFFFF"/>
+<rect x="72" y="58" width="856" height="535" rx="26" fill="{pale}" opacity="0.34"/>
+<line x1="{x0}" y1="{(y0 + y1) / 2:.2f}" x2="{x1}" y2="{(y0 + y1) / 2:.2f}" stroke="{palette["hair"]}" stroke-width="1.5"/>
+<line x1="{(x0 + x1) / 2:.2f}" y1="{y0}" x2="{(x0 + x1) / 2:.2f}" y2="{y1}" stroke="{palette["hair"]}" stroke-width="1.5"/>
+{''.join(orbits)}
+{''.join(separatrix)}
+<path d="{polyline_path(euler)}" fill="none" stroke="{accent}" stroke-width="2.2" opacity="0.7"/>
+{euler_dots}
+<line x1="{x0}" y1="{y1}" x2="{x1}" y2="{y1}" stroke="{ink}" stroke-width="2.3"/>
+<text x="94" y="39" font-family="{esc(fonts["support"])}" font-size="22" font-weight="700" letter-spacing="2" fill="{teal}">МАЯТНИК НА ФАЗОВОЙ ПЛОСКОСТИ</text>
+<text x="64" y="324" text-anchor="middle" transform="rotate(-90 64 324)" font-family="{esc(fonts["support"])}" font-size="21" fill="{ink}">скорость ω</text>
+<text x="501" y="620" text-anchor="middle" font-family="{esc(fonts["support"])}" font-size="22" fill="{ink}">угол θ</text>
+<text x="{px0}" y="{py1 + 26:.2f}" font-family="{esc(fonts["support"])}" font-size="18" fill="{subtle}">шаг h →</text>
+<text x="{px0 - 26:.2f}" y="{(py0 + py1) / 2:.2f}" text-anchor="middle" transform="rotate(-90 {px0 - 26:.2f} {(py0 + py1) / 2:.2f})" font-family="{esc(fonts["support"])}" font-size="18" fill="{subtle}">ошибка →</text>
+<line x1="{px0}" y1="{py1}" x2="{px1}" y2="{py1}" stroke="{palette["hair"]}" stroke-width="1.5"/>
+<line x1="{px0}" y1="{py0}" x2="{px0}" y2="{py1}" stroke="{palette["hair"]}" stroke-width="1.5"/>
+{''.join(convergence)}
+<text x="{euler_label[0]:.2f}" y="{euler_label[1] - 18:.2f}" text-anchor="middle" font-family="{esc(fonts["support"])}" font-size="20" font-weight="700" fill="{accent}">Эйлер ∝ h</text>
+<text x="{rk4_label[0] + 22:.2f}" y="{rk4_label[1] + 30:.2f}" font-family="{esc(fonts["support"])}" font-size="20" font-weight="700" fill="{teal}">РК4 ∝ h⁴</text>
+<path d="{polyline_path(arc)}" fill="none" stroke="{subtle}" stroke-width="2.2" stroke-dasharray="6 6" opacity="0.55"/>
+<line x1="{pivot_x - 34}" y1="{pivot_y}" x2="{pivot_x + 34}" y2="{pivot_y}" stroke="{ink}" stroke-width="5" stroke-linecap="round"/>
+<line x1="{pivot_x}" y1="{pivot_y}" x2="{bob_x:.2f}" y2="{bob_y:.2f}" stroke="{ink}" stroke-width="3.2"/>
+<circle cx="{bob_x:.2f}" cy="{bob_y:.2f}" r="17" fill="{accent}"/>
+<text x="92" y="904" font-family="{esc(fonts["support"])}" font-size="19" fill="{subtle}">Явный метод Эйлера раскручивает маятник; метод Рунге—Кутты держит орбиту.</text>
+'''
+    return svg_document(
+        content,
+        width=1000,
+        height=930,
+        title="Маятник на фазовой плоскости и сходимость численных методов",
+        description="Фазовые траектории маятника, построенные методом Рунге—Кутты, сепаратриса, раскручивающаяся траектория явного метода Эйлера и зависимость ошибки от шага.",
+        metadata="theta'' = -sin(theta). Closed orbits: RK4, h=0.01. Spiral: explicit Euler, h=0.15, from theta=0.6. Separatrix omega=2|cos(theta/2)|. Convergence: error of theta(t=2), amplitude 1 rad, 20 to 640 steps, against RK4 with 20000 steps.",
+    )
+
+
 def front_cover(book: dict, config: dict, logo_svg: str, artwork_svg: str) -> str:
     palette = config["colors"]
     fonts = config["fonts"]
@@ -518,7 +674,7 @@ def front_cover(book: dict, config: dict, logo_svg: str, artwork_svg: str) -> st
         weight=500,
     )
     author = svg_lines(
-        [config["author"]],
+        [book.get("author", config["author"])],
         x=38.8,
         y=author_y,
         size=6.25,
@@ -545,7 +701,7 @@ def front_cover(book: dict, config: dict, logo_svg: str, artwork_svg: str) -> st
         width=210,
         height=297,
         title=f'{" ".join(book["title_lines"])} — передняя обложка',
-        description='Передняя обложка книги Дмитрия В. Наумова.',
+        description=f'Передняя обложка книги: {book["author"]}.' if "author" in book else 'Передняя обложка книги Дмитрия В. Наумова.',
         metadata="A4 is provisional. Cover display/support text remains live SVG text until trim, spine, and final wording are approved.",
     )
 
@@ -654,13 +810,16 @@ def spread_mockup(book: dict, config: dict, front: str, back: str) -> str:
     )
 
 
-def overview_svg(config: dict, covers: list[tuple[dict, str, str]]) -> str:
+def overview_svg(config: dict, covers: list[tuple[dict, str, str | None]]) -> str:
     scale = 0.35
     page_width = 210 * scale
     page_height = 297 * scale
-    positions = [(19, 28), (205, 28), (19, 148), (205, 148)]
+    columns = [19, 205]
+    rows = (len(covers) + 1) // 2
+    positions = [(columns[i % 2], 28 + 120 * (i // 2)) for i in range(len(covers))]
+    height = 30 + 120 * rows
     nodes = [
-        '<rect width="390" height="270" fill="#F4F8F8"/>',
+        f'<rect width="390" height="{height}" fill="#F4F8F8"/>',
         f'<text x="19" y="17" font-family="{esc(config["fonts"]["display"])}" font-size="8" font-weight="600" fill="{config["colors"]["ink"]}">NeutrinoHit · серия учебников</text>',
     ]
     for (book, front, back), (x, y) in zip(covers, positions):
@@ -669,15 +828,17 @@ def overview_svg(config: dict, covers: list[tuple[dict, str, str]]) -> str:
         )
         nodes.append(f'<rect x="{x - 0.8}" y="{y - 0.8}" width="{page_width + 1.6}" height="{page_height + 1.6}" fill="#FFFFFF" stroke="#CCD8DB" stroke-width="0.5"/>')
         nodes.append(nested_svg(front, x=x, y=y, width=page_width, height=page_height, prefix=f'{book["slug"]}_overview_front'))
+        if back is None:
+            continue
         back_x = x + page_width + 5
         nodes.append(f'<rect x="{back_x - 0.8}" y="{y - 0.8}" width="{page_width + 1.6}" height="{page_height + 1.6}" fill="#FFFFFF" stroke="#CCD8DB" stroke-width="0.5"/>')
         nodes.append(nested_svg(back, x=back_x, y=y, width=page_width, height=page_height, prefix=f'{book["slug"]}_overview_back'))
     return svg_document(
         "".join(nodes),
         width=390,
-        height=270,
+        height=height,
         title="Серия учебников NeutrinoHit",
-        description="Четыре пары передних и задних обложек в единой визуальной системе.",
+        description="Передние и задние обложки серии в единой визуальной системе; у книги без готового оборота показана только передняя.",
         metadata="Overview only; individual cover files remain the production sources.",
     )
 
@@ -693,6 +854,7 @@ def main() -> None:
         "neutrino": lambda book: neutrino_artwork(book, config["colors"], config["fonts"]),
         "particle": lambda book: particle_artwork(book, config["colors"], config["fonts"]),
         "gravity": lambda book: gravity_artwork(book, config["colors"], config["fonts"]),
+        "numerical": lambda book: numerical_artwork(book, config["colors"], config["fonts"]),
     }
 
     overview_covers = []
@@ -701,11 +863,14 @@ def main() -> None:
         artwork_path = ARTWORK_OUTPUT / f'{book["slug"]}.svg'
         artwork_path.write_text(artwork, encoding="utf-8")
         front = front_cover(book, config, logo_svg, artwork)
-        back = back_cover(book, config, logo_svg)
-        spread = spread_mockup(book, config, front, back)
         (OUTPUT / f'{book["slug"]}_front.svg').write_text(front, encoding="utf-8")
-        (OUTPUT / f'{book["slug"]}_back.svg').write_text(back, encoding="utf-8")
-        (OUTPUT / f'{book["slug"]}_spread_mockup.svg').write_text(spread, encoding="utf-8")
+        back = None
+        # A book whose back-cover text is not written yet ("back": false) gets only the front.
+        if book.get("back", True):
+            back = back_cover(book, config, logo_svg)
+            spread = spread_mockup(book, config, front, back)
+            (OUTPUT / f'{book["slug"]}_back.svg').write_text(back, encoding="utf-8")
+            (OUTPUT / f'{book["slug"]}_spread_mockup.svg').write_text(spread, encoding="utf-8")
         overview_covers.append((book, front, back))
 
     (OUTPUT / "series_overview.svg").write_text(

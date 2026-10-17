@@ -117,6 +117,18 @@
       ],
       "audience": "От уравнения — к численному предсказанию и показанию прибора.",
       "source_material": "gravity/ru/book/preface.qmd and _quarto.yml"
+    },
+    {
+      "slug": "numerical_methods",
+      "accent": "#3E7F4C",
+      "accent_pale": "#E2F0E4",
+      "title_lines": ["Численные методы", "для физиков"],
+      "title_size": 12.55,
+      "subtitle_lines": ["Метод, проверка, физический результат"],
+      "author": "Кирилл Базаров, Дмитрий В. Наумов",
+      "artwork": "numerical",
+      "back": false,
+      "source_material": "numerical_methods/ru/book/_quarto.yml and index.qmd"
     }
   ]
 }

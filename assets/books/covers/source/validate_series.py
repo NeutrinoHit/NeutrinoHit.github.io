@@ -17,6 +17,8 @@ V1_OUTPUT = ROOT / "svg" / "v1"
 V2_OUTPUT = ROOT / "svg" / "v2"
 SLUGS = ["statistical_methods", "neutrino_physics", "particle_physics", "gravity"]
 V2_SLUGS = ["statistical_methods", "neutrino_physics"]
+# Books whose back-cover text is not written yet: only the front and the artwork are generated.
+FRONT_ONLY_SLUGS = ["numerical_methods"]
 
 
 def local_name(tag: str) -> str:
@@ -140,7 +142,8 @@ def main() -> None:
         V2_OUTPUT / 'variants/neutrino_physics_front_unlabeled.svg',
         V2_OUTPUT / 'variants/neutrino_physics_constellations_comparison.svg',
     })
-    expected.update(V1_OUTPUT / "artwork" / f"{slug}.svg" for slug in SLUGS)
+    expected.update(V1_OUTPUT / "artwork" / f"{slug}.svg" for slug in SLUGS + FRONT_ONLY_SLUGS)
+    expected.update(V1_OUTPUT / f"{slug}_front.svg" for slug in FRONT_ONLY_SLUGS)
     for slug in SLUGS:
         expected.update(
             {
@@ -169,7 +172,7 @@ def main() -> None:
         for error in errors:
             failures.append(f"{path.relative_to(ROOT)}: {error}")
 
-    for slug in SLUGS:
+    for slug in SLUGS + FRONT_ONLY_SLUGS:
         for side in ("front", "back"):
             path = V1_OUTPUT / f"{slug}_{side}.svg"
             if path.exists():
@@ -190,7 +193,7 @@ def main() -> None:
         if path.exists() and ordinal_pattern.search(path.read_text(encoding="utf-8")):
             failures.append(f"{path.relative_to(ROOT)}: contains a visible series ordinal")
 
-    front_paths = [V1_OUTPUT / f"{slug}_front.svg" for slug in SLUGS]
+    front_paths = [V1_OUTPUT / f"{slug}_front.svg" for slug in SLUGS + FRONT_ONLY_SLUGS]
     front_paths.extend(V2_OUTPUT / f"{slug}_front.svg" for slug in V2_SLUGS)
     for path in front_paths:
         if path.exists() and "NEUTRINOHIT" in path.read_text(encoding="utf-8"):
