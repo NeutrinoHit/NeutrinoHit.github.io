@@ -11,8 +11,8 @@
       "en": "D. V. Naumov"
     },
     "page": {
-      "ru": "/statistical-analysis-course/ru/book/",
-      "en": "/statistical-analysis-course/en/book/"
+      "ru": "/ru/materials.html#statistics-book",
+      "en": "/en/materials.html#statistics-book"
     }
   },
   "items": [
@@ -20,7 +20,7 @@
       "id": "0001",
       "slug": "first-fit",
       "qr_file": "FirstFit.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Подбор ширины распределения",
         "en": "Fitting the width of a distribution"
@@ -42,17 +42,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/01_why_statistics.html#interactive-first-fit"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0002",
       "slug": "cauchy-sum",
       "qr_file": "CauchySum.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Сумма двух величин Коши",
         "en": "The sum of two Cauchy variables"
@@ -74,17 +71,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/03_characteristic_functions.html#interactive-cauchy-sum"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0003",
       "slug": "clt-fourier",
       "qr_file": "CltFourier.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Гауссов предел в пространстве Фурье",
         "en": "The Gaussian limit in Fourier space"
@@ -106,17 +100,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/03_characteristic_functions.html#interactive-clt-fourier"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0004",
       "slug": "clt-sums",
       "qr_file": "CltSums.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Форма нормированной суммы",
         "en": "The shape of the normalized sum"
@@ -138,17 +129,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.html#interactive-clt-sums"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0005",
       "slug": "compatibility",
       "qr_file": "Compatibility.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Совместимость двух измерений",
         "en": "Compatibility of two measurements"
@@ -170,17 +158,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/04_central_limit_theorem.html#interactive-compatibility"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0006",
       "slug": "cauchy-mean",
       "qr_file": "CauchyMean.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Среднее распределения Коши",
         "en": "The mean of the Cauchy distribution"
@@ -202,17 +187,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-cauchy-mean"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0007",
       "slug": "landau-tail",
       "qr_file": "LandauTail.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Длинный хвост распределения Ландау",
         "en": "The long tail of the Landau distribution"
@@ -234,17 +216,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-landau-tail"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0008",
       "slug": "correlated-errors",
       "qr_file": "CorrelatedErrors.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Статистическая и общая ошибки",
         "en": "Statistical and common errors"
@@ -266,17 +245,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-correlated-errors"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0009",
       "slug": "gaussian-mixture",
       "qr_file": "GaussianMixture.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Смесь двух гауссовых классов",
         "en": "A mixture of two Gaussian classes"
@@ -298,17 +274,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-gaussian-mixture"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0010",
       "slug": "ratio-cauchy",
       "qr_file": "RatioCauchy.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Отношение гауссовых величин",
         "en": "The ratio of Gaussian variables"
@@ -330,17 +303,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/05_non_gaussian_clt_violations.html#interactive-ratio-cauchy"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0011",
       "slug": "error-propagation-nonlinear",
       "qr_file": "ErrorPropagationNonlinear.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Нелинейное преобразование Y = X + aX²",
         "en": "The nonlinear transformation Y = X + aX²"
@@ -362,17 +332,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/06_error_propagation.html#interactive-error-propagation-nonlinear"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0012",
       "slug": "error-propagation-sample-variance",
       "qr_file": "ErrorPropagationSampleVariance.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Десять гауссовских измерений",
         "en": "Ten Gaussian measurements"
@@ -394,17 +361,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/06_error_propagation.html#interactive-error-propagation-sample-variance"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0013",
       "slug": "error-propagation-correlation",
       "qr_file": "ErrorPropagationCorrelation.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Корреляционный вклад в дисперсию",
         "en": "The correlation contribution to the variance"
@@ -426,17 +390,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/06_error_propagation.html#interactive-error-propagation-correlation"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0014",
       "slug": "gaussian-correlation-ellipse",
       "qr_file": "GaussianCorrelationEllipse.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Корреляция и эллипс",
         "en": "Correlation and the ellipse"
@@ -458,17 +419,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/07_two_dimensional_gaussian.html#interactive-gaussian-correlation-ellipse"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0015",
       "slug": "gaussian-probability-contour",
       "qr_file": "GaussianProbabilityContour.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Вероятность и размер контура",
         "en": "Probability and the size of the contour"
@@ -490,17 +448,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/07_two_dimensional_gaussian.html#interactive-gaussian-probability-contour"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0016",
       "slug": "monte-carlo-rejection-sampling",
       "qr_file": "MonteCarloRejectionSampling.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Метод отбора для плотности 6x(1 − x)",
         "en": "Rejection sampling for the density 6x(1 − x)"
@@ -522,17 +477,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-rejection-sampling"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0017",
       "slug": "monte-carlo-pi",
       "qr_file": "MonteCarloPi.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Оценка числа π методом Монте-Карло",
         "en": "Estimating π by the Monte Carlo method"
@@ -554,17 +506,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-pi"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0018",
       "slug": "monte-carlo-grid-dimension",
       "qr_file": "MonteCarloGridDimension.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Рост числа узлов регулярной сетки",
         "en": "The growth of the number of nodes of a regular grid"
@@ -586,17 +535,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-grid-dimension"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0019",
       "slug": "monte-carlo-importance-sampling",
       "qr_file": "MonteCarloImportanceSampling.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Равномерная выборка и выборка по важности",
         "en": "Uniform sampling and importance sampling"
@@ -618,17 +564,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-importance-sampling"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0020",
       "slug": "monte-carlo-counting-experiment",
       "qr_file": "MonteCarloCountingExperiment.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Ансамбль счётных экспериментов",
         "en": "An ensemble of counting experiments"
@@ -650,11 +593,8 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/08_monte_carlo_method.html#interactive-monte-carlo-counting-experiment"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0021",
@@ -690,7 +630,7 @@
       "id": "0022",
       "slug": "likelihood-binomial",
       "qr_file": "LikelihoodBinomial.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Биномиальное правдоподобие",
         "en": "The binomial likelihood"
@@ -712,17 +652,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/09_maximum_likelihood.html#interactive-likelihood-binomial"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0023",
       "slug": "likelihood-variance-estimators",
       "qr_file": "LikelihoodVarianceEstimators.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Две оценки дисперсии",
         "en": "Two estimates of the variance"
@@ -744,17 +681,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html#interactive-likelihood-variance-estimators"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0024",
       "slug": "likelihood-lifetime",
       "qr_file": "LikelihoodLifetime.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Оценка времени жизни",
         "en": "Estimating a lifetime"
@@ -776,17 +710,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html#interactive-likelihood-lifetime"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0025",
       "slug": "likelihood-profile",
       "qr_file": "LikelihoodProfile.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Профиль и фиксированное сечение",
         "en": "The profile and the fixed slice"
@@ -808,17 +739,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html#interactive-likelihood-profile"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0026",
       "slug": "likelihood-reactor-oscillation",
       "qr_file": "LikelihoodReactorOscillation.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Подгонка реакторного спектра",
         "en": "Fitting a reactor spectrum"
@@ -840,17 +768,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/10_estimator_properties_profile_likelihood.html#interactive-likelihood-reactor-oscillation"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0027",
       "slug": "least-squares-parameter-geometry",
       "qr_file": "LeastSquaresParameterGeometry.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Геометрия корреляции параметров",
         "en": "The geometry of the parameter correlation"
@@ -872,17 +797,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/11_least_squares_linear_fit.html#interactive-least-squares-parameter-geometry"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0028",
       "slug": "least-squares-outlier",
       "qr_file": "LeastSquaresOutlier.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Прямая, остатки и выброс",
         "en": "A straight line, residuals and an outlier"
@@ -904,17 +826,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/11_least_squares_linear_fit.html#interactive-least-squares-outlier"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0029",
       "slug": "least-squares-delta-chi2",
       "qr_file": "LeastSquaresDeltaChi2.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Интервал по пересечению с уровнем χ²",
         "en": "An interval from the crossing of a χ² level"
@@ -936,17 +855,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/12_least_squares_systematics.html#interactive-least-squares-delta-chi2"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0030",
       "slug": "least-squares-normalization",
       "qr_file": "LeastSquaresNormalization.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Общая нормировка: модель и подстановка данных",
         "en": "A common normalization: the model and the data substitution"
@@ -968,17 +884,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/12_least_squares_systematics.html#interactive-least-squares-normalization"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0031",
       "slug": "goodness-chi2-shape",
       "qr_file": "GoodnessChi2Shape.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Форма распределения χ²",
         "en": "The shape of the χ² distribution"
@@ -1000,17 +913,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-chi2-shape"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0032",
       "slug": "goodness-pvalue-tail",
       "qr_file": "GoodnessPvalueTail.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "p-значение как площадь хвоста",
         "en": "The p-value as the area of a tail"
@@ -1032,17 +942,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-pvalue-tail"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0033",
       "slug": "goodness-pvalue-calibration",
       "qr_file": "GoodnessPvalueCalibration.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Распределение p-значений",
         "en": "The distribution of p-values"
@@ -1064,17 +971,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-pvalue-calibration"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0034",
       "slug": "goodness-p-to-z-one-sided",
       "qr_file": "GoodnessPToZOneSided.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Односторонняя гауссова шкала",
         "en": "The one-sided Gaussian scale"
@@ -1096,17 +1000,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-p-to-z-one-sided"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0035",
       "slug": "goodness-p-to-z-two-sided",
       "qr_file": "GoodnessPToZTwoSided.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Два гауссовых хвоста",
         "en": "Two Gaussian tails"
@@ -1128,17 +1029,14 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-p-to-z-two-sided"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     },
     {
       "id": "0036",
       "slug": "goodness-low-count-calibration",
       "qr_file": "GoodnessLowCountCalibration.pdf",
-      "hosting": "link",
+      "hosting": "pending",
       "title": {
         "ru": "Проверка χ²-приближения при малых счётах",
         "en": "Checking the χ² approximation at low counts"
@@ -1160,11 +1058,8 @@
           "en": "D. V. Naumov"
         }
       },
-      "link": {
-        "kind": "book",
-        "url": "https://neutrinohit.github.io/statistical-analysis-course/ru/book/chapters/13_goodness_of_fit_and_significance.html#interactive-goodness-low-count-calibration"
-      },
-      "legacy_codes": []
+      "legacy_codes": [],
+      "pending_kind": "interactive"
     }
   ]
 }

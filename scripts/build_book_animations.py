@@ -84,6 +84,13 @@ LINK_KINDS = {
                {"ru": "Открыть в электронной книге", "en": "Open in the online book"},
                {"ru": "интерактив", "en": "interactive"}),
 }
+
+
+def is_material(item: dict[str, Any]) -> bool:
+    """An interactive or applet rather than an animation: a link, or a pending item with "pending_kind": "interactive"."""
+    return item["hosting"] == "link" or (item["hosting"] == "pending" and item.get("pending_kind") == "interactive")
+
+
 MAX_SIDE = 1280
 COPY_LIMIT_MB = 3.0
 
@@ -573,6 +580,11 @@ def render_item(catalog: dict[str, Any], items: list[dict[str, Any]], index: int
 <p><a class="btn primary" href="{esc(item["link"]["url"])}">{bi(button)}</a></p>
 </div>
 """
+    elif is_material(item):
+        page += f"""<div class="card">
+<p>{bi_raw("Интерактивная иллюстрация к книге появится на этой странице позже.", "The interactive figure for the book will appear on this page later.")}</p>
+</div>
+"""
     else:
         page += f"""<div class="card">
 <p>{bi_raw("Эта анимация скоро появится на странице. Загляните позже.", "This animation will appear here soon. Please check back later.")}</p>
@@ -582,7 +594,7 @@ def render_item(catalog: dict[str, Any], items: list[dict[str, Any]], index: int
     page += f'<p class="caption">{bi(item["caption"])}</p>\n'
     page += credit_block(item)
     page += neighbours(items, index)
-    page += footer(catalog, ("Материал к книге", "Material for the book") if hosting == "link" else
+    page += footer(catalog, ("Материал к книге", "Material for the book") if is_material(item) else
                    ("Анимация к книге", "Animation for the book"))
     if hosting == "self":
         scripts = PLAYER_JS + ("\n" + MEDIA_JS if per_language(item) else "")
@@ -610,7 +622,7 @@ def render_alias(catalog: dict[str, Any], item: dict[str, Any], code: str) -> st
 
 def render_index(catalog: dict[str, Any], items: list[dict[str, Any]]) -> str:
     book = catalog["book"]
-    if any(item["hosting"] == "link" for item in items):
+    if any(is_material(item) for item in items):
         title = {"ru": "Анимации и интерактивы книги", "en": "Animations and interactives of the book"}
         desc = {
             "ru": f"Все анимации, апплеты и интерактивы, на которые ведут QR-коды книги «{book['title']['ru']}».",
@@ -761,7 +773,7 @@ def main() -> int:
         visible = [i for i in catalog["items"]
                    if args.include_proposed or i.get("status", "published") == "published"]
         items = sorted(visible, key=sort_key)
-        built[book["slug"]] = {"count": len(items), "links": any(i["hosting"] == "link" for i in items)}
+        built[book["slug"]] = {"count": len(items), "links": any(is_material(i) for i in items)}
 
         if args.urls:
             for item in sorted(visible, key=lambda i: i["id"]):
