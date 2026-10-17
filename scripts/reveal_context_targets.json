@@ -210,6 +210,76 @@
       "url": "https://neutrinohit.github.io/statistical-analysis-course/",
       "type": "course-home",
       "description": "Statistical analysis course home"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/courses/neutrino-introduction.html",
+      "type": "course-page",
+      "description": "EN course page: neutrino-introduction"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/courses/numerical-methods.html",
+      "type": "course-page",
+      "description": "EN course page: numerical-methods"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/courses/oscillations-minicourse.html",
+      "type": "course-page",
+      "description": "EN course page: oscillations-minicourse"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/courses/particle-physics-baikal.html",
+      "type": "course-page",
+      "description": "EN course page: particle-physics-baikal"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/courses/qft-attraction-repulsion.html",
+      "type": "course-page",
+      "description": "EN course page: qft-attraction-repulsion"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/courses/solar-neutrino-masterclass.html",
+      "type": "course-page",
+      "description": "EN course page: solar-neutrino-masterclass"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/courses/statistical-analysis.html",
+      "type": "course-page",
+      "description": "EN course page: statistical-analysis"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/courses/gravity.html",
+      "type": "course-page",
+      "description": "RU course page: gravity"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/courses/light-propagation.html",
+      "type": "course-page",
+      "description": "RU course page: light-propagation"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/courses/neutrino-introduction.html",
+      "type": "course-page",
+      "description": "RU course page: neutrino-introduction"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/courses/numerical-methods.html",
+      "type": "course-page",
+      "description": "RU course page: numerical-methods"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/courses/qft-vacuum.html",
+      "type": "course-page",
+      "description": "RU course page: qft-vacuum"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/courses/statistical-analysis.html",
+      "type": "course-page",
+      "description": "RU course page: statistical-analysis"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/courses/unruh.html",
+      "type": "course-page",
+      "description": "RU course page: unruh"
     }
   ]
 }
