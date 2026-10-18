@@ -1,0 +1,106 @@
+# Outreach, films, interviews and podcasts. scripts/build_outreach_pages.py writes ru|en/outreach.qmd,
+# ru|en/cinema.qmd and ru|en/interviews.qmd from this file.
+# Paths starting with "/" are site paths on neutrinohit.github.io; a key ending in "_en" overrides its key on English pages.
+# Link kinds: slides, pdf, video, applet, game, text, audio. The first link of an entry is its main material:
+# the title opens it. An entry or a link with lang: en is in English (marked on the Russian page);
+# on the English page the rest is in Russian, which the lead says once.
+outreach:
+  title: {ru: Научная коммуникация, en: Outreach}
+  lead: {ru: 'Публичные лекции, мини-курсы и видео о современной физике для широкой аудитории. Название открывает материал, рядом — другие форматы.',
+    en: 'Public lectures, mini-courses and videos on modern physics for a broad audience. A title opens the material; the other formats are next to it. The materials are in Russian unless marked EN.'}
+  more:
+    text: {ru: 'Доклады на конференциях и семинарах —', en: 'Conference and seminar talks:'}
+    label: {ru: на странице «Доклады», en: the Talks page}
+    href: /ru/talks.html
+    href_en: /en/talks.html
+  groups:
+  - id: in-a-nutshell
+    kind: {ru: Библиотечка, en: Mini-library}
+    title: {ru: Простыми словами, en: In a Nutshell}
+    summary: {ru: 'Короткие модули по 5–10 минут: один физический вопрос и один ясный ответ.', en: 'Short 5–10 minute modules: one physics question and one clear answer.'}
+    all:
+      label: {ru: Вся библиотечка, en: The whole library}
+      href: /sciencepop/in-a-nutshell/index.html
+    items:
+    - title: {ru: 'Что такое вещество?', en: 'What is matter?'}
+      links: [{kind: slides, href: /sciencepop/in-a-nutshell/01_matter.html}]
+    - title: {ru: 'Как узнали про атомы?', en: 'How did we learn about atoms?'}
+      links: [{kind: slides, href: /sciencepop/in-a-nutshell/02_how-we-know-atoms.html}]
+    - title: {ru: 'Что такое атом?', en: 'What is an atom?'}
+      links: [{kind: slides, href: /sciencepop/in-a-nutshell/03_what-is-atom.html}]
+    - title: {ru: 'Что внутри атомного ядра?', en: 'What is inside the atomic nucleus?'}
+      links: [{kind: slides, href: /sciencepop/in-a-nutshell/04_inside-nucleus.html}]
+  - id: neutrino-telescopes
+    kind: {ru: 3 лекции · 2026, en: 3 lectures · 2026}
+    title: {ru: Нейтринные телескопы, en: Neutrino Telescopes}
+    summary: {ru: 'Вселенная глазами нейтрино: как ловят нейтрино высоких энергий и что они рассказали о галактиках.', en: 'The Universe seen with neutrinos: how high-energy neutrinos are caught and what they have told us about galaxies.'}
+    items:
+    - title: {ru: Как поймать нейтрино из далёкой галактики, en: How to catch a neutrino from a distant galaxy}
+      note: {ru: для студентов, en: for students}
+      links: [{kind: slides, href: /talks/neutrino-telescopes-ru-2026/lecture.html}]
+    - title: {ru: 'Зачем нужны нейтринные телескопы?', en: 'Why do we need neutrino telescopes?'}
+      note: {ru: Астрофест, en: Astrofest}
+      links: [{kind: pdf, href: /sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf}]
+    - title: {ru: 'Neutrino Telescopes: Principles, Results, and Prospects', en: 'Neutrino Telescopes: Principles, Results, and Prospects'}
+      note: {ru: пленарный доклад, en: plenary talk}
+      lang: en
+      links: [{kind: slides, href: /talks/neutrino-telescopes-2026/lecture.html}]
+  - id: modern-physics-without-formulas
+    kind: {ru: Мини-курс · 4 лекции, en: Mini-course · 4 lectures}
+    title: {ru: Современная физика без формул, en: Modern Physics Without Formulas}
+    summary: {ru: 'Пространство-время, квантовые поля, Стандартная модель и поиски новой физики.', en: 'Spacetime, quantum fields, the Standard Model and the search for new physics.'}
+    items:
+    - title: {ru: Три интеллектуальные революции, en: Three intellectual revolutions}
+      links: [{kind: pdf, href: /sciencepop/ModernPhysics/Lecture1.pdf}, {kind: video, href: 'https://youtu.be/8D2ONSvgm5A'}]
+    - title: {ru: 'КТП: бесконечные мучения и глоток надежды', en: 'QFT: endless troubles and a breath of hope'}
+      links: [{kind: pdf, href: /sciencepop/ModernPhysics/Lecture2.pdf}, {kind: video, href: 'https://youtu.be/HNha1FM8pn4'}]
+    - title: {ru: 'Стандартная модель: успешное соединение противоречий', en: 'The Standard Model: a successful union of contradictions'}
+      links: [{kind: pdf, href: /sciencepop/ModernPhysics/Lecture3.pdf}, {kind: video, href: 'https://youtu.be/65lufSSiGgg'}]
+    - title: {ru: 'За горизонты Стандартной модели: пути к новой физике', en: 'Beyond the Standard Model: paths to new physics'}
+      links: [{kind: pdf, href: /sciencepop/ModernPhysics/Lecture4.pdf}, {kind: video, href: 'https://youtu.be/u7TNiekrClw'}]
+  - id: birth-life-universe
+    kind: {ru: Лекция, en: Lecture}
+    title: {ru: Рождение и жизнь Вселенной, en: The Birth and Life of the Universe}
+    summary: {ru: 'Горячее начало, первый свет, звёзды, галактики, Земля и далёкое будущее. BBN-игра: подберите параметры первичного нуклеосинтеза сами.',
+      en: 'The hot beginning, the first light, stars, galaxies, the Earth and the far future. The BBN game: find the parameters of primordial nucleosynthesis yourself.'}
+    links: [{kind: slides, href: /sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html}, {kind: game, href: /sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html}]
+  - id: wave-or-particle
+    kind: {ru: Лекция, en: Lecture}
+    title: {ru: 'Что такое частица в квантовой теории поля?', en: 'What is a particle in quantum field theory?'}
+    summary: {ru: 'Волна или точка: рассеяние квантовой волны на двух мишенях; апплет внутри слайдов.', en: 'Wave or point: scattering of a quantum wave on two targets; the applet is inside the slides.'}
+    links: [{kind: slides, href: /sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html}]
+  - id: black-holes
+    kind: {ru: Лекция, en: Lecture}
+    title: {ru: 'Чёрные дыры: удивительные объекты во Вселенной', en: 'Black holes: remarkable objects in the Universe'}
+    summary: {ru: Научно-популярная лекция о физике чёрных дыр., en: A popular lecture on the physics of black holes.}
+    links: [{kind: pdf, href: /sciencepop/BlackHoles/BlackHoles.pdf}, {kind: video, href: 'https://youtu.be/c9BkAFfZHC8'}]
+  - id: dark-matter
+    kind: {ru: Лекция, en: Lecture}
+    title: {ru: Тёмная материя, en: Dark Matter}
+    summary: {ru: Наблюдательные свидетельства и возможная природа тёмной материи., en: Observational evidence and the possible nature of dark matter.}
+    links: [{kind: pdf, href: /sciencepop/DarkMatter/DarkMatter.pdf}, {kind: video, href: 'https://youtu.be/A2sHEkQ0Uww'}]
+  - id: short-videos
+    kind: {ru: Видео, en: Videos}
+    title: {ru: Короткие видео, en: Short Videos}
+    summary: {ru: Открытие нейтрино и демонстрационный эксперимент., en: The discovery of the neutrino and a demonstration experiment.}
+    items:
+    - title: {ru: 'Тайна пропавшей энергии. Почти детективная история открытия нейтрино', en: 'The mystery of missing energy: almost a detective story of the neutrino discovery'}
+      links: [{kind: video, href: 'https://youtu.be/ybPLBzujONA'}]
+    - title: {ru: 'Как увеличить напряжение без трансформатора?', en: 'How to increase voltage without a transformer?'}
+      links: [{kind: video, href: 'https://youtu.be/WRAEhMhGPew'}]
+
+cinema:
+  title: {ru: Кино, en: Films}
+  lead: {ru: Фильмы и мультфильмы о нейтринной физике и Байкале., en: Films and animated films about neutrino physics and Lake Baikal. The films are in Russian.}
+  groups:
+  - id: films
+    items:
+    - id: universe-neutrino-telescope
+      title: {ru: Вселенная в нейтринном телескопе, en: The Universe in a Neutrino Telescope}
+      note: {ru: 'фильм · сценарий и режиссура: Дмитрий Наумов', en: 'film · written and directed by Dmitry Naumov'}
+      links: [{kind: video, href: 'https://youtu.be/x--KvzTlvL0'}]
+    - id: nerpa-baikal
+      title: {ru: Нерпа и тайна Байкала, en: The Nerpa and the Mystery of Baikal}
+      note: {ru: 'мультфильм · сценарий: Дмитрий Наумов', en: 'animated film · script by Dmitry Naumov'}
+      links: [{kind: video, href: 'https://youtu.be/Qja-x8WjYiw'}]
+

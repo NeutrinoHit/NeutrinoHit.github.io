@@ -2717,3 +2717,160 @@ a.course-tile-title:hover {
 .lecture-material:last-child {
   border-bottom: 0;
 }
+
+/* Outreach, films, interviews: one line per material, the title opens it, the formats follow (scripts/build_outreach_pages.py) */
+.outreach-list {
+  border-top: 1px solid rgba(43, 67, 91, 0.16);
+}
+
+.outreach-group {
+  padding: 1rem 0 1.05rem;
+  border-bottom: 1px solid rgba(43, 67, 91, 0.16);
+  scroll-margin-top: 7rem;
+}
+
+.outreach-group-head {
+  display: grid;
+  gap: 0.22rem;
+  justify-items: start;
+}
+
+h2.outreach-group-name {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #25313a;
+  font-size: 1.18rem;
+  font-weight: 760;
+  line-height: 1.3;
+}
+
+a.outreach-group-title {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+a.outreach-group-title:hover,
+a.outreach-entry-title:hover {
+  color: #175873;
+  text-decoration: underline;
+  text-decoration-color: rgba(23, 88, 115, 0.45);
+  text-underline-offset: 3px;
+}
+
+.outreach-group-text {
+  max-width: 46rem;
+  margin: 0;
+  color: #53616f;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.outreach-group-head .outreach-formats {
+  margin-top: 0.3rem;
+}
+
+.outreach-entries {
+  margin: 0.45rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.outreach-entry {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.3rem 1rem;
+  padding: 0.45rem 0;
+  border-top: 1px solid rgba(43, 67, 91, 0.08);
+  scroll-margin-top: 7rem;
+}
+
+/* A group without a head (films, interviews of one kind) starts with its first entry */
+.outreach-group > .outreach-entries:first-child {
+  margin-top: 0;
+}
+
+.outreach-group > .outreach-entries:first-child > .outreach-entry:first-child {
+  border-top: 0;
+}
+
+.outreach-entry-main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.outreach-entry > .outreach-formats {
+  flex: none;
+  justify-content: flex-end;
+}
+
+a.outreach-entry-title {
+  color: #1f3d52;
+  font-weight: 620;
+  text-decoration: none;
+}
+
+.outreach-entry-note {
+  margin-left: 0.5rem;
+  color: #66737f;
+  font-size: 0.88rem;
+}
+
+.outreach-lang {
+  display: inline-block;
+  margin-left: 0.45rem;
+  padding: 0 0.35rem;
+  border-radius: 4px;
+  background: rgba(43, 67, 91, 0.08);
+  color: #445564;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.5;
+  vertical-align: 0.1em;
+}
+
+.outreach-formats {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+a.outreach-format {
+  padding: 0.08rem 0.6rem;
+  border: 1px solid rgba(31, 111, 120, 0.38);
+  border-radius: 999px;
+  color: #1f6f78;
+  font-size: 0.8rem;
+  font-weight: 680;
+  line-height: 1.55;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+a.outreach-format:hover {
+  border-color: #1f6f78;
+  background: #1f6f78;
+  color: #ffffff;
+}
+
+a.outreach-format.is-video::before {
+  content: "▶";
+  margin-right: 0.3em;
+  font-size: 0.7em;
+}
+
+a.outreach-all {
+  display: inline-block;
+  margin-top: 0.45rem;
+  color: #1f6f78;
+  font-size: 0.9rem;
+  font-weight: 680;
+}
+
+.outreach-more {
+  margin: 1rem 0 0;
+  color: #53616f;
+  font-size: 0.95rem;
+}
