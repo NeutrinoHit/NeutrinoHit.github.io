@@ -6,7 +6,9 @@
     { key: 'outreach', ruText: 'Научная коммуникация', enText: 'Outreach', ruHref: '/ru/outreach.html', enHref: '/en/outreach.html' },
     { key: 'materials', ruText: 'Книги', enText: 'Books', ruHref: '/ru/materials.html', enHref: '/en/materials.html' },
     { key: 'modeling', ruText: 'Моделирование', enText: 'Modeling', ruHref: '/ru/modeling.html', enHref: '/en/modeling.html' },
-    { key: 'photos-cinema', ruText: 'Фото и кино', enText: 'Photos and Cinema', ruHref: '/ru/photos-cinema.html', enHref: '/en/photos-cinema.html' },
+    { key: 'cinema', ruText: 'Кино', enText: 'Films', ruHref: '/ru/cinema.html', enHref: '/en/cinema.html' },
+    { key: 'interviews', ruText: 'Интервью и подкасты', enText: 'Interviews and Podcasts', ruHref: '/ru/interviews.html', enHref: '/en/interviews.html' },
+    { key: 'photos', ruText: 'Фото', enText: 'Photos', ruHref: '/ru/photos.html', enHref: '/en/photos.html' },
     { key: 'school', ruText: 'Школа', enText: 'School', ruHref: '/ru/school.html', enHref: '/en/school.html' },
     { key: 'about', ruText: 'Обо мне', enText: 'About', ruHref: '/ru/about.html', enHref: '/en/about.html' },
     { key: 'books', ruText: 'Книги', enText: 'Books', ruHref: '/ru/materials.html', enHref: '/en/books.html' },
@@ -15,10 +17,7 @@
     { key: 'theses', ruText: 'Диссертации', enText: 'Theses', ruHref: '/ru/theses.html', enHref: '/en/theses.html' },
     { key: 'schools', ruText: 'Школы', enText: 'Schools', ruHref: '/ru/school.html', enHref: '/en/schools.html' },
     { key: 'talks', ruText: 'Доклады', enText: 'Talks', ruHref: '/ru/talks.html', enHref: '/en/talks.html' },
-    { key: 'interviews', ruText: 'Интервью', enText: 'Interviews', ruHref: '/ru/outreach.html#outreach-interviews', enHref: '/en/interviews.html' },
-    { key: 'photos', ruText: 'Фото', enText: 'Photos', ruHref: '/ru/photos-cinema.html', enHref: '/en/photos.html' },
     { key: 'sciencepop', ruText: 'Научно-популярные лекции', enText: 'Popular Science', ruHref: '/ru/outreach.html', enHref: '/en/outreach.html' },
-    { key: 'cinema', ruText: 'Мое кино', enText: 'Films', ruHref: '/ru/photos-cinema.html', enHref: '/en/cinema.html' },
     { key: 'animations', ruText: 'Анимации', enText: 'Animations', ruHref: '/ru/animations.html', enHref: '/en/animations.html' },
     { key: 'software', ruText: 'Код', enText: 'Code', ruHref: '/ru/modeling.html', enHref: '/en/software.html' }
   ];
@@ -29,6 +28,8 @@
   function currentSectionKey() {
     const filename = pathname.split('/').pop() || 'index.html';
     if (filename === 'index.html' || pathname.endsWith('/ru/') || pathname.endsWith('/en/')) return 'home';
+    // An interview page (/ru/interviews/x.html) is in Russian only; its English side is the interviews list.
+    if (/\/ru\/interviews\/[^/]+\.html$/.test(pathname)) return 'interviews';
     const slug = filename.replace(/\.html$/, '');
     return sections.some((section) => section.key === slug) ? slug : 'home';
   }
@@ -124,6 +125,8 @@
       const section = sections.find((item) => item.key === key) || sections[0];
       if (coursePage) {
         link.href = siteHref(`/${label === 'RU' ? 'ru' : 'en'}/courses/${coursePage[1]}`);
+      } else if (key === 'interviews' && label === 'RU' && pathname.includes('/ru/interviews/')) {
+        link.href = pathname.split('/').pop();
       } else {
         link.href = siteHref(label === 'RU' ? section.ruHref : section.enHref);
       }

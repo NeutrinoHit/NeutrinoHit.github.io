@@ -1,16 +1,17 @@
 ---
-title: "Фото и кино"
+title: "Фото"
+aliases:
+  - photos-cinema.html
 toc: false
 ---
 
 ```{=html}
 <div class="lecture-catalog">
   <p class="lecture-catalog-lead">
-    Фотоальбомы, фильмы и мультфильмы, связанные с научной жизнью, школами,
-    поездками, научной популяризацией и нейтринной физикой.
+    Фотоальбомы о научной жизни: лекции, научные школы, поездки и встречи.
   </p>
 
-  <section class="lecture-course-list" aria-label="Фото и кино">
+  <section class="lecture-course-list" aria-label="Фото">
     <details class="lecture-course photo-course-archive">
       <summary>
         <span class="lecture-course-status">3 альбома</span>
@@ -50,36 +51,6 @@ toc: false
       </div>
     </details>
 
-    <details class="lecture-course cinema-course-documentary">
-      <summary>
-        <span class="lecture-course-status">2 проекта</span>
-        <span class="lecture-course-title">Фильмы и мультфильмы</span>
-      </summary>
-      <div class="lecture-course-body">
-        <div class="lecture-material-list">
-          <details class="lecture-material">
-            <summary>Вселенная в нейтринном телескопе</summary>
-            <div class="lecture-material-body cinema-material-detail">
-              <a href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a>
-              <div>
-                <p>Фильм о том, как нейтринные телескопы открывают Вселенную. Сценарист и режиссер: Дмитрий Наумов.</p>
-                <div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">Смотреть на YouTube</a></div>
-              </div>
-            </div>
-          </details>
-          <details class="lecture-material">
-            <summary>Нерпа и тайна Байкала</summary>
-            <div class="lecture-material-body cinema-material-detail">
-              <a href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg"><img src="https://img.youtube.com/vi/Qja-x8WjYiw/hqdefault.jpg" alt=""></a>
-              <div>
-                <p>Мультфильм о Байкале. Сценарий: Дмитрий Наумов.</p>
-                <div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg">Смотреть на YouTube</a></div>
-              </div>
-            </div>
-          </details>
-        </div>
-      </div>
-    </details>
   </section>
 </div>
 ```
