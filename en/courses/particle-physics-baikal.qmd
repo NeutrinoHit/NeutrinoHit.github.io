@@ -1,5 +1,5 @@
 ---
-pagetitle: "Particle Physics: Mini-course – NeutrinoHit"
+pagetitle: "Particle Physics: Mini-course"
 lang: en-US
 toc: false
 ---

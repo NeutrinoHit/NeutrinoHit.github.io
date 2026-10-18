@@ -42,6 +42,7 @@ T = {
         "videos": lambda n: f"{n} видео",
         "hours": lambda h, m: f"{h} ч {m:02d} мин видео",
         "hours_short": lambda h: f"{h} ч",
+        "duration": lambda h, m: f"{h} ч {m:02d} мин",
         "in_lang": {"en": "лекции на английском", "ru": None},
         "extra_of": lambda n: f"К лекции {n}",
         "aria_video": lambda n: f"Видео лекции {n}",
@@ -60,6 +61,7 @@ T = {
         "videos": lambda n: f"{n} video{'s' if n != 1 else ''}",
         "hours": lambda h, m: f"{h} h {m:02d} min of video",
         "hours_short": lambda h: f"{h} h",
+        "duration": lambda h, m: f"{h} h {m:02d} min",
         "in_lang": {"ru": "lectures in Russian", "en": None},
         "extra_of": lambda n: f"For lecture {n}",
         "aria_video": lambda n: f"Video of lecture {n}",
@@ -151,14 +153,17 @@ def page(course: dict, catalog: dict, lang: str) -> str:
         meta.append(t["lectures"](n))
     if seconds:
         h, m = divmod(round(seconds / 60), 60)
-        meta.append(t["hours"](h, m))
+        if videos < n:
+            meta.append(f'{t["videos"](videos)} ({t["duration"](h, m)})')
+        else:
+            meta.append(t["hours"](h, m))
     note = t["in_lang"].get(course.get("materials_lang_en" if lang == "en" else "materials_lang", lang))
     if note:
         meta.append(note)
 
     out = [
         "---",
-        f'pagetitle: "{title} – NeutrinoHit"',
+        f'pagetitle: "{title}"',
         f"lang: {'ru-RU' if lang == 'ru' else 'en-US'}",
         "toc: false",
         "---",
@@ -272,12 +277,14 @@ def tile(course: dict, lang: str, page_depth: int, with_anchor: bool = True) -> 
     t = T[lang]
     n, videos, seconds = course_counts(course, lang)
     meta = []
-    if videos:
+    if videos and videos == n:
         meta.append(e(t["videos"](videos)))
         if seconds:
             meta.append(e(t["hours_short"](round(seconds / 3600))))
     elif n:
         meta.append(e(t["lectures"](n)))
+        if videos:
+            meta.append(e(t["videos"](videos)))
     for item in course.get("tile_meta") or []:
         if isinstance(item, dict) and item.get("href"):
             meta.append(f'<a class="course-tile-book" href="{e(href(item, lang, depth=page_depth))}">{e(tr(item["label"], lang))}</a>')

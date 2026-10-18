@@ -1,5 +1,5 @@
 ---
-pagetitle: "Light Propagation in a Medium – NeutrinoHit"
+pagetitle: "Light Propagation in a Medium"
 lang: en-US
 toc: false
 ---

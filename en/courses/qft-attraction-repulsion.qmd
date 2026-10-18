@@ -1,5 +1,5 @@
 ---
-pagetitle: "Attraction and Repulsion in QFT – NeutrinoHit"
+pagetitle: "Attraction and Repulsion in QFT"
 lang: en-US
 toc: false
 ---

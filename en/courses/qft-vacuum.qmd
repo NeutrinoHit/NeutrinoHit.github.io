@@ -1,5 +1,5 @@
 ---
-pagetitle: "The Quantum Field Vacuum – NeutrinoHit"
+pagetitle: "The Quantum Field Vacuum"
 lang: en-US
 toc: false
 ---

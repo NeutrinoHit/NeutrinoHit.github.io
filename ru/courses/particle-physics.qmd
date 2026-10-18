@@ -1,5 +1,5 @@
 ---
-pagetitle: "Физика элементарных частиц: большой курс – NeutrinoHit"
+pagetitle: "Физика элементарных частиц: большой курс"
 lang: ru-RU
 toc: false
 ---

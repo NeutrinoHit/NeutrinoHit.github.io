@@ -20,7 +20,7 @@ toc: false
 
   <h2 id="stat" class="section-inline-title">Статистический анализ данных</h2>
   <nav class="course-tiles" aria-label="Статистический анализ данных">
-    <div class="course-tile" id="statistical-analysis"><span class="course-tile-status is-ready">Курс · видео</span><a class="course-tile-title" href="courses/statistical-analysis.html">Статистический анализ данных</a><span class="course-tile-text">От вероятности и правдоподобия до значимости и систематик.</span><span class="course-tile-meta">5 видео · 5 ч</span></div>
+    <div class="course-tile" id="statistical-analysis"><span class="course-tile-status is-ready">Курс · видео</span><a class="course-tile-title" href="courses/statistical-analysis.html">Статистический анализ данных</a><span class="course-tile-text">От вероятности и правдоподобия до значимости и систематик.</span><span class="course-tile-meta">13 лекций · 5 видео</span></div>
   </nav>
 
   <h2 id="neutrino" class="section-inline-title">Физика нейтрино</h2>

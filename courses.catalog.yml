@@ -38,6 +38,9 @@ courses:
   - label: {ru: Плейлист, en: Playlist}
     href: https://www.youtube.com/playlist?list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29
     primary: true
+  - label: {ru: Учебник, en: Textbook}
+    href: /ru/materials.html#qft-book
+    href_en: /en/materials.html#qft-book
   - label: {ru: Конспект PDF, en: Notes PDF}
     href: https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf
   - label: {ru: RuTube, en: RuTube}
@@ -46,11 +49,6 @@ courses:
     href: https://vkvideo.ru/playlist/-235607329_5
   - label: {ru: Teach-in, en: Teach-in}
     href: https://teach-in.ru/course/quantum-field-theory-naumov
-  book:
-    title: {ru: Квантовая теория поля для экспериментаторов и не только, en: Quantum Field Theory for Experimentalists and Beyond}
-    href: /ru/materials.html#qft-book
-    href_en: /en/materials.html#qft-book
-    note: {ru: 'Учебник к курсам КТП: два тома, ИКИ, 2026.', en: 'The textbook for the QFT courses: two volumes in Russian, IKI, 2026.'}
   lectures:
   - n: '1.1'
     title: {ru: Волны внутри нас, en: Waves within us}
@@ -175,6 +173,9 @@ courses:
   - label: {ru: Плейлист, en: Playlist}
     href: https://www.youtube.com/playlist?list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV
     primary: true
+  - label: {ru: Учебник, en: Textbook}
+    href: /ru/materials.html#qft-book
+    href_en: /en/materials.html#qft-book
   - label: {ru: Конспект PDF, en: Notes PDF}
     href: https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf
   - label: {ru: RuTube, en: RuTube}
@@ -183,11 +184,6 @@ courses:
     href: https://vkvideo.ru/playlist/-235607329_6
   - label: {ru: Teach-in, en: Teach-in}
     href: https://teach-in.ru/course/introduction-to-the-standard-model
-  book:
-    title: {ru: Квантовая теория поля для экспериментаторов и не только, en: Quantum Field Theory for Experimentalists and Beyond}
-    href: /ru/materials.html#qft-book
-    href_en: /en/materials.html#qft-book
-    note: {ru: 'Учебник к курсам КТП: два тома, ИКИ, 2026.', en: 'The textbook for the QFT courses: two volumes in Russian, IKI, 2026.'}
   lectures:
   - n: '2.1'
     title: {ru: Рассеяние электронов за счет обмена скалярной частицей, en: Electron scattering via scalar-particle exchange}
@@ -300,6 +296,9 @@ courses:
   - label: {ru: Плейлист, en: Playlist}
     href: https://www.youtube.com/playlist?list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG
     primary: true
+  - label: {ru: Учебник, en: Textbook}
+    href: /ru/materials.html#qft-book
+    href_en: /en/materials.html#qft-book
   - label: {ru: Конспект PDF, en: Notes PDF}
     href: https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf
   - label: {ru: RuTube, en: RuTube}
@@ -308,11 +307,6 @@ courses:
     href: https://vkvideo.ru/playlist/-235607329_4
   - label: {ru: Teach-in, en: Teach-in}
     href: https://teach-in.ru/course/renormalization-in-qft
-  book:
-    title: {ru: Квантовая теория поля для экспериментаторов и не только, en: Quantum Field Theory for Experimentalists and Beyond}
-    href: /ru/materials.html#qft-book
-    href_en: /en/materials.html#qft-book
-    note: {ru: 'Учебник к курсам КТП: два тома, ИКИ, 2026.', en: 'The textbook for the QFT courses: two volumes in Russian, IKI, 2026.'}
   lectures:
   - n: '3.1'
     title: {ru: Введение в идею ренормировки, en: Introduction to the idea of renormalization}

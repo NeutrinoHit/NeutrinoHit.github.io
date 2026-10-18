@@ -1,5 +1,5 @@
 ---
-pagetitle: "Распространение света в среде – NeutrinoHit"
+pagetitle: "Распространение света в среде"
 lang: ru-RU
 toc: false
 ---

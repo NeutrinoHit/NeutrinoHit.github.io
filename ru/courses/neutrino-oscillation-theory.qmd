@@ -1,5 +1,5 @@
 ---
-pagetitle: "Теория осцилляций нейтрино в КТП – NeutrinoHit"
+pagetitle: "Теория осцилляций нейтрино в КТП"
 lang: ru-RU
 toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-pagetitle: "Gravity – NeutrinoHit"
+pagetitle: "Gravity"
 lang: en-US
 toc: false
 ---

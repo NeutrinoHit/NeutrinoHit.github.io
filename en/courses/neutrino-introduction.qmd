@@ -1,5 +1,5 @@
 ---
-pagetitle: "Introduction to Neutrino Physics – NeutrinoHit"
+pagetitle: "Introduction to Neutrino Physics"
 lang: en-US
 toc: false
 ---

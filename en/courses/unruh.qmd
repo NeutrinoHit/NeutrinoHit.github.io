@@ -1,5 +1,5 @@
 ---
-pagetitle: "Accelerated Frames and the Unruh Effect – NeutrinoHit"
+pagetitle: "Accelerated Frames and the Unruh Effect"
 lang: en-US
 toc: false
 ---

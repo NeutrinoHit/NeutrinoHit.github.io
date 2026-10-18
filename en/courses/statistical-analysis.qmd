@@ -1,5 +1,5 @@
 ---
-pagetitle: "Statistical Data Analysis – NeutrinoHit"
+pagetitle: "Statistical Data Analysis"
 lang: en-US
 toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-pagetitle: "Ренормировка в квантовой теории поля – NeutrinoHit"
+pagetitle: "Ренормировка в квантовой теории поля"
 lang: ru-RU
 toc: false
 ---
@@ -14,6 +14,7 @@ toc: false
     <p class="course-toc-meta">20 лекций · 28 ч 53 мин видео</p>
     <div class="lecture-course-actions">
       <a class="lecture-action-primary" href="https://www.youtube.com/playlist?list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG">Плейлист</a>
+      <a href="../../ru/materials.html#qft-book">Учебник</a>
       <a href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">Конспект PDF</a>
       <a href="https://rutube.ru/plst/1530811">RuTube</a>
       <a href="https://vkvideo.ru/playlist/-235607329_4">VK</a>
@@ -46,11 +47,6 @@ toc: false
       <tr id="lecture-3.20"><td class="course-toc-num">3.20</td><td class="course-toc-topic"><a href="https://www.youtube.com/watch?v=KV3zsUNE0RM&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG">Сечение рассеяния с волновыми пакетами. Часть 2</a></td><td class="course-toc-col" data-label="Видео"><a class="course-play" href="https://www.youtube.com/watch?v=KV3zsUNE0RM&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Видео лекции 3.20">▶ 1:10:01</a></td></tr>
     </tbody>
   </table>
-  <h2 class="course-page-section">Книга</h2>
-  <div class="course-page-card">
-    <p><strong>Квантовая теория поля для экспериментаторов и не только</strong>. Учебник к курсам КТП: два тома, ИКИ, 2026.</p>
-    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../ru/materials.html#qft-book">Открыть книгу</a></div>
-  </div>
   <h2 class="course-page-section">Ещё в этом разделе</h2>
   <nav class="course-tiles">
     <div class="course-tile"><span class="course-tile-status is-ready">Видеокурс</span><a class="course-tile-title" href="quantum-field-theory.html">Квантовая теория поля</a><span class="course-tile-text">Введение в КТП и КЭД: от уравнения Дирака до S‑матрицы и теорем Вика.</span><span class="course-tile-meta">26 видео · 41 ч · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">конспект PDF</a></span></div>
