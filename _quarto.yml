@@ -34,16 +34,21 @@ website:
         text: Наука
       - href: ru/education.qmd
         text: Образование
-      - href: ru/outreach.qmd
-        text: Научная коммуникация
       - href: ru/materials.qmd
         text: Книги
       - href: ru/modeling.qmd
         text: Моделирование
-      - href: ru/photos-cinema.qmd
-        text: Фото и кино
       - href: ru/school.qmd
         text: Школа
+      # Second row on wide screens (styles.css, "Navbar in two rows"): the sections for a broad audience.
+      - href: ru/outreach.qmd
+        text: Научная коммуникация
+      - href: ru/cinema.qmd
+        text: Кино
+      - href: ru/interviews.qmd
+        text: Интервью и подкасты
+      - href: ru/photos.qmd
+        text: Фото
     right:
       - href: ru/index.qmd
         text: RU
