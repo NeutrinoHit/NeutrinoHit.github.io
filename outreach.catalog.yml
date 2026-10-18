@@ -104,3 +104,14 @@ cinema:
       note: {ru: 'мультфильм · сценарий: Дмитрий Наумов', en: 'animated film · script by Dmitry Naumov'}
       links: [{kind: video, href: 'https://youtu.be/Qja-x8WjYiw'}]
 
+interviews:
+  title: {ru: Интервью и подкасты, en: Interviews and Podcasts}
+  lead: {ru: 'Интервью, статьи, радиоэфиры и подкасты о нейтринной физике, Байкальском телескопе и научной коммуникации. У каждого материала указано, где он вышел.',
+    en: 'Interviews, articles, radio programmes and podcasts on neutrino physics, the Baikal telescope and science communication. Each item says where it first appeared; the materials are in Russian.'}
+  # The entries come from the front matter of ru/interviews/*.qmd (title, title-en, group, kind, outlet, outlet-en, published).
+  pages: ru/interviews
+  groups:
+  - id: articles
+    title: {ru: Интервью и статьи, en: Interviews and articles}
+  - id: podcasts
+    title: {ru: Радио и подкасты, en: Radio and podcasts}

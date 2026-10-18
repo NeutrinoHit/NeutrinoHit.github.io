@@ -1,0 +1,38 @@
+---
+title: "Радиоподкаст «Научный подход»: про нейтринные телескопы"
+title-en: "Scientific Approach radio podcast: on neutrino telescopes"
+group: podcasts
+kind: audio
+source: "«Радио России», программа «Научный подход», 20 и 27 июня 2025 года"
+outlet: "«Радио России», 2025, два выпуска"
+outlet-en: "Radio Rossii, 2025, two episodes"
+published: 2025-06-20
+toc: false
+---
+[← Интервью и подкасты](../interviews.html){.interview-back}
+
+::: {.interview-source}
+«Радио России», программа «Научный подход», 20 и 27 июня 2025 года
+:::
+
+::: {.interview-lead}
+Про нейтринные телескопы и всё такое — два выпуска радиопрограммы.
+:::
+
+## Частица-призрак
+
+```{=html}
+<p class="interview-date">20 июня 2025 года</p>
+<div class="interview-player is-audio"><iframe src="https://embed.smotrim.ru/iframe/audio/id/2848919" title="«Научный подход»: Частица-призрак" loading="lazy" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<p class="interview-origin">Выпуск на <a href="https://smotrim.ru/audio/2848919" rel="noopener">smotrim.ru</a></p>
+```
+
+## Галактика: пошаговый рецепт
+
+```{=html}
+<p class="interview-date">27 июня 2025 года</p>
+<div class="interview-player is-audio"><iframe src="https://embed.smotrim.ru/iframe/audio/id/2850609" title="«Научный подход»: Галактика: пошаговый рецепт" loading="lazy" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<p class="interview-origin">Выпуск на <a href="https://smotrim.ru/audio/2850609" rel="noopener">smotrim.ru</a></p>
+```
+
+[← Интервью и подкасты](../interviews.html){.interview-back}

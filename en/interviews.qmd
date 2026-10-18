@@ -1,46 +1,34 @@
 ---
-title: "Interviews"
+title: "Interviews and Podcasts"
 lang: en-US
 toc: false
 ---
 
 ```{=html}
-<div class="lecture-catalog">
-  <p class="lecture-catalog-lead">
-    Interviews, broadcasts, and podcasts based on the public JINR profile collection. The linked materials are in Russian.
-  </p>
-
-  <section class="lecture-course-list" aria-label="Interview catalog">
-    <details class="lecture-course interview-course-articles">
-      <summary>
-        <span class="lecture-course-status">5 materials</span>
-        <span class="lecture-course-title">Interviews and articles</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>Conversations about neutrino physics, the Baikal telescope, and science communication.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://naumov.jinr.ru/1061/">A trap for ghosts: astrophysicists draw neutrinos from Baikal</a>
-          <a href="https://naumov.jinr.ru/1062/">Science communication: new concept and new knowledge</a>
-          <a href="https://naumov.jinr.ru/1063/">The Baikal telescope as a unique neutrino-astronomy instrument</a>
-          <a href="https://naumov.jinr.ru/1064/">To the bottom for a black hole</a>
-          <a href="https://naumov.jinr.ru/1065/">Neutrinos need to be made to speak</a>
-        </div>
+<div class="lecture-catalog outreach-catalog">
+  <p class="lecture-catalog-lead">Interviews, articles, radio programmes and podcasts on neutrino physics, the Baikal telescope and science communication. Each item says where it first appeared; the materials are in Russian.</p>
+  <div class="outreach-list">
+    <div class="outreach-group" id="articles">
+      <div class="outreach-group-head">
+        <h2 class="outreach-group-name">Interviews and articles</h2>
       </div>
-    </details>
-
-    <details class="lecture-course interview-course-broadcasts">
-      <summary>
-        <span class="lecture-course-status">2 materials</span>
-        <span class="lecture-course-title">Broadcasts and podcasts</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>Radio and video conversations about neutrinos and neutrino telescopes.</p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://naumov.jinr.ru/1133/">Scientific Approach radio podcast</a>
-          <a href="https://naumov.jinr.ru/1322/">Channel One Podcast Lab: Schrodinger's Cat</a>
-        </div>
+      <ul class="outreach-entries">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/to-the-bottom-for-a-black-hole.html">To the bottom for a black hole</a><span class="outreach-entry-note">Rossiyskaya Gazeta, 2021</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-text" href="../ru/interviews/to-the-bottom-for-a-black-hole.html">Text</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/neutrinos-must-be-made-to-talk.html">Neutrinos must be made to talk</a><span class="outreach-entry-note">Troitsky Variant — Nauka, 2020</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-text" href="../ru/interviews/neutrinos-must-be-made-to-talk.html">Text</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/baikal-telescope.html">The Baikal telescope, a unique instrument of neutrino astronomy</a><span class="outreach-entry-note">on the launch of Baikal-GVD</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-text" href="../ru/interviews/baikal-telescope.html">Text</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/ghost-trap.html">Ghost trap: astrophysicists draw neutrinos from Baikal</a><span class="outreach-entry-note">by Yuri Drize</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-text" href="../ru/interviews/ghost-trap.html">Text</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/science-communication.html">Science communication: a new concept and new knowledge</a><span class="outreach-entry-note">Dubna: Science, Commonwealth, Progress (JINR weekly)</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-text" href="../ru/interviews/science-communication.html">Text</a></span></li>
+      </ul>
+    </div>
+    <div class="outreach-group" id="podcasts">
+      <div class="outreach-group-head">
+        <h2 class="outreach-group-name">Radio and podcasts</h2>
       </div>
-    </details>
-  </section>
+      <ul class="outreach-entries">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/schrodingers-cat.html">Schrödinger&#x27;s Cat: how to catch a neutrino?</a><span class="outreach-entry-note">Channel One, Podcast.Lab, 2026</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-video" href="../ru/interviews/schrodingers-cat.html">Video</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/radio-scientific-approach.html">Scientific Approach radio podcast: on neutrino telescopes</a><span class="outreach-entry-note">Radio Rossii, 2025, two episodes</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-audio" href="../ru/interviews/radio-scientific-approach.html">Audio</a></span></li>
+      </ul>
+    </div>
+  </div>
 </div>
 ```
