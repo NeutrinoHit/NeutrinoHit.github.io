@@ -4,94 +4,52 @@ toc: false
 ---
 
 ```{=html}
-<div class="lecture-catalog">
-  <p class="lecture-catalog-lead">
-    Научная работа: нейтрино, астрофизика частиц, космические лучи,
-    физика элементарных частиц, квантовая теория поля и космология.
-    Этот раздел собирает исследовательский профиль, эксперименты, доклады
-    и квалификационные работы в одну точку входа.
-  </p>
-
-  <section class="lecture-course-list" aria-label="Научные разделы">
-    <details id="research-profile" class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Исследовательский профиль</span>
-        <span class="lecture-course-title">Нейтринная физика и астрофизика частиц</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Основные темы: нейтринные осцилляции, реакторные и солнечные нейтрино,
-          нейтринная астрономия, космические лучи, физика детекторов,
-          квантово-полевое описание нейтринных процессов.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">Papers</a>
-          <a href="https://naumov.jinr.ru/">ОИЯИ</a>
-          <a href="theses.html">Мои диссертации</a>
-        </div>
+<div class="lecture-catalog outreach-catalog">
+  <p class="lecture-catalog-lead">Нейтринная физика и астрофизика частиц: нейтринные осцилляции, реакторные и солнечные нейтрино, нейтринная астрономия, космические лучи, физика детекторов, квантово-полевое описание нейтринных процессов.</p>
+  <div class="outreach-list">
+    <div class="outreach-group" id="research-profile">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Профиль</span>
+        <h2 class="outreach-group-name"><a class="outreach-group-title" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true" rel="noopener">Публикации</a></h2>
+        <p class="outreach-group-text">Статьи и цитирования — в INSPIRE-HEP, профиль — на странице ОИЯИ.</p>
+        <span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-site" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true" rel="noopener">INSPIRE-HEP</a><a class="outreach-format is-site" href="https://naumov.jinr.ru/" rel="noopener">ОИЯИ</a></span>
       </div>
-    </details>
-
-    <details id="experiments" class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Коллаборации</span>
-        <span class="lecture-course-title">Эксперименты</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Экспериментальная программа связана с нейтринными телескопами,
-          реакторными нейтрино, ускорительными нейтринными экспериментами,
-          космическими лучами и астрочастичной физикой.
-        </p>
-        <div class="lecture-course-actions">
-          <a href="https://baikalgvd.jinr.ru/">Baikal-GVD</a>
-          <a href="https://juno.ihep.ac.cn/">JUNO</a>
-          <a href="https://dayabay.bnl.gov/">Daya Bay</a>
-          <a href="https://opendata.cern/docs/about-opera">OPERA</a>
-          <a href="https://greybook.cern.ch/experiment/detail?id=NOMAD">NOMAD</a>
-          <a href="https://jemeuso.riken.jp/en/">EUSO / JEM-EUSO</a>
-        </div>
+    </div>
+    <div class="outreach-group" id="talks">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Конференции и семинары</span>
+        <h2 class="outreach-group-name">Доклады</h2>
       </div>
-    </details>
-
-    <details id="talks" class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Конференции и семинары</span>
-        <span class="lecture-course-title">Доклады и обзоры</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Научные выступления и обзорные материалы по физике нейтрино,
-          экспериментальным программам и состоянию области.
-        </p>
-        <div class="lecture-material-list">
-          <details id="talk-georgia-2026" class="lecture-material">
-            <summary>2026 · Neutrino Physics: Fundamentals, Frontiers, and Probes</summary>
-            <div class="lecture-material-body">
-              <p>
-                Обзорная лекция: основы нейтринной физики, открытые фундаментальные вопросы
-                и нейтрино как инструмент исследования Земли и Вселенной.
-              </p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../talks/georgia-2026/dnaumov.html">Слайды лекции</a>
-                <a href="../talks/georgia-2026/dnaumov-35min.html">Короткая версия (35 минут)</a>
-              </div>
-            </div>
-          </details>
-          <details id="talk-protvino-2026" class="lecture-material">
-            <summary>2-5 июня 2026 · Статус и перспективы физики нейтрино</summary>
-            <div class="lecture-material-body">
-              <p>Российские проекты в глобальном контексте.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../talks/protvino-2026/dnaumov.html">Слайды доклада</a>
-                <a href="https://indico.ihep.su/e/PPIHE2026">Страница конференции</a>
-              </div>
-            </div>
-          </details>
-        </div>
+      <ul class="outreach-entries is-stacked">
+        <li class="outreach-entry" id="talk-georgia-2026"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/georgia-2026/dnaumov.html">Neutrino Physics: Fundamentals, Frontiers, and Probes</a><span class="outreach-lang">англ.</span><span class="outreach-entry-note">2026 · обзорная лекция</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../talks/georgia-2026/dnaumov.html">Слайды</a><a class="outreach-format is-slides" href="../talks/georgia-2026/dnaumov-35min.html">35 минут</a></span></li>
+        <li class="outreach-entry" id="talk-protvino-2026"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/protvino-2026/dnaumov.html">Статус и перспективы физики нейтрино</a><span class="outreach-entry-note">2–5 июня 2026 · российские проекты в глобальном контексте</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../talks/protvino-2026/dnaumov.html">Слайды</a><a class="outreach-format is-site" href="https://indico.ihep.su/e/PPIHE2026" rel="noopener">Конференция</a></span></li>
+      </ul>
+    </div>
+    <div class="outreach-group" id="experiments">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Коллаборации</span>
+        <h2 class="outreach-group-name">Эксперименты</h2>
       </div>
-    </details>
-
-  </section>
+      <nav class="course-tiles outreach-tiles" aria-label="Эксперименты">
+        <div class="course-tile"><span class="course-tile-status is-ready">Нейтринный телескоп</span><a class="course-tile-title" href="https://baikalgvd.jinr.ru/" rel="noopener">Baikal-GVD</a><span class="course-tile-text">Глубоководный нейтринный телескоп в озере Байкал.</span></div>
+        <div class="course-tile"><span class="course-tile-status is-ready">Реакторные нейтрино</span><a class="course-tile-title" href="https://juno.ihep.ac.cn/" rel="noopener">JUNO</a><span class="course-tile-text">Жидкосцинтилляционный детектор в Китае: порядок масс и точные параметры осцилляций.</span></div>
+        <div class="course-tile"><span class="course-tile-status is-ready">Реакторные нейтрино</span><a class="course-tile-title" href="https://dayabay.bnl.gov/" rel="noopener">Daya Bay</a><span class="course-tile-text">Измерение угла смешивания θ₁₃ на реакторных антинейтрино.</span></div>
+        <div class="course-tile"><span class="course-tile-status is-ready">Ускорительные нейтрино</span><a class="course-tile-title" href="https://opendata.cern/docs/about-opera" rel="noopener">OPERA</a><span class="course-tile-text">Появление тау-нейтрино в пучке мюонных нейтрино из ЦЕРН в Гран-Сассо.</span></div>
+        <div class="course-tile"><span class="course-tile-status is-ready">Ускорительные нейтрино</span><a class="course-tile-title" href="https://greybook.cern.ch/experiment/detail?id=NOMAD" rel="noopener">NOMAD</a><span class="course-tile-text">Нейтринные взаимодействия в пучке SPS ЦЕРН.</span></div>
+        <div class="course-tile"><span class="course-tile-status is-ready">Космические лучи</span><a class="course-tile-title" href="https://jemeuso.riken.jp/en/" rel="noopener">EUSO / JEM-EUSO</a><span class="course-tile-text">Космические лучи предельно высоких энергий: наблюдение с орбиты.</span></div>
+      </nav>
+    </div>
+    <div class="outreach-group" id="theses">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Квалификационные работы</span>
+        <h2 class="outreach-group-name">Диссертации</h2>
+      </div>
+      <ul class="outreach-entries is-stacked">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../theses/DmitryNaumov_Doctoral_Thesis.pdf">Измерение θ₁₃, Δm²₃₂ и ковариантная квантово-полевая теория нейтринных осцилляций</a><span class="outreach-entry-note">2017 · докторская диссертация</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pdf" href="../theses/DmitryNaumov_Doctoral_Thesis.pdf">PDF</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../theses/DmitryNaumov_Candidate_Thesis.pdf">Рождение странных адронов и измерение поляризации лямбда- и антилямбда-гиперонов в нейтринных взаимодействиях в эксперименте NOMAD в ЦЕРНе</a><span class="outreach-entry-note">2001 · кандидатская диссертация</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pdf" href="../theses/DmitryNaumov_Candidate_Thesis.pdf">PDF</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../theses/DmitryNaumov_Diplom.pdf">Ядерные переходы ¹⁶O + H → ¹⁷F и эффекты электронного экранирования</a><span class="outreach-entry-note">1997 · дипломная работа, ИГУ</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pdf" href="../theses/DmitryNaumov_Diplom.pdf">PDF</a></span></li>
+      </ul>
+    </div>
+  </div>
 </div>
 ```

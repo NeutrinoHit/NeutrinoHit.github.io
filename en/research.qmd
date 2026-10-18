@@ -5,91 +5,53 @@ toc: false
 ---
 
 ```{=html}
-<div class="lecture-catalog">
-  <p class="lecture-catalog-lead">
-    Research in neutrino physics, astroparticle physics, cosmic rays,
-    particle physics, quantum field theory, and cosmology.
-  </p>
-
-  <section class="lecture-course-list" aria-label="Research sections">
-    <details id="research-profile" class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Research profile</span>
-        <span class="lecture-course-title">Neutrino physics and astroparticle physics</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Core topics include neutrino oscillations, reactor and solar neutrinos,
-          neutrino astronomy, cosmic rays, detector physics, and quantum-field
-          descriptions of neutrino processes.
-        </p>
-        <div class="lecture-course-actions">
-          <a class="lecture-action-primary" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true">Papers</a>
-          <a href="https://naumov.jinr.ru/">JINR</a>
-          <a href="theses.html">Theses</a>
-        </div>
+<div class="lecture-catalog outreach-catalog">
+  <p class="lecture-catalog-lead">Neutrino physics and astroparticle physics: neutrino oscillations, reactor and solar neutrinos, neutrino astronomy, cosmic rays, detector physics, and quantum-field descriptions of neutrino processes.</p>
+  <div class="outreach-list">
+    <div class="outreach-group" id="research-profile">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Profile</span>
+        <h2 class="outreach-group-name"><a class="outreach-group-title" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true" rel="noopener">Publications</a></h2>
+        <p class="outreach-group-text">Papers and citations in INSPIRE-HEP; the profile on the JINR page.</p>
+        <span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-site" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true" rel="noopener">INSPIRE-HEP</a><a class="outreach-format is-site" href="https://naumov.jinr.ru/" rel="noopener">JINR</a></span>
       </div>
-    </details>
-
-    <details id="experiments" class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Collaborations</span>
-        <span class="lecture-course-title">Experiments</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          The experimental program spans neutrino telescopes, reactor neutrinos,
-          accelerator neutrino experiments, cosmic rays, and astroparticle physics.
-        </p>
-        <div class="lecture-course-actions">
-          <a href="https://baikalgvd.jinr.ru/">Baikal-GVD</a>
-          <a href="https://juno.ihep.ac.cn/">JUNO</a>
-          <a href="https://dayabay.bnl.gov/">Daya Bay</a>
-          <a href="https://opendata.cern/docs/about-opera">OPERA</a>
-          <a href="https://greybook.cern.ch/experiment/detail?id=NOMAD">NOMAD</a>
-          <a href="https://jemeuso.riken.jp/en/">EUSO / JEM-EUSO</a>
-        </div>
+    </div>
+    <div class="outreach-group" id="talks">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Conferences and seminars</span>
+        <h2 class="outreach-group-name">Talks</h2>
       </div>
-    </details>
-
-    <details id="talks" class="lecture-course">
-      <summary>
-        <span class="lecture-course-status">Conferences and seminars</span>
-        <span class="lecture-course-title">Talks and reviews</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>
-          Scientific talks and overview slides on neutrino physics, experimental
-          programs, and the state of the field.
-        </p>
-        <div class="lecture-material-list">
-          <details id="talk-georgia-2026" class="lecture-material">
-            <summary>2026 · Neutrino Physics: Fundamentals, Frontiers, and Probes</summary>
-            <div class="lecture-material-body">
-              <p>
-                An overview of neutrino physics: fundamentals, open questions,
-                and neutrinos as probes of the Earth and the Universe.
-              </p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../talks/georgia-2026/dnaumov.html">Open slides</a>
-                <a href="../talks/georgia-2026/dnaumov-35min.html">Short version (35 min)</a>
-              </div>
-            </div>
-          </details>
-          <details id="talk-protvino-2026" class="lecture-material">
-            <summary>June 2-5, 2026 · Status and prospects of neutrino physics</summary>
-            <div class="lecture-material-body">
-              <p>Russian projects in the global context. The slides are in Russian.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../talks/protvino-2026/dnaumov.html">Talk slides</a>
-                <a href="https://indico.ihep.su/e/PPIHE2026">Conference page</a>
-              </div>
-            </div>
-          </details>
-        </div>
+      <ul class="outreach-entries is-stacked">
+        <li class="outreach-entry" id="talk-georgia-2026"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/georgia-2026/dnaumov.html">Neutrino Physics: Fundamentals, Frontiers, and Probes</a><span class="outreach-lang">EN</span><span class="outreach-entry-note">2026 · overview lecture</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../talks/georgia-2026/dnaumov.html">Slides</a><a class="outreach-format is-slides" href="../talks/georgia-2026/dnaumov-35min.html">35 min</a></span></li>
+        <li class="outreach-entry" id="talk-protvino-2026"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/protvino-2026/dnaumov.html">Status and prospects of neutrino physics</a><span class="outreach-entry-note">June 2–5, 2026 · Russian projects in the global context; the slides are in Russian</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../talks/protvino-2026/dnaumov.html">Slides</a><a class="outreach-format is-site" href="https://indico.ihep.su/e/PPIHE2026" rel="noopener">Conference</a></span></li>
+      </ul>
+    </div>
+    <div class="outreach-group" id="experiments">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Collaborations</span>
+        <h2 class="outreach-group-name">Experiments</h2>
       </div>
-    </details>
-
-  </section>
+      <nav class="course-tiles outreach-tiles" aria-label="Experiments">
+        <div class="course-tile"><span class="course-tile-status is-ready">Neutrino telescope</span><a class="course-tile-title" href="https://baikalgvd.jinr.ru/" rel="noopener">Baikal-GVD</a><span class="course-tile-text">A deep-water neutrino telescope in Lake Baikal.</span></div>
+        <div class="course-tile"><span class="course-tile-status is-ready">Reactor neutrinos</span><a class="course-tile-title" href="https://juno.ihep.ac.cn/" rel="noopener">JUNO</a><span class="course-tile-text">A liquid-scintillator detector in China: the mass ordering and precise oscillation parameters.</span></div>
+        <div class="course-tile"><span class="course-tile-status is-ready">Reactor neutrinos</span><a class="course-tile-title" href="https://dayabay.bnl.gov/" rel="noopener">Daya Bay</a><span class="course-tile-text">The measurement of the mixing angle θ₁₃ with reactor antineutrinos.</span></div>
+        <div class="course-tile"><span class="course-tile-status is-ready">Accelerator neutrinos</span><a class="course-tile-title" href="https://opendata.cern/docs/about-opera" rel="noopener">OPERA</a><span class="course-tile-text">The appearance of tau neutrinos in the muon-neutrino beam from CERN to Gran Sasso.</span></div>
+        <div class="course-tile"><span class="course-tile-status is-ready">Accelerator neutrinos</span><a class="course-tile-title" href="https://greybook.cern.ch/experiment/detail?id=NOMAD" rel="noopener">NOMAD</a><span class="course-tile-text">Neutrino interactions in the CERN SPS beam.</span></div>
+        <div class="course-tile"><span class="course-tile-status is-ready">Cosmic rays</span><a class="course-tile-title" href="https://jemeuso.riken.jp/en/" rel="noopener">EUSO / JEM-EUSO</a><span class="course-tile-text">Ultra-high-energy cosmic rays observed from orbit.</span></div>
+      </nav>
+    </div>
+    <div class="outreach-group" id="theses">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Qualification works</span>
+        <h2 class="outreach-group-name">Theses</h2>
+        <p class="outreach-group-text">The PDF files are in Russian.</p>
+      </div>
+      <ul class="outreach-entries is-stacked">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../theses/DmitryNaumov_Doctoral_Thesis.pdf">Measurement of θ₁₃, Δm²₃₂, and covariant quantum-field theory of neutrino oscillations</a><span class="outreach-entry-note">2017 · doctoral dissertation</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-pdf" href="../theses/DmitryNaumov_Doctoral_Thesis.pdf">PDF</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../theses/DmitryNaumov_Candidate_Thesis.pdf">Strange-hadron production and measurement of lambda and anti-lambda hyperon polarization in neutrino interactions in the NOMAD experiment at CERN</a><span class="outreach-entry-note">2001 · candidate dissertation</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-pdf" href="../theses/DmitryNaumov_Candidate_Thesis.pdf">PDF</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../theses/DmitryNaumov_Diplom.pdf">Nuclear transitions ¹⁶O + H → ¹⁷F and electron-screening effects</a><span class="outreach-entry-note">1997 · diploma thesis, Irkutsk State University</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-pdf" href="../theses/DmitryNaumov_Diplom.pdf">PDF</a></span></li>
+      </ul>
+    </div>
+  </div>
 </div>
 ```

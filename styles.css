@@ -2985,6 +2985,64 @@ img.interview-hero {
   font-size: 0.88rem;
 }
 
+/* Research and modeling (scripts/build_outreach_pages.py): tiles inside a group, picture on a tile, install command */
+.outreach-tiles {
+  margin: 0.7rem 0 0.2rem;
+}
+
+.course-tile.has-cover {
+  overflow: hidden;
+}
+
+img.course-tile-cover {
+  display: block;
+  width: calc(100% + 1.9rem);
+  max-width: none;
+  aspect-ratio: 16 / 9;
+  margin: -0.85rem -0.95rem 0.45rem;
+  object-fit: cover;
+  background: #0b1016;
+}
+
+.outreach-entries.is-stacked .outreach-entry-note {
+  display: block;
+  margin: 0.1rem 0 0;
+}
+
+.outreach-install {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.7rem;
+  margin: 0.7rem 0 0.1rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid rgba(43, 67, 91, 0.14);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.outreach-install-label {
+  color: #597080;
+  font-size: 0.72rem;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+
+.outreach-install code {
+  padding: 0;
+  background: none;
+  color: #1f3d52;
+  font-size: 0.92rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.outreach-install-note {
+  flex-basis: 100%;
+  color: #66737f;
+  font-size: 0.84rem;
+}
+
 /* Animation gallery (scripts/sync_dvnanima_gallery.py): topics, one card per story, the frame plays in place */
 .anim-topics {
   display: flex;
@@ -3236,5 +3294,42 @@ a.anim-chip:hover {
     left: 0.75rem;
     top: 0.55rem;
     border-width: 0.45rem 0 0.45rem 0.7rem;
+  }
+}
+
+/* On a phone the formats of a long entry go under it; gallery topics are two small picture tiles per row */
+@media (max-width: 600px) {
+  .outreach-entries.is-stacked .outreach-entry {
+    flex-wrap: wrap;
+  }
+
+  .outreach-entries.is-stacked .outreach-entry > .outreach-formats {
+    justify-content: flex-start;
+  }
+
+  .outreach-tiles:has(.has-cover) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.6rem;
+  }
+
+  .outreach-tiles .course-tile.has-cover {
+    padding: 0.6rem 0.65rem 0.55rem;
+  }
+
+  .outreach-tiles .course-tile.has-cover img.course-tile-cover {
+    width: calc(100% + 1.3rem);
+    margin: -0.6rem -0.65rem 0.35rem;
+  }
+
+  .outreach-tiles .course-tile.has-cover .course-tile-text {
+    display: none;
+  }
+
+  .outreach-tiles .course-tile.has-cover .course-tile-title {
+    font-size: 0.92rem;
+  }
+
+  .outreach-tiles .course-tile.has-cover .course-tile-status {
+    font-size: 0.64rem;
   }
 }
