@@ -5,214 +5,92 @@ toc: false
 ---
 
 ```{=html}
-<div class="lecture-catalog">
-  <p class="lecture-catalog-lead">
-    Public science lectures, a popular science book, films, interviews, channels, and visual materials. Russian-language resources are marked in the titles or buttons.
-  </p>
-
-  <nav class="course-tiles" aria-label="Sections">
-    <div class="course-tile"><span class="course-tile-status is-ready">Library · Russian</span><a class="course-tile-title" href="#in-a-nutshell">In a Nutshell</a><span class="course-tile-text">Short modules: one physics question and one clear answer.</span><span class="course-tile-meta">4 lectures · 21 topics planned</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Lectures</span><a class="course-tile-title" href="#neutrino-telescopes">Neutrino Telescopes</a><span class="course-tile-text">How to catch a neutrino from a distant galaxy: for students, the general public and specialists.</span><span class="course-tile-meta">3 lectures, 2026</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Mini-course · Russian</span><a class="course-tile-title" href="#modern-physics-without-formulas">Modern Physics Without Formulas</a><span class="course-tile-text">Spacetime, quantum fields, the Standard Model and new physics.</span><span class="course-tile-meta">4 videos · 4 PDF lectures</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Lecture · Russian</span><a class="course-tile-title" href="#birth-life-universe">The Birth and Life of the Universe</a><span class="course-tile-text">The hot beginning, the first light, stars and galaxies.</span><span class="course-tile-meta">lecture · BBN game</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Lecture · Russian</span><a class="course-tile-title" href="#wave-or-particle">What Is a Particle in QFT?</a><span class="course-tile-text">Wave or point: scattering of a quantum wave on two targets.</span><span class="course-tile-meta">lecture · applet</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Lecture · Russian</span><a class="course-tile-title" href="#black-holes">Black Holes</a><span class="course-tile-text">Amazing objects in the Universe.</span><span class="course-tile-meta">video · PDF</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Lecture · Russian</span><a class="course-tile-title" href="#dark-matter">Dark Matter</a><span class="course-tile-text">Observational evidence and the possible nature of dark matter.</span><span class="course-tile-meta">video · PDF</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Short videos</span><a class="course-tile-title" href="#selected-lectures-films">Short Videos</a><span class="course-tile-text">The neutrino discovery, a voltage multiplier for JUNO and a telescope film.</span><span class="course-tile-meta">3 videos</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Cinema</span><a class="course-tile-title" href="#outreach-films">Films</a><span class="course-tile-text">“The Universe in a Neutrino Telescope” and “Nerpa and the Mystery of Baikal”.</span><span class="course-tile-meta">2 films</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Book · Russian</span><a class="course-tile-title" href="materials.html#solar-neutrino-book">Solar Neutrino</a><span class="course-tile-text">A children’s book about neutrinos and the Sun.</span><span class="course-tile-meta">AVANTA/AST, 2023</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Interviews</span><a class="course-tile-title" href="#outreach-interviews">Interviews and Podcasts</a><span class="course-tile-text">Conversations on neutrino physics, the Baikal telescope and science communication.</span><span class="course-tile-meta">7 items</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Talks</span><a class="course-tile-title" href="talks.html">Talks</a><span class="course-tile-text">Slides of conference and seminar talks.</span><span class="course-tile-meta">1 talk, 2026</span></div>
-  </nav>
-
-  <section class="lecture-course-list" aria-label="Outreach sections">
-    <div id="outreach-lectures" class="lecture-course outreach-course-lectures">
-      <div class="lecture-course-head">
-        <span class="lecture-course-status">Popular lectures</span>
-        <span class="lecture-course-title">Particle physics, astrophysics, and modern physics for broad audiences</span>
+<div class="lecture-catalog outreach-catalog">
+  <p class="lecture-catalog-lead">Public lectures, mini-courses and videos on modern physics for a broad audience. A title opens the material; the other formats are next to it. The materials are in Russian unless marked EN.</p>
+  <div class="outreach-list">
+    <div class="outreach-group" id="in-a-nutshell">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Mini-library</span>
+        <h2 class="outreach-group-name">In a Nutshell</h2>
+        <p class="outreach-group-text">Short 5–10 minute modules: one physics question and one clear answer.</p>
       </div>
-      <div class="lecture-course-body">
-        <p>Lecture slides and videos open directly from this section. Most linked lecture materials are in Russian.</p>
-        <div class="lecture-material-list">
-          <div id="in-a-nutshell" class="lecture-material">
-            <h3 class="lecture-material-head">In a Nutshell (in Russian)</h3>
-            <div class="lecture-material-body">
-              <p>Short 5-10 minute modules: one physics question and one clear answer.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../sciencepop/in-a-nutshell/index.html">Open library</a>
-                <a href="../sciencepop/in-a-nutshell/01_matter.html">What is matter?</a>
-                <a href="../sciencepop/in-a-nutshell/02_how-we-know-atoms.html">How did we learn about atoms?</a>
-                <a href="../sciencepop/in-a-nutshell/03_what-is-atom.html">What is an atom?</a>
-                <a href="../sciencepop/in-a-nutshell/04_inside-nucleus.html">Inside the atomic nucleus</a>
-              </div>
-            </div>
-          </div>
-
-          <div id="neutrino-telescopes" class="lecture-material">
-            <h3 class="lecture-material-head">Neutrino telescopes</h3>
-            <div class="lecture-material-body">
-              <p>The Universe seen with neutrinos: how high-energy neutrinos are caught and what they have already told us about galaxies and sources.</p>
-              <div class="course-lectures">
-                <article class="course-lecture-card">
-                  <a href="../talks/neutrino-telescopes-2026/lecture.html"><img src="../talks/neutrino-telescopes-2026/media/icecube/icecube_first_pev_en.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Neutrino Telescopes: Principles, Results, and Prospects</h3><p class="course-note">Plenary talk for specialists, 2026.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="../talks/neutrino-telescopes-2026/lecture.html">Open slides</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="../talks/neutrino-telescopes-ru-2026/lecture.html"><img src="../talks/neutrino-telescopes-ru-2026/media/films/icecube_first_pev_ru.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">How to catch a neutrino from a distant galaxy (in Russian)</h3><p class="course-note">Lecture for students, 2026.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="../talks/neutrino-telescopes-ru-2026/lecture.html">Open slides</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Why do we need neutrino telescopes? (in Russian)</h3><p class="course-note">Popular lecture at Astrofest, 2026.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">Open lecture</a></div></div>
-                </article>
-              </div>
-            </div>
-          </div>
-
-          <div id="birth-life-universe" class="lecture-material">
-            <h3 class="lecture-material-head">The Birth and Life of the Universe (in Russian)</h3>
-            <div class="lecture-material-body">
-              <p>Hot beginning, first light, stars, galaxies, Earth, and the far future.</p>
-              <p class="course-note">The lecture video will be added later. The interactive BBN game uses the same engine and PRyMordial grid as the in-slide version; the public applet hides the hint/demo buttons so visitors can search for the parameters themselves.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html">Open lecture</a>
-                <a href="../sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html">Open BBN game</a>
-              </div>
-            </div>
-          </div>
-
-          <div id="modern-physics-without-formulas" class="lecture-material">
-            <h3 class="lecture-material-head">Modern Physics Without Formulas (in Russian)</h3>
-            <div class="lecture-material-body">
-              <p class="course-note">Mini-course on spacetime, quantum fields, the Standard Model, searches for new physics, and the future of experimental particle physics.</p>
-              <div class="course-lectures">
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/8D2ONSvgm5A?si=jWggkGnI0ed_U7cl"><img src="https://img.youtube.com/vi/8D2ONSvgm5A/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Three intellectual revolutions</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture1.pdf">Open lecture</a><a href="https://youtu.be/8D2ONSvgm5A?si=jWggkGnI0ed_U7cl">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/HNha1FM8pn4?si=BLLsmx5R4DP_HMJl"><img src="https://img.youtube.com/vi/HNha1FM8pn4/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">QFT: endless troubles and a breath of hope</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture2.pdf">Open lecture</a><a href="https://youtu.be/HNha1FM8pn4?si=BLLsmx5R4DP_HMJl">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/65lufSSiGgg?si=pFlt7Y19XXCWPHsk"><img src="https://img.youtube.com/vi/65lufSSiGgg/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">The Standard Model: a successful union of contradictions</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture3.pdf">Open lecture</a><a href="https://youtu.be/65lufSSiGgg?si=pFlt7Y19XXCWPHsk">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/u7TNiekrClw?si=DL3S9J2OaFzgYpWu"><img src="https://img.youtube.com/vi/u7TNiekrClw/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Beyond the Standard Model: paths to new physics</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/ModernPhysics/Lecture4.pdf">Open lecture</a><a href="https://youtu.be/u7TNiekrClw?si=DL3S9J2OaFzgYpWu">YouTube</a></div></div>
-                </article>
-              </div>
-            </div>
-          </div>
-
-          <div id="wave-or-particle" class="lecture-material">
-            <h3 class="lecture-material-head">What is a particle in quantum field theory?</h3>
-            <div class="lecture-material-body">
-              <p>Wave or point: scattering of a quantum wave on two targets, with an interactive applet.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html">Open lecture</a>
-              </div>
-            </div>
-          </div>
-
-          <div id="selected-lectures-films" class="lecture-material">
-            <h3 class="lecture-material-head">Selected lectures and films</h3>
-            <div class="lecture-material-body">
-              <p>Videos on neutrino physics, modern physics, and demonstration experiments.</p>
-              <div class="course-lectures">
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">The Universe in a Neutrino Telescope</h3><p>Film. Written and directed by Dmitry Naumov.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/WRAEhMhGPew"><img src="https://img.youtube.com/vi/WRAEhMhGPew/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">How to increase voltage without a transformer?</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/WRAEhMhGPew">YouTube</a></div></div>
-                </article>
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/ybPLBzujONA"><img src="https://img.youtube.com/vi/ybPLBzujONA/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">The mystery of missing energy: almost a detective story of the neutrino discovery</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/ybPLBzujONA">YouTube</a></div></div>
-                </article>
-              </div>
-            </div>
-          </div>
-
-          <div id="black-holes" class="lecture-material">
-            <h3 class="lecture-material-head">Black holes (in Russian)</h3>
-            <div class="lecture-material-body">
-              <p>Popular lecture on black-hole physics.</p>
-              <div class="course-lectures course-lectures-single">
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/c9BkAFfZHC8"><img src="https://img.youtube.com/vi/c9BkAFfZHC8/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Black holes: remarkable objects in the Universe (in Russian)</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/BlackHoles/BlackHoles.pdf">Open lecture</a><a href="https://youtu.be/c9BkAFfZHC8">YouTube</a></div></div>
-                </article>
-              </div>
-            </div>
-          </div>
-
-          <div id="dark-matter" class="lecture-material">
-            <h3 class="lecture-material-head">Dark matter (in Russian)</h3>
-            <div class="lecture-material-body">
-              <p>Observational evidence and possible nature of dark matter.</p>
-              <div class="course-lectures course-lectures-single">
-                <article class="course-lecture-card">
-                  <a href="https://youtu.be/A2sHEkQ0Uww?si=Y7oeKP6kEfgSOszi"><img src="https://img.youtube.com/vi/A2sHEkQ0Uww/hqdefault.jpg" alt=""></a>
-                  <div class="course-lecture-card-body"><h3 class="course-lecture-title">Dark matter (in Russian)</h3><div class="lecture-course-actions"><a class="lecture-action-primary" href="../sciencepop/DarkMatter/DarkMatter.pdf">Open lecture</a><a href="https://youtu.be/A2sHEkQ0Uww?si=Y7oeKP6kEfgSOszi">YouTube</a></div></div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
+      <ul class="outreach-entries">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/in-a-nutshell/01_matter.html">What is matter?</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../sciencepop/in-a-nutshell/01_matter.html">Slides</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/in-a-nutshell/02_how-we-know-atoms.html">How did we learn about atoms?</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../sciencepop/in-a-nutshell/02_how-we-know-atoms.html">Slides</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/in-a-nutshell/03_what-is-atom.html">What is an atom?</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../sciencepop/in-a-nutshell/03_what-is-atom.html">Slides</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/in-a-nutshell/04_inside-nucleus.html">What is inside the atomic nucleus?</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../sciencepop/in-a-nutshell/04_inside-nucleus.html">Slides</a></span></li>
+      </ul>
+      <a class="outreach-all" href="../sciencepop/in-a-nutshell/index.html">The whole library →</a>
+    </div>
+    <div class="outreach-group" id="neutrino-telescopes">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">3 lectures · 2026</span>
+        <h2 class="outreach-group-name">Neutrino Telescopes</h2>
+        <p class="outreach-group-text">The Universe seen with neutrinos: how high-energy neutrinos are caught and what they have told us about galaxies.</p>
+      </div>
+      <ul class="outreach-entries">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/neutrino-telescopes-2026/lecture.html">Neutrino Telescopes: Principles, Results, and Prospects</a><span class="outreach-lang">EN</span><span class="outreach-entry-note">plenary talk</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-2026/lecture.html">Slides</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/neutrino-telescopes-ru-2026/lecture.html">How to catch a neutrino from a distant galaxy</a><span class="outreach-entry-note">for students</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-ru-2026/lecture.html">Slides</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">Why do we need neutrino telescopes?</a><span class="outreach-entry-note">Astrofest</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-pdf" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">PDF</a></span></li>
+      </ul>
+    </div>
+    <div class="outreach-group" id="modern-physics-without-formulas">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Mini-course · 4 lectures</span>
+        <h2 class="outreach-group-name">Modern Physics Without Formulas</h2>
+        <p class="outreach-group-text">Spacetime, quantum fields, the Standard Model and the search for new physics.</p>
+      </div>
+      <ul class="outreach-entries">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/ModernPhysics/Lecture1.pdf">Three intellectual revolutions</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-pdf" href="../sciencepop/ModernPhysics/Lecture1.pdf">PDF</a><a class="outreach-format is-video" href="https://youtu.be/8D2ONSvgm5A" rel="noopener">Video</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/ModernPhysics/Lecture2.pdf">QFT: endless troubles and a breath of hope</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-pdf" href="../sciencepop/ModernPhysics/Lecture2.pdf">PDF</a><a class="outreach-format is-video" href="https://youtu.be/HNha1FM8pn4" rel="noopener">Video</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/ModernPhysics/Lecture3.pdf">The Standard Model: a successful union of contradictions</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-pdf" href="../sciencepop/ModernPhysics/Lecture3.pdf">PDF</a><a class="outreach-format is-video" href="https://youtu.be/65lufSSiGgg" rel="noopener">Video</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/ModernPhysics/Lecture4.pdf">Beyond the Standard Model: paths to new physics</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-pdf" href="../sciencepop/ModernPhysics/Lecture4.pdf">PDF</a><a class="outreach-format is-video" href="https://youtu.be/u7TNiekrClw" rel="noopener">Video</a></span></li>
+      </ul>
+    </div>
+    <div class="outreach-group" id="birth-life-universe">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Lecture</span>
+        <h2 class="outreach-group-name"><a class="outreach-group-title" href="../sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html">The Birth and Life of the Universe</a></h2>
+        <p class="outreach-group-text">The hot beginning, the first light, stars, galaxies, the Earth and the far future. The BBN game: find the parameters of primordial nucleosynthesis yourself.</p>
+        <span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html">Slides</a><a class="outreach-format is-game" href="../sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html">Game</a></span>
       </div>
     </div>
-
-    <div id="solar-neutrino-book" class="lecture-course book-course-solar">
-      <div class="lecture-course-head">
-        <span class="lecture-course-status">Book</span>
-        <span class="lecture-course-title">Solar Neutrino (in Russian)</span>
-      </div>
-      <div class="lecture-course-body book-course-with-cover">
-        <a class="book-cover-single" href="https://ast.ru/book/solnechnoe-neytrino-862573/"><img src="https://cdn.ast.ru/v2/ASE000000000862573/COVER/cover1__w340.jpg" alt="Solar Neutrino book cover"></a>
-        <div>
-          <p>A popular science book for children about neutrinos, the Sun, and the large physics of tiny particles.</p>
-          <div class="lecture-course-actions"><a class="lecture-action-primary" href="https://ast.ru/book/solnechnoe-neytrino-862573/">AST page</a></div>
-        </div>
+    <div class="outreach-group" id="wave-or-particle">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Lecture</span>
+        <h2 class="outreach-group-name"><a class="outreach-group-title" href="../sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html">What is a particle in quantum field theory?</a></h2>
+        <p class="outreach-group-text">Wave or point: scattering of a quantum wave on two targets; the applet is inside the slides.</p>
+        <span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html">Slides</a></span>
       </div>
     </div>
-
-    <div id="outreach-films" class="lecture-course cinema-course-documentary">
-      <div class="lecture-course-head"><span class="lecture-course-status">Films</span><span class="lecture-course-title">Films and visual projects</span></div>
-      <div class="lecture-course-body">
-        <div class="lecture-material-list">
-          <div class="lecture-material">
-            <h3 class="lecture-material-head">The Universe in a Neutrino Telescope</h3>
-            <div class="lecture-material-body cinema-material-detail"><a href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui"><img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt=""></a><div><p>Film about how neutrino telescopes open the Universe. Written and directed by Dmitry Naumov.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">Watch on YouTube</a></div></div></div>
-          </div>
-          <div class="lecture-material"><h3 class="lecture-material-head">Nerpa and the Mystery of Baikal</h3><div class="lecture-material-body cinema-material-detail"><a href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg"><img src="https://img.youtube.com/vi/Qja-x8WjYiw/hqdefault.jpg" alt=""></a><div><p>Animated film about Baikal. Written by Dmitry Naumov.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg">Watch on YouTube</a></div></div></div></div>
-        </div>
+    <div class="outreach-group" id="black-holes">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Lecture</span>
+        <h2 class="outreach-group-name"><a class="outreach-group-title" href="../sciencepop/BlackHoles/BlackHoles.pdf">Black holes: remarkable objects in the Universe</a></h2>
+        <p class="outreach-group-text">A popular lecture on the physics of black holes.</p>
+        <span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-pdf" href="../sciencepop/BlackHoles/BlackHoles.pdf">PDF</a><a class="outreach-format is-video" href="https://youtu.be/c9BkAFfZHC8" rel="noopener">Video</a></span>
       </div>
     </div>
-
-    <div id="outreach-interviews" class="lecture-course interview-course-articles">
-      <div class="lecture-course-head"><span class="lecture-course-status">Interviews</span><span class="lecture-course-title">Articles, broadcasts, and podcasts</span></div>
-      <div class="lecture-course-body">
-        <p>Interviews about neutrino physics, the Baikal telescope, and science communication. Linked materials are in Russian.</p>
-        <div class="lecture-material-list">
-          <div class="lecture-material"><h3 class="lecture-material-head">Ghost trap: astrophysicists draw neutrinos from Baikal</h3><div class="lecture-material-body"><p>About the Baikal deep-water neutrino telescope and the goals of neutrino astronomy.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1061/">Open material</a></div></div></div>
-          <div class="lecture-material"><h3 class="lecture-material-head">Science communication: a new concept and new knowledge</h3><div class="lecture-material-body"><p>About science communication work at <a href="https://dlnp.jinr.ru/">DLNP JINR</a>, current projects, and plans.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1062/">Open material</a></div></div></div>
-          <div class="lecture-material"><h3 class="lecture-material-head">The Baikal telescope as a unique instrument for neutrino astronomy</h3><div class="lecture-material-body"><p>About Baikal-GVD and the information on cosmic evolution carried by neutrinos.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1063/">Open material</a></div></div></div>
-          <div class="lecture-material"><h3 class="lecture-material-head">To the bottom for a black hole</h3><div class="lecture-material-body"><p>Interview for Rossiyskaya Gazeta about the Baikal neutrino telescope.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1064/">Open material</a></div></div></div>
-          <div class="lecture-material"><h3 class="lecture-material-head">Neutrinos need to be made to speak</h3><div class="lecture-material-body"><p>Interview by Yan Makhonin for Troitsky Variant — Science.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1065/">Open material</a></div></div></div>
-          <div class="lecture-material"><h3 class="lecture-material-head">Scientific Approach radio podcast</h3><div class="lecture-material-body"><p>Radio Russia broadcast about neutrino telescopes.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1133/">Open material</a></div></div></div>
-          <div class="lecture-material"><h3 class="lecture-material-head">Channel One. Schroedinger's Cat podcast</h3><div class="lecture-material-body"><p>About the origin, detection, and telescopes of neutrinos at Baikal and in Antarctica.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://naumov.jinr.ru/1322/">Open material</a></div></div></div>
-        </div>
+    <div class="outreach-group" id="dark-matter">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Lecture</span>
+        <h2 class="outreach-group-name"><a class="outreach-group-title" href="../sciencepop/DarkMatter/DarkMatter.pdf">Dark Matter</a></h2>
+        <p class="outreach-group-text">Observational evidence and the possible nature of dark matter.</p>
+        <span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-pdf" href="../sciencepop/DarkMatter/DarkMatter.pdf">PDF</a><a class="outreach-format is-video" href="https://youtu.be/A2sHEkQ0Uww" rel="noopener">Video</a></span>
       </div>
     </div>
-
-    <div id="outreach-channels" class="lecture-course">
-      <div class="lecture-course-head"><span class="lecture-course-status">Channels</span><span class="lecture-course-title">YouTube, Telegram, and social platforms</span></div>
-      <div class="lecture-course-body"><p>Public NeutrinoHit platforms and personal channels for news, lectures, photos, and physics materials.</p><div class="lecture-course-actions"><a class="lecture-action-primary" href="https://www.youtube.com/@dmitrynaumov6099/">YouTube</a><a href="https://t.me/NeutrinoHit">Telegram</a><a href="https://www.facebook.com/dmitry.naumov.52">Facebook</a><a href="https://www.instagram.com/dmitryvnaumov_dlnp/">Instagram</a></div></div>
+    <div class="outreach-group" id="short-videos">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Videos</span>
+        <h2 class="outreach-group-name">Short Videos</h2>
+        <p class="outreach-group-text">The discovery of the neutrino and a demonstration experiment.</p>
+      </div>
+      <ul class="outreach-entries">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/ybPLBzujONA" rel="noopener">The mystery of missing energy: almost a detective story of the neutrino discovery</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-video" href="https://youtu.be/ybPLBzujONA" rel="noopener">Video</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/WRAEhMhGPew" rel="noopener">How to increase voltage without a transformer?</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-video" href="https://youtu.be/WRAEhMhGPew" rel="noopener">Video</a></span></li>
+      </ul>
     </div>
-  </section>
+  </div>
+  <p class="outreach-more">Conference and seminar talks: <a href="../en/talks.html">the Talks page</a>.</p>
 </div>
 ```

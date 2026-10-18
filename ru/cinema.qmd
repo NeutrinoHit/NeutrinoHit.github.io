@@ -1,0 +1,18 @@
+---
+title: "Кино"
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog outreach-catalog">
+  <p class="lecture-catalog-lead">Фильмы и мультфильмы о нейтринной физике и Байкале.</p>
+  <div class="outreach-list">
+    <div class="outreach-group">
+      <ul class="outreach-entries">
+        <li class="outreach-entry" id="universe-neutrino-telescope"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/x--KvzTlvL0" rel="noopener">Вселенная в нейтринном телескопе</a><span class="outreach-entry-note">фильм · сценарий и режиссура: Дмитрий Наумов</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/x--KvzTlvL0" rel="noopener">Видео</a></span></li>
+        <li class="outreach-entry" id="nerpa-baikal"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/Qja-x8WjYiw" rel="noopener">Нерпа и тайна Байкала</a><span class="outreach-entry-note">мультфильм · сценарий: Дмитрий Наумов</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/Qja-x8WjYiw" rel="noopener">Видео</a></span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+```

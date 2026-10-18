@@ -5,47 +5,15 @@ toc: false
 ---
 
 ```{=html}
-<div class="lecture-catalog">
-  <p class="lecture-catalog-lead">
-    Films and animated films related to science outreach and neutrino physics.
-  </p>
-
-  <section class="lecture-course-list" aria-label="Films catalog">
-    <details class="lecture-course cinema-course-documentary">
-      <summary>
-        <span class="lecture-course-status">Film</span>
-        <span class="lecture-course-title">The Universe in a Neutrino Telescope</span>
-      </summary>
-      <div class="lecture-course-body cinema-material-detail">
-        <a href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">
-          <img src="https://img.youtube.com/vi/x--KvzTlvL0/hqdefault.jpg" alt="">
-        </a>
-        <div>
-          <p>A film on how neutrino telescopes open the Universe. Written and directed by Dmitry Naumov. The film is in Russian.</p>
-          <div class="lecture-course-actions">
-            <a class="lecture-action-primary" href="https://youtu.be/x--KvzTlvL0?si=ubRc5QdrKFSxNQui">Watch on YouTube</a>
-          </div>
-        </div>
-      </div>
-    </details>
-
-    <details class="lecture-course cinema-course-animation">
-      <summary>
-        <span class="lecture-course-status">Animated film</span>
-        <span class="lecture-course-title">The Nerpa and the Secret of Baikal</span>
-      </summary>
-      <div class="lecture-course-body cinema-material-detail">
-        <a href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg">
-          <img src="https://img.youtube.com/vi/Qja-x8WjYiw/hqdefault.jpg" alt="">
-        </a>
-        <div>
-          <p>An animated film about Lake Baikal. Script by Dmitry Naumov. The film is in Russian.</p>
-          <div class="lecture-course-actions">
-            <a class="lecture-action-primary" href="https://youtu.be/Qja-x8WjYiw?si=LY2cQp5rX1U076sg">Watch on YouTube</a>
-          </div>
-        </div>
-      </div>
-    </details>
-  </section>
+<div class="lecture-catalog outreach-catalog">
+  <p class="lecture-catalog-lead">Films and animated films about neutrino physics and Lake Baikal. The films are in Russian.</p>
+  <div class="outreach-list">
+    <div class="outreach-group">
+      <ul class="outreach-entries">
+        <li class="outreach-entry" id="universe-neutrino-telescope"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/x--KvzTlvL0" rel="noopener">The Universe in a Neutrino Telescope</a><span class="outreach-entry-note">film · written and directed by Dmitry Naumov</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-video" href="https://youtu.be/x--KvzTlvL0" rel="noopener">Video</a></span></li>
+        <li class="outreach-entry" id="nerpa-baikal"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/Qja-x8WjYiw" rel="noopener">The Nerpa and the Mystery of Baikal</a><span class="outreach-entry-note">animated film · script by Dmitry Naumov</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-video" href="https://youtu.be/Qja-x8WjYiw" rel="noopener">Video</a></span></li>
+      </ul>
+    </div>
+  </div>
 </div>
 ```
