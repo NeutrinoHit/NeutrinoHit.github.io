@@ -3342,6 +3342,29 @@ a.anim-chip:hover {
   }
 }
 
+/* Navbar brand: the globe logo and the name never shrink or clip */
+#quarto-header .navbar-brand-container {
+  flex-shrink: 0;
+  max-width: none;
+}
+
+#quarto-header .navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#quarto-header .navbar-brand .navbar-title {
+  overflow: visible;
+  text-overflow: clip;
+}
+
+#quarto-header img.navbar-logo {
+  width: 2.3rem;
+  height: 2.3rem;
+  max-height: none;
+}
+
 /* School: counters by kind of work that filter the list (scripts/build_outreach_pages.py) */
 .outreach-filter {
   display: flex;

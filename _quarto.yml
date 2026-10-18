@@ -27,6 +27,9 @@ website:
   site-url: "https://neutrinohit.github.io/"
   repo-url: "https://github.com/NeutrinoHit/NeutrinoHit.github.io"
   navbar:
+    # The globe logo of the QR codes (assets/site/neutrinohit-logo.png, 192 px, cut from assets/books/qr_center_logo_globe_bw.png)
+    logo: /assets/site/neutrinohit-logo.png
+    logo-alt: "NeutrinoHit"
     left:
       - href: ru/index.qmd
         text: Главная
@@ -38,6 +41,10 @@ website:
         text: Книги
       - href: ru/modeling.qmd
         text: Моделирование
+      - href: ru/animations.qmd
+        text: Анимации
+      - href: ru/interactives.qmd
+        text: Интерактивы
       - href: ru/school.qmd
         text: Школа
       # Second row on wide screens (styles.css, "Navbar in two rows"): the sections for a broad audience.
