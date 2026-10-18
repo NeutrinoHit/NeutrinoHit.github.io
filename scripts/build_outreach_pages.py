@@ -41,6 +41,9 @@ PAGES = {
     "outreach.catalog.yml": {"outreach": "outreach.qmd", "cinema": "cinema.qmd", "interviews": "interviews.qmd"},
     "research.catalog.yml": {"research": "research.qmd"},
     "modeling.catalog.yml": {"modeling": "modeling.qmd"},
+    "school.catalog.yml": {"school": "school.qmd"},
+    "photos.catalog.yml": {"photos": "photos.qmd"},
+    "interactives.catalog.yml": {"interactives": "interactives.qmd"},
 }
 GALLERY = ROOT / "animations.catalog.json"
 
@@ -54,6 +57,11 @@ T = {
         "install": "Установка",
         "count": lambda stories, videos: (plural_ru(stories, "сюжет", "сюжета", "сюжетов") + " · "
                                           + plural_ru(videos, "ролик", "ролика", "роликов")),
+        "album": lambda photos, videos: (plural_ru(photos, "фото", "фото", "фото")
+                                         + (" · " + plural_ru(videos, "видео", "видео", "видео") if videos else "")),
+        "interactives": lambda n: plural_ru(n, "интерактив", "интерактива", "интерактивов"),
+        "all": "Все",
+        "filter": "Показать",
     },
     "en": {
         "kinds": {"slides": "Slides", "pdf": "PDF", "video": "Video", "applet": "Applet",
@@ -63,6 +71,10 @@ T = {
         "formats": "Formats",
         "install": "Install",
         "count": lambda stories, videos: f"{stories} stories · {videos} videos",
+        "album": lambda photos, videos: f"{photos} photos" + (f" · {videos} videos" if videos else ""),
+        "interactives": lambda n: f"{n} interactives",
+        "all": "All",
+        "filter": "Show",
     },
 }
 
@@ -77,7 +89,7 @@ def e(text: str) -> str:
     return html.escape(str(text), quote=True)
 
 
-def tr(value, lang: str) -> str:
+def tr(value, lang: str):
     """A text that is either one string or a {ru, en} pair."""
     if isinstance(value, dict):
         return value[lang] if lang in value else value.get("ru") or value.get("en") or ""
@@ -110,6 +122,8 @@ def lang_mark(entry: dict, lang: str) -> str:
 
 
 def title_link(entry: dict, lang: str, cls: str) -> str:
+    if not entry.get("links"):
+        return f'<span class="{cls}">{e(tr(entry["title"], lang))}</span>'
     url = href(entry["links"][0], lang)
     return f'<a class="{cls}" href="{e(url)}"{external(url)}>{e(tr(entry["title"], lang))}</a>'
 
@@ -124,14 +138,92 @@ def entry_line(entry: dict, lang: str) -> str:
     title = title_link(entry, lang, "outreach-entry-title")
     note = tr(entry.get("note"), lang)
     meta = lang_mark(entry, lang) + (f'<span class="outreach-entry-note">{e(note)}</span>' if note else "")
+    if entry.get("install"):                     # a package: its install command under the note
+        meta += f'<code class="outreach-entry-install">{e(entry["install"])}</code>'
     anchor = f' id="{e(entry["id"])}"' if entry.get("id") else ""
+    links = formats(entry["links"], lang, T[lang]["formats"]) if entry.get("links") else ""
     return (f'<li class="outreach-entry"{anchor}><span class="outreach-entry-main">{title}{meta}</span>'
-            f'{formats(entry["links"], lang, T[lang]["formats"])}</li>')
+            f'{links}</li>')
+
+
+def student_line(entry: dict, lang: str, categories: dict) -> str:
+    """A supervised work: the name opens the PDF; the year and the kind of work, then its title.
+    The title may hold inline HTML (sub, sup, a link to a package): it comes from the catalog."""
+    links = [{"kind": "pdf", "href": entry["pdf"]}] if entry.get("pdf") else []
+    name = title_link(dict(title=entry["name"], links=links), lang, "outreach-entry-title")
+    kind = tr(categories[entry["category"]], lang)
+    return (f'<li class="outreach-entry" data-category="{e(entry["category"])}">'
+            f'<span class="outreach-entry-main">{name}'
+            f'<span class="outreach-entry-note">{e(entry["year"])} · {e(kind)}</span>'
+            f'<span class="outreach-entry-work">{tr(entry["work"], lang)}</span></span>'
+            f'{formats(links, lang, T[lang]["formats"]) if links else ""}</li>')
+
+
+FILTER_JS = """<script>
+document.addEventListener('click', function (event) {
+  var button = event.target.closest('.outreach-filter button');
+  if (!button) return;
+  var group = button.closest('.outreach-group');
+  var category = button.dataset.category;
+  group.querySelectorAll('.outreach-filter button').forEach(function (b) {
+    b.setAttribute('aria-pressed', b === button ? 'true' : 'false');
+  });
+  group.querySelectorAll('.outreach-entries > li').forEach(function (row) {
+    row.hidden = category !== 'all' && row.dataset.category !== category;
+  });
+});
+</script>"""
+
+
+def students_block(group: dict, lang: str) -> list[str]:
+    """Counters by kind of work that filter the list, then one line per work, the newest first."""
+    categories = {c["id"]: c["label"] for c in group["categories"]}
+    plural = {c["id"]: c.get("plural", c["label"]) for c in group["categories"]}
+    items = sorted(group["items"], key=lambda it: -int(it["year"]))
+    counts = {cid: sum(it["category"] == cid for it in items) for cid in categories}
+    buttons = [f'<button type="button" data-category="all" aria-pressed="true">'
+               f'<strong>{len(items)}</strong> {e(T[lang]["all"].lower())}</button>']
+    def word(cid: str, n: int) -> str:              # "4 кандидатские", "13 дипломных"; English: one form
+        forms = tr(plural[cid], lang) if isinstance(plural[cid], dict) else plural[cid]
+        return plural_ru(n, *forms).split(" ", 1)[1] if isinstance(forms, list) else forms
+
+    buttons += [f'<button type="button" data-category="{e(cid)}" aria-pressed="false">'
+                f'<strong>{n}</strong> {e(word(cid, n))}</button>'
+                for cid, n in counts.items() if n]
+    return ([f'      <div class="outreach-filter" role="group" aria-label="{e(T[lang]["filter"])}">'
+             + "".join(buttons) + "</div>",
+             '      <ul class="outreach-entries is-stacked is-students">']
+            + ["        " + student_line(it, lang, categories) for it in items]
+            + ["      </ul>"])
+
+
+def album_tile(tile: dict, lang: str) -> dict:
+    """A tile that opens a photo album; its picture and counts come from albums/<slug>/album.json."""
+    album = json.loads((ROOT / "albums" / tile["album"] / "album.json").read_text(encoding="utf-8"))
+    media = album["photos"]
+    cover = next((m for m in media if m.get("role") == "cover"), media[0])
+    picture = cover.get("preview") or cover["file"]
+    photos = sum(m.get("type", "photo") == "photo" for m in media)
+    return {
+        "status": T[lang]["album"](photos, len(media) - photos),
+        "title": tile["title"], "text": tile.get("text", ""),
+        "href": f"/albums/{tile['album']}/index.html",
+        "cover": f"/albums/{tile['album']}/{picture}",
+    }
 
 
 def gallery_tile(tile: dict, lang: str) -> dict:
-    """A tile that opens one section of the animation gallery."""
-    sections = {s["id"]: s for s in json.loads(GALLERY.read_text(encoding="utf-8"))["sections"]}
+    """A tile that opens one section of the animation gallery ("all": the whole gallery)."""
+    catalog = json.loads(GALLERY.read_text(encoding="utf-8"))
+    if tile["gallery"] == "all":
+        items = [it for s in catalog["sections"] for it in s["items"]]
+        section_id, item_id, video_id = tile["cover"].split("/")
+        return {
+            "status": T[lang]["count"](len(items), sum(len(it["videos"]) for it in items)),
+            "title": tile["title"], "text": tile["text"], "href": f"/{lang}/animations.html",
+            "cover": f"/assets/animations/dvnanima/{section_id}-{item_id}-{video_id}.jpg",
+        }
+    sections = {s["id"]: s for s in catalog["sections"]}
     section = sections[tile["gallery"]]
     item_id, video_id = tile["cover"].split("/") if tile.get("cover") else (
         section["items"][0]["id"], section["items"][0]["videos"][0]["id"])
@@ -147,17 +239,29 @@ def gallery_tile(tile: dict, lang: str) -> dict:
 
 
 def tiles_block(tiles: list[dict], lang: str, label: str) -> list[str]:
-    out = [f'      <nav class="course-tiles outreach-tiles" aria-label="{e(label)}">']
+    albums = " is-albums" if any(tile.get("album") for tile in tiles) else ""
+    out = [f'      <nav class="course-tiles outreach-tiles{albums}" aria-label="{e(label)}">']
     for tile in tiles:
         if tile.get("gallery"):
             tile = gallery_tile(tile, lang)
+        elif tile.get("album"):
+            tile = album_tile(tile, lang)
+        elif tile.get("count_of"):           # a tile for a catalog page: the number of its entries
+            catalog = yaml.safe_load((ROOT / tile["count_of"]).read_text(encoding="utf-8"))
+            section = next(iter(catalog.values()))
+            n = sum(len(g.get("items", [])) for g in section["groups"])
+            tile = dict(tile, status=T[lang]["interactives"](n))
         url = href(tile, lang)
+        picture = tile.get("cover", "")
+        if picture.startswith("/") and not (ROOT / picture.lstrip("/")).exists():
+            sys.exit(f"missing tile picture: {picture}")
         cover = (f'<img class="course-tile-cover" src="{e(href(tile, lang, "cover"))}" alt="" loading="lazy">'
-                 if tile.get("cover") else "")
+                 if picture else "")
         out.append(f'        <div class="course-tile{" has-cover" if cover else ""}">{cover}'
                    f'<span class="course-tile-status is-ready">{e(tr(tile["status"], lang))}</span>'
                    f'<a class="course-tile-title" href="{e(url)}"{external(url)}>{e(tr(tile["title"], lang))}</a>'
-                   f'<span class="course-tile-text">{e(tr(tile["text"], lang))}</span></div>')
+                   + (f'<span class="course-tile-text">{e(tr(tile["text"], lang))}</span>' if tile.get("text") else "")
+                   + '</div>')
     out.append("      </nav>")
     return out
 
@@ -192,6 +296,10 @@ def group_block(group: dict, lang: str) -> list[str]:
         out += install_block(group, lang)
     if group.get("tiles"):
         out += tiles_block(group["tiles"], lang, tr(group.get("title"), lang))
+    if group.get("categories"):
+        out += students_block(group, lang)
+        out.append("    </div>")
+        return out
     entries = entries_of(group, lang)
     if entries:
         stacked = " is-stacked" if group.get("layout") == "stacked" else ""
@@ -207,14 +315,23 @@ def group_block(group: dict, lang: str) -> list[str]:
 
 def page(section: dict, lang: str, variant: str = "") -> str:
     out = ["---", f'title: "{tr(section["title"], lang)}"']
+    if section.get("aliases"):                  # old addresses of the page
+        out += ["aliases:"] + [f"  - {alias}" for alias in section["aliases"]]
     if lang == "en":
         out.append("lang: en-US")
     out += ["toc: false", "---", "", "```{=html}", '<div class="lecture-catalog outreach-catalog">',
-            f'  <p class="lecture-catalog-lead">{e(tr(section["lead"], lang))}</p>',
-            f'  <div class="outreach-list{variant}">']
+            f'  <p class="lecture-catalog-lead">{e(tr(section["lead"], lang))}</p>']
+    if section.get("topics"):                   # buttons to the groups, with the number of entries
+        out.append(f'  <nav class="anim-topics" aria-label="{e(tr(section["title"], lang))}">')
+        out += [f'    <a href="#{e(g["id"])}">{e(tr(g["title"], lang))}<span>{len(g.get("items", []))}</span></a>'
+                for g in section["groups"]]
+        out.append("  </nav>")
+    out.append(f'  <div class="outreach-list{variant}">')
     for group in section["groups"]:
         out += group_block(group, lang)
     out.append("  </div>")
+    if any(group.get("categories") for group in section["groups"]):
+        out.append(FILTER_JS)
     if section.get("more"):
         more = section["more"]
         out.append(f'  <p class="outreach-more">{e(tr(more["text"], lang))} '

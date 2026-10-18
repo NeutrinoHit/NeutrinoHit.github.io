@@ -6,51 +6,16 @@ toc: false
 ---
 
 ```{=html}
-<div class="lecture-catalog">
-  <p class="lecture-catalog-lead">
-    Фотоальбомы о научной жизни: лекции, научные школы, поездки и встречи.
-  </p>
-
-  <section class="lecture-course-list" aria-label="Фото">
-    <details class="lecture-course photo-course-archive">
-      <summary>
-        <span class="lecture-course-status">3 альбома</span>
-        <span class="lecture-course-title">Фотоархив</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>Фотографии лекций, научных школ, поездок и встреч.</p>
-        <div class="lecture-material-list">
-          <details class="lecture-material">
-            <summary>2026 · Байкальская школа по физике элементарных частиц и астрофизике</summary>
-            <div class="lecture-material-body">
-              <p>38 фото и 3 видео · Большие Коты, Байкал · июль 2026 года.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../albums/baikal-school-2026/index.html">Открыть альбом</a>
-              </div>
-            </div>
-          </details>
-          <details class="lecture-material">
-            <summary>2009 · В. А. Рубаков. Байкальская школа по физике элементарных частиц и астрофизике</summary>
-            <div class="lecture-material-body">
-              <p>20 фотографий · Байкал · 22–29 июля 2009 года.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../albums/v-a-rubakov-baikal-school-2009/index.html">Открыть альбом</a>
-              </div>
-            </div>
-          </details>
-          <details class="lecture-material">
-            <summary>10–17 мая 2026 · Визит коллег из Китая</summary>
-            <div class="lecture-material-body">
-              <p>Визит профессоров Wei Wang, Jianglai Liu и Yuekun Heng в Москву, Дубну и Санкт-Петербург.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../albums/10-17-may-2026/index.html">Открыть альбом</a>
-              </div>
-            </div>
-          </details>
-        </div>
-      </div>
-    </details>
-
-  </section>
+<div class="lecture-catalog outreach-catalog">
+  <p class="lecture-catalog-lead">Фотоальбомы о научной жизни: лекции, научные школы, поездки и встречи.</p>
+  <div class="outreach-list">
+    <div class="outreach-group">
+      <nav class="course-tiles outreach-tiles is-albums" aria-label="">
+        <div class="course-tile has-cover"><img class="course-tile-cover" src="../albums/baikal-school-2026/previews/01-posters.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">38 фото · 3 видео</span><a class="course-tile-title" href="../albums/baikal-school-2026/index.html">Байкальская школа по физике элементарных частиц и астрофизике</a><span class="course-tile-text">Большие Коты, Байкал · июль 2026</span></div>
+        <div class="course-tile has-cover"><img class="course-tile-cover" src="../albums/10-17-may-2026/previews/01-image-20260515123123-425-177.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">10 фото</span><a class="course-tile-title" href="../albums/10-17-may-2026/index.html">Визит коллег из Китая</a><span class="course-tile-text">Wei Wang, Jianglai Liu и Yuekun Heng в Москве, Дубне и Санкт-Петербурге · 10–17 мая 2026</span></div>
+        <div class="course-tile has-cover"><img class="course-tile-cover" src="../albums/v-a-rubakov-baikal-school-2009/previews/01-sg1s5673.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">20 фото</span><a class="course-tile-title" href="../albums/v-a-rubakov-baikal-school-2009/index.html">В. А. Рубаков. Байкальская школа</a><span class="course-tile-text">Байкал · 22–29 июля 2009</span></div>
+      </nav>
+    </div>
+  </div>
 </div>
 ```

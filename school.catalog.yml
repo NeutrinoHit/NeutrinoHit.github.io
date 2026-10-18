@@ -1,0 +1,395 @@
+# School: supervised works and summer schools. scripts/build_outreach_pages.py writes ru|en/school.qmd.
+# A student entry: year, category (one of the categories), name, work (its title; inline HTML allowed:
+# sub, sup, a link to a package), pdf (site path, optional). The counters above the list are counted
+# from the entries and filter the list by category. The lectures, projects and posters of the Baikal
+# school 2026 are on ru|en/baikal-school-2026.qmd. The old ru|en/students.html redirect here.
+school:
+  aliases: [students.html]   # the old list of students and graduate students
+  title:
+    ru: Школа
+    en: School
+  lead:
+    ru: 'Научная школа: студенты и аспиранты, работы под руководством Дмитрия Наумова, летние школы по физике частиц и астрофизике.'
+    en: 'The scientific school: students and graduate students, works supervised by Dmitry Naumov, summer schools on particle
+      physics and astrophysics.'
+  groups:
+  - id: students
+    kind:
+      ru: Научное руководство
+      en: Supervision
+    title:
+      ru: Студенты и аспиранты
+      en: Students and graduate students
+    summary:
+      ru: Счётчик показывает работы своего вида; имя открывает PDF, если он есть.
+      en: A counter shows the works of its kind; a name opens the PDF when there is one. Most PDFs are in Russian.
+    categories:
+    - id: phd
+      label:
+        ru: Кандидатская диссертация
+        en: PhD dissertation
+      plural:
+        ru:
+        - кандидатская
+        - кандидатские
+        - кандидатских
+        en: PhD
+    - id: master
+      label:
+        ru: Магистерская диссертация
+        en: Master thesis
+      plural:
+        ru:
+        - магистерская
+        - магистерские
+        - магистерских
+        en: master
+    - id: bachelor
+      label:
+        ru: Бакалаврская работа
+        en: Bachelor thesis
+      plural:
+        ru:
+        - бакалаврская
+        - бакалаврские
+        - бакалаврских
+        en: bachelor
+    - id: diploma
+      label:
+        ru: Дипломная работа
+        en: Diploma thesis
+      plural:
+        ru:
+        - дипломная
+        - дипломные
+        - дипломных
+        en: diploma
+    - id: coursework
+      label:
+        ru: Курсовая работа
+        en: Coursework
+      plural:
+        ru:
+        - курсовая
+        - курсовые
+        - курсовых
+        en: coursework
+    items:
+    - year: 2000
+      category: diploma
+      name:
+        ru: Кустов Д. В.
+        en: D. V. Kustov
+      work:
+        ru: Поляризация Лямбда гиперонов в эксперименте NOMAD.
+        en: Polarization of Lambda hyperons in the NOMAD experiment.
+      pdf: /students/theses/kustov.pdf
+    - year: 2000
+      category: diploma
+      name:
+        ru: Чуканов Артем Владиславович
+        en: Artem V. Chukanov
+      work:
+        ru: Измерение поляризации Λ и Λ̄ гиперонов во взаимодействиях нейтрино и антинейтрино по каналу заряженного тока в
+          эксперименте NOMAD (CERN).
+        en: Measurement of Λ and Λ-bar hyperon polarization in charged-current neutrino and antineutrino interactions in NOMAD.
+      pdf: /students/theses/chukanov_diplom.pdf
+    - year: 2002
+      category: diploma
+      name:
+        ru: Любушкин Владимир Викторович
+        en: Vladimir V. Lyubushkin
+      work:
+        ru: Выделение событий квазиупругого рассеяния в эксперименте NOMAD (CERN).
+        en: Selection of quasi-elastic scattering events in the NOMAD experiment at CERN.
+      pdf: /students/theses/lyubushkin.pdf
+    - year: 2004
+      category: diploma
+      name:
+        ru: Самойлов Олег Борисович
+        en: Oleg B. Samoylov
+      work:
+        ru: Поиск странного экзотического барионного резонанса θ<sup>+</sup>(1530) в эксперименте NOMAD (CERN).
+        en: Search for the strange exotic baryon resonance θ<sup>+</sup>(1530) in the NOMAD experiment at CERN.
+      pdf: /students/theses/samoylov_diploma.pdf
+    - year: 2006
+      category: phd
+      name:
+        ru: Чуканов Артем Владиславович
+        en: Artem V. Chukanov
+      work:
+        ru: Изучение эффектов фрагментации в процессах нейтринорождения странных адронов в эксперименте NOMAD (CERN).
+        en: Fragmentation effects in strange-hadron neutrinoproduction in the NOMAD experiment at CERN.
+      pdf: /students/theses/chukanov_phd_thesis.pdf
+    - year: 2007
+      category: diploma
+      name:
+        ru: Шешуков Андрей Сергеевич
+        en: Andrey S. Sheshukov
+      work:
+        ru: Моделирование и реконструкция в фотоэмульсионном детекторе в эксперименте OPERA.
+        en: Simulation and reconstruction in the emulsion detector of the OPERA experiment.
+      pdf: /students/theses/sheshukov.pdf
+    - year: 2007
+      category: diploma
+      name:
+        ru: Гончар Максим Олегович
+        en: Maxim O. Gonchar
+      work:
+        ru: Исследование триггерной системы на основе пластического сцинтиллятора для эксперимента Daya Bay.
+        en: Study of a plastic-scintillator trigger system for the Daya Bay experiment.
+      pdf: /students/theses/gonchar_diploma.pdf
+    - year: 2007
+      category: diploma
+      name:
+        ru: Биктемерова Светлана Владимировна
+        en: Svetlana V. Biktemerova
+      work:
+        ru: Моделирование и реконструкция в эксперименте «НУКЛОН».
+        en: Simulation and reconstruction in the NUKLON experiment.
+      pdf: /students/theses/biktemerova_diplom.pdf
+    - year: 2008
+      category: diploma
+      name:
+        ru: Ли Вячеслав Александрович
+        en: Vyacheslav A. Li
+      work:
+        ru: Нейтринные осцилляции в рамках квантовой теории поля.
+        en: Neutrino oscillations within quantum field theory.
+      pdf: /students/theses/lee.pdf
+    - year: 2010
+      category: diploma
+      name:
+        ru: Потапова Ирина Викторовна
+        en: Irina V. Potapova
+      work:
+        ru: Осцилляции нейтрино в веществе в рамках квантовой теории поля.
+        en: Neutrino oscillations in matter within quantum field theory.
+      pdf: /students/theses/potapova.pdf
+    - year: 2011
+      category: diploma
+      name:
+        ru: Батозская Варвара Сергеевна
+        en: Varvara S. Batozskaya
+      work:
+        ru: Космологические нейтрино.
+        en: Cosmological neutrinos.
+      pdf: /students/theses/batozskaya.pdf
+    - year: 2011
+      category: phd
+      name:
+        ru: Самойлов Олег Борисович
+        en: Oleg B. Samoylov
+      work:
+        ru: Сечение рождения очарованного кварка и оценка существования пентакварка Θ<sup>+</sup> в нейтринных взаимодействиях
+          в эксперименте NOMAD.
+        en: Charm-quark production cross section and an estimate of the possible pentaquark Θ<sup>+</sup> in neutrino interactions
+          in NOMAD.
+      pdf: /students/theses/samoylov_phd_thesis.pdf
+    - year: 2014
+      category: diploma
+      name:
+        ru: Тайченачев Дмитрий Владимирович
+        en: Dmitry V. Taychenachev
+      work:
+        ru: Определение иерархии масс нейтрино в экспериментах с реакторными и ускорительными нейтрино.
+        en: Determination of the neutrino mass hierarchy in reactor and accelerator neutrino experiments.
+      pdf: /students/theses/tayachenachev.pdf
+    - year: 2015
+      category: diploma
+      name:
+        ru: Тресков Константин Андреевич
+        en: Konstantin A. Treskov
+      work:
+        ru: Нейтринные осцилляции в веществе и возможность исследования декогеренции в солнечных экспериментах.
+        en: Neutrino oscillations in matter and the possibility of studying decoherence in solar experiments.
+      pdf: /students/theses/treskov.pdf
+    - year: 2017
+      category: phd
+      name:
+        ru: Гончар Максим Олегович
+        en: Maxim O. Gonchar
+      work:
+        ru: Измерение угла смешивания θ<sub>13</sub> и расщепления масс нейтрино Δm<sup>2</sup><sub>32</sub> в эксперименте
+          Daya Bay.
+        en: Measurement of θ<sub>13</sub> and Δm<sup>2</sup><sub>32</sub> in the Daya Bay experiment.
+      pdf: /students/theses/gonchar_phd_thesis.pdf
+    - year: 2022
+      category: bachelor
+      name:
+        ru: Завьялов Сергей Игоревич
+        en: Sergey I. Zavyalov
+      work:
+        ru: Моделирование потоков атмосферных нейтрино в эксперименте Baikal-GVD.
+        en: Simulation of atmospheric-neutrino fluxes in the Baikal-GVD experiment.
+    - year: 2022
+      category: master
+      name:
+        ru: Диденко Алиса Романовна
+        en: Alisa R. Didenko
+      work:
+        ru: Применение машинного обучения к анализу процессов рождения бозона Хиггса в ассоциации с топ-кварком.
+        en: Application of machine learning to the analysis of Higgs-boson production in association with a top quark.
+    - year: 2023
+      category: bachelor
+      name:
+        ru: Ленский Петр Игоревич
+        en: Petr I. Lensky
+      work:
+        ru: Определение времени и координат взаимодействий частиц с помощью оптической системы в ближнем жидкоаргоновом детекторе
+          эксперимента DUNE.
+        en: Determination of the time and coordinates of particle interactions using the optical system of the DUNE near liquid-argon
+          detector.
+    - year: 2024
+      category: diploma
+      name:
+        ru: Жаворонкова В. И.
+        en: V. I. Zhavoronkova
+      work:
+        ru: Применение методов машинного обучения для оценки потоков черенковского излучения в эксперименте Baikal-GVD.
+        en: Application of machine-learning methods to estimate Cherenkov-radiation fluxes in the Baikal-GVD experiment.
+    - year: 2024
+      category: master
+      name:
+        ru: Завьялов Сергей Игоревич
+        en: Sergey I. Zavyalov
+      work:
+        ru: Разработка программного пакета <a href="https://pypi.org/project/ntsim/">NTSim</a> для моделирования нейтринных
+          телескопов и оценка эффективности регистрации нейтринных событий в эксперименте Baikal-GVD.
+        en: Development of the <a href="https://pypi.org/project/ntsim/">NTSim</a> package for neutrino telescope simulation
+          and efficiency estimates for Baikal-GVD neutrino event registration.
+      pdf: https://pypi.org/project/ntsim/
+    - year: 2025
+      category: master
+      name:
+        ru: Ленский Петр Игоревич
+        en: Petr I. Lensky
+      work:
+        ru: Определение характеристик оптической системы ближнего жидкоаргонового детектора эксперимента DUNE.
+        en: Determination of optical-system characteristics for the DUNE near liquid-argon detector.
+    - year: 2025
+      category: coursework
+      name:
+        ru: Ковалев Максим Борисович
+        en: Maxim B. Kovalev
+      work:
+        ru: Нахождение аналогов нейтринных осцилляций в веществе в классической физике.
+        en: Finding analogues of neutrino oscillations in matter in classical physics.
+      pdf: /students/theses/kovalev.pdf
+    - year: 2026
+      category: phd
+      name:
+        ru: Аллахвердян Владимир Артурович
+        en: Vladimir A. Allakhverdyan
+      work:
+        ru: Решение задач переноса электромагнитного излучения и нейтрино при моделировании отклика нейтринного телескопа.
+        en: Transport of electromagnetic radiation and neutrinos in modeling the response of a neutrino telescope.
+      pdf: /students/theses/allaxwerdian.pdf
+    - year: 2026
+      category: master
+      name:
+        ru: Бородин Никита Святославович
+        en: Nikita S. Borodin
+      work:
+        ru: Спин-орбитальные эффекты в распадах (псевдо)скалярных частиц и дифракция закрученных квантовых состояний.
+        en: Spin-orbit effects in decays of (pseudo)scalar particles and diffraction of twisted quantum states.
+      pdf: /students/theses/Borodin_dissertation.pdf
+  - id: baikal-school
+    layout: stacked
+    kind:
+      ru: Летняя школа
+      en: Summer school
+    title: Baikal Summer School on Physics of Elementary Particles and Astrophysics
+    summary:
+      ru: Байкальская летняя школа по физике элементарных частиц и астрофизике.
+      en: Baikal summer school on particle physics and astrophysics.
+    items:
+    - id: baikal-school-2026
+      title: '2026'
+      note:
+        ru: лекции, проекты и постеры участников
+        en: lectures, projects and posters of the participants
+      links:
+      - kind: page
+        label:
+          ru: Программа и материалы
+          en: Program and materials
+        href: /ru/baikal-school-2026.html
+        href_en: /en/baikal-school-2026.html
+      - kind: site
+        label:
+          ru: Страница школы
+          en: School page
+        href: https://indico.jinr.ru/event/5998/
+      - kind: video
+        label:
+          ru: Видео лекций
+          en: Lecture videos
+        href: https://teach-in.ru/course/baikal-summer-school-2026
+      - kind: page
+        label:
+          ru: Проекты
+          en: Projects
+        href: /ru/baikal-school-2026-projects.html
+        href_en: /en/baikal-school-2026-projects.html
+      - kind: pdf
+        label:
+          ru: Программа
+          en: Program
+        href: /assets/schools/baikal-2026/baikal-school-2026-program.pdf
+      - kind: pdf
+        label:
+          ru: Постер
+          en: Poster
+        href: /assets/schools/baikal-2026/baikal-school-2026-poster.pdf
+      - kind: page
+        label:
+          ru: Фотоальбом
+          en: Photo album
+        href: /albums/baikal-school-2026/index.html
+    - title: '2025'
+      links:
+      - kind: site
+        label:
+          ru: Страница школы
+          en: School page
+        href: https://indico.jinr.ru/event/5198/
+      - kind: pdf
+        label:
+          ru: Проекты
+          en: Projects
+        href: /assets/schools/baikal-2025/baikal-projects-2025.pdf
+    - title: '2009'
+      note:
+        ru: В. А. Рубаков на школе
+        en: V. A. Rubakov at the school
+      links:
+      - kind: page
+        label:
+          ru: Фотоальбом
+          en: Photo album
+        href: /albums/v-a-rubakov-baikal-school-2009/index.html
+  - id: baksan-school
+    layout: stacked
+    kind:
+      ru: Школа
+      en: School
+    title: Baksan School
+    summary:
+      ru: Школы на Баксанской нейтринной обсерватории.
+      en: Schools at the Baksan Neutrino Observatory.
+    items:
+    - title: '2025'
+      links:
+      - kind: site
+        label:
+          ru: Страница школы
+          en: School page
+        href: https://indico.inr.ac.ru/event/6/overview
+    - title: '2019'
+      links:
+      - kind: site
+        label:
+          ru: Страница школы
+          en: School page
+        href: http://minus.inr.ac.ru/~school/index1.html

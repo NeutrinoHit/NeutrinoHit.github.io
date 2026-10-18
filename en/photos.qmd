@@ -7,50 +7,16 @@ toc: false
 ---
 
 ```{=html}
-<div class="lecture-catalog">
-  <p class="lecture-catalog-lead">
-    Public photo archive of NeutrinoHit lectures, schools, trips, and events.
-  </p>
-
-  <section class="lecture-course-list" aria-label="Photo album catalog">
-    <details class="lecture-course photo-course-archive">
-      <summary>
-        <span class="lecture-course-status">3 albums</span>
-        <span class="lecture-course-title">Photo Archive</span>
-      </summary>
-      <div class="lecture-course-body">
-        <p>Photographs from lectures, scientific schools, trips, and meetings.</p>
-        <div class="lecture-material-list">
-          <details class="lecture-material">
-            <summary>2026 · Baikal Summer School on Physics of Elementary Particles and Astrophysics</summary>
-            <div class="lecture-material-body">
-              <p>38 photos and 3 videos · Bolshie Koty, Lake Baikal · July 2026.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../albums/baikal-school-2026/index.html">Open album</a>
-              </div>
-            </div>
-          </details>
-          <details class="lecture-material">
-            <summary>2009 · V. A. Rubakov. Baikal School on Particle Physics and Astrophysics</summary>
-            <div class="lecture-material-body">
-              <p>20 photographs · Lake Baikal · July 22-29, 2009.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../albums/v-a-rubakov-baikal-school-2009/index.html">Open album</a>
-              </div>
-            </div>
-          </details>
-          <details class="lecture-material">
-            <summary>May 10-17, 2026 · Visit of colleagues from China</summary>
-            <div class="lecture-material-body">
-              <p>Visit of Professors Wei Wang, Jianglai Liu, and Yuekun Heng to Moscow, Dubna, and Saint Petersburg.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../albums/10-17-may-2026/index.html">Open album</a>
-              </div>
-            </div>
-          </details>
-        </div>
-      </div>
-    </details>
-  </section>
+<div class="lecture-catalog outreach-catalog">
+  <p class="lecture-catalog-lead">Photo albums of scientific life: lectures, scientific schools, trips and meetings.</p>
+  <div class="outreach-list">
+    <div class="outreach-group">
+      <nav class="course-tiles outreach-tiles is-albums" aria-label="">
+        <div class="course-tile has-cover"><img class="course-tile-cover" src="../albums/baikal-school-2026/previews/01-posters.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">38 photos · 3 videos</span><a class="course-tile-title" href="../albums/baikal-school-2026/index.html">Baikal Summer School on Physics of Elementary Particles and Astrophysics</a><span class="course-tile-text">Bolshie Koty, Lake Baikal · July 2026</span></div>
+        <div class="course-tile has-cover"><img class="course-tile-cover" src="../albums/10-17-may-2026/previews/01-image-20260515123123-425-177.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">10 photos</span><a class="course-tile-title" href="../albums/10-17-may-2026/index.html">A visit of colleagues from China</a><span class="course-tile-text">Wei Wang, Jianglai Liu and Yuekun Heng in Moscow, Dubna and Saint Petersburg · May 10–17, 2026</span></div>
+        <div class="course-tile has-cover"><img class="course-tile-cover" src="../albums/v-a-rubakov-baikal-school-2009/previews/01-sg1s5673.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">20 photos</span><a class="course-tile-title" href="../albums/v-a-rubakov-baikal-school-2009/index.html">V. A. Rubakov. The Baikal school</a><span class="course-tile-text">Lake Baikal · July 22–29, 2009</span></div>
+      </nav>
+    </div>
+  </div>
 </div>
 ```

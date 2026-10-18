@@ -1,51 +1,51 @@
-# Modeling: software, physical models and the animation gallery. scripts/build_outreach_pages.py
-# writes ru|en/modeling.qmd from this file (entries, links and formats as in outreach.catalog.yml).
-# A group with "install" shows the install command under its head. A tile with "gallery: <section id>"
-# opens that section of the animation gallery; its counts, text and picture come from animations.catalog.json.
+# Modeling: the code (packages, physical models, tools) and the ways to the animation gallery and the
+# interactives. scripts/build_outreach_pages.py writes ru|en/modeling.qmd from this file (entries, links
+# and formats as in outreach.catalog.yml). An entry with "install" shows its install command under the
+# note. A tile with "gallery: all" opens the gallery (counts from animations.catalog.json); a tile with
+# "count_of: <catalog>" counts the entries of that catalog.
 # Only public repositories are linked (dvnanima, two_pendulums and bits-of-physics are private).
 modeling:
   title: {ru: Моделирование, en: Modeling}
-  lead: {ru: 'Программы, физические модели и научные анимации. Название открывает материал, рядом — другие ссылки.',
-    en: 'Software, physical models and scientific animations. A title opens the material; the other links are next to it.'}
+  lead: {ru: 'Программы и физические модели; научные анимации и интерактивы — на своих вкладках. Название открывает материал, рядом — другие ссылки.',
+    en: 'Software and physical models; scientific animations and interactives have tabs of their own. A title opens the material; the other links are next to it.'}
   groups:
-  - id: lighthit
-    kind: {ru: Пакет Python · PyPI, en: Python package · PyPI}
-    title: LightHit
-    summary: {ru: 'Ожидаемое число фотоэлектронов в каждом оптическом модуле нейтринного телескопа по временным бинам от черенковского света заряженных частиц или калибровочной вспышки. Спектральный перенос излучения в рассеивающей среде вместо пофотонного Монте-Карло; прямой, однократно и многократно рассеянный свет считаются отдельно.',
-      en: 'The expected number of photoelectrons that Cherenkov light of charged particles, or a calibration flash, produces in every optical module of a neutrino telescope, per time bin. Spectral radiative transfer in a scattering medium instead of photon-by-photon Monte Carlo; direct, once-scattered and multiply scattered light are kept separate.'}
-    install: "python -m pip install 'lighthit[accelerate]'"
-    install_note: {ru: 'Python 3.11 или новее; проверка установки — lighthit-selftest', en: 'Python 3.11 or newer; check the installation with lighthit-selftest'}
-    links:
-    - {kind: pypi, href: 'https://pypi.org/project/lighthit/'}
-    - {kind: docs, href: 'https://github.com/NeutrinoHit/LightHit/tree/main/docs'}
-    - {kind: code, href: 'https://github.com/NeutrinoHit/LightHit'}
-  - id: animations
-    kind: {ru: Галерея, en: Gallery}
-    title: {ru: Анимации, en: Animations}
-    summary: {ru: 'Научные анимации по темам; ролик открывается прямо на странице галереи.', en: 'Scientific animations by topic; a video plays right on the gallery page.'}
-    links:
-    - {kind: page, label: {ru: Вся галерея, en: The whole gallery}, href: /ru/animations.html, href_en: /en/animations.html}
-    tiles:
-    - {gallery: neutrino-particles, cover: milky-way-neutrinos/milky-way-neutrinos}
-    - {gallery: fields-waves}
-    - {gallery: relativity-atom-spin}
-    - {gallery: math-dynamical-systems}
-    - {gallery: accelerator-optics}
-    - {gallery: visual-stories, cover: galaxy-merger/merger}
-  - id: physical-models
-    kind: {ru: Код, en: Code}
-    title: {ru: Физические модели, en: Physical models}
+  - id: code
+    kind: {ru: Программы и модели, en: Software and models}
+    title: {ru: Код, en: Code}
+    layout: stacked
     items:
-    - title: TDSE-Diffraction
+    - id: lighthit
+      title: LightHit
+      note: {ru: 'пакет Python на PyPI: ожидаемое число фотоэлектронов в каждом оптическом модуле нейтринного телескопа по временным бинам от черенковского света заряженных частиц или калибровочной вспышки; спектральный перенос излучения вместо пофотонного Монте-Карло, прямой, однократно и многократно рассеянный свет отдельно. Python 3.11 или новее, проверка установки — lighthit-selftest',
+        en: 'a Python package on PyPI: the expected number of photoelectrons that Cherenkov light of charged particles, or a calibration flash, produces in every optical module of a neutrino telescope, per time bin; spectral radiative transfer instead of photon-by-photon Monte Carlo, direct, once-scattered and multiply scattered light kept separate. Python 3.11 or newer; check the installation with lighthit-selftest'}
+      install: "python -m pip install 'lighthit[accelerate]'"
+      links:
+      - {kind: pypi, href: 'https://pypi.org/project/lighthit/'}
+      - {kind: docs, href: 'https://github.com/NeutrinoHit/LightHit/tree/main/docs'}
+      - {kind: code, href: 'https://github.com/NeutrinoHit/LightHit'}
+    - id: tdse-diffraction
+      title: TDSE-Diffraction
       note: {ru: 'дифракция электронов: метод split-step Фурье в единицах СИ, вихревые пучки, ноутбуки с анимациями', en: 'electron diffraction: split-step Fourier method in SI units, vortex beams, notebooks with animations'}
       links: [{kind: code, href: 'https://github.com/NeutrinoHit/TDSE-Diffraction'}]
-    - title: neutrino-nucleus-coherence
+    - id: neutrino-nucleus-coherence
+      title: neutrino-nucleus-coherence
       note: {ru: 'сечение упругого рассеяния нейтрино на ядре, ноутбук Jupyter', en: 'the cross-section of neutrino–nucleus elastic scattering, a Jupyter notebook'}
       links: [{kind: code, href: 'https://github.com/NeutrinoHit/neutrino-nucleus-coherence'}]
-  - id: tools
-    kind: {ru: Код, en: Code}
-    title: {ru: Инструменты, en: Tools}
-    items:
-    - title: gTracker
+    - id: gtracker
+      title: gTracker
       note: {ru: 'анимированная карта заявок по городам и датам из таблицы, экспорт в GIF и MP4', en: 'an animated map of applications by city and date from a table, exported as GIF and MP4'}
       links: [{kind: code, href: 'https://github.com/NeutrinoHit/gTracker'}]
+  - id: animations
+    kind: {ru: Вкладки, en: Tabs}
+    title: {ru: Анимации и интерактивы, en: Animations and interactives}
+    tiles:
+    - gallery: all
+      cover: neutrino-particles/milky-way-neutrinos/milky-way-neutrinos
+      title: {ru: Анимации, en: Animations}
+      text: {ru: 'Научные анимации по темам; ролик играет прямо на странице.', en: 'Scientific animations by topic; a video plays right on the page.'}
+    - count_of: interactives.catalog.yml
+      title: {ru: Интерактивы, en: Interactives}
+      text: {ru: 'Апплеты и фиты из курсов: осцилляции нейтрино, KATRIN, статистика и другое.', en: 'Applets and fits from the courses: neutrino oscillations, KATRIN, statistics and more.'}
+      href: /ru/interactives.html
+      href_en: /en/interactives.html
+      cover: /assets/site/interactives-cover.jpg

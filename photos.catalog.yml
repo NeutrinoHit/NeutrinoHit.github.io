@@ -1,0 +1,19 @@
+# Photos: one tile per album. scripts/build_outreach_pages.py writes ru|en/photos.qmd from this file;
+# the picture (the photo with role "cover", else the first one) and the numbers of photos and videos
+# come from albums/<slug>/album.json, which scripts/publish_album.py and the photo studio write.
+photos:
+  title: {ru: Фото, en: Photos}
+  aliases: [photos-cinema.html]
+  lead: {ru: 'Фотоальбомы о научной жизни: лекции, научные школы, поездки и встречи.', en: 'Photo albums of scientific life: lectures, scientific schools, trips and meetings.'}
+  groups:
+  - id: albums
+    tiles:
+    - album: baikal-school-2026
+      title: {ru: 'Байкальская школа по физике элементарных частиц и астрофизике', en: 'Baikal Summer School on Physics of Elementary Particles and Astrophysics'}
+      text: {ru: 'Большие Коты, Байкал · июль 2026', en: 'Bolshie Koty, Lake Baikal · July 2026'}
+    - album: 10-17-may-2026
+      title: {ru: 'Визит коллег из Китая', en: 'A visit of colleagues from China'}
+      text: {ru: 'Wei Wang, Jianglai Liu и Yuekun Heng в Москве, Дубне и Санкт-Петербурге · 10–17 мая 2026', en: 'Wei Wang, Jianglai Liu and Yuekun Heng in Moscow, Dubna and Saint Petersburg · May 10–17, 2026'}
+    - album: v-a-rubakov-baikal-school-2009
+      title: {ru: 'В. А. Рубаков. Байкальская школа', en: 'V. A. Rubakov. The Baikal school'}
+      text: {ru: 'Байкал · 22–29 июля 2009', en: 'Lake Baikal · July 22–29, 2009'}

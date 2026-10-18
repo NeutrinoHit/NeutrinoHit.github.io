@@ -5,55 +5,29 @@ toc: false
 
 ```{=html}
 <div class="lecture-catalog outreach-catalog">
-  <p class="lecture-catalog-lead">Программы, физические модели и научные анимации. Название открывает материал, рядом — другие ссылки.</p>
+  <p class="lecture-catalog-lead">Программы и физические модели; научные анимации и интерактивы — на своих вкладках. Название открывает материал, рядом — другие ссылки.</p>
   <div class="outreach-list">
-    <div class="outreach-group" id="lighthit">
+    <div class="outreach-group" id="code">
       <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">Пакет Python · PyPI</span>
-        <h2 class="outreach-group-name"><a class="outreach-group-title" href="https://pypi.org/project/lighthit/" rel="noopener">LightHit</a></h2>
-        <p class="outreach-group-text">Ожидаемое число фотоэлектронов в каждом оптическом модуле нейтринного телескопа по временным бинам от черенковского света заряженных частиц или калибровочной вспышки. Спектральный перенос излучения в рассеивающей среде вместо пофотонного Монте-Карло; прямой, однократно и многократно рассеянный свет считаются отдельно.</p>
-        <span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pypi" href="https://pypi.org/project/lighthit/" rel="noopener">PyPI</a><a class="outreach-format is-docs" href="https://github.com/NeutrinoHit/LightHit/tree/main/docs" rel="noopener">Документация</a><a class="outreach-format is-code" href="https://github.com/NeutrinoHit/LightHit" rel="noopener">Код</a></span>
+        <span class="course-tile-status is-ready">Программы и модели</span>
+        <h2 class="outreach-group-name">Код</h2>
       </div>
-      <div class="outreach-install">
-        <span class="outreach-install-label">Установка</span>
-        <code>python -m pip install &#x27;lighthit[accelerate]&#x27;</code>
-        <span class="outreach-install-note">Python 3.11 или новее; проверка установки — lighthit-selftest</span>
-      </div>
+      <ul class="outreach-entries is-stacked">
+        <li class="outreach-entry" id="lighthit"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://pypi.org/project/lighthit/" rel="noopener">LightHit</a><span class="outreach-entry-note">пакет Python на PyPI: ожидаемое число фотоэлектронов в каждом оптическом модуле нейтринного телескопа по временным бинам от черенковского света заряженных частиц или калибровочной вспышки; спектральный перенос излучения вместо пофотонного Монте-Карло, прямой, однократно и многократно рассеянный свет отдельно. Python 3.11 или новее, проверка установки — lighthit-selftest</span><code class="outreach-entry-install">python -m pip install &#x27;lighthit[accelerate]&#x27;</code></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pypi" href="https://pypi.org/project/lighthit/" rel="noopener">PyPI</a><a class="outreach-format is-docs" href="https://github.com/NeutrinoHit/LightHit/tree/main/docs" rel="noopener">Документация</a><a class="outreach-format is-code" href="https://github.com/NeutrinoHit/LightHit" rel="noopener">Код</a></span></li>
+        <li class="outreach-entry" id="tdse-diffraction"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://github.com/NeutrinoHit/TDSE-Diffraction" rel="noopener">TDSE-Diffraction</a><span class="outreach-entry-note">дифракция электронов: метод split-step Фурье в единицах СИ, вихревые пучки, ноутбуки с анимациями</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-code" href="https://github.com/NeutrinoHit/TDSE-Diffraction" rel="noopener">Код</a></span></li>
+        <li class="outreach-entry" id="neutrino-nucleus-coherence"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence" rel="noopener">neutrino-nucleus-coherence</a><span class="outreach-entry-note">сечение упругого рассеяния нейтрино на ядре, ноутбук Jupyter</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-code" href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence" rel="noopener">Код</a></span></li>
+        <li class="outreach-entry" id="gtracker"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://github.com/NeutrinoHit/gTracker" rel="noopener">gTracker</a><span class="outreach-entry-note">анимированная карта заявок по городам и датам из таблицы, экспорт в GIF и MP4</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-code" href="https://github.com/NeutrinoHit/gTracker" rel="noopener">Код</a></span></li>
+      </ul>
     </div>
     <div class="outreach-group" id="animations">
       <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">Галерея</span>
-        <h2 class="outreach-group-name"><a class="outreach-group-title" href="../ru/animations.html">Анимации</a></h2>
-        <p class="outreach-group-text">Научные анимации по темам; ролик открывается прямо на странице галереи.</p>
-        <span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-page" href="../ru/animations.html">Вся галерея</a></span>
+        <span class="course-tile-status is-ready">Вкладки</span>
+        <h2 class="outreach-group-name">Анимации и интерактивы</h2>
       </div>
-      <nav class="course-tiles outreach-tiles" aria-label="Анимации">
-        <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">27 сюжетов · 51 ролик</span><a class="course-tile-title" href="../ru/animations.html#neutrino-particles">Нейтрино и частицы</a><span class="course-tile-text">Осцилляции нейтрино, каскады, ядерные процессы и диаграммы взаимодействий.</span></div>
-        <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/animations/dvnanima/fields-waves-scalar-qed-single.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">26 сюжетов · 48 роликов</span><a class="course-tile-title" href="../ru/animations.html#fields-waves">Поля, волны и осцилляторы</a><span class="course-tile-text">Электромагнитные поля, волновые пакеты, связанные осцилляторы и простые электронные схемы.</span></div>
-        <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">8 сюжетов · 16 роликов</span><a class="course-tile-title" href="../ru/animations.html#relativity-atom-spin">Относительность, атом и спин</a><span class="course-tile-text">Анимации к книге «Квантовая теория поля для экспериментаторов и не только»: релятивистское изображение шара, опыт Резерфорда, спинор и лента Мёбиуса.</span></div>
-        <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/animations/dvnanima/math-dynamical-systems-fourier-drawing-fourier-svg.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">6 сюжетов · 25 роликов</span><a class="course-tile-title" href="../ru/animations.html#math-dynamical-systems">Математика и динамические системы</a><span class="course-tile-text">Фурье-рисование, аттракторы, ретроградное движение, спирали и комплексные степени.</span></div>
-        <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/animations/dvnanima/accelerator-optics-dipole-dipole.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">4 сюжета · 4 ролика</span><a class="course-tile-title" href="../ru/animations.html#accelerator-optics">Ускорители и магнитная оптика</a><span class="course-tile-text">Как диполи, квадруполи и секступоли направляют и удерживают пучок частиц.</span></div>
-        <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/animations/dvnanima/visual-stories-galaxy-merger-merger.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">3 сюжета · 4 ролика</span><a class="course-tile-title" href="../ru/animations.html#visual-stories">Визуальные сюжеты</a><span class="course-tile-text">Короткие самостоятельные анимации и научно-популярные визуальные истории.</span></div>
+      <nav class="course-tiles outreach-tiles" aria-label="Анимации и интерактивы">
+        <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">74 сюжета · 148 роликов</span><a class="course-tile-title" href="../ru/animations.html">Анимации</a><span class="course-tile-text">Научные анимации по темам; ролик играет прямо на странице.</span></div>
+        <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/site/interactives-cover.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">84 интерактива</span><a class="course-tile-title" href="../ru/interactives.html">Интерактивы</a><span class="course-tile-text">Апплеты и фиты из курсов: осцилляции нейтрино, KATRIN, статистика и другое.</span></div>
       </nav>
-    </div>
-    <div class="outreach-group" id="physical-models">
-      <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">Код</span>
-        <h2 class="outreach-group-name">Физические модели</h2>
-      </div>
-      <ul class="outreach-entries">
-        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://github.com/NeutrinoHit/TDSE-Diffraction" rel="noopener">TDSE-Diffraction</a><span class="outreach-entry-note">дифракция электронов: метод split-step Фурье в единицах СИ, вихревые пучки, ноутбуки с анимациями</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-code" href="https://github.com/NeutrinoHit/TDSE-Diffraction" rel="noopener">Код</a></span></li>
-        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence" rel="noopener">neutrino-nucleus-coherence</a><span class="outreach-entry-note">сечение упругого рассеяния нейтрино на ядре, ноутбук Jupyter</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-code" href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence" rel="noopener">Код</a></span></li>
-      </ul>
-    </div>
-    <div class="outreach-group" id="tools">
-      <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">Код</span>
-        <h2 class="outreach-group-name">Инструменты</h2>
-      </div>
-      <ul class="outreach-entries">
-        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://github.com/NeutrinoHit/gTracker" rel="noopener">gTracker</a><span class="outreach-entry-note">анимированная карта заявок по городам и датам из таблицы, экспорт в GIF и MP4</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-code" href="https://github.com/NeutrinoHit/gTracker" rel="noopener">Код</a></span></li>
-      </ul>
     </div>
   </div>
 </div>

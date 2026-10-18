@@ -53,14 +53,24 @@ python scripts/build_course_pages.py --check  # проверить, что ст�
 `https://neutrinohit.github.io/<lang>/courses/<курс>.html`; такие адреса
 зарегистрированы в `scripts/reveal_context_targets.json` с типом `course-page`.
 
-## Научная коммуникация, наука и моделирование
+## Научная коммуникация, наука, моделирование, интерактивы, школа и фото
 
 Страницы-списки пишет `scripts/build_outreach_pages.py`, их не правят руками:
 `outreach.catalog.yml` → `ru|en/outreach.qmd`, `cinema.qmd`, `interviews.qmd`;
-`research.catalog.yml` → `ru|en/research.qmd`; `modeling.catalog.yml` → `ru|en/modeling.qmd`.
+`research.catalog.yml` → `ru|en/research.qmd`; `modeling.catalog.yml` → `ru|en/modeling.qmd`;
+`interactives.catalog.yml` → `ru|en/interactives.qmd`; `school.catalog.yml` → `ru|en/school.qmd`;
+`photos.catalog.yml` → `ru|en/photos.qmd`.
 Строка — материал: название открывает его, рядом форматы. Группа может держать плитки
-(эксперименты; темы галереи — плитка `gallery: <раздел>` берёт название, число сюжетов и кадр
-из `animations.catalog.json`) и команду установки пакета (`install`, LightHit из PyPI).
+(эксперименты; галерея — плитка `gallery: <раздел>` или `gallery: all` берёт название, число сюжетов
+и кадр из `animations.catalog.json`; альбом — плитка `album: <slug>` берёт обложку и число фото
+из `albums/<slug>/album.json`; `count_of: <каталог>` считает его записи), команду установки пакета
+(`install`, LightHit из PyPI) и, в «Школе», счётчики по видам работ, которые фильтруют список.
+В «Интерактивы» входят только опубликованные публичные страницы (апплет или слайд с ним), отвечающие 200.
+Подробная программа Байкальской школы 2026 — `ru|en/baikal-school-2026.qmd`; старые адреса
+`ru|en/students.html` ведут на «Школу».
+
+Логотип в шапке — `assets/site/neutrinohit-logo.png` (192 px), вырезан из логотипа QR-кодов
+`assets/books/qr_center_logo_globe_bw.png`.
 
 ```bash
 python scripts/build_outreach_pages.py          # записать страницы
