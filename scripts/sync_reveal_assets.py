@@ -63,12 +63,7 @@ REPOSITORIES = [
 
 
 # Consumer copies that carry rules not yet moved out of the shared file.
-HOLDS = {
-    ("neutrinophysics", STYLE_FILE): (
-        "the local copy still holds lecture rules (.spectrum-widget and related "
-        "widget classes, .story-tabs); move them to lecture CSS first"
-    ),
-}
+HOLDS: dict[tuple[str, str], str] = {}
 
 
 def standard_copies(repo: str) -> list[Copy]:
