@@ -35,13 +35,13 @@ PAGES = {"outreach": "outreach.qmd", "cinema": "cinema.qmd", "interviews": "inte
 T = {
     "ru": {
         "kinds": {"slides": "Слайды", "pdf": "PDF", "video": "Видео", "applet": "Апплет",
-                  "game": "Игра", "text": "Текст", "audio": "Аудио"},
+                  "game": "Игра", "text": "Читать", "audio": "Аудио"},
         "lang_mark": {"en": "англ."},
         "formats": "Форматы",
     },
     "en": {
         "kinds": {"slides": "Slides", "pdf": "PDF", "video": "Video", "applet": "Applet",
-                  "game": "Game", "text": "Text", "audio": "Audio"},
+                  "game": "Game", "text": "Read", "audio": "Audio"},
         "lang_mark": {"en": "EN"},
         "formats": "Formats",
     },
