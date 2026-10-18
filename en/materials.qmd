@@ -63,7 +63,11 @@ toc: false
         <div>
           <p>A popular-science book for children about neutrinos, the Sun, and the big physics of tiny particles. The book is in Russian.</p>
           <div class="lecture-course-actions">
-            <a class="lecture-action-primary" href="https://ast.ru/book/solnechnoe-neytrino-862573/">AST page (Russian)</a>
+            <a class="lecture-action-primary" href="https://ast.ru/book/solnechnoe-neytrino-862573/">Buy from AST</a>
+            <a href="https://www.chitai-gorod.ru/product/solnechnoe-neytrino-2917314">Chitai-gorod</a>
+            <a href="https://market.yandex.ru/product/93685330">Yandex Market</a>
+            <a href="https://www.podpisnie.ru/books/solnechnoe-neytrino/">Podpisnye izdaniya</a>
+            <a href="https://www.litres.ru/book/d-v-naumov/solnechnoe-neytrino-70957876/">LitRes: e-book</a>
           </div>
         </div>
       </div>

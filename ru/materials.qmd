@@ -62,7 +62,11 @@ toc: false
         <div>
           <p>Детская научно-популярная книга о нейтрино, Солнце и большой физике маленьких частиц.</p>
           <div class="lecture-course-actions">
-            <a class="lecture-action-primary" href="https://ast.ru/book/solnechnoe-neytrino-862573/">Страница AST</a>
+            <a class="lecture-action-primary" href="https://ast.ru/book/solnechnoe-neytrino-862573/">Купить в АСТ</a>
+            <a href="https://www.chitai-gorod.ru/product/solnechnoe-neytrino-2917314">Читай-город</a>
+            <a href="https://market.yandex.ru/product/93685330">Яндекс Маркет</a>
+            <a href="https://www.podpisnie.ru/books/solnechnoe-neytrino/">Подписные издания</a>
+            <a href="https://www.litres.ru/book/d-v-naumov/solnechnoe-neytrino-70957876/">ЛитРес: электронная книга</a>
           </div>
         </div>
       </div>
