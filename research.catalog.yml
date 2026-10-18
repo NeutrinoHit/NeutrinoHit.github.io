@@ -1,0 +1,77 @@
+# Research. scripts/build_outreach_pages.py writes ru|en/research.qmd from this file
+# (same entries, links and formats as outreach.catalog.yml; a group may also hold tiles).
+# The talk anchors talk-georgia-2026 and talk-protvino-2026 are the targets of the "← Course"
+# button of the talk slides (scripts/reveal_context_targets.json): keep them.
+research:
+  title: {ru: Наука, en: Research}
+  lead: {ru: 'Нейтринная физика и астрофизика частиц: нейтринные осцилляции, реакторные и солнечные нейтрино, нейтринная астрономия, космические лучи, физика детекторов, квантово-полевое описание нейтринных процессов.',
+    en: 'Neutrino physics and astroparticle physics: neutrino oscillations, reactor and solar neutrinos, neutrino astronomy, cosmic rays, detector physics, and quantum-field descriptions of neutrino processes.'}
+  groups:
+  - id: research-profile
+    kind: {ru: Профиль, en: Profile}
+    title: {ru: Публикации, en: Publications}
+    summary: {ru: 'Статьи и цитирования — в INSPIRE-HEP, профиль — на странице ОИЯИ.', en: 'Papers and citations in INSPIRE-HEP; the profile on the JINR page.'}
+    links:
+    - {kind: site, label: INSPIRE-HEP, href: 'https://inspirehep.net/authors/1048243?ui-citation-summary=true'}
+    - {kind: site, label: {ru: ОИЯИ, en: JINR}, href: 'https://naumov.jinr.ru/'}
+  - id: talks
+    kind: {ru: Конференции и семинары, en: Conferences and seminars}
+    title: {ru: Доклады, en: Talks}
+    layout: stacked
+    items:
+    - id: talk-georgia-2026
+      title: {ru: 'Neutrino Physics: Fundamentals, Frontiers, and Probes', en: 'Neutrino Physics: Fundamentals, Frontiers, and Probes'}
+      note: {ru: 2026 · обзорная лекция, en: 2026 · overview lecture}
+      lang: en
+      links:
+      - {kind: slides, href: /talks/georgia-2026/dnaumov.html}
+      - {kind: slides, label: {ru: 35 минут, en: 35 min}, href: /talks/georgia-2026/dnaumov-35min.html}
+    - id: talk-protvino-2026
+      title: {ru: Статус и перспективы физики нейтрино, en: Status and prospects of neutrino physics}
+      note: {ru: '2–5 июня 2026 · российские проекты в глобальном контексте', en: 'June 2–5, 2026 · Russian projects in the global context; the slides are in Russian'}
+      links:
+      - {kind: slides, href: /talks/protvino-2026/dnaumov.html}
+      - {kind: site, label: {ru: Конференция, en: Conference}, href: 'https://indico.ihep.su/e/PPIHE2026'}
+  - id: experiments
+    kind: {ru: Коллаборации, en: Collaborations}
+    title: {ru: Эксперименты, en: Experiments}
+    tiles:
+    - status: {ru: Нейтринный телескоп, en: Neutrino telescope}
+      title: Baikal-GVD
+      href: 'https://baikalgvd.jinr.ru/'
+      text: {ru: 'Глубоководный нейтринный телескоп в озере Байкал.', en: 'A deep-water neutrino telescope in Lake Baikal.'}
+    - status: {ru: Реакторные нейтрино, en: Reactor neutrinos}
+      title: JUNO
+      href: 'https://juno.ihep.ac.cn/'
+      text: {ru: 'Жидкосцинтилляционный детектор в Китае: порядок масс и точные параметры осцилляций.', en: 'A liquid-scintillator detector in China: the mass ordering and precise oscillation parameters.'}
+    - status: {ru: Реакторные нейтрино, en: Reactor neutrinos}
+      title: Daya Bay
+      href: 'https://dayabay.bnl.gov/'
+      text: {ru: 'Измерение угла смешивания θ₁₃ на реакторных антинейтрино.', en: 'The measurement of the mixing angle θ₁₃ with reactor antineutrinos.'}
+    - status: {ru: Ускорительные нейтрино, en: Accelerator neutrinos}
+      title: OPERA
+      href: 'https://opendata.cern/docs/about-opera'
+      text: {ru: 'Появление тау-нейтрино в пучке мюонных нейтрино из ЦЕРН в Гран-Сассо.', en: 'The appearance of tau neutrinos in the muon-neutrino beam from CERN to Gran Sasso.'}
+    - status: {ru: Ускорительные нейтрино, en: Accelerator neutrinos}
+      title: NOMAD
+      href: 'https://greybook.cern.ch/experiment/detail?id=NOMAD'
+      text: {ru: 'Нейтринные взаимодействия в пучке SPS ЦЕРН.', en: 'Neutrino interactions in the CERN SPS beam.'}
+    - status: {ru: Космические лучи, en: Cosmic rays}
+      title: EUSO / JEM-EUSO
+      href: 'https://jemeuso.riken.jp/en/'
+      text: {ru: 'Космические лучи предельно высоких энергий: наблюдение с орбиты.', en: 'Ultra-high-energy cosmic rays observed from orbit.'}
+  - id: theses
+    kind: {ru: Квалификационные работы, en: Qualification works}
+    title: {ru: Диссертации, en: Theses}
+    summary: {ru: '', en: 'The PDF files are in Russian.'}
+    layout: stacked
+    items:
+    - title: {ru: 'Измерение θ₁₃, Δm²₃₂ и ковариантная квантово-полевая теория нейтринных осцилляций', en: 'Measurement of θ₁₃, Δm²₃₂, and covariant quantum-field theory of neutrino oscillations'}
+      note: {ru: 2017 · докторская диссертация, en: 2017 · doctoral dissertation}
+      links: [{kind: pdf, href: /theses/DmitryNaumov_Doctoral_Thesis.pdf}]
+    - title: {ru: 'Рождение странных адронов и измерение поляризации лямбда- и антилямбда-гиперонов в нейтринных взаимодействиях в эксперименте NOMAD в ЦЕРНе', en: 'Strange-hadron production and measurement of lambda and anti-lambda hyperon polarization in neutrino interactions in the NOMAD experiment at CERN'}
+      note: {ru: 2001 · кандидатская диссертация, en: 2001 · candidate dissertation}
+      links: [{kind: pdf, href: /theses/DmitryNaumov_Candidate_Thesis.pdf}]
+    - title: {ru: 'Ядерные переходы ¹⁶O + H → ¹⁷F и эффекты электронного экранирования', en: 'Nuclear transitions ¹⁶O + H → ¹⁷F and electron-screening effects'}
+      note: {ru: '1997 · дипломная работа, ИГУ', en: '1997 · diploma thesis, Irkutsk State University'}
+      links: [{kind: pdf, href: /theses/DmitryNaumov_Diplom.pdf}]

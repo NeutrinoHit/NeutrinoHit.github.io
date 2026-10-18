@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Write the outreach, films and interviews pages of the site from outreach.catalog.yml.
+"""Write the list pages of the site from their catalogs: outreach, films and interviews
+(outreach.catalog.yml), research (research.catalog.yml) and modeling (modeling.catalog.yml).
 
 Each page is a list of groups; a group is one lecture (its title opens the main
 material, the formats follow it) or a series whose entries are listed under the
@@ -12,7 +13,12 @@ The interviews list is read from the front matter of ru/interviews/*.qmd (one
 page per interview, article or programme: title, title-en, group, kind, outlet,
 outlet-en, published), so a new interview is one new page there.
 
-The pages are reproducible outputs: edit the catalog, then run
+A group with "layout: stacked" puts the note of an entry under its title
+(long titles: talks, theses). A group may also hold tiles (experiments, gallery topics: a tile with
+"gallery: <section id>" takes its title, counts and picture from
+animations.catalog.json) and an install command (a package on PyPI).
+
+The pages are reproducible outputs: edit a catalog, then run
 
   python scripts/build_outreach_pages.py           # write the pages
   python scripts/build_outreach_pages.py --check   # exit 1 if a page is stale
@@ -22,30 +28,49 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import sys
 from pathlib import Path
 
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-CATALOG = ROOT / "outreach.catalog.yml"
 LANGS = ("ru", "en")
-PAGES = {"outreach": "outreach.qmd", "cinema": "cinema.qmd", "interviews": "interviews.qmd"}
+# catalog file -> {catalog key: page}
+PAGES = {
+    "outreach.catalog.yml": {"outreach": "outreach.qmd", "cinema": "cinema.qmd", "interviews": "interviews.qmd"},
+    "research.catalog.yml": {"research": "research.qmd"},
+    "modeling.catalog.yml": {"modeling": "modeling.qmd"},
+}
+GALLERY = ROOT / "animations.catalog.json"
 
 T = {
     "ru": {
         "kinds": {"slides": "Слайды", "pdf": "PDF", "video": "Видео", "applet": "Апплет",
-                  "game": "Игра", "text": "Читать", "audio": "Аудио"},
+                  "game": "Игра", "text": "Читать", "audio": "Аудио", "pypi": "PyPI",
+                  "docs": "Документация", "code": "Код", "site": "Сайт", "page": "Страница"},
         "lang_mark": {"en": "англ."},
         "formats": "Форматы",
+        "install": "Установка",
+        "count": lambda stories, videos: (plural_ru(stories, "сюжет", "сюжета", "сюжетов") + " · "
+                                          + plural_ru(videos, "ролик", "ролика", "роликов")),
     },
     "en": {
         "kinds": {"slides": "Slides", "pdf": "PDF", "video": "Video", "applet": "Applet",
-                  "game": "Game", "text": "Read", "audio": "Audio"},
+                  "game": "Game", "text": "Read", "audio": "Audio", "pypi": "PyPI",
+                  "docs": "Documentation", "code": "Code", "site": "Website", "page": "Page"},
         "lang_mark": {"en": "EN"},
         "formats": "Formats",
+        "install": "Install",
+        "count": lambda stories, videos: f"{stories} stories · {videos} videos",
     },
 }
+
+
+def plural_ru(number: int, one: str, few: str, many: str) -> str:
+    mod10, mod100 = number % 10, number % 100
+    word = one if mod10 == 1 and mod100 != 11 else few if 2 <= mod10 <= 4 and not 12 <= mod100 <= 14 else many
+    return f"{number} {word}"
 
 
 def e(text: str) -> str:
@@ -55,7 +80,7 @@ def e(text: str) -> str:
 def tr(value, lang: str) -> str:
     """A text that is either one string or a {ru, en} pair."""
     if isinstance(value, dict):
-        return value.get(lang) or value.get("ru") or value.get("en") or ""
+        return value[lang] if lang in value else value.get("ru") or value.get("en") or ""
     return value or ""
 
 
@@ -104,6 +129,48 @@ def entry_line(entry: dict, lang: str) -> str:
             f'{formats(entry["links"], lang, T[lang]["formats"])}</li>')
 
 
+def gallery_tile(tile: dict, lang: str) -> dict:
+    """A tile that opens one section of the animation gallery."""
+    sections = {s["id"]: s for s in json.loads(GALLERY.read_text(encoding="utf-8"))["sections"]}
+    section = sections[tile["gallery"]]
+    item_id, video_id = tile["cover"].split("/") if tile.get("cover") else (
+        section["items"][0]["id"], section["items"][0]["videos"][0]["id"])
+    poster = f"/assets/animations/dvnanima/{section['id']}-{item_id}-{video_id}.jpg"
+    videos = sum(len(it["videos"]) for it in section["items"])
+    return {
+        "status": T[lang]["count"](len(section["items"]), videos),
+        "title": section.get(f"title_{lang}") or section["title"],
+        "text": section.get(f"summary_{lang}") or section["summary"],
+        "href": f"/{lang}/animations.html#{section['id']}",
+        "cover": poster if (ROOT / poster.lstrip("/")).exists() else "",
+    }
+
+
+def tiles_block(tiles: list[dict], lang: str, label: str) -> list[str]:
+    out = [f'      <nav class="course-tiles outreach-tiles" aria-label="{e(label)}">']
+    for tile in tiles:
+        if tile.get("gallery"):
+            tile = gallery_tile(tile, lang)
+        url = href(tile, lang)
+        cover = (f'<img class="course-tile-cover" src="{e(href(tile, lang, "cover"))}" alt="" loading="lazy">'
+                 if tile.get("cover") else "")
+        out.append(f'        <div class="course-tile{" has-cover" if cover else ""}">{cover}'
+                   f'<span class="course-tile-status is-ready">{e(tr(tile["status"], lang))}</span>'
+                   f'<a class="course-tile-title" href="{e(url)}"{external(url)}>{e(tr(tile["title"], lang))}</a>'
+                   f'<span class="course-tile-text">{e(tr(tile["text"], lang))}</span></div>')
+    out.append("      </nav>")
+    return out
+
+
+def install_block(group: dict, lang: str) -> list[str]:
+    note = tr(group.get("install_note"), lang)
+    return ['      <div class="outreach-install">',
+            f'        <span class="outreach-install-label">{e(T[lang]["install"])}</span>',
+            f'        <code>{e(group["install"])}</code>',
+            *([f'        <span class="outreach-install-note">{e(note)}</span>'] if note else []),
+            "      </div>"]
+
+
 def group_block(group: dict, lang: str) -> list[str]:
     anchor = f' id="{e(group["id"])}"' if group.get("id") and group.get("title") else ""
     out = [f'    <div class="outreach-group"{anchor}>']
@@ -116,14 +183,19 @@ def group_block(group: dict, lang: str) -> list[str]:
             out.append(f'        <h2 class="outreach-group-name">{title}{lang_mark(group, lang)}</h2>')
         else:
             out.append(f'        <h2 class="outreach-group-name">{e(tr(group["title"], lang))}</h2>')
-        if group.get("summary"):
+        if tr(group.get("summary"), lang):
             out.append(f'        <p class="outreach-group-text">{e(tr(group["summary"], lang))}</p>')
         if group.get("links"):
             out.append("        " + formats(group["links"], lang, T[lang]["formats"]))
         out.append("      </div>")
+    if group.get("install"):
+        out += install_block(group, lang)
+    if group.get("tiles"):
+        out += tiles_block(group["tiles"], lang, tr(group.get("title"), lang))
     entries = entries_of(group, lang)
     if entries:
-        out.append('      <ul class="outreach-entries">')
+        stacked = " is-stacked" if group.get("layout") == "stacked" else ""
+        out.append(f'      <ul class="outreach-entries{stacked}">')
         out += ["        " + entry_line(entry, lang) for entry in entries]
         out.append("      </ul>")
     if group.get("all"):
@@ -171,12 +243,15 @@ def pages_as_entries(section: dict) -> dict:
     return dict(section, groups=groups)
 
 
-def outputs(catalog: dict, langs=LANGS) -> dict[Path, str]:
-    catalog = dict(catalog)
-    if catalog.get("interviews", {}).get("pages"):
-        catalog["interviews"] = pages_as_entries(catalog["interviews"])
-    return {ROOT / lang / name: page(catalog[key], lang)
-            for lang in langs for key, name in PAGES.items() if catalog.get(key, {}).get("groups")}
+def outputs(langs=LANGS) -> dict[Path, str]:
+    pages = {}
+    for file, names in PAGES.items():
+        catalog = yaml.safe_load((ROOT / file).read_text(encoding="utf-8"))
+        if catalog.get("interviews", {}).get("pages"):
+            catalog["interviews"] = pages_as_entries(catalog["interviews"])
+        pages.update({ROOT / lang / name: page(catalog[key], lang)
+                      for lang in langs for key, name in names.items() if catalog.get(key, {}).get("groups")})
+    return pages
 
 
 def main() -> int:
@@ -185,9 +260,8 @@ def main() -> int:
     parser.add_argument("--lang", choices=LANGS, help="only the pages of this language")
     args = parser.parse_args()
 
-    catalog = yaml.safe_load(CATALOG.read_text(encoding="utf-8"))
     stale = []
-    for path, text in outputs(catalog, (args.lang,) if args.lang else LANGS).items():
+    for path, text in outputs((args.lang,) if args.lang else LANGS).items():
         if path.exists() and path.read_text(encoding="utf-8") == text:
             continue
         stale.append(path.relative_to(ROOT))
