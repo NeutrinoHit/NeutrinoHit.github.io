@@ -3009,6 +3009,12 @@ img.course-tile-cover {
   margin: 0.1rem 0 0;
 }
 
+/* A line with many formats (a school year) lets them wrap on the right */
+.outreach-entries.is-stacked .outreach-entry > .outreach-formats {
+  flex: 0 0 auto;
+  max-width: 62%;
+}
+
 .outreach-install {
   display: flex;
   flex-wrap: wrap;
@@ -3304,7 +3310,9 @@ a.anim-chip:hover {
   }
 
   .outreach-entries.is-stacked .outreach-entry > .outreach-formats {
+    flex: 1 1 100%;
     justify-content: flex-start;
+    max-width: none;
   }
 
   .outreach-tiles:has(.has-cover) {
@@ -3331,5 +3339,106 @@ a.anim-chip:hover {
 
   .outreach-tiles .course-tile.has-cover .course-tile-status {
     font-size: 0.64rem;
+  }
+}
+
+/* School: counters by kind of work that filter the list (scripts/build_outreach_pages.py) */
+.outreach-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.75rem 0 0.35rem;
+}
+
+.outreach-filter button {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid rgba(31, 111, 120, 0.38);
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1f3d52;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 620;
+  cursor: pointer;
+}
+
+.outreach-filter button strong {
+  color: #1f6f78;
+  font-size: 1.05rem;
+  font-weight: 780;
+}
+
+.outreach-filter button:hover {
+  border-color: #1f6f78;
+}
+
+.outreach-filter button[aria-pressed="true"] {
+  border-color: #1f6f78;
+  background: #1f6f78;
+  color: #ffffff;
+}
+
+.outreach-filter button[aria-pressed="true"] strong {
+  color: #ffffff;
+}
+
+.outreach-entry[hidden] {
+  display: none;
+}
+
+span.outreach-entry-title {
+  color: #1f3d52;
+  font-weight: 620;
+}
+
+.outreach-entry-work {
+  display: block;
+  margin-top: 0.15rem;
+  color: #3c4b57;
+  font-size: 0.92rem;
+  line-height: 1.42;
+}
+
+code.outreach-entry-install {
+  display: inline-block;
+  margin-top: 0.35rem;
+  padding: 0.22rem 0.55rem;
+  border: 1px solid rgba(43, 67, 91, 0.14);
+  border-radius: 6px;
+  background: #ffffff;
+  color: #1f3d52;
+  font-size: 0.88rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+/* Photos: album tiles with large pictures */
+.outreach-tiles.is-albums {
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  gap: 1rem;
+}
+
+.outreach-tiles.is-albums img.course-tile-cover {
+  aspect-ratio: 3 / 2;
+}
+
+.outreach-tiles.is-albums .course-tile-title {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 600px) {
+  .outreach-tiles.is-albums:has(.has-cover) {
+    grid-template-columns: 1fr;
+  }
+
+  .outreach-tiles.is-albums .course-tile.has-cover .course-tile-text {
+    display: block;
+  }
+
+  .outreach-tiles.is-albums .course-tile.has-cover .course-tile-title {
+    font-size: 1.02rem;
   }
 }

@@ -1,0 +1,1295 @@
+# Interactives: applets, fits and games of the NeutrinoHit courses, lectures and talks.
+# scripts/build_outreach_pages.py writes ru|en/interactives.qmd from this file. Only published, public pages
+# (checked to answer 200): a standalone applet page or the slide that holds it. The first link opens the
+# interactive (href on the Russian page, href_en on the English one); the second is the other language.
+# An entry with lang: en exists in English only. The id is the anchor of the entry on the page.
+interactives:
+  topics: true
+  title:
+    ru: Интерактивы
+    en: Interactives
+  lead:
+    ru: Апплеты, фиты и игры из курсов, лекций и докладов NeutrinoHit. Название открывает интерактив — отдельной страницей или в слайдах лекции;
+      рядом версия на другом языке.
+    en: Applets, fits and games from the courses, lectures and talks of NeutrinoHit. A title opens the interactive, on a page of its own or in
+      the lecture slides; the version in the other language is next to it. Unmarked interactives are in Russian.
+  groups:
+  - id: oscillations
+    title:
+      ru: Осцилляции нейтрино
+      en: Neutrino oscillations
+    layout: stacked
+    items:
+    - id: np-two-flavor-oscillations
+      title:
+        ru: 'Осцилляции нейтрино: два флэйвора'
+        en: A laboratory of two-flavour oscillations
+      note:
+        ru: Угол смешивания, разность масс и развитие квантового состояния · «Введение в физику нейтрино», лекция 9
+        en: Change the mixing angle (amplitude) and the path in units of L_osc (phase) independently · Introduction to Neutrino Physics, lecture
+          9
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/two-flavor-oscillations.html
+        href_en: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/two-flavor-lab
+      - kind: applet
+        label:
+          ru: EN
+          en: RU
+        href: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/two-flavor-lab
+        href_en: /neutrinophysics/introduction/ru/applets/two-flavor-oscillations.html
+    - id: np-flavor-triangle
+      title:
+        ru: Треугольник флэйворов
+        en: Three flavour probabilities
+      note:
+        ru: 'Три вероятности в одном треугольнике: углы, CP-фаза, порядок масс и траектория по L/E · «Введение в физику нейтрино», лекция 10'
+        en: A point in the triangle has barycentric coordinates (P_αe, P_αμ, P_ατ); change angles, δ_CP, ordering and L · Introduction to Neutrino
+          Physics, lecture 10
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/flavor-triangle.html
+        href_en: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/triangle
+      - kind: applet
+        label:
+          ru: EN
+          en: RU
+        href: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/triangle
+        href_en: /neutrinophysics/introduction/ru/applets/flavor-triangle.html
+    - id: np-pmns-from-data
+      title:
+        ru: Соберите матрицу PMNS
+        en: Build the PMNS matrix from measurements
+      note:
+        ru: Солнечный дефицит, атмосферное исчезновение, реакторная поправка и унитарность заполняют матрицу по шагам · «Введение в физику нейтрино»,
+          лекция 10
+        en: Solar deficit, atmospheric disappearance and normalization fill the approximate mixing matrix step by step · Introduction to Neutrino
+          Physics, lecture 10
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/pmns-from-data.html
+    - id: np-three-flavor-probabilities
+      title:
+        ru: Вероятности осцилляций трёх нейтрино
+        en: Explore three-flavor probabilities
+      note:
+        ru: 'Калькулятор: нейтрино и антинейтрино в вакууме как функции E и L, порядок масс, сравнение кривых, карта (L, E) · «Введение в физику
+          нейтрино», лекция 10'
+        en: 'Калькулятор: нейтрино и антинейтрино в вакууме как функции E и L, порядок масс, сравнение кривых, карта (L, E) · Introduction to
+          Neutrino Physics, lecture 10'
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/three-flavor-probabilities.html
+        href_en: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/three-flavor-probabilities
+      - kind: applet
+        label:
+          ru: EN
+          en: RU
+        href: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/three-flavor-probabilities
+        href_en: /neutrinophysics/introduction/ru/applets/three-flavor-probabilities.html
+    - id: np-refraction-layers
+      title:
+        ru: Тонкий слой и показатель преломления
+        en: A thin layer and the accumulated phase
+      note:
+        ru: Один слой почти не меняет волну; в однородной среде малые сдвиги фазы накапливаются · «Введение в физику нейтрино», лекция 11
+        en: 'Change the refractive index and thickness: the wavelength returns to vacuum value, the accumulated phase remains · Introduction to
+          Neutrino Physics, lecture 11'
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/refraction-layers.html
+        href_en: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/refraction-layers
+      - kind: applet
+        label:
+          ru: EN
+          en: RU
+        href: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/refraction-layers
+        href_en: /neutrinophysics/introduction/ru/applets/refraction-layers.html
+    - id: np-refraction-two-modes
+      title:
+        ru: Две волны в веществе
+        en: Two waves in matter
+      note:
+        ru: Как разность показателей преломления превращается в разность фаз и меняет вероятность флэйвора · «Введение в физику нейтрино», лекция
+          11
+        en: Set θ_m and the relative phase of the normal waves; see the projection onto the other flavour · Introduction to Neutrino Physics,
+          lecture 11
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/refraction-two-modes.html
+        href_en: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/refraction-two-modes
+      - kind: applet
+        label:
+          ru: EN
+          en: RU
+        href: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/refraction-two-modes
+        href_en: /neutrinophysics/introduction/ru/applets/refraction-two-modes.html
+    - id: np-matter-constant
+      title:
+        ru: Осцилляции в веществе постоянной плотности
+        en: Oscillations at constant density
+      note:
+        ru: Амплитуда, период и MSW-резонанс при постоянной плотности вещества · «Введение в физику нейтрино», лекция 12
+        en: 'Compare vacuum, resonance and high density: matter changes the envelope sin²2θ_m and the length L_m · Introduction to Neutrino Physics,
+          lecture 12'
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/matter-constant.html
+        href_en: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/matter-lab
+      - kind: applet
+        label:
+          ru: EN
+          en: RU
+        href: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/matter-lab
+        href_en: /neutrinophysics/introduction/ru/applets/matter-constant.html
+    - id: np-matter-adiabatic
+      title:
+        ru: Адиабатический MSW-переход
+        en: Slow and fast passage through an avoided crossing
+      note:
+        ru: Медленный и быстрый профили плотности на избегаемом пересечении · «Введение в физику нейтрино», лекция 13
+        en: For a slow profile the state follows the eigenvector; for a fast one a transition between branches appears · Introduction to Neutrino
+          Physics, lecture 13
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/matter-adiabatic.html
+        href_en: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/adiabatic-lab
+      - kind: applet
+        label:
+          ru: EN
+          en: RU
+        href: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/adiabatic-lab
+        href_en: /neutrinophysics/introduction/ru/applets/matter-adiabatic.html
+    - id: np-matter-three-flavors
+      title:
+        ru: Три флэйвора в веществе
+        en: Три флэйвора в веществе
+      note:
+        ru: 'Появление νe и ν̄e в веществе Земли: порядок масс, фаза CP и диаграмма (P, P̄) · «Введение в физику нейтрино», лекция 15'
+        en: 'Появление νe и ν̄e в веществе Земли: порядок масс, фаза CP и диаграмма (P, P̄) · Introduction to Neutrino Physics, lecture 15'
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/matter-three-flavors.html
+    - id: osc-mc-long-baseline-lab
+      title:
+        ru: 'Long baselines: matter separates ν from ν̄'
+        en: 'Long baselines: matter separates ν from ν̄'
+      lang: en
+      note:
+        ru: 'Muon-to-electron appearance along a straight path through the Earth for several experiments; switch ordering, matter and δ · мини-курс
+          «Осцилляции нейтрино: от вакуума до ядра Земли»'
+        en: 'Muon-to-electron appearance along a straight path through the Earth for several experiments; switch ordering, matter and δ · mini-course
+          Neutrino Oscillations: from Vacuum to the Earth''s Core'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/long-baseline
+    - id: osc-mc-earth-flavor-path
+      title:
+        ru: A neutrino crossing the Earth
+        en: A neutrino crossing the Earth
+      lang: en
+      note:
+        ru: 'Animated flavor content of a neutrino crossing the PREM Earth with electron density along the path · мини-курс «Осцилляции нейтрино:
+          от вакуума до ядра Земли»'
+        en: 'Animated flavor content of a neutrino crossing the PREM Earth with electron density along the path · mini-course Neutrino Oscillations:
+          from Vacuum to the Earth''s Core'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /neutrinophysics/oscillations-minicourse/en/slides/03_earth.html#/flavor-path
+    - id: osc-mc-earth-path-explorer
+      title:
+        ru: Explore a path
+        en: Explore a path
+      lang: en
+      note:
+        ru: 'Oscillation probability vs energy for a chosen path through the Earth; core composition presets, ν/ν̄ and ordering · мини-курс «Осцилляции
+          нейтрино: от вакуума до ядра Земли»'
+        en: 'Oscillation probability vs energy for a chosen path through the Earth; core composition presets, ν/ν̄ and ordering · mini-course
+          Neutrino Oscillations: from Vacuum to the Earth''s Core'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /neutrinophysics/oscillations-minicourse/en/slides/03_earth.html#/explorer
+    - id: osc-mc-oscillogram-lab
+      title:
+        ru: Build your own Earth
+        en: Build your own Earth
+      lang: en
+      note:
+        ru: 'Oscillogram of a modified Earth and its difference from PREM with an iron core · мини-курс «Осцилляции нейтрино: от вакуума до ядра
+          Земли»'
+        en: 'Oscillogram of a modified Earth and its difference from PREM with an iron core · mini-course Neutrino Oscillations: from Vacuum to
+          the Earth''s Core'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /neutrinophysics/oscillations-minicourse/en/slides/03_earth.html#/oscillogram-lab
+    - id: np-solar-fit
+      title:
+        ru: 'Interactive Fit: Solar Parameters'
+        en: 'Interactive Fit: Solar Parameters'
+      lang: en
+      note:
+        ru: Fit sin²θ12 and Δm²21 to pseudo-data of the 8B recoil spectrum; change N₀, true values, binning and threshold · мастер-класс «Солнечные
+          нейтрино»
+        en: Fit sin²θ12 and Δm²21 to pseudo-data of the 8B recoil spectrum; change N₀, true values, binning and threshold · Solar Neutrinos masterclass
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html#/interactive-fit-solar-parameters
+    - id: talk-pmns-fit
+      title:
+        ru: Building the PMNS matrix from observations
+        en: Building the PMNS matrix from observations
+      lang: en
+      note:
+        ru: 'Step-by-step reconstruction of the PMNS matrix from solar, atmospheric and reactor data · доклад «Neutrino Physics: Fundamentals,
+          Frontiers, and Probes»'
+        en: 'Step-by-step reconstruction of the PMNS matrix from solar, atmospheric and reactor data · talk Neutrino Physics: Fundamentals, Frontiers,
+          and Probes'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /talks/georgia-2026/dnaumov.html#/building-the-pmns-matrix-from-observations
+  - id: mass
+    title:
+      ru: 'Масса нейтрино: β-распад, KATRIN, CRES'
+      en: 'Neutrino mass: β decay, KATRIN, CRES'
+    layout: stacked
+    items:
+    - id: np-fermi-function
+      title:
+        ru: Функция Ферми
+        en: The Coulomb correction to the β spectrum
+      note:
+        ru: Как кулоновское поле ядра по-разному меняет β⁻- и β⁺-спектры · «Введение в физику нейтрино», лекция 4
+        en: Change the charge of the daughter nucleus and compare β⁻ and β⁺ decays · Introduction to Neutrino Physics, lecture 4
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/fermi-function.html
+    - id: np-mass-spectrum
+      title:
+        ru: Один β-спектр — несколько массовых порогов
+        en: One β spectrum and several mass thresholds
+      note:
+        ru: Как несколько массовых состояний нейтрино проявляются у конца β-спектра · «Введение в физику нейтрино», лекция 4
+        en: With good resolution each m_i would give its own kink; in a real experiment they merge into one distortion set by m_β · Introduction
+          to Neutrino Physics, lecture 4
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/mass-spectrum.html
+    - id: np-beta-endpoint-resolution
+      title:
+        ru: Конец β-спектра и энергетическое разрешение
+        en: The neutrino mass and the energy resolution
+      note:
+        ru: Как масса нейтрино сдвигает конечную точку и как энергетическое разрешение размывает этот след · «Введение в физику нейтрино», лекция
+          4
+        en: Compares the true spectrum with the spectrum after Gaussian smearing near the endpoint · Introduction to Neutrino Physics, lecture
+          4
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/beta-endpoint-resolution.html
+    - id: np-katrin-integral-spectrum
+      title:
+        ru: Интегральный спектр KATRIN
+        en: The integral spectrum of KATRIN
+      note:
+        ru: Как задерживающий потенциал отбирает электроны и превращает β-спектр в скорость счёта · «Введение в физику нейтрино», лекция 7
+        en: The retarding potential sets the lower limit of the integral; points near the endpoint are most mass-sensitive · Introduction to Neutrino
+          Physics, lecture 7
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/katrin-integral-spectrum.html
+    - id: np-sn-mass-likelihood
+      title:
+        ru: Масса по временам прилёта
+        en: The neutrino mass from the arrival times
+      note:
+        ru: Нейтрино от сверхновой приходят вразнобой; правдоподобие превращает разброс в оценку массы — иногда отрицательную · «Введение в физику
+          нейтрино», лекция 8
+        en: Change the mass, the number of neutrinos and the emission spread; the slope of t vs 1/E² gives m² · Introduction to Neutrino Physics,
+          lecture 8
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/sn-mass-likelihood.html
+    - id: np-cres-observables
+      title:
+        ru: Что измеряет CRES
+        en: The emission spectrum and the CRES frequency track
+      note:
+        ru: Боковые частотные полосы и медленный дрейф частоты одного электрона (Project 8) · «Введение в физику нейтрино», лекция 8
+        en: The slope of the track comes from radiative losses; jumps are collisions with residual gas · Introduction to Neutrino Physics, lecture
+          8
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/cres-observables.html
+    - id: np-cres-sidebands
+      title:
+        ru: Боковые частоты CRES
+        en: Боковые частоты CRES
+      note:
+        ru: Как фазовая модуляция распределяет мощность одного электрона по нескольким частотным линиям · «Введение в физику нейтрино», лекция
+          8
+        en: Как фазовая модуляция распределяет мощность одного электрона по нескольким частотным линиям · Introduction to Neutrino Physics, lecture
+          8
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/cres-sidebands.html
+    - id: np-cres-frequency-track
+      title:
+        ru: Частотный трек электрона
+        en: Частотный трек электрона
+      note:
+        ru: Начальная энергия, радиационные потери и растущая частота циклотронного сигнала · «Введение в физику нейтрино», лекция 8
+        en: Начальная энергия, радиационные потери и растущая частота циклотронного сигнала · Introduction to Neutrino Physics, lecture 8
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/cres-frequency-track.html
+    - id: talk-katrin-spectrum
+      title:
+        ru: 'KATRIN: the endpoint becomes a count rate'
+        en: 'KATRIN: the endpoint becomes a count rate'
+      lang: en
+      note:
+        ru: 'Tritium β spectrum and MAC-E transmission: retarding window and neutrino mass sliders · доклад «Neutrino Physics: Fundamentals, Frontiers,
+          and Probes»'
+        en: 'Tritium β spectrum and MAC-E transmission: retarding window and neutrino mass sliders · talk Neutrino Physics: Fundamentals, Frontiers,
+          and Probes'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /talks/georgia-2026/dnaumov.html#/katrin-the-endpoint-becomes-a-count-rate
+  - id: astro
+    title:
+      ru: Солнце, ядра и Вселенная
+      en: The Sun, nuclei and the Universe
+    layout: stacked
+    items:
+    - id: np-resonance-filter
+      title:
+        ru: Доплеровская настройка ядерного резонанса
+        en: Resonance as a filter of direction
+      note:
+        ru: Доплеровская настройка энергии фотона в опыте Голдхабера · «Введение в физику нейтрино», лекция 3
+        en: A photon emitted along the recoil gets a Doppler shift and excites the resonance in the samarium absorber · Introduction to Neutrino
+          Physics, lecture 3
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/resonance-filter.html
+    - id: np-gamow-window
+      title:
+        ru: Окно Гамова
+        en: Gamow Window Applet
+      note:
+        ru: Тепловой хвост, кулоновское туннелирование и узкий интервал энергий, где горят звёзды · «Введение в физику нейтрино», солнечные нейтрино
+        en: Choose a solar reaction (p+p, 7Be+p, 14N+p) and see the Gamow peak · Introduction to Neutrino Physics, solar neutrinos
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/gamow-window.html
+        href_en: /neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html#/gamow-window-applet
+      - kind: applet
+        label:
+          ru: EN
+          en: RU
+        href: /neutrinophysics/solar-neutrino-masterclass/slides/00_solar_neutrino_physics.html#/gamow-window-applet
+        href_en: /neutrinophysics/introduction/ru/applets/gamow-window.html
+    - id: sp-bbn-game
+      title:
+        ru: Синтезируй лёгкие элементы
+        en: Синтезируй лёгкие элементы
+      note:
+        ru: 'Игра: подберите плотность вещества, скорость расширения и время жизни нейтрона, чтобы провести He-4, D, He-3 и Li-7 через ворота
+          наблюдений (сетка PRyMordial) · лекция «Рождение и жизнь Вселенной»'
+        en: 'Игра: подберите плотность вещества, скорость расширения и время жизни нейтрона, чтобы провести He-4, D, He-3 и Li-7 через ворота
+          наблюдений (сетка PRyMordial) · lecture The Birth and Life of the Universe'
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html
+  - id: mechanics
+    title:
+      ru: Механика и аналогии
+      en: Mechanics and analogies
+    layout: stacked
+    items:
+    - id: np-radiation-belts
+      title:
+        ru: Радиационные пояса Земли
+        en: A field line, the mirror point and the loss cone
+      note:
+        ru: 'Игра: выберите силовую линию и угол старта — частица отразится магнитным зеркалом или попадёт в атмосферу? · «Введение в физику нейтрино»,
+          лекция 6'
+        en: Choose the field line L and the equatorial angle; the particle is reflected or enters the atmosphere · Introduction to Neutrino Physics,
+          lecture 6
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/radiation-belts.html
+    - id: np-cyclotron-motion
+      title:
+        ru: Электрон в однородном магнитном поле
+        en: Cyclotron motion in two spaces
+      note:
+        ru: Циклотронное движение одновременно в координатном и фазовом пространствах · «Введение в физику нейтрино», лекция 5
+        en: 'Change the momentum and the field: the electron orbit and the same motion in transverse-momentum space · Introduction to Neutrino
+          Physics, lecture 5'
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/cyclotron-motion.html
+    - id: np-planar-rotor
+      title:
+        ru: Плоский ротатор
+        en: A planar rotor
+      note:
+        ru: Угол, касательная скорость и периодическое движение — геометрия переменных действие–угол · «Введение в физику нейтрино», лекция 5
+        en: Stop the motion at any phase and compare the angle with the tangential velocity · Introduction to Neutrino Physics, lecture 5
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/planar-rotor.html
+    - id: np-adiabatic-trough
+      title:
+        ru: Медленно меняющийся осциллятор
+        en: A particle in a slowly changing trough
+      note:
+        ru: 'Классическая модель адиабатического инварианта: орбита, фазовый портрет и перераспределение энергии · «Введение в физику нейтрино»,
+          лекция 6'
+        en: Motion, phase orbit and exchange of longitudinal and transverse energy under a slowly changing profile · Introduction to Neutrino
+          Physics, lecture 6
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/adiabatic-trough.html
+    - id: np-coupled-pendula
+      title:
+        ru: Связанные маятники и осцилляции
+        en: Coupled pendulums of different masses
+      note:
+        ru: Механическая модель осцилляций и обмена энергией между состояниями · «Введение в физику нейтрино», лекция 9
+        en: The mass ratio sets the mixing angle, the spring stiffness the difference of eigenfrequencies · Introduction to Neutrino Physics,
+          lecture 9
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/coupled-pendula.html
+        href_en: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/pendula
+      - kind: applet
+        label:
+          ru: EN
+          en: RU
+        href: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/pendula
+        href_en: /neutrinophysics/introduction/ru/applets/coupled-pendula.html
+    - id: np-pendulums-matter
+      title:
+        ru: Связанные маятники в веществе
+        en: Связанные маятники в веществе
+      note:
+        ru: 'Механическая модель MSW: укороченный маятник, медленный и быстрый проход через резонанс, гашение вакуумной моды · «Введение в физику
+          нейтрино», лекция 14'
+        en: 'Механическая модель MSW: укороченный маятник, медленный и быстрый проход через резонанс, гашение вакуумной моды · Introduction to
+          Neutrino Physics, lecture 14'
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /neutrinophysics/introduction/ru/applets/pendulums-matter.html
+  - id: fields
+    title:
+      ru: Частицы и поля
+      en: Particles and fields
+    layout: stacked
+    items:
+    - id: sp-two-targets-wave
+      title:
+        ru: 'Апплет: два слагаемых финальной волновой функции'
+        en: 'Апплет: два слагаемых финальной волновой функции'
+      note:
+        ru: 'Плотность |χ_Aψ_B + ψ_Aχ_B|² в импульсах двух мишеней: когда квантовая волна «срабатывает» на A или на B и где интерференция · лекция
+          «Что такое частица в квантовой теории поля?»'
+        en: 'Плотность |χ_Aψ_B + ψ_Aχ_B|² в импульсах двух мишеней: когда квантовая волна «срабатывает» на A или на B и где интерференция · lecture
+          What is a particle in quantum field theory?'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html
+    - id: qft-unruh-aging
+      title:
+        ru: Собственное время и старение
+        en: Собственное время и старение
+      note:
+        ru: 'Собственное время ускоренного наблюдателя: ползунки времени и ускорения · «Эффект Унру», лекция 1'
+        en: 'Собственное время ускоренного наблюдателя: ползунки времени и ускорения · The Unruh effect, lecture 1'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /qft-lectures/unruh/ru/slides/01_rindler.html#/собственное-время-и-старение
+    - id: qft-unruh-rindler
+      title:
+        ru: Координаты Риндлера и горизонт
+        en: Координаты Риндлера и горизонт
+      note:
+        ru: 'Координаты Риндлера и горизонт: ускорение и быстрота η · «Эффект Унру», лекция 1'
+        en: 'Координаты Риндлера и горизонт: ускорение и быстрота η · The Unruh effect, lecture 1'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /qft-lectures/unruh/ru/slides/01_rindler.html#/координаты-риндлера-и-горизонт
+    - id: qft-unruh-partial-trace
+      title:
+        ru: Как энтропия возникает без термостата
+        en: Как энтропия возникает без термостата
+      note:
+        ru: Частичный след запутанного состояния даёт смешанное состояние и энтропию · «Эффект Унру», лекция 2
+        en: Частичный след запутанного состояния даёт смешанное состояние и энтропию · The Unruh effect, lecture 2
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /qft-lectures/unruh/ru/slides/02_thermodynamics.html#/как-энтропия-возникает-без-термостата
+    - id: qft-unruh-chirp
+      title:
+        ru: Сигнал в детекторе
+        en: Сигнал в детекторе
+      note:
+        ru: 'Плоская волна в детекторе Унру: чирп при заданных ускорении, частоте и окне · «Эффект Унру», лекция 3'
+        en: 'Плоская волна в детекторе Унру: чирп при заданных ускорении, частоте и окне · The Unruh effect, lecture 3'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /qft-lectures/unruh/ru/slides/03_unruh_wave.html#/сигнал-в-детекторе
+    - id: qft-unruh-fermion-thermal
+      title:
+        ru: От запутанности к температуре
+        en: От запутанности к температуре
+      note:
+        ru: 'Фермионное поле: от запутанности к тепловому спектру (Ферми–Дирак) · «Эффект Унру», лекция 5'
+        en: 'Фермионное поле: от запутанности к тепловому спектру (Ферми–Дирак) · The Unruh effect, lecture 5'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /qft-lectures/unruh/ru/slides/05_unruh_fermion_field.html#/от-запутанности-к-температуре
+    - id: qft-vacuum-white-noise
+      title:
+        ru: Интерактивное исследование
+        en: Интерактивное исследование
+      note:
+        ru: 'Лаборатория вакуума свободного скалярного поля: реализации, массы, поля и гистограммы · «Вакуум квантового поля», лекция 1'
+        en: 'Лаборатория вакуума свободного скалярного поля: реализации, массы, поля и гистограммы · The vacuum of a quantum field, lecture 1'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /qft-lectures/vacuum/ru/slides/01_free_scalar_field.html#/интерактивное-исследование
+    - id: qft-scalar-qed-wave-plane
+      title:
+        ru: Two waves turning a packet
+        en: Two waves turning a packet
+      lang: en
+      note:
+        ru: Wave packet, interaction-induced wave and their sum; change the coupling strength and time · лекция «Притяжение и отталкивание в КТП»
+        en: Wave packet, interaction-induced wave and their sum; change the coupling strength and time · lecture Attraction and Repulsion in QFT
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html#/two-waves-turning-a-packet
+    - id: pp-chiral-mass-slab
+      title:
+        ru: A Finite Condensate Layer
+        en: A Finite Condensate Layer
+      lang: en
+      note:
+        ru: Exact scattering of a chiral wave on a condensate layer of adjustable width a · Байкальская школа, лекция «Стандартная модель»
+        en: Exact scattering of a chiral wave on a condensate layer of adjustable width a · Baikal school, lecture The Standard Model
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model.html#/a-finite-condensate-layer
+    - id: talk-juno-proton
+      title:
+        ru: 'JUNO: one detector, a broad physics program'
+        en: 'JUNO: one detector, a broad physics program'
+      lang: en
+      note:
+        ru: 'Cosmic clock and a hypothetical p → ν̄K⁺ signature in JUNO (illustration) · доклад «Neutrino Physics: Fundamentals, Frontiers, and
+          Probes»'
+        en: 'Cosmic clock and a hypothetical p → ν̄K⁺ signature in JUNO (illustration) · talk Neutrino Physics: Fundamentals, Frontiers, and Probes'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /talks/georgia-2026/dnaumov.html#/juno-one-detector-a-broad-physics-program
+    - id: talk-lead-wall
+      title:
+        ru: How much lead stops a neutrino?
+        en: How much lead stops a neutrino?
+      lang: en
+      note:
+        ru: 'Neutrinos from the Sun cross lead bricks added one by one towards Alpha Centauri (click to step) · доклад «Neutrino Physics: Fundamentals,
+          Frontiers, and Probes»'
+        en: 'Neutrinos from the Sun cross lead bricks added one by one towards Alpha Centauri (click to step) · talk Neutrino Physics: Fundamentals,
+          Frontiers, and Probes'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /talks/georgia-2026/dnaumov-35min.html#/how-much-lead-stops-a-neutrino
+  - id: light
+    title:
+      ru: Свет, детекторы и гравитация
+      en: Light, detectors and gravity
+    layout: stacked
+    items:
+    - id: grav-falling-signals
+      title:
+        ru: Как сигнал догоняет второй объект
+        en: Как сигнал догоняет второй объект
+      note:
+        ru: 'Два свободно падающих объекта у горизонта Шварцшильда: сценарии «до горизонта», «на горизонте», «внутри» · лекция «Световые сигналы
+          у горизонта чёрной дыры»'
+        en: 'Два свободно падающих объекта у горизонта Шварцшильда: сценарии «до горизонта», «на горизонте», «внутри» · lecture Light signals
+          near a black-hole horizon'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /gravity/ru/slides/01_radial_signals.html#/как-сигнал-догоняет-второй-объект
+    - id: rte-diffusion-flash
+      title:
+        ru: 'Диффузия: мгновенная вспышка'
+        en: 'Диффузия: мгновенная вспышка'
+      note:
+        ru: Диффузионный отклик на мгновенную вспышку в зависимости от времени · «Распространение света в среде»
+        en: Диффузионный отклик на мгновенную вспышку в зависимости от времени · Light Propagation in Media
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /rte_lectures/ru/slides/02_diffusion.html#/диффузия-мгновенная-вспышка
+    - id: rte-diffusion-stationary
+      title:
+        ru: 'Диффузия: постоянный источник'
+        en: 'Диффузия: постоянный источник'
+      note:
+        ru: Стационарный профиль света от постоянного источника при разном поглощении · «Распространение света в среде»
+        en: Стационарный профиль света от постоянного источника при разном поглощении · Light Propagation in Media
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /rte_lectures/ru/slides/02_diffusion.html#/диффузия-постоянный-источник
+    - id: rte-diffusion-front
+      title:
+        ru: Область применимости диффузии
+        en: Область применимости диффузии
+      note:
+        ru: Причинный фронт против диффузионного хвоста при выбранном времени · «Распространение света в среде»
+        en: Причинный фронт против диффузионного хвоста при выбранном времени · Light Propagation in Media
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /rte_lectures/ru/slides/02_diffusion.html#/область-применимости-диффузии
+    - id: rte-detector-response
+      title:
+        ru: Отклик оптического модуля
+        en: Отклик оптического модуля
+      note:
+        ru: Отклик оптического модуля в зависимости от угла к источнику · «Распространение света в среде»
+        en: Отклик оптического модуля в зависимости от угла к источнику · Light Propagation in Media
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /rte_lectures/ru/slides/03_detector_response.html#/отклик-оптического-модуля
+    - id: rte-time-bins
+      title:
+        ru: Заряд и временные бины
+        en: Заряд и временные бины
+      note:
+        ru: Заряд и временные бины сигнала при выборе окна регистрации · «Распространение света в среде»
+        en: Заряд и временные бины сигнала при выборе окна регистрации · Light Propagation in Media
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /rte_lectures/ru/slides/03_detector_response.html#/заряд-и-временные-бины
+    - id: talk-event-reconstruction
+      title:
+        ru: Reconstructing an event
+        en: Reconstructing an event
+      lang: en
+      note:
+        ru: 'Try it: fit the direction of a simulated neutrino-telescope event by hand (angles, photon budget, jitter, group index) · доклад «Neutrino
+          Telescopes: Principles, Results, and Prospects»'
+        en: 'Try it: fit the direction of a simulated neutrino-telescope event by hand (angles, photon budget, jitter, group index) · talk Neutrino
+          Telescopes: Principles, Results, and Prospects'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /talks/neutrino-telescopes-2026/lecture.html#/event-reconstruction
+  - id: statistics
+    title:
+      ru: Статистика и фиты
+      en: Statistics and fits
+    layout: stacked
+    items:
+    - id: stat-p-to-z
+      title:
+        ru: p-value и значимость Z
+        en: p-value и значимость Z
+      note:
+        ru: Калькулятор пересчёта Z ↔ p для одностороннего и двустороннего теста · «Статистический анализ данных», калькуляторы
+        en: Калькулятор пересчёта Z ↔ p для одностороннего и двустороннего теста · Statistical Data Analysis, calculators
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /statistical-analysis-course/ru/slides/applets.html
+    - id: stat-binomial-intervals
+      title:
+        ru: Биномиальная доля и интервалы
+        en: Биномиальная доля и интервалы
+      note:
+        ru: 'Калькулятор доверительных интервалов для биномиальной доли: Вальд, Уилсон, Клоппер–Пирсон · «Статистический анализ данных», калькуляторы'
+        en: 'Калькулятор доверительных интервалов для биномиальной доли: Вальд, Уилсон, Клоппер–Пирсон · Statistical Data Analysis, calculators'
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /statistical-analysis-course/ru/slides/applets.html
+    - id: stat-bertrand-paradox
+      title:
+        ru: Парадокс Бертрана
+        en: Bertrand's Paradox
+      note:
+        ru: 'Игра: вероятность не определена без процедуры порождения — три генератора хорд дают 1/3, 1/2 и 1/4 · «Статистический анализ данных»,
+          калькуляторы'
+        en: 'Online game: three natural chord generators give three different answers to Bertrand''s question · Statistical Data Analysis, calculators'
+      links:
+      - kind: applet
+        label:
+          ru: Апплет
+          en: Applet
+        href: /statistical-analysis-course/ru/slides/bertrand_paradox.html
+        href_en: /statistical-analysis-course/en/slides/bertrand_paradox.html
+      - kind: applet
+        label:
+          ru: EN
+          en: RU
+        href: /statistical-analysis-course/en/slides/bertrand_paradox.html
+        href_en: /statistical-analysis-course/ru/slides/bertrand_paradox.html
+    - id: stat-gaussian-fit
+      title:
+        ru: Псевдоданные и фит
+        en: Gaussian pseudodata and fit
+      note:
+        ru: Подберите ширину гауссова распределения к псевдоданным · «Статистический анализ данных», лекция 1
+        en: Fit the width of a distribution to pseudodata yourself · Statistical Data Analysis, lecture 1
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/01_introduction.html#/applet-gaussian-fit
+        href_en: /statistical-analysis-course/en/slides/lecture-01-introduction.html#/applet-gaussian-fit
+      - kind: applet
+        label:
+          ru: EN
+          en: RU
+        href: /statistical-analysis-course/en/slides/lecture-01-introduction.html#/applet-gaussian-fit
+        href_en: /statistical-analysis-course/ru/slides/01_introduction.html#/applet-gaussian-fit
+    - id: stat-fourier-clt
+      title:
+        ru: Гауссов предел в пространстве Фурье
+        en: Gaussian limit in Fourier space
+      note:
+        ru: Как характеристическая функция нормированной суммы приближается к exp(−t²/2) · «Статистический анализ данных», лекция 3
+        en: How the characteristic function of the normalized sum approaches exp(−t²/2) · Statistical Data Analysis, lecture 3
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/03_characteristic_functions.html#/applet-fourier-clt
+    - id: stat-clt
+      title:
+        ru: Центральная предельная теорема
+        en: Central limit theorem
+      note:
+        ru: Гистограмма нормированной суммы против N(0,1) при разном числе слагаемых · «Статистический анализ данных», лекция 4
+        en: Histogram of the normalized sum against N(0,1) for different numbers of terms · Statistical Data Analysis, lecture 4
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/04_central_limit_theorem.html#/applet-clt
+    - id: stat-measurement-compatibility
+      title:
+        ru: Совместимость двух измерений
+        en: Compatibility of two measurements
+      note:
+        ru: Уровень α, z_obs, область неотвержения и двустороннее p-значение · «Статистический анализ данных», лекция 4
+        en: The level α, z_obs, the non-rejection region and the two-sided p-value · Statistical Data Analysis, lecture 4
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/04_central_limit_theorem.html#/applet-measurement-compatibility
+    - id: stat-cauchy-mean
+      title:
+        ru: Среднее распределения Коши
+        en: Mean of a Cauchy distribution
+      note:
+        ru: Среднее величин Коши не сужается, в отличие от гауссовых · «Статистический анализ данных», лекция 5
+        en: The mean of Cauchy variables does not narrow, unlike Gaussian ones · Statistical Data Analysis, lecture 5
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/05_non_gaussian_clt_violations.html#/applet-cauchy-mean
+    - id: stat-landau
+      title:
+        ru: Распределение Ландау
+        en: Landau distribution
+      note:
+        ru: Длинный хвост распределения Ландау против гауссовой кривой · «Статистический анализ данных», лекция 5
+        en: A Landau-like distribution against a Gaussian with the same median and width · Statistical Data Analysis, lecture 5
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/05_non_gaussian_clt_violations.html#/applet-landau
+    - id: stat-correlated-error
+      title:
+        ru: Коррелированная ошибка
+        en: Correlated error
+      note:
+        ru: Общая систематическая ошибка не уменьшается с ростом выборки · «Статистический анализ данных», лекция 5
+        en: A common error does not shrink as the sample grows · Statistical Data Analysis, lecture 5
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/05_non_gaussian_clt_violations.html#/applet-correlated-error
+    - id: stat-gaussian-mixture
+      title:
+        ru: Смесь двух гауссовых распределений
+        en: Mixture of two Gaussian distributions
+      note:
+        ru: Веса, ширины и расстояние между средними меняют форму смеси · «Статистический анализ данных», лекция 5
+        en: Weights, widths and the distance between means change the mixture shape · Statistical Data Analysis, lecture 5
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/05_non_gaussian_clt_violations.html#/applet-gaussian-mixture
+    - id: stat-gaussian-ratio
+      title:
+        ru: Отношение гауссовых величин
+        en: Ratio of Gaussian variables
+      note:
+        ru: Когда у отношения гауссовых величин появляются длинные хвосты · «Статистический анализ данных», лекция 5
+        en: Long tails appear in the ratio of Gaussian variables · Statistical Data Analysis, lecture 5
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/05_non_gaussian_clt_violations.html#/applet-gaussian-ratio
+    - id: stat-nonlinear-propagation
+      title:
+        ru: Граница линейного приближения
+        en: Limits of linear error propagation
+      note:
+        ru: Где ломается линейная формула распространения ошибок для Y = X + aX² · «Статистический анализ данных», лекция 6
+        en: Where linear error propagation fails for Y = X + aX² · Statistical Data Analysis, lecture 6
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/06_error_propagation.html#/applet-nonlinear-propagation
+    - id: stat-sample-standard-deviation
+      title:
+        ru: Разброс оценки стандартного отклонения
+        en: Sampling spread of the standard-deviation estimate
+      note:
+        ru: 'Десять гауссовых измерений: оценки μ, σ², σ и их неопределённости · «Статистический анализ данных», лекция 6'
+        en: 'Ten Gaussian measurements: estimates of μ, σ², σ and their uncertainties · Statistical Data Analysis, lecture 6'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/06_error_propagation.html#/applet-sample-standard-deviation
+    - id: stat-correlation-error
+      title:
+        ru: Вклад корреляции в ошибку
+        en: Correlation contribution to propagated uncertainty
+      note:
+        ru: Диагональные и корреляционный вклады в σ_F² · «Статистический анализ данных», лекция 6
+        en: Diagonal and correlation contributions to σ_F² · Statistical Data Analysis, lecture 6
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/06_error_propagation.html#/applet-correlation-error
+    - id: stat-correlation-ellipse
+      title:
+        ru: Корреляция и эллипс
+        en: Correlation and covariance ellipse
+      note:
+        ru: Выборка двумерного гаусса и эллипс ковариации при разных ρ, σx, σy · «Статистический анализ данных», лекция 7
+        en: A 2D Gaussian sample and its covariance ellipse for varying ρ, σx, σy · Statistical Data Analysis, lecture 7
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/07_two_dimensional_gaussian.html#/applet-correlation-ellipse
+    - id: stat-contour-probability
+      title:
+        ru: Вероятность и размер контура
+        en: Contour probability and size
+      note:
+        ru: Какую долю вероятности охватывает контур двумерного гаусса · «Статистический анализ данных», лекция 7
+        en: Which probability fraction a 2D Gaussian contour encloses · Statistical Data Analysis, lecture 7
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/07_two_dimensional_gaussian.html#/applet-contour-probability
+    - id: stat-rejection-sampling
+      title:
+        ru: Метод отбора
+        en: Rejection sampling
+      note:
+        ru: 'Метод отбора для плотности 6x(1−x): принятые и отброшенные точки · «Статистический анализ данных», лекция 8'
+        en: 'Rejection sampling of 6x(1−x): accepted and rejected points · Statistical Data Analysis, lecture 8'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/08_monte_carlo_method.html#/applet-rejection-sampling
+    - id: stat-pi
+      title:
+        ru: Оценка числа π
+        en: Estimating π
+      note:
+        ru: Оценка π долей точек внутри четверти круга · «Статистический анализ данных», лекция 8
+        en: Estimating π from the fraction of points inside a quarter circle · Statistical Data Analysis, lecture 8
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/08_monte_carlo_method.html#/applet-pi
+    - id: stat-grid-dimension
+      title:
+        ru: Сетка в большой размерности
+        en: A grid in high dimensions
+      note:
+        ru: Почему регулярная сетка проигрывает Монте-Карло в большой размерности · «Статистический анализ данных», лекция 8
+        en: Why a regular grid loses to Monte Carlo in high dimensions · Statistical Data Analysis, lecture 8
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/08_monte_carlo_method.html#/applet-grid-dimension
+    - id: stat-rare-region
+      title:
+        ru: Редкая область и равномерная генерация
+        en: Rare region with uniform sampling
+      note:
+        ru: Равномерная генерация тратит точки мимо узкой важной области · «Статистический анализ данных», лекция 8
+        en: Uniform generation wastes points outside a narrow important region · Statistical Data Analysis, lecture 8
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/08_monte_carlo_method.html#/applet-rare-region
+    - id: stat-importance-sampling
+      title:
+        ru: Выборка по важности
+        en: Importance sampling
+      note:
+        ru: 'Выборка по важности: точки бросаются туда, где вклад · «Статистический анализ данных», лекция 8'
+        en: 'Importance sampling: points go where the integrand matters · Statistical Data Analysis, lecture 8'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/08_monte_carlo_method.html#/applet-importance-sampling
+    - id: stat-counting-ensemble
+      title:
+        ru: Ансамбль счётных экспериментов
+        en: Ensemble of counting experiments
+      note:
+        ru: 'Псевдоэксперименты счёта: распределение оценки сигнала, включая ŝ < 0 · «Статистический анализ данных», лекция 8'
+        en: Pseudo-experiments of a counting experiment, including ŝ < 0 · Statistical Data Analysis, lecture 8
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/08_monte_carlo_method.html#/applet-counting-ensemble
+    - id: stat-binomial-likelihood
+      title:
+        ru: Биномиальное правдоподобие
+        en: Binomial likelihood
+      note:
+        ru: Форма биномиального правдоподобия при разных N и k · «Статистический анализ данных», лекция 9
+        en: Shape of the binomial likelihood for different N and k · Statistical Data Analysis, lecture 9
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/09_maximum_likelihood.html#/applet-binomial-likelihood
+    - id: stat-variance-divisor
+      title:
+        ru: Делитель N или N−1
+        en: Divisor N or N−1
+      note:
+        ru: Смещение и разброс оценки дисперсии с делителем N и N−1 · «Статистический анализ данных», лекция 10
+        en: Bias and spread of the variance estimate with divisor N vs N−1 · Statistical Data Analysis, lecture 10
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/10_estimator_properties_profile_likelihood.html#/applet-variance-divisor
+    - id: stat-lifetime-likelihood
+      title:
+        ru: Правдоподобие времени жизни
+        en: Lifetime likelihood
+      note:
+        ru: Логарифм правдоподобия времени жизни, его парабола и границы q = 1 · «Статистический анализ данных», лекция 10
+        en: Lifetime log-likelihood, its quadratic approximation and q = 1 limits · Statistical Data Analysis, lecture 10
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/10_estimator_properties_profile_likelihood.html#/applet-lifetime-likelihood
+    - id: stat-profile-likelihood
+      title:
+        ru: Профилирование мешающего параметра
+        en: Profiling a nuisance parameter
+      note:
+        ru: Профиль против фиксированного сечения двумерного правдоподобия · «Статистический анализ данных», лекция 10
+        en: Profile versus fixed slice of a two-dimensional likelihood · Statistical Data Analysis, lecture 10
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/10_estimator_properties_profile_likelihood.html#/applet-profile-likelihood
+    - id: stat-oscillation-fit
+      title:
+        ru: Осцилляционные параметры
+        en: Oscillation parameters
+      note:
+        ru: 'Подгонка реакторного спектра: двумерное правдоподобие (A, Δm²) и профили по псевдоданным · «Статистический анализ данных», лекция
+          10'
+        en: 'Reactor-spectrum fit: 2D likelihood in (A, Δm²) and profiles from pseudo-data · Statistical Data Analysis, lecture 10'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/10_estimator_properties_profile_likelihood.html#/applet-oscillation-fit
+    - id: stat-fit-geometry
+      title:
+        ru: Геометрия ошибок линейной подгонки
+        en: Uncertainty geometry of a linear fit
+      note:
+        ru: Центр точек, разброс и корреляция оценок параметров прямой · «Статистический анализ данных», лекция 11
+        en: Point centre, spread and correlation of the line-fit parameters · Statistical Data Analysis, lecture 11
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/11_least_squares_linear_fit.html#/applet-fit-geometry
+    - id: stat-line-outlier
+      title:
+        ru: Прямая, ошибки и выброс
+        en: Line fit, uncertainties, and an outlier
+      note:
+        ru: Подгонка прямой, остатки и влияние выброса · «Статистический анализ данных», лекция 11
+        en: Line fit, normalized residuals and the effect of an outlier · Statistical Data Analysis, lecture 11
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/11_least_squares_linear_fit.html#/applet-line-outlier
+    - id: stat-chi-square
+      title:
+        ru: Распределение χ²
+        en: Chi-square distribution
+      note:
+        ru: Форма распределения χ² при разном числе степеней свободы · «Статистический анализ данных», лекция 13
+        en: Shape of the χ² distribution for different degrees of freedom · Statistical Data Analysis, lecture 13
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/13_goodness_of_fit_and_significance.html#/applet-chi-square
+    - id: stat-p-value
+      title:
+        ru: p-уровень на графике
+        en: The p-value on a distribution
+      note:
+        ru: p-значение как площадь правого хвоста χ² · «Статистический анализ данных», лекция 13
+        en: The p-value as the area of the right χ² tail · Statistical Data Analysis, lecture 13
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/13_goodness_of_fit_and_significance.html#/applet-p-value
+    - id: stat-test-statistic
+      title:
+        ru: Распределение тестовой статистики
+        en: Distribution of a test statistic
+      note:
+        ru: 'Проверка χ²-приближения при малых счётах: распределение статистики из опытов против χ²₂₀ · «Статистический анализ данных», лекция
+          13'
+        en: Checking the χ² approximation at low counts against χ²₂₀ · Statistical Data Analysis, lecture 13
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /statistical-analysis-course/ru/slides/13_goodness_of_fit_and_significance.html#/applet-test-statistic
