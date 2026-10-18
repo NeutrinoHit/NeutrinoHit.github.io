@@ -1,5 +1,5 @@
 ---
-pagetitle: "Neutrino Oscillation Theory in QFT – NeutrinoHit"
+pagetitle: "Neutrino Oscillation Theory in QFT"
 lang: en-US
 toc: false
 ---

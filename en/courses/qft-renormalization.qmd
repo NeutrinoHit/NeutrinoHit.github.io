@@ -1,5 +1,5 @@
 ---
-pagetitle: "Renormalization in Quantum Field Theory – NeutrinoHit"
+pagetitle: "Renormalization in Quantum Field Theory"
 lang: en-US
 toc: false
 ---
@@ -14,6 +14,7 @@ toc: false
     <p class="course-toc-meta">20 lectures · 28 h 53 min of video</p>
     <div class="lecture-course-actions">
       <a class="lecture-action-primary" href="https://www.youtube.com/playlist?list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG">Playlist</a>
+      <a href="../../en/materials.html#qft-book">Textbook</a>
       <a href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">Notes PDF</a>
       <a href="https://rutube.ru/plst/1530811">RuTube</a>
       <a href="https://vkvideo.ru/playlist/-235607329_4">VK</a>
@@ -46,11 +47,6 @@ toc: false
       <tr id="lecture-3.20"><td class="course-toc-num">3.20</td><td class="course-toc-topic"><a href="https://www.youtube.com/watch?v=KV3zsUNE0RM&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG">Scattering cross section with wave packets. Part 2</a></td><td class="course-toc-col" data-label="Video"><a class="course-play" href="https://www.youtube.com/watch?v=KV3zsUNE0RM&amp;list=PL28BG43DETPT4L04sUPUNvZC93w4b60wG" aria-label="Video of lecture 3.20">▶ 1:10:01</a></td></tr>
     </tbody>
   </table>
-  <h2 class="course-page-section">Book</h2>
-  <div class="course-page-card">
-    <p><strong>Quantum Field Theory for Experimentalists and Beyond</strong>. The textbook for the QFT courses: two volumes in Russian, IKI, 2026.</p>
-    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../en/materials.html#qft-book">Open the book</a></div>
-  </div>
   <h2 class="course-page-section">More in this section</h2>
   <nav class="course-tiles">
     <div class="course-tile"><span class="course-tile-status is-ready">Video course · Russian</span><a class="course-tile-title" href="quantum-field-theory.html">Quantum Field Theory</a><span class="course-tile-text">Introduction to QFT and QED: from the Dirac equation to the S‑matrix and Wick’s theorems.</span><span class="course-tile-meta">26 videos · 41 h · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">notes PDF</a></span></div>

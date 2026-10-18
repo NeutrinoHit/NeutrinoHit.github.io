@@ -1,5 +1,5 @@
 ---
-pagetitle: "Статистический анализ данных – NeutrinoHit"
+pagetitle: "Статистический анализ данных"
 lang: ru-RU
 toc: false
 ---
@@ -11,7 +11,7 @@ toc: false
     <span class="course-tile-status is-ready">Курс · видео</span>
     <h1>Статистический анализ данных</h1>
     <p class="course-page-summary">Практический курс для физики высоких энергий, астрофизики и анализа экспериментальных данных: тринадцать лекций от мотивации до статистических тестов.</p>
-    <p class="course-toc-meta">13 лекций · 4 ч 59 мин видео</p>
+    <p class="course-toc-meta">13 лекций · 5 видео (4 ч 59 мин)</p>
     <div class="lecture-course-actions">
       <a href="../../statistical-analysis-course/ru/slides/applets.html">Апплеты</a>
       <a href="../../statistical-analysis-course/ru/slides/exercises/index.html">Все задачи</a>

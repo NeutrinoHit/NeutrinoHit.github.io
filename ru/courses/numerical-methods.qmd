@@ -1,5 +1,5 @@
 ---
-pagetitle: "Численные методы для физиков – NeutrinoHit"
+pagetitle: "Численные методы для физиков"
 lang: ru-RU
 toc: false
 ---

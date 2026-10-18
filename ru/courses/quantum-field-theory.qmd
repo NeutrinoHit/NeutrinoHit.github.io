@@ -1,5 +1,5 @@
 ---
-pagetitle: "Квантовая теория поля – NeutrinoHit"
+pagetitle: "Квантовая теория поля"
 lang: ru-RU
 toc: false
 ---
@@ -14,6 +14,7 @@ toc: false
     <p class="course-toc-meta">26 лекций · 41 ч 19 мин видео</p>
     <div class="lecture-course-actions">
       <a class="lecture-action-primary" href="https://www.youtube.com/playlist?list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29">Плейлист</a>
+      <a href="../../ru/materials.html#qft-book">Учебник</a>
       <a href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">Конспект PDF</a>
       <a href="https://rutube.ru/plst/1531108/">RuTube</a>
       <a href="https://vkvideo.ru/playlist/-235607329_5">VK</a>
@@ -52,11 +53,6 @@ toc: false
       <tr id="lecture-1.26"><td class="course-toc-num">1.26</td><td class="course-toc-topic"><a href="https://www.youtube.com/watch?v=mw-z66p28bg&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29">Притяжение и отталкивание</a></td><td class="course-toc-col" data-label="Видео"><a class="course-play" href="https://www.youtube.com/watch?v=mw-z66p28bg&amp;list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29" aria-label="Видео лекции 1.26">▶ 1:21:36</a></td></tr>
     </tbody>
   </table>
-  <h2 class="course-page-section">Книга</h2>
-  <div class="course-page-card">
-    <p><strong>Квантовая теория поля для экспериментаторов и не только</strong>. Учебник к курсам КТП: два тома, ИКИ, 2026.</p>
-    <div class="lecture-course-actions"><a class="lecture-action-primary" href="../../ru/materials.html#qft-book">Открыть книгу</a></div>
-  </div>
   <h2 class="course-page-section">Ещё в этом разделе</h2>
   <nav class="course-tiles">
     <div class="course-tile"><span class="course-tile-status is-ready">Видеокурс</span><a class="course-tile-title" href="standard-model.html">Стандартная модель</a><span class="course-tile-text">Рассеяние и распады в КЭД и электрослабой теории, механизм Хиггса.</span><span class="course-tile-meta">23 видео · 35 ч · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">конспект PDF</a></span></div>

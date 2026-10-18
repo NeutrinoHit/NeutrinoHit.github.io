@@ -1,5 +1,5 @@
 ---
-pagetitle: "Solar Neutrino Masterclass – NeutrinoHit"
+pagetitle: "Solar Neutrino Masterclass"
 lang: en-US
 toc: false
 ---

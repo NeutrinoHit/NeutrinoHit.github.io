@@ -1,5 +1,5 @@
 ---
-pagetitle: "Вакуум квантового поля – NeutrinoHit"
+pagetitle: "Вакуум квантового поля"
 lang: ru-RU
 toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-pagetitle: "Numerical Methods for Physicists – NeutrinoHit"
+pagetitle: "Numerical Methods for Physicists"
 lang: en-US
 toc: false
 ---
