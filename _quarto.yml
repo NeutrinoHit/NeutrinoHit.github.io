@@ -16,6 +16,7 @@ project:
     - "ru/*.qmd"
     - "en/*.qmd"
     - "ru/courses/*.qmd"
+    - "ru/interviews/*.qmd"
     - "en/courses/*.qmd"
     - "albums/**/*.qmd"
     - "!obsolete/**/*.qmd"

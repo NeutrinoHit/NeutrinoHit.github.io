@@ -2874,3 +2874,76 @@ a.outreach-all {
   color: #53616f;
   font-size: 0.95rem;
 }
+
+/* Interview pages (ru/interviews/*.qmd): source line, picture, lead, embedded players */
+a.interview-back {
+  display: inline-block;
+  margin: 0 0 0.6rem;
+  color: #1f6f78;
+  font-size: 0.92rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+a.interview-back:hover {
+  text-decoration: underline;
+}
+
+.interview-source {
+  margin: 0 0 1rem;
+  color: #53616f;
+  font-size: 0.95rem;
+}
+
+.interview-source p {
+  margin: 0;
+}
+
+img.interview-hero {
+  display: block;
+  width: 100%;
+  max-width: 46rem;
+  height: auto;
+  margin: 0 0 1.1rem;
+  border-radius: 8px;
+}
+
+.interview-lead {
+  margin: 0 0 1.4rem;
+  color: #25313a;
+  font-size: 1.08rem;
+  line-height: 1.55;
+}
+
+.interview-player {
+  position: relative;
+  width: 100%;
+  max-width: 46rem;
+  margin: 0.4rem 0 0.35rem;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #e9eef3;
+}
+
+.interview-player.is-video {
+  aspect-ratio: 16 / 9;
+}
+
+.interview-player.is-audio {
+  height: 11rem;
+}
+
+.interview-player iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.interview-date,
+.interview-origin {
+  margin: 0.2rem 0;
+  color: #66737f;
+  font-size: 0.88rem;
+}

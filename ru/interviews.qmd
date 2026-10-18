@@ -1,0 +1,33 @@
+---
+title: "Интервью и подкасты"
+toc: false
+---
+
+```{=html}
+<div class="lecture-catalog outreach-catalog">
+  <p class="lecture-catalog-lead">Интервью, статьи, радиоэфиры и подкасты о нейтринной физике, Байкальском телескопе и научной коммуникации. У каждого материала указано, где он вышел.</p>
+  <div class="outreach-list">
+    <div class="outreach-group" id="articles">
+      <div class="outreach-group-head">
+        <h2 class="outreach-group-name">Интервью и статьи</h2>
+      </div>
+      <ul class="outreach-entries">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/to-the-bottom-for-a-black-hole.html">На дно за черной дырой</a><span class="outreach-entry-note">«Российская газета», 2021</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-text" href="../ru/interviews/to-the-bottom-for-a-black-hole.html">Текст</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/neutrinos-must-be-made-to-talk.html">Нейтрино нужно разговорить</a><span class="outreach-entry-note">«Троицкий вариант — Наука», 2020</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-text" href="../ru/interviews/neutrinos-must-be-made-to-talk.html">Текст</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/baikal-telescope.html">Байкальский телескоп — уникальный инструмент нейтринной астрономии</a><span class="outreach-entry-note">интервью о запуске Baikal-GVD</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-text" href="../ru/interviews/baikal-telescope.html">Текст</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/ghost-trap.html">Ловушка для призраков: астрофизики черпают нейтрино из Байкала</a><span class="outreach-entry-note">текст Юрия Дризе</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-text" href="../ru/interviews/ghost-trap.html">Текст</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/science-communication.html">Научная коммуникация — новое понятие и новые знания</a><span class="outreach-entry-note">«Дубна: наука, содружество, прогресс»</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-text" href="../ru/interviews/science-communication.html">Текст</a></span></li>
+      </ul>
+    </div>
+    <div class="outreach-group" id="podcasts">
+      <div class="outreach-group-head">
+        <h2 class="outreach-group-name">Радио и подкасты</h2>
+      </div>
+      <ul class="outreach-entries">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/schrodingers-cat.html">Кот Шрёдингера: как поймать нейтрино?</a><span class="outreach-entry-note">Первый канал, «Подкаст.Лаб», 2026</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="../ru/interviews/schrodingers-cat.html">Видео</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/radio-scientific-approach.html">Радиоподкаст «Научный подход»: про нейтринные телескопы</a><span class="outreach-entry-note">«Радио России», 2025, два выпуска</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-audio" href="../ru/interviews/radio-scientific-approach.html">Аудио</a></span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+```
