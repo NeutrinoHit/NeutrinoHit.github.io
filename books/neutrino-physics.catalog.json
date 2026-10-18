@@ -582,8 +582,8 @@
         "en": "Parametric amplification in alternating layers of matter"
       },
       "caption": {
-        "ru": "Осцилляции в чередующихся слоях вещества: при согласованных толщинах слоёв вероятность перехода нарастает от слоя к слою.",
-        "en": "Oscillations in alternating layers of matter: for matched thicknesses of the layers the transition probability grows from layer to layer."
+        "ru": "Усреднение плотности теряет относительные фазы слоёв. Две среды выше резонанса ($\\theta=8^\\circ$, $A_1=1{,}6$, $A_2=4{,}0$) по отдельности дают $P_{e\\to x}\\le0{,}16$ и $P_{e\\to x}\\le0{,}01$, а их чередование полупериодными слоями за пять пар полностью переводит $\\nu_e$ в $\\nu_x$. Надписи на видео русские.",
+        "en": "Averaging the density loses the relative phases of the layers. Two media above the resonance ($\\theta=8^\\circ$, $A_1=1.6$, $A_2=4.0$) give $P_{e\\to x}\\le0.16$ and $P_{e\\to x}\\le0.01$ on their own, while alternating them in half-period layers turns $\\nu_e$ completely into $\\nu_x$ in five pairs. The labels in the video are in Russian."
       },
       "book": {
         "order": 6,
@@ -599,8 +599,8 @@
         }
       },
       "media": {
-        "source": "neutrino-physics/msw_parametric.mp4",
-        "poster_time": 4.5
+        "source": "neutrino-physics/msw_parametric_layers.mp4",
+        "poster_time": 27
       },
       "legacy_codes": []
     },
