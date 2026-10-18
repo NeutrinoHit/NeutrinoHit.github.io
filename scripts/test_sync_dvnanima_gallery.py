@@ -40,6 +40,26 @@ class SelectiveSyncTest(unittest.TestCase):
             self.assertIn('animation-section-second',page)
             self.assertNotIn('Исходный код',page)  # source_dir is internal
 
+    def test_english_page_and_language_versions(self):
+        item = {'id':'film','title':'Фильм','title_en':'Film','description':'Описание',
+                'description_en':'Description','videos':[
+                    {'id':'v','label':'Фильм (русская версия)'},
+                    {'id':'v-en','label':'Film (English version)'}]}
+        catalog = {'sections':[{'id':'s','title':'Раздел','title_en':'Section','summary':'С',
+                                'summary_en':'S','items':[item]}]}
+        records = {('s','film',v):{'movie':f'assets/{v}.mp4','poster':'','size':'1 MB'}
+                   for v in ('v','v-en')}
+        root = Path('/site')
+        with patch.object(gallery,'SITE_ROOT',root):
+            ru = gallery.render_qmd(catalog,records,root/'ru'/'animations.qmd','ru')
+            en = gallery.render_qmd(catalog,records,root/'en'/'animations.qmd','en')
+        self.assertIn('id="animation-s-film"',en)
+        self.assertIn('>Film</h3>',en)
+        self.assertIn('>Фильм</h3>',ru)
+        # one film in two languages: the page language plays first
+        self.assertIn('href="../assets/v-en.mp4" data-play title="MP4, 1 MB">EN',en)
+        self.assertIn('class="anim-chip is-current" href="../assets/v.mp4"',ru)
+
 
 if __name__ == '__main__':
     unittest.main()

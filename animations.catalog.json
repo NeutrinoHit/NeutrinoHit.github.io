@@ -3,32 +3,40 @@
     {
       "id": "neutrino-particles",
       "title": "Нейтрино и частицы",
+      "title_en": "Neutrinos and particles",
       "summary": "Осцилляции нейтрино, каскады, ядерные процессы и диаграммы взаимодействий.",
+      "summary_en": "Neutrino oscillations, showers, nuclear processes and interaction diagrams.",
       "items": [
         {
           "id": "neutrino-oscillations",
           "title": "Нейтринные осцилляции",
+          "title_en": "Neutrino oscillations",
           "source_dir": "neutrino_oscillations",
           "description": "Геометрическая визуализация двух- и трёхмерной картины осцилляций нейтрино.",
+          "description_en": "A geometric visualization of two- and three-flavour neutrino oscillations.",
           "videos": [
             {
               "id": "triangle",
               "label": "Общая эволюция",
+              "label_en": "Overall evolution",
               "path": "neutrino_oscillations/media/videos/neutrino3d/1920p60/nu_triangle.mp4"
             },
             {
               "id": "electron",
               "label": "Электронный аромат",
+              "label_en": "Electron flavour",
               "path": "neutrino_oscillations/media/videos/neutrino3d/1920p60/nu_triangle_e.mp4"
             },
             {
               "id": "muon",
               "label": "Мюонный аромат",
+              "label_en": "Muon flavour",
               "path": "neutrino_oscillations/media/videos/neutrino3d/1920p60/nu_triangle_mu.mp4"
             },
             {
               "id": "tau",
               "label": "Тау-аромат",
+              "label_en": "Tau flavour",
               "path": "neutrino_oscillations/media/videos/neutrino3d/1920p60/nu_triangle_tau.mp4"
             }
           ]
@@ -36,12 +44,15 @@
         {
           "id": "neutrino-oscillation-phases",
           "title": "Осцилляции нейтрино с фазами",
+          "title_en": "Neutrino oscillations with phases",
           "source_dir": "neutrino_oscillations_phases",
           "description": "Фазовая интерпретация трёхфлейворных нейтринных осцилляций.",
+          "description_en": "A phase picture of three-flavour neutrino oscillations.",
           "videos": [
             {
               "id": "phases",
               "label": "Фазы осцилляций",
+              "label_en": "Oscillation phases",
               "path": "neutrino_oscillations_phases/media/videos/neu_osc_phases/1080p60/NeutrinoOscillationPhases.mp4"
             }
           ]
@@ -49,12 +60,15 @@
         {
           "id": "quantum-chameleon",
           "title": "Нейтрино — квантовый хамелеон",
+          "title_en": "The neutrino, a quantum chameleon",
           "source_url": "https://github.com/NeutrinoHit/neutrinophysics/tree/main/introduction/ru/slides/assets/05_vacuum_oscillations",
           "description": "Шуточная иллюстрация нейтрино как квантового хамелеона, который подстраивает окраску под окружение.",
+          "description_en": "A humorous picture of the neutrino as a quantum chameleon that changes its colour to match its surroundings.",
           "videos": [
             {
               "id": "camouflage",
               "label": "Квантовый хамелеон",
+              "label_en": "Quantum chameleon",
               "source_path": "neutrinophysics/introduction/ru/slides/assets/05_vacuum_oscillations/quantum_chameleon.mp4",
               "publish_with_project_site": true
             }
@@ -63,12 +77,15 @@
         {
           "id": "mass-hierarchy",
           "title": "Иерархия масс нейтрино",
+          "title_en": "Neutrino mass ordering",
           "source_dir": "mass_hierarchy",
           "description": "Балансная схема нормальной и обратной иерархий масс.",
+          "description_en": "A balance diagram of the normal and inverted mass orderings.",
           "videos": [
             {
               "id": "scales",
               "label": "Шкалы масс",
+              "label_en": "Mass scales",
               "path": "mass_hierarchy/media/videos/balance/1080p60/NeutrinoHierarchyScales.mp4"
             }
           ]
@@ -76,12 +93,15 @@
         {
           "id": "juno",
           "title": "JUNO",
+          "title_en": "JUNO",
           "source_dir": "mass_hierarchy",
           "description": "Анимации про детектор JUNO, осцилляции реакторных нейтрино и путь нейтрино к событию.",
+          "description_en": "Animations about the JUNO detector, reactor neutrino oscillations and the path of a neutrino to an event.",
           "videos": [
             {
               "id": "survival",
               "label": "Вероятность выживания",
+              "label_en": "Survival probability",
               "path": "mass_hierarchy/videos/juno_survival/1080p60/JunoSurvivalScene.mp4"
             }
           ]
@@ -89,8 +109,10 @@
         {
           "id": "air-shower",
           "title": "Широкий атмосферный ливень",
+          "title_en": "Extensive air shower",
           "source_dir": "air_shower_cascade",
           "description": "Игрушечная модель Гайтлера–Мэтьюза: электромагнитный каскад одного фотона, ливень от протона с энергией 10^15 эВ методом Монте-Карло, профиль N(X) и оценки Гайтлера, матрица детекторов на земле, флуоресценция и черенковский свет.",
+          "description_en": "The Heitler–Matthews toy model: the electromagnetic cascade of one photon, a Monte Carlo shower of a 10^15 eV proton, the N(X) profile and Heitler's estimates, a ground detector array, fluorescence and Cherenkov light.",
           "videos": [
             {
               "id": "air-shower",
@@ -109,8 +131,10 @@
         {
           "id": "earth-shield",
           "title": "Земля как щит: мюоны останавливаются, нейтрино проходят",
+          "title_en": "The Earth as a shield: muons stop, neutrinos pass",
           "source_dir": "earth_shield",
           "description": "Космические лучи и их ливни во всей атмосфере; разрез планеты по плоскости через детектор (слои PREM); мюон останавливается в нескольких километрах породы, нейтрино доходит; метод Монте-Карло: вероятность не провзаимодействовать вдоль хорды $P_0=e^{-\\tau}$ при 1 ТэВ, 100 ТэВ и 1 ПэВ (сечения CSMS) и её зависимость от зенитного угла.",
+          "description_en": "Cosmic rays and their showers over the whole atmosphere; a cut of the planet through the detector (PREM layers); a muon stops within a few kilometres of rock while a neutrino gets through; Monte Carlo: the probability of no interaction along a chord, $P_0=e^{-\\tau}$, at 1 TeV, 100 TeV and 1 PeV (CSMS cross-sections) and its dependence on the zenith angle.",
           "videos": [
             {
               "id": "earth-shield",
@@ -129,8 +153,10 @@
         {
           "id": "jet-launch",
           "title": "От звезды к джету: откуда берётся мощность",
+          "title_en": "From a star to a jet: where the power comes from",
           "source_dir": "jet_launch",
           "description": "Чёрная дыра, эргосфера и диск; звезда разрывается приливными силами, вещество возвращается по закону $t^{-5/3}$; вращающаяся дыра закручивает магнитное поле, поток Пойнтинга выносит энергию, плазма разгоняется вдоль поля (джет приливного разрушения звезды, Swift J1644+57).",
+          "description_en": "A black hole, its ergosphere and disk; a star is torn apart by tidal forces and matter falls back as $t^{-5/3}$; the spinning hole winds up the magnetic field, the Poynting flux carries energy away and plasma is accelerated along the field (the jet of a tidal disruption event, Swift J1644+57).",
           "videos": [
             {
               "id": "jet-launch",
@@ -149,8 +175,10 @@
         {
           "id": "star-in-jet",
           "title": "Звезда в джете: один из способов родить нейтрино",
+          "title_en": "A star in the jet: one way to make neutrinos",
           "source_dir": "jet_star",
           "description": "Чёрная дыра с аккреционным диском запускает джет, звезда с ветром попадает в него; осесимметричный гидродинамический расчёт разрушения звезды у ударной волны; протоны, ускоренные на фронте, сталкиваются с веществом облака, рождая нейтрино и гамма-кванты; числа одного прохода $\\tau_{pp}$, $\\kappa\\tau_{pp}$; нейтрино летят к Земле.",
+          "description_en": "A black hole with an accretion disk launches a jet, and a star with a wind enters it; an axisymmetric hydrodynamic calculation of the disruption of the star at the shock; protons accelerated at the front collide with the matter of the cloud and produce neutrinos and gamma rays; single-pass numbers $\\tau_{pp}$, $\\kappa\\tau_{pp}$; the neutrinos fly to the Earth.",
           "videos": [
             {
               "id": "star-in-jet",
@@ -169,8 +197,10 @@
         {
           "id": "milky-way-neutrinos",
           "title": "Млечный Путь в нейтрино",
+          "title_en": "The Milky Way in neutrinos",
           "source_dir": "milky_way_neutrinos",
           "description": "Протоны космических лучей блуждают в диске Галактики и сталкиваются с ядрами межзвёздного газа; рождаются пионы, затем нейтрино, которые летят прямо. Изнутри диска вся Галактика видна как полоса через небо: карта — интеграл «газ × плотность космических лучей» вдоль луча зрения в иллюстративной модели. С севера центр Галактики большую часть суток под горизонтом (Baikal-GVD — 75 %, KM3NeT ARCA — 63 %, IceCube — 0 %), то есть виден сквозь Землю. Восемь каскадов Baikal-GVD выше 200 ТэВ лежат ближе к плоскости, чем в перемешанных небах: медиана $|b|$ меньше лишь в 1,4 % из них (вместе с данными IceCube — 0,034 %).",
+          "description_en": "Cosmic-ray protons wander in the Galactic disk and collide with nuclei of interstellar gas; pions are produced, then neutrinos that fly straight. From inside the disk the whole Galaxy is a band across the sky: the map is the integral of “gas × cosmic-ray density” along the line of sight in an illustrative model. From the north the Galactic Centre is below the horizon most of the day (Baikal-GVD 75 %, KM3NeT ARCA 63 %, IceCube 0 %), that is, it is seen through the Earth. Eight Baikal-GVD cascades above 200 TeV lie closer to the plane than in scrambled skies: the median $|b|$ is smaller in only 1.4 % of them (0.034 % together with IceCube data).",
           "videos": [
             {
               "id": "milky-way-neutrinos",
@@ -189,8 +219,10 @@
         {
           "id": "source-emerges",
           "title": "Источник проступает",
+          "title_en": "A source emerges",
           "source_dir": "source_emerges",
           "description": "Нейтрино приходят по одному; почти все — атмосферный фон, немногие — от источника. Считаем события в круге вокруг источника и сравниваем с ожидаемым фоном: избыток растёт пропорционально времени, а шум — как корень из него, поэтому значимость растёт как √t. Тот же источник за те же годы виден по-разному при разной точности направлений: каскад во льду (половина событий в пределах 10°), каскад в воде (2,5°), трек (0,4°). В 30 раз больший объём даёт значимость в √30 ≈ 5,5 раза выше: каскады в воде, невидимые за 10 лет в 1 км³, выходят за 5σ в 30 км³. Правило: $Z\\propto\\sqrt{\\text{экспозиция}}/\\sigma_\\theta$, пока доминирует фон.",
+          "description_en": "Neutrinos arrive one by one; almost all are atmospheric background, a few come from the source. We count events in a circle around the source and compare with the expected background: the excess grows in proportion to time and the noise as its square root, so the significance grows as √t. The same source over the same years looks different with different direction resolution: a cascade in ice (half of the events within 10°), a cascade in water (2.5°), a track (0.4°). A 30 times larger volume gives √30 ≈ 5.5 times the significance: water cascades invisible in 10 years in 1 km³ pass 5σ in 30 km³. The rule: $Z\\propto\\sqrt{\\text{exposure}}/\\sigma_\\theta$ while the background dominates.",
           "videos": [
             {
               "id": "source-emerges",
@@ -209,18 +241,22 @@
         {
           "id": "pp-cycle",
           "title": "Протон-протонный цикл",
+          "title_en": "The proton–proton chain",
           "source_dir": "pp_cycle",
           "description": "Три ключевых реакции солнечной pp-цепочки.",
+          "description_en": "Three key reactions of the solar pp chain.",
           "videos": [
             {
               "id": "pp-to-d",
               "label": "p + p → D + e⁺ + νₑ",
-              "path": "pp_cycle/media/videos/pp-D-e-nu/1080p60/PP_to_D_e_nu.mp4"
+              "path": "pp_cycle/media/videos/pp-D-e-nu/1080p60/PP_to_D_e_nu.mp4",
+              "poster_time": 9.3
             },
             {
               "id": "d-p-he3",
               "label": "D + p → ³He + γ",
-              "path": "pp_cycle/media/videos/D-p-He-gamma/1080p60/D_p_to_He3_gamma.mp4"
+              "path": "pp_cycle/media/videos/D-p-He-gamma/1080p60/D_p_to_He3_gamma.mp4",
+              "poster_time": 1.1
             },
             {
               "id": "he3-he3",
@@ -232,8 +268,10 @@
         {
           "id": "solar-photon-diffusion",
           "title": "Как свет выходит из Солнца",
+          "title_en": "How light escapes the Sun",
           "source_dir": "solar_photon_diffusion",
           "description": "Минутная физическая визуализация переноса излучения: случайный ход в ядре, радиационная диффузия, температурный профиль и переход к конвективной зоне.",
+          "description_en": "A one-minute physical visualization of radiative transport: a random walk in the core, radiative diffusion, the temperature profile and the transition to the convection zone.",
           "videos": [
             {
               "id": "ru",
@@ -254,12 +292,15 @@
         {
           "id": "bbn",
           "title": "Первичный нуклеосинтез",
+          "title_en": "Big Bang nucleosynthesis",
           "source_dir": "BBN",
           "description": "Стилизованная картина BBN: дейтериевое горлышко, окно синтеза и связывание нейтронов в He-4.",
+          "description_en": "A stylized picture of BBN: the deuterium bottleneck, the synthesis window and neutrons bound in He-4.",
           "videos": [
             {
               "id": "bbn-animation",
               "label": "Первые минуты",
+              "label_en": "The first minutes",
               "path": "BBN/media/videos/bbn_manim/1080p30/BBNAnimation.mp4"
             }
           ]
@@ -267,40 +308,50 @@
         {
           "id": "feynman-scattering",
           "title": "Диаграммы рассеяния",
+          "title_en": "Scattering diagrams",
           "source_dir": "feynman_scattering",
           "description": "Анимированные диаграммы Фейнмана для типичных процессов рассеяния.",
+          "description_en": "Animated Feynman diagrams of typical scattering processes.",
           "videos": [
             {
               "id": "nu-mu-electron",
               "label": "νμ + e → νe + μ",
-              "path": "feynman_scattering/media/videos/feynman_scattering/1920p60/NuMuElectronToNuEMuonScattering.mp4"
+              "path": "feynman_scattering/media/videos/feynman_scattering/1920p60/NuMuElectronToNuEMuonScattering.mp4",
+              "poster_time": 2.9
             },
             {
               "id": "nu-mu-z",
               "label": "Нейтринное рассеяние через Z",
-              "path": "feynman_scattering/media/videos/feynman_scattering/1920p60/NuMuMuonScatteringViaZ.mp4"
+              "label_en": "Neutrino scattering via Z",
+              "path": "feynman_scattering/media/videos/feynman_scattering/1920p60/NuMuMuonScatteringViaZ.mp4",
+              "poster_time": 2.9
             },
             {
               "id": "electron-electron",
               "label": "e + e",
-              "path": "feynman_scattering/media/videos/feynman_scattering/1920p60/ElectronElectronScattering.mp4"
+              "path": "feynman_scattering/media/videos/feynman_scattering/1920p60/ElectronElectronScattering.mp4",
+              "poster_time": 2.9
             },
             {
               "id": "quark-quark",
               "label": "q + q",
-              "path": "feynman_scattering/media/videos/feynman_scattering/1920p60/QuarkQuarkScattering.mp4"
+              "path": "feynman_scattering/media/videos/feynman_scattering/1920p60/QuarkQuarkScattering.mp4",
+              "poster_time": 2.9
             }
           ]
         },
         {
           "id": "nucleus-shapes",
           "title": "Формы ядер",
+          "title_en": "Shapes of nuclei",
           "source_dir": "nucleus_shapes",
           "description": "Морфинг сферических и деформированных ядерных форм.",
+          "description_en": "Morphing between spherical and deformed nuclear shapes.",
           "videos": [
             {
               "id": "shape-morphs",
               "label": "Деформации",
+              "label_en": "Deformations",
               "path": "nucleus_shapes/media/videos/nucleus_shapes/854p60/NucleusShapeMorphs.mp4"
             }
           ]
@@ -308,21 +359,26 @@
         {
           "id": "pmt",
           "title": "Фотоумножитель",
+          "title_en": "Photomultiplier",
           "source_dir": "pmt",
           "description": "Схематическая траектория электронов в ФЭУ по численным данным.",
+          "description_en": "A schematic electron trajectory in a PMT from numerical data.",
           "videos": [
             {
               "id": "pmt-schematic",
               "label": "PMT schematic",
-              "path": "pmt/media/videos/pmt_manim/1080p60/PMTSchematicFromHDF5.mp4"
+              "path": "pmt/media/videos/pmt_manim/1080p60/PMTSchematicFromHDF5.mp4",
+              "poster_time": 12.3
             }
           ]
         },
         {
           "id": "pmt-multiplication",
           "title": "Умножение электронов в ФЭУ",
+          "title_en": "Electron multiplication in a PMT",
           "source_dir": "pmt_multiplication",
           "description": "Один фотоэлектрон превращается в лавину: каждый динод выбивает в среднем δ = 4 вторичных электрона, десять динодов дают усиление ≈ 10⁶; затем три вспышки сцинтиллятора и амплитуда импульса, в среднем пропорциональная числу фотоэлектронов.",
+          "description_en": "One photoelectron becomes an avalanche: each dynode knocks out on average δ = 4 secondary electrons, ten dynodes give a gain of ≈ 10⁶; then three scintillator flashes and the pulse amplitude, on average proportional to the number of photoelectrons.",
           "videos": [
             {
               "id": "avalanche",
@@ -341,22 +397,27 @@
         {
           "id": "mac-e-filter",
           "title": "Электроны в магнитном поле и MAC-E-фильтр KATRIN",
+          "title_en": "Electrons in a magnetic field and the KATRIN MAC-E filter",
           "source_dir": "mac-e-filter",
           "description": "Точное релятивистское винтовое движение, обратимая магнитная коллимация и электростатический анализ электронов в спектрометре KATRIN.",
+          "description_en": "Exact relativistic helical motion, reversible magnetic collimation and electrostatic analysis of electrons in the KATRIN spectrometer.",
           "videos": [
             {
               "id": "uniform-field",
               "label": "Винтовое движение в однородном поле",
+              "label_en": "Helical motion in a uniform field",
               "path": "mac-e-filter/media/uniform_b_ensemble_4k.mp4"
             },
             {
               "id": "katrin-collimation",
               "label": "Магнитная коллимация KATRIN",
+              "label_en": "Magnetic collimation in KATRIN",
               "path": "mac-e-filter/media/katrin_source_to_detector_4k.mp4"
             },
             {
               "id": "katrin-electric",
               "label": "MAC-E: прохождение и отражение",
+              "label_en": "MAC-E: transmission and reflection",
               "path": "mac-e-filter/media/katrin_mac_e_electric_4k.mp4"
             }
           ]
@@ -364,25 +425,32 @@
         {
           "id": "project8-cres",
           "title": "Project 8: циклотронное излучение электрона",
+          "title_en": "Project 8: cyclotron radiation of an electron",
           "source_dir": "project8_cres",
           "description": "Схематическая визуализация CRES: захваченный электрон, циклотронное микроволновое излучение и возрастающий частотный трек при потере энергии.",
+          "description_en": "A schematic visualization of CRES: a trapped electron, cyclotron microwave radiation and a rising frequency track as the electron loses energy.",
           "videos": [
             {
               "id": "cres-event",
               "label": "Один электрон — один частотный трек",
-              "path": "project8_cres/media/videos/project8_cres/900p30/project8_cres.mp4"
+              "label_en": "One electron, one frequency track",
+              "path": "project8_cres/media/videos/project8_cres/900p30/project8_cres.mp4",
+              "poster_time": 2.6
             }
           ]
         },
         {
           "id": "cherenkov-cone",
           "title": "Конус Черенкова",
+          "title_en": "The Cherenkov cone",
           "source_dir": "cherenkov_cone",
           "description": "Геометрия черенковского излучения в цилиндрической сцене.",
+          "description_en": "The geometry of Cherenkov radiation in a cylindrical scene.",
           "videos": [
             {
               "id": "cylinder",
               "label": "Конус в цилиндре",
+              "label_en": "A cone in a cylinder",
               "path": "cherenkov_cone/cherenkov_cylinder.mp4"
             }
           ]
@@ -390,8 +458,10 @@
         {
           "id": "cherenkov-radiation",
           "title": "Излучение Вавилова — Черенкова",
+          "title_en": "Vavilov–Cherenkov radiation",
           "source_dir": "cherenkov_radiation",
           "description": "Четыре волновых фронта, два отдельных опыта с постоянной скоростью и паузы для объяснения. Медленная частица остаётся внутри фронтов; быстрая обгоняет их. Общая касательная образует поверхность конуса, а свет идёт поперёк неё. Без графика и кольца на детекторе.",
+          "description_en": "Four wavefronts, two separate runs at constant speed and pauses for explanation. A slow particle stays inside the fronts; a fast one overtakes them. The common tangent forms the surface of a cone, and the light goes across it. No plot and no ring on a detector.",
           "videos": [
             {
               "id": "huygens",
@@ -410,8 +480,10 @@
         {
           "id": "scattering-experiment",
           "title": "Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻",
+          "title_en": "A scattering experiment: e⁺e⁻ → μ⁺μ⁻",
           "source_dir": "scattering_experiment",
           "description": "Три стадии эксперимента на коллайдере: ускорение пучков, взаимодействие в малой области (почти все частицы пролетают насквозь), регистрация мюонов. Из многих событий растёт угловое распределение 1 + cos²θ.",
+          "description_en": "Three stages of a collider experiment: the beams are accelerated, interact in a small region (almost all particles fly through) and the muons are detected. From many events the angular distribution 1 + cos²θ builds up.",
           "videos": [
             {
               "id": "collider",
@@ -430,8 +502,10 @@
         {
           "id": "pi0-double-dalitz",
           "title": "Распад π⁰ → e⁺e⁻e⁺e⁻",
+          "title_en": "The decay π⁰ → e⁺e⁻e⁺e⁻",
           "source_dir": "pi0_double_dalitz",
           "description": "Две пары e⁺e⁻ от виртуальных фотонов лежат в плоскостях, содержащих поляризацию (E) своего фотона. Для псевдоскаляра π⁰ амплитуда ∝ E₁·B₂ + E₂·B₁ ∝ sin φ (плоскости перпендикулярны), для скаляра ∝ E₁·E₂ − B₁·B₂ ∝ cos φ (параллельны); копится распределение по углу φ. Две версии: русская и английская.",
+          "description_en": "Two e⁺e⁻ pairs from virtual photons lie in planes containing the polarization (E) of their photon. For the pseudoscalar π⁰ the amplitude is ∝ E₁·B₂ + E₂·B₁ ∝ sin φ (the planes are perpendicular), for a scalar ∝ E₁·E₂ − B₁·B₂ ∝ cos φ (parallel); the distribution in the angle φ builds up. Two versions: Russian and English.",
           "videos": [
             {
               "id": "planes",
@@ -450,8 +524,10 @@
         {
           "id": "z-decay-asymmetry",
           "title": "Асимметрия в рождении и распаде Z-бозона",
+          "title_en": "Asymmetry in Z boson production and decay",
           "source_dir": "z_decay_asymmetry",
           "description": "Четыре спиральных канала e⁺e⁻ → Z → f f̄ с весами (g_a g_b)², распределения (1 ± cosθ)² и их сумма, асимметрия «вперёд–назад» A_FB, события Монте-Карло и зависимость A_FB(√s) с интерференцией γ и Z.",
+          "description_en": "Four helicity channels e⁺e⁻ → Z → f f̄ with weights (g_a g_b)², the distributions (1 ± cosθ)² and their sum, the forward–backward asymmetry A_FB, Monte Carlo events and the dependence A_FB(√s) with γ–Z interference.",
           "videos": [
             {
               "id": "film",
@@ -470,8 +546,10 @@
         {
           "id": "kaon-oscillations",
           "title": "Осцилляции нейтральных каонов",
+          "title_en": "Neutral kaon oscillations",
           "source_dir": "kaon_oscillations",
           "description": "K⁰ рождается в сильной реакции как суперпозиция K_S и K_L; двухуровневая эволюция с H = M − iΓ/2 (интегрирование численно), осцилляции странности вдоль пучка, детектор (K̄⁰N → Λπ) и заряд лептона, регенерация K_S.",
+          "description_en": "A K⁰ is produced in a strong reaction as a superposition of K_S and K_L; two-level evolution with H = M − iΓ/2 (integrated numerically), strangeness oscillations along the beam, the detector (K̄⁰N → Λπ) and the lepton charge, K_S regeneration.",
           "videos": [
             {
               "id": "film",
@@ -490,8 +568,10 @@
         {
           "id": "humanity-cube",
           "title": "Всё человечество в половине кубического километра",
+          "title_en": "All of humanity in half a cubic kilometre",
           "source_dir": "humanity_cube",
           "description": "Нейтринному телескопу нужна мишень в кубический километр. Вращающийся глобус (NASA Blue Marble) покрывается точками там, где живут люди (страны и города Natural Earth), одна точка — миллион человек, 8200 точек — всё человечество (8,2 млрд, ООН 2024). Рядом появляется стеклянный куб со стороной 1 км (не в масштабе с планетой), и все точки одновременно втягиваются в него. При 62 кг на человека (Walpole и др., 2012) человечество весит 0,51 млрд т — половина массы воды в кубе, и тела без зазоров занимают половину куба. Затем камера ныряет в куб: точки превращаются в толпу людей со всех континентов (доли — по населению стран Natural Earth; облик людей условный).",
+          "description_en": "A neutrino telescope needs a target of a cubic kilometre. A rotating globe (NASA Blue Marble) is covered with dots where people live (Natural Earth countries and cities), one dot is a million people, 8200 dots are all of humanity (8.2 billion, UN 2024). A glass cube with a 1 km side appears next to it (not to scale with the planet), and all the dots are drawn into it at once. At 62 kg per person (Walpole et al., 2012) humanity weighs 0.51 billion tonnes, half the mass of the water in the cube, and the bodies without gaps fill half the cube. Then the camera dives into the cube: the dots turn into a crowd of people from all continents (shares by the population of Natural Earth countries; the appearance of the people is conventional).",
           "videos": [
             {
               "id": "ru",
@@ -514,17 +594,22 @@
     {
       "id": "fields-waves",
       "title": "Поля, волны и осцилляторы",
+      "title_en": "Fields, waves and oscillators",
       "summary": "Электромагнитные поля, волновые пакеты, связанные осцилляторы и простые электронные схемы.",
+      "summary_en": "Electromagnetic fields, wave packets, coupled oscillators and simple electronic circuits.",
       "items": [
         {
           "id": "scalar-qed",
           "title": "Scalar QED: волновые пакеты",
+          "title_en": "Scalar QED: wave packets",
           "source_dir": "attraction_repulsion",
           "description": "Притяжение и отталкивание волновых пакетов как интерференция свободной волны и волны взаимодействия: поле пакета, фаза эйконала, сдвиг распределения по импульсам.",
+          "description_en": "Attraction and repulsion of wave packets as the interference of the free wave and the interaction wave: the field of a packet, the eikonal phase, the shift of the momentum distribution.",
           "videos": [
             {
               "id": "single",
               "label": "Один пакет и поле",
+              "label_en": "One packet and its field",
               "path": "fields/scalar_qed/media/single.mp4"
             },
             {
@@ -556,8 +641,10 @@
         {
           "id": "standard-model-field-mattress",
           "title": "Поля Стандартной модели",
+          "title_en": "Fields of the Standard Model",
           "source_dir": "sm_fields",
           "description": "17 полей Стандартной модели как листы одной стопки; частица — волновой пакет на листе своего поля; два поля крупно: взаимодействие e⁻e⁻ (отталкивание) и e⁻e⁺ (притяжение) по модели скалярной КЭД, затем e⁻e⁺ ↔ γγ как перетекание энергии между полями.",
+          "description_en": "The 17 fields of the Standard Model as sheets of one stack; a particle is a wave packet on the sheet of its field; two fields close up: e⁻e⁻ (repulsion) and e⁻e⁺ (attraction) in the scalar QED model, then e⁻e⁺ ↔ γγ as energy flowing between the fields.",
           "videos": [
             {
               "id": "field-stack",
@@ -576,39 +663,51 @@
         {
           "id": "mediator-interaction",
           "title": "Взаимодействие через поле-переносчик",
+          "title_en": "Interaction through a mediator field",
           "source_dir": "fields/mediator_interaction",
           "description": "Две частицы и динамическое поле, через которое проявляется взаимодействие.",
+          "description_en": "Two particles and the dynamic field through which their interaction shows up.",
           "videos": [
             {
               "id": "with-interaction",
               "label": "С взаимодействием",
-              "path": "fields/mediator_interaction/media/videos/scene_03_mediator_interaction/1080p60/MediatorInteractionScene.mp4"
+              "label_en": "With interaction",
+              "path": "fields/mediator_interaction/media/videos/scene_03_mediator_interaction/1080p60/MediatorInteractionScene.mp4",
+              "poster_time": 2.0
             }
           ]
         },
         {
           "id": "free-wavepackets",
           "title": "Свободные волновые пакеты",
+          "title_en": "Free wave packets",
           "source_dir": "fields/wavepackets_free",
           "description": "Одиночный гауссов пакет и пара свободно распространяющихся пакетов.",
+          "description_en": "A single Gaussian packet and a pair of freely propagating packets.",
           "videos": [
             {
               "id": "single",
               "label": "Один пакет",
-              "path": "fields/wavepackets_free/media/videos/scene_01_single_packet/1080p60/SingleGaussianWavePacket.mp4"
+              "label_en": "One packet",
+              "path": "fields/wavepackets_free/media/videos/scene_01_single_packet/1080p60/SingleGaussianWavePacket.mp4",
+              "poster_time": 2.1
             },
             {
               "id": "two",
               "label": "Два пакета",
-              "path": "fields/wavepackets_free/media/videos/scene_02_two_packets/1080p60/TwoFreeWavePackets.mp4"
+              "label_en": "Two packets",
+              "path": "fields/wavepackets_free/media/videos/scene_02_two_packets/1080p60/TwoFreeWavePackets.mp4",
+              "poster_time": 1.8
             }
           ]
         },
         {
           "id": "schrodinger-packet",
           "title": "Свободный гауссов пакет: расплывание",
+          "title_en": "A free Gaussian packet: spreading",
           "source_dir": "free_wavepacket",
           "description": "Точная эволюция гауссова пакета свободной частицы (ħ = m = 1): центр движется с групповой скоростью, ширина растёт как σ₀√(1 + (t/2σ₀²)²), а |ψ̃(p)|² не меняется; узкий пакет расплывается быстрее широкого.",
+          "description_en": "Exact evolution of the Gaussian packet of a free particle (ħ = m = 1): the centre moves with the group velocity, the width grows as σ₀√(1 + (t/2σ₀²)²), and |ψ̃(p)|² does not change; a narrow packet spreads faster than a wide one.",
           "videos": [
             {
               "id": "spreading",
@@ -627,8 +726,10 @@
         {
           "id": "coupled-chain",
           "title": "Цепочка связанных осцилляторов",
+          "title_en": "A chain of coupled oscillators",
           "source_dir": "coupled_chain",
           "description": "Цепочка из N масс: нормальные моды и дисперсия, волна от отпущенного смещения, столкновение волн в линейной цепочке (свободные частицы) и с кубическим членом (обмен энергией между модами), предел N → ∞ и поле.",
+          "description_en": "A chain of N masses: normal modes and dispersion, a wave from a released displacement, colliding waves in a linear chain (free particles) and with a cubic term (energy exchange between modes), the limit N → ∞ and the field.",
           "videos": [
             {
               "id": "chain",
@@ -647,8 +748,10 @@
         {
           "id": "coupled-lattice-2d",
           "title": "Двумерная решётка связанных осцилляторов",
+          "title_en": "A two-dimensional lattice of coupled oscillators",
           "source_dir": "coupled_lattice_2d",
           "description": "Решётка 14×10 масс на пружинках: нормальные моды и карта их энергий, круговые волны от отпущенного смещения, столкновение волн в линейной решётке и с ангармоническими членами (перераспределение энергии между модами), предел N → ∞ и поле.",
+          "description_en": "A lattice of 14×10 masses on springs: normal modes and the map of their energies, circular waves from a released displacement, colliding waves in a linear lattice and with anharmonic terms (energy redistributed between modes), the limit N → ∞ and the field.",
           "videos": [
             {
               "id": "lattice",
@@ -667,8 +770,10 @@
         {
           "id": "coupled-lattice-3d",
           "title": "Трёхмерная решётка связанных осцилляторов",
+          "title_en": "A three-dimensional lattice of coupled oscillators",
           "source_dir": "coupled_lattice_3d",
           "description": "Ящик 14×8×8 масс на пружинках: нормальные моды и спектр их энергий, сферическая волна от отпущенного смещения, столкновение волн в линейной решётке и с ангармоническими членами (перераспределение энергии между модами), предел N → ∞ и поле.",
+          "description_en": "A box of 14×8×8 masses on springs: normal modes and the spectrum of their energies, a spherical wave from a released displacement, colliding waves in a linear lattice and with anharmonic terms (energy redistributed between modes), the limit N → ∞ and the field.",
           "videos": [
             {
               "id": "lattice",
@@ -687,8 +792,10 @@
         {
           "id": "radiating-charge",
           "title": "Излучающий заряд",
+          "title_en": "A radiating charge",
           "source_dir": "fields/radiating_charge",
           "description": "Численная визуализация поля движущегося заряда в 3D.",
+          "description_en": "A numerical 3D visualization of the field of a moving charge.",
           "videos": [
             {
               "id": "three-dimensional",
@@ -700,21 +807,27 @@
         {
           "id": "coupled-pendulums",
           "title": "Связанные маятники",
+          "title_en": "Coupled pendulums",
           "source_dir": "coupled_pendulums",
           "description": "Передача энергии между двумя связанными маятниками.",
+          "description_en": "Energy transfer between two coupled pendulums.",
           "videos": [
             {
               "id": "pendulums",
               "label": "Маятники",
-              "path": "coupled_pendulums/media/videos/coupled_pendulums/1920p60/CoupledPendulums.mp4"
+              "label_en": "Pendulums",
+              "path": "coupled_pendulums/media/videos/coupled_pendulums/1920p60/CoupledPendulums.mp4",
+              "poster_time": 3.3
             }
           ]
         },
         {
           "id": "capacitor",
           "title": "Конденсатор в переменном токе",
+          "title_en": "A capacitor in an AC circuit",
           "source_dir": "capacitor",
           "description": "Фазовые соотношения и зарядка конденсатора в AC-цепи.",
+          "description_en": "Phase relations and the charging of a capacitor in an AC circuit.",
           "videos": [
             {
               "id": "capacitor",
@@ -726,8 +839,10 @@
         {
           "id": "diode",
           "title": "Диод в переменном токе",
+          "title_en": "A diode in an AC circuit",
           "source_dir": "diode",
           "description": "Однополупериодное выпрямление и работа диода в AC-цепи.",
+          "description_en": "Half-wave rectification and the operation of a diode in an AC circuit.",
           "videos": [
             {
               "id": "diode",
@@ -739,8 +854,10 @@
         {
           "id": "peak-detector",
           "title": "Пиковый детектор",
+          "title_en": "Peak detector",
           "source_dir": "peak_detector",
           "description": "Принцип работы пикового детектора на диоде и конденсаторе.",
+          "description_en": "How a peak detector made of a diode and a capacitor works.",
           "videos": [
             {
               "id": "peak-detector",
@@ -752,8 +869,10 @@
         {
           "id": "cockcroft-walton",
           "title": "Генератор Кокрофта-Уолтона",
+          "title_en": "Cockcroft–Walton generator",
           "source_dir": "cockroftwalton",
           "description": "Схема умножителя напряжения и последовательная зарядка каскадов.",
+          "description_en": "A voltage multiplier circuit and the successive charging of its stages.",
           "videos": [
             {
               "id": "cascade",
@@ -765,8 +884,10 @@
         {
           "id": "running-charge",
           "title": "Бегущий заряд: экранировка виртуальными парами",
+          "title_en": "A running charge: screening by virtual pairs",
           "source_dir": "running_charge",
           "description": "Виртуальные электрон-позитронные пары выстраиваются вокруг электрона и экранируют его заряд; пробный заряд, подлетая, видит заряд всё больший. Масштаб эффекта условный.",
+          "description_en": "Virtual electron–positron pairs line up around an electron and screen its charge; a test charge flying in sees an ever larger charge. The scale of the effect is conventional.",
           "videos": [
             {
               "id": "film",
@@ -785,8 +906,10 @@
         {
           "id": "electron-kick",
           "title": "Пинок электрону: фронт электромагнитной волны",
+          "title_en": "A kick to an electron: the front of an electromagnetic wave",
           "source_dir": "electron_kick",
           "description": "Заряд мгновенно получает скорость: вне сферы r = ct поле покоящегося заряда, внутри — поле движущегося, на сфере силовые линии соединяются дугами. Точная релятивистская картина для β = 0,30 и 0,85.",
+          "description_en": "A charge suddenly gets a velocity: outside the sphere r = ct is the field of the charge at rest, inside it the field of the moving charge, and on the sphere the field lines are joined by arcs. The exact relativistic picture for β = 0.30 and 0.85.",
           "videos": [
             {
               "id": "front",
@@ -805,8 +928,10 @@
         {
           "id": "zero-point-electron",
           "title": "Электрон в вакуумном поле: нулевые колебания",
+          "title_en": "An electron in the vacuum field: zero-point fluctuations",
           "source_dir": "zero_point_electron",
           "description": "Нулевые колебания электрического поля: в каждой точке вектор E вращается по эллипсу на каждой частоте, ⟨E⟩ = 0, ⟨E²⟩ ≠ 0. Электрон повторяет эллипс с амплитудой ∝ E/ω²; каждая октава вносит равный вклад ⟨δr²⟩ = (2α/π)(ħ/mc)² ln 2, путь заполняет шар √⟨δr²⟩ ≈ 90 фм. Две версии: русская и английская.",
+          "description_en": "Zero-point fluctuations of the electric field: at each point the vector E goes round an ellipse at every frequency, ⟨E⟩ = 0, ⟨E²⟩ ≠ 0. The electron follows the ellipse with an amplitude ∝ E/ω²; each octave contributes equally, ⟨δr²⟩ = (2α/π)(ħ/mc)² ln 2, and the path fills a ball √⟨δr²⟩ ≈ 90 fm. Two versions: Russian and English.",
           "videos": [
             {
               "id": "vacuum-field",
@@ -825,8 +950,10 @@
         {
           "id": "thomson-tube",
           "title": "Опыт Томсона: e/m",
+          "title_en": "Thomson's experiment: e/m",
           "source_dir": "thomson_tube",
           "description": "Катодные лучи в скрещённых E и B: отклонение вверх электрическим полем, вниз магнитным, баланс v = E/B и отношение e/m по отклонению. Траектории рассчитаны численно. Две версии: русская и английская.",
+          "description_en": "Cathode rays in crossed E and B: deflected up by the electric field, down by the magnetic field, the balance v = E/B and the ratio e/m from the deflection. The trajectories are computed numerically. Two versions: Russian and English.",
           "videos": [
             {
               "id": "crossed-fields",
@@ -845,8 +972,10 @@
         {
           "id": "oam-beams",
           "title": "Закрученные пучки: орбитальный угловой момент",
+          "title_en": "Twisted beams: orbital angular momentum",
           "source_dir": "oam_beams",
           "description": "Фаза делает m оборотов вокруг оси, L_z = mħ; винтовые волновые фронты с m заходами; получение пучка спиральной фазовой пластинкой (гауссов пучок → мода Лагерра — Гаусса). Две версии: русская и английская.",
+          "description_en": "The phase makes m turns around the axis, L_z = mħ; helical wavefronts with m starts; making the beam with a spiral phase plate (a Gaussian beam → a Laguerre–Gaussian mode). Two versions: Russian and English.",
           "videos": [
             {
               "id": "twisted-beams",
@@ -865,8 +994,10 @@
         {
           "id": "circular-polarization",
           "title": "Круговая поляризация",
+          "title_en": "Circular polarization",
           "source_dir": "circular_polarization",
           "description": "Вращение E для приёмника и источника, спиральность S_z = ±ħ, мгновенный снимок в пространстве (левый винт) и сложение ε_L и ε_R: линейная, эллиптическая и круговая поляризации. Две версии: русская и английская.",
+          "description_en": "The rotation of E for the receiver and for the source, helicity S_z = ±ħ, an instantaneous snapshot in space (a left-handed screw) and the sum of ε_L and ε_R: linear, elliptical and circular polarizations. Two versions: Russian and English.",
           "videos": [
             {
               "id": "helicity",
@@ -885,8 +1016,10 @@
         {
           "id": "meissner-photon-mass",
           "title": "Эффект Мейснера и масса фотона",
+          "title_en": "The Meissner effect and the photon mass",
           "source_dir": "meissner_photon_mass",
           "description": "Конденсат Хиггса выталкивает магнитное поле (эффект Мейснера), пакет электромагнитной волны отражается от границы конденсата или проходит с групповой скоростью k/ω < 1; дисперсия ω² = k² + m_A² и счёт поляризаций 2 + 2 = 1 + 3.",
+          "description_en": "The Higgs condensate expels the magnetic field (the Meissner effect); a packet of an electromagnetic wave is reflected from the boundary of the condensate or passes with the group velocity k/ω < 1; the dispersion ω² = k² + m_A² and the count of polarizations 2 + 2 = 1 + 3.",
           "videos": [
             {
               "id": "film",
@@ -905,8 +1038,10 @@
         {
           "id": "chiral-fermion-mass",
           "title": "Киральные волны и масса фермиона",
+          "title_en": "Chiral waves and the fermion mass",
           "source_dir": "chiral_fermion_mass",
           "description": "Две киральные волны уравнения Дирака в (1+1) измерениях: масса — это связь ψ_R и ψ_L через хиггсовский конденсат; осцилляции киральности с частотой 2E, замедление пакета до p/E, запрет массового члена в SU(2) и юкавская связь.",
+          "description_en": "Two chiral waves of the Dirac equation in (1+1) dimensions: the mass is the coupling of ψ_R and ψ_L through the Higgs condensate; chirality oscillations with frequency 2E, the packet slows down to p/E, the mass term forbidden in SU(2) and the Yukawa coupling.",
           "videos": [
             {
               "id": "film",
@@ -925,8 +1060,10 @@
         {
           "id": "higgs-ff-spin",
           "title": "Спиновая и орбитальная структура пары f f̄ в распадах бозона Хиггса",
+          "title_en": "Spin and orbital structure of the f f̄ pair in Higgs boson decays",
           "source_dir": "higgs_ff_spin",
           "description": "Волновая функция пары f f̄ относительной координаты: P-волна скалярного распада (вихрь, орбитальная проекция m выбирается спинами), S-волна псевдоскаляра, наклон облака от интерференции скаляра и псевдоскаляра (CP-нечётность) и то, что остаётся для детектора.",
+          "description_en": "The wave function of the f f̄ pair in the relative coordinate: the P-wave of a scalar decay (a vortex, the orbital projection m is chosen by the spins), the S-wave of a pseudoscalar, the tilt of the cloud from scalar–pseudoscalar interference (CP oddness) and what remains for the detector.",
           "videos": [
             {
               "id": "film",
@@ -945,8 +1082,10 @@
         {
           "id": "quantum-tunneling",
           "title": "Туннельный эффект: точечное и протяжённое тело",
+          "title_en": "Tunnelling: a point body and an extended one",
           "source_dir": "quantum_tunneling",
           "description": "Шар, поезд и волна: протяжённое тело ощущает усреднённый барьер; классическая волна на цепочке туннелирует через отрезок с T ≈ exp(−2κa) без квантов; для волны материи то же уравнение, κ = √(2m(V−E))/ħ, и T падает экспоненциально с массой.",
+          "description_en": "A ball, a train and a wave: an extended body feels an averaged barrier; a classical wave on a chain tunnels through a segment with T ≈ exp(−2κa) without quanta; for a matter wave the equation is the same, κ = √(2m(V−E))/ħ, and T falls exponentially with mass.",
           "videos": [
             {
               "id": "film",
@@ -965,8 +1104,10 @@
         {
           "id": "chiral-anomaly",
           "title": "Киральная аномалия: откуда берутся частицы?",
+          "title_en": "The chiral anomaly: where do particles come from?",
           "source_dir": "chiral_anomaly",
           "description": "Безмассовый фермион на кольце: электрическое поле сдвигает уровни, уровни пересекают E = 0 (подсчёт даёт dQ₅/dt = eEL/π); регуляризация и сохранение векторного тока; уровни Ландау и e²E·B/2π²; треугольник и распад π⁰ → γγ.",
+          "description_en": "A massless fermion on a ring: an electric field shifts the levels, the levels cross E = 0 (the count gives dQ₅/dt = eEL/π); regularization and conservation of the vector current; Landau levels and e²E·B/2π²; the triangle and the decay π⁰ → γγ.",
           "videos": [
             {
               "id": "film",
@@ -985,8 +1126,10 @@
         {
           "id": "gauge-principle",
           "title": "Калибровочный принцип: два друга и поле",
+          "title_en": "The gauge principle: two friends and a field",
           "source_dir": "gauge_principle",
           "description": "Два друга выбирают фазу волновой функции независимо в каждой точке: интерференция, свободный пакет и ковариантная производная; компенсирующее поле A_μ, напряжённость F и калибровочно инвариантная петля.",
+          "description_en": "Two friends choose the phase of the wave function independently at every point: interference, a free packet and the covariant derivative; the compensating field A_μ, the field strength F and the gauge-invariant loop.",
           "videos": [
             {
               "id": "film",
@@ -1007,13 +1150,17 @@
     {
       "id": "relativity-atom-spin",
       "title": "Относительность, атом и спин",
+      "title_en": "Relativity, the atom and spin",
       "summary": "Анимации к книге «Квантовая теория поля для экспериментаторов и не только»: релятивистское изображение шара, опыт Резерфорда, спинор и лента Мёбиуса.",
+      "summary_en": "Animations for the book “Quantum Field Theory for Experimentalists and Beyond”: the relativistic image of a ball, the Rutherford experiment, a spinor and the Möbius strip.",
       "items": [
         {
           "id": "penrose-terrell",
           "title": "Вращение Пенроуза — Террелла",
+          "title_en": "Penrose–Terrell rotation",
           "source_dir": "penrose_terrell",
           "description": "Футбольный мяч летит мимо камеры со скоростью 0,99 c. Трассировка лучей с запаздыванием: камера видит круглый, повёрнутый мяч, а мгновенный снимок сжатого шара ненаблюдаем.",
+          "description_en": "A football flies past a camera at 0.99 c. Ray tracing with retardation: the camera sees a round, rotated ball, while the instantaneous snapshot of the contracted ball cannot be observed.",
           "videos": [
             {
               "id": "camera",
@@ -1032,8 +1179,10 @@
         {
           "id": "rutherford",
           "title": "Опыт Резерфорда — Гейгера — Марсдена",
+          "title_en": "The Rutherford–Geiger–Marsden experiment",
           "source_dir": "rutherford",
           "description": "Альфа-частицы в кулоновском поле ядер тонкой фольги: траектории рассчитаны численно, угловое распределение сравнивается с формулой Резерфорда.",
+          "description_en": "Alpha particles in the Coulomb field of the nuclei of a thin foil: the trajectories are computed numerically and the angular distribution is compared with the Rutherford formula.",
           "videos": [
             {
               "id": "foil",
@@ -1052,8 +1201,10 @@
         {
           "id": "spinor-mobius",
           "title": "Спинор и лента Мёбиуса",
+          "title_en": "A spinor and the Möbius strip",
           "source_dir": "spinor_mobius",
           "description": "Поворот на 360° меняет знак спинора, поворот на 720° возвращает его: вектор на ленте Мёбиуса и компонента ψ = exp(−iφ/2).",
+          "description_en": "A rotation by 360° changes the sign of a spinor, a rotation by 720° brings it back: a vector on the Möbius strip and the component ψ = exp(−iφ/2).",
           "videos": [
             {
               "id": "strip",
@@ -1072,8 +1223,10 @@
         {
           "id": "hulse-taylor",
           "title": "Двойной пульсар Халса — Тейлора",
+          "title_en": "The Hulse–Taylor binary pulsar",
           "source_dir": "hulse_taylor",
           "description": "Две нейтронные звезды на эксцентрической орбите излучают гравитационные волны, орбита сжимается, а периастр приходит всё раньше: накопленный сдвиг по ОТО и по измеренной производной периода, 1975–2005.",
+          "description_en": "Two neutron stars on an eccentric orbit emit gravitational waves, the orbit shrinks and periastron comes ever earlier: the accumulated shift in general relativity and from the measured period derivative, 1975–2005.",
           "videos": [
             {
               "id": "orbit",
@@ -1092,8 +1245,10 @@
         {
           "id": "path-integral",
           "title": "Интеграл по траекториям",
+          "title_en": "The path integral",
           "source_dir": "path_integral",
           "description": "Амплитуда как сумма по путям: экраны с 3, 7 и 5 щелями (105 путей), затем все пути и спираль Корню, и классический предел ħ → 0.",
+          "description_en": "The amplitude as a sum over paths: screens with 3, 7 and 5 slits (105 paths), then all paths and the Cornu spiral, and the classical limit ħ → 0.",
           "videos": [
             {
               "id": "paths",
@@ -1112,8 +1267,10 @@
         {
           "id": "simultaneity",
           "title": "Относительность одновременности",
+          "title_en": "The relativity of simultaneity",
           "source_dir": "simultaneity",
           "description": "Диаграмма Минковского: вспышки A, B, C одновременны в O и идут в порядке C, B, A (v > 0) или A, B, C (v < 0) в O′; пространственноподобные пары меняют порядок, временноподобные никогда. Две версии: русская и английская.",
+          "description_en": "A Minkowski diagram: flashes A, B, C are simultaneous in O and come in the order C, B, A (v > 0) or A, B, C (v < 0) in O′; spacelike pairs change their order, timelike pairs never do. Two versions: Russian and English.",
           "videos": [
             {
               "id": "minkowski",
@@ -1132,8 +1289,10 @@
         {
           "id": "wormhole-camera",
           "title": "Камера у кротовой норы",
+          "title_en": "A camera at a wormhole",
           "source_dir": "wormhole_camera",
           "description": "Кротовая нора Морриса и Торна как решение уравнений Эйнштейна, ход лучей по её поверхности и вид из камеры, которая облетает нору, пролетает через горловину и видит свет галактик обеих Вселенных.",
+          "description_en": "The Morris–Thorne wormhole as a solution of the Einstein equations, light rays on its surface and the view from a camera that flies around the wormhole, passes through the throat and sees the light of the galaxies of both universes.",
           "videos": [
             {
               "id": "camera",
@@ -1152,8 +1311,10 @@
         {
           "id": "black-hole-flyby",
           "title": "Облёт чёрной дыры",
+          "title_en": "A flight around a black hole",
           "source_dir": "black_hole_flyby",
           "description": "Камера свободно падает по орбите вокруг невращающейся чёрной дыры: ход лучей света в метрике Шварцшильда, тень, диск и его изображения, аберрация и сдвиг частоты при скорости 0,65c, часы камеры и далёкого наблюдателя.",
+          "description_en": "A camera falls freely on an orbit around a non-rotating black hole: light rays in the Schwarzschild metric, the shadow, the disk and its images, aberration and the frequency shift at a speed of 0.65c, the clocks of the camera and of a distant observer.",
           "videos": [
             {
               "id": "flyby",
@@ -1174,13 +1335,17 @@
     {
       "id": "math-dynamical-systems",
       "title": "Математика и динамические системы",
+      "title_en": "Mathematics and dynamical systems",
       "summary": "Фурье-рисование, аттракторы, ретроградное движение, спирали и комплексные степени.",
+      "summary_en": "Fourier drawing, attractors, retrograde motion, spirals and complex powers.",
       "items": [
         {
           "id": "fourier-drawing",
           "title": "Фурье-рисование",
+          "title_en": "Fourier drawing",
           "source_dir": "FourierTransform",
           "description": "Аппроксимация контуров эпициклами и рядами Фурье.",
+          "description_en": "Contours approximated by epicycles and Fourier series.",
           "videos": [
             {
               "id": "fourier-svg",
@@ -1195,31 +1360,37 @@
             {
               "id": "telescope",
               "label": "Телескоп",
+              "label_en": "Telescope",
               "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/telescope.mp4"
             },
             {
               "id": "brain",
               "label": "Мозг",
+              "label_en": "Brain",
               "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/brain.mp4"
             },
             {
               "id": "dinosaur",
               "label": "Динозавр",
+              "label_en": "Dinosaur",
               "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/dinosaurus.mp4"
             },
             {
               "id": "woman-1",
               "label": "Портрет 1",
+              "label_en": "Portrait 1",
               "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/woman1.mp4"
             },
             {
               "id": "woman-2",
               "label": "Портрет 2",
+              "label_en": "Portrait 2",
               "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/woman2.mp4"
             },
             {
               "id": "woman-4",
               "label": "Портрет 4",
+              "label_en": "Portrait 4",
               "path": "FourierTransform/media/videos/fourier_svg_draw/1920p60/woman4.mp4"
             }
           ]
@@ -1227,52 +1398,63 @@
         {
           "id": "retrograde-motion",
           "title": "Ретроградное движение",
+          "title_en": "Retrograde motion",
           "source_dir": "retrograde",
           "description": "Геоцентрическая картина и эпициклы для планет.",
+          "description_en": "The geocentric picture and epicycles for the planets.",
           "videos": [
             {
               "id": "geocentric",
               "label": "Геоцентрическая траектория",
+              "label_en": "Geocentric path",
               "path": "retrograde/media/videos/Ptolemy/1920p60/GeocentricRetrograde.mp4"
             },
             {
               "id": "mars",
               "label": "Марс",
+              "label_en": "Mars",
               "path": "retrograde/media/videos/Ptolemy/1920p60/Mars.mp4"
             },
             {
               "id": "jupiter",
               "label": "Юпитер",
+              "label_en": "Jupiter",
               "path": "retrograde/media/videos/Ptolemy/1920p60/Jupiter.mp4"
             },
             {
               "id": "saturn",
               "label": "Сатурн",
+              "label_en": "Saturn",
               "path": "retrograde/media/videos/Ptolemy/1920p60/Saturn.mp4"
             },
             {
               "id": "mars-fourier",
               "label": "Марс: Фурье",
+              "label_en": "Mars: Fourier",
               "path": "retrograde/media/videos/Ptolemy/1920p60/MarsFourie.mp4"
             },
             {
               "id": "saturn-fourier",
               "label": "Сатурн: Фурье",
+              "label_en": "Saturn: Fourier",
               "path": "retrograde/media/videos/Ptolemy/1920p60/SaturnFourie.mp4"
             },
             {
               "id": "mars-card",
               "label": "Карточка Марса",
+              "label_en": "Mars card",
               "path": "retrograde/media/videos/planets/1920p60/MarsCard.mp4"
             },
             {
               "id": "jupiter-card",
               "label": "Карточка Юпитера",
+              "label_en": "Jupiter card",
               "path": "retrograde/media/videos/planets/1920p60/JupiterCard.mp4"
             },
             {
               "id": "saturn-card",
               "label": "Карточка Сатурна",
+              "label_en": "Saturn card",
               "path": "retrograde/media/videos/planets/1920p60/SaturnCard.mp4"
             }
           ]
@@ -1280,8 +1462,10 @@
         {
           "id": "strange-attractors",
           "title": "Странные аттракторы",
+          "title_en": "Strange attractors",
           "source_dir": "strange_attractors",
           "description": "Классические динамические системы в фазовом пространстве.",
+          "description_en": "Classical dynamical systems in phase space.",
           "videos": [
             {
               "id": "lorenz",
@@ -1313,8 +1497,10 @@
         {
           "id": "riemann-zeta",
           "title": "Спираль дзета-функции Римана",
+          "title_en": "The Riemann zeta spiral",
           "source_dir": "riemann1",
           "description": "Визуализация траектории значений дзета-функции в комплексной плоскости.",
+          "description_en": "The path of the values of the zeta function in the complex plane.",
           "videos": [
             {
               "id": "zeta",
@@ -1326,8 +1512,10 @@
         {
           "id": "pi-day-spiral",
           "title": "Спираль числа π",
+          "title_en": "The spiral of π",
           "source_dir": "pi_day_spiral",
           "description": "Цифры числа π, собранные в короткую спиральную визуализацию.",
+          "description_en": "The digits of π gathered into a short spiral visualization.",
           "videos": [
             {
               "id": "spiral",
@@ -1339,13 +1527,16 @@
         {
           "id": "imaginary-powers",
           "title": "Комплексные степени",
+          "title_en": "Complex powers",
           "source_dir": "imaginary",
           "description": "Визуальная история про степени мнимой единицы и движение в комплексной плоскости.",
+          "description_en": "A visual story about the powers of the imaginary unit and motion in the complex plane.",
           "videos": [
             {
               "id": "imaginary-power",
               "label": "Imaginary powers",
-              "path": "imaginary/media/videos/imagine/1920p60/ImaginaryPowerScene.mp4"
+              "path": "imaginary/media/videos/imagine/1920p60/ImaginaryPowerScene.mp4",
+              "poster_time": 18.1
             }
           ]
         }
@@ -1354,17 +1545,22 @@
     {
       "id": "accelerator-optics",
       "title": "Ускорители и магнитная оптика",
+      "title_en": "Accelerators and magnetic optics",
       "summary": "Как диполи, квадруполи и секступоли направляют и удерживают пучок частиц.",
+      "summary_en": "How dipoles, quadrupoles and sextupoles steer and hold a particle beam.",
       "items": [
         {
           "id": "dipole",
           "title": "Диполь: поворот частицы",
+          "title_en": "Dipole: turning a particle",
           "source_dir": "accelerator_optics",
           "description": "Почему магнит поворачивает частицу, но не увеличивает её энергию.",
+          "description_en": "Why a magnet turns a particle but does not increase its energy.",
           "videos": [
             {
               "id": "dipole",
               "label": "Как диполь поворачивает частицу",
+              "label_en": "How a dipole turns a particle",
               "path": "accelerator_optics/media/videos/magnetic_optics/1920p60/DipoleMagnetScene.mp4",
               "poster_time": 8.0
             }
@@ -1373,12 +1569,15 @@
         {
           "id": "quadrupole",
           "title": "Квадруполь: магнитная линза",
+          "title_en": "Quadrupole: a magnetic lens",
           "source_dir": "accelerator_optics",
           "description": "Как чередующиеся квадруполи удерживают пучок сразу в двух плоскостях.",
+          "description_en": "How alternating quadrupoles hold the beam in both planes at once.",
           "videos": [
             {
               "id": "quadrupole",
               "label": "Как квадруполи фокусируют пучок",
+              "label_en": "How quadrupoles focus the beam",
               "path": "accelerator_optics/media/videos/quadrupole_optics/1920p60/QuadrupoleMagnetScene.mp4",
               "poster_time": 12.0
             }
@@ -1387,12 +1586,15 @@
         {
           "id": "sextupole",
           "title": "Секступоль: поправка для разных импульсов",
+          "title_en": "Sextupole: a correction for different momenta",
           "source_dir": "accelerator_optics",
           "description": "Почему одного квадруполя недостаточно и как секступоль исправляет импульсную ошибку.",
+          "description_en": "Why one quadrupole is not enough and how a sextupole corrects the momentum error.",
           "videos": [
             {
               "id": "sextupole",
               "label": "Как секступоль исправляет фокусировку",
+              "label_en": "How a sextupole corrects the focusing",
               "path": "accelerator_optics/media/videos/sextupole_optics/1920p60/SextupoleMagnetScene.mp4",
               "poster_time": 10.0
             }
@@ -1401,12 +1603,15 @@
         {
           "id": "ring",
           "title": "Собираем накопительное кольцо",
+          "title_en": "Building a storage ring",
           "source_dir": "accelerator_optics",
           "description": "Диполи, квадруполи и секступоли по шагам, а затем полный оборот пучка по кольцу.",
+          "description_en": "Dipoles, quadrupoles and sextupoles step by step, and then a full turn of the beam around the ring.",
           "videos": [
             {
               "id": "ring",
               "label": "Как работает накопительное кольцо",
+              "label_en": "How a storage ring works",
               "path": "accelerator_optics/media/videos/ring_optics/1920p60/StorageRingScene.mp4",
               "poster_time": 4.5,
               "copy_only": true
@@ -1418,26 +1623,33 @@
     {
       "id": "visual-stories",
       "title": "Визуальные сюжеты",
+      "title_en": "Visual stories",
       "summary": "Короткие самостоятельные анимации и научно-популярные визуальные истории.",
+      "summary_en": "Short stand-alone animations and popular-science visual stories.",
       "items": [
         {
           "id": "rose-eight",
           "title": "Восьмёрка роз",
+          "title_en": "Eight roses",
           "source_dir": "march8",
           "description": "Параметрическая роза и праздничный короткий ролик.",
+          "description_en": "A parametric rose and a short festive film.",
           "videos": [
             {
               "id": "rose-eight",
               "label": "Rose Eight",
-              "path": "march8/media/videos/roses/1920p60/RoseEight.mp4"
+              "path": "march8/media/videos/roses/1920p60/RoseEight.mp4",
+              "poster_time": 26.2
             }
           ]
         },
         {
           "id": "barkov",
           "title": "Звезда, ветер и облако",
+          "title_en": "A star, a wind and a cloud",
           "source_dir": null,
           "description": "Астрофизические ролики; анимации переданы автору М. В. Барковым.",
+          "description_en": "Astrophysical films; the animations were provided by M. V. Barkov.",
           "videos": [
             {
               "id": "star-wind",
@@ -1454,12 +1666,15 @@
         {
           "id": "galaxy-merger",
           "title": "Слияние галактик",
+          "title_en": "A galaxy merger",
           "source_dir": "galaxy_merger",
           "description": "Столкновение двух дисковых галактик в ограниченной задаче N тел с динамическим трением: приливные мосты и хвосты, затем округлый остаток. Расчёт в духе работы Алара и Юри Тумре 1972 года.",
+          "description_en": "The collision of two disk galaxies in a restricted N-body problem with dynamical friction: tidal bridges and tails, then a rounded remnant. A calculation in the spirit of the 1972 paper by Alar and Juri Toomre.",
           "videos": [
             {
               "id": "merger",
               "label": "Слияние двух галактик",
+              "label_en": "Merger of two galaxies",
               "path": "galaxy_merger/media/videos/galaxy_merger/1080p30/GalaxyMerger.mp4",
               "poster_time": 12
             }

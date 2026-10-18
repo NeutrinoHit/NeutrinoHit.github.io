@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Build the NeutrinoHit animation gallery from local dvnanima renders."""
+"""Build the NeutrinoHit animation gallery (ru|en/animations.qmd) from local dvnanima renders.
+
+The English page takes title_en, summary_en, description_en and label_en from the catalog;
+an English version of a film is the video right after its Russian version.
+"""
 
 from __future__ import annotations
 
@@ -39,6 +43,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--transcode-threshold-mb", type=float, default=4.0)
     parser.add_argument("--render-only", action="store_true",
                         help="rewrite the page from the published assets; touch no media")
+    parser.add_argument("--posters-only", action="store_true",
+                        help="rebuild the posters of the --item stories (all if none) from the published "
+                             "movies at their poster_time, then rewrite the pages; movies are not touched")
     return parser.parse_args()
 
 
@@ -247,6 +254,20 @@ def sync_assets(
     return assets
 
 
+def rebuild_posters(catalog: dict[str, Any], asset_dir: Path, items: set[tuple[str, str]]) -> None:
+    """Posters from the published movies (no dvnanima sources needed), at each video's poster_time."""
+    for section in catalog["sections"]:
+        for item in section["items"]:
+            if (section["id"], item["id"]) not in items:
+                continue
+            for video in item["videos"]:
+                if video.get("publish_with_project_site"):
+                    continue
+                stem = f'{section["id"]}-{item["id"]}-{video["id"]}'
+                build_poster(asset_dir / f"{stem}.mp4", asset_dir / f"{stem}.jpg", True,
+                             float(video.get("poster_time", 0.35)))
+
+
 def count_videos(section: dict[str, Any]) -> int:
     return sum(len(item["videos"]) for item in section["items"])
 
@@ -267,149 +288,181 @@ def esc(value: str) -> str:
     return html.escape(value, quote=True)
 
 
+TEXT = {
+    "ru": {
+        "title": "Анимации",
+        "lead": "Научные анимации NeutrinoHit по темам. Кадр запускает ролик прямо на странице; "
+                "кнопки под описанием — другие ролики сюжета и версии на другом языке.",
+        "count": lambda stories, videos: (plural_ru(stories, "сюжет", "сюжета", "сюжетов") + " · "
+                                          + plural_ru(videos, "ролик", "ролика", "роликов")),
+        "topics": "Темы галереи",
+        "play": "Смотреть",
+        "code": "Код",
+        "size": "MP4",
+    },
+    "en": {
+        "title": "Animations",
+        "lead": "Scientific animations of NeutrinoHit by topic. A frame plays its video right on the page; "
+                "the buttons below the description open the other videos of the story and the versions "
+                "in the other language.",
+        "count": lambda stories, videos: f"{stories} stories · {videos} videos",
+        "topics": "Gallery topics",
+        "play": "Play",
+        "code": "Code",
+        "size": "MP4",
+    },
+}
+
+# A film with a Russian and an English version is two videos in the catalog, the English one
+# right after the Russian one; their labels carry "(русская версия)" / "(English version)".
+VERSION = re.compile(r"\s*\((русская версия|English version)\)|^(Русская версия|English version)\b\s*")
+
+PLAYER_JS = """<script>
+document.addEventListener('click', function (event) {
+  var text = event.target.closest('.anim-text');
+  if (text) { text.closest('.anim-card').classList.add('is-open'); return; }
+  var link = event.target.closest('.anim-card [data-play]');
+  if (!link) return;
+  event.preventDefault();
+  var card = link.closest('.anim-card');
+  var media = card.querySelector('.anim-media');
+  document.querySelectorAll('.anim-media video').forEach(function (v) { v.pause(); });
+  var video = document.createElement('video');
+  video.controls = true; video.playsInline = true; video.autoplay = true; video.preload = 'auto';
+  if (link.dataset.poster) video.poster = link.dataset.poster;
+  video.src = link.getAttribute('href');
+  media.replaceChildren(video);
+  card.classList.add('is-open');
+  card.querySelectorAll('.anim-chip').forEach(function (chip) {
+    chip.classList.toggle('is-current', chip.getAttribute('href') === link.getAttribute('href'));
+  });
+});
+</script>"""
+
+
+def video_lang(video: dict[str, Any]) -> str:
+    label = video["label"]
+    if "English version" in label:
+        return "en"
+    if "русская версия" in label or label.startswith("Русская версия"):
+        return "ru"
+    return ""
+
+
+def films_of(item: dict[str, Any]) -> list[dict[str, Any]]:
+    """Group the videos of a story into films; a film keeps its language versions together."""
+    films: list[dict[str, Any]] = []
+    for video in item["videos"]:
+        lang = video_lang(video)
+        if lang == "en" and films and "ru" in films[-1]["versions"] and "en" not in films[-1]["versions"]:
+            films[-1]["versions"]["en"] = video
+            films[-1]["label_en"] = VERSION.sub("", video["label"]).strip()
+            continue
+        films.append({"label": VERSION.sub("", video["label"]).strip(), "label_en": video.get("label_en"),
+                      "versions": {lang or "any": video}})
+    return films
+
+
 def render_qmd(
     catalog: dict[str, Any],
     assets: dict[tuple[str, str, str], dict[str, str]],
     output_path: Path,
+    lang: str = "ru",
 ) -> str:
-    total_items = sum(len(section["items"]) for section in catalog["sections"])
-    total_videos = sum(count_videos(section) for section in catalog["sections"])
+    text = TEXT[lang]
+    other = "en" if lang == "ru" else "ru"
 
+    def tr(entry: dict[str, Any], key: str) -> str:
+        return entry.get(f"{key}_{lang}") or entry[key] if lang != "ru" else entry[key]
+
+    def rel(site_path: str) -> str:
+        return Path(os.path.relpath(SITE_ROOT / site_path, output_path.resolve().parent)).as_posix()
+
+    def chip(section: dict, item: dict, video: dict, label: str, extra: str = "") -> str:
+        asset = assets[(section["id"], item["id"], video["id"])]
+        poster = f' data-poster="{esc(rel(asset["poster"]))}"' if asset["poster"] else ""
+        return (f'<a class="anim-chip{extra}" href="{esc(rel(asset["movie"]))}" data-play{poster} '
+                f'title="{esc(text["size"])}, {esc(asset["size"])}">{esc(label)}</a>')
+
+    def card(section: dict, item: dict) -> list[str]:
+        films = films_of(item)
+        first = films[0]["versions"]
+        default = first.get(lang) or first.get("ru") or first.get("any") or first["en"]
+        asset = assets[(section["id"], item["id"], default["id"])]
+        poster = rel(asset["poster"]) if asset["poster"] else ""
+        image = (f'<img src="{esc(poster)}" alt="" loading="lazy">' if poster
+                 else '<span class="anim-noposter"></span>')
+        chips = []
+        for film in films:
+            versions = film["versions"]
+            main = versions.get(lang) or versions.get("ru") or versions.get("any") or versions["en"]
+            if len(films) == 1:
+                if len(versions) > 1:                      # one film: the language versions only
+                    chips += [chip(section, item, versions[code], code.upper(),
+                                   " is-current" if versions[code] is default else "")
+                              for code in (lang, other) if code in versions]
+                continue
+            label = film.get("label_en") if lang == "en" and film.get("label_en") else film["label"]
+            chips.append(chip(section, item, main, label, " is-current" if main is default else ""))
+            if other in versions and versions[other] is not main:
+                chips.append(chip(section, item, versions[other], other.upper(), " is-lang"))
+        if item.get("source_url"):   # dvnanima is private: only an explicit public repository is linked
+            chips.append(f'<a class="anim-chip is-code" href="{esc(item["source_url"])}" rel="noopener">'
+                         f'{esc(text["code"])}</a>')
+        anchor = f'animation-{section["id"]}-{item["id"]}'
+        out = [
+            f'      <article class="anim-card" id="{esc(anchor)}">',
+            f'        <div class="anim-media"><a class="anim-poster" href="{esc(rel(asset["movie"]))}" data-play'
+            + (f' data-poster="{esc(poster)}"' if poster else "")
+            + f' aria-label="{esc(text["play"])}: {esc(tr(item, "title"))}">{image}'
+            '<span class="anim-play" aria-hidden="true"></span></a></div>',
+            f'        <h3 class="anim-title">{esc(tr(item, "title"))}</h3>',
+            f'        <p class="anim-text">{esc(tr(item, "description"))}</p>',
+        ]
+        if chips:
+            out.append(f'        <div class="anim-chips">{"".join(chips)}</div>')
+        out.append("      </article>")
+        return out
+
+    sections = catalog["sections"]
+    total_items = sum(len(section["items"]) for section in sections)
+    total_videos = sum(count_videos(section) for section in sections)
     lines = [
         "---",
-        'title: "Анимации"',
-        "lang: ru-RU",
+        f'title: "{text["title"]}"',
+        "lang: ru-RU" if lang == "ru" else "lang: en-US",
+        "toc: false",
         "---",
         "",
         "<!-- Generated by scripts/sync_dvnanima_gallery.py. Edit animations.catalog.json. -->",
         "",
         "```{=html}",
         '<div class="lecture-catalog animation-catalog">',
-        '  <p class="lecture-catalog-lead">',
-        "    Подборка научных анимаций проектов NeutrinoHit. Ролики на этой странице",
-        "    опубликованы как облегчённые web-версии.",
-        "  </p>",
-        '  <div class="animation-catalog-meta">',
-        f'    <span>{esc(plural_ru(total_items, "сюжет", "сюжета", "сюжетов"))}</span>',
-        f'    <span>{esc(plural_ru(total_videos, "ролик", "ролика", "роликов"))}</span>',
-        "  </div>",
-        '  <section class="lecture-course-list animation-section-list" aria-label="Каталог анимаций">',
+        f'  <p class="lecture-catalog-lead">{esc(text["lead"])}</p>',
+        f'  <nav class="anim-topics" aria-label="{esc(text["topics"])}">',
     ]
-
-    for section in catalog["sections"]:
-        item_count = len(section["items"])
-        video_count = count_videos(section)
-        status = (
-            f'{plural_ru(item_count, "сюжет", "сюжета", "сюжетов")}, '
-            f'{plural_ru(video_count, "ролик", "ролика", "роликов")}'
-        )
-        lines.extend(
-            [
-                f'    <details id="{esc(section["id"])}" class="lecture-course animation-section animation-section-{esc(section["id"])}">',
-                "      <summary>",
-                f'        <span class="lecture-course-status">{esc(status)}</span>',
-                f'        <span class="lecture-course-title">{esc(section["title"])}</span>',
-                "      </summary>",
-                '      <div class="lecture-course-body">',
-                f'        <p>{esc(section["summary"])}</p>',
-                '        <div class="lecture-material-list animation-material-list">',
-            ]
-        )
-
+    for section in sections:
+        lines.append(f'    <a href="#{esc(section["id"])}">{esc(tr(section, "title"))}'
+                     f'<span>{len(section["items"])}</span></a>')
+    lines += ["  </nav>",
+              f'  <p class="anim-total">{esc(text["count"](total_items, total_videos))}</p>']
+    for section in sections:
+        lines += [
+            f'  <section class="anim-section" id="{esc(section["id"])}">',
+            '    <div class="anim-section-head">',
+            f'      <span class="course-tile-status is-ready">'
+            f'{esc(text["count"](len(section["items"]), count_videos(section)))}</span>',
+            f'      <h2>{esc(tr(section, "title"))}</h2>',
+            f'      <p>{esc(tr(section, "summary"))}</p>',
+            "    </div>",
+            '    <div class="anim-grid">',
+        ]
         for item in section["items"]:
-            video_status = plural_ru(len(item["videos"]), "ролик", "ролика", "роликов")
-            material_id = f'animation-{section["id"]}-{item["id"]}'
-            lines.extend(
-                [
-                    f'          <details id="{esc(material_id)}" class="lecture-material animation-material">',
-                    "            <summary>",
-                    f'              <span class="animation-material-title">{esc(item["title"])}</span>',
-                    f'              <span class="animation-material-count">{esc(video_status)}</span>',
-                    "            </summary>",
-                    '            <div class="lecture-material-body animation-material-body">',
-                    f'              <p>{esc(item["description"])}</p>',
-                    '              <div class="animation-video-grid">',
-                ]
-            )
-
-            for video in item["videos"]:
-                asset = assets[(section["id"], item["id"], video["id"])]
-                movie_href = Path(
-                    os.path.relpath(
-                        SITE_ROOT / asset["movie"],
-                        output_path.resolve().parent,
-                    )
-                ).as_posix()
-                poster_href = (
-                    Path(
-                        os.path.relpath(
-                            SITE_ROOT / asset["poster"],
-                            output_path.resolve().parent,
-                        )
-                    ).as_posix()
-                    if asset["poster"]
-                    else ""
-                )
-                poster_attr = (
-                    f' poster="{esc(poster_href)}"' if poster_href else ""
-                )
-                lines.extend(
-                    [
-                        '                <figure class="animation-video-frame">',
-                        f'                  <video controls preload="none" playsinline{poster_attr}>',
-                        f'                    <source src="{esc(movie_href)}" type="video/mp4">',
-                        "                  </video>",
-                        "                  <figcaption>",
-                        f'                    <span>{esc(video["label"])}</span>',
-                        f'                    <small>{esc(asset["size"])}</small>',
-                        "                  </figcaption>",
-                        "                </figure>",
-                    ]
-                )
-
-            lines.extend(
-                [
-                    "              </div>",
-                    '              <div class="lecture-course-actions animation-actions">',
-                ]
-            )
-            # dvnanima is private: "source_dir" stays internal; only an explicit
-            # public "source_url" (another repository) gets a link
-            source_url = item.get("source_url")
-            if source_url:
-                lines.append(
-                    f'                <a class="lecture-action-primary" href="{esc(source_url)}">Исходный код</a>'
-                )
-            for video in item["videos"]:
-                asset = assets[(section["id"], item["id"], video["id"])]
-                movie_href = Path(
-                    os.path.relpath(
-                        SITE_ROOT / asset["movie"],
-                        output_path.resolve().parent,
-                    )
-                ).as_posix()
-                lines.append(
-                    f'                <a href="{esc(movie_href)}">MP4: {esc(video["label"])}</a>'
-                )
-            lines.extend(
-                [
-                    "              </div>",
-                    "            </div>",
-                    "          </details>",
-                ]
-            )
-
-        lines.extend(
-            [
-                "        </div>",
-                "      </div>",
-                "    </details>",
-            ]
-        )
-
-    lines.extend(["  </section>", "</div>"])
-    if any("$" in item.get("description", "")
-           for section in catalog["sections"] for item in section["items"]):
+            lines += card(section, item)
+        lines += ["    </div>", "  </section>"]
+    lines.append("</div>")
+    lines.append(PLAYER_JS)
+    if any("$" in tr(item, "description") for section in sections for item in section["items"]):
         lines.append(KATEX.rstrip("\n"))
     lines.extend(["```", ""])
     return "\n".join(lines)
@@ -426,7 +479,9 @@ def main() -> None:
         if len(parts) != 2 or tuple(parts) not in known:
             raise ValueError(f"Unknown SECTION/ITEM: {token}")
         only_items.add(tuple(parts))
-    if args.render_only:
+    if args.posters_only:
+        rebuild_posters(catalog, args.asset_dir.resolve(), only_items or known)
+    if args.render_only or args.posters_only:
         only_items = {("", "")}                                # nothing selected: no copies, no posters
     assets = sync_assets(
         catalog=catalog,
@@ -438,10 +493,9 @@ def main() -> None:
         transcode_threshold_mb=args.transcode_threshold_mb,
         only_items=only_items or None,
     )
-    args.output.write_text(
-        render_qmd(catalog, assets, args.output),
-        encoding="utf-8",
-    )
+    # the English page sits next to the Russian one: <root>/ru/animations.qmd -> <root>/en/animations.qmd
+    for lang, output in (("ru", args.output), ("en", args.output.parent.parent / "en" / args.output.name)):
+        output.write_text(render_qmd(catalog, assets, output, lang), encoding="utf-8")
 
 
 if __name__ == "__main__":

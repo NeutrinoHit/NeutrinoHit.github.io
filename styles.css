@@ -2984,3 +2984,257 @@ img.interview-hero {
   color: #66737f;
   font-size: 0.88rem;
 }
+
+/* Animation gallery (scripts/sync_dvnanima_gallery.py): topics, one card per story, the frame plays in place */
+.anim-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 0.5rem;
+}
+
+.anim-topics a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  padding: 0.28rem 0.7rem;
+  border: 1px solid rgba(31, 111, 120, 0.38);
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1f3d52;
+  font-size: 0.9rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.anim-topics a span {
+  color: #1f6f78;
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
+.anim-topics a:hover {
+  border-color: #1f6f78;
+  background: #1f6f78;
+  color: #ffffff;
+}
+
+.anim-topics a:hover span {
+  color: #ffffff;
+}
+
+.anim-total {
+  margin: 0 0 0.6rem;
+  color: #66737f;
+  font-size: 0.88rem;
+}
+
+.anim-section {
+  padding: 1.1rem 0 0.4rem;
+  border-top: 1px solid rgba(43, 67, 91, 0.16);
+  scroll-margin-top: 7rem;
+}
+
+.anim-section-head h2 {
+  margin: 0.15rem 0 0.2rem;
+  padding: 0;
+  border: 0;
+  color: #25313a;
+  font-size: 1.25rem;
+  font-weight: 760;
+}
+
+.anim-section-head p {
+  margin: 0 0 0.8rem;
+  color: #53616f;
+  font-size: 0.95rem;
+}
+
+.anim-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  gap: 1.1rem 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.anim-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+  scroll-margin-top: 7rem;
+}
+
+.anim-card:target .anim-media {
+  outline: 3px solid #1f6f78;
+  outline-offset: 2px;
+}
+
+.anim-media {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #0b1016;
+}
+
+.anim-media video,
+.anim-poster,
+.anim-poster img,
+.anim-noposter {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.anim-media video {
+  object-fit: contain;
+  background: #050708;
+}
+
+.anim-poster img {
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+.anim-poster:hover img {
+  transform: scale(1.03);
+}
+
+.anim-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: -1.4rem 0 0 -1.4rem;
+  border-radius: 50%;
+  background: rgba(10, 20, 28, 0.62);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.75);
+}
+
+.anim-play::after {
+  content: "";
+  position: absolute;
+  left: 1.08rem;
+  top: 0.82rem;
+  border-style: solid;
+  border-width: 0.58rem 0 0.58rem 0.95rem;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.anim-poster:hover .anim-play {
+  background: #1f6f78;
+}
+
+h3.anim-title {
+  margin: 0.25rem 0 0;
+  color: #25313a;
+  font-size: 1rem;
+  font-weight: 740;
+  line-height: 1.3;
+}
+
+/* A long description shows three lines until its film plays or the text is clicked */
+.anim-text {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: #53616f;
+  font-size: 0.86rem;
+  line-height: 1.42;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  cursor: pointer;
+}
+
+.anim-card.is-open .anim-text {
+  display: block;
+  cursor: auto;
+}
+
+.anim-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.15rem;
+}
+
+a.anim-chip {
+  padding: 0.04rem 0.55rem;
+  border: 1px solid rgba(31, 111, 120, 0.38);
+  border-radius: 999px;
+  color: #1f6f78;
+  font-size: 0.78rem;
+  font-weight: 680;
+  line-height: 1.55;
+  text-decoration: none;
+}
+
+a.anim-chip.is-lang {
+  margin-left: -0.15rem;
+  border-style: dashed;
+}
+
+a.anim-chip.is-current {
+  border-color: #1f6f78;
+  background: rgba(31, 111, 120, 0.1);
+}
+
+a.anim-chip:hover {
+  border-color: #1f6f78;
+  background: #1f6f78;
+  color: #ffffff;
+}
+
+/* On a phone a story is one row: a small frame on the left, the title, two lines of text and the buttons */
+@media (max-width: 600px) {
+  .anim-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .anim-card {
+    display: grid;
+    grid-template-columns: 7.5rem minmax(0, 1fr);
+    column-gap: 0.75rem;
+    row-gap: 0.15rem;
+    align-items: start;
+    padding: 0.6rem 0;
+    border-top: 1px solid rgba(43, 67, 91, 0.08);
+  }
+
+  .anim-media {
+    grid-row: 1 / span 3;
+    border-radius: 6px;
+  }
+
+  .anim-card.is-open {
+    grid-template-columns: 1fr;
+  }
+
+  .anim-card.is-open .anim-media {
+    grid-row: auto;
+  }
+
+  h3.anim-title {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .anim-text {
+    -webkit-line-clamp: 2;
+  }
+
+  .anim-play {
+    width: 2rem;
+    height: 2rem;
+    margin: -1rem 0 0 -1rem;
+  }
+
+  .anim-play::after {
+    left: 0.75rem;
+    top: 0.55rem;
+    border-width: 0.45rem 0 0.45rem 0.7rem;
+  }
+}
