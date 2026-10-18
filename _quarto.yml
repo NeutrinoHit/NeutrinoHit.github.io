@@ -5,12 +5,12 @@ project:
   post-render:
     - python scripts/validate_reveal_context_homes.py
   resources:
-    - "assets/**"
-    - "qr/**"
-    - "students/theses/**"
-    - "theses/**"
-    - "en/cv.pdf"
-    - "ru/cv.pdf"
+    - "/assets/**"
+    - "/qr/**"
+    - "/students/theses/**"
+    - "/theses/**"
+    - "/en/cv.pdf"
+    - "/ru/cv.pdf"
   render:
     - "index.qmd"
     - "ru/*.qmd"
