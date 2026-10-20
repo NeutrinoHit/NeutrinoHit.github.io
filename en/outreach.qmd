@@ -24,7 +24,7 @@ toc: false
     </div>
     <div class="outreach-group" id="neutrino-telescopes">
       <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">3 lectures · 2026</span>
+        <span class="course-tile-status is-ready">4 lectures · 2025–2026</span>
         <h2 class="outreach-group-name">Neutrino Telescopes</h2>
         <p class="outreach-group-text">The Universe seen with neutrinos: how high-energy neutrinos are caught and what they have told us about galaxies.</p>
       </div>
@@ -32,6 +32,7 @@ toc: false
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/neutrino-telescopes-2026/lecture.html">Neutrino Telescopes: Principles, Results, and Prospects</a><span class="outreach-lang">EN</span><span class="outreach-entry-note">plenary talk</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-2026/lecture.html">Slides</a></span></li>
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/neutrino-telescopes-ru-2026/lecture.html">How to catch a neutrino from a distant galaxy</a><span class="outreach-entry-note">for students</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-ru-2026/lecture.html">Slides</a></span></li>
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">Why do we need neutrino telescopes?</a><span class="outreach-entry-note">Astrofest</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-pdf" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">PDF</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/Y8cTYsGq-L0" rel="noopener">A telescope under the ice</a><span class="outreach-entry-note">online lecture · 2025</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-video" href="https://youtu.be/Y8cTYsGq-L0" rel="noopener">Video</a></span></li>
       </ul>
     </div>
     <div class="outreach-group" id="modern-physics-without-formulas">
@@ -83,10 +84,11 @@ toc: false
       <div class="outreach-group-head">
         <span class="course-tile-status is-ready">Videos</span>
         <h2 class="outreach-group-name">Short Videos</h2>
-        <p class="outreach-group-text">The discovery of the neutrino and a demonstration experiment.</p>
+        <p class="outreach-group-text">The discovery of the neutrino, the 2025 Nobel Prize in Physics and a demonstration experiment.</p>
       </div>
       <ul class="outreach-entries">
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/ybPLBzujONA" rel="noopener">The mystery of missing energy: almost a detective story of the neutrino discovery</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-video" href="https://youtu.be/ybPLBzujONA" rel="noopener">Video</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/-wFPbyZacts" rel="noopener">Magic explained by physics: what was the 2025 Nobel Prize in Physics awarded for?</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-video" href="https://youtu.be/-wFPbyZacts" rel="noopener">Video</a></span></li>
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/WRAEhMhGPew" rel="noopener">How to increase voltage without a transformer?</a></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-video" href="https://youtu.be/WRAEhMhGPew" rel="noopener">Video</a></span></li>
       </ul>
     </div>

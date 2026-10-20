@@ -32,6 +32,11 @@ research:
       links:
       - {kind: slides, href: /talks/protvino-2026/dnaumov.html}
       - {kind: site, label: {ru: Конференция, en: Conference}, href: 'https://indico.ihep.su/e/PPIHE2026'}
+    - id: talk-juno-10-years
+      title: {ru: 'Эксперимент JUNO: 10 лет спустя', en: 'The JUNO experiment: 10 years later'}
+      note: {ru: 2026 · семинар ЛЯП ОИЯИ, en: 2026 · DLNP JINR seminar; the talk is in Russian}
+      links:
+      - {kind: video, href: 'https://youtu.be/7F_FqhQW9Vw'}
   - id: experiments
     kind: {ru: Коллаборации, en: Collaborations}
     title: {ru: Эксперименты, en: Experiments}

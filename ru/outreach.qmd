@@ -23,7 +23,7 @@ toc: false
     </div>
     <div class="outreach-group" id="neutrino-telescopes">
       <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">3 лекции · 2026</span>
+        <span class="course-tile-status is-ready">4 лекции · 2025–2026</span>
         <h2 class="outreach-group-name">Нейтринные телескопы</h2>
         <p class="outreach-group-text">Вселенная глазами нейтрино: как ловят нейтрино высоких энергий и что они рассказали о галактиках.</p>
       </div>
@@ -31,6 +31,7 @@ toc: false
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/neutrino-telescopes-ru-2026/lecture.html">Как поймать нейтрино из далёкой галактики</a><span class="outreach-entry-note">для студентов</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-ru-2026/lecture.html">Слайды</a></span></li>
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">Зачем нужны нейтринные телескопы?</a><span class="outreach-entry-note">Астрофест</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pdf" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">PDF</a></span></li>
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/neutrino-telescopes-2026/lecture.html">Neutrino Telescopes: Principles, Results, and Prospects</a><span class="outreach-lang">англ.</span><span class="outreach-entry-note">пленарный доклад</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-2026/lecture.html">Слайды</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/Y8cTYsGq-L0" rel="noopener">Телескоп подо льдом</a><span class="outreach-entry-note">онлайн-лекция · 2025</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/Y8cTYsGq-L0" rel="noopener">Видео</a></span></li>
       </ul>
     </div>
     <div class="outreach-group" id="modern-physics-without-formulas">
@@ -82,10 +83,11 @@ toc: false
       <div class="outreach-group-head">
         <span class="course-tile-status is-ready">Видео</span>
         <h2 class="outreach-group-name">Короткие видео</h2>
-        <p class="outreach-group-text">Открытие нейтрино и демонстрационный эксперимент.</p>
+        <p class="outreach-group-text">Открытие нейтрино, Нобелевская премия по физике 2025 года и демонстрационный эксперимент.</p>
       </div>
       <ul class="outreach-entries">
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/ybPLBzujONA" rel="noopener">Тайна пропавшей энергии. Почти детективная история открытия нейтрино</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/ybPLBzujONA" rel="noopener">Видео</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/-wFPbyZacts" rel="noopener">Магия, которую объяснила физика! За что дали Нобелевскую премию 2025 года по физике?</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/-wFPbyZacts" rel="noopener">Видео</a></span></li>
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/WRAEhMhGPew" rel="noopener">Как увеличить напряжение без трансформатора?</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/WRAEhMhGPew" rel="noopener">Видео</a></span></li>
       </ul>
     </div>
