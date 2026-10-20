@@ -3,16 +3,17 @@ title: "Байкальский телескоп — уникальный инс�
 title-en: "The Baikal telescope, a unique instrument of neutrino astronomy"
 group: articles
 kind: text
-source: "Интервью"
-outlet: "интервью о запуске Baikal-GVD"
-outlet-en: "on the launch of Baikal-GVD"
+source: "«Научная Россия», 16 марта 2021 года. Материал Минобрнауки России"
+outlet: "«Научная Россия», 2021 · интервью о запуске Baikal-GVD"
+outlet-en: "Scientific Russia, 2021 · on the launch of Baikal-GVD"
+published: 2021-03-16
 image: media/baikal-telescope.jpg
 toc: false
 ---
 [← Интервью и подкасты](../interviews.html){.interview-back}
 
 ::: {.interview-source}
-Интервью
+[«Научная Россия»](https://scientificrussia.ru/articles/dmitrij-naumov-bajkalskij-teleskop-unikalnyj-instrument-nejtrinnoj-astronomii), 16 марта 2021 года. Материал Минобрнауки России
 :::
 
 ![](media/baikal-telescope.jpg){.interview-hero fig-alt=""}
