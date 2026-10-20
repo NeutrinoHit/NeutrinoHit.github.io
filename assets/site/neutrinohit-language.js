@@ -11,16 +11,12 @@
     { key: 'photos', ruText: 'Фото', enText: 'Photos', ruHref: '/ru/photos.html', enHref: '/en/photos.html' },
     { key: 'school', ruText: 'Школа', enText: 'School', ruHref: '/ru/school.html', enHref: '/en/school.html' },
     { key: 'about', ruText: 'Обо мне', enText: 'About', ruHref: '/ru/about.html', enHref: '/en/about.html' },
-    { key: 'books', ruText: 'Книги', enText: 'Books', ruHref: '/ru/materials.html', enHref: '/en/books.html' },
-    { key: 'lectures', ruText: 'Лекции', enText: 'Lectures', ruHref: '/ru/education.html', enHref: '/en/lectures.html' },
     { key: 'students', ruText: 'Студенты', enText: 'Students', ruHref: '/ru/school.html', enHref: '/en/school.html' },
     { key: 'theses', ruText: 'Диссертации', enText: 'Theses', ruHref: '/ru/theses.html', enHref: '/en/theses.html' },
-    { key: 'schools', ruText: 'Школы', enText: 'Schools', ruHref: '/ru/school.html', enHref: '/en/schools.html' },
     { key: 'talks', ruText: 'Доклады', enText: 'Talks', ruHref: '/ru/talks.html', enHref: '/en/talks.html' },
     { key: 'sciencepop', ruText: 'Научно-популярные лекции', enText: 'Popular Science', ruHref: '/ru/outreach.html', enHref: '/en/outreach.html' },
     { key: 'animations', ruText: 'Анимации', enText: 'Animations', ruHref: '/ru/animations.html', enHref: '/en/animations.html' },
     { key: 'interactives', ruText: 'Интерактивы', enText: 'Interactives', ruHref: '/ru/interactives.html', enHref: '/en/interactives.html' },
-    { key: 'software', ruText: 'Код', enText: 'Code', ruHref: '/ru/modeling.html', enHref: '/en/software.html' }
   ];
 
   const ruLanguageCodes = new Set(['ru', 'be', 'uk', 'kk', 'ky', 'uz', 'tg', 'tk', 'hy', 'az', 'ka', 'ro', 'mo']);
