@@ -71,6 +71,8 @@ python scripts/build_course_pages.py --check  # проверить, что ст�
 
 Логотип в шапке — `assets/site/neutrinohit-logo.png` (192 px), вырезан из логотипа QR-кодов
 `assets/books/qr_center_logo_globe_bw.png`.
+Векторный логотип и опись всех фирменных файлов (логотип, шрифты, цвета) —
+`assets/brand/README.md`.
 
 ```bash
 python scripts/build_outreach_pages.py          # записать страницы
