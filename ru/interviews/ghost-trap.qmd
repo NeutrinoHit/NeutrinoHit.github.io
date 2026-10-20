@@ -3,16 +3,17 @@ title: "Ловушка для призраков: астрофизики чер�
 title-en: "Ghost trap: astrophysicists draw neutrinos from Baikal"
 group: articles
 kind: text
-source: "Интервью. Текст: Юрий Дризе"
-outlet: "текст Юрия Дризе"
-outlet-en: "by Yuri Drize"
+source: "Газета «Поиск», № 13 (1659), 26 марта 2021 года. Текст: Юрий Дризе"
+outlet: "«Поиск», 2021 · текст Юрия Дризе"
+outlet-en: "Poisk, 2021 · by Yuri Drize"
+published: 2021-03-26
 image: media/ghost-trap.jpg
 toc: false
 ---
 [← Интервью и подкасты](../interviews.html){.interview-back}
 
 ::: {.interview-source}
-Интервью. Текст: Юрий Дризе
+Газета [«Поиск»](https://poisknews.ru/fizika/lovushka-dlya-prizrakov-astrofiziki-cherpayut-nejtrino-iz-bajkala/), № 13 (1659), 26 марта 2021 года. Текст: Юрий Дризе
 :::
 
 ![](media/ghost-trap.jpg){.interview-hero fig-alt=""}
