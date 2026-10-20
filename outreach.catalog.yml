@@ -31,7 +31,7 @@ outreach:
     - title: {ru: 'Что внутри атомного ядра?', en: 'What is inside the atomic nucleus?'}
       links: [{kind: slides, href: /sciencepop/in-a-nutshell/04_inside-nucleus.html}]
   - id: neutrino-telescopes
-    kind: {ru: 3 лекции · 2026, en: 3 lectures · 2026}
+    kind: {ru: 4 лекции · 2025–2026, en: 4 lectures · 2025–2026}
     title: {ru: Нейтринные телескопы, en: Neutrino Telescopes}
     summary: {ru: 'Вселенная глазами нейтрино: как ловят нейтрино высоких энергий и что они рассказали о галактиках.', en: 'The Universe seen with neutrinos: how high-energy neutrinos are caught and what they have told us about galaxies.'}
     items:
@@ -45,6 +45,9 @@ outreach:
       note: {ru: пленарный доклад, en: plenary talk}
       lang: en
       links: [{kind: slides, href: /talks/neutrino-telescopes-2026/lecture.html}]
+    - title: {ru: Телескоп подо льдом, en: A telescope under the ice}
+      note: {ru: онлайн-лекция · 2025, en: online lecture · 2025}
+      links: [{kind: video, href: 'https://youtu.be/Y8cTYsGq-L0'}]
   - id: modern-physics-without-formulas
     kind: {ru: Мини-курс · 4 лекции, en: Mini-course · 4 lectures}
     title: {ru: Современная физика без формул, en: Modern Physics Without Formulas}
@@ -82,10 +85,12 @@ outreach:
   - id: short-videos
     kind: {ru: Видео, en: Videos}
     title: {ru: Короткие видео, en: Short Videos}
-    summary: {ru: Открытие нейтрино и демонстрационный эксперимент., en: The discovery of the neutrino and a demonstration experiment.}
+    summary: {ru: 'Открытие нейтрино, Нобелевская премия по физике 2025 года и демонстрационный эксперимент.', en: 'The discovery of the neutrino, the 2025 Nobel Prize in Physics and a demonstration experiment.'}
     items:
     - title: {ru: 'Тайна пропавшей энергии. Почти детективная история открытия нейтрино', en: 'The mystery of missing energy: almost a detective story of the neutrino discovery'}
       links: [{kind: video, href: 'https://youtu.be/ybPLBzujONA'}]
+    - title: {ru: 'Магия, которую объяснила физика! За что дали Нобелевскую премию 2025 года по физике?', en: 'Magic explained by physics: what was the 2025 Nobel Prize in Physics awarded for?'}
+      links: [{kind: video, href: 'https://youtu.be/-wFPbyZacts'}]
     - title: {ru: 'Как увеличить напряжение без трансформатора?', en: 'How to increase voltage without a transformer?'}
       links: [{kind: video, href: 'https://youtu.be/WRAEhMhGPew'}]
 
