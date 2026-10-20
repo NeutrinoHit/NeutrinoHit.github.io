@@ -75,7 +75,7 @@ courses:
     video: vGh_hRiByn0
     seconds: 2547
   - n: '1.7'
-    title: {ru: γ-матрицы Дирака, en: Dirac γ-matrices}
+    title: {ru: γ-матрицы Дирака, en: Dirac γ matrices}
     video: cz5remCD0yY
     seconds: 5285
   - n: '1.8'
@@ -115,7 +115,7 @@ courses:
     video: bCPa8SWhjIc
     seconds: 5369
   - n: '1.17'
-    title: {ru: Вектор поляризации. Энергия-импульс э/м поля, en: The polarization vector. Energy and momentum of the electromagnetic field}
+    title: {ru: Вектор поляризации. Энергия-импульс э/м поля, en: The polarization vector. Energy–momentum of the electromagnetic field}
     video: dWDWD0q1EDI
     seconds: 4762
   - n: '1.18'
@@ -123,7 +123,7 @@ courses:
     video: koBfOzUrjJQ
     seconds: 4621
   - n: '1.19'
-    title: {ru: Дифракция. Функции Грина некоторых уравнений, en: Diffraction. Green’s functions of some equations}
+    title: {ru: Дифракция. Функции Грина некоторых уравнений, en: Diffraction. Green’s functions for some equations}
     video: sZgZOZBsWMY
     seconds: 4587
   - n: '1.20'
@@ -206,7 +206,7 @@ courses:
     video: 44oVByqPxuQ
     seconds: 4648
   - n: '2.6'
-    title: {ru: Сечение рассеяния пары электронов и позитронов, en: The scattering cross section of electrons and positrons}
+    title: {ru: Сечение рассеяния пары электронов и позитронов, en: The cross section for electron–positron pair scattering}
     video: _wf0nrM1QmI
     seconds: 5509
   - n: '2.7'
@@ -230,7 +230,7 @@ courses:
     video: nXnNyYbiONA
     seconds: 7848
   - n: '2.12'
-    title: {ru: Физика механизма Хиггса генерации фермионных масс, en: The physics of the Higgs mechanism of fermion mass generation}
+    title: {ru: Физика механизма Хиггса генерации фермионных масс, en: The physics of the Higgs mechanism for fermion mass generation}
     video: 9GyjcdtqDkM
     seconds: 7264
   - n: '2.13'
@@ -258,11 +258,11 @@ courses:
     video: kzkOiXW2VkQ
     seconds: 5998
   - n: '2.19'
-    title: {ru: 'Бозон Хиггса — распады. Реакция: нейтрино + электрон', en: Higgs boson decays. The reaction neutrino + electron}
+    title: {ru: 'Бозон Хиггса — распады. Реакция: нейтрино + электрон', en: Higgs boson decays. The neutrino–electron reaction}
     video: IeUO8Kzko9I
     seconds: 3274
   - n: '2.20'
-    title: {ru: Рассеяние лептонов на элементарных заряженных частицах, en: Scattering of leptons on elementary charged particles}
+    title: {ru: Рассеяние лептонов на элементарных заряженных частицах, en: Lepton scattering off charged elementary particles}
     video: qyaHqgkjNXI
     seconds: 3878
   - n: '2.21'
@@ -333,7 +333,7 @@ courses:
     video: R8mzNHtF2Jw
     seconds: 4492
   - n: '3.7'
-    title: {ru: Ренормировка пропагатора электрона с ненулевой массой, en: Renormalization of the electron propagator with nonzero mass}
+    title: {ru: Ренормировка пропагатора электрона с ненулевой массой, en: Renormalization of the massive electron propagator}
     video: 478Br_okxzg
     seconds: 5085
   - n: '3.8'
