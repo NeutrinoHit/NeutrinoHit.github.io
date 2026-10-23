@@ -1,0 +1,40 @@
+---
+pagetitle: "Спектральный поток и киральная аномалия в 1+1 — Экзаменационные проекты"
+lang: ru-RU
+description: "Спектральный поток и киральная аномалия в 1+1: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 13 из 20</span>
+    <h1>Спектральный поток и киральная аномалия в 1+1</h1>
+    <p class="course-toc-meta">Тема: Симметрии и теорема Нётер</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Цель:** Понять происхождение киральной аномалии как геометрического эффекта, связанного со спектральным потоком уровней энергии.
+
+1.  Рассмотрите безмассовое уравнение Дирака в 1+1: $$i\gamma^\mu(\partial_\mu+ieA_\mu)\psi=0,$$ на кольце длины $L$.
+
+2.  Наложите периодические граничные условия и найдите спектр энергий $E_n(A_1)$.
+
+3.  Медленно изменяйте $A_1(t)$ от $0$ до $$\Delta A_1=\frac{2\pi}{eL}.$$
+
+4.  Постройте эволюцию уровней энергии и покажите, что уровни пересекают ноль.
+
+5.  Покажите, что число правых и левых состояний меняется, несмотря на формальное сохранение кирального тока.
+
+6.  Обсудите, почему это невозможно объяснить без учёта вакуума, даже в одночастичной постановке.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="sigma-model.html"><span>← Предыдущий</span>Симметрии \(\sigma\)-модели</a><a class="qft-exam-next" href="casimir.html"><span>Следующий →</span>Эффект Казимира</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

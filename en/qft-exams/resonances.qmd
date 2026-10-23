@@ -1,0 +1,50 @@
+---
+pagetitle: "Resonances and quasi-bound states — Examination projects"
+lang: en-US
+description: "Resonances and quasi-bound states: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 4 of 20</span>
+    <h1>Resonances and quasi-bound states</h1>
+    <p class="course-toc-meta">Topic: Bound states and spectra</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Goal:** Study quasi-bound states and resonances in quantum mechanics, the relation between the width of a resonance and the lifetime, and the interpretation of resonances as poles of the $S$-matrix in the complex energy plane.
+
+1.  Consider the one-dimensional potential $$V(x)=
+    \begin{cases}
+    -V_0, & |x|<a,\\
+    0, & |x|>a.
+    \end{cases}$$
+
+2.  Find the reflection and transmission coefficients $R(E)$, $T(E)$.
+
+3.  Show that there are resonance peaks with $T(E)\approx1$ at $E>0$.
+
+4.  Continue the energy into the complex plane, $E\to E-i\Gamma/2$, and find the conditions for the poles of the $S$-matrix.
+
+5.  Relate the width of the resonance $\Gamma$ to the lifetime of the state, $$\tau \sim \frac{1}{\Gamma}.$$
+
+6.  Plot numerically:
+
+    - $T(E)$;
+
+    - the trajectories of the poles as $V_0$ and $a$ vary.
+
+7.  Discuss why resonances are more naturally interpreted in the language of scattering than in the language of "bound states".
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="pionium.html"><span>← Previous</span>The \(\pi^+\pi^-\) atom</a><a class="qft-exam-next" href="klein-paradox.html"><span>Next →</span>The Klein paradox</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

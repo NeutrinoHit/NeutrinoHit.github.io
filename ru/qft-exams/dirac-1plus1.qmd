@@ -1,0 +1,41 @@
+---
+pagetitle: "Уравнение Дирака в 1+1 измерениях — Экзаменационные проекты"
+lang: ru-RU
+description: "Уравнение Дирака в 1+1 измерениях: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 6 из 20</span>
+    <h1>Уравнение Дирака в 1+1 измерениях</h1>
+    <p class="course-toc-meta">Тема: Релятивистская квантовая механика</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+Рассмотрите уравнение Дирака в одном пространственном и одном временном измерениях.
+
+1.  Найдите явный вид $\gamma^\mu$ матриц, удовлетворяющих соотношению $$\gamma^\mu\gamma^\nu+\gamma^\nu\gamma^\mu=2g^{\mu\nu}.$$
+
+2.  Найдите $\gamma^5$.
+
+3.  Предполагая массу фермиона равной нулю, покажите, что получаются два независимых уравнения движения для частиц, движущихся влево и вправо.
+
+4.  Покажите, что сохраняются токи: $$\partial_\mu\left(\overline{\psi}\gamma^\mu\left(\frac{1-\gamma^5}{2}\right)\psi\right)=0, \quad
+    \partial_\mu\left(\overline{\psi}\gamma^\mu\left(\frac{1+\gamma^5}{2}\right)\psi\right)=0.$$
+
+5.  Включите электрическое поле $A^1$, постоянное в пространстве и медленно меняющееся со временем. Найдите гамильтониан и его собственные значения, считая, что ось $x$ имеет конечную длину $L$ и накладывая периодические граничные условия. Нарисуйте спектр энергий для левых и правых фермионов.
+
+6.  Что произойдет со спектром энергии, если медленно изменить $A^1$ на $$\Delta A^1 = \frac{2\pi}{eL}?$$
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="klein-paradox.html"><span>← Предыдущий</span>Парадокс Клейна</a><a class="qft-exam-next" href="tremor.html"><span>Следующий →</span>Релятивистский тремор и давление</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

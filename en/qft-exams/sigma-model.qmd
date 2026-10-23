@@ -1,0 +1,43 @@
+---
+pagetitle: "Symmetries of the σ model — Examination projects"
+lang: en-US
+description: "Symmetries of the σ model: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 12 of 20</span>
+    <h1>Symmetries of the \(\sigma\) model</h1>
+    <p class="course-toc-meta">Topic: Symmetries and Noether&#x27;s theorem</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**The Lagrangian of the $\sigma$ model:** $$\begin{aligned}
+\mathcal{L} &= \frac{1}{2} \big[ (\partial_\mu \sigma)(\partial^\mu \sigma) + (\partial_\mu \boldsymbol{\pi}) \cdot (\partial^\mu \boldsymbol{\pi}) \big]
++ i \overline{\Psi} \cancel{\partial} \Psi
++ g \overline{\Psi} (\sigma + i \boldsymbol{\tau} \cdot \boldsymbol{\pi} \gamma_5) \Psi\\
+&- \frac{m^2}{2} (\sigma^2 + \boldsymbol{\pi}^2) - \frac{\lambda}{4} (\sigma^2 + \boldsymbol{\pi}^2)^2,
+\end{aligned}$$ where
+
+- $\sigma(x)$ is a scalar field,
+
+- $\boldsymbol{\pi}(x)$ is a three-component scalar field,
+
+- $\Psi(x)$ is a doublet of fermion fields,
+
+- $\boldsymbol{\tau}$ are the Pauli matrices.
+
+**Symmetry:** Prove that the Lagrangian $\mathcal{L}$ has the following symmetry: $$\sigma(x) \to \sigma(x),$$ $$\boldsymbol{\pi}(x) \to \boldsymbol{\pi}(x) - \boldsymbol{\alpha} \times \boldsymbol{\pi}(x),$$ $$\Psi(x) \to \Psi(x) + i \frac{\boldsymbol{\alpha} \cdot \boldsymbol{\tau}}{2} \Psi(x),$$ where $\boldsymbol{\alpha}$ is a 3-vector of infinitesimal parameters of the transformation. Find the corresponding Noether current.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="dirac-symmetries.html"><span>← Previous</span>Symmetries of the Dirac equation</a><a class="qft-exam-next" href="chiral-anomaly.html"><span>Next →</span>Spectral flow and the chiral anomaly in 1+1</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

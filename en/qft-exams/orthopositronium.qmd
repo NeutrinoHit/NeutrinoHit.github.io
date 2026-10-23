@@ -1,0 +1,45 @@
+---
+pagetitle: "The short life of orthopositronium — Examination projects"
+lang: en-US
+description: "The short life of orthopositronium: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 12 of 18</span>
+    <h1>The short life of orthopositronium</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Positronium is a bound state of an electron and a positron, similar to a hydrogen-like atom. Its states are classified by the total spin:
+
+- *parapositronium* (spin 0) decays mainly into two photons;
+
+- *orthopositronium* (spin 1) decays into three.
+
+In this project you will study the decay mechanism of orthopositronium, estimate its lifetime and see how QED describes the decay of composite particles.
+
+- Consider the decay of orthopositronium into three photons, $o\text{-Ps} \to 3\gamma$, assuming that the electron--positron system is at rest (the approximation $v \ll c$).
+
+(a) Draw all six tree-level diagrams of the process. Explain why there are exactly six. Write the full matrix element $\mathcal{M}$, taking into account that the photons are identical.
+
+(b) Compute the squared matrix element $|\mathcal{M}|^2$, averaged over the initial and summed over the final spins, in the approximation of fermions at rest ($\boldsymbol{p}=\boldsymbol{p}'=0$).
+
+(c) Find the differential decay rate in the energy of one of the photons, $$\frac{d\Gamma}{d\omega_1},$$ where $\omega_1$ is the energy of the first photon in the center-of-mass frame. Take the symmetry of the process into account.
+
+(d) Integrate and obtain the total decay width $\Gamma(o\text{-Ps} \to 3\gamma)$. Using $$\tau = \frac{\hbar}{\Gamma},$$ find the lifetime of orthopositronium in vacuum.
+
+(e) Modify the calculation assuming that the electron and the positron are in the ground state of a hydrogen-like atom (wave function $\psi(0) \neq 0$). How does this change the result?
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="vacuum-birefringence.html"><span>← Previous</span>When the vacuum becomes a prism</a><a class="qft-exam-next" href="cherenkov.html"><span>Next →</span>Vavilov–Cherenkov radiation</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

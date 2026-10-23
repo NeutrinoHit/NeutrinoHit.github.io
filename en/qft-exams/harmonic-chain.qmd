@@ -1,0 +1,71 @@
+---
+pagetitle: "The quantum harmonic oscillator — Examination projects"
+lang: en-US
+description: "The quantum harmonic oscillator: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 1 of 20</span>
+    <h1>The quantum harmonic oscillator</h1>
+    <p class="course-toc-meta">Topic: Quantization and normal modes</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Goal:** Study the energy spectrum and the dynamics of a one-dimensional chain of quantum harmonic oscillators, including an analysis of its symmetries and a visualization of its evolution.
+
+1.  **The Hamiltonian:** Consider a one-dimensional chain of $N$ identical atoms with spacing $a$ between neighboring atoms. The Hamiltonian of the system is $$\widehat{H} = \sum_{i=1}^N \frac{\widehat{P}_i^2}{2m} + \frac{k}{2} \sum_{i=1}^N (\widehat{X}_{i+1} - \widehat{X}_i)^2,$$ where
+
+    - $m$ is the mass of an atom,
+
+    - $k = m\omega^2$ is the stiffness of the bond between neighboring atoms,
+
+    - $\widehat{P}_i$ and $\widehat{X}_i$ are the momentum and coordinate (displacement from equilibrium) operators of the $i$th atom.
+
+    Explain why only interactions between neighboring atoms are taken into account.
+
+2.  **Normal-mode operators:** Define the normal-mode operators $$\begin{aligned}
+        \widehat{Q}_k &= \frac{1}{\sqrt{N}} \sum_{n=1}^N e^{ikan} \widehat{X}_n, \\
+        \widehat{\Pi}_k &= \frac{1}{\sqrt{N}} \sum_{n=1}^N e^{-ikan} \widehat{P}_n,
+        \end{aligned}$$ where $k = \frac{2\pi\ell}{Na}$, $\ell = 0, 1, \dots, N-1$.
+
+    1.  Compute the commutators $[\widehat{Q}_k, \widehat{\Pi}_{k'}]$, $[\widehat{Q}_k, \widehat{Q}_{k'}]$, and $[\widehat{\Pi}_k, \widehat{\Pi}_{k'}]$.
+
+    2.  Write the Hamiltonian $\widehat{H}$ in terms of $\widehat{Q}_k$ and $\widehat{\Pi}_k$.
+
+3.  **Periodic boundary conditions:** Assume that the chain obeys periodic boundary conditions: $$\widehat{X}_{N+1} = \widehat{X}_1.$$
+
+    1.  Find the eigenfrequencies $\omega_k$ of the system, where $k$ is the wave vector.
+
+    2.  Show that the system is equivalent to a set of independent harmonic oscillators, one for each mode $k$.
+
+4.  **Dynamics of the atoms:**
+
+    1.  Compute the wave function $\psi(t)$ of the system.
+
+    2.  Make an animation of the mean displacements of the atoms $\langle X_n\rangle(t)$ for different initial conditions:
+
+        - one atom displaced: $X_i(0) \neq 0$, all other $X_n(0) = 0$;
+
+        - two atoms displaced: $X_i(0) \neq 0$, $X_k(0) \neq 0$, all other $X_n(0) = 0$.
+
+5.  **Symmetries and conserved charges:**
+
+    1.  Find all symmetries of the problem (for example, translation symmetry and invariance under time shifts).
+
+    2.  Using Noether's theorem, compute the conserved charges associated with each symmetry.
+
+    3.  Explain the physical meaning of these charges (for example, energy, momentum, phase correlations of the modes).
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><span></span><a class="qft-exam-next" href="hydrogen-atom.html"><span>Next →</span>The hydrogen atom</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

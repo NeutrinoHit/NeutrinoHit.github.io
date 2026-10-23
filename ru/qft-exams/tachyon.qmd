@@ -1,0 +1,42 @@
+---
+pagetitle: "Тахион — Экзаменационные проекты"
+lang: ru-RU
+description: "Тахион: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 17 из 20</span>
+    <h1>Тахион</h1>
+    <p class="course-toc-meta">Тема: Причинность и дисперсия</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+Тахион --- это гипотетическая частица, движущаяся со скоростью, превышающей скорость света. Часто это интерпретируется как возможность передавать сверхсветовые сигналы. Исследуйте вопрос: так ли это?
+
+1.  Рассмотрите цепочку из маятников в однородном гравитационном поле, подвешенных к общему основанию и соединенных пружинками. Расстояние между маятниками равно $a$.
+
+2.  Покажите, что функция Лагранжа для этой системы имеет вид: $$L = \sum_i \left(A\dot{\phi}^2_i-B(\phi_i-\phi_{i-1})^2 - C(1-\cos\phi_i)\right),$$ где $\phi_i$ --- угол отклонения $i$-го маятника от положения равновесия. Определите $A$, $B$, $C$.
+
+3.  Сделайте переход к бесконечному числу маятников в пределе $a\to 0$. Покажите, что лагранжиан эквивалентен $$\mathcal{L} = \frac{1}{2}\left(\frac{\partial\phi}{\partial t}\right)^2-\frac{1}{2}\left(\frac{\partial\phi}{\partial x}\right)^2-m^2(1-\cos\phi).$$
+
+4.  Получите уравнение движения поля $\phi$: $$\frac{\partial^2\phi}{\partial t^2}-\frac{\partial^2\phi}{\partial x^2}+m^2\sin\phi=0.$$
+
+5.  В случае малого отклонения от положения устойчивого равновесия $\phi=0$ получается обычное уравнение Клейна-Фока-Гордона: $$\frac{\partial^2\phi}{\partial t^2}-\frac{\partial^2\phi}{\partial x^2}+m^2\phi=0.$$
+
+6.  В случае малого отклонения от положения неустойчивого равновесия $\phi=\pi$ получается уравнение Клейна-Фока-Гордона с отрицательным квадратом массы: $$\frac{\partial^2\phi}{\partial t^2}-\frac{\partial^2\phi}{\partial x^2}-m^2\phi=0.$$ Формально, плоская волна $\phi = e^{-i\omega t+ikx}$ даёт: $$\omega^2 = k^2-m^2, \quad \text{и групповая скорость} \quad v_g = \frac{\partial \omega}{\partial k} = \frac{k}{\omega}>1.$$
+
+7.  Покажите, что решение уравнения: $$\left(\frac{\partial^2}{\partial t^2}-\frac{\partial^2}{\partial x^2}-m^2\right)\phi=\delta(t)\delta(x)$$ распространяется не быстрее света: запаздывающая функция Грина равна нулю вне светового конуса.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="diffraction.html"><span>← Предыдущий</span>Дифракция на отверстии</a><a class="qft-exam-next" href="berry-phase.html"><span>Следующий →</span>Фаза Берри</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

@@ -18,6 +18,8 @@ project:
     - "ru/courses/*.qmd"
     - "ru/interviews/*.qmd"
     - "en/courses/*.qmd"
+    - "ru/qft-exams/*.qmd"
+    - "en/qft-exams/*.qmd"
     - "albums/**/*.qmd"
     - "!obsolete/**/*.qmd"
     - "!photo-studio.qmd"

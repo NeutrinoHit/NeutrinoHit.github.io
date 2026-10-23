@@ -1,0 +1,37 @@
+---
+pagetitle: "Радиационная нейтринная опасность — Экзаменационные проекты"
+lang: ru-RU
+description: "Радиационная нейтринная опасность: экзаменационные проекты — весна."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#spring">Весна</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Весна · проект 10 из 18</span>
+    <h1>Радиационная нейтринная опасность</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Огромное количество нейтрино каждую секунду пронизывает Землю и её обитателей. Оцените влияние этих потоков на человека в терминах радиационной дозы.
+
+- Вычислите сечение рассеяния нейтрино на электроне и глубоконеупругое сечение взаимодействия с нуклоном (используйте партонные распределения `LHAPDF`).
+
+- Используйте потоки из литературы для солнечных, атмосферных, реликтовых нейтрино.
+
+- Вычислите число взаимодействий в год в теле человека массой 70 кг, а также выделение энергии.
+
+- Переведите полученное число взаимодействий в эквивалентную дозу (Зв/год), используя приближение: $$D \approx N_{\text{events}} \cdot \langle E_{\text{dep}} \rangle \cdot \frac{Q}{m},$$ где $Q = 1$ --- взвешивающий коэффициент для вторичных электронов и мюонов, $m = 70$ кг, а $\langle E_{\text{dep}} \rangle$ --- средняя энергия, передаваемая телу за одно взаимодействие.
+
+- Сравните полученную дозу с естественным фоном и допустимыми нормами. Сделайте вывод: опасны ли нейтрино?
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-ru.pdf">Весна: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="higgs-decay.html"><span>← Предыдущий</span>Распад бозона Хиггса</a><a class="qft-exam-next" href="vacuum-birefringence.html"><span>Следующий →</span>Когда вакуум становится призмой</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← Все проекты</a></p>
+</article>
+```

@@ -1,0 +1,80 @@
+---
+pagetitle: "Examination projects in quantum field theory"
+lang: en-US
+description: "Examination projects of D. V. Naumov's course in quantum field theory: autumn and spring problems with theory, calculation and simulation."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exams">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="education.html">Education</a><span>›</span><span>Examination projects</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Exam · projects</span>
+    <h1>Examination projects in quantum field theory</h1>
+    <p class="course-page-summary">The examination in the course “Quantum Field Theory for Experimentalists” takes the form of mini-projects. Each student receives an individual problem and about a week to prepare. Each project is a small piece of research: theory, calculation, simulation and comparison with experiment.</p>
+    <p class="course-toc-meta">Autumn · 20 projects · Spring · 18 projects</p>
+    <div class="lecture-course-actions"><a class="lecture-action-primary" href="#autumn">Autumn</a><a class="lecture-action-primary" href="#spring">Spring</a><a href="../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a><a href="../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  </header>
+  <h2 id="autumn" class="course-page-section">Autumn term · 20 projects</h2>
+  <p class="course-page-summary qft-exams-season-lead">Quantum mechanics, the Dirac equation, symmetries and the vacuum: the first term of the course.</p>
+  <table class="course-toc course-toc-full qft-exams-toc">
+    <thead><tr><th class="course-toc-num">No.</th><th>Project</th><th class="qft-exams-topic">Topic</th></tr></thead>
+    <tbody>
+      <tr id="harmonic-chain"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="qft-exams/harmonic-chain.html">The quantum harmonic oscillator</a></td><td class="qft-exams-topic">Quantization and normal modes</td></tr>
+      <tr id="hydrogen-atom"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="qft-exams/hydrogen-atom.html">The hydrogen atom</a></td><td class="qft-exams-topic">Bound states and spectra</td></tr>
+      <tr id="pionium"><td class="course-toc-num">03</td><td class="course-toc-topic"><a href="qft-exams/pionium.html">The \(\pi^+\pi^-\) atom</a></td><td class="qft-exams-topic">Bound states and spectra</td></tr>
+      <tr id="resonances"><td class="course-toc-num">04</td><td class="course-toc-topic"><a href="qft-exams/resonances.html">Resonances and quasi-bound states</a></td><td class="qft-exams-topic">Bound states and spectra</td></tr>
+      <tr id="klein-paradox"><td class="course-toc-num">05</td><td class="course-toc-topic"><a href="qft-exams/klein-paradox.html">The Klein paradox</a></td><td class="qft-exams-topic">Relativistic quantum mechanics</td></tr>
+      <tr id="dirac-1plus1"><td class="course-toc-num">06</td><td class="course-toc-topic"><a href="qft-exams/dirac-1plus1.html">The Dirac equation in 1+1 dimensions</a></td><td class="qft-exams-topic">Relativistic quantum mechanics</td></tr>
+      <tr id="tremor"><td class="course-toc-num">07</td><td class="course-toc-topic"><a href="qft-exams/tremor.html">Relativistic tremor and pressure</a></td><td class="qft-exams-topic">Relativistic quantum mechanics</td></tr>
+      <tr id="dirac-matrices"><td class="course-toc-num">08</td><td class="course-toc-topic"><a href="qft-exams/dirac-matrices.html">The Dirac \(\gamma\) matrices</a></td><td class="qft-exams-topic">Relativistic quantum mechanics</td></tr>
+      <tr id="stern-gerlach"><td class="course-toc-num">09</td><td class="course-toc-topic"><a href="qft-exams/stern-gerlach.html">The Stern–Gerlach experiment</a></td><td class="qft-exams-topic">Spin and measurement</td></tr>
+      <tr id="quantum-eraser"><td class="course-toc-num">10</td><td class="course-toc-topic"><a href="qft-exams/quantum-eraser.html">The quantum eraser and delayed choice</a></td><td class="qft-exams-topic">Spin and measurement</td></tr>
+      <tr id="dirac-symmetries"><td class="course-toc-num">11</td><td class="course-toc-topic"><a href="qft-exams/dirac-symmetries.html">Symmetries of the Dirac equation</a></td><td class="qft-exams-topic">Symmetries and Noether&#x27;s theorem</td></tr>
+      <tr id="sigma-model"><td class="course-toc-num">12</td><td class="course-toc-topic"><a href="qft-exams/sigma-model.html">Symmetries of the \(\sigma\) model</a></td><td class="qft-exams-topic">Symmetries and Noether&#x27;s theorem</td></tr>
+      <tr id="chiral-anomaly"><td class="course-toc-num">13</td><td class="course-toc-topic"><a href="qft-exams/chiral-anomaly.html">Spectral flow and the chiral anomaly in 1+1</a></td><td class="qft-exams-topic">Symmetries and Noether&#x27;s theorem</td></tr>
+      <tr id="casimir"><td class="course-toc-num">14</td><td class="course-toc-topic"><a href="qft-exams/casimir.html">The Casimir effect</a></td><td class="qft-exams-topic">Vacuum effects and boundaries</td></tr>
+      <tr id="dynamical-casimir"><td class="course-toc-num">15</td><td class="course-toc-topic"><a href="qft-exams/dynamical-casimir.html">The dynamical Casimir effect</a></td><td class="qft-exams-topic">Vacuum effects and boundaries</td></tr>
+      <tr id="diffraction"><td class="course-toc-num">16</td><td class="course-toc-topic"><a href="qft-exams/diffraction.html">Diffraction by an aperture</a></td><td class="qft-exams-topic">Green&#x27;s functions and wave problems</td></tr>
+      <tr id="tachyon"><td class="course-toc-num">17</td><td class="course-toc-topic"><a href="qft-exams/tachyon.html">The tachyon</a></td><td class="qft-exams-topic">Causality and dispersion</td></tr>
+      <tr id="berry-phase"><td class="course-toc-num">18</td><td class="course-toc-topic"><a href="qft-exams/berry-phase.html">The Berry phase</a></td><td class="qft-exams-topic">Geometric effects</td></tr>
+      <tr id="landau-levels"><td class="course-toc-num">19</td><td class="course-toc-topic"><a href="qft-exams/landau-levels.html">Landau levels: from nonrelativistic particles to graphene</a></td><td class="qft-exams-topic">Gauge fields and quantization of motion</td></tr>
+      <tr id="aharonov-bohm"><td class="course-toc-num">20</td><td class="course-toc-topic"><a href="qft-exams/aharonov-bohm.html">The Aharonov–Bohm effect and gauge invariance</a></td><td class="qft-exams-topic">Gauge fields and quantization of motion</td></tr>
+    </tbody>
+  </table>
+  <h2 id="spring" class="course-page-section">Spring term · 18 projects</h2>
+  <p class="course-page-summary qft-exams-season-lead">QED, the Standard Model, neutrinos and cosmology: the second term of the course.</p>
+  <table class="course-toc course-toc-full qft-exams-toc">
+    <thead><tr><th class="course-toc-num">No.</th><th>Project</th></tr></thead>
+    <tbody>
+      <tr id="varying-masses"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="qft-exams/varying-masses.html">Can masses depend on position?</a></td></tr>
+      <tr id="z-pole"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="qft-exams/z-pole.html">The Standard Model at the \(Z\) pole</a></td></tr>
+      <tr id="solar-neutrinos"><td class="course-toc-num">03</td><td class="course-toc-topic"><a href="qft-exams/solar-neutrinos.html">Solar neutrinos</a></td></tr>
+      <tr id="relic-neutrinos"><td class="course-toc-num">04</td><td class="course-toc-topic"><a href="qft-exams/relic-neutrinos.html">Relic neutrinos</a></td></tr>
+      <tr id="reactor-antineutrinos"><td class="course-toc-num">05</td><td class="course-toc-topic"><a href="qft-exams/reactor-antineutrinos.html">Reactor antineutrinos</a></td></tr>
+      <tr id="neutral-pion"><td class="course-toc-num">06</td><td class="course-toc-topic"><a href="qft-exams/neutral-pion.html">The neutral pion</a></td></tr>
+      <tr id="glashow-resonance"><td class="course-toc-num">07</td><td class="course-toc-topic"><a href="qft-exams/glashow-resonance.html">The Glashow resonance</a></td></tr>
+      <tr id="neutral-kaons"><td class="course-toc-num">08</td><td class="course-toc-topic"><a href="qft-exams/neutral-kaons.html">Neutral kaons</a></td></tr>
+      <tr id="higgs-decay"><td class="course-toc-num">09</td><td class="course-toc-topic"><a href="qft-exams/higgs-decay.html">Decay of the Higgs boson</a></td></tr>
+      <tr id="neutrino-dose"><td class="course-toc-num">10</td><td class="course-toc-topic"><a href="qft-exams/neutrino-dose.html">Neutrino radiation hazard</a></td></tr>
+      <tr id="vacuum-birefringence"><td class="course-toc-num">11</td><td class="course-toc-topic"><a href="qft-exams/vacuum-birefringence.html">When the vacuum becomes a prism</a></td></tr>
+      <tr id="orthopositronium"><td class="course-toc-num">12</td><td class="course-toc-topic"><a href="qft-exams/orthopositronium.html">The short life of orthopositronium</a></td></tr>
+      <tr id="cherenkov"><td class="course-toc-num">13</td><td class="course-toc-topic"><a href="qft-exams/cherenkov.html">Vavilov–Cherenkov radiation</a></td></tr>
+      <tr id="cosmological-constant"><td class="course-toc-num">14</td><td class="course-toc-topic"><a href="qft-exams/cosmological-constant.html">The cosmological constant</a></td></tr>
+      <tr id="functional-integral"><td class="course-toc-num">15</td><td class="course-toc-topic"><a href="qft-exams/functional-integral.html">The functional integral</a></td></tr>
+      <tr id="grand-unification"><td class="course-toc-num">16</td><td class="course-toc-topic"><a href="qft-exams/grand-unification.html">Grand Unified Theories</a></td></tr>
+      <tr id="unstable-particles"><td class="course-toc-num">17</td><td class="course-toc-topic"><a href="qft-exams/unstable-particles.html">Widths of unstable particles</a></td></tr>
+      <tr id="polarizing-glasses"><td class="course-toc-num">18</td><td class="course-toc-topic"><a href="qft-exams/polarizing-glasses.html">Polarizing glasses and QED</a></td></tr>
+    </tbody>
+  </table>
+  <h2 id="how" class="course-page-section">How a project is organized</h2>
+  <div class="qft-exams-how">
+    <div class="course-page-card"><h3>Goals</h3><ul><li>Applying the knowledge gained to real scientific problems.</li><li>Mastering the tools of research: LaTeX, git, python.</li><li>Developing the skills of working together on projects.</li><li>Critical thinking and creativity: the projects encourage unconventional solutions and well-argued conclusions.</li></ul></div>
+    <div class="course-page-card"><h3>Structure of the report</h3><ol><li>Introduction: motivation, a short review of the literature, statement of the problem.</li><li>Theory: derivations, calculations, formulas.</li><li>Practical part: simulation, data analysis, calculations.</li><li>Discussion: plots, tables, interpretation of the results.</li><li>Conclusions: the main results and how the work could be continued.</li><li>References: all sources used.</li></ol></div>
+    <div class="course-page-card"><h3>Technical aspects</h3><ul><li>Write the project in LaTeX; the online service overleaf.com is convenient.</li><li>Feynman diagrams: the tikz-feynman package.</li><li>Plots: the matplotlib library.</li></ul></div>
+  </div>
+  <p class="course-page-note">The projects are updated and expanded, so check back regularly.</p>
+  <p class="course-book-line">Textbook for the course: <a href="materials.html#qft-book">“Quantum Field Theory for Experimentalists and Beyond” →</a></p>
+  <p class="course-page-back"><a href="education.html">← Education</a></p>
+</article>
+```

@@ -1,0 +1,40 @@
+---
+pagetitle: "Spectral flow and the chiral anomaly in 1+1 — Examination projects"
+lang: en-US
+description: "Spectral flow and the chiral anomaly in 1+1: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 13 of 20</span>
+    <h1>Spectral flow and the chiral anomaly in 1+1</h1>
+    <p class="course-toc-meta">Topic: Symmetries and Noether&#x27;s theorem</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Goal:** Understand the origin of the chiral anomaly as a geometric effect related to the spectral flow of energy levels.
+
+1.  Consider the massless Dirac equation in 1+1, $$i\gamma^\mu(\partial_\mu+ieA_\mu)\psi=0,$$ on a ring of length $L$.
+
+2.  Impose periodic boundary conditions and find the energy spectrum $E_n(A_1)$.
+
+3.  Change $A_1(t)$ slowly from $0$ to $$\Delta A_1=\frac{2\pi}{eL}.$$
+
+4.  Plot the evolution of the energy levels and show that the levels cross zero.
+
+5.  Show that the numbers of right- and left-handed states change, even though the chiral current is formally conserved.
+
+6.  Discuss why this cannot be explained without taking the vacuum into account, even in a single-particle setting.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="sigma-model.html"><span>← Previous</span>Symmetries of the \(\sigma\) model</a><a class="qft-exam-next" href="casimir.html"><span>Next →</span>The Casimir effect</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

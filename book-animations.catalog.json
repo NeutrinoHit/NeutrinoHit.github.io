@@ -1497,6 +1497,44 @@
       },
       "gallery": "relativity-atom-spin/black-hole-flyby",
       "legacy_codes": []
+    },
+    {
+      "id": "0039",
+      "slug": "exams-autumn",
+      "qr_file": "exams1.pdf",
+      "hosting": "redirect",
+      "redirect": {
+        "ru": "/ru/qft-exams.html#autumn",
+        "en": "/en/qft-exams.html#autumn"
+      },
+      "title": {
+        "ru": "Экзаменационные проекты: осень",
+        "en": "Examination projects: autumn"
+      },
+      "caption": {
+        "ru": "Экзаменационные проекты курса квантовой теории поля, осенний семестр.",
+        "en": "Examination projects of the course in quantum field theory, autumn term."
+      },
+      "book": {}
+    },
+    {
+      "id": "0040",
+      "slug": "exams-spring",
+      "qr_file": "exams2.pdf",
+      "hosting": "redirect",
+      "redirect": {
+        "ru": "/ru/qft-exams.html#spring",
+        "en": "/en/qft-exams.html#spring"
+      },
+      "title": {
+        "ru": "Экзаменационные проекты: весна",
+        "en": "Examination projects: spring"
+      },
+      "caption": {
+        "ru": "Экзаменационные проекты курса квантовой теории поля, весенний семестр.",
+        "en": "Examination projects of the course in quantum field theory, spring term."
+      },
+      "book": {}
     }
   ]
 }

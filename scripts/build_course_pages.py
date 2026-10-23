@@ -323,6 +323,12 @@ def education(catalog: dict, lang: str) -> str:
         out.append(f'  <nav class="course-tiles" aria-label="{e(tr(section["title"], lang))}">')
         for slug in section["courses"]:
             out.append(tile(by_slug[slug], lang, page_depth=1))
+        for extra in section.get("tiles") or []:
+            meta = f'<span class="course-tile-meta">{e(tr(extra["meta"], lang))}</span>' if extra.get("meta") else ""
+            anchor = f' id="{e(extra["anchor"])}"' if extra.get("anchor") else ""
+            out.append(f'    <div class="course-tile"{anchor}><span class="course-tile-status is-ready">{e(tr(extra["kind"], lang))}</span>'
+                       f'<a class="course-tile-title" href="{e(href(extra, lang, depth=1))}">{e(tr(extra["title"], lang))}</a>'
+                       f'<span class="course-tile-text">{e(tr(extra["text"], lang))}</span>{meta}</div>')
         out += ["  </nav>", ""]
     program = (ROOT / "_includes" / f"education-program-{lang}.html").read_text(encoding="utf-8").strip()
     out += [f'  <h2 id="programs" class="section-inline-title">{T[lang]["programs"]}</h2>',

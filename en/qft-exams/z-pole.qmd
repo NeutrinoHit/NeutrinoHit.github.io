@@ -1,0 +1,45 @@
+---
+pagetitle: "The Standard Model at the Z pole — Examination projects"
+lang: en-US
+description: "The Standard Model at the Z pole: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 2 of 18</span>
+    <h1>The Standard Model at the \(Z\) pole</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Experiments at the Large Electron--Positron collider (LEP) at CERN were decisive for precision studies of the electroweak interactions.
+
+\(i\) Consider the decay $Z\to f\bar{f}$. Neglect the masses of the fermions.
+
+a\) Show that the total polarization of the fermion pair can be found by measuring the asymmetry $$A_{LR}^f = \frac{\Gamma(Z\to f_L\bar{f}_R)-\Gamma(Z\to f_R\bar{f}_L)}{\Gamma(Z\to f_L\bar{f}_R)+\Gamma(Z\to f_R\bar{f}_L)}.$$
+
+b\) Express $A_{LR}^f$ in terms of the electric charge $Q_f$, the third component of the weak isospin $T_3^f$ of the fermion and $\sin^2\theta_w$ in the Standard Model.
+
+c\) Compute $A_{LR}^f$ for the charged leptons, the neutrinos and the quarks.
+
+\(ii\) Define the forward--backward asymmetry of the process $e^+e^-\to f\bar{f}$ as $$A_{FB}^f = \frac{\int\limits_0^1 d\cos\theta\frac{d\sigma}{d\cos\theta} - \int\limits_{-1}^0 d\cos\theta\frac{d\sigma}{d\cos\theta}}{\int\limits_0^1 d\cos\theta\frac{d\sigma}{d\cos\theta} + \int\limits_{-1}^0 d\cos\theta\frac{d\sigma}{d\cos\theta}}.$$
+
+d\) Find $A_{FB}^f$ as a function of $\sqrt{s}$. Plot it.
+
+e\) Show that at $\sqrt{s}=m_Z$ the asymmetries $A_{LR}^f$ and $A_{FB}^f$ are related by $$A_{FB}^f = \frac{3}{4}A_{LR}^e A_{LR}^f.$$
+
+f\) Show that at $\sqrt{s}=m_Z$ $$\sigma(e^+e^-\to f\bar{f}) = \frac{12\pi}{m_Z^2}\frac{\Gamma(Z\to e^+e^-)\Gamma(Z\to f\bar{f})}{\Gamma^2(Z\to \text{ all})}.$$
+
+\(iii\) Discuss how $\sigma(e^+e^-\to f\bar{f})$ and $\Gamma(Z\to \text{ all})$ would change if there were a fourth type of neutrino.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="varying-masses.html"><span>← Previous</span>Can masses depend on position?</a><a class="qft-exam-next" href="solar-neutrinos.html"><span>Next →</span>Solar neutrinos</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

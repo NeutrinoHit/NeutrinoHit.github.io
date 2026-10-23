@@ -1,0 +1,32 @@
+---
+pagetitle: "The Dirac γ matrices — Examination projects"
+lang: en-US
+description: "The Dirac γ matrices: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 8 of 20</span>
+    <h1>The Dirac \(\gamma\) matrices</h1>
+    <p class="course-toc-meta">Topic: Relativistic quantum mechanics</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+1.  Show that the commutator $[\sigma_{\mu\nu},\sigma_{\alpha\beta}]$ can be written in terms of the matrices $\sigma_{\mu\nu}$. Find the coefficients of this expansion.
+
+2.  Compute the trace $$\operatorname{Tr}\left(\gamma_\mu\gamma_\nu\gamma_\rho\gamma_\sigma\gamma_\alpha\gamma_\beta\gamma_5\right).$$
+
+3.  Compute $$\sigma_{\mu\nu}\sigma^{\mu\nu}, \quad \sigma_{\mu\nu}\gamma^5\sigma^{\mu\nu}, \quad \sigma_{\mu\nu}\gamma^\alpha\sigma^{\mu\nu}.$$
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="tremor.html"><span>← Previous</span>Relativistic tremor and pressure</a><a class="qft-exam-next" href="stern-gerlach.html"><span>Next →</span>The Stern–Gerlach experiment</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

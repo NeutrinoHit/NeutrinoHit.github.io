@@ -1,0 +1,32 @@
+---
+pagetitle: "Symmetries of the Dirac equation — Examination projects"
+lang: en-US
+description: "Symmetries of the Dirac equation: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 11 of 20</span>
+    <h1>Symmetries of the Dirac equation</h1>
+    <p class="course-toc-meta">Topic: Symmetries and Noether&#x27;s theorem</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+1.  Using Noether's theorem, obtain the conserved current for $$\mathcal{L} =i\bar{\psi}\cancel{\partial}\psi - m\bar{\psi}\psi$$ under the global gauge transformations $$\psi \rightarrow e^{i \alpha} \psi, \,\, \overline{\psi} \rightarrow e^{-i\alpha}  \overline{\psi}.$$
+
+2.  Using Noether's theorem, obtain the conserved current for $\mathcal{L} = i\bar{\psi}\cancel{\partial}\psi$ under the chiral transformation $$\psi \rightarrow e^{i \alpha \gamma^5} \psi.$$ Find how the field $\bar{\psi}$ transforms.
+
+3.  Prove that the action of the massless Dirac field is invariant under dilatations: $$x\to x'=e^{-\rho}x, \quad \psi(x)\to \psi'(x') = e^{3\rho/2}\psi(x).$$ Find the corresponding Noether current and charge.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="quantum-eraser.html"><span>← Previous</span>The quantum eraser and delayed choice</a><a class="qft-exam-next" href="sigma-model.html"><span>Next →</span>Symmetries of the \(\sigma\) model</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

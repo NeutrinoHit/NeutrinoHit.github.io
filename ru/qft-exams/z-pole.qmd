@@ -1,0 +1,45 @@
+---
+pagetitle: "Стандартная модель на Z-полюсе — Экзаменационные проекты"
+lang: ru-RU
+description: "Стандартная модель на Z-полюсе: экзаменационные проекты — весна."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#spring">Весна</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Весна · проект 2 из 18</span>
+    <h1>Стандартная модель на \(Z\)-полюсе</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Эксперименты на большом электрон-позитронном коллайдере (LEP) в ЦЕРН стали определяющими в прецизионных исследованиях электрослабых взаимодействий.
+
+\(i\) Рассмотрите распад $Z\to f\bar{f}$. Массой фермионов пренебрегаем.
+
+a\) Покажите, что суммарная поляризация пары фермионов может быть найдена, измерив асимметрию $$A_{LR}^f = \frac{\Gamma(Z\to f_L\bar{f}_R)-\Gamma(Z\to f_R\bar{f}_L)}{\Gamma(Z\to f_L\bar{f}_R)+\Gamma(Z\to f_R\bar{f}_L)}.$$
+
+b\) Выразите $A_{LR}^f$ через электрический заряд $Q_f$, третью проекцию слабого изоспина $T_3^f$ фермиона и $\sin^2\theta_w$ в Стандартной модели.
+
+c\) Вычислите $A_{LR}^f$ для заряженных лептонов, нейтрино, кварков.
+
+\(ii\) Определим асимметрию «вперёд-назад» для процесса $e^+e^-\to f\bar{f}$ согласно $$A_{FB}^f = \frac{\int\limits_0^1 d\cos\theta\frac{d\sigma}{d\cos\theta} - \int\limits_{-1}^0 d\cos\theta\frac{d\sigma}{d\cos\theta}}{\int\limits_0^1 d\cos\theta\frac{d\sigma}{d\cos\theta} + \int\limits_{-1}^0 d\cos\theta\frac{d\sigma}{d\cos\theta}}.$$
+
+d\) Найдите $A_{FB}^f$ как функцию $\sqrt{s}$. Постройте график.
+
+e\) Покажите, что при $\sqrt{s}=m_Z$ асимметрии $A_{LR}^f$ и $A_{FB}^f$ связаны $$A_{FB}^f = \frac{3}{4}A_{LR}^e A_{LR}^f.$$
+
+f\) Покажите, что при $\sqrt{s}=m_Z$ $$\sigma(e^+e^-\to f\bar{f}) = \frac{12\pi}{m_Z^2}\frac{\Gamma(Z\to e^+e^-)\Gamma(Z\to f\bar{f})}{\Gamma^2(Z\to \text{ all})}.$$
+
+\(iii\) Обсудите, как изменятся $\sigma(e^+e^-\to f\bar{f})$ и $\Gamma(Z\to \text{ all})$ при наличии четвёртого типа нейтрино.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-ru.pdf">Весна: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="varying-masses.html"><span>← Предыдущий</span>Могут ли массы зависеть от координаты?</a><a class="qft-exam-next" href="solar-neutrinos.html"><span>Следующий →</span>Солнечные нейтрино</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← Все проекты</a></p>
+</article>
+```

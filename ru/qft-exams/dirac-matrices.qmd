@@ -1,0 +1,32 @@
+---
+pagetitle: "γ матрицы Дирака — Экзаменационные проекты"
+lang: ru-RU
+description: "γ матрицы Дирака: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 8 из 20</span>
+    <h1>\(\gamma\) матрицы Дирака</h1>
+    <p class="course-toc-meta">Тема: Релятивистская квантовая механика</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+1.  Покажите, что коммутатор $[\sigma_{\mu\nu},\sigma_{\alpha\beta}]$ может быть записан через матрицы $\sigma_{\mu\nu}$. Найдите коэффициенты этого разложения.
+
+2.  Вычислите след $$\operatorname{Tr}\left(\gamma_\mu\gamma_\nu\gamma_\rho\gamma_\sigma\gamma_\alpha\gamma_\beta\gamma_5\right).$$
+
+3.  Вычислите: $$\sigma_{\mu\nu}\sigma^{\mu\nu}, \quad \sigma_{\mu\nu}\gamma^5\sigma^{\mu\nu}, \quad \sigma_{\mu\nu}\gamma^\alpha\sigma^{\mu\nu}.$$
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="tremor.html"><span>← Предыдущий</span>Релятивистский тремор и давление</a><a class="qft-exam-next" href="stern-gerlach.html"><span>Следующий →</span>Эксперимент Штерна-Герлаха</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

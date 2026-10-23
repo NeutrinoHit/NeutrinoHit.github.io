@@ -1,0 +1,125 @@
+---
+pagetitle: "The Aharonov–Bohm effect and gauge invariance — Examination projects"
+lang: en-US
+description: "The Aharonov–Bohm effect and gauge invariance: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 20 of 20</span>
+    <h1>The Aharonov–Bohm effect and gauge invariance</h1>
+    <p class="course-toc-meta">Topic: Gauge fields and quantization of motion</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Goal of the project:** Understand why in quantum mechanics the *gauge potential* $\boldsymbol{A}$ is physically significant even though the classical force depends only on the magnetic field $\boldsymbol{B}$. Show that the Aharonov--Bohm effect is *topological* and is observed as a shift of the interference pattern.
+
+We consider the interference of electrons in the presence of an infinitely long thin solenoid with magnetic flux $\Phi$, while $$\boldsymbol{B} = 0
+\quad \text{in the region where the electrons move}.$$
+
+## 1. Theory: the phase and the gauge potential {#theory-the-phase-and-the-gauge-potential .unnumbered}
+
+In classical electrodynamics a particle feels only the local field $\boldsymbol{B}=\nabla\times\boldsymbol{A}$. In quantum mechanics the phase structure of the wave function makes the vector potential $\boldsymbol{A}$ observable.
+
+1.  **The Schrödinger equation with a vector potential**
+
+    Consider the Schrödinger equation for a particle of charge $q$: $$i\hbar\frac{\partial\psi}{\partial t}
+    =
+    \frac{1}{2m}\left(
+    - i\hbar\nabla - q\boldsymbol{A}
+    \right)^2\psi .$$
+
+    Explain why the potential $\boldsymbol{A}$ can affect the phase of the wave function even when $\boldsymbol{B}=0$.
+
+2.  **The phase factor**
+
+    Let $\psi_0(\boldsymbol{r},t)$ be a solution of the Schrödinger equation with $\boldsymbol{A}=0$. Show that for nonzero $\boldsymbol{A}$ the solution can be written as $$\psi(\boldsymbol{r},t)
+    =
+    \exp\!\left(
+    \frac{i q}{\hbar}
+    \int_{\mathcal C} \boldsymbol{A}\cdot d\boldsymbol{l}
+    \right)
+    \psi_0(\boldsymbol{r},t),$$ where the integral is taken along the path of the particle.
+
+3.  **The phase difference in an interferometer**
+
+    Consider a double-slit experiment. Let the electron travel along two paths $\mathcal C_1$ and $\mathcal C_2$ that enclose the solenoid.
+
+    Show that the phase difference is $$\Delta\varphi
+    =
+    \frac{q}{\hbar}
+    \oint \boldsymbol{A}\cdot d\boldsymbol{l}
+    =
+    \frac{q\Phi}{\hbar}.$$
+
+    Explain why the result depends only on the magnetic flux $\Phi$ and not on the shape of the paths.
+
+## 2. Practical part: simulating the interference {#practical-part-simulating-the-interference .unnumbered}
+
+The aim is to show numerically that a change of the magnetic flux shifts the interference fringes.
+
+1.  **The interference pattern**
+
+    Model the intensity on the screen, $$I(x)
+    =
+    I_0\left[
+    1+\cos\!\left(
+    \frac{2\pi d}{\lambda L}x
+    +
+    \frac{q\Phi}{\hbar}
+    \right)
+    \right],$$ where $d$ is the distance between the slits, $L$ is the distance to the screen and $\lambda$ is the de Broglie wavelength of the electrons.
+
+    Plot $I(x)$ for several values of $\Phi$.
+
+    Derive this formula.
+
+2.  **Animation**
+
+    Make an animation showing how the interference pattern shifts as the flux changes, $$\Phi \in [0,\,\Phi_0], \qquad
+    \Phi_0=\frac{h}{q}.$$
+
+3.  **Monte Carlo**
+
+    Simulate the arrival of individual electrons on the screen:
+
+    1.  draw the coordinates of the hits from the distribution $I(x)$;
+
+    2.  plot histograms for different values of $\Phi$;
+
+    3.  show how the interference pattern builds up statistically.
+
+## 3. Discussion and physical meaning {#discussion-and-physical-meaning .unnumbered}
+
+1.  **Gauge invariance**
+
+    Explain why the phase of the wave function depends on the choice of gauge, while the observable phase difference $\Delta\varphi$ does not.
+
+2.  **Topological character**
+
+    Explain why the shift of the pattern is periodic in the flux with period $\Phi_0$ (an integer number of flux quanta is unobservable; only the fractional part of $\Phi/\Phi_0$ matters) and is insensitive to local deformations of the paths.
+
+## 4. What to submit {#what-to-submit .unnumbered}
+
+1.  The theoretical derivation.
+
+2.  An animation of the interference pattern.
+
+3.  A minimal `git` repository with the code (`python`) and the report.
+
+## References {#references .unnumbered}
+
+- Y. Aharonov, D. Bohm, *Significance of electromagnetic potentials in the quantum theory*, Phys. Rev. **115**, 485 (1959).
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="landau-levels.html"><span>← Previous</span>Landau levels: from nonrelativistic particles to graphene</a><span></span></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

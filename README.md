@@ -82,6 +82,24 @@ python scripts/build_outreach_pages.py --check  # проверить, что с�
 Якоря докладов `#talk-georgia-2026` и `#talk-protvino-2026` на «Науке» — цели кнопки
 «← Курс» слайдов (`scripts/reveal_context_targets.json`).
 
+## Экзаменационные проекты КТП
+
+Список `ru|en/qft-exams.html` и страница на каждый проект `ru|en/qft-exams/<slug>.html` пишет
+`scripts/build_qft_exams.py` из LaTeX-исходников книги (соседняя папка `TheBook`): осень — `chapters/Exams1.tex`
+(темы и порядок) и `projects/<Name>.tex`, весна — `chapters/Exams2.tex` (проект — `\section`), английские —
+те же файлы в `TheBook/en/`. Страницы не правят руками; `make site` скрипт не запускает (ему нужны исходники книги).
+PDF семестров `assets/qft-exams/qft-exams-<season>-<lang>.pdf` собираются LuaLaTeX по ключу `--pdf`;
+файл псевдоданных к проекту «Нейтральные каоны» — `assets/qft-exams/kaon-asymmetry-pseudodata.txt`.
+
+```bash
+python scripts/build_qft_exams.py          # записать страницы
+python scripts/build_qft_exams.py --pdf    # и четыре PDF
+python scripts/build_qft_exams.py --check  # страницы не устарели
+```
+
+QR-коды глав «Экзамены» книги ведут на `/qr/qft/0039/` (осень) и `/qr/qft/0040/` (весна): записи каталога
+`book-animations.catalog.json` с `hosting: "redirect"` сразу открывают список проектов на языке читателя.
+
 ## Локальный preview всего сайта
 
 `make site` собирает только центральный сайт. Для полного локального preview

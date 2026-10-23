@@ -1,0 +1,34 @@
+---
+pagetitle: "The Casimir effect — Examination projects"
+lang: en-US
+description: "The Casimir effect: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 14 of 20</span>
+    <h1>The Casimir effect</h1>
+    <p class="course-toc-meta">Topic: Vacuum effects and boundaries</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+1.  Consider the Casimir effect in 3D. Compute the pressure with which the plates attract each other, using the Euler--Maclaurin formula.
+
+2.  Explain the nature of the attraction between the plates. Can energy be extracted from the vacuum in this way?
+
+3.  Estimate the pressure. Compare it with the gravitational attraction of the plates as a function of the distance between them.
+
+4.  Review the experimental methods and results of measurements of the Casimir effect.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="chiral-anomaly.html"><span>← Previous</span>Spectral flow and the chiral anomaly in 1+1</a><a class="qft-exam-next" href="dynamical-casimir.html"><span>Next →</span>The dynamical Casimir effect</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

@@ -1,0 +1,126 @@
+---
+pagetitle: "Landau levels: from nonrelativistic particles to graphene — Examination projects"
+lang: en-US
+description: "Landau levels: from nonrelativistic particles to graphene: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 19 of 20</span>
+    <h1>Landau levels: from nonrelativistic particles to graphene</h1>
+    <p class="course-toc-meta">Topic: Gauge fields and quantization of motion</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Goal of the project:** Study the quantization of the motion of a charged particle in a uniform magnetic field. Show how the magnetic field leads to a discrete spectrum (Landau levels), how the choice of gauge affects the form of the wave functions, and compare the spectra of ordinary electrons and of massless Dirac fermions (the effective description of graphene).
+
+The project connects standard quantum mechanics, condensed matter physics and the relativistic equations that underlie quantum field theory.
+
+We consider the motion of a particle in the $(x,y)$ plane in a uniform magnetic field $\boldsymbol{B} = B\,\hat{\boldsymbol{z}}$.
+
+## 1. Theory: the oscillator structure {#theory-the-oscillator-structure .unnumbered}
+
+In a magnetic field translation invariance is broken, and the free motion of the particle is quantized.
+
+It is convenient to use the *Landau gauge* $$\boldsymbol{A} = (0,Bx,0).$$
+
+1.  **The Hamiltonian and integrals of motion**
+
+    Write the Hamiltonian of a charged particle: $$H=\frac{1}{2m}\left[
+    p_x^2 + (p_y - qBx)^2
+    \right].$$
+
+    1.  Show that the operator $p_y$ commutes with the Hamiltonian.
+
+    2.  Using the substitution $\psi(x,y)=e^{ik_y y}\phi(x)$, reduce the problem to a one-dimensional harmonic oscillator.
+
+2.  **The spectrum of Landau levels and their degeneracy**
+
+    1.  Find the energy spectrum $$E_n=\hbar\omega_c\left(n+\frac12\right),
+        \qquad
+        \omega_c=\frac{|q|B}{m}.$$
+
+    2.  Find the position $x_0$ of the center of the oscillator.
+
+    3.  Explain the physical meaning of the infinite degeneracy of the levels and its relation to the translation symmetry along the $y$ axis.
+
+3.  **The relativistic case: massless Dirac fermions (graphene)**
+
+    Consider the Dirac equation for massless particles in a magnetic field, which effectively describes electrons in graphene: $$H=v_F\,\boldsymbol{\sigma}\cdot\left(\boldsymbol{p} - q\boldsymbol{A}\right).$$
+
+    1.  Show that the spectrum of the Landau levels is $$E_n=\pm v_F\sqrt{2|q|B\hbar\,n}, \qquad n=0,1,2,\dots$$
+
+    2.  Explain the qualitative difference between this spectrum and the nonrelativistic one.
+
+## 2. Practical part: visualization and the density of states {#practical-part-visualization-and-the-density-of-states .unnumbered}
+
+The aim is to see the Landau levels and their physical consequences.
+
+1.  **Wave functions**
+
+    Plot the probability density $|\psi(x,y)|^2$ for the first few Landau levels.
+
+    1.  Show how the position of the maximum depends on the wave vector $k_y$.
+
+    2.  Illustrate the localization of states in a magnetic field.
+
+2.  **Comparing the spectra**
+
+    Plot the energies $E_n(B)$ for
+
+    1.  a nonrelativistic electron;
+
+    2.  a massless Dirac fermion (graphene).
+
+    Emphasize the difference between the linear and the square-root dependence on $B$.
+
+3.  **Density of states (DOS)**
+
+    Model the density of states by replacing the $\delta$ peaks of the Landau levels with narrow Gaussians (level broadening).
+
+    1.  Plot the DOS for different values of $B$.
+
+    2.  Show how the discrete structure disappears as $B\to0$.
+
+## 3. Discussion and the connection with quantum field theory {#discussion-and-the-connection-with-quantum-field-theory .unnumbered}
+
+1.  **The quantum Hall effect**
+
+    Explain how the gap between the Landau levels leads to the plateaus of the Hall conductance. What role does the degeneracy of the levels play?
+
+2.  **The magnetic length**
+
+    Introduce the magnetic length $$\ell_B=\sqrt{\frac{\hbar}{|q|B}}.$$ Discuss its physical meaning and its role as the fundamental scale in problems with strong magnetic fields (graphene, neutron stars, QFT in strong fields).
+
+3.  **The zero level and topology**
+
+    In graphene there is a level with energy $E=0$. Discuss its relation to chiral symmetry, spectral asymmetry and the topological properties of the system.
+
+## 4. What to submit {#what-to-submit .unnumbered}
+
+1.  A derivation of the Landau levels for the Schrödinger equation and for the Dirac equation.
+
+2.  Plots of the wave functions and of the spectra.
+
+3.  A numerical model of the density of states.
+
+## References {#references .unnumbered}
+
+- L. D. Landau, E. M. Lifshitz, *Quantum Mechanics: Non-Relativistic Theory* (§112).
+
+- A. H. Castro Neto et al., *The electronic properties of graphene*, Rev. Mod. Phys. **81**, 109 (2009).
+
+- D. Tong, *Lectures on the Quantum Hall Effect*, arXiv:1606.06687.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="berry-phase.html"><span>← Previous</span>The Berry phase</a><a class="qft-exam-next" href="aharonov-bohm.html"><span>Next →</span>The Aharonov–Bohm effect and gauge invariance</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

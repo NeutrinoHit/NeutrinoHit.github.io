@@ -13,6 +13,9 @@ Hosting modes (field "hosting" of an item):
   link      our own interactive material published elsewhere on NeutrinoHit (an applet, a slide of
             a lecture, an interactive figure of the online book): the page describes it and links
             to "link.url"; "link.kind" (applet, slides, book) selects the wording
+  redirect  a printed QR code that leads straight to another page of the site ("redirect": {"ru", "en"}
+            site paths, e.g. the examination projects): the page forwards at once in the reader's language;
+            it is not an animation, so it is not listed in the index and has no neighbours
 
 An item with "status": "proposed" is validated but not published (no page, no
 index entry, no QR url) until the status is removed; --include-proposed builds
@@ -71,7 +74,7 @@ INDEX_DIR = QR_ROOT / "qft"                  # where the index page is written
 MANIFEST_DIR = QR_ROOT                       # where manifest.json is written
 BOOK_SLUG = "qft"
 
-HOSTING = ("self", "external", "pending", "link")
+HOSTING = ("self", "external", "pending", "link", "redirect")
 # link.kind: (what it is, button) as {ru, en} pairs
 LINK_KINDS = {
     "applet": ({"ru": "Интерактивный апплет: параметры можно менять прямо в браузере.",
@@ -204,6 +207,10 @@ def validate(catalog: dict[str, Any]) -> list[str]:
                 problems.append(f"{ident}: link.url must be https")
             if link.get("kind") not in LINK_KINDS:
                 problems.append(f"{ident}: link.kind must be one of {tuple(LINK_KINDS)}")
+        if hosting == "redirect":
+            target = item.get("redirect", {})
+            if not all(str(target.get(lang, "")).startswith("/") for lang in LANGS):
+                problems.append(f"{ident}: redirect needs site paths for ru and en")
     return problems
 
 
@@ -620,6 +627,29 @@ def render_alias(catalog: dict[str, Any], item: dict[str, Any], code: str) -> st
 """
 
 
+def render_redirect(catalog: dict[str, Any], item: dict[str, Any]) -> str:
+    """A QR address that forwards at once to a page of the site, in the language of the reader."""
+    target = {lang: item["redirect"][lang] for lang in LANGS}
+    script = ("(function(){var l,q;try{q=new URLSearchParams(location.search).get('lang');"
+              "l=q||localStorage.getItem('nh-lang')||localStorage.getItem('neutrinohit-language')}catch(e){}"
+              "if(l!=='ru'&&l!=='en'){l=((navigator.language||'ru').toLowerCase().indexOf('ru')===0)?'ru':'en'}"
+              f"location.replace(l==='en'?{json.dumps(target['en'])}:{json.dumps(target['ru'])})}})();")
+    return f"""<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{esc(item["title"]["ru"])} — NeutrinoHit</title>
+<link rel="canonical" href="{esc(catalog["base_url"] + target["ru"].split("#")[0])}">
+<meta name="robots" content="noindex">
+<script>{script}</script>
+<noscript><meta http-equiv="refresh" content="0; url={esc(target["ru"])}"></noscript>
+</head>
+<body><p><a href="{esc(target["ru"])}">{esc(item["title"]["ru"])}</a> · <a href="{esc(target["en"])}">{esc(item["title"]["en"])}</a></p></body>
+</html>
+"""
+
+
 def render_index(catalog: dict[str, Any], items: list[dict[str, Any]]) -> str:
     book = catalog["book"]
     if any(is_material(item) for item in items):
@@ -674,6 +704,13 @@ def build_pages(catalog: dict[str, Any], items: list[dict[str, Any]],
                 out_dir: Path) -> list[Path]:
     OUT = out_dir
     written: list[Path] = []
+    for item in items:
+        if item["hosting"] == "redirect":
+            path = OUT / item["id"] / "index.html"
+            if write_if_changed(path, render_redirect(catalog, item)):
+                written.append(path)
+    every = items
+    items = [item for item in items if item["hosting"] != "redirect"]
     for index, item in enumerate(items):
         path = OUT / item["id"] / "index.html"
         if write_if_changed(path, render_item(catalog, items, index)):
@@ -692,8 +729,9 @@ def build_pages(catalog: dict[str, Any], items: list[dict[str, Any]],
             "qr_file": item.get("qr_file"),
             "legacy_codes": item.get("legacy_codes", []),
             **({"link": item["link"]["url"]} if item["hosting"] == "link" else {}),
+            **({"redirect": item["redirect"]} if item["hosting"] == "redirect" else {}),
         }
-        for item in items
+        for item in every
     }
     text = json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"
     if write_if_changed(MANIFEST_DIR / "manifest.json", text):
@@ -773,7 +811,8 @@ def main() -> int:
         visible = [i for i in catalog["items"]
                    if args.include_proposed or i.get("status", "published") == "published"]
         items = sorted(visible, key=sort_key)
-        built[book["slug"]] = {"count": len(items), "links": any(is_material(i) for i in items)}
+        listed = [i for i in items if i["hosting"] != "redirect"]
+        built[book["slug"]] = {"count": len(listed), "links": any(is_material(i) for i in listed)}
 
         if args.urls:
             for item in sorted(visible, key=lambda i: i["id"]):

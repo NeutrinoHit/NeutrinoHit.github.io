@@ -1,0 +1,33 @@
+---
+pagetitle: "Reactor antineutrinos — Examination projects"
+lang: en-US
+description: "Reactor antineutrinos: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 5 of 18</span>
+    <h1>Reactor antineutrinos</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Nuclear reactors of power plants are intense sources of antineutrinos. A reactor emits isotropically about $2\cdot 10^{20}$ antineutrinos per second for every GW of thermal power. Consider a project of experiments with reactor neutrinos.
+
+\(i\) Compute the cross section of the interaction $\bar{\nu}_e + p \to e^+ + n$.
+
+\(ii\) Estimate the number of such interactions per year for $E_{\bar{\nu}}=4$ MeV from a typical reactor of 3 GW. The target is water of mass 20 t. The distance between the detector and the reactor is 2 km.
+
+\(iii\) Estimate the detector mass needed to detect $10^5$ events $\bar{\nu}_e + p \to e^+ + n$ at a distance $L=50$ km from reactors with a total power of 30 GW. Take neutrino oscillations into account.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="relic-neutrinos.html"><span>← Previous</span>Relic neutrinos</a><a class="qft-exam-next" href="neutral-pion.html"><span>Next →</span>The neutral pion</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

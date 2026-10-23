@@ -1,0 +1,38 @@
+---
+pagetitle: "Динамический эффект Казимира — Экзаменационные проекты"
+lang: ru-RU
+description: "Динамический эффект Казимира: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 15 из 20</span>
+    <h1>Динамический эффект Казимира</h1>
+    <p class="course-toc-meta">Тема: Вакуумные эффекты и границы</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Цель:** Исследовать рождение реальных квантов из вакуума при нестационарных граничных условиях.
+
+1.  Рассмотрите одномерное скалярное поле $\phi(t,x)$ с граничным условием: $$\phi(t,0)=\phi(t,L(t))=0,$$ где $$L(t)=L_0\bigl(1+\epsilon\sin\omega t\bigr).$$
+
+2.  Найдите мгновенные моды поля и их частоты $\omega_n(t)$.
+
+3.  Покажите, что при резонансном условии $$\omega \approx 2\omega_n$$ возникает экспоненциальный рост числа квантов.
+
+4.  Численно вычислите энергию излучения как функцию времени.
+
+5.  Обсудите физический смысл: откуда берётся энергия рождённых квантов (работа внешней силы, двигающей границу) и почему закон сохранения энергии выполняется.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="casimir.html"><span>← Предыдущий</span>Эффект Казимира</a><a class="qft-exam-next" href="diffraction.html"><span>Следующий →</span>Дифракция на отверстии</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

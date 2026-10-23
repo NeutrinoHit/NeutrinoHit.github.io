@@ -1,0 +1,51 @@
+---
+pagetitle: "Polarizing glasses and QED — Examination projects"
+lang: en-US
+description: "Polarizing glasses and QED: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 18 of 18</span>
+    <h1>Polarizing glasses and QED</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Polarizing glasses transmit light of only one linear polarization. They are useful because scattered and reflected light is partially polarized: when light scatters on electrons, the intensity of the scattered radiation depends on its polarization and on the scattering angle. In this project you will show that quantum electrodynamics predicts this dependence exactly.
+
+- Consider the scattering of a photon on a free electron. Find the differential cross section $d\sigma/d\Omega$ as a function of the polarizations of the incident and scattered photons.
+
+- Assuming the incident light is unpolarized, show that the scattered photon is partially linearly polarized. Obtain the degree of polarization $\mathcal{P}(\theta)$ as a function of the angle between the incident and the scattered photon: $$\mathcal{P}(\theta) = \frac{\sin^2\theta}{1+\cos^2\theta}.$$
+
+**Hint.** The problem becomes much simpler if the energy of the electron hardly changes in the scattering.
+
+- Plot $\mathcal{P}(\theta)$. At what scattering angle is the polarization maximal?
+
+**Applications in physics and astrophysics**
+
+- **Polarization of the sky.** Explain why sunlight scattered by the atmosphere becomes partially linearly polarized. At what scattering angle is the polarization maximal? Why does this matter for astronomical photography, navigation and polarizing glasses?
+
+- **Why do truck drivers wear polarizing glasses?** Explain why light reflected from wet asphalt is partially polarized. At what angle of incidence is the polarization maximal? Is a QED calculation (scattering on an electron) enough to describe this, or must something else be taken into account?
+
+- **The cosmic microwave background and the BICEP/Keck experiments.** Explain how the linear polarization of the cosmic microwave background arises from Compton scattering of photons on electrons in the early Universe.
+
+- **Polarization of starlight by interstellar dust.** Starlight that has passed through interstellar dust is partially polarized: elongated dust grains aligned by the magnetic field absorb one polarization more strongly than the other. How does this help to study the structure of magnetic fields in the Galaxy? How does this mechanism differ from polarization by scattering?
+
+- **Plasma diagnostics.** Thomson scattering is used to measure the temperature and density of electrons in laboratory plasmas. Explain how, in practice, the dependence of the degree of polarization $\mathcal{P}(\theta)$ can be used for diagnostics if the direction of the incident laser beam is known.
+
+<!-- -->
+
+- Choose one of the applications and discuss it in detail.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="unstable-particles.html"><span>← Previous</span>Widths of unstable particles</a><span></span></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

@@ -1,0 +1,42 @@
+---
+pagetitle: "The tachyon — Examination projects"
+lang: en-US
+description: "The tachyon: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 17 of 20</span>
+    <h1>The tachyon</h1>
+    <p class="course-toc-meta">Topic: Causality and dispersion</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+A tachyon is a hypothetical particle that moves faster than light. This is often interpreted as a possibility to send superluminal signals. Investigate whether this is so.
+
+1.  Consider a chain of pendulums in a uniform gravitational field, suspended from a common support and connected by springs. The distance between neighboring pendulums is $a$.
+
+2.  Show that the Lagrangian of this system has the form $$L = \sum_i \left(A\dot{\phi}^2_i-B(\phi_i-\phi_{i-1})^2 - C(1-\cos\phi_i)\right),$$ where $\phi_i$ is the angle by which the $i$th pendulum is deflected from equilibrium. Find $A$, $B$, $C$.
+
+3.  Pass to an infinite number of pendulums in the limit $a\to 0$. Show that the Lagrangian becomes $$\mathcal{L} = \frac{1}{2}\left(\frac{\partial\phi}{\partial t}\right)^2-\frac{1}{2}\left(\frac{\partial\phi}{\partial x}\right)^2-m^2(1-\cos\phi).$$
+
+4.  Obtain the equation of motion of the field $\phi$: $$\frac{\partial^2\phi}{\partial t^2}-\frac{\partial^2\phi}{\partial x^2}+m^2\sin\phi=0.$$
+
+5.  For small deviations from the stable equilibrium $\phi=0$ one obtains the ordinary Klein--Fock--Gordon equation: $$\frac{\partial^2\phi}{\partial t^2}-\frac{\partial^2\phi}{\partial x^2}+m^2\phi=0.$$
+
+6.  For small deviations from the unstable equilibrium $\phi=\pi$ one obtains the Klein--Fock--Gordon equation with a negative mass squared: $$\frac{\partial^2\phi}{\partial t^2}-\frac{\partial^2\phi}{\partial x^2}-m^2\phi=0.$$ Formally, a plane wave $\phi = e^{-i\omega t+ikx}$ gives $$\omega^2 = k^2-m^2, \quad \text{and the group velocity} \quad v_g = \frac{\partial \omega}{\partial k} = \frac{k}{\omega}>1.$$
+
+7.  Show that the solution of the equation $$\left(\frac{\partial^2}{\partial t^2}-\frac{\partial^2}{\partial x^2}-m^2\right)\phi=\delta(t)\delta(x)$$ propagates no faster than light: the retarded Green's function vanishes outside the light cone.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="diffraction.html"><span>← Previous</span>Diffraction by an aperture</a><a class="qft-exam-next" href="berry-phase.html"><span>Next →</span>The Berry phase</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

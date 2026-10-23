@@ -3465,3 +3465,128 @@ code.outreach-entry-install {
     font-size: 1.02rem;
   }
 }
+
+/* Examination projects of the QFT course (ru|en/qft-exams.qmd, ru|en/qft-exams/*.qmd), written by scripts/build_qft_exams.py */
+.qft-exams-season-lead {
+  margin: -0.2rem 0 0.2rem;
+  font-size: 0.98rem;
+}
+
+.qft-exams-toc .qft-exams-topic {
+  color: #597080;
+  font-size: 0.86rem;
+}
+
+.qft-exams-toc td.qft-exams-topic {
+  width: 34%;
+}
+
+.qft-exams-how {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.qft-exams-how .course-page-card {
+  margin: 0;
+}
+
+.qft-exams-how ul,
+.qft-exams-how ol {
+  margin: 0;
+  padding-left: 1.15rem;
+  font-size: 0.93rem;
+}
+
+.qft-exams-how li + li {
+  margin-top: 0.3rem;
+}
+
+.qft-exam-body {
+  max-width: 50rem;
+  font-size: 1.02rem;
+  line-height: 1.6;
+}
+
+.qft-exam-body h2 {
+  margin: 1.6rem 0 0.6rem;
+  color: #25313a;
+  font-size: 1.2rem;
+  border: 0;
+}
+
+.qft-exam-body li + li {
+  margin-top: 0.35rem;
+}
+
+.qft-exam-body li > p {
+  margin-bottom: 0.35rem;
+}
+
+.qft-exam-body mjx-container[display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+
+.qft-exam-body table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.qft-exam-actions {
+  margin-top: 1.6rem;
+}
+
+.qft-exam-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+  margin-top: 1.4rem;
+}
+
+.qft-exam-nav a {
+  display: block;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid rgba(43, 67, 91, 0.16);
+  border-radius: 8px;
+  background: #ffffff;
+  color: #25313a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.qft-exam-nav a span {
+  display: block;
+  color: #1f6f78;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.qft-exam-nav a:hover {
+  border-color: #1f6f78;
+}
+
+.qft-exam-nav .qft-exam-next {
+  text-align: right;
+}
+
+@media (max-width: 720px) {
+  .qft-exams-how {
+    grid-template-columns: 1fr;
+  }
+
+  .qft-exams-toc th.qft-exams-topic,
+  .qft-exams-toc td.qft-exams-topic {
+    display: none;
+  }
+
+  .qft-exam-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .qft-exam-nav .qft-exam-next {
+    text-align: left;
+  }
+}

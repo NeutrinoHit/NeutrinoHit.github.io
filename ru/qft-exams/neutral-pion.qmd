@@ -1,0 +1,33 @@
+---
+pagetitle: "Нейтральный пион — Экзаменационные проекты"
+lang: ru-RU
+description: "Нейтральный пион: экзаменационные проекты — весна."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#spring">Весна</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Весна · проект 6 из 18</span>
+    <h1>Нейтральный пион</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+В столкновениях $e^+e^-$ можно наблюдать столкновения почти реальных фотонов, испущенных электронами и позитронами под малыми углами к оси пучка. В таких столкновениях фотоны могут рождать нейтральный пион. Сечение этой реакции пропорционально ширине распада $\Gamma(\pi^0\to\gamma\gamma)$ и даёт способ её измерить.
+
+\(i\) Вычислите сечение реакции $\gamma+\gamma\to\pi^0$ в КЭД: $$\sigma(\gamma+\gamma\to\pi^0) = \frac{8\pi^2\,\Gamma(\pi^0\to\gamma\gamma)}{m_\pi}\,\delta\bigl((p+k)^2-m_\pi^2\bigr),$$ где $p,k$ --- 4-импульсы фотонов (формула Лоу; фотоны не поляризованы).
+
+\(ii\) Проверьте, что матричный элемент реакции $\gamma+\gamma\to\pi^0$ отличен от нуля только тогда, когда спиральности фотонов одинаковы (для линейных поляризаций --- когда они взаимно перпендикулярны).
+
+\(iii\) Проверьте, что в распаде $\pi^0\to\gamma\gamma$ комбинация $(\boldsymbol{E}_1+\boldsymbol{E}_2)\cdot (\boldsymbol{B}_1+\boldsymbol{B}_2)$ отлична от нуля только при тех же поляризациях фотонов.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-ru.pdf">Весна: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="reactor-antineutrinos.html"><span>← Предыдущий</span>Реакторные антинейтрино</a><a class="qft-exam-next" href="glashow-resonance.html"><span>Следующий →</span>Резонанс Глэшоу</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← Все проекты</a></p>
+</article>
+```

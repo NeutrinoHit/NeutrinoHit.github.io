@@ -1,0 +1,33 @@
+---
+pagetitle: "The functional integral — Examination projects"
+lang: en-US
+description: "The functional integral: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 15 of 18</span>
+    <h1>The functional integral</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+- Consider the functional integral for a scalar field. Formulate the rules for obtaining Feynman diagrams from the generating functional.
+
+- Obtain the expressions for the vacuum energy (the energy density of the zero-point oscillations) and draw the corresponding Feynman diagrams for the $\lambda\phi^4$ model.
+
+- Show that vacuum loops ("bubbles") do not contribute to scattering amplitudes.
+
+- Compute the vacuum energy density for scalar, fermion, and massive and massless vector fields. Write the final expression for the mean vacuum energy density including quantum corrections.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="cosmological-constant.html"><span>← Previous</span>The cosmological constant</a><a class="qft-exam-next" href="grand-unification.html"><span>Next →</span>Grand Unified Theories</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

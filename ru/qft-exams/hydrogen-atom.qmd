@@ -1,0 +1,32 @@
+---
+pagetitle: "Атом водорода — Экзаменационные проекты"
+lang: ru-RU
+description: "Атом водорода: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 2 из 20</span>
+    <h1>Атом водорода</h1>
+    <p class="course-toc-meta">Тема: Связанные состояния и спектры</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+1.  Вычислите волновые функции атома водорода для $n=1$, $j=1/2$. Нарисуйте их. Сравните с решением уравнения Шрёдингера при $n=1$.
+
+2.  Вычислите и нарисуйте спектр излучения атома водорода в теории Дирака.
+
+3.  Энергия уровней атома водорода в гравитационном поле звезды изменяется. Для фотонов, испускаемых атомами, это приводит к гравитационному красному смещению: $$z= \frac{\Delta\nu}{\nu}=\frac{GM}{Rc^2},$$ где $G$ --- гравитационная постоянная, $M$ и $R$ --- масса и радиус звезды, соответственно. Вычислите $\Delta\nu/\nu$ для разных типов звёзд. Какие из них позволяют наблюдать *гравитационное* красное смещение? Сравните с экспериментом.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="harmonic-chain.html"><span>← Предыдущий</span>Гармонический квантовый осциллятор</a><a class="qft-exam-next" href="pionium.html"><span>Следующий →</span>\(\pi^+\pi^-\)-атом</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

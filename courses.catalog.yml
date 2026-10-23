@@ -13,6 +13,15 @@ education:
       href: /ru/materials.html#qft-book
       href_en: /en/materials.html#qft-book
     courses: [quantum-field-theory, standard-model, qft-renormalization, unruh, qft-attraction-repulsion, qft-vacuum]
+    # tiles of pages that are not lecture courses: kind, title, text, href (href_en), meta
+    tiles:
+    - anchor: qft-exams
+      kind: {ru: Экзамен · проекты, en: Exam · projects}
+      title: {ru: Экзаменационные проекты по КТП, en: Examination projects in QFT}
+      text: {ru: 'Мини-проекты вместо билетов: теория, расчёт, моделирование и сравнение с экспериментом.', en: 'Mini-projects instead of exam questions: theory, calculation, simulation and comparison with experiment.'}
+      href: /ru/qft-exams.html
+      href_en: /en/qft-exams.html
+      meta: {ru: Осень · 20 проектов · весна · 18 проектов, en: Autumn · 20 projects · spring · 18 projects}
   - id: stat
     title: {ru: Статистический анализ данных, en: Statistical Data Analysis}
     courses: [statistical-analysis]

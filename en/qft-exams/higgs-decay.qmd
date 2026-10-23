@@ -1,0 +1,33 @@
+---
+pagetitle: "Decay of the Higgs boson — Examination projects"
+lang: en-US
+description: "Decay of the Higgs boson: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 9 of 18</span>
+    <h1>Decay of the Higgs boson</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Consider the decay of the Higgs boson into a fermion pair $f\bar{f}$.
+
+The quantum state of the fermions has the form $$|f\bar{f}\rangle = \int \frac{d\boldsymbol{p}_1}{(2\pi)^3\sqrt{2E_1}}\frac{d\boldsymbol{p}_2}{(2\pi)^3\sqrt{2E_2}}\widetilde{\psi}(\boldsymbol{p}_1,s_1;\boldsymbol{p}_2,s_2)|f(\boldsymbol{p}_1,s_1),\bar{f}(\boldsymbol{p}_2,s_2)\rangle,$$ where $\widetilde{\psi}$ is the two-particle wave function of the fermions in the momentum representation and $s_i$ are the spin 4-vectors. In the rest frame of a fermion $s=(0,\boldsymbol{\xi})$.
+
+- Find $\widetilde{\psi}$ using the matrix element $$\langle f(\boldsymbol{p}_1,s_1),\bar{f}(\boldsymbol{p}_2,s_2)|S-1|H\rangle.$$ ✓  Now compute the wave function in the coordinate representation: $$\psi(\boldsymbol{x}_1,\boldsymbol{x}_2) = \int \frac{d\boldsymbol{p}_1}{(2\pi)^3}\frac{d\boldsymbol{p}_2}{(2\pi)^3}\widetilde{\psi}(\boldsymbol{p}_1,s_1;\boldsymbol{p}_2,s_2)e^{+i\left(\boldsymbol{p}_1\cdot \boldsymbol{x}_1+\boldsymbol{p}_2\cdot\boldsymbol{x}_2\right)}.$$ Show that $\psi(\boldsymbol{x}_1,\boldsymbol{x}_2)$ depends on the difference of the coordinates $\boldsymbol{r}=\boldsymbol{x}_1-\boldsymbol{x}_2$ and compute the wave function $\psi(\boldsymbol{r})$.
+
+- Expand the wave function in spherical harmonics and study how it depends on $\boldsymbol{\xi}_1\cdot \hat{\boldsymbol{r}}$, $\boldsymbol{\xi}_2\cdot \hat{\boldsymbol{r}}$, $\boldsymbol{\xi}_1\cdot\boldsymbol{\xi}_2$. Interpret the result.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="neutral-kaons.html"><span>← Previous</span>Neutral kaons</a><a class="qft-exam-next" href="neutrino-dose.html"><span>Next →</span>Neutrino radiation hazard</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

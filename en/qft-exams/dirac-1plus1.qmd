@@ -1,0 +1,41 @@
+---
+pagetitle: "The Dirac equation in 1+1 dimensions — Examination projects"
+lang: en-US
+description: "The Dirac equation in 1+1 dimensions: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 6 of 20</span>
+    <h1>The Dirac equation in 1+1 dimensions</h1>
+    <p class="course-toc-meta">Topic: Relativistic quantum mechanics</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+Consider the Dirac equation in one space and one time dimension.
+
+1.  Find an explicit form of the $\gamma^\mu$ matrices satisfying $$\gamma^\mu\gamma^\nu+\gamma^\nu\gamma^\mu=2g^{\mu\nu}.$$
+
+2.  Find $\gamma^5$.
+
+3.  Assuming that the fermion is massless, show that one obtains two independent equations of motion, for particles moving to the left and to the right.
+
+4.  Show that the currents are conserved: $$\partial_\mu\left(\overline{\psi}\gamma^\mu\left(\frac{1-\gamma^5}{2}\right)\psi\right)=0, \quad
+    \partial_\mu\left(\overline{\psi}\gamma^\mu\left(\frac{1+\gamma^5}{2}\right)\psi\right)=0.$$
+
+5.  Switch on an electric field $A^1$ that is constant in space and varies slowly in time. Find the Hamiltonian and its eigenvalues, assuming that the $x$ axis has a finite length $L$ and imposing periodic boundary conditions. Plot the energy spectrum for left- and right-handed fermions.
+
+6.  What happens to the energy spectrum if $A^1$ is slowly changed by $$\Delta A^1 = \frac{2\pi}{eL}?$$
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="klein-paradox.html"><span>← Previous</span>The Klein paradox</a><a class="qft-exam-next" href="tremor.html"><span>Next →</span>Relativistic tremor and pressure</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

@@ -1,0 +1,93 @@
+---
+pagetitle: "Нейтральные каоны — Экзаменационные проекты"
+lang: ru-RU
+description: "Нейтральные каоны: экзаменационные проекты — весна."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#spring">Весна</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Весна · проект 8 из 18</span>
+    <h1>Нейтральные каоны</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Система нейтральных каонов представляет собой уникальную лабораторию для изучения квантовых осцилляций и CP-нарушения. В этом проекте мы сосредоточимся на точном измерении параметра $\varepsilon$, характеризующего нарушение CP-инвариантности.
+
+## Теоретическая часть {#теоретическая-часть .unnumbered}
+
+- Что такое $K^0$, $\overline{K^0}$, $K_S$, $K_L$, $K_1$, $K_2$?
+
+Свяжите эти состояния друг с другом, наподобие: $$\begin{aligned}
+        |K_L\rangle &= \frac{1}{\sqrt{1+|\varepsilon|^2}}(|K_2\rangle + \varepsilon|K_1\rangle),\\
+        |K_S\rangle &= \frac{1}{\sqrt{1+|\varepsilon|^2}}(|K_1\rangle + \varepsilon|K_2\rangle).   
+    \end{aligned}$$
+
+- Выведите вероятности переходов: $P_{K^0 \to K^0}(t)$, $P_{K^0 \to \bar{K}^0}(t)$ в двух случаях: CP-симметрия сохраняется и CP-симметрия нарушается.
+
+- Вычислите в рамках СМ разницу масс нейтральных каонов $\Delta m$. Объясните суть механизма GIM. Дайте оценку массы $c$-кварка.
+
+- Получите выражения для вероятностей переходов, считая, что CP-симметрия сохраняется: $$\begin{aligned}
+  R_+ & = \Gamma (K^0\to \pi^- e^+\nu_e), \\
+  R_- & = \Gamma (K^0\to \pi^+ e^-\overline{\nu}_e), \\
+  \overline{R}_+ & = \Gamma (\overline{K^0}\to \pi^+ e^-\overline{\nu}_e), \\
+  \overline{R}_- & = \Gamma (\overline{K^0}\to \pi^- e^+\nu_e).
+  \end{aligned}$$ Вычислите асимметрию распада: $$A = \frac{(R_++\overline{R}_+)-(R_-+\overline{R}_-)}{(R_++\overline{R}_+)+(R_-+\overline{R}_-)} = \frac{2e^{-(\Gamma_S+\Gamma_L)t/2}\cos\Delta m t}{e^{-\Gamma_S t}+e^{-\Gamma_L t}}.$$
+
+По ссылке [\[1\]](#ref-1) выложен пример псевдоданных с асимметрией распада. Заложены параметры $\tau_S=8.954\cdot 10^{-11}$ с, $\tau_L=5.116\cdot 10^{-8}$ с и некоторое значение $\Delta m$, которое вам надо восстановить.
+
+Считаем далее, что CP-симметрия нарушается.
+
+Если исследовать пучок нейтральных каонов при $t\gg \tau_S$, он будет состоять в основном из $K_L$.
+
+- Покажите, что $$\begin{aligned}
+      \Gamma (K_L\to \pi^+ e^-\overline{\nu}_e) &\propto |\langle \overline{K^0}|K_L\rangle|^2\propto |1-\varepsilon|^2,\\
+      \Gamma (K_L\to \pi^- e^+\nu_e) &\propto |\langle K^0|K_L\rangle|^2\propto |1+\varepsilon|^2,
+  \end{aligned}$$ и вычислите асимметрию $$A = \frac{\Gamma (K_L\to \pi^- e^+\nu_e)-\Gamma (K_L\to \pi^+ e^-\overline{\nu}_e)}{\Gamma (K_L\to \pi^- e^+\nu_e)+\Gamma (K_L\to \pi^+ e^-\overline{\nu}_e)},$$ используя табличные значения.
+
+- Покажите, как при помощи этой асимметрии объяснить инопланетянам, какой знак заряда у электронов в наших атомах.
+
+- Покажите, используя бокс-диаграммы, что неравенство $\Gamma (K_L\to \pi^- e^+\nu_e)\ne\Gamma (K_L\to \pi^+ e^-\overline{\nu}_e)$ требует, чтобы СКМ-матрица смешивания кварков была комплексно-значной.
+
+- Докажите, что отношение вероятностей распадов $$\frac{\Gamma(K_L \to \pi^+\pi^-)}{\Gamma(K_S \to \pi^+\pi^-)} \approx |\varepsilon|^2.$$
+
+## Экспериментальная часть: псевдоданные {#экспериментальная-часть-псевдоданные .unnumbered}
+
+Вам предоставлены данные эксперимента в таблице. Восстановите $|\varepsilon|$, учитывая:
+
+- Эффективность регистрации $\pi^+\pi^-$ в распадах $K_S$, $K_L$,
+
+- Вклад фоновых событий.
+
+  Распад                  Число событий   Эффективность (%)   Фон (%)
+  ---------------------- --------------- ------------------- ---------
+  $K_S \to \pi^+\pi^-$       12 000              95              1
+  $K_L \to \pi^+\pi^-$         72                90             10
+
+  : Экспериментальные данные
+
+## Систематические неопределённости {#систематические-неопределённости .unnumbered}
+
+Предполагая систематические неопределённости
+
+- числа фоновых событий на уровне $5\%$,
+
+- эффективности регистрации на уровне $2\%$,
+
+приведите оценку $|\varepsilon|$, указав статистическую и систематическую неопределённости.
+
+## Литература
+
+[1]{#ref-1} Наумов, Д. В., *Псевдоданные по асимметрии распада нейтральных каонов* <https://neutrinohit.github.io/assets/qft-exams/kaon-asymmetry-pseudodata.txt>
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a class="lecture-action-primary" href="../../assets/qft-exams/kaon-asymmetry-pseudodata.txt" download>Псевдоданные: асимметрия распада (TXT)</a><a href="../../assets/qft-exams/qft-exams-spring-ru.pdf">Весна: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="glashow-resonance.html"><span>← Предыдущий</span>Резонанс Глэшоу</a><a class="qft-exam-next" href="higgs-decay.html"><span>Следующий →</span>Распад бозона Хиггса</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← Все проекты</a></p>
+</article>
+```
