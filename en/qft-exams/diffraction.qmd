@@ -1,0 +1,34 @@
+---
+pagetitle: "Diffraction by an aperture — Examination projects"
+lang: en-US
+description: "Diffraction by an aperture: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 16 of 20</span>
+    <h1>Diffraction by an aperture</h1>
+    <p class="course-toc-meta">Topic: Green&#x27;s functions and wave problems</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+1.  Consider the scattering of the scalar field $\phi(\boldsymbol{r})=e^{i\boldsymbol{k}\cdot \boldsymbol{r}}$, where $\boldsymbol{k}=(0,0,k)$, within the Helmholtz equation.
+
+2.  Find the Green's function of the Helmholtz equation.
+
+3.  Consider a small aperture in an opaque screen shaped as (a) a square and (b) an equilateral triangle.
+
+4.  Compute numerically the field behind the screen in the far zone.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="dynamical-casimir.html"><span>← Previous</span>The dynamical Casimir effect</a><a class="qft-exam-next" href="tachyon.html"><span>Next →</span>The tachyon</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

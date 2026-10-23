@@ -113,15 +113,16 @@
       link.href = siteHref(target === 'en' ? section.enHref : section.ruHref);
     });
 
-    // A course page has the same name in both languages: /ru/courses/x.html, /en/courses/x.html.
-    const coursePage = pathname.match(/\/(?:ru|en)\/courses\/([^/]+\.html)$/);
+    // A course page and an examination project have the same name in both languages:
+    // /ru/courses/x.html and /en/courses/x.html, /ru/qft-exams.html and /ru/qft-exams/x.html.
+    const coursePage = pathname.match(/\/(?:ru|en)\/((?:courses|qft-exams)\/[^/]+\.html|qft-exams\.html)$/);
 
     document.querySelectorAll('.navbar a.nav-link').forEach((link) => {
       const label = link.textContent.trim();
       if (label !== 'RU' && label !== 'EN') return;
       const section = sections.find((item) => item.key === key) || sections[0];
       if (coursePage) {
-        link.href = siteHref(`/${label === 'RU' ? 'ru' : 'en'}/courses/${coursePage[1]}`);
+        link.href = siteHref(`/${label === 'RU' ? 'ru' : 'en'}/${coursePage[1]}`);
       } else if (key === 'interviews' && label === 'RU' && pathname.includes('/ru/interviews/')) {
         link.href = pathname.split('/').pop();
       } else {

@@ -1,0 +1,43 @@
+---
+pagetitle: "Relic neutrinos — Examination projects"
+lang: en-US
+description: "Relic neutrinos: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 4 of 18</span>
+    <h1>Relic neutrinos</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+According to the modern cosmological model of the birth and evolution of the Universe, we are surrounded by the so-called *relic neutrinos*. Their temperature today is $T_\nu\approx 1.95$ K ($kT_\nu\approx 1.7\cdot 10^{-4}$ eV), which makes them very hard to observe. Nevertheless, let us think of something. A Nobel Prize is guaranteed!
+
+\(i\) Compute the cross section of the reaction $\nu_e +n\to p+e^-$ at the energy of a relic neutrino. Compute the mass of free neutrons needed to detect 100 such events per year. Do we have a suitable source of free neutrons of the required mass?
+
+If not, suggest an atomic nucleus that could be used instead of free neutrons.
+
+\(ii\) Consider another project: a particle accelerator. If an electron or a muon is accelerated in it to a high enough energy, the lepton can disappear after interacting with a relic antineutrino, producing a pion: $\bar{\nu}_\ell  +\ell^-\to \pi^-$.
+
+a\) Compute the lepton energy needed for this reaction to occur.
+
+b\) Compute the corresponding cross section.
+
+c\) Estimate the luminosity of the accelerator needed to detect a statistically significant number of pions.
+
+\(iii\) Is there a hidden Glashow resonance in the reaction $\bar{\nu}_\ell  +\ell^-\to \pi^-$? (Discuss this idea with the colleague working on that project.) What could follow from it?
+
+\(iv\) Propose your own idea for detecting relic neutrinos and support it with calculations.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="solar-neutrinos.html"><span>← Previous</span>Solar neutrinos</a><a class="qft-exam-next" href="reactor-antineutrinos.html"><span>Next →</span>Reactor antineutrinos</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

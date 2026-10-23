@@ -1,0 +1,39 @@
+---
+pagetitle: "Излучение Вавилова–Черенкова — Экзаменационные проекты"
+lang: ru-RU
+description: "Излучение Вавилова–Черенкова: экзаменационные проекты — весна."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#spring">Весна</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Весна · проект 13 из 18</span>
+    <h1>Излучение Вавилова–Черенкова</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Электрон летит в однородной, прозрачной и немагнитной среде с показателем преломления $n > 1$. Если скорость электрона $v > 1/n$, то становится возможным распад $e(p) \to e(p') + \gamma(k)$, что приводит к излучению Вавилова--Черенкова. Энергия фотона $\omega_k = |\boldsymbol{k}|/n$. Его поляризация $\varepsilon^\mu_\lambda(\boldsymbol{k}) = (0,\boldsymbol{\varepsilon}_\lambda(\boldsymbol{k}))$.
+
+- Покажите, что квадрат матричного элемента, просуммированный по спинам конечного электрона и усреднённый по спинам начального электрона, равен $$|\mathcal{M}|^2 =  4\pi \alpha \left( 4\left(\boldsymbol{p}\cdot \boldsymbol{\varepsilon}_\lambda(\boldsymbol{k})\right)^2 - k^2 \right).$$
+
+Из этого выражения видно, что фотон поляризован в плоскости рассеяния, образованной векторами $\boldsymbol{p}$ и $\boldsymbol{k}$.
+
+- Покажите, что спектрально-угловое распределение излучения есть: $$\frac{d^2\Gamma}{d\omega\, d\Omega_\gamma} = \frac{|\mathcal{M}|^2}{32\pi^2 v E^2}\, \delta\left( \cos\theta - \frac{1}{vn} - \frac{\omega(n^2 - 1)}{2v n E} \right),$$ из которого видно, что полярный угол вылета фотона (ось $z$ направлена вдоль импульса начального электрона $\boldsymbol{p}$) фиксирован значениями энергии начального электрона и конечного фотона: $$\cos\theta \equiv \cos\theta_0 = \frac{1}{vn} + \frac{\omega(n^2 - 1)}{2vnE}.$$
+
+- Покажите, что спектральное распределение излучения есть: $$\frac{d\Gamma}{d\omega} = \alpha \left[ v \sin^2\theta_0 + \frac{\omega^2 (n^2 - 1)}{2v E^2} \right].$$
+
+Будущий лауреат Нобелевской премии Виталий Лазаревич Гинзбург решил эту задачу в 1940 году.
+
+Если пренебречь величинами порядка $\omega/E$, то получим классические результаты других нобелевских лауреатов И.Е. Тамма и И.М. Франка: $$\frac{d\Gamma}{d\omega} = \alpha v \sin^2 \theta_0, \qquad \cos \theta_0 = \frac{1}{vn}.$$
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-ru.pdf">Весна: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="orthopositronium.html"><span>← Предыдущий</span>Недолгая жизнь ортопозитрония</a><a class="qft-exam-next" href="cosmological-constant.html"><span>Следующий →</span>Космологическая постоянная</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← Все проекты</a></p>
+</article>
+```

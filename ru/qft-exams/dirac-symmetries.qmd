@@ -1,0 +1,32 @@
+---
+pagetitle: "Симметрии уравнения Дирака — Экзаменационные проекты"
+lang: ru-RU
+description: "Симметрии уравнения Дирака: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 11 из 20</span>
+    <h1>Симметрии уравнения Дирака</h1>
+    <p class="course-toc-meta">Тема: Симметрии и теорема Нётер</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+1.  Используя теорему Нётер, получите сохраняющийся ток для $$\mathcal{L} =i\bar{\psi}\hat{\partial}\psi - m\bar{\psi}\psi$$ при глобальных калибровочных преобразованиях $$\psi \rightarrow e^{i \alpha} \psi, \,\, \overline{\psi} \rightarrow e^{-i\alpha}  \overline{\psi}.$$
+
+2.  Используя теорему Нётер, получите сохраняющийся ток для $\mathcal{L} = i\bar{\psi}\hat{\partial}\psi$ при киральном преобразовании $$\psi \rightarrow e^{i \alpha \gamma^5} \psi.$$ Получите закон преобразования поля $\bar{\psi}$.
+
+3.  Докажите, что действие для безмассового поля Дирака инвариантно при преобразованиях дилатации: $$x\to x'=e^{-\rho}x, \quad \psi(x)\to \psi'(x') = e^{3\rho/2}\psi(x).$$ Найдите соответствующие нётеровский ток и заряд.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="quantum-eraser.html"><span>← Предыдущий</span>Квантовый ластик и отложенный выбор</a><a class="qft-exam-next" href="sigma-model.html"><span>Следующий →</span>Симметрии \(\sigma\)-модели</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

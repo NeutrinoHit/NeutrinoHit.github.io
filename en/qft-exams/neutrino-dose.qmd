@@ -1,0 +1,37 @@
+---
+pagetitle: "Neutrino radiation hazard — Examination projects"
+lang: en-US
+description: "Neutrino radiation hazard: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 10 of 18</span>
+    <h1>Neutrino radiation hazard</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Every second an enormous number of neutrinos passes through the Earth and its inhabitants. Estimate the effect of these fluxes on a human being in terms of radiation dose.
+
+- Compute the cross section of neutrino scattering on an electron and the deep inelastic cross section on a nucleon (use the parton distributions of `LHAPDF`).
+
+- Use the fluxes of solar, atmospheric and relic neutrinos from the literature.
+
+- Compute the number of interactions per year in a human body of mass 70 kg and the energy deposited.
+
+- Convert this number of interactions into an equivalent dose (Sv/year) using the approximation $$D \approx N_{\text{events}} \cdot \langle E_{\text{dep}} \rangle \cdot \frac{Q}{m},$$ where $Q = 1$ is the weighting factor for secondary electrons and muons, $m = 70$ kg and $\langle E_{\text{dep}} \rangle$ is the mean energy deposited in the body in one interaction.
+
+- Compare this dose with the natural background and the permitted limits. Draw a conclusion: are neutrinos dangerous?
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="higgs-decay.html"><span>← Previous</span>Decay of the Higgs boson</a><a class="qft-exam-next" href="vacuum-birefringence.html"><span>Next →</span>When the vacuum becomes a prism</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

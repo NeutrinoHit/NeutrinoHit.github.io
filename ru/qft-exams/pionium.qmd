@@ -1,0 +1,47 @@
+---
+pagetitle: "π⁺π⁻-атом — Экзаменационные проекты"
+lang: ru-RU
+description: "π⁺π⁻-атом: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 3 из 20</span>
+    <h1>\(\pi^+\pi^-\)-атом</h1>
+    <p class="course-toc-meta">Тема: Связанные состояния и спектры</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Цель:** Исследовать свойства $\pi^+\pi^-$-атома с учётом кулоновского и сильного взаимодействий. Рассчитать энергию связи, поправку за счёт сильного взаимодействия и сравнить с экспериментальными данными.
+
+1.  **Кулоновская энергия связи:** Вычислите основное значение энергии $1s$-состояния с учётом только электромагнитного взаимодействия. Оцените величину боровского радиуса.
+
+2.  **Поправка от сильного взаимодействия:** Рассчитайте поправку $\Delta E$ к энергии связи $1s$-состояния по формуле: $$\Delta E = \frac{\int\limits_0^\infty |R_{1s}|^2V_{\text{strong}}(r) r^2 dr}{\int\limits_0^\infty |R_{1s}|^2r^2 dr},$$ используя три различных потенциала для сильного взаимодействия:
+
+    1.  *Контактный потенциал (дельта-функция):* $$V_{\text{strong}}(r) = -\frac{4\pi a_0}{\mu} \delta^3(r),$$ где $\mu = m_\pi$, $a_0 \approx 0.22\,m_\pi^{-1} \approx 0.31\,\mathrm{fm}$ --- длина рассеяния $\pi\pi$ в состоянии с изоспином $I=0$.
+
+    2.  *Потенциал конечного радиуса (ступенька):* $$V_{\text{strong}}(r) = \begin{cases}
+                -V_0, & r \leq R_{\text{strong}}, \\
+                0, & r > R_{\text{strong}},
+                \end{cases}$$ где $V_0 \sim 100\,\mathrm{MeV}, \quad R_{\text{strong}} \sim 1\,\mathrm{fm}$.
+
+    3.  *Юкавский потенциал:* $$V_{\text{strong}}(r) = -g^2 \frac{e^{-\mu_s r}}{r},$$ где $g^2$ --- константа сильного взаимодействия, $\mu_s \sim 1\,\mathrm{fm}^{-1}$.
+
+3.  Сравните полученные значения $\Delta E$ с экспериментальными данными.
+
+4.  Постройте графики зависимости $\Delta E$ от параметров $a_0$, $V_0$, $g^2$ для трёх предложенных моделей потенциала в сравнении с экспериментом.
+
+5.  Проанализируйте вклад сильного взаимодействия в общую энергию связи.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="hydrogen-atom.html"><span>← Предыдущий</span>Атом водорода</a><a class="qft-exam-next" href="resonances.html"><span>Следующий →</span>Резонансы и квазисвязанные состояния</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

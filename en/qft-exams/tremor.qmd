@@ -1,0 +1,44 @@
+---
+pagetitle: "Relativistic tremor and pressure — Examination projects"
+lang: en-US
+description: "Relativistic tremor and pressure: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 7 of 20</span>
+    <h1>Relativistic tremor and pressure</h1>
+    <p class="course-toc-meta">Topic: Relativistic quantum mechanics</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+1.  Let the state of a free electron at $t=0$ be given by $$\psi(0,\boldsymbol{x}) = \frac{1}{(2\pi d^2)^{3/4}}e^{-\frac{\boldsymbol{x}^2}{4d^2}}
+        \begin{pmatrix}
+             1 \\
+             0 \\
+             0 \\
+             0
+        \end{pmatrix}.$$ Find $\psi(t,\boldsymbol{x})$ for $t>0$.
+
+2.  Obtain an analytic expression for the mean current as an integral over the 3-momentum: $$\boldsymbol{J}=\int d^3x \psi^\dagger(x)\,\boldsymbol{\alpha}\,\psi(x).$$
+
+3.  Compute this integral and make an animation of $\boldsymbol{J}(t)$.
+
+4.  Does the tremor of the current last forever?
+
+5.  Compute the pressure $P$ of the field and make an animation of $P(t)$.
+
+6.  Explain the results.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="dirac-1plus1.html"><span>← Previous</span>The Dirac equation in 1+1 dimensions</a><a class="qft-exam-next" href="dirac-matrices.html"><span>Next →</span>The Dirac \(\gamma\) matrices</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

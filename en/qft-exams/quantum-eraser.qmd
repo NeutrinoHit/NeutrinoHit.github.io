@@ -1,0 +1,75 @@
+---
+pagetitle: "The quantum eraser and delayed choice — Examination projects"
+lang: en-US
+description: "The quantum eraser and delayed choice: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 10 of 20</span>
+    <h1>The quantum eraser and delayed choice</h1>
+    <p class="course-toc-meta">Topic: Spin and measurement</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Goal of the project:** Work out mathematically and simulate numerically one of the most counterintuitive experiments in quantum mechanics. Show how which-path information about the particle destroys the interference and how correlations between events make it possible to "recover" it without violating causality.
+
+The project is based on a modified double-slit experiment in which the coordinate $x$ of the particle on the screen is entangled with its internal degree of freedom (for example, its spin).
+
+## 1. Theory: entanglement and phase {#theory-entanglement-and-phase .unnumbered}
+
+Let the states of a particle that has passed through slit $A$ or slit $B$ be described by the functions $\psi_A(x)$ and $\psi_B(x)$. The state of the system in front of the screen is $$|\Psi(x)\rangle = \frac{1}{\sqrt{2}} \bigl( \psi_A(x)|\uparrow\rangle + \psi_B(x)|\downarrow\rangle \bigr).$$
+
+1.  **Loss of interference** Compute the probability density of detecting the particle on the screen, $$P(x) = \langle\Psi(x)|\Psi(x)\rangle.$$ Show that the interference term vanishes because the spin states are orthogonal ($\langle\uparrow|\downarrow\rangle = 0$). Explain the physical meaning: why does information that *in principle* can be extracted from the spin destroy the wave pattern?
+
+2.  **Change of basis (the quantum eraser)** Suppose that we measure the spin in the diagonal basis $$|+\rangle = \frac{|\uparrow\rangle + |\downarrow\rangle}{\sqrt{2}}, \quad
+    |-\rangle = \frac{|\uparrow\rangle - |\downarrow\rangle}{\sqrt{2}}.$$ Rewrite the state $|\Psi(x)\rangle$ in this basis and find the joint probability densities $P(x,\pm)=|\langle\pm|\Psi(x)\rangle|^2$ for the subsamples of particles.
+
+3.  **Recovering the pattern** Show that the distributions $P(x,+)$ and $P(x,-)$ contain interference terms, shifted in phase by $\pi$. Prove that $$P(x,+) + P(x,-) = P(x).$$
+
+## 2. Practical part: a Monte Carlo simulation {#practical-part-a-monte-carlo-simulation .unnumbered}
+
+An experimentalist needs to understand how the "magic" turns into statistics.
+
+1.  **Generating the data** Using `python`, generate a sample of $10^5$ events. For each event:
+
+    1.  draw the coordinate $x$ from the distribution $P(x)$;
+
+    2.  for this $x$, draw the result of the spin measurement ($+$ or $-$) with probabilities $P(x,+)/P(x)$ and $P(x,-)/P(x)$.
+
+2.  **Sorting the events** Plot the histogram of all $x$. Then, using the results of the spin measurements, plot two separate histograms for the "plus events" and the "minus events". Show how two interference patterns emerge from a featureless distribution.
+
+## 3. Discussion: causality and "erasing the past" {#discussion-causality-and-erasing-the-past .unnumbered}
+
+1.  **The delayed-choice paradox** Suppose that the spin is measured *after* the particle has hit the screen. Explain why this is not a signal sent from the future into the past.
+
+2.  **The no-signaling theorem** Discuss whether an observer at the screen can learn instantly which basis a colleague at the other end of the laboratory has chosen for the spin measurement.
+
+3.  **Interpretation** Why is the phrase "we erased the which-path information and the particle changed its mind" methodologically harmful for a research physicist?
+
+## 4. What to submit {#what-to-submit .unnumbered}
+
+1.  An analytic calculation of the densities $P(x,\pm)$.
+
+2.  A `python` script with plots: the total distribution (without interference) and the two correlated histograms (with interference).
+
+3.  A short essay (half a page) resolving the causality paradox.
+
+## References {#references .unnumbered}
+
+- Y.-H. Kim, R. Yu, S.P. Kulik, Y. Shih, *A Delayed Choice Quantum Eraser*, Phys. Rev. Lett. **84**, 1 (2000).
+
+- R. P. Feynman, R. B. Leighton, M. Sands, *The Feynman Lectures on Physics*, Vol. 3 (Quantum Mechanics).
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="stern-gerlach.html"><span>← Previous</span>The Stern–Gerlach experiment</a><a class="qft-exam-next" href="dirac-symmetries.html"><span>Next →</span>Symmetries of the Dirac equation</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

@@ -1,0 +1,33 @@
+---
+pagetitle: "Реакторные антинейтрино — Экзаменационные проекты"
+lang: ru-RU
+description: "Реакторные антинейтрино: экзаменационные проекты — весна."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#spring">Весна</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Весна · проект 5 из 18</span>
+    <h1>Реакторные антинейтрино</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Ядерные реакторы АЭС --- интенсивные источники антинейтрино. Реактор изотропно излучает около $2\cdot 10^{20}$ антинейтрино в секунду на каждый ГВт тепловой мощности. Рассмотрим проект экспериментов с реакторными нейтрино.
+
+\(i\) Вычислите сечение взаимодействия $\bar{\nu}_e + p \to e^+ + n$.
+
+\(ii\) Оцените число таких взаимодействий в год при $E_{\bar{\nu}}=4$ МэВ от типичного реактора мощностью 3 ГВт. Мишенью служит вода массой 20 т. Расстояние между детектором и реактором 2 км.
+
+\(iii\) Оцените массу детектора, необходимую, чтобы зарегистрировать $10^5$ событий $\bar{\nu}_e + p \to e^+ + n$ в детекторе на расстоянии $L=50$ км от реакторов общей мощностью 30 ГВт. Учтите эффект осцилляций нейтрино.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-ru.pdf">Весна: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="relic-neutrinos.html"><span>← Предыдущий</span>Реликтовые нейтрино</a><a class="qft-exam-next" href="neutral-pion.html"><span>Следующий →</span>Нейтральный пион</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← Все проекты</a></p>
+</article>
+```

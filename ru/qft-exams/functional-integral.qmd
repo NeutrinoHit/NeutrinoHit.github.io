@@ -1,0 +1,33 @@
+---
+pagetitle: "Функциональный интеграл — Экзаменационные проекты"
+lang: ru-RU
+description: "Функциональный интеграл: экзаменационные проекты — весна."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#spring">Весна</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Весна · проект 15 из 18</span>
+    <h1>Функциональный интеграл</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+- Рассмотрите функциональный интеграл для скалярного поля. Сформулируйте правила получения диаграмм Фейнмана из производящего функционала.
+
+- Получите выражения для собственной энергии вакуума (плотности энергии нулевых колебаний) и изобразите соответствующие диаграммы Фейнмана для модели $\lambda\phi^4$.
+
+- Покажите, что вакуумные петли («пузырьки») не дают вклада в амплитуды рассеяния.
+
+- Проведите расчёт плотности энергии вакуума для скалярных, фермионных и массивных/безмассовых векторных полей. Запишите итоговое выражение для средней плотности энергии вакуума с учётом квантовых поправок.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-ru.pdf">Весна: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="cosmological-constant.html"><span>← Предыдущий</span>Космологическая постоянная</a><a class="qft-exam-next" href="grand-unification.html"><span>Следующий →</span>Теории Великого Объединения</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← Все проекты</a></p>
+</article>
+```

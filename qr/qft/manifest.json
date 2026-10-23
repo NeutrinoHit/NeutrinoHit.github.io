@@ -1,4 +1,26 @@
 {
+  "0039": {
+    "url": "https://neutrinohit.github.io/qr/qft/0039/",
+    "slug": "exams-autumn",
+    "hosting": "redirect",
+    "qr_file": "exams1.pdf",
+    "legacy_codes": [],
+    "redirect": {
+      "ru": "/ru/qft-exams.html#autumn",
+      "en": "/en/qft-exams.html#autumn"
+    }
+  },
+  "0040": {
+    "url": "https://neutrinohit.github.io/qr/qft/0040/",
+    "slug": "exams-spring",
+    "hosting": "redirect",
+    "qr_file": "exams2.pdf",
+    "legacy_codes": [],
+    "redirect": {
+      "ru": "/ru/qft-exams.html#spring",
+      "en": "/en/qft-exams.html#spring"
+    }
+  },
   "0001": {
     "url": "https://neutrinohit.github.io/qr/qft/0001/",
     "slug": "higgs-honey",

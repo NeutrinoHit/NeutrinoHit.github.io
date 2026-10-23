@@ -1,0 +1,110 @@
+---
+pagetitle: "The Klein paradox — Examination projects"
+lang: en-US
+description: "The Klein paradox: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 5 of 20</span>
+    <h1>The Klein paradox</h1>
+    <p class="course-toc-meta">Topic: Relativistic quantum mechanics</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Goal:** Study the scattering of a relativistic fermion on a potential step within the Dirac equation, understand the origin of the so-called Klein paradox, and show that it disappears when the current density and the spectrum of states are interpreted correctly.
+
+We consider the one-dimensional scattering of a fermion of mass $m$ on the potential step $$V(x)=V_0\,\theta(x)$$ within the single-particle Dirac equation, *without* second quantization.
+
+1.  **The Dirac equation in 1+1 dimensions**
+
+    Consider the stationary Dirac equation $$\left[ -i\gamma^0\gamma^1\partial_x + \gamma^0 m + V(x) \right]\psi(x)=E\psi(x).$$
+
+    1.  Choose an explicit representation of the $\gamma$ matrices in 1+1 dimensions.
+
+    2.  Write the equation in matrix form and find the plane-wave solutions in the regions $x<0$ and $x>0$.
+
+2.  **Spectrum and wave vectors**
+
+    For the regions $$\text{I: } x<0, \quad V=0, \qquad
+    \text{II: } x>0, \quad V=V_0,$$ find the corresponding wave vectors $k_1$, $k_2$.
+
+    1.  Show that for $$E<V_0-m$$ the wave vector $k_2$ remains real.
+
+    2.  Explain why this regime does not exist in nonrelativistic theory.
+
+3.  **Boundary conditions**
+
+    Write the full solution as $$\psi_I = \psi_{\text{in}} + R\,\psi_{\text{ref}}, \qquad
+    \psi_{II}=T\,\psi_{\text{tr}},$$ and impose continuity of the wave function at $x=0$.
+
+    1.  Find the reflection coefficient $R$ and the transmission coefficient $T$.
+
+    2.  Check that $R+T\neq1$ with the naive definition of probability.
+
+4.  **Current density**
+
+    Define the Dirac current density $$j^\mu=\bar{\psi}\gamma^\mu\psi,
+    \qquad
+    j^x=\psi^\dagger\alpha\psi.$$
+
+    1.  Compute the current for the incident, reflected and transmitted waves.
+
+    2.  Show that current conservation, $$j_{\text{in}}=j_{\text{ref}}+j_{\text{tr}},$$ holds *exactly*.
+
+    3.  Explain why $|R|>1$ is nevertheless possible.
+
+5.  **Group velocity and interpretation**
+
+    1.  Compute the group velocity $$v_g=\frac{dE}{dk}$$ in region II.
+
+    2.  Show that the sign of the group velocity coincides with the sign of the current.
+
+    3.  Explain why the solution in the region $x>0$ corresponds to states with negative energy relative to the local vacuum.
+
+6.  **Physical interpretation**
+
+    1.  Explain how the paradox disappears when the solutions are interpreted as antiparticle states.
+
+    2.  Discuss why the language of particles and antiparticles appears already at the level of the single-particle Dirac equation.
+
+    3.  Compare with the nonrelativistic case (the Schrödinger equation).
+
+7.  **Numerical analysis**
+
+    Using `python`:
+
+    1.  Plot $R(E)$ and $T(E)$ for different values of $V_0$.
+
+    2.  Mark the region $E<V_0-m$.
+
+    3.  Plot the currents $j_{\text{in}}$, $j_{\text{ref}}$, $j_{\text{tr}}$ and check their balance.
+
+8.  **Discussion**
+
+    1.  Where exactly does the "paradox" arise if the interpretation is wrong?
+
+    2.  Why is the Klein paradox not a violation of causality?
+
+    3.  Which parts of this analysis require second quantization, and which do not?
+
+9.  **References**
+
+    - B. R. Holstein, *Klein's paradox*, Am. J. Phys. **66**, 507 (1998).
+
+    - P. A. M. Dirac, *The Principles of Quantum Mechanics*.
+
+    - W. Greiner, *Relativistic Quantum Mechanics*.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="resonances.html"><span>← Previous</span>Resonances and quasi-bound states</a><a class="qft-exam-next" href="dirac-1plus1.html"><span>Next →</span>The Dirac equation in 1+1 dimensions</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

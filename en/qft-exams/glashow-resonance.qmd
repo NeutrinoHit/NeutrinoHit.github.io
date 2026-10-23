@@ -1,0 +1,39 @@
+---
+pagetitle: "The Glashow resonance — Examination projects"
+lang: en-US
+description: "The Glashow resonance: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 7 of 18</span>
+    <h1>The Glashow resonance</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+The neutrino telescopes IceCube, Baikal-GVD, KM3NeT and P-ONE aim to identify astrophysical sources of ultra-high-energy neutrinos.
+
+\(i\) Without neglecting $q^2$ compared with $m_W^2$ in the $W$-boson propagator, compute the cross sections of the deep inelastic reactions $\nu_\ell + N\to \ell^-+X$ and $\bar{\nu}_\ell + N\to \ell^++X$ ($X$ stands for hadrons). Plot them as functions of the neutrino energy. Use, for example, the `lhapdf` library for the quark distributions.
+
+\(ii\) Estimate the absorption length of neutrinos and antineutrinos. Find the energy above which the Earth is no longer transparent to them.
+
+\(iii\) Compute the cross section of the reaction $\bar{\nu}_e+e^-\to W^-$ (the Glashow resonance). Why is it called so? Compare this cross section with the cross sections from (i). Is there a similar resonance for $\nu_e$? Why?
+
+\(iv\) Compute the cross sections of the reactions $\bar{\nu}_e+e^-\to \bar{\nu}_\ell+\ell^-$ and $\bar{\nu}_e+e^-\to X$ in the region of the Glashow resonance. Compare them with the cross sections from (i) on one plot.
+
+\(v\) What can the observation of the Glashow resonance tell us? Give a short review of the experimental status.
+
+\(vi\) Estimate the volume of a water telescope that would detect one such event per year.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="neutral-pion.html"><span>← Previous</span>The neutral pion</a><a class="qft-exam-next" href="neutral-kaons.html"><span>Next →</span>Neutral kaons</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

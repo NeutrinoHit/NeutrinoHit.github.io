@@ -1,0 +1,43 @@
+---
+pagetitle: "Симметрии σ-модели — Экзаменационные проекты"
+lang: ru-RU
+description: "Симметрии σ-модели: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 12 из 20</span>
+    <h1>Симметрии \(\sigma\)-модели</h1>
+    <p class="course-toc-meta">Тема: Симметрии и теорема Нётер</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Лагранжиан $\sigma$-модели:** $$\begin{aligned}
+\mathcal{L} &= \frac{1}{2} \big[ (\partial_\mu \sigma)(\partial^\mu \sigma) + (\partial_\mu \boldsymbol{\pi}) \cdot (\partial^\mu \boldsymbol{\pi}) \big]
++ i \overline{\Psi} \hat{\partial} \Psi
++ g \overline{\Psi} (\sigma + i \boldsymbol{\tau} \cdot \boldsymbol{\pi} \gamma_5) \Psi\\
+&- \frac{m^2}{2} (\sigma^2 + \boldsymbol{\pi}^2) - \frac{\lambda}{4} (\sigma^2 + \boldsymbol{\pi}^2)^2,
+\end{aligned}$$ где
+
+- $\sigma(x)$ --- скалярное поле,
+
+- $\boldsymbol{\pi}(x)$ --- трёхкомпонентное скалярное поле,
+
+- $\Psi(x)$ --- дублет фермионных полей,
+
+- $\boldsymbol{\tau}$ --- матрицы Паули.
+
+**Симметрия:** Докажите, что лагранжиан $\mathcal{L}$ обладает следующей симметрией: $$\sigma(x) \to \sigma(x),$$ $$\boldsymbol{\pi}(x) \to \boldsymbol{\pi}(x) - \boldsymbol{\alpha} \times \boldsymbol{\pi}(x),$$ $$\Psi(x) \to \Psi(x) + i \frac{\boldsymbol{\alpha} \cdot \boldsymbol{\tau}}{2} \Psi(x),$$ где $\boldsymbol{\alpha}$ --- 3-вектор бесконечно-малых параметров преобразования. Найдите соответствующий нётеровский ток.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="dirac-symmetries.html"><span>← Предыдущий</span>Симметрии уравнения Дирака</a><a class="qft-exam-next" href="chiral-anomaly.html"><span>Следующий →</span>Спектральный поток и киральная аномалия в 1+1</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

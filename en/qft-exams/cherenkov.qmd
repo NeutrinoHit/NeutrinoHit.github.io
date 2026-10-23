@@ -1,0 +1,39 @@
+---
+pagetitle: "Vavilov–Cherenkov radiation — Examination projects"
+lang: en-US
+description: "Vavilov–Cherenkov radiation: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 13 of 18</span>
+    <h1>Vavilov–Cherenkov radiation</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+An electron moves in a homogeneous, transparent, nonmagnetic medium with refractive index $n > 1$. If the speed of the electron is $v > 1/n$, the decay $e(p) \to e(p') + \gamma(k)$ becomes possible, which gives rise to Vavilov--Cherenkov radiation. The photon energy is $\omega_k = |\boldsymbol{k}|/n$. Its polarization is $\varepsilon^\mu_\lambda(\boldsymbol{k}) = (0,\boldsymbol{\varepsilon}_\lambda(\boldsymbol{k}))$.
+
+- Show that the squared matrix element, summed over the spins of the final electron and averaged over the spins of the initial electron, is $$|\mathcal{M}|^2 =  4\pi \alpha \left( 4\left(\boldsymbol{p}\cdot \boldsymbol{\varepsilon}_\lambda(\boldsymbol{k})\right)^2 - k^2 \right).$$
+
+This expression shows that the photon is polarized in the scattering plane spanned by the vectors $\boldsymbol{p}$ and $\boldsymbol{k}$.
+
+- Show that the spectral and angular distribution of the radiation is $$\frac{d^2\Gamma}{d\omega\, d\Omega_\gamma} = \frac{|\mathcal{M}|^2}{32\pi^2 v E^2}\, \delta\left( \cos\theta - \frac{1}{vn} - \frac{\omega(n^2 - 1)}{2v n E} \right),$$ which shows that the polar emission angle of the photon (the $z$ axis is along the momentum $\boldsymbol{p}$ of the initial electron) is fixed by the energies of the initial electron and the final photon: $$\cos\theta \equiv \cos\theta_0 = \frac{1}{vn} + \frac{\omega(n^2 - 1)}{2vnE}.$$
+
+- Show that the spectral distribution of the radiation is $$\frac{d\Gamma}{d\omega} = \alpha \left[ v \sin^2\theta_0 + \frac{\omega^2 (n^2 - 1)}{2v E^2} \right].$$
+
+The future Nobel laureate Vitaly Lazarevich Ginzburg solved this problem in 1940.
+
+Neglecting terms of order $\omega/E$, we recover the classical results of two other Nobel laureates, I. E. Tamm and I. M. Frank: $$\frac{d\Gamma}{d\omega} = \alpha v \sin^2 \theta_0, \qquad \cos \theta_0 = \frac{1}{vn}.$$
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="orthopositronium.html"><span>← Previous</span>The short life of orthopositronium</a><a class="qft-exam-next" href="cosmological-constant.html"><span>Next →</span>The cosmological constant</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

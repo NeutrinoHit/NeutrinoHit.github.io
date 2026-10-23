@@ -1,0 +1,33 @@
+---
+pagetitle: "The neutral pion — Examination projects"
+lang: en-US
+description: "The neutral pion: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 6 of 18</span>
+    <h1>The neutral pion</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+In $e^+e^-$ collisions one can observe collisions of almost real photons emitted by the electrons and positrons at small angles to the beam axis. In such collisions the photons can produce a neutral pion. The cross section of this reaction is proportional to the decay width $\Gamma(\pi^0\to\gamma\gamma)$ and provides a way to measure it.
+
+\(i\) Compute the cross section of the reaction $\gamma+\gamma\to\pi^0$ in QED: $$\sigma(\gamma+\gamma\to\pi^0) = \frac{8\pi^2\,\Gamma(\pi^0\to\gamma\gamma)}{m_\pi}\,\delta\bigl((p+k)^2-m_\pi^2\bigr),$$ where $p,k$ are the 4-momenta of the photons (Low's formula; the photons are unpolarized).
+
+\(ii\) Check that the matrix element of the reaction $\gamma+\gamma\to\pi^0$ is nonzero only when the helicities of the photons are equal (for linear polarizations, when they are mutually perpendicular).
+
+\(iii\) Check that in the decay $\pi^0\to\gamma\gamma$ the combination $(\boldsymbol{E}_1+\boldsymbol{E}_2)\cdot (\boldsymbol{B}_1+\boldsymbol{B}_2)$ is nonzero only for the same photon polarizations.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="reactor-antineutrinos.html"><span>← Previous</span>Reactor antineutrinos</a><a class="qft-exam-next" href="glashow-resonance.html"><span>Next →</span>The Glashow resonance</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

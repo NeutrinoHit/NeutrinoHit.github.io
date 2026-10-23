@@ -1,0 +1,80 @@
+---
+pagetitle: "Экзаменационные проекты по квантовой теории поля"
+lang: ru-RU
+description: "Экзаменационные проекты курса квантовой теории поля Д. В. Наумова: осень и весна, задачи с теорией, расчётом и моделированием."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exams">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="education.html">Образование</a><span>›</span><span>Экзаменационные проекты</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Экзамен · проекты</span>
+    <h1>Экзаменационные проекты по квантовой теории поля</h1>
+    <p class="course-page-summary">Экзамен по курсу «Квантовая теория поля для экспериментаторов» проходит в виде мини-проектов. Каждый студент получает собственную задачу и примерно неделю на подготовку. Каждый проект — небольшая научная работа: теория, расчёт, моделирование и сравнение с экспериментом.</p>
+    <p class="course-toc-meta">Осень · 20 проектов · Весна · 18 проектов</p>
+    <div class="lecture-course-actions"><a class="lecture-action-primary" href="#autumn">Осень</a><a class="lecture-action-primary" href="#spring">Весна</a><a href="../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a><a href="../assets/qft-exams/qft-exams-spring-ru.pdf">Весна: все проекты, PDF</a></div>
+  </header>
+  <h2 id="autumn" class="course-page-section">Осенний семестр · 20 проектов</h2>
+  <p class="course-page-summary qft-exams-season-lead">Квантовая механика, уравнение Дирака, симметрии и вакуум: первый семестр курса.</p>
+  <table class="course-toc course-toc-full qft-exams-toc">
+    <thead><tr><th class="course-toc-num">№</th><th>Проект</th><th class="qft-exams-topic">Тема</th></tr></thead>
+    <tbody>
+      <tr id="harmonic-chain"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="qft-exams/harmonic-chain.html">Гармонический квантовый осциллятор</a></td><td class="qft-exams-topic">Квантование и нормальные моды</td></tr>
+      <tr id="hydrogen-atom"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="qft-exams/hydrogen-atom.html">Атом водорода</a></td><td class="qft-exams-topic">Связанные состояния и спектры</td></tr>
+      <tr id="pionium"><td class="course-toc-num">03</td><td class="course-toc-topic"><a href="qft-exams/pionium.html">\(\pi^+\pi^-\)-атом</a></td><td class="qft-exams-topic">Связанные состояния и спектры</td></tr>
+      <tr id="resonances"><td class="course-toc-num">04</td><td class="course-toc-topic"><a href="qft-exams/resonances.html">Резонансы и квазисвязанные состояния</a></td><td class="qft-exams-topic">Связанные состояния и спектры</td></tr>
+      <tr id="klein-paradox"><td class="course-toc-num">05</td><td class="course-toc-topic"><a href="qft-exams/klein-paradox.html">Парадокс Клейна</a></td><td class="qft-exams-topic">Релятивистская квантовая механика</td></tr>
+      <tr id="dirac-1plus1"><td class="course-toc-num">06</td><td class="course-toc-topic"><a href="qft-exams/dirac-1plus1.html">Уравнение Дирака в 1+1 измерениях</a></td><td class="qft-exams-topic">Релятивистская квантовая механика</td></tr>
+      <tr id="tremor"><td class="course-toc-num">07</td><td class="course-toc-topic"><a href="qft-exams/tremor.html">Релятивистский тремор и давление</a></td><td class="qft-exams-topic">Релятивистская квантовая механика</td></tr>
+      <tr id="dirac-matrices"><td class="course-toc-num">08</td><td class="course-toc-topic"><a href="qft-exams/dirac-matrices.html">\(\gamma\) матрицы Дирака</a></td><td class="qft-exams-topic">Релятивистская квантовая механика</td></tr>
+      <tr id="stern-gerlach"><td class="course-toc-num">09</td><td class="course-toc-topic"><a href="qft-exams/stern-gerlach.html">Эксперимент Штерна-Герлаха</a></td><td class="qft-exams-topic">Спин и измерение</td></tr>
+      <tr id="quantum-eraser"><td class="course-toc-num">10</td><td class="course-toc-topic"><a href="qft-exams/quantum-eraser.html">Квантовый ластик и отложенный выбор</a></td><td class="qft-exams-topic">Спин и измерение</td></tr>
+      <tr id="dirac-symmetries"><td class="course-toc-num">11</td><td class="course-toc-topic"><a href="qft-exams/dirac-symmetries.html">Симметрии уравнения Дирака</a></td><td class="qft-exams-topic">Симметрии и теорема Нётер</td></tr>
+      <tr id="sigma-model"><td class="course-toc-num">12</td><td class="course-toc-topic"><a href="qft-exams/sigma-model.html">Симметрии \(\sigma\)-модели</a></td><td class="qft-exams-topic">Симметрии и теорема Нётер</td></tr>
+      <tr id="chiral-anomaly"><td class="course-toc-num">13</td><td class="course-toc-topic"><a href="qft-exams/chiral-anomaly.html">Спектральный поток и киральная аномалия в 1+1</a></td><td class="qft-exams-topic">Симметрии и теорема Нётер</td></tr>
+      <tr id="casimir"><td class="course-toc-num">14</td><td class="course-toc-topic"><a href="qft-exams/casimir.html">Эффект Казимира</a></td><td class="qft-exams-topic">Вакуумные эффекты и границы</td></tr>
+      <tr id="dynamical-casimir"><td class="course-toc-num">15</td><td class="course-toc-topic"><a href="qft-exams/dynamical-casimir.html">Динамический эффект Казимира</a></td><td class="qft-exams-topic">Вакуумные эффекты и границы</td></tr>
+      <tr id="diffraction"><td class="course-toc-num">16</td><td class="course-toc-topic"><a href="qft-exams/diffraction.html">Дифракция на отверстии</a></td><td class="qft-exams-topic">Функции Грина и волновые задачи</td></tr>
+      <tr id="tachyon"><td class="course-toc-num">17</td><td class="course-toc-topic"><a href="qft-exams/tachyon.html">Тахион</a></td><td class="qft-exams-topic">Причинность и дисперсия</td></tr>
+      <tr id="berry-phase"><td class="course-toc-num">18</td><td class="course-toc-topic"><a href="qft-exams/berry-phase.html">Фаза Берри</a></td><td class="qft-exams-topic">Геометрические эффекты</td></tr>
+      <tr id="landau-levels"><td class="course-toc-num">19</td><td class="course-toc-topic"><a href="qft-exams/landau-levels.html">Уровни Ландау: от нерелятивистских частиц к графену</a></td><td class="qft-exams-topic">Калибровочные поля и квантование движения</td></tr>
+      <tr id="aharonov-bohm"><td class="course-toc-num">20</td><td class="course-toc-topic"><a href="qft-exams/aharonov-bohm.html">Эффект Ааронова–Бома и калибровочная инвариантность</a></td><td class="qft-exams-topic">Калибровочные поля и квантование движения</td></tr>
+    </tbody>
+  </table>
+  <h2 id="spring" class="course-page-section">Весенний семестр · 18 проектов</h2>
+  <p class="course-page-summary qft-exams-season-lead">КЭД, Стандартная модель, нейтрино и космология: второй семестр курса.</p>
+  <table class="course-toc course-toc-full qft-exams-toc">
+    <thead><tr><th class="course-toc-num">№</th><th>Проект</th></tr></thead>
+    <tbody>
+      <tr id="varying-masses"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="qft-exams/varying-masses.html">Могут ли массы зависеть от координаты?</a></td></tr>
+      <tr id="z-pole"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="qft-exams/z-pole.html">Стандартная модель на \(Z\)-полюсе</a></td></tr>
+      <tr id="solar-neutrinos"><td class="course-toc-num">03</td><td class="course-toc-topic"><a href="qft-exams/solar-neutrinos.html">Солнечные нейтрино</a></td></tr>
+      <tr id="relic-neutrinos"><td class="course-toc-num">04</td><td class="course-toc-topic"><a href="qft-exams/relic-neutrinos.html">Реликтовые нейтрино</a></td></tr>
+      <tr id="reactor-antineutrinos"><td class="course-toc-num">05</td><td class="course-toc-topic"><a href="qft-exams/reactor-antineutrinos.html">Реакторные антинейтрино</a></td></tr>
+      <tr id="neutral-pion"><td class="course-toc-num">06</td><td class="course-toc-topic"><a href="qft-exams/neutral-pion.html">Нейтральный пион</a></td></tr>
+      <tr id="glashow-resonance"><td class="course-toc-num">07</td><td class="course-toc-topic"><a href="qft-exams/glashow-resonance.html">Резонанс Глэшоу</a></td></tr>
+      <tr id="neutral-kaons"><td class="course-toc-num">08</td><td class="course-toc-topic"><a href="qft-exams/neutral-kaons.html">Нейтральные каоны</a></td></tr>
+      <tr id="higgs-decay"><td class="course-toc-num">09</td><td class="course-toc-topic"><a href="qft-exams/higgs-decay.html">Распад бозона Хиггса</a></td></tr>
+      <tr id="neutrino-dose"><td class="course-toc-num">10</td><td class="course-toc-topic"><a href="qft-exams/neutrino-dose.html">Радиационная нейтринная опасность</a></td></tr>
+      <tr id="vacuum-birefringence"><td class="course-toc-num">11</td><td class="course-toc-topic"><a href="qft-exams/vacuum-birefringence.html">Когда вакуум становится призмой</a></td></tr>
+      <tr id="orthopositronium"><td class="course-toc-num">12</td><td class="course-toc-topic"><a href="qft-exams/orthopositronium.html">Недолгая жизнь ортопозитрония</a></td></tr>
+      <tr id="cherenkov"><td class="course-toc-num">13</td><td class="course-toc-topic"><a href="qft-exams/cherenkov.html">Излучение Вавилова–Черенкова</a></td></tr>
+      <tr id="cosmological-constant"><td class="course-toc-num">14</td><td class="course-toc-topic"><a href="qft-exams/cosmological-constant.html">Космологическая постоянная</a></td></tr>
+      <tr id="functional-integral"><td class="course-toc-num">15</td><td class="course-toc-topic"><a href="qft-exams/functional-integral.html">Функциональный интеграл</a></td></tr>
+      <tr id="grand-unification"><td class="course-toc-num">16</td><td class="course-toc-topic"><a href="qft-exams/grand-unification.html">Теории Великого Объединения</a></td></tr>
+      <tr id="unstable-particles"><td class="course-toc-num">17</td><td class="course-toc-topic"><a href="qft-exams/unstable-particles.html">Ширина нестабильных частиц</a></td></tr>
+      <tr id="polarizing-glasses"><td class="course-toc-num">18</td><td class="course-toc-topic"><a href="qft-exams/polarizing-glasses.html">Поляризационные очки и КЭД</a></td></tr>
+    </tbody>
+  </table>
+  <h2 id="how" class="course-page-section">Как устроен проект</h2>
+  <div class="qft-exams-how">
+    <div class="course-page-card"><h3>Цели</h3><ul><li>Применение полученных знаний для решения реальных научных задач.</li><li>Освоение научных инструментов: LaTeX, git, python.</li><li>Развитие навыков совместной работы над проектами.</li><li>Критическое мышление и креативность: проекты побуждают находить нестандартные решения и аргументировать их.</li></ul></div>
+    <div class="course-page-card"><h3>Структура отчёта</h3><ol><li>Введение: мотивация, краткий обзор литературы, постановка задачи.</li><li>Теоретическая часть: выводы, расчёты, формулы.</li><li>Практическая часть: моделирование, анализ данных, расчёты.</li><li>Обсуждение: графики, таблицы, интерпретация результатов.</li><li>Выводы: основные результаты, предложения по продолжению работы.</li><li>Список литературы: все использованные источники.</li></ol></div>
+    <div class="course-page-card"><h3>Технические аспекты</h3><ul><li>Оформление проекта в LaTeX; можно использовать онлайн-сервис overleaf.com.</li><li>Фейнмановские диаграммы — пакет tikz-feynman.</li><li>Графики — библиотека matplotlib.</li></ul></div>
+  </div>
+  <p class="course-page-note">Проекты обновляются и пополняются — заглядывайте сюда регулярно.</p>
+  <p class="course-book-line">Учебник к курсу: <a href="materials.html#qft-book">«Квантовая теория поля для экспериментаторов и не только» →</a></p>
+  <p class="course-page-back"><a href="education.html">← Образование</a></p>
+</article>
+```

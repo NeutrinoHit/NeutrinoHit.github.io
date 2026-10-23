@@ -1,0 +1,39 @@
+---
+pagetitle: "Резонанс Глэшоу — Экзаменационные проекты"
+lang: ru-RU
+description: "Резонанс Глэшоу: экзаменационные проекты — весна."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#spring">Весна</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Весна · проект 7 из 18</span>
+    <h1>Резонанс Глэшоу</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Нейтринные телескопы IceCube, Baikal-GVD, KM3NeT, P-ONE нацелены на идентификацию астрофизических источников нейтрино сверхвысоких энергий.
+
+\(i\) Не пренебрегая $q^2$ по сравнению с $m_W^2$ в пропагаторе $W$-бозона вычислите сечение глубоконеупругих реакций $\nu_\ell + N\to \ell^-+X$ и $\bar{\nu}_\ell + N\to \ell^++X$ ($X$ --- адроны). Постройте графики в зависимости от энергии нейтрино. Воспользуйтесь, например, библиотекой `lhapdf` для кварковых распределений.
+
+\(ii\) Оцените длину поглощения нейтрино и антинейтрино. Определите энергию, начиная с которой Земля перестаёт быть прозрачной для них.
+
+\(iii\) Вычислите сечение реакции $\bar{\nu}_e+e^-\to W^-$ (резонанс Глэшоу). Почему он так называется? Сравните вычисленное сечение с сечениями из (i). Есть ли аналогичный резонанс для $\nu_e$? Почему?
+
+\(iv\) Вычислите сечения реакций $\bar{\nu}_e+e^-\to \bar{\nu}_\ell+\ell^-$, $\bar{\nu}_e+e^-\to X$ в области резонанса Глэшоу. Сравните вычисленные сечения с сечениями из (i) на одном графике.
+
+\(v\) Что нового может дать наблюдение резонанса Глэшоу? Сделайте краткий обзор экспериментального статуса.
+
+\(vi\) Оцените объём водного телескопа, который сможет зарегистрировать одно такое событие в год.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-ru.pdf">Весна: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="neutral-pion.html"><span>← Предыдущий</span>Нейтральный пион</a><a class="qft-exam-next" href="neutral-kaons.html"><span>Следующий →</span>Нейтральные каоны</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← Все проекты</a></p>
+</article>
+```

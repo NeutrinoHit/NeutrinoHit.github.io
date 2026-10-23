@@ -1,0 +1,32 @@
+---
+pagetitle: "The hydrogen atom — Examination projects"
+lang: en-US
+description: "The hydrogen atom: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 2 of 20</span>
+    <h1>The hydrogen atom</h1>
+    <p class="course-toc-meta">Topic: Bound states and spectra</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+1.  Compute the wave functions of the hydrogen atom for $n=1$, $j=1/2$. Plot them. Compare them with the solution of the Schrödinger equation for $n=1$.
+
+2.  Compute and plot the emission spectrum of the hydrogen atom in Dirac's theory.
+
+3.  The energy levels of a hydrogen atom change in the gravitational field of a star. For the photons emitted by the atoms this leads to the gravitational redshift $$z= \frac{\Delta\nu}{\nu}=\frac{GM}{Rc^2},$$ where $G$ is the gravitational constant and $M$ and $R$ are the mass and the radius of the star. Compute $\Delta\nu/\nu$ for different types of stars. Which of them allow one to observe the *gravitational* redshift? Compare with experiment.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="harmonic-chain.html"><span>← Previous</span>The quantum harmonic oscillator</a><a class="qft-exam-next" href="pionium.html"><span>Next →</span>The \(\pi^+\pi^-\) atom</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

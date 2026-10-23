@@ -1,0 +1,34 @@
+---
+pagetitle: "Дифракция на отверстии — Экзаменационные проекты"
+lang: ru-RU
+description: "Дифракция на отверстии: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 16 из 20</span>
+    <h1>Дифракция на отверстии</h1>
+    <p class="course-toc-meta">Тема: Функции Грина и волновые задачи</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+1.  Рассмотрите рассеяние скалярного поля $\phi(\boldsymbol{r})=e^{i\boldsymbol{k}\cdot \boldsymbol{r}}$, где $\boldsymbol{k}=(0,0,k)$, в рамках уравнения Гельмголца.
+
+2.  Найдите функцию Грина уравнения Гельмголца.
+
+3.  Рассмотрите малое отверстие в непрозрачном экране в форме: а) квадрата, б) равностороннего треугольника.
+
+4.  Вычислите численно поле за экраном в дальней зоне.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="dynamical-casimir.html"><span>← Предыдущий</span>Динамический эффект Казимира</a><a class="qft-exam-next" href="tachyon.html"><span>Следующий →</span>Тахион</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

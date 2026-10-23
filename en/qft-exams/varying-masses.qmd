@@ -1,0 +1,67 @@
+---
+pagetitle: "Can masses depend on position? — Examination projects"
+lang: en-US
+description: "Can masses depend on position?: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 1 of 18</span>
+    <h1>Can masses depend on position?</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+In the Higgs mechanism the masses of the gauge and fermion fields are determined by the vacuum expectation value (VEV) of a scalar field. A natural question arises: *can this expectation value be made position dependent*? At first sight a configuration such as $$|\phi(x)|^2 = \frac{v^2}{2}, \quad \phi(x) = \frac{v}{\sqrt{2}}
+\begin{pmatrix}
+\sin\theta(x)\\
+\cos\theta(x)
+\end{pmatrix}$$ sits at the minimum of the potential and seems to be allowed. Then the masses of particles could vary from point to point. In this project you will find out why this is not so.
+
+## Theory {#theory .unnumbered}
+
+- Check that every configuration with $|\phi(x)|^2 = \frac{v^2}{2}$ gives zero potential. Show that for an arbitrary $\theta(x)$ the Lagrangian acquires an additional energy density from the derivatives: $$\mathcal{E}_{\text{grad}} \sim (\partial_\mu \theta)^2.$$
+
+- Compute the contribution of the configuration $\theta(x) = \theta_0 \sin(kx)$ to the total energy of the field. Show that the gradient term is non-negative and is minimal for $\partial_\mu \theta = 0$.
+
+- Estimate the typical energy density of such configurations and compare it with the energy density of the Universe today ($\sim 10^{-47}$ GeV$^4$). What would it take for the effect to be noticeable?
+
+- Estimate the characteristic time in which such a configuration relaxes to the vacuum (the relaxation time). What is it for $k^{-1} \sim 1$ Mpc? Could remnants of this relaxation be observed today?
+
+- What happens to the Goldstone bosons when the symmetry is local? Explain how $\theta(x)$ is "eaten" by the gauge field and becomes the longitudinal polarization of a massive gauge boson. Why, for a local symmetry, can $\theta(x)$ be removed by a gauge transformation, so that the masses of particles do not depend on it?
+
+- Discuss how, if the masses of particles did depend on position, this would affect
+
+  - the spectra of distant atoms;
+
+  - the ratios of transition frequencies in different parts of the Universe;
+
+  - gravitational lensing and the observed composition of stars.
+
+## Observational constraints {#observational-constraints .unnumbered}
+
+- Study the results of
+
+  - searches for variations of fundamental constants: see the data from quasar spectra (for example, [\[1\]](#ref-1));
+
+  - experiments with atomic clocks (frequency differences when moving through the gravitational potential);
+
+  - constraints on domain walls and other traces of an inhomogeneous phase.
+
+- Draw a conclusion: is $|\phi(x)| = \text{const}$ really the only possible state of the Higgs field in the Universe? Or is there a chance that somewhere the electron mass was different?
+
+## References
+
+[1]{#ref-1} J. K. Webb, J. A. King, M. T. Murphy et al., *Indications of a Spatial Variation of the Fine Structure Constant*, Phys. Rev. Lett. **107** 191101 (2011) <https://doi.org/10.1103/PhysRevLett.107.191101>
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><span></span><a class="qft-exam-next" href="z-pole.html"><span>Next →</span>The Standard Model at the \(Z\) pole</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

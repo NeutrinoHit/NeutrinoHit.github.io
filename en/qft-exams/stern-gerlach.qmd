@@ -1,0 +1,51 @@
+---
+pagetitle: "The Stern–Gerlach experiment — Examination projects"
+lang: en-US
+description: "The Stern–Gerlach experiment: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 9 of 20</span>
+    <h1>The Stern–Gerlach experiment</h1>
+    <p class="course-toc-meta">Topic: Spin and measurement</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Goal:** Study the trajectories of a spin-1/2 particle in an inhomogeneous magnetic field $\mathbf{B} = \nabla \Phi(x, y, z)$ using the Pauli equation $$i\frac{\partial \psi}{\partial t} = \left(\frac{(\widehat{\boldsymbol{P}} - q\boldsymbol{A})^2}{2m} - \frac{q}{2m} \boldsymbol{\sigma} \cdot \boldsymbol{B}\right)\psi$$ and Ehrenfest's theorem, and analyze how the initial spin, the inhomogeneity of the field and the initial parameters of the particle affect its motion.
+
+1.  **Equations of motion:** Use Ehrenfest's theorem to compute the mean values of the coordinates and momentum: $$\frac{d\langle \mathbf{r} \rangle}{dt} = \frac{\langle \mathbf{p} \rangle}{m}, \quad
+        \frac{d\langle \mathbf{p} \rangle}{dt} = \langle \nabla (\boldsymbol{\mu} \cdot \boldsymbol{B}) \rangle,$$ where $\boldsymbol{\mu} = \frac{q}{2m} \boldsymbol{\sigma}$ is the magnetic moment of the particle (the Lorentz force is neglected here).
+
+2.  **Initial conditions:**
+
+    1.  initial coordinates: $\langle \mathbf{r}(0) \rangle = (0, 0, 0)$;
+
+    2.  initial momentum: $\langle \mathbf{p}(0) \rangle = (p, 0, 0)$;
+
+    3.  initial spin: along the $+z$ axis ($\sigma_z = +1$) or the $-z$ axis ($\sigma_z = -1$).
+
+3.  **Magnetic field:** Consider an inhomogeneous magnetic field given, for example, by the scalar potential $\Phi(x, y, z)$: $$\mathbf{B} = \nabla \Phi(x, y, z), \quad \Phi(x, y, z) = B_0 z + \frac{B_1}{2} (x^2 - y^2).$$ This field approximately models a real Stern--Gerlach apparatus.
+
+4.  **Trajectories:** Solve numerically the equations of motion for the mean coordinates $\langle x(t) \rangle$, $\langle y(t) \rangle$, $\langle z(t) \rangle$. Plot the trajectories of particles with spin along $+z$ and $-z$.
+
+5.  **Plots:**
+
+    1.  the trajectories $\langle x(t) \rangle$ and $\langle z(t) \rangle$ for different values of the initial momentum $p$, the field strength $B_0$ and the gradient $B_1$;
+
+    2.  a comparison of the deflections of particles with different initial spins ($+z$ and $-z$).
+
+6.  **Analysis:** Explain how the inhomogeneity of the field ($B_1$) and the parameters of the particle ($p$, $m$, initial spin) affect the trajectories. Explain why the Lorentz force does not affect the separation of the trajectories in this experiment.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="dirac-matrices.html"><span>← Previous</span>The Dirac \(\gamma\) matrices</a><a class="qft-exam-next" href="quantum-eraser.html"><span>Next →</span>The quantum eraser and delayed choice</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

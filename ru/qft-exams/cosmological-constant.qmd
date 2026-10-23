@@ -1,0 +1,37 @@
+---
+pagetitle: "Космологическая постоянная — Экзаменационные проекты"
+lang: ru-RU
+description: "Космологическая постоянная: экзаменационные проекты — весна."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#spring">Весна</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Весна · проект 14 из 18</span>
+    <h1>Космологическая постоянная</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+- Покажите, что ненулевая (бесконечная!) вакуумная плотность энергии квантового поля переопределяет космологическую постоянную в уравнениях Эйнштейна.
+
+- Обсудите, как меняется решение, описывающее эволюцию однородной и изотропной Вселенной в зависимости от вклада в вакуумную энергию фермионных и бозонных полей.
+
+- Исследуйте литературу с современными экспериментальными данными по измерению космологической постоянной в модели однородной и изотропной Вселенной. Укажите, какими свойствами должна обладать система, чтобы объяснить наблюдаемое ускоренное расширение Вселенной.
+
+- Рассмотрите простейшую суперсимметричную модель Весса--Зумино [\[1\]](#ref-1), содержащую один комплексный скаляр $\phi$ и один майорановский фермион $\psi$. Получите значение средней плотности энергии вакуума. Решает ли суперсимметрия проблему космологической постоянной?
+
+## Литература
+
+[1]{#ref-1} Wess, Julius, Zumino, Bruno, *Supergauge transformations in four dimensions*, Nucl. Phys. B **70** 39–50 (1974) <https://doi.org/10.1016/0550-3213(74)90355-1>
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-ru.pdf">Весна: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="cherenkov.html"><span>← Предыдущий</span>Излучение Вавилова–Черенкова</a><a class="qft-exam-next" href="functional-integral.html"><span>Следующий →</span>Функциональный интеграл</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← Все проекты</a></p>
+</article>
+```

@@ -1,0 +1,51 @@
+---
+pagetitle: "Эксперимент Штерна-Герлаха — Экзаменационные проекты"
+lang: ru-RU
+description: "Эксперимент Штерна-Герлаха: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 9 из 20</span>
+    <h1>Эксперимент Штерна-Герлаха</h1>
+    <p class="course-toc-meta">Тема: Спин и измерение</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Цель:** Исследовать траектории спин-1/2 частицы в неоднородном магнитном поле $\mathbf{B} = \nabla \Phi(x, y, z)$, используя уравнение Паули: $$i\frac{\partial \psi}{\partial t} = \left(\frac{(\widehat{\boldsymbol{P}} - q\boldsymbol{A})^2}{2m} - \frac{q}{2m} \boldsymbol{\sigma} \cdot \boldsymbol{B}\right)\psi,$$ и теорему Эренфеста, и проанализировать влияние начального спина, неоднородности магнитного поля и начальных параметров частицы на её движение.
+
+1.  **Уравнения движения:** Используйте теорему Эренфеста для вычисления средних значений координат и импульса: $$\frac{d\langle \mathbf{r} \rangle}{dt} = \frac{\langle \mathbf{p} \rangle}{m}, \quad
+        \frac{d\langle \mathbf{p} \rangle}{dt} = \langle \nabla (\boldsymbol{\mu} \cdot \boldsymbol{B}) \rangle,$$ где $\boldsymbol{\mu} = \frac{q}{2m} \boldsymbol{\sigma}$ --- магнитный момент частицы (силой Лоренца здесь пренебрегаем).
+
+2.  **Начальные условия:**
+
+    1.  Начальные координаты: $\langle \mathbf{r}(0) \rangle = (0, 0, 0)$.
+
+    2.  Начальный импульс: $\langle \mathbf{p}(0) \rangle = (p, 0, 0)$.
+
+    3.  Начальный спин: вдоль $+z$-оси ($\sigma_z = +1$) или $-z$-оси ($\sigma_z = -1$).
+
+3.  **Магнитное поле:** Рассмотрите неоднородное магнитное поле, заданное, например, через скалярный потенциал $\Phi(x, y, z)$: $$\mathbf{B} = \nabla \Phi(x, y, z), \quad \Phi(x, y, z) = B_0 z + \frac{B_1}{2} (x^2 - y^2).$$ Это поле приближённо моделирует реальную установку для эксперимента Штерна-Герлаха.
+
+4.  **Траектории:** Численно решите уравнения движения для средних координат $\langle x(t) \rangle$, $\langle y(t) \rangle$, $\langle z(t) \rangle$. Постройте траектории для частиц со спинами вдоль $+z$ и $-z$.
+
+5.  **Графики:**
+
+    1.  Траектории $\langle x(t) \rangle$ и $\langle z(t) \rangle$ для разных значений начального импульса $p$, интенсивности поля $B_0$ и градиента $B_1$.
+
+    2.  Сравнение отклонений для частиц с разными начальными спинами ($+z$ и $-z$).
+
+6.  **Анализ:** Объясните, как неоднородность поля ($B_1$) и параметры частицы ($p$, $m$, начальный спин) влияют на траектории. Укажите, почему сила Лоренца в этом эксперименте не влияет на разделение траекторий.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="dirac-matrices.html"><span>← Предыдущий</span>\(\gamma\) матрицы Дирака</a><a class="qft-exam-next" href="quantum-eraser.html"><span>Следующий →</span>Квантовый ластик и отложенный выбор</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

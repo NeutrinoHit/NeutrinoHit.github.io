@@ -1,0 +1,37 @@
+---
+pagetitle: "Grand Unified Theories — Examination projects"
+lang: en-US
+description: "Grand Unified Theories: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 16 of 18</span>
+    <h1>Grand Unified Theories</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+This project is devoted to attempts to unify the fundamental interactions (strong, weak and electromagnetic) within simple gauge groups such as $SU(5)$. The tasks include building the model, studying the mechanism of spontaneous symmetry breaking, predicting proton decay and generating neutrino masses through the minimal dimension-5 operator.
+
+- Consider the gauge group of the Standard Model (SM), $SU(3)_c \otimes SU(2)_L \otimes U(1)_Y$. Describe how the SM fields transform under the gauge transformations of this group. Construct the covariant derivatives of the SM fields. Carry out the spontaneous symmetry breaking $$SU(3)_c \otimes SU(2)_L \otimes U(1)_Y \rightarrow SU(3)_c \otimes U(1)_{\text{em}}.$$
+
+- Consider $SU(5)$ as a GUT group. Show the embedding $SU(3)_c \otimes SU(2)_L \otimes U(1)_Y \subset SU(5)$. List the representations of $SU(5)$ and place the left-handed fermions in the $1 + \overline{5} + 10$ representations. The gauge bosons of $SU(5)$.
+
+- Spontaneous symmetry breaking in $SU(5)$. The chain $$SU(5) \rightarrow SU(3)_c \otimes SU(2)_L \otimes U(1)_Y \rightarrow SU(3)_c \otimes U(1)_{\text{em}}.$$ The fine-tuning problem of the Higgs parameters.
+
+- Proton decay. Consider the process $p \rightarrow \overline{\nu}\pi^+$ in the effective low-energy Lagrangian and compute the mean lifetime of the proton. Discuss the role of the $B-L$ symmetry. Give the current experimental limits on the proton lifetime and describe how the detectors built to search for it work.
+
+- Consider the seesaw mechanism for generating small neutrino masses. Restrict yourself to one generation of leptons. Construct the most general Yukawa part of the Lagrangian, including the Dirac and Majorana mass terms of the neutrino. Show that the low-energy effective action contains a single dimension-5 mass operator (the Weinberg operator). Obtain the prediction for the neutrino mass with a GUT scale of $\sim 10^{15}$ GeV.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="functional-integral.html"><span>← Previous</span>The functional integral</a><a class="qft-exam-next" href="unstable-particles.html"><span>Next →</span>Widths of unstable particles</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

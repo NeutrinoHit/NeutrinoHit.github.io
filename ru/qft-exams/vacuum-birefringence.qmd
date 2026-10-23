@@ -1,0 +1,51 @@
+---
+pagetitle: "Когда вакуум становится призмой — Экзаменационные проекты"
+lang: ru-RU
+description: "Когда вакуум становится призмой: экзаменационные проекты — весна."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#spring">Весна</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Весна · проект 11 из 18</span>
+    <h1>Когда вакуум становится призмой</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Ренормировка иногда воспринимается как формальный приём. Однако она вскрывает новый пласт реальности с реальными физическими эффектами. Один из них --- **двойное лучепреломление вакуума** в сильном электромагнитном поле, следующее из лагранжиана Эйлера и Гейзенберга [\[1\]](#ref-1). В этом проекте вы убедитесь в том, что квантовые флуктуации делают вакуум оптически анизотропной средой.
+
+- В классической электродинамике лагранжиан поля имеет вид $$L_0 = \frac{1}{8\pi}(\boldsymbol{E}^2 - \boldsymbol{B}^2).$$ Квантовые поправки, обусловленные виртуальными электрон-позитронными парами, приводят к нелинейным эффектам. При низких энергиях эффективный лагранжиан (лагранжиан Эйлера--Гейзенберга) принимает вид: $$L_{\text{eff}} = L_0 + \frac{e^4}{360\pi^2 m_e^4} \left[(\boldsymbol{E}^2 - \boldsymbol{B}^2)^2 + 7(\boldsymbol{E} \cdot \boldsymbol{B})^2\right].$$
+
+  (a) Выведите выражения для векторов индукции: $$\boldsymbol{D} = 4\pi \frac{\partial L_{\text{eff}}}{\partial \boldsymbol{E}}, \quad \boldsymbol{H} = -4\pi \frac{\partial L_{\text{eff}}}{\partial \boldsymbol{B}}.$$
+
+  (b) Сравните полученные материальные уравнения с уравнениями вакуума. Что изменилось?
+
+- Линеаризуйте уравнения, предполагая, что поле состоит из фона $\boldsymbol{E}_0, \boldsymbol{B}_0$ и малого возмущения $\delta \boldsymbol{E}, \delta \boldsymbol{B}$. Получите тензоры диэлектрической и магнитной проницаемостей среды.
+
+- Запишите уравнения Максвелла для волнового возмущения. Найдите дисперсионное соотношение для волны, распространяющейся вдоль оси $x$, при условии, что постоянное магнитное поле направлено вдоль оси $z$: $$\boldsymbol{B}_0 = B_0 \boldsymbol{e}_z.$$
+
+- Рассмотрите два случая:
+
+  (a) Электрическое поле волны параллельно $\boldsymbol{B}_0$ (направление поляризации вдоль оси $z$);
+
+  (b) Электрическое поле волны перпендикулярно $\boldsymbol{B}_0$ (поляризация вдоль оси $y$).
+
+  ✓  Найдите показатели преломления $n_\parallel$ и $n_\perp$, и их разность: $$\Delta n = n_\parallel - n_\perp.$$
+
+- Предложите эксперимент для наблюдения двойного лучепреломления вакуума. Какой эффект можно использовать --- интерференцию, вращение поляризации, фазовый сдвиг? Какие поля и чувствительность нужны?
+
+## Литература
+
+[1]{#ref-1} Heisenberg, Werner, Euler, Hans, *Folgerungen aus der Diracschen Theorie des Positrons*, Zeitschrift für Physik **98** 714–732 (1936) <https://doi.org/10.1007/BF01343663>
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-ru.pdf">Весна: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="neutrino-dose.html"><span>← Предыдущий</span>Радиационная нейтринная опасность</a><a class="qft-exam-next" href="orthopositronium.html"><span>Следующий →</span>Недолгая жизнь ортопозитрония</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← Все проекты</a></p>
+</article>
+```

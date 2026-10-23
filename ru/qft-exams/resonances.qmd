@@ -1,0 +1,50 @@
+---
+pagetitle: "Резонансы и квазисвязанные состояния — Экзаменационные проекты"
+lang: ru-RU
+description: "Резонансы и квазисвязанные состояния: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 4 из 20</span>
+    <h1>Резонансы и квазисвязанные состояния</h1>
+    <p class="course-toc-meta">Тема: Связанные состояния и спектры</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Цель:** Исследовать квазисвязанные состояния и резонансы в квантовой механике, связь ширины резонанса с временем жизни и интерпретацию резонансов как полюсов $S$-матрицы в комплексной плоскости энергии.
+
+1.  Рассмотрите одномерный потенциал: $$V(x)=
+    \begin{cases}
+    -V_0, & |x|<a,\\
+    0, & |x|>a.
+    \end{cases}$$
+
+2.  Найдите коэффициенты отражения и прохождения $R(E)$, $T(E)$.
+
+3.  Покажите наличие резонансных максимумов $T(E)\approx1$ при $E>0$.
+
+4.  Продолжите энергию в комплексную плоскость $E\to E-i\Gamma/2$ и найдите условия полюсов $S$-матрицы.
+
+5.  Свяжите ширину резонанса $\Gamma$ с временем жизни состояния $$\tau \sim \frac{1}{\Gamma}.$$
+
+6.  Численно постройте:
+
+    - $T(E)$,
+
+    - траектории полюсов при изменении $V_0$ и $a$.
+
+7.  Обсудите, почему резонансы естественнее интерпретировать в языке рассеяния, а не «связанных состояний».
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="pionium.html"><span>← Предыдущий</span>\(\pi^+\pi^-\)-атом</a><a class="qft-exam-next" href="klein-paradox.html"><span>Следующий →</span>Парадокс Клейна</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

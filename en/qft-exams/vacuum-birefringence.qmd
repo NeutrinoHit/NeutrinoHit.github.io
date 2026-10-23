@@ -1,0 +1,51 @@
+---
+pagetitle: "When the vacuum becomes a prism — Examination projects"
+lang: en-US
+description: "When the vacuum becomes a prism: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 11 of 18</span>
+    <h1>When the vacuum becomes a prism</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Renormalization is sometimes seen as a formal trick. Yet it uncovers a new layer of reality with real physical effects. One of them is the **birefringence of the vacuum** in a strong electromagnetic field, which follows from the Lagrangian of Euler and Heisenberg [\[1\]](#ref-1). In this project you will see that quantum fluctuations make the vacuum an optically anisotropic medium.
+
+- In classical electrodynamics the Lagrangian of the field is $$L_0 = \frac{1}{8\pi}(\boldsymbol{E}^2 - \boldsymbol{B}^2).$$ Quantum corrections due to virtual electron--positron pairs lead to nonlinear effects. At low energies the effective Lagrangian (the Euler--Heisenberg Lagrangian) takes the form $$L_{\text{eff}} = L_0 + \frac{e^4}{360\pi^2 m_e^4} \left[(\boldsymbol{E}^2 - \boldsymbol{B}^2)^2 + 7(\boldsymbol{E} \cdot \boldsymbol{B})^2\right].$$
+
+  (a) Derive the expressions for the displacement and the magnetizing field: $$\boldsymbol{D} = 4\pi \frac{\partial L_{\text{eff}}}{\partial \boldsymbol{E}}, \quad \boldsymbol{H} = -4\pi \frac{\partial L_{\text{eff}}}{\partial \boldsymbol{B}}.$$
+
+  (b) Compare the constitutive relations you obtain with those of the vacuum. What has changed?
+
+- Linearize the equations, assuming that the field consists of a background $\boldsymbol{E}_0, \boldsymbol{B}_0$ and a small perturbation $\delta \boldsymbol{E}, \delta \boldsymbol{B}$. Obtain the permittivity and permeability tensors of the medium.
+
+- Write Maxwell's equations for the wave perturbation. Find the dispersion relation for a wave propagating along the $x$ axis, assuming that the constant magnetic field is directed along the $z$ axis: $$\boldsymbol{B}_0 = B_0 \boldsymbol{e}_z.$$
+
+- Consider two cases:
+
+  (a) the electric field of the wave is parallel to $\boldsymbol{B}_0$ (polarization along the $z$ axis);
+
+  (b) the electric field of the wave is perpendicular to $\boldsymbol{B}_0$ (polarization along the $y$ axis).
+
+  ✓  Find the refractive indices $n_\parallel$ and $n_\perp$ and their difference $$\Delta n = n_\parallel - n_\perp.$$
+
+- Propose an experiment to observe vacuum birefringence. Which effect could be used: interference, rotation of the polarization, a phase shift? What fields and what sensitivity are needed?
+
+## References
+
+[1]{#ref-1} Heisenberg, Werner, Euler, Hans, *Consequences of Dirac's theory of the positron*, Zeitschrift für Physik **98** 714–732 (1936) <https://doi.org/10.1007/BF01343663>
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="neutrino-dose.html"><span>← Previous</span>Neutrino radiation hazard</a><a class="qft-exam-next" href="orthopositronium.html"><span>Next →</span>The short life of orthopositronium</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

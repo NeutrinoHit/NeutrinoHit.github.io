@@ -1,0 +1,35 @@
+---
+pagetitle: "Solar neutrinos — Examination projects"
+lang: en-US
+description: "Solar neutrinos: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 3 of 18</span>
+    <h1>Solar neutrinos</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+Nuclear reactions in the Sun produce electron neutrinos $\nu_e$. Measurements of the solar neutrino flux proved that nuclear reactions take place in the Sun. The deficit of the measured flux $\Phi(E)_{\nu_e}$ was explained by Mikheyev, Smirnov and Wolfenstein as a result of neutrino oscillations in the matter of the Sun. This made it possible to measure the mixing angle $\theta_{12}$ and the difference of the squared neutrino masses $\Delta m^2_{21}\equiv m_2^2-m_1^2$.
+
+\(i\) Compute the cross sections of the reactions $\nu_e + e^- \to e^- + \nu_e$ ($W$ and $Z$ exchange) and $\nu_\mu + e^- \to \nu_\mu + e^-$ ($Z$ exchange). Plot them as functions of the neutrino energy for $E_\nu\in(1,10)$ MeV.
+
+\(ii\) In the Super-Kamiokande experiment (Japan), solar neutrino interactions are observed by detecting the Cherenkov light of the recoil electrons. In a model with two neutrino types, $\nu_e$ and $\nu_\mu$, neutrino oscillations redistribute the fluxes, $\Phi_{\nu_e}\leftrightarrow\Phi_{\nu_\mu}$. How did physicists conclude that there is a deficit of recoil electrons, if electrons appear in both reactions, $\nu_e + e^- \to e^- + \nu_e$ and $\nu_\mu + e^- \to \nu_\mu + e^-$? Support your answer with numerical estimates.
+
+\(iii\) Compute the expected number of recoil-electron events per year in a water detector of mass 50 kt, assuming a solar neutrino flux $\Phi=5.7\cdot 10^{6}$ cm$^{-2}$ s$^{-1}$ and a mean energy $\langle E_\nu\rangle =8.5$ MeV.
+
+\(iv\) The electron neutrino $|\nu_e\rangle = \cos\theta|\nu_1\rangle+\sin\theta|\nu_2\rangle$ and the muon neutrino $|\nu_\mu\rangle = -\sin\theta|\nu_1\rangle+\cos\theta|\nu_2\rangle$ are coherent superpositions of the mass states $|\nu_{1,2}\rangle$. Because of the Mikheyev--Smirnov--Wolfenstein effect, for energies $E_\nu\ge 5$ MeV what leaves the Sun is neither $|\nu_e\rangle$ nor $|\nu_\mu\rangle$ but the pure mass state $|\nu_2\rangle$. Revisit items (i), (ii), (iii) in the light of this fact and discuss your conclusions.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="z-pole.html"><span>← Previous</span>The Standard Model at the \(Z\) pole</a><a class="qft-exam-next" href="relic-neutrinos.html"><span>Next →</span>Relic neutrinos</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

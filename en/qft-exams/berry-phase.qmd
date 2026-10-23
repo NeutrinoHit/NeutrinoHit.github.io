@@ -1,0 +1,133 @@
+---
+pagetitle: "The Berry phase — Examination projects"
+lang: en-US
+description: "The Berry phase: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 18 of 20</span>
+    <h1>The Berry phase</h1>
+    <p class="course-toc-meta">Topic: Geometric effects</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+## A short theoretical summary: the geometric phase and its gauge structure {#a-short-theoretical-summary-the-geometric-phase-and-its-gauge-structure .unnumbered}
+
+Consider a Hamiltonian $H(\boldsymbol{R})$ that depends on a set of external parameters $\boldsymbol{R}$, and its eigenstates $$H(\boldsymbol{R})\,|n(\boldsymbol{R})\rangle = E_n(\boldsymbol{R})\,|n(\boldsymbol{R})\rangle,$$ assuming that the level $E_n$ is nondegenerate.
+
+If the parameters $\boldsymbol{R}(t)$ change slowly (adiabatically), then for the initial state $|n(\boldsymbol{R}(0))\rangle$ the solution of the Schrödinger equation has the form $$|\psi(t)\rangle
+=
+e^{i\alpha_n(t)}\,|n(\boldsymbol{R}(t))\rangle,$$ where the phase $\alpha_n(t)$ satisfies $$\dot\alpha_n(t)
+=
+- E_n(t)
++ i\langle n(\boldsymbol{R}(t))|\dot n(\boldsymbol{R}(t))\rangle.$$
+
+Integrating over time, we obtain $$\alpha_n(T)
+=
+-\int_0^T E_n(t)\,dt
++
+\gamma_{\mathrm B},$$ where $$\gamma_{\mathrm B}
+=
+i\int_0^T
+\langle n(\boldsymbol{R}(t))|\dot n(\boldsymbol{R}(t))\rangle\,dt
+=
+i\oint_C
+\langle n|\nabla_{\boldsymbol{R}}n\rangle\cdot d\boldsymbol{R}.$$
+
+The quantity $$\boldsymbol{\mathcal A}(\boldsymbol{R})
+=
+i\langle n(\boldsymbol{R})|\nabla_{\boldsymbol{R}}n(\boldsymbol{R})\rangle$$ is called the *Berry gauge potential*. Under a phase transformation of the eigenstates $$|n(\boldsymbol{R})\rangle \to e^{i\chi(\boldsymbol{R})}|n(\boldsymbol{R})\rangle$$ it transforms as $$\boldsymbol{\mathcal A}\to \boldsymbol{\mathcal A}-\nabla_{\boldsymbol{R}}\chi,$$ exactly like the gauge potential of electrodynamics.
+
+What is physically observable is not the potential itself but its curvature $$\boldsymbol{\mathcal F}
+=
+\nabla_{\boldsymbol{R}}\times\boldsymbol{\mathcal A},$$ which is invariant under gauge transformations. For a closed contour $C$ the Berry phase is the flux of this curvature: $$\gamma_{\mathrm B}
+=
+\int_S \boldsymbol{\mathcal F}\cdot d\boldsymbol{S},$$ where $S$ is a surface spanned by the contour $C$ in parameter space.
+
+Thus the geometric phase is determined solely by the geometry of the path in parameter space and does not depend on how fast the path is traversed.
+
+**Goal:** Construct a measurable protocol for the Berry phase of a spin $\tfrac12$ in a slowly varying magnetic field, *show that the geometric phase is a consequence of the gauge structure of the space of eigenstates*, separate it from the dynamical phase and check the conditions of adiabaticity numerically.
+
+1.  **Two paths in parameter space: the same dynamics, different geometry**
+
+    Consider a magnetic field of fixed magnitude $B_0$ with direction $$\boldsymbol{n}(t)=\frac{\boldsymbol{B}(t)}{B_0}, \qquad |\boldsymbol{n}(t)|=1,$$ and the Hamiltonian $$H(t)=-\gamma B_0\, \boldsymbol{n}(t)\cdot \boldsymbol{S}.$$
+
+    Construct *two* cyclic evolutions $\boldsymbol{n}_A(t)$ and $\boldsymbol{n}_B(t)$ on the sphere of directions such that
+
+    1.  the solid angles $\Omega_A\neq \Omega_B$ differ;
+
+    2.  the dynamical phase is the same: $$\int_0^T E_0(t)\,dt \ \ \text{is the same for paths $A$ and $B$}.$$
+
+    *Remark.* One can take two cones with different $\theta$ and choose the times so that $\int_0^T |B(t)|\,dt$ coincide (or fix $B_0$ and take the same $T$).
+
+2.  **An interference protocol**
+
+    Consider a Ramsey-like protocol for a two-level system (a spin):
+
+    1.  prepare a superposition of two eigenstates of $H(0)$;
+
+    2.  realize path $A$ in one branch (arm of the interferometer) and path $B$ in the other;
+
+    3.  at the end, project onto the initial basis and measure the interference signal.
+
+    Formulate how the observed interference phase depends on $$\Delta\gamma = \gamma_B(A)-\gamma_B(B).$$ Explain why it is *the difference* of geometric phases that is physically observable, while the "absolute" phase depends on the choice of gauge of the eigenvectors.
+
+3.  **Gauge structure: the Berry connection and a "magnetic monopole" in parameter space**
+
+    Define the Berry gauge potential of the ground state: $$\boldsymbol{\mathcal A}(\boldsymbol{n}) = i\langle 0(\boldsymbol{n})|\nabla_{\boldsymbol{n}}\,|0(\boldsymbol{n})\rangle.$$
+
+    1.  Show that under a change of the phase convention $|0\rangle\to e^{i\chi(\boldsymbol{n})}|0\rangle$ the potential changes as $\boldsymbol{\mathcal A}\to \boldsymbol{\mathcal A}-\nabla_{\boldsymbol{n}}\chi$.
+
+    2.  Compute the curvature (the Berry field) $$\boldsymbol{\mathcal F} = \nabla_{\boldsymbol{n}}\times \boldsymbol{\mathcal A},$$ and interpret it as the field of a "monopole" in the space of directions $\boldsymbol{n}$.
+
+    3.  Choose two different gauges of the eigenstates (for example, singular on the northern and on the southern hemisphere of the sphere of directions $\boldsymbol{n}$) and show that
+
+        1.  the Berry potential $\boldsymbol{\mathcal A}$ depends on the choice of gauge;
+
+        2.  the curvature $\boldsymbol{\mathcal F}$ and the phase $\gamma_{\mathrm B}$ for a closed contour do not change.
+
+4.  **Numerical check: adiabaticity and transition errors**
+
+    Solve numerically the Schrödinger equation $$i\frac{d}{dt}|\psi(t)\rangle = H(t)|\psi(t)\rangle$$ for paths $A$ and $B$.
+
+    1.  Plot the probability to remain in the ground state, $$P_0(t)=|\langle 0(t)|\psi(t)\rangle|^2.$$
+
+    2.  Introduce the dimensionless adiabaticity parameter $$\epsilon(t)=\frac{|\langle 1(t)|\dot H(t)|0(t)\rangle|}{(E_1(t)-E_0(t))^2},$$ and check the relation: the smaller $\max_t \epsilon(t)$, the closer $P_0(T)$ is to $1$.
+
+    3.  For a fixed path (for example, a cone) study how the error $$1-P_0(T)$$ depends on the period $T$ (logarithmic plot).
+
+5.  **Extracting the geometric phase from the numerical solution**
+
+    Extract numerically the total phase of the overlap $$\Phi_{\text{tot}} = \arg \langle \psi(0)|\psi(T)\rangle,$$ and separate the dynamical part $$\Phi_{\text{dyn}} = -\int_0^T \langle \psi(t)|H(t)|\psi(t)\rangle\,dt.$$ Define the numerical estimate of the geometric phase as $$\Phi_{\text{geom}} = \Phi_{\text{tot}}-\Phi_{\text{dyn}},$$ and compare $\Phi_{\text{geom}}(A)-\Phi_{\text{geom}}(B)$ with the prediction in terms of the solid angles $\Omega_{A,B}$.
+
+6.  **Observability and robustness**
+
+    1.  Add a small noise to the field direction, $\boldsymbol{n}(t)\to \boldsymbol{n}(t)+\delta\boldsymbol{n}(t)$, followed by normalization to the unit sphere. Check that the result depends mainly on the geometry of the contour (the solid angle) and not on the details of its parametrization in time.
+
+    2.  Discuss in what sense the geometric phase is "robust" and where this robustness ends (violation of adiabaticity, level crossings).
+
+7.  **What to submit**
+
+    1.  A short theoretical derivation (1--2 pages): the interference protocol, the gauge, $\Delta\gamma$ as an observable.
+
+    2.  Numerical plots: $P_0(t)$, $\epsilon(t)$, the dependence of $1-P_0(T)$, and a comparison of $\Phi_{\text{geom}}$ with the geometric prediction.
+
+    3.  A minimal `git` repository: code (`python`), a short `README`, the final LaTeX report.
+
+8.  **References**
+
+    - M. V. Berry, *Quantal phase factors accompanying adiabatic changes*, Proc. R. Soc. A **392**, 45 (1984).
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="tachyon.html"><span>← Previous</span>The tachyon</a><a class="qft-exam-next" href="landau-levels.html"><span>Next →</span>Landau levels: from nonrelativistic particles to graphene</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

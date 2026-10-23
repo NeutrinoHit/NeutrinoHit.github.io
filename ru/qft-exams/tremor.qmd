@@ -1,0 +1,44 @@
+---
+pagetitle: "Релятивистский тремор и давление — Экзаменационные проекты"
+lang: ru-RU
+description: "Релятивистский тремор и давление: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 7 из 20</span>
+    <h1>Релятивистский тремор и давление</h1>
+    <p class="course-toc-meta">Тема: Релятивистская квантовая механика</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+1.  Пусть при $t=0$ состояние свободного электрона задаётся функцией $$\psi(0,\boldsymbol{x}) = \frac{1}{(2\pi d^2)^{3/4}}e^{-\frac{\boldsymbol{x}^2}{4d^2}}
+        \begin{pmatrix}
+             1 \\
+             0 \\
+             0 \\
+             0
+        \end{pmatrix}.$$ Найдите $\psi(t,\boldsymbol{x})$ при $t>0$.
+
+2.  Получите аналитическое выражение для среднего тока в виде интеграла по 3-импульсу: $$\boldsymbol{J}=\int d^3x \psi^\dagger(x)\,\boldsymbol{\alpha}\,\psi(x)$$
+
+3.  Вычислите этот интеграл и создайте анимацию для $\boldsymbol{J}(t)$.
+
+4.  Вечен ли тремор тока?
+
+5.  Вычислите давление $P$ поля и создайте анимацию для $P(t)$.
+
+6.  Объясните полученные результаты.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="dirac-1plus1.html"><span>← Предыдущий</span>Уравнение Дирака в 1+1 измерениях</a><a class="qft-exam-next" href="dirac-matrices.html"><span>Следующий →</span>\(\gamma\) матрицы Дирака</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

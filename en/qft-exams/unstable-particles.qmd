@@ -1,0 +1,49 @@
+---
+pagetitle: "Widths of unstable particles — Examination projects"
+lang: en-US
+description: "Widths of unstable particles: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 17 of 18</span>
+    <h1>Widths of unstable particles</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+In nonrelativistic quantum mechanics the instability of a particle is described by a complex potential or by a function $\psi(t) \sim e^{-iEt - \Gamma t/2}$. In quantum field theory the decay width arises from the imaginary part of the self-energy.
+
+In this project you will trace how the width arises from diagrams and how it is related to observable quantities.
+
+## Theory {#theory .unnumbered}
+
+- Let the scalar field $\phi$ interact with a light field $\chi$ through $$\mathcal{L}_{\text{int}} = -g \phi \chi^2.$$ Draw the second-order (in $g$) self-energy diagram of $\phi$. Compute the imaginary part of the loop with the help of the optical theorem.
+
+- Show that the field $\phi$ has the modified propagator $$\frac{i}{p^2 - m^2 + i m\Gamma}.$$ Explain the physical meaning of $\Gamma$ by comparing with the exponential decay law.
+
+- Show that the observed cross section near the resonance has the Breit--Wigner form $$\sigma(E) \propto \frac{1}{(E - m)^2 + (\Gamma/2)^2}.$$ Derive this expression from the full amplitude with the field $\phi$ in the intermediate state.
+
+- Explain why one cannot speak of a fixed mass of an unstable particle. What is the meaning of the diagram with the decay $A \to B\phi \to B\chi\chi$?
+
+- Discuss how the decay width is related to mass measurements: why is the mass of the $Z$ boson determined from the position of the peak of the cross section $e^+e^-\to f\bar f$, and the width from its shape?
+
+## A numerical example {#a-numerical-example .unnumbered}
+
+- Compute the decay width of a hypothetical scalar field, $\phi \to \chi\chi$, for $m_\phi = 1$ GeV, $m_\chi = 0.2$ GeV, $g = 1$ GeV.
+
+- Plot $\sigma(E)$ near the resonance and show how the shape of the peak changes as $\Gamma$ grows. How does the width depend on the mass and the coupling?
+
+- Find the widths of the real resonances $\rho$, $K^*$, $\Delta$ in the PDG tables. Compare with the Breit--Wigner formula. Why does it work poorly in some cases?
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="grand-unification.html"><span>← Previous</span>Grand Unified Theories</a><a class="qft-exam-next" href="polarizing-glasses.html"><span>Next →</span>Polarizing glasses and QED</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```

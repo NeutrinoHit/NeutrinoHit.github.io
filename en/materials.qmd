@@ -37,7 +37,7 @@ toc: false
         <dt>English edition</dt>
         <dd>An English edition is in preparation.</dd>
         <dt>With the book</dt>
-        <dd><a href="../qr/qft/">animations behind the QR codes</a> · <a href="education.html#qft-course">QFT video courses (Russian)</a></dd>
+        <dd><a href="../qr/qft/">animations behind the QR codes</a> · <a href="qft-exams.html">examination projects</a> · <a href="education.html#qft-course">QFT video courses (Russian)</a></dd>
       </dl>
       <div class="lecture-course-actions">
         <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Buy vol. 1 (Russia)</a>

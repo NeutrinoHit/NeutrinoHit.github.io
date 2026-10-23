@@ -1,0 +1,38 @@
+---
+pagetitle: "The dynamical Casimir effect — Examination projects"
+lang: en-US
+description: "The dynamical Casimir effect: examination projects — autumn."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#autumn">Autumn</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Autumn · project 15 of 20</span>
+    <h1>The dynamical Casimir effect</h1>
+    <p class="course-toc-meta">Topic: Vacuum effects and boundaries</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+**Goal:** Study the creation of real quanta from the vacuum under nonstationary boundary conditions.
+
+1.  Consider a one-dimensional scalar field $\phi(t,x)$ with the boundary conditions $$\phi(t,0)=\phi(t,L(t))=0,$$ where $$L(t)=L_0\bigl(1+\epsilon\sin\omega t\bigr).$$
+
+2.  Find the instantaneous modes of the field and their frequencies $\omega_n(t)$.
+
+3.  Show that under the resonance condition $$\omega \approx 2\omega_n$$ the number of quanta grows exponentially.
+
+4.  Compute numerically the radiated energy as a function of time.
+
+5.  Discuss the physics: where the energy of the created quanta comes from (the work of the external force that moves the boundary) and why energy is conserved.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-en.pdf">Autumn: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="casimir.html"><span>← Previous</span>The Casimir effect</a><a class="qft-exam-next" href="diffraction.html"><span>Next →</span>Diffraction by an aperture</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← All projects</a></p>
+</article>
+```

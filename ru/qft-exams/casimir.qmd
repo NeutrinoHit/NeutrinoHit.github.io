@@ -1,0 +1,34 @@
+---
+pagetitle: "Эффект Казимира — Экзаменационные проекты"
+lang: ru-RU
+description: "Эффект Казимира: экзаменационные проекты — осень."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#autumn">Осень</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Осень · проект 14 из 20</span>
+    <h1>Эффект Казимира</h1>
+    <p class="course-toc-meta">Тема: Вакуумные эффекты и границы</p>
+  </header>
+```
+
+::: {.qft-exam-body}
+1.  Рассмотрите эффект Казимира в 3D. Вычислите давление притяжения пластин, используя формулу Эйлера-Маклорена.
+
+2.  Объясните природу притяжения пластин. Можно ли извлекать энергию из вакуума этим способом?
+
+3.  Оцените величину давления. Сравните с гравитационным притяжением пластин в зависимости от расстояния между ними.
+
+4.  Сделайте обзор экспериментальных методов и результатов измерения эффекта Казимира.
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a href="../../assets/qft-exams/qft-exams-autumn-ru.pdf">Осень: все проекты, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="chiral-anomaly.html"><span>← Предыдущий</span>Спектральный поток и киральная аномалия в 1+1</a><a class="qft-exam-next" href="dynamical-casimir.html"><span>Следующий →</span>Динамический эффект Казимира</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#autumn">← Все проекты</a></p>
+</article>
+```

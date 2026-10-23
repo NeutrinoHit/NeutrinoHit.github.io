@@ -1,0 +1,93 @@
+---
+pagetitle: "Neutral kaons — Examination projects"
+lang: en-US
+description: "Neutral kaons: examination projects — spring."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-exam-page">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><a href="../qft-exams.html">Examination projects</a><span>›</span><a href="../qft-exams.html#spring">Spring</a></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Spring · project 8 of 18</span>
+    <h1>Neutral kaons</h1>
+  </header>
+```
+
+::: {.qft-exam-body}
+The system of neutral kaons is a unique laboratory for studying quantum oscillations and CP violation. In this project we concentrate on a precise measurement of the parameter $\varepsilon$, which characterizes the violation of CP invariance.
+
+## Theory {#theory .unnumbered}
+
+- What are $K^0$, $\overline{K^0}$, $K_S$, $K_L$, $K_1$, $K_2$?
+
+Relate these states to one another, for example: $$\begin{aligned}
+        |K_L\rangle &= \frac{1}{\sqrt{1+|\varepsilon|^2}}(|K_2\rangle + \varepsilon|K_1\rangle),\\
+        |K_S\rangle &= \frac{1}{\sqrt{1+|\varepsilon|^2}}(|K_1\rangle + \varepsilon|K_2\rangle).
+    \end{aligned}$$
+
+- Derive the transition probabilities $P_{K^0 \to K^0}(t)$ and $P_{K^0 \to \bar{K}^0}(t)$ in two cases: CP symmetry conserved and CP symmetry violated.
+
+- Compute the mass difference of the neutral kaons $\Delta m$ in the SM. Explain the essence of the GIM mechanism. Estimate the mass of the $c$ quark.
+
+- Assuming CP symmetry is conserved, obtain the expressions for the decay rates $$\begin{aligned}
+  R_+ & = \Gamma (K^0\to \pi^- e^+\nu_e), \\
+  R_- & = \Gamma (K^0\to \pi^+ e^-\overline{\nu}_e), \\
+  \overline{R}_+ & = \Gamma (\overline{K^0}\to \pi^+ e^-\overline{\nu}_e), \\
+  \overline{R}_- & = \Gamma (\overline{K^0}\to \pi^- e^+\nu_e).
+  \end{aligned}$$ Compute the decay asymmetry $$A = \frac{(R_++\overline{R}_+)-(R_-+\overline{R}_-)}{(R_++\overline{R}_+)+(R_-+\overline{R}_-)} = \frac{2e^{-(\Gamma_S+\Gamma_L)t/2}\cos\Delta m t}{e^{-\Gamma_S t}+e^{-\Gamma_L t}}.$$
+
+An example of pseudo-data for the decay asymmetry is available at [\[1\]](#ref-1). It was generated with $\tau_S=8.954\cdot 10^{-11}$ s, $\tau_L=5.116\cdot 10^{-8}$ s and a value of $\Delta m$ that you have to reconstruct.
+
+From now on we assume that CP symmetry is violated.
+
+A beam of neutral kaons studied at $t\gg \tau_S$ consists mainly of $K_L$.
+
+- Show that $$\begin{aligned}
+      \Gamma (K_L\to \pi^+ e^-\overline{\nu}_e) &\propto |\langle \overline{K^0}|K_L\rangle|^2\propto |1-\varepsilon|^2,\\
+      \Gamma (K_L\to \pi^- e^+\nu_e) &\propto |\langle K^0|K_L\rangle|^2\propto |1+\varepsilon|^2,
+  \end{aligned}$$ and compute the asymmetry $$A = \frac{\Gamma (K_L\to \pi^- e^+\nu_e)-\Gamma (K_L\to \pi^+ e^-\overline{\nu}_e)}{\Gamma (K_L\to \pi^- e^+\nu_e)+\Gamma (K_L\to \pi^+ e^-\overline{\nu}_e)}$$ using the tabulated values.
+
+- Show how this asymmetry can be used to explain to aliens the sign of the charge of the electrons in our atoms.
+
+- Using box diagrams, show that the inequality $\Gamma (K_L\to \pi^- e^+\nu_e)\ne\Gamma (K_L\to \pi^+ e^-\overline{\nu}_e)$ requires the CKM quark mixing matrix to be complex.
+
+- Prove that the ratio of the decay rates is $$\frac{\Gamma(K_L \to \pi^+\pi^-)}{\Gamma(K_S \to \pi^+\pi^-)} \approx |\varepsilon|^2.$$
+
+## Experimental part: pseudo-data {#experimental-part-pseudo-data .unnumbered}
+
+The table gives the data of an experiment. Reconstruct $|\varepsilon|$, taking into account
+
+- the detection efficiency of $\pi^+\pi^-$ in the decays of $K_S$ and $K_L$;
+
+- the contribution of background events.
+
+  Decay                   Number of events   Efficiency (%)   Background (%)
+  ---------------------- ------------------ ---------------- ----------------
+  $K_S \to \pi^+\pi^-$         12 000              95               1
+  $K_L \to \pi^+\pi^-$           72                90               10
+
+  : Experimental data
+
+## Systematic uncertainties {#systematic-uncertainties .unnumbered}
+
+Assuming systematic uncertainties
+
+- of $5\%$ in the number of background events,
+
+- of $2\%$ in the detection efficiency,
+
+estimate $|\varepsilon|$ and give its statistical and systematic uncertainties.
+
+## References
+
+[1]{#ref-1} Naumov, D. V., *Pseudo-data for neutral-kaon decay asymmetry* <https://neutrinohit.github.io/assets/qft-exams/kaon-asymmetry-pseudodata.txt>
+
+:::
+
+```{=html}
+  <div class="lecture-course-actions qft-exam-actions"><a class="lecture-action-primary" href="../../assets/qft-exams/kaon-asymmetry-pseudodata.txt" download>Pseudo-data: decay asymmetry (TXT)</a><a href="../../assets/qft-exams/qft-exams-spring-en.pdf">Spring: all projects, PDF</a></div>
+  <nav class="qft-exam-nav"><a class="qft-exam-prev" href="glashow-resonance.html"><span>← Previous</span>The Glashow resonance</a><a class="qft-exam-next" href="higgs-decay.html"><span>Next →</span>Decay of the Higgs boson</a></nav>
+  <p class="course-page-back"><a href="../qft-exams.html#spring">← All projects</a></p>
+</article>
+```
