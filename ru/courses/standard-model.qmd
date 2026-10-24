@@ -15,6 +15,8 @@ toc: false
     <div class="lecture-course-actions">
       <a class="lecture-action-primary" href="https://www.youtube.com/playlist?list=PL28BG43DETPT6A-H6fUtZvOJl0lv-YPZV">Плейлист</a>
       <a href="../../ru/materials.html#qft-book">Учебник</a>
+      <a href="../../ru/qft-exams.html">Экзаменационные проекты</a>
+      <a href="../../ru/qft-faq.html">ЧАВО по КТП</a>
       <a href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">Конспект PDF</a>
       <a href="https://rutube.ru/plst/1538123">RuTube</a>
       <a href="https://vkvideo.ru/playlist/-235607329_6">VK</a>

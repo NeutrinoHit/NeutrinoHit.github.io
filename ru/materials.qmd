@@ -36,7 +36,7 @@ toc: false
         <dt>English edition</dt>
         <dd>Готовится английское издание «Quantum Field Theory for Experimentalists and Beyond».</dd>
         <dt>К книге</dt>
-        <dd><a href="../qr/qft/">анимации по QR-кодам</a> · <a href="qft-exams.html">экзаменационные проекты</a> · <a href="education.html#qft-course">видеокурсы КТП</a></dd>
+        <dd><a href="../qr/qft/">анимации по QR-кодам</a> · <a href="qft-exams.html">экзаменационные проекты</a> · <a href="qft-faq.html">ЧАВО по КТП</a> · <a href="education.html#qft-course">видеокурсы КТП</a></dd>
       </dl>
       <div class="lecture-course-actions">
         <a class="lecture-action-primary" href="https://shop.rcd.ru/catalog/fizika/20042/">Купить т. 1</a>

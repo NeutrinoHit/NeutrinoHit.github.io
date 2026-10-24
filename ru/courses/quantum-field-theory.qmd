@@ -15,6 +15,8 @@ toc: false
     <div class="lecture-course-actions">
       <a class="lecture-action-primary" href="https://www.youtube.com/playlist?list=PL28BG43DETPR-fdQGsm0qO2YhMWVsNa29">Плейлист</a>
       <a href="../../ru/materials.html#qft-book">Учебник</a>
+      <a href="../../ru/qft-exams.html">Экзаменационные проекты</a>
+      <a href="../../ru/qft-faq.html">ЧАВО по КТП</a>
       <a href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">Конспект PDF</a>
       <a href="https://rutube.ru/plst/1531108/">RuTube</a>
       <a href="https://vkvideo.ru/playlist/-235607329_5">VK</a>
