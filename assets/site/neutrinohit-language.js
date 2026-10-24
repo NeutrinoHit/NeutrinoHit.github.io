@@ -114,8 +114,8 @@
     });
 
     // A course page and an examination project have the same name in both languages:
-    // /ru/courses/x.html and /en/courses/x.html, /ru/qft-exams.html and /ru/qft-exams/x.html.
-    const coursePage = pathname.match(/\/(?:ru|en)\/((?:courses|qft-exams)\/[^/]+\.html|qft-exams\.html)$/);
+    // /ru/courses/x.html and /en/courses/x.html, /ru/qft-exams.html and /ru/qft-exams/x.html, /ru/qft-faq.html.
+    const coursePage = pathname.match(/\/(?:ru|en)\/((?:courses|qft-exams)\/[^/]+\.html|qft-exams\.html|qft-faq\.html)$/);
 
     document.querySelectorAll('.navbar a.nav-link').forEach((link) => {
       const label = link.textContent.trim();

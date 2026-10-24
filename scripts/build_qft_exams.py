@@ -429,6 +429,9 @@ def plain(text: str) -> str:
     return re.sub(r"\$([^$]*)\$", math, text).replace('"', "'")
 
 
+MATHJAX = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+
+
 def html_inline(text: str) -> str:
     """A title in HTML: math as \\( ... \\) for MathJax."""
     text = tex_inline(text)
@@ -444,6 +447,9 @@ def list_page(lang: str, seasons: dict[str, list[dict]]) -> str:
         f"lang: {t['lang']}",
         f'description: "{t["description"]}"',
         "toc: false",
+        # The titles carry math only inside raw HTML, which Quarto does not scan: load MathJax as on the project pages.
+        "include-in-header:",
+        f"  text: '<script defer src=\"{MATHJAX}\"></script>'",
         "---",
         "",
         "```{=html}",

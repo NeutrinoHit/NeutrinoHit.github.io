@@ -1,0 +1,131 @@
+---
+pagetitle: "Часто задаваемые вопросы по квантовой теории поля"
+lang: ru-RU
+description: "Концептуальные вопросы квантовой теории поля: поле или частица, точечна ли частица, кипит ли вакуум, что такое виртуальная частица. Ответы Д. В. Наумова."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-faq">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="education.html">Образование</a><span>›</span><span>ЧАВО по КТП</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">ЧАВО по КТП</span>
+    <h1>Часто задаваемые вопросы по квантовой теории поля</h1>
+    <p class="course-page-summary">Квантовая теория поля — основа современной физической картины мира элементарных частиц. Она прошла через череду триумфов и кризисов и остаётся одной из самых активно развивающихся областей теоретической физики.</p>
+    <p class="course-page-summary">Тем не менее, студенты, экспериментаторы и даже выдающиеся теоретики нередко дают разные — а порой и противоречивые — ответы на, казалось бы, простые концептуальные вопросы.</p>
+    <p class="course-page-summary">Здесь я отвечаю на такие вопросы так, как понимаю их сам. Без пафоса и лишних слов.</p>
+    <p class="course-toc-meta">9 вопросов · ответы пополняются</p>
+  </header>
+  <table id="questions" class="course-toc course-toc-full qft-faq-toc">
+    <thead><tr><th class="course-toc-num">№</th><th>Вопрос</th><th class="qft-faq-state">Ответ</th></tr></thead>
+    <tbody>
+      <tr><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="#field-or-particle">Что более фундаментально: поле или частица?</a></td><td class="qft-faq-state is-pending">готовится</td></tr>
+      <tr><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="#pointlike-particle">Точечна ли частица?</a></td><td class="qft-faq-state is-pending">готовится</td></tr>
+      <tr><td class="course-toc-num">03</td><td class="course-toc-topic"><a href="#boiling-vacuum">Кипит ли вакуум в квантовой теории поля?</a></td><td class="qft-faq-state is-ready">есть</td></tr>
+      <tr><td class="course-toc-num">04</td><td class="course-toc-topic"><a href="#virtual-particle">Что такое виртуальная частица?</a></td><td class="qft-faq-state is-pending">готовится</td></tr>
+      <tr><td class="course-toc-num">05</td><td class="course-toc-topic"><a href="#feynman-diagrams">Интерпретация диаграмм Фейнмана</a></td><td class="qft-faq-state is-pending">готовится</td></tr>
+      <tr><td class="course-toc-num">06</td><td class="course-toc-topic"><a href="#virtual-to-real">Могут ли виртуальные частицы стать реальными?</a></td><td class="qft-faq-state is-pending">готовится</td></tr>
+      <tr><td class="course-toc-num">07</td><td class="course-toc-topic"><a href="#casimir-effect">Доказывает ли эффект Казимира существование виртуальных частиц?</a></td><td class="qft-faq-state is-pending">готовится</td></tr>
+      <tr><td class="course-toc-num">08</td><td class="course-toc-topic"><a href="#wave-function-collapse">Коллапс волновой функции</a></td><td class="qft-faq-state is-pending">готовится</td></tr>
+      <tr><td class="course-toc-num">09</td><td class="course-toc-topic"><a href="#attraction">Как увидеть в КТП, что частицы притягиваются?</a></td><td class="qft-faq-state is-lecture">лекция</td></tr>
+    </tbody>
+  </table>
+```
+
+::: {.qft-exam-body .qft-faq-body}
+## 1. Что более фундаментально: поле или частица? {#field-or-particle}
+
+::: {.qft-faq-pending}
+Ответ готовится.
+:::
+
+[← К списку вопросов](#questions){.qft-faq-up}
+
+## 2. Точечна ли частица? {#pointlike-particle}
+
+::: {.qft-faq-pending}
+Ответ готовится.
+:::
+
+[← К списку вопросов](#questions){.qft-faq-up}
+
+## 3. Кипит ли вакуум в квантовой теории поля? {#boiling-vacuum}
+
+В научно-популярном изложении вакуумное состояние представляется постоянно флуктуирующим --- частицы возникают и исчезают. Кому-то такая аналогия помогает построить интуитивное представление. Кто-то категорически против такой интерпретации. Попробуем отделить мифы от математики.
+
+### Является ли вакуум «пустым»? {#является-ли-вакуум-пустым .unnumbered}
+
+Нет. Вакуум --- это квантовое состояние с минимальной энергией, в котором наблюдаются ненулевые корреляции: $$\langle 0 | \hat{\phi}(x)\hat{\phi}(y) | 0 \rangle \ne 0$$ Это означает, что вакуум обладает структурой, выраженной через корреляции значений поля в разных точках.
+
+### Осциллирует ли вакуум во времени? {#осциллирует-ли-вакуум-во-времени .unnumbered}
+
+Вакуум как вектор состояния стационарен: $$\hat{H} |0\rangle = E_0 |0\rangle$$ Но корреляционные функции полей зависят от времени: $$\langle 0 | \hat{\phi}(x^0, \vec{x}) \hat{\phi}(y^0, \vec{y}) | 0 \rangle \ne \text{const}$$ Это не означает классического «движения», но указывает на внутреннюю динамику статистических свойств.
+
+### Можно ли явно выразить вакуум через оператор поля? {#можно-ли-явно-выразить-вакуум-через-оператор-поля .unnumbered}
+
+Нет. Вакуум не строится из полей явно. Он задаётся через корреляционные функции, например: $$\langle 0 | \mathcal{O}[\hat{\phi}] | 0 \rangle$$ В аксиоматике он трактуется как положительный линейный функционал на алгебре полевых операторов.
+
+### Есть ли в вакууме частицы? {#есть-ли-в-вакууме-частицы .unnumbered}
+
+В стандартной (неускоренной) системе координат: $$\hat{N} |0\rangle = 0$$ Однако ускоренный наблюдатель (эффект Унру) может интерпретировать вакуум как тепловое состояние с частицами.
+
+### Почему говорят, что «вакуум флуктуирует»? {#почему-говорят-что-вакуум-флуктуирует .unnumbered}
+
+Потому что дисперсия ненулевая: $$\langle 0 | \hat{\phi}^2(x) | 0 \rangle - \langle 0 | \hat{\phi}(x) | 0 \rangle^2 \ne 0$$ Это отражает статистику результатов измерений, а не наличие классической динамики или процессов во времени.
+
+[← К списку вопросов](#questions){.qft-faq-up}
+
+## 4. Что такое виртуальная частица? {#virtual-particle}
+
+::: {.qft-faq-pending}
+Ответ готовится.
+:::
+
+[← К списку вопросов](#questions){.qft-faq-up}
+
+## 5. Интерпретация диаграмм Фейнмана {#feynman-diagrams}
+
+::: {.qft-faq-pending}
+Ответ готовится.
+:::
+
+[← К списку вопросов](#questions){.qft-faq-up}
+
+## 6. Могут ли виртуальные частицы стать реальными? {#virtual-to-real}
+
+::: {.qft-faq-pending}
+Ответ готовится.
+:::
+
+[← К списку вопросов](#questions){.qft-faq-up}
+
+## 7. Доказывает ли эффект Казимира существование виртуальных частиц? {#casimir-effect}
+
+::: {.qft-faq-pending}
+Ответ готовится.
+:::
+
+[← К списку вопросов](#questions){.qft-faq-up}
+
+## 8. Коллапс волновой функции {#wave-function-collapse}
+
+::: {.qft-faq-pending}
+Ответ готовится.
+:::
+
+[← К списку вопросов](#questions){.qft-faq-up}
+
+## 9. Как увидеть в КТП, что частицы притягиваются? {#attraction}
+
+Этому посвящена отдельная лекция [«Притяжение и отталкивание в КТП»](courses/qft-attraction-repulsion.html) (на английском): скалярная КЭД и волновые пакеты.
+
+[← К списку вопросов](#questions){.qft-faq-up}
+
+:::
+
+```{=html}
+  <p class="course-page-note">Вопросы и ответы пополняются — заглядывайте сюда регулярно.</p>
+  <p class="course-book-line">Книга: <a href="materials.html#qft-book">«Квантовая теория поля для экспериментаторов и не только» →</a></p>
+  <p class="course-page-back"><a href="education.html">← Образование</a></p>
+</article>
+```

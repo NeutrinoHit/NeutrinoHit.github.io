@@ -3,6 +3,8 @@ pagetitle: "Examination projects in quantum field theory"
 lang: en-US
 description: "Examination projects of D. V. Naumov's course in quantum field theory: autumn and spring problems with theory, calculation and simulation."
 toc: false
+include-in-header:
+  text: '<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"></script>'
 ---
 
 ```{=html}

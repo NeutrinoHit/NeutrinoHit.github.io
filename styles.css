@@ -3590,3 +3590,42 @@ code.outreach-entry-install {
     text-align: left;
   }
 }
+
+/* Frequently asked questions on QFT (ru|en/qft-faq.qmd), written by scripts/build_qft_faq.py */
+.qft-faq-toc th.qft-faq-state,
+.qft-faq-toc td.qft-faq-state {
+  width: 7.5rem;
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+
+.qft-faq-toc td.qft-faq-state {
+  color: #597080;
+}
+
+.qft-faq-toc td.qft-faq-state.is-ready,
+.qft-faq-toc td.qft-faq-state.is-lecture {
+  color: #1f6f78;
+  font-weight: 700;
+}
+
+.qft-faq-body h2 {
+  margin-top: 2.2rem;
+  scroll-margin-top: 5rem;
+}
+
+.qft-faq-body h3 {
+  margin: 1.3rem 0 0.4rem;
+  color: #25313a;
+  font-size: 1.05rem;
+  border: 0;
+}
+
+.qft-faq-pending {
+  color: #597080;
+  font-style: italic;
+}
+
+.qft-faq-up {
+  font-size: 0.86rem;
+}

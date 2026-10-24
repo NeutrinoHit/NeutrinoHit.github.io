@@ -3,6 +3,8 @@ pagetitle: "Экзаменационные проекты по квантово�
 lang: ru-RU
 description: "Экзаменационные проекты курса квантовой теории поля Д. В. Наумова: осень и весна, задачи с теорией, расчётом и моделированием."
 toc: false
+include-in-header:
+  text: '<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"></script>'
 ---
 
 ```{=html}

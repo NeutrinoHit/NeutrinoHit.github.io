@@ -1,0 +1,131 @@
+---
+pagetitle: "Frequently asked questions on quantum field theory"
+lang: en-US
+description: "Conceptual questions of quantum field theory: field or particle, is a particle pointlike, does the vacuum boil, what is a virtual particle. Answers by D. V. Naumov."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-faq">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="education.html">Education</a><span>›</span><span>QFT FAQ</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">QFT FAQ</span>
+    <h1>Frequently asked questions on quantum field theory</h1>
+    <p class="course-page-summary">Quantum field theory is the foundation of the modern physical picture of the world of elementary particles. It has gone through a series of triumphs and crises and remains one of the most actively developing areas of theoretical physics.</p>
+    <p class="course-page-summary">Nevertheless, students, experimentalists and even eminent theorists often give different, and sometimes contradictory, answers to seemingly simple conceptual questions.</p>
+    <p class="course-page-summary">Here I answer such questions as I understand them myself. No grand words and nothing superfluous.</p>
+    <p class="course-toc-meta">9 questions · answers are being added</p>
+  </header>
+  <table id="questions" class="course-toc course-toc-full qft-faq-toc">
+    <thead><tr><th class="course-toc-num">No.</th><th>Question</th><th class="qft-faq-state">Answer</th></tr></thead>
+    <tbody>
+      <tr><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="#field-or-particle">What Is More Fundamental: the Field or the Particle?</a></td><td class="qft-faq-state is-pending">in preparation</td></tr>
+      <tr><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="#pointlike-particle">Is a Particle Pointlike?</a></td><td class="qft-faq-state is-pending">in preparation</td></tr>
+      <tr><td class="course-toc-num">03</td><td class="course-toc-topic"><a href="#boiling-vacuum">Does the Vacuum Boil in Quantum Field Theory?</a></td><td class="qft-faq-state is-ready">ready</td></tr>
+      <tr><td class="course-toc-num">04</td><td class="course-toc-topic"><a href="#virtual-particle">What Is a Virtual Particle?</a></td><td class="qft-faq-state is-pending">in preparation</td></tr>
+      <tr><td class="course-toc-num">05</td><td class="course-toc-topic"><a href="#feynman-diagrams">Interpreting Feynman Diagrams</a></td><td class="qft-faq-state is-pending">in preparation</td></tr>
+      <tr><td class="course-toc-num">06</td><td class="course-toc-topic"><a href="#virtual-to-real">Can Virtual Particles Become Real?</a></td><td class="qft-faq-state is-pending">in preparation</td></tr>
+      <tr><td class="course-toc-num">07</td><td class="course-toc-topic"><a href="#casimir-effect">Does the Casimir Effect Prove That Virtual Particles Exist?</a></td><td class="qft-faq-state is-pending">in preparation</td></tr>
+      <tr><td class="course-toc-num">08</td><td class="course-toc-topic"><a href="#wave-function-collapse">The Collapse of the Wave Function</a></td><td class="qft-faq-state is-pending">in preparation</td></tr>
+      <tr><td class="course-toc-num">09</td><td class="course-toc-topic"><a href="#attraction">How can one see in QFT that particles attract?</a></td><td class="qft-faq-state is-lecture">lecture</td></tr>
+    </tbody>
+  </table>
+```
+
+::: {.qft-exam-body .qft-faq-body}
+## 1. What Is More Fundamental: the Field or the Particle? {#field-or-particle}
+
+::: {.qft-faq-pending}
+The answer is in preparation.
+:::
+
+[← Back to the questions](#questions){.qft-faq-up}
+
+## 2. Is a Particle Pointlike? {#pointlike-particle}
+
+::: {.qft-faq-pending}
+The answer is in preparation.
+:::
+
+[← Back to the questions](#questions){.qft-faq-up}
+
+## 3. Does the Vacuum Boil in Quantum Field Theory? {#boiling-vacuum}
+
+Popular accounts picture the vacuum state as constantly fluctuating, with particles appearing and disappearing. For some, this analogy helps to build an intuitive picture. Others are firmly against such an interpretation. Let us try to separate the myths from the mathematics.
+
+### Is the vacuum "empty"? {#is-the-vacuum-empty .unnumbered}
+
+No. The vacuum is the quantum state of lowest energy, and it carries nonzero correlations: $$\langle 0 | \hat{\phi}(x)\hat{\phi}(y) | 0 \rangle \ne 0$$ This means that the vacuum has a structure, expressed through the correlations of the field values at different points.
+
+### Does the vacuum oscillate in time? {#does-the-vacuum-oscillate-in-time .unnumbered}
+
+As a state vector, the vacuum is stationary: $$\hat{H} |0\rangle = E_0 |0\rangle$$ But the correlation functions of the fields depend on time: $$\langle 0 | \hat{\phi}(x^0, \vec{x}) \hat{\phi}(y^0, \vec{y}) | 0 \rangle \ne \text{const}$$ This is not classical "motion", but it points to an internal dynamics of the statistical properties.
+
+### Can the vacuum be written explicitly in terms of the field operator? {#can-the-vacuum-be-written-explicitly-in-terms-of-the-field-operator .unnumbered}
+
+No. The vacuum is not built explicitly out of the fields. It is specified by correlation functions, for example $$\langle 0 | \mathcal{O}[\hat{\phi}] | 0 \rangle$$ In the axiomatic approach it is treated as a positive linear functional on the algebra of field operators.
+
+### Are there particles in the vacuum? {#are-there-particles-in-the-vacuum .unnumbered}
+
+In the standard (non-accelerated) frame of reference, $$\hat{N} |0\rangle = 0$$ An accelerated observer, however, may interpret the vacuum as a thermal state with particles (the Unruh effect).
+
+### Why do people say that "the vacuum fluctuates"? {#why-do-people-say-that-the-vacuum-fluctuates .unnumbered}
+
+Because the variance is nonzero: $$\langle 0 | \hat{\phi}^2(x) | 0 \rangle - \langle 0 | \hat{\phi}(x) | 0 \rangle^2 \ne 0$$ This reflects the statistics of measurement outcomes, not the presence of classical dynamics or of processes in time.
+
+[← Back to the questions](#questions){.qft-faq-up}
+
+## 4. What Is a Virtual Particle? {#virtual-particle}
+
+::: {.qft-faq-pending}
+The answer is in preparation.
+:::
+
+[← Back to the questions](#questions){.qft-faq-up}
+
+## 5. Interpreting Feynman Diagrams {#feynman-diagrams}
+
+::: {.qft-faq-pending}
+The answer is in preparation.
+:::
+
+[← Back to the questions](#questions){.qft-faq-up}
+
+## 6. Can Virtual Particles Become Real? {#virtual-to-real}
+
+::: {.qft-faq-pending}
+The answer is in preparation.
+:::
+
+[← Back to the questions](#questions){.qft-faq-up}
+
+## 7. Does the Casimir Effect Prove That Virtual Particles Exist? {#casimir-effect}
+
+::: {.qft-faq-pending}
+The answer is in preparation.
+:::
+
+[← Back to the questions](#questions){.qft-faq-up}
+
+## 8. The Collapse of the Wave Function {#wave-function-collapse}
+
+::: {.qft-faq-pending}
+The answer is in preparation.
+:::
+
+[← Back to the questions](#questions){.qft-faq-up}
+
+## 9. How can one see in QFT that particles attract? {#attraction}
+
+This is the subject of a separate lecture, [Attraction and Repulsion in QFT](courses/qft-attraction-repulsion.html): scalar QED and wave packets.
+
+[← Back to the questions](#questions){.qft-faq-up}
+
+:::
+
+```{=html}
+  <p class="course-page-note">Questions and answers are being added, so check back regularly.</p>
+  <p class="course-book-line">Book: <a href="materials.html#qft-book">“Quantum Field Theory for Experimentalists and Beyond” →</a></p>
+  <p class="course-page-back"><a href="education.html">← Education</a></p>
+</article>
+```

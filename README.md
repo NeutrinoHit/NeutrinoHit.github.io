@@ -100,6 +100,19 @@ python scripts/build_qft_exams.py --check  # страницы не устаре�
 QR-коды глав «Экзамены» книги ведут на `/qr/qft/0039/` (осень) и `/qr/qft/0040/` (весна): записи каталога
 `book-animations.catalog.json` с `hosting: "redirect"` сразу открывают список проектов на языке читателя.
 
+## ЧАВО по КТП
+
+Страницу `ru|en/qft-faq.html` пишет `scripts/build_qft_faq.py` из главы книги `TheBook/chapters/FAQ.tex`
+(английская — `TheBook/en/chapters/FAQ.tex`): аннотация главы — вводный текст, каждый `\section` — вопрос,
+раздел без текста показан с пометкой «ответ готовится». Якоря вопросов — список `SLUGS` в скрипте (новый
+`\section` в FAQ.tex требует нового якоря); вопросы, на которые сайт отвечает лекцией, — список `EXTRA`.
+Страницу не правят руками; `make site` скрипт не запускает. Книга ссылается на неё записью `Naumov:1134`.
+
+```bash
+python scripts/build_qft_faq.py          # записать страницы
+python scripts/build_qft_faq.py --check  # страницы не устарели
+```
+
 ## Локальный preview всего сайта
 
 `make site` собирает только центральный сайт. Для полного локального preview

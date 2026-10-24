@@ -22,6 +22,13 @@ education:
       href: /ru/qft-exams.html
       href_en: /en/qft-exams.html
       meta: {ru: Осень · 20 проектов · весна · 18 проектов, en: Autumn · 20 projects · spring · 18 projects}
+    - anchor: qft-faq
+      kind: {ru: ЧАВО, en: FAQ}
+      title: {ru: ЧАВО по КТП, en: QFT FAQ}
+      text: {ru: 'Концептуальные вопросы: поле или частица, точечна ли частица, кипит ли вакуум, что такое виртуальная частица.', en: 'Conceptual questions: field or particle, is a particle pointlike, does the vacuum boil, what is a virtual particle.'}
+      href: /ru/qft-faq.html
+      href_en: /en/qft-faq.html
+      meta: {ru: 9 вопросов · ответы пополняются, en: 9 questions · answers are being added}
   - id: stat
     title: {ru: Статистический анализ данных, en: Statistical Data Analysis}
     courses: [statistical-analysis]
@@ -50,6 +57,12 @@ courses:
   - label: {ru: Учебник, en: Textbook}
     href: /ru/materials.html#qft-book
     href_en: /en/materials.html#qft-book
+  - label: {ru: Экзаменационные проекты, en: Examination projects}
+    href: /ru/qft-exams.html
+    href_en: /en/qft-exams.html
+  - label: {ru: ЧАВО по КТП, en: QFT FAQ}
+    href: /ru/qft-faq.html
+    href_en: /en/qft-faq.html
   - label: {ru: Конспект PDF, en: Notes PDF}
     href: https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf
   - label: {ru: RuTube, en: RuTube}
@@ -185,6 +198,12 @@ courses:
   - label: {ru: Учебник, en: Textbook}
     href: /ru/materials.html#qft-book
     href_en: /en/materials.html#qft-book
+  - label: {ru: Экзаменационные проекты, en: Examination projects}
+    href: /ru/qft-exams.html
+    href_en: /en/qft-exams.html
+  - label: {ru: ЧАВО по КТП, en: QFT FAQ}
+    href: /ru/qft-faq.html
+    href_en: /en/qft-faq.html
   - label: {ru: Конспект PDF, en: Notes PDF}
     href: https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf
   - label: {ru: RuTube, en: RuTube}
@@ -308,6 +327,12 @@ courses:
   - label: {ru: Учебник, en: Textbook}
     href: /ru/materials.html#qft-book
     href_en: /en/materials.html#qft-book
+  - label: {ru: Экзаменационные проекты, en: Examination projects}
+    href: /ru/qft-exams.html
+    href_en: /en/qft-exams.html
+  - label: {ru: ЧАВО по КТП, en: QFT FAQ}
+    href: /ru/qft-faq.html
+    href_en: /en/qft-faq.html
   - label: {ru: Конспект PDF, en: Notes PDF}
     href: https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf
   - label: {ru: RuTube, en: RuTube}
