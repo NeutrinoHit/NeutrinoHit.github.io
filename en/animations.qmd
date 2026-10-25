@@ -11,13 +11,13 @@ toc: false
   <p class="lecture-catalog-lead">Scientific animations of NeutrinoHit by topic. A frame plays its video right on the page; the buttons below the description open the other videos of the story and the versions in the other language.</p>
   <nav class="anim-topics" aria-label="Gallery topics">
     <a href="#neutrino-particles">Neutrinos and particles<span>27</span></a>
-    <a href="#fields-waves">Fields, waves and oscillators<span>26</span></a>
+    <a href="#fields-waves">Fields, waves and oscillators<span>28</span></a>
     <a href="#relativity-atom-spin">Relativity, the atom and spin<span>8</span></a>
     <a href="#math-dynamical-systems">Mathematics and dynamical systems<span>6</span></a>
     <a href="#accelerator-optics">Accelerators and magnetic optics<span>4</span></a>
     <a href="#visual-stories">Visual stories<span>3</span></a>
   </nav>
-  <p class="anim-total">74 stories · 148 videos</p>
+  <p class="anim-total">76 stories · 152 videos</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
       <span class="course-tile-status is-ready">27 stories · 51 videos</span>
@@ -183,7 +183,7 @@ toc: false
   </section>
   <section class="anim-section" id="fields-waves">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">26 stories · 48 videos</span>
+      <span class="course-tile-status is-ready">28 stories · 52 videos</span>
       <h2>Fields, waves and oscillators</h2>
       <p>Electromagnetic fields, wave packets, coupled oscillators and simple electronic circuits.</p>
     </div>
@@ -336,6 +336,18 @@ toc: false
         <h3 class="anim-title">The gauge principle: two friends and a field</h3>
         <p class="anim-text">Two friends choose the phase of the wave function independently at every point: interference, a free packet and the covariant derivative; the compensating field A_μ, the field strength F and the gauge-invariant loop.</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/fields-waves-gauge-principle-film-en.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-gauge-principle-film-en.jpg" title="MP4, 1.6 MB">EN</a><a class="anim-chip" href="../assets/animations/dvnanima/fields-waves-gauge-principle-film.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-gauge-principle-film.jpg" title="MP4, 1.6 MB">RU</a></div>
+      </article>
+      <article class="anim-card" id="animation-fields-waves-susy-packets">
+        <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/fields-waves-susy-packets-en.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-susy-packets-en.jpg" aria-label="Play: Supersymmetry: two pairs of packets, one physics"><img src="../assets/animations/dvnanima/fields-waves-susy-packets-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Supersymmetry: two pairs of packets, one physics</h3>
+        <p class="anim-text">Supersymmetric quantum mechanics with W(x) = x (the oscillator), ħ = 2m = 1. A “boson” wave packet f and a “fermion” packet g of different shapes are turned by the supersymmetry rotation U(θ) = exp(iθK) into another pair of packets. The shapes and the boson share change (0.40 → 0.58 at θ = 0.5), but the energy distribution, ⟨H⟩, ⟨K⟩ and the whole time evolution do not: “rotate, then wait” and “wait, then rotate” coincide. At the end a soft breaking in the fermion sector splits the pairs of levels, and the two orders diverge. Everything is exact in the oscillator basis. A caveat: in the full field theory the parameter is a Grassmann number and a superposition of a boson and a fermion is forbidden; here the parameter is real.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/fields-waves-susy-packets-en.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-susy-packets-en.jpg" title="MP4, 2.8 MB">EN</a><a class="anim-chip" href="../assets/animations/dvnanima/fields-waves-susy-packets-ru.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-susy-packets-ru.jpg" title="MP4, 2.9 MB">RU</a></div>
+      </article>
+      <article class="anim-card" id="animation-fields-waves-higgs-honey">
+        <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/fields-waves-higgs-honey-en.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-higgs-honey-en.jpg" aria-label="Play: The Higgs field as honey"><img src="../assets/animations/dvnanima/fields-waves-higgs-honey-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">The Higgs field as honey</h3>
+        <p class="anim-text">An image from the first chapter of the book. Bees fly through space at the speed of light. Honey pours into a transparent cube: its spreading is computed from the thin viscous film equation, and the volume is conserved exactly. In the honey the bees fly slower, v/c = √(1 − (mc²/E)²): 0.60c, and when the honey thickens, 0.31c; once out of the honey, they fly at the speed c again. A caveat: this is only an image: the Higgs field does not brake a particle like a viscous medium, it gives it a mass.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/fields-waves-higgs-honey-en.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-higgs-honey-en.jpg" title="MP4, 8.5 MB">EN</a><a class="anim-chip" href="../assets/animations/dvnanima/fields-waves-higgs-honey-ru.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-higgs-honey-ru.jpg" title="MP4, 8.4 MB">RU</a></div>
       </article>
     </div>
   </section>

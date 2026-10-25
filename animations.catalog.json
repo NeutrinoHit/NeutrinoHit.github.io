@@ -1144,6 +1144,54 @@
               "poster_time": 29.0
             }
           ]
+        },
+        {
+          "id": "susy-packets",
+          "title": "Суперсимметрия: две пары пакетов — одна физика",
+          "title_en": "Supersymmetry: two pairs of packets, one physics",
+          "source_dir": "susy_packets",
+          "description": "Суперсимметричная квантовая механика с W(x) = x (осциллятор), ħ = 2m = 1. Волновой пакет «бозона» f и пакет «фермиона» g разной формы поворачиваются суперсимметрией U(θ) = exp(iθK) в другую пару пакетов. Формы и доля бозона меняются (0,40 → 0,58 при θ = 0,5), а распределение энергии, ⟨H⟩, ⟨K⟩ и вся эволюция во времени — нет: «повернуть, потом подождать» и «подождать, потом повернуть» совпадают. В конце мягкое нарушение в секторе фермиона раздвигает пары уровней, и два порядка расходятся. Всё точно в базисе осциллятора. Оговорка: в полной теории поля параметр — грассманово число, а суперпозиция бозона и фермиона запрещена; здесь параметр вещественный.",
+          "description_en": "Supersymmetric quantum mechanics with W(x) = x (the oscillator), ħ = 2m = 1. A “boson” wave packet f and a “fermion” packet g of different shapes are turned by the supersymmetry rotation U(θ) = exp(iθK) into another pair of packets. The shapes and the boson share change (0.40 → 0.58 at θ = 0.5), but the energy distribution, ⟨H⟩, ⟨K⟩ and the whole time evolution do not: “rotate, then wait” and “wait, then rotate” coincide. At the end a soft breaking in the fermion sector splits the pairs of levels, and the two orders diverge. Everything is exact in the oscillator basis. A caveat: in the full field theory the parameter is a Grassmann number and a superposition of a boson and a fermion is forbidden; here the parameter is real.",
+          "videos": [
+            {
+              "id": "ru",
+              "label": "Русская версия (80 с)",
+              "path": "susy_packets/media/susy_packets_ru.mp4",
+              "poster_time": 40.0,
+              "copy_only": true
+            },
+            {
+              "id": "en",
+              "label": "English version (80 s)",
+              "path": "susy_packets/media/susy_packets_en.mp4",
+              "poster_time": 40.0,
+              "copy_only": true
+            }
+          ]
+        },
+        {
+          "id": "higgs-honey",
+          "title": "Поле Хиггса как мёд",
+          "title_en": "The Higgs field as honey",
+          "source_dir": "higgs_honey",
+          "description": "Образ из первой главы книги. Пчёлы летят сквозь космос со скоростью света. В прозрачный куб наливается мёд: его растекание считается по уравнению тонкого вязкого слоя, объём сохраняется точно. Пчёлы в мёде летят медленнее, v/c = √(1 − (mc²/E)²): 0,60c, а когда мёд густеет — 0,31c; выйдя из мёда, они снова летят со скоростью c. Оговорка: это лишь образ — поле Хиггса не тормозит частицу, как вязкая среда, а даёт ей массу.",
+          "description_en": "An image from the first chapter of the book. Bees fly through space at the speed of light. Honey pours into a transparent cube: its spreading is computed from the thin viscous film equation, and the volume is conserved exactly. In the honey the bees fly slower, v/c = √(1 − (mc²/E)²): 0.60c, and when the honey thickens, 0.31c; once out of the honey, they fly at the speed c again. A caveat: this is only an image: the Higgs field does not brake a particle like a viscous medium, it gives it a mass.",
+          "videos": [
+            {
+              "id": "ru",
+              "label": "Русская версия (32 с)",
+              "path": "higgs_honey/media/higgs_honey_ru_sound.mp4",
+              "poster_time": 22.0,
+              "copy_only": true
+            },
+            {
+              "id": "en",
+              "label": "English version (32 s)",
+              "path": "higgs_honey/media/higgs_honey_en_sound.mp4",
+              "poster_time": 22.0,
+              "copy_only": true
+            }
+          ]
         }
       ]
     },
