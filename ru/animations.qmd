@@ -11,13 +11,13 @@ toc: false
   <p class="lecture-catalog-lead">Научные анимации NeutrinoHit по темам. Кадр запускает ролик прямо на странице; кнопки под описанием — другие ролики сюжета и версии на другом языке.</p>
   <nav class="anim-topics" aria-label="Темы галереи">
     <a href="#neutrino-particles">Нейтрино и частицы<span>27</span></a>
-    <a href="#fields-waves">Поля, волны и осцилляторы<span>26</span></a>
+    <a href="#fields-waves">Поля, волны и осцилляторы<span>28</span></a>
     <a href="#relativity-atom-spin">Относительность, атом и спин<span>8</span></a>
     <a href="#math-dynamical-systems">Математика и динамические системы<span>6</span></a>
     <a href="#accelerator-optics">Ускорители и магнитная оптика<span>4</span></a>
     <a href="#visual-stories">Визуальные сюжеты<span>3</span></a>
   </nav>
-  <p class="anim-total">74 сюжета · 148 роликов</p>
+  <p class="anim-total">76 сюжетов · 152 ролика</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
       <span class="course-tile-status is-ready">27 сюжетов · 51 ролик</span>
@@ -183,7 +183,7 @@ toc: false
   </section>
   <section class="anim-section" id="fields-waves">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">26 сюжетов · 48 роликов</span>
+      <span class="course-tile-status is-ready">28 сюжетов · 52 ролика</span>
       <h2>Поля, волны и осцилляторы</h2>
       <p>Электромагнитные поля, волновые пакеты, связанные осцилляторы и простые электронные схемы.</p>
     </div>
@@ -336,6 +336,18 @@ toc: false
         <h3 class="anim-title">Калибровочный принцип: два друга и поле</h3>
         <p class="anim-text">Два друга выбирают фазу волновой функции независимо в каждой точке: интерференция, свободный пакет и ковариантная производная; компенсирующее поле A_μ, напряжённость F и калибровочно инвариантная петля.</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/fields-waves-gauge-principle-film.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-gauge-principle-film.jpg" title="MP4, 1.6 MB">RU</a><a class="anim-chip" href="../assets/animations/dvnanima/fields-waves-gauge-principle-film-en.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-gauge-principle-film-en.jpg" title="MP4, 1.6 MB">EN</a></div>
+      </article>
+      <article class="anim-card" id="animation-fields-waves-susy-packets">
+        <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/fields-waves-susy-packets-ru.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-susy-packets-ru.jpg" aria-label="Смотреть: Суперсимметрия: две пары пакетов — одна физика"><img src="../assets/animations/dvnanima/fields-waves-susy-packets-ru.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Суперсимметрия: две пары пакетов — одна физика</h3>
+        <p class="anim-text">Суперсимметричная квантовая механика с W(x) = x (осциллятор), ħ = 2m = 1. Волновой пакет «бозона» f и пакет «фермиона» g разной формы поворачиваются суперсимметрией U(θ) = exp(iθK) в другую пару пакетов. Формы и доля бозона меняются (0,40 → 0,58 при θ = 0,5), а распределение энергии, ⟨H⟩, ⟨K⟩ и вся эволюция во времени — нет: «повернуть, потом подождать» и «подождать, потом повернуть» совпадают. В конце мягкое нарушение в секторе фермиона раздвигает пары уровней, и два порядка расходятся. Всё точно в базисе осциллятора. Оговорка: в полной теории поля параметр — грассманово число, а суперпозиция бозона и фермиона запрещена; здесь параметр вещественный.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/fields-waves-susy-packets-ru.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-susy-packets-ru.jpg" title="MP4, 2.9 MB">RU</a><a class="anim-chip" href="../assets/animations/dvnanima/fields-waves-susy-packets-en.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-susy-packets-en.jpg" title="MP4, 2.8 MB">EN</a></div>
+      </article>
+      <article class="anim-card" id="animation-fields-waves-higgs-honey">
+        <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/fields-waves-higgs-honey-ru.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-higgs-honey-ru.jpg" aria-label="Смотреть: Поле Хиггса как мёд"><img src="../assets/animations/dvnanima/fields-waves-higgs-honey-ru.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Поле Хиггса как мёд</h3>
+        <p class="anim-text">Образ из первой главы книги. Пчёлы летят сквозь космос со скоростью света. В прозрачный куб наливается мёд: его растекание считается по уравнению тонкого вязкого слоя, объём сохраняется точно. Пчёлы в мёде летят медленнее, v/c = √(1 − (mc²/E)²): 0,60c, а когда мёд густеет — 0,31c; выйдя из мёда, они снова летят со скоростью c. Оговорка: это лишь образ — поле Хиггса не тормозит частицу, как вязкая среда, а даёт ей массу.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/fields-waves-higgs-honey-ru.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-higgs-honey-ru.jpg" title="MP4, 8.4 MB">RU</a><a class="anim-chip" href="../assets/animations/dvnanima/fields-waves-higgs-honey-en.mp4" data-play data-poster="../assets/animations/dvnanima/fields-waves-higgs-honey-en.jpg" title="MP4, 8.5 MB">EN</a></div>
       </article>
     </div>
   </section>
