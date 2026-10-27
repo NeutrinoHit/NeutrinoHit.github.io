@@ -286,5 +286,12 @@
     "hosting": "self",
     "qr_file": "Pi0DoubleDalitz.pdf",
     "legacy_codes": []
+  },
+  "0041": {
+    "url": "https://neutrinohit.github.io/qr/qft/0041/",
+    "slug": "susy-packets",
+    "hosting": "self",
+    "qr_file": "SusyPackets.pdf",
+    "legacy_codes": []
   }
 }

@@ -1156,14 +1156,14 @@
             {
               "id": "ru",
               "label": "Русская версия (80 с)",
-              "path": "susy_packets/media/susy_packets_ru.mp4",
+              "path": "susy_packets/media/susy_packets_ru_sound.mp4",
               "poster_time": 40.0,
               "copy_only": true
             },
             {
               "id": "en",
               "label": "English version (80 s)",
-              "path": "susy_packets/media/susy_packets_en.mp4",
+              "path": "susy_packets/media/susy_packets_en_sound.mp4",
               "poster_time": 40.0,
               "copy_only": true
             }
