@@ -1543,6 +1543,43 @@
         "en": "Examination projects of the course in quantum field theory, spring term."
       },
       "book": {}
+    },
+    {
+      "id": "0041",
+      "slug": "susy-packets",
+      "qr_file": "SusyPackets.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Суперсимметрия: две пары пакетов — одна физика",
+        "en": "Supersymmetry: two pairs of packets, one physics"
+      },
+      "caption": {
+        "ru": "Суперсимметричная квантовая механика с суперпотенциалом $W=x$: «бозонный» пакет $f$ живёт в секторе $H_-=A^\\dagger A$, «фермионный» $g$ — в секторе $H_+=AA^\\dagger$, $A=d/dx+W$. Суперзаряд $K=Q+Q^\\dagger$ эрмитов и $K^2=H$, поэтому поворот $U(\\theta)=e^{i\\theta K}$ меняет форму обоих пакетов и долю бозона, но не трогает распределение по энергии $P(E)$, $\\langle H\\rangle$ и $\\langle K\\rangle$; поворот коммутирует с временной эволюцией (период $\\pi$). В конце в фермионный сектор добавлено $\\varepsilon x^2$: пары уровней расходятся, и порядок «поворот, потом часы» перестаёт совпадать с «часы, потом поворот». Параметр $\\theta$ здесь вещественный: в настоящей теории поля это грассманово число, а суперпозиции бозона и фермиона запрещает правило суперотбора.",
+        "en": "Supersymmetric quantum mechanics with the superpotential $W=x$: the “boson” packet $f$ lives in the sector $H_-=A^\\dagger A$, the “fermion” packet $g$ in the sector $H_+=AA^\\dagger$, $A=d/dx+W$. The supercharge $K=Q+Q^\\dagger$ is Hermitian and $K^2=H$, so the rotation $U(\\theta)=e^{i\\theta K}$ changes the shapes of both packets and the boson share, but leaves the energy distribution $P(E)$, $\\langle H\\rangle$ and $\\langle K\\rangle$ untouched; the rotation commutes with the time evolution (period $\\pi$). At the end $\\varepsilon x^2$ is added to the fermion sector: the pairs of levels split and the order “rotate, then run the clock” no longer agrees with “clock, then rotate”. The parameter $\\theta$ is real here: in a true field theory it is a Grassmann number, and the superselection rule forbids superpositions of a boson and a fermion."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 41,
+        "chapter_title": {
+          "ru": "За Стандартной моделью",
+          "en": "Beyond the Standard Model"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/fields-waves-susy-packets-ru.mp4",
+          "en": "assets/animations/dvnanima/fields-waves-susy-packets-en.mp4"
+        },
+        "poster_time": 40.0
+      },
+      "gallery": "fields-waves/susy-packets",
+      "legacy_codes": []
     }
   ]
 }
