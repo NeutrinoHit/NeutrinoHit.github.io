@@ -25,7 +25,7 @@ toc: false
         <h2 class="outreach-group-name">Анимации и интерактивы</h2>
       </div>
       <nav class="course-tiles outreach-tiles" aria-label="Анимации и интерактивы">
-        <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">74 сюжета · 148 роликов</span><a class="course-tile-title" href="../ru/animations.html">Анимации</a><span class="course-tile-text">Научные анимации по темам; ролик играет прямо на странице.</span></div>
+        <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">76 сюжетов · 152 ролика</span><a class="course-tile-title" href="../ru/animations.html">Анимации</a><span class="course-tile-text">Научные анимации по темам; ролик играет прямо на странице.</span></div>
         <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/site/interactives-cover.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">84 интерактива</span><a class="course-tile-title" href="../ru/interactives.html">Интерактивы</a><span class="course-tile-text">Апплеты и фиты из курсов: осцилляции нейтрино, KATRIN, статистика и другое.</span></div>
       </nav>
     </div>

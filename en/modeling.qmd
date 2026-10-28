@@ -26,7 +26,7 @@ toc: false
         <h2 class="outreach-group-name">Animations and interactives</h2>
       </div>
       <nav class="course-tiles outreach-tiles" aria-label="Animations and interactives">
-        <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">74 stories · 148 videos</span><a class="course-tile-title" href="../en/animations.html">Animations</a><span class="course-tile-text">Scientific animations by topic; a video plays right on the page.</span></div>
+        <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">76 stories · 152 videos</span><a class="course-tile-title" href="../en/animations.html">Animations</a><span class="course-tile-text">Scientific animations by topic; a video plays right on the page.</span></div>
         <div class="course-tile has-cover"><img class="course-tile-cover" src="../assets/site/interactives-cover.jpg" alt="" loading="lazy"><span class="course-tile-status is-ready">84 interactives</span><a class="course-tile-title" href="../en/interactives.html">Interactives</a><span class="course-tile-text">Applets and fits from the courses: neutrino oscillations, KATRIN, statistics and more.</span></div>
       </nav>
     </div>
