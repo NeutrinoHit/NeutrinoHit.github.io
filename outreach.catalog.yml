@@ -44,7 +44,7 @@ outreach:
     - title: {ru: 'Neutrino Telescopes: Principles, Results, and Prospects', en: 'Neutrino Telescopes: Principles, Results, and Prospects'}
       note: {ru: пленарный доклад, en: plenary talk}
       lang: en
-      links: [{kind: slides, href: /talks/neutrino-telescopes-2026/lecture.html}]
+      links: [{kind: slides, href: /talks/neutrino-telescopes-2026/lecture.html}, {kind: slides, label: {ru: 30 минут, en: 30 min}, href: /talks/neutrino-telescopes-2026/lecture-30min.html}]
     - title: {ru: Телескоп подо льдом, en: A telescope under the ice}
       note: {ru: онлайн-лекция · 2025, en: online lecture · 2025}
       links: [{kind: video, href: 'https://youtu.be/Y8cTYsGq-L0'}]
