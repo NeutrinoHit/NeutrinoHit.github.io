@@ -12,12 +12,12 @@ toc: false
   <nav class="anim-topics" aria-label="Gallery topics">
     <a href="#neutrino-particles">Neutrinos and particles<span>27</span></a>
     <a href="#fields-waves">Fields, waves and oscillators<span>28</span></a>
-    <a href="#relativity-atom-spin">Relativity, the atom and spin<span>8</span></a>
+    <a href="#relativity-atom-spin">Relativity, the atom and spin<span>9</span></a>
     <a href="#math-dynamical-systems">Mathematics and dynamical systems<span>6</span></a>
     <a href="#accelerator-optics">Accelerators and magnetic optics<span>4</span></a>
     <a href="#visual-stories">Visual stories<span>3</span></a>
   </nav>
-  <p class="anim-total">76 stories · 152 videos</p>
+  <p class="anim-total">77 stories · 154 videos</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
       <span class="course-tile-status is-ready">27 stories · 51 videos</span>
@@ -353,7 +353,7 @@ toc: false
   </section>
   <section class="anim-section" id="relativity-atom-spin">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">8 stories · 16 videos</span>
+      <span class="course-tile-status is-ready">9 stories · 18 videos</span>
       <h2>Relativity, the atom and spin</h2>
       <p>Animations for the book “Quantum Field Theory for Experimentalists and Beyond”: the relativistic image of a ball, the Rutherford experiment, a spinor and the Möbius strip.</p>
     </div>
@@ -405,6 +405,12 @@ toc: false
         <h3 class="anim-title">A flight around a black hole</h3>
         <p class="anim-text">A camera falls freely on an orbit around a non-rotating black hole: light rays in the Schwarzschild metric, the shadow, the disk and its images, aberration and the frequency shift at a speed of 0.65c, the clocks of the camera and of a distant observer.</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby-en.mp4" data-play data-poster="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby-en.jpg" title="MP4, 8.4 MB">EN</a><a class="anim-chip" href="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby.mp4" data-play data-poster="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby.jpg" title="MP4, 8.4 MB">RU</a></div>
+      </article>
+      <article class="anim-card" id="animation-relativity-atom-spin-rindler-horizon">
+        <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-en.mp4" data-play data-poster="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-en.jpg" aria-label="Play: The Rindler horizon"><img src="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">The Rindler horizon</h3>
+        <p class="anim-text">A rocket at rest 0.97 light-years from the Earth starts its engine and keeps the proper acceleration 1 g; every quarter of a year the Earth sends it a flash of light. On the Minkowski diagram the world line of the rocket is the hyperbola x² − (ct)² = (c²/a)²; the flashes sent before the start catch up later and later, and the flash sent at the moment of the start runs along the line x = ct and never arrives: light wins back only the head start c²/a, and only in an infinite time. As the rocket sees it, the Earth clock runs down exponentially, t_e = −(c/a)·exp(−aτ/c): after 5 years the Earth looks as it did 2 days before the start, after 10 years 17 minutes before it, and the start itself is never seen. Rindler coordinates, the horizon at the constant distance c²/a behind, and the Unruh temperature at 1 g.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-en.mp4" data-play data-poster="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-en.jpg" title="MP4, 2.3 MB">EN</a><a class="anim-chip" href="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-ru.mp4" data-play data-poster="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-ru.jpg" title="MP4, 2.4 MB">RU</a></div>
       </article>
     </div>
   </section>
