@@ -588,6 +588,30 @@
               "copy_only": true
             }
           ]
+        },
+        {
+          "id": "parton-cascade",
+          "title": "Внутренняя жизнь протона",
+          "title_en": "The inner life of the proton",
+          "source_dir": "parton_cascade",
+          "description": "Из чего сделан протон? Из трёх кварков? Даже при самом грубом взгляде (Q = 1,65 ГэВ, разрешение 0,12 фм) три валентных кварка несут лишь 42 % его импульса: измеренные распределения партонов (NNPDF3.1 NNLO) отдают 40 % глюонам и 18 % морю. Шар протона — один протон, разыгранный по этим распределениям; с ростом переданного импульса Q его партоны делятся по уравнениям DGLAP: кварк излучает глюон, глюон делится надвое или рождает пару кварк–антикварк, партонов всё больше, доля импульса каждого всё меньше. Внизу — измеренные распределения x f(x) валентных кварков, моря и глюонов и их доли импульса при текущем Q: с 60 ГэВ море несёт больше, чем валентные кварки; при 10⁵ ГэВ валентным остаётся 18 %, морю 33 %, глюонам 49 %. Том 2, глава 31.",
+          "description_en": "What is a proton made of? Three quarks? Even at the coarsest look (Q = 1.65 GeV, a resolution of 0.12 fm) the three valence quarks carry only 42 % of its momentum: the measured parton distributions (NNPDF3.1 NNLO) give 40 % to the gluons and 18 % to the sea. The ball of the proton is one proton drawn from these distributions; as the momentum transfer Q grows its partons split as the DGLAP equations say: a quark radiates a gluon, a gluon splits in two or makes a quark-antiquark pair, there are ever more partons, each with a smaller share of the momentum. Below, the measured distributions x f(x) of the valence quarks, the sea and the gluons and their momentum shares at the current Q: from 60 GeV on the sea carries more than the valence quarks; at 10⁵ GeV the valence quarks keep 18 %, the sea 33 %, the gluons 49 %. Volume 2, Chapter 31.",
+          "videos": [
+            {
+              "id": "ru",
+              "label": "Русская версия (100 с)",
+              "path": "parton_cascade/media/parton_cascade_ru.mp4",
+              "poster_time": 66.0,
+              "copy_only": true
+            },
+            {
+              "id": "en",
+              "label": "English version (100 s)",
+              "path": "parton_cascade/media/parton_cascade_en.mp4",
+              "poster_time": 66.0,
+              "copy_only": true
+            }
+          ]
         }
       ]
     },

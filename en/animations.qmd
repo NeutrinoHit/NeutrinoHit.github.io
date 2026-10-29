@@ -184,6 +184,12 @@ toc: false
   <section class="anim-section" id="fields-waves">
     <div class="anim-section-head">
       <span class="course-tile-status is-ready">28 stories · 52 videos</span>
+      <article class="anim-card" id="animation-neutrino-particles-parton-cascade">
+        <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.jpg" aria-label="Play: The inner life of the proton"><img src="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">The inner life of the proton</h3>
+        <p class="anim-text">What is a proton made of? Three quarks? Even at the coarsest look (Q = 1.65 GeV, a resolution of 0.12 fm) the three valence quarks carry only 42 % of its momentum: the measured parton distributions (NNPDF3.1 NNLO) give 40 % to the gluons and 18 % to the sea. The ball of the proton is one proton drawn from these distributions; as the momentum transfer Q grows its partons split as the DGLAP equations say: a quark radiates a gluon, a gluon splits in two or makes a quark-antiquark pair, there are ever more partons, each with a smaller share of the momentum. Below, the measured distributions x f(x) of the valence quarks, the sea and the gluons and their momentum shares at the current Q: from 60 GeV on the sea carries more than the valence quarks; at 10⁵ GeV the valence quarks keep 18 %, the sea 33 %, the gluons 49 %. Volume 2, Chapter 31.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.jpg" title="MP4, 51.9 MB">EN</a><a class="anim-chip" href="../assets/animations/dvnanima/neutrino-particles-parton-cascade-ru.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-parton-cascade-ru.jpg" title="MP4, 51.9 MB">RU</a></div>
+      </article>
       <h2>Fields, waves and oscillators</h2>
       <p>Electromagnetic fields, wave packets, coupled oscillators and simple electronic circuits.</p>
     </div>

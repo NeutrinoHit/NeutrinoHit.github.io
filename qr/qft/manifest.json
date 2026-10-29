@@ -273,6 +273,13 @@
     "qr_file": "Feynman_NuMuZ.pdf",
     "legacy_codes": []
   },
+  "0045": {
+    "url": "https://neutrinohit.github.io/qr/qft/0045/",
+    "slug": "parton-cascade",
+    "hosting": "self",
+    "qr_file": "PartonCascade.pdf",
+    "legacy_codes": []
+  },
   "0035": {
     "url": "https://neutrinohit.github.io/qr/qft/0035/",
     "slug": "kaon-oscillations",
