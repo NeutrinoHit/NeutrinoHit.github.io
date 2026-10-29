@@ -12,12 +12,12 @@ toc: false
   <nav class="anim-topics" aria-label="Темы галереи">
     <a href="#neutrino-particles">Нейтрино и частицы<span>27</span></a>
     <a href="#fields-waves">Поля, волны и осцилляторы<span>28</span></a>
-    <a href="#relativity-atom-spin">Относительность, атом и спин<span>8</span></a>
+    <a href="#relativity-atom-spin">Относительность, атом и спин<span>9</span></a>
     <a href="#math-dynamical-systems">Математика и динамические системы<span>6</span></a>
     <a href="#accelerator-optics">Ускорители и магнитная оптика<span>4</span></a>
     <a href="#visual-stories">Визуальные сюжеты<span>3</span></a>
   </nav>
-  <p class="anim-total">76 сюжетов · 152 ролика</p>
+  <p class="anim-total">77 сюжетов · 154 ролика</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
       <span class="course-tile-status is-ready">27 сюжетов · 51 ролик</span>
@@ -353,7 +353,7 @@ toc: false
   </section>
   <section class="anim-section" id="relativity-atom-spin">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">8 сюжетов · 16 роликов</span>
+      <span class="course-tile-status is-ready">9 сюжетов · 18 роликов</span>
       <h2>Относительность, атом и спин</h2>
       <p>Анимации к книге «Квантовая теория поля для экспериментаторов и не только»: релятивистское изображение шара, опыт Резерфорда, спинор и лента Мёбиуса.</p>
     </div>
@@ -405,6 +405,12 @@ toc: false
         <h3 class="anim-title">Облёт чёрной дыры</h3>
         <p class="anim-text">Камера свободно падает по орбите вокруг невращающейся чёрной дыры: ход лучей света в метрике Шварцшильда, тень, диск и его изображения, аберрация и сдвиг частоты при скорости 0,65c, часы камеры и далёкого наблюдателя.</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby.mp4" data-play data-poster="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby.jpg" title="MP4, 8.4 MB">RU</a><a class="anim-chip" href="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby-en.mp4" data-play data-poster="../assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby-en.jpg" title="MP4, 8.4 MB">EN</a></div>
+      </article>
+      <article class="anim-card" id="animation-relativity-atom-spin-rindler-horizon">
+        <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-ru.mp4" data-play data-poster="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-ru.jpg" aria-label="Смотреть: Горизонт Риндлера"><img src="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-ru.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Горизонт Риндлера</h3>
+        <p class="anim-text">Ракета стоит в 0,97 светового года от Земли, включает двигатель и держит собственное ускорение 1g; Земля каждую четверть года посылает ей вспышку света. На диаграмме Минковского мировая линия ракеты — гипербола x² − (ct)² = (c²/a)²; вспышки, посланные до старта, догоняют её всё позже, а вспышка в момент старта идёт вдоль прямой x = ct и не догонит никогда: свет отыгрывает лишь фору c²/a, и только за бесконечное время. Глазами ракеты часы Земли убывают экспоненциально, t_e = −(c/a)·exp(−aτ/c): через 5 лет Земля видна за 2 суток до старта, через 10 лет — за 17 минут, сам старт не виден никогда. Координаты Риндлера, горизонт на постоянном расстоянии c²/a позади и температура Унру при 1g.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-ru.mp4" data-play data-poster="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-ru.jpg" title="MP4, 2.4 MB">RU</a><a class="anim-chip" href="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-en.mp4" data-play data-poster="../assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-en.jpg" title="MP4, 2.3 MB">EN</a></div>
       </article>
     </div>
   </section>

@@ -1377,6 +1377,30 @@
               "poster_time": 66
             }
           ]
+        },
+        {
+          "id": "rindler-horizon",
+          "title": "Горизонт Риндлера",
+          "title_en": "The Rindler horizon",
+          "source_dir": "rindler_horizon",
+          "description": "Ракета стоит в 0,97 светового года от Земли, включает двигатель и держит собственное ускорение 1g; Земля каждую четверть года посылает ей вспышку света. На диаграмме Минковского мировая линия ракеты — гипербола x² − (ct)² = (c²/a)²; вспышки, посланные до старта, догоняют её всё позже, а вспышка в момент старта идёт вдоль прямой x = ct и не догонит никогда: свет отыгрывает лишь фору c²/a, и только за бесконечное время. Глазами ракеты часы Земли убывают экспоненциально, t_e = −(c/a)·exp(−aτ/c): через 5 лет Земля видна за 2 суток до старта, через 10 лет — за 17 минут, сам старт не виден никогда. Координаты Риндлера, горизонт на постоянном расстоянии c²/a позади и температура Унру при 1g.",
+          "description_en": "A rocket at rest 0.97 light-years from the Earth starts its engine and keeps the proper acceleration 1 g; every quarter of a year the Earth sends it a flash of light. On the Minkowski diagram the world line of the rocket is the hyperbola x² − (ct)² = (c²/a)²; the flashes sent before the start catch up later and later, and the flash sent at the moment of the start runs along the line x = ct and never arrives: light wins back only the head start c²/a, and only in an infinite time. As the rocket sees it, the Earth clock runs down exponentially, t_e = −(c/a)·exp(−aτ/c): after 5 years the Earth looks as it did 2 days before the start, after 10 years 17 minutes before it, and the start itself is never seen. Rindler coordinates, the horizon at the constant distance c²/a behind, and the Unruh temperature at 1 g.",
+          "videos": [
+            {
+              "id": "ru",
+              "label": "Русская версия (100 с)",
+              "path": "rindler_horizon/media/rindler_horizon_ru.mp4",
+              "poster_time": 44.0,
+              "copy_only": true
+            },
+            {
+              "id": "en",
+              "label": "English version (100 s)",
+              "path": "rindler_horizon/media/rindler_horizon_en.mp4",
+              "poster_time": 44.0,
+              "copy_only": true
+            }
+          ]
         }
       ]
     },

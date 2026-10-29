@@ -91,6 +91,13 @@
     "qr_file": "PenroseRotation_animation.pdf",
     "legacy_codes": []
   },
+  "0042": {
+    "url": "https://neutrinohit.github.io/qr/qft/0042/",
+    "slug": "rindler-horizon",
+    "hosting": "self",
+    "qr_file": "RindlerHorizon.pdf",
+    "legacy_codes": []
+  },
   "0011": {
     "url": "https://neutrinohit.github.io/qr/qft/0011/",
     "slug": "hulse-taylor",

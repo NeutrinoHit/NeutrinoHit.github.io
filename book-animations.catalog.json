@@ -1580,6 +1580,43 @@
       },
       "gallery": "fields-waves/susy-packets",
       "legacy_codes": []
+    },
+    {
+      "id": "0042",
+      "slug": "rindler-horizon",
+      "qr_file": "RindlerHorizon.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Горизонт Риндлера",
+        "en": "The Rindler horizon"
+      },
+      "caption": {
+        "ru": "Ракета стоит в $c^2/a = 0{,}97$ светового года от Земли, при $t=0$ включает двигатель и держит собственное ускорение $a = 1g$; Земля каждую четверть года посылает ей вспышку света. Мировая линия ракеты — гипербола $x^2-(ct)^2=(c^2/a)^2$. Вспышки, посланные до старта, догоняют ракету всё позже; вспышка в момент старта идёт вдоль прямой $x=ct$ и не догонит её никогда: свет отыгрывает лишь фору $c^2/a$, и только за бесконечное время. Глазами ракеты часы Земли убывают экспоненциально, $t_e=-(c/a)\\,e^{-a\\tau/c}$: через 5 лет Земля видна такой, какой была за 2 суток до старта, через 10 лет — за 17 минут, сам старт не виден никогда. В системе ракеты горизонт всегда остаётся на расстоянии $c^2/a$ позади (координаты Риндлера); температура Унру при $1g$ равна $4\\times10^{-20}$ К.",
+        "en": "A rocket at rest $c^2/a = 0.97$ light-years from the Earth starts its engine at $t=0$ and keeps the proper acceleration $a = 1\\,g$; every quarter of a year the Earth sends it a flash of light. The world line of the rocket is the hyperbola $x^2-(ct)^2=(c^2/a)^2$. The flashes sent before the start catch up later and later; the flash sent at the moment of the start runs along the line $x=ct$ and never arrives: light wins back only the head start $c^2/a$, and only in an infinite time. As the rocket sees it, the Earth clock runs down exponentially, $t_e=-(c/a)\\,e^{-a\\tau/c}$: after 5 years the Earth looks as it did 2 days before the start, after 10 years 17 minutes before it, and the start itself is never seen. In the rocket's frame the horizon always stays $c^2/a$ behind (Rindler coordinates); the Unruh temperature at $1\\,g$ is $4\\times10^{-20}$ K."
+      },
+      "book": {
+        "volume": 1,
+        "chapter": 3,
+        "chapter_title": {
+          "ru": "Специальная теория относительности",
+          "en": "Special Relativity"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-ru.mp4",
+          "en": "assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-en.mp4"
+        },
+        "poster_time": 44.0
+      },
+      "gallery": "relativity-atom-spin/rindler-horizon",
+      "legacy_codes": []
     }
   ]
 }
