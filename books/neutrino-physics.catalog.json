@@ -1862,6 +1862,39 @@
         "poster_time": 5.0
       },
       "legacy_codes": []
+    },
+    {
+      "id": "0057",
+      "slug": "juno-journey",
+      "qr_file": "JunoJourney.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Путешествие в JUNO",
+        "en": "A journey to JUNO"
+      },
+      "caption": {
+        "ru": "Вертикальный фильм на двух языках: антинейтрино рождается в $\\beta$-распаде осколка деления в реакторе, летит сквозь атомы земной коры (52,5 км за 175 мкс) и влетает в JUNO. Обратный $\\beta$-распад $\\bar\\nu_e + p \\to e^+ + n$: позитрон аннигилирует с атомным электроном, гамма-кванты становятся сцинтилляционным светом — первая вспышка; нейтрон блуждает и через $\\approx 200$ мкс захватывается ядром водорода, $n + p \\to d + \\gamma$ с энергией 2,2 МэВ — вторая вспышка. Ядра увеличены, времена монтажные.",
+        "en": "A vertical film in two languages: an antineutrino is born in the $\\beta$ decay of a fission fragment in a reactor, flies through the atoms of the Earth's crust (52.5 km in 175 μs) and enters JUNO. Inverse $\\beta$ decay $\\bar\\nu_e + p \\to e^+ + n$: the positron annihilates with an atomic electron, the gammas become scintillation light — the first flash; the neutron wanders and after $\\approx 200$ μs is captured by a hydrogen nucleus, $n + p \\to d + \\gamma$ with 2.2 MeV — the second flash. The nuclei are enlarged, the timing is a montage."
+      },
+      "book": {
+        "order": 3,
+        "section_title": {
+          "ru": "Детектирование",
+          "en": "Detection"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "site_asset": "assets/animations/dvnanima/neutrino-particles-juno-journey-short.mp4",
+        "poster_time": 33.0
+      },
+      "legacy_codes": [],
+      "gallery": "neutrino-particles/juno-journey"
     }
   ]
 }

@@ -107,6 +107,24 @@
           ]
         },
         {
+          "id": "juno-journey",
+          "title": "Путешествие в JUNO",
+          "title_en": "A journey to JUNO",
+          "source_dir": "juno_camera",
+          "description": "Вертикальный фильм на двух языках: антинейтрино рождается в β-распаде осколка деления в реакторе, летит сквозь атомы земной коры (52,5 км за 175 μс) и влетает в JUNO — шар из 20 000 тонн сцинтиллятора с 17 612 фотоумножителями. Обратный β-распад на протоне: позитрон тормозит и аннигилирует с атомным электроном, гамма-кванты рассеиваются и становятся сцинтилляционным светом — первая вспышка; нейтрон блуждает, сталкиваясь с протонами, и через ≈ 200 μс захватывается ядром водорода с гамма-квантом 2,2 МэВ — вторая вспышка. Трёхмерная сцена; ядра увеличены, времена и путь на глобусе монтажные.",
+          "description_en": "A vertical film in two languages: an antineutrino is born in the beta decay of a fission fragment in a reactor, flies through the atoms of the Earth's crust (52.5 km in 175 μs) and enters JUNO, a 20,000-tonne sphere of scintillator with 17,612 photomultipliers. Inverse beta decay on a proton: the positron slows down and annihilates with an atomic electron, the gammas scatter and become scintillation light — the first flash; the neutron wanders, bouncing off protons, and after ≈ 200 μs is captured by a hydrogen nucleus with a 2.2 MeV gamma — the second flash. A three-dimensional scene; the nuclei are enlarged, the timing and the path on the globe are a montage.",
+          "videos": [
+            {
+              "id": "short",
+              "label": "Вертикальный фильм (60 с, RU+EN)",
+              "label_en": "Vertical film (60 s, RU+EN)",
+              "path": "juno_camera/media/juno_camera_short_yt.mp4",
+              "poster_time": 33.0,
+              "copy_only": true
+            }
+          ]
+        },
+        {
           "id": "air-shower",
           "title": "Широкий атмосферный ливень",
           "title_en": "Extensive air shower",

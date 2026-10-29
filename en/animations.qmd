@@ -10,17 +10,17 @@ toc: false
 <div class="lecture-catalog animation-catalog">
   <p class="lecture-catalog-lead">Scientific animations of NeutrinoHit by topic. A frame plays its video right on the page; the buttons below the description open the other videos of the story and the versions in the other language.</p>
   <nav class="anim-topics" aria-label="Gallery topics">
-    <a href="#neutrino-particles">Neutrinos and particles<span>27</span></a>
+    <a href="#neutrino-particles">Neutrinos and particles<span>29</span></a>
     <a href="#fields-waves">Fields, waves and oscillators<span>28</span></a>
     <a href="#relativity-atom-spin">Relativity, the atom and spin<span>9</span></a>
     <a href="#math-dynamical-systems">Mathematics and dynamical systems<span>6</span></a>
     <a href="#accelerator-optics">Accelerators and magnetic optics<span>4</span></a>
     <a href="#visual-stories">Visual stories<span>3</span></a>
   </nav>
-  <p class="anim-total">77 stories · 154 videos</p>
+  <p class="anim-total">79 stories · 157 videos</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">27 stories · 51 videos</span>
+      <span class="course-tile-status is-ready">29 stories · 54 videos</span>
       <h2>Neutrinos and particles</h2>
       <p>Neutrino oscillations, showers, nuclear processes and interaction diagrams.</p>
     </div>
@@ -51,6 +51,11 @@ toc: false
         <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/neutrino-particles-juno-survival.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-juno-survival.jpg" aria-label="Play: JUNO"><img src="../assets/animations/dvnanima/neutrino-particles-juno-survival.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
         <h3 class="anim-title">JUNO</h3>
         <p class="anim-text">Animations about the JUNO detector, reactor neutrino oscillations and the path of a neutrino to an event.</p>
+      </article>
+      <article class="anim-card" id="animation-neutrino-particles-juno-journey">
+        <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/neutrino-particles-juno-journey-short.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-juno-journey-short.jpg" aria-label="Play: A journey to JUNO"><img src="../assets/animations/dvnanima/neutrino-particles-juno-journey-short.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">A journey to JUNO</h3>
+        <p class="anim-text">A vertical film in two languages: an antineutrino is born in the beta decay of a fission fragment in a reactor, flies through the atoms of the Earth&#x27;s crust (52.5 km in 175 μs) and enters JUNO, a 20,000-tonne sphere of scintillator with 17,612 photomultipliers. Inverse beta decay on a proton: the positron slows down and annihilates with an atomic electron, the gammas scatter and become scintillation light — the first flash; the neutron wanders, bouncing off protons, and after ≈ 200 μs is captured by a hydrogen nucleus with a 2.2 MeV gamma — the second flash. A three-dimensional scene; the nuclei are enlarged, the timing and the path on the globe are a montage.</p>
       </article>
       <article class="anim-card" id="animation-neutrino-particles-air-shower">
         <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower-en.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower-en.jpg" aria-label="Play: Extensive air shower"><img src="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
@@ -179,17 +184,17 @@ toc: false
         <p class="anim-text">A neutrino telescope needs a target of a cubic kilometre. A rotating globe (NASA Blue Marble) is covered with dots where people live (Natural Earth countries and cities), one dot is a million people, 8200 dots are all of humanity (8.2 billion, UN 2024). A glass cube with a 1 km side appears next to it (not to scale with the planet), and all the dots are drawn into it at once. At 62 kg per person (Walpole et al., 2012) humanity weighs 0.51 billion tonnes, half the mass of the water in the cube, and the bodies without gaps fill half the cube. Then the camera dives into the cube: the dots turn into a crowd of people from all continents (shares by the population of Natural Earth countries; the appearance of the people is conventional).</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/neutrino-particles-humanity-cube-en.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-humanity-cube-en.jpg" title="MP4, 25.1 MB">EN</a><a class="anim-chip" href="../assets/animations/dvnanima/neutrino-particles-humanity-cube-ru.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-humanity-cube-ru.jpg" title="MP4, 24.7 MB">RU</a></div>
       </article>
-    </div>
-  </section>
-  <section class="anim-section" id="fields-waves">
-    <div class="anim-section-head">
-      <span class="course-tile-status is-ready">28 stories · 52 videos</span>
       <article class="anim-card" id="animation-neutrino-particles-parton-cascade">
         <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.jpg" aria-label="Play: The inner life of the proton"><img src="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
         <h3 class="anim-title">The inner life of the proton</h3>
         <p class="anim-text">What is a proton made of? Three quarks? Even at the coarsest look (Q = 1.65 GeV, a resolution of 0.12 fm) the three valence quarks carry only 42 % of its momentum: the measured parton distributions (NNPDF3.1 NNLO) give 40 % to the gluons and 18 % to the sea. The ball of the proton is one proton drawn from these distributions; as the momentum transfer Q grows its partons split as the DGLAP equations say: a quark radiates a gluon, a gluon splits in two or makes a quark-antiquark pair, there are ever more partons, each with a smaller share of the momentum. Below, the measured distributions x f(x) of the valence quarks, the sea and the gluons and their momentum shares at the current Q: from 60 GeV on the sea carries more than the valence quarks; at 10⁵ GeV the valence quarks keep 18 %, the sea 33 %, the gluons 49 %. Volume 2, Chapter 31.</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.jpg" title="MP4, 51.9 MB">EN</a><a class="anim-chip" href="../assets/animations/dvnanima/neutrino-particles-parton-cascade-ru.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-parton-cascade-ru.jpg" title="MP4, 51.9 MB">RU</a></div>
       </article>
+    </div>
+  </section>
+  <section class="anim-section" id="fields-waves">
+    <div class="anim-section-head">
+      <span class="course-tile-status is-ready">28 stories · 52 videos</span>
       <h2>Fields, waves and oscillators</h2>
       <p>Electromagnetic fields, wave packets, coupled oscillators and simple electronic circuits.</p>
     </div>

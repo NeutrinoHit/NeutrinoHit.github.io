@@ -154,6 +154,13 @@
     "qr_file": "EarthShield.pdf",
     "legacy_codes": []
   },
+  "0057": {
+    "url": "https://neutrinohit.github.io/qr/neutrino-physics/0057/",
+    "slug": "juno-journey",
+    "hosting": "self",
+    "qr_file": "JunoJourney.pdf",
+    "legacy_codes": []
+  },
   "0012": {
     "url": "https://neutrinohit.github.io/qr/neutrino-physics/0012/",
     "slug": "electrons-in-magnetic-field",

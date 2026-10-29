@@ -10,17 +10,17 @@ toc: false
 <div class="lecture-catalog animation-catalog">
   <p class="lecture-catalog-lead">Научные анимации NeutrinoHit по темам. Кадр запускает ролик прямо на странице; кнопки под описанием — другие ролики сюжета и версии на другом языке.</p>
   <nav class="anim-topics" aria-label="Темы галереи">
-    <a href="#neutrino-particles">Нейтрино и частицы<span>27</span></a>
+    <a href="#neutrino-particles">Нейтрино и частицы<span>29</span></a>
     <a href="#fields-waves">Поля, волны и осцилляторы<span>28</span></a>
     <a href="#relativity-atom-spin">Относительность, атом и спин<span>9</span></a>
     <a href="#math-dynamical-systems">Математика и динамические системы<span>6</span></a>
     <a href="#accelerator-optics">Ускорители и магнитная оптика<span>4</span></a>
     <a href="#visual-stories">Визуальные сюжеты<span>3</span></a>
   </nav>
-  <p class="anim-total">77 сюжетов · 154 ролика</p>
+  <p class="anim-total">79 сюжетов · 157 роликов</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">27 сюжетов · 51 ролик</span>
+      <span class="course-tile-status is-ready">29 сюжетов · 54 ролика</span>
       <h2>Нейтрино и частицы</h2>
       <p>Осцилляции нейтрино, каскады, ядерные процессы и диаграммы взаимодействий.</p>
     </div>
@@ -51,6 +51,11 @@ toc: false
         <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/neutrino-particles-juno-survival.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-juno-survival.jpg" aria-label="Смотреть: JUNO"><img src="../assets/animations/dvnanima/neutrino-particles-juno-survival.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
         <h3 class="anim-title">JUNO</h3>
         <p class="anim-text">Анимации про детектор JUNO, осцилляции реакторных нейтрино и путь нейтрино к событию.</p>
+      </article>
+      <article class="anim-card" id="animation-neutrino-particles-juno-journey">
+        <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/neutrino-particles-juno-journey-short.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-juno-journey-short.jpg" aria-label="Смотреть: Путешествие в JUNO"><img src="../assets/animations/dvnanima/neutrino-particles-juno-journey-short.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Путешествие в JUNO</h3>
+        <p class="anim-text">Вертикальный фильм на двух языках: антинейтрино рождается в β-распаде осколка деления в реакторе, летит сквозь атомы земной коры (52,5 км за 175 μс) и влетает в JUNO — шар из 20 000 тонн сцинтиллятора с 17 612 фотоумножителями. Обратный β-распад на протоне: позитрон тормозит и аннигилирует с атомным электроном, гамма-кванты рассеиваются и становятся сцинтилляционным светом — первая вспышка; нейтрон блуждает, сталкиваясь с протонами, и через ≈ 200 μс захватывается ядром водорода с гамма-квантом 2,2 МэВ — вторая вспышка. Трёхмерная сцена; ядра увеличены, времена и путь на глобусе монтажные.</p>
       </article>
       <article class="anim-card" id="animation-neutrino-particles-air-shower">
         <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.jpg" aria-label="Смотреть: Широкий атмосферный ливень"><img src="../assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
@@ -179,17 +184,17 @@ toc: false
         <p class="anim-text">Нейтринному телескопу нужна мишень в кубический километр. Вращающийся глобус (NASA Blue Marble) покрывается точками там, где живут люди (страны и города Natural Earth), одна точка — миллион человек, 8200 точек — всё человечество (8,2 млрд, ООН 2024). Рядом появляется стеклянный куб со стороной 1 км (не в масштабе с планетой), и все точки одновременно втягиваются в него. При 62 кг на человека (Walpole и др., 2012) человечество весит 0,51 млрд т — половина массы воды в кубе, и тела без зазоров занимают половину куба. Затем камера ныряет в куб: точки превращаются в толпу людей со всех континентов (доли — по населению стран Natural Earth; облик людей условный).</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/neutrino-particles-humanity-cube-ru.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-humanity-cube-ru.jpg" title="MP4, 24.7 MB">RU</a><a class="anim-chip" href="../assets/animations/dvnanima/neutrino-particles-humanity-cube-en.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-humanity-cube-en.jpg" title="MP4, 25.1 MB">EN</a></div>
       </article>
-    </div>
-  </section>
-  <section class="anim-section" id="fields-waves">
-    <div class="anim-section-head">
-      <span class="course-tile-status is-ready">28 сюжетов · 52 ролика</span>
       <article class="anim-card" id="animation-neutrino-particles-parton-cascade">
         <div class="anim-media"><a class="anim-poster" href="../assets/animations/dvnanima/neutrino-particles-parton-cascade-ru.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-parton-cascade-ru.jpg" aria-label="Смотреть: Внутренняя жизнь протона"><img src="../assets/animations/dvnanima/neutrino-particles-parton-cascade-ru.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
         <h3 class="anim-title">Внутренняя жизнь протона</h3>
         <p class="anim-text">Из чего сделан протон? Из трёх кварков? Даже при самом грубом взгляде (Q = 1,65 ГэВ, разрешение 0,12 фм) три валентных кварка несут лишь 42 % его импульса: измеренные распределения партонов (NNPDF3.1 NNLO) отдают 40 % глюонам и 18 % морю. Шар протона — один протон, разыгранный по этим распределениям; с ростом переданного импульса Q его партоны делятся по уравнениям DGLAP: кварк излучает глюон, глюон делится надвое или рождает пару кварк–антикварк, партонов всё больше, доля импульса каждого всё меньше. Внизу — измеренные распределения x f(x) валентных кварков, моря и глюонов и их доли импульса при текущем Q: с 60 ГэВ море несёт больше, чем валентные кварки; при 10⁵ ГэВ валентным остаётся 18 %, морю 33 %, глюонам 49 %. Том 2, глава 31.</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="../assets/animations/dvnanima/neutrino-particles-parton-cascade-ru.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-parton-cascade-ru.jpg" title="MP4, 51.9 MB">RU</a><a class="anim-chip" href="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.jpg" title="MP4, 51.9 MB">EN</a></div>
       </article>
+    </div>
+  </section>
+  <section class="anim-section" id="fields-waves">
+    <div class="anim-section-head">
+      <span class="course-tile-status is-ready">28 сюжетов · 52 ролика</span>
       <h2>Поля, волны и осцилляторы</h2>
       <p>Электромагнитные поля, волновые пакеты, связанные осцилляторы и простые электронные схемы.</p>
     </div>
