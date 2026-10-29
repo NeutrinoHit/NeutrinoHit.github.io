@@ -1617,6 +1617,43 @@
       },
       "gallery": "relativity-atom-spin/rindler-horizon",
       "legacy_codes": []
+    },
+    {
+      "id": "0045",
+      "slug": "parton-cascade",
+      "qr_file": "PartonCascade.pdf",
+      "hosting": "self",
+      "title": {
+        "ru": "Внутренняя жизнь протона",
+        "en": "The inner life of the proton"
+      },
+      "caption": {
+        "ru": "Протон при разрешении виртуального фотона от $0.12$ фм ($Q=1.65$ ГэВ) до $2\\cdot10^{-6}$ фм ($Q=10^5$ ГэВ). Шар протона — один протон, разыгранный по измеренным партонным распределениям NNPDF3.1: объём шарика — доля импульса, которую несёт партон; с ростом $Q$ партоны делятся по уравнениям DGLAP: кварк излучает глюон, глюон делится надвое или рождает пару $q\\bar q$. Внизу — те же распределения $xf(x)$ валентных кварков, моря и глюонов и их доли импульса при текущем $Q$. Уже при самом грубом взгляде валентные кварки несут лишь $42\\,\\%$ импульса протона, глюоны — $40\\,\\%$, море — $18\\,\\%$; с $Q\\approx60$ ГэВ море несёт больше, чем валентные кварки, а при $Q=10^5$ ГэВ валентным остаётся $18\\,\\%$, морю — $33\\,\\%$, глюонам — $49\\,\\%$.",
+        "en": "The proton at the resolution of the virtual photon from $0.12$ fm ($Q=1.65$ GeV) to $2\\cdot10^{-6}$ fm ($Q=10^5$ GeV). The ball is one proton drawn from the measured parton distributions NNPDF3.1: the volume of a ball is the momentum share the parton carries; as $Q$ grows the partons split as the DGLAP equations say: a quark radiates a gluon, a gluon splits in two or makes a $q\\bar q$ pair. Below, the same distributions $xf(x)$ of the valence quarks, the sea and the gluons and their momentum shares at the current $Q$. Even at the coarsest look the valence quarks carry only $42\\,\\%$ of the proton momentum, the gluons $40\\,\\%$, the sea $18\\,\\%$; from $Q\\approx60$ GeV on the sea carries more than the valence quarks, and at $Q=10^5$ GeV the valence quarks keep $18\\,\\%$, the sea $33\\,\\%$, the gluons $49\\,\\%$."
+      },
+      "book": {
+        "volume": 2,
+        "chapter": 31,
+        "chapter_title": {
+          "ru": "Глубоконеупругое рассеяние электрона на нуклоне",
+          "en": "Deep-Inelastic Electron–Nucleon Scattering"
+        }
+      },
+      "credit": {
+        "author": {
+          "ru": "Д. В. Наумов",
+          "en": "D. V. Naumov"
+        }
+      },
+      "media": {
+        "site_asset": {
+          "ru": "assets/animations/dvnanima/neutrino-particles-parton-cascade-ru.mp4",
+          "en": "assets/animations/dvnanima/neutrino-particles-parton-cascade-en.mp4"
+        },
+        "poster_time": 66.0
+      },
+      "gallery": "neutrino-particles/parton-cascade",
+      "legacy_codes": []
     }
   ]
 }
