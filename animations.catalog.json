@@ -630,6 +630,147 @@
               "copy_only": true
             }
           ]
+        },
+        {
+          "id": "icecube-first-pev",
+          "title": "IceCube: первые нейтрино с энергией ПэВ",
+          "title_en": "IceCube: the first PeV neutrinos",
+          "source_dir": "icecube_first_pev",
+          "description": "Под лабораторией IceCube на Южном полюсе во льду протаяно 86 скважин глубиной 2,5 км; на глубинах от 1,45 до 2,45 км в них стоят 5160 датчиков света — кубический километр льда. Bert (август 2011, 1,04 ПэВ), Ernie (январь 2012, 1,14 ПэВ) и Big Bird (декабрь 2012, около 2 ПэВ): свет каждого каскада рождается внутри льда и зажигает сотни датчиков на расстояниях до 250–300 м. Цвет показывает время прихода света, размер — его количество. Положения датчиков — геометрия IceCube из открытого кода PPC; вершины, энергии и числа датчиков Bert и Ernie — IceCube, PRL 111 (2013) 021103; Big Bird — PRL 113 (2014) 101101, положение условно. Картина света — модель точечного источника в однородном льду, согласованная с Bert. Лаборатория стилизована. Второй ролик (12 с) — как строился IceCube.",
+          "description_en": "Under the IceCube Laboratory at the South Pole, 86 holes were melted 2.5 km into the ice; between 1.45 and 2.45 km they hold 5160 light sensors, a cubic kilometre of ice. Bert (August 2011, 1.04 PeV), Ernie (January 2012, 1.14 PeV) and Big Bird (December 2012, about 2 PeV): the light of each cascade starts inside the ice and lights hundreds of sensors up to 250-300 m away. Colour shows the arrival time of the light, size its amount. Sensor positions: IceCube geometry from the public PPC code; vertices, energies and sensor counts of Bert and Ernie: IceCube, PRL 111 (2013) 021103; Big Bird: PRL 113 (2014) 101101, position illustrative. Light pattern: a point-source model in homogeneous ice matched to Bert. Laboratory stylised. The second film (12 s, Russian) shows how IceCube was built.",
+          "videos": [
+            {
+              "id": "ru",
+              "label": "Первые нейтрино ПэВ, 22 с (русская версия)",
+              "path": "icecube_first_pev/media/icecube_first_pev_ru.mp4",
+              "poster_time": 22.0,
+              "copy_only": true
+            },
+            {
+              "id": "en",
+              "label": "First PeV neutrinos, 22 s (English version)",
+              "path": "icecube_first_pev/media/icecube_first_pev_en.mp4",
+              "poster_time": 22.0,
+              "copy_only": true
+            },
+            {
+              "id": "build-ru",
+              "label": "Как строился IceCube (12 с)",
+              "path": "icecube_first_pev/media/icecube_build_ru.mp4",
+              "poster_time": 6.0,
+              "copy_only": true,
+              "label_en": "How IceCube was built (in Russian, 12 s)"
+            }
+          ]
+        },
+        {
+          "id": "nu-gamma-cascade",
+          "title": "Где гамма-кванты?",
+          "title_en": "Where are the gamma rays?",
+          "source_dir": "nu_gamma_cascade",
+          "description": "Где пионы рождают нейтрино, там рождаются и гамма-кванты: поток IceCube пересчитывается в пионные гамма-кванты вдвое большей энергии (для pp — вдвое большего потока). С космологических расстояний гамма-кванты выше ~1 ТэВ поглощаются на внегалактическом и реликтовом свете, а электромагнитный каскад переносит их энергию к ГэВ, где Fermi-LAT измеряет изотропный фон. Для измеренного спектра каскад даёт ≈ 14 % фона при 100 ГэВ, а прозрачные pp-источники с мягким спектром, продолженным вниз, превысили бы его в десятки раз, поэтому они исключены. При 10–100 ТэВ в фоне почти нет места, а поток в 2,2 раза выше предела Ваксмана — Бакала: многие нейтрино, по-видимому, приходят от источников, непрозрачных для гамма-квантов. Данные: IceCube (PRL 136, 121002, 2026), Fermi-LAT (ApJ 799, 86, 2015; PRL 116, 151105, 2016), обсерватория Пьера Оже; пересчёт — Ahlers, Murase (2014); поглощение по модели EBL Domínguez et al. (2011); форма каскада схематична, энергия сохраняется.",
+          "description_en": "Where pions make neutrinos they also make gamma rays: the IceCube flux is converted to pionic gamma rays of twice the energy (for pp, twice the flux). From cosmological distances gamma rays above ~1 TeV are absorbed on extragalactic and relic light, and the electromagnetic cascade carries their energy down to GeV, where Fermi-LAT measures the isotropic background. For the measured spectrum the cascade gives about 14 % of the background at 100 GeV, while transparent pp sources with a soft spectrum continued down would exceed it tens of times, so they are excluded. At 10-100 TeV little room is left in the background, and there the flux is 2.2 times the Waxman-Bahcall bound: many neutrinos seem to come from sources opaque to gamma rays. Data: IceCube (PRL 136, 121002, 2026), Fermi-LAT (ApJ 799, 86, 2015; PRL 116, 151105, 2016), Pierre Auger Observatory; conversion: Ahlers, Murase (2014); absorption with the EBL model of Dominguez et al. (2011); the cascade shape is schematic, its energy is conserved.",
+          "videos": [
+            {
+              "id": "ru",
+              "label": "Русская версия (66 с)",
+              "path": "nu_gamma_cascade/media/nu_gamma_cascade_ru.mp4",
+              "poster_time": 48.9,
+              "copy_only": true
+            },
+            {
+              "id": "en",
+              "label": "English version (66 s)",
+              "path": "nu_gamma_cascade/media/nu_gamma_cascade_en.mp4",
+              "poster_time": 48.9,
+              "copy_only": true
+            }
+          ]
+        },
+        {
+          "id": "neutrino-reconstruction",
+          "title": "Как восстановить невидимый трек мюона",
+          "title_en": "Reconstructing an invisible muon track",
+          "source_dir": "neutrino_reconstruction",
+          "description": "Английский фильм (48 с) к лекции о нейтринных телескопах. Мюон проходит через решётку датчиков; затем трек скрывается и остаются только времена прихода света (цвет). Неверная гипотеза даёт большие невязки, перебор направлений по всей сфере и итерации оптимизатора находят минимум функционала, лучшее направление согласует измеренные и предсказанные времена, и только в конце показано заданное направление, которое подгонка не использовала. Модель учебная: бесконечный прямой трек, известная точка пересечения, однородная вода, только направление; стрелка — направление движения мюона, а не на источник на небе, угловое разрешение прибора не утверждается.",
+          "description_en": "An English film (48 s) for the neutrino-telescope lecture. A muon crosses an array of sensors; then the track is hidden and only the arrival times of the light (colour) remain. A wrong hypothesis gives large residuals, a scan of the whole sphere and the optimizer's iterates find the minimum of the functional, the best direction makes measured and predicted times agree, and only at the end the generated direction, unused by the fit, is revealed. A teaching model: an infinite straight track, a known crossing point, homogeneous water, direction only; the arrow is the direction of travel of the muon, not the direction to a source in the sky, and no instrumental angular resolution is claimed.",
+          "videos": [
+            {
+              "id": "en",
+              "label": "English version (48 s)",
+              "path": "neutrino_reconstruction/media/reconstruction_en.mp4",
+              "poster_time": 40.0,
+              "copy_only": true
+            }
+          ]
+        },
+        {
+          "id": "neutrino-telescope",
+          "title": "Черенковский свет: мюон и электронный каскад",
+          "title_en": "Cherenkov light: a muon and an electron cascade",
+          "source_dir": "neutrino_telescope",
+          "description": "Заряженные треки и места рождения черенковских фотонов в воде, вместе с распределением света по времени и направлению. Мюон: 1 ТэВ и 1 ПэВ; только поперечное направление увеличено до окна высотой 2 м, продольный масштаб сохранён, камера неподвижна. Электрон: 100 ГэВ и 1 ТэВ. По 10 секунд на событие. Распространение света не моделируется.",
+          "description_en": "Charged tracks and the birthplaces of Cherenkov photons in water, together with the distribution of the light in time and direction. Muon: 1 TeV and 1 PeV; only the transverse direction is magnified to a window 2 m high, the longitudinal scale is kept, and the camera is fixed. Electron: 100 GeV and 1 TeV. 10 seconds per event. The propagation of the light is not modelled.",
+          "videos": [
+            {
+              "id": "muon-en",
+              "label": "Мюон: 1 ТэВ и 1 ПэВ (EN, 20 с)",
+              "path": "neutrino_telescope/media/muon_lecture_en.mp4",
+              "poster_time": 7.5,
+              "copy_only": true,
+              "label_en": "Muon: 1 TeV and 1 PeV (20 s)"
+            },
+            {
+              "id": "electron-en",
+              "label": "Электрон: две энергии (EN, 20 с)",
+              "path": "neutrino_telescope/media/electron_lecture_en.mp4",
+              "poster_time": 7.5,
+              "copy_only": true,
+              "label_en": "Electron: two energies (20 s)"
+            }
+          ]
+        },
+        {
+          "id": "telescope-events",
+          "title": "Свет нейтринного события в телескопе",
+          "title_en": "The light of a neutrino event in a telescope",
+          "source_dir": "telescope_events",
+          "description": "Четыре английских ролика (по 17,5 с), в которых модель LightHit показывает, как событие освещает датчики подводного телескопа. Цвет — время прихода первого света, размер и яркость — ожидаемый заряд, на экране часы детектора; 1,5 с пауза, 12 с событие, 4 с облёт. Модельные события: мюонное нейтрино при 1 ТэВ (мюон 800 ГэВ, адроны) и электронное нейтрино при 100 ГэВ (электронный ливень) на пяти кластерах Baikal-GVD; расчётный отклик мюонного трека в детекторе NTSim; электронный каскад 1 ТэВ на условной трёхкластерной решётке. Свечение — ожидаемое число фотоэлектронов, а не разыгранные отсчёты и не данные; световой фронт показан для наглядности; распространение света в воде приближённое. Расчёты NTSim (Geant4 11.4.1) и LightHit 0.3.",
+          "description_en": "Four English clips (17.5 s each) in which the LightHit model shows how an event lights the sensors of an underwater telescope. Colour is the arrival time of the first light, size and brightness the expected charge, the detector clock is on screen; a 1.5 s hold, 12 s of the event, a 4 s orbit. Model events: a muon neutrino at 1 TeV (an 800 GeV muon plus hadrons) and an electron neutrino at 100 GeV (an electron shower) on five Baikal-GVD clusters; the calculated response of the detector to a muon track (NTSim); a 1 TeV electron cascade on an idealised three-cluster array. The glow is the expected number of photoelectrons, not sampled hits and not data; the light front is shown for illustration; the propagation of light in water is approximate. NTSim (Geant4 11.4.1) and LightHit 0.3 calculations.",
+          "videos": [
+            {
+              "id": "numu-cc",
+              "label": "Мюонное нейтрино, 1 ТэВ: Baikal-GVD (EN, 17,5 с)",
+              "label_en": "Muon neutrino, 1 TeV: Baikal-GVD (17.5 s)",
+              "path": "telescope_events/media/lighthit_numu_cc_en.mp4",
+              "poster_time": 13.0,
+              "copy_only": true
+            },
+            {
+              "id": "nue-cc",
+              "label": "Электронное нейтрино, 100 ГэВ: Baikal-GVD (EN, 17,5 с)",
+              "label_en": "Electron neutrino, 100 GeV: Baikal-GVD (17.5 s)",
+              "path": "telescope_events/media/lighthit_nue_cc_en.mp4",
+              "poster_time": 13.0,
+              "copy_only": true
+            },
+            {
+              "id": "muon-response",
+              "label": "Отклик детектора на мюонный трек (EN, 17,5 с)",
+              "label_en": "Detector response to a muon track (17.5 s)",
+              "path": "telescope_events/media/simulated_muon_response_en.mp4",
+              "poster_time": 13.0,
+              "copy_only": true
+            },
+            {
+              "id": "cascade-response",
+              "label": "Отклик на электронный каскад 1 ТэВ (EN, 17,5 с)",
+              "label_en": "Response to a 1 TeV electron cascade (17.5 s)",
+              "path": "telescope_events/media/simulated_cascade_response_en.mp4",
+              "poster_time": 13.0,
+              "copy_only": true
+            }
+          ]
         }
       ]
     },
