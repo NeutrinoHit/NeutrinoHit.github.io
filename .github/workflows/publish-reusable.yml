@@ -76,6 +76,13 @@ jobs:
             exit 1
           fi
 
+          # Films belong to the media projects (docs/media-library.md of NeutrinoHit.github.io).
+          video_bytes="$(find _site -type f \( -iname '*.mp4' -o -iname '*.m4v' -o -iname '*.mov' -o -iname '*.webm' \) -printf '%s\n' | awk '{s+=$1} END {print s+0}')"
+          echo "Video in the published site: ${video_bytes} bytes"
+          if [[ "${GITHUB_REPOSITORY#*/}" != media-* ]] && (( video_bytes >= 300000000 )); then
+            echo "::warning::${video_bytes} bytes of video in the site: register the films in a media project"
+          fi
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
