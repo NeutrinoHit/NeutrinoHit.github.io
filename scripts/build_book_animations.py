@@ -53,6 +53,8 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
 
+import media_registry  # films published in the media projects replace the local copies
+
 
 SITE_ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = SITE_ROOT / "books.catalog.json"
@@ -92,6 +94,17 @@ LINK_KINDS = {
 def is_material(item: dict[str, Any]) -> bool:
     """An interactive or applet rather than an animation: a link, or a pending item with "pending_kind": "interactive"."""
     return item["hosting"] == "link" or (item["hosting"] == "pending" and item.get("pending_kind") == "interactive")
+
+
+_RESOLVER: media_registry.Resolver | None = None
+
+
+def shared(site_path: str) -> str | None:
+    """Address of the shared film that replaces this site copy, or None."""
+    global _RESOLVER
+    if _RESOLVER is None:
+        _RESOLVER = media_registry.Resolver()
+    return _RESOLVER.url(site_path)
 
 
 MAX_SIDE = 1280
@@ -188,12 +201,13 @@ def validate(catalog: dict[str, Any]) -> list[str]:
                 if set(assets) != set(LANGS):
                     problems.append(f"{ident}: media.site_asset needs both ru and en")
                 for lang, path in assets.items():
-                    if not (SITE_ROOT / path).is_file():
+                    if not (SITE_ROOT / path).is_file() and not shared(path):
                         problems.append(f"{ident}: missing site asset {path} ({lang})")
             else:
                 source = SOURCE_DIR / media.get("source", "")
                 published = ASSET_DIR / f"{ident}.mp4"
-                if not source.is_file() and not published.is_file():
+                if not source.is_file() and not published.is_file() and not shared(
+                        published.relative_to(SITE_ROOT).as_posix()):
                     problems.append(f"{ident}: no media source {source.name or '(unset)'}")
             if not has_text(credit.get("author")):
                 problems.append(f"{ident}: self-hosted item needs credit.author")
@@ -277,6 +291,8 @@ def build_media(item: dict[str, Any], force: bool) -> None:
     poster = ASSET_DIR / f"{ident}.jpg"
     if not source.is_file():
         return  # outputs are committed; sources are optional
+    if shared(movie.relative_to(SITE_ROOT).as_posix()):
+        return  # the film is served by its media project; a new render is registered there as a new version
     ASSET_DIR.mkdir(parents=True, exist_ok=True)
     info = probe(source)
 
@@ -417,6 +433,12 @@ def movie_path(item: dict[str, Any], lang: str = "ru") -> str:
     return assets[lang] if assets else f'assets/{ASSET_SUB}/{item["id"]}.mp4'
 
 
+def movie_src(item: dict[str, Any], lang: str = "ru") -> str:
+    """The video address written into an item page: the shared film, or the site copy relative to the page."""
+    path = movie_path(item, lang)
+    return shared(path) or f"{ROOT_UP}{path}"
+
+
 def chapter_ref(item: dict[str, Any]) -> str:
     """The place of the animation in the book: "Volume V, Chapter N “title”", or just "Section “title”" for a book without volumes."""
     book = item["book"]
@@ -555,10 +577,10 @@ def render_item(catalog: dict[str, Any], items: list[dict[str, Any]], index: int
     if hosting == "self":
         split = per_language(item)
         poster = f' poster="{ROOT_UP}assets/{ASSET_SUB}/{ident}.jpg"' if poster_exists else ""
-        movie = f"{ROOT_UP}{movie_path(item, 'ru')}"
+        movie = movie_src(item, "ru")
         data = ""
         if split:
-            data = (f' data-src-ru="{movie}" data-src-en="{ROOT_UP}{movie_path(item, "en")}"'
+            data = (f' data-src-ru="{movie}" data-src-en="{movie_src(item, "en")}"'
                     f' data-poster-ru="{ROOT_UP}assets/{ASSET_SUB}/{poster_name(ident, "ru", True)}"'
                     f' data-poster-en="{ROOT_UP}assets/{ASSET_SUB}/{poster_name(ident, "en", True)}"')
         page += f"""<div class="stage"><video id="v" controls playsinline loop muted autoplay preload="metadata"{poster}{data}>

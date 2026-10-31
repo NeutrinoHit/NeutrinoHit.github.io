@@ -6,6 +6,10 @@ site:
 	rm -rf _site/neutrino_introduction
 	# Cover sources (SVG, configs, generators) are not site pages; the Books page uses assets/books/series/.
 	rm -rf _site/assets/books/covers
+	# Media project template and consumer extension are sources, not pages.
+	rm -rf _site/assets/media
+	# Films served by the media projects (media.catalog.json, status published) leave the site.
+	python3 scripts/nh_media.py prune-site _site
 	rm -f \
 		_site/albums/10-17-may-2026/photos/03-image-20260515123220-426-177.jpg \
 		_site/albums/10-17-may-2026/photos/04-img-5737.jpeg \

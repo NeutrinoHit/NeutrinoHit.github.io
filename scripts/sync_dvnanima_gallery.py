@@ -18,6 +18,7 @@ from pathlib import Path
 from typing import Any
 
 from build_book_animations import KATEX  # same KaTeX as the QR pages; descriptions may contain $...$
+import media_registry  # films published in the media projects replace the local copies
 
 
 SITE_ROOT = Path(__file__).resolve().parents[1]
@@ -186,8 +187,10 @@ def sync_assets(
     force: bool,
     transcode_threshold_mb: float,
     only_items: set[tuple[str, str]] | None = None,
+    resolver: media_registry.Resolver | None = None,
 ) -> dict[tuple[str, str, str], dict[str, str]]:
     ffmpeg = shell_available("ffmpeg")
+    resolver = resolver or media_registry.Resolver()
     asset_dir.mkdir(parents=True, exist_ok=True)
     assets: dict[tuple[str, str, str], dict[str, str]] = {}
 
@@ -224,6 +227,18 @@ def sync_assets(
                 stem = f"{section_id}-{item_id}-{video_id}"
                 movie = asset_dir / f"{stem}.mp4"
                 poster = asset_dir / f"{stem}.jpg"
+
+                shared = resolver.record(movie.relative_to(SITE_ROOT).as_posix()) \
+                    if movie.is_relative_to(SITE_ROOT) else None
+                if shared:  # served by its media project: no local copy; a new render is a new version there
+                    if selected and source.exists() and not poster.exists():
+                        build_poster(source, poster, force, poster_time)
+                    assets[(section_id, item_id, video_id)] = {
+                        "movie": media_registry.url_of(shared, resolver.catalog),
+                        "poster": poster.relative_to(SITE_ROOT).as_posix() if poster.exists() else "",
+                        "size": media_registry.human_bytes(shared["bytes"]),
+                    }
+                    continue
 
                 if selected and not skip_video_sync and needs_update(source, movie, force):
                     source_mb = source.stat().st_size / (1024 * 1024)
@@ -376,6 +391,8 @@ def render_qmd(
         return entry.get(f"{key}_{lang}") or entry[key] if lang != "ru" else entry[key]
 
     def rel(site_path: str) -> str:
+        if site_path.startswith("/"):                           # a shared film: same-origin absolute address
+            return site_path
         return Path(os.path.relpath(SITE_ROOT / site_path, output_path.resolve().parent)).as_posix()
 
     def chip(section: dict, item: dict, video: dict, label: str, extra: str = "") -> str:

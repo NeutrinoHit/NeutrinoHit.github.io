@@ -1,0 +1,17 @@
+name: Publish site
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  publish:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: NeutrinoHit/NeutrinoHit.github.io/.github/workflows/publish-reusable.yml@main
+    with:
+      python_version: "3.12"

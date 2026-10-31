@@ -3,4 +3,6 @@ set -eu
 
 # Заявки закрыты: карту обновляют вручную перед следующим набором.
 # python scripts/update_teachin_applications_map.py --stage
-exit 0
+
+# Видео и файлы больше 25 МБ не коммитятся: фильмы живут в медиапроектах (docs/media-library.md).
+exec sh scripts/media_guard.sh

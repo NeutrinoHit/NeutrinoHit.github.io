@@ -1,0 +1,9 @@
+title: NeutrinoHit shared media
+author: NeutrinoHit
+version: 1.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  shortcodes:
+    - nh-video.lua
+  filters:
+    - nh-media.lua

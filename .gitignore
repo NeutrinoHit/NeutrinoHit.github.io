@@ -33,3 +33,6 @@ __pycache__/
 
 # Large local inputs (sources of the QR book animations, see README).
 /data/
+
+# Content-addressed copies of the shared films (scripts/nh_media.py).
+/.cache/

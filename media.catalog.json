@@ -1,0 +1,4581 @@
+{
+ "schema": 1,
+ "about": "Shared films of NeutrinoHit: one record per published file (id, variant, version). Edit with scripts/nh_media.py; rules in docs/media-library.md.",
+ "url_prefix": "/",
+ "github": "NeutrinoHit",
+ "projects": {
+  "media-neutrino": {
+   "title": "NeutrinoHit films: neutrinos, particles, astrophysics",
+   "budget_bytes": 900000000
+  },
+  "media-qft": {
+   "title": "NeutrinoHit films: fields, waves, relativity",
+   "budget_bytes": 900000000
+  },
+  "media-mechanics": {
+   "title": "NeutrinoHit films: mechanics, dynamical systems, optics",
+   "budget_bytes": 900000000
+  }
+ },
+ "media": [
+  {
+   "id": "barkov",
+   "variant": "web-star-jet-cloud",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "23c39c454c3c2205d9e84a640f1a7373a7986c5bc5aea198146ab8bd0d642b76",
+   "bytes": 4231960,
+   "duration_s": 39.25,
+   "width": 1090,
+   "height": 796,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/visual-stories-barkov-star-jet-cloud.mp4"
+   ],
+   "title": {
+    "ru": "Звезда, ветер и облако",
+    "en": "A star, a wind and a cloud"
+   }
+  },
+  {
+   "id": "barkov",
+   "variant": "web-star-wind",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "5b325fb265a7bf1183a5885367badaebc44c9234dd6c51007ddbae159f489a90",
+   "bytes": 2004347,
+   "duration_s": 15.7,
+   "width": 1650,
+   "height": 996,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/visual-stories-barkov-star-wind.mp4"
+   ],
+   "title": {
+    "ru": "Звезда, ветер и облако",
+    "en": "A star, a wind and a cloud"
+   }
+  },
+  {
+   "id": "dipole",
+   "variant": "web",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "5b6752d75937c6d479f636a36825772a905bb0d8e7a6374ecd19551a18ecf6ae",
+   "bytes": 554338,
+   "duration_s": 16.15,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/accelerator-optics-dipole-dipole.mp4"
+   ],
+   "title": {
+    "ru": "Диполь: поворот частицы",
+    "en": "Dipole: turning a particle"
+   }
+  },
+  {
+   "id": "fourier-drawing",
+   "variant": "web-brain",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "67b89e6521ac8dbc7afc67ffd9a86cf440a2f12264a9652283f1e3d9e29a3edd",
+   "bytes": 562216,
+   "duration_s": 13.62,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-fourier-drawing-brain.mp4"
+   ],
+   "title": {
+    "ru": "Фурье-рисование",
+    "en": "Fourier drawing"
+   }
+  },
+  {
+   "id": "fourier-drawing",
+   "variant": "web-dinosaur",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "b73a380433ee7a76515968a7b97a727a8c8345c4d75fa2224a632132b18c9df5",
+   "bytes": 1497937,
+   "duration_s": 13.62,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-fourier-drawing-dinosaur.mp4"
+   ],
+   "title": {
+    "ru": "Фурье-рисование",
+    "en": "Fourier drawing"
+   }
+  },
+  {
+   "id": "fourier-drawing",
+   "variant": "web-fourier-svg",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "9d4ada140dedaec7c73b8e509b3b39f15a23976bf46c36bbaf4ebb1d3870e150",
+   "bytes": 794457,
+   "duration_s": 13.62,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-fourier-drawing-fourier-svg.mp4"
+   ],
+   "title": {
+    "ru": "Фурье-рисование",
+    "en": "Fourier drawing"
+   }
+  },
+  {
+   "id": "fourier-drawing",
+   "variant": "web-pi",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "9eb702f9c2ca90b1b2d78b3b0dde3e7d5fcfc0be6175d478e005d0192f6e715f",
+   "bytes": 813570,
+   "duration_s": 13.62,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-fourier-drawing-pi.mp4"
+   ],
+   "title": {
+    "ru": "Фурье-рисование",
+    "en": "Fourier drawing"
+   }
+  },
+  {
+   "id": "fourier-drawing",
+   "variant": "web-telescope",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "488470ba580dad19c0f78b902d5abc402834d86db27c8e549862fa660df0b7b4",
+   "bytes": 1434976,
+   "duration_s": 13.62,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-fourier-drawing-telescope.mp4"
+   ],
+   "title": {
+    "ru": "Фурье-рисование",
+    "en": "Fourier drawing"
+   }
+  },
+  {
+   "id": "fourier-drawing",
+   "variant": "web-woman-1",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "9f4f4330e079da0e76276b0221b83daea8edb6e54e4925d883be169baa24cf26",
+   "bytes": 763165,
+   "duration_s": 13.62,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-fourier-drawing-woman-1.mp4"
+   ],
+   "title": {
+    "ru": "Фурье-рисование",
+    "en": "Fourier drawing"
+   }
+  },
+  {
+   "id": "fourier-drawing",
+   "variant": "web-woman-2",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "0f638c1466f71e91cd678b43edeab8481bcba4b06e78140370c46d48ee408cde",
+   "bytes": 878860,
+   "duration_s": 13.62,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-fourier-drawing-woman-2.mp4"
+   ],
+   "title": {
+    "ru": "Фурье-рисование",
+    "en": "Fourier drawing"
+   }
+  },
+  {
+   "id": "fourier-drawing",
+   "variant": "web-woman-4",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "765b2dbfc4dcb23ef8ee12cedfdacdabc1f0573fce824e54fe8e21c4c9e94f33",
+   "bytes": 951669,
+   "duration_s": 13.62,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-fourier-drawing-woman-4.mp4"
+   ],
+   "title": {
+    "ru": "Фурье-рисование",
+    "en": "Fourier drawing"
+   }
+  },
+  {
+   "id": "galaxy-merger",
+   "variant": "web-merger",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "0d01c5cd40b1509fb2c3cc722352f4c3178f76c195d4ba2351433981be069796",
+   "bytes": 1899248,
+   "duration_s": 32.87,
+   "width": 720,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/visual-stories-galaxy-merger-merger.mp4"
+   ],
+   "title": {
+    "ru": "Слияние галактик",
+    "en": "A galaxy merger"
+   }
+  },
+  {
+   "id": "imaginary-powers",
+   "variant": "web-imaginary-power",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "e85e4b08d4f1bb2f8658ecf9c97e445108d9dc348081901e277307a0b268a4fc",
+   "bytes": 1098701,
+   "duration_s": 20.65,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-imaginary-powers-imaginary-power.mp4"
+   ],
+   "title": {
+    "ru": "Комплексные степени",
+    "en": "Complex powers"
+   }
+  },
+  {
+   "id": "pi-day-spiral",
+   "variant": "web-spiral",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "c307dc5fb3a856dc729948b017586bb3f70b1baf6f9e7130b9796dc6ad7cfe28",
+   "bytes": 3151581,
+   "duration_s": 30.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-pi-day-spiral-spiral.mp4"
+   ],
+   "title": {
+    "ru": "Спираль числа π",
+    "en": "The spiral of π"
+   }
+  },
+  {
+   "id": "quadrupole",
+   "variant": "web",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "f61f4ff53baa344f150f85862e8c3e8c5d2783417c4f65a46c9ea2a7ed8b77ca",
+   "bytes": 1308350,
+   "duration_s": 23.55,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/accelerator-optics-quadrupole-quadrupole.mp4"
+   ],
+   "title": {
+    "ru": "Квадруполь: магнитная линза",
+    "en": "Quadrupole: a magnetic lens"
+   }
+  },
+  {
+   "id": "retrograde-motion",
+   "variant": "web-geocentric",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "02434b8268c508f5ed4962368dd80dc8ba4b3fac7e33186245f47f44f485422d",
+   "bytes": 978745,
+   "duration_s": 21.43,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-retrograde-motion-geocentric.mp4"
+   ],
+   "title": {
+    "ru": "Ретроградное движение",
+    "en": "Retrograde motion"
+   }
+  },
+  {
+   "id": "retrograde-motion",
+   "variant": "web-jupiter",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "e6b47192dda3e4a8684bd9f645657ba023e75fbdfac66d2644a380ffea29b210",
+   "bytes": 703202,
+   "duration_s": 21.43,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-retrograde-motion-jupiter.mp4"
+   ],
+   "title": {
+    "ru": "Ретроградное движение",
+    "en": "Retrograde motion"
+   }
+  },
+  {
+   "id": "retrograde-motion",
+   "variant": "web-jupiter-card",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "629fb3e2f4068cbc8bc5aa109415cd7ac1f8dcd0df08848acb8ad20e2809f004",
+   "bytes": 91984,
+   "duration_s": 2.1,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-retrograde-motion-jupiter-card.mp4"
+   ],
+   "title": {
+    "ru": "Ретроградное движение",
+    "en": "Retrograde motion"
+   }
+  },
+  {
+   "id": "retrograde-motion",
+   "variant": "web-mars",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "ff36d7556009f6344ca57b2674ee7411951ebc1fa2dd74ea9159f8dd98e0de11",
+   "bytes": 744704,
+   "duration_s": 21.43,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-retrograde-motion-mars.mp4"
+   ],
+   "title": {
+    "ru": "Ретроградное движение",
+    "en": "Retrograde motion"
+   }
+  },
+  {
+   "id": "retrograde-motion",
+   "variant": "web-mars-card",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "9a752fadd97c90509764884c67d1c6830489253204fbad91eaaf7c52a4a54c00",
+   "bytes": 147632,
+   "duration_s": 2.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-retrograde-motion-mars-card.mp4"
+   ],
+   "title": {
+    "ru": "Ретроградное движение",
+    "en": "Retrograde motion"
+   }
+  },
+  {
+   "id": "retrograde-motion",
+   "variant": "web-mars-fourier",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "c2e173eb9a94df07904074dd90bf17c402bcb377024c3611d9ff9e78180e83b1",
+   "bytes": 1117261,
+   "duration_s": 30.25,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-retrograde-motion-mars-fourier.mp4"
+   ],
+   "title": {
+    "ru": "Ретроградное движение",
+    "en": "Retrograde motion"
+   }
+  },
+  {
+   "id": "retrograde-motion",
+   "variant": "web-saturn",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "6224ffb205a952061534953bf9b4179e9028b0670a8627e044abe9947f3b5fcd",
+   "bytes": 765481,
+   "duration_s": 21.43,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-retrograde-motion-saturn.mp4"
+   ],
+   "title": {
+    "ru": "Ретроградное движение",
+    "en": "Retrograde motion"
+   }
+  },
+  {
+   "id": "retrograde-motion",
+   "variant": "web-saturn-card",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "56487bc83caa83d13ea8307d209351f5140ff79f52afa79a7e70825bb14e4887",
+   "bytes": 372959,
+   "duration_s": 2.4,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-retrograde-motion-saturn-card.mp4"
+   ],
+   "title": {
+    "ru": "Ретроградное движение",
+    "en": "Retrograde motion"
+   }
+  },
+  {
+   "id": "retrograde-motion",
+   "variant": "web-saturn-fourier",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "e4c682c212499ccac5d50c91f799a76a057d58e376a0c8f065a46498bb858980",
+   "bytes": 1343648,
+   "duration_s": 30.25,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-retrograde-motion-saturn-fourier.mp4"
+   ],
+   "title": {
+    "ru": "Ретроградное движение",
+    "en": "Retrograde motion"
+   }
+  },
+  {
+   "id": "riemann-zeta",
+   "variant": "web-zeta",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "e65da63f448f14f5078bb47dae2e61fe560911cd4c2618aabf0ff134a3272fc6",
+   "bytes": 1625846,
+   "duration_s": 61.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-riemann-zeta-zeta.mp4"
+   ],
+   "title": {
+    "ru": "Спираль дзета-функции Римана",
+    "en": "The Riemann zeta spiral"
+   }
+  },
+  {
+   "id": "ring",
+   "variant": "web",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "5b428dc9ed002b98227003a16020ae1cb04d4a808b13714b0f28dfba1da4bff3",
+   "bytes": 3606930,
+   "duration_s": 72.22,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/accelerator-optics-ring-ring.mp4"
+   ],
+   "title": {
+    "ru": "Собираем накопительное кольцо",
+    "en": "Building a storage ring"
+   }
+  },
+  {
+   "id": "rose-eight",
+   "variant": "web",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "629b8e01024d15cb35ee2b611eb3739baca49f6156e8589abf1b468a29deb4e8",
+   "bytes": 2072147,
+   "duration_s": 30.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/visual-stories-rose-eight-rose-eight.mp4"
+   ],
+   "title": {
+    "ru": "Восьмёрка роз",
+    "en": "Eight roses"
+   }
+  },
+  {
+   "id": "sextupole",
+   "variant": "web",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "5db413e2dd2018306b5fbd775b18af4c53671b418f95ca06b5c79f92f7f8c080",
+   "bytes": 959795,
+   "duration_s": 17.55,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/accelerator-optics-sextupole-sextupole.mp4"
+   ],
+   "title": {
+    "ru": "Секступоль: поправка для разных импульсов",
+    "en": "Sextupole: a correction for different momenta"
+   }
+  },
+  {
+   "id": "strange-attractors",
+   "variant": "web-aizawa",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "7223b8985c06cefb02794c337c1abe604c5f4617d629ead647106492943ae1a5",
+   "bytes": 1124018,
+   "duration_s": 21.5,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-strange-attractors-aizawa.mp4"
+   ],
+   "title": {
+    "ru": "Странные аттракторы",
+    "en": "Strange attractors"
+   }
+  },
+  {
+   "id": "strange-attractors",
+   "variant": "web-dadras",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "4758fa607677739855beebf2edae83d434baad36b14365b183a9bf20599e7b22",
+   "bytes": 1369539,
+   "duration_s": 21.5,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-strange-attractors-dadras.mp4"
+   ],
+   "title": {
+    "ru": "Странные аттракторы",
+    "en": "Strange attractors"
+   }
+  },
+  {
+   "id": "strange-attractors",
+   "variant": "web-lorenz",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "308a579a4316f2e839149e9dd05ab26a6d958c6aab00fee566e26924ebb27fb8",
+   "bytes": 1507560,
+   "duration_s": 21.5,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-strange-attractors-lorenz.mp4"
+   ],
+   "title": {
+    "ru": "Странные аттракторы",
+    "en": "Strange attractors"
+   }
+  },
+  {
+   "id": "strange-attractors",
+   "variant": "web-rossler",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "2e07151f083427dbe69649f77dda96a6d2365a917e5440ed6b8ccfbff6a4e359",
+   "bytes": 698582,
+   "duration_s": 21.5,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-strange-attractors-rossler.mp4"
+   ],
+   "title": {
+    "ru": "Странные аттракторы",
+    "en": "Strange attractors"
+   }
+  },
+  {
+   "id": "strange-attractors",
+   "variant": "web-thomas",
+   "version": 1,
+   "home": "media-mechanics",
+   "status": "prepared",
+   "sha256": "dc3dce9b507f4d81adbb7e6b434e3e4a4526995daf8b92ee32f7132435705028",
+   "bytes": 1754072,
+   "duration_s": 21.5,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/math-dynamical-systems-strange-attractors-thomas.mp4"
+   ],
+   "title": {
+    "ru": "Странные аттракторы",
+    "en": "Strange attractors"
+   }
+  },
+  {
+   "id": "air-shower",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "129bd13781b3d5f72aca68fb05f74d95fedea0e778df520d59c7a267358d211a",
+   "bytes": 2846580,
+   "duration_s": 99.8,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-air-shower-air-shower-en.mp4"
+   ],
+   "title": {
+    "ru": "Широкий атмосферный ливень",
+    "en": "Extensive air shower"
+   }
+  },
+  {
+   "id": "air-shower",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "0ecd86402a1a2de02c7789cecadc8a320178f3bbfde0c2e9fc01c84a0ab7a5c5",
+   "bytes": 2946619,
+   "duration_s": 99.8,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4"
+   ],
+   "title": {
+    "ru": "Широкий атмосферный ливень",
+    "en": "Extensive air shower"
+   }
+  },
+  {
+   "id": "bbn",
+   "variant": "web-animation",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "0ba62f1244aceac4ec8cf86696fe2495ed8bd8014e20fdbfcb714dde56ee25e6",
+   "bytes": 2684368,
+   "duration_s": 42.23,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-bbn-bbn-animation.mp4"
+   ],
+   "title": {
+    "ru": "Первичный нуклеосинтез",
+    "en": "Big Bang nucleosynthesis"
+   }
+  },
+  {
+   "id": "cherenkov-cone",
+   "variant": "web-cylinder",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "51876041ed69ecb9ad10f83cc1042ecae5b84e4289711bd59342fb404c58114d",
+   "bytes": 720108,
+   "duration_s": 5.83,
+   "width": 1400,
+   "height": 900,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-cherenkov-cone-cylinder.mp4"
+   ],
+   "title": {
+    "ru": "Конус Черенкова",
+    "en": "The Cherenkov cone"
+   }
+  },
+  {
+   "id": "cherenkov-radiation",
+   "variant": "web-huygens-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "12df070e44a3775c2cfb5ceeede5d4764eef786f484d9150907b88eefe669d33",
+   "bytes": 1391444,
+   "duration_s": 40.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens-en.mp4"
+   ],
+   "title": {
+    "ru": "Излучение Вавилова — Черенкова",
+    "en": "Vavilov–Cherenkov radiation"
+   }
+  },
+  {
+   "id": "cherenkov-radiation",
+   "variant": "web-huygens-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "4826675bd303e31679d5ef5a4f6aad86e7e31452147836b04dd20b0b140395ce",
+   "bytes": 1456774,
+   "duration_s": 40.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.mp4"
+   ],
+   "title": {
+    "ru": "Излучение Вавилова — Черенкова",
+    "en": "Vavilov–Cherenkov radiation"
+   }
+  },
+  {
+   "id": "chiral-condensate-layer",
+   "variant": "qr-particle-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "b787ea6d7c4cba5c2578947340670956eb295f95b1f7ee73b3515fdb40a373fd",
+   "bytes": 284643,
+   "duration_s": 5.17,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/particle-physics/0013.mp4"
+   ],
+   "title": {
+    "ru": "Киральные волны на слое конденсата",
+    "en": "Chiral waves on a layer of condensate"
+   }
+  },
+  {
+   "id": "coupled-oscillators",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "81ca9c35c75ad26d775a859ffb58d166d06a529dfaa03fc40852bebdf87d5564",
+   "bytes": 14581159,
+   "duration_s": 44.7,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0001.mp4"
+   ],
+   "title": {
+    "ru": "Аналогия: связанные осцилляторы",
+    "en": "An analogy: coupled oscillators"
+   }
+  },
+  {
+   "id": "coupled-pendulums",
+   "variant": "qr-particle-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "1d516fade9316527e8ca3c535495227baf7bdfefda66e06d26462eb3bcbdc203",
+   "bytes": 366658,
+   "duration_s": 5.27,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/particle-physics/0012.mp4"
+   ],
+   "title": {
+    "ru": "Нормальные моды связанных маятников",
+    "en": "The normal modes of coupled pendulums"
+   }
+  },
+  {
+   "id": "cross-section",
+   "variant": "qr-particle-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "a0bfa4507147575f1f3793560b03db46b3bebad93626fd0b87aec99cae00720c",
+   "bytes": 546967,
+   "duration_s": 4.8,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/particle-physics/0005.mp4"
+   ],
+   "title": {
+    "ru": "Сечение: поток и прицельный параметр",
+    "en": "The cross section: a flux and the impact parameter"
+   }
+  },
+  {
+   "id": "earth-shield",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "91e610db7e746f0f7c1e09773e0c6e99a79d81bce8e4b0df742065bbc5a49435",
+   "bytes": 2256248,
+   "duration_s": 97.9,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield-en.mp4"
+   ],
+   "title": {
+    "ru": "Земля как щит: мюоны останавливаются, нейтрино проходят",
+    "en": "The Earth as a shield: muons stop, neutrinos pass"
+   }
+  },
+  {
+   "id": "earth-shield",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "662018a38fdbcb038c8d1a0b2c1ccb61457865ec3f98fe292622a6668e3aa64c",
+   "bytes": 2325736,
+   "duration_s": 97.9,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-earth-shield-earth-shield.mp4"
+   ],
+   "title": {
+    "ru": "Земля как щит: мюоны останавливаются, нейтрино проходят",
+    "en": "The Earth as a shield: muons stop, neutrinos pass"
+   }
+  },
+  {
+   "id": "electron-electron-scattering",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "6a595436ccba224a66c7942f8f3a0ad1db90df9a8ed5ec3e415f1e442deb97f2",
+   "bytes": 105248,
+   "duration_s": 5.75,
+   "width": 720,
+   "height": 1280,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0007.mp4"
+   ],
+   "title": {
+    "ru": "Рассеяние $e^-e^-$ с обменом фотоном",
+    "en": "$e^-e^-$ scattering with a photon exchange"
+   }
+  },
+  {
+   "id": "electrons-in-magnetic-field",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "6c7470fb7223a694724ea99bbde046176b9fe8c17ec4a4c7bbfadee293879f97",
+   "bytes": 543572,
+   "duration_s": 14.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0012.mp4"
+   ],
+   "title": {
+    "ru": "Электроны в постоянном магнитном поле",
+    "en": "Electrons in a constant magnetic field"
+   }
+  },
+  {
+   "id": "feynman-scattering",
+   "variant": "web-electron-electron",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "6671b97290bfe92b6b74b98105b449817963a05a1c7531ee3dd6f3c1b71de167",
+   "bytes": 164257,
+   "duration_s": 5.75,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-feynman-scattering-electron-electron.mp4"
+   ],
+   "title": {
+    "ru": "Диаграммы рассеяния",
+    "en": "Scattering diagrams"
+   }
+  },
+  {
+   "id": "feynman-scattering",
+   "variant": "web-nu-mu-electron",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "33f49b0f9848f88b9d80c626fd8fb4f152ecd5dca00442089907d22b531a27e8",
+   "bytes": 176710,
+   "duration_s": 5.75,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-electron.mp4"
+   ],
+   "title": {
+    "ru": "Диаграммы рассеяния",
+    "en": "Scattering diagrams"
+   }
+  },
+  {
+   "id": "feynman-scattering",
+   "variant": "web-nu-mu-z",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "f9bc71ab06e13612d5b4730f63d5834636da24ca0f7b57ca6e93edf81dbf4595",
+   "bytes": 175165,
+   "duration_s": 5.75,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-feynman-scattering-nu-mu-z.mp4"
+   ],
+   "title": {
+    "ru": "Диаграммы рассеяния",
+    "en": "Scattering diagrams"
+   }
+  },
+  {
+   "id": "feynman-scattering",
+   "variant": "web-quark-quark",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "054181fb41c88f4962222ebe3d7528cfb1f7051c3d6761d542115401b2ac0bd8",
+   "bytes": 186321,
+   "duration_s": 5.75,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-feynman-scattering-quark-quark.mp4"
+   ],
+   "title": {
+    "ru": "Диаграммы рассеяния",
+    "en": "Scattering diagrams"
+   }
+  },
+  {
+   "id": "formula-cat",
+   "variant": "qr-particle-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "c9a5d0f052d761848f38874782c068d130c91ba7393d1f933335d71b662c5b73",
+   "bytes": 1151325,
+   "duration_s": 7.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/particle-physics/0011.mp4"
+   ],
+   "title": {
+    "ru": "Формулы и кот",
+    "en": "Formulas and a cat"
+   }
+  },
+  {
+   "id": "humanity-cube",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "b71c6a598f117bbc43bade05a798c770884709c95bd6f2ff917fb214e9e687dd",
+   "bytes": 26363598,
+   "duration_s": 22.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-humanity-cube-en.mp4"
+   ],
+   "title": {
+    "ru": "Всё человечество в половине кубического километра",
+    "en": "All of humanity in half a cubic kilometre"
+   }
+  },
+  {
+   "id": "humanity-cube",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "df7f395444875185924377b6a9615e921dd2748ac4d6ac6967788ca565cf0a86",
+   "bytes": 25857659,
+   "duration_s": 22.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-humanity-cube-ru.mp4"
+   ],
+   "title": {
+    "ru": "Всё человечество в половине кубического километра",
+    "en": "All of humanity in half a cubic kilometre"
+   }
+  },
+  {
+   "id": "icecube-first-pev",
+   "variant": "web-build-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "e637be5d420f79b8b42f715fe3f9e5ea4036d8bac9790054ef8ac5b963d6c045",
+   "bytes": 12274888,
+   "duration_s": 11.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-icecube-first-pev-build-ru.mp4"
+   ],
+   "title": {
+    "ru": "IceCube: первые нейтрино с энергией ПэВ",
+    "en": "IceCube: the first PeV neutrinos"
+   }
+  },
+  {
+   "id": "icecube-first-pev",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "33a3717fa2ae394c09670485ede56ac0e7c514f7afbffe42347d30819b1ee26f",
+   "bytes": 24732263,
+   "duration_s": 22.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-icecube-first-pev-en.mp4"
+   ],
+   "title": {
+    "ru": "IceCube: первые нейтрино с энергией ПэВ",
+    "en": "IceCube: the first PeV neutrinos"
+   }
+  },
+  {
+   "id": "icecube-first-pev",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "262023615bf24ffb93b69c33c2c3b86674a7c3859d2491c1a2555fc77036864b",
+   "bytes": 24248454,
+   "duration_s": 22.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-icecube-first-pev-ru.mp4"
+   ],
+   "title": {
+    "ru": "IceCube: первые нейтрино с энергией ПэВ",
+    "en": "IceCube: the first PeV neutrinos"
+   }
+  },
+  {
+   "id": "interaction-gallery",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "9b339f95b0c24d7a4f1fc5540368ce6cce1bf2c11aec2482b75f0e5b1d956920",
+   "bytes": 239765,
+   "duration_s": 5.75,
+   "width": 1280,
+   "height": 748,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0056.mp4"
+   ],
+   "title": {
+    "ru": "Три обменных взаимодействия",
+    "en": "Three exchange interactions"
+   }
+  },
+  {
+   "id": "jet-launch",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "c2aa2673c2c0d809f742cbb0dcee87d79f6e1f588a853fe9372f7ff11506d168",
+   "bytes": 2245870,
+   "duration_s": 98.4,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch-en.mp4"
+   ],
+   "title": {
+    "ru": "От звезды к джету: откуда берётся мощность",
+    "en": "From a star to a jet: where the power comes from"
+   }
+  },
+  {
+   "id": "jet-launch",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "edc3e9cd28ca89c29cc2385894b467a2a5644ed31194e208f3319b6021329a8f",
+   "bytes": 2303505,
+   "duration_s": 98.4,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch.mp4"
+   ],
+   "title": {
+    "ru": "От звезды к джету: откуда берётся мощность",
+    "en": "From a star to a jet: where the power comes from"
+   }
+  },
+  {
+   "id": "juno",
+   "variant": "web-survival",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "88fbc11dc2da8d9d9d4fd87e839798ec82288ded49db15fda449d84ccf240a62",
+   "bytes": 11783324,
+   "duration_s": 212.3,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-juno-survival.mp4"
+   ],
+   "title": {
+    "ru": "JUNO",
+    "en": "JUNO"
+   }
+  },
+  {
+   "id": "juno-journey",
+   "variant": "web-short",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "551d7fc75d8894c27268a260be0f2766aad4299894d6e5ddaaa1f11555e00cca",
+   "bytes": 51780044,
+   "duration_s": 60.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-juno-journey-short.mp4"
+   ],
+   "title": {
+    "ru": "Путешествие в JUNO",
+    "en": "A journey to JUNO"
+   }
+  },
+  {
+   "id": "kaon-oscillations",
+   "variant": "web-film-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "7fa0ad1a2da7738ef8d8831de2cff3c0a3465fa325f8289dfa5e81eb51ce793c",
+   "bytes": 3301483,
+   "duration_s": 103.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film-en.mp4"
+   ],
+   "title": {
+    "ru": "Осцилляции нейтральных каонов",
+    "en": "Neutral kaon oscillations"
+   }
+  },
+  {
+   "id": "kaon-oscillations",
+   "variant": "web-film-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "e25e1fd3a4e383ee9c5cdd2ea31ed0a1f861e2d98945b0bec0fad1f9bb5686bd",
+   "bytes": 3305518,
+   "duration_s": 103.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-kaon-oscillations-film.mp4"
+   ],
+   "title": {
+    "ru": "Осцилляции нейтральных каонов",
+    "en": "Neutral kaon oscillations"
+   }
+  },
+  {
+   "id": "lagrangian-scroll",
+   "variant": "qr-particle-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "8aec940ca086aab4349e4e4e989b513520951e98083a3ee6f74589e774a5aec4",
+   "bytes": 3277570,
+   "duration_s": 35.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/particle-physics/0010.mp4"
+   ],
+   "title": {
+    "ru": "Лагранжиан Стандартной модели",
+    "en": "The Lagrangian of the Standard Model"
+   }
+  },
+  {
+   "id": "mac-e-filter",
+   "variant": "web-katrin-collimation",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "9f7a548067dfc000646bdf8e8d92ddf1bcb61458d66a10e2663ffd683db7d463",
+   "bytes": 661367,
+   "duration_s": 14.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-collimation.mp4",
+    "assets/book-animations/neutrino-physics/0013.mp4"
+   ],
+   "title": {
+    "ru": "Электроны в магнитном поле и MAC-E-фильтр KATRIN",
+    "en": "Electrons in a magnetic field and the KATRIN MAC-E filter"
+   }
+  },
+  {
+   "id": "mac-e-filter",
+   "variant": "web-katrin-electric",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "38e2a39259349f3ba94e88aeb5e5792705f67e165166b024398395ce78717184",
+   "bytes": 770989,
+   "duration_s": 14.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-mac-e-filter-katrin-electric.mp4",
+    "assets/book-animations/neutrino-physics/0014.mp4"
+   ],
+   "title": {
+    "ru": "Электроны в магнитном поле и MAC-E-фильтр KATRIN",
+    "en": "Electrons in a magnetic field and the KATRIN MAC-E filter"
+   }
+  },
+  {
+   "id": "mac-e-filter",
+   "variant": "web-uniform-field",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "8904ff85456082c389f1e20d6f9c8d687f9d2c86b2f0022e03e889e3e4b3bef4",
+   "bytes": 1491500,
+   "duration_s": 14.0,
+   "width": 3840,
+   "height": 2160,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-mac-e-filter-uniform-field.mp4"
+   ],
+   "title": {
+    "ru": "Электроны в магнитном поле и MAC-E-фильтр KATRIN",
+    "en": "Electrons in a magnetic field and the KATRIN MAC-E filter"
+   }
+  },
+  {
+   "id": "mass-hierarchy",
+   "variant": "web-scales",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "6a5dfef1acd007cf1b9b6d6d71ac8c59486c5fc659f4c388a4efc0167aeb6590",
+   "bytes": 470528,
+   "duration_s": 11.43,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-mass-hierarchy-scales.mp4"
+   ],
+   "title": {
+    "ru": "Иерархия масс нейтрино",
+    "en": "Neutrino mass ordering"
+   }
+  },
+  {
+   "id": "mass-ordering",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "f17b6a19a8a4e88deea45e064fa102ef9af52c5d88282775e8059e8bcc4eefcd",
+   "bytes": 286857,
+   "duration_s": 11.43,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0002.mp4"
+   ],
+   "title": {
+    "ru": "Порядок масс нейтрино",
+    "en": "The ordering of the neutrino masses"
+   }
+  },
+  {
+   "id": "milky-way-neutrinos",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "63deafbda783e2c1e7fc231930f5d5ebeda8a3fe66dd65997ab3490d4b06f334",
+   "bytes": 1313450,
+   "duration_s": 72.4,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos-en.mp4"
+   ],
+   "title": {
+    "ru": "Млечный Путь в нейтрино",
+    "en": "The Milky Way in neutrinos"
+   }
+  },
+  {
+   "id": "milky-way-neutrinos",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "4e109f40f37bdfb9949742167ead707a06a43b15a42b1eeaebb9f1f427bf4865",
+   "bytes": 1363816,
+   "duration_s": 72.4,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-milky-way-neutrinos-milky-way-neutrinos.mp4"
+   ],
+   "title": {
+    "ru": "Млечный Путь в нейтрино",
+    "en": "The Milky Way in neutrinos"
+   }
+  },
+  {
+   "id": "msw-adiabatic-passage",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "d105c069d524547ad8977c95156586b4fdd48ed157f9aead218b43426624662d",
+   "bytes": 131813,
+   "duration_s": 10.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0019.mp4"
+   ],
+   "title": {
+    "ru": "Адиабатический и неадиабатический проход через MSW-резонанс",
+    "en": "Adiabatic and non-adiabatic passage through the MSW resonance"
+   }
+  },
+  {
+   "id": "msw-constant-matter",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "811a796ecd0e748ca24a3801110145e827ca707f6bfd040e8c836ae093d9db0f",
+   "bytes": 213396,
+   "duration_s": 10.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0021.mp4"
+   ],
+   "title": {
+    "ru": "Вакуумные осцилляции, резонанс и подавление: механическая модель",
+    "en": "Vacuum oscillations, resonance and suppression: a mechanical model"
+   }
+  },
+  {
+   "id": "msw-control-equivalence",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "94f20fc670a6e57db8c926f9f72bcc59fc83a2dc11398897cf1234ebc28e3af7",
+   "bytes": 196871,
+   "duration_s": 10.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0022.mp4"
+   ],
+   "title": {
+    "ru": "Маятник переменной длины и маятник с ускоренной опорой",
+    "en": "A pendulum of variable length and a pendulum with an accelerated support"
+   }
+  },
+  {
+   "id": "msw-mode-cancellation",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "4da2fd1d1361c68f95391d1662da2d31243b89c62a3f3ed957b10b283ae94007",
+   "bytes": 814257,
+   "duration_s": 10.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0024.mp4"
+   ],
+   "title": {
+    "ru": "Деструктивная интерференция амплитуд конечной моды $\\nu_1$",
+    "en": "Destructive interference of the amplitudes of the final mode $\\nu_1$"
+   }
+  },
+  {
+   "id": "msw-parametric",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "61f61790a29730bc043086779e75b08243ddb69a9035d45f1c21582aa5048ce0",
+   "bytes": 718495,
+   "duration_s": 30.1,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0018.mp4"
+   ],
+   "title": {
+    "ru": "Параметрическое усиление в чередующихся слоях вещества",
+    "en": "Parametric amplification in alternating layers of matter"
+   }
+  },
+  {
+   "id": "msw-solar-exit-bases",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "811a549cb685f598626793106caa5458bd24c0f2ef26bb606666d41db9faf3bf",
+   "bytes": 184384,
+   "duration_s": 10.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0020.mp4"
+   ],
+   "title": {
+    "ru": "Солнечный адиабатический выход в трёх базисах",
+    "en": "The solar adiabatic exit in three bases"
+   }
+  },
+  {
+   "id": "msw-thin-layer-interference",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "aff9421948a78851e772b33316a1b93bc37cf87f740ec7b588e8bbd85b879bd4",
+   "bytes": 1928643,
+   "duration_s": 10.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0023.mp4"
+   ],
+   "title": {
+    "ru": "Интерференция волн и фазоров в тонком резонансном слое",
+    "en": "Interference of waves and phasors in a thin resonant layer"
+   }
+  },
+  {
+   "id": "neutrino-oscillation-phases",
+   "variant": "web-phases",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "3bf39af736402c0b722f8a4d049bfc68ca322b392dd920b635f0c3947a6c5a95",
+   "bytes": 237198,
+   "duration_s": 6.3,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-neutrino-oscillation-phases-phases.mp4"
+   ],
+   "title": {
+    "ru": "Осцилляции нейтрино с фазами",
+    "en": "Neutrino oscillations with phases"
+   }
+  },
+  {
+   "id": "neutrino-oscillations",
+   "variant": "web-electron",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "00c7f2974630adf0e2426d08ba152cde36b0932741ed09d28fea5cd18b10f067",
+   "bytes": 1550523,
+   "duration_s": 60.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-neutrino-oscillations-electron.mp4"
+   ],
+   "title": {
+    "ru": "Нейтринные осцилляции",
+    "en": "Neutrino oscillations"
+   }
+  },
+  {
+   "id": "neutrino-oscillations",
+   "variant": "web-muon",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "ad6f4cc8daebea1342116bce8e2251bbf298fbedd5b3441ceb2bcd58674f80f6",
+   "bytes": 2226725,
+   "duration_s": 60.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-neutrino-oscillations-muon.mp4"
+   ],
+   "title": {
+    "ru": "Нейтринные осцилляции",
+    "en": "Neutrino oscillations"
+   }
+  },
+  {
+   "id": "neutrino-oscillations",
+   "variant": "web-tau",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "ad32c19fc62336c04b1bc8f95471c2f2811497ddd636e949ef43a4d92c819c89",
+   "bytes": 2178690,
+   "duration_s": 60.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-neutrino-oscillations-tau.mp4"
+   ],
+   "title": {
+    "ru": "Нейтринные осцилляции",
+    "en": "Neutrino oscillations"
+   }
+  },
+  {
+   "id": "neutrino-oscillations",
+   "variant": "web-triangle",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "57e721a0d9b9d2e38a87cae2aa6f256671aed8dbbb1382144ef0507733545e2b",
+   "bytes": 1602420,
+   "duration_s": 60.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-neutrino-oscillations-triangle.mp4"
+   ],
+   "title": {
+    "ru": "Нейтринные осцилляции",
+    "en": "Neutrino oscillations"
+   }
+  },
+  {
+   "id": "neutrino-reconstruction",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "ae7a34929bffb57dfb5ae3558cf76828c7e8d099e73ff473f248fe4e4e67253d",
+   "bytes": 1008683,
+   "duration_s": 48.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-neutrino-reconstruction-en.mp4"
+   ],
+   "title": {
+    "ru": "Как восстановить невидимый трек мюона",
+    "en": "Reconstructing an invisible muon track"
+   }
+  },
+  {
+   "id": "neutrino-telescope",
+   "variant": "web-electron-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "86ecfaad8acb0c44241aba347439912fb51f24a4e58805f52b93838eafa7e272",
+   "bytes": 804328,
+   "duration_s": 20.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-neutrino-telescope-electron-en.mp4"
+   ],
+   "title": {
+    "ru": "Черенковский свет: мюон и электронный каскад",
+    "en": "Cherenkov light: a muon and an electron cascade"
+   }
+  },
+  {
+   "id": "neutrino-telescope",
+   "variant": "web-muon-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "1472409961c8f036001ad1b5835786e1918cb8f86bc35884327bd798a6c0b4db",
+   "bytes": 931519,
+   "duration_s": 20.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-neutrino-telescope-muon-en.mp4"
+   ],
+   "title": {
+    "ru": "Черенковский свет: мюон и электронный каскад",
+    "en": "Cherenkov light: a muon and an electron cascade"
+   }
+  },
+  {
+   "id": "nu-gamma-cascade",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "b0d147340fcae302d56e1cffef37e87d5df52faf6486a09a780bcc5ff1ae81b6",
+   "bytes": 6218874,
+   "duration_s": 66.4,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-nu-gamma-cascade-en.mp4"
+   ],
+   "title": {
+    "ru": "Где гамма-кванты?",
+    "en": "Where are the gamma rays?"
+   }
+  },
+  {
+   "id": "nu-gamma-cascade",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "5657171dd40bdb35d04857710d124779dbab063de7a6def9bd9285e908c5aac0",
+   "bytes": 6279229,
+   "duration_s": 66.4,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-nu-gamma-cascade-ru.mp4"
+   ],
+   "title": {
+    "ru": "Где гамма-кванты?",
+    "en": "Where are the gamma rays?"
+   }
+  },
+  {
+   "id": "nucleus-shapes",
+   "variant": "web-shape-morphs",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "1168b0788261e90a4e26c847f677650f516b0b3a21b824aa2c48318357af558b",
+   "bytes": 1227375,
+   "duration_s": 9.65,
+   "width": 684,
+   "height": 854,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-nucleus-shapes-shape-morphs.mp4"
+   ],
+   "title": {
+    "ru": "Формы ядер",
+    "en": "Shapes of nuclei"
+   }
+  },
+  {
+   "id": "parton-cascade",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "7079fe6256a54af8e7e1dec248a77e94f3854795da6d27975b41851dc3307820",
+   "bytes": 54369719,
+   "duration_s": 100.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-parton-cascade-en.mp4"
+   ],
+   "title": {
+    "ru": "Внутренняя жизнь протона",
+    "en": "The inner life of the proton"
+   }
+  },
+  {
+   "id": "parton-cascade",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "509c0408c2b81a782100e961de71f5559af1e0046852e8cb9ab71f35e9c035c2",
+   "bytes": 54386210,
+   "duration_s": 100.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-parton-cascade-ru.mp4"
+   ],
+   "title": {
+    "ru": "Внутренняя жизнь протона",
+    "en": "The inner life of the proton"
+   }
+  },
+  {
+   "id": "pi0-double-dalitz",
+   "variant": "web-planes-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "b7d02a5574728c3e35dee7066412dc9a5335638c42cc9bf8f3db65b4fbd43b7d",
+   "bytes": 1533358,
+   "duration_s": 54.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes-en.mp4"
+   ],
+   "title": {
+    "ru": "Распад π⁰ → e⁺e⁻e⁺e⁻",
+    "en": "The decay π⁰ → e⁺e⁻e⁺e⁻"
+   }
+  },
+  {
+   "id": "pi0-double-dalitz",
+   "variant": "web-planes-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "252cc9193f0ed2563c211b9378b67caf5ef3194819cefbe261d8140549dabd59",
+   "bytes": 1548165,
+   "duration_s": 54.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-pi0-double-dalitz-planes.mp4"
+   ],
+   "title": {
+    "ru": "Распад π⁰ → e⁺e⁻e⁺e⁻",
+    "en": "The decay π⁰ → e⁺e⁻e⁺e⁻"
+   }
+  },
+  {
+   "id": "pmt",
+   "variant": "web-schematic",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "a57b5f4b82eef2161a75b0a0a8f75c31fcbba8fa91cc0b91afa31d7890588cc9",
+   "bytes": 2024004,
+   "duration_s": 19.65,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-pmt-pmt-schematic.mp4"
+   ],
+   "title": {
+    "ru": "Фотоумножитель",
+    "en": "Photomultiplier"
+   }
+  },
+  {
+   "id": "pmt-multiplication",
+   "variant": "web-avalanche-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "e4dede002b5602fd5472d7b486b74cd1f61f8950071eb36759e7f0a3fdaea52c",
+   "bytes": 1124385,
+   "duration_s": 40.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche-en.mp4"
+   ],
+   "title": {
+    "ru": "Умножение электронов в ФЭУ",
+    "en": "Electron multiplication in a PMT"
+   }
+  },
+  {
+   "id": "pmt-multiplication",
+   "variant": "web-avalanche-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "ac863299fab3decf91a43189a75b3df6a07fbb3b4927c203a7dc089dc5425463",
+   "bytes": 1140084,
+   "duration_s": 40.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.mp4"
+   ],
+   "title": {
+    "ru": "Умножение электронов в ФЭУ",
+    "en": "Electron multiplication in a PMT"
+   }
+  },
+  {
+   "id": "pp-cycle",
+   "variant": "web-d-p-he3",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "377431cfe89f421c88280fceebaf0f9eb3797a41ea86f5b1ab39df32596e2768",
+   "bytes": 164591,
+   "duration_s": 10.3,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-pp-cycle-d-p-he3.mp4"
+   ],
+   "title": {
+    "ru": "Протон-протонный цикл",
+    "en": "The proton–proton chain"
+   }
+  },
+  {
+   "id": "pp-cycle",
+   "variant": "web-he3-he3",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "292453172decaa907f14f2d98d2ce890dd899fc9dad72a4f3e4ed1aef8827804",
+   "bytes": 187872,
+   "duration_s": 11.85,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-pp-cycle-he3-he3.mp4"
+   ],
+   "title": {
+    "ru": "Протон-протонный цикл",
+    "en": "The proton–proton chain"
+   }
+  },
+  {
+   "id": "pp-cycle",
+   "variant": "web-pp-to-d",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "d06b805fe79fc6dbdcb5ef1163c550012bb3b8abea0b78cd4410a50c3ad91173",
+   "bytes": 210356,
+   "duration_s": 12.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-pp-cycle-pp-to-d.mp4"
+   ],
+   "title": {
+    "ru": "Протон-протонный цикл",
+    "en": "The proton–proton chain"
+   }
+  },
+  {
+   "id": "project8-cres",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "d42a4f34a43fea37833b3f3432d0a1954e90c1ad469ce2b080de878e88a65aca",
+   "bytes": 520636,
+   "duration_s": 13.8,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0015.mp4"
+   ],
+   "title": {
+    "ru": "Project 8: один электрон — один частотный трек",
+    "en": "Project 8: one electron, one frequency track"
+   }
+  },
+  {
+   "id": "project8-cres",
+   "variant": "web-cres-event",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "fd806de083fc6b9924defed3fad998011bb23ee2ddbaa46c6c1565ed17b13366",
+   "bytes": 850183,
+   "duration_s": 13.8,
+   "width": 1600,
+   "height": 900,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-project8-cres-cres-event.mp4"
+   ],
+   "title": {
+    "ru": "Project 8: циклотронное излучение электрона",
+    "en": "Project 8: cyclotron radiation of an electron"
+   }
+  },
+  {
+   "id": "qcd-spring",
+   "variant": "qr-particle-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "26d7a0d570803411c4c46db031aa6acd65217380ae7dff5627aa2c779cec6301",
+   "bytes": 466872,
+   "duration_s": 4.6,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/particle-physics/0004.mp4"
+   ],
+   "title": {
+    "ru": "Сильное взаимодействие: образ пружинки",
+    "en": "The strong force: the image of a spring"
+   }
+  },
+  {
+   "id": "quantum-chameleon",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "27b0f0e3f1a8f61cbfdac9f25f9090cb06b4b59c91266360e1fa8ebc5016595b",
+   "bytes": 1797577,
+   "duration_s": 30.0,
+   "width": 1128,
+   "height": 584,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0016.mp4",
+    "assets/book-animations/particle-physics/0024.mp4"
+   ],
+   "title": {
+    "ru": "Квантовый хамелеон",
+    "en": "The quantum chameleon"
+   }
+  },
+  {
+   "id": "quantum-chameleon-phases",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "0ec989729c7b35d8117eb6b0cd296b9488fa54a987a7b44a70169f2bbccde2cf",
+   "bytes": 144570,
+   "duration_s": 6.3,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0004.mp4",
+    "assets/book-animations/neutrino-physics/0017.mp4",
+    "assets/book-animations/particle-physics/0025.mp4"
+   ],
+   "title": {
+    "ru": "Нейтрино как квантовый хамелеон",
+    "en": "Neutrino as a quantum chameleon"
+   }
+  },
+  {
+   "id": "quark-quark-scattering",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "e31a8790a099ba762c5fb3b96666e9ccd346dd878a70b9033e35b7f37271fe38",
+   "bytes": 111982,
+   "duration_s": 5.75,
+   "width": 720,
+   "height": 1280,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0008.mp4"
+   ],
+   "title": {
+    "ru": "Рассеяние $qq\\to qq$ с обменом глюоном",
+    "en": "$qq\\to qq$ scattering with a gluon exchange"
+   }
+  },
+  {
+   "id": "radiating-charge",
+   "variant": "qr-particle-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "85b3d3f0db056212a12a7379d3b81ac185827a507eefdeacd7f2905441ff3bd4",
+   "bytes": 185718,
+   "duration_s": 11.79,
+   "width": 1280,
+   "height": 722,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/particle-physics/0015.mp4"
+   ],
+   "title": {
+    "ru": "Излучение ускоренного заряда",
+    "en": "The radiation of an accelerated charge"
+   }
+  },
+  {
+   "id": "scale-ladder",
+   "variant": "qr-particle-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "b167fc2de27a81d99b0c5b27c9fbcef60b020e576b693563048d70780aca528e",
+   "bytes": 150993,
+   "duration_s": 4.6,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/particle-physics/0001.mp4"
+   ],
+   "title": {
+    "ru": "Лестница масштабов",
+    "en": "The ladder of scales"
+   }
+  },
+  {
+   "id": "scattering-experiment",
+   "variant": "web-collider-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "c4382df7321935e445ed2b997002a31bdf9aa8dc0f4f43a7c0fb015fa0b20024",
+   "bytes": 3013612,
+   "duration_s": 28.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider-en.mp4"
+   ],
+   "title": {
+    "ru": "Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻",
+    "en": "A scattering experiment: e⁺e⁻ → μ⁺μ⁻"
+   }
+  },
+  {
+   "id": "scattering-experiment",
+   "variant": "web-collider-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "102b346029888ba3edf13bbba3dc25ceccc76ca84c570b0e9d0c0b1cf2364607",
+   "bytes": 2999587,
+   "duration_s": 28.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.mp4"
+   ],
+   "title": {
+    "ru": "Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻",
+    "en": "A scattering experiment: e⁺e⁻ → μ⁺μ⁻"
+   }
+  },
+  {
+   "id": "solar-photon-diffusion",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "f121d12dd4e2485f99084b5775ba69bc3aa1a29db6fd589907be634a5d3f394f",
+   "bytes": 5369860,
+   "duration_s": 59.9,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-en.mp4"
+   ],
+   "title": {
+    "ru": "Как свет выходит из Солнца",
+    "en": "How light escapes the Sun"
+   }
+  },
+  {
+   "id": "solar-photon-diffusion",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "66702f82e20baa65a060a75d61d46167691a13dfb78f9ec2ea0fe456a6421418",
+   "bytes": 5336047,
+   "duration_s": 59.9,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-solar-photon-diffusion-ru.mp4"
+   ],
+   "title": {
+    "ru": "Как свет выходит из Солнца",
+    "en": "How light escapes the Sun"
+   }
+  },
+  {
+   "id": "source-emerges",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "1d103f623bd3dbfa7f1f39819573657e6e46c0b8524c0d8db4bb9809a40489dd",
+   "bytes": 1465728,
+   "duration_s": 57.4,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-source-emerges-source-emerges-en.mp4"
+   ],
+   "title": {
+    "ru": "Источник проступает",
+    "en": "A source emerges"
+   }
+  },
+  {
+   "id": "source-emerges",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "9a3906b05340f86ffb357b508b472a2673a69e68be314dd4e4f4f53b308096c1",
+   "bytes": 1471886,
+   "duration_s": 57.4,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-source-emerges-source-emerges.mp4"
+   ],
+   "title": {
+    "ru": "Источник проступает",
+    "en": "A source emerges"
+   }
+  },
+  {
+   "id": "spin",
+   "variant": "qr-neutrino-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "c2f16f31c68709790825f605fba6d309ad17e3afe865b0a23ebb25dd09a1a226",
+   "bytes": 7987860,
+   "duration_s": 40.4,
+   "width": 428,
+   "height": 304,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/neutrino-physics/0003.mp4"
+   ],
+   "title": {
+    "ru": "Спин и вращение",
+    "en": "Spin and rotation"
+   }
+  },
+  {
+   "id": "standard-model-finale",
+   "variant": "qr-particle-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "70970be626df6bc95f987a3fda8ed7e294079b02ec0637b9cc58e2547bea6442",
+   "bytes": 255408,
+   "duration_s": 10.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/particle-physics/0014.mp4"
+   ],
+   "title": {
+    "ru": "Стандартная модель как машина согласованности",
+    "en": "The Standard Model as a consistency machine"
+   }
+  },
+  {
+   "id": "standard-model-particles",
+   "variant": "qr-particle-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "4bf7137a84fa8695fc8a36951009b37e5ca8161a7a928c08d8b3c5e92f3ba8ba",
+   "bytes": 83460,
+   "duration_s": 4.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/particle-physics/0002.mp4"
+   ],
+   "title": {
+    "ru": "Частицы Стандартной модели",
+    "en": "The particles of the Standard Model"
+   }
+  },
+  {
+   "id": "star-in-jet",
+   "variant": "film-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "5bfca727909455c5130b116563be3718b9850223ad8a2159fd153cb15318602b",
+   "bytes": 78301889,
+   "duration_s": 97.4,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/jets/jet_star_en.mp4"
+   ],
+   "title": {
+    "ru": "Звезда в джете: один из способов родить нейтрино",
+    "en": "A star in the jet: one way to make neutrinos"
+   }
+  },
+  {
+   "id": "star-in-jet",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "a26ea9b0cb07234532bca4575e4eee2c80cf99bfd46a28afcead73cbf9789be3",
+   "bytes": 77901655,
+   "duration_s": 97.4,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-ru-2026/media/films/jet_star_ru.mp4"
+   ],
+   "title": {
+    "ru": "Звезда в джете: один из способов родить нейтрино",
+    "en": "A star in the jet: one way to make neutrinos"
+   }
+  },
+  {
+   "id": "star-in-jet",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "fb0fa3573828378a6e2ffd973512483b85156e8973dffb399a8775372867895c",
+   "bytes": 4478128,
+   "duration_s": 97.4,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet-en.mp4"
+   ],
+   "title": {
+    "ru": "Звезда в джете: один из способов родить нейтрино",
+    "en": "A star in the jet: one way to make neutrinos"
+   }
+  },
+  {
+   "id": "star-in-jet",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "641fca7435807c947b4b09ca5ec2c465fc6f62283ca8737ffd48a14df3907ec0",
+   "bytes": 4510153,
+   "duration_s": 97.4,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet.mp4"
+   ],
+   "title": {
+    "ru": "Звезда в джете: один из способов родить нейтрино",
+    "en": "A star in the jet: one way to make neutrinos"
+   }
+  },
+  {
+   "id": "telescope-events",
+   "variant": "web-cascade-response",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "9c1f2099f31ce97ac396c69ab8c3ed1df425af738f5fcd71c2475156062390bd",
+   "bytes": 8406322,
+   "duration_s": 17.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-telescope-events-cascade-response.mp4"
+   ],
+   "title": {
+    "ru": "Свет нейтринного события в телескопе",
+    "en": "The light of a neutrino event in a telescope"
+   }
+  },
+  {
+   "id": "telescope-events",
+   "variant": "web-muon-response",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "f9a6083a720c7cc46c36cacd77d39b01dbe4755bdf7c9b90e8abff0a09142fcc",
+   "bytes": 11407475,
+   "duration_s": 17.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-telescope-events-muon-response.mp4"
+   ],
+   "title": {
+    "ru": "Свет нейтринного события в телескопе",
+    "en": "The light of a neutrino event in a telescope"
+   }
+  },
+  {
+   "id": "telescope-events",
+   "variant": "web-nue-cc",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "5bfc6779e8bf8e2df4c5d7c4ef8fc41ad2d83a3e10b7911c655fd2e46e2de194",
+   "bytes": 5654234,
+   "duration_s": 17.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-telescope-events-nue-cc.mp4"
+   ],
+   "title": {
+    "ru": "Свет нейтринного события в телескопе",
+    "en": "The light of a neutrino event in a telescope"
+   }
+  },
+  {
+   "id": "telescope-events",
+   "variant": "web-numu-cc",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "c1d1bde9bc8956c05d19027b196a76d03894cde364ab1750ee2673097af2eb08",
+   "bytes": 8653209,
+   "duration_s": 17.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-telescope-events-numu-cc.mp4"
+   ],
+   "title": {
+    "ru": "Свет нейтринного события в телескопе",
+    "en": "The light of a neutrino event in a telescope"
+   }
+  },
+  {
+   "id": "why-particle-physics",
+   "variant": "qr-particle-physics",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "0cbb9c93d8f60a84d660bc04ce2b4e8bed47ee4d351cbfbc47686fbbbf3a796a",
+   "bytes": 186925,
+   "duration_s": 6.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/book-animations/particle-physics/0003.mp4"
+   ],
+   "title": {
+    "ru": "Эксперимент и теория",
+    "en": "Experiment and theory"
+   }
+  },
+  {
+   "id": "z-decay-asymmetry",
+   "variant": "web-film-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "01139cc46dbcb23faa286afa2f3bd9d56c809c3f0b2ab830120a80fd2ceb3d43",
+   "bytes": 1809474,
+   "duration_s": 97.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film-en.mp4"
+   ],
+   "title": {
+    "ru": "Асимметрия в рождении и распаде Z-бозона",
+    "en": "Asymmetry in Z boson production and decay"
+   }
+  },
+  {
+   "id": "z-decay-asymmetry",
+   "variant": "web-film-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "ec365162b0425d6d0b622efac581b108da52e08eb4a675279440ef6c5503dc03",
+   "bytes": 1822944,
+   "duration_s": 97.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-z-decay-asymmetry-film.mp4"
+   ],
+   "title": {
+    "ru": "Асимметрия в рождении и распаде Z-бозона",
+    "en": "Asymmetry in Z boson production and decay"
+   }
+  },
+  {
+   "id": "black-hole-flyby",
+   "variant": "web-flyby-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "a07254963e608aa2caf429f8bdf3c9ffbb3b3499427b1719decb3fa1f9fc80ac",
+   "bytes": 8829286,
+   "duration_s": 174.6,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby-en.mp4"
+   ],
+   "title": {
+    "ru": "Облёт чёрной дыры",
+    "en": "A flight around a black hole"
+   }
+  },
+  {
+   "id": "black-hole-flyby",
+   "variant": "web-flyby-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "eb3dd1ae6c673d43042a34b05f71c8e0ac6304c55f80f4876ebb47dc56846f32",
+   "bytes": 8797715,
+   "duration_s": 174.6,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-black-hole-flyby-flyby.mp4"
+   ],
+   "title": {
+    "ru": "Облёт чёрной дыры",
+    "en": "A flight around a black hole"
+   }
+  },
+  {
+   "id": "capacitor",
+   "variant": "web",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "111f69cb3072a58e57b7f3379375a99eb3870074157c20b2e7708c66b4206148",
+   "bytes": 559874,
+   "duration_s": 13.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-capacitor-capacitor.mp4"
+   ],
+   "title": {
+    "ru": "Конденсатор в переменном токе",
+    "en": "A capacitor in an AC circuit"
+   }
+  },
+  {
+   "id": "chiral-anomaly",
+   "variant": "web-film-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "d75ff5d03e8c730f336c0ab8ef4079fcc1c0a79f3d72c06d69bf9901e2291983",
+   "bytes": 2082488,
+   "duration_s": 106.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-chiral-anomaly-film-en.mp4"
+   ],
+   "title": {
+    "ru": "Киральная аномалия: откуда берутся частицы?",
+    "en": "The chiral anomaly: where do particles come from?"
+   }
+  },
+  {
+   "id": "chiral-anomaly",
+   "variant": "web-film-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "7764e95ea38506d040ab887ffebd1b47264c1fec81ea952637d46f73456bdcf6",
+   "bytes": 2118071,
+   "duration_s": 106.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-chiral-anomaly-film.mp4"
+   ],
+   "title": {
+    "ru": "Киральная аномалия: откуда берутся частицы?",
+    "en": "The chiral anomaly: where do particles come from?"
+   }
+  },
+  {
+   "id": "chiral-fermion-mass",
+   "variant": "web-film-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "29e8fc721f3b1fd03c860468fc4136340b681f4ced80cc6abd504b87919d87a7",
+   "bytes": 2094749,
+   "duration_s": 89.6,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film-en.mp4"
+   ],
+   "title": {
+    "ru": "Киральные волны и масса фермиона",
+    "en": "Chiral waves and the fermion mass"
+   }
+  },
+  {
+   "id": "chiral-fermion-mass",
+   "variant": "web-film-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "ac635906fb32a3d26d01d50494f9c7258c13c6577ac911458d9c268cb620d719",
+   "bytes": 2125315,
+   "duration_s": 89.6,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-chiral-fermion-mass-film.mp4"
+   ],
+   "title": {
+    "ru": "Киральные волны и масса фермиона",
+    "en": "Chiral waves and the fermion mass"
+   }
+  },
+  {
+   "id": "circular-polarization",
+   "variant": "web-helicity-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "db1f1b462a931e1c1b8cc2fd4de8437a81fb40162aa3b677a5cd159cc8fbe491",
+   "bytes": 1374043,
+   "duration_s": 52.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-circular-polarization-helicity-en.mp4"
+   ],
+   "title": {
+    "ru": "Круговая поляризация",
+    "en": "Circular polarization"
+   }
+  },
+  {
+   "id": "circular-polarization",
+   "variant": "web-helicity-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "472b2643f279d2a60283f48ce8ab722a88d20eb72aaa0610042998ce10875ea2",
+   "bytes": 1393604,
+   "duration_s": 52.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-circular-polarization-helicity.mp4"
+   ],
+   "title": {
+    "ru": "Круговая поляризация",
+    "en": "Circular polarization"
+   }
+  },
+  {
+   "id": "cockcroft-walton",
+   "variant": "web-cascade",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "98a5aac96fb11effb61a0fd9e1c1461fe0d28555d83452d2fb28c5640150c7ba",
+   "bytes": 376134,
+   "duration_s": 10.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-cockcroft-walton-cascade.mp4"
+   ],
+   "title": {
+    "ru": "Генератор Кокрофта-Уолтона",
+    "en": "Cockcroft–Walton generator"
+   }
+  },
+  {
+   "id": "coupled-chain",
+   "variant": "web-chain-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "4c9040a8c65bf826ab81e1564d26fb7c566b11d8c2af0fbc42079a8df86371e9",
+   "bytes": 2204898,
+   "duration_s": 126.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-coupled-chain-chain-en.mp4"
+   ],
+   "title": {
+    "ru": "Цепочка связанных осцилляторов",
+    "en": "A chain of coupled oscillators"
+   }
+  },
+  {
+   "id": "coupled-chain",
+   "variant": "web-chain-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "ce9bfdf7b67f4101aa3f616c10548e8de1641a28273c607fbdf1a3a6f3592879",
+   "bytes": 2226271,
+   "duration_s": 126.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-coupled-chain-chain.mp4"
+   ],
+   "title": {
+    "ru": "Цепочка связанных осцилляторов",
+    "en": "A chain of coupled oscillators"
+   }
+  },
+  {
+   "id": "coupled-lattice-2d",
+   "variant": "web-lattice-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "c99b8cd3fd229f5f9c5f99cb164f221a9bf6e699fff8a2fa16278f561358f3a6",
+   "bytes": 5056335,
+   "duration_s": 126.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice-en.mp4"
+   ],
+   "title": {
+    "ru": "Двумерная решётка связанных осцилляторов",
+    "en": "A two-dimensional lattice of coupled oscillators"
+   }
+  },
+  {
+   "id": "coupled-lattice-2d",
+   "variant": "web-lattice-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "c3eecf5291ec050958db0b499d581792d5ea9b137b167feaa4f9cb12ae77363b",
+   "bytes": 5066983,
+   "duration_s": 126.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-coupled-lattice-2d-lattice.mp4"
+   ],
+   "title": {
+    "ru": "Двумерная решётка связанных осцилляторов",
+    "en": "A two-dimensional lattice of coupled oscillators"
+   }
+  },
+  {
+   "id": "coupled-lattice-3d",
+   "variant": "web-lattice-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "2e0b17ac8f86dfb63410d4b1fbca15b303e374629173d6ebeceda407f639d327",
+   "bytes": 5924145,
+   "duration_s": 118.7,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice-en.mp4"
+   ],
+   "title": {
+    "ru": "Трёхмерная решётка связанных осцилляторов",
+    "en": "A three-dimensional lattice of coupled oscillators"
+   }
+  },
+  {
+   "id": "coupled-lattice-3d",
+   "variant": "web-lattice-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "b5358835e6790f51f8b0fb78e5ff5ff2dbae3642338ceb61d2ee7420c3f7a733",
+   "bytes": 5983439,
+   "duration_s": 118.7,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-coupled-lattice-3d-lattice.mp4"
+   ],
+   "title": {
+    "ru": "Трёхмерная решётка связанных осцилляторов",
+    "en": "A three-dimensional lattice of coupled oscillators"
+   }
+  },
+  {
+   "id": "coupled-pendulums",
+   "variant": "web-pendulums",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "12807af40655fe171a1ca0f8fee6f3893d1a413ce71627bf82fe2154cd63aeea",
+   "bytes": 1352166,
+   "duration_s": 26.3,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-coupled-pendulums-pendulums.mp4"
+   ],
+   "title": {
+    "ru": "Связанные маятники",
+    "en": "Coupled pendulums"
+   }
+  },
+  {
+   "id": "diode",
+   "variant": "web",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "32d906471a05cdfd5a22fd019b0461c57e3511bdcbac88ef86dd0a91d9a7b161",
+   "bytes": 390408,
+   "duration_s": 9.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-diode-diode.mp4"
+   ],
+   "title": {
+    "ru": "Диод в переменном токе",
+    "en": "A diode in an AC circuit"
+   }
+  },
+  {
+   "id": "electron-kick",
+   "variant": "web-front-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "7010d52e3103dedf749c0df7245ef1f5018006f8f07ba6a78fb740a32f721b5c",
+   "bytes": 1559438,
+   "duration_s": 20.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-electron-kick-front-en.mp4"
+   ],
+   "title": {
+    "ru": "Пинок электрону: фронт электромагнитной волны",
+    "en": "A kick to an electron: the front of an electromagnetic wave"
+   }
+  },
+  {
+   "id": "electron-kick",
+   "variant": "web-front-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "77b35671e2c8c609f6a19b41f2826a7f90fff030954205089236fe5b4afd81b6",
+   "bytes": 1582931,
+   "duration_s": 20.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-electron-kick-front.mp4"
+   ],
+   "title": {
+    "ru": "Пинок электрону: фронт электромагнитной волны",
+    "en": "A kick to an electron: the front of an electromagnetic wave"
+   }
+  },
+  {
+   "id": "free-wavepackets",
+   "variant": "web-single",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "e3d8ed279bd50d1d8f1511bd2b469f01d6c0a14e36108505be9e40274fcc9614",
+   "bytes": 5496070,
+   "duration_s": 11.05,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-free-wavepackets-single.mp4"
+   ],
+   "title": {
+    "ru": "Свободные волновые пакеты",
+    "en": "Free wave packets"
+   }
+  },
+  {
+   "id": "free-wavepackets",
+   "variant": "web-two",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "7da536af6f16d4a86e9391e0479bccecf3492bbe01ba3b0e3309c458a5fdc820",
+   "bytes": 2288617,
+   "duration_s": 9.8,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-free-wavepackets-two.mp4"
+   ],
+   "title": {
+    "ru": "Свободные волновые пакеты",
+    "en": "Free wave packets"
+   }
+  },
+  {
+   "id": "gauge-principle",
+   "variant": "web-film-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "66306c00b0a8ff0ca1eaaa7e04b589803dd8c07a987173d8b5b4bc0763b69598",
+   "bytes": 1645967,
+   "duration_s": 97.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-gauge-principle-film-en.mp4"
+   ],
+   "title": {
+    "ru": "Калибровочный принцип: два друга и поле",
+    "en": "The gauge principle: two friends and a field"
+   }
+  },
+  {
+   "id": "gauge-principle",
+   "variant": "web-film-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "8aa4652093b9a45efbc4b51a8654a86c2a515a5a9edb0ad06819cd9f4879c57b",
+   "bytes": 1669163,
+   "duration_s": 97.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-gauge-principle-film.mp4"
+   ],
+   "title": {
+    "ru": "Калибровочный принцип: два друга и поле",
+    "en": "The gauge principle: two friends and a field"
+   }
+  },
+  {
+   "id": "higgs-ff-spin",
+   "variant": "web-film-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "abb869b7e38f3dae72c9aa7beea3762bb76734a35faafdd14a810abb4a2a5d8a",
+   "bytes": 2875200,
+   "duration_s": 105.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-higgs-ff-spin-film-en.mp4"
+   ],
+   "title": {
+    "ru": "Спиновая и орбитальная структура пары f f̄ в распадах бозона Хиггса",
+    "en": "Spin and orbital structure of the f f̄ pair in Higgs boson decays"
+   }
+  },
+  {
+   "id": "higgs-ff-spin",
+   "variant": "web-film-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "0583f13d503c4d163f052f22b817e5cb7adc7e1fff73cba46501697c99f9c521",
+   "bytes": 2905702,
+   "duration_s": 105.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-higgs-ff-spin-film.mp4"
+   ],
+   "title": {
+    "ru": "Спиновая и орбитальная структура пары f f̄ в распадах бозона Хиггса",
+    "en": "Spin and orbital structure of the f f̄ pair in Higgs boson decays"
+   }
+  },
+  {
+   "id": "higgs-honey",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "ec5da2087a54e94bea7883eabc3ca8e6a9658853f225e41f9cb2498f288d951c",
+   "bytes": 8892269,
+   "duration_s": 32.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-higgs-honey-en.mp4"
+   ],
+   "title": {
+    "ru": "Поле Хиггса как мёд",
+    "en": "The Higgs field as honey"
+   }
+  },
+  {
+   "id": "higgs-honey",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "f5812d5074a4ecd1e6acbd7e7ca289e9e6aa06968d34c4efcc2e644fce18ce0c",
+   "bytes": 8829358,
+   "duration_s": 32.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-higgs-honey-ru.mp4"
+   ],
+   "title": {
+    "ru": "Поле Хиггса как мёд",
+    "en": "The Higgs field as honey"
+   }
+  },
+  {
+   "id": "hulse-taylor",
+   "variant": "web-orbit-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "826ea5c9a5e6b46bde00451d28235283dc7386837741de73c3135a9e0d557f34",
+   "bytes": 1660254,
+   "duration_s": 36.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit-en.mp4"
+   ],
+   "title": {
+    "ru": "Двойной пульсар Халса — Тейлора",
+    "en": "The Hulse–Taylor binary pulsar"
+   }
+  },
+  {
+   "id": "hulse-taylor",
+   "variant": "web-orbit-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "bfe548f5bed2774c0b5ccfa3e02dc2bd216a049956ed2dabb8c858ee4e0c7abc",
+   "bytes": 1663821,
+   "duration_s": 36.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-hulse-taylor-orbit.mp4"
+   ],
+   "title": {
+    "ru": "Двойной пульсар Халса — Тейлора",
+    "en": "The Hulse–Taylor binary pulsar"
+   }
+  },
+  {
+   "id": "mediator-interaction",
+   "variant": "web-with-interaction",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "0c23ec6330bcf7b2ce478f7979f7ade85b4cdc6203e10bbaa4eea1c2c5233809",
+   "bytes": 1961156,
+   "duration_s": 10.6,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-mediator-interaction-with-interaction.mp4"
+   ],
+   "title": {
+    "ru": "Взаимодействие через поле-переносчик",
+    "en": "Interaction through a mediator field"
+   }
+  },
+  {
+   "id": "meissner-photon-mass",
+   "variant": "web-film-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "b1e7a03890dea09d352f4e6c9b841b92e8df3c84124648504259bb3e2f42a544",
+   "bytes": 3402154,
+   "duration_s": 78.5,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-meissner-photon-mass-film-en.mp4"
+   ],
+   "title": {
+    "ru": "Эффект Мейснера и масса фотона",
+    "en": "The Meissner effect and the photon mass"
+   }
+  },
+  {
+   "id": "meissner-photon-mass",
+   "variant": "web-film-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "8b8e930a09c46e866bb5627450c47b205465d38395d8cf9ce0b76cd725c7d74b",
+   "bytes": 3345848,
+   "duration_s": 78.5,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-meissner-photon-mass-film.mp4"
+   ],
+   "title": {
+    "ru": "Эффект Мейснера и масса фотона",
+    "en": "The Meissner effect and the photon mass"
+   }
+  },
+  {
+   "id": "oam-beams",
+   "variant": "web-twisted-beams-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "2961bea3e50c9184a8e0970ec2f73444f6060c6c7cf90354420bceb581d27734",
+   "bytes": 1720845,
+   "duration_s": 56.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams-en.mp4"
+   ],
+   "title": {
+    "ru": "Закрученные пучки: орбитальный угловой момент",
+    "en": "Twisted beams: orbital angular momentum"
+   }
+  },
+  {
+   "id": "oam-beams",
+   "variant": "web-twisted-beams-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "1c871fa78846e609d32fbcddca04384b3aba08988882280bed66bd4946091aee",
+   "bytes": 1738754,
+   "duration_s": 56.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-oam-beams-twisted-beams.mp4"
+   ],
+   "title": {
+    "ru": "Закрученные пучки: орбитальный угловой момент",
+    "en": "Twisted beams: orbital angular momentum"
+   }
+  },
+  {
+   "id": "path-integral",
+   "variant": "web-paths-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "8e027f469b135bdee66709fed02e00a4ada3daed5e9880e3cdfa21e31cabdf7c",
+   "bytes": 1969091,
+   "duration_s": 40.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-path-integral-paths-en.mp4"
+   ],
+   "title": {
+    "ru": "Интеграл по траекториям",
+    "en": "The path integral"
+   }
+  },
+  {
+   "id": "path-integral",
+   "variant": "web-paths-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "addd27556781d4a4a087d095d743d4a0d7a843cafc90262d2d69443cee6a4925",
+   "bytes": 1978549,
+   "duration_s": 40.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-path-integral-paths.mp4"
+   ],
+   "title": {
+    "ru": "Интеграл по траекториям",
+    "en": "The path integral"
+   }
+  },
+  {
+   "id": "peak-detector",
+   "variant": "web",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "a3fe1f7e23e24cd195c29e7d41596e61dc31975dbb2ebc47376b5442378759f7",
+   "bytes": 536276,
+   "duration_s": 13.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-peak-detector-peak-detector.mp4"
+   ],
+   "title": {
+    "ru": "Пиковый детектор",
+    "en": "Peak detector"
+   }
+  },
+  {
+   "id": "penrose-terrell",
+   "variant": "web-camera-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "39e54530bac87ae93752310e479e9175c3a55186311e9b62dea3cedb6e780ff4",
+   "bytes": 540254,
+   "duration_s": 12.0,
+   "width": 1452,
+   "height": 576,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera-en.mp4"
+   ],
+   "title": {
+    "ru": "Вращение Пенроуза — Террелла",
+    "en": "Penrose–Terrell rotation"
+   }
+  },
+  {
+   "id": "penrose-terrell",
+   "variant": "web-camera-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "f7439a2d822ad7fec4b4e9f90416e56d2fbc5424ad656012770d549283c69878",
+   "bytes": 535041,
+   "duration_s": 12.0,
+   "width": 1452,
+   "height": 576,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-penrose-terrell-camera.mp4"
+   ],
+   "title": {
+    "ru": "Вращение Пенроуза — Террелла",
+    "en": "Penrose–Terrell rotation"
+   }
+  },
+  {
+   "id": "quantum-tunneling",
+   "variant": "web-film-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "000a9ddb75fa40569d59c6166d1f8122333fc916f942450163d5070aa9417730",
+   "bytes": 3736889,
+   "duration_s": 106.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-quantum-tunneling-film-en.mp4"
+   ],
+   "title": {
+    "ru": "Туннельный эффект: точечное и протяжённое тело",
+    "en": "Tunnelling: a point body and an extended one"
+   }
+  },
+  {
+   "id": "quantum-tunneling",
+   "variant": "web-film-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "2bfefc2296ab1a4d720340a5410846c50e9535e9d403a00562245c0239531687",
+   "bytes": 3773732,
+   "duration_s": 106.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-quantum-tunneling-film.mp4"
+   ],
+   "title": {
+    "ru": "Туннельный эффект: точечное и протяжённое тело",
+    "en": "Tunnelling: a point body and an extended one"
+   }
+  },
+  {
+   "id": "radiating-charge",
+   "variant": "web-three-dimensional",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "a6676a4d1094e5583348edd75e15e1aecfaa5b6da983804b5732632a69c0e0ac",
+   "bytes": 333160,
+   "duration_s": 11.79,
+   "width": 2624,
+   "height": 1480,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-radiating-charge-three-dimensional.mp4"
+   ],
+   "title": {
+    "ru": "Излучающий заряд",
+    "en": "A radiating charge"
+   }
+  },
+  {
+   "id": "rindler-horizon",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "e3b638a31ae5d535621debebf02bc1787a7acc63b53092b9498a8bc4dea752e8",
+   "bytes": 2439204,
+   "duration_s": 100.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-en.mp4"
+   ],
+   "title": {
+    "ru": "Горизонт Риндлера",
+    "en": "The Rindler horizon"
+   }
+  },
+  {
+   "id": "rindler-horizon",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "18a9f95155bf51e5d2faaaa6925ac71957fc81620f37424051c3558bf712fc4a",
+   "bytes": 2531226,
+   "duration_s": 100.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-rindler-horizon-ru.mp4"
+   ],
+   "title": {
+    "ru": "Горизонт Риндлера",
+    "en": "The Rindler horizon"
+   }
+  },
+  {
+   "id": "running-charge",
+   "variant": "web-film-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "3f048ee1afec483ebe5d054bc9186dafefd6c423b47018b8e9125325e92e836c",
+   "bytes": 1198721,
+   "duration_s": 26.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-running-charge-film-en.mp4"
+   ],
+   "title": {
+    "ru": "Бегущий заряд: экранировка виртуальными парами",
+    "en": "A running charge: screening by virtual pairs"
+   }
+  },
+  {
+   "id": "running-charge",
+   "variant": "web-film-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "b1b920d5433e573b2b2c9d57083fc6b78491e7b2a2792a29042c69674d2ef412",
+   "bytes": 1209298,
+   "duration_s": 26.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-running-charge-film.mp4"
+   ],
+   "title": {
+    "ru": "Бегущий заряд: экранировка виртуальными парами",
+    "en": "A running charge: screening by virtual pairs"
+   }
+  },
+  {
+   "id": "rutherford",
+   "variant": "web-foil-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "22c22f0ad119c55a392f4061fe82d4d0fd3f43130acce8b3b785fe55d5cd83ad",
+   "bytes": 1452074,
+   "duration_s": 23.83,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-rutherford-foil-en.mp4"
+   ],
+   "title": {
+    "ru": "Опыт Резерфорда — Гейгера — Марсдена",
+    "en": "The Rutherford–Geiger–Marsden experiment"
+   }
+  },
+  {
+   "id": "rutherford",
+   "variant": "web-foil-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "1666937eaeba35d42c897db6e272655842c921a97c22482db27912716097b7ce",
+   "bytes": 1467422,
+   "duration_s": 23.83,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-rutherford-foil.mp4"
+   ],
+   "title": {
+    "ru": "Опыт Резерфорда — Гейгера — Марсдена",
+    "en": "The Rutherford–Geiger–Marsden experiment"
+   }
+  },
+  {
+   "id": "scalar-qed",
+   "variant": "web-attraction-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "87095ae6e187b795ab5c588070612c8c939a835b63ed41ac7f9d832e86cb186c",
+   "bytes": 2045514,
+   "duration_s": 105.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-scalar-qed-attraction-en.mp4"
+   ],
+   "title": {
+    "ru": "Scalar QED: волновые пакеты",
+    "en": "Scalar QED: wave packets"
+   }
+  },
+  {
+   "id": "scalar-qed",
+   "variant": "web-attraction-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "23860b8ccbd39f4515bf6e32d1693f92bcf25bed3f875368d7fea8ecd71a6786",
+   "bytes": 2072802,
+   "duration_s": 105.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-scalar-qed-attraction.mp4"
+   ],
+   "title": {
+    "ru": "Scalar QED: волновые пакеты",
+    "en": "Scalar QED: wave packets"
+   }
+  },
+  {
+   "id": "scalar-qed",
+   "variant": "web-repulsion-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "300b88abb69ae9b48f2a3fea4388d403a0fbb4076344a9f16daf124c0a5f399d",
+   "bytes": 1536260,
+   "duration_s": 105.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-scalar-qed-repulsion-en.mp4"
+   ],
+   "title": {
+    "ru": "Scalar QED: волновые пакеты",
+    "en": "Scalar QED: wave packets"
+   }
+  },
+  {
+   "id": "scalar-qed",
+   "variant": "web-repulsion-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "690872a01f0cb66583d44c3619942ed01f8e8613dd55346b19d91cc7a7b70d4a",
+   "bytes": 1534784,
+   "duration_s": 105.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-scalar-qed-repulsion.mp4"
+   ],
+   "title": {
+    "ru": "Scalar QED: волновые пакеты",
+    "en": "Scalar QED: wave packets"
+   }
+  },
+  {
+   "id": "scalar-qed",
+   "variant": "web-single",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "6ecdaef784e9889fb99da59c6bc68a5a50aeef711bfb518e20a125e7c0822ea5",
+   "bytes": 457855,
+   "duration_s": 9.04,
+   "width": 2624,
+   "height": 1480,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-scalar-qed-single.mp4"
+   ],
+   "title": {
+    "ru": "Scalar QED: волновые пакеты",
+    "en": "Scalar QED: wave packets"
+   }
+  },
+  {
+   "id": "schrodinger-packet",
+   "variant": "web-spreading-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "aa36ff3616622eefed85d24bbe7fff780c3e6ee4c6dfafd8c2f08e9a3d50da33",
+   "bytes": 1571149,
+   "duration_s": 34.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading-en.mp4"
+   ],
+   "title": {
+    "ru": "Свободный гауссов пакет: расплывание",
+    "en": "A free Gaussian packet: spreading"
+   }
+  },
+  {
+   "id": "schrodinger-packet",
+   "variant": "web-spreading-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "1e37ccea86a4b4b7865d6e41bab47a11882364caff0d413640751d66022d7b8c",
+   "bytes": 1532418,
+   "duration_s": 34.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-schrodinger-packet-spreading.mp4"
+   ],
+   "title": {
+    "ru": "Свободный гауссов пакет: расплывание",
+    "en": "A free Gaussian packet: spreading"
+   }
+  },
+  {
+   "id": "simultaneity",
+   "variant": "web-minkowski-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "65f42c5fc64c0a73c61524ff22403a85851408ce2c360e84ea31ded256c3610d",
+   "bytes": 2829943,
+   "duration_s": 56.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski-en.mp4"
+   ],
+   "title": {
+    "ru": "Относительность одновременности",
+    "en": "The relativity of simultaneity"
+   }
+  },
+  {
+   "id": "simultaneity",
+   "variant": "web-minkowski-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "7f3ddbd79ede48c28ca908ec8f2e01b0fb1197fc338047bea69d68e3622dc592",
+   "bytes": 2877555,
+   "duration_s": 56.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-simultaneity-minkowski.mp4"
+   ],
+   "title": {
+    "ru": "Относительность одновременности",
+    "en": "The relativity of simultaneity"
+   }
+  },
+  {
+   "id": "spinor-mobius",
+   "variant": "web-strip-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "ccd122d3e2f8da87ca848f43266b905429274c273dc71077f8737756b40fe94e",
+   "bytes": 1175809,
+   "duration_s": 20.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip-en.mp4"
+   ],
+   "title": {
+    "ru": "Спинор и лента Мёбиуса",
+    "en": "A spinor and the Möbius strip"
+   }
+  },
+  {
+   "id": "spinor-mobius",
+   "variant": "web-strip-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "afb14a143a516b75770bd19e70ddba19cde43f4a7096a6818231fdb812827287",
+   "bytes": 1159927,
+   "duration_s": 20.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-spinor-mobius-strip.mp4"
+   ],
+   "title": {
+    "ru": "Спинор и лента Мёбиуса",
+    "en": "A spinor and the Möbius strip"
+   }
+  },
+  {
+   "id": "standard-model-field-mattress",
+   "variant": "web-field-stack-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "9b8975fae1ea79bd5e9e509f5ffaf081effaf2913c7c6104e9365bad6264cc7a",
+   "bytes": 7754036,
+   "duration_s": 104.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack-en.mp4"
+   ],
+   "title": {
+    "ru": "Поля Стандартной модели",
+    "en": "Fields of the Standard Model"
+   }
+  },
+  {
+   "id": "standard-model-field-mattress",
+   "variant": "web-field-stack-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "5b94fe1b88c1264139126d9eb0da7f510443c49693b09bb25cade103c7604fcf",
+   "bytes": 7748287,
+   "duration_s": 104.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-standard-model-field-mattress-field-stack.mp4"
+   ],
+   "title": {
+    "ru": "Поля Стандартной модели",
+    "en": "Fields of the Standard Model"
+   }
+  },
+  {
+   "id": "susy-packets",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "022f70a5ea2812c37e48d7940b72670821edd6b373b00cc7735407c815a224fc",
+   "bytes": 5825773,
+   "duration_s": 80.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-susy-packets-en.mp4"
+   ],
+   "title": {
+    "ru": "Суперсимметрия: две пары пакетов — одна физика",
+    "en": "Supersymmetry: two pairs of packets, one physics"
+   }
+  },
+  {
+   "id": "susy-packets",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "f736ebbfd2dbd817e95f1128ab05bbf2aa92ba2f0c0b7486fb221d734c2ca81b",
+   "bytes": 5860840,
+   "duration_s": 80.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-susy-packets-ru.mp4"
+   ],
+   "title": {
+    "ru": "Суперсимметрия: две пары пакетов — одна физика",
+    "en": "Supersymmetry: two pairs of packets, one physics"
+   }
+  },
+  {
+   "id": "thomson-tube",
+   "variant": "web-crossed-fields-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "9614cb2a595c22a3a084e5e882e47235eb5a4a6d52c8035d0fcc286eed4f4e23",
+   "bytes": 3425760,
+   "duration_s": 52.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-thomson-tube-crossed-fields-en.mp4"
+   ],
+   "title": {
+    "ru": "Опыт Томсона: e/m",
+    "en": "Thomson's experiment: e/m"
+   }
+  },
+  {
+   "id": "thomson-tube",
+   "variant": "web-crossed-fields-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "5944eadb40305fadc33840688f76f40250bfd1bd49844527208044e158c847cb",
+   "bytes": 3453859,
+   "duration_s": 52.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-thomson-tube-crossed-fields.mp4"
+   ],
+   "title": {
+    "ru": "Опыт Томсона: e/m",
+    "en": "Thomson's experiment: e/m"
+   }
+  },
+  {
+   "id": "wormhole-camera",
+   "variant": "web-camera-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "c49b6b774ece31136dbfc0144a1c43b56d8c7cc62504613107db090d0c3bfa59",
+   "bytes": 10733804,
+   "duration_s": 170.6,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera-en.mp4"
+   ],
+   "title": {
+    "ru": "Камера у кротовой норы",
+    "en": "A camera at a wormhole"
+   }
+  },
+  {
+   "id": "wormhole-camera",
+   "variant": "web-camera-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "0314cf5bf66f528076777f1c72d942e450de43fb9f253dff2e64e4db47a06cb6",
+   "bytes": 10757166,
+   "duration_s": 170.6,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/relativity-atom-spin-wormhole-camera-camera.mp4"
+   ],
+   "title": {
+    "ru": "Камера у кротовой норы",
+    "en": "A camera at a wormhole"
+   }
+  },
+  {
+   "id": "zero-point-electron",
+   "variant": "web-vacuum-field-en",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "188a935b8f109689e5deed726ff329dce4dee5eb94853ec72d92d6007f421bb0",
+   "bytes": 3649929,
+   "duration_s": 59.43,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field-en.mp4"
+   ],
+   "title": {
+    "ru": "Электрон в вакуумном поле: нулевые колебания",
+    "en": "An electron in the vacuum field: zero-point fluctuations"
+   }
+  },
+  {
+   "id": "zero-point-electron",
+   "variant": "web-vacuum-field-ru",
+   "version": 1,
+   "home": "media-qft",
+   "status": "prepared",
+   "sha256": "44a7d1100dfd9cbb9c1f8811ed029ff47e7245ef4bae801c2627b8ce17269571",
+   "bytes": 3664548,
+   "duration_s": 59.43,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/fields-waves-zero-point-electron-vacuum-field.mp4"
+   ],
+   "title": {
+    "ru": "Электрон в вакуумном поле: нулевые колебания",
+    "en": "An electron in the vacuum field: zero-point fluctuations"
+   }
+  }
+ ]
+}

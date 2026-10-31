@@ -1,0 +1,10 @@
+/_site/
+/.work/
+/.cache/
+__pycache__/
+.DS_Store
+# Films live in the Releases of this repository, never in git.
+*.mp4
+*.m4v
+*.mov
+*.webm
