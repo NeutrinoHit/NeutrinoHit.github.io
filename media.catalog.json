@@ -1679,6 +1679,27 @@
    "audio": true,
    "footer": true,
    "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Путешествие в JUNO",
+    "en": "A journey to JUNO"
+   }
+  },
+  {
+   "id": "juno-journey",
+   "variant": "web-short",
+   "version": 2,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "948a5536571f43bbcdf5c618d7e0f013edd733591dad529271a40348b6c28fc5",
+   "bytes": 46356820,
+   "duration_s": 53.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
    "replaces": [
     "assets/animations/dvnanima/neutrino-particles-juno-journey-short.mp4"
    ],

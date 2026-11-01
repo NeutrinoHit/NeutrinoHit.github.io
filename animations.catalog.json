@@ -116,8 +116,8 @@
           "videos": [
             {
               "id": "short",
-              "label": "Вертикальный фильм (60 с, RU+EN)",
-              "label_en": "Vertical film (60 s, RU+EN)",
+              "label": "Вертикальный фильм (53 с, RU+EN)",
+              "label_en": "Vertical film (53 s, RU+EN)",
               "path": "juno_camera/media/juno_camera_short_yt.mp4",
               "poster_time": 33.0,
               "copy_only": true
