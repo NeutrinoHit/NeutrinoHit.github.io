@@ -4983,6 +4983,48 @@
    }
   },
   {
+   "id": "earth-filter",
+   "variant": "film-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "7ccd009f4d023f0c04ab29adb2971ddbc7b021823632420138dcfb9eaf2e808c",
+   "bytes": 2760178,
+   "duration_s": 58.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/backgrounds/earth_filter_en.mp4"
+   ]
+  },
+  {
+   "id": "earth-shield",
+   "variant": "film-telescopes-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "377550a7859d7d01a8afe8f4c443e4fb0871650eaf04995bb36c5a89bddd9ea2",
+   "bytes": 12925958,
+   "duration_s": 97.9,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/backgrounds/earth_shield_en.mp4"
+   ],
+   "title": {
+    "ru": "Земля как щит: мюоны останавливаются, нейтрино проходят",
+    "en": "The Earth as a shield: muons stop, neutrinos pass"
+   }
+  },
+  {
    "id": "jet-launch",
    "variant": "film-en",
    "version": 1,
@@ -5284,6 +5326,52 @@
   },
   {
    "id": "telescope-events",
+   "variant": "film-cascade-response-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "d863c26583af59e6bd600a79565f7caa2f6777bd0d505fe04e6d36bb7234a95b",
+   "bytes": 23437279,
+   "duration_s": 17.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/events/simulated_cascade_response_en.mp4"
+   ],
+   "title": {
+    "ru": "Свет нейтринного события в телескопе",
+    "en": "The light of a neutrino event in a telescope"
+   }
+  },
+  {
+   "id": "telescope-events",
+   "variant": "film-muon-response-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "6271508579a24da9529cf749a5dabadf2b1a844f2d55615468a69e9736cbbf29",
+   "bytes": 24904570,
+   "duration_s": 17.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/events/simulated_muon_response_en.mp4"
+   ],
+   "title": {
+    "ru": "Свет нейтринного события в телескопе",
+    "en": "The light of a neutrino event in a telescope"
+   }
+  },
+  {
+   "id": "telescope-events",
    "variant": "film-nue-cc-en",
    "version": 1,
    "home": "media-talks",
@@ -5373,6 +5461,25 @@
     "ru": "Свет нейтринного события в телескопе",
     "en": "The light of a neutrino event in a telescope"
    }
+  },
+  {
+   "id": "water-radioactivity",
+   "variant": "film-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "015c484fad6a75d2d74724616e38f73ef741b16e59b67f8db2aebd5c394cd6a6",
+   "bytes": 389606,
+   "duration_s": 32.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/backgrounds/water_radioactivity_en.mp4"
+   ]
   }
  ]
 }
