@@ -119,10 +119,10 @@ def faststart(path: Path) -> bool:
                 handle.seek(size - 8, 1)
 
 
-def stage(path: Path, digest: str) -> Path:
+def stage(path: Path, digest: str, ext: str = "mp4") -> Path:
     """Copy into the content-addressed cache (an APFS clone costs no space)."""
     mr.CACHE.mkdir(parents=True, exist_ok=True)
-    target = mr.CACHE / f"{digest}.mp4"
+    target = mr.CACHE / f"{digest}.{ext}"
     if not target.exists():
         tmp = target.with_suffix(".tmp")
         if subprocess.run(["cp", "-c", str(path), str(tmp)], capture_output=True).returncode != 0:
@@ -131,7 +131,24 @@ def stage(path: Path, digest: str) -> Path:
     return target
 
 
+DOCUMENT_EXT = ("pdf", "zip", "csv", "json", "npz", "txt", "gz")
+CONTENT_TYPE = {"mp4": "video/mp4", "pdf": "application/pdf", "zip": "application/zip", "csv": "text/csv",
+                "json": "application/json", "npz": "application/octet-stream", "txt": "text/plain",
+                "gz": "application/gzip"}
+
+
+def is_video(record_or_path: dict[str, Any] | Path) -> bool:
+    ext = record_or_path.suffix.lower().lstrip(".") if isinstance(record_or_path, Path) \
+        else mr.ext_of(record_or_path)
+    return ext in ("mp4", "m4v", "mov", "webm")
+
+
 def describe(path: Path) -> dict[str, Any]:
+    if not is_video(path):
+        ext = path.suffix.lower().lstrip(".")
+        if ext not in DOCUMENT_EXT:
+            raise SystemExit(f"{path}: unsupported file type .{ext} (films: mp4; documents: {', '.join(DOCUMENT_EXT)})")
+        return {"sha256": sha256(path), "bytes": path.stat().st_size, "ext": ext}
     info = probe(path)
     return {"sha256": sha256(path), "bytes": path.stat().st_size, **info, "faststart": faststart(path)}
 
@@ -239,23 +256,24 @@ def cmd_prepare(args: argparse.Namespace) -> int:
     catalog = mr.load()
     info = describe(path)
     problems = []
-    if info["video_codec"] != "h264":
+    video = "video_codec" in info
+    if video and info["video_codec"] != "h264":
         problems.append(f"codec {info['video_codec']} (browsers need h264)")
-    if not info["faststart"]:
+    if video and not info["faststart"]:
         problems.append("moov atom after mdat: re-mux with -movflags +faststart")
     if problems and not args.force:
         raise SystemExit("not ready: " + "; ".join(problems))
-    if not info["footer"]:
+    if video and not info["footer"]:
         print(f"note: no footer tag {FOOTER_TAG} (films of dvnanima carry it; others may not)")
     title = {k: v for k, v in (("ru", args.title_ru), ("en", args.title_en)) if v}
     state, record = add(catalog, path, args.id, args.variant, args.home, args.replaces or [],
                         version=args.version, title=title or None, credit=args.credit or "", info=info)
     if state == "new":
-        stage(path, info["sha256"])
+        stage(path, info["sha256"], mr.ext_of(record))
     mr.save(catalog)
-    print(f"{state}: {mr.key(record)}  {mr.human_bytes(record['bytes'])}  {mr.url_of(record, catalog)}"
-          f"  audio={'yes' if record['audio'] else 'no'}  {record['width']}x{record['height']}"
-          f"  {record['duration_s']} s")
+    detail = (f"  audio={'yes' if record['audio'] else 'no'}  {record['width']}x{record['height']}"
+              f"  {record['duration_s']} s") if is_video(record) else f"  {mr.ext_of(record)}"
+    print(f"{state}: {mr.key(record)}  {mr.human_bytes(record['bytes'])}  {mr.url_of(record, catalog)}{detail}")
     if state != "new":
         print("identical bytes are already registered: no new file")
     return 0
@@ -280,7 +298,7 @@ def check(catalog: dict[str, Any]) -> list[str]:
             problems.append(f"{mr.key(record)}: unknown home {record['home']}")
         if record.get("status") == "prepared" and not mr.cached(record).is_file():
             problems.append(f"{mr.key(record)}: prepared but not staged in .cache/media")
-        if record.get("video_codec") != "h264":
+        if is_video(record) and record.get("video_codec") != "h264":
             problems.append(f"{mr.key(record)}: codec {record.get('video_codec')}")
         for path in record.get("replaces", []):
             if path.startswith("/") or "/Users/" in path or ".." in path.split("/"):
@@ -343,7 +361,8 @@ def manifest(catalog: dict[str, Any], home: str) -> dict[str, Any]:
             "id": r["id"], "variant": r["variant"], "version": r["version"],
             "file": mr.file_of(r), "asset": mr.asset_name(r), "release": r["id"],
             "url": mr.release_url(r, catalog), "sha256": r["sha256"], "bytes": r["bytes"],
-            "duration_s": r["duration_s"], "width": r["width"], "height": r["height"], "audio": r["audio"],
+            **({"duration_s": r["duration_s"], "width": r["width"], "height": r["height"], "audio": r["audio"]}
+               if is_video(r) else {"type": mr.ext_of(r)}),
             **({"title": r["title"]} if r.get("title") else {}),
             **({"credit": r["credit"]} if r.get("credit") else {}),
         } for r in records_of(catalog, home)],
@@ -443,7 +462,8 @@ def cmd_verify(args: argparse.Namespace) -> int:
         status, headers, _ = http_range(url, 0, 1023)
         total = (headers.get("Content-Range") or "").rpartition("/")[2]
         kind = headers.get("Content-Type", "")
-        ok = status == 206 and total == str(record["bytes"]) and kind.startswith("video/mp4")
+        ok = status == 206 and total == str(record["bytes"]) and \
+            kind.startswith(CONTENT_TYPE.get(mr.ext_of(record), "application/"))
         if ok:
             status, _, tail = http_range(url, record["bytes"] - 1024, record["bytes"] - 1)
             ok = status == 206 and len(tail) == 1024
@@ -488,7 +508,7 @@ def cmd_replaced(_: argparse.Namespace) -> int:
     return 0
 
 
-REFERENCE = re.compile(r'\{\{<\s*nh-video\s+([a-z0-9-]+)\s+[^>]*?variant="([a-z0-9-]+)"'
+REFERENCE = re.compile(r'\{\{<\s*nh-(?:video|url)\s+([a-z0-9-]+)\s+[^>]*?variant="([a-z0-9-]+)"'
                        r'|nh:([a-z0-9-]+)/([a-z0-9-]+)')
 
 

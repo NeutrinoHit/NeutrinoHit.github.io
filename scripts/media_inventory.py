@@ -26,7 +26,7 @@ PRODUCER = "dvnanima"
 VIDEO = re.compile(r"\.(mp4|m4v|mov|webm|mkv|avi)$", re.I)
 TEXT = re.compile(r"\.(qmd|md|html|htm|yml|yaml|json|js|lua|tex|py)$", re.I)
 SKIP_PARTS = {"_site", ".quarto", ".work", ".cache", "node_modules", "partial_movie_files"}
-REFERENCE = re.compile(r'\{\{<\s*nh-video\s+([a-z0-9-]+)\s+[^>]*?variant="([a-z0-9-]+)"'
+REFERENCE = re.compile(r'\{\{<\s*nh-(?:video|url)\s+([a-z0-9-]+)\s+[^>]*?variant="([a-z0-9-]+)"'
                        r'|nh:([a-z0-9-]+)/([a-z0-9-]+)')
 SCAN_KINDS = {"site"}             # published repositories; private manuscripts and the book keep their media
 
@@ -146,7 +146,7 @@ def build() -> dict[str, Any]:
         films.append({
             "id": record["id"], "variant": record["variant"], "version": record["version"],
             "home": record["home"], "status": record["status"], "title": record.get("title", {}),
-            "bytes": record["bytes"], "duration_s": record["duration_s"], "audio": record["audio"],
+            "bytes": record["bytes"], "duration_s": record.get("duration_s"), "audio": record.get("audio"), "type": mr.ext_of(record),
             "url": "https://neutrinohit.github.io" + mr.url_of(record, catalog),
             "maker": maker_of(record, renders, scenes), "uses": uses,
             "replaced": [p for p in record["replaces"]],

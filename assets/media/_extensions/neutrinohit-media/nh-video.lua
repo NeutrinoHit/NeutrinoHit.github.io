@@ -15,7 +15,22 @@ local function value_of(arg)
   return text:match('^"(.*)"$') or text
 end
 
+-- {{< nh-url <id> variant="<variant>" >}}: only the address, for a link (<a href>, a download button)
+-- or a data file; works inside raw HTML blocks as well. A published address is absolute
+-- (https://neutrinohit.github.io/...): Quarto would rewrite a root-relative link in Markdown.
+local function nh_url(args, kwargs, meta, raw_args, context)
+  local id = value_of(args[1])
+  local variant = value_of(kwargs["variant"])
+  if id == "" or variant == "" then error("nh-url: usage {{< nh-url <id> variant=\"<variant>\" >}}") end
+  local src = core.src(id, variant)
+  if src:sub(1, 1) == "/" and not os.getenv("NH_MEDIA_PREVIEW") then src = "https://neutrinohit.github.io" .. src end
+  local address = escape(src)
+  if context == "text" then return address end
+  return pandoc.RawInline("html", address)
+end
+
 return {
+  ["nh-url"] = nh_url,
   ["nh-video"] = function(args, kwargs, meta, raw_args, context)
     local id = value_of(args[1])
     local variant = value_of(kwargs["variant"])

@@ -45,14 +45,19 @@ def key(record: dict[str, Any]) -> str:
     return f'{record["id"]}/{record["variant"]}/v{record["version"]}'
 
 
+def ext_of(record: dict[str, Any]) -> str:
+    """File type of a record: films are mp4; documents and data carry their own (pdf, zip, csv ...)."""
+    return record.get("ext", "mp4")
+
+
 def file_of(record: dict[str, Any]) -> str:
     """Path of the film inside its media site."""
-    return f'{record["id"]}/{record["variant"]}-v{record["version"]}.mp4'
+    return f'{record["id"]}/{record["variant"]}-v{record["version"]}.{ext_of(record)}'
 
 
 def asset_name(record: dict[str, Any]) -> str:
     """Name of the Release asset (release tag = story id)."""
-    return f'{record["id"]}--{record["variant"]}--v{record["version"]}.mp4'
+    return f'{record["id"]}--{record["variant"]}--v{record["version"]}.{ext_of(record)}'
 
 
 def url_of(record: dict[str, Any], catalog: dict[str, Any]) -> str:
@@ -65,7 +70,7 @@ def release_url(record: dict[str, Any], catalog: dict[str, Any]) -> str:
 
 
 def cached(record: dict[str, Any]) -> Path:
-    return CACHE / f'{record["sha256"]}.mp4'
+    return CACHE / f'{record["sha256"]}.{ext_of(record)}'
 
 
 def preview() -> bool:

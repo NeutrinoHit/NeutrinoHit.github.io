@@ -39,6 +39,14 @@
   "media-albums": {
    "title": "NeutrinoHit films: photo albums of schools and events",
    "budget_bytes": 900000000
+  },
+  "media-students": {
+   "title": "NeutrinoHit documents: theses of the students",
+   "budget_bytes": 900000000
+  },
+  "media-neutrinophysics": {
+   "title": "NeutrinoHit data: neutrinophysics courses and the solar neutrino masterclass",
+   "budget_bytes": 900000000
   }
  },
  "media": [
@@ -3456,11 +3464,316 @@
    }
   },
   {
+   "id": "masterclass-data",
+   "variant": "b8-spectrum",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "1e385801ca4d835a4a1e99b2d2c89e9dd378b1b3c7e79fa936ccc8f7e4674a06",
+   "bytes": 9962,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/b8_spectrum.csv"
+   ]
+  },
+  {
+   "id": "masterclass-data",
+   "variant": "be7-lines",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "7f3cc66feccce9e067478e4db8c338f6d0fe1deb4452cc455baea790a6a701b4",
+   "bytes": 49,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/be7_lines.csv"
+   ]
+  },
+  {
+   "id": "masterclass-data",
+   "variant": "electron-density-profile-toy",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "b1f8bf51e342fd42d2b292f6ba35823bc1410fc1e6993ebd638f9324d44552d6",
+   "bytes": 5652,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/electron_density_profile_toy.csv"
+   ]
+  },
+  {
+   "id": "masterclass-data",
+   "variant": "solar-fluxes-reference",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "aceb49b629c94bd06ea98fcbda80dca3132427a1f5a489106cd82d7e90e8c30e",
+   "bytes": 322,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/solar_fluxes_reference.csv"
+   ]
+  },
+  {
+   "id": "masterclass-project",
+   "variant": "solar-neutrino-project-data",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "e657f811965b11ad9d65632357821e07b0bc558e5cd90bd1be027cb9cc3e018b",
+   "bytes": 15095937,
+   "ext": "zip",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip"
+   ]
+  },
+  {
+   "id": "masterclass-student",
+   "variant": "detector-response",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "aada377991b5afc84e94ce284ac07d39ef66bb4694d81cee74cc9d817379f9b3",
+   "bytes": 16622,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/student/detector_response.csv"
+   ]
+  },
+  {
+   "id": "masterclass-student",
+   "variant": "earth-regeneration",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "4d3441b5c1ba9878106a526259461e6d9333496f81a0c3507ff1a53e9efc92df",
+   "bytes": 93385,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/student/earth_regeneration.csv"
+   ]
+  },
+  {
+   "id": "masterclass-student",
+   "variant": "mass-state-cross-sections",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "8ccf004faedcd51bdd7b23d5ca95dd5ce5953ae530f2d400c290b730c256db8c",
+   "bytes": 31376,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/student/mass_state_cross_sections.csv"
+   ]
+  },
+  {
+   "id": "masterclass-student",
+   "variant": "oscillation-probabilities",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "836d173e21d468beaee7268fd95875e89e019f8c7a243791cf5fefc4d404d12d",
+   "bytes": 38960,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/student/oscillation_probabilities.csv"
+   ]
+  },
+  {
+   "id": "masterclass-student",
+   "variant": "peanuts-solar-energy-spectrum",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "dddec5ba1ca675dd2732ad3c2ae877a7251f04824705da03714833d1a1203248",
+   "bytes": 140825,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/student/peanuts_solar_energy_spectrum.csv"
+   ]
+  },
+  {
+   "id": "masterclass-student",
+   "variant": "peanuts-solar-line-sources",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "3d45d2f408835ac9fb46d09eb78606d51184310fd78d00d7b790a5ea783e14f6",
+   "bytes": 211,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/student/peanuts_solar_line_sources.csv"
+   ]
+  },
+  {
+   "id": "masterclass-student",
+   "variant": "pseudo-data-sk-daynight",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "7ceb22e2baff23fab76ce0602f8949248fa0eeb0abe7d47615abaed6de5fdb6c",
+   "bytes": 3886,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/student/pseudo_data_sk_daynight.csv"
+   ]
+  },
+  {
+   "id": "masterclass-student",
+   "variant": "radial-production-profiles",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "936bbbbd96ca0db1fcd97c9e09f79f2b3b69560bde01ad97a27d0c0b82c67047",
+   "bytes": 294225,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/student/radial_production_profiles.csv"
+   ]
+  },
+  {
+   "id": "masterclass-student",
+   "variant": "solar-electron-density",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "23afbee13264ae3f79e3a4054f7a4721701781678e525044986fc3467e1e1385",
+   "bytes": 25273,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/student/solar_electron_density.csv"
+   ]
+  },
+  {
+   "id": "masterclass-student",
+   "variant": "solar-neutrino-student-data",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "baa148b57036c6ec96860d452038318efaf86216828e17eaef7f3c1b7772cef7",
+   "bytes": 747926,
+   "ext": "zip",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/student/solar_neutrino_student_data.zip"
+   ]
+  },
+  {
+   "id": "masterclass1",
+   "variant": "energy-spectra",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "1068138831de8be0a9f7f30ad8e253dd10a5f60598c5384e0b349dc4aad08673",
+   "bytes": 214802,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/masterclass1/energy_spectra.csv",
+    "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/energy_spectra.csv",
+    "neutrinophysics:solar-neutrino-masterclass/data/student/energy_spectra.csv"
+   ]
+  },
+  {
+   "id": "masterclass1",
+   "variant": "masterclass1-data",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "1d4d5b4d79e7ec6858f09e4097f298ef851480d5604adc9097d849b8e97e7fc1",
+   "bytes": 508124,
+   "ext": "zip",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip"
+   ]
+  },
+  {
+   "id": "masterclass1",
+   "variant": "nu-electron-recoil-cross-sections",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "45d8c4cb1c19f7e39eb5f2b352d89d9fd8bbee39e0e614f139cff995fc363136",
+   "bytes": 2485734,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/masterclass1/nu_electron_recoil_cross_sections.csv",
+    "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/nu_electron_recoil_cross_sections.csv",
+    "neutrinophysics:solar-neutrino-masterclass/data/student/nu_electron_recoil_cross_sections.csv"
+   ]
+  },
+  {
+   "id": "masterclass1",
+   "variant": "solar-fluxes",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "9a7c202f56057adc09b0acea17bf3e6c3549b2b8d9a78737e70c4635fdac6935",
+   "bytes": 569,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/masterclass1/solar_fluxes.csv",
+    "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/solar_fluxes.csv",
+    "neutrinophysics:solar-neutrino-masterclass/data/student/solar_fluxes.csv"
+   ]
+  },
+  {
+   "id": "masterclass2",
+   "variant": "earth-regeneration-grid",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "4f5bd82978f8cdc923cadf563582cdda5bdf71fb686613a3ec737bce81f0f0d5",
+   "bytes": 156240,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/earth_regeneration_grid.csv"
+   ]
+  },
+  {
+   "id": "masterclass2",
+   "variant": "earth-regeneration-parameter-scan",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "95d9cedd22f3e9f9ebca70b6abc9bf48ccc74a2ceba45137a7ab814afa15e4c7",
+   "bytes": 1850871,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/earth_regeneration_parameter_scan.csv"
+   ]
+  },
+  {
+   "id": "masterclass2",
+   "variant": "masterclass2-data",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "95a004b0a5022c88e15e44660ed0abf8c97d588f796394711b41d5e8cccbb0c1",
+   "bytes": 15095686,
+   "ext": "zip",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip"
+   ]
+  },
+  {
+   "id": "masterclass2",
+   "variant": "oscillation-probabilities-grid",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "prepared",
+   "sha256": "900ac10dfd6b84ecf7481e6b466d4dda795973edc5f633eae86e6d4a6b6e64d4",
+   "bytes": 38966986,
+   "ext": "csv",
+   "replaces": [
+    "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/oscillation_probabilities_grid.csv"
+   ]
+  },
+  {
    "id": "baikal-minicourse",
    "variant": "export-lecture-01-cross-section",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "f87f6faa42aa941e1bc90718a2ac355b690ecf1fd12efb72a0a565ba1fb465f2",
    "bytes": 485234,
    "duration_s": 4.8,
@@ -3480,7 +3793,7 @@
    "variant": "export-lecture-01-qcd-bears-spring",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "2bcba17314172d12ce123c48b20bc21899cf1ed94bbad72c41c2b57c59a7c5fd",
    "bytes": 423945,
    "duration_s": 4.6,
@@ -3500,7 +3813,7 @@
    "variant": "export-lecture-01-scale-ladder",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "3b4c60e898cd4f2b569f3867e38d441c9bd43abdf62eba7a89f2eab7f861318f",
    "bytes": 146572,
    "duration_s": 4.6,
@@ -3520,7 +3833,7 @@
    "variant": "export-lecture-01-standard-model-particles",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "6e0581352439c53463b8198721339be8789fb209d61b86be8e0aabd03925864d",
    "bytes": 77145,
    "duration_s": 4.2,
@@ -3540,7 +3853,7 @@
    "variant": "export-lecture-01-why-particle-physics",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "c967c2ce0ac163c30361646dcf32d32d0d50eb5c933e4ee86b3918c2e606b39d",
    "bytes": 174825,
    "duration_s": 6.2,
@@ -3560,7 +3873,7 @@
    "variant": "export-lecture-02-accelerating-electron-field",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "bcdee22645a067a52eb2bd04ceb13ba786319dcc1d6fc9093d6abd21b14c5df9",
    "bytes": 2040164,
    "duration_s": 9.2,
@@ -3580,7 +3893,7 @@
    "variant": "export-lecture-02-chiral-condensate-layer",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "6660dce728eaad135de52362b9dbf6a2b2d1fed12f7a984fa06a297ea71e0fea",
    "bytes": 250273,
    "duration_s": 5.17,
@@ -3600,7 +3913,7 @@
    "variant": "export-lecture-02-chiral-waves-mass-gap",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "0d29602b70186fa3f3adeb667606de9389916d8f137d3bf3da050c5fcc345df6",
    "bytes": 598085,
    "duration_s": 9.67,
@@ -3620,7 +3933,7 @@
    "variant": "export-lecture-02-coupled-pendulums",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "f2d9a5bf91d7e3471e67c61d8ab12ab272e3405d4200a52ae2f98b00df8b8d50",
    "bytes": 342409,
    "duration_s": 5.27,
@@ -3640,7 +3953,7 @@
    "variant": "export-lecture-02-formula-cat",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "50883007e55b8f1e207cda3925999e434cc271fade06111b6e24d62668b67184",
    "bytes": 927603,
    "duration_s": 7.2,
@@ -3660,7 +3973,7 @@
    "variant": "export-lecture-02-lagrangian-scroll",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "ce0093b99ff749c65d23bdfc974f9aa2d06a82c6ab47675e7dd4ecefcd6c2199",
    "bytes": 4300788,
    "duration_s": 35.0,
@@ -3680,7 +3993,7 @@
    "variant": "export-lecture-02-meissner-effect",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "691d8b52abc33c1625064ed998e0183a387a1f50ef3cd6e574d9af862a2658b7",
    "bytes": 293146,
    "duration_s": 3.6,
@@ -3700,7 +4013,7 @@
    "variant": "export-lecture-02-physicist-rockets",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "793f053c49e9d5980618e970ad48dea9afe62a097539fc01ec88cf00983e9f74",
    "bytes": 135060,
    "duration_s": 5.8,
@@ -3720,7 +4033,7 @@
    "variant": "export-lecture-02-standard-model-finale",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "73996231e58ff51532bae523f2c6110e0e1b4fbd3db1c51328b379d47a065e96",
    "bytes": 256188,
    "duration_s": 10.0,
@@ -3740,7 +4053,7 @@
    "variant": "film",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "ba2592fa654297bbca169b671cc57cb2254e899bffe3776e91366ca1befe4c4b",
    "bytes": 1542524,
    "duration_s": 29.93,
@@ -3759,7 +4072,7 @@
    "variant": "film-pyqtgraph-3d",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "5b56c345b8daf4217d5355025532d141da9c9a3966ad24f0eb50bcd1ae05b893",
    "bytes": 291593,
    "duration_s": 11.79,
@@ -3778,7 +4091,7 @@
    "variant": "film-geiger-marsden",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "0d14ea85b2d53c8cf815348404ac0797af68c1390a3d21b10f0c308b987fe568",
    "bytes": 636130,
    "duration_s": 47.0,
@@ -3797,7 +4110,7 @@
    "variant": "film-baikal",
    "version": 1,
    "home": "media-particlephysics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "b293294e984640e45ffcef969c8562faae773822ff5f9dd5d0864af650a41a1a",
    "bytes": 92002236,
    "duration_s": 39.5,
@@ -5426,7 +5739,7 @@
    "variant": "film-pm",
    "version": 1,
    "home": "media-qft-lectures",
-   "status": "prepared",
+   "status": "published",
    "sha256": "75732fbc952594f4b4f38a637527f8cacdf26d8343cac347af6abb5175adc108",
    "bytes": 974802,
    "duration_s": 10.04,
@@ -5445,7 +5758,7 @@
    "variant": "film-pp",
    "version": 1,
    "home": "media-qft-lectures",
-   "status": "prepared",
+   "status": "published",
    "sha256": "054f9db3cd0fb5745448d179bc0f327891e7a0e9a3eff8e0c5998cb52925adcf",
    "bytes": 684012,
    "duration_s": 10.04,
@@ -5464,7 +5777,7 @@
    "variant": "film-single",
    "version": 1,
    "home": "media-qft-lectures",
-   "status": "prepared",
+   "status": "published",
    "sha256": "45d0f9339093bd18788faa881df061cbda52fae36d5f84454a719a0a5a5a3e6b",
    "bytes": 400507,
    "duration_s": 9.04,
@@ -5483,7 +5796,7 @@
    "variant": "film-manim",
    "version": 1,
    "home": "media-sciencepop",
-   "status": "prepared",
+   "status": "published",
    "sha256": "80a451744c8e0219755a74136c394ec85aeb6ea035b59a59eb57ea3b70a8fb93",
    "bytes": 6604191,
    "duration_s": 42.23,
@@ -5502,7 +5815,7 @@
    "variant": "film",
    "version": 1,
    "home": "media-sciencepop",
-   "status": "prepared",
+   "status": "published",
    "sha256": "1ca5068f734cddb858abc73dbd48affa4d1051b6df7c36715728b65314437234",
    "bytes": 9734320,
    "duration_s": 20.52,
@@ -5522,7 +5835,7 @@
    "variant": "film",
    "version": 1,
    "home": "media-sciencepop",
-   "status": "prepared",
+   "status": "published",
    "sha256": "dfe70914f499f58380c54b4667ce2e61a3374aa0af284ae41c460e06dadd63e5",
    "bytes": 1964696,
    "duration_s": 45.0,
@@ -5542,7 +5855,7 @@
    "variant": "film",
    "version": 1,
    "home": "media-sciencepop",
-   "status": "prepared",
+   "status": "published",
    "sha256": "6db217bbf727a67ed62bf7e557b90812d1fad8c91d8d9a230aa5fa376086e14e",
    "bytes": 3267149,
    "duration_s": 23.52,
@@ -5562,7 +5875,7 @@
    "variant": "film",
    "version": 1,
    "home": "media-sciencepop",
-   "status": "prepared",
+   "status": "published",
    "sha256": "1b1e00944cef46c39043d95967abdd25ee58a6d2a5bcde181b63cb7e29b46159",
    "bytes": 4929492,
    "duration_s": 10.0,
@@ -5582,7 +5895,7 @@
    "variant": "film",
    "version": 1,
    "home": "media-sciencepop",
-   "status": "prepared",
+   "status": "published",
    "sha256": "2f684c24e1ea185cd7015dea4cd91379d1ee1560df2bb42944d9a17c1d777eff",
    "bytes": 24992085,
    "duration_s": 154.02,
@@ -5602,7 +5915,7 @@
    "variant": "film-morphs",
    "version": 1,
    "home": "media-sciencepop",
-   "status": "prepared",
+   "status": "published",
    "sha256": "a89b9a70cf5682d5b9f3d70cc537051ef5345e6d3ed7bb59d75958a64d8ca292",
    "bytes": 2369279,
    "duration_s": 9.65,
@@ -5621,7 +5934,7 @@
    "variant": "film",
    "version": 1,
    "home": "media-sciencepop",
-   "status": "prepared",
+   "status": "published",
    "sha256": "4c26ed1ed3c6cf8ed256ffe2ac99b0c7fee32add44e357fd1f30a9de4b1dc44a",
    "bytes": 37570130,
    "duration_s": 50.0,
@@ -5641,7 +5954,7 @@
    "variant": "film",
    "version": 1,
    "home": "media-sciencepop",
-   "status": "prepared",
+   "status": "published",
    "sha256": "3609488b4231a9f949c75d84905cd44456db7cd473821823d6b83af758530840",
    "bytes": 1294164,
    "duration_s": 19.95,
@@ -5661,7 +5974,7 @@
    "variant": "film",
    "version": 1,
    "home": "media-sciencepop",
-   "status": "prepared",
+   "status": "published",
    "sha256": "9c79fa058b8ccd3b9376553a8a4e1ef7e1a61e9507e3ac380252290c4f3bad47",
    "bytes": 751385,
    "duration_s": 25.53,
@@ -5681,7 +5994,7 @@
    "variant": "film",
    "version": 1,
    "home": "media-stat-course",
-   "status": "prepared",
+   "status": "published",
    "sha256": "634366bb29e169f793e1f90e723c7b83ab58de8840937ab966ce853685134464",
    "bytes": 51175479,
    "duration_s": 125.5,
@@ -5695,6 +6008,253 @@
     "stat-course:shared/figures/static/opticks_juno_simon_blyth.mp4"
    ],
    "credit": "Simon Blyth, Opticks (JUNO)"
+  },
+  {
+   "id": "theses",
+   "variant": "allaxwerdian",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "b2221afc2f7db855a194833f0413675a0da2c64caa58200b7d3b95cb98760f14",
+   "bytes": 5160878,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/allaxwerdian.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "batozskaya",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "03b8a9757de31a286bb712a9bea314eb9c5cb23333c98f7b8b26ee91e5b726ad",
+   "bytes": 603123,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/batozskaya.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "biktemerova-diplom",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "a8e3e2212384e276191d548aa0f7215b74c6f20c34b13164e41c12e0506300ec",
+   "bytes": 9252121,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/biktemerova_diplom.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "borodin-dissertation",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "e72642aab8ad29d43d28811f2e8ad17e452045dbfec62c2c93a55121a4ba62f3",
+   "bytes": 1979544,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/Borodin_dissertation.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "chukanov-diplom",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "d802ca0ae00ee2f4a84676b5e1e89f89bf6eedea7dc8b2f9325adda757f20b91",
+   "bytes": 7441068,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/chukanov_diplom.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "chukanov-phd-thesis",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "2b9cacb6b038d43676316c93872fb07b39bda6104334d036ae2380cb4872d977",
+   "bytes": 5904314,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/chukanov_phd_thesis.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "gonchar-diploma",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "c0be4e319d194e3a4163878d9ce1cd4f7f842ab1d42d7432c1f80d6c3a93ae18",
+   "bytes": 1454361,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/gonchar_diploma.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "gonchar-phd-thesis",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "d4c87ad2d3c893afb574753ba54eca4ac0597cc246ed17206a240d091da29ead",
+   "bytes": 48918341,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/gonchar_phd_thesis.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "kovalev",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "a90e00ddd021d119e40046dc690c9963d27558b327bf1b82732d35afddf6d6d5",
+   "bytes": 278828,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/kovalev.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "kustov",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "b4e732cf22e386a7130da86df5a0633bd132cb1a0610ccc771d70470766f8d20",
+   "bytes": 6497582,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/kustov.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "lee",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "6f49de85509129f3e8b2a4a47e6bfcbbb77b8e4380e0c31ff93a4b6e856366da",
+   "bytes": 2032853,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/lee.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "lyubushkin",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "4afed3a13a5388bce129f08ac5d3e556e7968f238019639370215c26e6791a08",
+   "bytes": 1287459,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/lyubushkin.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "potapova",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "23c2d599a34676ac0cdd5e58b21fda673007754e06ca0e3e5773fb2ed9c13347",
+   "bytes": 930064,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/potapova.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "samoylov-diploma",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "55d603e51cd29788231efa9fe9f6b70101d1048febb9489b932accff8040ccc4",
+   "bytes": 23555198,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/samoylov_diploma.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "samoylov-phd-thesis",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "633cb364d51020bfd4419886c3ee906bb1adba3058782c5995c0eacddedad2a3",
+   "bytes": 16743597,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/samoylov_phd_thesis.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "sheshukov",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "268406fed8b259b858c67a2dcd47c1aeffbe8b934af7fd6f8e6606c4cea07429",
+   "bytes": 2099748,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/sheshukov.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "tayachenachev",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "d316a614ee15025ce19abee26f7522df54fd853421964307c4c265f5ce0d8197",
+   "bytes": 2418661,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/tayachenachev.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "treskov",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "90b44bb6564f7bb714dc5fc54659b90a088c8ecd966a73e67219d5ed1baa7072",
+   "bytes": 785200,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/treskov.pdf"
+   ]
+  },
+  {
+   "id": "theses",
+   "variant": "zavyalov-diploma",
+   "version": 1,
+   "home": "media-students",
+   "status": "prepared",
+   "sha256": "fe993611db39d0d4a2fc9b65fead19d00ced61bf9b985f61d4fa035a2f480475",
+   "bytes": 31970833,
+   "ext": "pdf",
+   "replaces": [
+    "students/theses/zavyalov_diploma.pdf"
+   ]
   },
   {
    "id": "air-shower",

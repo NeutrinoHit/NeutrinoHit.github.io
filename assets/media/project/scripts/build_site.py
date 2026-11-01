@@ -83,7 +83,7 @@ def main() -> int:
         target = out / film["file"]
         target.parent.mkdir(parents=True, exist_ok=True)
         if args.from_cache:
-            source = args.from_cache / f'{film["sha256"]}.mp4'
+            source = args.from_cache / (film["sha256"] + Path(film["file"]).suffix)
             if not source.is_file():
                 raise SystemExit(f"not in the cache: {film['file']} ({source.name})")
             shutil.copyfile(source, target)
