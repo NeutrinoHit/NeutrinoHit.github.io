@@ -73,10 +73,10 @@ research:
     items:
     - title: {ru: 'Измерение θ₁₃, Δm²₃₂ и ковариантная квантово-полевая теория нейтринных осцилляций', en: 'Measurement of θ₁₃, Δm²₃₂, and covariant quantum-field theory of neutrino oscillations'}
       note: {ru: 2017 · докторская диссертация, en: 2017 · doctoral dissertation}
-      links: [{kind: pdf, href: /theses/DmitryNaumov_Doctoral_Thesis.pdf}]
+      links: [{kind: pdf, href: /media-research/dn-theses/doctoral-v1.pdf}]
     - title: {ru: 'Рождение странных адронов и измерение поляризации лямбда- и антилямбда-гиперонов в нейтринных взаимодействиях в эксперименте NOMAD в ЦЕРНе', en: 'Strange-hadron production and measurement of lambda and anti-lambda hyperon polarization in neutrino interactions in the NOMAD experiment at CERN'}
       note: {ru: 2001 · кандидатская диссертация, en: 2001 · candidate dissertation}
-      links: [{kind: pdf, href: /theses/DmitryNaumov_Candidate_Thesis.pdf}]
+      links: [{kind: pdf, href: /media-research/dn-theses/candidate-v1.pdf}]
     - title: {ru: 'Ядерные переходы ¹⁶O + H → ¹⁷F и эффекты электронного экранирования', en: 'Nuclear transitions ¹⁶O + H → ¹⁷F and electron-screening effects'}
       note: {ru: '1997 · дипломная работа, ИГУ', en: '1997 · diploma thesis, Irkutsk State University'}
-      links: [{kind: pdf, href: /theses/DmitryNaumov_Diplom.pdf}]
+      links: [{kind: pdf, href: /media-research/dn-theses/diploma-v1.pdf}]

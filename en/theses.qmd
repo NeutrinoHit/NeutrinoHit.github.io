@@ -17,7 +17,7 @@ Dmitry Naumov's qualification works: diploma thesis, candidate dissertation, and
     <div class="thesis-body">
       <p>"Nuclear transitions <span class="nuclear-reaction"><sup>16</sup>O + H -> <sup>17</sup>F</span> and electron-screening effects".</p>
       <p class="thesis-note">The work was carried out at JINR. Supervisor: F. M. Penkov.</p>
-      <a class="thesis-link" href="../theses/DmitryNaumov_Diplom.pdf">PDF (Russian)</a>
+      <a class="thesis-link" href="../media-research/dn-theses/diploma-v1.pdf">PDF (Russian)</a>
     </div>
   </details>
 
@@ -29,7 +29,7 @@ Dmitry Naumov's qualification works: diploma thesis, candidate dissertation, and
     </summary>
     <div class="thesis-body">
       <p>"Strange-hadron production and measurement of lambda and anti-lambda hyperon polarization in neutrino interactions in the NOMAD experiment at CERN".</p>
-      <a class="thesis-link" href="../theses/DmitryNaumov_Candidate_Thesis.pdf">PDF (Russian)</a>
+      <a class="thesis-link" href="../media-research/dn-theses/candidate-v1.pdf">PDF (Russian)</a>
     </div>
   </details>
 
@@ -41,7 +41,7 @@ Dmitry Naumov's qualification works: diploma thesis, candidate dissertation, and
     </summary>
     <div class="thesis-body">
       <p>"Measurement of θ<sub>13</sub>, Δm<sup>2</sup><sub>32</sub>, and covariant quantum-field theory of neutrino oscillations".</p>
-      <a class="thesis-link" href="../theses/DmitryNaumov_Doctoral_Thesis.pdf">PDF (Russian)</a>
+      <a class="thesis-link" href="../media-research/dn-theses/doctoral-v1.pdf">PDF (Russian)</a>
     </div>
   </details>
 </div>

@@ -17,7 +17,7 @@ toc: false
     <div class="thesis-body">
       <p>«Ядерные переходы <span class="nuclear-reaction"><sup>16</sup>O + H → <sup>17</sup>F</span> и эффекты электронного экранирования».</p>
       <p class="thesis-note">Работа выполнена в ОИЯИ. Научный руководитель — Ф. М. Пеньков.</p>
-      <a class="thesis-link" href="../theses/DmitryNaumov_Diplom.pdf">PDF</a>
+      <a class="thesis-link" href="../media-research/dn-theses/diploma-v1.pdf">PDF</a>
     </div>
   </details>
 
@@ -29,7 +29,7 @@ toc: false
     </summary>
     <div class="thesis-body">
       <p>«Рождение странных адронов и измерение поляризации лямбда- и антилямбда-гиперонов в нейтринных взаимодействиях в эксперименте NOMAD в ЦЕРНе».</p>
-      <a class="thesis-link" href="../theses/DmitryNaumov_Candidate_Thesis.pdf">PDF</a>
+      <a class="thesis-link" href="../media-research/dn-theses/candidate-v1.pdf">PDF</a>
     </div>
   </details>
 
@@ -41,7 +41,7 @@ toc: false
     </summary>
     <div class="thesis-body">
       <p>«Измерение θ<sub>13</sub>, Δm<sup>2</sup><sub>32</sub> и ковариантная квантово-полевая теория нейтринных осцилляций».</p>
-      <a class="thesis-link" href="../theses/DmitryNaumov_Doctoral_Thesis.pdf">PDF</a>
+      <a class="thesis-link" href="../media-research/dn-theses/doctoral-v1.pdf">PDF</a>
     </div>
   </details>
 </div>

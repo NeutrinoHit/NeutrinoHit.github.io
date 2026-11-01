@@ -7,7 +7,6 @@ project:
   resources:
     - "/assets/**"
     - "/qr/**"
-    - "/theses/**"
     - "/en/cv.pdf"
     - "/ru/cv.pdf"
   render:
