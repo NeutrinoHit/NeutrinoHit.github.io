@@ -45,7 +45,7 @@
    "budget_bytes": 900000000
   },
   "media-neutrinophysics": {
-   "title": "NeutrinoHit data: neutrinophysics courses and the solar neutrino masterclass",
+   "title": "NeutrinoHit films and data: neutrinophysics courses and the solar neutrino masterclass",
    "budget_bytes": 900000000
   },
   "media-research": {
@@ -2592,6 +2592,29 @@
    }
   },
   {
+   "id": "optics-to-neutrino",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "prepared",
+   "sha256": "225ff6e1c5e29705fe73f230bb3ad93c44711a8e6441a60779ec1c3b34862570",
+   "bytes": 8578666,
+   "duration_s": 44.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/slides/assets/06_matter_oscillations/crystal/optics_to_neutrino_v2_ru.mp4"
+   ],
+   "title": {
+    "ru": "От поляризаций света к массовым состояниям нейтрино",
+    "en": "From light polarizations to neutrino mass states"
+   }
+  },
+  {
    "id": "parton-cascade",
    "variant": "web-en",
    "version": 1,
@@ -3817,6 +3840,29 @@
     "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/oscillation_probabilities_grid.csv"
    ],
    "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
+  },
+  {
+   "id": "neutrino-crystal",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "e6b1225aaedf9687c7813bbfd687924b7925482edd340e49a6b29bcb7976c6b9",
+   "bytes": 10025714,
+   "duration_s": 54.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/slides/assets/06_matter_oscillations/crystal/neutrino_crystal_ru.mp4"
+   ],
+   "title": {
+    "ru": "Нейтрино как свет в кристалле: вакуум и вещество Солнца",
+    "en": "Neutrinos as light in a crystal: vacuum and solar matter"
+   }
   },
   {
    "id": "baikal-minicourse",
