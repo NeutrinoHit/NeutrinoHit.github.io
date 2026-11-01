@@ -19,9 +19,89 @@
   "media-talks": {
    "title": "NeutrinoHit films: talks",
    "budget_bytes": 900000000
+  },
+  "media-particlephysics": {
+   "title": "NeutrinoHit films: particle physics courses",
+   "budget_bytes": 900000000
+  },
+  "media-sciencepop": {
+   "title": "NeutrinoHit films: popular science lectures",
+   "budget_bytes": 900000000
+  },
+  "media-stat-course": {
+   "title": "NeutrinoHit films: statistics course",
+   "budget_bytes": 900000000
+  },
+  "media-qft-lectures": {
+   "title": "NeutrinoHit films: QFT lectures",
+   "budget_bytes": 900000000
+  },
+  "media-albums": {
+   "title": "NeutrinoHit films: photo albums of schools and events",
+   "budget_bytes": 900000000
   }
  },
  "media": [
+  {
+   "id": "baikal-school-2026",
+   "variant": "video-35",
+   "version": 1,
+   "home": "media-albums",
+   "status": "prepared",
+   "sha256": "85175fc38c8e3fa461e1493d754d367df31a76a033654e389f48e007dfd71c1b",
+   "bytes": 27486105,
+   "duration_s": 8.13,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "albums/baikal-school-2026/videos/35-vid-20260717-200945.mp4"
+   ],
+   "source": "album of the Baikal school 2026 (neutrinohit-map/albums)"
+  },
+  {
+   "id": "baikal-school-2026",
+   "variant": "video-36",
+   "version": 1,
+   "home": "media-albums",
+   "status": "prepared",
+   "sha256": "66113a63b236c2abe305b3d4b87b95619224ccbaee618b9a616350939e21ca01",
+   "bytes": 30481646,
+   "duration_s": 11.27,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "albums/baikal-school-2026/videos/36-vid-20260715-172132.mp4"
+   ],
+   "source": "album of the Baikal school 2026 (neutrinohit-map/albums)"
+  },
+  {
+   "id": "baikal-school-2026",
+   "variant": "video-37",
+   "version": 1,
+   "home": "media-albums",
+   "status": "prepared",
+   "sha256": "d788fd6533c0267bbd910d7c787aceab6dc3f56185df4bbc882e9a3ede35d68a",
+   "bytes": 75187887,
+   "duration_s": 29.35,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "albums/baikal-school-2026/videos/37-vid-20260717-085018.mp4"
+   ],
+   "source": "album of the Baikal school 2026 (neutrinohit-map/albums)"
+  },
   {
    "id": "barkov",
    "variant": "web-star-jet-cloud",
@@ -961,7 +1041,8 @@
    "footer": false,
    "faststart": true,
    "replaces": [
-    "neutrinophysics:introduction/ru/slides/assets/01_neutrino_101/coupled_oscillators_baikal.mp4"
+    "neutrinophysics:introduction/ru/slides/assets/01_neutrino_101/coupled_oscillators_baikal.mp4",
+    "particlephysics:IntroParticlePhysicsBaikal/slides/media/coupled-oscillators-2d/CoupledOscillators2D.mp4"
    ],
    "title": {
     "ru": "Аналогия: связанные осцилляторы",
@@ -1168,7 +1249,9 @@
    "footer": false,
    "faststart": true,
    "replaces": [
-    "neutrinophysics:introduction/ru/slides/assets/01_neutrino_101/electron_scattering.mp4"
+    "neutrinophysics:introduction/ru/slides/assets/01_neutrino_101/electron_scattering.mp4",
+    "particlephysics:IntroParticlePhysicsBaikal/slides/media/feynman-scattering/ElectronElectronScattering.mp4",
+    "qft-lectures:en/slides/media/scalar-qed-attraction-repulsion/ElectronElectronScattering.mp4"
    ],
    "title": {
     "ru": "Диаграммы рассеяния",
@@ -1191,7 +1274,8 @@
    "footer": false,
    "faststart": true,
    "replaces": [
-    "neutrinophysics:introduction/ru/slides/assets/01_neutrino_101/numu_e_to_nue_mu.mp4"
+    "neutrinophysics:introduction/ru/slides/assets/01_neutrino_101/numu_e_to_nue_mu.mp4",
+    "particlephysics:IntroParticlePhysicsBaikal/slides/media/feynman-scattering/NuMuElectronToNuEMuonScattering.mp4"
    ],
    "title": {
     "ru": "Диаграммы рассеяния",
@@ -1214,7 +1298,8 @@
    "footer": false,
    "faststart": true,
    "replaces": [
-    "neutrinophysics:introduction/ru/slides/assets/01_neutrino_101/numu_mu_via_z.mp4"
+    "neutrinophysics:introduction/ru/slides/assets/01_neutrino_101/numu_mu_via_z.mp4",
+    "particlephysics:IntroParticlePhysicsBaikal/slides/media/feynman-scattering/NuMuMuonScatteringViaZ.mp4"
    ],
    "title": {
     "ru": "Диаграммы рассеяния",
@@ -1237,7 +1322,8 @@
    "footer": false,
    "faststart": true,
    "replaces": [
-    "neutrinophysics:introduction/ru/slides/assets/01_neutrino_101/quark_scattering.mp4"
+    "neutrinophysics:introduction/ru/slides/assets/01_neutrino_101/quark_scattering.mp4",
+    "particlephysics:IntroParticlePhysicsBaikal/slides/media/feynman-scattering/QuarkQuarkScattering.mp4"
    ],
    "title": {
     "ru": "Диаграммы рассеяния",
@@ -3066,7 +3152,8 @@
    "footer": false,
    "faststart": true,
    "replaces": [
-    "neutrinophysics:introduction/ru/slides/assets/01_neutrino_101/spin.mp4"
+    "neutrinophysics:introduction/ru/slides/assets/01_neutrino_101/spin.mp4",
+    "particlephysics:IntroParticlePhysicsBaikal/slides/media/simplespinwithsphere.mp4"
    ],
    "title": {
     "ru": "Спин и вращение",
@@ -3187,6 +3274,25 @@
     "ru": "Звезда в джете: один из способов родить нейтрино",
     "en": "A star in the jet: one way to make neutrinos"
    }
+  },
+  {
+   "id": "teach-in-applications",
+   "variant": "film-map",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "prepared",
+   "sha256": "ecd343d650f94f4f7a595307f2eafbac1327dd76ea9ae9bb31466780ae8c88cd",
+   "bytes": 549111,
+   "duration_s": 99.0,
+   "width": 1792,
+   "height": 1008,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "assets/programs/teach-in-applications-map.mp4"
+   ]
   },
   {
    "id": "telescope-events",
@@ -3348,6 +3454,362 @@
     "ru": "Асимметрия в рождении и распаде Z-бозона",
     "en": "Asymmetry in Z boson production and decay"
    }
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-01-cross-section",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "f87f6faa42aa941e1bc90718a2ac355b690ecf1fd12efb72a0a565ba1fb465f2",
+   "bytes": 485234,
+   "duration_s": 4.8,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-01-cross-section.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-01-qcd-bears-spring",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "2bcba17314172d12ce123c48b20bc21899cf1ed94bbad72c41c2b57c59a7c5fd",
+   "bytes": 423945,
+   "duration_s": 4.6,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-01-qcd-bears-spring.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-01-scale-ladder",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "3b4c60e898cd4f2b569f3867e38d441c9bd43abdf62eba7a89f2eab7f861318f",
+   "bytes": 146572,
+   "duration_s": 4.6,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-01-scale-ladder.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-01-standard-model-particles",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "6e0581352439c53463b8198721339be8789fb209d61b86be8e0aabd03925864d",
+   "bytes": 77145,
+   "duration_s": 4.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-01-standard-model-particles.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-01-why-particle-physics",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "c967c2ce0ac163c30361646dcf32d32d0d50eb5c933e4ee86b3918c2e606b39d",
+   "bytes": 174825,
+   "duration_s": 6.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-01-why-particle-physics.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-02-accelerating-electron-field",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "bcdee22645a067a52eb2bd04ceb13ba786319dcc1d6fc9093d6abd21b14c5df9",
+   "bytes": 2040164,
+   "duration_s": 9.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-02-accelerating-electron-field.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-02-chiral-condensate-layer",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "6660dce728eaad135de52362b9dbf6a2b2d1fed12f7a984fa06a297ea71e0fea",
+   "bytes": 250273,
+   "duration_s": 5.17,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-02-chiral-condensate-layer.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-02-chiral-waves-mass-gap",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "0d29602b70186fa3f3adeb667606de9389916d8f137d3bf3da050c5fcc345df6",
+   "bytes": 598085,
+   "duration_s": 9.67,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-02-chiral-waves-mass-gap.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-02-coupled-pendulums",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "f2d9a5bf91d7e3471e67c61d8ab12ab272e3405d4200a52ae2f98b00df8b8d50",
+   "bytes": 342409,
+   "duration_s": 5.27,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-02-coupled-pendulums.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-02-formula-cat",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "50883007e55b8f1e207cda3925999e434cc271fade06111b6e24d62668b67184",
+   "bytes": 927603,
+   "duration_s": 7.2,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-02-formula-cat.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-02-lagrangian-scroll",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "ce0093b99ff749c65d23bdfc974f9aa2d06a82c6ab47675e7dd4ecefcd6c2199",
+   "bytes": 4300788,
+   "duration_s": 35.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-02-lagrangian-scroll.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-02-meissner-effect",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "691d8b52abc33c1625064ed998e0183a387a1f50ef3cd6e574d9af862a2658b7",
+   "bytes": 293146,
+   "duration_s": 3.6,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-02-meissner-effect.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-02-physicist-rockets",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "793f053c49e9d5980618e970ad48dea9afe62a097539fc01ec88cf00983e9f74",
+   "bytes": 135060,
+   "duration_s": 5.8,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-02-physicist-rockets.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "baikal-minicourse",
+   "variant": "export-lecture-02-standard-model-finale",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "73996231e58ff51532bae523f2c6110e0e1b4fbd3db1c51328b379d47a065e96",
+   "bytes": 256188,
+   "duration_s": 10.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/exports/animations/lecture-02-standard-model-finale.mp4"
+   ],
+   "source": "export of the mini-course decks (particlephysics/scripts/export_animations.py)"
+  },
+  {
+   "id": "neutron-decay",
+   "variant": "film",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "ba2592fa654297bbca169b671cc57cb2254e899bffe3776e91366ca1befe4c4b",
+   "bytes": 1542524,
+   "duration_s": 29.93,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/slides/media/neutron_decay.mov"
+   ]
+  },
+  {
+   "id": "radiating-charge",
+   "variant": "film-pyqtgraph-3d",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "5b56c345b8daf4217d5355025532d141da9c9a3966ad24f0eb50bcd1ae05b893",
+   "bytes": 291593,
+   "duration_s": 11.79,
+   "width": 2624,
+   "height": 1480,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/slides/media/radiating_charge_pyqtgraph_3d.mp4"
+   ]
+  },
+  {
+   "id": "rutherford",
+   "variant": "film-geiger-marsden",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "0d14ea85b2d53c8cf815348404ac0797af68c1390a3d21b10f0c308b987fe568",
+   "bytes": 636130,
+   "duration_s": 47.0,
+   "width": 266,
+   "height": 180,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/slides/media/rutherford-geiger-marsden.mp4"
+   ]
+  },
+  {
+   "id": "standard-model-field-mattress",
+   "variant": "film-baikal",
+   "version": 1,
+   "home": "media-particlephysics",
+   "status": "prepared",
+   "sha256": "b293294e984640e45ffcef969c8562faae773822ff5f9dd5d0864af650a41a1a",
+   "bytes": 92002236,
+   "duration_s": 39.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "particlephysics:IntroParticlePhysicsBaikal/slides/media/sm-field-mattress/StandardModelFieldMattress.mp4"
+   ]
   },
   {
    "id": "black-hole-flyby",
@@ -4958,6 +5420,281 @@
     "ru": "Электрон в вакуумном поле: нулевые колебания",
     "en": "An electron in the vacuum field: zero-point fluctuations"
    }
+  },
+  {
+   "id": "scalar-qed",
+   "variant": "film-pm",
+   "version": 1,
+   "home": "media-qft-lectures",
+   "status": "prepared",
+   "sha256": "75732fbc952594f4b4f38a637527f8cacdf26d8343cac347af6abb5175adc108",
+   "bytes": 974802,
+   "duration_s": 10.04,
+   "width": 2624,
+   "height": 1480,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "qft-lectures:en/slides/media/scalar-qed-attraction-repulsion/pm.mp4"
+   ]
+  },
+  {
+   "id": "scalar-qed",
+   "variant": "film-pp",
+   "version": 1,
+   "home": "media-qft-lectures",
+   "status": "prepared",
+   "sha256": "054f9db3cd0fb5745448d179bc0f327891e7a0e9a3eff8e0c5998cb52925adcf",
+   "bytes": 684012,
+   "duration_s": 10.04,
+   "width": 2624,
+   "height": 1480,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "qft-lectures:en/slides/media/scalar-qed-attraction-repulsion/pp.mp4"
+   ]
+  },
+  {
+   "id": "scalar-qed",
+   "variant": "film-single",
+   "version": 1,
+   "home": "media-qft-lectures",
+   "status": "prepared",
+   "sha256": "45d0f9339093bd18788faa881df061cbda52fae36d5f84454a719a0a5a5a3e6b",
+   "bytes": 400507,
+   "duration_s": 9.04,
+   "width": 2624,
+   "height": 1480,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "qft-lectures:en/slides/media/scalar-qed-attraction-repulsion/single.mp4"
+   ]
+  },
+  {
+   "id": "bbn-nucleosynthesis",
+   "variant": "film-manim",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "80a451744c8e0219755a74136c394ec85aeb6ea035b59a59eb57ea3b70a8fb93",
+   "bytes": 6604191,
+   "duration_s": 42.23,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "sciencepop:BirthAndLifeUniverse/assets/figures/bbn-nucleosynthesis-manim.mp4"
+   ]
+  },
+  {
+   "id": "black-hole-feedback",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "1ca5068f734cddb858abc73dbd48affa4d1051b6df7c36715728b65314437234",
+   "bytes": 9734320,
+   "duration_s": 20.52,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "sciencepop:BirthAndLifeUniverse/assets/figures/black-hole-feedback.mp4"
+   ],
+   "credit": "source not recorded"
+  },
+  {
+   "id": "dark-matter-observed",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "dfe70914f499f58380c54b4667ce2e61a3374aa0af284ae41c460e06dadd63e5",
+   "bytes": 1964696,
+   "duration_s": 45.0,
+   "width": 480,
+   "height": 360,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "sciencepop:BirthAndLifeUniverse/assets/figures/dark-matter-observed.mp4"
+   ],
+   "credit": "source not recorded"
+  },
+  {
+   "id": "first-stars",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "6db217bbf727a67ed62bf7e557b90812d1fad8c91d8d9a230aa5fa376086e14e",
+   "bytes": 3267149,
+   "duration_s": 23.52,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "sciencepop:BirthAndLifeUniverse/assets/figures/first-stars.mp4"
+   ],
+   "credit": "source not recorded"
+  },
+  {
+   "id": "galaxy-morphology",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "1b1e00944cef46c39043d95967abdd25ee58a6d2a5bcde181b63cb7e29b46159",
+   "bytes": 4929492,
+   "duration_s": 10.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "sciencepop:BirthAndLifeUniverse/assets/figures/galaxy-morphology.mp4"
+   ],
+   "credit": "source not recorded"
+  },
+  {
+   "id": "illustris-evolution",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "2f684c24e1ea185cd7015dea4cd91379d1ee1560df2bb42944d9a17c1d777eff",
+   "bytes": 24992085,
+   "duration_s": 154.02,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "sciencepop:BirthAndLifeUniverse/assets/figures/illustris-evolution.mp4"
+   ],
+   "credit": "Illustris Simulation"
+  },
+  {
+   "id": "nucleus-shapes",
+   "variant": "film-morphs",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "a89b9a70cf5682d5b9f3d70cc537051ef5345e6d3ed7bb59d75958a64d8ca292",
+   "bytes": 2369279,
+   "duration_s": 9.65,
+   "width": 1536,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "sciencepop:in-a-nutshell/assets/inside-nucleus/nucleus-shape-morphs.mp4"
+   ]
+  },
+  {
+   "id": "photons-universe",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "4c26ed1ed3c6cf8ed256ffe2ac99b0c7fee32add44e357fd1f30a9de4b1dc44a",
+   "bytes": 37570130,
+   "duration_s": 50.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "sciencepop:BirthAndLifeUniverse/assets/figures/photons-universe.mp4"
+   ],
+   "credit": "source not recorded"
+  },
+  {
+   "id": "proto-galaxy-disk",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "3609488b4231a9f949c75d84905cd44456db7cd473821823d6b83af758530840",
+   "bytes": 1294164,
+   "duration_s": 19.95,
+   "width": 640,
+   "height": 480,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "sciencepop:BirthAndLifeUniverse/assets/figures/proto-galaxy-disk.mp4"
+   ],
+   "credit": "source not recorded"
+  },
+  {
+   "id": "wmap-shape-of-universe",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "9c79fa058b8ccd3b9376553a8a4e1ef7e1a61e9507e3ac380252290c4f3bad47",
+   "bytes": 751385,
+   "duration_s": 25.53,
+   "width": 640,
+   "height": 480,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "sciencepop:BirthAndLifeUniverse/assets/figures/wmap-shape-of-universe.mp4"
+   ],
+   "credit": "source not recorded"
+  },
+  {
+   "id": "opticks-juno",
+   "variant": "film",
+   "version": 1,
+   "home": "media-stat-course",
+   "status": "prepared",
+   "sha256": "634366bb29e169f793e1f90e723c7b83ab58de8840937ab966ce853685134464",
+   "bytes": 51175479,
+   "duration_s": 125.5,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "stat-course:shared/figures/static/opticks_juno_simon_blyth.mp4"
+   ],
+   "credit": "Simon Blyth, Opticks (JUNO)"
   },
   {
    "id": "air-shower",

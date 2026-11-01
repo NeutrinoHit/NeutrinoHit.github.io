@@ -19,6 +19,9 @@
   nh_media.py lock PROJECT_DIR        write media.lock.json of a consumer from its nh-video references
   nh_media.py extension PROJECT_DIR   copy the shared Quarto extension into a consumer
   nh_media.py guard-install REPO...   install the local pre-commit check against video files
+  nh_media.py inventory [--json] [--check]
+                                      every film: who makes it, where it is used; video files of the
+                                      repositories outside the library (--check: exit 1 if any)
 
 A film is identified by (id, variant, version); one SHA-256 is one record. Published
 bytes never change: a new render gets a new version. See docs/media-library.md.
@@ -557,6 +560,29 @@ def cmd_guard_install(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_inventory(args: argparse.Namespace) -> int:
+    import media_inventory
+    data = media_inventory.build()
+    found = media_inventory.problems(data)
+    if args.json:
+        data["problems"] = found
+        print(json.dumps(data, ensure_ascii=False, indent=1))
+    else:
+        states: dict[str, int] = {}
+        for entry in data["repo_files"]:
+            states[entry["state"]] = states.get(entry["state"], 0) + 1
+        makers: dict[str, int] = {}
+        for film in data["films"]:
+            makers[film["maker"]["kind"]] = makers.get(film["maker"]["kind"], 0) + 1
+        unused = sum(1 for film in data["films"] if not film["uses"])
+        print(f"films: {len(data['films'])} (makers: {makers}; without a known use: {unused})")
+        print(f"video files in repositories: {states}")
+        print(f"dvnanima renders not in the library: {len(data['dvnanima_unpublished'])}")
+        for line in found:
+            print("  -", line)
+    return 1 if args.check and found else 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     sub = parser.add_subparsers(dest="command", required=True)
@@ -595,6 +621,9 @@ def main() -> int:
     sub.add_parser("replaced")
     p = sub.add_parser("lock")
     p.add_argument("project")
+    p = sub.add_parser("inventory")
+    p.add_argument("--json", action="store_true")
+    p.add_argument("--check", action="store_true")
     p = sub.add_parser("extension")
     p.add_argument("project")
     p = sub.add_parser("guard-install")
@@ -602,7 +631,7 @@ def main() -> int:
     args = parser.parse_args()
     handler = {"adopt": cmd_adopt, "prepare": cmd_prepare, "check": cmd_check, "report": cmd_report,
                "project": cmd_project, "stage": cmd_stage, "publish": cmd_publish, "verify": cmd_verify,
-               "prune-site": cmd_prune_site, "replaced": cmd_replaced, "lock": cmd_lock, "extension": cmd_extension,
+               "prune-site": cmd_prune_site, "replaced": cmd_replaced, "lock": cmd_lock, "extension": cmd_extension, "inventory": cmd_inventory,
                "guard-install": cmd_guard_install}[args.command]
     return handler(args)
 

@@ -3,7 +3,6 @@
 site:
 	rm -rf _site
 	NEUTRINOHIT_SYNC_PROJECT_SITES=0 quarto render
-	rm -rf _site/neutrino_introduction
 	# Cover sources (SVG, configs, generators) are not site pages; the Books page uses assets/books/series/.
 	rm -rf _site/assets/books/covers
 	# Media project template and consumer extension are sources, not pages.

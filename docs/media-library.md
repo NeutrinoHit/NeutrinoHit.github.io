@@ -14,7 +14,7 @@
 |---|---|
 | `dvnanima` (частный) | исходники анимаций, настройки, рендеры |
 | `neutrinohit-map` | каталог `media.catalog.json`, инструменты `scripts/nh_media.py`, шаблон медиапроекта `assets/media/project/`, расширение для лекций `assets/media/_extensions/neutrinohit-media/` |
-| `media-neutrino`, `media-qft`, `media-mechanics`, `media-talks` | `media.manifest.json` и сборка в git; файлы — в GitHub Releases; раздача — Pages |
+| `media-neutrino`, `media-qft`, `media-mechanics`; `media-talks`, `media-particlephysics`, `media-sciencepop`, `media-stat-course`, `media-qft-lectures`, `media-albums` | `media.manifest.json` и сборка в git; файлы — в GitHub Releases; раздача — Pages |
 | репозитории курсов и докладов | текст, рисунки, постеры, `media.lock.json` и ссылки `nh-video` |
 | офлайн-комплект | выбранные доклады + один экземпляр каждого фильма; результат сборки вне git |
 
@@ -24,7 +24,8 @@
 относительность (и QR книг КТП и ОТО); `media-mechanics` — механика,
 динамические системы, оптика. Фильмы, которые нужны только одному проекту
 курсов или докладов, живут в его собственном медиапроекте `media-<проект>`:
-`media-talks` — доклады; так же будут `media-particlephysics`, альбомы и т. д.
+`media-talks` — доклады, `media-particlephysics`, `media-sciencepop`,
+`media-stat-course`, `media-qft-lectures`, `media-albums` — видео фотоальбомов.
 Фильм, который нужен нескольким проектам, остаётся в тематическом. Бюджет в
 каталоге 900 МБ; заполненный проект продолжает `media-<проект>-2`.
 `nh_media.py report` показывает заполнение. Новый медиапроект: строка в
@@ -140,6 +141,21 @@ python3 scripts/media_preview_server.py    # http://127.0.0.1:8780/, сайты 
   предел 1 ГБ по-прежнему останавливает публикацию.
 - `nh_media.py check`: уникальность записей и SHA-256, бюджеты, кеш, отсутствие
   частных путей; `scripts/test_nh_media.py` — модульные тесты.
+
+## Учёт всех фильмов
+
+`python3 scripts/nh_media.py inventory` сводит все фильмы: кто их делает
+(сцена dvnanima по SHA-256 или по имени; иначе `credit` записи), где они
+используются (галерея, QR, страницы с `nh-video`), какие видеофайлы лежат в
+опубликованных репозиториях вне медиатеки и какие рендеры dvnanima ещё не
+зарегистрированы. `--json` даёт данные страницы «Фильмы» локальной доски
+(сборщик nh-tasks), `--check` завершается ошибкой, если есть нарушения; их же
+показывают `./nh check` и `./nh issues`. Нарушение — видеофайл в репозитории,
+которого нет в каталоге, или копия опубликованного фильма. Сознательные
+исключения (чужие фильмы с источником, исходники книги) перечислены в
+`media.kept.json` шаблонами `проект:путь`. Новая анимация попадает на сайт
+только через `prepare` → публикацию → `nh-video`; положить MP4 в `assets/`
+нельзя: pre-commit отказывает, а проверка покажет файл.
 
 ## Первая публикация (один раз, DN)
 

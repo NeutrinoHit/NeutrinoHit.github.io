@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "note": "Video files deliberately kept in a repository outside the media library. A pattern is project:path with * wildcards. Everything else that is a video belongs to a media project (docs/media-library.md).",
+ "kept": [
+  {
+   "path": "talks:neutrino-telescopes-2026/media/*/km3-230213a.mp4",
+   "reason": "KM3NeT event display: film of another collaboration, kept with its source note"
+  },
+  {
+   "path": "talks:neutrino-telescopes-2026/media/*/icecube-170922a.mp4",
+   "reason": "IceCube-170922A recording: film of another collaboration, kept with its source note"
+  },
+  {
+   "path": "talks:georgia-2026/media/baikal_short-1770.mp4",
+   "reason": "Baikal-GVD film of another author, kept with its source note"
+  },
+  {
+   "path": "talks:georgia-2026/media/juno-supernova-illustration.mp4",
+   "reason": "JUNO illustration of another author, kept with its source note"
+  },
+  {
+   "path": "neutrinophysics:introduction/ru/slides/assets/06_mac_e_spectrometer/nasa_*",
+   "reason": "NASA films, kept with their credit"
+  },
+  {
+   "path": "neutrinophysics:introduction/ru/book/assets/*",
+   "reason": "book sources: the book is not on the site, its assets stay with it"
+  },
+  {
+   "path": "neutrinophysics:introduction/ru/slides/assets/05_vacuum_oscillations/quantum_chameleon.mp4",
+   "reason": "linked by the gallery of the main site"
+  },
+  {
+   "path": "neutrinophysics:introduction/Introduction/*",
+   "reason": "old Keynote export of the introduction lecture: kept in the repository, not published on the site"
+  }
+ ]
+}
