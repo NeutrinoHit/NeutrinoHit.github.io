@@ -459,12 +459,15 @@ def cmd_verify(args: argparse.Namespace) -> int:
     verified = []
     for record in records_of(catalog, args.home):
         url = base + mr.url_of(record, catalog)
-        status, headers, _ = http_range(url, 0, 1023)
+        status, headers, head = http_range(url, 0, 1023)
         total = (headers.get("Content-Range") or "").rpartition("/")[2]
         kind = headers.get("Content-Type", "")
-        ok = status == 206 and total == str(record["bytes"]) and \
-            kind.startswith(CONTENT_TYPE.get(mr.ext_of(record), "application/"))
-        if ok:
+        small = record["bytes"] <= 1024           # served whole: 200 without Content-Range
+        expected = CONTENT_TYPE.get(mr.ext_of(record), "application/")
+        typed = kind.startswith(expected) or (mr.ext_of(record) == "zip" and "zip" in kind)
+        ok = typed and ((status == 206 and total == str(record["bytes"]))
+                        or (small and status in (200, 206) and len(head) == record["bytes"]))
+        if ok and not small:
             status, _, tail = http_range(url, record["bytes"] - 1024, record["bytes"] - 1)
             ok = status == 206 and len(tail) == 1024
         if ok and args.full:

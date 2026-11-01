@@ -83,7 +83,7 @@ school:
       work:
         ru: Поляризация Лямбда гиперонов в эксперименте NOMAD.
         en: Polarization of Lambda hyperons in the NOMAD experiment.
-      pdf: /students/theses/kustov.pdf
+      pdf: /media-students/theses/kustov-v1.pdf
     - year: 2000
       category: diploma
       name:
@@ -93,7 +93,7 @@ school:
         ru: Измерение поляризации Λ и Λ̄ гиперонов во взаимодействиях нейтрино и антинейтрино по каналу заряженного тока в
           эксперименте NOMAD (CERN).
         en: Measurement of Λ and Λ-bar hyperon polarization in charged-current neutrino and antineutrino interactions in NOMAD.
-      pdf: /students/theses/chukanov_diplom.pdf
+      pdf: /media-students/theses/chukanov-diplom-v1.pdf
     - year: 2002
       category: diploma
       name:
@@ -102,7 +102,7 @@ school:
       work:
         ru: Выделение событий квазиупругого рассеяния в эксперименте NOMAD (CERN).
         en: Selection of quasi-elastic scattering events in the NOMAD experiment at CERN.
-      pdf: /students/theses/lyubushkin.pdf
+      pdf: /media-students/theses/lyubushkin-v1.pdf
     - year: 2004
       category: diploma
       name:
@@ -111,7 +111,7 @@ school:
       work:
         ru: Поиск странного экзотического барионного резонанса θ<sup>+</sup>(1530) в эксперименте NOMAD (CERN).
         en: Search for the strange exotic baryon resonance θ<sup>+</sup>(1530) in the NOMAD experiment at CERN.
-      pdf: /students/theses/samoylov_diploma.pdf
+      pdf: /media-students/theses/samoylov-diploma-v1.pdf
     - year: 2006
       category: phd
       name:
@@ -120,7 +120,7 @@ school:
       work:
         ru: Изучение эффектов фрагментации в процессах нейтринорождения странных адронов в эксперименте NOMAD (CERN).
         en: Fragmentation effects in strange-hadron neutrinoproduction in the NOMAD experiment at CERN.
-      pdf: /students/theses/chukanov_phd_thesis.pdf
+      pdf: /media-students/theses/chukanov-phd-thesis-v1.pdf
     - year: 2007
       category: diploma
       name:
@@ -129,7 +129,7 @@ school:
       work:
         ru: Моделирование и реконструкция в фотоэмульсионном детекторе в эксперименте OPERA.
         en: Simulation and reconstruction in the emulsion detector of the OPERA experiment.
-      pdf: /students/theses/sheshukov.pdf
+      pdf: /media-students/theses/sheshukov-v1.pdf
     - year: 2007
       category: diploma
       name:
@@ -138,7 +138,7 @@ school:
       work:
         ru: Исследование триггерной системы на основе пластического сцинтиллятора для эксперимента Daya Bay.
         en: Study of a plastic-scintillator trigger system for the Daya Bay experiment.
-      pdf: /students/theses/gonchar_diploma.pdf
+      pdf: /media-students/theses/gonchar-diploma-v1.pdf
     - year: 2007
       category: diploma
       name:
@@ -147,7 +147,7 @@ school:
       work:
         ru: Моделирование и реконструкция в эксперименте «НУКЛОН».
         en: Simulation and reconstruction in the NUKLON experiment.
-      pdf: /students/theses/biktemerova_diplom.pdf
+      pdf: /media-students/theses/biktemerova-diplom-v1.pdf
     - year: 2008
       category: diploma
       name:
@@ -156,7 +156,7 @@ school:
       work:
         ru: Нейтринные осцилляции в рамках квантовой теории поля.
         en: Neutrino oscillations within quantum field theory.
-      pdf: /students/theses/lee.pdf
+      pdf: /media-students/theses/lee-v1.pdf
     - year: 2010
       category: diploma
       name:
@@ -165,7 +165,7 @@ school:
       work:
         ru: Осцилляции нейтрино в веществе в рамках квантовой теории поля.
         en: Neutrino oscillations in matter within quantum field theory.
-      pdf: /students/theses/potapova.pdf
+      pdf: /media-students/theses/potapova-v1.pdf
     - year: 2011
       category: diploma
       name:
@@ -174,7 +174,7 @@ school:
       work:
         ru: Космологические нейтрино.
         en: Cosmological neutrinos.
-      pdf: /students/theses/batozskaya.pdf
+      pdf: /media-students/theses/batozskaya-v1.pdf
     - year: 2011
       category: phd
       name:
@@ -185,7 +185,7 @@ school:
           в эксперименте NOMAD.
         en: Charm-quark production cross section and an estimate of the possible pentaquark Θ<sup>+</sup> in neutrino interactions
           in NOMAD.
-      pdf: /students/theses/samoylov_phd_thesis.pdf
+      pdf: /media-students/theses/samoylov-phd-thesis-v1.pdf
     - year: 2014
       category: diploma
       name:
@@ -194,7 +194,7 @@ school:
       work:
         ru: Определение иерархии масс нейтрино в экспериментах с реакторными и ускорительными нейтрино.
         en: Determination of the neutrino mass hierarchy in reactor and accelerator neutrino experiments.
-      pdf: /students/theses/tayachenachev.pdf
+      pdf: /media-students/theses/tayachenachev-v1.pdf
     - year: 2015
       category: diploma
       name:
@@ -203,7 +203,7 @@ school:
       work:
         ru: Нейтринные осцилляции в веществе и возможность исследования декогеренции в солнечных экспериментах.
         en: Neutrino oscillations in matter and the possibility of studying decoherence in solar experiments.
-      pdf: /students/theses/treskov.pdf
+      pdf: /media-students/theses/treskov-v1.pdf
     - year: 2017
       category: phd
       name:
@@ -213,7 +213,7 @@ school:
         ru: Измерение угла смешивания θ<sub>13</sub> и расщепления масс нейтрино Δm<sup>2</sup><sub>32</sub> в эксперименте
           Daya Bay.
         en: Measurement of θ<sub>13</sub> and Δm<sup>2</sup><sub>32</sub> in the Daya Bay experiment.
-      pdf: /students/theses/gonchar_phd_thesis.pdf
+      pdf: /media-students/theses/gonchar-phd-thesis-v1.pdf
     - year: 2022
       category: bachelor
       name:
@@ -275,7 +275,7 @@ school:
       work:
         ru: Нахождение аналогов нейтринных осцилляций в веществе в классической физике.
         en: Finding analogues of neutrino oscillations in matter in classical physics.
-      pdf: /students/theses/kovalev.pdf
+      pdf: /media-students/theses/kovalev-v1.pdf
     - year: 2026
       category: phd
       name:
@@ -284,7 +284,7 @@ school:
       work:
         ru: Решение задач переноса электромагнитного излучения и нейтрино при моделировании отклика нейтринного телескопа.
         en: Transport of electromagnetic radiation and neutrinos in modeling the response of a neutrino telescope.
-      pdf: /students/theses/allaxwerdian.pdf
+      pdf: /media-students/theses/allaxwerdian-v1.pdf
     - year: 2026
       category: master
       name:
@@ -293,7 +293,7 @@ school:
       work:
         ru: Спин-орбитальные эффекты в распадах (псевдо)скалярных частиц и дифракция закрученных квантовых состояний.
         en: Spin-orbit effects in decays of (pseudo)scalar particles and diffraction of twisted quantum states.
-      pdf: /students/theses/Borodin_dissertation.pdf
+      pdf: /media-students/theses/borodin-dissertation-v1.pdf
   - id: baikal-school
     layout: stacked
     kind:
