@@ -4,7 +4,6 @@ date: "2026-07-20"
 resources:
   - photos/**
   - previews/**
-  - videos/**
 ---
 
 ```{=html}
@@ -130,17 +129,17 @@ resources:
 <figcaption>Малый Кот, оборотная сторона.</figcaption></figure>
 <figure class="published-video">
 <video controls preload="metadata" playsinline>
-<source src="videos/35-vid-20260717-200945.mp4" type="video/mp4">
+<source src="/media-albums/baikal-school-2026/video-35-v1.mp4" type="video/mp4">
 </video>
 </figure>
 <figure class="published-video">
 <video controls preload="metadata" playsinline>
-<source src="videos/36-vid-20260715-172132.mp4" type="video/mp4">
+<source src="/media-albums/baikal-school-2026/video-36-v1.mp4" type="video/mp4">
 </video>
 </figure>
 <figure class="published-video">
 <video controls preload="metadata" playsinline>
-<source src="videos/37-vid-20260717-085018.mp4" type="video/mp4">
+<source src="/media-albums/baikal-school-2026/video-37-v1.mp4" type="video/mp4">
 </video>
 </figure>
 </div>

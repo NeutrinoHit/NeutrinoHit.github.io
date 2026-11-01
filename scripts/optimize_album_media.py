@@ -25,6 +25,7 @@ from typing import Any
 
 SITE_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_ALBUM_ROOT = SITE_ROOT / "albums"
+MEDIA_CATALOG = SITE_ROOT / "media.catalog.json"
 WEB_MAX_EDGE = 2560
 WEB_JPEG_QUALITY = 85
 PREVIEW_MAX_EDGE = 1280
@@ -189,10 +190,25 @@ def optimize_unreferenced_photos(
     return count
 
 
+def published_video(album_dir: Path, rel: str) -> str:
+    """Address of the album video in the shared media library (media-albums) once it is published."""
+    if not MEDIA_CATALOG.is_file():
+        return ""
+    catalog = json.loads(MEDIA_CATALOG.read_text(encoding="utf-8"))
+    path = str((album_dir / rel).resolve().relative_to(SITE_ROOT))
+    for record in catalog["media"]:
+        if record.get("status") == "published" and path in record.get("replaces", []):
+            return (f'{catalog.get("url_prefix", "/")}{record["home"]}/{record["id"]}/'
+                    f'{record["variant"]}-v{record["version"]}.{record.get("ext", "mp4")}')
+    return ""
+
+
 def update_video_item(album_dir: Path, item: dict[str, Any]) -> None:
     rel = Path(str(item["file"]))
     path = album_dir / rel
     if not path.exists():
+        if published_video(album_dir, str(rel)):
+            return              # the film lives in the media library; album.json keeps its facts
         raise FileNotFoundError(path)
     stat = path.stat()
     item["type"] = "video"
@@ -208,20 +224,21 @@ def html_paragraphs(text: str) -> str:
     return "\n".join(f"<p>{html.escape(part)}</p>" for part in parts)
 
 
-def render_figure(item: dict[str, Any]) -> str:
+def render_figure(item: dict[str, Any], album_dir: Path | None = None) -> str:
     kind = media_kind(item)
     caption = str(item.get("caption") or "").strip()
     caption_html = (
         f"\n<figcaption>{html.escape(caption)}</figcaption>" if caption else "\n"
     )
     if kind == "video":
+        src = (published_video(album_dir, str(item["file"])) if album_dir else "") or str(item["file"])
         poster = str(item.get("preview") or "").strip()
         poster_attr = f' poster="{html.escape(poster)}"' if poster else ""
         mime_type = str(item.get("mimeType") or "video/mp4")
         return (
             '<figure class="published-video">\n'
             f'<video controls preload="metadata" playsinline{poster_attr}>\n'
-            f'<source src="{html.escape(str(item["file"]))}" '
+            f'<source src="{html.escape(src)}" '
             f'type="{html.escape(mime_type)}">\n'
             "</video>"
             f"{caption_html}"
@@ -261,7 +278,7 @@ def render_index(album_dir: Path, album: dict[str, Any]) -> None:
         lines.append("</div>")
         lines.append("")
     lines.append('<div class="published-album">')
-    lines.extend(render_figure(item) for item in items)
+    lines.extend(render_figure(item, album_dir) for item in items)
     lines.append("</div>")
     lines.append("```")
     lines.append("")

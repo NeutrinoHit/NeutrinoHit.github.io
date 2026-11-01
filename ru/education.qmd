@@ -73,7 +73,7 @@ toc: false
       <img class="education-program-art" src="../assets/programs/teach-in-neutrino-program.webp" alt="Иллюстрация программы Teach-in по физике нейтрино и астрофизике частиц">
       <figure class="education-program-map">
         <video controls muted playsinline preload="metadata" poster="../assets/programs/teach-in-applications-map-poster.jpg">
-          <source src="../assets/programs/teach-in-applications-map.mp4" type="video/mp4">
+          <source src="/media-neutrino/teach-in-applications/film-map-v1.mp4" type="video/mp4">
         </video>
         <figcaption>География заявок на программу по городам</figcaption>
       </figure>
