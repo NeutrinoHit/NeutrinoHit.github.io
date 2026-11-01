@@ -47,6 +47,10 @@
   "media-neutrinophysics": {
    "title": "NeutrinoHit data: neutrinophysics courses and the solar neutrino masterclass",
    "budget_bytes": 900000000
+  },
+  "media-research": {
+   "title": "NeutrinoHit documents: theses of D. V. Naumov",
+   "budget_bytes": 900000000
   }
  },
  "media": [
@@ -5837,6 +5841,48 @@
    "replaces": [
     "qft-lectures:en/slides/media/scalar-qed-attraction-repulsion/single.mp4"
    ]
+  },
+  {
+   "id": "dn-theses",
+   "variant": "candidate",
+   "version": 1,
+   "home": "media-research",
+   "status": "prepared",
+   "sha256": "2cff82360b3e9adce176c7def818f6bd82e2299d52af12c02814cf929945440c",
+   "bytes": 9082737,
+   "ext": "pdf",
+   "replaces": [
+    "theses/DmitryNaumov_Candidate_Thesis.pdf"
+   ],
+   "source": "D. V. Naumov"
+  },
+  {
+   "id": "dn-theses",
+   "variant": "diploma",
+   "version": 1,
+   "home": "media-research",
+   "status": "prepared",
+   "sha256": "3bf72550e9e88f26eb216c29f1a6f6840f87d861b28a0a78741eef2b28d6d1c0",
+   "bytes": 529266,
+   "ext": "pdf",
+   "replaces": [
+    "theses/DmitryNaumov_Diplom.pdf"
+   ],
+   "source": "D. V. Naumov"
+  },
+  {
+   "id": "dn-theses",
+   "variant": "doctoral",
+   "version": 1,
+   "home": "media-research",
+   "status": "prepared",
+   "sha256": "89c6eb5f84c17cb449714919e70e7b48c07288cd4e78a008ced94a1d73b8bd34",
+   "bytes": 20059678,
+   "ext": "pdf",
+   "replaces": [
+    "theses/DmitryNaumov_Doctoral_Thesis.pdf"
+   ],
+   "source": "D. V. Naumov"
   },
   {
    "id": "bbn-nucleosynthesis",

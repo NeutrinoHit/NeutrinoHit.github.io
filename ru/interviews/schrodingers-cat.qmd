@@ -16,8 +16,7 @@ toc: false
 :::
 
 ```{=html}
-<div class="interview-player is-video"><iframe src="https://www.1tv.ru/embed/287362:12" title="Кот Шрёдингера. Как поймать нейтрино?" loading="lazy" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe></div>
-<p class="interview-origin">Выпуск на <a href="https://www.1tv.ru/podcasts/kot-shredingera/vypuski/kot-shredingera-kak-poymat-neytrino-vypusk-ot-11-03-2026" rel="noopener">1tv.ru</a></p>
+<p class="interview-origin">Смотреть выпуск на сайте Первого канала: <a href="https://www.1tv.ru/podcasts/kot-shredingera/vypuski/kot-shredingera-kak-poymat-neytrino-vypusk-ot-11-03-2026" rel="noopener">1tv.ru</a></p>
 ```
 
 ::: {.interview-lead}

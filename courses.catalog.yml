@@ -500,8 +500,8 @@ courses:
   - {n: '03', title: Характеристические функции и суммы случайных величин, slides: /statistical-analysis-course/ru/slides/03_characteristic_functions.html, exercises: /statistical-analysis-course/ru/slides/exercises/03_characteristic_functions_exercises.html, video: qYEK6F2h7sc, seconds: 5124}
   - {n: '04', title: Центральная предельная теорема и нормальное распределение, slides: /statistical-analysis-course/ru/slides/04_central_limit_theorem.html, exercises: /statistical-analysis-course/ru/slides/exercises/04_central_limit_theorem_exercises.html, video: XMpp4KFtO8c, seconds: 3444}
   - {n: '05', title: Когда гаусс не возникает, slides: /statistical-analysis-course/ru/slides/05_non_gaussian_clt_violations.html, exercises: /statistical-analysis-course/ru/slides/exercises/05_non_gaussian_clt_violations_exercises.html, video: 3_B_CiVg5_o, seconds: 4561}
-  - {n: '06', title: Распространение ошибок, slides: /statistical-analysis-course/ru/slides/06_error_propagation.html, exercises: /statistical-analysis-course/ru/slides/exercises/06_error_propagation_exercises.html}
-  - {n: '07', title: Двумерный гаусс, slides: /statistical-analysis-course/ru/slides/07_two_dimensional_gaussian.html, exercises: /statistical-analysis-course/ru/slides/exercises/07_two_dimensional_gaussian_exercises.html}
+  - {n: '06', title: Распространение ошибок, slides: /statistical-analysis-course/ru/slides/06_error_propagation.html, exercises: /statistical-analysis-course/ru/slides/exercises/06_error_propagation_exercises.html, video: -pczI5cxiiY, seconds: 6049}
+  - {n: '07', title: Двумерный гаусс, slides: /statistical-analysis-course/ru/slides/07_two_dimensional_gaussian.html, exercises: /statistical-analysis-course/ru/slides/exercises/07_two_dimensional_gaussian_exercises.html, video: 0LGQlFzkRnk, seconds: 2863}
   - n: 08
     title: Метод Монте-Карло и псевдоэксперименты
     slides: /statistical-analysis-course/ru/slides/08_monte_carlo_method.html
