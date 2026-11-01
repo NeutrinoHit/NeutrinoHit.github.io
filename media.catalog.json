@@ -1055,7 +1055,8 @@
    "title": {
     "ru": "Аналогия: связанные осцилляторы",
     "en": "An analogy: coupled oscillators"
-   }
+   },
+   "source": "dvnanima/fields/coupled_oscillators_2d"
   },
   {
    "id": "coupled-oscillators",
@@ -3321,7 +3322,8 @@
    "faststart": true,
    "replaces": [
     "assets/programs/teach-in-applications-map.mp4"
-   ]
+   ],
+   "source": "neutrinohit-map/scripts/update_teachin_applications_map.py"
   },
   {
    "id": "telescope-events",
@@ -3495,7 +3497,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/b8_spectrum.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-data",
@@ -3508,7 +3511,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/be7_lines.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-data",
@@ -3521,7 +3525,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/electron_density_profile_toy.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-data",
@@ -3534,7 +3539,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/solar_fluxes_reference.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-project",
@@ -3547,7 +3553,8 @@
    "ext": "zip",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-student",
@@ -3560,7 +3567,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/student/detector_response.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-student",
@@ -3573,7 +3581,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/student/earth_regeneration.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-student",
@@ -3586,7 +3595,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/student/mass_state_cross_sections.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-student",
@@ -3599,7 +3609,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/student/oscillation_probabilities.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-student",
@@ -3612,7 +3623,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/student/peanuts_solar_energy_spectrum.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-student",
@@ -3625,7 +3637,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/student/peanuts_solar_line_sources.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-student",
@@ -3638,7 +3651,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/student/pseudo_data_sk_daynight.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-student",
@@ -3651,7 +3665,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/student/radial_production_profiles.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-student",
@@ -3664,7 +3679,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/student/solar_electron_density.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass-student",
@@ -3677,7 +3693,8 @@
    "ext": "zip",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/student/solar_neutrino_student_data.zip"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass1",
@@ -3692,7 +3709,8 @@
     "neutrinophysics:solar-neutrino-masterclass/data/masterclass1/energy_spectra.csv",
     "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/energy_spectra.csv",
     "neutrinophysics:solar-neutrino-masterclass/data/student/energy_spectra.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass1",
@@ -3705,7 +3723,8 @@
    "ext": "zip",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass1",
@@ -3720,7 +3739,8 @@
     "neutrinophysics:solar-neutrino-masterclass/data/masterclass1/nu_electron_recoil_cross_sections.csv",
     "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/nu_electron_recoil_cross_sections.csv",
     "neutrinophysics:solar-neutrino-masterclass/data/student/nu_electron_recoil_cross_sections.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass1",
@@ -3735,7 +3755,8 @@
     "neutrinophysics:solar-neutrino-masterclass/data/masterclass1/solar_fluxes.csv",
     "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/solar_fluxes.csv",
     "neutrinophysics:solar-neutrino-masterclass/data/student/solar_fluxes.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass2",
@@ -3748,7 +3769,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/earth_regeneration_grid.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass2",
@@ -3761,7 +3783,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/earth_regeneration_parameter_scan.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass2",
@@ -3774,7 +3797,8 @@
    "ext": "zip",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "masterclass2",
@@ -3787,7 +3811,8 @@
    "ext": "csv",
    "replaces": [
     "neutrinophysics:solar-neutrino-masterclass/data/masterclass2/oscillation_probabilities_grid.csv"
-   ]
+   ],
+   "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
    "id": "baikal-minicourse",
@@ -4143,7 +4168,8 @@
    "faststart": true,
    "replaces": [
     "particlephysics:IntroParticlePhysicsBaikal/slides/media/sm-field-mattress/StandardModelFieldMattress.mp4"
-   ]
+   ],
+   "source": "dvnanima/fields/sm_field_mattress"
   },
   {
    "id": "black-hole-flyby",
@@ -5829,7 +5855,8 @@
    "faststart": true,
    "replaces": [
     "sciencepop:BirthAndLifeUniverse/assets/figures/bbn-nucleosynthesis-manim.mp4"
-   ]
+   ],
+   "source": "dvnanima/BBN"
   },
   {
    "id": "black-hole-feedback",
@@ -6041,7 +6068,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/allaxwerdian.pdf"
-   ]
+   ],
+   "source": "thesis of Vladimir A. Allakhverdyan"
   },
   {
    "id": "theses",
@@ -6054,7 +6082,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/batozskaya.pdf"
-   ]
+   ],
+   "source": "thesis of Varvara S. Batozskaya"
   },
   {
    "id": "theses",
@@ -6067,7 +6096,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/biktemerova_diplom.pdf"
-   ]
+   ],
+   "source": "thesis of Svetlana V. Biktemerova"
   },
   {
    "id": "theses",
@@ -6080,7 +6110,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/Borodin_dissertation.pdf"
-   ]
+   ],
+   "source": "thesis of Nikita S. Borodin"
   },
   {
    "id": "theses",
@@ -6093,7 +6124,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/chukanov_diplom.pdf"
-   ]
+   ],
+   "source": "thesis of Artem V. Chukanov"
   },
   {
    "id": "theses",
@@ -6106,7 +6138,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/chukanov_phd_thesis.pdf"
-   ]
+   ],
+   "source": "thesis of Artem V. Chukanov"
   },
   {
    "id": "theses",
@@ -6119,7 +6152,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/gonchar_diploma.pdf"
-   ]
+   ],
+   "source": "thesis of Maxim O. Gonchar"
   },
   {
    "id": "theses",
@@ -6132,7 +6166,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/gonchar_phd_thesis.pdf"
-   ]
+   ],
+   "source": "thesis of Maxim O. Gonchar"
   },
   {
    "id": "theses",
@@ -6145,7 +6180,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/kovalev.pdf"
-   ]
+   ],
+   "source": "thesis of Maxim B. Kovalev"
   },
   {
    "id": "theses",
@@ -6158,7 +6194,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/kustov.pdf"
-   ]
+   ],
+   "source": "thesis of D. V. Kustov"
   },
   {
    "id": "theses",
@@ -6171,7 +6208,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/lee.pdf"
-   ]
+   ],
+   "source": "thesis of Vyacheslav A. Li"
   },
   {
    "id": "theses",
@@ -6184,7 +6222,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/lyubushkin.pdf"
-   ]
+   ],
+   "source": "thesis of Vladimir V. Lyubushkin"
   },
   {
    "id": "theses",
@@ -6197,7 +6236,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/potapova.pdf"
-   ]
+   ],
+   "source": "thesis of Irina V. Potapova"
   },
   {
    "id": "theses",
@@ -6210,7 +6250,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/samoylov_diploma.pdf"
-   ]
+   ],
+   "source": "thesis of Oleg B. Samoylov"
   },
   {
    "id": "theses",
@@ -6223,7 +6264,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/samoylov_phd_thesis.pdf"
-   ]
+   ],
+   "source": "thesis of Oleg B. Samoylov"
   },
   {
    "id": "theses",
@@ -6236,7 +6278,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/sheshukov.pdf"
-   ]
+   ],
+   "source": "thesis of Andrey S. Sheshukov"
   },
   {
    "id": "theses",
@@ -6249,7 +6292,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/tayachenachev.pdf"
-   ]
+   ],
+   "source": "thesis of Dmitry V. Taychenachev"
   },
   {
    "id": "theses",
@@ -6262,7 +6306,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/treskov.pdf"
-   ]
+   ],
+   "source": "thesis of Konstantin A. Treskov"
   },
   {
    "id": "theses",
@@ -6275,7 +6320,8 @@
    "ext": "pdf",
    "replaces": [
     "students/theses/zavyalov_diploma.pdf"
-   ]
+   ],
+   "source": "thesis of a student (not listed on the school page)"
   },
   {
    "id": "air-shower",
