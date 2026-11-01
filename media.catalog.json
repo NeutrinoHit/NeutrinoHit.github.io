@@ -15,6 +15,10 @@
   "media-mechanics": {
    "title": "NeutrinoHit films: mechanics, dynamical systems, optics",
    "budget_bytes": 900000000
+  },
+  "media-talks": {
+   "title": "NeutrinoHit films: talks",
+   "budget_bytes": 900000000
   }
  },
  "media": [
@@ -779,29 +783,6 @@
   },
   {
    "id": "air-shower",
-   "variant": "film",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "33a3af496a3105a80098056d796e88cf4f84058038696a75382cbf87564026cb",
-   "bytes": 705408,
-   "duration_s": 3.15,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": false,
-   "faststart": true,
-   "replaces": [
-    "talks:georgia-2026/media/juno-atmospheric-shower.mp4"
-   ],
-   "title": {
-    "ru": "Широкий атмосферный ливень",
-    "en": "Extensive air shower"
-   }
-  },
-  {
-   "id": "air-shower",
    "variant": "web-en",
    "version": 1,
    "home": "media-neutrino",
@@ -1522,52 +1503,6 @@
   },
   {
    "id": "jet-launch",
-   "variant": "film-en",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "6e0fd24a29df8628203ed010b1872ca608fb91a3742c8c5dcfc68afc141a1839",
-   "bytes": 23399589,
-   "duration_s": 98.4,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": true,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-2026/media/jets/jet_launch_en.mp4"
-   ],
-   "title": {
-    "ru": "От звезды к джету: откуда берётся мощность",
-    "en": "From a star to a jet: where the power comes from"
-   }
-  },
-  {
-   "id": "jet-launch",
-   "variant": "film-ru",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "36ae6c74be160e0a52bfe97cbff4a131d2a18066f2ffc290e73c632a29e70035",
-   "bytes": 23667514,
-   "duration_s": 98.4,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": true,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-ru-2026/media/films/jet_launch_ru.mp4"
-   ],
-   "title": {
-    "ru": "От звезды к джету: откуда берётся мощность",
-    "en": "From a star to a jet: where the power comes from"
-   }
-  },
-  {
-   "id": "jet-launch",
    "variant": "web-en",
    "version": 1,
    "home": "media-neutrino",
@@ -1870,30 +1805,6 @@
   },
   {
    "id": "mass-hierarchy",
-   "variant": "film-scales",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "e7bc6da51e5ab0d23f2528c0315eab3c4b412b831ea7e980d4d099c61a1e2623",
-   "bytes": 521695,
-   "duration_s": 11.43,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": false,
-   "faststart": true,
-   "replaces": [
-    "talks:georgia-2026/media/NeutrinoHierarchyScales.mp4",
-    "talks:protvino-2026/media/NeutrinoHierarchyScales.mp4"
-   ],
-   "title": {
-    "ru": "Иерархия масс нейтрино",
-    "en": "Neutrino mass ordering"
-   }
-  },
-  {
-   "id": "mass-hierarchy",
    "variant": "web-scales",
    "version": 1,
    "home": "media-neutrino",
@@ -1937,52 +1848,6 @@
    "title": {
     "ru": "Порядок масс нейтрино",
     "en": "The ordering of the neutrino masses"
-   }
-  },
-  {
-   "id": "milky-way-neutrinos",
-   "variant": "film-en",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "cfffc82bf08496f5d265437c357f41ccd393d8b6f35904d8310b873f6b3b0d3d",
-   "bytes": 9814032,
-   "duration_s": 72.4,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": true,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-2026/media/galactic/milky_way_neutrinos_en.mp4"
-   ],
-   "title": {
-    "ru": "Млечный Путь в нейтрино",
-    "en": "The Milky Way in neutrinos"
-   }
-  },
-  {
-   "id": "milky-way-neutrinos",
-   "variant": "film-ru",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "3ebb9de193af032cfad06e0fbb847b94485f9488e815fea2c9993c8a814f7b2c",
-   "bytes": 9992905,
-   "duration_s": 72.4,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": true,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-ru-2026/media/films/milky_way_neutrinos_ru.mp4"
-   ],
-   "title": {
-    "ru": "Млечный Путь в нейтрино",
-    "en": "The Milky Way in neutrinos"
    }
   },
   {
@@ -2468,29 +2333,6 @@
   },
   {
    "id": "neutrino-reconstruction",
-   "variant": "film-en",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "b713f0cb1fc4682fdfe55406d0cbee202cc23ddb11ef46d8c5503cc64f1ab2cf",
-   "bytes": 938850,
-   "duration_s": 48.0,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": false,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-2026/media/reconstruction/reconstruction_en.mp4"
-   ],
-   "title": {
-    "ru": "Как восстановить невидимый трек мюона",
-    "en": "Reconstructing an invisible muon track"
-   }
-  },
-  {
-   "id": "neutrino-reconstruction",
    "variant": "web-en",
    "version": 1,
    "home": "media-neutrino",
@@ -2510,52 +2352,6 @@
    "title": {
     "ru": "Как восстановить невидимый трек мюона",
     "en": "Reconstructing an invisible muon track"
-   }
-  },
-  {
-   "id": "neutrino-telescope",
-   "variant": "film-electron-en",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "963232e9a0b956fd368fe95f5e2ca8ed2c4e417544da05c4223a0235c420bf90",
-   "bytes": 712311,
-   "duration_s": 20.0,
-   "width": 1280,
-   "height": 720,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": false,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-2026/media/neutrino_telescope/electron_lecture_en.mp4"
-   ],
-   "title": {
-    "ru": "Черенковский свет: мюон и электронный каскад",
-    "en": "Cherenkov light: a muon and an electron cascade"
-   }
-  },
-  {
-   "id": "neutrino-telescope",
-   "variant": "film-muon-en",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "97004bd6872690f75f6ddb3152a9fa9c1c89d1f7006414a9b3dd8d9c31148dd1",
-   "bytes": 832710,
-   "duration_s": 20.0,
-   "width": 1280,
-   "height": 720,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": false,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-2026/media/neutrino_telescope/muon_lecture_en.mp4"
-   ],
-   "title": {
-    "ru": "Черенковский свет: мюон и электронный каскад",
-    "en": "Cherenkov light: a muon and an electron cascade"
    }
   },
   {
@@ -2788,29 +2584,6 @@
    "title": {
     "ru": "Фотоумножитель",
     "en": "Photomultiplier"
-   }
-  },
-  {
-   "id": "pmt-multiplication",
-   "variant": "film-avalanche-en",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "3f6ca56834c67ef770513b2ee285a4e12b6eb7314350cb03c37365c1c449702e",
-   "bytes": 960590,
-   "duration_s": 40.0,
-   "width": 1280,
-   "height": 720,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": false,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-2026/media/principles/pmt_multiplication_en.mp4"
-   ],
-   "title": {
-    "ru": "Умножение электронов в ФЭУ",
-    "en": "Electron multiplication in a PMT"
    }
   },
   {
@@ -3233,52 +3006,6 @@
   },
   {
    "id": "source-emerges",
-   "variant": "film-en",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "61fee392f160af969fa2ed845c6e6019f2d7c5a6085bb7d9d6e563fc09510be1",
-   "bytes": 9775636,
-   "duration_s": 57.4,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": true,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-2026/media/sensitivity/source_emerges_en.mp4"
-   ],
-   "title": {
-    "ru": "Источник проступает",
-    "en": "A source emerges"
-   }
-  },
-  {
-   "id": "source-emerges",
-   "variant": "film-ru",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "9585dc98672e73215e0c0195522063eea9e73f173ccd95610d8ca6ba415e601f",
-   "bytes": 9733656,
-   "duration_s": 57.4,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": true,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-ru-2026/media/films/source_emerges_ru.mp4"
-   ],
-   "title": {
-    "ru": "Источник проступает",
-    "en": "A source emerges"
-   }
-  },
-  {
-   "id": "source-emerges",
    "variant": "web-en",
    "version": 1,
    "home": "media-neutrino",
@@ -3417,52 +3144,6 @@
   },
   {
    "id": "star-in-jet",
-   "variant": "film-en",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "5bfca727909455c5130b116563be3718b9850223ad8a2159fd153cb15318602b",
-   "bytes": 78301889,
-   "duration_s": 97.4,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": true,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-2026/media/jets/jet_star_en.mp4"
-   ],
-   "title": {
-    "ru": "Звезда в джете: один из способов родить нейтрино",
-    "en": "A star in the jet: one way to make neutrinos"
-   }
-  },
-  {
-   "id": "star-in-jet",
-   "variant": "film-ru",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "a26ea9b0cb07234532bca4575e4eee2c80cf99bfd46a28afcead73cbf9789be3",
-   "bytes": 77901655,
-   "duration_s": 97.4,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": true,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-ru-2026/media/films/jet_star_ru.mp4"
-   ],
-   "title": {
-    "ru": "Звезда в джете: один из способов родить нейтрино",
-    "en": "A star in the jet: one way to make neutrinos"
-   }
-  },
-  {
-   "id": "star-in-jet",
    "variant": "web-en",
    "version": 1,
    "home": "media-neutrino",
@@ -3505,98 +3186,6 @@
    "title": {
     "ru": "Звезда в джете: один из способов родить нейтрино",
     "en": "A star in the jet: one way to make neutrinos"
-   }
-  },
-  {
-   "id": "telescope-events",
-   "variant": "film-nue-cc-en",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "1a6e48430a095808570f3f702e139a1f3cda1bc8c0d33e92f2d343b11526a23e",
-   "bytes": 4291117,
-   "duration_s": 17.5,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": false,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-2026/media/events/lighthit_nue_cc_en.mp4"
-   ],
-   "title": {
-    "ru": "Свет нейтринного события в телескопе",
-    "en": "The light of a neutrino event in a telescope"
-   }
-  },
-  {
-   "id": "telescope-events",
-   "variant": "film-nue-cc-ru",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "674f6f788b71db6e3e9e4982049267fbf4eedb3b27b9e17f0d0e900f15fd0c48",
-   "bytes": 4311967,
-   "duration_s": 17.5,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": false,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-ru-2026/media/films/lighthit_nue_cc_ru.mp4"
-   ],
-   "title": {
-    "ru": "Свет нейтринного события в телескопе",
-    "en": "The light of a neutrino event in a telescope"
-   }
-  },
-  {
-   "id": "telescope-events",
-   "variant": "film-numu-cc-en",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "e85f565b3d8ba0a886a99e03903e5466113b7f6cbb98fdfdaed9d31e4c61487d",
-   "bytes": 6307779,
-   "duration_s": 17.5,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": false,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-2026/media/events/lighthit_numu_cc_en.mp4"
-   ],
-   "title": {
-    "ru": "Свет нейтринного события в телескопе",
-    "en": "The light of a neutrino event in a telescope"
-   }
-  },
-  {
-   "id": "telescope-events",
-   "variant": "film-numu-cc-ru",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "33dbbc6566d39075f729d390f186e2d94e5fa288c2a147e396374366666fd156",
-   "bytes": 6361360,
-   "duration_s": 17.5,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": false,
-   "faststart": true,
-   "replaces": [
-    "talks:neutrino-telescopes-ru-2026/media/films/lighthit_numu_cc_ru.mp4"
-   ],
-   "title": {
-    "ru": "Свет нейтринного события в телескопе",
-    "en": "The light of a neutrino event in a telescope"
    }
   },
   {
@@ -5368,6 +4957,421 @@
    "title": {
     "ru": "Электрон в вакуумном поле: нулевые колебания",
     "en": "An electron in the vacuum field: zero-point fluctuations"
+   }
+  },
+  {
+   "id": "air-shower",
+   "variant": "film",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "33a3af496a3105a80098056d796e88cf4f84058038696a75382cbf87564026cb",
+   "bytes": 705408,
+   "duration_s": 3.15,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:georgia-2026/media/juno-atmospheric-shower.mp4"
+   ],
+   "title": {
+    "ru": "Широкий атмосферный ливень",
+    "en": "Extensive air shower"
+   }
+  },
+  {
+   "id": "jet-launch",
+   "variant": "film-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "6e0fd24a29df8628203ed010b1872ca608fb91a3742c8c5dcfc68afc141a1839",
+   "bytes": 23399589,
+   "duration_s": 98.4,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/jets/jet_launch_en.mp4"
+   ],
+   "title": {
+    "ru": "От звезды к джету: откуда берётся мощность",
+    "en": "From a star to a jet: where the power comes from"
+   }
+  },
+  {
+   "id": "jet-launch",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "36ae6c74be160e0a52bfe97cbff4a131d2a18066f2ffc290e73c632a29e70035",
+   "bytes": 23667514,
+   "duration_s": 98.4,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-ru-2026/media/films/jet_launch_ru.mp4"
+   ],
+   "title": {
+    "ru": "От звезды к джету: откуда берётся мощность",
+    "en": "From a star to a jet: where the power comes from"
+   }
+  },
+  {
+   "id": "mass-hierarchy",
+   "variant": "film-scales",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "e7bc6da51e5ab0d23f2528c0315eab3c4b412b831ea7e980d4d099c61a1e2623",
+   "bytes": 521695,
+   "duration_s": 11.43,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:georgia-2026/media/NeutrinoHierarchyScales.mp4",
+    "talks:protvino-2026/media/NeutrinoHierarchyScales.mp4"
+   ],
+   "title": {
+    "ru": "Иерархия масс нейтрино",
+    "en": "Neutrino mass ordering"
+   }
+  },
+  {
+   "id": "milky-way-neutrinos",
+   "variant": "film-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "cfffc82bf08496f5d265437c357f41ccd393d8b6f35904d8310b873f6b3b0d3d",
+   "bytes": 9814032,
+   "duration_s": 72.4,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/galactic/milky_way_neutrinos_en.mp4"
+   ],
+   "title": {
+    "ru": "Млечный Путь в нейтрино",
+    "en": "The Milky Way in neutrinos"
+   }
+  },
+  {
+   "id": "milky-way-neutrinos",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "3ebb9de193af032cfad06e0fbb847b94485f9488e815fea2c9993c8a814f7b2c",
+   "bytes": 9992905,
+   "duration_s": 72.4,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-ru-2026/media/films/milky_way_neutrinos_ru.mp4"
+   ],
+   "title": {
+    "ru": "Млечный Путь в нейтрино",
+    "en": "The Milky Way in neutrinos"
+   }
+  },
+  {
+   "id": "neutrino-reconstruction",
+   "variant": "film-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "b713f0cb1fc4682fdfe55406d0cbee202cc23ddb11ef46d8c5503cc64f1ab2cf",
+   "bytes": 938850,
+   "duration_s": 48.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/reconstruction/reconstruction_en.mp4"
+   ],
+   "title": {
+    "ru": "Как восстановить невидимый трек мюона",
+    "en": "Reconstructing an invisible muon track"
+   }
+  },
+  {
+   "id": "neutrino-telescope",
+   "variant": "film-electron-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "963232e9a0b956fd368fe95f5e2ca8ed2c4e417544da05c4223a0235c420bf90",
+   "bytes": 712311,
+   "duration_s": 20.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/neutrino_telescope/electron_lecture_en.mp4"
+   ],
+   "title": {
+    "ru": "Черенковский свет: мюон и электронный каскад",
+    "en": "Cherenkov light: a muon and an electron cascade"
+   }
+  },
+  {
+   "id": "neutrino-telescope",
+   "variant": "film-muon-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "97004bd6872690f75f6ddb3152a9fa9c1c89d1f7006414a9b3dd8d9c31148dd1",
+   "bytes": 832710,
+   "duration_s": 20.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/neutrino_telescope/muon_lecture_en.mp4"
+   ],
+   "title": {
+    "ru": "Черенковский свет: мюон и электронный каскад",
+    "en": "Cherenkov light: a muon and an electron cascade"
+   }
+  },
+  {
+   "id": "pmt-multiplication",
+   "variant": "film-avalanche-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "3f6ca56834c67ef770513b2ee285a4e12b6eb7314350cb03c37365c1c449702e",
+   "bytes": 960590,
+   "duration_s": 40.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/principles/pmt_multiplication_en.mp4"
+   ],
+   "title": {
+    "ru": "Умножение электронов в ФЭУ",
+    "en": "Electron multiplication in a PMT"
+   }
+  },
+  {
+   "id": "source-emerges",
+   "variant": "film-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "61fee392f160af969fa2ed845c6e6019f2d7c5a6085bb7d9d6e563fc09510be1",
+   "bytes": 9775636,
+   "duration_s": 57.4,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/sensitivity/source_emerges_en.mp4"
+   ],
+   "title": {
+    "ru": "Источник проступает",
+    "en": "A source emerges"
+   }
+  },
+  {
+   "id": "source-emerges",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "9585dc98672e73215e0c0195522063eea9e73f173ccd95610d8ca6ba415e601f",
+   "bytes": 9733656,
+   "duration_s": 57.4,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-ru-2026/media/films/source_emerges_ru.mp4"
+   ],
+   "title": {
+    "ru": "Источник проступает",
+    "en": "A source emerges"
+   }
+  },
+  {
+   "id": "star-in-jet",
+   "variant": "film-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "5bfca727909455c5130b116563be3718b9850223ad8a2159fd153cb15318602b",
+   "bytes": 78301889,
+   "duration_s": 97.4,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/jets/jet_star_en.mp4"
+   ],
+   "title": {
+    "ru": "Звезда в джете: один из способов родить нейтрино",
+    "en": "A star in the jet: one way to make neutrinos"
+   }
+  },
+  {
+   "id": "star-in-jet",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "a26ea9b0cb07234532bca4575e4eee2c80cf99bfd46a28afcead73cbf9789be3",
+   "bytes": 77901655,
+   "duration_s": 97.4,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-ru-2026/media/films/jet_star_ru.mp4"
+   ],
+   "title": {
+    "ru": "Звезда в джете: один из способов родить нейтрино",
+    "en": "A star in the jet: one way to make neutrinos"
+   }
+  },
+  {
+   "id": "telescope-events",
+   "variant": "film-nue-cc-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "1a6e48430a095808570f3f702e139a1f3cda1bc8c0d33e92f2d343b11526a23e",
+   "bytes": 4291117,
+   "duration_s": 17.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/events/lighthit_nue_cc_en.mp4"
+   ],
+   "title": {
+    "ru": "Свет нейтринного события в телескопе",
+    "en": "The light of a neutrino event in a telescope"
+   }
+  },
+  {
+   "id": "telescope-events",
+   "variant": "film-nue-cc-ru",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "674f6f788b71db6e3e9e4982049267fbf4eedb3b27b9e17f0d0e900f15fd0c48",
+   "bytes": 4311967,
+   "duration_s": 17.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-ru-2026/media/films/lighthit_nue_cc_ru.mp4"
+   ],
+   "title": {
+    "ru": "Свет нейтринного события в телескопе",
+    "en": "The light of a neutrino event in a telescope"
+   }
+  },
+  {
+   "id": "telescope-events",
+   "variant": "film-numu-cc-en",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "e85f565b3d8ba0a886a99e03903e5466113b7f6cbb98fdfdaed9d31e4c61487d",
+   "bytes": 6307779,
+   "duration_s": 17.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-2026/media/events/lighthit_numu_cc_en.mp4"
+   ],
+   "title": {
+    "ru": "Свет нейтринного события в телескопе",
+    "en": "The light of a neutrino event in a telescope"
+   }
+  },
+  {
+   "id": "telescope-events",
+   "variant": "film-numu-cc-ru",
+   "version": 1,
+   "home": "media-talks",
+   "status": "prepared",
+   "sha256": "33dbbc6566d39075f729d390f186e2d94e5fa288c2a147e396374366666fd156",
+   "bytes": 6361360,
+   "duration_s": 17.5,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "talks:neutrino-telescopes-ru-2026/media/films/lighthit_numu_cc_ru.mp4"
+   ],
+   "title": {
+    "ru": "Свет нейтринного события в телескопе",
+    "en": "The light of a neutrino event in a telescope"
    }
   }
  ]
