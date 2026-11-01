@@ -14,7 +14,7 @@ from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_GTRACKER_DIR = ROOT.parent / "gTracker"
+DEFAULT_GTRACKER_DIR = ROOT.parent / "dvnanima" / "gtracker"
 DEFAULT_SHEET_ID = "1SKOLwN3Z0NBhId9u7V5wXz3iqPsoCJ5_Tp7-h8-mXLo"
 DEFAULT_WORKSHEET = "Заявки"
 DEFAULT_MP4 = ROOT / "assets/programs/teach-in-applications-map.mp4"
