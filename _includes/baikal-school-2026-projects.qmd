@@ -687,9 +687,9 @@ This data-driven project is based on the Solar Neutrino Masterclass. Students bu
 
 - [Open the Solar Neutrino Masterclass](../neutrinophysics/solar-neutrino-masterclass/index.html)
 - [Open the integrated project](../neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html)
-- [Download the project data archive](../neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip)
-- [Download masterclass 1 data](../neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip)
-- [Download masterclass 2 data](../neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip)
+- [Download the project data archive](https://neutrinohit.github.io/media-neutrinophysics/masterclass-project/solar-neutrino-project-data-v1.zip)
+- [Download masterclass 1 data](https://neutrinohit.github.io/media-neutrinophysics/masterclass1/masterclass1-data-v1.zip)
+- [Download masterclass 2 data](https://neutrinohit.github.io/media-neutrinophysics/masterclass2/masterclass2-data-v1.zip)
 
 **Goal**
 

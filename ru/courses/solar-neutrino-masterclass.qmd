@@ -27,7 +27,7 @@ toc: false
     <h3>Проект. SK-like fit</h3>
     <div class="lecture-course-actions">
       <a href="../../neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html">Открыть проект</a>
-      <a href="../../neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip">Данные проекта</a>
+      <a href="https://neutrinohit.github.io/media-neutrinophysics/masterclass-project/solar-neutrino-project-data-v1.zip">Данные проекта</a>
     </div>
   </div>
   <div class="course-page-card" id="lecture-00-more">
@@ -39,13 +39,13 @@ toc: false
   <div class="course-page-card" id="lecture-01-more">
     <h3>К лекции 01</h3>
     <div class="lecture-course-actions">
-      <a href="../../neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip">Данные мастер-класса 1</a>
+      <a href="https://neutrinohit.github.io/media-neutrinophysics/masterclass1/masterclass1-data-v1.zip">Данные мастер-класса 1</a>
     </div>
   </div>
   <div class="course-page-card" id="lecture-02-more">
     <h3>К лекции 02</h3>
     <div class="lecture-course-actions">
-      <a href="../../neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip">Данные мастер-класса 2</a>
+      <a href="https://neutrinohit.github.io/media-neutrinophysics/masterclass2/masterclass2-data-v1.zip">Данные мастер-класса 2</a>
     </div>
   </div>
   <h2 class="course-page-section">Ещё в этом разделе</h2>

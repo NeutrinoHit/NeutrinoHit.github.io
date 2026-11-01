@@ -679,12 +679,12 @@ courses:
     title: Fluxes, event rates, normalization fit
     slides: /neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html
     extra:
-    - {label: Данные мастер-класса 1, href: /neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip}
+    - {label: Данные мастер-класса 1, href: https://neutrinohit.github.io/media-neutrinophysics/masterclass1/masterclass1-data-v1.zip}
   - n: '02'
     title: Oscillations and fit
     slides: /neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html
     extra:
-    - {label: Данные мастер-класса 2, href: /neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip}
+    - {label: Данные мастер-класса 2, href: https://neutrinohit.github.io/media-neutrinophysics/masterclass2/masterclass2-data-v1.zip}
   lectures_en:
   - n: '00'
     title: Solar Neutrinos and Oscillations
@@ -695,22 +695,22 @@ courses:
     title: Fluxes, event rates, normalization fit
     slides: /neutrinophysics/solar-neutrino-masterclass/slides/01_solar_sources.html
     extra:
-    - {label: Masterclass 1 data, href: /neutrinophysics/solar-neutrino-masterclass/data/masterclass1/masterclass1_data.zip}
+    - {label: Masterclass 1 data, href: https://neutrinohit.github.io/media-neutrinophysics/masterclass1/masterclass1-data-v1.zip}
   - n: '02'
     title: Oscillations and fit
     slides: /neutrinophysics/solar-neutrino-masterclass/slides/02_msw_detector_statistics.html
     extra:
-    - {label: Masterclass 2 data, href: /neutrinophysics/solar-neutrino-masterclass/data/masterclass2/masterclass2_data.zip}
+    - {label: Masterclass 2 data, href: https://neutrinohit.github.io/media-neutrinophysics/masterclass2/masterclass2-data-v1.zip}
   materials:
   - title: Проект. SK-like fit
     items:
     - {label: Открыть проект, href: /neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html}
-    - {label: Данные проекта, href: /neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip}
+    - {label: Данные проекта, href: https://neutrinohit.github.io/media-neutrinophysics/masterclass-project/solar-neutrino-project-data-v1.zip}
   materials_en:
   - title: Project. SK-like fit
     items:
     - {label: Open project, href: /neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html}
-    - {label: Project data, href: /neutrinophysics/solar-neutrino-masterclass/data/project/solar_neutrino_project_data.zip}
+    - {label: Project data, href: https://neutrinohit.github.io/media-neutrinophysics/masterclass-project/solar-neutrino-project-data-v1.zip}
   related: [neutrino-introduction, oscillations-minicourse, neutrino-oscillation-theory]
 - slug: neutrino-oscillation-theory
   anchor: oscillations
