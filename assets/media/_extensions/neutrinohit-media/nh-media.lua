@@ -1,6 +1,6 @@
 -- Filter (add "neutrinohit-media" to filters): "nh:<id>/<variant>" in a slide background
 -- ({background-video="nh:star-in-jet/film-en"}) or an image/link target becomes the
--- address of the shared film.
+-- absolute address of the shared film (core.absolute_src).
 
 local core = dofile(quarto.utils.resolve_path("core.lua"))
 local KEYS = { "background-video", "data-background-video", "src", "data-src" }

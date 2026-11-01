@@ -22,9 +22,7 @@ local function nh_url(args, kwargs, meta, raw_args, context)
   local id = value_of(args[1])
   local variant = value_of(kwargs["variant"])
   if id == "" or variant == "" then error("nh-url: usage {{< nh-url <id> variant=\"<variant>\" >}}") end
-  local src = core.src(id, variant)
-  if src:sub(1, 1) == "/" and not os.getenv("NH_MEDIA_PREVIEW") then src = "https://neutrinohit.github.io" .. src end
-  local address = escape(src)
+  local address = escape(core.absolute_src(id, variant))
   if context == "text" then return address end
   return pandoc.RawInline("html", address)
 end

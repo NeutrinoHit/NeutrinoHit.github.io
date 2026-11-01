@@ -39,10 +39,23 @@ function M.src(id, variant)
   return pandoc.path.make_relative(file, pandoc.path.directory(quarto.doc.input_file), true)
 end
 
--- "nh:<id>/<variant>" -> address; anything else unchanged
+-- The same address made absolute (https://neutrinohit.github.io/...) once published: Quarto
+-- rewrites a root-relative src or link against the project ("../media-qft/..."), and pandoc
+-- cannot fetch it for an EPUB. A preview (NH_MEDIA_PREVIEW=1) and a local fallback stay as they are.
+M.SITE = "https://neutrinohit.github.io"
+
+function M.absolute_src(id, variant)
+  local src = M.src(id, variant)
+  if src:sub(1, 1) == "/" and os.getenv("NH_MEDIA_PREVIEW") ~= "1" then return M.SITE .. src end
+  return src
+end
+
+-- "nh:<id>/<variant>" -> absolute address; anything else unchanged. Quarto gives an image
+-- target without an extension its default one ("nh:x/film-en.png"): a variant has no dots.
 function M.resolve(value)
   local id, variant = tostring(value):match("^nh:([%w%-]+)/([%w%-]+)$")
-  if id then return M.src(id, variant) end
+  if not id then id, variant = tostring(value):match("^nh:([%w%-]+)/([%w%-]+)%.%w+$") end
+  if id then return M.absolute_src(id, variant) end
   return nil
 end
 
