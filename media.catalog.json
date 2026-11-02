@@ -2592,29 +2592,6 @@
    }
   },
   {
-   "id": "optics-to-neutrino",
-   "variant": "film-ru",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "prepared",
-   "sha256": "225ff6e1c5e29705fe73f230bb3ad93c44711a8e6441a60779ec1c3b34862570",
-   "bytes": 8578666,
-   "duration_s": 44.0,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": true,
-   "faststart": true,
-   "replaces": [
-    "neutrinophysics:introduction/ru/slides/assets/06_matter_oscillations/crystal/optics_to_neutrino_v2_ru.mp4"
-   ],
-   "title": {
-    "ru": "От поляризаций света к массовым состояниям нейтрино",
-    "en": "From light polarizations to neutrino mass states"
-   }
-  },
-  {
    "id": "parton-cascade",
    "variant": "web-en",
    "version": 1,
@@ -3862,6 +3839,27 @@
    "title": {
     "ru": "Нейтрино как свет в кристалле: вакуум и вещество Солнца",
     "en": "Neutrinos as light in a crystal: vacuum and solar matter"
+   }
+  },
+  {
+   "id": "optics-to-neutrino",
+   "variant": "film-ru",
+   "version": 2,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "23faa263b463b6b25438e9ae4b5b9549c5346f94b04c993496c189dec8b98612",
+   "bytes": 8624056,
+   "duration_s": 44.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "От оптики к нейтрино",
+    "en": "From optics to neutrinos"
    }
   },
   {
