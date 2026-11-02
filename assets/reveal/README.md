@@ -276,3 +276,31 @@ Short explanation.
 `data-external="1"` is intentional: presentations with `embed-resources: true`
 must keep loading the shared local script instead of embedding a stale copy into
 each HTML file.
+
+## Tabs
+
+Every `::: {.panel-tabset}` gets one look from `neutrinohit-reveal.scss`
+(modelled on lecture 03 of the neutrino course): labels at 0.78em, weight 720,
+padding 0.36rem × 0.9rem, gap 0.16rem; inactive labels a dimmed link colour,
+the active one in the link colour on a light tint inside a frame of the code
+border colour; 0.5rem between the bar and the panel. The rules cover the
+Reveal markup (`ul.panel-tabset-tabby` with links) and hand-written
+`.nav-tabs`/`.nav-link`.
+
+A row of six or more tabs takes the compact modifier (0.64em, narrower side
+padding), which keeps seven typical Russian labels on one line at 1600 × 1000:
+
+```markdown
+::: {.panel-tabset .nh-tabs-compact}
+```
+
+`.nh-story-tabs` keeps the text of the panels at the slide size (Quarto copies
+the tabset classes onto the inner `.tab-content`):
+
+```markdown
+::: {.panel-tabset .nh-story-tabs}
+```
+
+A lecture styles only its panels (`.tab-content`, `.tab-pane`), not the bar.
+Older lectures still restyle the bar in their own CSS; drop those rules when
+the lecture is next edited.

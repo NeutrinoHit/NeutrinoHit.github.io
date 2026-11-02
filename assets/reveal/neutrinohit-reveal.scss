@@ -506,6 +506,77 @@ $code-block-font-size: 0.58em;
 }
 
 /*
+ * Tabs: one look for every ::: {.panel-tabset} (modelled on lecture 03 of the
+ * neutrino course). Reveal renders the bar as ul.panel-tabset-tabby with links;
+ * hand-written HTML may use .nav-tabs/.nav-link. A lecture styles only its
+ * panels, not the bar. Long rows (six or more tabs):
+ *
+ *   ::: {.panel-tabset .nh-tabs-compact}
+ */
+.reveal .panel-tabset > .panel-tabset-tabby,
+.reveal .panel-tabset > .nav-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.16rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid $code-block-border-color;
+  font-size: 0.78em;
+  list-style: none;
+}
+
+.reveal .panel-tabset > .panel-tabset-tabby > li,
+.reveal .panel-tabset > .nav-tabs > li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.reveal .panel-tabset > .panel-tabset-tabby a,
+.reveal .panel-tabset > .nav-tabs .nav-link {
+  display: block;
+  margin-bottom: -1px;
+  padding: 0.36rem 0.9rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem 0.3rem 0 0;
+  color: mix($link-color, $body-bg, 70%);
+  font-weight: 720;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.reveal .panel-tabset > .panel-tabset-tabby a:hover,
+.reveal .panel-tabset > .nav-tabs .nav-link:hover {
+  border-color: transparent;
+  color: $link-color;
+}
+
+.reveal .panel-tabset > .panel-tabset-tabby a[aria-selected="true"],
+.reveal .panel-tabset > .nav-tabs .nav-link.active {
+  border-color: $code-block-border-color;
+  border-bottom-color: $body-bg;
+  background: rgba($link-color, 0.12);
+  color: $link-color;
+}
+
+.reveal .panel-tabset > .tab-content {
+  padding-top: 0.5rem;
+}
+
+.reveal .panel-tabset.nh-tabs-compact > .panel-tabset-tabby,
+.reveal .panel-tabset.nh-tabs-compact > .nav-tabs {
+  gap: 0.06rem;
+  font-size: 0.64em;
+}
+
+.reveal .panel-tabset.nh-tabs-compact > .panel-tabset-tabby a,
+.reveal .panel-tabset.nh-tabs-compact > .nav-tabs .nav-link {
+  padding: 0.3rem 0.42rem;
+}
+
+/*
  * Tabset with story content. Quarto copies the tabset classes onto the inner
  * .tab-content, so a font-size set on the class would be applied twice. This
  * keeps both levels at the inherited size; size the text through the slide or
