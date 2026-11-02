@@ -912,7 +912,8 @@
    "footer": true,
    "faststart": true,
    "replaces": [
-    "assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4"
+    "assets/animations/dvnanima/neutrino-particles-air-shower-air-shower.mp4",
+    "neutrinophysics:introduction/ru/book/assets/chapters/01_neutrino_101/air_shower_cascade.mp4"
    ],
    "title": {
     "ru": "Широкий атмосферный ливень",
@@ -1639,7 +1640,8 @@
    "footer": true,
    "faststart": true,
    "replaces": [
-    "assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch.mp4"
+    "assets/animations/dvnanima/neutrino-particles-jet-launch-jet-launch.mp4",
+    "neutrinophysics:introduction/ru/book/assets/chapters/29_astrophysical/jet_launch.mp4"
    ],
    "title": {
     "ru": "От звезды к джету: откуда берётся мощность",
@@ -1799,7 +1801,8 @@
    "faststart": true,
    "replaces": [
     "talks:georgia-2026/media/katrin-electron-motion.mp4",
-    "neutrinophysics:introduction/ru/slides/assets/04_direct_neutrino_mass/katrin_mac_e_electric.mp4"
+    "neutrinophysics:introduction/ru/slides/assets/04_direct_neutrino_mass/katrin_mac_e_electric.mp4",
+    "neutrinophysics:introduction/ru/book/assets/chapters/04_direct_neutrino_mass/katrin_mac_e_electric.mp4"
    ],
    "title": {
     "ru": "Электроны в магнитном поле и MAC-E-фильтр KATRIN",
@@ -2124,7 +2127,8 @@
    "footer": true,
    "faststart": true,
    "replaces": [
-    "neutrinophysics:introduction/ru/slides/assets/06_matter_oscillations/msw_parametric_layers.mp4"
+    "neutrinophysics:introduction/ru/slides/assets/06_matter_oscillations/msw_parametric_layers.mp4",
+    "neutrinophysics:introduction/ru/book/assets/chapters/06_matter_oscillations/msw_parametric_layers.mp4"
    ],
    "title": {
     "ru": "Параметрическое усиление в чередующихся слоях вещества",
@@ -3302,7 +3306,8 @@
    "footer": true,
    "faststart": true,
    "replaces": [
-    "assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet.mp4"
+    "assets/animations/dvnanima/neutrino-particles-star-in-jet-star-in-jet.mp4",
+    "neutrinophysics:introduction/ru/book/assets/chapters/29_astrophysical/star_in_jet.mp4"
    ],
    "title": {
     "ru": "Звезда в джете: один из способов родить нейтрино",
@@ -3488,6 +3493,138 @@
    "title": {
     "ru": "Асимметрия в рождении и распаде Z-бозона",
     "en": "Asymmetry in Z boson production and decay"
+   }
+  },
+  {
+   "id": "atmospheric-neutrino-ratio",
+   "variant": "book-loop-ru",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "5cd0809f0a73a4a28f91efb07b5d6c9e72b29add26d33c70476660bf746a6d6f",
+   "bytes": 86674,
+   "duration_s": 4.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/01_neutrino_101/atmospheric_neutrino_paths.mp4"
+   ],
+   "title": {
+    "ru": "Отношение потоков атмосферных нейтрино"
+   }
+  },
+  {
+   "id": "beta-endpoint",
+   "variant": "book-loop-ru",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "e966e64fdc99f73c54a3f5dd3aa3933fc43d88e4d22d4338fc17c1e15a780986",
+   "bytes": 103222,
+   "duration_s": 4.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/04_direct_neutrino_mass/beta_endpoint.mp4"
+   ],
+   "title": {
+    "ru": "Масса нейтрино и конец β-спектра"
+   }
+  },
+  {
+   "id": "goldhaber-chain",
+   "variant": "book-loop-ru",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "6f9b0530d9c3e70fdc6ce3c1a68b56287e8a0900429985924b0391b63505919a",
+   "bytes": 62133,
+   "duration_s": 4.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/03_helicity/experiment_chain.mp4"
+   ],
+   "title": {
+    "ru": "Цепочка измерения спиральности нейтрино"
+   }
+  },
+  {
+   "id": "helicity-frame-change",
+   "variant": "book-loop-ru",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "1d167c5032d922fea3676fdf0fcce660524af46874ce006871d93d8a48d4b8bd",
+   "bytes": 46722,
+   "duration_s": 4.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/03_helicity/frame_change.mp4"
+   ],
+   "title": {
+    "ru": "Смена спиральности при выборе системы отсчёта"
+   }
+  },
+  {
+   "id": "interaction-gallery",
+   "variant": "book-loop-ru",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "7f7923dad0a81b9b5180b24beab344f4514190c491780eaebee63da8b987dcb1",
+   "bytes": 66521,
+   "duration_s": 4.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/01_neutrino_101/interaction_gallery.mp4"
+   ],
+   "title": {
+    "ru": "Три обменных взаимодействия"
+   }
+  },
+  {
+   "id": "kurie-plot",
+   "variant": "book-loop-ru",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "98facc2809c73c30a4cc440b76b711c7453c68a71d22d07c6e9ea17d020a2215",
+   "bytes": 57404,
+   "duration_s": 4.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/04_direct_neutrino_mass/kurie_plot.mp4"
+   ],
+   "title": {
+    "ru": "График Кури вблизи конечной точки"
    }
   },
   {
@@ -3819,6 +3956,53 @@
    "source": "solar neutrino masterclass data (neutrinophysics/solar-neutrino-masterclass/scripts)"
   },
   {
+   "id": "nasa-fermi-acceleration",
+   "variant": "film",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "94a3fc1656fffca98c4dc647b1728f825d879ba7909a6a7aa4dc4fa4a8f0f4bb",
+   "bytes": 2165646,
+   "duration_s": 20.02,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/06_mac_e_spectrometer/nasa_fermi_shock_acceleration.mp4",
+    "neutrinophysics:introduction/ru/slides/assets/06_mac_e_spectrometer/nasa_fermi_shock_acceleration.mp4"
+   ],
+   "title": {
+    "ru": "Ускорение частицы на ударном фронте"
+   },
+   "credit": "NASA SVS 10975"
+  },
+  {
+   "id": "nasa-radiation-belts",
+   "variant": "film",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "20b829b98174ab7c4d9b5c673de228b15da1424de6d6bed4f8b1259b728c33f1",
+   "bytes": 4955406,
+   "duration_s": 20.03,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/06_mac_e_spectrometer/nasa_radiation_belts_plasmapause_particles.mp4"
+   ],
+   "title": {
+    "ru": "Частицы в радиационных поясах Земли"
+   },
+   "credit": "NASA SVS 4241"
+  },
+  {
    "id": "neutrino-crystal",
    "variant": "film-ru",
    "version": 1,
@@ -3863,6 +4047,28 @@
    }
   },
   {
+   "id": "parity-transform",
+   "variant": "book-loop-ru",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "bf28f49ccee61798c1a05ee0d7a1c0eedeb5153231a269497f7b1dec39da16dd",
+   "bytes": 36092,
+   "duration_s": 4.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/02_parity/parity_transform.mp4"
+   ],
+   "title": {
+    "ru": "Пространственное отражение"
+   }
+  },
+  {
    "id": "pendulum-msw",
    "variant": "adiabatic-passage",
    "version": 1,
@@ -3877,7 +4083,9 @@
    "audio": false,
    "footer": false,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/06_matter_oscillations/msw_adiabatic_passage.mp4"
+   ],
    "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
    "title": {
     "en": "Coupled pendulums: adiabatic and nonadiabatic passage"
@@ -3898,7 +4106,9 @@
    "audio": false,
    "footer": false,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/06_matter_oscillations/msw_constant_matter.mp4"
+   ],
    "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
    "title": {
     "en": "Coupled pendulums: vacuum, constant matter and MSW resonance"
@@ -3919,7 +4129,9 @@
    "audio": false,
    "footer": false,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/06_matter_oscillations/msw_control_equivalence.mp4"
+   ],
    "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
    "title": {
     "en": "Coupled pendulums: two mechanical controls"
@@ -3940,7 +4152,9 @@
    "audio": false,
    "footer": false,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/06_matter_oscillations/msw_mode_cancellation.mp4"
+   ],
    "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
    "title": {
     "en": "Coupled pendulums: destructive removal of a fixed mode"
@@ -3982,7 +4196,9 @@
    "audio": false,
    "footer": false,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/06_matter_oscillations/msw_solar_exit_bases.mp4"
+   ],
    "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
    "title": {
     "en": "Coupled pendulums: solar adiabatic exit"
@@ -4003,10 +4219,78 @@
    "audio": false,
    "footer": false,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/06_matter_oscillations/msw_thin_layer_interference.mp4"
+   ],
    "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
    "title": {
     "en": "Coupled pendulums: thin-layer wave and phasor interference"
+   }
+  },
+  {
+   "id": "photon-analyzer",
+   "variant": "book-loop-ru",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "7fb8c4721b28810fa917224a0654c8f00a66cb8968d23d6434829e5540714abb",
+   "bytes": 56000,
+   "duration_s": 4.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/03_helicity/photon_analyzer.mp4"
+   ],
+   "title": {
+    "ru": "Магнитный анализатор круговой поляризации"
+   }
+  },
+  {
+   "id": "spin-tagging",
+   "variant": "book-loop-ru",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "2dd28a93e2b238008fc5d16fcf15c1fca3926a92a573252f4e354cf4a0880d53",
+   "bytes": 36730,
+   "duration_s": 4.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/03_helicity/spin_tagging.mp4"
+   ],
+   "title": {
+    "ru": "Передача спиновой метки от нейтрино к фотону"
+   }
+  },
+  {
+   "id": "wu-result",
+   "variant": "book-loop-ru",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "04eecb2662bc01ba70de90a4abc0ea05cbc9859c145707dc945fe695e67366af",
+   "bytes": 47655,
+   "duration_s": 4.0,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [
+    "neutrinophysics:introduction/ru/book/assets/chapters/02_parity/wu_result.mp4"
+   ],
+   "title": {
+    "ru": "Результат опыта Ву"
    }
   },
   {
