@@ -23,10 +23,6 @@
    "reason": "NASA films, kept with their credit"
   },
   {
-   "path": "neutrinophysics:introduction/ru/book/assets/*",
-   "reason": "book sources: the book is not on the site, its assets stay with it"
-  },
-  {
    "path": "neutrinophysics:introduction/ru/slides/assets/05_vacuum_oscillations/quantum_chameleon.mp4",
    "reason": "linked by the gallery of the main site"
   }
