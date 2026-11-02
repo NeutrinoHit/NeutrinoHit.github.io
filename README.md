@@ -143,7 +143,8 @@ make local-aggregate
 - `sciencepop/_site` -> `_site/sciencepop`;
 - `neutrinophysics/_site` -> `_site/neutrinophysics`;
 - `particlephysics/_site` -> `_site/particlephysics`;
-- `stat-course/_site` -> `_site/statistical-analysis-course`.
+- `stat-course/_site` -> `_site/statistical-analysis-course`;
+- `global-analysis-course/_site` -> `_site/global-analysis-course`.
 
 На `localhost` скрипт `assets/local-preview-links.js` переписывает ссылки вида
 `https://neutrinohit.github.io/...` в локальные `/...`, поэтому из preview можно

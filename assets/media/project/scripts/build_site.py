@@ -63,7 +63,9 @@ table{{border-collapse:collapse;width:100%}}td{{padding:3px 8px;border-bottom:1p
 <body><h1>{html.escape(manifest["title"])}</h1>
 <p>Films of <a href="https://neutrinohit.github.io/">NeutrinoHit</a> used by its gallery, QR pages, lectures and talks.
 {len(manifest["media"])} files, {total / 1e6:.1f} MB. Addresses are permanent: a new render gets a new version.</p>
-<table>{"".join(rows)}</table></body></html>
+<table>{"".join(rows)}</table>
+<script defer src="https://neutrinohit.github.io/assets/analytics/cloudflare-web-analytics.js"></script>
+</body></html>
 """
 
 

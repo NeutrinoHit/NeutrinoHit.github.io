@@ -23,6 +23,7 @@ toc: false
   <h2 id="stat" class="section-inline-title">Статистический анализ данных</h2>
   <nav class="course-tiles" aria-label="Статистический анализ данных">
     <div class="course-tile" id="statistical-analysis"><span class="course-tile-status is-ready">Курс · видео</span><a class="course-tile-title" href="courses/statistical-analysis.html">Статистический анализ данных</a><span class="course-tile-text">От вероятности и правдоподобия до значимости и систематик.</span><span class="course-tile-meta">13 лекций · 7 видео</span></div>
+    <div class="course-tile" id="global-analysis"><span class="course-tile-status">Готовится · RU/EN</span><a class="course-tile-title" href="courses/global-analysis.html">Глобальный анализ данных в физике</a><span class="course-tile-text">Как разные данные уточняют параметры, снимают вырождения и проверяют общую физическую модель.</span></div>
   </nav>
 
   <h2 id="neutrino" class="section-inline-title">Физика нейтрино</h2>

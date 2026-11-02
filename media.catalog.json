@@ -4,6 +4,10 @@
  "url_prefix": "/",
  "github": "NeutrinoHit",
  "projects": {
+  "media-global-analysis": {
+   "title": "NeutrinoHit films and data: global analysis course",
+   "budget_bytes": 900000000
+  },
   "media-neutrino": {
    "title": "NeutrinoHit films: neutrinos, particles, astrophysics",
    "budget_bytes": 900000000

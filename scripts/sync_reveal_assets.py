@@ -59,6 +59,7 @@ REPOSITORIES = [
     "particlephysics",
     "numerical_methods",
     "rte_lectures",
+    "global-analysis-course",
 ]
 
 

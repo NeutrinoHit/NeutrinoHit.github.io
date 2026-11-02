@@ -14,7 +14,7 @@
 |---|---|
 | `dvnanima` (частный) | исходники анимаций, настройки, рендеры |
 | `neutrinohit-map` | каталог `media.catalog.json`, инструменты `scripts/nh_media.py`, шаблон медиапроекта `assets/media/project/`, расширение для лекций `assets/media/_extensions/neutrinohit-media/` |
-| `media-neutrino`, `media-qft`, `media-mechanics`; `media-talks`, `media-particlephysics`, `media-sciencepop`, `media-stat-course`, `media-qft-lectures`, `media-albums` | `media.manifest.json` и сборка в git; файлы — в GitHub Releases; раздача — Pages |
+| `media-neutrino`, `media-qft`, `media-mechanics`; `media-talks`, `media-particlephysics`, `media-sciencepop`, `media-stat-course`, `media-global-analysis`, `media-qft-lectures`, `media-albums` | `media.manifest.json` и сборка в git; файлы — в GitHub Releases; раздача — Pages |
 | репозитории курсов и докладов | текст, рисунки, постеры, `media.lock.json` и ссылки `nh-video` |
 | офлайн-комплект | выбранные доклады + один экземпляр каждого фильма; результат сборки вне git |
 
@@ -25,7 +25,7 @@
 динамические системы, оптика. Фильмы, которые нужны только одному проекту
 курсов или докладов, живут в его собственном медиапроекте `media-<проект>`:
 `media-talks` — доклады, `media-particlephysics`, `media-sciencepop`,
-`media-stat-course`, `media-qft-lectures`, `media-albums` — видео фотоальбомов.
+`media-stat-course`, `media-global-analysis`, `media-qft-lectures`, `media-albums` — видео фотоальбомов.
 Фильм, который нужен нескольким проектам, остаётся в тематическом. Бюджет в
 каталоге 900 МБ; заполненный проект продолжает `media-<проект>-2`.
 `nh_media.py report` показывает заполнение. Новый медиапроект: строка в

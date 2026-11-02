@@ -31,7 +31,7 @@ education:
       meta: {ru: 9 вопросов · ответы пополняются, en: 9 questions · answers are being added}
   - id: stat
     title: {ru: Статистический анализ данных, en: Statistical Data Analysis}
-    courses: [statistical-analysis]
+    courses: [statistical-analysis, global-analysis]
   - id: neutrino
     title: {ru: Физика нейтрино, en: Neutrino Physics}
     courses: [neutrino-introduction, oscillations-minicourse, solar-neutrino-masterclass, neutrino-oscillation-theory]
@@ -786,6 +786,26 @@ courses:
   materials_lang: ru
   title: {ru: 'Физика элементарных частиц: большой курс', en: 'Particle Physics: Full Course'}
   summary: {ru: 'Будущий полный курс по физике элементарных частиц: слайды, книга, задачи, апплеты и экзаменационные проекты.', en: 'The future full course on particle physics: slides, book, problems, applets and exam projects.'}
+- slug: global-analysis
+  anchor: global-analysis
+  section: stat
+  kind: {ru: Готовится · RU/EN, en: In preparation · RU/EN}
+  ready: false
+  materials_lang: ru
+  materials_lang_en: en
+  title: {ru: Глобальный анализ данных в физике, en: Global Data Analysis in Physics}
+  summary: {ru: 'Совместный анализ данных: точность, вырождения параметров, систематики, значимость и согласие экспериментов. Курс опирается на статистический анализ данных; примеры — нейтрино, физика частиц, астрофизика и космология.', en: 'Joint data analysis: precision, parameter degeneracies, systematics, significance and consistency between experiments. The course builds on statistical data analysis, with examples from neutrino and particle physics, astrophysics and cosmology.'}
+  tile: {ru: 'Как разные данные уточняют параметры, снимают вырождения и проверяют общую физическую модель.', en: 'How different datasets constrain parameters, resolve degeneracies and test a shared physical model.'}
+  status_note: {ru: 'План из 16 лекций; слайды и книги на русском и английском готовятся.', en: 'A 16-lecture plan; Russian and English slides and books are in preparation.'}
+  links:
+  - label: {ru: Сайт курса, en: Course home}
+    href: /global-analysis-course/ru/
+    href_en: /global-analysis-course/en/
+    primary: true
+  lectures: []
+  lectures_en: []
+  book_pending: true
+  related: [statistical-analysis, neutrino-introduction, particle-physics, numerical-methods]
   status_note: {ru: 'Курс готовится: лекции появятся здесь по мере готовности. Пока опубликованы заготовки слайдов.', en: The course is in preparation; lectures will appear here as they are ready. Slide scaffolds are online.}
   links:
   - label: {ru: Слайды, en: Slides}

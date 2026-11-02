@@ -280,6 +280,36 @@
       "url": "https://neutrinohit.github.io/ru/courses/unruh.html",
       "type": "course-page",
       "description": "RU course page: unruh"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/education.html#global-analysis",
+      "type": "map-card",
+      "description": "RU education: global data analysis"
+    },
+    {
+      "url": "https://neutrinohit.github.io/global-analysis-course/ru/",
+      "type": "course-home",
+      "description": "RU global data analysis course home"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/courses/global-analysis.html",
+      "type": "course-page",
+      "description": "RU course page: global-analysis"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/education.html#global-analysis",
+      "type": "map-card",
+      "description": "EN education: global data analysis"
+    },
+    {
+      "url": "https://neutrinohit.github.io/global-analysis-course/en/",
+      "type": "course-home",
+      "description": "EN global data analysis course home"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/courses/global-analysis.html",
+      "type": "course-page",
+      "description": "EN course page: global-analysis"
     }
   ]
 }

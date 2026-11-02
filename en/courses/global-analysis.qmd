@@ -1,0 +1,29 @@
+---
+pagetitle: "Global Data Analysis in Physics"
+lang: en-US
+toc: false
+---
+
+```{=html}
+<article class="course-page" data-course="global-analysis">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>Global Data Analysis in Physics</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status">In preparation · RU/EN</span>
+    <h1>Global Data Analysis in Physics</h1>
+    <p class="course-page-summary">Joint data analysis: precision, parameter degeneracies, systematics, significance and consistency between experiments. The course builds on statistical data analysis, with examples from neutrino and particle physics, astrophysics and cosmology.</p>
+    <div class="lecture-course-actions">
+      <a class="lecture-action-primary" href="../../global-analysis-course/en/">Course home</a>
+    </div>
+  </header>
+  <p class="course-page-note">A 16-lecture plan; Russian and English slides and books are in preparation.</p>
+  <p class="course-book-line">A book for the course is in preparation.</p>
+  <h2 class="course-page-section">More in this section</h2>
+  <nav class="course-tiles">
+    <div class="course-tile"><span class="course-tile-status is-ready">Course</span><a class="course-tile-title" href="statistical-analysis.html">Statistical Data Analysis</a><span class="course-tile-text">From probability and likelihood to significance and systematics.</span><span class="course-tile-meta">15 lectures</span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Course · Russian</span><a class="course-tile-title" href="neutrino-introduction.html">Introduction to Neutrino Physics</a><span class="course-tile-text">Weak interaction, neutrino mass, oscillations in vacuum and matter.</span><span class="course-tile-meta">15 lectures</span></div>
+    <div class="course-tile"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="particle-physics.html">Particle Physics: Full Course</a><span class="course-tile-text">The future full course: slides, book, problems and applets.</span></div>
+    <div class="course-tile"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="numerical-methods.html">Numerical Methods for Physicists</a><span class="course-tile-text">One lecture, one physics problem; Python with Numba.</span></div>
+  </nav>
+  <p class="course-page-back"><a href="../education.html">← All courses</a></p>
+</article>
+```

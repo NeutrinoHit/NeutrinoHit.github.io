@@ -30,6 +30,7 @@ SOURCE_ROOTS = [
     WORKSPACE / "talks",
     WORKSPACE / "rte_lectures",
     WORKSPACE / "numerical_methods",
+    WORKSPACE / "global-analysis-course",
 ]
 
 SOURCE_SUFFIXES = {".qmd", ".yml", ".yaml", ".html"}

@@ -65,6 +65,12 @@ TEX_SETUP = Copy("setup_book_tex.sh", "scripts")
 def consumers() -> list[Consumer]:
     return [
         Consumer(
+            "global-analysis-course",
+            book_copies("ru/book", filters=("hide-book-index.lua", "chapter-bibliographies.lua"))
+            + book_copies("en/book", filters=("hide-book-index.lua", "chapter-bibliographies.lua"))
+            + [latex_copy("shared/latex"), TEX_SETUP],
+        ),
+        Consumer(
             "stat-course",
             book_copies(
                 "ru/book",

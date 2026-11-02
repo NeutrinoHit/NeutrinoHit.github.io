@@ -28,6 +28,7 @@ PROJECT_SITES = [
     ProjectSite("statistical-analysis-course", WORKSPACE / "stat-course" / "_site"),
     ProjectSite("rte_lectures", WORKSPACE / "rte_lectures" / "_site"),
     ProjectSite("numerical_methods", WORKSPACE / "numerical_methods" / "_site"),
+    ProjectSite("global-analysis-course", WORKSPACE / "global-analysis-course" / "_site"),
 ]
 
 
