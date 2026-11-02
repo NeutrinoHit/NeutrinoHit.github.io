@@ -618,7 +618,7 @@ courses:
   - {n: '14', title: Осцилляции в веществе. Интерференция и маятники, slides: /neutrinophysics/introduction/ru/slides/14_matter_interference_pendulums.html}
   - {n: '15', title: Осцилляции в веществе. Три флэйвора, slides: /neutrinophysics/introduction/ru/slides/15_matter_three_flavors.html}
   lectures_en:
-  - {n: '01', title: Neutrino 101, slides: /neutrinophysics/introduction/Introduction/index.html}
+  - {n: '01', title: Neutrino 101}
   - {n: '02', title: Parity, slides: /neutrinophysics/introduction/Parity/index.html}
   - {n: '03', title: Spin and Neutrino Polarization, slides: /neutrinophysics/introduction/Helicity/index.html}
   - {n: '04', title: Direct Determination of the Neutrino Mass, slides: /neutrinophysics/introduction/en/slides/04_direct_neutrino_mass.html}

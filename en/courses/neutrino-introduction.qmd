@@ -21,7 +21,7 @@ toc: false
   <table class="course-toc course-toc-full">
     <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-col">Slides</th></tr></thead>
     <tbody>
-      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../neutrinophysics/introduction/Introduction/index.html">Neutrino 101</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/introduction/Introduction/index.html">slides</a></td></tr>
+      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic">Neutrino 101</td><td class="course-toc-col" data-label="Slides"></td></tr>
       <tr id="lecture-02"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="../../neutrinophysics/introduction/Parity/index.html">Parity</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/introduction/Parity/index.html">slides</a></td></tr>
       <tr id="lecture-03"><td class="course-toc-num">03</td><td class="course-toc-topic"><a href="../../neutrinophysics/introduction/Helicity/index.html">Spin and Neutrino Polarization</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/introduction/Helicity/index.html">slides</a></td></tr>
       <tr id="lecture-04"><td class="course-toc-num">04</td><td class="course-toc-topic"><a href="../../neutrinophysics/introduction/en/slides/04_direct_neutrino_mass.html">Direct Determination of the Neutrino Mass</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/introduction/en/slides/04_direct_neutrino_mass.html">slides</a></td></tr>

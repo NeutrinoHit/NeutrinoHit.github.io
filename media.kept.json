@@ -29,10 +29,6 @@
   {
    "path": "neutrinophysics:introduction/ru/slides/assets/05_vacuum_oscillations/quantum_chameleon.mp4",
    "reason": "linked by the gallery of the main site"
-  },
-  {
-   "path": "neutrinophysics:introduction/Introduction/*",
-   "reason": "old Keynote export of the introduction lecture: kept in the repository, not published on the site"
   }
  ]
 }
