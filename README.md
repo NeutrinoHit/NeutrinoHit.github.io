@@ -56,7 +56,12 @@ python scripts/build_course_pages.py --check  # проверить, что ст�
 ```
 
 Карточка программы Teach-in лежит в `_includes/education-program-ru.html` и
-`-en.html`. Кнопка «← Курс» в слайдах курса ведёт на его страницу
+`-en.html`. Фильм карты заявок в ней — `src="nh:teach-in-applications/film-map"`:
+генератор подставляет адрес новейшей опубликованной версии из `media.catalog.json`.
+Обновление карты: `python scripts/update_teachin_applications_map.py --stage` пишет фильм
+в `.work/teachin/` (в git он не попадает) и обложку в `assets/programs/` (её и добавляет
+`--stage`), затем печатает команду `nh_media.py prepare … --version <n>`; после публикации
+версии — `python scripts/build_course_pages.py`. Кнопка «← Курс» в слайдах курса ведёт на его страницу
 `https://neutrinohit.github.io/<lang>/courses/<курс>.html`; такие адреса
 зарегистрированы в `scripts/reveal_context_targets.json` с типом `course-page`.
 

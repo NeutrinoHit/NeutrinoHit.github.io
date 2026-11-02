@@ -12,13 +12,18 @@ from pathlib import Path
 
 from PIL import Image
 
+import media_registry
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_GTRACKER_DIR = ROOT.parent / "dvnanima" / "gtracker"
 DEFAULT_SHEET_ID = "1SKOLwN3Z0NBhId9u7V5wXz3iqPsoCJ5_Tp7-h8-mXLo"
 DEFAULT_WORKSHEET = "Заявки"
-DEFAULT_MP4 = ROOT / "assets/programs/teach-in-applications-map.mp4"
+# The film is not kept in the repository (DN's rule): it is rendered into .work/ and registered
+# in the shared media library as a new version of teach-in-applications/film-map.
+DEFAULT_MP4 = ROOT / ".work/teachin/teach-in-applications-map.mp4"
 DEFAULT_POSTER = ROOT / "assets/programs/teach-in-applications-map-poster.jpg"
+FILM_ID, FILM_VARIANT, FILM_HOME = "teach-in-applications", "film-map", "media-neutrino"
 
 
 def parse_args() -> argparse.Namespace:
@@ -39,7 +44,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--network-neighbors", type=int, default=1)
     parser.add_argument("--poster-time", default="last", help="Poster frame time in seconds, or 'last'.")
     parser.add_argument("--reauth", action="store_true", help="Force a new local OAuth browser flow.")
-    parser.add_argument("--stage", action="store_true", help="git add the updated MP4 and poster.")
+    parser.add_argument("--stage", action="store_true", help="git add the updated poster (the MP4 goes to the media library).")
     parser.add_argument("--dry-run", action="store_true", help="Print the gTracker command and planned changes; write nothing.")
     return parser.parse_args()
 
@@ -77,6 +82,21 @@ def make_poster(mp4: Path, poster: Path, *, poster_time: str) -> None:
             cmd = [ffmpeg, "-y", "-ss", poster_time, "-i", str(mp4), "-frames:v", "1", "-update", "1", str(png)]
         subprocess.run(cmd, check=True)
         Image.open(png).convert("RGB").save(poster, quality=86, optimize=True)
+
+
+def next_version() -> int:
+    versions = [r["version"] for r in media_registry.load()["media"]
+                if (r["id"], r["variant"]) == (FILM_ID, FILM_VARIANT)]
+    return max(versions, default=0) + 1
+
+
+def print_next_steps(mp4: Path) -> None:
+    """The film reaches the page through the media library, not through git."""
+    print("\nnext: register the film as a new version, then the dispatcher publishes it:")
+    print(f"  python3 scripts/nh_media.py prepare {mp4} --id {FILM_ID} --variant {FILM_VARIANT} "
+          f"--version {next_version()} --home {FILM_HOME}")
+    print("after publication: python3 scripts/build_course_pages.py "
+          "(the education pages take the newest published version of nh:teach-in-applications/film-map)")
 
 
 def stage_outputs(paths: list[Path]) -> None:
@@ -172,7 +192,8 @@ def dry_run(
     print(f"would update: {args.mp4}")
     print(f"would update: {args.poster}")
     if args.stage:
-        print("would stage both files with git add")
+        print("would stage the poster with git add")
+    print_next_steps(args.mp4)
     return 0
 
 
@@ -253,9 +274,10 @@ def main() -> int:
 
     make_poster(args.mp4, args.poster, poster_time=args.poster_time)
     if args.stage:
-        stage_outputs([args.mp4, args.poster])
-    print(f"updated: {args.mp4.relative_to(ROOT)}")
+        stage_outputs([args.poster])
+    print(f"updated: {args.mp4}")
     print(f"updated: {args.poster.relative_to(ROOT)}")
+    print_next_steps(args.mp4)
     return 0
 
 

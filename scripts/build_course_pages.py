@@ -21,10 +21,13 @@ from __future__ import annotations
 
 import argparse
 import html
+import re
 import sys
 from pathlib import Path
 
 import yaml
+
+import media_registry
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "courses.catalog.yml"
@@ -330,10 +333,25 @@ def education(catalog: dict, lang: str) -> str:
                        f'<a class="course-tile-title" href="{e(href(extra, lang, depth=1))}">{e(tr(extra["title"], lang))}</a>'
                        f'<span class="course-tile-text">{e(tr(extra["text"], lang))}</span>{meta}</div>')
         out += ["  </nav>", ""]
-    program = (ROOT / "_includes" / f"education-program-{lang}.html").read_text(encoding="utf-8").strip()
+    program = films((ROOT / "_includes" / f"education-program-{lang}.html").read_text(encoding="utf-8").strip())
     out += [f'  <h2 id="programs" class="section-inline-title">{T[lang]["programs"]}</h2>',
             "  " + program.replace("\n", "\n  "), "</div>", "```", ""]
     return "\n".join(out)
+
+
+FILM_REF = re.compile(r'(src|href)="nh:([\w-]+)/([\w-]+)"')
+
+
+def films(text: str) -> str:
+    """src="nh:<id>/<variant>" in an include -> the newest published version in the media library."""
+    catalog = media_registry.load()
+
+    def address(match: re.Match) -> str:
+        live = [r for r in catalog["media"] if (r["id"], r["variant"]) == match.group(2, 3) and media_registry.live(r)]
+        if not live:
+            raise SystemExit(f"{match.group(2)}/{match.group(3)}: no published version in media.catalog.json")
+        return f'{match.group(1)}="{media_registry.url_of(max(live, key=lambda r: r["version"]), catalog)}"'
+    return FILM_REF.sub(address, text)
 
 
 def outputs(catalog: dict) -> dict[Path, str]:
