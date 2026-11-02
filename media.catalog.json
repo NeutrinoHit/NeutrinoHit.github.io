@@ -3865,6 +3865,153 @@
    }
   },
   {
+   "id": "pendulum-msw",
+   "variant": "adiabatic-passage",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "863bafeab5a4b2e8aa4b3e5ed07eab369768b3f20b948d9b6d27ce5c8dda6c5f",
+   "bytes": 462441,
+   "duration_s": 10.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
+   "title": {
+    "en": "Coupled pendulums: adiabatic and nonadiabatic passage"
+   }
+  },
+  {
+   "id": "pendulum-msw",
+   "variant": "constant-matter",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "389621d778806892510cbafe304af121582a2d9d947fb5c18c8cd1c64c3cc8f7",
+   "bytes": 677062,
+   "duration_s": 10.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
+   "title": {
+    "en": "Coupled pendulums: vacuum, constant matter and MSW resonance"
+   }
+  },
+  {
+   "id": "pendulum-msw",
+   "variant": "control-equivalence",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "8546bd53bde369a5b907cf1d4d952398032a2339bc9b59edce19c72274d7201b",
+   "bytes": 845601,
+   "duration_s": 10.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
+   "title": {
+    "en": "Coupled pendulums: two mechanical controls"
+   }
+  },
+  {
+   "id": "pendulum-msw",
+   "variant": "mode-cancellation",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "ae902e8c25417c55108997a9a5d61b55cd6c02365d172e5a0ad0ddbc0e866ab5",
+   "bytes": 1758444,
+   "duration_s": 10.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
+   "title": {
+    "en": "Coupled pendulums: destructive removal of a fixed mode"
+   }
+  },
+  {
+   "id": "pendulum-msw",
+   "variant": "parametric",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "788c7855bc8e3c53c99337e78b756cc6b002198df1e65fa02e09421c337eb3b0",
+   "bytes": 574252,
+   "duration_s": 10.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
+   "title": {
+    "en": "Coupled pendulums: periodic (castle-wall) matter"
+   }
+  },
+  {
+   "id": "pendulum-msw",
+   "variant": "solar-exit-bases",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "5a74f6677c423bae985fd3190b362f701c421faf88c2e3a1842defa60f242c4e",
+   "bytes": 651701,
+   "duration_s": 10.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
+   "title": {
+    "en": "Coupled pendulums: solar adiabatic exit"
+   }
+  },
+  {
+   "id": "pendulum-msw",
+   "variant": "thin-layer-interference",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "514485a3fae6d35d7aa43baa316c9301aedece66ba20b9a26672ee8b228e7b00",
+   "bytes": 2494449,
+   "duration_s": 10.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "source": "two-pendulum MSW model (scripts/make_msw_animations.py)",
+   "title": {
+    "en": "Coupled pendulums: thin-layer wave and phasor interference"
+   }
+  },
+  {
    "id": "baikal-minicourse",
    "variant": "export-lecture-01-cross-section",
    "version": 1,
