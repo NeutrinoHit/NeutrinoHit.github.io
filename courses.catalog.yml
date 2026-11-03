@@ -534,7 +534,7 @@ courses:
 - slug: neutrino-introduction
   anchor: neutrino-introduction
   section: neutrino
-  kind: {ru: Курс, en: Course · Russian}
+  kind: {ru: Курс, en: Lectures in English}
   materials_lang: ru
   materials_lang_en: en
   title: {ru: Введение в физику нейтрино, en: Introduction to Neutrino Physics}
@@ -618,32 +618,21 @@ courses:
   - {n: '14', title: Осцилляции в веществе. Интерференция и маятники, slides: /neutrinophysics/introduction/ru/slides/14_matter_interference_pendulums.html}
   - {n: '15', title: Осцилляции в веществе. Три флэйвора, slides: /neutrinophysics/introduction/ru/slides/15_matter_three_flavors.html}
   lectures_en:
-  - {n: '01', title: Neutrino 101}
-  - {n: '02', title: Parity}
-  - {n: '03', title: Spin and Neutrino Polarization}
-  - {n: '04', title: Direct Determination of the Neutrino Mass, slides: /neutrinophysics/introduction/en/slides/04_direct_neutrino_mass.html}
-  - {n: '05', title: Neutrino Oscillations in Vacuum, slides: /neutrinophysics/introduction/en/slides/05_vacuum_oscillations.html}
-  - {n: '06', title: Neutrino Oscillations in Matter, slides: /neutrinophysics/introduction/en/slides/06_matter_oscillations.html}
-  - {n: '07', title: Paradoxes in Neutrino Oscillation Theory, slides: /neutrinophysics/introduction/en/slides/07_oscillation_paradoxes.html}
-  - {n: 08, title: Neutrinos in the Standard Model, slides: /neutrinophysics/introduction/en/slides/08_standard_model_neutrinos.html}
-  - {n: 09, title: Electromagnetic Properties of Neutrinos, slides: /neutrinophysics/introduction/en/slides/09_electromagnetic_properties.html}
-  - {n: '10', title: Sterile Neutrinos, slides: /neutrinophysics/introduction/en/slides/10_sterile_neutrinos.html}
-  - {n: '11', title: Neutrino Interactions with Matter, slides: /neutrinophysics/introduction/en/slides/11_neutrino_interactions.html}
-  - {n: '12', title: Experimental Methods of Neutrino Detection, slides: /neutrinophysics/introduction/en/slides/12_detection_methods.html}
-  - {n: '13', title: Solar Neutrinos, slides: /neutrinophysics/introduction/en/slides/13_solar_neutrinos.html}
-  - {n: '14', title: Atmospheric Neutrinos, slides: /neutrinophysics/introduction/en/slides/14_atmospheric_neutrinos.html}
-  - {n: '15', title: Accelerator Neutrinos, slides: /neutrinophysics/introduction/en/slides/15_accelerator_neutrinos.html}
-  - {n: '16', title: Reactor Neutrinos, slides: /neutrinophysics/introduction/en/slides/16_reactor_neutrinos.html}
-  - {n: '17', title: Geophysical Neutrinos, slides: /neutrinophysics/introduction/en/slides/17_geophysical_neutrinos.html}
-  - {n: '18', title: Neutrinoless Double Beta Decay, slides: /neutrinophysics/introduction/en/slides/18_neutrinoless_double_beta_decay.html}
-  - {n: '19', title: Relic Neutrinos, slides: /neutrinophysics/introduction/en/slides/19_relic_neutrinos.html}
-  - {n: '20', title: Ultra-High-Energy Astrophysical Neutrinos, slides: /neutrinophysics/introduction/en/slides/20_uhe_astrophysical_neutrinos.html}
-  - {n: '21', title: Supernova Neutrinos, slides: /neutrinophysics/introduction/en/slides/21_supernova_neutrinos.html}
-  - {n: '22', title: Global Analysis, slides: /neutrinophysics/introduction/en/slides/22_global_analysis.html}
-  - {n: '23', title: Mixing and CP Violation, slides: /neutrinophysics/introduction/en/slides/23_mixing_cp_violation.html}
-  - {n: '24', title: Neutrinos as a Window to New Physics, slides: /neutrinophysics/introduction/en/slides/24_new_physics.html}
-  - {n: '25', title: Neutrino Tomography, slides: /neutrinophysics/introduction/en/slides/25_neutrino_tomography.html}
-  - {n: '26', title: Reactors as Monitoring Tools, slides: /neutrinophysics/introduction/en/slides/26_reactor_monitoring.html}
+  - {n: '01', title: Neutrinos. First Contact, slides: /neutrinophysics/introduction/en/slides/01_neutrino_first_contact.html}
+  - {n: '02', title: Weak Interaction. Parity Violation, slides: /neutrinophysics/introduction/en/slides/02_parity_violation.html}
+  - {n: '03', title: Neutrino Spin. Helicity and Polarization, slides: /neutrinophysics/introduction/en/slides/03_neutrino_spin.html}
+  - {n: '04', title: Direct Determination of the Neutrino Mass. Kinematics of the β Spectrum, slides: /neutrinophysics/introduction/en/slides/04_neutrino_mass_kinematics.html}
+  - {n: '05', title: Direct Determination of the Neutrino Mass. Guiding the Electron to the Detector, slides: /neutrinophysics/introduction/en/slides/05_electron_to_detector.html}
+  - {n: '06', title: Direct Determination of the Neutrino Mass. MAC-E Spectrometer, slides: /neutrinophysics/introduction/en/slides/06_mac_e_spectrometer.html}
+  - {n: '07', title: Direct Determination of the Neutrino Mass. The KATRIN Experiment, slides: /neutrinophysics/introduction/en/slides/07_katrin.html}
+  - {n: '08', title: Direct Determination of the Neutrino Mass. Other Ways to Weigh the Neutrino, slides: /neutrinophysics/introduction/en/slides/08_alternative_neutrino_mass.html}
+  - {n: '09', title: Neutrino Oscillations in Vacuum. Two Flavors, slides: /neutrinophysics/introduction/en/slides/09_vacuum_two_flavors.html}
+  - {n: '10', title: Oscillations in Vacuum. Three Flavors and the PMNS Matrix, slides: /neutrinophysics/introduction/en/slides/10_vacuum_pmns.html}
+  - {n: '11', title: Neutrino Oscillations in Matter. Refractive Index, slides: /neutrinophysics/introduction/en/slides/11_matter_refraction.html}
+  - {n: '12', title: Oscillations in Matter. Constant Density}
+  - {n: '13', title: Oscillations in Matter. Adiabatic MSW Effect}
+  - {n: '14', title: Oscillations in Matter. Interference and Pendulums}
+  - {n: '15', title: Oscillations in Matter. Three Flavors}
   book_pending: true
   related: [oscillations-minicourse, solar-neutrino-masterclass, neutrino-oscillation-theory]
   reading: neutrino-literature
