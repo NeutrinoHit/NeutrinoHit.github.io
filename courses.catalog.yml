@@ -775,6 +775,17 @@ courses:
   materials_lang: ru
   title: {ru: 'Физика элементарных частиц: большой курс', en: 'Particle Physics: Full Course'}
   summary: {ru: 'Будущий полный курс по физике элементарных частиц: слайды, книга, задачи, апплеты и экзаменационные проекты.', en: 'The future full course on particle physics: slides, book, problems, applets and exam projects.'}
+  status_note: {ru: 'Курс готовится: лекции появятся здесь по мере готовности. Пока опубликованы заготовки слайдов.', en: The course is in preparation; lectures will appear here as they are ready. Slide scaffolds are online.}
+  links:
+  - label: {ru: Слайды, en: Slides}
+    href: /particlephysics/ParticlePhysics/ru/slides/
+    href_en: /particlephysics/ParticlePhysics/en/slides/index.html
+  book_pending: true
+  lectures: []
+  related: [particle-physics-baikal]
+  anchor: particle-physics-course
+  ready: false
+  tile: {ru: 'Будущий полный курс: слайды, книга, задачи и апплеты.', en: 'The future full course: slides, book, problems and applets.'}
 - slug: global-analysis
   anchor: global-analysis
   section: stat
@@ -795,17 +806,6 @@ courses:
   lectures_en: []
   book_pending: true
   related: [statistical-analysis, neutrino-introduction, particle-physics, numerical-methods]
-  status_note: {ru: 'Курс готовится: лекции появятся здесь по мере готовности. Пока опубликованы заготовки слайдов.', en: The course is in preparation; lectures will appear here as they are ready. Slide scaffolds are online.}
-  links:
-  - label: {ru: Слайды, en: Slides}
-    href: /particlephysics/ParticlePhysics/ru/slides/
-    href_en: /particlephysics/ParticlePhysics/en/slides/index.html
-  book_pending: true
-  lectures: []
-  related: [particle-physics-baikal]
-  anchor: particle-physics-course
-  ready: false
-  tile: {ru: 'Будущий полный курс: слайды, книга, задачи и апплеты.', en: 'The future full course: slides, book, problems and applets.'}
 - slug: gravity
   anchor: gravity
   section: more
