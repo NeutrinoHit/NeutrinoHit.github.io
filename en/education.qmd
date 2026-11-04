@@ -23,7 +23,7 @@ toc: false
 
   <h2 id="stat" class="section-inline-title">Statistical Data Analysis</h2>
   <nav class="course-tiles" aria-label="Statistical Data Analysis">
-    <div class="course-tile" id="statistical-analysis"><span class="course-tile-status is-ready">Course</span><a class="course-tile-title" href="courses/statistical-analysis.html">Statistical Data Analysis</a><span class="course-tile-text">From probability and likelihood to significance and systematics.</span><span class="course-tile-meta">15 lectures</span></div>
+    <div class="course-tile" id="statistical-analysis"><span class="course-tile-status is-ready">Course</span><a class="course-tile-title" href="courses/statistical-analysis.html">Statistical Data Analysis</a><span class="course-tile-text">From probability and likelihood to significance and systematics.</span><span class="course-tile-meta">13 lectures</span></div>
     <div class="course-tile" id="global-analysis"><span class="course-tile-status">In preparation · RU/EN</span><a class="course-tile-title" href="courses/global-analysis.html">Global Data Analysis in Physics</a><span class="course-tile-text">How different datasets constrain parameters, resolve degeneracies and test a shared physical model.</span></div>
   </nav>
 

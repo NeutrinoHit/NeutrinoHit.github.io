@@ -492,6 +492,7 @@ courses:
   - {label: VK, href: 'https://vkvideo.ru/playlist/-235607329_10'}
   - {label: Teach-in, href: 'https://teach-in.ru/course/statistical-methods-of-data-analysis-naumov'}
   links_en:
+  - {label: All problems, href: /statistical-analysis-course/en/slides/exercises/index.html}
   - {label: Applets (Russian), href: /statistical-analysis-course/ru/slides/applets.html}
   - {label: Russian lecture videos, href: 'https://www.youtube.com/playlist?list=PLGGzOVFWOf3s'}
   lectures:
@@ -514,21 +515,24 @@ courses:
   - {n: '12', title: 'χ²-интервалы, систематики и практический рецепт МНК', slides: /statistical-analysis-course/ru/slides/12_least_squares_systematics.html, exercises: /statistical-analysis-course/ru/slides/exercises/12_least_squares_systematics_exercises.html}
   - {n: '13', title: Качество согласия и статистическая значимость, slides: /statistical-analysis-course/ru/slides/13_goodness_of_fit_and_significance.html, exercises: /statistical-analysis-course/ru/slides/exercises/13_goodness_of_fit_and_significance_exercises.html}
   lectures_en:
-  - {n: '01', title: Introduction, slides: /statistical-analysis-course/en/slides/lecture-01-introduction.html}
-  - {n: '02', title: Probability and Bayes, slides: /statistical-analysis-course/en/slides/lecture-02-probability-bayes.html}
-  - {n: '03', title: Random variables and densities, slides: /statistical-analysis-course/en/slides/lecture-03-random-variables-and-densities.html}
-  - {n: '04', title: Expectation and error propagation, slides: /statistical-analysis-course/en/slides/lecture-04-expectation-and-error-propagation.html}
-  - {n: '05', title: Common probability distributions, slides: /statistical-analysis-course/en/slides/lecture-05-common-probability-distributions.html}
-  - {n: '06', title: Monte Carlo method, slides: /statistical-analysis-course/en/slides/lecture-06-monte-carlo-method.html}
-  - {n: '07', title: Statistical tests basics, slides: /statistical-analysis-course/en/slides/lecture-07-statistical-tests-basics.html}
-  - {n: 08, title: Test statistics and multivariate methods, slides: /statistical-analysis-course/en/slides/lecture-08-test-statistics-and-multivariate-methods.html}
-  - {n: 09, title: Goodness of fit and significance, slides: /statistical-analysis-course/en/slides/lecture-09-goodness-of-fit-and-significance.html}
-  - {n: '10', title: Feldman-Cousins and CLs, slides: /statistical-analysis-course/en/slides/lecture-10-feldman-cousins-and-cls.html}
-  - {n: '11', title: Parameter estimation and maximum likelihood, slides: /statistical-analysis-course/en/slides/lecture-11-parameter-estimation-and-maximum-likelihood.html}
-  - {n: '12', title: Method of least squares, slides: /statistical-analysis-course/en/slides/lecture-12-method-of-least-squares.html}
-  - {n: '13', title: Interval estimation and limits, slides: /statistical-analysis-course/en/slides/lecture-13-interval-estimation-and-limits.html}
-  - {n: '14', title: Nuisance parameters and systematics, slides: /statistical-analysis-course/en/slides/lecture-14-nuisance-parameters-and-systematics.html}
-  - {n: '15', title: Bayesian examples, slides: /statistical-analysis-course/en/slides/lecture-15-bayesian-examples.html}
+  - {n: '01', title: 'Motivation and course overview', slides: /statistical-analysis-course/en/slides/lecture-01-introduction.html, exercises: /statistical-analysis-course/en/slides/exercises/lecture-01-introduction-exercises.html}
+  - {n: '02', title: 'Random variables, distributions and moments', slides: /statistical-analysis-course/en/slides/lecture-02-random-distributions.html, exercises: /statistical-analysis-course/en/slides/exercises/lecture-02-random-distributions-exercises.html}
+  - {n: '03', title: 'Characteristic functions and sums of random variables', slides: /statistical-analysis-course/en/slides/lecture-03-characteristic-functions.html, exercises: /statistical-analysis-course/en/slides/exercises/lecture-03-characteristic-functions-exercises.html}
+  - {n: '04', title: 'The central limit theorem and the normal distribution', slides: /statistical-analysis-course/en/slides/lecture-04-central-limit-theorem.html, exercises: /statistical-analysis-course/en/slides/exercises/lecture-04-central-limit-theorem-exercises.html}
+  - {n: '05', title: 'When the Gaussian distribution does not arise', slides: /statistical-analysis-course/en/slides/lecture-05-non-gaussian-clt-violations.html, exercises: /statistical-analysis-course/en/slides/exercises/lecture-05-non-gaussian-clt-violations-exercises.html}
+  - {n: '06', title: 'Error propagation', slides: /statistical-analysis-course/en/slides/lecture-06-error-propagation.html, exercises: /statistical-analysis-course/en/slides/exercises/lecture-06-error-propagation-exercises.html}
+  - {n: '07', title: 'The two-dimensional Gaussian', slides: /statistical-analysis-course/en/slides/lecture-07-two-dimensional-gaussian.html, exercises: /statistical-analysis-course/en/slides/exercises/lecture-07-two-dimensional-gaussian-exercises.html}
+  - n: '08'
+    title: 'The Monte Carlo method and pseudo-experiments'
+    slides: /statistical-analysis-course/en/slides/lecture-08-monte-carlo-method.html
+    exercises: /statistical-analysis-course/en/slides/exercises/lecture-08-monte-carlo-method-exercises.html
+    extra:
+    - {label: VEGAS notebook, href: /statistical-analysis-course/en/slides/notebooks/mc_vegas_notebook.html}
+  - {n: '09', title: 'Likelihood and maximum likelihood estimators', slides: /statistical-analysis-course/en/slides/lecture-09-maximum-likelihood.html, exercises: /statistical-analysis-course/en/slides/exercises/lecture-09-maximum-likelihood-exercises.html}
+  - {n: '10', title: 'Properties of estimators, profile likelihood and data-analysis examples', slides: /statistical-analysis-course/en/slides/lecture-10-estimator-properties-profile-likelihood.html, exercises: /statistical-analysis-course/en/slides/exercises/lecture-10-estimator-properties-profile-likelihood-exercises.html}
+  - {n: '11', title: 'The method of least squares and linear fit', slides: /statistical-analysis-course/en/slides/lecture-11-least-squares-linear-fit.html, exercises: /statistical-analysis-course/en/slides/exercises/lecture-11-least-squares-linear-fit-exercises.html}
+  - {n: '12', title: 'χ² intervals, systematic uncertainties and a practical least-squares recipe', slides: /statistical-analysis-course/en/slides/lecture-12-least-squares-systematics.html, exercises: /statistical-analysis-course/en/slides/exercises/lecture-12-least-squares-systematics-exercises.html}
+  - {n: '13', title: 'Goodness of fit and statistical significance', slides: /statistical-analysis-course/en/slides/lecture-13-goodness-of-fit-and-significance.html, exercises: /statistical-analysis-course/en/slides/exercises/lecture-13-goodness-of-fit-and-significance-exercises.html}
   book_pending: true
   related: []
 - slug: neutrino-introduction
