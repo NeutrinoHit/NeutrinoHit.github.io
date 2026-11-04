@@ -147,9 +147,9 @@ interactives:
         ru: Осцилляции в веществе постоянной плотности
         en: Oscillations at constant density
       note:
-        ru: Амплитуда, период и MSW-резонанс при постоянной плотности вещества · «Введение в физику нейтрино», лекция 12
+        ru: Амплитуда, период и MSW-резонанс при постоянной плотности вещества · «Введение в физику нейтрино», лекция 13
         en: 'Compare vacuum, resonance and high density: matter changes the envelope sin²2θ_m and the length L_m · Introduction to Neutrino Physics,
-          lecture 12'
+          lecture 13'
       links:
       - kind: applet
         label:

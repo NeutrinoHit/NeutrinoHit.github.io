@@ -609,16 +609,13 @@ courses:
     extra:
     - {label: Апплет, href: /neutrinophysics/introduction/ru/applets/flavor-triangle.html}
   - {n: '11', title: Осцилляции в веществе. Откуда берётся преломление, slides: /neutrinophysics/introduction/ru/slides/11_matter_refraction.html}
-  - n: '12'
-    title: Осцилляции в веществе. Постоянная плотность
-    slides: /neutrinophysics/introduction/ru/slides/12_matter_constant_density.html
-    extra:
-    - {label: Апплет, href: /neutrinophysics/introduction/ru/applets/matter-constant.html}
+  - {n: '12', title: Осцилляции в веществе. Постоянная плотность, slides: /neutrinophysics/introduction/ru/slides/12_matter_constant_density.html}
   - n: '13'
-    title: Осцилляции в веществе. Адиабатический MSW-эффект
+    title: Осцилляции в веществе. Резонанс и адиабатический MSW-эффект
     slides: /neutrinophysics/introduction/ru/slides/13_matter_adiabatic_msw.html
     extra:
-    - {label: Апплет, href: /neutrinophysics/introduction/ru/applets/matter-adiabatic.html}
+    - {label: Апплет «Слой», href: /neutrinophysics/introduction/ru/applets/matter-constant.html}
+    - {label: Апплет «MSW-переход», href: /neutrinophysics/introduction/ru/applets/matter-adiabatic.html}
   - {n: '14', title: Осцилляции в веществе. Интерференция и маятники, slides: /neutrinophysics/introduction/ru/slides/14_matter_interference_pendulums.html}
   - {n: '15', title: Осцилляции в веществе. Три флэйвора, slides: /neutrinophysics/introduction/ru/slides/15_matter_three_flavors.html}
   lectures_en:
