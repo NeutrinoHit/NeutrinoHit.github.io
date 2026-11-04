@@ -1815,6 +1815,48 @@
   },
   {
    "id": "mac-e-filter",
+   "variant": "film-katrin-electric",
+   "version": 2,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "841fe0bf4cd9b103cd7f4fdc008613e01e3bbd19dfe1f5cb0c6912981f168f23",
+   "bytes": 8903938,
+   "duration_s": 14.0,
+   "width": 3840,
+   "height": 2160,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Электроны в магнитном поле и MAC-E-фильтр KATRIN",
+    "en": "Electrons in a magnetic field and the KATRIN MAC-E filter"
+   }
+  },
+  {
+   "id": "mac-e-filter",
+   "variant": "film-katrin-electric-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "708dffe2ead18997e5b0301280441de0bb480d5916444ee036ccd7ad03d023d5",
+   "bytes": 8859013,
+   "duration_s": 14.0,
+   "width": 3840,
+   "height": 2160,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Электроны в магнитном поле и MAC-E-фильтр KATRIN",
+    "en": "Electrons in a magnetic field and the KATRIN MAC-E filter"
+   }
+  },
+  {
+   "id": "mac-e-filter",
    "variant": "film-uniform-field",
    "version": 1,
    "home": "media-neutrino",
@@ -1831,6 +1873,48 @@
    "replaces": [
     "neutrinophysics:introduction/ru/slides/assets/04_direct_neutrino_mass/uniform_b_ensemble.mp4"
    ],
+   "title": {
+    "ru": "Электроны в магнитном поле и MAC-E-фильтр KATRIN",
+    "en": "Electrons in a magnetic field and the KATRIN MAC-E filter"
+   }
+  },
+  {
+   "id": "mac-e-filter",
+   "variant": "film-uniform-field",
+   "version": 2,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "d6ec9f66f2396e92d6244f51410c6324e4c5942441014e8375c6b7553f7bd760",
+   "bytes": 3700552,
+   "duration_s": 14.0,
+   "width": 3840,
+   "height": 2160,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Электроны в магнитном поле и MAC-E-фильтр KATRIN",
+    "en": "Electrons in a magnetic field and the KATRIN MAC-E filter"
+   }
+  },
+  {
+   "id": "mac-e-filter",
+   "variant": "film-uniform-field-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "87729374b4fc1f3613593df22f83e8114e8e3d0a7b76d044fa6b868b49798cfd",
+   "bytes": 3627361,
+   "duration_s": 14.0,
+   "width": 3840,
+   "height": 2160,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
    "title": {
     "ru": "Электроны в магнитном поле и MAC-E-фильтр KATRIN",
     "en": "Electrons in a magnetic field and the KATRIN MAC-E filter"
@@ -2848,6 +2932,27 @@
    "replaces": [
     "neutrinophysics:introduction/ru/slides/assets/04_direct_neutrino_mass/project8_cres.mp4"
    ],
+   "title": {
+    "ru": "Project 8: циклотронное излучение электрона",
+    "en": "Project 8: cyclotron radiation of an electron"
+   }
+  },
+  {
+   "id": "project8-cres",
+   "variant": "film-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "07e6b97fc5d11fc3315b28c0580b6cc5e00b8496b18ae32fe6033c44faf823ca",
+   "bytes": 702171,
+   "duration_s": 13.8,
+   "width": 1600,
+   "height": 900,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
    "title": {
     "ru": "Project 8: циклотронное излучение электрона",
     "en": "Project 8: cyclotron radiation of an electron"
@@ -4008,6 +4113,27 @@
   },
   {
    "id": "neutrino-crystal",
+   "variant": "film-en",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "513445577c388a5aa4bb524514c9a29580ec5592502bc1cb3543eb091afdd032",
+   "bytes": 12844025,
+   "duration_s": 54.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Нейтрино как свет в кристалле: вакуум и вещество Солнца",
+    "en": "Neutrinos as light in a crystal: vacuum and solar matter"
+   }
+  },
+  {
+   "id": "neutrino-crystal",
    "variant": "film-ru",
    "version": 1,
    "home": "media-neutrinophysics",
@@ -4030,6 +4156,48 @@
    }
   },
   {
+   "id": "neutrino-crystal",
+   "variant": "film-ru",
+   "version": 2,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "ac6c378934f701782501b7d41fb053dc5c39cb387a3f863c594407d11804ae97",
+   "bytes": 12956551,
+   "duration_s": 54.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Нейтрино как свет в кристалле: вакуум и вещество Солнца",
+    "en": "Neutrinos as light in a crystal: vacuum and solar matter"
+   }
+  },
+  {
+   "id": "optics-to-neutrino",
+   "variant": "film-en",
+   "version": 1,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "0bd2b3d97f759f83ff0868c7acfd59160199d1e0032db7264a8a5228b2b66974",
+   "bytes": 11275646,
+   "duration_s": 44.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "От оптики к нейтрино",
+    "en": "From optics to neutrinos"
+   }
+  },
+  {
    "id": "optics-to-neutrino",
    "variant": "film-ru",
    "version": 2,
@@ -4037,6 +4205,27 @@
    "status": "published",
    "sha256": "23faa263b463b6b25438e9ae4b5b9549c5346f94b04c993496c189dec8b98612",
    "bytes": 8624056,
+   "duration_s": 44.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "От оптики к нейтрино",
+    "en": "From optics to neutrinos"
+   }
+  },
+  {
+   "id": "optics-to-neutrino",
+   "variant": "film-ru",
+   "version": 3,
+   "home": "media-neutrinophysics",
+   "status": "published",
+   "sha256": "b4cbea134ea589a6ec1d911d5bc6a4382f0d32ddc6fdd3f92dae6fb5296e44bc",
+   "bytes": 11357702,
    "duration_s": 44.0,
    "width": 1920,
    "height": 1080,
