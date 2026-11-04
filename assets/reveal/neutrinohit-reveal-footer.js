@@ -334,15 +334,23 @@
   // size at load, shown or not.
   let mathScaleFixed = false;
 
+  // The probe is not put on the current slide: a deck opened on an inner slide
+  // (#/<slide>, as quarto preview reloads it) may not have shown that slide yet,
+  // and an undisplayed probe measures half the size. It goes into <body>, always
+  // displayed, with the font of the slides.
   function mathScaleProbe() {
-    const slide = window.Reveal && window.Reveal.getCurrentSlide && window.Reveal.getCurrentSlide();
-    window.__neutrinohitMathScale = { probe: Boolean(slide), renderer: config.mathJaxRenderer };
-    if (!slide || config.mathJaxRenderer !== "CommonHTML") return null;
+    const slides = document.querySelector(".reveal .slides");
+    window.__neutrinohitMathScale = { probe: Boolean(slides), renderer: config.mathJaxRenderer };
+    if (!slides || config.mathJaxRenderer !== "CommonHTML") return null;
+    const font = getComputedStyle(slides);
     const probe = document.createElement("div");
     probe.setAttribute("aria-hidden", "true");
     probe.style.cssText = "position:absolute;left:0;top:0;visibility:hidden;pointer-events:none";
+    probe.style.fontFamily = font.fontFamily;
+    probe.style.fontSize = font.fontSize;
+    probe.style.lineHeight = font.lineHeight;
     probe.innerHTML = '<span class="math inline">\\(x\\)</span>';
-    slide.appendChild(probe);
+    document.body.appendChild(probe);
     return probe;
   }
 
