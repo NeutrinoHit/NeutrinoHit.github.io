@@ -648,30 +648,24 @@
           "title": "IceCube: первые нейтрино с энергией ПэВ",
           "title_en": "IceCube: the first PeV neutrinos",
           "source_dir": "icecube_first_pev",
-          "description": "Под лабораторией IceCube на Южном полюсе во льду протаяно 86 скважин глубиной 2,5 км; на глубинах от 1,45 до 2,45 км в них стоят 5160 датчиков света — кубический километр льда. Bert (август 2011, 1,04 ПэВ), Ernie (январь 2012, 1,14 ПэВ) и Big Bird (декабрь 2012, около 2 ПэВ): свет каждого каскада рождается внутри льда и зажигает сотни датчиков на расстояниях до 250–300 м. Цвет показывает время прихода света, размер — его количество. Положения датчиков — геометрия IceCube из открытого кода PPC; вершины, энергии и числа датчиков Bert и Ernie — IceCube, PRL 111 (2013) 021103; Big Bird — PRL 113 (2014) 101101, положение условно. Картина света — модель точечного источника в однородном льду, согласованная с Bert. Лаборатория стилизована. Второй ролик (12 с) — как строился IceCube.",
-          "description_en": "Under the IceCube Laboratory at the South Pole, 86 holes were melted 2.5 km into the ice; between 1.45 and 2.45 km they hold 5160 light sensors, a cubic kilometre of ice. Bert (August 2011, 1.04 PeV), Ernie (January 2012, 1.14 PeV) and Big Bird (December 2012, about 2 PeV): the light of each cascade starts inside the ice and lights hundreds of sensors up to 250-300 m away. Colour shows the arrival time of the light, size its amount. Sensor positions: IceCube geometry from the public PPC code; vertices, energies and sensor counts of Bert and Ernie: IceCube, PRL 111 (2013) 021103; Big Bird: PRL 113 (2014) 101101, position illustrative. Light pattern: a point-source model in homogeneous ice matched to Bert. Laboratory stylised. The second film (12 s, Russian) shows how IceCube was built.",
+          "description": "72-секундный трёхмерный фильм: лаборатория IceCube на Южном полюсе, горячее бурение крупным планом и отъезд ко всем 86 скважинам, стеклянный оптический модуль, спуск на кабеле и замерзание воды. В кубическом километре льда — 5160 датчиков. Затем показаны Bert (1,04 ПэВ), Ernie (1,14 ПэВ) и Big Bird (около 2 ПэВ). Цвет отклика обозначает время прихода света, размер — его количество. Геометрия датчиков взята из PPC; свет рассчитан моделью точечного источника, согласованной с Bert. Положение Big Bird условно; станция, оборудование и процесс строительства — реконструкция. Музыка синхронизирована с событиями на 50, 56 и 62 с.",
+          "description_en": "A 72-second 3D film: the IceCube Laboratory at the South Pole, close-up hot-water drilling and a retreat to all 86 boreholes, a glass optical module, cable deployment and refreezing. A cubic kilometre of ice holds 5160 sensors. Bert (1.04 PeV), Ernie (1.14 PeV) and Big Bird (about 2 PeV) then light up the detector. Response colour indicates arrival time; size indicates light yield. Sensor geometry comes from PPC; light is a point-source model calibrated to Bert. Big Bird’s position is illustrative; the building, equipment and construction process are reconstructions. Music accents match the events at 50, 56 and 62 seconds.",
           "videos": [
             {
               "id": "ru",
-              "label": "Первые нейтрино ПэВ, 22 с (русская версия)",
-              "path": "icecube_first_pev/media/icecube_first_pev_ru.mp4",
-              "poster_time": 22.0,
+              "label": "IceCube: строительство и первые нейтрино ПэВ, 72 с (русская версия)",
+              "label_en": "IceCube: construction and the first PeV neutrinos, 72 s (RU)",
+              "path": "icecube_first_pev/media/icecube_cinematic_v1_ru_music.mp4",
+              "poster_time": 30.0,
               "copy_only": true
             },
             {
               "id": "en",
-              "label": "First PeV neutrinos, 22 s (English version)",
-              "path": "icecube_first_pev/media/icecube_first_pev_en.mp4",
-              "poster_time": 22.0,
+              "label": "IceCube: construction and the first PeV neutrinos, 72 s (English version)",
+              "label_en": "IceCube: construction and the first PeV neutrinos, 72 s (EN)",
+              "path": "icecube_first_pev/media/icecube_cinematic_v1_en_music.mp4",
+              "poster_time": 30.0,
               "copy_only": true
-            },
-            {
-              "id": "build-ru",
-              "label": "Как строился IceCube (12 с)",
-              "path": "icecube_first_pev/media/icecube_build_ru.mp4",
-              "poster_time": 6.0,
-              "copy_only": true,
-              "label_en": "How IceCube was built (in Russian, 12 s)"
             }
           ]
         },
