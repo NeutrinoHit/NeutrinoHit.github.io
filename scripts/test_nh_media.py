@@ -80,6 +80,42 @@ class CatalogTest(unittest.TestCase):
             nh_media.add(cat, Path("x"), "star-in-jet", "web-ru", "media-neutrino", [], info=info)
 
 
+class RehomeTest(unittest.TestCase):
+    def two_homes(self, *records):
+        c = catalog(*records)
+        c["projects"]["media-neutrino-2"] = {"title": "t2", "budget_bytes": 100}
+        return c
+
+    def test_prepared_record_moves_and_gets_the_new_address(self):
+        c = self.two_homes(record())
+        state, r = nh_media.rehome(c, "star-in-jet", "web-ru", 1, "media-neutrino-2")
+        self.assertEqual((state, r["home"]), ("moved", "media-neutrino-2"))
+        self.assertEqual(mr.url_of(r, c), "/media-neutrino-2/star-in-jet/web-ru-v1.mp4")
+        self.assertEqual(nh_media.rehome(c, "star-in-jet", "web-ru", 1, "media-neutrino-2")[0], "same")
+
+    def test_published_record_keeps_its_address(self):
+        c = self.two_homes(record(status="published"))
+        with self.assertRaises(SystemExit):
+            nh_media.rehome(c, "star-in-jet", "web-ru", 1, "media-neutrino-2")
+        self.assertEqual(c["media"][0]["home"], "media-neutrino")
+
+    def test_unknown_home_missing_record_and_budget_are_refused(self):
+        c = self.two_homes(record(bytes=60), record(id="other", sha256="b" * 64, bytes=60, home="media-neutrino-2"))
+        for args in (("star-in-jet", "web-ru", 1, "media-nowhere"), ("star-in-jet", "web-ru", 2, "media-neutrino-2"),
+                     ("star-in-jet", "web-ru", 1, "media-neutrino-2")):
+            with self.assertRaises(SystemExit):
+                nh_media.rehome(c, *args)
+        self.assertEqual(c["media"][0]["home"], "media-neutrino")
+
+    def test_project_add(self):
+        c = catalog()
+        nh_media.add_project(c, "media-neutrino-2", "Films 2")
+        self.assertEqual(c["projects"]["media-neutrino-2"], {"title": "Films 2", "budget_bytes": 900_000_000})
+        for home in ("media-neutrino-2", "neutrino-3", "media-Bad"):
+            with self.assertRaises(SystemExit):
+                nh_media.add_project(c, home, "x")
+
+
 class FaststartTest(unittest.TestCase):
     def box(self, kind: bytes, payload: bytes = b"") -> bytes:
         return struct.pack(">I", 8 + len(payload)) + kind + payload

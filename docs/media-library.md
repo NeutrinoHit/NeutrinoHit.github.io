@@ -19,8 +19,10 @@
 | офлайн-комплект | выбранные доклады + один экземпляр каждого фильма; результат сборки вне git |
 
 Медиапроекты делятся так, чтобы ни один не подходил к пределу Pages 1 ГБ.
-Фильмы галереи и QR книг — по теме: `media-neutrino` — нейтрино, частицы,
-астрофизика (и QR книг о нейтрино и частицах); `media-qft` — поля, волны,
+Фильмы галереи и QR книг — по теме: `media-neutrino-2` — нейтрино, частицы,
+астрофизика (и QR книг о нейтрино и частицах; `media-neutrino` с этой темой заполнен
+6 ноября 2026 года и новых фильмов не принимает, опубликованное в нём остаётся на
+своих адресах); `media-qft` — поля, волны,
 относительность (и QR книг КТП и ОТО); `media-mechanics` — механика,
 динамические системы, оптика. Фильмы, которые нужны только одному проекту
 курсов или докладов, живут в его собственном медиапроекте `media-<проект>`:
@@ -29,8 +31,22 @@
 Фильм, который нужен нескольким проектам, остаётся в тематическом. Бюджет в
 каталоге 900 МБ; заполненный проект продолжает `media-<проект>-2`.
 `nh_media.py report` показывает заполнение. Новый медиапроект: строка в
-`.neutrinohit/PROJECTS.md`, запись в `projects` каталога, затем первая
-публикация (ниже).
+`.neutrinohit/PROJECTS.md`, запись в `projects` каталога, генератор и первая
+публикация (ниже):
+
+```bash
+python3 scripts/nh_media.py project-add media-neutrino-2 --title "…"   # запись в projects, бюджет 900 МБ
+python3 scripts/nh_media.py project media-neutrino-2                   # папка медиапроекта рядом с картой
+```
+
+Подготовленную, ещё не опубликованную версию можно перенести в другой медиапроект
+(например, когда прежний заполнился); опубликованная остаётся на своём адресе:
+
+```bash
+python3 scripts/nh_media.py rehome --id <сюжет> --variant <вариант> --version <n> --home media-neutrino-2
+python3 scripts/nh_media.py project media-neutrino; python3 scripts/nh_media.py project media-neutrino-2
+python3 scripts/nh_media.py lock <репозиторий-потребитель>             # новые адреса в media.lock.json
+```
 
 ## Адреса и версии
 
@@ -63,10 +79,10 @@ Release: тег = `id`, файл = `<id>--<variant>--v<version>.mp4`.
 2. Регистрация (проверяет h264, faststart, футер; считает SHA-256; ищет дубликат):
 
    ```bash
-   python3 scripts/nh_media.py prepare <файл.mp4> --id <сюжет> --variant <вариант> --home media-neutrino \
+   python3 scripts/nh_media.py prepare <файл.mp4> --id <сюжет> --variant <вариант> --home media-neutrino-2 \
        [--replaces <путь копии на сайте>] [--replaces talks:<путь в докладе>] --title-ru "…" --title-en "…"
    python3 scripts/nh_media.py check
-   python3 scripts/nh_media.py project media-neutrino        # обновить манифест медиапроекта
+   python3 scripts/nh_media.py project media-neutrino-2      # обновить манифест медиапроекта
    ```
 3. Публикация (DN): загрузка в Release, коммит манифеста, пуш —
    `python3 scripts/nh_media.py publish media-neutrino --yes`, затем в `media-neutrino`

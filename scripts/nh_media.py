@@ -6,6 +6,11 @@
   nh_media.py prepare FILE --id ID --variant V --home H [--version N] [--replaces [PROJECT:]PATH]...
                                       [--title-ru T] [--title-en T] [--credit TEXT]
                                       check and register one reviewed render
+  nh_media.py project-add HOME --title T [--budget BYTES]
+                                      add a media project to the catalog (a full one continues as <home>-2)
+  nh_media.py rehome --id ID --variant V --version N --home H
+                                      move a prepared record to another media project; a published
+                                      record keeps its address and cannot be moved
   nh_media.py check                   validate the catalog, the staged copies and the budgets
   nh_media.py report                  bytes per media project and what the main site keeps
   nh_media.py project HOME [--out DIR]   write or refresh the media project (manifest, build, workflow)
@@ -57,15 +62,16 @@ PAGES_LIMIT = 1_000_000_000
 FOOTER_TAG = "dvn-footer-v1"
 
 # gallery section -> media project; a QR copy goes by its book
+# media-neutrino is full (6 November 2026): new films on neutrinos and particles go to media-neutrino-2
 SECTION_HOME = {
-    "neutrino-particles": "media-neutrino",
+    "neutrino-particles": "media-neutrino-2",
     "fields-waves": "media-qft",
     "relativity-atom-spin": "media-qft",
     "math-dynamical-systems": "media-mechanics",
     "accelerator-optics": "media-mechanics",
     "visual-stories": "media-mechanics",
 }
-BOOK_HOME = {"neutrino-physics": "media-neutrino", "particle-physics": "media-neutrino",
+BOOK_HOME = {"neutrino-physics": "media-neutrino-2", "particle-physics": "media-neutrino-2",
              "qft": "media-qft", "gravity": "media-qft"}
 
 
@@ -190,6 +196,41 @@ def add(catalog: dict[str, Any], path: Path, ident: str, variant: str, home: str
     return "new", record
 
 
+def add_project(catalog: dict[str, Any], home: str, title: str, budget: int = 900_000_000) -> dict[str, Any]:
+    """A new media project in the catalog: the address /<home>/ of its own Pages site."""
+    if not re.fullmatch(r"media-[a-z0-9][a-z0-9-]*", home):
+        raise SystemExit(f"a media project is named media-<words>: {home}")
+    if home in catalog["projects"]:
+        raise SystemExit(f"{home} is already in the catalog")
+    if not 0 < budget < PAGES_LIMIT:
+        raise SystemExit(f"budget must stay under the Pages limit of {PAGES_LIMIT} bytes")
+    catalog["projects"][home] = {"title": title, "budget_bytes": budget}
+    return catalog["projects"][home]
+
+
+def rehome(catalog: dict[str, Any], ident: str, variant: str, version: int, home: str) -> tuple[str, dict[str, Any]]:
+    """Move a prepared record to another media project; returns ("moved" | "same", record).
+
+    Only a prepared record moves: a published one is served at /<home>/... and published
+    addresses never change (register the film again as a new version instead).
+    """
+    record = find_key(catalog, ident, variant, version)
+    if not record:
+        raise SystemExit(f"{ident}/{variant}/v{version} is not in the catalog")
+    if home not in catalog["projects"]:
+        raise SystemExit(f"unknown media project {home}; add it first (nh_media.py project-add)")
+    if record["home"] == home:
+        return "same", record
+    if record.get("status") != "prepared":
+        raise SystemExit(f"{mr.key(record)} is published at {mr.url_of(record, catalog)}: "
+                         f"its address cannot change; register a new version in {home}")
+    total = sum(r["bytes"] for r in catalog["media"] if r["home"] == home) + record["bytes"]
+    if total > catalog["projects"][home]["budget_bytes"]:
+        raise SystemExit(f"{home}: {total} bytes would exceed its budget {catalog['projects'][home]['budget_bytes']}")
+    record["home"] = home
+    return "moved", record
+
+
 def gallery_variant(item: dict[str, Any], video: dict[str, Any]) -> str:
     """web[-<film>][-<lang>]: the variant of a gallery copy, from its video id and language label."""
     vid, iid = video["id"], item["id"]
@@ -276,6 +317,25 @@ def cmd_prepare(args: argparse.Namespace) -> int:
     print(f"{state}: {mr.key(record)}  {mr.human_bytes(record['bytes'])}  {mr.url_of(record, catalog)}{detail}")
     if state != "new":
         print("identical bytes are already registered: no new file")
+    return 0
+
+
+def cmd_project_add(args: argparse.Namespace) -> int:
+    catalog = mr.load()
+    add_project(catalog, args.home, args.title, args.budget)
+    mr.save(catalog)
+    print(f"added: {args.home} ({args.title}), budget {args.budget} bytes; next: nh_media.py project {args.home}")
+    return 0
+
+
+def cmd_rehome(args: argparse.Namespace) -> int:
+    catalog = mr.load()
+    old = (find_key(catalog, args.id, args.variant, args.version) or {}).get("home")
+    state, record = rehome(catalog, args.id, args.variant, args.version, args.home)
+    mr.save(catalog)
+    print(f"{state}: {mr.key(record)} {old} -> {record['home']}  {mr.url_of(record, catalog)}")
+    if state == "moved":
+        print(f"refresh both manifests: nh_media.py project {old}; nh_media.py project {record['home']}")
     return 0
 
 
@@ -625,6 +685,15 @@ def main() -> int:
     p.add_argument("--title-en")
     p.add_argument("--credit")
     p.add_argument("--force", action="store_true", help="register although codec/faststart checks fail")
+    p = sub.add_parser("project-add")
+    p.add_argument("home")
+    p.add_argument("--title", required=True)
+    p.add_argument("--budget", type=int, default=900_000_000)
+    p = sub.add_parser("rehome")
+    p.add_argument("--id", required=True)
+    p.add_argument("--variant", required=True)
+    p.add_argument("--version", type=int, required=True)
+    p.add_argument("--home", required=True)
     sub.add_parser("check")
     sub.add_parser("report")
     p = sub.add_parser("project")
@@ -657,7 +726,8 @@ def main() -> int:
     p = sub.add_parser("guard-install")
     p.add_argument("repos", nargs="+")
     args = parser.parse_args()
-    handler = {"adopt": cmd_adopt, "prepare": cmd_prepare, "check": cmd_check, "report": cmd_report,
+    handler = {"adopt": cmd_adopt, "prepare": cmd_prepare, "project-add": cmd_project_add, "rehome": cmd_rehome,
+               "check": cmd_check, "report": cmd_report,
                "project": cmd_project, "stage": cmd_stage, "publish": cmd_publish, "verify": cmd_verify,
                "prune-site": cmd_prune_site, "replaced": cmd_replaced, "lock": cmd_lock, "extension": cmd_extension, "inventory": cmd_inventory,
                "guard-install": cmd_guard_install}[args.command]
