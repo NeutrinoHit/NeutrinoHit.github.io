@@ -55,6 +55,10 @@
   "media-research": {
    "title": "NeutrinoHit documents: theses of D. V. Naumov",
    "budget_bytes": 900000000
+  },
+  "media-neutrino-2": {
+   "title": "NeutrinoHit films: neutrinos, particles, astrophysics (2)",
+   "budget_bytes": 900000000
   }
  },
  "media": [
@@ -1629,27 +1633,6 @@
   },
   {
    "id": "icecube-first-pev",
-   "variant": "web-en",
-   "version": 3,
-   "home": "media-neutrino",
-   "status": "prepared",
-   "sha256": "fae6047f594dc34ae1d5668aea2571fc8540c20aecd4bdf01ec21f46f83fb874",
-   "bytes": 27714697,
-   "duration_s": 72.0,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": true,
-   "footer": true,
-   "faststart": true,
-   "replaces": [],
-   "title": {
-    "ru": "IceCube: первые нейтрино с энергией ПэВ",
-    "en": "IceCube: the first PeV neutrinos"
-   }
-  },
-  {
-   "id": "icecube-first-pev",
    "variant": "web-ru",
    "version": 1,
    "home": "media-neutrino",
@@ -1681,27 +1664,6 @@
    "sha256": "1c4dc6f8ac00f2b6d6bc1e04651a331e01e183f04b82239e2adf962e2ac317fb",
    "bytes": 25046469,
    "duration_s": 22.5,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": true,
-   "footer": true,
-   "faststart": true,
-   "replaces": [],
-   "title": {
-    "ru": "IceCube: первые нейтрино с энергией ПэВ",
-    "en": "IceCube: the first PeV neutrinos"
-   }
-  },
-  {
-   "id": "icecube-first-pev",
-   "variant": "web-ru",
-   "version": 3,
-   "home": "media-neutrino",
-   "status": "prepared",
-   "sha256": "ef4cf1d38ecd29572b92972ae8d449e711f260df5c6b4acdeb40139ec3bda55e",
-   "bytes": 27811985,
-   "duration_s": 72.0,
    "width": 1920,
    "height": 1080,
    "video_codec": "h264",
@@ -3780,6 +3742,48 @@
    "title": {
     "ru": "Асимметрия в рождении и распаде Z-бозона",
     "en": "Asymmetry in Z boson production and decay"
+   }
+  },
+  {
+   "id": "icecube-first-pev",
+   "variant": "web-en",
+   "version": 3,
+   "home": "media-neutrino-2",
+   "status": "prepared",
+   "sha256": "fae6047f594dc34ae1d5668aea2571fc8540c20aecd4bdf01ec21f46f83fb874",
+   "bytes": 27714697,
+   "duration_s": 72.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "IceCube: первые нейтрино с энергией ПэВ",
+    "en": "IceCube: the first PeV neutrinos"
+   }
+  },
+  {
+   "id": "icecube-first-pev",
+   "variant": "web-ru",
+   "version": 3,
+   "home": "media-neutrino-2",
+   "status": "prepared",
+   "sha256": "ef4cf1d38ecd29572b92972ae8d449e711f260df5c6b4acdeb40139ec3bda55e",
+   "bytes": 27811985,
+   "duration_s": 72.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "IceCube: первые нейтрино с энергией ПэВ",
+    "en": "IceCube: the first PeV neutrinos"
    }
   },
   {
