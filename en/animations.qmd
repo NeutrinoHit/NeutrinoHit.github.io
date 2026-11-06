@@ -10,17 +10,17 @@ toc: false
 <div class="lecture-catalog animation-catalog">
   <p class="lecture-catalog-lead">Scientific animations of NeutrinoHit by topic. A frame plays its video right on the page; the buttons below the description open the other videos of the story and the versions in the other language.</p>
   <nav class="anim-topics" aria-label="Gallery topics">
-    <a href="#neutrino-particles">Neutrinos and particles<span>34</span></a>
+    <a href="#neutrino-particles">Neutrinos and particles<span>35</span></a>
     <a href="#fields-waves">Fields, waves and oscillators<span>28</span></a>
     <a href="#relativity-atom-spin">Relativity, the atom and spin<span>9</span></a>
     <a href="#math-dynamical-systems">Mathematics and dynamical systems<span>6</span></a>
     <a href="#accelerator-optics">Accelerators and magnetic optics<span>4</span></a>
     <a href="#visual-stories">Visual stories<span>3</span></a>
   </nav>
-  <p class="anim-total">84 stories · 170 videos</p>
+  <p class="anim-total">85 stories · 172 videos</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">34 stories · 67 videos</span>
+      <span class="course-tile-status is-ready">35 stories · 69 videos</span>
       <h2>Neutrinos and particles</h2>
       <p>Neutrino oscillations, showers, nuclear processes and interaction diagrams.</p>
     </div>
@@ -219,6 +219,12 @@ toc: false
         <h3 class="anim-title">The light of a neutrino event in a telescope</h3>
         <p class="anim-text">Four English clips (17.5 s each) in which the LightHit model shows how an event lights the sensors of an underwater telescope. Colour is the arrival time of the first light, size and brightness the expected charge, the detector clock is on screen; a 1.5 s hold, 12 s of the event, a 4 s orbit. Model events: a muon neutrino at 1 TeV (an 800 GeV muon plus hadrons) and an electron neutrino at 100 GeV (an electron shower) on five Baikal-GVD clusters; the calculated response of the detector to a muon track (NTSim); a 1 TeV electron cascade on an idealised three-cluster array. The glow is the expected number of photoelectrons, not sampled hits and not data; the light front is shown for illustration; the propagation of light in water is approximate. NTSim (Geant4 11.4.1) and LightHit 0.3 calculations.</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="/media-neutrino/telescope-events/web-numu-cc-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-telescope-events-numu-cc.jpg" title="MP4, 8.3 MB">Muon neutrino, 1 TeV: Baikal-GVD (17.5 s)</a><a class="anim-chip" href="/media-neutrino/telescope-events/web-nue-cc-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-telescope-events-nue-cc.jpg" title="MP4, 5.4 MB">Electron neutrino, 100 GeV: Baikal-GVD (17.5 s)</a><a class="anim-chip" href="/media-neutrino/telescope-events/web-muon-response-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-telescope-events-muon-response.jpg" title="MP4, 10.9 MB">Detector response to a muon track (17.5 s)</a><a class="anim-chip" href="/media-neutrino/telescope-events/web-cascade-response-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-telescope-events-cascade-response.jpg" title="MP4, 8.0 MB">Response to a 1 TeV electron cascade (17.5 s)</a></div>
+      </article>
+      <article class="anim-card" id="animation-neutrino-particles-baikal-sunlight">
+        <div class="anim-media"><a class="anim-poster" href="/media-neutrino/baikal-sunlight/short-4k-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-baikal-sunlight-en.jpg" aria-label="Play: Sunlight in the depths of Lake Baikal"><img src="../assets/animations/dvnanima/neutrino-particles-baikal-sunlight-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Sunlight in the depths of Lake Baikal</h3>
+        <p class="anim-text">From Earth in space to a depth of 1000 m: the changing colour of sunlight, spectral narrowing and individual photons near the Baikal-GVD telescope. Vertical 4K film, 62 s.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="/media-neutrino/baikal-sunlight/short-4k-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-baikal-sunlight-en.jpg" title="MP4, 80.4 MB">EN</a><a class="anim-chip" href="/media-neutrino/baikal-sunlight/short-4k-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-baikal-sunlight-ru.jpg" title="MP4, 80.0 MB">RU</a></div>
       </article>
     </div>
   </section>

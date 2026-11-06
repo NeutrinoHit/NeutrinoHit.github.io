@@ -925,6 +925,54 @@
    }
   },
   {
+   "id": "baikal-sunlight",
+   "variant": "short-4k-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "0f4cf6991728ec6a8129d3ff7a1e54cbe10ee67753ea4b542213c89427fcb3af",
+   "bytes": 84259841,
+   "duration_s": 62.0,
+   "width": 2160,
+   "height": 3840,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-baikal-sunlight-en.mp4"
+   ],
+   "title": {
+    "ru": "Солнечный свет в глубине Байкала",
+    "en": "Sunlight in the depths of Lake Baikal"
+   },
+   "credit": "Calculation and visualization: DN. Geographic imagery: NASA; shoreline: Natural Earth."
+  },
+  {
+   "id": "baikal-sunlight",
+   "variant": "short-4k-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "d60d5bb204f0960b4c5b9131c641c4aa6702439831c4d3ff1516bc057ef4839c",
+   "bytes": 83869964,
+   "duration_s": 62.0,
+   "width": 2160,
+   "height": 3840,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-baikal-sunlight-ru.mp4"
+   ],
+   "title": {
+    "ru": "Солнечный свет в глубине Байкала",
+    "en": "Sunlight in the depths of Lake Baikal"
+   },
+   "credit": "Calculation and visualization: DN. Geographic imagery: NASA; shoreline: Natural Earth."
+  },
+  {
    "id": "bbn",
    "variant": "web-animation",
    "version": 1,

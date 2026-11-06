@@ -10,17 +10,17 @@ toc: false
 <div class="lecture-catalog animation-catalog">
   <p class="lecture-catalog-lead">Научные анимации NeutrinoHit по темам. Кадр запускает ролик прямо на странице; кнопки под описанием — другие ролики сюжета и версии на другом языке.</p>
   <nav class="anim-topics" aria-label="Темы галереи">
-    <a href="#neutrino-particles">Нейтрино и частицы<span>34</span></a>
+    <a href="#neutrino-particles">Нейтрино и частицы<span>35</span></a>
     <a href="#fields-waves">Поля, волны и осцилляторы<span>28</span></a>
     <a href="#relativity-atom-spin">Относительность, атом и спин<span>9</span></a>
     <a href="#math-dynamical-systems">Математика и динамические системы<span>6</span></a>
     <a href="#accelerator-optics">Ускорители и магнитная оптика<span>4</span></a>
     <a href="#visual-stories">Визуальные сюжеты<span>3</span></a>
   </nav>
-  <p class="anim-total">84 сюжета · 170 роликов</p>
+  <p class="anim-total">85 сюжетов · 172 ролика</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">34 сюжета · 67 роликов</span>
+      <span class="course-tile-status is-ready">35 сюжетов · 69 роликов</span>
       <h2>Нейтрино и частицы</h2>
       <p>Осцилляции нейтрино, каскады, ядерные процессы и диаграммы взаимодействий.</p>
     </div>
@@ -219,6 +219,12 @@ toc: false
         <h3 class="anim-title">Свет нейтринного события в телескопе</h3>
         <p class="anim-text">Четыре английских ролика (по 17,5 с), в которых модель LightHit показывает, как событие освещает датчики подводного телескопа. Цвет — время прихода первого света, размер и яркость — ожидаемый заряд, на экране часы детектора; 1,5 с пауза, 12 с событие, 4 с облёт. Модельные события: мюонное нейтрино при 1 ТэВ (мюон 800 ГэВ, адроны) и электронное нейтрино при 100 ГэВ (электронный ливень) на пяти кластерах Baikal-GVD; расчётный отклик мюонного трека в детекторе NTSim; электронный каскад 1 ТэВ на условной трёхкластерной решётке. Свечение — ожидаемое число фотоэлектронов, а не разыгранные отсчёты и не данные; световой фронт показан для наглядности; распространение света в воде приближённое. Расчёты NTSim (Geant4 11.4.1) и LightHit 0.3.</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="/media-neutrino/telescope-events/web-numu-cc-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-telescope-events-numu-cc.jpg" title="MP4, 8.3 MB">Мюонное нейтрино, 1 ТэВ: Baikal-GVD (EN, 17,5 с)</a><a class="anim-chip" href="/media-neutrino/telescope-events/web-nue-cc-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-telescope-events-nue-cc.jpg" title="MP4, 5.4 MB">Электронное нейтрино, 100 ГэВ: Baikal-GVD (EN, 17,5 с)</a><a class="anim-chip" href="/media-neutrino/telescope-events/web-muon-response-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-telescope-events-muon-response.jpg" title="MP4, 10.9 MB">Отклик детектора на мюонный трек (EN, 17,5 с)</a><a class="anim-chip" href="/media-neutrino/telescope-events/web-cascade-response-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-telescope-events-cascade-response.jpg" title="MP4, 8.0 MB">Отклик на электронный каскад 1 ТэВ (EN, 17,5 с)</a></div>
+      </article>
+      <article class="anim-card" id="animation-neutrino-particles-baikal-sunlight">
+        <div class="anim-media"><a class="anim-poster" href="/media-neutrino/baikal-sunlight/short-4k-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-baikal-sunlight-ru.jpg" aria-label="Смотреть: Солнечный свет в глубине Байкала"><img src="../assets/animations/dvnanima/neutrino-particles-baikal-sunlight-ru.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Солнечный свет в глубине Байкала</h3>
+        <p class="anim-text">От Земли из космоса до глубины 1000 м: изменение цвета солнечного света, сужение спектра и отдельные фотоны у телескопа Baikal-GVD. Вертикальный фильм 4К, 62 с.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="/media-neutrino/baikal-sunlight/short-4k-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-baikal-sunlight-ru.jpg" title="MP4, 80.0 MB">RU</a><a class="anim-chip" href="/media-neutrino/baikal-sunlight/short-4k-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-baikal-sunlight-en.jpg" title="MP4, 80.4 MB">EN</a></div>
       </article>
     </div>
   </section>

@@ -783,6 +783,30 @@
               "copy_only": true
             }
           ]
+        },
+        {
+          "id": "baikal-sunlight",
+          "title": "Солнечный свет в глубине Байкала",
+          "title_en": "Sunlight in the depths of Lake Baikal",
+          "source_dir": "baikal_sunlight",
+          "description": "От Земли из космоса до глубины 1000 м: изменение цвета солнечного света, сужение спектра и отдельные фотоны у телескопа Baikal-GVD. Вертикальный фильм 4К, 62 с.",
+          "description_en": "From Earth in space to a depth of 1000 m: the changing colour of sunlight, spectral narrowing and individual photons near the Baikal-GVD telescope. Vertical 4K film, 62 s.",
+          "videos": [
+            {
+              "id": "ru",
+              "label": "Русская версия · 4К · 62 с",
+              "label_en": "Russian · 4K · 62 s",
+              "path": "baikal_sunlight/media/baikal_sunlight_short_4k_ru.mp4",
+              "poster_time": 40
+            },
+            {
+              "id": "en",
+              "label": "English version · 4K · 62 s",
+              "label_en": "English · 4K · 62 s",
+              "path": "baikal_sunlight/media/baikal_sunlight_short_4k_en.mp4",
+              "poster_time": 40
+            }
+          ]
         }
       ]
     },
