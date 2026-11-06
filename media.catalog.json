@@ -1602,7 +1602,6 @@
    "footer": true,
    "faststart": true,
    "replaces": [
-    "assets/animations/dvnanima/neutrino-particles-icecube-first-pev-en.mp4",
     "talks:neutrino-telescopes-2026/media/icecube/icecube_first_pev_en.mp4"
    ],
    "title": {
@@ -1615,7 +1614,7 @@
    "variant": "web-en",
    "version": 2,
    "home": "media-neutrino",
-   "status": "prepared",
+   "status": "published",
    "sha256": "da6c7594c2d1edddaf85bbeef37fe9c5e4968fcd95e744f25c5c9bcb2838a316",
    "bytes": 25530274,
    "duration_s": 22.5,
@@ -1647,7 +1646,6 @@
    "footer": true,
    "faststart": true,
    "replaces": [
-    "assets/animations/dvnanima/neutrino-particles-icecube-first-pev-ru.mp4",
     "talks:neutrino-telescopes-ru-2026/media/films/icecube_first_pev_ru.mp4"
    ],
    "title": {
@@ -1660,7 +1658,7 @@
    "variant": "web-ru",
    "version": 2,
    "home": "media-neutrino",
-   "status": "prepared",
+   "status": "published",
    "sha256": "1c4dc6f8ac00f2b6d6bc1e04651a331e01e183f04b82239e2adf962e2ac317fb",
    "bytes": 25046469,
    "duration_s": 22.5,
@@ -2294,53 +2292,6 @@
    }
   },
   {
-   "id": "msw-parametric",
-   "variant": "film-layers",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "fd6abb8dffc664f118d15f47a52f6f4f11f2b3def7190ab6d802fdb4fd1631da",
-   "bytes": 1994591,
-   "duration_s": 30.1,
-   "width": 1920,
-   "height": 1080,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": true,
-   "faststart": true,
-   "replaces": [
-    "neutrinophysics:introduction/ru/slides/assets/06_matter_oscillations/msw_parametric_layers.mp4",
-    "neutrinophysics:introduction/ru/book/assets/chapters/06_matter_oscillations/msw_parametric_layers.mp4"
-   ],
-   "title": {
-    "ru": "Параметрическое усиление в чередующихся слоях вещества",
-    "en": "Parametric amplification in alternating layers of matter"
-   }
-  },
-  {
-   "id": "msw-parametric",
-   "variant": "qr-neutrino-physics",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "61f61790a29730bc043086779e75b08243ddb69a9035d45f1c21582aa5048ce0",
-   "bytes": 718495,
-   "duration_s": 30.1,
-   "width": 1280,
-   "height": 720,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": true,
-   "faststart": true,
-   "replaces": [
-    "assets/book-animations/neutrino-physics/0018.mp4"
-   ],
-   "title": {
-    "ru": "Параметрическое усиление в чередующихся слоях вещества",
-    "en": "Parametric amplification in alternating layers of matter"
-   }
-  },
-  {
    "id": "msw-pendulums",
    "variant": "film-beats",
    "version": 1,
@@ -2404,28 +2355,6 @@
    ],
    "title": {
     "ru": "Связанные маятники и эффект MSW"
-   }
-  },
-  {
-   "id": "msw-rotating-basis",
-   "variant": "film-ru",
-   "version": 1,
-   "home": "media-neutrino",
-   "status": "published",
-   "sha256": "7e1efd1894753d2e62b80c8b1806c0f2f597046be78d5a110c4af3fd1ce0d890",
-   "bytes": 1445757,
-   "duration_s": 38.0,
-   "width": 1280,
-   "height": 720,
-   "video_codec": "h264",
-   "audio": false,
-   "footer": true,
-   "faststart": true,
-   "replaces": [
-    "neutrinophysics:introduction/ru/slides/assets/06_matter_oscillations/msw_rotating_basis_ru.mp4"
-   ],
-   "title": {
-    "ru": "Мгновенный базис поворачивается: адиабатический MSW-переход"
    }
   },
   {
@@ -3749,7 +3678,7 @@
    "variant": "web-en",
    "version": 3,
    "home": "media-neutrino-2",
-   "status": "prepared",
+   "status": "published",
    "sha256": "fae6047f594dc34ae1d5668aea2571fc8540c20aecd4bdf01ec21f46f83fb874",
    "bytes": 27714697,
    "duration_s": 72.0,
@@ -3759,7 +3688,9 @@
    "audio": true,
    "footer": true,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-icecube-first-pev-en.mp4"
+   ],
    "title": {
     "ru": "IceCube: первые нейтрино с энергией ПэВ",
     "en": "IceCube: the first PeV neutrinos"
@@ -3770,7 +3701,7 @@
    "variant": "web-ru",
    "version": 3,
    "home": "media-neutrino-2",
-   "status": "prepared",
+   "status": "published",
    "sha256": "ef4cf1d38ecd29572b92972ae8d449e711f260df5c6b4acdeb40139ec3bda55e",
    "bytes": 27811985,
    "duration_s": 72.0,
@@ -3780,7 +3711,9 @@
    "audio": true,
    "footer": true,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-icecube-first-pev-ru.mp4"
+   ],
    "title": {
     "ru": "IceCube: первые нейтрино с энергией ПэВ",
     "en": "IceCube: the first PeV neutrinos"
@@ -6795,6 +6728,48 @@
    "credit": "source not recorded"
   },
   {
+   "id": "deep-water-wave",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "64f8d1573e59cbe03793c239b6cef133a5bfdfba5d1dcb20b25eaaa69869616b",
+   "bytes": 1367350,
+   "duration_s": 11.28,
+   "width": 390,
+   "height": 256,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Волна на глубокой воде"
+   },
+   "credit": "Kraaiennest, https://commons.wikimedia.org/wiki/File:Deep_water_wave.gif ; CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ ; GIF перекодирован в MP4."
+  },
+  {
+   "id": "electromagnetic-wave",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "34a77bfeadcce63ea8476adea2e1405b29fc40671c371d4b695b6686088b8b60",
+   "bytes": 5815429,
+   "duration_s": 34.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Электромагнитная волна: поля и распространение"
+   },
+   "credit": "Модель, расчёт и визуализация: DN. Плоская линейно поляризованная волна в вакууме; длина волны 600 нм. E и B показаны в разных масштабах, время замедлено."
+  },
+  {
    "id": "first-stars",
    "variant": "film",
    "version": 1,
@@ -6813,6 +6788,27 @@
     "sciencepop:BirthAndLifeUniverse/assets/figures/first-stars.mp4"
    ],
    "credit": "source not recorded"
+  },
+  {
+   "id": "free-fall-lab",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "eff40f71f15a5d98368151fd4c73d74b62bab2ce668c1c0854e704f17a60df87",
+   "bytes": 1265564,
+   "duration_s": 34.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Свободно падающая лаборатория и приливы Земли"
+   },
+   "credit": "Модель, расчёт и визуализация: DN. Слабое статическое поле Земли, ньютоновский предел. Внешний и внутренний виды используют одну траекторию; увеличены только приливные изменения."
   },
   {
    "id": "galaxy-morphology",
@@ -6835,6 +6831,132 @@
    "credit": "source not recorded"
   },
   {
+   "id": "gravitational-wave",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "8ed43e56853a1d1db3fe970bd653b4735f6836996744cacdcce819b26f066932",
+   "bytes": 2400320,
+   "duration_s": 34.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Гравитационная волна: свободные тела и расстояния"
+   },
+   "credit": "Модель, расчёт и визуализация: DN. Линейное действие поляризации «+» на свободные тела. Изменения расстояний увеличены только на рисунке; графики и отсчёты физические."
+  },
+  {
+   "id": "gravity-as-curvature",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "d92e14998d88b41f02ed43859fc1b9f49177d5bdb6a0ed3a8ee32ac013aed437",
+   "bytes": 430563,
+   "duration_s": 21.52,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Гравитация как кривизна пространства-времени"
+   },
+   "credit": "ScienceClick; фрагмент из лекции DN (2024), адаптация указана на исходном слайде."
+  },
+  {
+   "id": "gw-earth-deformation",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "26edf00688a08dd615ac40ad38c9182846ae0d8b878f30d9cc4955e7f46dd1aa",
+   "bytes": 16921608,
+   "duration_s": 15.98,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Действие гравитационной волны на Землю"
+   },
+   "credit": "Caltech/MIT/LIGO Lab, T. Pyle; https://www.ligo.caltech.edu/video/ligo20160211v5 ; эффект сильно преувеличен."
+  },
+  {
+   "id": "gw150914-chirp",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "e27392b23f1954a3874f7f11a0eca3895d0a66fccf07a87e1569df8dbdd9c6dd",
+   "bytes": 379870,
+   "duration_s": 11.96,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Звук слияния двух чёрных дыр"
+   },
+   "credit": "Caltech/MIT/LIGO Lab; The Sound of Two Black Holes Colliding; https://www.ligo.caltech.edu/video/ligo20160211v2 ; фрагмент из лекции DN (2024)."
+  },
+  {
+   "id": "gw150914-merger",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "4ee7cc01a8eb915c914096ff3532679e8d11e3b6e2a496d8179fd73c14ebe14a",
+   "bytes": 72937534,
+   "duration_s": 59.23,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Слияние чёрных дыр GW150914"
+   },
+   "credit": "SXS Collaboration (марка в кадре); фрагмент GW_cut2 из лекции DN (2024); точный первоисточник фрагмента не установлен."
+  },
+  {
+   "id": "gw150914-warped-spacetime",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "5e59c269913691aa49e5e8bafcf933d6b6d67d953ec6c75ac78b73625f0a5a44",
+   "bytes": 10635764,
+   "duration_s": 73.84,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Кривизна пространства-времени при слиянии чёрных дыр"
+   },
+   "credit": "SXS Collaboration, Warped Spacetime and Horizons of GW150914; https://youtu.be/c-2XIuNFgD0 ; копия из лекции DN (2024)."
+  },
+  {
    "id": "illustris-evolution",
    "variant": "film",
    "version": 1,
@@ -6853,6 +6975,27 @@
     "sciencepop:BirthAndLifeUniverse/assets/figures/illustris-evolution.mp4"
    ],
    "credit": "Illustris Simulation"
+  },
+  {
+   "id": "ligo-interferometer",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "ff1c6783aa6285dbc57f54d9b240743d758afe27a2fdb858e76c9eaa2e5f6633",
+   "bytes": 71771482,
+   "duration_s": 56.42,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Принцип работы интерферометра LIGO"
+   },
+   "credit": "Caltech/MIT/LIGO Lab, T. Pyle; Most Precise Ruler Ever Constructed; https://www.ligo.caltech.edu/video/ligo20160211v6"
   },
   {
    "id": "nucleus-shapes",
@@ -6912,6 +7055,111 @@
     "sciencepop:BirthAndLifeUniverse/assets/figures/proto-galaxy-disk.mp4"
    ],
    "credit": "source not recorded"
+  },
+  {
+   "id": "quadrupole-wave",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "ae607d4b066507437c3fbc7b31278e0d6c9902f9cfbd4d4b387bd71eabf706d8",
+   "bytes": 157751,
+   "duration_s": 2.0,
+   "width": 420,
+   "height": 420,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Квадрупольная гравитационная волна"
+   },
+   "credit": "Raoul NK, https://commons.wikimedia.org/wiki/File:Quadrupol_Wave.gif ; CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/ ; GIF перекодирован в MP4."
+  },
+  {
+   "id": "sound-propagation",
+   "variant": "film",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "d135ef07a48df23ccf807fcca172a4370b684c69642d2e8a03952e82b55ca2a3",
+   "bytes": 2566672,
+   "duration_s": 67.01,
+   "width": 1280,
+   "height": 720,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": false,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Распространение звуковой волны"
+   },
+   "credit": "Копия из лекции DN (2024), в исходных слайдах указан источник: Википедия; точный первоисточник не установлен."
+  },
+  {
+   "id": "sound-wave",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "8c1c746f2f665f3476dcfcc0fe0d3d4c35d6dfdc2951531bfc6e3fcb4c612aa6",
+   "bytes": 7930175,
+   "duration_s": 34.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Звуковая волна: движение среды и давление"
+   },
+   "credit": "Модель, расчёт и визуализация: DN. Линейная плоская звуковая волна от поршня; смещения увеличены в 8000 раз, время замедлено в 1000 раз."
+  },
+  {
+   "id": "water-wave",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "202d451aa10f565c8283093c3a946caf064cf4ce058595dd504fd7d808ee6333",
+   "bytes": 8518626,
+   "duration_s": 34.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Волна на воде: гребень и движение среды"
+   },
+   "credit": "Модель, расчёт и визуализация: DN. Линейная глубоководная волна; высота волны и смещения увеличены в четыре раза. Орбиты первого порядка, дрейф Стокса не учитывается."
+  },
+  {
+   "id": "wave-comparison",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "8c2755ea9e2c28930d35d58718954a11d608abc4332165c80a52a9aba0bdbd12",
+   "bytes": 6450780,
+   "duration_s": 34.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Общие свойства волн: амплитуда, период и частота"
+   },
+   "credit": "Модели, расчёт и визуализация: DN. Гармонические примеры звука, света и глубокой воды. Масштабы каждой строки независимы; фазы выровнены для сравнения."
   },
   {
    "id": "wmap-shape-of-universe",
@@ -7418,6 +7666,69 @@
    "replaces": [
     "talks:neutrino-telescopes-2026/media/reconstruction/reconstruction_en.mp4"
    ],
+   "title": {
+    "ru": "Как восстановить невидимый трек мюона",
+    "en": "Reconstructing an invisible muon track"
+   }
+  },
+  {
+   "id": "neutrino-reconstruction",
+   "variant": "film-en",
+   "version": 2,
+   "home": "media-talks",
+   "status": "published",
+   "sha256": "e8097a56d2273a8234bc218a37d0be2d76e9088fa75c0896ad52105e26bfccef",
+   "bytes": 1009247,
+   "duration_s": 48.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Как восстановить невидимый трек мюона",
+    "en": "Reconstructing an invisible muon track"
+   }
+  },
+  {
+   "id": "neutrino-reconstruction",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-talks",
+   "status": "published",
+   "sha256": "44edc6f326086340346afdb4ed394ac5d2d6ad2dc5e7255923ad9983e2f4e956",
+   "bytes": 1084129,
+   "duration_s": 48.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Как восстановить невидимый трек мюона",
+    "en": "Reconstructing an invisible muon track"
+   }
+  },
+  {
+   "id": "neutrino-reconstruction",
+   "variant": "film-ru",
+   "version": 2,
+   "home": "media-talks",
+   "status": "published",
+   "sha256": "862551648aaf1bebe52497338c9b8b4597a0339abc43326a855eddeb74610229",
+   "bytes": 1084540,
+   "duration_s": 48.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
    "title": {
     "ru": "Как восстановить невидимый трек мюона",
     "en": "Reconstructing an invisible muon track"
