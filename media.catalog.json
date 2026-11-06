@@ -2799,6 +2799,52 @@
    }
   },
   {
+   "id": "pmt-juno",
+   "variant": "web-en",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "102357dec2182a14b5c9b1134e0583f0acd35bf00006684120fee61ea18969a6",
+   "bytes": 14817630,
+   "duration_s": 53.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-pmt-short-en.mp4"
+   ],
+   "title": {
+    "ru": "Увидеть один фотон",
+    "en": "Seeing a single photon"
+   }
+  },
+  {
+   "id": "pmt-juno",
+   "variant": "web-ru",
+   "version": 1,
+   "home": "media-neutrino",
+   "status": "published",
+   "sha256": "6a9664f6e2874e26cadee2204af4e289b997e2a58f3424580c02e7dfd78dd7a6",
+   "bytes": 14834900,
+   "duration_s": 53.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-pmt-short-ru.mp4"
+   ],
+   "title": {
+    "ru": "Увидеть один фотон",
+    "en": "Seeing a single photon"
+   }
+  },
+  {
    "id": "pmt-multiplication",
    "variant": "web-avalanche-en",
    "version": 1,

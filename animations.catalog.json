@@ -376,17 +376,29 @@
         },
         {
           "id": "pmt",
-          "title": "Фотоумножитель",
-          "title_en": "Photomultiplier",
-          "source_dir": "pmt",
-          "description": "Схематическая траектория электронов в ФЭУ по численным данным.",
-          "description_en": "A schematic electron trajectory in a PMT from numerical data.",
+          "title": "Увидеть один фотон",
+          "title_en": "Seeing a single photon",
+          "source_dir": "pmt_juno",
+          "description": "Один фотон освобождает фотоэлектрон; десять динодов умножают заряд, а анод собирает электрический импульс. ФЭУ R12860 в 3D, микроуровень фотоэффекта и вторичной эмиссии. Колба — по чертежу Hamamatsu; внутренние электроды — реконструкция, траектории — расчёт в трёхмерном поле. В интерактиве можно менять напряжение, точку попадания света и магнитное поле; допущения и точность модели указаны внутри.",
+          "description_en": "One photon releases a photoelectron; ten dynodes multiply the charge, and the anode collects an electrical pulse. A 3D R12860 photomultiplier with microscopic views of photoemission and secondary emission. The bulb follows a Hamamatsu drawing; internal electrodes are reconstructed and trajectories are calculated in a 3D field. The interactive model lets you vary voltage, illumination position and magnetic field, with assumptions and accuracy stated inside.",
+          "interactive_url": "assets/animations/pmt-juno/index.html",
+          "interactive_label": "R12860 · 3D-интерактив",
+          "interactive_label_en": "R12860 · interactive model (RU)",
           "videos": [
             {
-              "id": "pmt-schematic",
-              "label": "PMT schematic",
-              "path": "pmt/media/videos/pmt_manim/1080p60/PMTSchematicFromHDF5.mp4",
-              "poster_time": 12.3
+              "id": "short-ru",
+              "label": "От фотона к току — русская версия",
+              "label_en": "From photon to current",
+              "path": "pmt_juno/media/pmt_short_v4_ru_score_A.mp4",
+              "poster_time": 12.5,
+              "copy_only": true
+            },
+            {
+              "id": "short-en",
+              "label": "From photon to current — English version",
+              "path": "pmt_juno/media/pmt_short_v4_en_score_A.mp4",
+              "poster_time": 12.5,
+              "copy_only": true
             }
           ]
         },

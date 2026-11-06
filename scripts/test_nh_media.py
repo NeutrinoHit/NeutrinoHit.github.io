@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import argparse
+import io
 import os
 import struct
 import subprocess
@@ -89,6 +91,38 @@ class FaststartTest(unittest.TestCase):
             bad.write_bytes(self.box(b"ftyp", b"isom") + self.box(b"mdat", b"xx") + self.box(b"moov"))
             self.assertTrue(nh_media.faststart(good))
             self.assertFalse(nh_media.faststart(bad))
+
+
+class ScopedPublicationTest(unittest.TestCase):
+    def test_story_selection_keeps_both_languages(self):
+        ru, en, other = record(), record(variant='web-en'), record(id='another-story')
+        cat = catalog(ru, en, other)
+        self.assertEqual(nh_media.records_of(cat, 'media-neutrino', 'star-in-jet'), [ru, en])
+        with self.assertRaises(SystemExit):
+            nh_media.records_of(cat, 'media-neutrino', 'typo')
+
+    def test_dry_run_never_includes_another_prepared_story(self):
+        args = argparse.Namespace(home='media-neutrino', id='star-in-jet', yes=False, online=False)
+        with patch.object(mr, 'load', return_value=catalog(record(), record(id='another-story'))), \
+                patch.object(nh_media, 'gh') as remote, patch('sys.stdout', new_callable=io.StringIO) as out:
+            self.assertEqual(nh_media.cmd_publish(args), 0)
+            self.assertIn('star-in-jet--web-ru--v1.mp4', out.getvalue())
+            self.assertNotIn('another-story', out.getvalue())
+            remote.assert_not_called()
+
+    def test_verify_marks_only_selected_story(self):
+        selected, other = record(), record(id='another-story')
+        cat = catalog(selected, other)
+        args = argparse.Namespace(home='media-neutrino', id='star-in-jet',
+                                  base='http://localhost', full=False, mark=True)
+        with patch.object(mr, 'load', return_value=cat), patch.object(mr, 'save') as save, \
+                patch.object(nh_media, 'http_range', return_value=(200, {'Content-Type': 'video/mp4'}, b'x'*10)) as get, \
+                patch('sys.stdout', new_callable=io.StringIO):
+            self.assertEqual(nh_media.cmd_verify(args), 0)
+            self.assertEqual(selected['status'], 'published')
+            self.assertEqual(other['status'], 'prepared')
+            self.assertEqual(get.call_count, 1)
+            save.assert_called_once_with(cat)
 
 
 class ConsumerToolTest(unittest.TestCase):

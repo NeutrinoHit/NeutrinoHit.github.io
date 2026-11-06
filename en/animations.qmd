@@ -17,10 +17,10 @@ toc: false
     <a href="#accelerator-optics">Accelerators and magnetic optics<span>4</span></a>
     <a href="#visual-stories">Visual stories<span>3</span></a>
   </nav>
-  <p class="anim-total">84 stories · 169 videos</p>
+  <p class="anim-total">84 stories · 170 videos</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">34 stories · 66 videos</span>
+      <span class="course-tile-status is-ready">34 stories · 67 videos</span>
       <h2>Neutrinos and particles</h2>
       <p>Neutrino oscillations, showers, nuclear processes and interaction diagrams.</p>
     </div>
@@ -122,9 +122,10 @@ toc: false
         <p class="anim-text">Morphing between spherical and deformed nuclear shapes.</p>
       </article>
       <article class="anim-card" id="animation-neutrino-particles-pmt">
-        <div class="anim-media"><a class="anim-poster" href="/media-neutrino/pmt/web-schematic-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-pmt-pmt-schematic.jpg" aria-label="Play: Photomultiplier"><img src="../assets/animations/dvnanima/neutrino-particles-pmt-pmt-schematic.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
-        <h3 class="anim-title">Photomultiplier</h3>
-        <p class="anim-text">A schematic electron trajectory in a PMT from numerical data.</p>
+        <div class="anim-media"><a class="anim-poster" href="/media-neutrino/pmt-juno/web-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-pmt-short-en.jpg" aria-label="Play: Seeing a single photon"><img src="../assets/animations/dvnanima/neutrino-particles-pmt-short-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Seeing a single photon</h3>
+        <p class="anim-text">One photon releases a photoelectron; ten dynodes multiply the charge, and the anode collects an electrical pulse. A 3D R12860 photomultiplier with microscopic views of photoemission and secondary emission. The bulb follows a Hamamatsu drawing; internal electrodes are reconstructed and trajectories are calculated in a 3D field. The interactive model lets you vary voltage, illumination position and magnetic field, with assumptions and accuracy stated inside.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="/media-neutrino/pmt-juno/web-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-pmt-short-en.jpg" title="MP4, 14.1 MB">EN</a><a class="anim-chip" href="/media-neutrino/pmt-juno/web-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-pmt-short-ru.jpg" title="MP4, 14.1 MB">RU</a><a class="anim-chip is-interactive" href="../assets/animations/pmt-juno/index.html">R12860 · interactive model (RU)</a></div>
       </article>
       <article class="anim-card" id="animation-neutrino-particles-pmt-multiplication">
         <div class="anim-media"><a class="anim-poster" href="/media-neutrino/pmt-multiplication/web-avalanche-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche-en.jpg" aria-label="Play: Electron multiplication in a PMT"><img src="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>

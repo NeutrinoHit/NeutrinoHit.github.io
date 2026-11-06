@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061019">
+  <meta name="description" content="От одного фотона к электрическому импульсу: трёхмерная электронная оптика, динодный каскад и интерактивная модель фотоэлектронного умножителя R12860.">
+  <title>Увидеть один фотон · NeutrinoHit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="scene" aria-label="Трёхмерная модель фотоэлектронного умножителя. Перетаскивайте для вращения, колесо — масштаб."></div>
+  <header><a class="brand" href="https://neutrinohit.github.io/ru/animations.html"><img src="brand.svg" alt="NeutrinoHit"><b>NEUTRINOHIT</b></a><span class="device">HAMAMATSU R12860 <i>20″</i></span><button id="about" class="quiet">Модель и источники ↗</button></header>
+  <main>
+    <section class="story" aria-live="polite">
+      <p id="eyebrow" class="eyebrow">ЭЛЕКТРОННАЯ ОПТИКА / 01</p>
+      <h1 id="title">Увидеть<br><em>один фотон.</em></h1>
+      <p id="body">Свет оставляет едва заметный след. Электрическое поле превращает его в измеримый сигнал.</p>
+      <div id="formula" class="formula">Eγ = hc / λ</div>
+      <div class="story-actions"><button id="tour" class="primary">▶ Смотреть историю</button><button id="explore" class="quiet">Исследовать ↓</button></div>
+      <div class="legend"><span class="gold-dot">фотон</span><span class="cyan-dot">электроны</span></div>
+    </section>
+    <aside class="controls" aria-label="Параметры эксперимента">
+      <div class="panel-head"><span>ВАШ ЭКСПЕРИМЕНТ</span><span id="compute-state">Загрузка поля…</span></div>
+      <label>Напряжение <output id="voltage-value">2000 В</output><input id="voltage" type="range" min="1000" max="2500" step="50" value="2000"></label>
+      <label>Длина волны <output id="wavelength-value">420 нм</output><input id="wavelength" type="range" min="300" max="650" step="5" value="420"></label>
+      <div class="two-controls"><label>Точка: θ <output id="theta-value">25°</output><input id="theta" type="range" min="0" max="80" step="1" value="25"></label><label>Азимут: φ <output id="phi-value">−90°</output><input id="phi" type="range" min="-180" max="180" step="5" value="-90"></label></div>
+      <label>Угол фотона к нормали <output id="incidence-value">0°</output><input id="incidence" type="range" min="0" max="70" step="5" value="0"></label>
+      <label>Магнитное поле Bᵧ <output id="magnetic-value">0 мкТл</output><input id="magnetic" type="range" min="-80" max="80" step="5" value="0"></label>
+      <label class="checkbox"><input id="conditioned" type="checkbox" checked> Событие с фотоэлектроном <span title="Выключите, чтобы учитывать вероятность фотоэмиссии по спектральной кривой.">ⓘ</span></label>
+      <p class="micro" id="qe-label">QE — по кривой одного ФЭУ, не среднее JUNO.</p>
+      <button id="fire" class="primary wide" disabled>Отправить фотон <span>↗</span></button>
+      <div class="presets"><button data-preset="nominal">2000 В · B = 0</button><button data-preset="earth">B = 50 мкТл</button><button data-preset="edge">Край катода</button></div>
+      <div class="view-controls"><label class="checkbox"><input id="cut" type="checkbox" checked> Разрез</label><label class="checkbox"><input id="drawing" type="checkbox"> Чертёж</label><button id="reset-view" class="quiet">↻ Вид</button></div>
+    </aside>
+    <nav id="chapters" aria-label="Этапы сигнала"><button data-chapter="0" class="active">01 <span>Фотон</span></button><button data-chapter="1">02 <span>Катод</span></button><button data-chapter="2">03 <span>Фокус</span></button><button data-chapter="3">04 <span>Первый динод</span></button><button data-chapter="4">05 <span>Каскад</span></button><button data-chapter="5">06 <span>Сигнал</span></button></nav>
+    <section class="readout" aria-label="Результат расчёта">
+      <div class="clock"><small>ФИЗИЧЕСКОЕ ВРЕМЯ</small><strong><span id="clock">0.0</span><i> нс</i></strong><span id="event-state">Ожидание фотона</span></div>
+      <div class="scope"><div class="scope-title"><span>АНОД · 50 Ω</span><span id="charge">Q = —</span></div><canvas id="scope" aria-label="Осциллограмма напряжения на аноде"></canvas></div>
+      <div class="gain"><small>ЭЛЕКТРОНОВ НА АНОДЕ</small><strong id="gain">—</strong><span id="transit">Время прихода —</span><button id="export" class="quiet">Сохранить расчёт ↓</button></div>
+    </section>
+    <section class="transport" aria-label="Воспроизведение"><button id="play" aria-label="Пауза">Ⅱ</button><input id="time" aria-label="Физическое время" type="range" min="-1" max="160" step="0.1" value="-1"><span id="visual-scale">Точки представляют группы электронов</span></section>
+  </main>
+  <div id="labels" aria-hidden="true"></div>
+  <div id="cascade-count"><span id="cascade-stage">ПОСЛЕ ПЕРВОГО ДИНОДА</span><strong id="cascade-number">1</strong><small>электронов в этой ступени каскада</small></div>
+  <div id="loading" role="status"><div class="loading-mark">N<span>·</span>H</div><p id="loading-text">Загружаем трёхмерное поле</p><progress max="1" value="0"></progress><small>Траектории вычисляются на вашем устройстве</small></div>
+  <footer>© neutrinohit.github.io <span>Реконструкция геометрии · расчётные траектории · масштаб частиц условный</span></footer>
+  <dialog id="model-dialog">
+    <div class="dialog-head"><span class="eyebrow">ОТ ЧЕРТЕЖА К РАСЧЁТУ</span><button id="close-dialog" aria-label="Закрыть">✕</button></div>
+    <h2>Что здесь измерено,<br>а что смоделировано</h2>
+    <p>Внешняя колба построена по размерному чертежу Hamamatsu. Внутренняя система Box & Line — параметрическая реконструкция: заводских размеров электродов нет в использованных источниках.</p>
+    <div class="facts"><div><small>ИЗ ПАСПОРТА</small><b>508 мм</b><span>диаметр колбы</span></div><div><small>ИЗ ПАСПОРТА</small><b>10⁷</b><span>типичный gain при 2000 В</span></div><div><small>ИЗ ПАСПОРТА</small><b>95 нс</b><span>время пролёта</span></div><div><small>ИЗ ПАСПОРТА</small><b>2.4 нс</b><span>TTS, FWHM</span></div></div>
+    <h3>Как устроен расчёт</h3>
+    <p>Уравнение Лапласа решается на вложенных трёхмерных сетках. Электроны движутся по уравнению Лоренца; магнитное поле меняет траекторию, но не совершает работу. При попадании в металл электрон останавливается. Вторичная эмиссия происходит с обращённой в вакуум активной поверхности динода.</p>
+    <p>В начале каскада считаются отдельные электроны. Затем используется выборка макрочастиц с весами; показанный заряд учитывает их веса и потери. Вторичный выход зависит от рассчитанной энергии удара. Один общий коэффициент этого эмпирического закона откалиброван на среднее усиление 10⁷ с учётом потерь. Проверка выполнена на независимой выборке. События не масштабируются по отдельности.</p>
+    <h3>Границы модели</h3>
+    <ul><li>Реконструкция не является цифровым двойником серийного R12860. Совпадение с паспортной TTS не навязывается; джиттер для подгонки не добавляется.</li><li>Стекло задано слоем средней толщины 4 мм. Преломление, угловая зависимость QE, пространственный заряд, обратное рассеяние, тёмные импульсы и послесвечения не моделируются. Угол фотона меняет путь до заданной точки, но не QE.</li><li>QE(λ) приближённо оцифрована из графика HPK для одного ФЭУ EA0077. Кривая не описывает все ФЭУ JUNO. Начальная энергия фотоэлектрона 0.3 эВ и распределение вторичных электронов — допущения.</li><li>Осциллограмма — сумма рассчитанных приходов, свёрнутая с причинным откликом считывания. Форма отклика задана явно, а не получена из полной модели электроники. TTS и ширина одного импульса — разные величины.</li></ul>
+    <p id="numerics" class="model-note"></p>
+    <h3>Первоисточники</h3><div id="sources"></div>
+    <button id="download-drawing" class="quiet">Скачать чертёж модели (SVG) ↓</button>
+  </dialog>
+  <script type="module" src="app.mjs"></script>
+  <script defer src="cloudflare-web-analytics.js"></script>
+</body></html>

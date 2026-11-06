@@ -17,10 +17,10 @@ toc: false
     <a href="#accelerator-optics">Ускорители и магнитная оптика<span>4</span></a>
     <a href="#visual-stories">Визуальные сюжеты<span>3</span></a>
   </nav>
-  <p class="anim-total">84 сюжета · 169 роликов</p>
+  <p class="anim-total">84 сюжета · 170 роликов</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">34 сюжета · 66 роликов</span>
+      <span class="course-tile-status is-ready">34 сюжета · 67 роликов</span>
       <h2>Нейтрино и частицы</h2>
       <p>Осцилляции нейтрино, каскады, ядерные процессы и диаграммы взаимодействий.</p>
     </div>
@@ -122,9 +122,10 @@ toc: false
         <p class="anim-text">Морфинг сферических и деформированных ядерных форм.</p>
       </article>
       <article class="anim-card" id="animation-neutrino-particles-pmt">
-        <div class="anim-media"><a class="anim-poster" href="/media-neutrino/pmt/web-schematic-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-pmt-pmt-schematic.jpg" aria-label="Смотреть: Фотоумножитель"><img src="../assets/animations/dvnanima/neutrino-particles-pmt-pmt-schematic.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
-        <h3 class="anim-title">Фотоумножитель</h3>
-        <p class="anim-text">Схематическая траектория электронов в ФЭУ по численным данным.</p>
+        <div class="anim-media"><a class="anim-poster" href="/media-neutrino/pmt-juno/web-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-pmt-short-ru.jpg" aria-label="Смотреть: Увидеть один фотон"><img src="../assets/animations/dvnanima/neutrino-particles-pmt-short-ru.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Увидеть один фотон</h3>
+        <p class="anim-text">Один фотон освобождает фотоэлектрон; десять динодов умножают заряд, а анод собирает электрический импульс. ФЭУ R12860 в 3D, микроуровень фотоэффекта и вторичной эмиссии. Колба — по чертежу Hamamatsu; внутренние электроды — реконструкция, траектории — расчёт в трёхмерном поле. В интерактиве можно менять напряжение, точку попадания света и магнитное поле; допущения и точность модели указаны внутри.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="/media-neutrino/pmt-juno/web-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-pmt-short-ru.jpg" title="MP4, 14.1 MB">RU</a><a class="anim-chip" href="/media-neutrino/pmt-juno/web-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-pmt-short-en.jpg" title="MP4, 14.1 MB">EN</a><a class="anim-chip is-interactive" href="../assets/animations/pmt-juno/index.html">R12860 · 3D-интерактив</a></div>
       </article>
       <article class="anim-card" id="animation-neutrino-particles-pmt-multiplication">
         <div class="anim-media"><a class="anim-poster" href="/media-neutrino/pmt-multiplication/web-avalanche-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.jpg" aria-label="Смотреть: Умножение электронов в ФЭУ"><img src="../assets/animations/dvnanima/neutrino-particles-pmt-multiplication-avalanche.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>

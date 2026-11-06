@@ -344,10 +344,13 @@ def cmd_report(_: argparse.Namespace) -> int:
 
 # --------------------------------------------------------- media projects
 
-def records_of(catalog: dict[str, Any], home: str) -> list[dict[str, Any]]:
+def records_of(catalog: dict[str, Any], home: str, ident: str | None = None) -> list[dict[str, Any]]:
     if home not in catalog["projects"]:
         raise SystemExit(f"unknown media project {home}")
-    return [r for r in catalog["media"] if r["home"] == home]
+    records = [r for r in catalog["media"] if r["home"] == home and (ident is None or r['id'] == ident)]
+    if ident is not None and not records:
+        raise SystemExit(f"unknown story {ident} in {home}")
+    return records
 
 
 def manifest(catalog: dict[str, Any], home: str) -> dict[str, Any]:
@@ -402,7 +405,7 @@ def gh(*command: str, check: bool = True) -> subprocess.CompletedProcess:
 def cmd_publish(args: argparse.Namespace) -> int:
     catalog = mr.load()
     repo = f'{catalog["github"]}/{args.home}'
-    records = records_of(catalog, args.home)
+    records = records_of(catalog, args.home, getattr(args, 'id', None))
     if args.yes and gh("repo", "view", repo, "--json", "name", check=False).returncode != 0:
         raise SystemExit(f"{repo} does not exist on GitHub yet (see docs/media-library.md, first publication)")
     releases: dict[str, dict[str, Any]] = {}
@@ -457,7 +460,7 @@ def cmd_verify(args: argparse.Namespace) -> int:
     base = args.base.rstrip("/")
     bad = 0
     verified = []
-    for record in records_of(catalog, args.home):
+    for record in records_of(catalog, args.home, getattr(args, 'id', None)):
         url = base + mr.url_of(record, catalog)
         status, headers, head = http_range(url, 0, 1023)
         total = (headers.get("Content-Range") or "").rpartition("/")[2]
@@ -632,10 +635,12 @@ def main() -> int:
     p.add_argument("--out", required=True)
     p = sub.add_parser("publish")
     p.add_argument("home")
+    p.add_argument("--id", help="publish only this story, leaving other prepared stories untouched")
     p.add_argument("--yes", action="store_true")
     p.add_argument("--online", action="store_true", help="dry run that also asks GitHub what exists")
     p = sub.add_parser("verify")
     p.add_argument("home")
+    p.add_argument("--id", help="verify and optionally mark only this story")
     p.add_argument("--base", default="https://neutrinohit.github.io")
     p.add_argument("--full", action="store_true", help="download every film and compare SHA-256")
     p.add_argument("--mark", action="store_true")

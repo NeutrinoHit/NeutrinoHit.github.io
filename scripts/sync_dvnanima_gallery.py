@@ -423,6 +423,10 @@ def render_qmd(
             chips.append(chip(section, item, main, label, " is-current" if main is default else ""))
             if other in versions and versions[other] is not main:
                 chips.append(chip(section, item, versions[other], other.upper(), " is-lang"))
+        if item.get("interactive_url"):
+            label = item.get(f"interactive_label_{lang}") or item.get("interactive_label", "Interactive")
+            chips.append(f'<a class="anim-chip is-interactive" href="{esc(rel(item["interactive_url"]))}">'
+                         f'{esc(label)}</a>')
         if item.get("source_url"):   # dvnanima is private: only an explicit public repository is linked
             chips.append(f'<a class="anim-chip is-code" href="{esc(item["source_url"])}" rel="noopener">'
                          f'{esc(text["code"])}</a>')
