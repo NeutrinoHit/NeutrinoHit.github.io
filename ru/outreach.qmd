@@ -63,6 +63,14 @@ toc: false
         <span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html">Слайды</a></span>
       </div>
     </div>
+    <div class="outreach-group" id="gravitational-waves">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Мини-курс</span>
+        <h2 class="outreach-group-name"><a class="outreach-group-title" href="../sciencepop/GravitationalWaves/index.html">Гравитационные волны. Эхо Вселенной</a></h2>
+        <p class="outreach-group-text">Три лекции по 45 минут: дрожь пространства-времени, почти невозможное измерение и Вселенная, которую мы научились слышать. Истории, анимации и современные открытия.</p>
+        <span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../sciencepop/GravitationalWaves/index.html">Три лекции</a></span>
+      </div>
+    </div>
     <div class="outreach-group" id="black-holes">
       <div class="outreach-group-head">
         <span class="course-tile-status is-ready">Лекция</span>

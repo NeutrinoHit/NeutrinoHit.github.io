@@ -310,6 +310,16 @@
       "url": "https://neutrinohit.github.io/en/courses/global-analysis.html",
       "type": "course-page",
       "description": "EN course page: global-analysis"
+    },
+    {
+      "url": "https://neutrinohit.github.io/ru/outreach.html#gravitational-waves",
+      "type": "map-card",
+      "description": "RU outreach: gravitational waves"
+    },
+    {
+      "url": "https://neutrinohit.github.io/sciencepop/GravitationalWaves/",
+      "type": "course-home",
+      "description": "RU outreach mini-course: gravitational waves"
     }
   ]
 }

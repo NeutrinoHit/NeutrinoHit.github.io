@@ -6770,6 +6770,27 @@
    "credit": "Модель, расчёт и визуализация: DN. Плоская линейно поляризованная волна в вакууме; длина волны 600 нм. E и B показаны в разных масштабах, время замедлено."
   },
   {
+   "id": "feynman-beads",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "9ac3a0b9c7141b83873ea05cc11b5c6ccae990723fc97a9462faba59f54a5edf",
+   "bytes": 169984,
+   "duration_s": 12.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Бусинки Фейнмана"
+   },
+   "credit": "Приливное движение, вязкое трение и накопление тепла. Смещения и нагрев увеличены для наглядности."
+  },
+  {
    "id": "first-stars",
    "variant": "film",
    "version": 1,
@@ -6870,7 +6891,28 @@
    "title": {
     "ru": "Гравитация как кривизна пространства-времени"
    },
-   "credit": "ScienceClick; фрагмент из лекции DN (2024), адаптация указана на исходном слайде."
+   "credit": "ScienceClick."
+  },
+  {
+   "id": "gravity-clocks",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "030da915b3715c59c0d8a914780a56a0840afac1c090c78b4d1193b5b8ce9dea",
+   "bytes": 229682,
+   "duration_s": 10.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Часы в гравитационном поле"
+   },
+   "credit": "Модель, расчёт и визуализация: DN. Два неподвижных одинаковых часа на разных высотах в статическом поле Земли; для наглядности увеличена только разница хода."
   },
   {
    "id": "gw-earth-deformation",
@@ -6912,7 +6954,7 @@
    "title": {
     "ru": "Звук слияния двух чёрных дыр"
    },
-   "credit": "Caltech/MIT/LIGO Lab; The Sound of Two Black Holes Colliding; https://www.ligo.caltech.edu/video/ligo20160211v2 ; фрагмент из лекции DN (2024)."
+   "credit": "Caltech/MIT/LIGO Lab; The Sound of Two Black Holes Colliding; https://www.ligo.caltech.edu/video/ligo20160211v2"
   },
   {
    "id": "gw150914-merger",
@@ -6933,7 +6975,7 @@
    "title": {
     "ru": "Слияние чёрных дыр GW150914"
    },
-   "credit": "SXS Collaboration (марка в кадре); фрагмент GW_cut2 из лекции DN (2024); точный первоисточник фрагмента не установлен."
+   "credit": "SXS Collaboration."
   },
   {
    "id": "gw150914-warped-spacetime",
@@ -6954,7 +6996,7 @@
    "title": {
     "ru": "Кривизна пространства-времени при слиянии чёрных дыр"
    },
-   "credit": "SXS Collaboration, Warped Spacetime and Horizons of GW150914; https://youtu.be/c-2XIuNFgD0 ; копия из лекции DN (2024)."
+   "credit": "SXS Collaboration; Warped Spacetime and Horizons of GW150914; https://youtu.be/c-2XIuNFgD0"
   },
   {
    "id": "illustris-evolution",
@@ -6975,6 +7017,48 @@
     "sciencepop:BirthAndLifeUniverse/assets/figures/illustris-evolution.mp4"
    ],
    "credit": "Illustris Simulation"
+  },
+  {
+   "id": "interferometer-idea",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "f7784a56fda1c6af5682bfad048456a70db9d2577e8929b5543a15f75add9342",
+   "bytes": 1571026,
+   "duration_s": 12.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Идея интерферометра"
+   },
+   "credit": "Сложение двух когерентных полей на тёмном выходе. Изменение пути увеличено для наглядности."
+  },
+  {
+   "id": "light-deflection",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "04f01c0ec85d56f673f2a3a74fc07e012c27ecbe10dc5f05ebe2b7b820d9beac",
+   "bytes": 138147,
+   "duration_s": 10.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Отклонение света у Солнца"
+   },
+   "credit": "Модель, расчёт и визуализация: DN. Слабополевой луч у Солнца; отклонение увеличено для наглядности. Учебная схема, 10-секундная версия."
   },
   {
    "id": "ligo-interferometer",
@@ -6998,6 +7082,27 @@
    "credit": "Caltech/MIT/LIGO Lab, T. Pyle; Most Precise Ruler Ever Constructed; https://www.ligo.caltech.edu/video/ligo20160211v6"
   },
   {
+   "id": "lisa-constellation",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "51695162629d7c91077bd33065c0dc95d4dce1a1ea3b94bf49b16e75869e8ea7",
+   "bytes": 1158177,
+   "duration_s": 14.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "LISA — космическая обсерватория"
+   },
+   "credit": "Будущая миссия: три аппарата и лазерные связи длиной 2,5 млн км. Схема орбит первого приближения; размеры аппаратов увеличены."
+  },
+  {
    "id": "nucleus-shapes",
    "variant": "film-morphs",
    "version": 1,
@@ -7015,6 +7120,27 @@
    "replaces": [
     "sciencepop:in-a-nutshell/assets/inside-nucleus/nucleus-shape-morphs.mp4"
    ]
+  },
+  {
+   "id": "orbit-precession",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "fdf2c2582a5d8a78377d9280a27aaa0f758d63947321846912cf588d788b1bfe",
+   "bytes": 1106742,
+   "duration_s": 24.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Прецессия орбиты: Ньютон и ОТО"
+   },
+   "credit": "Модель, расчёт и визуализация: DN. Учебная схема двух тел с ведущей секулярной прецессией слабого поля. Движение ускорено, поворот орбиты усилен."
   },
   {
    "id": "photons-universe",
@@ -7096,7 +7222,7 @@
    "title": {
     "ru": "Распространение звуковой волны"
    },
-   "credit": "Копия из лекции DN (2024), в исходных слайдах указан источник: Википедия; точный первоисточник не установлен."
+   "credit": "Википедия."
   },
   {
    "id": "sound-wave",
@@ -7118,6 +7244,27 @@
     "ru": "Звуковая волна: движение среды и давление"
    },
    "credit": "Модель, расчёт и визуализация: DN. Линейная плоская звуковая волна от поршня; смещения увеличены в 8000 раз, время замедлено в 1000 раз."
+  },
+  {
+   "id": "spacetime-curvature",
+   "variant": "film-ru",
+   "version": 1,
+   "home": "media-sciencepop",
+   "status": "prepared",
+   "sha256": "d835b64c33ceb73919883ddaa1b52707a056adad97eda922b80041138c75b5b7",
+   "bytes": 674295,
+   "duration_s": 14.0,
+   "width": 1920,
+   "height": 1200,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Гравитация как геометрия пространства-времени"
+   },
+   "credit": "Геометрия Шварцшильда: пространственный срез, времениподобная геодезическая и ход неподвижных часов."
   },
   {
    "id": "water-wave",
