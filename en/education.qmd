@@ -38,7 +38,7 @@ toc: false
   <h2 id="particles" class="section-inline-title">Particle Physics</h2>
   <nav class="course-tiles" aria-label="Particle Physics">
     <div class="course-tile" id="particle-physics-mini-course"><span class="course-tile-status is-ready">Mini-course</span><a class="course-tile-title" href="courses/particle-physics-baikal.html">Particle Physics: Mini-course</a><span class="course-tile-text">Particles, fields, interactions, gauge invariance and masses.</span><span class="course-tile-meta">2 lectures</span></div>
-    <div class="course-tile" id="particle-physics-course"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="courses/particle-physics.html">Particle Physics: Full Course</a><span class="course-tile-text">The future full course: slides, book, problems and applets.</span></div>
+    <div class="course-tile" id="particle-physics-course"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="courses/particle-physics.html">Particle Physics: Full Course</a><span class="course-tile-text">The future full course: slides, book, exercises and applets.</span></div>
   </nav>
 
   <h2 id="more" class="section-inline-title">More courses</h2>

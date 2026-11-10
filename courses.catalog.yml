@@ -492,7 +492,7 @@ courses:
   - {label: VK, href: 'https://vkvideo.ru/playlist/-235607329_10'}
   - {label: Teach-in, href: 'https://teach-in.ru/course/statistical-methods-of-data-analysis-naumov'}
   links_en:
-  - {label: All problems, href: /statistical-analysis-course/en/slides/exercises/index.html}
+  - {label: All exercises, href: /statistical-analysis-course/en/slides/exercises/index.html}
   - {label: Applets (Russian), href: /statistical-analysis-course/ru/slides/applets.html}
   - {label: Russian lecture videos, href: 'https://www.youtube.com/playlist?list=PLGGzOVFWOf3s'}
   lectures:
@@ -548,7 +548,7 @@ courses:
   - {label: Все задачи, href: /neutrinophysics/introduction/ru/exercises/index.html}
   - {label: Интерактивные апплеты, href: /neutrinophysics/introduction/ru/applets/index.html}
   links_en:
-  - {label: Problems, href: /neutrinophysics/introduction/en/exercises/index.html}
+  - {label: Exercises, href: /neutrinophysics/introduction/en/exercises/index.html}
   - {label: Applets (Russian), href: /neutrinophysics/introduction/ru/applets/index.html}
   lectures:
   - {n: '01', title: Нейтрино. Первое знакомство, slides: /neutrinophysics/introduction/ru/slides/01_neutrino_first_contact.html, exercises: /neutrinophysics/introduction/ru/exercises/01_neutrino_first_contact_exercises.html}
@@ -776,7 +776,7 @@ courses:
   kind: {ru: Курс готовится, en: In preparation}
   materials_lang: ru
   title: {ru: 'Физика элементарных частиц: большой курс', en: 'Particle Physics: Full Course'}
-  summary: {ru: 'Будущий полный курс по физике элементарных частиц: слайды, книга, задачи, апплеты и экзаменационные проекты.', en: 'The future full course on particle physics: slides, book, problems, applets and exam projects.'}
+  summary: {ru: 'Будущий полный курс по физике элементарных частиц: слайды, книга, задачи, апплеты и экзаменационные проекты.', en: 'The future full course on particle physics: slides, book, exercises, applets and exam projects.'}
   status_note: {ru: 'Курс готовится: лекции появятся здесь по мере готовности. Пока опубликованы заготовки слайдов.', en: The course is in preparation; lectures will appear here as they are ready. Slide scaffolds are online.}
   links:
   - label: {ru: Слайды, en: Slides}
@@ -787,7 +787,7 @@ courses:
   related: [particle-physics-baikal]
   anchor: particle-physics-course
   ready: false
-  tile: {ru: 'Будущий полный курс: слайды, книга, задачи и апплеты.', en: 'The future full course: slides, book, problems and applets.'}
+  tile: {ru: 'Будущий полный курс: слайды, книга, задачи и апплеты.', en: 'The future full course: slides, book, exercises and applets.'}
 - slug: global-analysis
   anchor: global-analysis
   section: stat
@@ -848,7 +848,7 @@ courses:
   materials_lang: ru
   title: {ru: Численные методы для физиков, en: Numerical Methods for Physicists}
   summary: {ru: 'Как физик решает задачи, которые не берутся аналитически: одна лекция — одна физическая задача, нужные методы вводятся тогда, когда без них задача не решается. Python с Numba, лекции и задачи.', en: 'How a physicist solves
-      problems that have no analytic solution: one lecture is one physical problem, and the methods are introduced when the problem cannot be solved without them. Python with Numba, lectures and problems.'}
+      problems that have no analytic solution: one lecture is one physical problem, and the methods are introduced when the problem cannot be solved without them. Python with Numba, lectures and exercises.'}
   tile: {ru: Одна лекция — одна физическая задача; Python с Numba., en: 'One lecture, one physics problem; Python with Numba.'}
   lectures:
   - {n: '01', title: 'Python, NumPy и Numba', slides: /numerical_methods/ru/slides/01_python_numpy_numba.html}

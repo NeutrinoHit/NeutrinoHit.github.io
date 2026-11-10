@@ -11,7 +11,7 @@ toc: false
   </p>
 
   <nav class="course-tiles" aria-label="Books">
-    <div class="course-tile"><span class="course-tile-status is-ready">Textbook · 2 volumes · Russian</span><a class="course-tile-title" href="#qft-book">Quantum Field Theory for Experimentalists and Beyond</a><span class="course-tile-text">From the foundations to renormalization, anomalies and functional integrals, with problems.</span><span class="course-tile-meta">IKI, 2026 · <a class="course-tile-book" href="../qr/qft/">38 animations for the book online</a></span></div>
+    <div class="course-tile"><span class="course-tile-status is-ready">Textbook · 2 volumes · Russian</span><a class="course-tile-title" href="#qft-book">Quantum Field Theory for Experimentalists and Beyond</a><span class="course-tile-text">From the foundations to renormalization, anomalies and functional integrals, with exercises.</span><span class="course-tile-meta">IKI, 2026 · <a class="course-tile-book" href="../qr/qft/">38 animations for the book online</a></span></div>
     <div class="course-tile"><span class="course-tile-status is-ready">Popular science · Russian</span><a class="course-tile-title" href="#solar-neutrino-book">Solar Neutrino</a><span class="course-tile-text">A children’s book about neutrinos, the Sun and the big physics of tiny particles.</span><span class="course-tile-meta">AVANTA/AST, 2023</span></div>
     <div class="course-tile"><span class="course-tile-status">In progress</span><a class="course-tile-title" href="#neutrino-physics-book">Introduction to Neutrino Physics</a><span class="course-tile-text">Theory and experiments.</span><span class="course-tile-meta"><a class="course-tile-book" href="../qr/neutrino-physics/">56 QR items</a></span></div>
     <div class="course-tile"><span class="course-tile-status">In progress</span><a class="course-tile-title" href="#statistics-book">Statistical Methods in Physics</a><span class="course-tile-text">A practical course for experimentalists and theorists.</span></div>
@@ -28,12 +28,12 @@ toc: false
     <div class="book-showcase-body">
       <span class="course-tile-status is-ready">Textbook · published in Russian</span>
       <h2>Quantum Field Theory for Experimentalists and Beyond</h2>
-      <p>A textbook of quantum field theory for theorists and experimentalists, from the foundations to renormalization, anomalies and functional integrals, with emphasis on the connection to experiment, with problems and QR codes leading to animations.</p>
+      <p>A textbook of quantum field theory for theorists and experimentalists, from the foundations to renormalization, anomalies and functional integrals, with emphasis on the connection to experiment, with exercises and QR codes leading to animations.</p>
       <dl class="book-showcase-facts">
         <dt>Russian edition</dt>
         <dd>«Квантовая теория поля для экспериментаторов и не только», two volumes, Izhevsk: IKI, 2026, hardcover; vol. 1, 534 pp., vol. 2, 514 pp. ISBN <span class="nowrap">978-5-4344-1081-6</span> (vol. 1), <span class="nowrap">978-5-4344-1082-3</span> (vol. 2).</dd>
-        <dt>Problems</dt>
-        <dd>346 problems: 189 in vol. 1, 157 in vol. 2.</dd>
+        <dt>Exercises</dt>
+        <dd>346 exercises: 189 in vol. 1, 157 in vol. 2.</dd>
         <dt>English edition</dt>
         <dd>An English edition is in preparation.</dd>
         <dt>With the book</dt>

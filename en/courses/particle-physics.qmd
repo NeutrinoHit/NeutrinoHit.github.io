@@ -10,7 +10,7 @@ toc: false
   <header class="course-page-head">
     <span class="course-tile-status">In preparation</span>
     <h1>Particle Physics: Full Course</h1>
-    <p class="course-page-summary">The future full course on particle physics: slides, book, problems, applets and exam projects.</p>
+    <p class="course-page-summary">The future full course on particle physics: slides, book, exercises, applets and exam projects.</p>
     <div class="lecture-course-actions">
       <a href="../../particlephysics/ParticlePhysics/en/slides/index.html">Slides</a>
     </div>

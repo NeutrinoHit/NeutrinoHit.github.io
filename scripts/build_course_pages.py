@@ -4,7 +4,7 @@
 The catalog lists the sections of the education page and every lecture course.
 Each course becomes ru/courses/<slug>.qmd and en/courses/<slug>.qmd: a header
 with the course links, a table of contents (number, topic, slides, PDF, video,
-problems, book chapter, further materials; only the columns the course has),
+exercises, book chapter, further materials; only the columns the course has),
 the book with its chapters (or one line for a book in preparation, "book_pending"),
 further materials and related courses.
 ru/education.qmd and en/education.qmd get one tile per course, grouped by
@@ -56,7 +56,7 @@ T = {
     "en": {
         "home": "NeutrinoHit", "education": "Education", "all": "← All courses",
         "num": "No.", "topic": "Topic", "slides": "Slides", "pdf": "PDF", "video": "Video",
-        "exercises": "Problems", "chapter": "Chapter", "extra": "More",
+        "exercises": "Exercises", "chapter": "Chapter", "extra": "More",
         "open": "open", "contents": "Contents", "book": "Book", "open_book": "Open the book",
         "chapters": "Chapters", "materials": "Materials", "related": "More in this section",
         "reading": "Recommended reading",

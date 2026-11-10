@@ -18,10 +18,10 @@ toc: false
   </header>
   <h2 class="course-page-section">Contents</h2>
   <table class="course-toc course-toc-full">
-    <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-col">Slides</th><th class="course-toc-col">Problems</th><th class="course-toc-col">More</th></tr></thead>
+    <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-col">Slides</th><th class="course-toc-col">Exercises</th><th class="course-toc-col">More</th></tr></thead>
     <tbody>
-      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">Particles, Fields, and their Interactions</a></td><td class="course-toc-col" data-label="Slides"><a href="../../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">slides</a></td><td class="course-toc-col" data-label="Problems"><a href="../../particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">problems</a></td><td class="course-toc-col" data-label="More"><a href="#lecture-01-more">more&nbsp;5</a></td></tr>
-      <tr id="lecture-02"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="../../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model.html">The Standard Model</a></td><td class="course-toc-col" data-label="Slides"><a href="../../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model.html">slides</a></td><td class="course-toc-col" data-label="Problems"><a href="../../particlephysics/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model.html">problems</a></td><td class="course-toc-col" data-label="More"><a href="#lecture-02-more">more&nbsp;9</a></td></tr>
+      <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">Particles, Fields, and their Interactions</a></td><td class="course-toc-col" data-label="Slides"><a href="../../particlephysics/IntroParticlePhysicsBaikal/slides/01_particles_fields_interactions.html">slides</a></td><td class="course-toc-col" data-label="Exercises"><a href="../../particlephysics/IntroParticlePhysicsBaikal/handouts/01_questions_particles_interactions.html">exercises</a></td><td class="course-toc-col" data-label="More"><a href="#lecture-01-more">more&nbsp;5</a></td></tr>
+      <tr id="lecture-02"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="../../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model.html">The Standard Model</a></td><td class="course-toc-col" data-label="Slides"><a href="../../particlephysics/IntroParticlePhysicsBaikal/slides/02_standard_model.html">slides</a></td><td class="course-toc-col" data-label="Exercises"><a href="../../particlephysics/IntroParticlePhysicsBaikal/handouts/02_questions_standard_model.html">exercises</a></td><td class="course-toc-col" data-label="More"><a href="#lecture-02-more">more&nbsp;9</a></td></tr>
     </tbody>
   </table>
   <h2 class="course-page-section">Materials</h2>
@@ -57,7 +57,7 @@ toc: false
   </div>
   <h2 class="course-page-section">More in this section</h2>
   <nav class="course-tiles">
-    <div class="course-tile"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="particle-physics.html">Particle Physics: Full Course</a><span class="course-tile-text">The future full course: slides, book, problems and applets.</span></div>
+    <div class="course-tile"><span class="course-tile-status">In preparation</span><a class="course-tile-title" href="particle-physics.html">Particle Physics: Full Course</a><span class="course-tile-text">The future full course: slides, book, exercises and applets.</span></div>
   </nav>
   <p class="course-page-back"><a href="../education.html">← All courses</a></p>
 </article>

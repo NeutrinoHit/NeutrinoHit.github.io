@@ -10,7 +10,7 @@ toc: false
   <header class="course-page-head">
     <span class="course-tile-status">In preparation</span>
     <h1>Numerical Methods for Physicists</h1>
-    <p class="course-page-summary">How a physicist solves problems that have no analytic solution: one lecture is one physical problem, and the methods are introduced when the problem cannot be solved without them. Python with Numba, lectures and problems.</p>
+    <p class="course-page-summary">How a physicist solves problems that have no analytic solution: one lecture is one physical problem, and the methods are introduced when the problem cannot be solved without them. Python with Numba, lectures and exercises.</p>
   </header>
   <p class="course-book-line">A book for the course is in preparation.</p>
   <h2 class="course-page-section">More in this section</h2>
