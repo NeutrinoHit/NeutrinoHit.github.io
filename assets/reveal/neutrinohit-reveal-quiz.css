@@ -11,7 +11,7 @@
 
 .reveal .quiz-prompt {
   color: var(--nh-quiz-muted, var(--universe-muted, #c5cfdd));
-  font-size: var(--nh-quiz-prompt-size, 0.82em);
+  font-size: var(--nh-quiz-prompt-size, 1.05em);
   font-weight: 700;
   line-height: 1.24;
 }
@@ -32,17 +32,17 @@
 }
 
 .reveal .quiz-option {
-  min-height: var(--nh-quiz-option-min-height, 142px);
+  min-height: var(--nh-quiz-option-min-height, 210px);
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  padding: var(--nh-quiz-option-padding, 0.58rem 0.68rem);
+  padding: var(--nh-quiz-option-padding, 0.7rem 0.9rem);
   border: 2px solid var(--nh-quiz-border, rgba(195, 165, 255, 0.72));
   border-radius: 8px;
   background: var(--nh-quiz-bg, rgba(17, 24, 39, 0.7));
   color: var(--nh-quiz-text, var(--universe-text, #f4f7fb));
-  font-size: var(--nh-quiz-option-size, 0.88em);
+  font-size: var(--nh-quiz-option-size, 1.3em);
   font-weight: 800;
   line-height: 1.18;
   text-align: center;
@@ -89,12 +89,12 @@
 }
 
 .reveal .quiz-note {
-  max-width: var(--nh-quiz-note-max-width, 1080px);
-  padding: var(--nh-quiz-note-padding, 0.48rem 0.66rem);
+  max-width: var(--nh-quiz-note-max-width, 1400px);
+  padding: var(--nh-quiz-note-padding, 0.6rem 0.9rem);
   border-left: 6px solid var(--nh-quiz-correct, var(--universe-green, #8fe3a2));
   background: var(--nh-quiz-note-bg, rgba(143, 227, 162, 0.11));
   color: var(--nh-quiz-note-text, rgba(244, 247, 251, 0.92));
-  font-size: var(--nh-quiz-note-size, 0.78em);
+  font-size: var(--nh-quiz-note-size, 1.15em);
   font-weight: 700;
   line-height: 1.24;
 }
