@@ -21,7 +21,7 @@ Head, JINR Neutrino Program
 
 [NeutrinoHit](index.html) · [JINR](https://naumov.jinr.ru/) · [Papers](https://inspirehep.net/authors/1048243?ui-citation-summary=true) · [Teach-in](https://teach-in.ru/lecturer/naumov-dv) · [YouTube](https://www.youtube.com/@dmitrynaumov6099/) · [Telegram](https://t.me/NeutrinoHit)
 
-*Updated: July 2026.*
+*Updated: November 2026.*
 
 ## Professional Profile
 
@@ -78,8 +78,8 @@ At JINR he leads the Neutrino Program and the JINR groups in the Daya Bay and JU
 
 ## Publication Activity
 
-- More than 200 research papers.
-- h-index 51 according to the linked publication record.
+- More than 250 research papers, more than 18,000 citations.
+- h-index 59 according to INSPIRE-HEP, November 2026.
 - Full publication record: [Papers](https://inspirehep.net/authors/1048243?ui-citation-summary=true).
 
 ### Selected Publications

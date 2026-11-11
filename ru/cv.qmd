@@ -21,7 +21,7 @@ format:
 
 [NeutrinoHit](index.html) · [ОИЯИ](https://naumov.jinr.ru/) · [Papers](https://inspirehep.net/authors/1048243?ui-citation-summary=true) · [Teach-in](https://teach-in.ru/lecturer/naumov-dv) · [YouTube](https://www.youtube.com/@dmitrynaumov6099/) · [Telegram](https://t.me/NeutrinoHit)
 
-*Обновлено: июль 2026 г.*
+*Обновлено: ноябрь 2026 г.*
 
 ## Профессиональный профиль
 
@@ -78,8 +78,8 @@ format:
 
 ## Публикационная активность
 
-- Более 200 научных работ.
-- h-index 51 по связанному публикационному профилю.
+- Более 250 научных работ, более 18 000 цитирований.
+- h-index 59 по данным INSPIRE-HEP, ноябрь 2026 г.
 - Полный список публикаций: [Papers](https://inspirehep.net/authors/1048243?ui-citation-summary=true).
 
 ### Избранные публикации
