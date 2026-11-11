@@ -14,6 +14,9 @@ photos:
     - album: 10-17-may-2026
       title: {ru: 'Визит коллег из Китая', en: 'A visit of colleagues from China'}
       text: {ru: 'Wei Wang, Jianglai Liu и Yuekun Heng в Москве, Дубне и Санкт-Петербурге · 10–17 мая 2026', en: 'Wei Wang, Jianglai Liu and Yuekun Heng in Moscow, Dubna and Saint Petersburg · May 10–17, 2026'}
+    - album: dmitry-naumov-portraits
+      title: {ru: 'Д. В. Наумов: лекции, выступления, встречи', en: 'D. V. Naumov: lectures, talks, meetings'}
+      text: {ru: 'Лекции, выступления, встречи с коллегами и школьниками', en: 'Lectures, talks, meetings with colleagues and schoolchildren'}
     - album: v-a-rubakov-baikal-school-2009
       title: {ru: 'В. А. Рубаков. Байкальская школа', en: 'V. A. Rubakov. The Baikal school'}
       text: {ru: 'Байкал · 22–29 июля 2009', en: 'Lake Baikal · July 22–29, 2009'}

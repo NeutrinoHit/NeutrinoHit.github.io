@@ -1,0 +1,72 @@
+---
+pagetitle: "Reviews of Quantum Field Theory for Experimentalists and Beyond"
+lang: en-US
+description: "Reviews by E. T. Akhmedov, V. G. Serbo, D. I. Kazakov and V. A. Bednyakov of D. V. Naumov's textbook Quantum Field Theory for Experimentalists and Beyond, translated from Russian."
+toc: false
+---
+
+```{=html}
+<article class="course-page qft-reviews">
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="materials.html#qft-book">Books</a><span>›</span><span>Reviews</span></nav>
+  <header class="course-page-head">
+    <span class="course-tile-status is-ready">Reviews</span>
+    <h1>Reviews of Quantum Field Theory for Experimentalists and Beyond</h1>
+    <p class="course-page-summary">Reviews by the official referees and by colleagues of the Russian edition, translated from Russian. The originals are on the <a href="../ru/qft-reviews.html">Russian page</a>.</p>
+    <p class="course-toc-meta"><a href="#akhmedov">E. T. Akhmedov</a> · <a href="#serbo">V. G. Serbo</a> · <a href="#kazakov">D. I. Kazakov</a> · <a href="#bednyakov">V. A. Bednyakov</a></p>
+  </header>
+
+  <section id="akhmedov" class="qft-review">
+    <h2>E. T. Akhmedov</h2>
+    <p class="course-toc-meta">Official referee · Doctor of Sciences in Physics and Mathematics, Professor, Head of the L. D. Landau Department of Theoretical Physics, MIPT · 22.02.2026 · <a href="../assets/books/qft-reviews/akhmedov-2026.pdf">scan of the review, PDF, Russian</a></p>
+    <p>This textbook is based on the author's many years of lecturing at the Joint Institute for Nuclear Research (JINR, Dubna) and at Lomonosov Moscow State University. It fully meets the high standards for training students and graduate students specializing in high-energy physics and related disciplines.</p>
+    <p>The work is especially valuable because it was written by a practising experimental physicist, whereas textbooks on quantum field theory are traditionally written by theorists. This unique perspective makes the material extremely useful not only for students but also for established scientists, helping them understand more deeply how abstract theoretical constructions connect to real experimental problems.</p>
+    <p>The undoubted merits of the textbook include:</p>
+    <ul>
+      <li><strong>Breadth of coverage:</strong> The book will be useful not only to specialists in elementary particle physics but also to researchers in other fields of physics.</li>
+      <li><strong>Accessible presentation:</strong> The author moves masterfully from the simple to the complex, first giving an intuitive understanding of a phenomenon and then supporting it with rigorous derivations. The limits of applicability of approximations are discussed in detail, and every step of the calculations is carefully worked through.</li>
+      <li><strong>Emphasis on physical intuition:</strong> A vivid example is the detailed treatment of wave packets instead of plane waves, which clarifies the specifics of the commutation relations for fermions and the correct construction of scattering amplitudes. Another example is the discussion of the potential energy of the interaction between charges in different theories in the non-relativistic approximation.</li>
+      <li><strong>Connection with experiment:</strong> The book analyses in detail the fundamental experiments that laid the foundations of modern elementary particle physics.</li>
+      <li><strong>Practical orientation:</strong> An important feature is the large number of carefully selected problems with detailed solutions, which is indispensable for independent work.</li>
+      <li><strong>Modern format:</strong> The textbook includes high-quality illustrations, interesting historical excursions, and QR codes giving access to animations, which greatly improves the clarity of complex concepts.</li>
+    </ul>
+    <p>After I read the manuscript, I pointed out to the author a few minor inaccuracies, which he corrected promptly and thoroughly.</p>
+    <p>Given all of the above, this textbook will undoubtedly fill an important niche in the scientific and educational literature and will be in demand among a wide audience. I look forward with great pleasure to the publication of this truly fundamental work.</p>
+  </section>
+
+  <section id="serbo" class="qft-review">
+    <h2>V. G. Serbo</h2>
+    <p class="course-toc-meta">Official referee · Doctor of Sciences in Physics and Mathematics, Professor at the Department of Theoretical Physics, Novosibirsk State University · 20 February 2026 · <a href="../assets/books/qft-reviews/serbo-2026.pdf">scan of the review, PDF, Russian</a></p>
+    <p>This textbook is an original work based on the author's many years of teaching the corresponding courses at the Joint Institute for Nuclear Research (JINR, Dubna). It meets the high standards required of the knowledge of students and graduate students working at JINR.</p>
+    <p>Although there are such excellent textbooks on the subject as Berestetskii, Lifshitz and Pitaevskii, <em>Quantum Electrodynamics</em>, and Peskin and Schroeder, <em>An Introduction to Quantum Field Theory</em>, this book will be extremely useful not only for students and graduate students but also for working physicists, for a number of reasons. Some sections of the textbook may also be useful for students of other specialities.</p>
+    <p>This textbook differs from the well-known books on quantum field theory and elementary particle physics in the breadth of the material it covers (from the foundations of relativistic quantum mechanics to renormalization and quantum anomalies) and in the original way some topics are presented. Here are specific examples.</p>
+    <p>The chapter on the relativistic Klein–Fock–Gordon equation is written in a lively and engaging way, with a detailed analysis of the problems that arise in the relativistic equation compared with the analogous non-relativistic Schrödinger equation.</p>
+    <p>In the chapter on the Standard Model, the presentation begins with the choice of a model Lagrangian with one generation of leptons. The properties of this model are then studied in detail. Only after that does the text move on to the realistic model with three generations of quarks and derive the Feynman rules. This approach is fully justified, since it introduces the reader gradually to the complex world of the Standard Model.</p>
+    <p>In the chapter on the scattering of neutrinos and antineutrinos on electrons, all the complex calculations are given in enough detail for a beginning reader to follow every step. For a number of reactions, qualitative arguments are given that help to visualize the result.</p>
+    <p>The chapter on deep inelastic scattering of charged leptons on nucleons gives a detailed analysis not only of the theoretical problems of these processes but also an excellent review of a large body of data from various experimental groups. Likewise, the chapter on quantum anomalies discusses in detail both the theoretical questions related to chiral anomalies, neutral pion decays and triangle diagrams in the Standard Model, and the corresponding experiments. The author's superb ability to describe complex experiments in simple language, highlighting the essentials and omitting unimportant details, deserves special mention.</p>
+    <p>An important and attractive feature of the textbook is not only the large number of carefully selected and instructive problems but also their detailed solutions, which will certainly be very useful for many readers. One more attractive feature should be noted. This course is not a purely theoretical one; it bears directly on the everyday work of modern experimental and theoretical physicists, and one can feel the breath of modern physics in it.</p>
+    <p>Special mention should be made of the excellent illustrations and the very interesting historical material, which helps to understand the genesis of many complex concepts of modern elementary particle physics. Moreover, the book uses QR codes that let readers access animations of complex concepts with a mobile phone, which makes studying the material even more vivid. The language of the textbook is far from dry academic style; it is close to the spoken language of lectures, simple and precise.</p>
+    <p>I would also like to add that after carefully reading the manuscript I noted some inaccuracies and small errors, which the author corrected.</p>
+  </section>
+
+  <section id="kazakov" class="qft-review">
+    <h2>D. I. Kazakov</h2>
+    <p class="course-toc-meta">Doctor of Sciences in Physics and Mathematics, Corresponding Member of the Russian Academy of Sciences, Director of the Bogoliubov Laboratory of Theoretical Physics, JINR</p>
+    <p>This is an unusual textbook on quantum field theory. It combines rigorous formulations with an accessible presentation and a clear explanation of the physical nature of the phenomena discussed; it also tells the dramatic story of the birth of quantum theory. The book is especially valuable because it shows quantum field theory as a working tool not only for theorists but also for experimentalists. Calculations of real physical processes and work with Feynman diagrams take up a large part of it.</p>
+    <p>One can also note a rare merit of the book: one of the most difficult topics of quantum field theory — the theory of renormalization and quantum anomalies — is presented here clearly and accessibly, without loss of rigour.</p>
+    <p>At the same time, it is a textbook of a new age: it contains not only excellent illustrations but also QR codes with animations and visual materials, problems, and even topics for independent research. This book can be confidently recommended to those who intend not only to learn quantum field theory but also to apply it in practice.</p>
+  </section>
+
+  <section id="bednyakov" class="qft-review">
+    <h2>V. A. Bednyakov</h2>
+    <p class="course-toc-meta">Doctor of Sciences in Physics and Mathematics · 02.06.2025</p>
+    <p>I would like to say a few words about the remarkable book by my colleague, Doctor of Sciences in Physics and Mathematics and Deputy Director of the V. P. Dzhelepov Laboratory of Nuclear Problems, Dmitry Vadimovich Naumov — <em>Quantum Field Theory for Experimentalists and Beyond</em>.</p>
+    <p>Formally, it is a weighty printed construction of 1000+ pages, at the very limit of what is possible, modestly called a textbook. One can agree with that only as a tribute to the centuries-old tradition of writing educational literature.</p>
+    <p>I would call this creation of a brilliant human mind a Guide to modern elementary particle physics and its deep theoretical foundations. It is precisely a Guide, led by a wise guide and teacher invisibly present beside the reader, who knows well not only the problems and difficulties of modern precision experiments but also all the pitfalls of the difficult and at times highly contradictory landscape of field theory.</p>
+    <p>The structure of this Guide reflects a modern trend of physics itself — the mutually enriching unity of the new and the old, of the well known and generally accepted with what is only being born today at the very frontiers of experimental and theoretical elementary particle physics, neutrino physics and astrophysics.</p>
+    <p>The author of the Book cares deeply about what he tells, and he cares about those who listen to him. For this reason he complements every chapter of his fascinating narrative with a large number of problems, a list of useful literature, a variety of colourfully designed examples and, in my view, an outstanding know-how in the form of QR codes. They instantly send the interested reader to online resources with videos prepared by the author, which make far from simple scientific statements and facts visual and easier to understand. To a large extent this device widens the horizon of the Book and, in my view, gives it the status of the Guide to the Map of Science mentioned above.</p>
+    <p>In conclusion, I would like to note that these 1000 pages were written by the author practically before my eyes — in the office across the corridor, where he successfully combined the responsible and multifaceted work of Deputy Director of DLNP with the no less responsible and meticulous work of creating the Book that you, dear reader, are holding in your hands.</p>
+  </section>
+
+  <p class="course-toc-meta"><a href="materials.html#qft-book">← Back to the book</a></p>
+</article>
+```

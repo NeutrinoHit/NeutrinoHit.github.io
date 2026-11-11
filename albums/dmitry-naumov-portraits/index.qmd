@@ -1,0 +1,78 @@
+---
+title: "Д. В. Наумов: лекции, выступления, встречи"
+resources:
+  - photos/**
+  - previews/**
+---
+
+```{=html}
+<div class="album-post-text">
+<p>Лекции, выступления, встречи с коллегами и школьниками.</p>
+</div>
+
+<div class="published-album">
+<figure class="published-photo">
+<img src="previews/01-dvn.jpg" data-full="photos/01-dvn.jpg" alt="Д. В. Наумов, фото 1" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/02-dvn.jpg" data-full="photos/02-dvn.jpg" alt="Д. В. Наумов, фото 2" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/03-dvn.jpg" data-full="photos/03-dvn.jpg" alt="Д. В. Наумов, фото 3" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/04-dvn.jpg" data-full="photos/04-dvn.jpg" alt="Д. В. Наумов, фото 4" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/05-dvn.jpg" data-full="photos/05-dvn.jpg" alt="Д. В. Наумов, фото 5" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/06-dvn.jpg" data-full="photos/06-dvn.jpg" alt="Д. В. Наумов, фото 6" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/07-dvn.jpg" data-full="photos/07-dvn.jpg" alt="Д. В. Наумов, фото 7" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/08-dvn.jpg" data-full="photos/08-dvn.jpg" alt="Д. В. Наумов, фото 8" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/09-dvn.jpg" data-full="photos/09-dvn.jpg" alt="Д. В. Наумов, фото 9" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/10-dvn.jpg" data-full="photos/10-dvn.jpg" alt="Д. В. Наумов, фото 10" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/11-dvn.jpg" data-full="photos/11-dvn.jpg" alt="Д. В. Наумов, фото 11" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/12-dvn.jpg" data-full="photos/12-dvn.jpg" alt="Д. В. Наумов, фото 12" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/13-dvn.jpg" data-full="photos/13-dvn.jpg" alt="Д. В. Наумов, фото 13" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/14-dvn.jpg" data-full="photos/14-dvn.jpg" alt="Д. В. Наумов, фото 14" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/15-dvn.jpg" data-full="photos/15-dvn.jpg" alt="Д. В. Наумов, фото 15" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/16-dvn.jpg" data-full="photos/16-dvn.jpg" alt="Д. В. Наумов, фото 16" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/17-dvn.jpg" data-full="photos/17-dvn.jpg" alt="Д. В. Наумов, фото 17" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/18-dvn.jpg" data-full="photos/18-dvn.jpg" alt="Д. В. Наумов, фото 18" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/19-dvn.jpg" data-full="photos/19-dvn.jpg" alt="Д. В. Наумов, фото 19" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/20-dvn.jpg" data-full="photos/20-dvn.jpg" alt="Д. В. Наумов, фото 20" loading="lazy">
+</figure>
+<figure class="published-photo">
+<img src="previews/21-dvn.jpg" data-full="photos/21-dvn.jpg" alt="Д. В. Наумов, фото 21" loading="lazy">
+</figure>
+</div>
+```
