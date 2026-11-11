@@ -31,13 +31,17 @@ outreach:
     - title: {ru: 'Что внутри атомного ядра?', en: 'What is inside the atomic nucleus?'}
       links: [{kind: slides, href: /sciencepop/in-a-nutshell/04_inside-nucleus.html}]
   - id: neutrino-telescopes
-    kind: {ru: 4 лекции · 2025–2026, en: 4 lectures · 2025–2026}
+    kind: {ru: 5 лекций · 2025–2026, en: 5 lectures · 2025–2026}
     title: {ru: Нейтринные телескопы, en: Neutrino Telescopes}
     summary: {ru: 'Вселенная глазами нейтрино: как ловят нейтрино высоких энергий и что они рассказали о галактиках.', en: 'The Universe seen with neutrinos: how high-energy neutrinos are caught and what they have told us about galaxies.'}
     items:
     - title: {ru: Как поймать нейтрино из далёкой галактики, en: How to catch a neutrino from a distant galaxy}
       note: {ru: для студентов, en: for students}
       links: [{kind: slides, href: /talks/neutrino-telescopes-ru-2026/lecture.html}]
+    - title: {ru: How to Catch a Neutrino from a Distant Galaxy, en: How to Catch a Neutrino from a Distant Galaxy}
+      note: {ru: для студентов, en: for students}
+      lang: en
+      links: [{kind: slides, href: /talks/neutrino-telescopes-cn-2026/lecture.html}]
     - title: {ru: 'Зачем нужны нейтринные телескопы?', en: 'Why do we need neutrino telescopes?'}
       note: {ru: Астрофест, en: Astrofest}
       links: [{kind: pdf, href: /sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf}]
