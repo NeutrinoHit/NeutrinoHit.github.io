@@ -3674,6 +3674,48 @@
    }
   },
   {
+   "id": "cherenkov-radiation",
+   "variant": "film-dipoles-en",
+   "version": 1,
+   "home": "media-neutrino-2",
+   "status": "published",
+   "sha256": "e4c4f4ff3f33ebc408e48095f1bf176efdabbe69629aeb2095ff7f8ff7093bdb",
+   "bytes": 4482322,
+   "duration_s": 57.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Свет Вавилова — Черенкова: диполи среды",
+    "en": "Cherenkov light: dipoles of the medium"
+   }
+  },
+  {
+   "id": "cherenkov-radiation",
+   "variant": "film-dipoles-ru",
+   "version": 1,
+   "home": "media-neutrino-2",
+   "status": "published",
+   "sha256": "be08c12d8d87d3e559b837bb78dcb91d347b666710e9c250b2eb65af6a60cda0",
+   "bytes": 4426199,
+   "duration_s": 57.0,
+   "width": 1920,
+   "height": 1080,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Свет Вавилова — Черенкова: диполи среды",
+    "en": "Cherenkov light: dipoles of the medium"
+   }
+  },
+  {
    "id": "icecube-first-pev",
    "variant": "web-en",
    "version": 3,
