@@ -1,42 +1,22 @@
 # Research. scripts/build_outreach_pages.py writes ru|en/research.qmd from this file
 # (same entries, links and formats as outreach.catalog.yml; a group may also hold tiles).
-# The talk anchors talk-georgia-2026 and talk-protvino-2026 are the targets of the "← Course"
-# button of the talk slides (scripts/reveal_context_targets.json): keep them.
+# Publications with the INSPIRE metrics of the home page, experiments, scientific software, theses.
+# Talks and lectures are on the "Lectures and talks" page (talks in outreach.catalog.yml).
+# The old Modeling page (modeling.html) redirects here; the anchors lighthit, tdse-diffraction and
+# neutrino-nucleus-coherence are kept.
 research:
   title: {ru: Наука, en: Research}
+  aliases: [modeling.html, theses.html]
   lead: {ru: 'Нейтринная физика и астрофизика частиц: нейтринные осцилляции, реакторные и солнечные нейтрино, нейтринная астрономия, космические лучи, физика детекторов, квантово-полевое описание нейтринных процессов.',
     en: 'Neutrino physics and astroparticle physics: neutrino oscillations, reactor and solar neutrinos, neutrino astronomy, cosmic rays, detector physics, and quantum-field descriptions of neutrino processes.'}
   groups:
   - id: research-profile
-    kind: {ru: Профиль, en: Profile}
+    kind: {ru: INSPIRE-HEP, en: INSPIRE-HEP}
     title: {ru: Публикации, en: Publications}
-    summary: {ru: 'Статьи и цитирования — в INSPIRE-HEP, профиль — на странице ОИЯИ.', en: 'Papers and citations in INSPIRE-HEP; the profile on the JINR page.'}
     links:
-    - {kind: site, label: INSPIRE-HEP, href: 'https://inspirehep.net/authors/1048243?ui-citation-summary=true'}
-    - {kind: site, label: {ru: ОИЯИ, en: JINR}, href: 'https://naumov.jinr.ru/'}
-  - id: talks
-    kind: {ru: Конференции и семинары, en: Conferences and seminars}
-    title: {ru: Доклады, en: Talks}
-    layout: stacked
-    items:
-    - id: talk-georgia-2026
-      title: {ru: 'Neutrino Physics: Fundamentals, Frontiers, and Probes', en: 'Neutrino Physics: Fundamentals, Frontiers, and Probes'}
-      note: {ru: 2026 · обзорная лекция, en: 2026 · overview lecture}
-      lang: en
-      links:
-      - {kind: slides, href: /talks/georgia-2026/dnaumov.html}
-      - {kind: slides, label: {ru: 35 минут, en: 35 min}, href: /talks/georgia-2026/dnaumov-35min.html}
-    - id: talk-protvino-2026
-      title: {ru: Статус и перспективы физики нейтрино, en: Status and prospects of neutrino physics}
-      note: {ru: '2–5 июня 2026 · российские проекты в глобальном контексте', en: 'June 2–5, 2026 · Russian projects in the global context; the slides are in Russian'}
-      links:
-      - {kind: slides, href: /talks/protvino-2026/dnaumov.html}
-      - {kind: site, label: {ru: Конференция, en: Conference}, href: 'https://indico.ihep.su/e/PPIHE2026'}
-    - id: talk-juno-10-years
-      title: {ru: 'Эксперимент JUNO: 10 лет спустя', en: 'The JUNO experiment: 10 years later'}
-      note: {ru: 2026 · семинар ЛЯП ОИЯИ, en: 2026 · DLNP JINR seminar; the talk is in Russian}
-      links:
-      - {kind: video, href: 'https://youtu.be/7F_FqhQW9Vw'}
+    - {kind: site, label: {ru: Статьи в INSPIRE-HEP, en: Papers in INSPIRE-HEP}, href: 'https://inspirehep.net/authors/1048243?ui-citation-summary=true'}
+    - {kind: site, label: {ru: Профиль в ОИЯИ, en: JINR profile}, href: 'https://naumov.jinr.ru/'}
+    metrics: inspire
   - id: experiments
     kind: {ru: Коллаборации, en: Collaborations}
     title: {ru: Эксперименты, en: Experiments}
@@ -65,6 +45,28 @@ research:
       title: EUSO / JEM-EUSO
       href: 'https://jemeuso.riken.jp/en/'
       text: {ru: 'Космические лучи предельно высоких энергий: наблюдение с орбиты.', en: 'Ultra-high-energy cosmic rays observed from orbit.'}
+  - id: modeling
+    kind: {ru: Программы и модели, en: Software and models}
+    title: {ru: Моделирование, en: Modeling}
+    layout: stacked
+    items:
+    - id: lighthit
+      title: LightHit
+      note: {ru: 'пакет Python на PyPI: ожидаемое число фотоэлектронов в каждом оптическом модуле нейтринного телескопа по временным бинам от черенковского света заряженных частиц или калибровочной вспышки; спектральный перенос излучения вместо пофотонного Монте-Карло, прямой, однократно и многократно рассеянный свет отдельно. Python 3.11 или новее, проверка установки — lighthit-selftest',
+        en: 'a Python package on PyPI: the expected number of photoelectrons that Cherenkov light of charged particles, or a calibration flash, produces in every optical module of a neutrino telescope, per time bin; spectral radiative transfer instead of photon-by-photon Monte Carlo, direct, once-scattered and multiply scattered light kept separate. Python 3.11 or newer; check the installation with lighthit-selftest'}
+      install: "python -m pip install 'lighthit[accelerate]'"
+      links:
+      - {kind: pypi, href: 'https://pypi.org/project/lighthit/'}
+      - {kind: docs, href: 'https://github.com/NeutrinoHit/LightHit/tree/main/docs'}
+      - {kind: code, href: 'https://github.com/NeutrinoHit/LightHit'}
+    - id: tdse-diffraction
+      title: TDSE-Diffraction
+      note: {ru: 'дифракция электронов: метод split-step Фурье в единицах СИ, вихревые пучки, ноутбуки с анимациями', en: 'electron diffraction: split-step Fourier method in SI units, vortex beams, notebooks with animations'}
+      links: [{kind: code, href: 'https://github.com/NeutrinoHit/TDSE-Diffraction'}]
+    - id: neutrino-nucleus-coherence
+      title: neutrino-nucleus-coherence
+      note: {ru: 'сечение упругого рассеяния нейтрино на ядре, ноутбук Jupyter', en: 'the cross-section of neutrino–nucleus elastic scattering, a Jupyter notebook'}
+      links: [{kind: code, href: 'https://github.com/NeutrinoHit/neutrino-nucleus-coherence'}]
   - id: theses
     kind: {ru: Квалификационные работы, en: Qualification works}
     title: {ru: Диссертации, en: Theses}

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - about.html
 title: "Наумов Дмитрий Вадимович"
 toc: false
 ---

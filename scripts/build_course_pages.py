@@ -35,7 +35,7 @@ LANGS = ("ru", "en")
 
 T = {
     "ru": {
-        "home": "NeutrinoHit", "education": "Образование", "all": "← Все курсы",
+        "home": "NeutrinoHit", "education": "Курсы лекций", "all": "← Все курсы",
         "num": "№", "topic": "Тема", "slides": "Слайды", "pdf": "PDF", "video": "Видео",
         "exercises": "Задачи", "chapter": "Глава", "extra": "Ещё",
         "open": "открыть", "contents": "Оглавление", "book": "Книга", "open_book": "Открыть книгу",
@@ -51,10 +51,10 @@ T = {
         "aria_video": lambda n: f"Видео лекции {n}",
         "book_short": "книга",
         "book_pending": "Книга к курсу готовится.",
-        "programs": "Программы",
+        "programs": "Программа",
     },
     "en": {
-        "home": "NeutrinoHit", "education": "Education", "all": "← All courses",
+        "home": "NeutrinoHit", "education": "Lecture courses", "all": "← All courses",
         "num": "No.", "topic": "Topic", "slides": "Slides", "pdf": "PDF", "video": "Video",
         "exercises": "Exercises", "chapter": "Chapter", "extra": "More",
         "open": "open", "contents": "Contents", "book": "Book", "open_book": "Open the book",
@@ -70,7 +70,7 @@ T = {
         "aria_video": lambda n: f"Video of lecture {n}",
         "book_short": "book",
         "book_pending": "A book for the course is in preparation.",
-        "programs": "Programs",
+        "programs": "Programme",
     },
 }
 COLUMNS = ("slides", "pdf", "video", "exercises", "chapter", "extra")
@@ -319,10 +319,11 @@ def education(catalog: dict, lang: str) -> str:
             f'  <p class="lecture-catalog-lead">{e(tr(edu["lead"], lang))}</p>', ""]
     for section in edu["sections"]:
         out.append(f'  <h2 id="{e(section["id"])}" class="section-inline-title">{e(tr(section["title"], lang))}</h2>')
-        if section.get("line"):
+        if section.get("line"):                 # one line of links under the heading
             line = section["line"]
-            out.append(f'  <p class="course-book-line">{e(tr(line["text"], lang))} '
-                       f'<a href="{e(href(line, lang, depth=1))}">{e(tr(line["label"], lang))}</a></p>')
+            links = " · ".join(f'<a href="{e(href(link, lang, depth=1))}">{e(tr(link["label"], lang))}</a>'
+                               for link in line.get("links") or [line])
+            out.append(f'  <p class="course-book-line">{e(tr(line["text"], lang))} {links}</p>')
         out.append(f'  <nav class="course-tiles" aria-label="{e(tr(section["title"], lang))}">')
         for slug in section["courses"]:
             out.append(tile(by_slug[slug], lang, page_depth=1))

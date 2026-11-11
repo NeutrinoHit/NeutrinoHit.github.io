@@ -6,7 +6,7 @@ toc: false
 
 ```{=html}
 <article class="course-page" data-course="particle-physics-baikal">
-  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><span>Физика элементарных частиц: мини-курс</span></nav>
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Курсы лекций</a><span>›</span><span>Физика элементарных частиц: мини-курс</span></nav>
   <header class="course-page-head">
     <span class="course-tile-status is-ready">Мини-курс · англ.</span>
     <h1>Физика элементарных частиц: мини-курс</h1>

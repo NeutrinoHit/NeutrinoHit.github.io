@@ -10,7 +10,7 @@ published: 2021-10-07
 image: media/science-communication.jpg
 toc: false
 ---
-[← Интервью и подкасты](../interviews.html){.interview-back}
+[← Интервью и подкасты](../outreach.html#interviews){.interview-back}
 
 ::: {.interview-source}
 Еженедельник «Дубна: наука, содружество, прогресс», [№ 40](http://jinrmag.jinr.ru/2021/40/nk40.htm) (7 октября 2021 года) и [№ 41](http://jinrmag.jinr.ru/2021/41/nk41.htm) (14 октября 2021 года). Беседовала Галина Мялковская
@@ -114,4 +114,4 @@ toc: false
 
 Статья опубликована в еженедельнике "Дубна: наука, содружество, прогресс" в номере 40 и в номере 41.
 
-[← Интервью и подкасты](../interviews.html){.interview-back}
+[← Интервью и подкасты](../outreach.html#interviews){.interview-back}

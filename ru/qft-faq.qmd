@@ -7,7 +7,7 @@ toc: false
 
 ```{=html}
 <article class="course-page qft-faq">
-  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="education.html">Образование</a><span>›</span><span>ЧАВО по КТП</span></nav>
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="education.html">Курсы лекций</a><span>›</span><span>ЧАВО по КТП</span></nav>
   <header class="course-page-head">
     <span class="course-tile-status is-ready">ЧАВО по КТП</span>
     <h1>Часто задаваемые вопросы по квантовой теории поля</h1>
@@ -117,7 +117,7 @@ toc: false
 
 ## 9. Как увидеть в КТП, что частицы притягиваются? {#attraction}
 
-Этому посвящена отдельная лекция [«Притяжение и отталкивание в КТП»](courses/qft-attraction-repulsion.html) (на английском): скалярная КЭД и волновые пакеты.
+Этому посвящена отдельная лекция [«Притяжение и отталкивание в КТП»](talks.html#lecture-qft-attraction-repulsion) (на английском): скалярная КЭД и волновые пакеты.
 
 [← К списку вопросов](#questions){.qft-faq-up}
 
@@ -126,6 +126,6 @@ toc: false
 ```{=html}
   <p class="course-page-note">Вопросы и ответы пополняются — заглядывайте сюда регулярно.</p>
   <p class="course-book-line">Книга: <a href="materials.html#qft-book">«Квантовая теория поля для экспериментаторов и не только» →</a></p>
-  <p class="course-page-back"><a href="education.html">← Образование</a></p>
+  <p class="course-page-back"><a href="education.html">← Курсы лекций</a></p>
 </article>
 ```

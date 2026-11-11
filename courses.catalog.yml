@@ -1,40 +1,32 @@
 # Lecture courses shown on the site. scripts/build_course_pages.py writes ru|en/education.qmd and ru|en/courses/*.qmd from this file.
 # Paths starting with "/" are site paths on neutrinohit.github.io; a key ending in "_en" overrides its key on English pages.
 education:
-  title: {ru: Образование, en: Education}
-  lead: {ru: 'Курсы лекций, образовательные программы и материалы для самостоятельной работы по КТП, физике нейтрино и частиц, статистическому анализу данных.', en: 'Lecture courses, educational programs and self-study materials on QFT, neutrino and particle
-      physics, and statistical data analysis.'}
+  title: {ru: Курсы лекций, en: Lecture Courses}
+  lead: {ru: 'Курсы лекций по КТП, статистическому анализу данных, физике нейтрино и элементарных частиц; программа «Физика нейтрино и астрофизика частиц». Отдельные лекции — на странице «Лекции и доклады».',
+    en: 'Lecture courses on QFT, statistical data analysis, neutrino and particle physics; the programme Neutrino Physics and Astroparticle Physics. Single lectures are on the Lectures and Talks page.'}
   sections:
   - id: qft
     title: {ru: Квантовая теория поля, en: Quantum Field Theory}
+    # one line of links under the heading: the textbook and the pages shared by the QFT courses
     line:
-      text: {ru: 'Учебник к курсам:', en: 'Textbook for the courses:'}
-      label: {ru: «Квантовая теория поля для экспериментаторов и не только» →, en: “Quantum Field Theory for Experimentalists and Beyond” (in Russian) →}
-      href: /ru/materials.html#qft-book
-      href_en: /en/materials.html#qft-book
-    courses: [quantum-field-theory, standard-model, qft-renormalization, unruh, qft-attraction-repulsion, qft-vacuum]
-    # tiles of pages that are not lecture courses: kind, title, text, href (href_en), meta
-    tiles:
-    - anchor: qft-exams
-      kind: {ru: Экзамен · проекты, en: Exam · projects}
-      title: {ru: Экзаменационные проекты по КТП, en: Examination projects in QFT}
-      text: {ru: 'Мини-проекты вместо билетов: теория, расчёт, моделирование и сравнение с экспериментом.', en: 'Mini-projects instead of exam questions: theory, calculation, simulation and comparison with experiment.'}
-      href: /ru/qft-exams.html
-      href_en: /en/qft-exams.html
-      meta: {ru: Осень · 20 проектов · весна · 18 проектов, en: Autumn · 20 projects · spring · 18 projects}
-    - anchor: qft-faq
-      kind: {ru: ЧАВО, en: FAQ}
-      title: {ru: ЧАВО по КТП, en: QFT FAQ}
-      text: {ru: 'Концептуальные вопросы: поле или частица, точечна ли частица, кипит ли вакуум, что такое виртуальная частица.', en: 'Conceptual questions: field or particle, is a particle pointlike, does the vacuum boil, what is a virtual particle.'}
-      href: /ru/qft-faq.html
-      href_en: /en/qft-faq.html
-      meta: {ru: 9 вопросов · ответы пополняются, en: 9 questions · answers are being added}
+      text: {ru: 'К курсам:', en: 'For the courses:'}
+      links:
+      - label: {ru: учебник «Квантовая теория поля для экспериментаторов и не только», en: the textbook “Quantum Field Theory for Experimentalists and Beyond” (in Russian)}
+        href: /ru/materials.html#qft-book
+        href_en: /en/materials.html#qft-book
+      - label: {ru: экзаменационные проекты, en: examination projects}
+        href: /ru/qft-exams.html
+        href_en: /en/qft-exams.html
+      - label: {ru: ЧАВО по КТП, en: QFT FAQ}
+        href: /ru/qft-faq.html
+        href_en: /en/qft-faq.html
+    courses: [quantum-field-theory, standard-model, qft-renormalization, unruh, qft-vacuum]
   - id: stat
     title: {ru: Статистический анализ данных, en: Statistical Data Analysis}
     courses: [statistical-analysis, global-analysis]
   - id: neutrino
     title: {ru: Физика нейтрино, en: Neutrino Physics}
-    courses: [neutrino-introduction, oscillations-minicourse, solar-neutrino-masterclass, neutrino-oscillation-theory]
+    courses: [neutrino-introduction, solar-neutrino-masterclass, neutrino-oscillation-theory]
   - id: particles
     title: {ru: Физика элементарных частиц, en: Particle Physics}
     courses: [particle-physics-baikal, particle-physics]
@@ -176,7 +168,7 @@ courses:
     title: {ru: Притяжение и отталкивание, en: Attraction and repulsion}
     video: mw-z66p28bg
     seconds: 4896
-  related: [standard-model, qft-renormalization, unruh, qft-attraction-repulsion, qft-vacuum]
+  related: [standard-model, qft-renormalization, unruh, qft-vacuum]
   anchor: qft-course
   tile: {ru: 'Введение в КТП и КЭД: от уравнения Дирака до S‑матрицы и теорем Вика.', en: 'Introduction to QFT and QED: from the Dirac equation to the S‑matrix and Wick’s theorems.'}
   tile_no_book: true
@@ -305,7 +297,7 @@ courses:
     title: {ru: Глубоко-неупругое рассеяние, en: Deep inelastic scattering}
     video: xoc-pEj0BNM
     seconds: 4552
-  related: [quantum-field-theory, qft-renormalization, unruh, qft-attraction-repulsion, qft-vacuum]
+  related: [quantum-field-theory, qft-renormalization, unruh, qft-vacuum]
   anchor: standard-model-course
   tile: {ru: 'Рассеяние и распады в КЭД и электрослабой теории, механизм Хиггса.', en: 'Scattering and decays in QED and electroweak theory, the Higgs mechanism.'}
   tile_no_book: true
@@ -422,7 +414,7 @@ courses:
     title: {ru: Сечение рассеяния с волновыми пакетами. Часть 2, en: Scattering cross section with wave packets. Part 2}
     video: KV3zsUNE0RM
     seconds: 4201
-  related: [quantum-field-theory, standard-model, unruh, qft-attraction-repulsion, qft-vacuum]
+  related: [quantum-field-theory, standard-model, unruh, qft-vacuum]
   anchor: qft-renormalization-course
   tile: {ru: 'Размерная регуляризация, поляризация вакуума, g−2, нейтральные каоны, аномалии.', en: 'Dimensional regularization, vacuum polarization, g−2, neutral kaons, anomalies.'}
   tile_no_book: true
@@ -444,18 +436,7 @@ courses:
   - {n: '03', title: Эффект Унру для плоской волны, slides: /qft-lectures/unruh/ru/slides/03_unruh_wave.html}
   - {n: '04', title: Эффект Унру для скалярного поля, slides: /qft-lectures/unruh/ru/slides/04_unruh_scalar_field.html}
   - {n: '05', title: Фермионное поле и эффект Унру, slides: /qft-lectures/unruh/ru/slides/05_unruh_fermion_field.html}
-  related: [quantum-field-theory, standard-model, qft-renormalization, qft-attraction-repulsion, qft-vacuum]
-- slug: qft-attraction-repulsion
-  anchor: qft-attraction-repulsion
-  section: qft
-  kind: {ru: Лекция · англ., en: Lecture}
-  materials_lang: en
-  title: {ru: Притяжение и отталкивание в КТП, en: Attraction and Repulsion in QFT}
-  summary: {ru: 'Отдельная лекция по scalar QED и волновым пакетам: как в КТП кодируются притяжение и отталкивание.', en: 'Lecture on scalar QED and wave packets: how attraction and repulsion are encoded in QFT.'}
-  tile: {ru: 'Scalar QED и волновые пакеты: как в КТП кодируются притяжение и отталкивание.', en: 'Scalar QED and wave packets: how QFT encodes attraction and repulsion.'}
-  lectures:
-  - {n: '1', title: Attraction and Repulsion in Quantum Field Theory, slides: /qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html}
-  related: [quantum-field-theory, standard-model, qft-renormalization, unruh, qft-vacuum]
+  related: [quantum-field-theory, standard-model, qft-renormalization, qft-vacuum]
 - slug: qft-vacuum
   anchor: qft-vacuum-course
   section: qft
@@ -469,7 +450,7 @@ courses:
   status_note: {ru: Мини-курс готовится; первая лекция уже открыта., en: The mini-course is in preparation; the first lecture is online.}
   lectures:
   - {n: '01', title: Вакуум свободного скалярного поля, slides: /qft-lectures/vacuum/ru/slides/01_free_scalar_field.html}
-  related: [quantum-field-theory, standard-model, qft-renormalization, unruh, qft-attraction-repulsion]
+  related: [quantum-field-theory, standard-model, qft-renormalization, unruh]
 - slug: statistical-analysis
   anchor: statistical-analysis
   section: stat
@@ -636,20 +617,8 @@ courses:
   - {n: '14', title: Oscillations in Matter. Interference and Pendulums}
   - {n: '15', title: Oscillations in Matter. Three Flavors}
   book_pending: true
-  related: [oscillations-minicourse, solar-neutrino-masterclass, neutrino-oscillation-theory]
+  related: [solar-neutrino-masterclass, neutrino-oscillation-theory]
   reading: neutrino-literature
-- slug: oscillations-minicourse
-  anchor: oscillations-minicourse
-  section: neutrino
-  kind: {ru: Лекция школы · англ., en: School lecture}
-  materials_lang: en
-  title: {ru: 'Осцилляции нейтрино: от вакуума до ядра Земли', en: Neutrino Oscillations from Vacuum to the Earth’s Core}
-  summary: {ru: 'Лекция на английском (45 минут) для студентов физики частиц и наук о Земле, осенняя школа по междисциплинарной нейтринной науке, Чжухай, 2026: осцилляции в вакууме, вакуум и вещество как двулучепреломляющие кристаллы, солнечные нейтрино, матрица смешивания по данным; апплеты в каждом шаге.', en: 'An English lecture (45 minutes) for students of particle physics and the Earth sciences, 2026 Fall School on Interdisciplinary
-      Neutrino Science, Zhuhai: oscillations in vacuum, the vacuum and matter as birefringent crystals, solar neutrinos, the mixing matrix from data; applets at every step.'}
-  tile: {ru: 'Вакуум и вещество как кристаллы, Солнце, матрица смешивания.', en: 'Vacuum and matter as crystals, the Sun, the mixing matrix.'}
-  lectures:
-  - {n: '1', title: Neutrino Oscillations in Vacuum and Matter, slides: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html}
-  related: [neutrino-introduction, solar-neutrino-masterclass, neutrino-oscillation-theory]
 - slug: solar-neutrino-masterclass
   anchor: solar-neutrino-masterclass
   section: neutrino
@@ -700,7 +669,7 @@ courses:
     items:
     - {label: Open project, href: /neutrinophysics/solar-neutrino-masterclass/assignments/sk_integrated_project.html}
     - {label: Project data, href: https://neutrinohit.github.io/media-neutrinophysics/masterclass-project/solar-neutrino-project-data-v1.zip}
-  related: [neutrino-introduction, oscillations-minicourse, neutrino-oscillation-theory]
+  related: [neutrino-introduction, neutrino-oscillation-theory]
 - slug: neutrino-oscillation-theory
   anchor: oscillations
   section: neutrino
@@ -710,7 +679,7 @@ courses:
   summary: {ru: Будущий специализированный курс по квантово-полевому описанию нейтринных осцилляций., en: Future specialized course on quantum-field descriptions of neutrino oscillations.}
   status_note: {ru: Курс планируется; лекции появятся здесь., en: The course is planned; lectures will appear here.}
   lectures: []
-  related: [neutrino-introduction, oscillations-minicourse, solar-neutrino-masterclass]
+  related: [neutrino-introduction, solar-neutrino-masterclass]
 - slug: particle-physics-baikal
   section: particles
   kind: {ru: Мини-курс · англ., en: Mini-course}

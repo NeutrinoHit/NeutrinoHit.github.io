@@ -2,18 +2,17 @@
   const sections = [
     { key: 'home', ruText: 'Главная', enText: 'Home', ruHref: '/ru/', enHref: '/en/' },
     { key: 'research', ruText: 'Наука', enText: 'Research', ruHref: '/ru/research.html', enHref: '/en/research.html' },
-    { key: 'education', ruText: 'Образование', enText: 'Education', ruHref: '/ru/education.html', enHref: '/en/education.html' },
+    { key: 'education', ruText: 'Курсы лекций', enText: 'Lecture Courses', ruHref: '/ru/education.html', enHref: '/en/education.html' },
     { key: 'outreach', ruText: 'Научная коммуникация', enText: 'Outreach', ruHref: '/ru/outreach.html', enHref: '/en/outreach.html' },
     { key: 'materials', ruText: 'Книги', enText: 'Books', ruHref: '/ru/materials.html', enHref: '/en/materials.html' },
-    { key: 'modeling', ruText: 'Моделирование', enText: 'Modeling', ruHref: '/ru/modeling.html', enHref: '/en/modeling.html' },
-    { key: 'cinema', ruText: 'Кино', enText: 'Films', ruHref: '/ru/cinema.html', enHref: '/en/cinema.html' },
-    { key: 'interviews', ruText: 'Интервью и подкасты', enText: 'Interviews and Podcasts', ruHref: '/ru/interviews.html', enHref: '/en/interviews.html' },
+    { key: 'cinema', ruText: 'Кино', enText: 'Films', ruHref: '/ru/outreach.html#films', enHref: '/en/outreach.html#films' },
+    { key: 'interviews', ruText: 'Интервью и подкасты', enText: 'Interviews and Podcasts', ruHref: '/ru/outreach.html#interviews', enHref: '/en/outreach.html#interviews' },
     { key: 'photos', ruText: 'Фото', enText: 'Photos', ruHref: '/ru/photos.html', enHref: '/en/photos.html' },
     { key: 'school', ruText: 'Школа', enText: 'School', ruHref: '/ru/school.html', enHref: '/en/school.html' },
-    { key: 'about', ruText: 'Обо мне', enText: 'About', ruHref: '/ru/about.html', enHref: '/en/about.html' },
+    { key: 'about', ruText: 'Обо мне', enText: 'About', ruHref: '/ru/', enHref: '/en/' },
     { key: 'students', ruText: 'Студенты', enText: 'Students', ruHref: '/ru/school.html', enHref: '/en/school.html' },
-    { key: 'theses', ruText: 'Диссертации', enText: 'Theses', ruHref: '/ru/theses.html', enHref: '/en/theses.html' },
-    { key: 'talks', ruText: 'Доклады', enText: 'Talks', ruHref: '/ru/talks.html', enHref: '/en/talks.html' },
+    { key: 'theses', ruText: 'Диссертации', enText: 'Theses', ruHref: '/ru/research.html#theses', enHref: '/en/research.html#theses' },
+    { key: 'talks', ruText: 'Лекции и доклады', enText: 'Lectures and Talks', ruHref: '/ru/talks.html', enHref: '/en/talks.html' },
     { key: 'sciencepop', ruText: 'Научно-популярные лекции', enText: 'Popular Science', ruHref: '/ru/outreach.html', enHref: '/en/outreach.html' },
     { key: 'animations', ruText: 'Анимации', enText: 'Animations', ruHref: '/ru/animations.html', enHref: '/en/animations.html' },
     { key: 'interactives', ruText: 'Интерактивы', enText: 'Interactives', ruHref: '/ru/interactives.html', enHref: '/en/interactives.html' },
@@ -25,7 +24,7 @@
   function currentSectionKey() {
     const filename = pathname.split('/').pop() || 'index.html';
     if (filename === 'index.html' || pathname.endsWith('/ru/') || pathname.endsWith('/en/')) return 'home';
-    // An interview page (/ru/interviews/x.html) is in Russian only; its English side is the interviews list.
+    // An interview page (/ru/interviews/x.html) is in Russian only; its English side is the interviews group of Outreach.
     if (/\/ru\/interviews\/[^/]+\.html$/.test(pathname)) return 'interviews';
     const slug = filename.replace(/\.html$/, '');
     return sections.some((section) => section.key === slug) ? slug : 'home';

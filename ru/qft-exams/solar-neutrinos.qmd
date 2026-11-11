@@ -7,7 +7,7 @@ toc: false
 
 ```{=html}
 <article class="course-page qft-exam-page">
-  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#spring">Весна</a></nav>
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Курсы лекций</a><span>›</span><a href="../qft-exams.html">Экзаменационные проекты</a><span>›</span><a href="../qft-exams.html#spring">Весна</a></nav>
   <header class="course-page-head">
     <span class="course-tile-status is-ready">Весна · проект 3 из 18</span>
     <h1>Солнечные нейтрино</h1>

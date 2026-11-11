@@ -6,7 +6,7 @@ toc: false
 
 ```{=html}
 <article class="course-page" data-course="light-propagation">
-  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>Light Propagation in a Medium</span></nav>
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Lecture courses</a><span>›</span><span>Light Propagation in a Medium</span></nav>
   <header class="course-page-head">
     <span class="course-tile-status">In preparation · Russian</span>
     <h1>Light Propagation in a Medium</h1>

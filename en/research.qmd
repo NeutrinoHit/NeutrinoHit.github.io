@@ -1,5 +1,8 @@
 ---
 title: "Research"
+aliases:
+  - modeling.html
+  - theses.html
 lang: en-US
 toc: false
 ---
@@ -10,22 +13,11 @@ toc: false
   <div class="outreach-list">
     <div class="outreach-group" id="research-profile">
       <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">Profile</span>
+        <span class="course-tile-status is-ready">INSPIRE-HEP</span>
         <h2 class="outreach-group-name"><a class="outreach-group-title" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true" rel="noopener">Publications</a></h2>
-        <p class="outreach-group-text">Papers and citations in INSPIRE-HEP; the profile on the JINR page.</p>
-        <span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-site" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true" rel="noopener">INSPIRE-HEP</a><a class="outreach-format is-site" href="https://naumov.jinr.ru/" rel="noopener">JINR</a></span>
+        <span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-site" href="https://inspirehep.net/authors/1048243?ui-citation-summary=true" rel="noopener">Papers in INSPIRE-HEP</a><a class="outreach-format is-site" href="https://naumov.jinr.ru/" rel="noopener">JINR profile</a></span>
+        <p class="profile-metrics outreach-metrics" data-inspire-stats><span><strong data-inspire-papers>~200</strong> publications</span><span><strong data-inspire-citations>&gt;15,000</strong> citations</span><span>h-index <strong data-inspire-h-index>51</strong></span></p>
       </div>
-    </div>
-    <div class="outreach-group" id="talks">
-      <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">Conferences and seminars</span>
-        <h2 class="outreach-group-name">Talks</h2>
-      </div>
-      <ul class="outreach-entries is-stacked">
-        <li class="outreach-entry" id="talk-georgia-2026"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/georgia-2026/dnaumov.html">Neutrino Physics: Fundamentals, Frontiers, and Probes</a><span class="outreach-lang">EN</span><span class="outreach-entry-note">2026 · overview lecture</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../talks/georgia-2026/dnaumov.html">Slides</a><a class="outreach-format is-slides" href="../talks/georgia-2026/dnaumov-35min.html">35 min</a></span></li>
-        <li class="outreach-entry" id="talk-protvino-2026"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/protvino-2026/dnaumov.html">Status and prospects of neutrino physics</a><span class="outreach-entry-note">June 2–5, 2026 · Russian projects in the global context; the slides are in Russian</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../talks/protvino-2026/dnaumov.html">Slides</a><a class="outreach-format is-site" href="https://indico.ihep.su/e/PPIHE2026" rel="noopener">Conference</a></span></li>
-        <li class="outreach-entry" id="talk-juno-10-years"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/7F_FqhQW9Vw" rel="noopener">The JUNO experiment: 10 years later</a><span class="outreach-entry-note">2026 · DLNP JINR seminar; the talk is in Russian</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-video" href="https://youtu.be/7F_FqhQW9Vw" rel="noopener">Video</a></span></li>
-      </ul>
     </div>
     <div class="outreach-group" id="experiments">
       <div class="outreach-group-head">
@@ -41,6 +33,17 @@ toc: false
         <div class="course-tile"><span class="course-tile-status is-ready">Cosmic rays</span><a class="course-tile-title" href="https://jemeuso.riken.jp/en/" rel="noopener">EUSO / JEM-EUSO</a><span class="course-tile-text">Ultra-high-energy cosmic rays observed from orbit.</span></div>
       </nav>
     </div>
+    <div class="outreach-group" id="modeling">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Software and models</span>
+        <h2 class="outreach-group-name">Modeling</h2>
+      </div>
+      <ul class="outreach-entries is-stacked">
+        <li class="outreach-entry" id="lighthit"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://pypi.org/project/lighthit/" rel="noopener">LightHit</a><span class="outreach-entry-note">a Python package on PyPI: the expected number of photoelectrons that Cherenkov light of charged particles, or a calibration flash, produces in every optical module of a neutrino telescope, per time bin; spectral radiative transfer instead of photon-by-photon Monte Carlo, direct, once-scattered and multiply scattered light kept separate. Python 3.11 or newer; check the installation with lighthit-selftest</span><code class="outreach-entry-install">python -m pip install &#x27;lighthit[accelerate]&#x27;</code></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-pypi" href="https://pypi.org/project/lighthit/" rel="noopener">PyPI</a><a class="outreach-format is-docs" href="https://github.com/NeutrinoHit/LightHit/tree/main/docs" rel="noopener">Documentation</a><a class="outreach-format is-code" href="https://github.com/NeutrinoHit/LightHit" rel="noopener">Code</a></span></li>
+        <li class="outreach-entry" id="tdse-diffraction"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://github.com/NeutrinoHit/TDSE-Diffraction" rel="noopener">TDSE-Diffraction</a><span class="outreach-entry-note">electron diffraction: split-step Fourier method in SI units, vortex beams, notebooks with animations</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-code" href="https://github.com/NeutrinoHit/TDSE-Diffraction" rel="noopener">Code</a></span></li>
+        <li class="outreach-entry" id="neutrino-nucleus-coherence"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence" rel="noopener">neutrino-nucleus-coherence</a><span class="outreach-entry-note">the cross-section of neutrino–nucleus elastic scattering, a Jupyter notebook</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-code" href="https://github.com/NeutrinoHit/neutrino-nucleus-coherence" rel="noopener">Code</a></span></li>
+      </ul>
+    </div>
     <div class="outreach-group" id="theses">
       <div class="outreach-group-head">
         <span class="course-tile-status is-ready">Qualification works</span>
@@ -55,4 +58,5 @@ toc: false
     </div>
   </div>
 </div>
+<script src="../assets/inspire-stats.js"></script>
 ```

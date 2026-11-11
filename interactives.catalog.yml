@@ -34,13 +34,6 @@ interactives:
           ru: Апплет
           en: Applet
         href: /neutrinophysics/introduction/ru/applets/two-flavor-oscillations.html
-        href_en: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/two-flavor-lab
-      - kind: applet
-        label:
-          ru: EN
-          en: RU
-        href: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/two-flavor-lab
-        href_en: /neutrinophysics/introduction/ru/applets/two-flavor-oscillations.html
     - id: np-flavor-triangle
       title:
         ru: Треугольник флэйворов
@@ -55,13 +48,6 @@ interactives:
           ru: Апплет
           en: Applet
         href: /neutrinophysics/introduction/ru/applets/flavor-triangle.html
-        href_en: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/triangle
-      - kind: applet
-        label:
-          ru: EN
-          en: RU
-        href: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/triangle
-        href_en: /neutrinophysics/introduction/ru/applets/flavor-triangle.html
     - id: np-pmns-from-data
       title:
         ru: Соберите матрицу PMNS
@@ -77,6 +63,13 @@ interactives:
           ru: Апплет
           en: Applet
         href: /neutrinophysics/introduction/ru/applets/pmns-from-data.html
+        href_en: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/pmns-from-data
+      - kind: applet
+        label:
+          ru: EN
+          en: RU
+        href: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/pmns-from-data
+        href_en: /neutrinophysics/introduction/ru/applets/pmns-from-data.html
     - id: np-three-flavor-probabilities
       title:
         ru: Вероятности осцилляций трёх нейтрино
@@ -92,12 +85,12 @@ interactives:
           ru: Апплет
           en: Applet
         href: /neutrinophysics/introduction/ru/applets/three-flavor-probabilities.html
-        href_en: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/three-flavor-probabilities
+        href_en: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/three-flavor-probabilities
       - kind: applet
         label:
           ru: EN
           en: RU
-        href: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/three-flavor-probabilities
+        href: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/three-flavor-probabilities
         href_en: /neutrinophysics/introduction/ru/applets/three-flavor-probabilities.html
     - id: np-refraction-layers
       title:
@@ -113,13 +106,6 @@ interactives:
           ru: Апплет
           en: Applet
         href: /neutrinophysics/introduction/ru/applets/refraction-layers.html
-        href_en: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/refraction-layers
-      - kind: applet
-        label:
-          ru: EN
-          en: RU
-        href: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/refraction-layers
-        href_en: /neutrinophysics/introduction/ru/applets/refraction-layers.html
     - id: np-refraction-two-modes
       title:
         ru: Две волны в веществе
@@ -135,13 +121,6 @@ interactives:
           ru: Апплет
           en: Applet
         href: /neutrinophysics/introduction/ru/applets/refraction-two-modes.html
-        href_en: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/refraction-two-modes
-      - kind: applet
-        label:
-          ru: EN
-          en: RU
-        href: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/refraction-two-modes
-        href_en: /neutrinophysics/introduction/ru/applets/refraction-two-modes.html
     - id: np-matter-constant
       title:
         ru: Осцилляции в веществе постоянной плотности
@@ -156,13 +135,6 @@ interactives:
           ru: Апплет
           en: Applet
         href: /neutrinophysics/introduction/ru/applets/matter-constant.html
-        href_en: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/matter-lab
-      - kind: applet
-        label:
-          ru: EN
-          en: RU
-        href: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/matter-lab
-        href_en: /neutrinophysics/introduction/ru/applets/matter-constant.html
     - id: np-matter-adiabatic
       title:
         ru: Адиабатический MSW-переход
@@ -177,12 +149,12 @@ interactives:
           ru: Апплет
           en: Applet
         href: /neutrinophysics/introduction/ru/applets/matter-adiabatic.html
-        href_en: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/adiabatic-lab
+        href_en: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/adiabatic-lab
       - kind: applet
         label:
           ru: EN
           en: RU
-        href: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/adiabatic-lab
+        href: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/adiabatic-lab
         href_en: /neutrinophysics/introduction/ru/applets/matter-adiabatic.html
     - id: np-matter-three-flavors
       title:
@@ -197,70 +169,90 @@ interactives:
           ru: Апплет
           en: Applet
         href: /neutrinophysics/introduction/ru/applets/matter-three-flavors.html
-    - id: osc-mc-long-baseline-lab
+    - id: osc-two-waves
       title:
-        ru: 'Long baselines: matter separates ν from ν̄'
-        en: 'Long baselines: matter separates ν from ν̄'
+        ru: 'Two waves: in phase and out of phase'
+        en: 'Two waves: in phase and out of phase'
       lang: en
       note:
-        ru: 'Muon-to-electron appearance along a straight path through the Earth for several experiments; switch ordering, matter and δ · мини-курс
-          «Осцилляции нейтрино: от вакуума до ядра Земли»'
-        en: 'Muon-to-electron appearance along a straight path through the Earth for several experiments; switch ordering, matter and δ · mini-course
-          Neutrino Oscillations: from Vacuum to the Earth''s Core'
+        ru: 'Move the detector: ν1 and ν2 leave the source in phase as νe, in antiphase the detector finds νμ · лекция «Осцилляции нейтрино: от вакуума до ядра Земли»'
+        en: 'Move the detector: ν1 and ν2 leave the source in phase as νe, in antiphase the detector finds νμ · lecture Neutrino Oscillations: from Vacuum to the Earth''s Core'
       links:
       - kind: applet
         label:
           ru: В слайдах
           en: In the slides
-        href: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html#/long-baseline
-    - id: osc-mc-earth-flavor-path
+        href: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/phases
+    - id: osc-geoneutrino-scales
       title:
-        ru: A neutrino crossing the Earth
-        en: A neutrino crossing the Earth
+        ru: 'Geoneutrinos: one source and the whole Earth'
+        en: 'Geoneutrinos: one source and the whole Earth'
       lang: en
       note:
-        ru: 'Animated flavor content of a neutrino crossing the PREM Earth with electron density along the path · мини-курс «Осцилляции нейтрино:
-          от вакуума до ядра Земли»'
-        en: 'Animated flavor content of a neutrino crossing the PREM Earth with electron density along the path · mini-course Neutrino Oscillations:
-          from Vacuum to the Earth''s Core'
+        ru: 'Electron antineutrino survival probability for one source at distance L and averaged over all sources of the Earth closer than L · лекция «Осцилляции нейтрино: от вакуума до ядра Земли»'
+        en: 'Electron antineutrino survival probability for one source at distance L and averaged over all sources of the Earth closer than L · lecture Neutrino Oscillations: from Vacuum to the Earth''s Core'
       links:
       - kind: applet
         label:
           ru: В слайдах
           en: In the slides
-        href: /neutrinophysics/oscillations-minicourse/en/slides/03_earth.html#/flavor-path
-    - id: osc-mc-earth-path-explorer
+        href: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/scales
+    - id: osc-atmospheric
       title:
-        ru: Explore a path
-        en: Explore a path
+        ru: 'Atmospheric muon neutrinos through the Earth'
+        en: 'Atmospheric muon neutrinos through the Earth'
       lang: en
       note:
-        ru: 'Oscillation probability vs energy for a chosen path through the Earth; core composition presets, ν/ν̄ and ordering · мини-курс «Осцилляции
-          нейтрино: от вакуума до ядра Земли»'
-        en: 'Oscillation probability vs energy for a chosen path through the Earth; core composition presets, ν/ν̄ and ordering · mini-course
-          Neutrino Oscillations: from Vacuum to the Earth''s Core'
+        ru: 'Three-flavour probabilities of an atmospheric νμ against the distance from its birth, for one energy and one zenith angle · лекция «Осцилляции нейтрино: от вакуума до ядра Земли»'
+        en: 'Three-flavour probabilities of an atmospheric νμ against the distance from its birth, for one energy and one zenith angle · lecture Neutrino Oscillations: from Vacuum to the Earth''s Core'
       links:
       - kind: applet
         label:
           ru: В слайдах
           en: In the slides
-        href: /neutrinophysics/oscillations-minicourse/en/slides/03_earth.html#/explorer
-    - id: osc-mc-oscillogram-lab
+        href: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/atm
+    - id: osc-birefringent-plate
       title:
-        ru: Build your own Earth
-        en: Build your own Earth
+        ru: 'Light in a birefringent plate'
+        en: 'Light in a birefringent plate'
       lang: en
       note:
-        ru: 'Oscillogram of a modified Earth and its difference from PREM with an iron core · мини-курс «Осцилляции нейтрино: от вакуума до ядра
-          Земли»'
-        en: 'Oscillogram of a modified Earth and its difference from PREM with an iron core · mini-course Neutrino Oscillations: from Vacuum to
-          the Earth''s Core'
+        ru: 'Thickness and angle of the axes, the polarization behind the plate and the intensities behind the analyzer · лекция «Осцилляции нейтрино: от вакуума до ядра Земли»'
+        en: 'Thickness and angle of the axes, the polarization behind the plate and the intensities behind the analyzer · lecture Neutrino Oscillations: from Vacuum to the Earth''s Core'
       links:
       - kind: applet
         label:
           ru: В слайдах
           en: In the slides
-        href: /neutrinophysics/oscillations-minicourse/en/slides/03_earth.html#/oscillogram-lab
+        href: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/crystal-vacuum
+    - id: osc-neutrino-crystal
+      title:
+        ru: 'The neutrino crystal'
+        en: 'The neutrino crystal'
+      lang: en
+      note:
+        ru: 'A layer of vacuum or matter with its axes: the flavour along the layer and the νμ probability against L, in vacuum and in matter · лекция «Осцилляции нейтрино: от вакуума до ядра Земли»'
+        en: 'A layer of vacuum or matter with its axes: the flavour along the layer and the νμ probability against L, in vacuum and in matter · lecture Neutrino Oscillations: from Vacuum to the Earth''s Core'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/axes
+    - id: osc-solar-twist
+      title:
+        ru: 'Why ν2 leaves the Sun'
+        en: 'Why ν2 leaves the Sun'
+      lang: en
+      note:
+        ru: 'Why a 10 MeV νe born at the centre of the Sun leaves it as ν2; the Borexino data in the next tab · лекция «Осцилляции нейтрино: от вакуума до ядра Земли»'
+        en: 'Why a 10 MeV νe born at the centre of the Sun leaves it as ν2; the Borexino data in the next tab · lecture Neutrino Oscillations: from Vacuum to the Earth''s Core'
+      links:
+      - kind: applet
+        label:
+          ru: В слайдах
+          en: In the slides
+        href: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/solar-data
     - id: np-solar-fit
       title:
         ru: 'Interactive Fit: Solar Parameters'
@@ -559,12 +551,12 @@ interactives:
           ru: Апплет
           en: Applet
         href: /neutrinophysics/introduction/ru/applets/coupled-pendula.html
-        href_en: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/pendula
+        href_en: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/pendula
       - kind: applet
         label:
           ru: EN
           en: RU
-        href: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html#/pendula
+        href: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html#/pendula
         href_en: /neutrinophysics/introduction/ru/applets/coupled-pendula.html
     - id: np-pendulums-matter
       title:

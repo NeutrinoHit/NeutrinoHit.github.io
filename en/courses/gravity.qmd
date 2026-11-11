@@ -6,7 +6,7 @@ toc: false
 
 ```{=html}
 <article class="course-page" data-course="gravity">
-  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>Gravity</span></nav>
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Lecture courses</a><span>›</span><span>Gravity</span></nav>
   <header class="course-page-head">
     <span class="course-tile-status">In preparation · Russian</span>
     <h1>Gravity</h1>

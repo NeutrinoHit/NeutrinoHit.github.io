@@ -1,47 +1,39 @@
 ---
-title: "Доклады"
-lang: ru-RU
+title: "Лекции и доклады"
+aliases:
+  - courses/oscillations-minicourse.html
+  - courses/qft-attraction-repulsion.html
+toc: false
 ---
 
 ```{=html}
-<div class="lecture-catalog">
-  <p class="lecture-catalog-lead">
-    Материалы докладов на конференциях и семинарах. Для опубликованных
-    выступлений доступны слайды в браузере и версия в PDF.
-  </p>
-
-  <section class="lecture-course-list" aria-label="Каталог докладов">
-    <div class="lecture-course lecture-course-talk-conferences">
-      <div class="lecture-course-head">
-        <span class="lecture-course-status">1 доклад опубликован</span>
-        <span class="lecture-course-title">Конференции</span>
+<div class="lecture-catalog outreach-catalog">
+  <p class="lecture-catalog-lead">Доклады на конференциях и семинарах, лекции для студентов и школ. Название открывает слайды, рядом — другие версии и видео.</p>
+  <div class="outreach-list">
+    <div class="outreach-group" id="talks">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Конференции и семинары</span>
+        <h2 class="outreach-group-name">Доклады</h2>
       </div>
-      <div class="lecture-course-body">
-        <p>Доклады на научных конференциях и рабочих совещаниях.</p>
-        <div class="lecture-material-list">
-          <div class="lecture-material">
-            <h3 class="lecture-material-head">2-5 июня 2026 · Статус и перспективы физики нейтрино</h3>
-            <div class="lecture-material-body">
-              <p>Российские проекты в глобальном контексте.</p>
-              <div class="lecture-course-actions">
-                <a class="lecture-action-primary" href="../talks/protvino-2026/dnaumov.html">Открыть слайды</a>
-                <a href="https://indico.ihep.su/e/PPIHE2026">Страница конференции</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ul class="outreach-entries is-stacked">
+        <li class="outreach-entry" id="talk-neutrino-telescopes-2026"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/neutrino-telescopes-2026/lecture.html">Neutrino Telescopes: Principles, Results, and Prospects</a><span class="outreach-lang">англ.</span><span class="outreach-entry-note">2026 · пленарный доклад</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-2026/lecture.html">Слайды</a><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-2026/lecture-30min.html">Короткая версия</a></span></li>
+        <li class="outreach-entry" id="talk-protvino-2026"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/protvino-2026/dnaumov.html">Статус и перспективы физики нейтрино</a><span class="outreach-entry-note">2026 · доклад: российские проекты в глобальном контексте · <a href="https://indico.ihep.su/e/PPIHE2026" rel="noopener">конференция, Протвино, 2–5 июня</a></span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../talks/protvino-2026/dnaumov.html">Слайды</a></span></li>
+        <li class="outreach-entry" id="talk-juno-10-years"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/7F_FqhQW9Vw" rel="noopener">Эксперимент JUNO: 10 лет спустя</a><span class="outreach-entry-note">2026 · семинар ЛЯП ОИЯИ</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/7F_FqhQW9Vw" rel="noopener">Видео</a></span></li>
+      </ul>
     </div>
-
-    <div class="lecture-course lecture-course-talk-seminars">
-      <div class="lecture-course-head">
-        <span class="lecture-course-status">Раздел будет пополняться</span>
-        <span class="lecture-course-title">Семинары</span>
+    <div class="outreach-group" id="lectures">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Для студентов и школ</span>
+        <h2 class="outreach-group-name">Лекции</h2>
       </div>
-      <div class="lecture-course-body">
-        <p>Материалы семинаров будут добавляться по мере публикации.</p>
-      </div>
+      <ul class="outreach-entries is-stacked">
+        <li class="outreach-entry" id="lecture-oscillations-zhuhai-2026"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html">Осцилляции нейтрино: от вакуума до ядра Земли</a><span class="outreach-lang">англ.</span><span class="outreach-entry-note">2026 · лекция осенней школы по междисциплинарной нейтринной науке, Чжухай</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html">Слайды</a></span></li>
+        <li class="outreach-entry" id="talk-georgia-2026"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/georgia-2026/dnaumov.html">Neutrino Physics: Fundamentals, Frontiers, and Probes</a><span class="outreach-lang">англ.</span><span class="outreach-entry-note">2026 · обзорная лекция</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../talks/georgia-2026/dnaumov.html">Слайды</a><a class="outreach-format is-slides" href="../talks/georgia-2026/dnaumov-35min.html">Короткая версия</a></span></li>
+        <li class="outreach-entry" id="lecture-neutrino-telescopes-ru-2026"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/neutrino-telescopes-ru-2026/lecture.html">Как поймать нейтрино из далёкой галактики</a><span class="outreach-entry-note">2026 · лекция для студентов</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-ru-2026/lecture.html">Слайды</a></span></li>
+        <li class="outreach-entry" id="lecture-neutrino-telescopes-cn-2026"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/neutrino-telescopes-cn-2026/lecture.html">How to Catch a Neutrino from a Distant Galaxy</a><span class="outreach-lang">англ.</span><span class="outreach-entry-note">2026 · лекция для студентов из Китая</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-cn-2026/lecture.html">Слайды</a></span></li>
+        <li class="outreach-entry" id="lecture-qft-attraction-repulsion"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html">Притяжение и отталкивание в КТП</a><span class="outreach-lang">англ.</span><span class="outreach-entry-note">2026 · лекция: scalar QED и волновые пакеты</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html">Слайды</a></span></li>
+      </ul>
     </div>
-  </section>
+  </div>
 </div>
 ```

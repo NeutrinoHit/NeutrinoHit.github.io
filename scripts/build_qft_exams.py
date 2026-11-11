@@ -58,7 +58,7 @@ FILES = {
 
 T = {
     "ru": {
-        "lang": "ru-RU", "site": "NeutrinoHit", "education": "Образование",
+        "lang": "ru-RU", "site": "NeutrinoHit", "education": "Курсы лекций",
         "title": "Экзаменационные проекты по квантовой теории поля",
         "short": "Экзаменационные проекты",
         "kind": "Экзамен · проекты",
@@ -110,7 +110,7 @@ T = {
         "description": "Экзаменационные проекты курса квантовой теории поля Д. В. Наумова: осень и весна, задачи с теорией, расчётом и моделированием.",
     },
     "en": {
-        "lang": "en-US", "site": "NeutrinoHit", "education": "Education",
+        "lang": "en-US", "site": "NeutrinoHit", "education": "Lecture courses",
         "title": "Examination projects in quantum field theory",
         "short": "Examination projects",
         "kind": "Exam · projects",

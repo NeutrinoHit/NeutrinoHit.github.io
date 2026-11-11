@@ -10,7 +10,7 @@ published: 2021-03-26
 image: media/ghost-trap.jpg
 toc: false
 ---
-[← Интервью и подкасты](../interviews.html){.interview-back}
+[← Интервью и подкасты](../outreach.html#interviews){.interview-back}
 
 ::: {.interview-source}
 Газета [«Поиск»](https://poisknews.ru/fizika/lovushka-dlya-prizrakov-astrofiziki-cherpayut-nejtrino-iz-bajkala/), № 13 (1659), 26 марта 2021 года. Текст: Юрий Дризе
@@ -60,4 +60,4 @@ toc: false
 
 Автор: Юрий Дризе.
 
-[← Интервью и подкасты](../interviews.html){.interview-back}
+[← Интервью и подкасты](../outreach.html#interviews){.interview-back}

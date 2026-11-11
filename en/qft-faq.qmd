@@ -7,7 +7,7 @@ toc: false
 
 ```{=html}
 <article class="course-page qft-faq">
-  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="education.html">Education</a><span>›</span><span>QFT FAQ</span></nav>
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="education.html">Lecture courses</a><span>›</span><span>QFT FAQ</span></nav>
   <header class="course-page-head">
     <span class="course-tile-status is-ready">QFT FAQ</span>
     <h1>Frequently asked questions on quantum field theory</h1>
@@ -117,7 +117,7 @@ The answer is in preparation.
 
 ## 9. How can one see in QFT that particles attract? {#attraction}
 
-This is the subject of a separate lecture, [Attraction and Repulsion in QFT](courses/qft-attraction-repulsion.html): scalar QED and wave packets.
+This is the subject of a separate lecture, [Attraction and Repulsion in QFT](talks.html#lecture-qft-attraction-repulsion): scalar QED and wave packets.
 
 [← Back to the questions](#questions){.qft-faq-up}
 
@@ -126,6 +126,6 @@ This is the subject of a separate lecture, [Attraction and Repulsion in QFT](cou
 ```{=html}
   <p class="course-page-note">Questions and answers are being added, so check back regularly.</p>
   <p class="course-book-line">Book: <a href="materials.html#qft-book">“Quantum Field Theory for Experimentalists and Beyond” →</a></p>
-  <p class="course-page-back"><a href="education.html">← Education</a></p>
+  <p class="course-page-back"><a href="education.html">← Lecture courses</a></p>
 </article>
 ```

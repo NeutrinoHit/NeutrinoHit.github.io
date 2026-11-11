@@ -9,7 +9,7 @@ include-in-header:
 
 ```{=html}
 <article class="course-page qft-exams">
-  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="education.html">Образование</a><span>›</span><span>Экзаменационные проекты</span></nav>
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="education.html">Курсы лекций</a><span>›</span><span>Экзаменационные проекты</span></nav>
   <header class="course-page-head">
     <span class="course-tile-status is-ready">Экзамен · проекты</span>
     <h1>Экзаменационные проекты по квантовой теории поля</h1>
@@ -77,6 +77,6 @@ include-in-header:
   </div>
   <p class="course-page-note">Проекты обновляются и пополняются — заглядывайте сюда регулярно.</p>
   <p class="course-book-line">Учебник к курсу: <a href="materials.html#qft-book">«Квантовая теория поля для экспериментаторов и не только» →</a></p>
-  <p class="course-page-back"><a href="education.html">← Образование</a></p>
+  <p class="course-page-back"><a href="education.html">← Курсы лекций</a></p>
 </article>
 ```

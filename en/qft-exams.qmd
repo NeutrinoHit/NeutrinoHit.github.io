@@ -9,7 +9,7 @@ include-in-header:
 
 ```{=html}
 <article class="course-page qft-exams">
-  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="education.html">Education</a><span>›</span><span>Examination projects</span></nav>
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="index.html">NeutrinoHit</a><span>›</span><a href="education.html">Lecture courses</a><span>›</span><span>Examination projects</span></nav>
   <header class="course-page-head">
     <span class="course-tile-status is-ready">Exam · projects</span>
     <h1>Examination projects in quantum field theory</h1>
@@ -77,6 +77,6 @@ include-in-header:
   </div>
   <p class="course-page-note">The projects are updated and expanded, so check back regularly.</p>
   <p class="course-book-line">Textbook for the course: <a href="materials.html#qft-book">“Quantum Field Theory for Experimentalists and Beyond” →</a></p>
-  <p class="course-page-back"><a href="education.html">← Education</a></p>
+  <p class="course-page-back"><a href="education.html">← Lecture courses</a></p>
 </article>
 ```

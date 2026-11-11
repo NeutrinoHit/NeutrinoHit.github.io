@@ -1,4 +1,6 @@
 ---
+aliases:
+  - about.html
 title: "Home"
 lang: en-US
 toc: false

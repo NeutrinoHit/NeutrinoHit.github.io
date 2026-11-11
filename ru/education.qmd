@@ -1,23 +1,20 @@
 ---
-title: "Образование"
+title: "Курсы лекций"
 toc: false
 ---
 
 ```{=html}
 <div class="lecture-catalog">
-  <p class="lecture-catalog-lead">Курсы лекций, образовательные программы и материалы для самостоятельной работы по КТП, физике нейтрино и частиц, статистическому анализу данных.</p>
+  <p class="lecture-catalog-lead">Курсы лекций по КТП, статистическому анализу данных, физике нейтрино и элементарных частиц; программа «Физика нейтрино и астрофизика частиц». Отдельные лекции — на странице «Лекции и доклады».</p>
 
   <h2 id="qft" class="section-inline-title">Квантовая теория поля</h2>
-  <p class="course-book-line">Учебник к курсам: <a href="../ru/materials.html#qft-book">«Квантовая теория поля для экспериментаторов и не только» →</a></p>
+  <p class="course-book-line">К курсам: <a href="../ru/materials.html#qft-book">учебник «Квантовая теория поля для экспериментаторов и не только»</a> · <a href="../ru/qft-exams.html">экзаменационные проекты</a> · <a href="../ru/qft-faq.html">ЧАВО по КТП</a></p>
   <nav class="course-tiles" aria-label="Квантовая теория поля">
     <div class="course-tile" id="qft-course"><span class="course-tile-status is-ready">Видеокурс</span><a class="course-tile-title" href="courses/quantum-field-theory.html">Квантовая теория поля</a><span class="course-tile-text">Введение в КТП и КЭД: от уравнения Дирака до S‑матрицы и теорем Вика.</span><span class="course-tile-meta">26 видео · 41 ч · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">конспект PDF</a></span></div>
     <div class="course-tile" id="standard-model-course"><span class="course-tile-status is-ready">Видеокурс</span><a class="course-tile-title" href="courses/standard-model.html">Стандартная модель</a><span class="course-tile-text">Рассеяние и распады в КЭД и электрослабой теории, механизм Хиггса.</span><span class="course-tile-meta">23 видео · 35 ч · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">конспект PDF</a></span></div>
     <div class="course-tile" id="qft-renormalization-course"><span class="course-tile-status is-ready">Видеокурс</span><a class="course-tile-title" href="courses/qft-renormalization.html">Ренормировка в квантовой теории поля</a><span class="course-tile-text">Размерная регуляризация, поляризация вакуума, g−2, нейтральные каоны, аномалии.</span><span class="course-tile-meta">20 видео · 29 ч · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">конспект PDF</a></span></div>
     <div class="course-tile" id="unruh-course"><span class="course-tile-status is-ready">Мини-курс</span><a class="course-tile-title" href="courses/unruh.html">Ускоренные системы отсчёта и эффект Унру</a><span class="course-tile-text">От координат Риндлера до эффекта Унру для скалярного и фермионного полей.</span><span class="course-tile-meta">5 лекций</span></div>
-    <div class="course-tile" id="qft-attraction-repulsion"><span class="course-tile-status is-ready">Лекция · англ.</span><a class="course-tile-title" href="courses/qft-attraction-repulsion.html">Притяжение и отталкивание в КТП</a><span class="course-tile-text">Scalar QED и волновые пакеты: как в КТП кодируются притяжение и отталкивание.</span><span class="course-tile-meta">1 лекция</span></div>
     <div class="course-tile" id="qft-vacuum-course"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="courses/qft-vacuum.html">Вакуум квантового поля</a><span class="course-tile-text">Волновой функционал свободного поля, гауссов вакуум и белый шум.</span><span class="course-tile-meta">1 лекция</span></div>
-    <div class="course-tile" id="qft-exams"><span class="course-tile-status is-ready">Экзамен · проекты</span><a class="course-tile-title" href="../ru/qft-exams.html">Экзаменационные проекты по КТП</a><span class="course-tile-text">Мини-проекты вместо билетов: теория, расчёт, моделирование и сравнение с экспериментом.</span><span class="course-tile-meta">Осень · 20 проектов · весна · 18 проектов</span></div>
-    <div class="course-tile" id="qft-faq"><span class="course-tile-status is-ready">ЧАВО</span><a class="course-tile-title" href="../ru/qft-faq.html">ЧАВО по КТП</a><span class="course-tile-text">Концептуальные вопросы: поле или частица, точечна ли частица, кипит ли вакуум, что такое виртуальная частица.</span><span class="course-tile-meta">9 вопросов · ответы пополняются</span></div>
   </nav>
 
   <h2 id="stat" class="section-inline-title">Статистический анализ данных</h2>
@@ -29,7 +26,6 @@ toc: false
   <h2 id="neutrino" class="section-inline-title">Физика нейтрино</h2>
   <nav class="course-tiles" aria-label="Физика нейтрино">
     <div class="course-tile" id="neutrino-introduction"><span class="course-tile-status is-ready">Курс</span><a class="course-tile-title" href="courses/neutrino-introduction.html">Введение в физику нейтрино</a><span class="course-tile-text">Слабое взаимодействие, масса нейтрино, осцилляции в вакууме и веществе.</span><span class="course-tile-meta">15 лекций</span></div>
-    <div class="course-tile" id="oscillations-minicourse"><span class="course-tile-status is-ready">Лекция школы · англ.</span><a class="course-tile-title" href="courses/oscillations-minicourse.html">Осцилляции нейтрино: от вакуума до ядра Земли</a><span class="course-tile-text">Вакуум и вещество как кристаллы, Солнце, матрица смешивания.</span><span class="course-tile-meta">1 лекция</span></div>
     <div class="course-tile" id="solar-neutrino-masterclass"><span class="course-tile-status is-ready">Мастер-класс · англ.</span><a class="course-tile-title" href="courses/solar-neutrino-masterclass.html">Солнечные нейтрино: мастер-класс</a><span class="course-tile-text">Потоки, скорости счёта и фит осцилляций по данным.</span><span class="course-tile-meta">3 лекции</span></div>
     <div class="course-tile" id="oscillations"><span class="course-tile-status">Планируется</span><a class="course-tile-title" href="courses/neutrino-oscillation-theory.html">Теория осцилляций нейтрино в КТП</a><span class="course-tile-text">Будущий специализированный курс по квантово-полевому описанию нейтринных осцилляций.</span></div>
   </nav>
@@ -47,7 +43,7 @@ toc: false
     <div class="course-tile" id="numerical-methods"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="courses/numerical-methods.html">Численные методы для физиков</a><span class="course-tile-text">Одна лекция — одна физическая задача; Python с Numba.</span><span class="course-tile-meta">1 лекция</span></div>
   </nav>
 
-  <h2 id="programs" class="section-inline-title">Программы</h2>
+  <h2 id="programs" class="section-inline-title">Программа</h2>
   <!-- Teach-in program card; scripts/build_course_pages.py puts it on ru/education.qmd -->
   <div id="teach-in-program" class="education-program-card">
     <span class="course-tile-status is-ready">Онлайн-программа</span>

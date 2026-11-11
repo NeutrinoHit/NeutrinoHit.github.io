@@ -6,7 +6,7 @@ toc: false
 
 ```{=html}
 <article class="course-page" data-course="qft-vacuum">
-  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>The Quantum Field Vacuum</span></nav>
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Lecture courses</a><span>›</span><span>The Quantum Field Vacuum</span></nav>
   <header class="course-page-head">
     <span class="course-tile-status">In preparation · Russian</span>
     <h1>The Quantum Field Vacuum</h1>
@@ -27,7 +27,6 @@ toc: false
     <div class="course-tile"><span class="course-tile-status is-ready">Video course · Russian</span><a class="course-tile-title" href="standard-model.html">Introduction to the Standard Model</a><span class="course-tile-text">Scattering and decays in QED and electroweak theory, the Higgs mechanism.</span><span class="course-tile-meta">23 videos · 35 h · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">notes PDF</a></span></div>
     <div class="course-tile"><span class="course-tile-status is-ready">Video course · Russian</span><a class="course-tile-title" href="qft-renormalization.html">Renormalization in Quantum Field Theory</a><span class="course-tile-text">Dimensional regularization, vacuum polarization, g−2, neutral kaons, anomalies.</span><span class="course-tile-meta">20 videos · 29 h · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">notes PDF</a></span></div>
     <div class="course-tile"><span class="course-tile-status is-ready">Mini-course · Russian</span><a class="course-tile-title" href="unruh.html">Accelerated Frames and the Unruh Effect</a><span class="course-tile-text">From Rindler coordinates to the Unruh effect for scalar and fermion fields.</span><span class="course-tile-meta">5 lectures</span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Lecture</span><a class="course-tile-title" href="qft-attraction-repulsion.html">Attraction and Repulsion in QFT</a><span class="course-tile-text">Scalar QED and wave packets: how QFT encodes attraction and repulsion.</span><span class="course-tile-meta">1 lecture</span></div>
   </nav>
   <p class="course-page-back"><a href="../education.html">← All courses</a></p>
 </article>

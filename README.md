@@ -43,9 +43,9 @@ Push в `main` автоматически публикует только сай
 [docs/media-library.md](docs/media-library.md). Галерея и QR-страницы ссылаются на
 опубликованные фильмы, `make site` убирает их локальные копии из `_site/`.
 
-## Курсы и страница «Образование»
+## Курсы и страница «Курсы лекций»
 
-Курсы описаны в `courses.catalog.yml`: разделы страницы «Образование», плитки,
+Курсы описаны в `courses.catalog.yml`: разделы страницы «Курсы лекций» (только курсы и программа; отдельные лекции — в «Лекциях и докладах»), плитки,
 лекции со ссылками на слайды, PDF, видео, задачи и главы книг. Страницы
 `ru|en/education.qmd` и `ru|en/courses/<курс>.qmd` пишет генератор, их не правят
 руками:
@@ -65,11 +65,13 @@ python scripts/build_course_pages.py --check  # проверить, что ст�
 `https://neutrinohit.github.io/<lang>/courses/<курс>.html`; такие адреса
 зарегистрированы в `scripts/reveal_context_targets.json` с типом `course-page`.
 
-## Научная коммуникация, наука, моделирование, интерактивы, школа и фото
+## Научная коммуникация, лекции и доклады, наука, интерактивы, школа и фото
 
 Страницы-списки пишет `scripts/build_outreach_pages.py`, их не правят руками:
-`outreach.catalog.yml` → `ru|en/outreach.qmd`, `cinema.qmd`, `interviews.qmd`;
-`research.catalog.yml` → `ru|en/research.qmd`; `modeling.catalog.yml` → `ru|en/modeling.qmd`;
+`outreach.catalog.yml` → `ru|en/outreach.qmd` (с группами фильмов и интервью; `cinema.html` и `interviews.html`
+переадресуют туда) и `talks.qmd`;
+`research.catalog.yml` → `ru|en/research.qmd` (публикации, эксперименты, моделирование, диссертации;
+старые адреса `modeling.html` и `theses.html` переадресуют сюда);
 `interactives.catalog.yml` → `ru|en/interactives.qmd`; `school.catalog.yml` → `ru|en/school.qmd`;
 `photos.catalog.yml` → `ru|en/photos.qmd`.
 Строка — материал: название открывает его, рядом форматы. Группа может держать плитки
@@ -307,8 +309,7 @@ python scripts/build_book_animations.py --urls   # строки для pyplots/q
 `title_en`, `summary_en`, `description_en` и `label_en` из каталога; английская версия фильма —
 ролик сразу после русской. Обложку с другого кадра (`poster_time` ролика в каталоге) пересобирает
 `--posters-only --item <раздел>/<сюжет>` из опубликованного ролика, сам ролик не меняется.
-Якоря `#<раздел>` и `#animation-<раздел>-<сюжет>` постоянные: на них ведут «Моделирование»
-и QR-страницы книг.
+Якоря `#<раздел>` и `#animation-<раздел>-<сюжет>` постоянные: на них ведут QR-страницы книг.
 
 Для обновления одного готового сюжета без замены медиа остальных анимаций:
 

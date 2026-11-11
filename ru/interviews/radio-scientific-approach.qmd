@@ -9,7 +9,7 @@ outlet-en: "Radio Rossii, 2025, two episodes"
 published: 2025-06-20
 toc: false
 ---
-[← Интервью и подкасты](../interviews.html){.interview-back}
+[← Интервью и подкасты](../outreach.html#interviews){.interview-back}
 
 ::: {.interview-source}
 «Радио России», программа «Научный подход», 20 и 27 июня 2025 года
@@ -35,4 +35,4 @@ toc: false
 <p class="interview-origin">Выпуск на <a href="https://smotrim.ru/audio/2850609" rel="noopener">smotrim.ru</a></p>
 ```
 
-[← Интервью и подкасты](../interviews.html){.interview-back}
+[← Интервью и подкасты](../outreach.html#interviews){.interview-back}

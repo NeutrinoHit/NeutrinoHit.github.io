@@ -1,11 +1,14 @@
 ---
 title: "Научная коммуникация"
+aliases:
+  - cinema.html
+  - interviews.html
 toc: false
 ---
 
 ```{=html}
 <div class="lecture-catalog outreach-catalog">
-  <p class="lecture-catalog-lead">Публичные лекции, мини-курсы и видео о современной физике для широкой аудитории. Название открывает материал, рядом — другие форматы.</p>
+  <p class="lecture-catalog-lead">Публичные лекции, мини-курсы, видео, фильмы и интервью о современной физике для широкой аудитории. Название открывает материал, рядом — другие форматы.</p>
   <div class="outreach-list">
     <div class="outreach-group" id="in-a-nutshell">
       <div class="outreach-group-head">
@@ -21,20 +24,6 @@ toc: false
       </ul>
       <a class="outreach-all" href="../sciencepop/in-a-nutshell/index.html">Вся библиотечка →</a>
     </div>
-    <div class="outreach-group" id="neutrino-telescopes">
-      <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">5 лекций · 2025–2026</span>
-        <h2 class="outreach-group-name">Нейтринные телескопы</h2>
-        <p class="outreach-group-text">Вселенная глазами нейтрино: как ловят нейтрино высоких энергий и что они рассказали о галактиках.</p>
-      </div>
-      <ul class="outreach-entries">
-        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/neutrino-telescopes-ru-2026/lecture.html">Как поймать нейтрино из далёкой галактики</a><span class="outreach-entry-note">для студентов</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-ru-2026/lecture.html">Слайды</a></span></li>
-        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/neutrino-telescopes-cn-2026/lecture.html">How to Catch a Neutrino from a Distant Galaxy</a><span class="outreach-lang">англ.</span><span class="outreach-entry-note">для студентов</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-cn-2026/lecture.html">Слайды</a></span></li>
-        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">Зачем нужны нейтринные телескопы?</a><span class="outreach-entry-note">Астрофест</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pdf" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">PDF</a></span></li>
-        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../talks/neutrino-telescopes-2026/lecture.html">Neutrino Telescopes: Principles, Results, and Prospects</a><span class="outreach-lang">англ.</span><span class="outreach-entry-note">пленарный доклад</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-2026/lecture.html">Слайды</a><a class="outreach-format is-slides" href="../talks/neutrino-telescopes-2026/lecture-30min.html">30 минут</a></span></li>
-        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/Y8cTYsGq-L0" rel="noopener">Телескоп подо льдом</a><span class="outreach-entry-note">онлайн-лекция · 2025</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/Y8cTYsGq-L0" rel="noopener">Видео</a></span></li>
-      </ul>
-    </div>
     <div class="outreach-group" id="modern-physics-without-formulas">
       <div class="outreach-group-head">
         <span class="course-tile-status is-ready">Мини-курс · 4 лекции</span>
@@ -48,51 +37,37 @@ toc: false
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/ModernPhysics/Lecture4.pdf">За горизонты Стандартной модели: пути к новой физике</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pdf" href="../sciencepop/ModernPhysics/Lecture4.pdf">PDF</a><a class="outreach-format is-video" href="https://youtu.be/u7TNiekrClw" rel="noopener">Видео</a></span></li>
       </ul>
     </div>
-    <div class="outreach-group" id="birth-life-universe">
-      <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">Лекция</span>
-        <h2 class="outreach-group-name"><a class="outreach-group-title" href="../sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html">Рождение и жизнь Вселенной</a></h2>
-        <p class="outreach-group-text">Горячее начало, первый свет, звёзды, галактики, Земля и далёкое будущее. BBN-игра: подберите параметры первичного нуклеосинтеза сами.</p>
-        <span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html">Слайды</a><a class="outreach-format is-game" href="../sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html">Игра</a></span>
-      </div>
-    </div>
-    <div class="outreach-group" id="wave-or-particle">
-      <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">Лекция</span>
-        <h2 class="outreach-group-name"><a class="outreach-group-title" href="../sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html">Что такое частица в квантовой теории поля?</a></h2>
-        <p class="outreach-group-text">Волна или точка: рассеяние квантовой волны на двух мишенях; апплет внутри слайдов.</p>
-        <span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html">Слайды</a></span>
-      </div>
-    </div>
     <div class="outreach-group" id="gravitational-waves">
       <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">Мини-курс</span>
-        <h2 class="outreach-group-name"><a class="outreach-group-title" href="../sciencepop/GravitationalWaves/index.html">Гравитационные волны. Эхо Вселенной</a></h2>
-        <p class="outreach-group-text">Три лекции по 45 минут: дрожь пространства-времени, почти невозможное измерение и Вселенная, которую мы научились слышать. Истории, анимации и современные открытия.</p>
-        <span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../sciencepop/GravitationalWaves/index.html">Три лекции</a></span>
+        <span class="course-tile-status is-ready">Мини-курс · 3 лекции</span>
+        <h2 class="outreach-group-name">Гравитационные волны. Эхо Вселенной</h2>
+        <p class="outreach-group-text">Что колеблется в гравитационной волне, как её удалось поймать и что она рассказывает о Вселенной.</p>
       </div>
+      <ul class="outreach-entries">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/GravitationalWaves/ru/slides/01_spacetime_tremor.html">Дрожь пространства-времени</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../sciencepop/GravitationalWaves/ru/slides/01_spacetime_tremor.html">Слайды</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/GravitationalWaves/ru/slides/02_impossible.html">Это невозможно? Сделаем это!</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../sciencepop/GravitationalWaves/ru/slides/02_impossible.html">Слайды</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/GravitationalWaves/ru/slides/03_hearing_the_universe.html">Вселенная, я тебя слышу</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../sciencepop/GravitationalWaves/ru/slides/03_hearing_the_universe.html">Слайды</a></span></li>
+      </ul>
+      <a class="outreach-all" href="../sciencepop/GravitationalWaves/index.html">Страница мини-курса →</a>
     </div>
-    <div class="outreach-group" id="black-holes">
+    <div class="outreach-group" id="lectures">
       <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">Лекция</span>
-        <h2 class="outreach-group-name"><a class="outreach-group-title" href="../sciencepop/BlackHoles/BlackHoles.pdf">Чёрные дыры: удивительные объекты во Вселенной</a></h2>
-        <p class="outreach-group-text">Научно-популярная лекция о физике чёрных дыр.</p>
-        <span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pdf" href="../sciencepop/BlackHoles/BlackHoles.pdf">PDF</a><a class="outreach-format is-video" href="https://youtu.be/c9BkAFfZHC8" rel="noopener">Видео</a></span>
+        <span class="course-tile-status is-ready">Публичные лекции</span>
+        <h2 class="outreach-group-name">Лекции</h2>
       </div>
-    </div>
-    <div class="outreach-group" id="dark-matter">
-      <div class="outreach-group-head">
-        <span class="course-tile-status is-ready">Лекция</span>
-        <h2 class="outreach-group-name"><a class="outreach-group-title" href="../sciencepop/DarkMatter/DarkMatter.pdf">Тёмная материя</a></h2>
-        <p class="outreach-group-text">Наблюдательные свидетельства и возможная природа тёмной материи.</p>
-        <span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pdf" href="../sciencepop/DarkMatter/DarkMatter.pdf">PDF</a><a class="outreach-format is-video" href="https://youtu.be/A2sHEkQ0Uww" rel="noopener">Видео</a></span>
-      </div>
+      <ul class="outreach-entries">
+        <li class="outreach-entry" id="birth-life-universe"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html">Рождение и жизнь Вселенной</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html">Слайды</a><a class="outreach-format is-game" href="../sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html">Игра</a></span></li>
+        <li class="outreach-entry" id="dark-matter"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/DarkMatter/DarkMatter.pdf">Тёмная материя</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pdf" href="../sciencepop/DarkMatter/DarkMatter.pdf">PDF</a><a class="outreach-format is-video" href="https://youtu.be/A2sHEkQ0Uww" rel="noopener">Видео</a></span></li>
+        <li class="outreach-entry" id="black-holes"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/BlackHoles/BlackHoles.pdf">Чёрные дыры: удивительные объекты во Вселенной</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pdf" href="../sciencepop/BlackHoles/BlackHoles.pdf">PDF</a><a class="outreach-format is-video" href="https://youtu.be/c9BkAFfZHC8" rel="noopener">Видео</a></span></li>
+        <li class="outreach-entry" id="wave-or-particle"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html">Что такое частица в квантовой теории поля?</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-slides" href="../sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html">Слайды</a></span></li>
+        <li class="outreach-entry" id="telescope-under-ice"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/Y8cTYsGq-L0" rel="noopener">Телескоп подо льдом</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/Y8cTYsGq-L0" rel="noopener">Видео</a></span></li>
+        <li class="outreach-entry" id="astrofest-neutrino-telescopes"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">Зачем нужны нейтринные телескопы?</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-pdf" href="../sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf">PDF</a></span></li>
+      </ul>
     </div>
     <div class="outreach-group" id="short-videos">
       <div class="outreach-group-head">
         <span class="course-tile-status is-ready">Видео</span>
         <h2 class="outreach-group-name">Короткие видео</h2>
-        <p class="outreach-group-text">Открытие нейтрино, Нобелевская премия по физике 2025 года и демонстрационный эксперимент.</p>
       </div>
       <ul class="outreach-entries">
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/ybPLBzujONA" rel="noopener">Тайна пропавшей энергии. Почти детективная история открытия нейтрино</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/ybPLBzujONA" rel="noopener">Видео</a></span></li>
@@ -100,7 +75,39 @@ toc: false
         <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/WRAEhMhGPew" rel="noopener">Как увеличить напряжение без трансформатора?</a></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/WRAEhMhGPew" rel="noopener">Видео</a></span></li>
       </ul>
     </div>
+    <div class="outreach-group" id="films">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Кино</span>
+        <h2 class="outreach-group-name">Фильмы</h2>
+      </div>
+      <ul class="outreach-entries">
+        <li class="outreach-entry" id="universe-neutrino-telescope"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/x--KvzTlvL0" rel="noopener">Вселенная в нейтринном телескопе</a><span class="outreach-entry-note">фильм · сценарий и режиссура: Дмитрий Наумов</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/x--KvzTlvL0" rel="noopener">Видео</a></span></li>
+        <li class="outreach-entry" id="nerpa-baikal"><span class="outreach-entry-main"><a class="outreach-entry-title" href="https://youtu.be/Qja-x8WjYiw" rel="noopener">Нерпа и тайна Байкала</a><span class="outreach-entry-note">мультфильм · сценарий: Дмитрий Наумов</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="https://youtu.be/Qja-x8WjYiw" rel="noopener">Видео</a></span></li>
+      </ul>
+    </div>
+    <div class="outreach-group" id="interviews">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Интервью</span>
+        <h2 class="outreach-group-name">Интервью и статьи</h2>
+      </div>
+      <ul class="outreach-entries">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/science-communication.html">Научная коммуникация — новое понятие и новые знания</a><span class="outreach-entry-note">«Дубна: наука, содружество, прогресс», 2021</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-text" href="../ru/interviews/science-communication.html">Читать</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/ghost-trap.html">Ловушка для призраков: астрофизики черпают нейтрино из Байкала</a><span class="outreach-entry-note">«Поиск», 2021 · текст Юрия Дризе</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-text" href="../ru/interviews/ghost-trap.html">Читать</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/baikal-telescope.html">Байкальский телескоп — уникальный инструмент нейтринной астрономии</a><span class="outreach-entry-note">«Научная Россия», 2021 · интервью о запуске Baikal-GVD</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-text" href="../ru/interviews/baikal-telescope.html">Читать</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/to-the-bottom-for-a-black-hole.html">На дно за черной дырой</a><span class="outreach-entry-note">«Российская газета», 2021</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-text" href="../ru/interviews/to-the-bottom-for-a-black-hole.html">Читать</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/neutrinos-must-be-made-to-talk.html">Нейтрино нужно разговорить</a><span class="outreach-entry-note">«Троицкий вариант — Наука», 2020</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-text" href="../ru/interviews/neutrinos-must-be-made-to-talk.html">Читать</a></span></li>
+      </ul>
+    </div>
+    <div class="outreach-group" id="podcasts">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Радио и подкасты</span>
+        <h2 class="outreach-group-name">Радио и подкасты</h2>
+      </div>
+      <ul class="outreach-entries">
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/schrodingers-cat.html">Кот Шрёдингера: как поймать нейтрино?</a><span class="outreach-entry-note">Первый канал, «Подкаст.Лаб», 2026</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-video" href="../ru/interviews/schrodingers-cat.html">Видео</a></span></li>
+        <li class="outreach-entry"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../ru/interviews/radio-scientific-approach.html">Радиоподкаст «Научный подход»: про нейтринные телескопы</a><span class="outreach-entry-note">«Радио России», 2025, два выпуска</span></span><span class="outreach-formats" aria-label="Форматы"><a class="outreach-format is-audio" href="../ru/interviews/radio-scientific-approach.html">Аудио</a></span></li>
+      </ul>
+    </div>
   </div>
-  <p class="outreach-more">Доклады на конференциях и семинарах — <a href="../ru/talks.html">на странице «Доклады»</a>.</p>
 </div>
 ```

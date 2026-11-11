@@ -1,18 +1,18 @@
-# Outreach, films, interviews and podcasts. scripts/build_outreach_pages.py writes ru|en/outreach.qmd,
-# ru|en/cinema.qmd and ru|en/interviews.qmd from this file.
+# Outreach (with films, interviews and podcasts as its groups) and lectures and talks.
+# scripts/build_outreach_pages.py writes ru|en/outreach.qmd and ru|en/talks.qmd from this file.
+# The old pages cinema.html and interviews.html redirect to the outreach page.
 # Paths starting with "/" are site paths on neutrinohit.github.io; a key ending in "_en" overrides its key on English pages.
 # Link kinds: slides, pdf, video, applet, game, text, audio. The first link of an entry is its main material:
 # the title opens it. An entry or a link with lang: en is in English (marked on the Russian page);
 # on the English page the rest is in Russian, which the lead says once.
 outreach:
   title: {ru: Научная коммуникация, en: Outreach}
-  lead: {ru: 'Публичные лекции, мини-курсы и видео о современной физике для широкой аудитории. Название открывает материал, рядом — другие форматы.',
-    en: 'Public lectures, mini-courses and videos on modern physics for a broad audience. A title opens the material; the other formats are next to it. The materials are in Russian unless marked EN.'}
-  more:
-    text: {ru: 'Доклады на конференциях и семинарах —', en: 'Conference and seminar talks:'}
-    label: {ru: на странице «Доклады», en: the Talks page}
-    href: /ru/talks.html
-    href_en: /en/talks.html
+  aliases: [cinema.html, interviews.html]
+  lead: {ru: 'Публичные лекции, мини-курсы, видео, фильмы и интервью о современной физике для широкой аудитории. Название открывает материал, рядом — другие форматы.',
+    en: 'Public lectures, mini-courses, videos, films and interviews on modern physics for a broad audience. A title opens the material; the other formats are next to it. The materials are in Russian.'}
+  # The groups with "from_pages: true" are filled from the front matter of ru/interviews/*.qmd
+  # (title, title-en, group, kind, outlet, outlet-en, published), so a new interview is one new page there.
+  pages: ru/interviews
   groups:
   - id: in-a-nutshell
     kind: {ru: Библиотечка, en: Mini-library}
@@ -30,28 +30,6 @@ outreach:
       links: [{kind: slides, href: /sciencepop/in-a-nutshell/03_what-is-atom.html}]
     - title: {ru: 'Что внутри атомного ядра?', en: 'What is inside the atomic nucleus?'}
       links: [{kind: slides, href: /sciencepop/in-a-nutshell/04_inside-nucleus.html}]
-  - id: neutrino-telescopes
-    kind: {ru: 5 лекций · 2025–2026, en: 5 lectures · 2025–2026}
-    title: {ru: Нейтринные телескопы, en: Neutrino Telescopes}
-    summary: {ru: 'Вселенная глазами нейтрино: как ловят нейтрино высоких энергий и что они рассказали о галактиках.', en: 'The Universe seen with neutrinos: how high-energy neutrinos are caught and what they have told us about galaxies.'}
-    items:
-    - title: {ru: Как поймать нейтрино из далёкой галактики, en: How to catch a neutrino from a distant galaxy}
-      note: {ru: для студентов, en: for students}
-      links: [{kind: slides, href: /talks/neutrino-telescopes-ru-2026/lecture.html}]
-    - title: {ru: How to Catch a Neutrino from a Distant Galaxy, en: How to Catch a Neutrino from a Distant Galaxy}
-      note: {ru: для студентов, en: for students}
-      lang: en
-      links: [{kind: slides, href: /talks/neutrino-telescopes-cn-2026/lecture.html}]
-    - title: {ru: 'Зачем нужны нейтринные телескопы?', en: 'Why do we need neutrino telescopes?'}
-      note: {ru: Астрофест, en: Astrofest}
-      links: [{kind: pdf, href: /sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf}]
-    - title: {ru: 'Neutrino Telescopes: Principles, Results, and Prospects', en: 'Neutrino Telescopes: Principles, Results, and Prospects'}
-      note: {ru: пленарный доклад, en: plenary talk}
-      lang: en
-      links: [{kind: slides, href: /talks/neutrino-telescopes-2026/lecture.html}, {kind: slides, label: {ru: 30 минут, en: 30 min}, href: /talks/neutrino-telescopes-2026/lecture-30min.html}]
-    - title: {ru: Телескоп подо льдом, en: A telescope under the ice}
-      note: {ru: онлайн-лекция · 2025, en: online lecture · 2025}
-      links: [{kind: video, href: 'https://youtu.be/Y8cTYsGq-L0'}]
   - id: modern-physics-without-formulas
     kind: {ru: Мини-курс · 4 лекции, en: Mini-course · 4 lectures}
     title: {ru: Современная физика без формул, en: Modern Physics Without Formulas}
@@ -65,36 +43,46 @@ outreach:
       links: [{kind: pdf, href: /sciencepop/ModernPhysics/Lecture3.pdf}, {kind: video, href: 'https://youtu.be/65lufSSiGgg'}]
     - title: {ru: 'За горизонты Стандартной модели: пути к новой физике', en: 'Beyond the Standard Model: paths to new physics'}
       links: [{kind: pdf, href: /sciencepop/ModernPhysics/Lecture4.pdf}, {kind: video, href: 'https://youtu.be/u7TNiekrClw'}]
-  - id: birth-life-universe
-    kind: {ru: Лекция, en: Lecture}
-    title: {ru: Рождение и жизнь Вселенной, en: The Birth and Life of the Universe}
-    summary: {ru: 'Горячее начало, первый свет, звёзды, галактики, Земля и далёкое будущее. BBN-игра: подберите параметры первичного нуклеосинтеза сами.',
-      en: 'The hot beginning, the first light, stars, galaxies, the Earth and the far future. The BBN game: find the parameters of primordial nucleosynthesis yourself.'}
-    links: [{kind: slides, href: /sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html}, {kind: game, href: /sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html}]
-  - id: wave-or-particle
-    kind: {ru: Лекция, en: Lecture}
-    title: {ru: 'Что такое частица в квантовой теории поля?', en: 'What is a particle in quantum field theory?'}
-    summary: {ru: 'Волна или точка: рассеяние квантовой волны на двух мишенях; апплет внутри слайдов.', en: 'Wave or point: scattering of a quantum wave on two targets; the applet is inside the slides.'}
-    links: [{kind: slides, href: /sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html}]
   - id: gravitational-waves
-    kind: {ru: Мини-курс, en: Mini-course}
+    kind: {ru: Мини-курс · 3 лекции, en: Mini-course · 3 lectures}
     title: {ru: Гравитационные волны. Эхо Вселенной, en: 'Gravitational Waves: An Echo of the Universe'}
-    summary: {ru: 'Три лекции по 45 минут: дрожь пространства-времени, почти невозможное измерение и Вселенная, которую мы научились слышать. Истории, анимации и современные открытия.', en: 'Three 45-minute lectures: the trembling of spacetime, an almost impossible measurement and a Universe we have learned to hear. Stories, animations and recent discoveries.'}
-    links: [{kind: slides, label: {ru: Три лекции, en: Three lectures}, href: /sciencepop/GravitationalWaves/index.html}]
-  - id: black-holes
-    kind: {ru: Лекция, en: Lecture}
-    title: {ru: 'Чёрные дыры: удивительные объекты во Вселенной', en: 'Black holes: remarkable objects in the Universe'}
-    summary: {ru: Научно-популярная лекция о физике чёрных дыр., en: A popular lecture on the physics of black holes.}
-    links: [{kind: pdf, href: /sciencepop/BlackHoles/BlackHoles.pdf}, {kind: video, href: 'https://youtu.be/c9BkAFfZHC8'}]
-  - id: dark-matter
-    kind: {ru: Лекция, en: Lecture}
-    title: {ru: Тёмная материя, en: Dark Matter}
-    summary: {ru: Наблюдательные свидетельства и возможная природа тёмной материи., en: Observational evidence and the possible nature of dark matter.}
-    links: [{kind: pdf, href: /sciencepop/DarkMatter/DarkMatter.pdf}, {kind: video, href: 'https://youtu.be/A2sHEkQ0Uww'}]
+    summary: {ru: 'Что колеблется в гравитационной волне, как её удалось поймать и что она рассказывает о Вселенной.', en: 'What oscillates in a gravitational wave, how it was caught and what it tells us about the Universe.'}
+    all:
+      label: {ru: Страница мини-курса, en: The mini-course page}
+      href: /sciencepop/GravitationalWaves/index.html
+    items:
+    - title: {ru: Дрожь пространства-времени, en: A tremor of spacetime}
+      links: [{kind: slides, href: /sciencepop/GravitationalWaves/ru/slides/01_spacetime_tremor.html}]
+    - title: {ru: 'Это невозможно? Сделаем это!', en: 'Impossible? Let us do it!'}
+      links: [{kind: slides, href: /sciencepop/GravitationalWaves/ru/slides/02_impossible.html}]
+    - title: {ru: 'Вселенная, я тебя слышу', en: 'Universe, I hear you'}
+      links: [{kind: slides, href: /sciencepop/GravitationalWaves/ru/slides/03_hearing_the_universe.html}]
+  # One list of single public lectures; each entry keeps the anchor of its old group (the slides link to it).
+  - id: lectures
+    kind: {ru: Публичные лекции, en: Public lectures}
+    title: {ru: Лекции, en: Lectures}
+    items:
+    - id: birth-life-universe
+      title: {ru: Рождение и жизнь Вселенной, en: The Birth and Life of the Universe}
+      links: [{kind: slides, href: /sciencepop/BirthAndLifeUniverse/birth_and_life_one_universe.html}, {kind: game, href: /sciencepop/BirthAndLifeUniverse/bbn-game/bbn_applet.html}]
+    - id: dark-matter
+      title: {ru: Тёмная материя, en: Dark Matter}
+      links: [{kind: pdf, href: /sciencepop/DarkMatter/DarkMatter.pdf}, {kind: video, href: 'https://youtu.be/A2sHEkQ0Uww'}]
+    - id: black-holes
+      title: {ru: 'Чёрные дыры: удивительные объекты во Вселенной', en: 'Black holes: remarkable objects in the Universe'}
+      links: [{kind: pdf, href: /sciencepop/BlackHoles/BlackHoles.pdf}, {kind: video, href: 'https://youtu.be/c9BkAFfZHC8'}]
+    - id: wave-or-particle
+      title: {ru: 'Что такое частица в квантовой теории поля?', en: 'What is a particle in quantum field theory?'}
+      links: [{kind: slides, href: /sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html}]
+    - id: telescope-under-ice
+      title: {ru: Телескоп подо льдом, en: A telescope under the ice}
+      links: [{kind: video, href: 'https://youtu.be/Y8cTYsGq-L0'}]
+    - id: astrofest-neutrino-telescopes
+      title: {ru: 'Зачем нужны нейтринные телескопы?', en: 'Why do we need neutrino telescopes?'}
+      links: [{kind: pdf, href: /sciencepop/neutrino-telescope-astrofest-2026/NeutrinoTelescopes.pdf}]
   - id: short-videos
     kind: {ru: Видео, en: Videos}
     title: {ru: Короткие видео, en: Short Videos}
-    summary: {ru: 'Открытие нейтрино, Нобелевская премия по физике 2025 года и демонстрационный эксперимент.', en: 'The discovery of the neutrino, the 2025 Nobel Prize in Physics and a demonstration experiment.'}
     items:
     - title: {ru: 'Тайна пропавшей энергии. Почти детективная история открытия нейтрино', en: 'The mystery of missing energy: almost a detective story of the neutrino discovery'}
       links: [{kind: video, href: 'https://youtu.be/ybPLBzujONA'}]
@@ -102,12 +90,9 @@ outreach:
       links: [{kind: video, href: 'https://youtu.be/-wFPbyZacts'}]
     - title: {ru: 'Как увеличить напряжение без трансформатора?', en: 'How to increase voltage without a transformer?'}
       links: [{kind: video, href: 'https://youtu.be/WRAEhMhGPew'}]
-
-cinema:
-  title: {ru: Кино, en: Films}
-  lead: {ru: Фильмы и мультфильмы о нейтринной физике и Байкале., en: Films and animated films about neutrino physics and Lake Baikal. The films are in Russian.}
-  groups:
   - id: films
+    kind: {ru: Кино, en: Films}
+    title: {ru: Фильмы, en: Films}
     items:
     - id: universe-neutrino-telescope
       title: {ru: Вселенная в нейтринном телескопе, en: The Universe in a Neutrino Telescope}
@@ -117,15 +102,71 @@ cinema:
       title: {ru: Нерпа и тайна Байкала, en: The Nerpa and the Mystery of Baikal}
       note: {ru: 'мультфильм · сценарий: Дмитрий Наумов', en: 'animated film · script by Dmitry Naumov'}
       links: [{kind: video, href: 'https://youtu.be/Qja-x8WjYiw'}]
-
-interviews:
-  title: {ru: Интервью и подкасты, en: Interviews and Podcasts}
-  lead: {ru: 'Интервью, статьи, радиоэфиры и подкасты о нейтринной физике, Байкальском телескопе и научной коммуникации. У каждого материала указано, где он вышел.',
-    en: 'Interviews, articles, radio programmes and podcasts on neutrino physics, the Baikal telescope and science communication. Each item says where it first appeared; the materials are in Russian.'}
-  # The entries come from the front matter of ru/interviews/*.qmd (title, title-en, group, kind, outlet, outlet-en, published).
-  pages: ru/interviews
-  groups:
-  - id: articles
+  - id: interviews
+    kind: {ru: Интервью, en: Interviews}
     title: {ru: Интервью и статьи, en: Interviews and articles}
+    from_pages: articles
   - id: podcasts
+    kind: {ru: Радио и подкасты, en: Radio and podcasts}
     title: {ru: Радио и подкасты, en: Radio and podcasts}
+    from_pages: podcasts
+
+# Lectures and talks (ru|en/talks.qmd): conference and seminar talks, lectures for students and schools.
+# Every entry has the same parts: title (opens the main material), note "year · kind" (and the event as a
+# link inside the note), formats Slides / Short version / PDF / Video. The anchors are the targets of the
+# "←" button of the slides (scripts/reveal_context_targets.json): keep them. The single lectures that
+# had course pages (oscillations-minicourse, qft-attraction-repulsion) redirect here.
+talks:
+  title: {ru: Лекции и доклады, en: Lectures and Talks}
+  aliases: [courses/oscillations-minicourse.html, courses/qft-attraction-repulsion.html]
+  lead: {ru: 'Доклады на конференциях и семинарах, лекции для студентов и школ. Название открывает слайды, рядом — другие версии и видео.',
+    en: 'Conference and seminar talks, lectures for students and schools. A title opens the slides; other versions and videos are next to it. Items not marked EN are in Russian.'}
+  groups:
+  - id: talks
+    kind: {ru: Конференции и семинары, en: Conferences and seminars}
+    title: {ru: Доклады, en: Talks}
+    layout: stacked
+    items:
+    - id: talk-neutrino-telescopes-2026
+      title: {ru: 'Neutrino Telescopes: Principles, Results, and Prospects', en: 'Neutrino Telescopes: Principles, Results, and Prospects'}
+      note: {ru: 2026 · пленарный доклад, en: 2026 · plenary talk}
+      lang: en
+      links: [{kind: slides, href: /talks/neutrino-telescopes-2026/lecture.html}, {kind: slides, label: {ru: Короткая версия, en: Short version}, href: /talks/neutrino-telescopes-2026/lecture-30min.html}]
+    - id: talk-protvino-2026
+      title: {ru: Статус и перспективы физики нейтрино, en: Status and prospects of neutrino physics}
+      note: {ru: '2026 · доклад: российские проекты в глобальном контексте', en: '2026 · talk: Russian projects in the global context'}
+      event: {label: {ru: 'конференция, Протвино, 2–5 июня', en: 'conference, Protvino, June 2–5'}, href: 'https://indico.ihep.su/e/PPIHE2026'}
+      links: [{kind: slides, href: /talks/protvino-2026/dnaumov.html}]
+    - id: talk-juno-10-years
+      title: {ru: 'Эксперимент JUNO: 10 лет спустя', en: 'The JUNO experiment: 10 years later'}
+      note: {ru: 2026 · семинар ЛЯП ОИЯИ, en: 2026 · DLNP JINR seminar}
+      links: [{kind: video, href: 'https://youtu.be/7F_FqhQW9Vw'}]
+  - id: lectures
+    kind: {ru: Для студентов и школ, en: For students and schools}
+    title: {ru: Лекции, en: Lectures}
+    layout: stacked
+    items:
+    - id: lecture-oscillations-zhuhai-2026
+      title: {ru: 'Осцилляции нейтрино: от вакуума до ядра Земли', en: 'Neutrino Oscillations: from Vacuum to the Earth’s Core'}
+      note: {ru: '2026 · лекция осенней школы по междисциплинарной нейтринной науке, Чжухай', en: '2026 · lecture at the Fall School on Interdisciplinary Neutrino Science, Zhuhai'}
+      lang: en
+      links: [{kind: slides, href: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html}]
+    - id: talk-georgia-2026
+      title: {ru: 'Neutrino Physics: Fundamentals, Frontiers, and Probes', en: 'Neutrino Physics: Fundamentals, Frontiers, and Probes'}
+      note: {ru: 2026 · обзорная лекция, en: 2026 · overview lecture}
+      lang: en
+      links: [{kind: slides, href: /talks/georgia-2026/dnaumov.html}, {kind: slides, label: {ru: Короткая версия, en: Short version}, href: /talks/georgia-2026/dnaumov-35min.html}]
+    - id: lecture-neutrino-telescopes-ru-2026
+      title: {ru: Как поймать нейтрино из далёкой галактики, en: How to catch a neutrino from a distant galaxy}
+      note: {ru: 2026 · лекция для студентов, en: 2026 · lecture for students}
+      links: [{kind: slides, href: /talks/neutrino-telescopes-ru-2026/lecture.html}]
+    - id: lecture-neutrino-telescopes-cn-2026
+      title: {ru: How to Catch a Neutrino from a Distant Galaxy, en: How to Catch a Neutrino from a Distant Galaxy}
+      note: {ru: 2026 · лекция для студентов из Китая, en: 2026 · lecture for students in China}
+      lang: en
+      links: [{kind: slides, href: /talks/neutrino-telescopes-cn-2026/lecture.html}]
+    - id: lecture-qft-attraction-repulsion
+      title: {ru: Притяжение и отталкивание в КТП, en: Attraction and Repulsion in Quantum Field Theory}
+      note: {ru: '2026 · лекция: scalar QED и волновые пакеты', en: '2026 · lecture: scalar QED and wave packets'}
+      lang: en
+      links: [{kind: slides, href: /qft-lectures/en/slides/ScalarQEDAttractionRepulsion.html}]

@@ -6,7 +6,7 @@ toc: false
 
 ```{=html}
 <article class="course-page" data-course="unruh">
-  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><span>Ускоренные системы отсчёта и эффект Унру</span></nav>
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Курсы лекций</a><span>›</span><span>Ускоренные системы отсчёта и эффект Унру</span></nav>
   <header class="course-page-head">
     <span class="course-tile-status is-ready">Мини-курс</span>
     <h1>Ускоренные системы отсчёта и эффект Унру</h1>
@@ -29,7 +29,6 @@ toc: false
     <div class="course-tile"><span class="course-tile-status is-ready">Видеокурс</span><a class="course-tile-title" href="quantum-field-theory.html">Квантовая теория поля</a><span class="course-tile-text">Введение в КТП и КЭД: от уравнения Дирака до S‑матрицы и теорем Вика.</span><span class="course-tile-meta">26 видео · 41 ч · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/quantum-field-theory-naumov-MKv0.pdf">конспект PDF</a></span></div>
     <div class="course-tile"><span class="course-tile-status is-ready">Видеокурс</span><a class="course-tile-title" href="standard-model.html">Стандартная модель</a><span class="course-tile-text">Рассеяние и распады в КЭД и электрослабой теории, механизм Хиггса.</span><span class="course-tile-meta">23 видео · 35 ч · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/introduction-to-the-standard-model-MKv0.pdf">конспект PDF</a></span></div>
     <div class="course-tile"><span class="course-tile-status is-ready">Видеокурс</span><a class="course-tile-title" href="qft-renormalization.html">Ренормировка в квантовой теории поля</a><span class="course-tile-text">Размерная регуляризация, поляризация вакуума, g−2, нейтральные каоны, аномалии.</span><span class="course-tile-meta">20 видео · 29 ч · <a class="course-tile-book" href="https://teach-in.ru/file/synopsis/pdf/renormalization-in-qft-M.pdf">конспект PDF</a></span></div>
-    <div class="course-tile"><span class="course-tile-status is-ready">Лекция · англ.</span><a class="course-tile-title" href="qft-attraction-repulsion.html">Притяжение и отталкивание в КТП</a><span class="course-tile-text">Scalar QED и волновые пакеты: как в КТП кодируются притяжение и отталкивание.</span><span class="course-tile-meta">1 лекция</span></div>
     <div class="course-tile"><span class="course-tile-status">Готовится</span><a class="course-tile-title" href="qft-vacuum.html">Вакуум квантового поля</a><span class="course-tile-text">Волновой функционал свободного поля, гауссов вакуум и белый шум.</span><span class="course-tile-meta">1 лекция</span></div>
   </nav>
   <p class="course-page-back"><a href="../education.html">← Все курсы</a></p>

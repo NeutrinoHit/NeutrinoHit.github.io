@@ -39,17 +39,17 @@ EXTRA = [
         "title": {"ru": "Как увидеть в КТП, что частицы притягиваются?",
                   "en": "How can one see in QFT that particles attract?"},
         "body": {"ru": "Этому посвящена отдельная лекция "
-                       "[«Притяжение и отталкивание в КТП»](courses/qft-attraction-repulsion.html) (на английском): "
+                       "[«Притяжение и отталкивание в КТП»](talks.html#lecture-qft-attraction-repulsion) (на английском): "
                        "скалярная КЭД и волновые пакеты.",
                  "en": "This is the subject of a separate lecture, "
-                       "[Attraction and Repulsion in QFT](courses/qft-attraction-repulsion.html): "
+                       "[Attraction and Repulsion in QFT](talks.html#lecture-qft-attraction-repulsion): "
                        "scalar QED and wave packets."},
     },
 ]
 
 T = {
     "ru": {
-        "lang": "ru-RU", "site": "NeutrinoHit", "education": "Образование",
+        "lang": "ru-RU", "site": "NeutrinoHit", "education": "Курсы лекций",
         "title": "Часто задаваемые вопросы по квантовой теории поля",
         "short": "ЧАВО по КТП",
         "kind": "ЧАВО по КТП",
@@ -69,7 +69,7 @@ T = {
                        "кипит ли вакуум, что такое виртуальная частица. Ответы Д. В. Наумова.",
     },
     "en": {
-        "lang": "en-US", "site": "NeutrinoHit", "education": "Education",
+        "lang": "en-US", "site": "NeutrinoHit", "education": "Lecture courses",
         "title": "Frequently asked questions on quantum field theory",
         "short": "QFT FAQ",
         "kind": "QFT FAQ",

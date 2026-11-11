@@ -63,19 +63,19 @@
       "description": "EN education: solar neutrino masterclass"
     },
     {
-      "url": "https://neutrinohit.github.io/ru/education.html#oscillations-minicourse",
+      "url": "https://neutrinohit.github.io/ru/talks.html#lecture-oscillations-zhuhai-2026",
       "type": "map-card",
-      "description": "RU education: neutrino oscillations mini-course"
+      "description": "RU lectures and talks: neutrino oscillations school lecture"
     },
     {
-      "url": "https://neutrinohit.github.io/en/education.html#oscillations-minicourse",
+      "url": "https://neutrinohit.github.io/en/talks.html#lecture-oscillations-zhuhai-2026",
       "type": "map-card",
-      "description": "EN education: neutrino oscillations mini-course"
+      "description": "EN lectures and talks: neutrino oscillations school lecture"
     },
     {
       "url": "https://neutrinohit.github.io/neutrinophysics/oscillations-minicourse/",
       "type": "course-home",
-      "description": "Neutrino oscillations mini-course home"
+      "description": "Neutrino oscillations school lecture home"
     },
     {
       "url": "https://neutrinohit.github.io/ru/education.html#particle-physics-mini-course",
@@ -139,8 +139,8 @@
       "description": "RU outreach: In a Nutshell"
     },
     {
-      "url": "https://neutrinohit.github.io/ru/outreach.html#neutrino-telescopes",
-      "description": "RU outreach: neutrino telescopes lecture"
+      "url": "https://neutrinohit.github.io/ru/talks.html#lecture-neutrino-telescopes-ru-2026",
+      "description": "RU lectures and talks: neutrino telescopes lecture for students"
     },
     {
       "url": "https://neutrinohit.github.io/ru/outreach.html#birth-life-universe",
@@ -167,8 +167,12 @@
       "description": "EN outreach: In a Nutshell"
     },
     {
-      "url": "https://neutrinohit.github.io/en/outreach.html#neutrino-telescopes",
-      "description": "EN outreach: neutrino telescopes lecture"
+      "url": "https://neutrinohit.github.io/en/talks.html#talk-neutrino-telescopes-2026",
+      "description": "EN lectures and talks: neutrino telescopes plenary talk"
+    },
+    {
+      "url": "https://neutrinohit.github.io/en/talks.html#lecture-neutrino-telescopes-cn-2026",
+      "description": "EN lectures and talks: neutrino telescopes lecture for students in China"
     },
     {
       "url": "https://neutrinohit.github.io/en/outreach.html#birth-life-universe",
@@ -191,20 +195,20 @@
       "description": "EN outreach: dark matter"
     },
     {
-      "url": "https://neutrinohit.github.io/ru/research.html#talk-georgia-2026",
-      "description": "RU research: Georgia 2026 talk"
+      "url": "https://neutrinohit.github.io/ru/talks.html#talk-georgia-2026",
+      "description": "RU lectures and talks: Georgia 2026 lecture"
     },
     {
-      "url": "https://neutrinohit.github.io/en/research.html#talk-georgia-2026",
-      "description": "EN research: Georgia 2026 talk"
+      "url": "https://neutrinohit.github.io/en/talks.html#talk-georgia-2026",
+      "description": "EN lectures and talks: Georgia 2026 lecture"
     },
     {
-      "url": "https://neutrinohit.github.io/ru/research.html#talk-protvino-2026",
-      "description": "RU research: Protvino 2026 talk"
+      "url": "https://neutrinohit.github.io/ru/talks.html#talk-protvino-2026",
+      "description": "RU lectures and talks: Protvino 2026 talk"
     },
     {
-      "url": "https://neutrinohit.github.io/en/research.html#talk-protvino-2026",
-      "description": "EN research: Protvino 2026 talk"
+      "url": "https://neutrinohit.github.io/en/talks.html#talk-protvino-2026",
+      "description": "EN lectures and talks: Protvino 2026 talk"
     },
     {
       "url": "https://neutrinohit.github.io/statistical-analysis-course/",
@@ -222,19 +226,14 @@
       "description": "EN course page: numerical-methods"
     },
     {
-      "url": "https://neutrinohit.github.io/en/courses/oscillations-minicourse.html",
-      "type": "course-page",
-      "description": "EN course page: oscillations-minicourse"
-    },
-    {
       "url": "https://neutrinohit.github.io/en/courses/particle-physics-baikal.html",
       "type": "course-page",
       "description": "EN course page: particle-physics-baikal"
     },
     {
-      "url": "https://neutrinohit.github.io/en/courses/qft-attraction-repulsion.html",
-      "type": "course-page",
-      "description": "EN course page: qft-attraction-repulsion"
+      "url": "https://neutrinohit.github.io/en/talks.html#lecture-qft-attraction-repulsion",
+      "type": "map-card",
+      "description": "EN lectures and talks: attraction and repulsion in QFT"
     },
     {
       "url": "https://neutrinohit.github.io/en/courses/solar-neutrino-masterclass.html",

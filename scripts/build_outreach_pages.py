@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Write the list pages of the site from their catalogs: outreach, films and interviews
-(outreach.catalog.yml), research (research.catalog.yml) and modeling (modeling.catalog.yml).
+"""Write the list pages of the site from their catalogs: outreach with its films and interviews,
+lectures and talks (outreach.catalog.yml), research (research.catalog.yml).
 
 Each page is a list of groups; a group is one lecture (its title opens the main
 material, the formats follow it) or a series whose entries are listed under the
@@ -9,12 +9,15 @@ previews and no second copy of the material below a list of tiles, so every
 material is one click away from the page. Each group keeps the anchor the old
 page had (in-a-nutshell, neutrino-telescopes, ...), so links and the
 "← Course" button of the slides still land on it.
-The interviews list is read from the front matter of ru/interviews/*.qmd (one
-page per interview, article or programme: title, title-en, group, kind, outlet,
-outlet-en, published), so a new interview is one new page there.
+The interview groups of the outreach page ("from_pages: <group>") are read from the
+front matter of ru/interviews/*.qmd (one page per interview, article or programme:
+title, title-en, group, kind, outlet, outlet-en, published), so a new interview is
+one new page there.
 
 A group with "layout: stacked" puts the note of an entry under its title
-(long titles: talks, theses). A group may also hold tiles (experiments, gallery topics: a tile with
+(long titles: talks, theses). An entry may name its event ("event": label and href): the event
+is a link inside the note, not a format button. A group with "metrics: inspire" shows the
+publication counts of the home page (assets/inspire-stats.js). A group may also hold tiles (experiments, gallery topics: a tile with
 "gallery: <section id>" takes its title, counts and picture from
 animations.catalog.json) and an install command (a package on PyPI).
 
@@ -38,9 +41,8 @@ ROOT = Path(__file__).resolve().parents[1]
 LANGS = ("ru", "en")
 # catalog file -> {catalog key: page}
 PAGES = {
-    "outreach.catalog.yml": {"outreach": "outreach.qmd", "cinema": "cinema.qmd", "interviews": "interviews.qmd"},
+    "outreach.catalog.yml": {"outreach": "outreach.qmd", "talks": "talks.qmd"},
     "research.catalog.yml": {"research": "research.qmd"},
-    "modeling.catalog.yml": {"modeling": "modeling.qmd"},
     "school.catalog.yml": {"school": "school.qmd"},
     "photos.catalog.yml": {"photos": "photos.qmd"},
     "interactives.catalog.yml": {"interactives": "interactives.qmd"},
@@ -62,6 +64,7 @@ T = {
         "interactives": lambda n: plural_ru(n, "интерактив", "интерактива", "интерактивов"),
         "all": "Все",
         "filter": "Показать",
+        "metrics": ("публикаций", "цитирований", "h-index"),
     },
     "en": {
         "kinds": {"slides": "Slides", "pdf": "PDF", "video": "Video", "applet": "Applet",
@@ -75,6 +78,7 @@ T = {
         "interactives": lambda n: f"{n} interactives",
         "all": "All",
         "filter": "Show",
+        "metrics": ("publications", "citations", "h-index"),
     },
 }
 
@@ -136,8 +140,12 @@ def entries_of(group: dict, lang: str) -> list[dict]:
 
 def entry_line(entry: dict, lang: str) -> str:
     title = title_link(entry, lang, "outreach-entry-title")
-    note = tr(entry.get("note"), lang)
-    meta = lang_mark(entry, lang) + (f'<span class="outreach-entry-note">{e(note)}</span>' if note else "")
+    note = e(tr(entry.get("note"), lang))
+    if entry.get("event"):                       # the event: a link inside the note, not a format
+        url = href(entry["event"], lang)
+        event = f'<a href="{e(url)}"{external(url)}>{e(tr(entry["event"]["label"], lang))}</a>'
+        note = f"{note} · {event}" if note else event
+    meta = lang_mark(entry, lang) + (f'<span class="outreach-entry-note">{note}</span>' if note else "")
     if entry.get("install"):                     # a package: its install command under the note
         meta += f'<code class="outreach-entry-install">{e(entry["install"])}</code>'
     anchor = f' id="{e(entry["id"])}"' if entry.get("id") else ""
@@ -275,6 +283,16 @@ def install_block(group: dict, lang: str) -> list[str]:
             "      </div>"]
 
 
+def inspire_metrics(lang: str) -> str:
+    """The publication counts of the home page; assets/inspire-stats.js replaces the fallback numbers."""
+    papers, citations, h_index = T[lang]["metrics"]
+    fallback = {"ru": ("~200", "&gt;15 000", "51"), "en": ("~200", "&gt;15,000", "51")}[lang]
+    return (f'<p class="profile-metrics outreach-metrics" data-inspire-stats>'
+            f'<span><strong data-inspire-papers>{fallback[0]}</strong> {papers}</span>'
+            f'<span><strong data-inspire-citations>{fallback[1]}</strong> {citations}</span>'
+            f'<span>{h_index} <strong data-inspire-h-index>{fallback[2]}</strong></span></p>')
+
+
 def group_block(group: dict, lang: str) -> list[str]:
     anchor = f' id="{e(group["id"])}"' if group.get("id") and group.get("title") else ""
     out = [f'    <div class="outreach-group"{anchor}>']
@@ -291,6 +309,8 @@ def group_block(group: dict, lang: str) -> list[str]:
             out.append(f'        <p class="outreach-group-text">{e(tr(group["summary"], lang))}</p>')
         if group.get("links"):
             out.append("        " + formats(group["links"], lang, T[lang]["formats"]))
+        if group.get("metrics") == "inspire":
+            out.append("        " + inspire_metrics(lang))
         out.append("      </div>")
     if group.get("install"):
         out += install_block(group, lang)
@@ -336,7 +356,10 @@ def page(section: dict, lang: str, variant: str = "") -> str:
         more = section["more"]
         out.append(f'  <p class="outreach-more">{e(tr(more["text"], lang))} '
                    f'<a href="{e(href(more, lang))}">{e(tr(more["label"], lang))}</a>.</p>')
-    out += ["</div>", "```", ""]
+    out.append("</div>")
+    if any(group.get("metrics") == "inspire" for group in section["groups"]):
+        out.append('<script src="../assets/inspire-stats.js"></script>')
+    out += ["```", ""]
     return "\n".join(out)
 
 
@@ -345,7 +368,7 @@ def front_matter(path: Path) -> dict:
 
 
 def pages_as_entries(section: dict) -> dict:
-    """Fill the groups of a section from the front matter of its pages (one page per interview)."""
+    """Fill the groups marked "from_pages" from the front matter of the section's pages (one page per interview)."""
     pages = []
     for path in sorted((ROOT / section["pages"]).glob("*.qmd")):
         fm = front_matter(path)
@@ -356,7 +379,8 @@ def pages_as_entries(section: dict) -> dict:
             "group": fm["group"], "published": str(fm.get("published", "")),
         })
     pages.sort(key=lambda p: p["published"], reverse=True)
-    groups = [dict(group, items=[p for p in pages if p["group"] == group["id"]]) for group in section["groups"]]
+    groups = [dict(group, items=[p for p in pages if p["group"] == group["from_pages"]]) if group.get("from_pages")
+              else group for group in section["groups"]]
     return dict(section, groups=groups)
 
 
@@ -364,8 +388,9 @@ def outputs(langs=LANGS) -> dict[Path, str]:
     pages = {}
     for file, names in PAGES.items():
         catalog = yaml.safe_load((ROOT / file).read_text(encoding="utf-8"))
-        if catalog.get("interviews", {}).get("pages"):
-            catalog["interviews"] = pages_as_entries(catalog["interviews"])
+        for key, section in catalog.items():
+            if isinstance(section, dict) and section.get("pages"):
+                catalog[key] = pages_as_entries(section)
         pages.update({ROOT / lang / name: page(catalog[key], lang)
                       for lang in langs for key, name in names.items() if catalog.get(key, {}).get("groups")})
     return pages

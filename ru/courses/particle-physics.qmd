@@ -6,7 +6,7 @@ toc: false
 
 ```{=html}
 <article class="course-page" data-course="particle-physics">
-  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><span>Физика элементарных частиц: большой курс</span></nav>
+  <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Курсы лекций</a><span>›</span><span>Физика элементарных частиц: большой курс</span></nav>
   <header class="course-page-head">
     <span class="course-tile-status">Курс готовится</span>
     <h1>Физика элементарных частиц: большой курс</h1>

@@ -10,7 +10,7 @@ published: 2021-03-16
 image: media/baikal-telescope.jpg
 toc: false
 ---
-[← Интервью и подкасты](../interviews.html){.interview-back}
+[← Интервью и подкасты](../outreach.html#interviews){.interview-back}
 
 ::: {.interview-source}
 [«Научная Россия»](https://scientificrussia.ru/articles/dmitrij-naumov-bajkalskij-teleskop-unikalnyj-instrument-nejtrinnoj-astronomii), 16 марта 2021 года. Материал Минобрнауки России
@@ -48,4 +48,4 @@ toc: false
 
 *С 2014 года на Байкале ведётся строительство нейтринного телескопа кубокилометрового объема. В апреле 2015 года был введен в эксплуатацию первый кластер нового телескопа “Дубна”. В 2020 году байкальский телескоп насчитывал уже семь кластеров, в каждом из которых было по 288 оптических модулей. В апреле 2021 года будет введен в строй восьмой кластер, что позволит байкальскому нейтринному телескопу догнать самый крупный на сегодняшний день нейтринный телескоп IceCube.*
 
-[← Интервью и подкасты](../interviews.html){.interview-back}
+[← Интервью и подкасты](../outreach.html#interviews){.interview-back}
