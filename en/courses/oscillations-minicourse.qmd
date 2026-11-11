@@ -8,18 +8,16 @@ toc: false
 <article class="course-page" data-course="oscillations-minicourse">
   <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Education</a><span>›</span><span>Neutrino Oscillations from Vacuum to the Earth’s Core</span></nav>
   <header class="course-page-head">
-    <span class="course-tile-status is-ready">Mini-course</span>
+    <span class="course-tile-status is-ready">School lecture</span>
     <h1>Neutrino Oscillations from Vacuum to the Earth’s Core</h1>
-    <p class="course-page-summary">Three English lectures for students of particle physics and geophysics: vacuum oscillations, matter and the Sun, and neutrino probes of the Earth&#x27;s interior, with applets and animations.</p>
-    <p class="course-toc-meta">3 lectures</p>
+    <p class="course-page-summary">An English lecture (45 minutes) for students of particle physics and the Earth sciences, 2026 Fall School on Interdisciplinary Neutrino Science, Zhuhai: oscillations in vacuum, the vacuum and matter as birefringent crystals, solar neutrinos, the mixing matrix from data; applets at every step.</p>
+    <p class="course-toc-meta">1 lecture</p>
   </header>
   <h2 class="course-page-section">Contents</h2>
   <table class="course-toc course-toc-full">
     <thead><tr><th class="course-toc-num">No.</th><th>Topic</th><th class="course-toc-col">Slides</th></tr></thead>
     <tbody>
-      <tr id="lecture-I"><td class="course-toc-num">I</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html">Vacuum</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html">slides</a></td></tr>
-      <tr id="lecture-II"><td class="course-toc-num">II</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html">Matter and the Sun</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html">slides</a></td></tr>
-      <tr id="lecture-III"><td class="course-toc-num">III</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/03_earth.html">The Earth</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/03_earth.html">slides</a></td></tr>
+      <tr id="lecture-1"><td class="course-toc-num">1</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html">Neutrino Oscillations in Vacuum and Matter</a></td><td class="course-toc-col" data-label="Slides"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html">slides</a></td></tr>
     </tbody>
   </table>
   <h2 class="course-page-section">More in this section</h2>

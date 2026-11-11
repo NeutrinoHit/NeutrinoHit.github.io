@@ -641,16 +641,14 @@ courses:
 - slug: oscillations-minicourse
   anchor: oscillations-minicourse
   section: neutrino
-  kind: {ru: Мини-курс · англ., en: Mini-course}
+  kind: {ru: Лекция школы · англ., en: School lecture}
   materials_lang: en
   title: {ru: 'Осцилляции нейтрино: от вакуума до ядра Земли', en: Neutrino Oscillations from Vacuum to the Earth’s Core}
-  summary: {ru: 'Три лекции на английском для студентов физики частиц и геофизиков: осцилляции в вакууме, вещество и Солнце, нейтринные зонды недр Земли; апплеты и анимации.', en: 'Three English lectures for students of particle physics and geophysics:
-      vacuum oscillations, matter and the Sun, and neutrino probes of the Earth''s interior, with applets and animations.'}
-  tile: {ru: 'Вакуум, вещество и Солнце, нейтринные зонды недр Земли.', en: 'Vacuum, matter and the Sun, neutrino probes of the Earth’s interior.'}
+  summary: {ru: 'Лекция на английском (45 минут) для студентов физики частиц и наук о Земле, осенняя школа по междисциплинарной нейтринной науке, Чжухай, 2026: осцилляции в вакууме, вакуум и вещество как двулучепреломляющие кристаллы, солнечные нейтрино, матрица смешивания по данным; апплеты в каждом шаге.', en: 'An English lecture (45 minutes) for students of particle physics and the Earth sciences, 2026 Fall School on Interdisciplinary
+      Neutrino Science, Zhuhai: oscillations in vacuum, the vacuum and matter as birefringent crystals, solar neutrinos, the mixing matrix from data; applets at every step.'}
+  tile: {ru: 'Вакуум и вещество как кристаллы, Солнце, матрица смешивания.', en: 'Vacuum and matter as crystals, the Sun, the mixing matrix.'}
   lectures:
-  - {n: I, title: Vacuum, slides: /neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html}
-  - {n: II, title: Matter and the Sun, slides: /neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html}
-  - {n: III, title: The Earth, slides: /neutrinophysics/oscillations-minicourse/en/slides/03_earth.html}
+  - {n: '1', title: Neutrino Oscillations in Vacuum and Matter, slides: /neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html}
   related: [neutrino-introduction, solar-neutrino-masterclass, neutrino-oscillation-theory]
 - slug: solar-neutrino-masterclass
   anchor: solar-neutrino-masterclass

@@ -8,18 +8,16 @@ toc: false
 <article class="course-page" data-course="oscillations-minicourse">
   <nav class="course-crumbs" aria-label="breadcrumbs"><a href="../index.html">NeutrinoHit</a><span>›</span><a href="../education.html">Образование</a><span>›</span><span>Осцилляции нейтрино: от вакуума до ядра Земли</span></nav>
   <header class="course-page-head">
-    <span class="course-tile-status is-ready">Мини-курс · англ.</span>
+    <span class="course-tile-status is-ready">Лекция школы · англ.</span>
     <h1>Осцилляции нейтрино: от вакуума до ядра Земли</h1>
-    <p class="course-page-summary">Три лекции на английском для студентов физики частиц и геофизиков: осцилляции в вакууме, вещество и Солнце, нейтринные зонды недр Земли; апплеты и анимации.</p>
-    <p class="course-toc-meta">3 лекции · лекции на английском</p>
+    <p class="course-page-summary">Лекция на английском (45 минут) для студентов физики частиц и наук о Земле, осенняя школа по междисциплинарной нейтринной науке, Чжухай, 2026: осцилляции в вакууме, вакуум и вещество как двулучепреломляющие кристаллы, солнечные нейтрино, матрица смешивания по данным; апплеты в каждом шаге.</p>
+    <p class="course-toc-meta">1 лекция · лекции на английском</p>
   </header>
   <h2 class="course-page-section">Оглавление</h2>
   <table class="course-toc course-toc-full">
     <thead><tr><th class="course-toc-num">№</th><th>Тема</th><th class="course-toc-col">Слайды</th></tr></thead>
     <tbody>
-      <tr id="lecture-I"><td class="course-toc-num">I</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html">Vacuum</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/01_vacuum.html">слайды</a></td></tr>
-      <tr id="lecture-II"><td class="course-toc-num">II</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html">Matter and the Sun</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/02_matter_sun.html">слайды</a></td></tr>
-      <tr id="lecture-III"><td class="course-toc-num">III</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/03_earth.html">The Earth</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/03_earth.html">слайды</a></td></tr>
+      <tr id="lecture-1"><td class="course-toc-num">1</td><td class="course-toc-topic"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html">Neutrino Oscillations in Vacuum and Matter</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../neutrinophysics/oscillations-minicourse/en/slides/neutrino_oscillations.html">слайды</a></td></tr>
     </tbody>
   </table>
   <h2 class="course-page-section">Ещё в этом разделе</h2>
