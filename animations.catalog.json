@@ -644,6 +644,24 @@
           ]
         },
         {
+          "id": "amanda-bubbles",
+          "title": "Свет во льду: AMANDA, 1993",
+          "title_en": "Light in the ice: AMANDA, 1993",
+          "source_dir": "amanda_bubbles",
+          "description": "Лазерная вспышка между двумя гирляндами AMANDA в 20 м друг от друга. В чистом глубоком льду первый свет доходит до соседней гирлянды через 88 нс. На глубине 830–970 м воздушные пузырьки дают эффективную длину рассеяния всего 40–80 см, и свет просачивается к соседям за микросекунды. Расчёт: Монте-Карло фотонов; гистограмма — времена прихода на вторую гирлянду. Пузырьки и размеры модулей на картинке условны.",
+          "description_en": "A laser flash between two AMANDA strings 20 m apart. In clear deep ice the first light reaches the neighbouring string after 88 ns. At 830–970 m air bubbles give an effective scattering length of only 40–80 cm, and the light trickles to the neighbours over microseconds. Photon Monte Carlo; the histogram shows the arrival times on the second string. Bubbles and module sizes are drawn for illustration.",
+          "videos": [
+            {
+              "id": "short-en",
+              "label": "Light in the ice — English version",
+              "label_en": "Light in the ice",
+              "path": "amanda_bubbles/media/amanda_bubbles_short.mp4",
+              "poster_time": 28.0,
+              "copy_only": true
+            }
+          ]
+        },
+        {
           "id": "icecube-first-pev",
           "title": "IceCube: первые нейтрино с энергией ПэВ",
           "title_en": "IceCube: the first PeV neutrinos",

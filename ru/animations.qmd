@@ -10,17 +10,17 @@ toc: false
 <div class="lecture-catalog animation-catalog">
   <p class="lecture-catalog-lead">Научные анимации NeutrinoHit по темам. Кадр запускает ролик прямо на странице; кнопки под описанием — другие ролики сюжета и версии на другом языке.</p>
   <nav class="anim-topics" aria-label="Темы галереи">
-    <a href="#neutrino-particles">Нейтрино и частицы<span>35</span></a>
+    <a href="#neutrino-particles">Нейтрино и частицы<span>36</span></a>
     <a href="#fields-waves">Поля, волны и осцилляторы<span>28</span></a>
     <a href="#relativity-atom-spin">Относительность, атом и спин<span>9</span></a>
     <a href="#math-dynamical-systems">Математика и динамические системы<span>6</span></a>
     <a href="#accelerator-optics">Ускорители и магнитная оптика<span>4</span></a>
     <a href="#visual-stories">Визуальные сюжеты<span>3</span></a>
   </nav>
-  <p class="anim-total">85 сюжетов · 171 ролик</p>
+  <p class="anim-total">86 сюжетов · 172 ролика</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">35 сюжетов · 68 роликов</span>
+      <span class="course-tile-status is-ready">36 сюжетов · 69 роликов</span>
       <h2>Нейтрино и частицы</h2>
       <p>Осцилляции нейтрино, каскады, ядерные процессы и диаграммы взаимодействий.</p>
     </div>
@@ -190,6 +190,11 @@ toc: false
         <h3 class="anim-title">Внутренняя жизнь протона</h3>
         <p class="anim-text">Из чего сделан протон? Из трёх кварков? Даже при самом грубом взгляде (Q = 1,65 ГэВ, разрешение 0,12 фм) три валентных кварка несут лишь 42 % его импульса: измеренные распределения партонов (NNPDF3.1 NNLO) отдают 40 % глюонам и 18 % морю. Шар протона — один протон, разыгранный по этим распределениям; с ростом переданного импульса Q его партоны делятся по уравнениям DGLAP: кварк излучает глюон, глюон делится надвое или рождает пару кварк–антикварк, партонов всё больше, доля импульса каждого всё меньше. Внизу — измеренные распределения x f(x) валентных кварков, моря и глюонов и их доли импульса при текущем Q: с 60 ГэВ море несёт больше, чем валентные кварки; при 10⁵ ГэВ валентным остаётся 18 %, морю 33 %, глюонам 49 %. Том 2, глава 31.</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="/media-neutrino/parton-cascade/web-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-parton-cascade-ru.jpg" title="MP4, 51.9 MB">RU</a><a class="anim-chip" href="/media-neutrino/parton-cascade/web-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-parton-cascade-en.jpg" title="MP4, 51.9 MB">EN</a></div>
+      </article>
+      <article class="anim-card" id="animation-neutrino-particles-amanda-bubbles">
+        <div class="anim-media"><a class="anim-poster" href="/media-neutrino-2/amanda-bubbles/short-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-amanda-bubbles-short-en.jpg" aria-label="Смотреть: Свет во льду: AMANDA, 1993"><img src="../assets/animations/dvnanima/neutrino-particles-amanda-bubbles-short-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Свет во льду: AMANDA, 1993</h3>
+        <p class="anim-text">Лазерная вспышка между двумя гирляндами AMANDA в 20 м друг от друга. В чистом глубоком льду первый свет доходит до соседней гирлянды через 88 нс. На глубине 830–970 м воздушные пузырьки дают эффективную длину рассеяния всего 40–80 см, и свет просачивается к соседям за микросекунды. Расчёт: Монте-Карло фотонов; гистограмма — времена прихода на вторую гирлянду. Пузырьки и размеры модулей на картинке условны.</p>
       </article>
       <article class="anim-card" id="animation-neutrino-particles-icecube-first-pev">
         <div class="anim-media"><a class="anim-poster" href="/media-neutrino-2/icecube-first-pev/web-ru-v3.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-icecube-first-pev-ru.jpg" aria-label="Смотреть: IceCube: первые нейтрино с энергией ПэВ"><img src="../assets/animations/dvnanima/neutrino-particles-icecube-first-pev-ru.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>

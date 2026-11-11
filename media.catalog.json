@@ -3674,6 +3674,29 @@
    }
   },
   {
+   "id": "amanda-bubbles",
+   "variant": "short-en",
+   "version": 1,
+   "home": "media-neutrino-2",
+   "status": "published",
+   "sha256": "ef7ce446fe3ecc4c1c2c7995b8e016119c5068a5e73a1639e644f05455615221",
+   "bytes": 64215743,
+   "duration_s": 40.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-amanda-bubbles-short-en.mp4"
+   ],
+   "title": {
+    "ru": "Свет во льду: AMANDA, 1993",
+    "en": "Light in the ice: AMANDA, 1993"
+   }
+  },
+  {
    "id": "cherenkov-radiation",
    "variant": "film-dipoles-en",
    "version": 1,
