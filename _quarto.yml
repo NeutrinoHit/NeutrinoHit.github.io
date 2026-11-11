@@ -10,6 +10,7 @@ project:
     - "/en/cv.pdf"
     - "/ru/cv.pdf"
     - "/yandex_96aa8df15be495cc.html"
+    - "/robots.txt"
   render:
     - "index.qmd"
     - "ru/*.qmd"

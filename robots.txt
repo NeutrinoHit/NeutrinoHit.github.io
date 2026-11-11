@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://neutrinohit.github.io/sitemap.xml
+Sitemap: https://neutrinohit.github.io/neutrinophysics/sitemap.xml
+Sitemap: https://neutrinohit.github.io/qft-lectures/sitemap.xml
+Sitemap: https://neutrinohit.github.io/particlephysics/sitemap.xml
+Sitemap: https://neutrinohit.github.io/gravity/sitemap.xml
+Sitemap: https://neutrinohit.github.io/rte_lectures/sitemap.xml
+Sitemap: https://neutrinohit.github.io/numerical_methods/sitemap.xml
+Sitemap: https://neutrinohit.github.io/global-analysis-course/sitemap.xml
