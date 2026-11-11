@@ -9,6 +9,7 @@ project:
     - "/qr/**"
     - "/en/cv.pdf"
     - "/ru/cv.pdf"
+    - "/yandex_96aa8df15be495cc.html"
   render:
     - "index.qmd"
     - "ru/*.qmd"
