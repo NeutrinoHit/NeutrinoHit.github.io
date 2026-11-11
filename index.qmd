@@ -1,6 +1,8 @@
 ---
 title: "NeutrinoHit"
 toc: false
+include-in-header:
+  text: <meta name="google-site-verification" content="KzglU8aNJ7yQMf5Jsowx2BwWLymuOvSb_pP5FI9PeGU">
 ---
 
 ```{=html}
