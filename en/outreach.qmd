@@ -65,6 +65,14 @@ toc: false
         <span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html">Slides</a></span>
       </div>
     </div>
+    <div class="outreach-group" id="gravitational-waves">
+      <div class="outreach-group-head">
+        <span class="course-tile-status is-ready">Mini-course</span>
+        <h2 class="outreach-group-name"><a class="outreach-group-title" href="../sciencepop/GravitationalWaves/index.html">Gravitational Waves: An Echo of the Universe</a></h2>
+        <p class="outreach-group-text">Three 45-minute lectures: the trembling of spacetime, an almost impossible measurement and a Universe we have learned to hear. Stories, animations and recent discoveries.</p>
+        <span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-slides" href="../sciencepop/GravitationalWaves/index.html">Three lectures</a></span>
+      </div>
+    </div>
     <div class="outreach-group" id="black-holes">
       <div class="outreach-group-head">
         <span class="course-tile-status is-ready">Lecture</span>

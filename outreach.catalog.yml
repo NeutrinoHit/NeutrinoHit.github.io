@@ -76,6 +76,11 @@ outreach:
     title: {ru: 'Что такое частица в квантовой теории поля?', en: 'What is a particle in quantum field theory?'}
     summary: {ru: 'Волна или точка: рассеяние квантовой волны на двух мишенях; апплет внутри слайдов.', en: 'Wave or point: scattering of a quantum wave on two targets; the applet is inside the slides.'}
     links: [{kind: slides, href: /sciencepop/WaveOrParticle/two_targets_qft_particle_wave_with_applet.html}]
+  - id: gravitational-waves
+    kind: {ru: Мини-курс, en: Mini-course}
+    title: {ru: Гравитационные волны. Эхо Вселенной, en: 'Gravitational Waves: An Echo of the Universe'}
+    summary: {ru: 'Три лекции по 45 минут: дрожь пространства-времени, почти невозможное измерение и Вселенная, которую мы научились слышать. Истории, анимации и современные открытия.', en: 'Three 45-minute lectures: the trembling of spacetime, an almost impossible measurement and a Universe we have learned to hear. Stories, animations and recent discoveries.'}
+    links: [{kind: slides, label: {ru: Три лекции, en: Three lectures}, href: /sciencepop/GravitationalWaves/index.html}]
   - id: black-holes
     kind: {ru: Лекция, en: Lecture}
     title: {ru: 'Чёрные дыры: удивительные объекты во Вселенной', en: 'Black holes: remarkable objects in the Universe'}
