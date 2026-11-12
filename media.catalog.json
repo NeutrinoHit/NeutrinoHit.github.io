@@ -3711,7 +3711,9 @@
    "audio": false,
    "footer": true,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-cherenkov-dipoles-film-en.mp4"
+   ],
    "title": {
     "ru": "Свет Вавилова — Черенкова: диполи среды",
     "en": "Cherenkov light: dipoles of the medium"
@@ -3732,7 +3734,9 @@
    "audio": false,
    "footer": true,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-cherenkov-dipoles-film.mp4"
+   ],
    "title": {
     "ru": "Свет Вавилова — Черенкова: диполи среды",
     "en": "Cherenkov light: dipoles of the medium"

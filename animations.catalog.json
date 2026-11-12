@@ -508,6 +508,28 @@
           ]
         },
         {
+          "id": "cherenkov-dipoles",
+          "title": "Свет Вавилова — Черенкова: диполи среды",
+          "title_en": "Cherenkov light: dipoles of the medium",
+          "source_dir": "cherenkov_radiation",
+          "description": "Откуда берутся волны Гюйгенса. Электрон поляризует молекулы среды, и они на мгновение становятся диполями. У медленного электрона диполи впереди и позади симметричны, их поля гасят друг друга, света нет. Быстрый электрон обгоняет свои волны: среда впереди не поляризована, общий фронт касается всех волн, свет идёт поперёк фронта. Из прямоугольного треугольника cos θ = 1/(nβ), около 41° в воде. Схема по J. V. Jelley (1958), без амплитуд и спектров.",
+          "description_en": "Where the Huygens wavelets come from. The electron polarises the molecules of the medium, and each briefly becomes a dipole. For a slow electron the dipoles ahead and behind are symmetric, their fields cancel and there is no light. A fast electron overtakes its wavelets: the medium ahead is not polarised, the common front touches every wavelet and the light goes across the front. The right triangle gives cos θ = 1/(nβ), about 41° in water. Schematic after J. V. Jelley (1958), with no amplitudes or spectra.",
+          "videos": [
+            {
+              "id": "film",
+              "label": "Диполи среды (русская версия)",
+              "path": "cherenkov_radiation/media/cherenkov_radiation_dipoles_ru.mp4",
+              "poster_time": 45
+            },
+            {
+              "id": "film-en",
+              "label": "Dipoles of the medium (English version)",
+              "path": "cherenkov_radiation/media/cherenkov_radiation_dipoles_en.mp4",
+              "poster_time": 45
+            }
+          ]
+        },
+        {
           "id": "scattering-experiment",
           "title": "Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻",
           "title_en": "A scattering experiment: e⁺e⁻ → μ⁺μ⁻",

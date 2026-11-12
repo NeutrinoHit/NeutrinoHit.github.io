@@ -10,17 +10,17 @@ toc: false
 <div class="lecture-catalog animation-catalog">
   <p class="lecture-catalog-lead">Scientific animations of NeutrinoHit by topic. A frame plays its video right on the page; the buttons below the description open the other videos of the story and the versions in the other language.</p>
   <nav class="anim-topics" aria-label="Gallery topics">
-    <a href="#neutrino-particles">Neutrinos and particles<span>36</span></a>
+    <a href="#neutrino-particles">Neutrinos and particles<span>37</span></a>
     <a href="#fields-waves">Fields, waves and oscillators<span>28</span></a>
     <a href="#relativity-atom-spin">Relativity, the atom and spin<span>9</span></a>
     <a href="#math-dynamical-systems">Mathematics and dynamical systems<span>6</span></a>
     <a href="#accelerator-optics">Accelerators and magnetic optics<span>4</span></a>
     <a href="#visual-stories">Visual stories<span>3</span></a>
   </nav>
-  <p class="anim-total">86 stories · 172 videos</p>
+  <p class="anim-total">87 stories · 174 videos</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">36 stories · 69 videos</span>
+      <span class="course-tile-status is-ready">37 stories · 71 videos</span>
       <h2>Neutrinos and particles</h2>
       <p>Neutrino oscillations, showers, nuclear processes and interaction diagrams.</p>
     </div>
@@ -154,6 +154,12 @@ toc: false
         <h3 class="anim-title">Vavilov–Cherenkov radiation</h3>
         <p class="anim-text">Four wavefronts, two separate runs at constant speed and pauses for explanation. A slow particle stays inside the fronts; a fast one overtakes them. The common tangent forms the surface of a cone, and the light goes across it. No plot and no ring on a detector.</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="/media-neutrino/cherenkov-radiation/web-huygens-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens-en.jpg" title="MP4, 1.3 MB">EN</a><a class="anim-chip" href="/media-neutrino/cherenkov-radiation/web-huygens-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.jpg" title="MP4, 1.4 MB">RU</a></div>
+      </article>
+      <article class="anim-card" id="animation-neutrino-particles-cherenkov-dipoles">
+        <div class="anim-media"><a class="anim-poster" href="/media-neutrino-2/cherenkov-radiation/film-dipoles-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-dipoles-film-en.jpg" aria-label="Play: Cherenkov light: dipoles of the medium"><img src="../assets/animations/dvnanima/neutrino-particles-cherenkov-dipoles-film-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Cherenkov light: dipoles of the medium</h3>
+        <p class="anim-text">Where the Huygens wavelets come from. The electron polarises the molecules of the medium, and each briefly becomes a dipole. For a slow electron the dipoles ahead and behind are symmetric, their fields cancel and there is no light. A fast electron overtakes its wavelets: the medium ahead is not polarised, the common front touches every wavelet and the light goes across the front. The right triangle gives cos θ = 1/(nβ), about 41° in water. Schematic after J. V. Jelley (1958), with no amplitudes or spectra.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="/media-neutrino-2/cherenkov-radiation/film-dipoles-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-dipoles-film-en.jpg" title="MP4, 4.3 MB">EN</a><a class="anim-chip" href="/media-neutrino-2/cherenkov-radiation/film-dipoles-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-dipoles-film.jpg" title="MP4, 4.2 MB">RU</a></div>
       </article>
       <article class="anim-card" id="animation-neutrino-particles-scattering-experiment">
         <div class="anim-media"><a class="anim-poster" href="/media-neutrino/scattering-experiment/web-collider-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider-en.jpg" aria-label="Play: A scattering experiment: e⁺e⁻ → μ⁺μ⁻"><img src="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>

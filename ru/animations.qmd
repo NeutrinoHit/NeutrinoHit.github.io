@@ -10,17 +10,17 @@ toc: false
 <div class="lecture-catalog animation-catalog">
   <p class="lecture-catalog-lead">Научные анимации NeutrinoHit по темам. Кадр запускает ролик прямо на странице; кнопки под описанием — другие ролики сюжета и версии на другом языке.</p>
   <nav class="anim-topics" aria-label="Темы галереи">
-    <a href="#neutrino-particles">Нейтрино и частицы<span>36</span></a>
+    <a href="#neutrino-particles">Нейтрино и частицы<span>37</span></a>
     <a href="#fields-waves">Поля, волны и осцилляторы<span>28</span></a>
     <a href="#relativity-atom-spin">Относительность, атом и спин<span>9</span></a>
     <a href="#math-dynamical-systems">Математика и динамические системы<span>6</span></a>
     <a href="#accelerator-optics">Ускорители и магнитная оптика<span>4</span></a>
     <a href="#visual-stories">Визуальные сюжеты<span>3</span></a>
   </nav>
-  <p class="anim-total">86 сюжетов · 172 ролика</p>
+  <p class="anim-total">87 сюжетов · 174 ролика</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">36 сюжетов · 69 роликов</span>
+      <span class="course-tile-status is-ready">37 сюжетов · 71 ролик</span>
       <h2>Нейтрино и частицы</h2>
       <p>Осцилляции нейтрино, каскады, ядерные процессы и диаграммы взаимодействий.</p>
     </div>
@@ -154,6 +154,12 @@ toc: false
         <h3 class="anim-title">Излучение Вавилова — Черенкова</h3>
         <p class="anim-text">Четыре волновых фронта, два отдельных опыта с постоянной скоростью и паузы для объяснения. Медленная частица остаётся внутри фронтов; быстрая обгоняет их. Общая касательная образует поверхность конуса, а свет идёт поперёк неё. Без графика и кольца на детекторе.</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="/media-neutrino/cherenkov-radiation/web-huygens-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens.jpg" title="MP4, 1.4 MB">RU</a><a class="anim-chip" href="/media-neutrino/cherenkov-radiation/web-huygens-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-radiation-huygens-en.jpg" title="MP4, 1.3 MB">EN</a></div>
+      </article>
+      <article class="anim-card" id="animation-neutrino-particles-cherenkov-dipoles">
+        <div class="anim-media"><a class="anim-poster" href="/media-neutrino-2/cherenkov-radiation/film-dipoles-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-dipoles-film.jpg" aria-label="Смотреть: Свет Вавилова — Черенкова: диполи среды"><img src="../assets/animations/dvnanima/neutrino-particles-cherenkov-dipoles-film.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Свет Вавилова — Черенкова: диполи среды</h3>
+        <p class="anim-text">Откуда берутся волны Гюйгенса. Электрон поляризует молекулы среды, и они на мгновение становятся диполями. У медленного электрона диполи впереди и позади симметричны, их поля гасят друг друга, света нет. Быстрый электрон обгоняет свои волны: среда впереди не поляризована, общий фронт касается всех волн, свет идёт поперёк фронта. Из прямоугольного треугольника cos θ = 1/(nβ), около 41° в воде. Схема по J. V. Jelley (1958), без амплитуд и спектров.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="/media-neutrino-2/cherenkov-radiation/film-dipoles-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-dipoles-film.jpg" title="MP4, 4.2 MB">RU</a><a class="anim-chip" href="/media-neutrino-2/cherenkov-radiation/film-dipoles-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-cherenkov-dipoles-film-en.jpg" title="MP4, 4.3 MB">EN</a></div>
       </article>
       <article class="anim-card" id="animation-neutrino-particles-scattering-experiment">
         <div class="anim-media"><a class="anim-poster" href="/media-neutrino/scattering-experiment/web-collider-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.jpg" aria-label="Смотреть: Эксперимент по рассеянию: e⁺e⁻ → μ⁺μ⁻"><img src="../assets/animations/dvnanima/neutrino-particles-scattering-experiment-collider.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
