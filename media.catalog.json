@@ -3894,6 +3894,48 @@
    }
   },
   {
+   "id": "track-and-cascade",
+   "variant": "short-en",
+   "version": 1,
+   "home": "media-neutrino-2",
+   "status": "prepared",
+   "sha256": "813a6d34dc639ebf38df15e25276325fd5710e5fc4ea3afb1e0b2a13faea5735",
+   "bytes": 11365272,
+   "duration_s": 40.5,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Трек и каскад в нейтринном телескопе",
+    "en": "Track and cascade in a neutrino telescope"
+   }
+  },
+  {
+   "id": "track-and-cascade",
+   "variant": "short-ru",
+   "version": 1,
+   "home": "media-neutrino-2",
+   "status": "prepared",
+   "sha256": "707d6413743fc53ca1f0290aaabfc96f15bd3c2de584666cc40d6e7a1e70d922",
+   "bytes": 11308646,
+   "duration_s": 40.5,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Трек и каскад в нейтринном телескопе",
+    "en": "Track and cascade in a neutrino telescope"
+   }
+  },
+  {
    "id": "atmospheric-neutrino-ratio",
    "variant": "book-loop-ru",
    "version": 1,
