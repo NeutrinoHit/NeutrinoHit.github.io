@@ -3697,6 +3697,27 @@
    }
   },
   {
+   "id": "amanda-bubbles",
+   "variant": "short-ru",
+   "version": 1,
+   "home": "media-neutrino-2",
+   "status": "prepared",
+   "sha256": "a4b9c473324aa079b1f2eeac8444c1b16496308b428772d155bbc45f224e59d7",
+   "bytes": 64303388,
+   "duration_s": 40.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": false,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "Свет во льду: AMANDA, 1993",
+    "en": "Light in the ice: AMANDA, 1993"
+   }
+  },
+  {
    "id": "cherenkov-radiation",
    "variant": "film-dipoles-en",
    "version": 1,
@@ -3747,7 +3768,7 @@
    "variant": "short-dipoles-en",
    "version": 1,
    "home": "media-neutrino-2",
-   "status": "prepared",
+   "status": "published",
    "sha256": "610f35f7e9b5e35633d8be6b47d301fcc7dd6b8bc4ad8375a5188cbe263de792",
    "bytes": 2881126,
    "duration_s": 57.0,
@@ -3768,7 +3789,7 @@
    "variant": "short-dipoles-ru",
    "version": 1,
    "home": "media-neutrino-2",
-   "status": "prepared",
+   "status": "published",
    "sha256": "ef8976deef679a809938f06d7ac2fd9ac15bbcc2cc9665ca7d196363a2c93bad",
    "bytes": 3020462,
    "duration_s": 57.0,
@@ -3782,6 +3803,48 @@
    "title": {
     "ru": "Свет Вавилова — Черенкова: диполи среды",
     "en": "Cherenkov light: dipoles of the medium"
+   }
+  },
+  {
+   "id": "icecube-first-pev",
+   "variant": "short-en",
+   "version": 1,
+   "home": "media-neutrino-2",
+   "status": "prepared",
+   "sha256": "c6eae041ea4cb731ec7b025eeb9823e506f2bd5668e745f7e9f83fd7ee561434",
+   "bytes": 20025408,
+   "duration_s": 60.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "IceCube: первые нейтрино с энергией ПэВ",
+    "en": "IceCube: the first PeV neutrinos"
+   }
+  },
+  {
+   "id": "icecube-first-pev",
+   "variant": "short-ru",
+   "version": 1,
+   "home": "media-neutrino-2",
+   "status": "prepared",
+   "sha256": "2b6c599023718b0e3b621729a1ee6f597ea5cc45ce8901cd9ea27398e40116d0",
+   "bytes": 20041944,
+   "duration_s": 60.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [],
+   "title": {
+    "ru": "IceCube: первые нейтрино с энергией ПэВ",
+    "en": "IceCube: the first PeV neutrinos"
    }
   },
   {
