@@ -15,9 +15,9 @@ toc: false
     <a href="#relativity-atom-spin">Относительность, атом и спин<span>9</span></a>
     <a href="#math-dynamical-systems">Математика и динамические системы<span>6</span></a>
     <a href="#accelerator-optics">Ускорители и магнитная оптика<span>4</span></a>
-    <a href="#visual-stories">Визуальные сюжеты<span>3</span></a>
+    <a href="#visual-stories">Визуальные сюжеты<span>4</span></a>
   </nav>
-  <p class="anim-total">87 сюжетов · 174 ролика</p>
+  <p class="anim-total">88 сюжетов · 176 роликов</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
       <span class="course-tile-status is-ready">37 сюжетов · 71 ролик</span>
@@ -545,7 +545,7 @@ toc: false
   </section>
   <section class="anim-section" id="visual-stories">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">3 сюжета · 4 ролика</span>
+      <span class="course-tile-status is-ready">4 сюжета · 6 роликов</span>
       <h2>Визуальные сюжеты</h2>
       <p>Короткие самостоятельные анимации и научно-популярные визуальные истории.</p>
     </div>
@@ -565,6 +565,12 @@ toc: false
         <div class="anim-media"><a class="anim-poster" href="/media-mechanics/galaxy-merger/web-merger-v1.mp4" data-play data-poster="../assets/animations/dvnanima/visual-stories-galaxy-merger-merger.jpg" aria-label="Смотреть: Слияние галактик"><img src="../assets/animations/dvnanima/visual-stories-galaxy-merger-merger.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
         <h3 class="anim-title">Слияние галактик</h3>
         <p class="anim-text">Столкновение двух дисковых галактик в ограниченной задаче N тел с динамическим трением: приливные мосты и хвосты, затем округлый остаток. Расчёт в духе работы Алара и Юри Тумре 1972 года.</p>
+      </article>
+      <article class="anim-card" id="animation-visual-stories-rainbow">
+        <div class="anim-media"><a class="anim-poster" href="/media-mechanics/rainbow/web-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/visual-stories-rainbow-film.jpg" aria-label="Смотреть: Как возникает радуга?"><img src="../assets/animations/dvnanima/visual-stories-rainbow-film.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">Как возникает радуга?</h3>
+        <p class="anim-text">Почему у радуги красный цвет сверху, а фиолетовый снизу, откуда вторая радуга с обратным порядком цветов и почему небо между ними темнее. Луч входит в каплю радиусом 1 мм, преломляется, отражается от задней стенки и выходит; у предельного угла Декарта лучи собираются: 42.5° для красного и 40.7° для фиолетового, 50.1° и 53.3° у вторичной радуги. Дальше полоса Александра, светлое небо внутри дуги, ось Солнце — глаз, высота Солнца, полный круг с самолёта, радуга из шланга и своя радуга у каждого. Показатель преломления воды по IAPWS, цвета по CIE 1931. Озвученный фильм, русская и английская версии.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="/media-mechanics/rainbow/web-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/visual-stories-rainbow-film.jpg" title="MP4, 48.4 MB">RU</a><a class="anim-chip" href="/media-mechanics/rainbow/web-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/visual-stories-rainbow-film-en.jpg" title="MP4, 57.1 MB">EN</a></div>
       </article>
     </div>
   </section>

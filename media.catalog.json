@@ -472,7 +472,7 @@
    "variant": "web-en",
    "version": 1,
    "home": "media-mechanics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "e93f7032bcf44d9471ca65f13cd35450f3f4e706f64f403a03969ec418ad2163",
    "bytes": 59833943,
    "duration_s": 588.6,
@@ -482,7 +482,9 @@
    "audio": true,
    "footer": true,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "assets/animations/dvnanima/visual-stories-rainbow-film-en.mp4"
+   ],
    "title": {
     "ru": "Как возникает радуга? (английская версия)",
     "en": "How does a rainbow form?"
@@ -493,7 +495,7 @@
    "variant": "web-ru",
    "version": 1,
    "home": "media-mechanics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "a176e09b320cb868d03e24c8bf7335f427d65021ad903cb444a1937f1f179ea6",
    "bytes": 50726088,
    "duration_s": 484.0,
@@ -503,7 +505,9 @@
    "audio": true,
    "footer": true,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "assets/animations/dvnanima/visual-stories-rainbow-film.mp4"
+   ],
    "title": {
     "ru": "Как возникает радуга?",
     "en": "How does a rainbow form? (Russian)"

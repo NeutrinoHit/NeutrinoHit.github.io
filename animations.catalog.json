@@ -2004,6 +2004,28 @@
               "poster_time": 12
             }
           ]
+        },
+        {
+          "id": "rainbow",
+          "title": "Как возникает радуга?",
+          "title_en": "How does a rainbow form?",
+          "source_dir": "rainbow",
+          "description": "Почему у радуги красный цвет сверху, а фиолетовый снизу, откуда вторая радуга с обратным порядком цветов и почему небо между ними темнее. Луч входит в каплю радиусом 1 мм, преломляется, отражается от задней стенки и выходит; у предельного угла Декарта лучи собираются: 42.5° для красного и 40.7° для фиолетового, 50.1° и 53.3° у вторичной радуги. Дальше полоса Александра, светлое небо внутри дуги, ось Солнце — глаз, высота Солнца, полный круг с самолёта, радуга из шланга и своя радуга у каждого. Показатель преломления воды по IAPWS, цвета по CIE 1931. Озвученный фильм, русская и английская версии.",
+          "description_en": "Why a rainbow has red on top and violet at the bottom, where the second rainbow with reversed colors comes from, and why the sky between them is darker. A ray enters a drop 1 mm in radius, refracts, reflects off the back wall and leaves; near Descartes' limiting angle the rays bunch up: 42.5° for red and 40.7° for violet, 50.1° and 53.3° for the secondary rainbow. Then Alexander's band, the bright sky inside the arc, the Sun–eye axis, the height of the Sun, the full circle from a plane, a rainbow from a garden hose and a rainbow of one's own. Refractive index of water from IAPWS, colors from CIE 1931. A narrated film, Russian and English versions.",
+          "videos": [
+            {
+              "id": "film",
+              "label": "Как возникает радуга? (русская версия)",
+              "path": "rainbow/media/rainbow_explain_v5_web.mp4",
+              "poster_time": 14
+            },
+            {
+              "id": "film-en",
+              "label": "How does a rainbow form? (English version)",
+              "path": "rainbow/media/rainbow_explain_v5_en_web.mp4",
+              "poster_time": 18
+            }
+          ]
         }
       ]
     }
