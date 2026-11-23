@@ -19,7 +19,7 @@ toc: false
     <tbody>
       <tr id="lecture-01"><td class="course-toc-num">01</td><td class="course-toc-topic"><a href="../../rte_lectures/ru/slides/01_definitions.html">Уравнение переноса</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../rte_lectures/ru/slides/01_definitions.html">слайды</a></td></tr>
       <tr id="lecture-02"><td class="course-toc-num">02</td><td class="course-toc-topic"><a href="../../rte_lectures/ru/slides/02_diffusion.html">Диффузионное приближение</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../rte_lectures/ru/slides/02_diffusion.html">слайды</a></td></tr>
-      <tr id="lecture-03"><td class="course-toc-num">03</td><td class="course-toc-topic"><a href="../../rte_lectures/ru/slides/03_detector_response.html">От светового поля к сигналу детектора</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../rte_lectures/ru/slides/03_detector_response.html">слайды</a></td></tr>
+      <tr id="lecture-03"><td class="course-toc-num">03</td><td class="course-toc-topic"><a href="../../rte_lectures/ru/slides/03_isotropic_exact.html">Изотропный источник: точное решение</a></td><td class="course-toc-col" data-label="Слайды"><a href="../../rte_lectures/ru/slides/03_isotropic_exact.html">слайды</a></td></tr>
     </tbody>
   </table>
   <h2 class="course-page-section">Ещё в этом разделе</h2>

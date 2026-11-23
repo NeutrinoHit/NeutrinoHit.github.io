@@ -805,7 +805,7 @@ courses:
   lectures:
   - {n: '01', title: Уравнение переноса, slides: /rte_lectures/ru/slides/01_definitions.html}
   - {n: '02', title: Диффузионное приближение, slides: /rte_lectures/ru/slides/02_diffusion.html}
-  - {n: '03', title: От светового поля к сигналу детектора, slides: /rte_lectures/ru/slides/03_detector_response.html}
+  - {n: '03', title: 'Изотропный источник: точное решение', slides: /rte_lectures/ru/slides/03_isotropic_exact.html}
   related: [gravity, numerical-methods]
 - slug: numerical-methods
   anchor: numerical-methods

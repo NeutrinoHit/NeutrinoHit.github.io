@@ -791,32 +791,6 @@ interactives:
           ru: В слайдах
           en: In the slides
         href: /rte_lectures/ru/slides/02_diffusion.html#/область-применимости-диффузии
-    - id: rte-detector-response
-      title:
-        ru: Отклик оптического модуля
-        en: Отклик оптического модуля
-      note:
-        ru: Отклик оптического модуля в зависимости от угла к источнику · «Распространение света в среде»
-        en: Отклик оптического модуля в зависимости от угла к источнику · Light Propagation in Media
-      links:
-      - kind: applet
-        label:
-          ru: В слайдах
-          en: In the slides
-        href: /rte_lectures/ru/slides/03_detector_response.html#/отклик-оптического-модуля
-    - id: rte-time-bins
-      title:
-        ru: Заряд и временные бины
-        en: Заряд и временные бины
-      note:
-        ru: Заряд и временные бины сигнала при выборе окна регистрации · «Распространение света в среде»
-        en: Заряд и временные бины сигнала при выборе окна регистрации · Light Propagation in Media
-      links:
-      - kind: applet
-        label:
-          ru: В слайдах
-          en: In the slides
-        href: /rte_lectures/ru/slides/03_detector_response.html#/заряд-и-временные-бины
     - id: talk-event-reconstruction
       title:
         ru: Reconstructing an event

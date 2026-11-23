@@ -13,7 +13,7 @@ toc: false
     <a href="#astro">The Sun, nuclei and the Universe<span>3</span></a>
     <a href="#mechanics">Mechanics and analogies<span>6</span></a>
     <a href="#fields">Particles and fields<span>11</span></a>
-    <a href="#light">Light, detectors and gravity<span>7</span></a>
+    <a href="#light">Light, detectors and gravity<span>5</span></a>
     <a href="#statistics">Statistics and fits<span>33</span></a>
   </nav>
   <div class="outreach-list">
@@ -108,8 +108,6 @@ toc: false
         <li class="outreach-entry" id="rte-diffusion-flash"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../rte_lectures/ru/slides/02_diffusion.html#/диффузия-мгновенная-вспышка">Диффузия: мгновенная вспышка</a><span class="outreach-entry-note">Диффузионный отклик на мгновенную вспышку в зависимости от времени · Light Propagation in Media</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-applet" href="../rte_lectures/ru/slides/02_diffusion.html#/диффузия-мгновенная-вспышка">In the slides</a></span></li>
         <li class="outreach-entry" id="rte-diffusion-stationary"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../rte_lectures/ru/slides/02_diffusion.html#/диффузия-постоянный-источник">Диффузия: постоянный источник</a><span class="outreach-entry-note">Стационарный профиль света от постоянного источника при разном поглощении · Light Propagation in Media</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-applet" href="../rte_lectures/ru/slides/02_diffusion.html#/диффузия-постоянный-источник">In the slides</a></span></li>
         <li class="outreach-entry" id="rte-diffusion-front"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../rte_lectures/ru/slides/02_diffusion.html#/область-применимости-диффузии">Область применимости диффузии</a><span class="outreach-entry-note">Причинный фронт против диффузионного хвоста при выбранном времени · Light Propagation in Media</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-applet" href="../rte_lectures/ru/slides/02_diffusion.html#/область-применимости-диффузии">In the slides</a></span></li>
-        <li class="outreach-entry" id="rte-detector-response"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../rte_lectures/ru/slides/03_detector_response.html#/отклик-оптического-модуля">Отклик оптического модуля</a><span class="outreach-entry-note">Отклик оптического модуля в зависимости от угла к источнику · Light Propagation in Media</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-applet" href="../rte_lectures/ru/slides/03_detector_response.html#/отклик-оптического-модуля">In the slides</a></span></li>
-        <li class="outreach-entry" id="rte-time-bins"><span class="outreach-entry-main"><a class="outreach-entry-title" href="../rte_lectures/ru/slides/03_detector_response.html#/заряд-и-временные-бины">Заряд и временные бины</a><span class="outreach-entry-note">Заряд и временные бины сигнала при выборе окна регистрации · Light Propagation in Media</span></span><span class="outreach-formats" aria-label="Formats"><a class="outreach-format is-applet" href="../rte_lectures/ru/slides/03_detector_response.html#/заряд-и-временные-бины">In the slides</a></span></li>
       </ul>
     </div>
     <div class="outreach-group" id="statistics">
