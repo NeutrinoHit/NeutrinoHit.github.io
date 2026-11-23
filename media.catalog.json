@@ -2882,9 +2882,7 @@
    "audio": true,
    "footer": true,
    "faststart": true,
-   "replaces": [
-    "assets/animations/dvnanima/neutrino-particles-pmt-short-en.mp4"
-   ],
+   "replaces": [],
    "title": {
     "ru": "Увидеть один фотон",
     "en": "Seeing a single photon"
@@ -2905,9 +2903,7 @@
    "audio": true,
    "footer": true,
    "faststart": true,
-   "replaces": [
-    "assets/animations/dvnanima/neutrino-particles-pmt-short-ru.mp4"
-   ],
+   "replaces": [],
    "title": {
     "ru": "Увидеть один фотон",
     "en": "Seeing a single photon"
@@ -3937,6 +3933,52 @@
    "title": {
     "ru": "IceCube: первые нейтрино с энергией ПэВ",
     "en": "IceCube: the first PeV neutrinos"
+   }
+  },
+  {
+   "id": "pmt-juno",
+   "variant": "web-en",
+   "version": 2,
+   "home": "media-neutrino-2",
+   "status": "published",
+   "sha256": "a7800bc02aa6b5ad0214146d3d581c229f2ee52500b9e52a27f094d6a296b3bd",
+   "bytes": 37288670,
+   "duration_s": 120.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-pmt-short-en.mp4"
+   ],
+   "title": {
+    "ru": "Увидеть один фотон",
+    "en": "Seeing a single photon"
+   }
+  },
+  {
+   "id": "pmt-juno",
+   "variant": "web-ru",
+   "version": 2,
+   "home": "media-neutrino-2",
+   "status": "published",
+   "sha256": "660200f62373ed7a6a1dda9d8235d52fe4a0fc7b954ddcef879b870a4c6efd13",
+   "bytes": 37212358,
+   "duration_s": 120.0,
+   "width": 1080,
+   "height": 1920,
+   "video_codec": "h264",
+   "audio": true,
+   "footer": true,
+   "faststart": true,
+   "replaces": [
+    "assets/animations/dvnanima/neutrino-particles-pmt-short-ru.mp4"
+   ],
+   "title": {
+    "ru": "Увидеть один фотон",
+    "en": "Seeing a single photon"
    }
   },
   {

@@ -389,15 +389,15 @@
               "id": "short-ru",
               "label": "От фотона к току — русская версия",
               "label_en": "From photon to current",
-              "path": "pmt_juno/media/pmt_short_v4_ru_score_A.mp4",
-              "poster_time": 12.5,
+              "path": "pmt_juno/media/pmt_short_v5_ru_music.mp4",
+              "poster_time": 2.5,
               "copy_only": true
             },
             {
               "id": "short-en",
               "label": "From photon to current — English version",
-              "path": "pmt_juno/media/pmt_short_v4_en_score_A.mp4",
-              "poster_time": 12.5,
+              "path": "pmt_juno/media/pmt_short_v5_en_music.mp4",
+              "poster_time": 2.5,
               "copy_only": true
             }
           ]
