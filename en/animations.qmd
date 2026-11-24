@@ -15,9 +15,9 @@ toc: false
     <a href="#relativity-atom-spin">Relativity, the atom and spin<span>9</span></a>
     <a href="#math-dynamical-systems">Mathematics and dynamical systems<span>6</span></a>
     <a href="#accelerator-optics">Accelerators and magnetic optics<span>4</span></a>
-    <a href="#visual-stories">Visual stories<span>4</span></a>
+    <a href="#visual-stories">Visual stories<span>5</span></a>
   </nav>
-  <p class="anim-total">88 stories · 176 videos</p>
+  <p class="anim-total">89 stories · 178 videos</p>
   <section class="anim-section" id="neutrino-particles">
     <div class="anim-section-head">
       <span class="course-tile-status is-ready">37 stories · 71 videos</span>
@@ -545,7 +545,7 @@ toc: false
   </section>
   <section class="anim-section" id="visual-stories">
     <div class="anim-section-head">
-      <span class="course-tile-status is-ready">4 stories · 6 videos</span>
+      <span class="course-tile-status is-ready">5 stories · 8 videos</span>
       <h2>Visual stories</h2>
       <p>Short stand-alone animations and popular-science visual stories.</p>
     </div>
@@ -571,6 +571,12 @@ toc: false
         <h3 class="anim-title">How does a rainbow form?</h3>
         <p class="anim-text">Why a rainbow has red on top and violet at the bottom, where the second rainbow with reversed colors comes from, and why the sky between them is darker. A ray enters a drop 1 mm in radius, refracts, reflects off the back wall and leaves; near Descartes&#x27; limiting angle the rays bunch up: 42.5° for red and 40.7° for violet, 50.1° and 53.3° for the secondary rainbow. Then Alexander&#x27;s band, the bright sky inside the arc, the Sun–eye axis, the height of the Sun, the full circle from a plane, a rainbow from a garden hose and a rainbow of one&#x27;s own. Refractive index of water from IAPWS, colors from CIE 1931. A narrated film, Russian and English versions.</p>
         <div class="anim-chips"><a class="anim-chip is-current" href="/media-mechanics/rainbow/web-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/visual-stories-rainbow-film-en.jpg" title="MP4, 57.1 MB">EN</a><a class="anim-chip" href="/media-mechanics/rainbow/web-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/visual-stories-rainbow-film.jpg" title="MP4, 48.4 MB">RU</a></div>
+      </article>
+      <article class="anim-card" id="animation-visual-stories-lightning">
+        <div class="anim-media"><a class="anim-poster" href="/media-mechanics/lightning/web-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/visual-stories-lightning-film-en.jpg" aria-label="Play: The nature of lightning"><img src="../assets/animations/dvnanima/visual-stories-lightning-film-en.jpg" alt="" loading="lazy"><span class="anim-play" aria-hidden="true"></span></a></div>
+        <h3 class="anim-title">The nature of lightning</h3>
+        <p class="anim-text">Why lightning runs from the ground up, where a cloud gets its charge, why lightning is branched and why it strikes a tree. Collisions of snowflakes and graupel in the cloud, the charge of the ground beneath it, the electron avalanche, the stepped leader, the upward discharge from a tree, the return stroke and the thunder. All from a calculation: the front of the return stroke runs 5.5 km of the channel in 37 μs, and the thunder reaches a village 3 km away in about 8.7 s. A narrated film, Russian and English versions.</p>
+        <div class="anim-chips"><a class="anim-chip is-current" href="/media-mechanics/lightning/web-en-v1.mp4" data-play data-poster="../assets/animations/dvnanima/visual-stories-lightning-film-en.jpg" title="MP4, 76.9 MB">EN</a><a class="anim-chip" href="/media-mechanics/lightning/web-ru-v1.mp4" data-play data-poster="../assets/animations/dvnanima/visual-stories-lightning-film.jpg" title="MP4, 71.5 MB">RU</a></div>
       </article>
     </div>
   </section>

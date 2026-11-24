@@ -426,7 +426,7 @@
    "variant": "web-en",
    "version": 1,
    "home": "media-mechanics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "00e6c58720ebaec8eefc68e108df5665fc00f7bd37eea53668e13f5a569fa15d",
    "bytes": 80592096,
    "duration_s": 558.02,
@@ -436,7 +436,9 @@
    "audio": true,
    "footer": true,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "assets/animations/dvnanima/visual-stories-lightning-film-en.mp4"
+   ],
    "title": {
     "ru": "Природа молнии (на английском)",
     "en": "The nature of lightning"
@@ -447,7 +449,7 @@
    "variant": "web-ru",
    "version": 1,
    "home": "media-mechanics",
-   "status": "prepared",
+   "status": "published",
    "sha256": "161474a49398af653fc8512776f507a80f5b6463263bc4ef6338ead338a7026a",
    "bytes": 74948433,
    "duration_s": 499.41,
@@ -457,7 +459,9 @@
    "audio": true,
    "footer": true,
    "faststart": true,
-   "replaces": [],
+   "replaces": [
+    "assets/animations/dvnanima/visual-stories-lightning-film.mp4"
+   ],
    "title": {
     "ru": "Природа молнии",
     "en": "The nature of lightning (Russian)"

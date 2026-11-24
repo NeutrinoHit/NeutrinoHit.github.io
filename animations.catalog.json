@@ -2026,6 +2026,28 @@
               "poster_time": 18
             }
           ]
+        },
+        {
+          "id": "lightning",
+          "title": "Природа молнии",
+          "title_en": "The nature of lightning",
+          "source_dir": "lightning",
+          "description": "Почему молния бьёт снизу вверх, откуда у тучи заряд, почему молния ветвится и почему удар приходится в дерево. Столкновения снежинок и снежной крупы в туче, заряд земли под ней, электронная лавина, ступенчатый лидер, встречный разряд от дерева, обратный удар и гром. Всё по расчёту: фронт обратного удара проходит 5.5 км канала за 37 мкс, гром доходит до деревни в 3 км примерно за 8.7 с. Озвученный фильм, русская и английская версии.",
+          "description_en": "Why lightning runs from the ground up, where a cloud gets its charge, why lightning is branched and why it strikes a tree. Collisions of snowflakes and graupel in the cloud, the charge of the ground beneath it, the electron avalanche, the stepped leader, the upward discharge from a tree, the return stroke and the thunder. All from a calculation: the front of the return stroke runs 5.5 km of the channel in 37 μs, and the thunder reaches a village 3 km away in about 8.7 s. A narrated film, Russian and English versions.",
+          "videos": [
+            {
+              "id": "film",
+              "label": "Природа молнии (русская версия)",
+              "path": "lightning/media/nature_of_lightning_ru_v10_web.mp4",
+              "poster_time": 490
+            },
+            {
+              "id": "film-en",
+              "label": "The nature of lightning (English version)",
+              "path": "lightning/media/nature_of_lightning_en_v10_web.mp4",
+              "poster_time": 548.5
+            }
+          ]
         }
       ]
     }
